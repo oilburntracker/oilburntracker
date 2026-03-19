@@ -7,6 +7,7 @@ const FACILITY_MULTIPLIERS: Record<FacilityType | 'unknown', number> = {
   pipeline: 50.4,
   storage: 64.8,
   oil_field: 79.2,
+  gas_field: 72.0,
   port: 72.0,
   unknown: 60.0
 };
