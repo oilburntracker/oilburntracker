@@ -22,6 +22,11 @@ export interface ConflictEvent {
     url: string;
     label?: string;
   }[];
+  casualties?: {
+    killed?: number;
+    injured?: number;
+    source?: string;               // "Iran Health Ministry", "IDF", etc.
+  };
 }
 
 const CATEGORY_LABELS: Record<EventCategory, string> = {
@@ -55,10 +60,15 @@ export const conflictEvents: ConflictEvent[] = [
     title: 'Hamas attacks Israel — October 7 massacre',
     category: 'escalation',
     description: 'Hamas-led assault on southern Israel. 1,200+ killed, 250+ taken hostage. Music festival and kibbutzim targeted. Triggers Israeli ground invasion of Gaza.',
+    casualties: { killed: 1200, injured: 5431, source: 'Israeli Government' },
     lat: 31.3547,
     lng: 34.3088,
     zoom: 9,
-    sourceUrl: 'https://www.bbc.com/news/world-middle-east-67039975'
+    sourceUrl: 'https://www.bbc.com/news/world-middle-east-67039975',
+    mediaUrls: [
+      { type: 'news', url: 'https://www.aljazeera.com/news/2023/10/7/several-israelis-killed-in-gaza-rocket-attacks-israeli-medics', label: 'Al Jazeera: Live coverage' },
+      { type: 'news', url: 'https://www.nytimes.com/live/2023/10/07/world/israel-gaza-attack', label: 'NYT: Live updates' }
+    ]
   },
   {
     id: 'israel-gaza-invasion',
@@ -66,6 +76,7 @@ export const conflictEvents: ConflictEvent[] = [
     title: 'Israel launches ground invasion of Gaza',
     category: 'escalation',
     description: 'IDF begins ground operations in northern Gaza. Massive aerial bombardment campaign. Gaza infrastructure systematically destroyed over following months.',
+    casualties: { killed: 45000, injured: 100000, source: 'Gaza Health Ministry (cumulative through 2024)' },
     lat: 31.5,
     lng: 34.47,
     zoom: 10,
@@ -83,7 +94,11 @@ export const conflictEvents: ConflictEvent[] = [
     lat: 12.58,
     lng: 43.33,
     zoom: 7,
-    sourceUrl: 'https://www.reuters.com/world/middle-east/us-launches-strikes-against-houthi-targets-yemen-officials-say-2024-01-12/'
+    sourceUrl: 'https://www.reuters.com/world/middle-east/us-launches-strikes-against-houthi-targets-yemen-officials-say-2024-01-12/',
+    mediaUrls: [
+      { type: 'news', url: 'https://www.crisisgroup.org/visual-explainers/red-sea/', label: 'Crisis Group: Red Sea visual' },
+      { type: 'news', url: 'https://www.wilsoncenter.org/article/timeline-houthi-attacks', label: 'Wilson Center: Attack timeline' }
+    ]
   },
   {
     id: 'iran-israel-april-drones',
@@ -94,7 +109,11 @@ export const conflictEvents: ConflictEvent[] = [
     lat: 31.77,
     lng: 35.21,
     zoom: 7,
-    sourceUrl: 'https://www.nytimes.com/2024/04/13/world/middleeast/iran-attacks-israel.html'
+    sourceUrl: 'https://www.nytimes.com/2024/04/13/world/middleeast/iran-attacks-israel.html',
+    mediaUrls: [
+      { type: 'news', url: 'https://www.aljazeera.com/news/2024/4/14/iran-launches-drones-towards-israel-what-we-know-so-far', label: 'Al Jazeera: What we know' },
+      { type: 'news', url: 'https://www.bbc.com/news/world-middle-east-68808933', label: 'BBC: Iran attack explained' }
+    ]
   },
   {
     id: 'israel-strikes-isfahan',
@@ -116,7 +135,11 @@ export const conflictEvents: ConflictEvent[] = [
     lat: 33.89,
     lng: 35.5,
     zoom: 8,
-    sourceUrl: 'https://www.reuters.com/world/middle-east/hezbollah-members-wounded-when-pagers-exploded-lebanon-sources-2024-09-17/'
+    sourceUrl: 'https://www.reuters.com/world/middle-east/hezbollah-members-wounded-when-pagers-exploded-lebanon-sources-2024-09-17/',
+    mediaUrls: [
+      { type: 'news', url: 'https://www.nytimes.com/2024/09/17/world/middleeast/hezbollah-pager-explosions-lebanon.html', label: 'NYT: Pager attacks' },
+      { type: 'news', url: 'https://www.bbc.com/news/articles/c9wlxe47pz7o', label: 'BBC: How it happened' }
+    ]
   },
   {
     id: 'nasrallah-killed',
@@ -124,10 +147,15 @@ export const conflictEvents: ConflictEvent[] = [
     title: 'Israel kills Hezbollah leader Hassan Nasrallah',
     category: 'military_strike',
     description: 'Israeli airstrike on Hezbollah headquarters in Dahieh, Beirut kills Secretary-General Hassan Nasrallah. Massive escalation. Iran vows revenge.',
+    casualties: { killed: 33, injured: 195, source: 'Lebanese Health Ministry' },
     lat: 33.84,
     lng: 35.49,
     zoom: 12,
-    sourceUrl: 'https://www.aljazeera.com/news/2024/9/28/hezbollah-leader-hassan-nasrallah-killed-in-israeli-air-strike'
+    sourceUrl: 'https://www.aljazeera.com/news/2024/9/28/hezbollah-leader-hassan-nasrallah-killed-in-israeli-air-strike',
+    mediaUrls: [
+      { type: 'news', url: 'https://www.cnn.com/world/live-news/israel-lebanon-war-hezbollah-09-28-24/index.html', label: 'CNN: Live updates' },
+      { type: 'news', url: 'https://www.npr.org/2024/09/29/g-s1-25348/israel-hezbollah-lebanon-hassan-nasrallah-timeline', label: 'NPR: 12 days that transformed the conflict' }
+    ]
   },
   {
     id: 'iran-october-missiles',
@@ -138,7 +166,11 @@ export const conflictEvents: ConflictEvent[] = [
     lat: 31.77,
     lng: 35.21,
     zoom: 7,
-    sourceUrl: 'https://www.bbc.com/news/articles/c5y5z50ly28o'
+    sourceUrl: 'https://www.bbc.com/news/articles/c5y5z50ly28o',
+    mediaUrls: [
+      { type: 'news', url: 'https://www.cnn.com/world/live-news/israel-lebanon-war-hezbollah-10-1-24-intl-hnk', label: 'CNN: Live coverage' },
+      { type: 'news', url: 'https://www.aljazeera.com/news/2024/10/1/irans-missile-attack-against-israel-what-we-know-and-what-comes-next', label: 'Al Jazeera: What comes next' }
+    ]
   },
   {
     id: 'israel-strikes-iran-oct',
@@ -194,11 +226,17 @@ export const conflictEvents: ConflictEvent[] = [
     date: '2026-02-28',
     title: 'US and Israel launch strikes on Iranian nuclear facilities',
     category: 'military_strike',
-    description: 'Joint US-Israel operation strikes Natanz, Fordow, and Isfahan nuclear sites. Bunker busters used on underground centrifuge halls. Iran declares state of war.',
+    description: 'Joint US-Israel operation strikes Natanz, Fordow, and Isfahan nuclear sites. Bunker busters used on underground centrifuge halls. Supreme Leader Khamenei killed. Iran declares state of war.',
+    casualties: { killed: 312, injured: 1200, source: 'Iran Health Ministry (first 48hrs)' },
     lat: 33.72,
     lng: 51.73,
     zoom: 6,
-    sourceUrl: 'https://www.washingtonpost.com/national-security/2026/02/28/us-israel-iran-nuclear-strike/'
+    sourceUrl: 'https://www.washingtonpost.com/national-security/2026/02/28/us-israel-iran-nuclear-strike/',
+    mediaUrls: [
+      { type: 'news', url: 'https://www.aljazeera.com/news/2026/2/28/us-israel-bomb-iran-a-timeline-of-talks-and-threats-leading-up-to-attacks', label: 'Al Jazeera: Timeline of escalation' },
+      { type: 'news', url: 'https://www.pbs.org/newshour/world/live-updates-u-s-and-israel-attack-iran', label: 'PBS: Live updates' },
+      { type: 'news', url: 'https://www.npr.org/2026/02/28/g-s1-112026/why-is-the-u-s-attacking-iran', label: 'NPR: Why the US attacked' }
+    ]
   },
   {
     id: 'ras-tanura-strike',
@@ -218,6 +256,7 @@ export const conflictEvents: ConflictEvent[] = [
     title: 'Iran sets Bahrain\'s ONLY refinery ablaze',
     category: 'facility_damage',
     description: 'BAPCO Sitra refinery hit by Iranian strike. Force majeure declared. 32 injuries. Bahrain has zero refining capacity — entire country dependent on fuel imports.',
+    casualties: { killed: 0, injured: 32, source: 'Bahrain News Agency' },
     facilityId: 'bapco-sitra',
     lat: 26.15,
     lng: 50.6167,
@@ -234,7 +273,12 @@ export const conflictEvents: ConflictEvent[] = [
     lat: 29.2333,
     lng: 50.3167,
     zoom: 10,
-    sourceUrl: 'https://www.washingtonpost.com/politics/2026/03/13/trump-us-iran-war-kharg-island-oil/'
+    sourceUrl: 'https://www.washingtonpost.com/politics/2026/03/13/trump-us-iran-war-kharg-island-oil/',
+    mediaUrls: [
+      { type: 'news', url: 'https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-13-26', label: 'CNN: Day 14 live updates' },
+      { type: 'news', url: 'https://www.npr.org/2026/03/19/nx-s1-5750514/trump-iran-war-kharg-island-oil', label: 'NPR: Why Kharg matters' },
+      { type: 'news', url: 'https://www.aljazeera.com/news/2026/3/14/us-attacks-military-sites-on-irans-kharg-island-home-to-vast-oil-facility', label: 'Al Jazeera: Kharg raid' }
+    ]
   },
   {
     id: 'shah-fujairah-strikes',
@@ -305,6 +349,40 @@ export const conflictEvents: ConflictEvent[] = [
  */
 export function getEventsUpTo(date: string): ConflictEvent[] {
   return conflictEvents.filter((e) => e.date <= date);
+}
+
+/**
+ * Cumulative casualties up to a given date, broken down by region
+ */
+export function getCasualtiesUpTo(date: string) {
+  const events = getEventsUpTo(date);
+  let totalKilled = 0;
+  let totalInjured = 0;
+  const byRegion: Record<string, { killed: number; injured: number }> = {};
+
+  for (const event of events) {
+    if (!event.casualties) continue;
+    const k = event.casualties.killed || 0;
+    const inj = event.casualties.injured || 0;
+    totalKilled += k;
+    totalInjured += inj;
+
+    // Determine region from lat/lng
+    let region = 'Other';
+    if (event.lat) {
+      if (event.lat > 30 && event.lng && event.lng > 33 && event.lng < 36) region = 'Israel/Palestine';
+      else if (event.lat > 33 && event.lng && event.lng > 35 && event.lng < 37) region = 'Lebanon';
+      else if (event.lat > 25 && event.lat < 37 && event.lng && event.lng > 44 && event.lng < 65) region = 'Iran';
+      else if (event.lat > 24 && event.lat < 30 && event.lng && event.lng > 46 && event.lng < 57) region = 'Gulf States';
+      else if (event.lat > 10 && event.lat < 20 && event.lng && event.lng > 42 && event.lng < 46) region = 'Yemen/Red Sea';
+    }
+
+    if (!byRegion[region]) byRegion[region] = { killed: 0, injured: 0 };
+    byRegion[region].killed += k;
+    byRegion[region].injured += inj;
+  }
+
+  return { totalKilled, totalInjured, byRegion };
 }
 
 /**
