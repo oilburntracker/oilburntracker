@@ -9,7 +9,7 @@ import { useFireData } from '@/features/map/hooks/use-fire-data';
 import { useFireStore } from '@/stores/fire-store';
 import { curatedFires, getCurrentDisruptionLevel } from '@/features/fires/data/curated-fires';
 import { getCasualtiesUpTo, getVisibleFacilityIds } from '@/features/timeline/data/conflict-events';
-import { IconFlame, IconBuildingFactory, IconWorld, IconAlertTriangle, IconHeart, IconUsers, IconSkull, IconCloud } from '@tabler/icons-react';
+import { IconFlame, IconBuildingFactory, IconWorld, IconAlertTriangle, IconSkull, IconCloud } from '@tabler/icons-react';
 import { formatCO2, co2Equivalents } from '@/features/emissions/utils/emissions-model';
 import Link from 'next/link';
 
@@ -121,16 +121,6 @@ function CompactStats() {
         </div>
       </Link>
 
-      {/* Donate button */}
-      <a
-        href='https://buymeacoffee.com/oilburntracker'
-        target='_blank'
-        rel='noopener noreferrer'
-        className='flex items-center gap-1.5 rounded-full border bg-background/80 backdrop-blur-md px-3 py-1.5 shadow-lg text-xs text-muted-foreground hover:text-foreground transition-colors'
-      >
-        <IconHeart className='h-3.5 w-3.5 text-pink-500' />
-        <span>Support this project</span>
-      </a>
     </div>
   );
 }
