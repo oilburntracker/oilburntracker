@@ -4,11 +4,11 @@ import { useCallback } from 'react';
 import dynamic from 'next/dynamic';
 import MapControls from '@/features/map/components/map-controls';
 import FacilityDrawer from '@/features/fires/components/facility-drawer';
+import TimelineScrubber from '@/features/timeline/components/timeline-scrubber';
 import { useFireData } from '@/features/map/hooks/use-fire-data';
 import { useFireStore } from '@/stores/fire-store';
 import { curatedFires, getCurrentDisruptionLevel } from '@/features/fires/data/curated-fires';
-import { IconFlame, IconBuildingFactory, IconWorld, IconAlertTriangle } from '@tabler/icons-react';
-import { formatDistanceToNow } from 'date-fns';
+import { IconFlame, IconBuildingFactory, IconWorld, IconAlertTriangle, IconHeart } from '@tabler/icons-react';
 
 const FireMap = dynamic(() => import('@/features/map/components/fire-map'), {
   ssr: false,
@@ -30,7 +30,6 @@ const DISRUPTION_COLORS = {
 function CompactStats() {
   const fireData = useFireStore((s) => s.fireData);
   const loading = useFireStore((s) => s.loading);
-  const lastUpdated = useFireStore((s) => s.lastUpdated);
 
   const activeFires = fireData.features.length;
 
@@ -48,7 +47,6 @@ function CompactStats() {
         <div className='flex items-center gap-1.5 text-xs font-bold'>
           <IconAlertTriangle className='h-3.5 w-3.5' />
           <span>{disruption.label}</span>
-          <span className='text-muted-foreground font-normal'>({disruption.affectedPct.toFixed(1)}% global supply)</span>
         </div>
       </div>
 
@@ -64,11 +62,22 @@ function CompactStats() {
           <span className='font-semibold tabular-nums'>{loading ? '...' : activeFires} fires</span>
         </div>
         <span className='text-muted-foreground'>|</span>
-        <div className='flex items-center gap-1' title='Facilities being monitored'>
+        <div className='flex items-center gap-1' title='Total facilities tracked'>
           <IconWorld className='h-3.5 w-3.5 text-yellow-400' />
           <span className='font-semibold tabular-nums'>{curatedFires.length} tracked</span>
         </div>
       </div>
+
+      {/* Donate button */}
+      <a
+        href='https://buymeacoffee.com/oilburntracker'
+        target='_blank'
+        rel='noopener noreferrer'
+        className='flex items-center gap-1.5 rounded-full border bg-background/80 backdrop-blur-md px-3 py-1.5 shadow-lg text-xs text-muted-foreground hover:text-foreground transition-colors'
+      >
+        <IconHeart className='h-3.5 w-3.5 text-pink-500' />
+        <span>Support this project</span>
+      </a>
     </div>
   );
 }
@@ -87,11 +96,14 @@ export default function OverviewPage() {
       {/* Full-screen map */}
       <FireMap />
 
-      {/* Compact stats pill — top right */}
+      {/* Compact stats + donate — top right */}
       <CompactStats />
 
       {/* Layer controls — top left */}
       <MapControls onFlyTo={handleFlyTo} />
+
+      {/* Timeline scrubber — bottom */}
+      <TimelineScrubber onFlyTo={handleFlyTo} />
 
       {/* Facility detail bottom drawer */}
       <FacilityDrawer />
