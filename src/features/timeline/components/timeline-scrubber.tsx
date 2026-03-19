@@ -26,8 +26,7 @@ import {
   IconBolt,
   IconPlayerSkipForward,
   IconPlayerSkipBack,
-  IconUsers,
-  IconX
+  IconUsers
 } from '@tabler/icons-react';
 
 // ── Extract YouTube video ID from URL ──
@@ -106,9 +105,9 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
   const [isPlaying, setIsPlaying] = useState(false);
   const [expanded, setExpanded] = useState(false);
   const [activeEvent, setActiveEvent] = useState<ConflictEvent | null>(null);
-  const [detailOpen, setDetailOpen] = useState(false); // full media detail view
   const playRef = useRef<NodeJS.Timeout | null>(null);
   const eventListRef = useRef<HTMLDivElement>(null);
+  const feedRef = useRef<HTMLDivElement>(null);
   const setSelectedFacility = useFireStore((s) => s.setSelectedFacility);
   const setTimelineDate = useFireStore((s) => s.setTimelineDate);
 
@@ -154,7 +153,7 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
 
   // ── When landing on an event, fly to it and show card ──
   useEffect(() => {
-    setDetailOpen(false); // close media panel when day changes
+    if (feedRef.current) feedRef.current.scrollTop = 0;
     if (todayEvents.length > 0) {
       const latest = todayEvents[todayEvents.length - 1];
       setActiveEvent(latest);
@@ -230,219 +229,155 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
   return (
     <div className='absolute bottom-0 left-0 right-0 z-10'>
 
-      {/* ── News-style event card (shows on event days) ── */}
-      {activeEvent && !expanded && (
-        <div className='mx-3 mb-2 max-w-lg'>
-          <div className='rounded-lg border bg-background/95 backdrop-blur-md shadow-2xl overflow-hidden'>
-            {/* Breaking banner */}
-            <div className='px-3 py-1.5 flex items-center gap-2' style={{ backgroundColor: CATEGORY_COLORS[activeEvent.category] + '20', borderBottom: `2px solid ${CATEGORY_COLORS[activeEvent.category]}` }}>
-              <div className='h-2 w-2 rounded-full animate-pulse' style={{ backgroundColor: CATEGORY_COLORS[activeEvent.category] }} />
-              <span className='text-[10px] font-bold uppercase tracking-wider' style={{ color: CATEGORY_COLORS[activeEvent.category] }}>
-                {CATEGORY_LABELS[activeEvent.category]}
+      {/* ── Scrolling news feed — all events for current day ── */}
+      {todayEvents.length > 0 && !expanded && (
+        <div ref={feedRef} className='mx-3 mb-2 max-w-lg max-h-[55vh] overflow-y-auto rounded-lg border bg-background/95 backdrop-blur-md shadow-2xl'
+          onTouchStart={() => setIsPlaying(false)}
+          onClick={() => setIsPlaying(false)}
+        >
+          {/* Running death toll — sticky header */}
+          {(casualties.totalKilled > 0 || casualties.totalDisplaced > 0) && (
+            <div className='sticky top-0 z-10 px-3 py-1.5 bg-red-950/90 backdrop-blur-md flex flex-wrap items-center gap-x-3 gap-y-0.5 border-b border-red-500/30'>
+              <span className='flex items-center gap-1.5 text-sm font-black text-red-400'>
+                <IconUsers className='h-4 w-4' />
+                {casualties.totalKilled.toLocaleString()}+ killed
               </span>
-              <span className='text-[10px] text-muted-foreground ml-auto font-mono'>
-                {formatDate(activeEvent.date)}
-              </span>
+              {casualties.totalDisplaced > 0 && (
+                <span className='text-xs font-bold text-amber-400'>
+                  {(casualties.totalDisplaced / 1000000).toFixed(1)}M displaced
+                </span>
+              )}
+              {casualties.totalChildren > 0 && (
+                <span className='text-[10px] text-red-300'>
+                  {casualties.totalChildren.toLocaleString()}+ children
+                </span>
+              )}
+              <span className='text-[10px] text-red-400/50 ml-auto'>Day {stats.dayNumber}</span>
             </div>
+          )}
 
-            {/* Headline */}
-            <div className='px-3 py-2'>
-              <h3 className='text-sm font-bold leading-tight'>{activeEvent.title}</h3>
-              <p className='text-xs text-muted-foreground mt-1.5 leading-relaxed line-clamp-3'>
-                {activeEvent.description}
-              </p>
-
-              {/* Media + source links */}
-              <div className='flex flex-wrap gap-2 mt-2'>
-                {activeEvent.sourceUrl && (
-                  <a
-                    href={activeEvent.sourceUrl}
-                    target='_blank'
-                    rel='noopener noreferrer'
-                    className='inline-flex items-center gap-1 rounded-full bg-muted px-2.5 py-1 text-[10px] font-medium hover:bg-accent transition-colors'
-                    onClick={(e) => e.stopPropagation()}
-                  >
-                    <IconExternalLink className='h-3 w-3' />
-                    Source
-                  </a>
-                )}
-                {activeEvent.mediaUrls?.map((media, i) => {
-                  const Icon = MEDIA_ICONS[media.type] || IconExternalLink;
-                  return (
-                    <a
-                      key={i}
-                      href={media.url}
-                      target='_blank'
-                      rel='noopener noreferrer'
-                      className='inline-flex items-center gap-1 rounded-full bg-muted px-2.5 py-1 text-[10px] font-medium hover:bg-accent transition-colors'
-                      onClick={(e) => e.stopPropagation()}
-                    >
-                      <Icon className='h-3 w-3' />
-                      {media.label || media.type}
-                    </a>
-                  );
-                })}
+          {/* Each event as a full card in the feed */}
+          {todayEvents.map((event, eventIdx) => (
+            <div key={event.id} className={eventIdx > 0 ? 'border-t' : ''}>
+              {/* Category + date banner */}
+              <div className='px-3 py-1.5 flex items-center gap-2' style={{ backgroundColor: CATEGORY_COLORS[event.category] + '15', borderBottom: `2px solid ${CATEGORY_COLORS[event.category]}40` }}>
+                <div className='h-2 w-2 rounded-full animate-pulse' style={{ backgroundColor: CATEGORY_COLORS[event.category] }} />
+                <span className='text-[10px] font-bold uppercase tracking-wider' style={{ color: CATEGORY_COLORS[event.category] }}>
+                  {CATEGORY_LABELS[event.category]}
+                </span>
+                <span className='text-[10px] text-muted-foreground ml-auto font-mono'>
+                  {formatDate(event.date)}
+                </span>
               </div>
 
-              {/* Tap to expand media */}
-              {((activeEvent.mediaUrls?.length || 0) > 0 || activeEvent.sourceUrl) && (
-                <button
-                  onClick={() => { setIsPlaying(false); setDetailOpen(!detailOpen); }}
-                  className='text-[10px] text-primary mt-2 font-medium hover:underline'
-                >
-                  {detailOpen ? 'Hide' : 'Show'} full coverage & videos
-                </button>
-              )}
-            </div>
+              {/* Headline + description */}
+              <div className='px-3 py-2'>
+                <h3 className='text-sm font-bold leading-tight'>{event.title}</h3>
+                <p className='text-xs text-muted-foreground mt-1.5 leading-relaxed'>
+                  {event.description}
+                </p>
 
-            {/* ── Expanded media section (below headline, inside card) ── */}
-            {detailOpen && (
-              <div className='border-t max-h-[40vh] overflow-y-auto'>
-                {/* Event casualties detail */}
-                {activeEvent.casualties && (activeEvent.casualties.killed || activeEvent.casualties.displaced) && (
-                  <div className='px-3 py-2 bg-red-950/20 border-b border-red-500/20 space-y-0.5'>
-                    {activeEvent.casualties.killed && (
-                      <p className='text-xs font-bold text-red-400'>{activeEvent.casualties.killed.toLocaleString()}+ killed in this event</p>
-                    )}
-                    {activeEvent.casualties.displaced && (
-                      <p className='text-[11px] text-amber-400'>{activeEvent.casualties.displaced.toLocaleString()} displaced</p>
-                    )}
-                    {activeEvent.casualties.children && (
-                      <p className='text-[10px] text-red-300'>Including {activeEvent.casualties.children.toLocaleString()}+ children</p>
-                    )}
-                    {activeEvent.casualties.source && (
-                      <p className='text-[9px] text-muted-foreground'>Source: {activeEvent.casualties.source}</p>
+                {/* Casualties for this specific event */}
+                {event.casualties && (event.casualties.killed || event.casualties.displaced) && (
+                  <div className='mt-2 rounded-md bg-red-950/20 border border-red-500/20 px-2.5 py-1.5 space-y-0.5'>
+                    <div className='flex flex-wrap gap-x-3 gap-y-0.5'>
+                      {event.casualties.killed && (
+                        <span className='text-xs font-bold text-red-400'>{event.casualties.killed.toLocaleString()}+ killed</span>
+                      )}
+                      {event.casualties.injured && (
+                        <span className='text-[11px] text-orange-400'>{event.casualties.injured.toLocaleString()} injured</span>
+                      )}
+                      {event.casualties.displaced && (
+                        <span className='text-[11px] text-amber-400'>{event.casualties.displaced.toLocaleString()} displaced</span>
+                      )}
+                      {event.casualties.children && (
+                        <span className='text-[10px] text-red-300'>{event.casualties.children.toLocaleString()}+ children</span>
+                      )}
+                    </div>
+                    {event.casualties.source && (
+                      <p className='text-[9px] text-muted-foreground'>Source: {event.casualties.source}</p>
                     )}
                   </div>
                 )}
+              </div>
 
-                {/* YouTube embeds */}
-                {activeEvent.mediaUrls?.filter(m => m.type === 'youtube').map((media, i) => {
-                  const videoId = getYouTubeId(media.url);
-                  if (!videoId) return null;
-                  return (
-                    <div key={`yt-${i}`} className='px-3 py-2 border-b'>
-                      <p className='text-[10px] text-muted-foreground font-medium mb-1'>{media.label || 'Video Coverage'}</p>
-                      <div className='relative w-full aspect-video rounded-md overflow-hidden bg-black'>
-                        <iframe
-                          src={`https://www.youtube-nocookie.com/embed/${videoId}?rel=0`}
-                          title={media.label || 'Video'}
-                          allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-                          allowFullScreen
-                          className='absolute inset-0 w-full h-full'
-                        />
-                      </div>
+              {/* YouTube embeds — inline, no click needed */}
+              {event.mediaUrls?.filter(m => m.type === 'youtube').map((media, i) => {
+                const videoId = getYouTubeId(media.url);
+                if (!videoId) return null;
+                return (
+                  <div key={`yt-${i}`} className='px-3 pb-2'>
+                    <p className='text-[10px] text-muted-foreground font-medium mb-1'>{media.label || 'Video Coverage'}</p>
+                    <div className='relative w-full aspect-video rounded-md overflow-hidden bg-black'>
+                      <iframe
+                        src={`https://www.youtube-nocookie.com/embed/${videoId}?rel=0`}
+                        title={media.label || 'Video'}
+                        allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+                        allowFullScreen
+                        className='absolute inset-0 w-full h-full'
+                      />
                     </div>
-                  );
-                })}
+                  </div>
+                );
+              })}
 
-                {/* News source rows */}
-                <div className='px-3 py-2 space-y-1.5'>
-                  <p className='text-[10px] text-muted-foreground uppercase tracking-wider'>Sources & Coverage</p>
-                  {activeEvent.sourceUrl && (
+              {/* Source + news links — always visible */}
+              {(event.sourceUrl || (event.mediaUrls && event.mediaUrls.filter(m => m.type !== 'youtube').length > 0)) && (
+                <div className='px-3 pb-2 flex flex-wrap gap-1.5'>
+                  {event.sourceUrl && (
                     <a
-                      href={activeEvent.sourceUrl}
+                      href={event.sourceUrl}
                       target='_blank'
                       rel='noopener noreferrer'
-                      className='flex items-center gap-2 rounded-md bg-muted/50 px-2.5 py-1.5 hover:bg-accent transition-colors'
+                      className='inline-flex items-center gap-1 rounded-full bg-muted/60 px-2.5 py-1 text-[10px] font-medium hover:bg-accent transition-colors'
                     >
-                      <IconExternalLink className='h-3.5 w-3.5 text-blue-400 shrink-0' />
-                      <span className='text-[11px] truncate'>Primary Source</span>
-                      <span className='text-[9px] text-muted-foreground ml-auto shrink-0'>
-                        {(() => { try { return new URL(activeEvent.sourceUrl).hostname.replace('www.', ''); } catch { return 'link'; } })()}
-                      </span>
+                      <IconExternalLink className='h-3 w-3 text-blue-400' />
+                      {(() => { try { return new URL(event.sourceUrl).hostname.replace('www.', ''); } catch { return 'Source'; } })()}
                     </a>
                   )}
-                  {activeEvent.mediaUrls?.filter(m => m.type === 'news').map((media, i) => (
-                    <a
-                      key={`news-${i}`}
-                      href={media.url}
-                      target='_blank'
-                      rel='noopener noreferrer'
-                      className='flex items-center gap-2 rounded-md bg-muted/50 px-2.5 py-1.5 hover:bg-accent transition-colors'
-                    >
-                      <IconNews className='h-3.5 w-3.5 text-blue-400 shrink-0' />
-                      <span className='text-[11px] truncate'>{media.label || 'News'}</span>
-                      <span className='text-[9px] text-muted-foreground ml-auto shrink-0'>
-                        {(() => { try { return new URL(media.url).hostname.replace('www.', ''); } catch { return 'link'; } })()}
-                      </span>
-                    </a>
-                  ))}
-                  {activeEvent.mediaUrls?.filter(m => m.type === 'twitter').map((media, i) => (
-                    <a
-                      key={`tw-${i}`}
-                      href={media.url}
-                      target='_blank'
-                      rel='noopener noreferrer'
-                      className='flex items-center gap-2 rounded-md bg-muted/50 px-2.5 py-1.5 hover:bg-accent transition-colors'
-                    >
-                      <IconBrandTwitter className='h-3.5 w-3.5 text-sky-400 shrink-0' />
-                      <span className='text-[11px] truncate'>{media.label || 'Post'}</span>
-                    </a>
-                  ))}
+                  {event.mediaUrls?.filter(m => m.type !== 'youtube').map((media, i) => {
+                    const Icon = MEDIA_ICONS[media.type] || IconExternalLink;
+                    return (
+                      <a
+                        key={i}
+                        href={media.url}
+                        target='_blank'
+                        rel='noopener noreferrer'
+                        className='inline-flex items-center gap-1 rounded-full bg-muted/60 px-2.5 py-1 text-[10px] font-medium hover:bg-accent transition-colors'
+                      >
+                        <Icon className='h-3 w-3' />
+                        {media.label || (() => { try { return new URL(media.url).hostname.replace('www.', ''); } catch { return media.type; } })()}
+                      </a>
+                    );
+                  })}
                 </div>
-              </div>
-            )}
-
-            {/* Running death toll */}
-            {(casualties.totalKilled > 0 || casualties.totalDisplaced > 0) && (
-              <div className='px-3 py-2 border-t bg-red-950/20 flex flex-wrap items-center gap-x-4 gap-y-1'>
-                <span className='flex items-center gap-1.5 text-sm font-black text-red-400'>
-                  <IconUsers className='h-4 w-4' />
-                  {casualties.totalKilled.toLocaleString()}+ killed
-                </span>
-                {casualties.totalKilledAdjusted > casualties.totalKilled && (
-                  <span className='text-[10px] text-red-400/70'>
-                    (est. {casualties.totalKilledAdjusted.toLocaleString()}+)
-                  </span>
-                )}
-                {casualties.totalDisplaced > 0 && (
-                  <span className='flex items-center gap-1 text-xs font-bold text-amber-400'>
-                    <IconAlertTriangle className='h-3.5 w-3.5' />
-                    {(casualties.totalDisplaced / 1000000).toFixed(1)}M displaced
-                  </span>
-                )}
-                {casualties.totalChildren > 0 && (
-                  <span className='text-[10px] text-red-300'>
-                    incl. {casualties.totalChildren.toLocaleString()}+ children
-                  </span>
-                )}
-              </div>
-            )}
-            {/* Stats bar */}
-            <div className='px-3 py-1.5 border-t bg-muted/30 flex flex-wrap items-center gap-x-4 gap-y-1 text-[10px] text-muted-foreground'>
-              <span className='flex items-center gap-1'>
-                <IconBolt className='h-3 w-3 text-yellow-500' />
-                Day {stats.dayNumber}
-              </span>
-              {casualties.totalInjured > 0 && (
-                <span className='flex items-center gap-1 text-orange-400'>
-                  {casualties.totalInjured.toLocaleString()} injured
-                </span>
-              )}
-              <span className='flex items-center gap-1'>
-                <IconBuildingFactory className='h-3 w-3 text-red-400' />
-                {stats.facilitiesHit} facilities hit
-              </span>
-              {stats.pctGlobal > 0 && (
-                <span className='flex items-center gap-1 font-semibold text-foreground'>
-                  {stats.pctGlobal.toFixed(1)}% global supply
-                </span>
               )}
             </div>
-            {/* Regional breakdown */}
-            {Object.keys(casualties.byRegion).length > 0 && (
-              <div className='px-3 py-1 border-t bg-muted/20 flex flex-wrap gap-x-3 gap-y-0.5 text-[9px] text-muted-foreground'>
-                {Object.entries(casualties.byRegion)
-                  .sort((a, b) => b[1].killed - a[1].killed)
-                  .map(([region, data]) => (
-                    <span key={region}>
-                      {region}: <span className='text-foreground font-medium'>{data.killed.toLocaleString()}</span>
-                      {data.displaced > 0 && <span className='text-amber-400/80'> ({(data.displaced / 1000000).toFixed(1)}M disp.)</span>}
-                    </span>
-                  ))}
-              </div>
+          ))}
+
+          {/* Stats footer */}
+          <div className='sticky bottom-0 px-3 py-1.5 bg-background/90 backdrop-blur-md border-t flex flex-wrap items-center gap-x-3 gap-y-0.5 text-[10px] text-muted-foreground'>
+            <span className='flex items-center gap-1'>
+              <IconBolt className='h-3 w-3 text-yellow-500' />
+              Day {stats.dayNumber}
+            </span>
+            <span className='flex items-center gap-1'>
+              <IconBuildingFactory className='h-3 w-3 text-red-400' />
+              {stats.facilitiesHit} facilities hit
+            </span>
+            {stats.pctGlobal > 0 && (
+              <span className='font-semibold text-foreground'>
+                {stats.pctGlobal.toFixed(1)}% global supply
+              </span>
             )}
+            {Object.entries(casualties.byRegion)
+              .sort((a, b) => b[1].killed - a[1].killed)
+              .slice(0, 3)
+              .map(([region, data]) => (
+                <span key={region} className='text-[9px]'>
+                  {region}: {data.killed.toLocaleString()}
+                </span>
+              ))}
           </div>
         </div>
       )}
