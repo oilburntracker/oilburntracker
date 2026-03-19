@@ -67,7 +67,7 @@ export default function AboutPage() {
               OilBurnTracker is MIT licensed. Contributions welcome.
             </p>
             <p>
-              <a href='https://github.com/gabeflowers/oilburntracker' target='_blank' rel='noopener noreferrer' className='text-primary underline'>
+              <a href='https://github.com/oilburntracker/oilburntracker' target='_blank' rel='noopener noreferrer' className='text-primary underline'>
                 GitHub Repository
               </a>
             </p>

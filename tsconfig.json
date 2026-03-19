@@ -32,6 +32,6 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts"
   ],
-  "exclude": ["node_modules", "__CLEANUP__"],
+  "exclude": ["node_modules", "__CLEANUP__", "functions"],
   "moduleResolution": ["node_modules", ".next", "node"]
 }

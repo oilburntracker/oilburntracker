@@ -1,7 +1,11 @@
 import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  transpilePackages: ['geist']
+  output: 'export',
+  transpilePackages: ['geist'],
+  images: {
+    unoptimized: true
+  }
 };
 
 export default nextConfig;
