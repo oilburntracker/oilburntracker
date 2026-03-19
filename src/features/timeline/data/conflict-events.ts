@@ -342,15 +342,63 @@ export const conflictEvents: ConflictEvent[] = [
   },
 
   // ══════════════════════════════════════════════
-  // NOV-DEC 2023: HOSPITALS, CEASEFIRE, KHAN YOUNIS
+  // NOV 2023: JABALIA, HOSPITALS, CEASEFIRE
   // ══════════════════════════════════════════════
+  {
+    id: 'nov1-jabalia-second-bombing',
+    date: '2023-11-01',
+    title: 'Jabalia bombed for 2nd day — 30 buildings leveled in one quarter',
+    category: 'military_strike',
+    description: 'Israel bombs Jabalia refugee camp for the second consecutive day, leveling 30 residential buildings across an entire quarter. IDF claims it killed Hamas commander Ibrahim Biari. UN Human Rights Office warns the attacks could amount to war crimes given the scale of civilian casualties in one of the most densely populated areas on Earth.',
+    casualties: { killed: 195, injured: 777, source: 'Gaza MoH / OHCHR' },
+    lat: 31.5327,
+    lng: 34.4982,
+    zoom: 16,
+    sourceUrl: 'https://www.aljazeera.com/news/2023/11/1/israel-bombs-jabalia-refugee-camp-for-second-day-palestinian-officials-say'
+  },
+  {
+    id: 'nov3-ambulance-convoy',
+    date: '2023-11-03',
+    title: 'Airstrike hits ambulance convoy outside Al-Shifa Hospital',
+    category: 'military_strike',
+    description: 'Israeli airstrike hits ambulance convoy transporting critically wounded patients from Al-Shifa to Rafah crossing. Human Rights Watch calls it "apparently unlawful." Israel claims ambulance used by Hamas cell. 15 killed, 60 injured. Paramedics now targets.',
+    casualties: { killed: 15, injured: 60, source: 'Gaza MoH / HRW' },
+    lat: 31.5212,
+    lng: 34.4399,
+    zoom: 15,
+    sourceUrl: 'https://www.aljazeera.com/news/2023/11/3/several-killled-in-israeli-attack-on-ambulance-convoy-gaza-health-ministry'
+  },
+  {
+    id: 'nov5-gaza-split',
+    date: '2023-11-05',
+    title: 'IDF splits Gaza in two — encircles Gaza City',
+    category: 'escalation',
+    description: 'Israeli military completes encirclement of Gaza City, dividing the Strip into north and south. IDF spokesman: "Today, there is north Gaza and south Gaza." Third total communications blackout. Al-Maghazi refugee camp bombed the same day — 52 killed, mostly women and children.',
+    casualties: { killed: 52, source: 'Al-Aqsa Martyrs Hospital / CNN' },
+    lat: 31.4500,
+    lng: 34.4000,
+    zoom: 12,
+    sourceUrl: 'https://www.aljazeera.com/news/2023/11/5/israels-military-claims-it-has-cut-gaza-in-half-surrounded-gaza-city'
+  },
+  {
+    id: 'nov11-al-shifa-encircled',
+    date: '2023-11-11',
+    title: 'Al-Shifa encircled — premature babies dying without incubators',
+    category: 'humanitarian',
+    description: 'Israeli forces complete encirclement of Al-Shifa Hospital, trapping 1,500 patients, 1,500 medical workers, and 15,000 displaced people. Hospital loses all electricity. 37 premature babies left without incubators. 3 babies and 2 ICU patients die within hours. Snipers fire at anyone near windows. Newborns wrapped in foil, placed near hot water to survive.',
+    casualties: { killed: 37, source: 'WHO / Gaza MoH (patients who died during siege)' },
+    lat: 31.5212,
+    lng: 34.4399,
+    zoom: 16,
+    sourceUrl: 'https://www.aljazeera.com/news/2023/11/11/we-are-minutes-away-from-death-gazas-al-shifa-hospital-under-attack'
+  },
   {
     id: 'nov15-al-shifa',
     date: '2023-11-15',
-    title: 'IDF storms Al-Shifa Hospital — premature babies left to die',
+    title: 'IDF storms Al-Shifa Hospital — "command center" raid',
     category: 'military_strike',
-    description: 'IDF raids Gaza\'s largest hospital claiming Hamas command center beneath. 300+ patients, premature babies on failing ventilators, and medical staff trapped. WHO loses contact. 21+ patients die during siege. Nov 19: 31 premature babies evacuated — some already dead. Hospital rendered non-functional. Bodies of 2 hostages found nearby.',
-    casualties: { killed: 3000, source: 'Gaza MoH (incremental Nov 1-15)' },
+    description: 'IDF raids Gaza\'s largest hospital claiming Hamas command center beneath. 300+ patients trapped. WHO loses contact. 21+ patients die during siege. Nov 19: 31 premature babies evacuated — some already dead. Hospital rendered non-functional. Bodies of 2 hostages found nearby. IDF shows tunnel shaft and weapons — critics say evidence falls far short of "command center" claim.',
+    casualties: { killed: 2500, source: 'Gaza MoH (incremental Nov 1-15 remainder)' },
     lat: 31.5212,
     lng: 34.4399,
     zoom: 16,
@@ -361,12 +409,24 @@ export const conflictEvents: ConflictEvent[] = [
     ]
   },
   {
+    id: 'nov20-indonesian-hospital',
+    date: '2023-11-20',
+    title: 'Indonesian Hospital besieged — shelled for the 5th time',
+    category: 'military_strike',
+    description: 'IDF completely surrounds Indonesian Hospital in Beit Lahia. Shell strikes second floor, killing 12 patients. Main operating room destroyed. Tanks surround facility. Al-Awda Hospital struck next day — 3 doctors killed. Northern Gaza now has zero functioning hospitals.',
+    casualties: { killed: 16, source: 'Gaza MoH' },
+    lat: 31.5352,
+    lng: 34.5094,
+    zoom: 16,
+    sourceUrl: 'https://www.aljazeera.com/news/2023/11/20/israel-targets-gazas-indonesian-hospital-here-is-whats-to-know'
+  },
+  {
     id: 'nov24-ceasefire-hostages',
     date: '2023-11-24',
     title: 'First ceasefire — 105 hostages freed in 7-day deal',
     category: 'diplomatic',
     description: 'Qatar-brokered deal: 50 Israeli hostages for 150 Palestinian prisoners, extended to 7 days. 105 hostages released (81 Israeli, 23 Thai, 1 Filipino). 240 Palestinian prisoners freed. Emotional reunions — hostages describe dark tunnels, minimal food, psychological terror. Aid surges into Gaza. First sustained break since Oct 7. By now: 14,000+ Palestinians killed.',
-    casualties: { killed: 3000, source: 'Gaza MoH (incremental Nov 16-24)' },
+    casualties: { killed: 2700, source: 'Gaza MoH (incremental Nov 16-24)' },
     lat: 31.42,
     lng: 34.36,
     zoom: 10,
@@ -386,6 +446,10 @@ export const conflictEvents: ConflictEvent[] = [
     zoom: 10,
     sourceUrl: 'https://www.bbc.com/news/world-middle-east-67542435'
   },
+
+  // ══════════════════════════════════════════════
+  // DEC 2023: CEASEFIRE COLLAPSE, KHAN YOUNIS, ICJ
+  // ══════════════════════════════════════════════
   {
     id: 'dec1-ceasefire-collapses',
     date: '2023-12-01',
@@ -401,6 +465,98 @@ export const conflictEvents: ConflictEvent[] = [
       { type: 'military', from: [31.45, 34.40], to: [31.34, 34.31], label: 'IDF pushes into Khan Younis' },
       { type: 'displacement', from: [31.34, 34.31], to: [31.24, 34.24], label: '400K flee toward Rafah', volume: 400000 }
     ]
+  },
+  {
+    id: 'dec6-article-99',
+    date: '2023-12-06',
+    title: 'UN chief invokes Article 99 — only 6th time in history',
+    category: 'diplomatic',
+    description: 'Secretary-General Guterres invokes Article 99 of the UN Charter for the first time since 2017, formally bringing the crisis to the Security Council. Used only 6 times in UN history. Warns situation is "fast deteriorating into a catastrophe with potentially irreversible implications." Two days later, the US vetoes a ceasefire resolution backed by 97 nations.',
+    lat: 40.7489,
+    lng: -73.9680,
+    zoom: 5,
+    sourceUrl: 'https://news.un.org/en/story/2023/12/1144447'
+  },
+  {
+    id: 'dec7-refaat-alareer',
+    date: '2023-12-07',
+    title: 'Poet Refaat Alareer killed — "If I Must Die" goes viral',
+    category: 'military_strike',
+    description: 'Palestinian poet and professor Refaat Alareer (44) killed in airstrike in Shejaiya with his brother, sister, and four nephews. Euro-Med Monitor says he was deliberately targeted — "surgically bombed out of the entire building" after weeks of death threats. His poem "If I Must Die" will be translated into 250+ languages and read at protests worldwide.',
+    casualties: { killed: 7, source: 'Euro-Med Monitor' },
+    lat: 31.5100,
+    lng: 34.4600,
+    zoom: 15,
+    sourceUrl: 'https://www.aljazeera.com/news/2023/12/8/palestinian-people-mourn-the-death-of-refaat-alareer'
+  },
+  {
+    id: 'dec8-mosque-detention',
+    date: '2023-12-08',
+    title: '7th-century Great Omari Mosque destroyed — mass detention photos',
+    category: 'military_strike',
+    description: 'Gaza\'s 7th-century Great Omari Mosque reduced to rubble — only its minaret remains. Same day, photos emerge of Palestinian men detained in Beit Lahia: stripped to underwear, hands tied, blindfolded in rows. Senior IDF officers later admit to Haaretz that "85-90%" of detainees were not Hamas.',
+    lat: 31.5030,
+    lng: 34.4560,
+    zoom: 16,
+    sourceUrl: 'https://www.cnn.com/2023/12/07/middleeast/gaza-israeli-soldiers-detained-men-intl/index.html'
+  },
+  {
+    id: 'dec12-un-ga-ceasefire',
+    date: '2023-12-12',
+    title: 'UN General Assembly votes 153-10 demanding ceasefire',
+    category: 'diplomatic',
+    description: 'UN General Assembly demands immediate humanitarian ceasefire — 153 nations in favor, only 10 against (US, Israel, and 8 others). Non-binding but politically devastating. Same day: Kamal Adwan Hospital raided, director and 70+ staff arrested. IDF begins flooding Hamas tunnels with seawater.',
+    lat: 40.7489,
+    lng: -73.9680,
+    zoom: 5,
+    sourceUrl: 'https://www.npr.org/2023/12/12/1218927939/un-general-assembly-gaza-israel-resolution-cease-fire-us'
+  },
+  {
+    id: 'dec15-hostages-white-flag',
+    date: '2023-12-15',
+    title: 'IDF kills 3 Israeli hostages waving white flag',
+    category: 'humanitarian',
+    description: 'Three Israeli hostages — Yotam Haim (28), Alon Shamriz (26), Samer Talalka (24) — shot dead by IDF in Shejaiya despite being shirtless, unarmed, waving a white flag. Sniper kills two; third shot 15 minutes later against battalion commander\'s direct order to hold fire. IDF chief admits it violated rules of engagement. Same day: Al Jazeera cameraman Samer Abudaqa killed — left to bleed out for hours as IDF blocks paramedics.',
+    casualties: { killed: 4, source: 'IDF / Al Jazeera (3 hostages + 1 journalist)' },
+    lat: 31.5150,
+    lng: 34.4650,
+    zoom: 15,
+    sourceUrl: 'https://www.npr.org/2023/12/15/1219695220/israel-soldiers-mistakenly-kill-hostages-gaza'
+  },
+  {
+    id: 'dec21-famine-warning',
+    date: '2023-12-21',
+    title: '93% of Gaza population facing hunger crisis — famine imminent',
+    category: 'humanitarian',
+    description: 'Report by 23 UN and NGOs: entire Gaza population in food crisis. 576,600 at starvation level. 93% (2.08M people) at crisis-level hunger or worse. WHO: 2.2 million "at imminent risk of famine." Aid entering is 10% of what\'s needed. Children beginning to die of malnutrition. The siege is working.',
+    lat: 31.42,
+    lng: 34.36,
+    zoom: 10,
+    sourceUrl: 'https://www.aljazeera.com/news/2023/12/21/entire-gaza-population-facing-hunger-crisis-famine-risk-un-backed-report'
+  },
+  {
+    id: 'dec24-christmas-massacre',
+    date: '2023-12-24',
+    title: 'Christmas Eve massacre — 250 killed across Gaza in 24 hours',
+    category: 'military_strike',
+    description: 'Israeli warplanes strike three houses in al-Maghazi refugee camp: 106 killed. Gaza MoH: "massacre on a crowded residential square." 250+ Palestinians killed across Gaza in 24 hours — additional mass casualties in Khan Younis, Bureij, Nuseirat. MSF: 209 injured and 131 dead at Al-Aqsa Hospital from Christmas Eve strikes alone.',
+    casualties: { killed: 250, injured: 209, source: 'AP / MSF / Gaza MoH' },
+    lat: 31.4223,
+    lng: 34.3850,
+    zoom: 15,
+    sourceUrl: 'https://www.aljazeera.com/news/2023/12/25/israel-intensifies-gaza-strikes-killing-250-palestinians-in-24-hours'
+  },
+  {
+    id: 'dec29-south-africa-icj',
+    date: '2023-12-29',
+    title: 'South Africa files genocide case at the ICJ',
+    category: 'diplomatic',
+    description: 'South Africa files application at International Court of Justice accusing Israel of violating the Genocide Convention. Cites killing, serious harm, and "conditions calculated to bring about physical destruction." Hearings set for Jan 11-12. The most consequential international legal action of the conflict. By Dec 31: 21,600+ Palestinians killed, 1.9M displaced, 65,000 homes destroyed.',
+    casualties: { killed: 1500, source: 'Gaza MoH (incremental Dec 8-31)' },
+    lat: 52.0862,
+    lng: 4.3138,
+    zoom: 8,
+    sourceUrl: 'https://www.icj-cij.org/case/192'
   },
 
   {
