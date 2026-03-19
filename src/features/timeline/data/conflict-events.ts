@@ -187,8 +187,20 @@ export const conflictEvents: ConflictEvent[] = [
   },
 
   // ══════════════════════════════════════════════
-  // OCT 8-27: SIEGE, BOMBARDMENT, BUILDUP TO INVASION
+  // OCT 7-27: IMMEDIATE AFTERMATH — BOTH SIDES
   // ══════════════════════════════════════════════
+  {
+    id: 'oct7-gaza-airstrikes-begin',
+    date: '2023-10-07',
+    title: 'Israel retaliates — 2.3 million trapped as bombs begin falling',
+    category: 'military_strike',
+    description: 'Within hours of the Hamas attack, Israeli airstrikes begin hitting Gaza. By midnight, 230+ Palestinians killed including 37 children. Dense residential blocks hit. No bomb shelters in Gaza — no iron dome, no warning sirens, no safe rooms. 2.3 million people, 1 million of them children, sealed in a 25-mile strip with no way out. All border crossings closed.',
+    casualties: { killed: 230, injured: 1600, source: 'Gaza MoH (Oct 7 alone)', children: 37 },
+    lat: 31.42,
+    lng: 34.36,
+    zoom: 10,
+    sourceUrl: 'https://www.ochaopt.org/content/hostilities-in-the-gaza-strip-and-israel-flash-update-1'
+  },
   {
     id: 'oct8-hezbollah-front',
     date: '2023-10-08',
@@ -199,6 +211,17 @@ export const conflictEvents: ConflictEvent[] = [
     lng: 35.70,
     zoom: 10,
     sourceUrl: 'https://en.wikipedia.org/wiki/October_2023_Israel%E2%80%93Hezbollah_fire_exchanges'
+  },
+  {
+    id: 'oct8-hostage-crisis',
+    date: '2023-10-08',
+    title: 'Israel in shock — 254 hostages in Gaza tunnels, families beg for news',
+    category: 'humanitarian',
+    description: '254 people dragged into Gaza — babies as young as 9 months, Holocaust survivors in their 80s, entire families. Held underground in Hamas tunnels. No contact with families. Israeli society in collective trauma: 1,139 dead, thousands wounded, an entire generation of border communities wiped out. Parents waiting by phones that never ring.',
+    lat: 31.77,
+    lng: 35.21,
+    zoom: 8,
+    sourceUrl: 'https://www.bbc.com/news/world-middle-east-67053011'
   },
   {
     id: 'oct9-total-siege',
@@ -214,6 +237,29 @@ export const conflictEvents: ConflictEvent[] = [
     mediaUrls: [
       { type: 'news', url: 'https://www.pbs.org/newshour/world/israeli-defense-minister-orders-complete-siege-on-gaza-after-hamas-surprise-attack', label: 'PBS: No power, food or fuel' }
     ]
+  },
+  {
+    id: 'oct10-jabalia-camp',
+    date: '2023-10-10',
+    title: 'Jabalia refugee camp hit — 6,000 bombs in 6 days',
+    category: 'military_strike',
+    description: 'Israel drops 6,000 bombs on Gaza in the first 6 days — more than the US dropped on Afghanistan in an entire year. Jabalia, one of the most densely populated places on Earth, hit repeatedly. Entire city blocks flattened. Families pulled from rubble. By Oct 10: 900+ Palestinians killed including 260+ children. No way out, nowhere to hide.',
+    casualties: { killed: 200, injured: 600, source: 'Gaza MoH (incremental Oct 10)', children: 60 },
+    lat: 31.53,
+    lng: 34.50,
+    zoom: 13,
+    sourceUrl: 'https://www.bbc.com/news/world-middle-east-67062080'
+  },
+  {
+    id: 'oct12-sexual-violence-evidence',
+    date: '2023-10-12',
+    title: 'Evidence of systematic sexual violence emerges from Oct 7 sites',
+    category: 'humanitarian',
+    description: 'ZAKA volunteers and forensic teams processing Oct 7 sites find evidence of widespread sexual violence. Bodies of women found with signs of assault. UN will later confirm "reasonable grounds" that sexual violence occurred at multiple sites including the Nova festival. First responders describe scenes they cannot unsee.',
+    lat: 31.40,
+    lng: 34.45,
+    zoom: 11,
+    sourceUrl: 'https://www.un.org/sexualviolenceinconflict/press-release/mission-report-of-the-office-of-the-srsg-svc-to-israel-and-the-occupied-west-bank/'
   },
   {
     id: 'oct13-evacuation-order',
@@ -244,6 +290,18 @@ export const conflictEvents: ConflictEvent[] = [
     mediaUrls: [
       { type: 'news', url: 'https://www.aljazeera.com/news/2023/10/18/what-do-we-know-about-the-strike-on-the-hospital-in-gaza', label: 'Al Jazeera: What we know' }
     ]
+  },
+  {
+    id: 'oct15-hind-rajab',
+    date: '2023-10-15',
+    title: 'Children trapped in cars, under rubble — rescue impossible',
+    category: 'humanitarian',
+    description: 'Across Gaza, children are dying under rubble with no rescue equipment. Hospitals overwhelmed — operating without anesthesia. Doctors amputating limbs of children with no painkillers. Parents writing children\'s names on their legs so bodies can be identified. 724 children killed in the first 8 days.',
+    casualties: { killed: 300, source: 'Gaza MoH (incremental Oct 14-15)', children: 150 },
+    lat: 31.42,
+    lng: 34.36,
+    zoom: 10,
+    sourceUrl: 'https://www.unicef.org/press-releases/hundreds-children-being-killed-and-injured-every-day-gaza-say-united-nations'
   },
   {
     id: 'oct21-rafah-aid',
@@ -310,6 +368,17 @@ export const conflictEvents: ConflictEvent[] = [
     ]
   },
   {
+    id: 'nov-hostage-testimonies',
+    date: '2023-11-28',
+    title: 'Freed hostages describe captivity — darkness, terror, starvation',
+    category: 'humanitarian',
+    description: 'Released hostages describe conditions: held underground in tunnels with no light for weeks. Minimal food — one pita bread shared between 10 people. Children separated from parents. Elderly denied medication. Psychological torture. Some moved repeatedly under bombardment. A 9-month-old baby held for 50 days. The trauma will last lifetimes.',
+    lat: 31.35,
+    lng: 34.35,
+    zoom: 10,
+    sourceUrl: 'https://www.bbc.com/news/world-middle-east-67542435'
+  },
+  {
     id: 'dec1-ceasefire-collapses',
     date: '2023-12-01',
     title: 'Ceasefire collapses — 200 airstrikes resume, Khan Younis invaded',
@@ -324,6 +393,19 @@ export const conflictEvents: ConflictEvent[] = [
       { type: 'military', from: [31.45, 34.40], to: [31.34, 34.31], label: 'IDF pushes into Khan Younis' },
       { type: 'displacement', from: [31.34, 34.31], to: [31.24, 34.24], label: '400K flee toward Rafah', volume: 400000 }
     ]
+  },
+
+  {
+    id: 'jan29-hind-rajab',
+    date: '2024-01-29',
+    title: 'Hind Rajab, age 6 — calls for help for hours before being killed',
+    category: 'humanitarian',
+    description: '6-year-old Hind Rajab calls Palestinian Red Crescent from a car surrounded by dead relatives. She whispers in terror for 3 hours. "I\'m scared. Come take me." An ambulance is dispatched — both paramedics are killed. 12 days later her body is found in the car, riddled with bullets. She becomes a symbol of the war. The ambulance found destroyed nearby.',
+    casualties: { killed: 2, source: 'PRCS (2 paramedics killed en route)' },
+    lat: 31.50,
+    lng: 34.44,
+    zoom: 14,
+    sourceUrl: 'https://www.bbc.com/news/world-middle-east-68210583'
   },
 
   // ══════════════════════════════════════════════
