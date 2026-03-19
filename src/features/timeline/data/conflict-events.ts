@@ -66,7 +66,8 @@ export const conflictEvents: ConflictEvent[] = [
     zoom: 9,
     sourceUrl: 'https://www.bbc.com/news/world-middle-east-67039975',
     mediaUrls: [
-      { type: 'news', url: 'https://www.aljazeera.com/news/2023/10/7/several-israelis-killed-in-gaza-rocket-attacks-israeli-medics', label: 'Al Jazeera: Live coverage' },
+      { type: 'news', url: 'https://www.aljazeera.com/news/2023/10/7/what-happened-in-israel-a-breakdown-of-how-the-hamas-attack-unfolded', label: 'Al Jazeera: How the attack unfolded' },
+      { type: 'news', url: 'https://www.cnn.com/2023/11/15/middleeast/bodycam-video-hamas-massacre-tunnels-intl/index.html', label: 'CNN: Bodycam footage' },
       { type: 'news', url: 'https://www.nytimes.com/live/2023/10/07/world/israel-gaza-attack', label: 'NYT: Live updates' }
     ]
   },
@@ -80,7 +81,10 @@ export const conflictEvents: ConflictEvent[] = [
     lat: 31.5,
     lng: 34.47,
     zoom: 10,
-    sourceUrl: 'https://www.aljazeera.com/news/2023/10/28/israel-announces-expansion-of-ground-operations-in-gaza'
+    sourceUrl: 'https://www.aljazeera.com/news/2023/10/28/israel-announces-expansion-of-ground-operations-in-gaza',
+    mediaUrls: [
+      { type: 'news', url: 'https://www.bbc.com/news/world-middle-east-67271634', label: 'BBC: Ground invasion begins' }
+    ]
   },
 
   // ── 2024: Regional Escalation ──
@@ -96,6 +100,8 @@ export const conflictEvents: ConflictEvent[] = [
     zoom: 7,
     sourceUrl: 'https://www.reuters.com/world/middle-east/us-launches-strikes-against-houthi-targets-yemen-officials-say-2024-01-12/',
     mediaUrls: [
+      { type: 'news', url: 'https://www.aljazeera.com/economy/2024/10/5/a-year-after-october-7-houthi-red-sea-attacks-still-torment-global-trade', label: 'Al Jazeera: Red Sea attacks torment trade' },
+      { type: 'news', url: 'https://www.cnn.com/2024/03/06/politics/crew-members-killed-houthi-attack/index.html', label: 'CNN: First fatal Houthi attack' },
       { type: 'news', url: 'https://www.crisisgroup.org/visual-explainers/red-sea/', label: 'Crisis Group: Red Sea visual' },
       { type: 'news', url: 'https://www.wilsoncenter.org/article/timeline-houthi-attacks', label: 'Wilson Center: Attack timeline' }
     ]
@@ -111,7 +117,9 @@ export const conflictEvents: ConflictEvent[] = [
     zoom: 7,
     sourceUrl: 'https://www.nytimes.com/2024/04/13/world/middleeast/iran-attacks-israel.html',
     mediaUrls: [
-      { type: 'news', url: 'https://www.aljazeera.com/news/2024/4/14/iran-launches-drones-towards-israel-what-we-know-so-far', label: 'Al Jazeera: What we know' },
+      { type: 'news', url: 'https://www.aljazeera.com/news/2024/4/14/iran-attacks-israel-with-over-300-drones-missiles-what-you-need-to-know', label: 'Al Jazeera: 300+ drones explainer' },
+      { type: 'news', url: 'https://www.cnn.com/2024/04/13/middleeast/iran-drones-attack-israel-intl-latam', label: 'CNN: Iran launches strikes' },
+      { type: 'news', url: 'https://www.washingtonpost.com/world/2024/04/13/iran-israel-hamas-war-news-gaza-palestine/', label: 'Washington Post: 300+ drones and missiles' },
       { type: 'news', url: 'https://www.bbc.com/news/world-middle-east-68808933', label: 'BBC: Iran attack explained' }
     ]
   },
@@ -124,7 +132,10 @@ export const conflictEvents: ConflictEvent[] = [
     lat: 32.65,
     lng: 51.68,
     zoom: 8,
-    sourceUrl: 'https://www.bbc.com/news/world-middle-east-68852804'
+    sourceUrl: 'https://www.bbc.com/news/world-middle-east-68852804',
+    mediaUrls: [
+      { type: 'news', url: 'https://www.bbc.com/news/world-middle-east-68852804', label: 'BBC: Israel strikes near Isfahan' }
+    ]
   },
   {
     id: 'hezbollah-escalation',
@@ -137,7 +148,9 @@ export const conflictEvents: ConflictEvent[] = [
     zoom: 8,
     sourceUrl: 'https://www.reuters.com/world/middle-east/hezbollah-members-wounded-when-pagers-exploded-lebanon-sources-2024-09-17/',
     mediaUrls: [
-      { type: 'news', url: 'https://www.nytimes.com/2024/09/17/world/middleeast/hezbollah-pager-explosions-lebanon.html', label: 'NYT: Pager attacks' },
+      { type: 'news', url: 'https://www.cnn.com/2024/09/17/middleeast/lebanon-hezbollah-pagers-explosions-intl/index.html', label: 'CNN: Israel behind pager explosions' },
+      { type: 'news', url: 'https://www.washingtonpost.com/national-security/2024/09/17/lebanon-pagers-exploding-hezbollah/', label: 'Washington Post: Pagers explode' },
+      { type: 'news', url: 'https://www.npr.org/2024/09/17/g-s1-23452/hezbollah-pagers-explode-across-lebanon-causing-nearly-3-000-casualties', label: 'NPR: Nearly 3,000 casualties' },
       { type: 'news', url: 'https://www.bbc.com/news/articles/c9wlxe47pz7o', label: 'BBC: How it happened' }
     ]
   },
@@ -153,7 +166,8 @@ export const conflictEvents: ConflictEvent[] = [
     zoom: 12,
     sourceUrl: 'https://www.aljazeera.com/news/2024/9/28/hezbollah-leader-hassan-nasrallah-killed-in-israeli-air-strike',
     mediaUrls: [
-      { type: 'news', url: 'https://www.cnn.com/world/live-news/israel-lebanon-war-hezbollah-09-28-24/index.html', label: 'CNN: Live updates' },
+      { type: 'news', url: 'https://www.aljazeera.com/news/2024/9/28/israels-military-says-it-has-killed-hezbollah-leader-hassan-nasrallah', label: 'Al Jazeera: Nasrallah killed in airstrike' },
+      { type: 'news', url: 'https://www.cnn.com/2024/09/28/middleeast/hezbollah-nasrallah-killed-israel-strikes-intl/index.html', label: 'CNN: Hezbollah confirms Nasrallah killed' },
       { type: 'news', url: 'https://www.npr.org/2024/09/29/g-s1-25348/israel-hezbollah-lebanon-hassan-nasrallah-timeline', label: 'NPR: 12 days that transformed the conflict' }
     ]
   },
@@ -168,8 +182,9 @@ export const conflictEvents: ConflictEvent[] = [
     zoom: 7,
     sourceUrl: 'https://www.bbc.com/news/articles/c5y5z50ly28o',
     mediaUrls: [
+      { type: 'news', url: 'https://www.aljazeera.com/news/2024/10/1/irans-missile-attack-against-israel-what-we-know-and-what-comes-next', label: 'Al Jazeera: What we know' },
       { type: 'news', url: 'https://www.cnn.com/world/live-news/israel-lebanon-war-hezbollah-10-1-24-intl-hnk', label: 'CNN: Live coverage' },
-      { type: 'news', url: 'https://www.aljazeera.com/news/2024/10/1/irans-missile-attack-against-israel-what-we-know-and-what-comes-next', label: 'Al Jazeera: What comes next' }
+      { type: 'news', url: 'https://www.washingtonpost.com/world/2024/10/01/iran-attack-israel-ballistic-missiles/', label: 'Washington Post: Ballistic missiles hit Israel' }
     ]
   },
   {
@@ -181,7 +196,10 @@ export const conflictEvents: ConflictEvent[] = [
     lat: 35.7,
     lng: 51.42,
     zoom: 6,
-    sourceUrl: 'https://www.reuters.com/world/middle-east/israeli-warplanes-carry-out-strikes-iran-israeli-military-says-2024-10-26/'
+    sourceUrl: 'https://www.reuters.com/world/middle-east/israeli-warplanes-carry-out-strikes-iran-israeli-military-says-2024-10-26/',
+    mediaUrls: [
+      { type: 'news', url: 'https://www.reuters.com/world/middle-east/israeli-warplanes-carry-out-strikes-iran-israeli-military-says-2024-10-26/', label: 'Reuters: Israel strikes Iran' }
+    ]
   },
 
   // ── 2025: Toward Full War ──
@@ -248,7 +266,12 @@ export const conflictEvents: ConflictEvent[] = [
     lat: 26.6427,
     lng: 50.1546,
     zoom: 10,
-    sourceUrl: 'https://www.bloomberg.com/news/articles/2026-03-02/saudi-arabia-s-ras-tanura-refinery-shuts-down-after-drone-attack'
+    sourceUrl: 'https://www.bloomberg.com/news/articles/2026-03-02/saudi-arabia-s-ras-tanura-refinery-shuts-down-after-drone-attack',
+    mediaUrls: [
+      { type: 'news', url: 'https://www.bloomberg.com/news/articles/2026-03-02/saudi-arabia-s-ras-tanura-refinery-shuts-down-after-drone-attack', label: 'Bloomberg: Ras Tanura shuts down' },
+      { type: 'news', url: 'https://www.euronews.com/2026/03/02/drones-hit-saudi-ras-tanura-refinery-as-iran-strikes-targets-across-region', label: 'Euronews: Drones hit Saudi refinery' },
+      { type: 'news', url: 'https://www.thenationalnews.com/business/2026/03/02/saudi-aramco-shuts-down-ras-tanura-refinery-following-drone-attack/', label: 'The National: Aramco shuts Ras Tanura' }
+    ]
   },
   {
     id: 'bapco-strike',
@@ -261,7 +284,12 @@ export const conflictEvents: ConflictEvent[] = [
     lat: 26.15,
     lng: 50.6167,
     zoom: 11,
-    sourceUrl: 'https://www.euronews.com/business/2026/03/09/bapco-declares-force-majeure-as-iran-sets-bahrains-only-refinery-ablaze'
+    sourceUrl: 'https://www.euronews.com/business/2026/03/09/bapco-declares-force-majeure-as-iran-sets-bahrains-only-refinery-ablaze',
+    mediaUrls: [
+      { type: 'news', url: 'https://www.euronews.com/business/2026/03/09/bapco-declares-force-majeure-as-iran-sets-bahrains-only-refinery-ablaze', label: 'Euronews: Bapco force majeure' },
+      { type: 'news', url: 'https://www.arabnews.com/node/2635757/business-economy', label: 'Arab News: Bahrain declares force majeure' },
+      { type: 'news', url: 'https://gulfbusiness.com/en/2026/energy/bahrains-bapco-energies-declares-force-majeure-after-refinery-hit/', label: 'Gulf Business: Bapco refinery hit' }
+    ]
   },
   {
     id: 'kharg-island-strike',
@@ -305,7 +333,12 @@ export const conflictEvents: ConflictEvent[] = [
     lat: 27.4833,
     lng: 52.6,
     zoom: 9,
-    sourceUrl: 'https://www.axios.com/2026/03/18/israel-strikes-iran-natural-gas-infrastructure'
+    sourceUrl: 'https://www.axios.com/2026/03/18/israel-strikes-iran-natural-gas-infrastructure',
+    mediaUrls: [
+      { type: 'news', url: 'https://www.aljazeera.com/news/2026/3/18/iran-threatens-to-strike-gulf-energy-facilities-after-south-pars-attack', label: 'Al Jazeera: Iran threatens Gulf after South Pars' },
+      { type: 'news', url: 'https://www.cnbc.com/2026/03/19/iran-israel-us-war-energy-facilities-south-pars-global-reactions.html', label: 'CNBC: Global reactions to South Pars' },
+      { type: 'news', url: 'https://www.npr.org/2026/03/19/nx-s1-5753520/iran-israel-gas-field-attacks', label: 'NPR: Gas field attacks escalate' }
+    ]
   },
   {
     id: 'ras-laffan-retaliation',
@@ -317,7 +350,12 @@ export const conflictEvents: ConflictEvent[] = [
     lat: 25.9,
     lng: 51.5333,
     zoom: 10,
-    sourceUrl: 'https://www.aljazeera.com/news/2026/3/18/qatar-says-iran-missile-attack-sparks-fire-causes-damage-at-gas-facility'
+    sourceUrl: 'https://www.aljazeera.com/news/2026/3/18/qatar-says-iran-missile-attack-sparks-fire-causes-damage-at-gas-facility',
+    mediaUrls: [
+      { type: 'news', url: 'https://www.aljazeera.com/news/2026/3/18/qatar-says-iran-missile-attack-sparks-fire-causes-damage-at-gas-facility', label: 'Al Jazeera: Qatar attack damage' },
+      { type: 'news', url: 'https://www.cnbc.com/2026/03/18/iran-war-qatar-ras-laffan-natural-gas-lng.html', label: 'CNBC: Iran hits Qatar LNG hub' },
+      { type: 'news', url: 'https://www.bloomberg.com/news/articles/2026-03-18/qatar-reports-extensive-damage-at-site-of-ras-laffan-lng-plant', label: 'Bloomberg: Extensive damage at Ras Laffan' }
+    ]
   },
   {
     id: 'iran-threatens-targets',
