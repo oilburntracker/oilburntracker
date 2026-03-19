@@ -81,7 +81,10 @@ export const conflictEvents: ConflictEvent[] = [
     lat: 31.45,
     lng: 34.40,
     zoom: 10,
-    sourceUrl: 'https://www.cbsnews.com/news/israel-hamas-war-timeline-major-events-since-october-7-2023/'
+    sourceUrl: 'https://www.cbsnews.com/news/israel-hamas-war-timeline-major-events-since-october-7-2023/',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=_0atzea-mPY', label: 'Al Jazeera Investigation: October 7' }
+    ]
   },
   {
     id: 'oct7-nova-festival',
@@ -96,7 +99,8 @@ export const conflictEvents: ConflictEvent[] = [
     sourceUrl: 'https://en.wikipedia.org/wiki/Nova_music_festival_massacre',
     mediaUrls: [
       { type: 'news', url: 'https://www.jpost.com/israel-news/defense-news/article-848756', label: 'JPost: Nova massacre 378 killed' },
-      { type: 'youtube', url: 'https://www.youtube.com/watch?v=zAr9oGSXgak', label: 'Screams Before Silence — Oct 7 documentary' }
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=7sHxRcebDzM', label: 'BBC News: How the Nova Festival Attack Unfolded' },
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=zAr9oGSXgak', label: 'Screams Before Silence — sexual violence documentary' }
     ]
   },
   {
@@ -112,7 +116,7 @@ export const conflictEvents: ConflictEvent[] = [
     sourceUrl: 'https://en.wikipedia.org/wiki/Be%27eri_massacre',
     mediaUrls: [
       { type: 'news', url: 'https://www.hrw.org/news/2024/07/17/october-7-crimes-against-humanity-war-crimes-hamas-led-groups', label: 'HRW: Crimes against humanity' },
-      { type: 'youtube', url: 'https://www.youtube.com/watch?v=zAr9oGSXgak', label: 'Screams Before Silence — sexual violence on Oct 7' }
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=ZBx7EJbtxkY', label: 'ABC News: Inside Kibbutz Be\'eri' }
     ]
   },
   {
@@ -272,6 +276,9 @@ export const conflictEvents: ConflictEvent[] = [
     lng: 34.42,
     zoom: 11,
     sourceUrl: 'https://www.pbs.org/newshour/world/israel-orders-evacuation-of-1-million-in-northern-gaza-in-24-hours',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=mUMiuDq4_vU', label: 'Al Jazeera: Fear and Confusion Over Gaza Evacuation' }
+    ],
     movements: [
       { type: 'displacement', from: [31.52, 34.45], to: [31.35, 34.31], label: '1.1M ordered south', volume: 1100000 }
     ]
@@ -349,7 +356,8 @@ export const conflictEvents: ConflictEvent[] = [
     zoom: 14,
     sourceUrl: 'https://www.bbc.com/news/world-middle-east-67423077',
     mediaUrls: [
-      { type: 'news', url: 'https://www.npr.org/2024/04/06/1243045199/al-shifa-hospital-gaza-israel-raid-before-aftermath', label: 'NPR: Before and after the raid' }
+      { type: 'news', url: 'https://www.npr.org/2024/04/06/1243045199/al-shifa-hospital-gaza-israel-raid-before-aftermath', label: 'NPR: Before and after the raid' },
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=8J_Qf6hpWmg', label: 'Channel 4: Israeli Forces Raid Gaza\'s Largest Hospital' }
     ]
   },
   {
@@ -490,6 +498,9 @@ export const conflictEvents: ConflictEvent[] = [
     lng: 34.245,
     zoom: 12,
     sourceUrl: 'https://www.reuters.com/world/middle-east/israel-tells-eastern-rafah-residents-evacuate-2024-05-06/',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=aHnIyNFat-c', label: 'BBC News: Deadly Israeli Strikes on Rafah' }
+    ],
     movements: [
       { type: 'displacement', from: [31.24, 34.24], to: [31.33, 34.30], label: '600K flee Rafah', volume: 600000 }
     ]
@@ -541,7 +552,8 @@ export const conflictEvents: ConflictEvent[] = [
     zoom: 8,
     sourceUrl: 'https://www.reuters.com/world/middle-east/hezbollah-members-wounded-when-pagers-exploded-lebanon-sources-2024-09-17/',
     mediaUrls: [
-      { type: 'news', url: 'https://www.npr.org/2024/09/17/g-s1-23452/hezbollah-pagers-explode-across-lebanon-causing-nearly-3-000-casualties', label: 'NPR: Nearly 3,000 casualties' }
+      { type: 'news', url: 'https://www.npr.org/2024/09/17/g-s1-23452/hezbollah-pagers-explode-across-lebanon-causing-nearly-3-000-casualties', label: 'NPR: Nearly 3,000 casualties' },
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=CYmuK_pLIbQ', label: 'Channel 4: Hezbollah Pager Explosions' }
     ]
   },
   {
@@ -555,6 +567,9 @@ export const conflictEvents: ConflictEvent[] = [
     lng: 35.49,
     zoom: 12,
     sourceUrl: 'https://www.aljazeera.com/news/2024/9/28/hezbollah-leader-hassan-nasrallah-killed-in-israeli-air-strike',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=5Q4Zf9Urvmc', label: 'BBC News: Massive Blasts Rock Beirut — Nasrallah Targeted' }
+    ],
     movements: [
       { type: 'displacement', from: [33.84, 35.49], to: [34.0, 35.85], label: '1M+ flee southern Lebanon', volume: 1000000 }
     ]
@@ -570,7 +585,8 @@ export const conflictEvents: ConflictEvent[] = [
     zoom: 7,
     sourceUrl: 'https://www.bbc.com/news/articles/c5y5z50ly28o',
     mediaUrls: [
-      { type: 'news', url: 'https://www.washingtonpost.com/world/2024/10/01/iran-attack-israel-ballistic-missiles/', label: 'Washington Post: Ballistic missiles hit Israel' }
+      { type: 'news', url: 'https://www.washingtonpost.com/world/2024/10/01/iran-attack-israel-ballistic-missiles/', label: 'Washington Post: Ballistic missiles hit Israel' },
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=qtixOrBFmKE', label: 'CNN: Iranian Missile Attack on Israel' }
     ]
   },
   {
@@ -632,7 +648,10 @@ export const conflictEvents: ConflictEvent[] = [
     lat: 31.42,
     lng: 34.36,
     zoom: 10,
-    sourceUrl: 'https://www.who.int/news/item/22-08-2025/famine-confirmed-for-first-time-in-gaza'
+    sourceUrl: 'https://www.who.int/news/item/22-08-2025/famine-confirmed-for-first-time-in-gaza',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=51BvCUpcBTc', label: 'Al Jazeera Fault Lines: Starving Gaza' }
+    ]
   },
   {
     id: 'gaza-ceasefire',
