@@ -10,6 +10,7 @@ import { useFireStore } from '@/stores/fire-store';
 import { curatedFires, getCurrentDisruptionLevel } from '@/features/fires/data/curated-fires';
 import { getCasualtiesUpTo } from '@/features/timeline/data/conflict-events';
 import { IconFlame, IconBuildingFactory, IconWorld, IconAlertTriangle, IconHeart, IconUsers, IconSkull } from '@tabler/icons-react';
+import Link from 'next/link';
 
 const FireMap = dynamic(() => import('@/features/map/components/fire-map'), {
   ssr: false,
@@ -77,8 +78,8 @@ function CompactStats() {
         </div>
       </div>
 
-      {/* Compact stats */}
-      <div className='flex items-center gap-1.5 rounded-full border bg-background/80 backdrop-blur-md px-3 py-1.5 shadow-lg text-xs'>
+      {/* Compact stats — links to fires page */}
+      <Link href='/dashboard/fires' className='flex items-center gap-1.5 rounded-full border bg-background/80 backdrop-blur-md px-3 py-1.5 shadow-lg text-xs hover:bg-accent/80 transition-colors cursor-pointer'>
         <div className='flex items-center gap-1' title='Facilities struck/damaged'>
           <IconBuildingFactory className='h-3.5 w-3.5 text-red-400' />
           <span className='font-semibold tabular-nums'>{activeStrikeCount} hit</span>
@@ -93,7 +94,7 @@ function CompactStats() {
           <IconWorld className='h-3.5 w-3.5 text-yellow-400' />
           <span className='font-semibold tabular-nums'>{curatedFires.length} tracked</span>
         </div>
-      </div>
+      </Link>
 
       {/* Donate button */}
       <a

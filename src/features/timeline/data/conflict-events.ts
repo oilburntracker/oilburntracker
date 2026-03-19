@@ -78,9 +78,9 @@ export const conflictEvents: ConflictEvent[] = [
     title: '6:29 AM — Hamas launches 2,200 rockets, breaches Gaza barrier',
     category: 'escalation',
     description: 'At 6:29 AM, Hamas fires 2,200+ rockets in 20 minutes across southern Israel. Simultaneously, hundreds of Nukhba commandos breach the Gaza-Israel barrier at 29 points using bulldozers, explosives, and paragliders. The largest attack on Israeli soil since 1973.',
-    lat: 31.45,
-    lng: 34.40,
-    zoom: 10,
+    lat: 31.3853,
+    lng: 34.4600,
+    zoom: 16,
     sourceUrl: 'https://www.cbsnews.com/news/israel-hamas-war-timeline-major-events-since-october-7-2023/',
     mediaUrls: [
       { type: 'youtube', url: 'https://www.youtube.com/watch?v=_0atzea-mPY', label: 'Al Jazeera Investigation: October 7' }
@@ -95,7 +95,7 @@ export const conflictEvents: ConflictEvent[] = [
     casualties: { killed: 378, source: 'Israeli Government (revised April 2025)' },
     lat: 31.3853,
     lng: 34.4600,
-    zoom: 14,
+    zoom: 17,
     sourceUrl: 'https://en.wikipedia.org/wiki/Nova_music_festival_massacre',
     mediaUrls: [
       { type: 'news', url: 'https://www.jpost.com/israel-news/defense-news/article-848756', label: 'JPost: Nova massacre 378 killed' },
@@ -112,7 +112,7 @@ export const conflictEvents: ConflictEvent[] = [
     casualties: { killed: 132, source: 'Israeli Government' },
     lat: 31.4238,
     lng: 34.4910,
-    zoom: 14,
+    zoom: 17,
     sourceUrl: 'https://en.wikipedia.org/wiki/Be%27eri_massacre',
     mediaUrls: [
       { type: 'news', url: 'https://www.hrw.org/news/2024/07/17/october-7-crimes-against-humanity-war-crimes-hamas-led-groups', label: 'HRW: Crimes against humanity' },
@@ -128,7 +128,7 @@ export const conflictEvents: ConflictEvent[] = [
     casualties: { killed: 62, source: 'Israeli Government' },
     lat: 31.4835,
     lng: 34.5337,
-    zoom: 14,
+    zoom: 17,
     sourceUrl: 'https://en.wikipedia.org/wiki/Kfar_Aza_massacre'
   },
   {
@@ -140,7 +140,7 @@ export const conflictEvents: ConflictEvent[] = [
     casualties: { killed: 47, source: 'Israeli Government' },
     lat: 31.3099,
     lng: 34.4011,
-    zoom: 14,
+    zoom: 17,
     sourceUrl: 'https://en.wikipedia.org/wiki/Nir_Oz_attack',
     mediaUrls: [
       { type: 'news', url: 'https://www.timesofisrael.com/massive-failure-first-troops-reached-kibbutz-nir-oz-40-minutes-after-last-terrorists-left', label: 'ToI: Massive failure at Nir Oz' }
@@ -155,7 +155,7 @@ export const conflictEvents: ConflictEvent[] = [
     casualties: { killed: 53, injured: 7, source: 'IDF' },
     lat: 31.4727,
     lng: 34.4977,
-    zoom: 14,
+    zoom: 17,
     sourceUrl: 'https://www.timesofisrael.com/systemic-failure-how-nahal-oz-base-850-meters-from-gaza-yet-utterly-vulnerable-fell-to-hamas/'
   },
   {
@@ -167,7 +167,7 @@ export const conflictEvents: ConflictEvent[] = [
     casualties: { killed: 53, source: 'Israeli Government' },
     lat: 31.5265,
     lng: 34.5970,
-    zoom: 13,
+    zoom: 16,
     sourceUrl: 'https://en.wikipedia.org/wiki/Battle_of_Sderot'
   },
   {
@@ -179,7 +179,7 @@ export const conflictEvents: ConflictEvent[] = [
     casualties: { killed: 414, injured: 3400, displaced: 200000, source: 'Israeli Government — remaining communities combined', children: 36 },
     lat: 31.40,
     lng: 34.45,
-    zoom: 11,
+    zoom: 14,
     sourceUrl: 'https://www.bbc.com/news/world-middle-east-67039975',
     mediaUrls: [
       { type: 'news', url: 'https://www.aljazeera.com/news/2023/10/7/what-happened-in-israel-a-breakdown-of-how-the-hamas-attack-unfolded', label: 'Al Jazeera: How the attack unfolded' },
@@ -353,7 +353,7 @@ export const conflictEvents: ConflictEvent[] = [
     casualties: { killed: 3000, source: 'Gaza MoH (incremental Nov 1-15)' },
     lat: 31.5212,
     lng: 34.4399,
-    zoom: 14,
+    zoom: 16,
     sourceUrl: 'https://www.bbc.com/news/world-middle-east-67423077',
     mediaUrls: [
       { type: 'news', url: 'https://www.npr.org/2024/04/06/1243045199/al-shifa-hospital-gaza-israel-raid-before-aftermath', label: 'NPR: Before and after the raid' },
