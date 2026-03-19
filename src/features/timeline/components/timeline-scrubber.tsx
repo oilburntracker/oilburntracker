@@ -118,7 +118,7 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
   const casualties = useMemo(() => getCasualtiesUpTo(currentDate), [currentDate]);
   const hasEvent = todayEvents.length > 0;
 
-  // ── Playback: skip quiet days, pause on event days ──
+  // ── Playback: skip quiet days, auto-scroll + pause on event days ──
   useEffect(() => {
     if (!isPlaying) return;
 
@@ -128,23 +128,58 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
           setIsPlaying(false);
           return prev;
         }
-        const next = prev + 1;
-        const nextDate = ALL_DAYS[next];
-        const nextHasEvent = EVENTS_BY_DATE.has(nextDate);
-
-        // If landing on an event day, we'll pause briefly in the next tick
-        return next;
+        return prev + 1;
       });
     };
 
-    // On event days: pause longer so infographics can be absorbed. Quiet days: advance fast
-    const delay = hasEvent ? 5000 : 50;
-    playRef.current = setTimeout(advance, delay);
+    // Event days: scale pause with content — more events = more time to read
+    // Also auto-scroll the feed so user sees all content
+    if (hasEvent) {
+      const eventCount = todayEvents.length;
+      const hasVideos = todayEvents.some(e => e.mediaUrls?.some(m => m.type === 'youtube'));
+      // Base 4s per event, +3s if videos present
+      const delay = (eventCount * 4000) + (hasVideos ? 3000 : 0);
+
+      // Auto-scroll the feed slowly
+      if (feedRef.current) {
+        const el = feedRef.current;
+        const scrollHeight = el.scrollHeight - el.clientHeight;
+        if (scrollHeight > 0) {
+          const scrollDuration = delay - 500; // finish scrolling 500ms before advancing
+          const startTime = Date.now();
+          const scrollInterval = setInterval(() => {
+            const elapsed = Date.now() - startTime;
+            const progress = Math.min(elapsed / scrollDuration, 1);
+            // Ease-in-out scroll
+            const ease = progress < 0.5
+              ? 2 * progress * progress
+              : 1 - Math.pow(-2 * progress + 2, 2) / 2;
+            el.scrollTop = ease * scrollHeight;
+            if (progress >= 1) clearInterval(scrollInterval);
+          }, 16);
+
+          playRef.current = setTimeout(() => {
+            clearInterval(scrollInterval);
+            advance();
+          }, delay);
+
+          return () => {
+            clearInterval(scrollInterval);
+            if (playRef.current) clearTimeout(playRef.current);
+          };
+        }
+      }
+
+      playRef.current = setTimeout(advance, delay);
+    } else {
+      // Quiet days: advance fast
+      playRef.current = setTimeout(advance, 50);
+    }
 
     return () => {
       if (playRef.current) clearTimeout(playRef.current);
     };
-  }, [isPlaying, currentIndex, hasEvent]);
+  }, [isPlaying, currentIndex, hasEvent, todayEvents]);
 
   // ── Sync timeline date to global store for header death toll ──
   useEffect(() => {
@@ -233,7 +268,6 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
       {todayEvents.length > 0 && !expanded && (
         <div ref={feedRef} className='mx-3 mb-2 max-w-lg max-h-[55vh] overflow-y-auto rounded-lg border bg-background/95 backdrop-blur-md shadow-2xl'
           onTouchStart={() => setIsPlaying(false)}
-          onClick={() => setIsPlaying(false)}
         >
           {/* Running death toll — sticky header */}
           {(casualties.totalKilled > 0 || casualties.totalDisplaced > 0) && (
