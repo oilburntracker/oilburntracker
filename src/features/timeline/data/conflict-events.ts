@@ -95,7 +95,8 @@ export const conflictEvents: ConflictEvent[] = [
     zoom: 14,
     sourceUrl: 'https://en.wikipedia.org/wiki/Nova_music_festival_massacre',
     mediaUrls: [
-      { type: 'news', url: 'https://www.jpost.com/israel-news/defense-news/article-848756', label: 'JPost: Nova massacre 378 killed' }
+      { type: 'news', url: 'https://www.jpost.com/israel-news/defense-news/article-848756', label: 'JPost: Nova massacre 378 killed' },
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=zAr9oGSXgak', label: 'Screams Before Silence — Oct 7 documentary' }
     ]
   },
   {
@@ -110,7 +111,8 @@ export const conflictEvents: ConflictEvent[] = [
     zoom: 14,
     sourceUrl: 'https://en.wikipedia.org/wiki/Be%27eri_massacre',
     mediaUrls: [
-      { type: 'news', url: 'https://www.hrw.org/news/2024/07/17/october-7-crimes-against-humanity-war-crimes-hamas-led-groups', label: 'HRW: Crimes against humanity' }
+      { type: 'news', url: 'https://www.hrw.org/news/2024/07/17/october-7-crimes-against-humanity-war-crimes-hamas-led-groups', label: 'HRW: Crimes against humanity' },
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=zAr9oGSXgak', label: 'Screams Before Silence — sexual violence on Oct 7' }
     ]
   },
   {
