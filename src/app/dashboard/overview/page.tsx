@@ -8,7 +8,7 @@ import TimelineScrubber from '@/features/timeline/components/timeline-scrubber';
 import { useFireData } from '@/features/map/hooks/use-fire-data';
 import { useFireStore } from '@/stores/fire-store';
 import { curatedFires, getCurrentDisruptionLevel } from '@/features/fires/data/curated-fires';
-import { getCasualtiesUpTo } from '@/features/timeline/data/conflict-events';
+import { getCasualtiesUpTo, getVisibleFacilityIds } from '@/features/timeline/data/conflict-events';
 import { IconFlame, IconBuildingFactory, IconWorld, IconAlertTriangle, IconHeart, IconUsers, IconSkull, IconCloud } from '@tabler/icons-react';
 import { formatCO2, co2Equivalents } from '@/features/emissions/utils/emissions-model';
 import Link from 'next/link';
@@ -41,9 +41,9 @@ function CompactStats() {
   const totalCO2TonsDay = fireData.features.reduce((sum, f) => sum + f.properties.estimatedCO2TonsDay, 0);
   const equiv = co2Equivalents(totalCO2TonsDay);
 
-  const activeStrikeCount = curatedFires.filter(
-    (f) => f.status === 'active_fire' || f.status === 'damaged'
-  ).length;
+  // Facilities hit synced to timeline position (not static status)
+  const visibleFacilityIds = getVisibleFacilityIds(timelineDate);
+  const facilitiesHitCount = visibleFacilityIds.size;
 
   const disruption = getCurrentDisruptionLevel();
   const disruptionColor = DISRUPTION_COLORS[disruption.level] || DISRUPTION_COLORS.normal;
@@ -103,11 +103,11 @@ function CompactStats() {
         </div>
       </div>
 
-      {/* Compact stats — links to fires page */}
+      {/* Compact stats — links to fires page, updates with timeline */}
       <Link href='/dashboard/fires' className='flex items-center gap-1.5 rounded-full border bg-background/80 backdrop-blur-md px-3 py-1.5 shadow-lg text-xs hover:bg-accent/80 transition-colors cursor-pointer'>
-        <div className='flex items-center gap-1' title='Facilities struck/damaged'>
+        <div className='flex items-center gap-1' title='Facilities struck/damaged (synced to timeline)'>
           <IconBuildingFactory className='h-3.5 w-3.5 text-red-400' />
-          <span className='font-semibold tabular-nums'>{activeStrikeCount} hit</span>
+          <span className='font-semibold tabular-nums'>{facilitiesHitCount} hit</span>
         </div>
         <span className='text-muted-foreground'>|</span>
         <div className='flex items-center gap-1' title='FIRMS satellite detections'>
