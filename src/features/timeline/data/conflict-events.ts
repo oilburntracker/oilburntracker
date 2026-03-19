@@ -559,22 +559,21 @@ export const conflictEvents: ConflictEvent[] = [
     sourceUrl: 'https://www.icj-cij.org/case/192'
   },
 
+  // ══════════════════════════════════════════════
+  // 2024 Q1: FAMINE, FLOUR MASSACRE, HOUTHI WAR
+  // ══════════════════════════════════════════════
   {
-    id: 'jan29-hind-rajab',
-    date: '2024-01-29',
-    title: 'Hind Rajab, age 6 — calls for help for hours before being killed',
-    category: 'humanitarian',
-    description: '6-year-old Hind Rajab calls Palestinian Red Crescent from a car surrounded by dead relatives. She whispers in terror for 3 hours. "I\'m scared. Come take me." An ambulance is dispatched — both paramedics are killed. 12 days later her body is found in the car, riddled with bullets. She becomes a symbol of the war. The ambulance found destroyed nearby.',
-    casualties: { killed: 2, source: 'PRCS (2 paramedics killed en route)' },
-    lat: 31.50,
-    lng: 34.44,
+    id: 'arouri-assassinated',
+    date: '2024-01-02',
+    title: 'Hamas deputy leader assassinated in Beirut',
+    category: 'escalation',
+    description: 'Israeli drone strike kills Saleh al-Arouri, deputy leader of Hamas and co-founder of its military wing, in Dahieh, Beirut. 6 other Hamas members killed. Most senior Hamas leader killed since Oct 7. Raises fears of full Lebanon war.',
+    casualties: { killed: 7, source: 'Hamas / Lebanese security' },
+    lat: 33.85,
+    lng: 35.48,
     zoom: 14,
-    sourceUrl: 'https://www.bbc.com/news/world-middle-east-68210583'
+    sourceUrl: 'https://www.aljazeera.com/news/2024/1/2/top-hamas-official-saleh-al-arouri-killed-in-beirut-suburb'
   },
-
-  // ══════════════════════════════════════════════
-  // 2024: REGIONAL ESCALATION
-  // ══════════════════════════════════════════════
   {
     id: 'houthi-shipping-attacks',
     date: '2024-01-12',
@@ -595,34 +594,106 @@ export const conflictEvents: ConflictEvent[] = [
     ]
   },
   {
+    id: 'idf-deadliest-day',
+    date: '2024-01-22',
+    title: '24 IDF soldiers killed — deadliest day of ground invasion',
+    category: 'military_strike',
+    description: '21 reservists die when 2 buildings collapse from RPG hit detonating planted explosives near the border. 3 more killed elsewhere. Deadliest single day for IDF since the ground invasion began. Simultaneously, IDF announces encirclement of Khan Younis — Sinwar\'s hometown.',
+    casualties: { killed: 24, source: 'IDF' },
+    lat: 31.35,
+    lng: 34.31,
+    zoom: 12,
+    sourceUrl: 'https://www.cnn.com/2024/01/23/middleeast/gaza-israeli-soldiers-deaths-intl-hnk/index.html'
+  },
+  {
     id: 'icj-genocide-ruling',
     date: '2024-01-26',
     title: 'ICJ orders Israel to prevent genocide in Gaza',
     category: 'diplomatic',
-    description: 'International Court of Justice rules South Africa\'s genocide case is plausible. Orders Israel to prevent genocide, ensure humanitarian aid, preserve evidence. Israel rejects ruling. By now: 26,000+ Palestinians killed in 111 days.',
+    description: 'International Court of Justice rules South Africa\'s genocide case is plausible. Orders Israel to prevent genocide, ensure humanitarian aid, preserve evidence. Israel rejects ruling. Same week: UNRWA funding suspended by 16 countries over Oct 7 allegations against 12 staff.',
     lat: 52.08,
     lng: 4.27,
     zoom: 8,
     sourceUrl: 'https://www.icj-cij.org/case/192'
   },
   {
-    id: 'gaza-jan-apr',
-    date: '2024-03-15',
-    title: 'Gaza: 31,000+ killed — 70% women and children',
+    id: 'jan29-hind-rajab',
+    date: '2024-01-29',
+    title: 'Hind Rajab, age 6 — calls for help for hours before being killed',
     category: 'humanitarian',
-    description: 'By mid-March 2024, Gaza MoH reports 31,000+ killed. UN: over 70% are women and children. 72,000+ injured. Every hospital in northern Gaza destroyed or non-functional. 1.7M displaced. Starvation spreading — children dying of malnutrition for the first time. Flour massacre: 112+ killed rushing aid trucks.',
-    casualties: { killed: 12000, injured: 30000, source: 'Gaza MoH (incremental Jan-Mar 2024)', children: 5000 },
-    lat: 31.42,
-    lng: 34.36,
+    description: '6-year-old Hind Rajab calls Palestinian Red Crescent from a car surrounded by dead relatives. She whispers in terror for 3 hours. "I\'m scared. Come take me." An ambulance is dispatched — both paramedics are killed. 12 days later her body is found in the car, riddled with bullets. She becomes a symbol of the war.',
+    casualties: { killed: 2, source: 'PRCS (2 paramedics killed en route)' },
+    lat: 31.50,
+    lng: 34.44,
+    zoom: 14,
+    sourceUrl: 'https://www.bbc.com/news/world-middle-east-68210583'
+  },
+  {
+    id: 'flour-massacre',
+    date: '2024-02-29',
+    title: 'Flour Massacre — 118 killed waiting for food aid',
+    category: 'military_strike',
+    description: 'At 4:30 AM, Israeli tanks and snipers open fire on thousands of Palestinians waiting for aid trucks at al-Nabulsi roundabout, Gaza City. Shooting continues for 90 minutes. 118 killed, 760+ injured — deadliest single mass casualty event since the invasion began. UN investigators find "large number of gunshot wounds." BBC Verify shows Israel\'s drone footage was edited.',
+    casualties: { killed: 118, injured: 760, source: 'Gaza Health Ministry / UN investigation' },
+    lat: 31.53,
+    lng: 34.44,
+    zoom: 14,
+    sourceUrl: 'https://www.aljazeera.com/news/2024/2/29/dozens-killed-injured-by-israeli-fire-in-gaza-while-collecting-food-aid',
+    mediaUrls: [
+      { type: 'news', url: 'https://www.cnn.com/2024/02/29/middleeast/gaza-city-deaths-food-israel-intl/index.html', label: 'CNN: Flour Massacre investigation' }
+    ]
+  },
+  {
+    id: 'gaza-famine-ipc',
+    date: '2024-03-18',
+    title: 'Famine imminent in northern Gaza — children dying of starvation',
+    category: 'humanitarian',
+    description: 'IPC confirms famine imminent. 31% of children under 2 in northern Gaza acutely malnourished. 23 children dead from starvation. 1.11 million (half of Gaza) projected to face catastrophic hunger. Same day: IDF launches 2nd siege on Al-Shifa Hospital — 14 days, 409 bodies found after withdrawal, hospital left "completely destroyed."',
+    casualties: { killed: 8000, injured: 20000, source: 'Gaza MoH (incremental Jan-Mar 2024)', children: 4000 },
+    lat: 31.55,
+    lng: 34.50,
     zoom: 10,
-    sourceUrl: 'https://www.aljazeera.com/news/longform/2024/3/15/mapping-the-destruction-of-gazas-health-system'
+    sourceUrl: 'https://www.ipcinfo.org/ipcinfo-website/alerts-archive/issue-97/en/',
+    mediaUrls: [
+      { type: 'news', url: 'https://www.aljazeera.com/news/longform/2024/3/15/mapping-the-destruction-of-gazas-health-system', label: 'Al Jazeera: Gaza\'s destroyed health system' }
+    ]
+  },
+  // ══════════════════════════════════════════════
+  // 2024 Q2: IRAN ATTACKS, RAFAH INVASION, NUSEIRAT
+  // ══════════════════════════════════════════════
+  {
+    id: 'damascus-consulate-strike',
+    date: '2024-04-01',
+    title: 'Israel destroys Iranian consulate in Damascus — 16 killed',
+    category: 'escalation',
+    description: 'Israeli F-35s fire 6 missiles at Iran\'s embassy compound in Damascus. Brigadier General Zahedi (most senior IRGC officer killed since Soleimani), his deputy, and 6 other Quds Force officers among 16 dead. Iran vows retaliation. This strike directly triggers Iran\'s April 13 attack.',
+    casualties: { killed: 16, source: 'Iranian state media / IRGC' },
+    lat: 33.51,
+    lng: 36.28,
+    zoom: 14,
+    sourceUrl: 'https://www.aljazeera.com/news/2024/4/1/several-killed-in-israeli-strike-on-iranian-consulate-in-damascus-reports'
+  },
+  {
+    id: 'wck-aid-workers-killed',
+    date: '2024-04-01',
+    title: 'Israel kills 7 World Central Kitchen aid workers — triple drone strike',
+    category: 'military_strike',
+    description: 'Israeli drones strike a WCK convoy three separate times, killing all 7 aid workers in 3 clearly marked vehicles after delivering 100 tons of food. Victims from Australia, Poland, UK, US-Canada, Palestine. Route was coordinated with IDF. Multiple aid orgs suspend Gaza operations.',
+    casualties: { killed: 7, source: 'WCK / IDF investigation' },
+    lat: 31.42,
+    lng: 34.35,
+    zoom: 14,
+    sourceUrl: 'https://www.cnn.com/2024/04/01/middleeast/world-central-kitchen-killed-gaza-intl-hnk/index.html',
+    mediaUrls: [
+      { type: 'news', url: 'https://www.npr.org/2024/04/01/1242177519/world-central-kitchen-workers-deaths-gaza', label: 'NPR: WCK workers killed' }
+    ]
   },
   {
     id: 'iran-israel-april-drones',
     date: '2024-04-13',
     title: 'Iran launches 300+ drones and missiles at Israel',
     category: 'retaliation',
-    description: 'Iran\'s first direct attack on Israel — retaliation for Damascus consulate strike. 170 drones, 30 cruise missiles, 120 ballistic missiles. Nearly all intercepted by Israel, US, UK, Jordan, Saudi defenses. A show of force that crosses a historic threshold.',
+    description: 'Iran\'s first direct attack on Israel — retaliation for Damascus consulate strike. 170 drones, 30 cruise missiles, 120 ballistic missiles. Nearly all intercepted by Israel, US, UK, Jordan, Saudi. Historic threshold crossed — direct state-to-state combat.',
     lat: 31.77,
     lng: 35.21,
     zoom: 7,
@@ -644,21 +715,60 @@ export const conflictEvents: ConflictEvent[] = [
     sourceUrl: 'https://www.bbc.com/news/world-middle-east-68852804'
   },
   {
+    id: 'nasser-mass-graves',
+    date: '2024-04-21',
+    title: 'Mass graves at Al-Shifa and Nasser hospitals — 700+ bodies',
+    category: 'humanitarian',
+    description: 'After IDF withdraws from both hospitals, 381 bodies found at Al-Shifa and 300+ at Nasser. Some with hands tied, stripped of clothes — women, children, elderly. Israel says it "examined previously buried bodies looking for hostages." UN calls it "deeply disturbing."',
+    lat: 31.34,
+    lng: 34.31,
+    zoom: 12,
+    sourceUrl: 'https://www.aljazeera.com/news/2024/4/21/nearly-200-bodies-found-in-mass-grave-at-hospital-in-gazas-khan-younis'
+  },
+  {
     id: 'rafah-invasion',
     date: '2024-05-06',
     title: 'Israel invades Rafah — last refuge for 1.4M displaced',
     category: 'escalation',
-    description: 'IDF launches ground operation in Rafah where 1.4M displaced Palestinians were sheltering — the "last safe zone." 600,000 flee in 3 days. Rafah crossing seized, aid halted. By now: 35,000+ killed. US pauses bomb shipment over civilian concerns.',
-    casualties: { killed: 4000, displaced: 600000, source: 'Gaza MoH (Rafah operation through Jun)', children: 1000 },
+    description: 'IDF launches ground operation in Rafah. 1.4M displaced sheltering there — the "last safe zone." 600K flee in 3 days. Rafah crossing seized, aid halted. May 8: Biden pauses 2,000-lb bomb shipment. May 24: ICJ orders Israel to "immediately halt" Rafah offensive. Israel ignores both.',
+    casualties: { killed: 3000, displaced: 600000, source: 'Gaza MoH (Rafah operation May-Jun)', children: 800 },
     lat: 31.24,
     lng: 34.245,
     zoom: 12,
     sourceUrl: 'https://www.reuters.com/world/middle-east/israel-tells-eastern-rafah-residents-evacuate-2024-05-06/',
     mediaUrls: [
-      { type: 'youtube', url: 'https://www.youtube.com/watch?v=aHnIyNFat-c', label: 'BBC News: Deadly Israeli Strikes on Rafah' }
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=aHnIyNFat-c', label: 'BBC News: Deadly Israeli Strikes on Rafah' },
+      { type: 'news', url: 'https://www.aljazeera.com/news/2024/5/24/icj-orders-israel-to-halt-its-offensive-on-rafah-gaza-in-new-ruling', label: 'Al Jazeera: ICJ orders Rafah halt' }
     ],
     movements: [
       { type: 'displacement', from: [31.24, 34.24], to: [31.33, 34.30], label: '600K flee Rafah', volume: 600000 }
+    ]
+  },
+  {
+    id: 'tel-al-sultan-massacre',
+    date: '2024-05-26',
+    title: 'Tent camp bombed 2 days after ICJ ordered Rafah halt — 50 killed',
+    category: 'military_strike',
+    description: 'IAF bombs displacement camp in Tel al-Sultan, Rafah — an area Israel designated as a "safe zone" one week prior. 7 900kg bombs dropped. Tents catch fire. 45-50 killed (12 women, 8 children, 3 elderly), 200+ injured. EU foreign policy chief: "a bloodbath." Came just 2 days after ICJ ordered Israel to halt the Rafah offensive.',
+    casualties: { killed: 50, injured: 200, source: 'Gaza Health Ministry / UN', children: 8 },
+    lat: 31.31,
+    lng: 34.23,
+    zoom: 14,
+    sourceUrl: 'https://www.aljazeera.com/news/2024/5/27/heinous-massacre-israels-attacks-on-rafah-tent-camp-widely-condemned'
+  },
+  {
+    id: 'nuseirat-rescue-massacre',
+    date: '2024-06-08',
+    title: 'Nuseirat hostage rescue — 4 freed, 274 Palestinians killed',
+    category: 'military_strike',
+    description: 'Israeli special forces disguised in aid truck raid 2 buildings in Nuseirat, rescuing 4 hostages (including Noa Argamani). Massive simultaneous bombardment of the refugee camp kills 274 Palestinians (64 children, 57 women), injures 698+. 1 IDF officer killed. The cost: 68 Palestinian lives per hostage rescued.',
+    casualties: { killed: 274, injured: 698, source: 'Gaza Health Ministry / OHCHR', children: 64 },
+    lat: 31.44,
+    lng: 34.39,
+    zoom: 14,
+    sourceUrl: 'https://www.npr.org/2024/06/08/nx-s1-4997026/israel-gaza-hostages-rescued',
+    mediaUrls: [
+      { type: 'news', url: 'https://www.cnn.com/2024/06/09/middleeast/israel-hostage-rescue-gaza-intl-hnk/index.html', label: 'CNN: Hostage rescue and destruction' }
     ]
   },
   {
