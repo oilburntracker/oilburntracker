@@ -1,0 +1,8 @@
+{
+  // Cloudflare Pages — static site deployment
+  // The Next.js app is statically exported to out/
+  // No workers or server-side rendering needed
+  "name": "oilburntracker",
+  "pages_build_output_dir": "out",
+  "compatibility_date": "2024-09-23"
+}

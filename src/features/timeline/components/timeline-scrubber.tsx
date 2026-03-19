@@ -268,18 +268,37 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
               </div>
             </div>
 
-            {/* Running stats bar */}
+            {/* Running death toll — TOP HEADLINE */}
+            {(casualties.totalKilled > 0 || casualties.totalDisplaced > 0) && (
+              <div className='px-3 py-2 border-t bg-red-950/20 flex flex-wrap items-center gap-x-4 gap-y-1'>
+                <span className='flex items-center gap-1.5 text-sm font-black text-red-400'>
+                  <IconUsers className='h-4 w-4' />
+                  {casualties.totalKilled.toLocaleString()}+ killed
+                </span>
+                {casualties.totalKilledAdjusted > casualties.totalKilled && (
+                  <span className='text-[10px] text-red-400/70'>
+                    (est. {casualties.totalKilledAdjusted.toLocaleString()}+)
+                  </span>
+                )}
+                {casualties.totalDisplaced > 0 && (
+                  <span className='flex items-center gap-1 text-xs font-bold text-amber-400'>
+                    <IconAlertTriangle className='h-3.5 w-3.5' />
+                    {(casualties.totalDisplaced / 1000000).toFixed(1)}M displaced
+                  </span>
+                )}
+                {casualties.totalChildren > 0 && (
+                  <span className='text-[10px] text-red-300'>
+                    incl. {casualties.totalChildren.toLocaleString()}+ children
+                  </span>
+                )}
+              </div>
+            )}
+            {/* Stats bar */}
             <div className='px-3 py-1.5 border-t bg-muted/30 flex flex-wrap items-center gap-x-4 gap-y-1 text-[10px] text-muted-foreground'>
               <span className='flex items-center gap-1'>
                 <IconBolt className='h-3 w-3 text-yellow-500' />
                 Day {stats.dayNumber}
               </span>
-              {casualties.totalKilled > 0 && (
-                <span className='flex items-center gap-1 font-bold text-red-400'>
-                  <IconUsers className='h-3 w-3' />
-                  {casualties.totalKilled.toLocaleString()} killed
-                </span>
-              )}
               {casualties.totalInjured > 0 && (
                 <span className='flex items-center gap-1 text-orange-400'>
                   {casualties.totalInjured.toLocaleString()} injured
@@ -302,7 +321,8 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
                   .sort((a, b) => b[1].killed - a[1].killed)
                   .map(([region, data]) => (
                     <span key={region}>
-                      {region}: <span className='text-foreground font-medium'>{data.killed.toLocaleString()}</span> killed
+                      {region}: <span className='text-foreground font-medium'>{data.killed.toLocaleString()}</span>
+                      {data.displaced > 0 && <span className='text-amber-400/80'> ({(data.displaced / 1000000).toFixed(1)}M disp.)</span>}
                     </span>
                   ))}
               </div>

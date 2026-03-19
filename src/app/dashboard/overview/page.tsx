@@ -8,7 +8,8 @@ import TimelineScrubber from '@/features/timeline/components/timeline-scrubber';
 import { useFireData } from '@/features/map/hooks/use-fire-data';
 import { useFireStore } from '@/stores/fire-store';
 import { curatedFires, getCurrentDisruptionLevel } from '@/features/fires/data/curated-fires';
-import { IconFlame, IconBuildingFactory, IconWorld, IconAlertTriangle, IconHeart } from '@tabler/icons-react';
+import { getCasualtiesUpTo } from '@/features/timeline/data/conflict-events';
+import { IconFlame, IconBuildingFactory, IconWorld, IconAlertTriangle, IconHeart, IconUsers, IconSkull } from '@tabler/icons-react';
 
 const FireMap = dynamic(() => import('@/features/map/components/fire-map'), {
   ssr: false,
@@ -40,8 +41,33 @@ function CompactStats() {
   const disruption = getCurrentDisruptionLevel();
   const disruptionColor = DISRUPTION_COLORS[disruption.level] || DISRUPTION_COLORS.normal;
 
+  // Running total across all theaters
+  const casualties = getCasualtiesUpTo('2026-03-19');
+
   return (
     <div className='absolute top-3 right-3 z-10 flex flex-col items-end gap-1.5'>
+      {/* DEATH TOLL — most prominent */}
+      <div className='rounded-lg border border-red-500/40 bg-red-950/80 backdrop-blur-md px-3 py-1.5 shadow-lg'>
+        <div className='flex items-center gap-2'>
+          <IconSkull className='h-4 w-4 text-red-400' />
+          <span className='text-sm font-black text-red-400 tabular-nums'>
+            {casualties.totalKilled.toLocaleString()}+ killed
+          </span>
+        </div>
+        <div className='flex items-center gap-3 mt-0.5'>
+          {casualties.totalDisplaced > 0 && (
+            <span className='text-[10px] font-bold text-amber-400'>
+              {(casualties.totalDisplaced / 1000000).toFixed(1)}M displaced
+            </span>
+          )}
+          {casualties.totalChildren > 0 && (
+            <span className='text-[10px] text-red-300'>
+              {casualties.totalChildren.toLocaleString()}+ children
+            </span>
+          )}
+        </div>
+      </div>
+
       {/* Disruption level badge */}
       <div className={`rounded-full border ${disruptionColor} bg-background/85 backdrop-blur-md px-3 py-1 shadow-lg`}>
         <div className='flex items-center gap-1.5 text-xs font-bold'>
