@@ -81,7 +81,7 @@ Open http://localhost:3000
 | Charts | Recharts | Free |
 | State | Zustand | Free |
 | Styling | Tailwind CSS 4 + shadcn/ui | Free |
-| Hosting | Vercel (or any Node host) | Free tier |
+| Hosting | Cloudflare Pages (static export) | Free tier |
 
 **Total cost to run: $0**
 
@@ -152,23 +152,42 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). The most impactful contributions:
 4. **UI/UX improvements** — mobile experience, accessibility, new visualizations
 5. **Deploy & share** — host your own instance, embed in articles
 
-## Deploying
+## Deploying to Cloudflare Pages
 
-### Vercel (recommended)
+Static export — no SSR, no wrangler deploy, just serve the `out/` folder.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/oilburntracker/oilburntracker&env=FIRMS_MAP_KEY&envDescription=NASA%20FIRMS%20API%20key%20(free)&envLink=https://firms.modaps.eosdis.nasa.gov/api/area/)
+### Cloudflare Pages Settings
+
+Go to **dash.cloudflare.com → Workers & Pages → oilburntracker → Settings → Build & Deployments → Edit**:
+
+| Setting | Value |
+|---------|-------|
+| **Framework preset** | `None` |
+| **Build command** | `npm run build` |
+| **Build output directory** | `out` |
+| **Deploy command** | *(leave empty — do NOT set this)* |
+
+### Environment Variables
+
+Set in **Settings → Environment variables**:
+
+| Variable | Value |
+|----------|-------|
+| `FIRMS_MAP_KEY` | Your NASA FIRMS API key |
+
+### Common Deploy Failures
+
+| Symptom | Fix |
+|---------|-----|
+| `@opennextjs/cloudflare` error | Set framework preset to `None`, not "Next.js" |
+| `npx wrangler deploy` fails | Clear the deploy command field — it must be EMPTY |
+| Build succeeds, deploy fails | Same as above — Cloudflare auto-adds `npx wrangler deploy` if preset is wrong |
 
 ### Self-hosted
 
 ```bash
-npm run build
-npm start
-```
-
-Or with Docker:
-```bash
-docker build -t oilburntracker .
-docker run -p 3000:3000 -e FIRMS_MAP_KEY=xxx oilburntracker
+npm run build    # outputs to out/
+npx serve out    # or any static file server
 ```
 
 ## Credits
