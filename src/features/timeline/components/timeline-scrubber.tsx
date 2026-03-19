@@ -26,8 +26,15 @@ import {
   IconBolt,
   IconPlayerSkipForward,
   IconPlayerSkipBack,
-  IconUsers
+  IconUsers,
+  IconX
 } from '@tabler/icons-react';
+
+// ── Extract YouTube video ID from URL ──
+function getYouTubeId(url: string): string | null {
+  const m = url.match(/(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|watch\?v=|shorts\/))([a-zA-Z0-9_-]{11})/);
+  return m ? m[1] : null;
+}
 
 // ── Build day-by-day date array from first event to today ──
 function buildDayArray(): string[] {
@@ -99,6 +106,7 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
   const [isPlaying, setIsPlaying] = useState(false);
   const [expanded, setExpanded] = useState(false);
   const [activeEvent, setActiveEvent] = useState<ConflictEvent | null>(null);
+  const [detailOpen, setDetailOpen] = useState(false); // full media detail view
   const playRef = useRef<NodeJS.Timeout | null>(null);
   const eventListRef = useRef<HTMLDivElement>(null);
   const setSelectedFacility = useFireStore((s) => s.setSelectedFacility);
@@ -146,6 +154,7 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
 
   // ── When landing on an event, fly to it and show card ──
   useEffect(() => {
+    setDetailOpen(false); // close media panel when day changes
     if (todayEvents.length > 0) {
       const latest = todayEvents[todayEvents.length - 1];
       setActiveEvent(latest);
@@ -251,6 +260,7 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
                     target='_blank'
                     rel='noopener noreferrer'
                     className='inline-flex items-center gap-1 rounded-full bg-muted px-2.5 py-1 text-[10px] font-medium hover:bg-accent transition-colors'
+                    onClick={(e) => e.stopPropagation()}
                   >
                     <IconExternalLink className='h-3 w-3' />
                     Source
@@ -265,6 +275,7 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
                       target='_blank'
                       rel='noopener noreferrer'
                       className='inline-flex items-center gap-1 rounded-full bg-muted px-2.5 py-1 text-[10px] font-medium hover:bg-accent transition-colors'
+                      onClick={(e) => e.stopPropagation()}
                     >
                       <Icon className='h-3 w-3' />
                       {media.label || media.type}
@@ -272,9 +283,108 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
                   );
                 })}
               </div>
+
+              {/* Tap to expand media */}
+              {((activeEvent.mediaUrls?.length || 0) > 0 || activeEvent.sourceUrl) && (
+                <button
+                  onClick={() => { setIsPlaying(false); setDetailOpen(!detailOpen); }}
+                  className='text-[10px] text-primary mt-2 font-medium hover:underline'
+                >
+                  {detailOpen ? 'Hide' : 'Show'} full coverage & videos
+                </button>
+              )}
             </div>
 
-            {/* Running death toll — TOP HEADLINE */}
+            {/* ── Expanded media section (below headline, inside card) ── */}
+            {detailOpen && (
+              <div className='border-t max-h-[40vh] overflow-y-auto'>
+                {/* Event casualties detail */}
+                {activeEvent.casualties && (activeEvent.casualties.killed || activeEvent.casualties.displaced) && (
+                  <div className='px-3 py-2 bg-red-950/20 border-b border-red-500/20 space-y-0.5'>
+                    {activeEvent.casualties.killed && (
+                      <p className='text-xs font-bold text-red-400'>{activeEvent.casualties.killed.toLocaleString()}+ killed in this event</p>
+                    )}
+                    {activeEvent.casualties.displaced && (
+                      <p className='text-[11px] text-amber-400'>{activeEvent.casualties.displaced.toLocaleString()} displaced</p>
+                    )}
+                    {activeEvent.casualties.children && (
+                      <p className='text-[10px] text-red-300'>Including {activeEvent.casualties.children.toLocaleString()}+ children</p>
+                    )}
+                    {activeEvent.casualties.source && (
+                      <p className='text-[9px] text-muted-foreground'>Source: {activeEvent.casualties.source}</p>
+                    )}
+                  </div>
+                )}
+
+                {/* YouTube embeds */}
+                {activeEvent.mediaUrls?.filter(m => m.type === 'youtube').map((media, i) => {
+                  const videoId = getYouTubeId(media.url);
+                  if (!videoId) return null;
+                  return (
+                    <div key={`yt-${i}`} className='px-3 py-2 border-b'>
+                      <p className='text-[10px] text-muted-foreground font-medium mb-1'>{media.label || 'Video Coverage'}</p>
+                      <div className='relative w-full aspect-video rounded-md overflow-hidden bg-black'>
+                        <iframe
+                          src={`https://www.youtube-nocookie.com/embed/${videoId}?rel=0`}
+                          title={media.label || 'Video'}
+                          allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+                          allowFullScreen
+                          className='absolute inset-0 w-full h-full'
+                        />
+                      </div>
+                    </div>
+                  );
+                })}
+
+                {/* News source rows */}
+                <div className='px-3 py-2 space-y-1.5'>
+                  <p className='text-[10px] text-muted-foreground uppercase tracking-wider'>Sources & Coverage</p>
+                  {activeEvent.sourceUrl && (
+                    <a
+                      href={activeEvent.sourceUrl}
+                      target='_blank'
+                      rel='noopener noreferrer'
+                      className='flex items-center gap-2 rounded-md bg-muted/50 px-2.5 py-1.5 hover:bg-accent transition-colors'
+                    >
+                      <IconExternalLink className='h-3.5 w-3.5 text-blue-400 shrink-0' />
+                      <span className='text-[11px] truncate'>Primary Source</span>
+                      <span className='text-[9px] text-muted-foreground ml-auto shrink-0'>
+                        {(() => { try { return new URL(activeEvent.sourceUrl).hostname.replace('www.', ''); } catch { return 'link'; } })()}
+                      </span>
+                    </a>
+                  )}
+                  {activeEvent.mediaUrls?.filter(m => m.type === 'news').map((media, i) => (
+                    <a
+                      key={`news-${i}`}
+                      href={media.url}
+                      target='_blank'
+                      rel='noopener noreferrer'
+                      className='flex items-center gap-2 rounded-md bg-muted/50 px-2.5 py-1.5 hover:bg-accent transition-colors'
+                    >
+                      <IconNews className='h-3.5 w-3.5 text-blue-400 shrink-0' />
+                      <span className='text-[11px] truncate'>{media.label || 'News'}</span>
+                      <span className='text-[9px] text-muted-foreground ml-auto shrink-0'>
+                        {(() => { try { return new URL(media.url).hostname.replace('www.', ''); } catch { return 'link'; } })()}
+                      </span>
+                    </a>
+                  ))}
+                  {activeEvent.mediaUrls?.filter(m => m.type === 'twitter').map((media, i) => (
+                    <a
+                      key={`tw-${i}`}
+                      href={media.url}
+                      target='_blank'
+                      rel='noopener noreferrer'
+                      className='flex items-center gap-2 rounded-md bg-muted/50 px-2.5 py-1.5 hover:bg-accent transition-colors'
+                    >
+                      <IconBrandTwitter className='h-3.5 w-3.5 text-sky-400 shrink-0' />
+                      <span className='text-[11px] truncate'>{media.label || 'Post'}</span>
+                    </a>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* Running death toll */}
             {(casualties.totalKilled > 0 || casualties.totalDisplaced > 0) && (
               <div className='px-3 py-2 border-t bg-red-950/20 flex flex-wrap items-center gap-x-4 gap-y-1'>
                 <span className='flex items-center gap-1.5 text-sm font-black text-red-400'>

@@ -73,6 +73,41 @@ export default function AboutPage() {
             </p>
           </CardContent>
         </Card>
+
+        <Card id='terms'>
+          <CardHeader>
+            <CardTitle>Terms of Use</CardTitle>
+          </CardHeader>
+          <CardContent className='text-sm text-muted-foreground space-y-3'>
+            <p>By using OilBurnTracker you agree to the following terms:</p>
+            <ul className='list-disc pl-5 space-y-1.5'>
+              <li><strong>Informational purposes only.</strong> This site provides conflict monitoring data for public awareness and educational purposes. It is not intended as the basis for investment, military, or policy decisions.</li>
+              <li><strong>No warranty.</strong> Data is compiled from public sources and may contain errors, delays, or omissions. We make no guarantee of accuracy, completeness, or timeliness.</li>
+              <li><strong>Third-party content.</strong> Embedded videos are served via YouTube&apos;s official embed player and are subject to YouTube&apos;s Terms of Service. News article links direct to their original publishers. We do not reproduce copyrighted content.</li>
+              <li><strong>Fair use.</strong> Short factual descriptions of news events constitute fair use for public interest reporting. Source attribution is provided for all claims.</li>
+              <li><strong>No affiliation.</strong> OilBurnTracker is not affiliated with NASA, any government, energy company, or news organization.</li>
+              <li><strong>User conduct.</strong> Do not use this tool to incite violence, harass individuals, or violate any applicable law.</li>
+            </ul>
+          </CardContent>
+        </Card>
+
+        <Card id='privacy'>
+          <CardHeader>
+            <CardTitle>Privacy Policy</CardTitle>
+          </CardHeader>
+          <CardContent className='text-sm text-muted-foreground space-y-3'>
+            <p><strong>We collect no personal data.</strong></p>
+            <ul className='list-disc pl-5 space-y-1.5'>
+              <li>No cookies, no tracking pixels, no analytics scripts.</li>
+              <li>No account creation or login required.</li>
+              <li>No data is stored about your visit on our servers.</li>
+              <li>The FIRMS API proxy passes your request to NASA servers — NASA&apos;s own privacy policy applies to that data.</li>
+              <li>Embedded YouTube videos are loaded from YouTube&apos;s privacy-enhanced mode (youtube-nocookie.com), which limits tracking. YouTube&apos;s privacy policy applies to video playback.</li>
+              <li>This site is hosted on Cloudflare Pages. Cloudflare may collect minimal access logs per their privacy policy.</li>
+            </ul>
+            <p className='text-xs text-muted-foreground/70 mt-2'>Last updated: March 2026</p>
+          </CardContent>
+        </Card>
       </div>
     </PageContainer>
   );
