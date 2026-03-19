@@ -9,7 +9,8 @@ import { useFireData } from '@/features/map/hooks/use-fire-data';
 import { useFireStore } from '@/stores/fire-store';
 import { curatedFires, getCurrentDisruptionLevel } from '@/features/fires/data/curated-fires';
 import { getCasualtiesUpTo } from '@/features/timeline/data/conflict-events';
-import { IconFlame, IconBuildingFactory, IconWorld, IconAlertTriangle, IconHeart, IconUsers, IconSkull } from '@tabler/icons-react';
+import { IconFlame, IconBuildingFactory, IconWorld, IconAlertTriangle, IconHeart, IconUsers, IconSkull, IconCloud } from '@tabler/icons-react';
+import { formatCO2, co2Equivalents } from '@/features/emissions/utils/emissions-model';
 import Link from 'next/link';
 
 const FireMap = dynamic(() => import('@/features/map/components/fire-map'), {
@@ -35,6 +36,10 @@ function CompactStats() {
   const timelineDate = useFireStore((s) => s.timelineDate);
 
   const activeFires = fireData.features.length;
+
+  // Live CO2 emissions from all detected fires
+  const totalCO2TonsDay = fireData.features.reduce((sum, f) => sum + f.properties.estimatedCO2TonsDay, 0);
+  const equiv = co2Equivalents(totalCO2TonsDay);
 
   const activeStrikeCount = curatedFires.filter(
     (f) => f.status === 'active_fire' || f.status === 'damaged'
@@ -69,6 +74,26 @@ function CompactStats() {
           )}
         </div>
       </div>
+
+      {/* CO2 EMISSIONS — second most prominent */}
+      {totalCO2TonsDay > 0 && (
+        <Link href='/dashboard/fires' className='rounded-lg border border-orange-500/40 bg-orange-950/80 backdrop-blur-md px-3 py-1.5 shadow-lg hover:bg-orange-950/90 transition-colors'>
+          <div className='flex items-center gap-2'>
+            <IconCloud className='h-4 w-4 text-orange-400' />
+            <span className='text-sm font-black text-orange-400 tabular-nums'>
+              {formatCO2(totalCO2TonsDay)} t CO₂/day
+            </span>
+          </div>
+          <div className='flex items-center gap-3 mt-0.5'>
+            <span className='text-[10px] font-bold text-orange-300'>
+              = {equiv.carsPerYear.toLocaleString()} cars/yr
+            </span>
+            <span className='text-[10px] text-orange-300/70'>
+              {equiv.homesPerYear.toLocaleString()} homes/yr
+            </span>
+          </div>
+        </Link>
+      )}
 
       {/* Disruption level badge */}
       <div className={`rounded-full border ${disruptionColor} bg-background/85 backdrop-blur-md px-3 py-1 shadow-lg`}>

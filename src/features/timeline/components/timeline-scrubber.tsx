@@ -26,8 +26,10 @@ import {
   IconBolt,
   IconPlayerSkipForward,
   IconPlayerSkipBack,
-  IconUsers
+  IconUsers,
+  IconCloud
 } from '@tabler/icons-react';
+import { formatCO2 } from '@/features/emissions/utils/emissions-model';
 
 // ── Extract YouTube video ID from URL ──
 function getYouTubeId(url: string): string | null {
@@ -108,8 +110,12 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
   const playRef = useRef<NodeJS.Timeout | null>(null);
   const eventListRef = useRef<HTMLDivElement>(null);
   const feedRef = useRef<HTMLDivElement>(null);
+  const fireData = useFireStore((s) => s.fireData);
   const setSelectedFacility = useFireStore((s) => s.setSelectedFacility);
   const setTimelineDate = useFireStore((s) => s.setTimelineDate);
+
+  // Live CO2 from satellite detections
+  const totalCO2 = fireData.features.reduce((sum, f) => sum + f.properties.estimatedCO2TonsDay, 0);
 
   const currentDate = ALL_DAYS[currentIndex];
   const todayEvents = EVENTS_BY_DATE.get(currentDate) || [];
@@ -402,6 +408,12 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
             {stats.pctGlobal > 0 && (
               <span className='font-semibold text-foreground'>
                 {stats.pctGlobal.toFixed(1)}% global supply
+              </span>
+            )}
+            {totalCO2 > 0 && (
+              <span className='flex items-center gap-1 font-semibold text-orange-400'>
+                <IconCloud className='h-3 w-3' />
+                {formatCO2(totalCO2)} t CO₂/day
               </span>
             )}
             {Object.entries(casualties.byRegion)
