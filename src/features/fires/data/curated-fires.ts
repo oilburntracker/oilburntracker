@@ -405,10 +405,10 @@ export const curatedFires: CuratedFire[] = [
 // ═══ CATASTROPHE THRESHOLDS ═══
 // Derived from IEA emergency response triggers and historical precedent
 export const CATASTROPHE_THRESHOLDS = {
-  mild: { pctGlobal: 2, label: 'Moderate Disruption', description: 'Prices rise 10-20%. Strategic reserves can cover.' },
-  severe: { pctGlobal: 5, label: 'Severe Disruption', description: 'Oil $150+/bbl. IEA triggers coordinated reserve release. Fuel rationing in importing nations.' },
-  crisis: { pctGlobal: 10, label: 'Energy Crisis', description: 'Oil $200+/bbl. Recession in oil-importing nations. Airlines ground flights. Industrial shutdowns.' },
-  catastrophe: { pctGlobal: 20, label: 'Regional Catastrophe', description: 'Hormuz closure scenario. Oil $300+/bbl. Global depression. Military escalation to reopen straits.' }
+  mild: { pctGlobal: 2, label: '2%+ Global Supply Affected', description: 'Strategic reserves can cover shortfall. Moderate price pressure.' },
+  severe: { pctGlobal: 5, label: '5%+ Global Supply Affected', description: 'IEA emergency reserve release threshold. Significant supply gap.' },
+  crisis: { pctGlobal: 10, label: '10%+ Global Supply Affected', description: '10M+ BPD offline. Exceeds global spare capacity and strategic reserves.' },
+  catastrophe: { pctGlobal: 20, label: '20%+ Global Supply Affected', description: 'Hormuz-closure-level disruption. 21M BPD transit at risk.' }
 };
 
 export function getCurrentDisruptionLevel() {
@@ -420,7 +420,7 @@ export function getCurrentDisruptionLevel() {
   if (affectedPct >= CATASTROPHE_THRESHOLDS.crisis.pctGlobal) return { level: 'crisis' as const, ...CATASTROPHE_THRESHOLDS.crisis, affectedPct };
   if (affectedPct >= CATASTROPHE_THRESHOLDS.severe.pctGlobal) return { level: 'severe' as const, ...CATASTROPHE_THRESHOLDS.severe, affectedPct };
   if (affectedPct >= CATASTROPHE_THRESHOLDS.mild.pctGlobal) return { level: 'mild' as const, ...CATASTROPHE_THRESHOLDS.mild, affectedPct };
-  return { level: 'normal' as const, pctGlobal: 0, label: 'Normal Operations', description: 'No significant supply disruption.', affectedPct };
+  return { level: 'normal' as const, pctGlobal: 0, label: 'Below 2% Global Supply Affected', description: 'No significant supply disruption.', affectedPct };
 }
 
 /**

@@ -1,105 +1,176 @@
 # OilBurnTracker
 
-Real-time satellite fire detection + facility identification + emissions estimates for conflict-affected oil & gas infrastructure. Open source. Free data.
+Real-time tracking of conflict-affected energy infrastructure. Open source, free data, no login required.
 
-## What It Does
+## The Problem
 
-No existing tool combines satellite fire detection, facility identification, and emissions estimates in one dashboard. OilBurnTracker changes that by integrating:
+The March 2026 Iran conflict has struck 8+ major oil and gas facilities across the Persian Gulf. There is no single tool that shows:
+- Which facilities have been hit
+- How much energy capacity is at risk
+- What the downstream impact is on global supply
+- Which facilities could be next
 
-- **NASA FIRMS** satellite fire detections (VIIRS, updated every ~3 hours)
-- **15 curated Middle East facilities** with capacity data and conflict status
-- **FRP-to-CO2 emissions model** with facility-type-specific multipliers
-- **Interactive satellite map** with heatmap, pulsing fire markers, and facility overlays
+OilBurnTracker fills that gap.
 
-## Features
+## What You See
 
-- 3D satellite fire map (MapLibre GL JS — fully open source, no API key)
-- Real terrain elevation with pitch/rotation controls
-- Animated pulsing dots color-coded by fire intensity
-- Heatmap layer weighted by Fire Radiative Power (FRP)
-- Automatic facility matching via haversine proximity
-- Real-time stats: active fires, CO2/day, facilities affected, global energy at risk
-- Emissions timeline chart (Recharts, stacked by facility type)
-- Facility status cards with live satellite detection data
-- Dark mode default, fully responsive
-- 30-minute auto-refresh with ISR caching
+- **Interactive 3D satellite map** with terrain — zoom, tilt, rotate
+- **Facility markers scaled by impact** — bigger glow = more critical to global energy supply
+- **Tap any facility** to see: capacity, storage, attack date, news source, strategic importance, and what happens if it's destroyed
+- **Real-time disruption level** — normal, moderate, severe, crisis, or catastrophe based on cumulative global supply impact
+- **NASA FIRMS satellite fire detections** overlaid as heatmap + pulsing markers
+- **20+ curated facilities** including chokepoints (Strait of Hormuz, Bab el-Mandeb)
+
+## Currently Tracked
+
+### Confirmed Strikes
+| Facility | Country | Date | Type | Global Capacity |
+|----------|---------|------|------|----------------|
+| Ras Tanura Refinery | Saudi Arabia | Mar 2 | Refinery | 0.55% |
+| BAPCO Sitra Refinery | Bahrain | Mar 9 | Refinery | 0.27% |
+| Kharg Island Terminal | Iran | Mar 13 | Export Port | 5.0% |
+| Shah Gas Field | UAE | Mar 16 | Gas Field | 0.3% |
+| Fujairah Storage Zone | UAE | Mar 16 | Oil Storage | 0.1% |
+| South Pars Gas Field | Iran | Mar 18 | Gas Field | 2.5% |
+| Ras Laffan LNG | Qatar | Mar 18 | LNG Terminal | 1.4% |
+| Mina al-Ahmadi Refinery | Kuwait | Mar 19 | Refinery | 0.47% |
+
+### Strategic Chokepoints
+| Location | Daily Transit | Global Share |
+|----------|--------------|-------------|
+| Strait of Hormuz | 21M BPD | 21% of world oil |
+| Bab el-Mandeb | 6.2M BPD | Gateway to Suez Canal |
+
+### Iran-Threatened (Named as targets Mar 18)
+Abqaiq (7M BPD), SAMREF Yanbu, Jubail, Al Hosn, Mesaieed
 
 ## Quick Start
 
 ```bash
-git clone https://github.com/gabeflowers/oilburntracker.git
+git clone https://github.com/oilburntracker/oilburntracker.git
 cd oilburntracker
 npm install
 cp .env.example .env.local
 ```
 
-Add your FIRMS API key to `.env.local`:
+Get a free NASA FIRMS API key (takes 30 seconds):
+1. Go to https://firms.modaps.eosdis.nasa.gov/api/area/
+2. Register with any email
+3. Add your key to `.env.local`:
 
 ```env
-FIRMS_MAP_KEY=xxx   # Free: https://firms.modaps.eosdis.nasa.gov/api/area/
+FIRMS_MAP_KEY=your_key_here
 ```
 
-That's it — one key. The map uses free open-source tiles (no Mapbox account needed).
+That's it — the map uses free open-source tiles, no other API keys needed.
 
 ```bash
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000).
+Open http://localhost:3000
 
 ## Tech Stack
 
-- **Framework:** Next.js 16 + React 19 + TypeScript
-- **Styling:** Tailwind CSS 4 + shadcn/ui
-- **Map:** MapLibre GL JS (open source) + ESRI satellite tiles + AWS terrain
-- **Charts:** Recharts
-- **State:** Zustand
-- **Data:** NASA FIRMS API (free, real-time satellite fire detections)
+| Layer | Technology | Cost |
+|-------|-----------|------|
+| Framework | Next.js 16 + React 19 + TypeScript | Free |
+| Map | MapLibre GL JS (open source fork of Mapbox) | Free |
+| Tiles | ESRI satellite + AWS terrain DEM + CARTO labels | Free |
+| Fire Data | NASA FIRMS VIIRS satellite detections | Free |
+| Charts | Recharts | Free |
+| State | Zustand | Free |
+| Styling | Tailwind CSS 4 + shadcn/ui | Free |
+| Hosting | Vercel (or any Node host) | Free tier |
+
+**Total cost to run: $0**
 
 ## Architecture
 
 ```
 Browser
-  ↓
-Next.js (Vercel)
-  ├── /dashboard/overview  →  Map + Stats + Fire List
-  ├── /dashboard/fires     →  Facility cards with live status
-  ├── /dashboard/timeline  →  Emissions charts
-  ├── /dashboard/about     →  Methodology + data sources
-  └── /api/firms           →  FIRMS CSV → GeoJSON (30min cache)
+  |
+Next.js
+  ├── /dashboard/overview  →  Full-screen 3D map + facility markers + bottom drawer
+  ├── /dashboard/fires     →  Facility cards with status
+  ├── /dashboard/timeline  →  Emissions timeline chart
+  ├── /dashboard/about     →  Methodology + sources
+  └── /api/firms           →  FIRMS CSV → GeoJSON (30min ISR cache)
                                   ↓
-                            NASA FIRMS API
+                            NASA FIRMS API (satellite data)
                                   +
-                            curated-fires.ts (15 facilities)
+                            curated-fires.ts (20+ facilities with strategic data)
 ```
 
 ## Data Sources
 
-| Source | What | Update Frequency | Cost |
-|--------|------|-----------------|------|
-| NASA FIRMS | Satellite fire detections (VIIRS) | ~3 hours | Free |
-| ESRI/AWS | Satellite tiles + 3D terrain | Continuous | Free (open) |
-| Curated DB | Facility coordinates, capacity, status | Manual | N/A |
+| Source | What | Frequency | License |
+|--------|------|-----------|---------|
+| NASA FIRMS | VIIRS satellite fire detections | ~3 hours | Public domain (US Gov) |
+| ESRI World Imagery | Satellite basemap tiles | Continuous | Free for non-commercial |
+| AWS Terrain Tiles | Elevation/DEM for 3D terrain | Continuous | Public domain |
+| CARTO | Map label tiles | Continuous | BSD |
+| Curated Database | Facility data, attack dates, strategic analysis | Manual updates | MIT (this repo) |
+| News Sources | Attack confirmations, damage reports | As reported | Linked, not reproduced |
 
-## Emissions Methodology
+## Legal & Disclaimers
 
-Fire Radiative Power (FRP) from satellite measurements is converted to estimated CO2 using facility-type-specific multipliers (tons CO2 per MW-day):
+### License
 
-| Facility Type | Multiplier |
-|---------------|-----------|
-| Refinery | 86.4 |
-| LNG Terminal | 72.0 |
-| Oil Field | 79.2 |
-| Storage | 64.8 |
-| Pipeline | 50.4 |
-| Unknown | 60.0 |
+This software is released under the **MIT License**. See [LICENSE](LICENSE).
 
-**These are rough estimates for awareness, not precise measurements.**
+### Data Accuracy
+
+- Facility data is compiled from **publicly available news reports** and **open-source intelligence**. Each confirmed strike includes a link to its source.
+- Satellite fire detections come from NASA FIRMS, a US government public domain dataset.
+- CO2 emissions estimates use rough FRP-to-CO2 multipliers and are **for awareness only, not scientific measurements**.
+- Facility capacities and storage figures are sourced from public corporate disclosures, EIA data, and news reports.
+- This tool does **not** contain classified, proprietary, or restricted information.
+
+### Fair Use & News Sources
+
+- News source URLs are linked (not copied) for attribution and verification.
+- No copyrighted article text is reproduced in this project.
+- Facility descriptions are original summaries written for this project.
+- This constitutes fair use for purposes of public interest reporting and analysis.
+
+### Not Affiliated
+
+OilBurnTracker is **not affiliated** with NASA, any government agency, energy company, or news organization. It is an independent open-source project.
+
+### Limitation of Liability
+
+This tool is provided for **informational and educational purposes only**. It should not be used as the sole basis for investment, military, or policy decisions. The authors make no warranty about the accuracy, completeness, or timeliness of any data presented.
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md). The most impactful contribution is adding curated facilities to expand coverage.
+See [CONTRIBUTING.md](CONTRIBUTING.md). The most impactful contributions:
 
-## License
+1. **Add/update facility data** — new strikes, corrected figures, additional facilities
+2. **Improve strategic analysis** — better cascade impact descriptions, supply chain data
+3. **Better emissions model** — if you have domain expertise in FRP→CO2 conversion
+4. **UI/UX improvements** — mobile experience, accessibility, new visualizations
+5. **Deploy & share** — host your own instance, embed in articles
 
-MIT License. See [LICENSE](LICENSE).
+## Deploying
+
+### Vercel (recommended)
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/oilburntracker/oilburntracker&env=FIRMS_MAP_KEY&envDescription=NASA%20FIRMS%20API%20key%20(free)&envLink=https://firms.modaps.eosdis.nasa.gov/api/area/)
+
+### Self-hosted
+
+```bash
+npm run build
+npm start
+```
+
+Or with Docker:
+```bash
+docker build -t oilburntracker .
+docker run -p 3000:3000 -e FIRMS_MAP_KEY=xxx oilburntracker
+```
+
+## Credits
+
+Built with data from NASA FIRMS, ESRI, AWS Open Data, and CARTO. News sourced from Bloomberg, Reuters, Al Jazeera, Washington Post, CNBC, Axios, Euronews, Business Today, and Middle East Eye.
