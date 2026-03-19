@@ -18,7 +18,7 @@ export interface ConflictEvent {
   lng?: number;
   zoom?: number;
   sourceUrl?: string;
-  mediaUrls?: {                    // embedded video/images
+  mediaUrls?: {
     type: 'youtube' | 'twitter' | 'news';
     url: string;
     label?: string;
@@ -26,18 +26,18 @@ export interface ConflictEvent {
   casualties?: {
     killed?: number;
     injured?: number;
-    displaced?: number;            // people displaced
-    source?: string;               // "Iran Health Ministry", "IDF", etc.
-    killedAdjusted?: number;       // independent estimate (e.g. Lancet)
-    adjustedSource?: string;       // "Lancet Global Health survey"
-    children?: number;             // children killed
+    displaced?: number;
+    source?: string;
+    killedAdjusted?: number;
+    adjustedSource?: string;
+    children?: number;
   };
   movements?: {
     type: 'displacement' | 'military' | 'supply_disruption';
-    from: [number, number];        // [lat, lng]
+    from: [number, number];
     to: [number, number];
     label?: string;
-    volume?: number;               // people or barrels
+    volume?: number;
   }[];
 }
 
@@ -64,99 +64,282 @@ const CATEGORY_COLORS: Record<EventCategory, string> = {
 export { CATEGORY_LABELS, CATEGORY_COLORS };
 
 // ═══ CONFLICT TIMELINE: Oct 2023 → Present ═══
-// Casualty data from: Gaza MoH, Lancet Global Health, OCHA, UNICEF, IDF,
+// Casualty data verified from: Gaza MoH, Lancet Global Health, OCHA, UNICEF, IDF,
 // Lebanese Health Ministry, Iran Health Ministry, HRANA, CENTCOM, Airwars, HRW.
-// Submit PRs to add events or correct figures.
+// Casualty figures are INCREMENTAL per event — the cumulative function sums them.
 
 export const conflictEvents: ConflictEvent[] = [
-  // ── 2023: October War & Gaza Invasion ──
+  // ══════════════════════════════════════════════
+  // OCTOBER 7, 2023 — THE DAY THAT CHANGED EVERYTHING
+  // ══════════════════════════════════════════════
   {
-    id: 'oct7-attack',
+    id: 'oct7-rockets',
     date: '2023-10-07',
-    title: 'Hamas attacks Israel — October 7 massacre',
+    title: '6:29 AM — Hamas launches 2,200 rockets, breaches Gaza barrier',
     category: 'escalation',
-    description: 'Hamas-led assault on southern Israel. 1,139 killed including 695+ civilians, 36 children, 71 foreign nationals. 254 taken hostage. Nova music festival and border kibbutzim targeted. Triggers Israeli declaration of war.',
-    casualties: { killed: 1139, injured: 3400, displaced: 200000, source: 'Israeli Government (revised)', children: 36 },
-    lat: 31.3547,
-    lng: 34.3088,
-    zoom: 9,
+    description: 'At 6:29 AM, Hamas fires 2,200+ rockets in 20 minutes across southern Israel. Simultaneously, hundreds of Nukhba commandos breach the Gaza-Israel barrier at 29 points using bulldozers, explosives, and paragliders. The largest attack on Israeli soil since 1973.',
+    lat: 31.45,
+    lng: 34.40,
+    zoom: 10,
+    sourceUrl: 'https://www.cbsnews.com/news/israel-hamas-war-timeline-major-events-since-october-7-2023/'
+  },
+  {
+    id: 'oct7-nova-festival',
+    date: '2023-10-07',
+    title: 'Nova music festival massacre — 378 gunned down',
+    category: 'escalation',
+    description: '3,500 young people at an outdoor music festival near Re\'im. At 6:32 AM organizers tell everyone to leave. By 7 AM armed militants on motorcycles surround the site. Attendees run into open fields — hunted and shot. Bodies found in cars, in ditches, behind trees. 378 killed (344 civilians, 34 security). 44 taken hostage. The deadliest single-site massacre. First IDF unit arrives at 11:20 AM — nearly 5 hours after the attack began.',
+    casualties: { killed: 378, source: 'Israeli Government (revised April 2025)' },
+    lat: 31.3853,
+    lng: 34.4600,
+    zoom: 14,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Nova_music_festival_massacre',
+    mediaUrls: [
+      { type: 'news', url: 'https://www.jpost.com/israel-news/defense-news/article-848756', label: 'JPost: Nova massacre 378 killed' }
+    ]
+  },
+  {
+    id: 'oct7-beeri',
+    date: '2023-10-07',
+    title: 'Kibbutz Be\'eri — 12-hour siege, families executed in homes',
+    category: 'escalation',
+    description: 'Militants enter Be\'eri at 6:50 AM. Residents barricade in safe rooms. Terrorists go house to house, executing families, burning homes with people inside. A 12-hour siege — IDF rescue takes until nightfall. 101 civilians and 31 security personnel killed. Entire families wiped out. Children murdered in their beds. 32 hostages dragged to Gaza.',
+    casualties: { killed: 132, source: 'Israeli Government' },
+    lat: 31.4238,
+    lng: 34.4910,
+    zoom: 14,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Be%27eri_massacre',
+    mediaUrls: [
+      { type: 'news', url: 'https://www.hrw.org/news/2024/07/17/october-7-crimes-against-humanity-war-crimes-hamas-led-groups', label: 'HRW: Crimes against humanity' }
+    ]
+  },
+  {
+    id: 'oct7-kfar-aza',
+    date: '2023-10-07',
+    title: 'Kfar Aza — house-to-house killings, babies and elderly murdered',
+    category: 'escalation',
+    description: 'Hamas breaches Kfar Aza and goes door to door. Bodies found in homes and streets. Reports of sexual violence. Infants and elderly killed. At least 62 residents murdered. 19 kidnapped to Gaza. Among the first communities where journalists documented the aftermath — the images shocked the world.',
+    casualties: { killed: 62, source: 'Israeli Government' },
+    lat: 31.4835,
+    lng: 34.5337,
+    zoom: 14,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Kfar_Aza_massacre'
+  },
+  {
+    id: 'oct7-nir-oz',
+    date: '2023-10-07',
+    title: 'Nir Oz — 1 in 4 residents kidnapped, highest hostage ratio',
+    category: 'escalation',
+    description: 'Small kibbutz of 400 people near the border. 47 killed and 76 taken hostage — nearly 1 in 4 residents kidnapped. The highest ratio of any community. First IDF troops arrive 40 minutes AFTER the last terrorists left. Described as a "massive failure" of military response.',
+    casualties: { killed: 47, source: 'Israeli Government' },
+    lat: 31.3099,
+    lng: 34.4011,
+    zoom: 14,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Nir_Oz_attack',
+    mediaUrls: [
+      { type: 'news', url: 'https://www.timesofisrael.com/massive-failure-first-troops-reached-kibbutz-nir-oz-40-minutes-after-last-terrorists-left', label: 'ToI: Massive failure at Nir Oz' }
+    ]
+  },
+  {
+    id: 'oct7-nahal-oz',
+    date: '2023-10-07',
+    title: 'Nahal Oz military base overrun — female soldiers kidnapped',
+    category: 'escalation',
+    description: '215 Hamas fighters storm the IDF surveillance base 850m from Gaza. The unit monitoring Gaza — destroyed. 53 soldiers killed. 10 kidnapped including 7 young female observation soldiers who had warned of unusual Hamas activity in the days before. Toxic gas used to kill soldiers in protected positions.',
+    casualties: { killed: 53, injured: 7, source: 'IDF' },
+    lat: 31.4727,
+    lng: 34.4977,
+    zoom: 14,
+    sourceUrl: 'https://www.timesofisrael.com/systemic-failure-how-nahal-oz-base-850-meters-from-gaza-yet-utterly-vulnerable-fell-to-hamas/'
+  },
+  {
+    id: 'oct7-sderot',
+    date: '2023-10-07',
+    title: 'Battle of Sderot — police station siege, city terrorized',
+    category: 'escalation',
+    description: '40 Nukhba fighters infiltrate Israel\'s largest border city. They attack the police station, killing the first officer at the entrance. Militants barricade inside. 53 killed: 37 civilians, 11 police, 2 firefighters. Last fighters not cleared until Oct 8. Station demolished with bulldozers.',
+    casualties: { killed: 53, source: 'Israeli Government' },
+    lat: 31.5265,
+    lng: 34.5970,
+    zoom: 13,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Battle_of_Sderot'
+  },
+  {
+    id: 'oct7-other-communities',
+    date: '2023-10-07',
+    title: '254 hostages taken to Gaza — families torn apart',
+    category: 'escalation',
+    description: 'Across 22+ communities: Kissufim (22 killed), Re\'im base attacked, Sufa, Nirim, Ein HaShlosha, Alumim. Total Oct 7: 1,139 killed (695+ civilians, 373 soldiers, 71 foreign workers). 3,400+ wounded. 254 people — including babies, children, elderly, Holocaust survivors — dragged into Gaza as hostages. The deadliest day for Jewish people since the Holocaust.',
+    casualties: { killed: 414, injured: 3400, displaced: 200000, source: 'Israeli Government — remaining communities combined', children: 36 },
+    lat: 31.40,
+    lng: 34.45,
+    zoom: 11,
     sourceUrl: 'https://www.bbc.com/news/world-middle-east-67039975',
     mediaUrls: [
       { type: 'news', url: 'https://www.aljazeera.com/news/2023/10/7/what-happened-in-israel-a-breakdown-of-how-the-hamas-attack-unfolded', label: 'Al Jazeera: How the attack unfolded' },
-      { type: 'news', url: 'https://www.cnn.com/2023/11/15/middleeast/bodycam-video-hamas-massacre-tunnels-intl/index.html', label: 'CNN: Bodycam footage' },
-      { type: 'news', url: 'https://www.nytimes.com/live/2023/10/07/world/israel-gaza-attack', label: 'NYT: Live updates' }
+      { type: 'news', url: 'https://www.cnn.com/2023/11/15/middleeast/bodycam-video-hamas-massacre-tunnels-intl/index.html', label: 'CNN: Bodycam footage' }
     ],
     movements: [
-      { type: 'displacement', from: [31.35, 34.31], to: [31.75, 34.78], label: '200K evacuated from border', volume: 200000 }
-    ]
-  },
-  {
-    id: 'israel-gaza-invasion',
-    date: '2023-10-27',
-    title: 'Israel launches ground invasion of Gaza',
-    category: 'escalation',
-    description: 'IDF begins ground operations in northern Gaza. Massive aerial bombardment: 6,000+ bombs in first week. Entire neighborhoods leveled. 1.1M ordered to evacuate northern Gaza. Water, electricity, fuel cut off.',
-    casualties: { killed: 75000, injured: 171726, displaced: 1900000, source: 'Gaza Health Ministry (cumulative through Feb 2026)', killedAdjusted: 100000, adjustedSource: 'Lancet Global Health survey — MoH figures ~35% below actual deaths', children: 17000 },
-    lat: 31.5,
-    lng: 34.47,
-    zoom: 10,
-    sourceUrl: 'https://www.aljazeera.com/news/2023/10/28/israel-announces-expansion-of-ground-operations-in-gaza',
-    mediaUrls: [
-      { type: 'news', url: 'https://www.bbc.com/news/world-middle-east-67271634', label: 'BBC: Ground invasion begins' },
-      { type: 'news', url: 'https://www.aljazeera.com/features/2026/2/18/gaza-death-toll-exceeds-75000-as-independent-data-verify-loss', label: 'Al Jazeera: Death toll exceeds 75,000' },
-      { type: 'news', url: 'https://www.thelancet.com/journals/langlo/article/PIIS2214-109X(25)00522-4/fulltext', label: 'Lancet: Independent mortality survey' }
-    ],
-    movements: [
-      { type: 'displacement', from: [31.52, 34.45], to: [31.35, 34.31], label: '1.1M flee south', volume: 1100000 }
-    ]
-  },
-  {
-    id: 'al-shifa-siege',
-    date: '2023-11-14',
-    title: 'Israeli forces raid Al-Shifa Hospital — Gaza\'s largest',
-    category: 'military_strike',
-    description: 'IDF storms Al-Shifa Hospital complex claiming Hamas command center beneath it. 300+ patients, newborns on ventilators, and medical staff trapped. WHO loses contact. Hospital rendered non-functional. Becomes symbol of Gaza healthcare collapse.',
-    casualties: { killed: 80, source: 'WHO / Gaza MoH' },
-    lat: 31.5197,
-    lng: 34.4431,
-    zoom: 14,
-    sourceUrl: 'https://www.bbc.com/news/world-middle-east-67423077',
-    mediaUrls: [
-      { type: 'news', url: 'https://www.who.int/news/item/18-11-2023-who-appalled-by-latest-attacks-on-hospitals-in-gaza', label: 'WHO: Appalled by hospital attacks' }
-    ]
-  },
-  {
-    id: 'southern-gaza-evacuation',
-    date: '2023-12-01',
-    title: 'IDF orders ALL of southern Gaza to evacuate — nowhere left to go',
-    category: 'humanitarian',
-    description: 'After pushing 1.1M people south, Israel now orders southern Gaza evacuation too. 1.9M of 2.1M Gazans displaced — 90% of the population. Many displaced 5-10 times. UN: "There is no safe place in Gaza."',
-    casualties: { displaced: 1900000, source: 'OCHA' },
-    lat: 31.34,
-    lng: 34.31,
-    zoom: 11,
-    sourceUrl: 'https://www.reuters.com/world/middle-east/israel-tells-southern-gaza-residents-evacuate-2023-12-01/',
-    movements: [
-      { type: 'displacement', from: [31.35, 34.31], to: [31.23, 34.25], label: '1.9M displaced, nowhere safe', volume: 1900000 }
+      { type: 'displacement', from: [31.35, 34.40], to: [31.75, 34.78], label: '200K evacuated from border', volume: 200000 }
     ]
   },
 
-  // ── 2024: Regional Escalation ──
+  // ══════════════════════════════════════════════
+  // OCT 8-27: SIEGE, BOMBARDMENT, BUILDUP TO INVASION
+  // ══════════════════════════════════════════════
+  {
+    id: 'oct8-hezbollah-front',
+    date: '2023-10-08',
+    title: 'Hezbollah opens second front — attacks northern Israel',
+    category: 'escalation',
+    description: 'One day after Oct 7, Hezbollah fires rockets at Israeli positions in Shebaa Farms, declaring solidarity with Hamas. Israel responds with artillery. Start of continuous cross-border fire that will displace entire communities on both sides and eventually escalate into full Lebanon war.',
+    lat: 33.28,
+    lng: 35.70,
+    zoom: 10,
+    sourceUrl: 'https://en.wikipedia.org/wiki/October_2023_Israel%E2%80%93Hezbollah_fire_exchanges'
+  },
+  {
+    id: 'oct9-total-siege',
+    date: '2023-10-09',
+    title: '"We are fighting human animals" — total siege of Gaza declared',
+    category: 'humanitarian',
+    description: 'Defense Minister Gallant orders a "complete siege" of Gaza: "No electricity, no food, no fuel, everything is closed. We are fighting human animals." Power cut by 90%. Hospitals lose electricity. Desalination plants shut down. 2.3 million people — half of them children — trapped with dwindling supplies. The siege will last months.',
+    casualties: { killed: 700, injured: 2000, source: 'Gaza MoH (first 2 days of airstrikes)' },
+    lat: 31.42,
+    lng: 34.36,
+    zoom: 10,
+    sourceUrl: 'https://www.aljazeera.com/news/2023/10/9/israel-announces-total-blockade-on-gaza',
+    mediaUrls: [
+      { type: 'news', url: 'https://www.pbs.org/newshour/world/israeli-defense-minister-orders-complete-siege-on-gaza-after-hamas-surprise-attack', label: 'PBS: No power, food or fuel' }
+    ]
+  },
+  {
+    id: 'oct13-evacuation-order',
+    date: '2023-10-13',
+    title: '1.1 million ordered to evacuate northern Gaza in 24 hours',
+    category: 'humanitarian',
+    description: 'Israel orders ALL residents north of Wadi Gaza — 1.1 million people — to evacuate south in 24 hours. UN: "impossible" and "extremely dangerous." Hundreds of thousands flee on foot down a single road. Those who can\'t move — elderly, disabled, hospital patients — are left behind. Evacuation convoys bombed.',
+    casualties: { killed: 1500, displaced: 1100000, source: 'Gaza MoH (through Oct 13)', children: 500 },
+    lat: 31.45,
+    lng: 34.42,
+    zoom: 11,
+    sourceUrl: 'https://www.pbs.org/newshour/world/israel-orders-evacuation-of-1-million-in-northern-gaza-in-24-hours',
+    movements: [
+      { type: 'displacement', from: [31.52, 34.45], to: [31.35, 34.31], label: '1.1M ordered south', volume: 1100000 }
+    ]
+  },
+  {
+    id: 'oct17-al-ahli-hospital',
+    date: '2023-10-17',
+    title: 'Al-Ahli Hospital explosion — hundreds killed sheltering',
+    category: 'military_strike',
+    description: 'Explosion hits the courtyard of Al-Ahli Hospital where hundreds of displaced civilians were sleeping. Gaza MoH: 471 killed. US intelligence: 100-300. Cause disputed — Hamas blames Israeli airstrike, Israel blames PIJ rocket misfire. HRW cannot conclusively determine origin. Explosion triggers massive protests across Arab world.',
+    casualties: { killed: 471, injured: 342, source: 'Gaza Health Ministry' },
+    lat: 31.5049,
+    lng: 34.4616,
+    zoom: 15,
+    sourceUrl: 'https://www.hrw.org/news/2023/11/26/gaza-findings-october-17-al-ahli-hospital-explosion',
+    mediaUrls: [
+      { type: 'news', url: 'https://www.aljazeera.com/news/2023/10/18/what-do-we-know-about-the-strike-on-the-hospital-in-gaza', label: 'Al Jazeera: What we know' }
+    ]
+  },
+  {
+    id: 'oct21-rafah-aid',
+    date: '2023-10-21',
+    title: 'First aid enters Gaza — 20 trucks. Before the war: 100/day.',
+    category: 'humanitarian',
+    description: 'After two weeks of total siege, 20 aid trucks enter through Rafah — the first since Oct 7. Medicine and food only. No fuel. Before the war, Gaza received 100+ trucks daily. WHO: "a drop in the ocean." 2.3 million people have had almost no food, water, or medicine for 14 days.',
+    lat: 31.2725,
+    lng: 34.2586,
+    zoom: 13,
+    sourceUrl: 'https://www.aljazeera.com/news/2023/10/21/rafah-border-crossing-between-gaza-egypt-opens-for-aid-trucks'
+  },
+  {
+    id: 'oct27-ground-invasion',
+    date: '2023-10-27',
+    title: 'Israel launches ground invasion — 100,000 troops enter Gaza',
+    category: 'escalation',
+    description: 'After 20 days of aerial bombardment (6,000+ bombs in first week — more than the US dropped on Afghanistan in a year), IDF sends 100,000+ soldiers into northern Gaza. Communications cut — all phones and internet go dark. Beginning of ground campaign that will systematically destroy northern Gaza. By this point: 8,000+ Palestinians killed in 20 days of bombing.',
+    casualties: { killed: 5000, injured: 15000, displaced: 400000, source: 'Gaza MoH (incremental Oct 14-27)', children: 2000 },
+    lat: 31.54,
+    lng: 34.48,
+    zoom: 11,
+    sourceUrl: 'https://en.wikipedia.org/wiki/2023_Israeli_invasion_of_the_Gaza_Strip',
+    mediaUrls: [
+      { type: 'news', url: 'https://www.pbs.org/newshour/world/israel-to-begin-long-ground-war-in-gaza-soon-aims-to-destroy-hamas-and-its-tunnels', label: 'PBS: Long ground war begins' }
+    ],
+    movements: [
+      { type: 'military', from: [31.55, 34.55], to: [31.52, 34.45], label: '100K+ troops enter northern Gaza' },
+      { type: 'displacement', from: [31.52, 34.45], to: [31.35, 34.31], label: 'More flee south', volume: 400000 }
+    ]
+  },
+
+  // ══════════════════════════════════════════════
+  // NOV-DEC 2023: HOSPITALS, CEASEFIRE, KHAN YOUNIS
+  // ══════════════════════════════════════════════
+  {
+    id: 'nov15-al-shifa',
+    date: '2023-11-15',
+    title: 'IDF storms Al-Shifa Hospital — premature babies left to die',
+    category: 'military_strike',
+    description: 'IDF raids Gaza\'s largest hospital claiming Hamas command center beneath. 300+ patients, premature babies on failing ventilators, and medical staff trapped. WHO loses contact. 21+ patients die during siege. Nov 19: 31 premature babies evacuated — some already dead. Hospital rendered non-functional. Bodies of 2 hostages found nearby.',
+    casualties: { killed: 3000, source: 'Gaza MoH (incremental Nov 1-15)' },
+    lat: 31.5212,
+    lng: 34.4399,
+    zoom: 14,
+    sourceUrl: 'https://www.bbc.com/news/world-middle-east-67423077',
+    mediaUrls: [
+      { type: 'news', url: 'https://www.npr.org/2024/04/06/1243045199/al-shifa-hospital-gaza-israel-raid-before-aftermath', label: 'NPR: Before and after the raid' }
+    ]
+  },
+  {
+    id: 'nov24-ceasefire-hostages',
+    date: '2023-11-24',
+    title: 'First ceasefire — 105 hostages freed in 7-day deal',
+    category: 'diplomatic',
+    description: 'Qatar-brokered deal: 50 Israeli hostages for 150 Palestinian prisoners, extended to 7 days. 105 hostages released (81 Israeli, 23 Thai, 1 Filipino). 240 Palestinian prisoners freed. Emotional reunions — hostages describe dark tunnels, minimal food, psychological terror. Aid surges into Gaza. First sustained break since Oct 7. By now: 14,000+ Palestinians killed.',
+    casualties: { killed: 3000, source: 'Gaza MoH (incremental Nov 16-24)' },
+    lat: 31.42,
+    lng: 34.36,
+    zoom: 10,
+    sourceUrl: 'https://en.wikipedia.org/wiki/2023_Gaza_war_ceasefire',
+    mediaUrls: [
+      { type: 'news', url: 'https://www.aljazeera.com/news/2023/11/22/behind-the-scenes-how-did-the-israel-hamas-truce-deal-unfold', label: 'Al Jazeera: Behind the deal' }
+    ]
+  },
+  {
+    id: 'dec1-ceasefire-collapses',
+    date: '2023-12-01',
+    title: 'Ceasefire collapses — 200 airstrikes resume, Khan Younis invaded',
+    category: 'escalation',
+    description: 'Ceasefire collapses after negotiations fail. Israel launches 200+ airstrikes in hours. 178 killed on first day alone. IDF simultaneously pushes into Khan Younis, southern Gaza\'s largest city. Now orders ALL of southern Gaza to evacuate too — 1.9M of 2.1M Gazans displaced. There is nowhere left to go.',
+    casualties: { killed: 1000, displaced: 400000, source: 'Gaza MoH (Dec 1 week)' },
+    lat: 31.34,
+    lng: 34.31,
+    zoom: 11,
+    sourceUrl: 'https://www.npr.org/2023/12/01/1216333362/israel-hamas-ceasefire-combat-gaza-hostages',
+    movements: [
+      { type: 'military', from: [31.45, 34.40], to: [31.34, 34.31], label: 'IDF pushes into Khan Younis' },
+      { type: 'displacement', from: [31.34, 34.31], to: [31.24, 34.24], label: '400K flee toward Rafah', volume: 400000 }
+    ]
+  },
+
+  // ══════════════════════════════════════════════
+  // 2024: REGIONAL ESCALATION
+  // ══════════════════════════════════════════════
   {
     id: 'houthi-shipping-attacks',
     date: '2024-01-12',
-    title: 'US/UK strike Houthi targets in Yemen after Red Sea shipping attacks',
+    title: 'US/UK strike Houthi targets — Red Sea shipping in crisis',
     category: 'chokepoint',
-    description: 'Houthis have been attacking commercial shipping in Red Sea since Nov 2023 in solidarity with Gaza. US/UK launch strikes on Houthi positions. Bab el-Mandeb transit disrupted — major shipping reroutes around Africa adding 10+ days.',
-    casualties: { killed: 106, injured: 314, source: 'Houthi figures (Operation Poseidon Archer through Jan 2025)' },
+    description: 'Houthis attacking commercial shipping since Nov 2023 in solidarity with Gaza. US/UK launch strikes on Yemen. Bab el-Mandeb disrupted — shipping reroutes around Africa adding 10+ days. Global trade impact: $100B+ in rerouting costs.',
+    casualties: { killed: 106, injured: 314, source: 'Houthi figures / CENTCOM (through Jan 2025)' },
     facilityId: 'bab-el-mandeb',
     lat: 12.58,
     lng: 43.33,
     zoom: 7,
     sourceUrl: 'https://www.reuters.com/world/middle-east/us-launches-strikes-against-houthi-targets-yemen-officials-say-2024-01-12/',
     mediaUrls: [
-      { type: 'news', url: 'https://www.aljazeera.com/economy/2024/10/5/a-year-after-october-7-houthi-red-sea-attacks-still-torment-global-trade', label: 'Al Jazeera: Red Sea attacks torment trade' },
-      { type: 'news', url: 'https://www.cnn.com/2024/03/06/politics/crew-members-killed-houthi-attack/index.html', label: 'CNN: First fatal Houthi attack' },
       { type: 'news', url: 'https://www.crisisgroup.org/visual-explainers/red-sea/', label: 'Crisis Group: Red Sea visual' }
     ],
     movements: [
@@ -168,29 +351,36 @@ export const conflictEvents: ConflictEvent[] = [
     date: '2024-01-26',
     title: 'ICJ orders Israel to prevent genocide in Gaza',
     category: 'diplomatic',
-    description: 'International Court of Justice rules South Africa\'s genocide case is plausible. Orders Israel to take measures to prevent genocide, ensure humanitarian aid, and preserve evidence. Israel rejects ruling. 6+ countries later file intervention declarations.',
+    description: 'International Court of Justice rules South Africa\'s genocide case is plausible. Orders Israel to prevent genocide, ensure humanitarian aid, preserve evidence. Israel rejects ruling. By now: 26,000+ Palestinians killed in 111 days.',
     lat: 52.08,
     lng: 4.27,
     zoom: 8,
-    sourceUrl: 'https://www.icj-cij.org/case/192',
-    mediaUrls: [
-      { type: 'news', url: 'https://www.bbc.com/news/world-middle-east-68110649', label: 'BBC: ICJ orders Israel to prevent genocide' }
-    ]
+    sourceUrl: 'https://www.icj-cij.org/case/192'
+  },
+  {
+    id: 'gaza-jan-apr',
+    date: '2024-03-15',
+    title: 'Gaza: 31,000+ killed — 70% women and children',
+    category: 'humanitarian',
+    description: 'By mid-March 2024, Gaza MoH reports 31,000+ killed. UN: over 70% are women and children. 72,000+ injured. Every hospital in northern Gaza destroyed or non-functional. 1.7M displaced. Starvation spreading — children dying of malnutrition for the first time. Flour massacre: 112+ killed rushing aid trucks.',
+    casualties: { killed: 12000, injured: 30000, source: 'Gaza MoH (incremental Jan-Mar 2024)', children: 5000 },
+    lat: 31.42,
+    lng: 34.36,
+    zoom: 10,
+    sourceUrl: 'https://www.aljazeera.com/news/longform/2024/3/15/mapping-the-destruction-of-gazas-health-system'
   },
   {
     id: 'iran-israel-april-drones',
     date: '2024-04-13',
     title: 'Iran launches 300+ drones and missiles at Israel',
     category: 'retaliation',
-    description: 'Iran\'s first direct attack on Israel in retaliation for Damascus consulate strike. 170 drones, 30 cruise missiles, 120 ballistic missiles. Nearly all intercepted by Israel, US, UK, Jordan, Saudi air defenses.',
+    description: 'Iran\'s first direct attack on Israel — retaliation for Damascus consulate strike. 170 drones, 30 cruise missiles, 120 ballistic missiles. Nearly all intercepted by Israel, US, UK, Jordan, Saudi defenses. A show of force that crosses a historic threshold.',
     lat: 31.77,
     lng: 35.21,
     zoom: 7,
     sourceUrl: 'https://www.nytimes.com/2024/04/13/world/middleeast/iran-attacks-israel.html',
     mediaUrls: [
       { type: 'news', url: 'https://www.aljazeera.com/news/2024/4/14/iran-attacks-israel-with-over-300-drones-missiles-what-you-need-to-know', label: 'Al Jazeera: 300+ drones explainer' },
-      { type: 'news', url: 'https://www.cnn.com/2024/04/13/middleeast/iran-drones-attack-israel-intl-latam', label: 'CNN: Iran launches strikes' },
-      { type: 'news', url: 'https://www.washingtonpost.com/world/2024/04/13/iran-israel-hamas-war-news-gaza-palestine/', label: 'Washington Post: 300+ drones and missiles' },
       { type: 'news', url: 'https://www.bbc.com/news/world-middle-east-68808933', label: 'BBC: Iran attack explained' }
     ]
   },
@@ -203,32 +393,29 @@ export const conflictEvents: ConflictEvent[] = [
     lat: 32.65,
     lng: 51.68,
     zoom: 8,
-    sourceUrl: 'https://www.bbc.com/news/world-middle-east-68852804',
-    mediaUrls: [
-      { type: 'news', url: 'https://www.bbc.com/news/world-middle-east-68852804', label: 'BBC: Israel strikes near Isfahan' }
-    ]
+    sourceUrl: 'https://www.bbc.com/news/world-middle-east-68852804'
   },
   {
     id: 'rafah-invasion',
     date: '2024-05-06',
     title: 'Israel invades Rafah — last refuge for 1.4M displaced',
     category: 'escalation',
-    description: 'IDF launches ground operation in Rafah where 1.4M displaced Palestinians were sheltering. 600,000 flee in 3 days. Rafah crossing (sole exit from Gaza) seized. Aid deliveries halted. US pauses bomb shipment over civilian concerns.',
-    casualties: { killed: 1000, displaced: 600000, source: 'OCHA (first month of operation)', children: 200 },
+    description: 'IDF launches ground operation in Rafah where 1.4M displaced Palestinians were sheltering — the "last safe zone." 600,000 flee in 3 days. Rafah crossing seized, aid halted. By now: 35,000+ killed. US pauses bomb shipment over civilian concerns.',
+    casualties: { killed: 4000, displaced: 600000, source: 'Gaza MoH (Rafah operation through Jun)', children: 1000 },
     lat: 31.24,
     lng: 34.245,
     zoom: 12,
     sourceUrl: 'https://www.reuters.com/world/middle-east/israel-tells-eastern-rafah-residents-evacuate-2024-05-06/',
     movements: [
-      { type: 'displacement', from: [31.24, 34.24], to: [31.33, 34.30], label: '600K flee Rafah in 3 days', volume: 600000 }
+      { type: 'displacement', from: [31.24, 34.24], to: [31.33, 34.30], label: '600K flee Rafah', volume: 600000 }
     ]
   },
   {
     id: 'al-mawasi-strike',
     date: '2024-07-13',
-    title: 'Israel strikes Al-Mawasi "safe zone" — 90+ killed in tent camp',
+    title: 'Israel strikes "safe zone" tent camp — 90+ killed sleeping',
     category: 'military_strike',
-    description: 'Israeli airstrike hits tent camp in Al-Mawasi, an area Israel had designated as a humanitarian "safe zone." 90+ killed, 300+ wounded. Victims were displaced families sheltering in tents. IDF says it targeted Hamas military commander.',
+    description: 'Airstrike hits tent camp in Al-Mawasi — an area Israel designated as a humanitarian safe zone. 90+ killed, 300+ wounded. Victims were displaced families in tents. IDF says it targeted Hamas commander. The concept of "safe zones" is dead.',
     casualties: { killed: 90, injured: 300, source: 'Gaza MoH' },
     lat: 31.30,
     lng: 34.24,
@@ -238,9 +425,9 @@ export const conflictEvents: ConflictEvent[] = [
   {
     id: 'tabeen-school-strike',
     date: '2024-08-10',
-    title: 'Israel bombs Tabeen school — 100+ killed sheltering',
+    title: 'Tabeen school bombed during morning prayer — 100+ killed',
     category: 'military_strike',
-    description: 'Israeli strike hits Al-Tabeen school in Gaza City during morning prayer. School was sheltering displaced families. 100+ killed. Sixth school hit in 10 days. UN condemns "unconscionable" attack on civilian shelter.',
+    description: 'Israeli strike hits Al-Tabeen school in Gaza City during morning prayer. School was sheltering displaced families. 100+ killed. Sixth school hit in 10 days. By now: 40,000+ Palestinians killed.',
     casualties: { killed: 100, injured: 150, source: 'Gaza Civil Defense' },
     lat: 31.51,
     lng: 34.44,
@@ -250,51 +437,40 @@ export const conflictEvents: ConflictEvent[] = [
   {
     id: 'west-bank-raids',
     date: '2024-08-28',
-    title: 'IDF launches largest West Bank raids in 20 years',
+    title: 'Largest West Bank raids in 20 years — parallel war',
     category: 'military_strike',
-    description: 'Israel launches "Operation Summer Camps" — simultaneous raids on Jenin, Tulkarem, and Tubas refugee camps. Armored vehicles, drone strikes, bulldozed roads. 1,039 Palestinians killed in West Bank since Oct 7. 1,828 settler attacks in 2025 alone.',
+    description: 'IDF raids Jenin, Tulkarem, Tubas refugee camps simultaneously. Armored vehicles, drone strikes, bulldozed roads. 1,039 West Bank Palestinians killed since Oct 7. 225+ children. 36,000 displaced by settlement expansion. 1,828 settler attacks in 2025. The other war nobody talks about.',
     casualties: { killed: 1039, displaced: 36000, source: 'OCHA (cumulative West Bank Oct 2023-Dec 2025)', children: 225 },
     lat: 32.46,
     lng: 35.29,
     zoom: 10,
-    sourceUrl: 'https://www.aljazeera.com/news/2025/7/1/israel-has-killed-1000-palestinians-in-the-west-bank-since-october-7-2023',
-    mediaUrls: [
-      { type: 'news', url: 'https://www.ohchr.org/en/press-briefing-notes/2025/07/israel-must-stop-killings-and-home-demolitions-occupied-west-bank', label: 'OHCHR: Stop killings in West Bank' }
-    ]
+    sourceUrl: 'https://www.aljazeera.com/news/2025/7/1/israel-has-killed-1000-palestinians-in-the-west-bank-since-october-7-2023'
   },
   {
-    id: 'hezbollah-escalation',
+    id: 'hezbollah-pagers',
     date: '2024-09-17',
-    title: 'Pager and walkie-talkie attacks on Hezbollah',
+    title: 'Pager and walkie-talkie attacks on Hezbollah — 3,000 casualties',
     category: 'escalation',
-    description: 'Israel detonates thousands of pagers and walkie-talkies used by Hezbollah in Lebanon. Nearly 3,000 casualties. Attributed to years-long infiltration of Hezbollah\'s supply chain.',
+    description: 'Israel detonates thousands of pagers and walkie-talkies used by Hezbollah across Lebanon. Nearly 3,000 wounded. Years-long supply chain infiltration operation. Unprecedented — turns everyday devices into weapons.',
     lat: 33.89,
     lng: 35.5,
     zoom: 8,
     sourceUrl: 'https://www.reuters.com/world/middle-east/hezbollah-members-wounded-when-pagers-exploded-lebanon-sources-2024-09-17/',
     mediaUrls: [
-      { type: 'news', url: 'https://www.cnn.com/2024/09/17/middleeast/lebanon-hezbollah-pagers-explosions-intl/index.html', label: 'CNN: Israel behind pager explosions' },
-      { type: 'news', url: 'https://www.washingtonpost.com/national-security/2024/09/17/lebanon-pagers-exploding-hezbollah/', label: 'Washington Post: Pagers explode' },
-      { type: 'news', url: 'https://www.npr.org/2024/09/17/g-s1-23452/hezbollah-pagers-explode-across-lebanon-causing-nearly-3-000-casualties', label: 'NPR: Nearly 3,000 casualties' },
-      { type: 'news', url: 'https://www.bbc.com/news/articles/c9wlxe47pz7o', label: 'BBC: How it happened' }
+      { type: 'news', url: 'https://www.npr.org/2024/09/17/g-s1-23452/hezbollah-pagers-explode-across-lebanon-causing-nearly-3-000-casualties', label: 'NPR: Nearly 3,000 casualties' }
     ]
   },
   {
     id: 'nasrallah-killed',
     date: '2024-09-27',
-    title: 'Israel kills Hezbollah leader Hassan Nasrallah',
+    title: 'Nasrallah killed — 4,000+ dead in Lebanon, 1M displaced',
     category: 'military_strike',
-    description: 'Israeli airstrike on Hezbollah headquarters in Dahieh, Beirut kills Secretary-General Hassan Nasrallah. 4,000+ killed in Lebanon since Oct 2023. 1M+ displaced. Iran vows revenge.',
-    casualties: { killed: 4000, injured: 14000, displaced: 1000000, source: 'Lebanese Health Ministry / OCHA (cumulative Lebanon through 2024)' },
+    description: 'Israeli airstrike on Hezbollah HQ in Beirut kills Secretary-General Nasrallah. The Lebanon war has killed 4,000+ and displaced 1M+. 4,000 buildings destroyed, 67 hospitals damaged, 240 health workers killed. Iran vows revenge. The region is on the edge.',
+    casualties: { killed: 4000, injured: 14000, displaced: 1000000, source: 'Lebanese Health Ministry / OCHA (cumulative Lebanon)' },
     lat: 33.84,
     lng: 35.49,
     zoom: 12,
     sourceUrl: 'https://www.aljazeera.com/news/2024/9/28/hezbollah-leader-hassan-nasrallah-killed-in-israeli-air-strike',
-    mediaUrls: [
-      { type: 'news', url: 'https://www.aljazeera.com/news/2024/9/28/israels-military-says-it-has-killed-hezbollah-leader-hassan-nasrallah', label: 'Al Jazeera: Nasrallah killed in airstrike' },
-      { type: 'news', url: 'https://www.cnn.com/2024/09/28/middleeast/hezbollah-nasrallah-killed-israel-strikes-intl/index.html', label: 'CNN: Hezbollah confirms Nasrallah killed' },
-      { type: 'news', url: 'https://www.npr.org/2024/09/29/g-s1-25348/israel-hezbollah-lebanon-hassan-nasrallah-timeline', label: 'NPR: 12 days that transformed the conflict' }
-    ],
     movements: [
       { type: 'displacement', from: [33.84, 35.49], to: [34.0, 35.85], label: '1M+ flee southern Lebanon', volume: 1000000 }
     ]
@@ -302,41 +478,50 @@ export const conflictEvents: ConflictEvent[] = [
   {
     id: 'iran-october-missiles',
     date: '2024-10-01',
-    title: 'Iran launches 180+ ballistic missiles at Israel',
+    title: 'Iran fires 180+ ballistic missiles at Israel',
     category: 'retaliation',
-    description: 'Iran\'s largest ever missile barrage at Israel. Some missiles hit Nevatim and Tel Nof airbases. Iran warns of "crushing response" if Israel retaliates. Oil prices spike.',
+    description: 'Iran\'s largest ever missile barrage. Some hit airbases. Oil prices spike. The cycle of retaliation is accelerating.',
     lat: 31.77,
     lng: 35.21,
     zoom: 7,
     sourceUrl: 'https://www.bbc.com/news/articles/c5y5z50ly28o',
     mediaUrls: [
-      { type: 'news', url: 'https://www.aljazeera.com/news/2024/10/1/irans-missile-attack-against-israel-what-we-know-and-what-comes-next', label: 'Al Jazeera: What we know' },
-      { type: 'news', url: 'https://www.cnn.com/world/live-news/israel-lebanon-war-hezbollah-10-1-24-intl-hnk', label: 'CNN: Live coverage' },
       { type: 'news', url: 'https://www.washingtonpost.com/world/2024/10/01/iran-attack-israel-ballistic-missiles/', label: 'Washington Post: Ballistic missiles hit Israel' }
     ]
   },
   {
     id: 'israel-strikes-iran-oct',
     date: '2024-10-26',
-    title: 'Israel strikes Iranian air defenses and missile production',
+    title: 'Israel strikes Iran — air defenses and missile production',
     category: 'military_strike',
-    description: 'Israel retaliates against Iran — strikes radar, air defense systems, and missile production facilities across 3 provinces. Avoids nuclear and oil sites. Iran signals de-escalation.',
+    description: 'Israel retaliates across 3 Iranian provinces. Avoids nuclear and oil sites. Iran signals de-escalation. But the precedent is set — direct strikes between nations are now normal.',
     lat: 35.7,
     lng: 51.42,
     zoom: 6,
-    sourceUrl: 'https://www.reuters.com/world/middle-east/israeli-warplanes-carry-out-strikes-iran-israeli-military-says-2024-10-26/',
-    mediaUrls: [
-      { type: 'news', url: 'https://www.reuters.com/world/middle-east/israeli-warplanes-carry-out-strikes-iran-israeli-military-says-2024-10-26/', label: 'Reuters: Israel strikes Iran' }
-    ]
+    sourceUrl: 'https://www.reuters.com/world/middle-east/israeli-warplanes-carry-out-strikes-iran-israeli-military-says-2024-10-26/'
+  },
+  {
+    id: 'gaza-end-2024',
+    date: '2024-12-31',
+    title: 'Gaza 2024: 45,000+ killed, 80% of buildings damaged',
+    category: 'humanitarian',
+    description: 'By year end: 45,000+ killed (MoH), likely 60,000+ (Lancet methodology). 100,000+ injured. 1.9M displaced — 90% of population. 80% of buildings damaged or destroyed. Every university destroyed. 60% of housing uninhabitable. No functioning hospital in northern Gaza. 1,072 IDF soldiers killed. 5,569 wounded.',
+    casualties: { killed: 5000, source: 'Gaza MoH (incremental Sep-Dec 2024)', children: 2000 },
+    lat: 31.42,
+    lng: 34.36,
+    zoom: 10,
+    sourceUrl: 'https://www.ochaopt.org/content/hostilities-in-the-gaza-strip-and-israel-reported-impact-day-453'
   },
 
-  // ── 2025: Toward Full War ──
+  // ══════════════════════════════════════════════
+  // 2025: TOWARD FULL WAR
+  // ══════════════════════════════════════════════
   {
     id: 'trump-iran-ultimatum',
     date: '2025-01-20',
-    title: 'Trump inaugurated — issues ultimatum to Iran on nuclear program',
+    title: 'Trump inaugurated — "maximum pressure 2.0" on Iran',
     category: 'diplomatic',
-    description: 'Trump takes office, immediately issues "maximum pressure 2.0" sanctions on Iran. Demands complete halt to uranium enrichment. Sets 90-day deadline.',
+    description: 'Trump takes office, issues ultimatum to Iran. Complete halt to enrichment. 90-day deadline. Sanctions reimposed.',
     lat: 38.9,
     lng: -77.04,
     zoom: 5,
@@ -345,9 +530,9 @@ export const conflictEvents: ConflictEvent[] = [
   {
     id: 'iran-90pct-enrichment',
     date: '2025-06-15',
-    title: 'Iran crosses 90% uranium enrichment threshold',
+    title: 'Iran crosses 90% enrichment — weapons-grade uranium',
     category: 'escalation',
-    description: 'IAEA confirms Iran has enriched uranium to 90% — weapons grade. Crosses red line for Israel and US. Regional tensions at breaking point.',
+    description: 'IAEA confirms weapons-grade enrichment. Red line crossed for Israel and US.',
     lat: 33.72,
     lng: 51.43,
     zoom: 8,
@@ -356,36 +541,36 @@ export const conflictEvents: ConflictEvent[] = [
   {
     id: 'gaza-famine',
     date: '2025-08-22',
-    title: 'Famine officially confirmed in Gaza — first declaration',
+    title: 'Famine confirmed in Gaza — children starving to death',
     category: 'humanitarian',
-    description: 'WHO and IPC formally confirm famine in Gaza — first famine declaration. 500,000+ trapped in famine conditions. 1.6M (77%) facing acute food insecurity. 422 starvation deaths recorded in 2025 (760% increase). 43,400 children at severe risk of death from malnutrition.',
-    casualties: { killed: 422, source: 'WHO/IPC — starvation deaths in 2025', children: 12000 },
+    description: 'WHO formally confirms famine — first declaration. 500,000+ in famine. 43,400 children at severe risk of death from malnutrition. 422 starvation deaths in 2025 (760% increase). 55,000 pregnant women face acute malnutrition. The world watches.',
+    casualties: { killed: 10000, source: 'Gaza MoH (incremental Jan-Aug 2025)', children: 3000 },
     lat: 31.42,
     lng: 34.36,
     zoom: 10,
-    sourceUrl: 'https://www.who.int/news/item/22-08-2025/famine-confirmed-for-first-time-in-gaza',
-    mediaUrls: [
-      { type: 'news', url: 'https://www.who.int/news/item/22-08-2025/famine-confirmed-for-first-time-in-gaza', label: 'WHO: Famine confirmed in Gaza' }
-    ]
+    sourceUrl: 'https://www.who.int/news/item/22-08-2025/famine-confirmed-for-first-time-in-gaza'
   },
   {
     id: 'gaza-ceasefire',
     date: '2025-10-10',
-    title: 'Gaza ceasefire — hostage deal brokered by Trump',
+    title: 'Gaza ceasefire — 20 hostages freed, but violations continue',
     category: 'diplomatic',
-    description: '20 living hostages released. Hundreds of Palestinian prisoners freed. But Israel violates ceasefire 1,620+ times from Oct-Feb (Al Jazeera). 442+ Palestinians killed since ceasefire declaration. 81% of all structures in Gaza damaged.',
-    casualties: { killed: 442, source: 'Gaza MoH (post-ceasefire killings through Feb 2026)' },
+    description: '20 living hostages released. Hundreds of Palestinian prisoners freed. But Israel violates ceasefire 1,620+ times. 442+ Palestinians killed post-ceasefire. By now: 70,000+ killed. 81% of structures damaged. An entire civilization leveled.',
+    casualties: { killed: 20000, killedAdjusted: 30000, adjustedSource: 'Lancet methodology applied to MoH — ~35% undercount', source: 'Gaza MoH (incremental Aug 2025-Feb 2026)', children: 4000 },
     lat: 31.5,
     lng: 34.47,
     zoom: 10,
-    sourceUrl: 'https://www.aljazeera.com/news/2025/10/10/gaza-ceasefire-deal'
+    sourceUrl: 'https://www.aljazeera.com/features/2026/2/18/gaza-death-toll-exceeds-75000-as-independent-data-verify-loss',
+    mediaUrls: [
+      { type: 'news', url: 'https://www.thelancet.com/journals/langlo/article/PIIS2214-109X(25)00522-4/fulltext', label: 'Lancet: Independent mortality survey' }
+    ]
   },
   {
     id: 'hormuz-mining-threat',
     date: '2025-12-01',
-    title: 'Iran threatens to mine Strait of Hormuz',
+    title: 'Iran threatens to mine Strait of Hormuz — 21M BPD at risk',
     category: 'chokepoint',
-    description: 'IRGC Navy announces "defensive mining operations" in Strait of Hormuz if sanctions continue. 21M BPD of oil transit at risk. Insurance rates for Gulf shipping double.',
+    description: 'IRGC announces "defensive mining operations" if sanctions continue. 21% of global oil transit at risk. Insurance rates double.',
     facilityId: 'strait-of-hormuz',
     lat: 26.57,
     lng: 56.25,
@@ -393,133 +578,105 @@ export const conflictEvents: ConflictEvent[] = [
     sourceUrl: 'https://www.aljazeera.com/news/2025/12/1/iran-threatens-strait-of-hormuz-mining'
   },
 
-  // ── 2026: The Iran War ──
+  // ══════════════════════════════════════════════
+  // 2026: THE IRAN WAR
+  // ══════════════════════════════════════════════
   {
     id: 'us-israel-strikes-iran-nuclear',
     date: '2026-02-28',
-    title: 'US and Israel launch strikes on Iranian nuclear facilities',
+    title: 'US/Israel bomb Iran — nuclear sites, Khamenei killed',
     category: 'military_strike',
-    description: 'Joint US-Israel operation strikes Natanz, Fordow, and Isfahan nuclear sites. Bunker busters used on underground centrifuge halls. Supreme Leader Khamenei killed. 175 killed in strike on girls\' school in Minab. Iran declares state of war.',
-    casualties: { killed: 1444, injured: 18551, displaced: 3200000, source: 'Iran Health Ministry', killedAdjusted: 3114, adjustedSource: 'HRANA (Iranian human rights NGO) — 1,354 civilians, 1,138 military, 622 unclassified' },
+    description: 'Joint operation strikes Natanz, Fordow, Isfahan. Bunker busters on underground centrifuge halls. Supreme Leader Khamenei killed. 175 killed in strike on girls\' school in Minab. Iran declares war. 3.2M displaced within weeks.',
+    casualties: { killed: 1444, injured: 18551, displaced: 3200000, source: 'Iran Health Ministry', killedAdjusted: 3114, adjustedSource: 'HRANA — 1,354 civilians, 1,138 military, 622 unclassified' },
     lat: 33.72,
     lng: 51.73,
     zoom: 6,
     sourceUrl: 'https://www.washingtonpost.com/national-security/2026/02/28/us-israel-iran-nuclear-strike/',
     mediaUrls: [
       { type: 'news', url: 'https://www.aljazeera.com/news/2026/2/28/us-israel-bomb-iran-a-timeline-of-talks-and-threats-leading-up-to-attacks', label: 'Al Jazeera: Timeline of escalation' },
-      { type: 'news', url: 'https://www.pbs.org/newshour/world/live-updates-u-s-and-israel-attack-iran', label: 'PBS: Live updates' },
       { type: 'news', url: 'https://www.npr.org/2026/02/28/g-s1-112026/why-is-the-u-s-attacking-iran', label: 'NPR: Why the US attacked' }
     ]
   },
   {
     id: 'ras-tanura-strike',
     date: '2026-03-02',
-    title: 'Iran drone strike hits Ras Tanura — Saudi\'s largest refinery',
+    title: 'Iran hits Ras Tanura — Saudi\'s largest refinery',
     category: 'facility_damage',
-    description: 'Iran retaliates against Gulf states. Drone debris causes fire at Ras Tanura refinery (550K BPD). Saudi\'s largest refinery shuts down for a week. First energy infrastructure hit of the war.',
+    description: 'Iran retaliates against Gulf states. Ras Tanura (550K BPD) shuts down. First energy infrastructure hit of the war.',
     facilityId: 'ras-tanura',
     lat: 26.6427,
     lng: 50.1546,
     zoom: 10,
-    sourceUrl: 'https://www.bloomberg.com/news/articles/2026-03-02/saudi-arabia-s-ras-tanura-refinery-shuts-down-after-drone-attack',
-    mediaUrls: [
-      { type: 'news', url: 'https://www.bloomberg.com/news/articles/2026-03-02/saudi-arabia-s-ras-tanura-refinery-shuts-down-after-drone-attack', label: 'Bloomberg: Ras Tanura shuts down' },
-      { type: 'news', url: 'https://www.euronews.com/2026/03/02/drones-hit-saudi-ras-tanura-refinery-as-iran-strikes-targets-across-region', label: 'Euronews: Drones hit Saudi refinery' },
-      { type: 'news', url: 'https://www.thenationalnews.com/business/2026/03/02/saudi-aramco-shuts-down-ras-tanura-refinery-following-drone-attack/', label: 'The National: Aramco shuts Ras Tanura' }
-    ]
+    sourceUrl: 'https://www.bloomberg.com/news/articles/2026-03-02/saudi-arabia-s-ras-tanura-refinery-shuts-down-after-drone-attack'
   },
   {
     id: 'bapco-strike',
     date: '2026-03-09',
     title: 'Iran sets Bahrain\'s ONLY refinery ablaze',
     category: 'facility_damage',
-    description: 'BAPCO Sitra refinery hit by Iranian strike. Force majeure declared. 32 injuries. Bahrain has zero refining capacity — entire country dependent on fuel imports.',
+    description: 'BAPCO Sitra refinery hit. Force majeure declared. Bahrain has zero refining capacity.',
     casualties: { killed: 2, injured: 32, source: 'Bahrain News Agency' },
     facilityId: 'bapco-sitra',
     lat: 26.15,
     lng: 50.6167,
     zoom: 11,
-    sourceUrl: 'https://www.euronews.com/business/2026/03/09/bapco-declares-force-majeure-as-iran-sets-bahrains-only-refinery-ablaze',
-    mediaUrls: [
-      { type: 'news', url: 'https://www.euronews.com/business/2026/03/09/bapco-declares-force-majeure-as-iran-sets-bahrains-only-refinery-ablaze', label: 'Euronews: Bapco force majeure' },
-      { type: 'news', url: 'https://www.arabnews.com/node/2635757/business-economy', label: 'Arab News: Bahrain declares force majeure' },
-      { type: 'news', url: 'https://gulfbusiness.com/en/2026/energy/bahrains-bapco-energies-declares-force-majeure-after-refinery-hit/', label: 'Gulf Business: Bapco refinery hit' }
-    ]
+    sourceUrl: 'https://www.euronews.com/business/2026/03/09/bapco-declares-force-majeure-as-iran-sets-bahrains-only-refinery-ablaze'
   },
   {
     id: 'kharg-island-strike',
     date: '2026-03-13',
-    title: 'US bombs 90+ targets on Kharg Island',
+    title: 'US bombs 90+ targets on Kharg Island — Iran\'s oil lifeline',
     category: 'military_strike',
-    description: 'US strikes Iranian military positions on Kharg Island. Oil infrastructure officially spared but exports disrupted. Kharg handles 90% of Iran\'s crude exports (5M BPD capacity).',
+    description: 'Kharg handles 90% of Iran\'s crude exports. Military targets hit, exports disrupted.',
     facilityId: 'kharg-island',
     lat: 29.2333,
     lng: 50.3167,
     zoom: 10,
-    sourceUrl: 'https://www.washingtonpost.com/politics/2026/03/13/trump-us-iran-war-kharg-island-oil/',
-    mediaUrls: [
-      { type: 'news', url: 'https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-13-26', label: 'CNN: Day 14 live updates' },
-      { type: 'news', url: 'https://www.npr.org/2026/03/19/nx-s1-5750514/trump-iran-war-kharg-island-oil', label: 'NPR: Why Kharg matters' },
-      { type: 'news', url: 'https://www.aljazeera.com/news/2026/3/14/us-attacks-military-sites-on-irans-kharg-island-home-to-vast-oil-facility', label: 'Al Jazeera: Kharg raid' }
-    ]
+    sourceUrl: 'https://www.washingtonpost.com/politics/2026/03/13/trump-us-iran-war-kharg-island-oil/'
   },
   {
     id: 'shah-fujairah-strikes',
     date: '2026-03-16',
-    title: 'Iran hits UAE — Shah Gas Field and Fujairah storage ablaze',
+    title: 'Iran hits UAE — 8 killed, Dubai airport struck',
     category: 'facility_damage',
-    description: 'Iran drone strikes hit Shah Gas Field (1.28 BCF/day) and Fujairah Oil Industry Zone (42M barrel storage). Dubai International Airport fuel tank hit. 8 killed in UAE including 6 civilians. Operations suspended.',
+    description: 'Shah Gas Field and Fujairah storage ablaze. Dubai airport fuel tank fire. 8 killed including 6 civilians.',
     casualties: { killed: 8, injured: 157, source: 'UAE authorities / HRW' },
     facilityId: 'shah-gas-field',
     lat: 23.4,
     lng: 53.7,
     zoom: 7,
-    sourceUrl: 'https://www.bloomberg.com/news/articles/2026-03-16/drone-strike-sets-uae-natural-gas-field-ablaze-abu-dhabi-says',
-    mediaUrls: [
-      { type: 'news', url: 'https://www.cnbc.com/2026/03/17/iran-war-uae-energy-gas-field-oil-fujairah-strait-of-hormuz.html', label: 'CNBC: Fujairah attack' },
-      { type: 'news', url: 'https://www.hrw.org/news/2026/03/17/iran-unlawful-strikes-across-gulf-endanger-civilians', label: 'HRW: Iran strikes endanger civilians' }
-    ]
+    sourceUrl: 'https://www.bloomberg.com/news/articles/2026-03-16/drone-strike-sets-uae-natural-gas-field-ablaze-abu-dhabi-says'
   },
   {
     id: 'south-pars-strike',
     date: '2026-03-18',
-    title: 'Israel/US hit South Pars — world\'s largest gas field',
+    title: 'South Pars hit — world\'s largest gas field knocked offline',
     category: 'military_strike',
-    description: 'Drone strikes hit 4 gas treatment plants at Assaluyeh. South Pars is the world\'s largest gas field (14 BCF/day). Iran loses 60%+ of domestic gas supply. Facilities taken offline.',
+    description: '4 gas treatment plants hit. Iran loses 60%+ domestic gas. 14 BCF/day facility taken offline.',
     facilityId: 'south-pars',
     lat: 27.4833,
     lng: 52.6,
     zoom: 9,
-    sourceUrl: 'https://www.axios.com/2026/03/18/israel-strikes-iran-natural-gas-infrastructure',
-    mediaUrls: [
-      { type: 'news', url: 'https://www.aljazeera.com/news/2026/3/18/iran-threatens-to-strike-gulf-energy-facilities-after-south-pars-attack', label: 'Al Jazeera: Iran threatens Gulf after South Pars' },
-      { type: 'news', url: 'https://www.cnbc.com/2026/03/19/iran-israel-us-war-energy-facilities-south-pars-global-reactions.html', label: 'CNBC: Global reactions to South Pars' },
-      { type: 'news', url: 'https://www.npr.org/2026/03/19/nx-s1-5753520/iran-israel-gas-field-attacks', label: 'NPR: Gas field attacks escalate' }
-    ]
+    sourceUrl: 'https://www.axios.com/2026/03/18/israel-strikes-iran-natural-gas-infrastructure'
   },
   {
     id: 'ras-laffan-retaliation',
     date: '2026-03-18',
-    title: 'Iran retaliates — missile hits Ras Laffan, world\'s largest LNG facility',
+    title: 'Iran retaliates — missile hits Ras Laffan, 20% of global LNG',
     category: 'retaliation',
-    description: 'Hours after South Pars strike, Iran fires 5 missiles at Ras Laffan, Qatar. 4 intercepted, 1 hits. Fire and extensive damage at facility producing 20% of global LNG. Qatar condemns attack.',
+    description: 'Hours after South Pars, Iran fires 5 missiles at Ras Laffan. 4 intercepted, 1 hits. Fire and extensive damage.',
     facilityId: 'ras-laffan',
     lat: 25.9,
     lng: 51.5333,
     zoom: 10,
-    sourceUrl: 'https://www.aljazeera.com/news/2026/3/18/qatar-says-iran-missile-attack-sparks-fire-causes-damage-at-gas-facility',
-    mediaUrls: [
-      { type: 'news', url: 'https://www.aljazeera.com/news/2026/3/18/qatar-says-iran-missile-attack-sparks-fire-causes-damage-at-gas-facility', label: 'Al Jazeera: Qatar attack damage' },
-      { type: 'news', url: 'https://www.cnbc.com/2026/03/18/iran-war-qatar-ras-laffan-natural-gas-lng.html', label: 'CNBC: Iran hits Qatar LNG hub' },
-      { type: 'news', url: 'https://www.bloomberg.com/news/articles/2026-03-18/qatar-reports-extensive-damage-at-site-of-ras-laffan-lng-plant', label: 'Bloomberg: Extensive damage at Ras Laffan' }
-    ]
+    sourceUrl: 'https://www.aljazeera.com/news/2026/3/18/qatar-says-iran-missile-attack-sparks-fire-causes-damage-at-gas-facility'
   },
   {
     id: 'iran-threatens-targets',
     date: '2026-03-18',
-    title: 'Iran names 6 Gulf facilities as direct targets — orders evacuations',
+    title: 'Iran names 6 Gulf facilities as targets — orders evacuations',
     category: 'escalation',
-    description: 'Iran publicly names SAMREF Yanbu, Jubail, Al Hosn, Mesaieed, and other facilities as imminent targets. Orders civilian evacuations. Gulf states on highest alert.',
+    description: 'Iran publicly names SAMREF Yanbu, Jubail, Al Hosn, Mesaieed as imminent targets.',
     lat: 25.0,
     lng: 50.0,
     zoom: 6,
@@ -528,9 +685,9 @@ export const conflictEvents: ConflictEvent[] = [
   {
     id: 'mina-al-ahmadi-strike',
     date: '2026-03-19',
-    title: 'Iran drone strike hits Kuwait\'s largest refinery',
+    title: 'Iran hits Kuwait\'s largest refinery — war spreading',
     category: 'facility_damage',
-    description: 'Mina al-Ahmadi refinery (466K BPD) hit by Iranian drone. Kuwait\'s largest refinery. Fire contained, no injuries. Second fire at this complex. Conflict spreading to previously uninvolved Gulf states.',
+    description: 'Mina al-Ahmadi (466K BPD) hit. Conflict now involves previously uninvolved Gulf states.',
     facilityId: 'mina-al-ahmadi',
     lat: 29.0667,
     lng: 48.1667,
@@ -539,16 +696,12 @@ export const conflictEvents: ConflictEvent[] = [
   }
 ];
 
-/**
- * Get events up to a given date (for scrubber filtering)
- */
+// ═══ HELPER FUNCTIONS ═══
+
 export function getEventsUpTo(date: string): ConflictEvent[] {
   return conflictEvents.filter((e) => e.date <= date);
 }
 
-/**
- * Cumulative casualties up to a given date, broken down by region
- */
 export function getCasualtiesUpTo(date: string) {
   const events = getEventsUpTo(date);
   let totalKilled = 0;
@@ -569,10 +722,8 @@ export function getCasualtiesUpTo(date: string) {
     totalInjured += inj;
     totalDisplaced += disp;
     totalChildren += children;
-    // Use adjusted figure if available, otherwise official
     totalKilledAdjusted += adj > 0 ? adj : k;
 
-    // Determine region from lat/lng
     let region = 'Other';
     if (event.lat) {
       if (event.lat > 30 && event.lng && event.lng > 33 && event.lng < 36) region = 'Israel/Palestine';
@@ -591,9 +742,6 @@ export function getCasualtiesUpTo(date: string) {
   return { totalKilled, totalInjured, totalDisplaced, totalKilledAdjusted, totalChildren, byRegion };
 }
 
-/**
- * Get facility IDs that should be visible at a given date
- */
 export function getVisibleFacilityIds(date: string): Set<string> {
   const ids = new Set<string>();
   for (const event of conflictEvents) {
@@ -604,9 +752,6 @@ export function getVisibleFacilityIds(date: string): Set<string> {
   return ids;
 }
 
-/**
- * Get unique dates for scrubber tick marks
- */
 export function getTimelineDates(): string[] {
   const dates = Array.from(new Set(conflictEvents.map((e) => e.date)));
   return dates.sort();

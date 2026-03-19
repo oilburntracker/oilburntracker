@@ -102,6 +102,7 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
   const playRef = useRef<NodeJS.Timeout | null>(null);
   const eventListRef = useRef<HTMLDivElement>(null);
   const setSelectedFacility = useFireStore((s) => s.setSelectedFacility);
+  const setTimelineDate = useFireStore((s) => s.setTimelineDate);
 
   const currentDate = ALL_DAYS[currentIndex];
   const todayEvents = EVENTS_BY_DATE.get(currentDate) || [];
@@ -129,14 +130,19 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
       });
     };
 
-    // On event days: pause longer. On quiet days: advance fast
-    const delay = hasEvent ? 3000 : 50;
+    // On event days: pause longer so infographics can be absorbed. Quiet days: advance fast
+    const delay = hasEvent ? 5000 : 50;
     playRef.current = setTimeout(advance, delay);
 
     return () => {
       if (playRef.current) clearTimeout(playRef.current);
     };
   }, [isPlaying, currentIndex, hasEvent]);
+
+  // ── Sync timeline date to global store for header death toll ──
+  useEffect(() => {
+    setTimelineDate(currentDate);
+  }, [currentDate, setTimelineDate]);
 
   // ── When landing on an event, fly to it and show card ──
   useEffect(() => {

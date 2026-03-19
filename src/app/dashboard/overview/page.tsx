@@ -31,6 +31,7 @@ const DISRUPTION_COLORS = {
 function CompactStats() {
   const fireData = useFireStore((s) => s.fireData);
   const loading = useFireStore((s) => s.loading);
+  const timelineDate = useFireStore((s) => s.timelineDate);
 
   const activeFires = fireData.features.length;
 
@@ -41,8 +42,8 @@ function CompactStats() {
   const disruption = getCurrentDisruptionLevel();
   const disruptionColor = DISRUPTION_COLORS[disruption.level] || DISRUPTION_COLORS.normal;
 
-  // Running total across all theaters
-  const casualties = getCasualtiesUpTo('2026-03-19');
+  // Running total synced to timeline scrubber position
+  const casualties = getCasualtiesUpTo(timelineDate);
 
   return (
     <div className='absolute top-3 right-3 z-10 flex flex-col items-end gap-1.5'>
