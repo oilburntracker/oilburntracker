@@ -1,4 +1,5 @@
 import { create } from 'zustand';
+import type { CuratedFire } from '@/features/fires/data/curated-fires';
 
 export interface FireFeature {
   type: 'Feature';
@@ -67,6 +68,8 @@ interface FireStore {
   mapState: MapState;
   layers: LayerToggles;
 
+  selectedFacility: CuratedFire | null;
+
   setFireData: (data: FireGeoJSON) => void;
   setLoading: (loading: boolean) => void;
   setError: (error: string | null) => void;
@@ -74,6 +77,7 @@ interface FireStore {
 
   setFilter: <K extends keyof FireFilters>(key: K, value: FireFilters[K]) => void;
   setSelectedFire: (fire: FireFeature | null) => void;
+  setSelectedFacility: (facility: CuratedFire | null) => void;
   setMapCenter: (center: [number, number]) => void;
   setMapZoom: (zoom: number) => void;
   toggleLayer: (layer: keyof LayerToggles) => void;
@@ -105,6 +109,8 @@ export const useFireStore = create<FireStore>((set) => ({
     facilities: true
   },
 
+  selectedFacility: null,
+
   setFireData: (data) => set({ fireData: data }),
   setLoading: (loading) => set({ loading }),
   setError: (error) => set({ error }),
@@ -119,6 +125,8 @@ export const useFireStore = create<FireStore>((set) => ({
     set((state) => ({
       mapState: { ...state.mapState, selectedFire: fire }
     })),
+
+  setSelectedFacility: (facility) => set({ selectedFacility: facility }),
 
   setMapCenter: (center) =>
     set((state) => ({
