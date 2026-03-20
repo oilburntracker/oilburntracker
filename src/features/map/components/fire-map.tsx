@@ -261,6 +261,26 @@ export default function FireMap() {
         }
       });
 
+      // Smoke haze — large, soft, drifting upward effect
+      m.addLayer({
+        id: 'fires-smoke',
+        type: 'circle',
+        source: 'fires',
+        minzoom: 5,
+        paint: {
+          'circle-radius': [
+            'interpolate', ['linear'], ['zoom'],
+            5, ['match', ['get', 'intensity'], 'extreme', 18, 'high', 14, 'medium', 10, 8],
+            8, ['match', ['get', 'intensity'], 'extreme', 30, 'high', 24, 'medium', 18, 14],
+            12, ['match', ['get', 'intensity'], 'extreme', 45, 'high', 35, 'medium', 28, 20]
+          ],
+          'circle-color': '#555',
+          'circle-opacity': 0.15,
+          'circle-blur': 1,
+          'circle-translate': [0, -3] as [number, number]
+        }
+      });
+
       // FIRMS fire points — solid core dot
       m.addLayer({
         id: 'fires-points',
@@ -488,6 +508,23 @@ export default function FireMap() {
         }
       });
 
+      // ── Fire pulse + smoke drift animation ──
+      let animFrame = 0;
+      const animateFires = () => {
+        animFrame++;
+        const t = animFrame * 0.03;
+        const pulse = 1 + 0.15 * Math.sin(t * 2); // glow breathes
+        const smokeY = -3 - 2 * Math.sin(t * 0.7); // smoke drifts up/down
+        const smokeOp = 0.12 + 0.06 * Math.sin(t * 1.3); // smoke fades in/out
+        try {
+          m.setPaintProperty('fires-glow', 'circle-opacity', 0.25 * pulse);
+          m.setPaintProperty('fires-smoke', 'circle-translate', [Math.sin(t * 0.5) * 2, smokeY]);
+          m.setPaintProperty('fires-smoke', 'circle-opacity', smokeOp);
+        } catch {}
+        requestAnimationFrame(animateFires);
+      };
+      animateFires();
+
       // ── Click handlers ──
 
       // Click event pin → popup with video + summary
@@ -645,6 +682,7 @@ export default function FireMap() {
     try {
       m.setLayoutProperty('fires-heat', 'visibility', layers.heatmap ? 'visible' : 'none');
       m.setLayoutProperty('fires-glow', 'visibility', layers.markers ? 'visible' : 'none');
+      m.setLayoutProperty('fires-smoke', 'visibility', layers.markers ? 'visible' : 'none');
       m.setLayoutProperty('fires-points', 'visibility', layers.markers ? 'visible' : 'none');
       const fv = layers.facilities ? 'visible' : 'none';
       m.setLayoutProperty('facility-impact-glow', 'visibility', fv);
