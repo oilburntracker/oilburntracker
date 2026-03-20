@@ -261,9 +261,37 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
     });
   }, [currentIndex]);
 
-  // Skip to next/prev event — jumps to that day and auto-plays from there
+  // Skip forward/back — step through events within a day first, then jump to next date
   const skipToEvent = useCallback((direction: 1 | -1) => {
+    if (manualCycleRef.current) clearTimeout(manualCycleRef.current);
     const currentDateStr = ALL_DAYS[currentIndex];
+    const dayEvents = EVENTS_BY_DATE.get(currentDateStr) || [];
+
+    // Try stepping within the current day first
+    if (direction === 1 && eventSubIndex < dayEvents.length - 1) {
+      const nextIdx = eventSubIndex + 1;
+      setEventSubIndex(nextIdx);
+      const ev = dayEvents[nextIdx];
+      if (ev) {
+        setActiveEvent(ev);
+        if (ev.lat && ev.lng && onFlyTo) onFlyTo(ev.lat, ev.lng, ev.zoom || 8);
+        window.dispatchEvent(new CustomEvent('map-show-event', { detail: { eventId: ev.id } }));
+      }
+      return;
+    }
+    if (direction === -1 && eventSubIndex > 0) {
+      const prevIdx = eventSubIndex - 1;
+      setEventSubIndex(prevIdx);
+      const ev = dayEvents[prevIdx];
+      if (ev) {
+        setActiveEvent(ev);
+        if (ev.lat && ev.lng && onFlyTo) onFlyTo(ev.lat, ev.lng, ev.zoom || 8);
+        window.dispatchEvent(new CustomEvent('map-show-event', { detail: { eventId: ev.id } }));
+      }
+      return;
+    }
+
+    // Otherwise jump to next/prev date with events
     let target: string | null = null;
     if (direction === 1) {
       target = EVENT_DATES.find((d) => d > currentDateStr) || null;
@@ -275,13 +303,21 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
     if (target) {
       const idx = ALL_DAYS.indexOf(target);
       if (idx >= 0) {
-        setEventSubIndex(0);
+        const targetEvents = EVENTS_BY_DATE.get(target) || [];
+        // Forward: start at first event. Backward: start at last event.
+        const subIdx = direction === -1 ? Math.max(0, targetEvents.length - 1) : 0;
+        setEventSubIndex(subIdx);
         setCurrentIndex(idx);
         setIsMuted(false);
-        setIsPlaying(true);
+        const ev = targetEvents[subIdx];
+        if (ev) {
+          setActiveEvent(ev);
+          if (ev.lat && ev.lng && onFlyTo) onFlyTo(ev.lat, ev.lng, ev.zoom || 8);
+          window.dispatchEvent(new CustomEvent('map-show-event', { detail: { eventId: ev.id } }));
+        }
       }
     }
-  }, [currentIndex]);
+  }, [currentIndex, eventSubIndex, onFlyTo]);
 
   const handleEventClick = useCallback((event: ConflictEvent) => {
     setActiveEvent(event);
