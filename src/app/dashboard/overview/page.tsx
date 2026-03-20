@@ -10,9 +10,8 @@ import { useFireStore } from '@/stores/fire-store';
 import { curatedFires, getSupplyDisruptionUpTo } from '@/features/fires/data/curated-fires';
 import { getCasualtiesUpTo, getVisibleFacilityIds } from '@/features/timeline/data/conflict-events';
 import { getWarCostUpTo } from '@/features/timeline/data/war-costs';
-import { IconFlame, IconBuildingFactory, IconWorld, IconAlertTriangle, IconSkull, IconCloud, IconCurrencyBitcoin, IconX, IconBomb, IconBuildingSkyscraper, IconTrendingUp } from '@tabler/icons-react';
+import { IconFlame, IconBuildingFactory, IconWorld, IconAlertTriangle, IconSkull, IconCloud, IconX, IconBomb, IconBuildingSkyscraper, IconTrendingUp, IconChevronUp } from '@tabler/icons-react';
 import { formatCO2, co2Equivalents } from '@/features/emissions/utils/emissions-model';
-import { toast } from 'sonner';
 import Link from 'next/link';
 
 const FireMap = dynamic(() => import('@/features/map/components/fire-map'), {
@@ -198,21 +197,16 @@ function CompactStats() {
         </div>
       </Link>
 
-      {/* ── BTC DONATE ── */}
+      {/* ── COLLAPSE ── */}
       <button
         onClick={(e) => {
           e.stopPropagation();
-          navigator.clipboard.writeText('bc1qej9pyvhu970x4whg99sf99lau6z8c7fjhgv2mz');
-          toast.success('BTC address copied to clipboard', {
-            description: 'bc1qej...fjhgv2mz',
-            duration: 3000
-          });
+          setCollapsed(true);
         }}
-        className='flex items-center justify-center gap-1.5 w-full px-3 py-1.5 text-[11px] text-zinc-500 hover:text-orange-400 transition-colors cursor-pointer border-t border-zinc-800'
-        title='bc1qej9pyvhu970x4whg99sf99lau6z8c7fjhgv2mz'
+        className='flex items-center justify-center gap-1 w-full px-3 py-1 text-[11px] text-zinc-600 hover:text-zinc-300 transition-colors cursor-pointer border-t border-zinc-800'
+        title='Minimize panel'
       >
-        <IconCurrencyBitcoin className='h-3.5 w-3.5 text-orange-400' />
-        <span>Donate BTC</span>
+        <IconChevronUp className='h-3.5 w-3.5' />
       </button>
     </div>
   );

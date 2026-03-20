@@ -89,8 +89,8 @@ function getStatsAtDate(date: string) {
 }
 
 export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
-  const [currentIndex, setCurrentIndex] = useState(0); // start at beginning for auto-play
-  const [isPlaying, setIsPlaying] = useState(true); // auto-play on load
+  const [currentIndex, setCurrentIndex] = useState(ALL_DAYS.length - 1); // default to current day
+  const [isPlaying, setIsPlaying] = useState(false); // paused on load — user hits play to start from beginning
   const [expanded, setExpanded] = useState(false);
   const [activeEvent, setActiveEvent] = useState<ConflictEvent | null>(null);
   const [eventSubIndex, setEventSubIndex] = useState(0); // which event within the day
@@ -190,20 +190,35 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
   }, [currentDate, setTimelineDate]);
 
   // ── When landing on a new date, reset sub-index and show first event ──
+  // Then auto-cycle through remaining events on that day
+  const manualCycleRef = useRef<NodeJS.Timeout | null>(null);
   useEffect(() => {
     setEventSubIndex(0);
-    // Previous video in map popup gets replaced when new popup opens
+    if (manualCycleRef.current) clearTimeout(manualCycleRef.current);
+
     if (todayEvents.length > 0 && !isPlaying) {
-      const first = todayEvents[0];
-      setActiveEvent(first);
-      if (first.lat && first.lng && onFlyTo) {
-        onFlyTo(first.lat, first.lng, first.zoom || 8);
-      }
-      // Auto-open pin popup when scrubbing manually too
-      window.dispatchEvent(
-        new CustomEvent('map-show-event', { detail: { eventId: first.id } })
-      );
+      const showEvent = (idx: number) => {
+        const ev = todayEvents[idx];
+        if (!ev) return;
+        setEventSubIndex(idx);
+        setActiveEvent(ev);
+        if (ev.lat && ev.lng && onFlyTo) {
+          onFlyTo(ev.lat, ev.lng, ev.zoom || 8);
+        }
+        window.dispatchEvent(
+          new CustomEvent('map-show-event', { detail: { eventId: ev.id } })
+        );
+        // Auto-advance to next event on this day after 2.5s
+        if (idx < todayEvents.length - 1) {
+          manualCycleRef.current = setTimeout(() => showEvent(idx + 1), 2500);
+        }
+      };
+      showEvent(0);
     }
+
+    return () => {
+      if (manualCycleRef.current) clearTimeout(manualCycleRef.current);
+    };
   }, [currentDate]);
 
   // ── Sync scrubber when user clicks a pin on the map ──
@@ -424,10 +439,17 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
             }
           </Button>
 
-          {/* Date display */}
-          <span className='text-xs font-mono font-semibold w-[105px] shrink-0 text-center'>
-            {formatDate(currentDate)}
-          </span>
+          {/* Date display + event counter */}
+          <div className='shrink-0 text-center w-[105px]'>
+            <span className='text-xs font-mono font-semibold'>
+              {formatDate(currentDate)}
+            </span>
+            {todayEvents.length > 1 && (
+              <div className='text-[9px] text-orange-400 font-bold tabular-nums -mt-0.5'>
+                {eventSubIndex + 1}/{todayEvents.length} events
+              </div>
+            )}
+          </div>
 
           {/* Slider with event ticks */}
           <div className='flex-1 relative'>
