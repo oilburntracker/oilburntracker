@@ -29,7 +29,8 @@ import {
   IconUsers,
   IconCloud,
   IconVolume,
-  IconVolumeOff
+  IconVolumeOff,
+  IconArticle
 } from '@tabler/icons-react';
 import { formatCO2 } from '@/features/emissions/utils/emissions-model';
 
@@ -201,12 +202,12 @@ function getStatsAtDate(date: string) {
 }
 
 export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
-  const [currentIndex, setCurrentIndex] = useState(ALL_DAYS.length - 1);
-  const [isPlaying, setIsPlaying] = useState(false);
+  const [currentIndex, setCurrentIndex] = useState(0); // start at beginning for auto-play
+  const [isPlaying, setIsPlaying] = useState(true); // auto-play on load
   const [expanded, setExpanded] = useState(false);
   const [activeEvent, setActiveEvent] = useState<ConflictEvent | null>(null);
   const [eventSubIndex, setEventSubIndex] = useState(0); // which event within the day
-  const [infoDismissed, setInfoDismissed] = useState(false);
+  const [showFeed, setShowFeed] = useState(false); // feed hidden by default — map pins are primary UX
   const [isMuted, setIsMuted] = useState(true);
   const playRef = useRef<NodeJS.Timeout | null>(null);
   const eventListRef = useRef<HTMLDivElement>(null);
@@ -225,20 +226,6 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
   const stats = useMemo(() => getStatsAtDate(currentDate), [currentDate]);
   const casualties = useMemo(() => getCasualtiesUpTo(currentDate), [currentDate]);
   const hasEvent = todayEvents.length > 0;
-
-  // Click outside feed to dismiss — but NOT when tapping scrubber controls
-  useEffect(() => {
-    if (infoDismissed || todayEvents.length === 0 || expanded) return;
-    const handler = (e: MouseEvent | TouchEvent) => {
-      const target = e.target as Node;
-      // Don't dismiss if tapping inside the feed or anywhere in the scrubber bar
-      if (feedRef.current?.contains(target)) return;
-      if (scrubberRef.current?.contains(target)) return;
-      setInfoDismissed(true);
-    };
-    document.addEventListener('pointerdown', handler);
-    return () => document.removeEventListener('pointerdown', handler);
-  }, [infoDismissed, todayEvents.length, expanded]);
 
   // ── Playback: step through events ONE AT A TIME, fly map to each ──
   useEffect(() => {
@@ -304,7 +291,6 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
 
   // ── When landing on a new date, reset sub-index and show first event ──
   useEffect(() => {
-    setInfoDismissed(false);
     setEventSubIndex(0);
     if (feedRef.current) feedRef.current.scrollTop = 0;
     // Pause any active video when changing dates
@@ -394,8 +380,28 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
   return (
     <div ref={scrubberRef} className='absolute bottom-0 left-0 right-0 z-10'>
 
-      {/* ── Scrolling news feed — all events for current day ── */}
-      {todayEvents.length > 0 && !expanded && !infoDismissed && (
+      {/* ── Compact death toll pill — always visible above scrubber ── */}
+      {!showFeed && !expanded && casualties.totalKilled > 0 && (
+        <div className='mx-3 mb-2 inline-flex items-center gap-3 rounded-lg bg-red-950/80 backdrop-blur-md border border-red-500/30 px-3 py-1.5 shadow-lg'>
+          <span className='flex items-center gap-1.5 text-sm font-black text-red-400'>
+            <IconUsers className='h-4 w-4' />
+            {casualties.totalKilled.toLocaleString()}+ killed
+          </span>
+          {casualties.totalDisplaced > 0 && (
+            <span className='text-xs font-bold text-amber-400'>
+              {(casualties.totalDisplaced / 1000000).toFixed(1)}M displaced
+            </span>
+          )}
+          {hasEvent && todayEvents[0] && (
+            <span className='text-xs text-foreground/70 font-semibold max-w-[200px] truncate'>
+              {todayEvents[0].title}
+            </span>
+          )}
+        </div>
+      )}
+
+      {/* ── Scrolling news feed — hidden by default, toggle with feed button ── */}
+      {todayEvents.length > 0 && !expanded && showFeed && (
         <div ref={feedRef} className='mx-3 mb-2 max-w-lg max-h-[55vh] overflow-y-auto rounded-lg border bg-background/95 backdrop-blur-md shadow-2xl'
           onTouchStart={() => setIsPlaying(false)}
         >
@@ -685,6 +691,17 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
               ? <IconVolumeOff className='h-3.5 w-3.5' />
               : <IconVolume className='h-3.5 w-3.5' />
             }
+          </Button>
+
+          {/* Feed toggle — show/hide event detail cards */}
+          <Button
+            size='icon'
+            variant='ghost'
+            className={`h-7 w-7 shrink-0 ${showFeed ? 'text-blue-400' : ''}`}
+            onClick={() => setShowFeed((f) => !f)}
+            title={showFeed ? 'Hide event feed' : 'Show event feed'}
+          >
+            <IconArticle className='h-3.5 w-3.5' />
           </Button>
 
           {/* Date display */}

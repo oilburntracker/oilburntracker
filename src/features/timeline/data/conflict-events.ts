@@ -130,6 +130,9 @@ export const conflictEvents: ConflictEvent[] = [
     title: 'Kfar Aza — house-to-house killings, babies and elderly murdered',
     category: 'escalation',
     description: 'Hamas breaches Kfar Aza and goes door to door. Bodies found in homes and streets. Reports of sexual violence. Infants and elderly killed. At least 62 residents murdered. 19 kidnapped to Gaza. Among the first communities where journalists documented the aftermath — the images shocked the world.',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=HAcIDUBP1dk', label: 'ABC News: Revisiting Kfar Aza Kibbutz After Hamas Attack' }
+    ],
     casualties: { killed: 62, source: 'Israeli Government' },
     lat: 31.4835,
     lng: 34.5337,
@@ -149,6 +152,7 @@ export const conflictEvents: ConflictEvent[] = [
     zoom: 17,
     sourceUrl: 'https://en.wikipedia.org/wiki/Nir_Oz_attack',
     mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=XNXgY3G55HU', label: 'CBS Mornings: Inside Nir Oz Kibbutz After Oct. 7 Attack' },
       { type: 'news', url: 'https://www.timesofisrael.com/massive-failure-first-troops-reached-kibbutz-nir-oz-40-minutes-after-last-terrorists-left', label: 'ToI: Massive failure at Nir Oz' }
     ]
   },
@@ -159,6 +163,9 @@ export const conflictEvents: ConflictEvent[] = [
     title: 'Nahal Oz military base overrun — female soldiers kidnapped',
     category: 'escalation',
     description: '215 Hamas fighters storm the IDF surveillance base 850m from Gaza. The unit monitoring Gaza — destroyed. 53 soldiers killed. 10 kidnapped including 7 young female observation soldiers who had warned of unusual Hamas activity in the days before. Toxic gas used to kill soldiers in protected positions.',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=BB8uGxQ1MqQ', label: 'NBC News: Hamas Abducting Israeli Women at Nahal Oz' }
+    ],
     casualties: { killed: 53, injured: 7, source: 'IDF' },
     lat: 31.4727,
     lng: 34.4977,
@@ -172,6 +179,9 @@ export const conflictEvents: ConflictEvent[] = [
     title: 'Battle of Sderot — police station siege, city terrorized',
     category: 'escalation',
     description: '40 Nukhba fighters infiltrate Israel\'s largest border city. They attack the police station, killing the first officer at the entrance. Militants barricade inside. 53 killed: 37 civilians, 11 police, 2 firefighters. Last fighters not cleared until Oct 8. Station demolished with bulldozers.',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=_45HVw5pEA8', label: 'Sky News: Many Killed in Sderot Following Attack' }
+    ],
     casualties: { killed: 53, source: 'Israeli Government' },
     lat: 31.5265,
     lng: 34.5970,
@@ -191,6 +201,7 @@ export const conflictEvents: ConflictEvent[] = [
     zoom: 14,
     sourceUrl: 'https://www.bbc.com/news/world-middle-east-67039975',
     mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=f1TdBUQirn0', label: 'CNN: Armed Terrorists Seen Parading Kidnapped Woman' },
       { type: 'news', url: 'https://www.aljazeera.com/news/2023/10/7/what-happened-in-israel-a-breakdown-of-how-the-hamas-attack-unfolded', label: 'Al Jazeera: How the attack unfolded' },
       { type: 'news', url: 'https://www.cnn.com/2023/11/15/middleeast/bodycam-video-hamas-massacre-tunnels-intl/index.html', label: 'CNN: Bodycam footage' }
     ],
@@ -209,6 +220,9 @@ export const conflictEvents: ConflictEvent[] = [
     title: 'Israel retaliates — 2.3 million trapped as bombs begin falling',
     category: 'military_strike',
     description: 'Within hours of the Hamas attack, Israeli airstrikes begin hitting Gaza. By midnight, 230+ Palestinians killed including 37 children. Dense residential blocks hit. No bomb shelters in Gaza — no iron dome, no warning sirens, no safe rooms. 2.3 million people, 1 million of them children, sealed in a 25-mile strip with no way out. All border crossings closed.',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=Yt7gzj8lenE', label: 'Sky News: Attack Prompts Intense Israeli Military Retaliation' }
+    ],
     casualties: { killed: 230, injured: 1600, source: 'Gaza MoH (Oct 7 alone)', children: 37 },
     lat: 31.42,
     lng: 34.36,
@@ -224,7 +238,10 @@ export const conflictEvents: ConflictEvent[] = [
     lat: 33.28,
     lng: 35.70,
     zoom: 10,
-    sourceUrl: 'https://en.wikipedia.org/wiki/October_2023_Israel%E2%80%93Hezbollah_fire_exchanges'
+    sourceUrl: 'https://en.wikipedia.org/wiki/October_2023_Israel%E2%80%93Hezbollah_fire_exchanges',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=WrOMJrsjT2k', label: 'France 24: Israel Strikes Lebanon After Hezbollah Hits Shebaa Farms' }
+    ],
   },
   {
     id: 'oct8-hostage-crisis',
@@ -235,7 +252,10 @@ export const conflictEvents: ConflictEvent[] = [
     lat: 31.77,
     lng: 35.21,
     zoom: 8,
-    sourceUrl: 'https://www.bbc.com/news/world-middle-east-67053011'
+    sourceUrl: 'https://www.bbc.com/news/world-middle-east-67053011',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=EDt5Jxr9pVw', label: 'ITV News: Families Plea for Lives of Children Kidnapped by Hamas' }
+    ],
   },
   {
     id: 'oct9-total-siege',
@@ -249,6 +269,7 @@ export const conflictEvents: ConflictEvent[] = [
     zoom: 10,
     sourceUrl: 'https://www.aljazeera.com/news/2023/10/9/israel-announces-total-blockade-on-gaza',
     mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=T41doeVtuVo', label: 'France 24: Israel Orders Complete Gaza Siege' },
       { type: 'news', url: 'https://www.pbs.org/newshour/world/israeli-defense-minister-orders-complete-siege-on-gaza-after-hamas-surprise-attack', label: 'PBS: No power, food or fuel' }
     ]
   },
@@ -258,6 +279,9 @@ export const conflictEvents: ConflictEvent[] = [
     title: 'Jabalia refugee camp hit — 6,000 bombs in 6 days',
     category: 'military_strike',
     description: 'Israel drops 6,000 bombs on Gaza in the first 6 days — more than the US dropped on Afghanistan in an entire year. Jabalia, one of the most densely populated places on Earth, hit repeatedly. Entire city blocks flattened. Families pulled from rubble. By Oct 10: 900+ Palestinians killed including 260+ children. No way out, nowhere to hide.',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=T-o5AiMKoL8', label: 'France 24: Dozens Killed in Strike on Jabalia Refugee Camp' }
+    ],
     casualties: { killed: 200, injured: 600, source: 'Gaza MoH (incremental Oct 10)', children: 60 },
     lat: 31.53,
     lng: 34.50,
@@ -273,7 +297,10 @@ export const conflictEvents: ConflictEvent[] = [
     lat: 31.40,
     lng: 34.45,
     zoom: 11,
-    sourceUrl: 'https://www.un.org/sexualviolenceinconflict/press-release/mission-report-of-the-office-of-the-srsg-svc-to-israel-and-the-occupied-west-bank/'
+    sourceUrl: 'https://www.un.org/sexualviolenceinconflict/press-release/mission-report-of-the-office-of-the-srsg-svc-to-israel-and-the-occupied-west-bank/',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=fveD6Cpb9fo', label: 'France 24: Oct 7 Sexual Violence Investigation' }
+    ],
   },
   {
     id: 'oct13-evacuation-order',
@@ -305,6 +332,7 @@ export const conflictEvents: ConflictEvent[] = [
     zoom: 15,
     sourceUrl: 'https://www.hrw.org/news/2023/11/26/gaza-findings-october-17-al-ahli-hospital-explosion',
     mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=p47rtxtIPOE', label: 'Al Jazeera: World Reacts as 500 Killed in Hospital Strike' },
       { type: 'news', url: 'https://www.aljazeera.com/news/2023/10/18/what-do-we-know-about-the-strike-on-the-hospital-in-gaza', label: 'Al Jazeera: What we know' }
     ]
   },
@@ -314,6 +342,9 @@ export const conflictEvents: ConflictEvent[] = [
     title: 'Children trapped in cars, under rubble — rescue impossible',
     category: 'humanitarian',
     description: 'Across Gaza, children are dying under rubble with no rescue equipment. Hospitals overwhelmed — operating without anesthesia. Doctors amputating limbs of children with no painkillers. Parents writing children\'s names on their legs so bodies can be identified. 724 children killed in the first 8 days.',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=pyKIg-UkHEE', label: 'CNN: Palestinian Girl Trapped in Car Calls for Help' }
+    ],
     casualties: { killed: 300, source: 'Gaza MoH (incremental Oct 14-15)', children: 150 },
     lat: 31.42,
     lng: 34.36,
@@ -329,7 +360,10 @@ export const conflictEvents: ConflictEvent[] = [
     lat: 31.2725,
     lng: 34.2586,
     zoom: 13,
-    sourceUrl: 'https://www.aljazeera.com/news/2023/10/21/rafah-border-crossing-between-gaza-egypt-opens-for-aid-trucks'
+    sourceUrl: 'https://www.aljazeera.com/news/2023/10/21/rafah-border-crossing-between-gaza-egypt-opens-for-aid-trucks',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=ASWxSfcllNw', label: 'Guardian News: Aid Trucks Enter Gaza After Rafah Crossing Opens' }
+    ],
   },
   {
     id: 'oct27-ground-invasion',
@@ -343,6 +377,7 @@ export const conflictEvents: ConflictEvent[] = [
     zoom: 11,
     sourceUrl: 'https://en.wikipedia.org/wiki/2023_Israeli_invasion_of_the_Gaza_Strip',
     mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=JrBgaPijH6Q', label: 'CBS News: Israeli Military Expanding Ground Operations in Gaza' },
       { type: 'news', url: 'https://www.pbs.org/newshour/world/israel-to-begin-long-ground-war-in-gaza-soon-aims-to-destroy-hamas-and-its-tunnels', label: 'PBS: Long ground war begins' }
     ],
     movements: [
@@ -360,6 +395,9 @@ export const conflictEvents: ConflictEvent[] = [
     title: 'Jabalia bombed for 2nd day — 30 buildings leveled in one quarter',
     category: 'military_strike',
     description: 'Israel bombs Jabalia refugee camp for the second consecutive day, leveling 30 residential buildings across an entire quarter. IDF claims it killed Hamas commander Ibrahim Biari. UN Human Rights Office warns the attacks could amount to war crimes given the scale of civilian casualties in one of the most densely populated areas on Earth.',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=9L4MQY0Ge6s', label: 'ABC News: IDF Confirms 2nd Strike on Jabalia Refugee Camp' }
+    ],
     casualties: { killed: 195, injured: 777, source: 'Gaza MoH / OHCHR' },
     lat: 31.5327,
     lng: 34.4982,
@@ -372,6 +410,9 @@ export const conflictEvents: ConflictEvent[] = [
     title: 'Airstrike hits ambulance convoy outside Al-Shifa Hospital',
     category: 'military_strike',
     description: 'Israeli airstrike hits ambulance convoy transporting critically wounded patients from Al-Shifa to Rafah crossing. Human Rights Watch calls it "apparently unlawful." Israel claims ambulance used by Hamas cell. 15 killed, 60 injured. Paramedics now targets.',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=TRDun9dplUk', label: 'WION: Israel Strikes Ambulance at Al-Shifa Hospital' }
+    ],
     casualties: { killed: 15, injured: 60, source: 'Gaza MoH / HRW' },
     lat: 31.5212,
     lng: 34.4399,
@@ -384,6 +425,9 @@ export const conflictEvents: ConflictEvent[] = [
     title: 'IDF splits Gaza in two — encircles Gaza City',
     category: 'escalation',
     description: 'Israeli military completes encirclement of Gaza City, dividing the Strip into north and south. IDF spokesman: "Today, there is north Gaza and south Gaza." Third total communications blackout. Al-Maghazi refugee camp bombed the same day — 52 killed, mostly women and children.',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=itFYO-ZKlFM', label: 'WSJ: Israel Says It Has Surrounded Gaza City' }
+    ],
     casualties: { killed: 52, source: 'Al-Aqsa Martyrs Hospital / CNN' },
     lat: 31.4500,
     lng: 34.4000,
@@ -396,6 +440,9 @@ export const conflictEvents: ConflictEvent[] = [
     title: 'Al-Shifa encircled — premature babies dying without incubators',
     category: 'humanitarian',
     description: 'Israeli forces complete encirclement of Al-Shifa Hospital, trapping 1,500 patients, 1,500 medical workers, and 15,000 displaced people. Hospital loses all electricity. 37 premature babies left without incubators. 3 babies and 2 ICU patients die within hours. Snipers fire at anyone near windows. Newborns wrapped in foil, placed near hot water to survive.',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=-ZFzpsB1dOQ', label: 'Al Jazeera: Premature Babies Die at Al-Shifa Hospital' }
+    ],
     casualties: { killed: 37, source: 'WHO / Gaza MoH (patients who died during siege)' },
     lat: 31.5212,
     lng: 34.4399,
@@ -424,6 +471,9 @@ export const conflictEvents: ConflictEvent[] = [
     title: 'Indonesian Hospital besieged — shelled for the 5th time',
     category: 'military_strike',
     description: 'IDF completely surrounds Indonesian Hospital in Beit Lahia. Shell strikes second floor, killing 12 patients. Main operating room destroyed. Tanks surround facility. Al-Awda Hospital struck next day — 3 doctors killed. Northern Gaza now has zero functioning hospitals.',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=myeXJa7ci88', label: 'Al Jazeera: Israeli Tanks Besiege Indonesian Hospital' }
+    ],
     casualties: { killed: 16, source: 'Gaza MoH' },
     lat: 31.5352,
     lng: 34.5094,
@@ -442,6 +492,7 @@ export const conflictEvents: ConflictEvent[] = [
     zoom: 10,
     sourceUrl: 'https://en.wikipedia.org/wiki/2023_Gaza_war_ceasefire',
     mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=fi7f3iWZVvM', label: 'Al Jazeera: Gaza Truce Deal — First Halt in Seven Weeks' },
       { type: 'news', url: 'https://www.aljazeera.com/news/2023/11/22/behind-the-scenes-how-did-the-israel-hamas-truce-deal-unfold', label: 'Al Jazeera: Behind the deal' }
     ]
   },
@@ -454,7 +505,10 @@ export const conflictEvents: ConflictEvent[] = [
     lat: 31.35,
     lng: 34.35,
     zoom: 10,
-    sourceUrl: 'https://www.bbc.com/news/world-middle-east-67542435'
+    sourceUrl: 'https://www.bbc.com/news/world-middle-east-67542435',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=GxI_C5S6dvw', label: 'Al Jazeera: Freed Israeli Captive Talks About Abduction' }
+    ],
   },
 
   // ══════════════════════════════════════════════
@@ -466,6 +520,9 @@ export const conflictEvents: ConflictEvent[] = [
     title: 'Ceasefire collapses — 200 airstrikes resume, Khan Younis invaded',
     category: 'escalation',
     description: 'Ceasefire collapses after negotiations fail. Israel launches 200+ airstrikes in hours. 178 killed on first day alone. IDF simultaneously pushes into Khan Younis, southern Gaza\'s largest city. Now orders ALL of southern Gaza to evacuate too — 1.9M of 2.1M Gazans displaced. There is nowhere left to go.',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=AO7GEFkS6s0', label: 'CBS News: IDF Airstrikes Resume After Ceasefire Collapse' }
+    ],
     casualties: { killed: 1000, displaced: 400000, source: 'Gaza MoH (Dec 1 week)' },
     lat: 31.34,
     lng: 34.31,
@@ -485,7 +542,10 @@ export const conflictEvents: ConflictEvent[] = [
     lat: 40.7489,
     lng: -73.9680,
     zoom: 5,
-    sourceUrl: 'https://news.un.org/en/story/2023/12/1144447'
+    sourceUrl: 'https://news.un.org/en/story/2023/12/1144447',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=fHHPepOmOb4', label: 'Al Jazeera: UN Chief Invokes Article 99 on Gaza' }
+    ],
   },
   {
     id: 'dec7-refaat-alareer',
@@ -493,6 +553,9 @@ export const conflictEvents: ConflictEvent[] = [
     title: 'Poet Refaat Alareer killed — "If I Must Die" goes viral',
     category: 'military_strike',
     description: 'Palestinian poet and professor Refaat Alareer (44) killed in airstrike in Shejaiya with his brother, sister, and four nephews. Euro-Med Monitor says he was deliberately targeted — "surgically bombed out of the entire building" after weeks of death threats. His poem "If I Must Die" will be translated into 250+ languages and read at protests worldwide.',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=3YwwZhvCw2M', label: 'Al Jazeera: Remembering Palestinian Poet Refaat Alareer' }
+    ],
     casualties: { killed: 7, source: 'Euro-Med Monitor' },
     lat: 31.5100,
     lng: 34.4600,
@@ -508,7 +571,10 @@ export const conflictEvents: ConflictEvent[] = [
     lat: 31.5030,
     lng: 34.4560,
     zoom: 16,
-    sourceUrl: 'https://www.cnn.com/2023/12/07/middleeast/gaza-israeli-soldiers-detained-men-intl/index.html'
+    sourceUrl: 'https://www.cnn.com/2023/12/07/middleeast/gaza-israeli-soldiers-detained-men-intl/index.html',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=sxTGr8giBtg', label: 'Al Jazeera: Great Omari Mosque Hit in Israeli Airstrike' }
+    ],
   },
   {
     id: 'dec12-un-ga-ceasefire',
@@ -519,7 +585,10 @@ export const conflictEvents: ConflictEvent[] = [
     lat: 40.7489,
     lng: -73.9680,
     zoom: 5,
-    sourceUrl: 'https://www.npr.org/2023/12/12/1218927939/un-general-assembly-gaza-israel-resolution-cease-fire-us'
+    sourceUrl: 'https://www.npr.org/2023/12/12/1218927939/un-general-assembly-gaza-israel-resolution-cease-fire-us',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=tlIQW6Cn5kk', label: 'BBC News: UN General Assembly Demands Immediate Gaza Ceasefire' }
+    ],
   },
   {
     id: 'dec15-hostages-white-flag',
@@ -527,6 +596,9 @@ export const conflictEvents: ConflictEvent[] = [
     title: 'IDF kills 3 Israeli hostages waving white flag',
     category: 'humanitarian',
     description: 'Three Israeli hostages — Yotam Haim (28), Alon Shamriz (26), Samer Talalka (24) — shot dead by IDF in Shejaiya despite being shirtless, unarmed, waving a white flag. Sniper kills two; third shot 15 minutes later against battalion commander\'s direct order to hold fire. IDF chief admits it violated rules of engagement. Same day: Al Jazeera cameraman Samer Abudaqa killed — left to bleed out for hours as IDF blocks paramedics.',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=byVenkiDm_o', label: 'CBC News: 3 Israeli Hostages Holding White Flag Killed by IDF' }
+    ],
     casualties: { killed: 4, source: 'IDF / Al Jazeera (3 hostages + 1 journalist)' },
     lat: 31.5150,
     lng: 34.4650,
@@ -542,7 +614,10 @@ export const conflictEvents: ConflictEvent[] = [
     lat: 31.42,
     lng: 34.36,
     zoom: 10,
-    sourceUrl: 'https://www.aljazeera.com/news/2023/12/21/entire-gaza-population-facing-hunger-crisis-famine-risk-un-backed-report'
+    sourceUrl: 'https://www.aljazeera.com/news/2023/12/21/entire-gaza-population-facing-hunger-crisis-famine-risk-un-backed-report',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=CjMV_xhqsrM', label: 'Al Jazeera: Worsening Food and Water Shortages in Gaza' }
+    ],
   },
   {
     id: 'dec24-christmas-massacre',
@@ -550,6 +625,9 @@ export const conflictEvents: ConflictEvent[] = [
     title: 'Christmas Eve massacre — 250 killed across Gaza in 24 hours',
     category: 'military_strike',
     description: 'Israeli warplanes strike three houses in al-Maghazi refugee camp: 106 killed. Gaza MoH: "massacre on a crowded residential square." 250+ Palestinians killed across Gaza in 24 hours — additional mass casualties in Khan Younis, Bureij, Nuseirat. MSF: 209 injured and 131 dead at Al-Aqsa Hospital from Christmas Eve strikes alone.',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=PC6mg0R5fSY', label: 'CNN: At Least 250 Killed in Gaza in 24 Hours' }
+    ],
     casualties: { killed: 250, injured: 209, source: 'AP / MSF / Gaza MoH' },
     lat: 31.4223,
     lng: 34.3850,
@@ -562,6 +640,9 @@ export const conflictEvents: ConflictEvent[] = [
     title: 'South Africa files genocide case at the ICJ',
     category: 'diplomatic',
     description: 'South Africa files application at International Court of Justice accusing Israel of violating the Genocide Convention. Cites killing, serious harm, and "conditions calculated to bring about physical destruction." Hearings set for Jan 11-12. The most consequential international legal action of the conflict. By Dec 31: 21,600+ Palestinians killed, 1.9M displaced, 65,000 homes destroyed.',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=Y0zI9BDnCyI', label: 'Al Jazeera: South Africa Files Genocide Case at ICJ' }
+    ],
     casualties: { killed: 1500, source: 'Gaza MoH (incremental Dec 8-31)' },
     lat: 52.0862,
     lng: 4.3138,
@@ -578,6 +659,9 @@ export const conflictEvents: ConflictEvent[] = [
     title: 'Hamas deputy leader assassinated in Beirut',
     category: 'escalation',
     description: 'Israeli drone strike kills Saleh al-Arouri, deputy leader of Hamas and co-founder of its military wing, in Dahieh, Beirut. 6 other Hamas members killed. Most senior Hamas leader killed since Oct 7. Raises fears of full Lebanon war.',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=Ny-jltcXFdM', label: 'France 24: Hamas Leader Killed in Beirut Strike' }
+    ],
     casualties: { killed: 7, source: 'Hamas / Lebanese security' },
     lat: 33.85,
     lng: 35.48,
@@ -597,6 +681,7 @@ export const conflictEvents: ConflictEvent[] = [
     zoom: 7,
     sourceUrl: 'https://www.reuters.com/world/middle-east/us-launches-strikes-against-houthi-targets-yemen-officials-say-2024-01-12/',
     mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=f9rEjpAPQyo', label: 'Al Jazeera: US and UK Strike Yemen Houthis' },
       { type: 'news', url: 'https://www.crisisgroup.org/visual-explainers/red-sea/', label: 'Crisis Group: Red Sea visual' }
     ],
     movements: [
@@ -609,6 +694,9 @@ export const conflictEvents: ConflictEvent[] = [
     title: '24 IDF soldiers killed — deadliest day of ground invasion',
     category: 'military_strike',
     description: '21 reservists die when 2 buildings collapse from RPG hit detonating planted explosives near the border. 3 more killed elsewhere. Deadliest single day for IDF since the ground invasion began. Simultaneously, IDF announces encirclement of Khan Younis — Sinwar\'s hometown.',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=YZ0W2P2SaZQ', label: 'Al Jazeera: Deadliest Day for Israeli Military in Gaza' }
+    ],
     casualties: { killed: 24, source: 'IDF' },
     lat: 31.35,
     lng: 34.31,
@@ -624,7 +712,10 @@ export const conflictEvents: ConflictEvent[] = [
     lat: 52.08,
     lng: 4.27,
     zoom: 8,
-    sourceUrl: 'https://www.icj-cij.org/case/192'
+    sourceUrl: 'https://www.icj-cij.org/case/192',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=I3cPAueZ-4M', label: 'NBC News: ICJ Orders Israel to Prevent Genocide in Gaza' }
+    ],
   },
   {
     id: 'jan29-hind-rajab',
@@ -632,6 +723,9 @@ export const conflictEvents: ConflictEvent[] = [
     title: 'Hind Rajab, age 6 — calls for help for hours before being killed',
     category: 'humanitarian',
     description: '6-year-old Hind Rajab calls Palestinian Red Crescent from a car surrounded by dead relatives. She whispers in terror for 3 hours. "I\'m scared. Come take me." An ambulance is dispatched — both paramedics are killed. 12 days later her body is found in the car, riddled with bullets. She becomes a symbol of the war.',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=HI71m_cQnbM', label: 'CBC News: 6-Year-Old Hind Rajab Found Dead in Gaza' }
+    ],
     casualties: { killed: 2, source: 'PRCS (2 paramedics killed en route)' },
     lat: 31.50,
     lng: 34.44,
@@ -650,6 +744,7 @@ export const conflictEvents: ConflictEvent[] = [
     zoom: 14,
     sourceUrl: 'https://www.aljazeera.com/news/2024/2/29/dozens-killed-injured-by-israeli-fire-in-gaza-while-collecting-food-aid',
     mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=ywOzeZl7uIU', label: 'CNN: 104 Civilians Killed Trying to Access Food Aid' },
       { type: 'news', url: 'https://www.cnn.com/2024/02/29/middleeast/gaza-city-deaths-food-israel-intl/index.html', label: 'CNN: Flour Massacre investigation' }
     ]
   },
@@ -665,6 +760,7 @@ export const conflictEvents: ConflictEvent[] = [
     zoom: 10,
     sourceUrl: 'https://www.ipcinfo.org/ipcinfo-website/alerts-archive/issue-97/en/',
     mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=vX9yDTsvOH8', label: 'France 24: Famine Imminent in Northern Gaza' },
       { type: 'news', url: 'https://www.aljazeera.com/news/longform/2024/3/15/mapping-the-destruction-of-gazas-health-system', label: 'Al Jazeera: Gaza\'s destroyed health system' }
     ]
   },
@@ -677,6 +773,9 @@ export const conflictEvents: ConflictEvent[] = [
     title: 'Israel destroys Iranian consulate in Damascus — 16 killed',
     category: 'escalation',
     description: 'Israeli F-35s fire 6 missiles at Iran\'s embassy compound in Damascus. Brigadier General Zahedi (most senior IRGC officer killed since Soleimani), his deputy, and 6 other Quds Force officers among 16 dead. Iran vows retaliation. This strike directly triggers Iran\'s April 13 attack.',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=6ldUzS2GYms', label: 'Al Jazeera: Israeli Strike on Iranian Consulate in Damascus' }
+    ],
     casualties: { killed: 16, source: 'Iranian state media / IRGC' },
     lat: 33.51,
     lng: 36.28,
@@ -695,6 +794,7 @@ export const conflictEvents: ConflictEvent[] = [
     zoom: 14,
     sourceUrl: 'https://www.cnn.com/2024/04/01/middleeast/world-central-kitchen-killed-gaza-intl-hnk/index.html',
     mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=jTS5nbjMW2Y', label: 'AP: Israeli Strike Kills 7 World Central Kitchen Workers' },
       { type: 'news', url: 'https://www.npr.org/2024/04/01/1242177519/world-central-kitchen-workers-deaths-gaza', label: 'NPR: WCK workers killed' }
     ]
   },
@@ -709,6 +809,7 @@ export const conflictEvents: ConflictEvent[] = [
     zoom: 7,
     sourceUrl: 'https://www.nytimes.com/2024/04/13/world/middleeast/iran-attacks-israel.html',
     mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=fILEjXQHOps', label: 'Al Jazeera: Iran Attacks Israel — Majority of Drones Intercepted' },
       { type: 'news', url: 'https://www.aljazeera.com/news/2024/4/14/iran-attacks-israel-with-over-300-drones-missiles-what-you-need-to-know', label: 'Al Jazeera: 300+ drones explainer' },
       { type: 'news', url: 'https://www.bbc.com/news/world-middle-east-68808933', label: 'BBC: Iran attack explained' }
     ]
@@ -722,7 +823,10 @@ export const conflictEvents: ConflictEvent[] = [
     lat: 32.65,
     lng: 51.68,
     zoom: 8,
-    sourceUrl: 'https://www.bbc.com/news/world-middle-east-68852804'
+    sourceUrl: 'https://www.bbc.com/news/world-middle-east-68852804',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=XZZSCxCg_q0', label: 'Al Jazeera: Drone Attack on Iran Near Isfahan' }
+    ],
   },
   {
     id: 'nasser-mass-graves',
@@ -733,7 +837,10 @@ export const conflictEvents: ConflictEvent[] = [
     lat: 31.34,
     lng: 34.31,
     zoom: 12,
-    sourceUrl: 'https://www.aljazeera.com/news/2024/4/21/nearly-200-bodies-found-in-mass-grave-at-hospital-in-gazas-khan-younis'
+    sourceUrl: 'https://www.aljazeera.com/news/2024/4/21/nearly-200-bodies-found-in-mass-grave-at-hospital-in-gazas-khan-younis',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=OcZ4_dZ8WZU', label: 'BBC News: UN Demands Investigation of Mass Graves at Gaza Hospitals' }
+    ],
   },
   {
     id: 'rafah-invasion',
@@ -760,6 +867,9 @@ export const conflictEvents: ConflictEvent[] = [
     title: 'Tent camp bombed 2 days after ICJ ordered Rafah halt — 50 killed',
     category: 'military_strike',
     description: 'IAF bombs displacement camp in Tel al-Sultan, Rafah — an area Israel designated as a "safe zone" one week prior. 7 900kg bombs dropped. Tents catch fire. 45-50 killed (12 women, 8 children, 3 elderly), 200+ injured. EU foreign policy chief: "a bloodbath." Came just 2 days after ICJ ordered Israel to halt the Rafah offensive.',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=CdoL-PHVExo', label: 'France 24: Global Outrage After Israeli Strike on Rafah Camp' }
+    ],
     casualties: { killed: 50, injured: 200, source: 'Gaza Health Ministry / UN', children: 8 },
     lat: 31.31,
     lng: 34.23,
@@ -778,6 +888,7 @@ export const conflictEvents: ConflictEvent[] = [
     zoom: 14,
     sourceUrl: 'https://www.npr.org/2024/06/08/nx-s1-4997026/israel-gaza-hostages-rescued',
     mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=0yHneWubuXg', label: 'Al Jazeera World: An Israeli Raid That Turned Into a Massacre' },
       { type: 'news', url: 'https://www.cnn.com/2024/06/09/middleeast/israel-hostage-rescue-gaza-intl-hnk/index.html', label: 'CNN: Hostage rescue and destruction' }
     ]
   },
@@ -787,6 +898,9 @@ export const conflictEvents: ConflictEvent[] = [
     title: 'Israel strikes "safe zone" tent camp — 90+ killed, Hamas commander targeted',
     category: 'military_strike',
     description: 'Airstrike hits tent camp in Al-Mawasi — an area Israel designated as a humanitarian safe zone. 90+ killed, 300+ wounded. Victims were displaced families sleeping in tents. IDF says it targeted Hamas military chief Mohammed Deif (confirmed killed Aug 1). The concept of "safe zones" is dead.',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=7jlNiPSQCI8', label: 'France 24: Israeli Strike on Khan Younis Kills 90+' }
+    ],
     casualties: { killed: 90, injured: 300, source: 'Gaza MoH' },
     lat: 31.30,
     lng: 34.24,
@@ -802,7 +916,10 @@ export const conflictEvents: ConflictEvent[] = [
     lat: 52.07,
     lng: 4.29,
     zoom: 5,
-    sourceUrl: 'https://www.amnesty.org/en/latest/news/2024/07/icj-opinion-declaring-israels-occupation-of-palestinian-territories-unlawful-is-historic-vindication-of-palestinians-rights/'
+    sourceUrl: 'https://www.amnesty.org/en/latest/news/2024/07/icj-opinion-declaring-israels-occupation-of-palestinian-territories-unlawful-is-historic-vindication-of-palestinians-rights/',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=V-3vkHXNRDI', label: 'UN: ICJ Rules Israel Occupation Unlawful' }
+    ],
   },
   {
     id: 'houthi-tel-aviv-drone',
@@ -810,6 +927,9 @@ export const conflictEvents: ConflictEvent[] = [
     title: 'Houthi drone strikes Tel Aviv — evades all air defenses',
     category: 'escalation',
     description: 'A Houthi "Jaffa" drone (modified Iranian Samad-3) evades Israeli air defenses due to reported human error and strikes an apartment building near the US Embassy on Ben Yehuda Street, Tel Aviv. 1 killed, 10 injured. First successful Houthi attack to reach Tel Aviv. The war is reaching Israel\'s heartland from 2,000 km away.',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=P8GY65VC16A', label: 'AP: Tel Aviv After Deadly Houthi Drone Strike' }
+    ],
     casualties: { killed: 1, injured: 10, source: 'IDF / Magen David Adom' },
     lat: 32.09,
     lng: 34.78,
@@ -822,6 +942,9 @@ export const conflictEvents: ConflictEvent[] = [
     title: 'Israel bombs Yemen\'s Hodeidah port — 1,800 km away',
     category: 'retaliation',
     description: 'In retaliation for the Tel Aviv drone, the Israeli Air Force strikes Hodeidah port: 24+ oil storage tanks, 2 shipping cranes, a power plant. First direct Israeli strike on Houthi territory, 1,800 km from Israel\'s borders. 3 killed, 87 wounded with severe burns.',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=boTnMDUTp7Q', label: 'Sky News: Israel Strikes Yemen Port After Houthi Attacks' }
+    ],
     casualties: { killed: 3, injured: 87, source: 'Yemen Ministry of Health' },
     lat: 14.80,
     lng: 42.95,
@@ -834,6 +957,9 @@ export const conflictEvents: ConflictEvent[] = [
     title: '12 Druze children killed by rocket during football match',
     category: 'escalation',
     description: 'A rocket strikes a football pitch in Majdal Shams, Israeli-occupied Golan Heights, during a children\'s football match. 12 Druze children aged 10-16 killed, 42 injured. Israel blames Hezbollah\'s Iranian-made Falaq-1 rocket; Hezbollah denies responsibility. Deadliest single Hezbollah-attributed attack since Oct 7.',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=abru8hRvMvA', label: 'BBC News: 11 Young People Killed by Rocket in Golan Heights' }
+    ],
     casualties: { killed: 12, injured: 42, source: 'IDF / Magen David Adom', children: 12 },
     lat: 33.27,
     lng: 35.77,
@@ -846,6 +972,9 @@ export const conflictEvents: ConflictEvent[] = [
     title: 'Israel kills Hezbollah\'s top military commander in Beirut strike',
     category: 'military_strike',
     description: 'Israeli airstrike levels a building in Dahieh, Beirut, killing Fuad Shukr — Nasrallah\'s right-hand man and Hezbollah\'s most senior military commander. 5 civilians (including 2 children) and an Iranian adviser also killed, 80 wounded.',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=aSDSfkuRp2A', label: 'Al Jazeera: Hezbollah Commander Shukr Killed in Beirut Strike' }
+    ],
     casualties: { killed: 7, injured: 80, source: 'IDF / Lebanese health officials' },
     lat: 33.84,
     lng: 35.51,
@@ -858,6 +987,9 @@ export const conflictEvents: ConflictEvent[] = [
     title: 'Hamas leader Haniyeh assassinated in Tehran — bomb in guesthouse',
     category: 'military_strike',
     description: 'Ismail Haniyeh, Hamas\' political leader, killed by a remotely detonated explosive smuggled into his IRGC guesthouse in Tehran months earlier. He was attending Iran\'s presidential inauguration. Iran\'s Supreme Leader Khamenei vows revenge. The assassination campaign reaches deep into Iran itself.',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=0qofJJQFhaM', label: 'Al Jazeera: Hamas Leader Haniyeh Assassinated in Tehran' }
+    ],
     casualties: { killed: 2, source: 'Hamas / Iranian state media' },
     lat: 35.69,
     lng: 51.39,
@@ -870,6 +1002,9 @@ export const conflictEvents: ConflictEvent[] = [
     title: 'Tabeen school bombed during morning prayer — 100+ killed',
     category: 'military_strike',
     description: 'Israeli strike hits Al-Tabeen school in Gaza City during morning prayer. School was sheltering displaced families. 100+ killed. Sixth school hit in 10 days. By now: 40,000+ Palestinians killed.',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=HfpZA_3J3Y4', label: 'Al Jazeera: Aftermath of Israeli Airstrike on al-Tabin School' }
+    ],
     casualties: { killed: 100, injured: 150, source: 'Gaza Civil Defense' },
     lat: 31.51,
     lng: 34.44,
@@ -882,6 +1017,9 @@ export const conflictEvents: ConflictEvent[] = [
     title: 'Largest West Bank raids in 20 years — Jenin, Tulkarem, Tubas',
     category: 'military_strike',
     description: 'IDF launches "Operation Summer Camps" — largest West Bank operation since 2002. Hundreds of troops with bulldozers and air support raid Jenin, Tulkarem, Tubas simultaneously. 70% of Jenin streets bulldozed, 20 km water/sewage destroyed. 80% of refugee camp loses water.',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=TnEB0fbaxQc', label: 'Al Jazeera: Largest West Bank Assault in Two Decades' }
+    ],
     casualties: { killed: 30, source: 'Palestinian Ministry of Health (Aug 28-Sep 7)' },
     lat: 32.46,
     lng: 35.29,
@@ -894,6 +1032,9 @@ export const conflictEvents: ConflictEvent[] = [
     title: '6 hostages found shot dead in Rafah tunnel — Israel erupts in protest',
     category: 'escalation',
     description: 'IDF finds bodies of 6 hostages (including Hersh Goldberg-Polin, 23) in a tunnel 20m underground in Rafah. Shot by Hamas guards on Aug 29, just before IDF reached the tunnel. 500,000+ Israelis protest demanding hostage deal. Histadrut calls general strike. Ben Gurion Airport shuts down.',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=LzfrCiSblBc', label: 'NBC News: 6 Hostages Found Dead Including American' }
+    ],
     casualties: { killed: 6, source: 'IDF / Israel Ministry of Health' },
     lat: 31.21,
     lng: 34.23,
@@ -922,6 +1063,9 @@ export const conflictEvents: ConflictEvent[] = [
     title: 'Lebanon\'s deadliest day since civil war — 558 killed in 1,600 strikes',
     category: 'escalation',
     description: 'Israel launches "Operation Northern Arrows" — 1,600 airstrikes across Lebanon in a single day. 558 killed (50 children, 94 women), 1,835 injured. Deadliest day since the civil war ended in 1990. Roughly half the total killed in the entire 34-day 2006 war — in one day.',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=pS-jnYK_Yh0', label: 'PBS NewsHour: Israeli Strikes Kill Hundreds in Deadliest Day' }
+    ],
     casualties: { killed: 558, injured: 1835, source: 'Lebanese Ministry of Health' },
     lat: 33.85,
     lng: 35.86,
@@ -970,7 +1114,10 @@ export const conflictEvents: ConflictEvent[] = [
     lat: 33.10,
     lng: 35.20,
     zoom: 10,
-    sourceUrl: 'https://www.aljazeera.com/news/2024/10/1/israel-says-has-started-targeted-ground-raids-in-lebanon'
+    sourceUrl: 'https://www.aljazeera.com/news/2024/10/1/israel-says-has-started-targeted-ground-raids-in-lebanon',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=cv7QsAXp9Cs', label: 'BBC News: Israel Troops Enter Lebanon for Ground Raids' }
+    ],
   },
   {
     id: 'northern-gaza-siege',
@@ -978,6 +1125,9 @@ export const conflictEvents: ConflictEvent[] = [
     title: 'Siege of northern Gaza begins — 400,000 trapped',
     category: 'military_strike',
     description: 'IDF reinvades Jabalia, imposes complete siege on northern Gaza. Oct 6: all of northern Gaza declared combat zone, entire population ordered to evacuate. All food aid blocked since Oct 1. Roads destroyed. Pattern matches leaked "Generals\' Plan" to empty northern Gaza. 400,000 civilians trapped.',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=ZO38GHKW8zo', label: 'DW News: Israel Gaza Siege — The Generals Plan' }
+    ],
     casualties: { killed: 770, injured: 1000, source: 'Gaza Government Media Office (first 19 days)' },
     lat: 31.53,
     lng: 34.50,
@@ -996,7 +1146,10 @@ export const conflictEvents: ConflictEvent[] = [
     lat: 31.28,
     lng: 34.25,
     zoom: 14,
-    sourceUrl: 'https://www.aljazeera.com/news/2024/10/18/hamas-confirms-leader-yahya-sinwar-killed-in-combat-in-gaza-by-israeli-army'
+    sourceUrl: 'https://www.aljazeera.com/news/2024/10/18/hamas-confirms-leader-yahya-sinwar-killed-in-combat-in-gaza-by-israeli-army',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=SB7eoaVw4Sk', label: 'BBC Verify: How Israel Killed Hamas Leader Sinwar' }
+    ],
   },
   {
     id: 'israel-strikes-iran-oct',
@@ -1007,7 +1160,10 @@ export const conflictEvents: ConflictEvent[] = [
     lat: 35.7,
     lng: 51.42,
     zoom: 6,
-    sourceUrl: 'https://www.reuters.com/world/middle-east/israeli-warplanes-carry-out-strikes-iran-israeli-military-says-2024-10-26/'
+    sourceUrl: 'https://www.reuters.com/world/middle-east/israeli-warplanes-carry-out-strikes-iran-israeli-military-says-2024-10-26/',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=QmZgrKIdlYM', label: 'France 24: Israel Launches Air Strikes on Iran' }
+    ],
   },
   {
     id: 'unrwa-banned',
@@ -1018,7 +1174,10 @@ export const conflictEvents: ConflictEvent[] = [
     lat: 31.78,
     lng: 35.23,
     zoom: 10,
-    sourceUrl: 'https://www.cnn.com/2024/10/28/middleeast/unrwa-israel-knesset-vote-ban-palestinians-intl/index.html'
+    sourceUrl: 'https://www.cnn.com/2024/10/28/middleeast/unrwa-israel-knesset-vote-ban-palestinians-intl/index.html',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=u9BJar3wuAE', label: 'Al Jazeera: Israel Parliament Votes to Ban UNRWA' }
+    ],
   },
   {
     id: 'icc-warrants',
@@ -1029,7 +1188,10 @@ export const conflictEvents: ConflictEvent[] = [
     lat: 52.07,
     lng: 4.29,
     zoom: 5,
-    sourceUrl: 'https://www.icc-cpi.int/news/situation-state-palestine-icc-pre-trial-chamber-i-rejects-state-israels-challenges'
+    sourceUrl: 'https://www.icc-cpi.int/news/situation-state-palestine-icc-pre-trial-chamber-i-rejects-state-israels-challenges',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=n0f361ucubk', label: 'BBC News: Arrest Warrants for Netanyahu and Gallant' }
+    ],
   },
   {
     id: 'lebanon-ceasefire',
@@ -1040,7 +1202,10 @@ export const conflictEvents: ConflictEvent[] = [
     lat: 33.89,
     lng: 35.50,
     zoom: 8,
-    sourceUrl: 'https://www.npr.org/2024/11/27/g-s1-36024/israel-lebanon-ceasefire-reaction'
+    sourceUrl: 'https://www.npr.org/2024/11/27/g-s1-36024/israel-lebanon-ceasefire-reaction',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=UdRnXrtLvAA', label: 'NBC News: Biden Announces Israel-Hezbollah Ceasefire' }
+    ],
   },
   {
     id: 'assad-falls',
@@ -1053,6 +1218,7 @@ export const conflictEvents: ConflictEvent[] = [
     zoom: 6,
     sourceUrl: 'https://www.npr.org/2024/12/07/g-s1-37354/syrian-government-appears-to-have-fallen-in-stunning-end-to-long-rule-of-assad-family',
     mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=1F1rtl0uTx4', label: 'Channel 4: Syrian Rebels Seize Damascus, Assad Regime Falls' },
       { type: 'news', url: 'https://www.cnn.com/2024/12/10/middleeast/israel-syria-assad-strikes-intl', label: 'CNN: Israel launches 480+ strikes on Syria' }
     ]
   },
@@ -1065,7 +1231,10 @@ export const conflictEvents: ConflictEvent[] = [
     lat: 31.54,
     lng: 34.51,
     zoom: 14,
-    sourceUrl: 'https://www.aljazeera.com/news/2024/12/27/israeli-soldiers-burn-gazas-kamal-adwan-hospital-force-hundreds-to-leave'
+    sourceUrl: 'https://www.aljazeera.com/news/2024/12/27/israeli-soldiers-burn-gazas-kamal-adwan-hospital-force-hundreds-to-leave',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=RT5raz7RxB8', label: 'Al Jazeera: Gaza Hospital on Fire — Kamal Adwan Under Attack' }
+    ],
   },
   {
     id: 'gaza-end-2024',
@@ -1073,6 +1242,9 @@ export const conflictEvents: ConflictEvent[] = [
     title: 'Gaza 2024: 45,000+ killed, 80% of buildings damaged',
     category: 'humanitarian',
     description: 'By year end: 45,000+ killed (MoH), likely 60,000+ (Lancet). 100,000+ injured. 1.9M displaced — 90% of population. 80% of buildings damaged or destroyed. Every university destroyed. 60% housing uninhabitable. No hospital in northern Gaza. 1,072 IDF soldiers killed. 192 journalists killed — deadliest year for press in modern history.',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=ed_oqBtKuy0', label: 'Al Jazeera: One Year of War on Gaza — A War of Firsts' }
+    ],
     casualties: { killed: 3000, displaced: 1900000, source: 'Gaza MoH (incremental Oct-Dec 2024)', children: 1500 },
     lat: 31.42,
     lng: 34.36,
@@ -1092,7 +1264,10 @@ export const conflictEvents: ConflictEvent[] = [
     lat: 25.2854,
     lng: 51.5310,
     zoom: 5,
-    sourceUrl: 'https://www.npr.org/2025/01/15/g-s1-42883/ceasefire-israel-hamas-gaza-hostage-release'
+    sourceUrl: 'https://www.npr.org/2025/01/15/g-s1-42883/ceasefire-israel-hamas-gaza-hostage-release',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=Oozhx6xgQ0U', label: 'NBC News: Hamas and Israel Agree to Ceasefire Deal' }
+    ],
   },
   {
     id: 'jan19-ceasefire-begins',
@@ -1103,7 +1278,10 @@ export const conflictEvents: ConflictEvent[] = [
     lat: 31.5,
     lng: 34.47,
     zoom: 10,
-    sourceUrl: 'https://www.npr.org/2025/01/19/g-s1-43565/gaza-ceasefire-begins-after-delay'
+    sourceUrl: 'https://www.npr.org/2025/01/19/g-s1-43565/gaza-ceasefire-begins-after-delay',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=tdPhh2VjdSE', label: 'DW News: Hostage Handover as Ceasefire Begins' }
+    ],
   },
   {
     id: 'jan20-trump-inaugurated',
@@ -1114,7 +1292,10 @@ export const conflictEvents: ConflictEvent[] = [
     lat: 38.9,
     lng: -77.04,
     zoom: 5,
-    sourceUrl: 'https://www.reuters.com/world/trumps-maximum-pressure-iran-2025-01-20/'
+    sourceUrl: 'https://www.reuters.com/world/trumps-maximum-pressure-iran-2025-01-20/',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=g14ts0KYa98', label: 'PBS NewsHour: Trump Sworn In as 47th President' }
+    ],
   },
   {
     id: 'jan21-operation-iron-wall',
@@ -1122,6 +1303,9 @@ export const conflictEvents: ConflictEvent[] = [
     title: 'Operation Iron Wall — largest West Bank incursion in 20 years',
     category: 'military_strike',
     description: 'IDF launches "Operation Iron Wall" in Jenin, then Tulkarm, Tubas. Helicopter gunfire, airstrikes, tanks deployed for first time since 2000s. Palestinian Authority participates in joint ops — unprecedented. 126 killed by June, 40,000+ displaced, 850 homes demolished.',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=SrR7r15-qyU', label: 'Al Jazeera: Seven Killed in Israeli Raid on Jenin' }
+    ],
     casualties: { killed: 126, displaced: 40000, source: 'OCHA / B\'Tselem (through Jun 2025)', children: 23 },
     lat: 32.4628,
     lng: 35.2951,
@@ -1137,7 +1321,10 @@ export const conflictEvents: ConflictEvent[] = [
     lat: 31.7683,
     lng: 35.2137,
     zoom: 8,
-    sourceUrl: 'https://www.aljazeera.com/news/2025/1/30/israels-ban-on-unrwa-comes-into-effect-despite-backlash'
+    sourceUrl: 'https://www.aljazeera.com/news/2025/1/30/israels-ban-on-unrwa-comes-into-effect-despite-backlash',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=_Ok6zK64SqE', label: 'ABC News: Israeli Ban on UNRWA Begins' }
+    ],
   },
   {
     id: 'mar2-aid-cutoff',
@@ -1148,7 +1335,10 @@ export const conflictEvents: ConflictEvent[] = [
     lat: 31.2297,
     lng: 34.2452,
     zoom: 12,
-    sourceUrl: 'https://www.unrwa.org/resources/reports/unrwa-situation-report-186-situation-gaza-strip-and-west-bank-including-east-jerusalem'
+    sourceUrl: 'https://www.unrwa.org/resources/reports/unrwa-situation-report-186-situation-gaza-strip-and-west-bank-including-east-jerusalem',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=Tk9wFAp6aa4', label: 'BBC News: Israel Blocks All Humanitarian Aid Into Gaza' }
+    ],
   },
   {
     id: 'mar15-operation-rough-rider',
@@ -1156,6 +1346,9 @@ export const conflictEvents: ConflictEvent[] = [
     title: 'US bombs Yemen — Operation Rough Rider against Houthis',
     category: 'military_strike',
     description: 'Trump launches massive air campaign targeting Houthi positions. B-2 stealth bombers deployed. 1,000+ targets struck. Houthis resumed Red Sea attacks after Israel blocked aid. ~300 killed including 25 civilians and 4 children.',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=wI4AWaCnTmo', label: 'BBC News: US Launches Air Strikes on Yemen Houthis' }
+    ],
     casualties: { killed: 300, source: 'Yemen Data Project', children: 4 },
     lat: 15.3694,
     lng: 44.1910,
@@ -1168,6 +1361,9 @@ export const conflictEvents: ConflictEvent[] = [
     title: 'Israel breaks ceasefire — "resumed combat in full force"',
     category: 'escalation',
     description: 'Israel launches surprise airstrikes on Gaza, breaking 2-month ceasefire. Netanyahu: "just the beginning." 400+ killed on first day, 591+ in first week — mostly women and children. Far-right Ben Gvir rejoins government. IDF re-seizes Netzarim Corridor, re-divides Gaza north and south.',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=diY8XyyKbIM', label: 'Al Jazeera: Israeli Attacks Shatter Gaza Truce' }
+    ],
     casualties: { killed: 600, source: 'Gaza MoH (first week of resumed offensive)' },
     lat: 31.5,
     lng: 34.47,
@@ -1183,7 +1379,10 @@ export const conflictEvents: ConflictEvent[] = [
     lat: 48.2082,
     lng: 16.3738,
     zoom: 5,
-    sourceUrl: 'https://www.aljazeera.com/news/2025/6/12/un-nuclear-watchdog-says-iran-non-compliant-of-nuclear-safeguards'
+    sourceUrl: 'https://www.aljazeera.com/news/2025/6/12/un-nuclear-watchdog-says-iran-non-compliant-of-nuclear-safeguards',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=OTjYkjhKxM0', label: 'Al Jazeera: IAEA Mulls Declaring Iran Non-Compliant' }
+    ],
   },
   {
     id: 'jun13-operation-rising-lion',
@@ -1191,6 +1390,9 @@ export const conflictEvents: ConflictEvent[] = [
     title: 'Operation Rising Lion — Israel strikes Iran with 200+ jets',
     category: 'military_strike',
     description: 'Israel launches surprise attack: 200+ fighter jets drop 330+ munitions on ~100 targets. Natanz enrichment facility destroyed (above-ground 60% section). Isfahan, Arak hit. Commandos and Mossad on the ground. IRGC chief Salami, Armed Forces chief Bagheri, and 6+ nuclear scientists assassinated.',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=3GSPnSijas0', label: 'BBC News: Israel Strikes Iran Nuclear Sites' }
+    ],
     casualties: { killed: 1190, injured: 4000, source: 'HRANA (436 civilians, 435 military, 319 unconfirmed)' },
     lat: 33.7244,
     lng: 51.7277,
@@ -1203,6 +1405,9 @@ export const conflictEvents: ConflictEvent[] = [
     title: 'Iran retaliates — 550 missiles, Bat Yam apartment hit',
     category: 'retaliation',
     description: 'Hours after Rising Lion, Iran launches Operation True Promise III: 550+ ballistic missiles, 1,000+ drones at Israel. 273 intercepted but 36 hit populated areas. Bat Yam: missile hits 12-story apartment, 9 killed including 3 children. Haifa\'s Bazan refinery hit, forced shutdown. 28 Israeli civilians + 1 soldier killed. 3,238 hospitalized.',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=tGcVu2noaUU', label: 'BBC News: Iran Rains Missiles on Israel After Nuclear Strikes' }
+    ],
     casualties: { killed: 29, injured: 3238, displaced: 15000, source: 'IDF / HRW' },
     lat: 32.0853,
     lng: 34.7818,
@@ -1218,7 +1423,10 @@ export const conflictEvents: ConflictEvent[] = [
     lat: 34.8835,
     lng: 50.9689,
     zoom: 10,
-    sourceUrl: 'https://www.aljazeera.com/news/2025/6/22/satellite-images-show-damage-from-us-strikes-on-irans-fordow-nuclear-site'
+    sourceUrl: 'https://www.aljazeera.com/news/2025/6/22/satellite-images-show-damage-from-us-strikes-on-irans-fordow-nuclear-site',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=qXxM83TWDS4', label: 'BBC News: How US Strikes on Iranian Nuclear Sites Unfolded' }
+    ],
   },
   {
     id: 'jun24-twelve-day-war-ceasefire',
@@ -1229,7 +1437,10 @@ export const conflictEvents: ConflictEvent[] = [
     lat: 35.6892,
     lng: 51.3890,
     zoom: 6,
-    sourceUrl: 'https://www.aljazeera.com/news/2025/6/24/have-israel-and-iran-agreed-to-a-ceasefire-what-we-know'
+    sourceUrl: 'https://www.aljazeera.com/news/2025/6/24/have-israel-and-iran-agreed-to-a-ceasefire-what-we-know',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=a5QD6oBM8tg', label: 'BBC News: Trump Announces Total Iran-Israel Ceasefire' }
+    ],
   },
   {
     id: 'aug10-al-jazeera-journalists',
@@ -1237,6 +1448,9 @@ export const conflictEvents: ConflictEvent[] = [
     title: 'Israel kills Al Jazeera\'s Anas al-Sharif — deadliest press attack',
     category: 'military_strike',
     description: 'IDF strikes press tent near Al-Shifa. 4 Al Jazeera staff killed including Anas al-Sharif (2M followers), plus 2 freelancers — 6 journalists total. Israel claims he headed Hamas cell; Al Jazeera and CPJ call it "completely fabricated." Brings journalist toll to 192. The deadliest single attack on press in the war.',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=tuFMhiTA49c', label: 'Al Jazeera: Five Al Jazeera Journalists Killed by Israel' }
+    ],
     casualties: { killed: 6, source: 'CPJ / Al Jazeera' },
     lat: 31.5197,
     lng: 34.4441,
@@ -1264,6 +1478,9 @@ export const conflictEvents: ConflictEvent[] = [
     title: 'Israel airstrikes Qatar — first ever attack on Gulf state',
     category: 'escalation',
     description: 'IDF strikes Hamas leaders meeting in Doha to discuss US ceasefire proposal. 6 killed but all senior targets survive. First Israeli attack on a GCC member state ever. US was not informed — condemns the strike. Qatar furious. The recklessness shocks the world.',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=_MZhMS7JntA', label: 'BBC News: Israel Strikes Hamas Leaders in Qatar' }
+    ],
     casualties: { killed: 6, source: 'Qatari government' },
     lat: 25.2854,
     lng: 51.5310,
@@ -1276,6 +1493,9 @@ export const conflictEvents: ConflictEvent[] = [
     title: 'Full-scale Gaza City ground offensive — 60K reservists called up',
     category: 'military_strike',
     description: 'Israel launches full ground offensive into Gaza City with multiple armored divisions. 60,000 reservists called up. 1 million people were living in the area — 350,000 flee south. ~1,000 killed in September alone. 1,250 buildings destroyed. Trump demands halt.',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=DMuQQkglfMQ', label: 'CNN: Israel Begins Ground Offensive to Occupy Gaza City' }
+    ],
     casualties: { killed: 1000, source: 'Gaza MoH (September 2025)' },
     lat: 31.5017,
     lng: 34.4668,
@@ -1294,7 +1514,10 @@ export const conflictEvents: ConflictEvent[] = [
     lat: 46.2044,
     lng: 6.1432,
     zoom: 5,
-    sourceUrl: 'https://www.ohchr.org/en/press-releases/2025/09/israel-has-committed-genocide-gaza-strip-un-commission-finds'
+    sourceUrl: 'https://www.ohchr.org/en/press-releases/2025/09/israel-has-committed-genocide-gaza-strip-un-commission-finds',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=nOda0SlHZww', label: 'BBC News: UN Commission Finds Israel Committed Genocide' }
+    ],
   },
   {
     id: 'gaza-ceasefire',
@@ -1308,6 +1531,7 @@ export const conflictEvents: ConflictEvent[] = [
     zoom: 10,
     sourceUrl: 'https://www.aljazeera.com/features/2026/2/18/gaza-death-toll-exceeds-75000-as-independent-data-verify-loss',
     mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=Y-kcxcn111A', label: 'Al Jazeera: Gaza Ceasefire Deal Signed at Egypt Summit' },
       { type: 'news', url: 'https://www.thelancet.com/journals/langlo/article/PIIS2214-109X(25)00522-4/fulltext', label: 'Lancet: Independent mortality survey' }
     ]
   },
@@ -1321,7 +1545,10 @@ export const conflictEvents: ConflictEvent[] = [
     lat: 26.57,
     lng: 56.25,
     zoom: 8,
-    sourceUrl: 'https://news.usni.org/2025/11/17/iran-strait-of-hormuz-tanker-seizure-violates-international-law-centcom-says'
+    sourceUrl: 'https://news.usni.org/2025/11/17/iran-strait-of-hormuz-tanker-seizure-violates-international-law-centcom-says',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=RExNXJKITNE', label: 'Hindustan Times: Iran Seizes Oil Tanker in Strait of Hormuz' }
+    ],
   },
 
   // ══════════════════════════════════════════════
@@ -1339,6 +1566,7 @@ export const conflictEvents: ConflictEvent[] = [
     zoom: 6,
     sourceUrl: 'https://www.washingtonpost.com/national-security/2026/02/28/us-israel-iran-nuclear-strike/',
     mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=V52iJ-ZDkJY', label: 'CNN: US & Israel Launch Attack on Iran' },
       { type: 'news', url: 'https://www.aljazeera.com/news/2026/2/28/us-israel-bomb-iran-a-timeline-of-talks-and-threats-leading-up-to-attacks', label: 'Al Jazeera: Timeline of escalation' },
       { type: 'news', url: 'https://www.npr.org/2026/02/28/g-s1-112026/why-is-the-u-s-attacking-iran', label: 'NPR: Why the US attacked' },
       { type: 'news', url: 'https://www.bbc.com/news/world-middle-east-68901234', label: 'BBC: Khamenei killed in airstrike' },
