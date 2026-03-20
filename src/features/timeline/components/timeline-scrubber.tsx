@@ -205,6 +205,7 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
   const [isPlaying, setIsPlaying] = useState(false);
   const [expanded, setExpanded] = useState(false);
   const [activeEvent, setActiveEvent] = useState<ConflictEvent | null>(null);
+  const [eventSubIndex, setEventSubIndex] = useState(0); // which event within the day
   const [infoDismissed, setInfoDismissed] = useState(false);
   const [isMuted, setIsMuted] = useState(true);
   const playRef = useRef<NodeJS.Timeout | null>(null);
@@ -239,11 +240,12 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
     return () => document.removeEventListener('pointerdown', handler);
   }, [infoDismissed, todayEvents.length, expanded]);
 
-  // ── Playback: skip quiet days, auto-scroll + pause on event days ──
+  // ── Playback: step through events ONE AT A TIME, fly map to each ──
   useEffect(() => {
     if (!isPlaying) return;
 
-    const advance = () => {
+    const advanceDay = () => {
+      setEventSubIndex(0);
       setCurrentIndex((prev) => {
         if (prev >= ALL_DAYS.length - 1) {
           setIsPlaying(false);
@@ -253,74 +255,68 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
       });
     };
 
-    // Event days: scale pause with content — more events = more time to read
-    // Also auto-scroll the feed so user sees all content
     if (hasEvent) {
-      const eventCount = todayEvents.length;
-      const hasVideos = todayEvents.some(e => e.mediaUrls?.some(m => m.type === 'youtube'));
-      // Base 4s per event, +3s if videos present
-      const delay = (eventCount * 4000) + (hasVideos ? 3000 : 0);
+      const event = todayEvents[eventSubIndex] || todayEvents[0];
+      const hasVideo = event?.mediaUrls?.some(m => m.type === 'youtube');
+      // Longer pause for video events, shorter for text-only
+      const delay = hasVideo ? 8000 : 5000;
 
-      // Auto-scroll the feed slowly
-      if (feedRef.current) {
-        const el = feedRef.current;
-        const scrollHeight = el.scrollHeight - el.clientHeight;
-        if (scrollHeight > 0) {
-          const scrollDuration = delay - 500; // finish scrolling 500ms before advancing
-          const startTime = Date.now();
-          const scrollInterval = setInterval(() => {
-            const elapsed = Date.now() - startTime;
-            const progress = Math.min(elapsed / scrollDuration, 1);
-            // Ease-in-out scroll
-            const ease = progress < 0.5
-              ? 2 * progress * progress
-              : 1 - Math.pow(-2 * progress + 2, 2) / 2;
-            el.scrollTop = ease * scrollHeight;
-            if (progress >= 1) clearInterval(scrollInterval);
-          }, 16);
-
-          playRef.current = setTimeout(() => {
-            clearInterval(scrollInterval);
-            advance();
-          }, delay);
-
-          return () => {
-            clearInterval(scrollInterval);
-            if (playRef.current) clearTimeout(playRef.current);
-          };
+      // Focus this specific event: fly to it, set it active, tell map to show popup
+      if (event) {
+        setActiveEvent(event);
+        if (event.lat && event.lng && onFlyTo) {
+          onFlyTo(event.lat, event.lng, event.zoom || 8);
         }
+        // Tell the map to open this event's popup
+        window.dispatchEvent(
+          new CustomEvent('map-show-event', { detail: { eventId: event.id } })
+        );
+        // Auto-scroll feed to this event's card
+        setTimeout(() => {
+          const card = document.getElementById(`event-card-${event.id}`);
+          card?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }, 100);
       }
 
-      playRef.current = setTimeout(advance, delay);
+      playRef.current = setTimeout(() => {
+        if (eventSubIndex < todayEvents.length - 1) {
+          // More events on this day — advance to next event
+          setEventSubIndex((prev) => prev + 1);
+        } else {
+          // Last event on this day — move to next day
+          advanceDay();
+        }
+      }, delay);
     } else {
       // Quiet days: advance fast
-      playRef.current = setTimeout(advance, 50);
+      playRef.current = setTimeout(advanceDay, 50);
     }
 
     return () => {
       if (playRef.current) clearTimeout(playRef.current);
     };
-  }, [isPlaying, currentIndex, hasEvent, todayEvents]);
+  }, [isPlaying, currentIndex, eventSubIndex, hasEvent, todayEvents, onFlyTo]);
 
   // ── Sync timeline date to global store for header death toll ──
   useEffect(() => {
     setTimelineDate(currentDate);
   }, [currentDate, setTimelineDate]);
 
-  // ── When landing on an event, fly to it and show card ──
+  // ── When landing on a new date, reset sub-index and show first event ──
   useEffect(() => {
     setInfoDismissed(false);
+    setEventSubIndex(0);
     if (feedRef.current) feedRef.current.scrollTop = 0;
     // Pause any active video when changing dates
     if (activeIframe) {
       ytCommand(activeIframe, 'pauseVideo');
       activeIframe = null;
     }
-    if (todayEvents.length > 0) {
-      const latest = todayEvents[todayEvents.length - 1];
-      setActiveEvent(latest);
-      if (latest.lat && latest.lng && onFlyTo) {
-        onFlyTo(latest.lat, latest.lng, latest.zoom || 8);
+    if (todayEvents.length > 0 && !isPlaying) {
+      const first = todayEvents[0];
+      setActiveEvent(first);
+      if (first.lat && first.lng && onFlyTo) {
+        onFlyTo(first.lat, first.lng, first.zoom || 8);
       }
     }
   }, [currentDate]);
@@ -345,9 +341,8 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
     setIsPlaying((p) => !p);
   }, [currentIndex]);
 
-  // Skip to next/prev event
+  // Skip to next/prev event — jumps to that day and auto-plays from there
   const skipToEvent = useCallback((direction: 1 | -1) => {
-    setIsPlaying(false);
     const currentDateStr = ALL_DAYS[currentIndex];
     let target: string | null = null;
     if (direction === 1) {
@@ -359,7 +354,11 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
     }
     if (target) {
       const idx = ALL_DAYS.indexOf(target);
-      if (idx >= 0) setCurrentIndex(idx);
+      if (idx >= 0) {
+        setEventSubIndex(0);
+        setCurrentIndex(idx);
+        setIsPlaying(true);
+      }
     }
   }, [currentIndex]);
 
@@ -419,7 +418,11 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
 
           {/* Each event as a full card in the feed */}
           {todayEvents.map((event, eventIdx) => (
-            <div key={event.id} className={eventIdx > 0 ? 'border-t-2' : ''}>
+            <div
+              key={event.id}
+              id={`event-card-${event.id}`}
+              className={`${eventIdx > 0 ? 'border-t-2' : ''} ${isPlaying && eventIdx === eventSubIndex ? 'ring-2 ring-primary ring-inset' : ''}`}
+            >
               {/* Category + time banner */}
               <div className='px-4 py-2 flex items-center gap-2' style={{ backgroundColor: CATEGORY_COLORS[event.category] + '15', borderBottom: `2px solid ${CATEGORY_COLORS[event.category]}40` }}>
                 <div className='h-2.5 w-2.5 rounded-full animate-pulse' style={{ backgroundColor: CATEGORY_COLORS[event.category] }} />

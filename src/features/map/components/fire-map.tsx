@@ -667,6 +667,100 @@ export default function FireMap() {
     return () => window.removeEventListener('map-flyto', handler);
   }, []);
 
+  // Listen for show-event events (auto-playback opens pin popups)
+  useEffect(() => {
+    const handler = (e: Event) => {
+      const { eventId } = (e as CustomEvent).detail;
+      if (!map.current) return;
+      const m = map.current;
+
+      // Find the event in the current source data
+      const source = m.getSource('conflict-events') as maplibregl.GeoJSONSource;
+      if (!source) return;
+
+      // Query rendered features to find the event
+      const features = m.querySourceFeatures('conflict-events', {
+        filter: ['==', ['get', 'id'], eventId]
+      });
+
+      if (features.length === 0) {
+        // Event might not be rendered yet — find from data directly
+        const events = getEventsUpTo(timelineDate);
+        const ev = events.find(e => e.id === eventId);
+        if (!ev || !ev.lat || !ev.lng) return;
+
+        if (popup.current) popup.current.remove();
+
+        let html = `<div style="font-family:system-ui;color:#e0e0e0;background:#1a1a1a;padding:10px;border-radius:8px;box-sizing:border-box">`;
+        html += `<div style="font-size:13px;font-weight:800;line-height:1.3;margin-bottom:4px">${ev.title}</div>`;
+        html += `<div style="font-size:11px;opacity:0.75;line-height:1.4;margin-bottom:6px">${ev.description.slice(0, 150)}...</div>`;
+
+        if (ev.casualties?.killed) {
+          html += `<div style="font-size:11px;color:#ef4444;font-weight:700;margin-bottom:6px">${ev.casualties.killed.toLocaleString()}+ killed</div>`;
+        }
+
+        const ytMedia = ev.mediaUrls?.find(m => m.type === 'youtube');
+        if (ytMedia) {
+          const vid = getYouTubeId(ytMedia.url);
+          if (vid) {
+            const iframeId = `auto-yt-${vid}`;
+            html += `<div style="position:relative;width:100%;padding-bottom:56.25%;margin-bottom:4px;border-radius:6px;overflow:hidden;background:#000">`;
+            html += `<iframe id="${iframeId}" src="https://www.youtube-nocookie.com/embed/${vid}?rel=0&autoplay=1&mute=1&enablejsapi=1" `;
+            html += `style="position:absolute;top:0;left:0;width:100%;height:100%;border:none" `;
+            html += `allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen></iframe>`;
+            html += `</div>`;
+            html += `<button onclick="(function(){var f=document.getElementById('${iframeId}');var b=event.target;if(!f)return;var m=b.dataset.muted!=='false';f.contentWindow.postMessage(JSON.stringify({event:'command',func:m?'unMute':'mute',args:''}),'*');b.dataset.muted=m?'false':'true';b.textContent=m?'\\ud83d\\udd0a Sound On':'\\ud83d\\udd07 Muted'})()" `;
+            html += `data-muted="true" style="display:block;width:100%;padding:6px;margin-bottom:4px;border:1px solid rgba(255,255,255,0.15);border-radius:6px;background:rgba(255,255,255,0.05);color:#e0e0e0;font-size:12px;font-weight:600;cursor:pointer;text-align:center">\\ud83d\\udd07 Tap to unmute</button>`;
+          }
+        }
+
+        html += `</div>`;
+
+        popup.current = new maplibregl.Popup({ closeButton: true, maxWidth: 'min(320px, calc(100vw - 32px))', className: 'event-popup' })
+          .setLngLat([ev.lng!, ev.lat!])
+          .setHTML(html)
+          .addTo(m);
+
+        return;
+      }
+
+      // Found rendered feature — use its coordinates
+      const feature = features[0];
+      const coords = (feature.geometry as any).coordinates.slice();
+      const props = feature.properties;
+
+      if (popup.current) popup.current.remove();
+
+      let html = `<div style="font-family:system-ui;color:#e0e0e0;background:#1a1a1a;padding:10px;border-radius:8px;box-sizing:border-box">`;
+      html += `<div style="font-size:13px;font-weight:800;line-height:1.3;margin-bottom:4px">${props?.title}</div>`;
+      html += `<div style="font-size:11px;opacity:0.75;line-height:1.4;margin-bottom:6px">${props?.description}...</div>`;
+
+      if (props?.killed > 0) {
+        html += `<div style="font-size:11px;color:#ef4444;font-weight:700;margin-bottom:6px">${Number(props.killed).toLocaleString()}+ killed</div>`;
+      }
+
+      if (props?.videoId) {
+        const iframeId = `auto-yt-${props.videoId}`;
+        html += `<div style="position:relative;width:100%;padding-bottom:56.25%;margin-bottom:4px;border-radius:6px;overflow:hidden;background:#000">`;
+        html += `<iframe id="${iframeId}" src="https://www.youtube-nocookie.com/embed/${props.videoId}?rel=0&autoplay=1&mute=1&enablejsapi=1" `;
+        html += `style="position:absolute;top:0;left:0;width:100%;height:100%;border:none" `;
+        html += `allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen></iframe>`;
+        html += `</div>`;
+        html += `<button onclick="(function(){var f=document.getElementById('${iframeId}');var b=event.target;if(!f)return;var m=b.dataset.muted!=='false';f.contentWindow.postMessage(JSON.stringify({event:'command',func:m?'unMute':'mute',args:''}),'*');b.dataset.muted=m?'false':'true';b.textContent=m?'\\ud83d\\udd0a Sound On':'\\ud83d\\udd07 Muted'})()" `;
+        html += `data-muted="true" style="display:block;width:100%;padding:6px;margin-bottom:4px;border:1px solid rgba(255,255,255,0.15);border-radius:6px;background:rgba(255,255,255,0.05);color:#e0e0e0;font-size:12px;font-weight:600;cursor:pointer;text-align:center">\\ud83d\\udd07 Tap to unmute</button>`;
+      }
+
+      html += `</div>`;
+
+      popup.current = new maplibregl.Popup({ closeButton: true, maxWidth: 'min(320px, calc(100vw - 32px))', className: 'event-popup' })
+        .setLngLat(coords)
+        .setHTML(html)
+        .addTo(m);
+    };
+    window.addEventListener('map-show-event', handler);
+    return () => window.removeEventListener('map-show-event', handler);
+  }, [timelineDate]);
+
   return (
     <div ref={mapContainer} className='h-full w-full' />
   );
