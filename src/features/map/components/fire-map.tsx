@@ -3,7 +3,7 @@
 import { useEffect, useRef, useCallback } from 'react';
 import maplibregl from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
-import { useFireStore, type FireFeature } from '@/stores/fire-store';
+import { useFireStore, type FireFeature, type FireGeoJSON } from '@/stores/fire-store';
 import { curatedFires, type FacilityStatus } from '@/features/fires/data/curated-fires';
 import { conflictEvents, CATEGORY_COLORS, type ConflictEvent } from '@/features/timeline/data/conflict-events';
 
@@ -195,10 +195,14 @@ export default function FireMap() {
     map.current.on('load', () => {
       const m = map.current!;
 
-      // ── FIRMS fire data source ──
+      // ── FIRMS fire data source (only fires near oil facilities) ──
+      const facilityFires: FireGeoJSON = {
+        type: 'FeatureCollection',
+        features: fireData.features.filter(f => f.properties.matchedFacility)
+      };
       m.addSource('fires', {
         type: 'geojson',
-        data: fireData
+        data: facilityFires
       });
 
       // Heatmap layer
@@ -720,12 +724,16 @@ export default function FireMap() {
     };
   }, [initMap]);
 
-  // Update fire data on map
+  // Update fire data on map (only facility-matched fires)
   useEffect(() => {
     if (!map.current) return;
     const source = map.current.getSource('fires') as maplibregl.GeoJSONSource;
     if (source) {
-      source.setData(fireData);
+      const facilityFires: FireGeoJSON = {
+        type: 'FeatureCollection',
+        features: fireData.features.filter(f => f.properties.matchedFacility)
+      };
+      source.setData(facilityFires);
     }
   }, [fireData]);
 
