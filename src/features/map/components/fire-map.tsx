@@ -40,6 +40,7 @@ const SATELLITE_STYLE: maplibregl.StyleSpecification = {
       maxzoom: 18
     }
   },
+  glyphs: 'https://demotiles.maplibre.org/font/{fontstack}/{range}.pbf',
   layers: [
     {
       id: 'satellite-layer',
@@ -404,24 +405,23 @@ export default function FireMap() {
         data: buildEventsGeoJSON(getEventsUpTo(timelineDate))
       });
 
-      // Outer pulse ring for events with video
+      // Outer glow ring for event pins
       m.addLayer({
         id: 'event-pin-ring',
         type: 'circle',
         source: 'conflict-events',
-        filter: ['==', ['get', 'hasVideo'], 1],
         paint: {
           'circle-radius': [
             'interpolate', ['linear'], ['zoom'],
-            3, 6, 8, 14, 12, 20
+            3, 12, 6, 22, 10, 35
           ],
           'circle-color': ['get', 'color'],
-          'circle-opacity': 0.2,
-          'circle-blur': 0.8
+          'circle-opacity': 0.25,
+          'circle-blur': 0.6
         }
       });
 
-      // Core pin marker
+      // Core pin marker — large and visible
       m.addLayer({
         id: 'event-pin-core',
         type: 'circle',
@@ -429,34 +429,34 @@ export default function FireMap() {
         paint: {
           'circle-radius': [
             'interpolate', ['linear'], ['zoom'],
-            3, 4, 8, 7, 12, 10
+            3, 7, 6, 11, 10, 16
           ],
           'circle-color': ['get', 'color'],
-          'circle-opacity': 0.85,
-          'circle-stroke-width': 2,
+          'circle-opacity': 0.9,
+          'circle-stroke-width': 3,
           'circle-stroke-color': '#ffffff'
         }
       });
 
-      // Video icon indicator for pins with video
+      // Text label on pin
       m.addLayer({
         id: 'event-pin-label',
         type: 'symbol',
         source: 'conflict-events',
-        minzoom: 5,
         layout: {
           'text-field': [
             'case',
             ['==', ['get', 'hasVideo'], 1],
             '▶',
-            '●'
+            '•'
           ],
           'text-size': [
             'interpolate', ['linear'], ['zoom'],
-            5, 8, 10, 12
+            3, 10, 8, 16
           ],
           'text-allow-overlap': true,
-          'text-ignore-placement': true
+          'text-ignore-placement': true,
+          'text-font': ['Open Sans Bold']
         },
         paint: {
           'text-color': '#ffffff'
