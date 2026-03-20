@@ -79,8 +79,8 @@ function CompactStats() {
         </div>
         <div className='flex items-center gap-2'>
           <IconAlertTriangle className={`h-3.5 w-3.5 ${disruptionColor}`} />
-          <span className={`text-sm font-black tabular-nums ${disruptionColor}`}>{supply.totalPctGlobal.toFixed(1)}%</span>
-          <span className='text-[10px] text-zinc-500'>supply offline</span>
+          <span className={`text-sm font-black tabular-nums ${disruptionColor}`}>{supply.productionPct.toFixed(1)}%</span>
+          <span className='text-[10px] text-zinc-500'>offline</span>
         </div>
       </button>
     );
@@ -153,24 +153,29 @@ function CompactStats() {
 
       {/* ── SUPPLY DISRUPTION ── */}
       <div className='px-3 pt-2 pb-2 border-b border-zinc-800'>
-        <div className='text-[10px] uppercase tracking-widest text-zinc-500 font-bold mb-1'>Global Supply</div>
+        <div className='text-[10px] uppercase tracking-widest text-zinc-500 font-bold mb-1'>Global Oil Supply</div>
         <div className='flex items-center justify-between'>
           <div>
             <div className={`text-base font-black tabular-nums leading-tight ${disruptionColor}`}>
-              {supply.totalPctGlobal.toFixed(1)}% offline
+              {supply.productionPct.toFixed(1)}% offline
             </div>
             <div className='text-[10px] text-zinc-500 tabular-nums'>
-              {(supply.totalBPDOffline / 1000000).toFixed(1)}M BPD disrupted
+              {(supply.productionBPDOffline / 1000000).toFixed(1)}M BPD — {supply.facilitiesHit} facilities
             </div>
-          </div>
-          <div className='text-right'>
-            <div className='flex items-center gap-1'>
-              <IconBuildingFactory className='h-3.5 w-3.5 text-red-400' />
-              <span className='text-sm font-bold text-zinc-300 tabular-nums'>{supply.facilitiesHit}</span>
-            </div>
-            <div className='text-[10px] text-zinc-500'>hit</div>
           </div>
         </div>
+        {supply.transitBPDAtRisk > 0 && (
+          <div className='flex items-center justify-between mt-1 pt-1 border-t border-zinc-800/50'>
+            <div>
+              <div className='text-xs font-bold text-amber-400 tabular-nums'>
+                {supply.transitPct.toFixed(0)}% transit at risk
+              </div>
+              <div className='text-[10px] text-zinc-500 tabular-nums'>
+                {(supply.transitBPDAtRisk / 1000000).toFixed(0)}M BPD — {supply.chokepointsHit} chokepoint{supply.chokepointsHit !== 1 ? 's' : ''}
+              </div>
+            </div>
+          </div>
+        )}
       </div>
 
       {/* ── EMISSIONS + FIRES ── */}

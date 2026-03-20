@@ -425,29 +425,50 @@ export function getCurrentDisruptionLevel() {
 }
 
 /**
- * Supply disruption synced to timeline — uses visible facility IDs from conflict events
+ * Supply disruption synced to timeline — uses visible facility IDs from conflict events.
+ * Separates production facilities from chokepoints (transit routes).
+ * Global oil production baseline: ~100M BPD (IEA 2025).
  */
+const GLOBAL_OIL_BPD = 100_000_000;
+const CHOKEPOINT_IDS = new Set(['strait-of-hormuz', 'bab-el-mandeb']);
+
 export function getSupplyDisruptionUpTo(hitFacilityIds: Set<string>) {
-  let totalBPDOffline = 0;
-  let totalPctGlobal = 0;
+  let productionBPDOffline = 0;
+  let transitBPDAtRisk = 0;
   let facilitiesHit = 0;
+  let chokepointsHit = 0;
 
   for (const facility of curatedFires) {
-    if (hitFacilityIds.has(facility.id)) {
-      totalBPDOffline += facility.capacityBPD;
-      totalPctGlobal += facility.percentGlobalCapacity;
+    if (!hitFacilityIds.has(facility.id)) continue;
+
+    if (CHOKEPOINT_IDS.has(facility.id)) {
+      transitBPDAtRisk += facility.capacityBPD;
+      chokepointsHit++;
+    } else {
+      productionBPDOffline += facility.capacityBPD;
       facilitiesHit++;
     }
   }
 
-  // Disruption level based on timeline position
-  let level: 'normal' | 'mild' | 'severe' | 'crisis' | 'catastrophe' = 'normal';
-  if (totalPctGlobal >= CATASTROPHE_THRESHOLDS.catastrophe.pctGlobal) level = 'catastrophe';
-  else if (totalPctGlobal >= CATASTROPHE_THRESHOLDS.crisis.pctGlobal) level = 'crisis';
-  else if (totalPctGlobal >= CATASTROPHE_THRESHOLDS.severe.pctGlobal) level = 'severe';
-  else if (totalPctGlobal >= CATASTROPHE_THRESHOLDS.mild.pctGlobal) level = 'mild';
+  const productionPct = (productionBPDOffline / GLOBAL_OIL_BPD) * 100;
+  const transitPct = (transitBPDAtRisk / GLOBAL_OIL_BPD) * 100;
 
-  return { totalBPDOffline, totalPctGlobal, facilitiesHit, level };
+  // Disruption level based on production offline (not transit)
+  let level: 'normal' | 'mild' | 'severe' | 'crisis' | 'catastrophe' = 'normal';
+  if (productionPct >= CATASTROPHE_THRESHOLDS.catastrophe.pctGlobal) level = 'catastrophe';
+  else if (productionPct >= CATASTROPHE_THRESHOLDS.crisis.pctGlobal) level = 'crisis';
+  else if (productionPct >= CATASTROPHE_THRESHOLDS.severe.pctGlobal) level = 'severe';
+  else if (productionPct >= CATASTROPHE_THRESHOLDS.mild.pctGlobal) level = 'mild';
+
+  return {
+    productionBPDOffline,
+    productionPct,
+    transitBPDAtRisk,
+    transitPct,
+    facilitiesHit,
+    chokepointsHit,
+    level,
+  };
 }
 
 /**
