@@ -214,9 +214,9 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
       if (!ev) return;
       const idx = ALL_DAYS.indexOf(ev.date);
       if (idx >= 0) {
-        setIsPlaying(false);
         setCurrentIndex(idx);
         setActiveEvent(ev);
+        setIsPlaying(true);
       }
     };
     window.addEventListener('timeline-sync', handler);
