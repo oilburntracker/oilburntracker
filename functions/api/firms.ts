@@ -6,13 +6,14 @@ interface Env {
 }
 
 const FIRMS_BASE_URL = 'https://firms.modaps.eosdis.nasa.gov/api/area/csv';
-const MIDDLE_EAST_BBOX = '30,10,65,40';
+// FIRMS format: south_lat,west_lon,north_lat,east_lon
+const MIDDLE_EAST_BBOX = '10,30,40,65';
 const CACHE_SECONDS = 1800; // 30 min
 
 export const onRequestGet: PagesFunction<Env> = async (context) => {
   const url = new URL(context.request.url);
   const bbox = url.searchParams.get('bbox') || MIDDLE_EAST_BBOX;
-  const days = Math.min(Math.max(parseInt(url.searchParams.get('days') || '1'), 1), 5);
+  const days = Math.min(Math.max(parseInt(url.searchParams.get('days') || '2'), 1), 5);
   const source = url.searchParams.get('source') || 'VIIRS_SNPP_NRT';
 
   const mapKey = context.env.FIRMS_MAP_KEY;

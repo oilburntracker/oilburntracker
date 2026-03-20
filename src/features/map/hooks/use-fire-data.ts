@@ -20,7 +20,7 @@ export function useFireData() {
     setError(null);
 
     try {
-      const res = await fetch('/api/firms?days=1&source=VIIRS_SNPP_NRT');
+      const res = await fetch('/api/firms?days=2&source=VIIRS_SNPP_NRT');
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
 
       const data: FireGeoJSON & { metadata?: { error?: string } } = await res.json();
