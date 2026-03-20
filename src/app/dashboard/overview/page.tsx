@@ -1,6 +1,6 @@
 'use client';
 
-import { useCallback } from 'react';
+import { useCallback, useState, useEffect } from 'react';
 import dynamic from 'next/dynamic';
 import MapControls from '@/features/map/components/map-controls';
 import FacilityDrawer from '@/features/fires/components/facility-drawer';
@@ -9,8 +9,9 @@ import { useFireData } from '@/features/map/hooks/use-fire-data';
 import { useFireStore } from '@/stores/fire-store';
 import { curatedFires, getCurrentDisruptionLevel } from '@/features/fires/data/curated-fires';
 import { getCasualtiesUpTo, getVisibleFacilityIds } from '@/features/timeline/data/conflict-events';
-import { IconFlame, IconBuildingFactory, IconWorld, IconAlertTriangle, IconSkull, IconCloud, IconCurrencyBitcoin } from '@tabler/icons-react';
+import { IconFlame, IconBuildingFactory, IconWorld, IconAlertTriangle, IconSkull, IconCloud, IconCurrencyBitcoin, IconX } from '@tabler/icons-react';
 import { formatCO2, co2Equivalents } from '@/features/emissions/utils/emissions-model';
+import { toast } from 'sonner';
 import Link from 'next/link';
 
 const FireMap = dynamic(() => import('@/features/map/components/fire-map'), {
@@ -123,13 +124,61 @@ function CompactStats() {
 
       {/* BTC donate */}
       <button
-        onClick={() => { navigator.clipboard.writeText('bc1qej9pyvhu970x4whg99sf99lau6z8c7fjhgv2mz'); alert('BTC address copied to clipboard!'); }}
+        onClick={() => {
+          navigator.clipboard.writeText('bc1qej9pyvhu970x4whg99sf99lau6z8c7fjhgv2mz');
+          toast.success('BTC address copied to clipboard', {
+            description: 'bc1qej...fjhgv2mz',
+            duration: 3000
+          });
+        }}
         className='flex items-center gap-1.5 rounded-full border border-orange-500/30 bg-background/80 backdrop-blur-md px-3 py-1.5 shadow-lg text-xs text-muted-foreground hover:text-foreground transition-colors cursor-pointer'
         title='bc1qej9pyvhu970x4whg99sf99lau6z8c7fjhgv2mz'
       >
         <IconCurrencyBitcoin className='h-3.5 w-3.5 text-orange-400' />
         <span>Donate BTC</span>
       </button>
+    </div>
+  );
+}
+
+function WelcomeOverlay() {
+  const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+    const dismissed = localStorage.getItem('obt-welcome-dismissed');
+    if (!dismissed) setVisible(true);
+  }, []);
+
+  if (!visible) return null;
+
+  const dismiss = () => {
+    setVisible(false);
+    localStorage.setItem('obt-welcome-dismissed', '1');
+  };
+
+  return (
+    <div className='absolute inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm' onClick={dismiss}>
+      <div className='relative max-w-md mx-4 rounded-xl border border-orange-500/30 bg-background/95 backdrop-blur-md p-6 shadow-2xl' onClick={(e) => e.stopPropagation()}>
+        <button onClick={dismiss} className='absolute top-3 right-3 text-muted-foreground hover:text-foreground'>
+          <IconX className='h-5 w-5' />
+        </button>
+        <h2 className='text-xl font-black mb-2'>OilBurnTracker</h2>
+        <p className='text-sm text-muted-foreground leading-relaxed mb-3'>
+          Real-time satellite fire detection and emissions tracking for conflict-affected oil &amp; gas infrastructure. Using NASA FIRMS data to monitor facility strikes, estimate CO&#8322; emissions, and track the human cost.
+        </p>
+        <div className='space-y-1.5 text-xs text-muted-foreground'>
+          <p><strong className='text-foreground'>Timeline:</strong> Press play or scrub through Oct 2023 &rarr; today</p>
+          <p><strong className='text-foreground'>Map pins:</strong> Click colored markers for event details + video</p>
+          <p><strong className='text-foreground'>Facility glow:</strong> Larger glow = bigger share of global oil supply</p>
+        </div>
+        <button onClick={dismiss} className='mt-4 w-full rounded-lg bg-orange-600 hover:bg-orange-500 text-white font-bold py-2.5 text-sm transition-colors'>
+          Start Exploring
+        </button>
+        <p className='text-[10px] text-muted-foreground/60 text-center mt-2'>
+          Open source &middot; No tracking &middot; No accounts
+        </p>
+      </div>
     </div>
   );
 }
@@ -147,6 +196,9 @@ export default function OverviewPage() {
     <div className='relative h-[calc(100dvh-64px)] w-full'>
       {/* Full-screen map */}
       <FireMap />
+
+      {/* First-time visitor welcome */}
+      <WelcomeOverlay />
 
       {/* Compact stats + donate — top right */}
       <CompactStats />

@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <!-- Fire gradient for accent elements -->
+    <radialGradient id="fireGlow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff6b00" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#ff3d00" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#ff1a00" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="fireGlow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffab00" stop-opacity="0.8"/>
+      <stop offset="40%" stop-color="#ff6b00" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#ff3d00" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="fireGlow3" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff8f00" stop-opacity="0.7"/>
+      <stop offset="60%" stop-color="#e65100" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#bf360c" stop-opacity="0"/>
+    </radialGradient>
+    <!-- Subtle background gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0a"/>
+      <stop offset="50%" stop-color="#0f0f0f"/>
+      <stop offset="100%" stop-color="#0a0a0a"/>
+    </linearGradient>
+    <!-- Orange accent gradient for title underline -->
+    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff6b00" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#ff6b00" stop-opacity="1"/>
+      <stop offset="80%" stop-color="#ff3d00" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#ff3d00" stop-opacity="0"/>
+    </linearGradient>
+    <!-- Flame shape -->
+    <linearGradient id="flameGrad1" x1="50%" y1="100%" x2="50%" y2="0%">
+      <stop offset="0%" stop-color="#ff6b00"/>
+      <stop offset="40%" stop-color="#ff3d00"/>
+      <stop offset="80%" stop-color="#d50000"/>
+      <stop offset="100%" stop-color="#b71c1c" stop-opacity="0.6"/>
+    </linearGradient>
+    <linearGradient id="flameGrad2" x1="50%" y1="100%" x2="50%" y2="0%">
+      <stop offset="0%" stop-color="#ffab00"/>
+      <stop offset="50%" stop-color="#ff6b00"/>
+      <stop offset="100%" stop-color="#ff3d00" stop-opacity="0.4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGrad)"/>
+
+  <!-- Subtle grid pattern for tech feel -->
+  <g opacity="0.03" stroke="#ffffff" stroke-width="0.5">
+    <line x1="0" y1="0" x2="0" y2="630"/><line x1="60" y1="0" x2="60" y2="630"/>
+    <line x1="120" y1="0" x2="120" y2="630"/><line x1="180" y1="0" x2="180" y2="630"/>
+    <line x1="240" y1="0" x2="240" y2="630"/><line x1="300" y1="0" x2="300" y2="630"/>
+    <line x1="360" y1="0" x2="360" y2="630"/><line x1="420" y1="0" x2="420" y2="630"/>
+    <line x1="480" y1="0" x2="480" y2="630"/><line x1="540" y1="0" x2="540" y2="630"/>
+    <line x1="600" y1="0" x2="600" y2="630"/><line x1="660" y1="0" x2="660" y2="630"/>
+    <line x1="720" y1="0" x2="720" y2="630"/><line x1="780" y1="0" x2="780" y2="630"/>
+    <line x1="840" y1="0" x2="840" y2="630"/><line x1="900" y1="0" x2="900" y2="630"/>
+    <line x1="960" y1="0" x2="960" y2="630"/><line x1="1020" y1="0" x2="1020" y2="630"/>
+    <line x1="1080" y1="0" x2="1080" y2="630"/><line x1="1140" y1="0" x2="1140" y2="630"/>
+    <line x1="0" y1="60" x2="1200" y2="60"/><line x1="0" y1="120" x2="1200" y2="120"/>
+    <line x1="0" y1="180" x2="1200" y2="180"/><line x1="0" y1="240" x2="1200" y2="240"/>
+    <line x1="0" y1="300" x2="1200" y2="300"/><line x1="0" y1="360" x2="1200" y2="360"/>
+    <line x1="0" y1="420" x2="1200" y2="420"/><line x1="0" y1="480" x2="1200" y2="480"/>
+    <line x1="0" y1="540" x2="1200" y2="540"/>
+  </g>
+
+  <!-- Background fire glow effects — large ambient circles -->
+  <circle cx="180" cy="350" r="200" fill="url(#fireGlow3)" opacity="0.4"/>
+  <circle cx="1020" cy="280" r="180" fill="url(#fireGlow3)" opacity="0.35"/>
+  <circle cx="950" cy="450" r="120" fill="url(#fireGlow1)" opacity="0.2"/>
+
+  <!-- Scattered detection dots — like satellite fire detections on a map -->
+  <!-- Left cluster -->
+  <circle cx="120" cy="300" r="4" fill="#ff6b00" opacity="0.9"/>
+  <circle cx="120" cy="300" r="12" fill="none" stroke="#ff6b00" stroke-width="1" opacity="0.3"/>
+  <circle cx="145" cy="320" r="3" fill="#ff3d00" opacity="0.7"/>
+  <circle cx="145" cy="320" r="9" fill="none" stroke="#ff3d00" stroke-width="0.8" opacity="0.25"/>
+  <circle cx="100" cy="340" r="3.5" fill="#ff8f00" opacity="0.8"/>
+  <circle cx="100" cy="340" r="10" fill="none" stroke="#ff8f00" stroke-width="0.8" opacity="0.3"/>
+  <circle cx="160" cy="290" r="2.5" fill="#ffab00" opacity="0.6"/>
+  <circle cx="130" cy="370" r="3" fill="#ff6b00" opacity="0.5"/>
+  <circle cx="85" cy="310" r="2" fill="#ff3d00" opacity="0.6"/>
+
+  <!-- Right cluster -->
+  <circle cx="1050" cy="260" r="5" fill="#ff6b00" opacity="0.9"/>
+  <circle cx="1050" cy="260" r="14" fill="none" stroke="#ff6b00" stroke-width="1" opacity="0.3"/>
+  <circle cx="1080" cy="290" r="3.5" fill="#ff3d00" opacity="0.8"/>
+  <circle cx="1080" cy="290" r="10" fill="none" stroke="#ff3d00" stroke-width="0.8" opacity="0.25"/>
+  <circle cx="1030" cy="300" r="3" fill="#ffab00" opacity="0.7"/>
+  <circle cx="1030" cy="300" r="9" fill="none" stroke="#ffab00" stroke-width="0.8" opacity="0.2"/>
+  <circle cx="1100" cy="250" r="2.5" fill="#ff8f00" opacity="0.6"/>
+  <circle cx="1070" cy="320" r="2" fill="#ff6b00" opacity="0.5"/>
+  <circle cx="1020" cy="240" r="2" fill="#ff3d00" opacity="0.5"/>
+
+  <!-- Flame icon left of title -->
+  <g transform="translate(285, 195)">
+    <!-- Outer flame -->
+    <path d="M24,0 C24,0 36,18 36,32 C36,40 34,46 30,50 C32,42 28,34 24,28 C20,34 16,42 18,50 C14,46 12,40 12,32 C12,18 24,0 24,0 Z"
+          fill="url(#flameGrad1)" opacity="0.9"/>
+    <!-- Inner flame -->
+    <path d="M24,14 C24,14 30,26 30,34 C30,38 28,42 26,44 C27,40 25,36 24,32 C23,36 21,40 22,44 C20,42 18,38 18,34 C18,26 24,14 24,14 Z"
+          fill="url(#flameGrad2)" opacity="0.95"/>
+    <!-- Core bright spot -->
+    <ellipse cx="24" cy="38" rx="4" ry="6" fill="#ffcc02" opacity="0.7"/>
+  </g>
+
+  <!-- Main title -->
+  <text x="600" y="248" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="72" font-weight="800" fill="#ffffff" letter-spacing="-1">
+    OilBurnTracker
+  </text>
+
+  <!-- Flame icon right of title (mirrored) -->
+  <g transform="translate(867, 195)">
+    <path d="M24,0 C24,0 36,18 36,32 C36,40 34,46 30,50 C32,42 28,34 24,28 C20,34 16,42 18,50 C14,46 12,40 12,32 C12,18 24,0 24,0 Z"
+          fill="url(#flameGrad1)" opacity="0.9"/>
+    <path d="M24,14 C24,14 30,26 30,34 C30,38 28,42 26,44 C27,40 25,36 24,32 C23,36 21,40 22,44 C20,42 18,38 18,34 C18,26 24,14 24,14 Z"
+          fill="url(#flameGrad2)" opacity="0.95"/>
+    <ellipse cx="24" cy="38" rx="4" ry="6" fill="#ffcc02" opacity="0.7"/>
+  </g>
+
+  <!-- Accent line under title -->
+  <rect x="300" y="268" width="600" height="3" rx="1.5" fill="url(#accentLine)"/>
+
+  <!-- Subtitle -->
+  <text x="600" y="320" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="400" fill="#b0b0b0" letter-spacing="0.5">
+    Real-time satellite fire detection &amp; emissions tracking
+  </text>
+
+  <!-- Separator dots -->
+  <circle cx="560" cy="395" r="2.5" fill="#ff6b00" opacity="0.6"/>
+  <circle cx="600" cy="395" r="2.5" fill="#ff3d00" opacity="0.6"/>
+  <circle cx="640" cy="395" r="2.5" fill="#ff6b00" opacity="0.6"/>
+
+  <!-- Bottom tagline -->
+  <text x="600" y="460" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#808080" letter-spacing="3">
+    OPEN SOURCE
+    <tspan fill="#ff6b00" dx="8">&#x2022;</tspan>
+    <tspan fill="#808080" dx="8">LIVE DATA</tspan>
+    <tspan fill="#ff6b00" dx="8">&#x2022;</tspan>
+    <tspan fill="#808080" dx="8">FREE</tspan>
+  </text>
+
+  <!-- Subtle bottom border glow -->
+  <rect x="0" y="625" width="1200" height="5" fill="url(#accentLine)" opacity="0.5"/>
+
+  <!-- Very subtle top border -->
+  <rect x="0" y="0" width="1200" height="2" fill="url(#accentLine)" opacity="0.3"/>
+</svg>
