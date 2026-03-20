@@ -111,6 +111,7 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
   const playRef = useRef<NodeJS.Timeout | null>(null);
   const eventListRef = useRef<HTMLDivElement>(null);
   const feedRef = useRef<HTMLDivElement>(null);
+  const scrubberRef = useRef<HTMLDivElement>(null);
   const fireData = useFireStore((s) => s.fireData);
   const setSelectedFacility = useFireStore((s) => s.setSelectedFacility);
   const setTimelineDate = useFireStore((s) => s.setTimelineDate);
@@ -125,13 +126,15 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
   const casualties = useMemo(() => getCasualtiesUpTo(currentDate), [currentDate]);
   const hasEvent = todayEvents.length > 0;
 
-  // Click outside feed to dismiss
+  // Click outside feed to dismiss — but NOT when tapping scrubber controls
   useEffect(() => {
     if (infoDismissed || todayEvents.length === 0 || expanded) return;
     const handler = (e: MouseEvent | TouchEvent) => {
-      if (feedRef.current && !feedRef.current.contains(e.target as Node)) {
-        setInfoDismissed(true);
-      }
+      const target = e.target as Node;
+      // Don't dismiss if tapping inside the feed or anywhere in the scrubber bar
+      if (feedRef.current?.contains(target)) return;
+      if (scrubberRef.current?.contains(target)) return;
+      setInfoDismissed(true);
     };
     document.addEventListener('pointerdown', handler);
     return () => document.removeEventListener('pointerdown', handler);
@@ -282,7 +285,7 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
   }, []);
 
   return (
-    <div className='absolute bottom-0 left-0 right-0 z-10'>
+    <div ref={scrubberRef} className='absolute bottom-0 left-0 right-0 z-10'>
 
       {/* ── Scrolling news feed — all events for current day ── */}
       {todayEvents.length > 0 && !expanded && !infoDismissed && (
