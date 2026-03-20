@@ -51,6 +51,9 @@
 }
 
 /* MapLibre popup dark theme for event pins */
+.maplibregl-popup {
+  max-width: min(320px, calc(100vw - 32px)) !important;
+}
 .maplibregl-popup-content {
   background: #1a1a1a !important;
   color: #e0e0e0 !important;
@@ -58,11 +61,14 @@
   padding: 0 !important;
   box-shadow: 0 8px 32px rgba(0,0,0,0.6) !important;
   border: 1px solid rgba(255,255,255,0.1) !important;
+  overflow: hidden !important;
+  max-width: min(320px, calc(100vw - 32px)) !important;
 }
 .maplibregl-popup-close-button {
   color: #999 !important;
-  font-size: 18px !important;
-  padding: 4px 8px !important;
+  font-size: 20px !important;
+  padding: 6px 10px !important;
+  z-index: 10 !important;
 }
 .maplibregl-popup-close-button:hover {
   color: #fff !important;

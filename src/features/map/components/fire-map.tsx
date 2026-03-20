@@ -473,34 +473,33 @@ export default function FireMap() {
 
         if (popup.current) popup.current.remove();
 
-        let html = `<div style="font-family:system-ui;color:#e0e0e0;background:#1a1a1a;padding:10px;border-radius:8px;max-width:300px">`;
+        let html = `<div style="font-family:system-ui;color:#e0e0e0;background:#1a1a1a;padding:10px;border-radius:8px;box-sizing:border-box">`;
         html += `<div style="font-size:11px;color:${props?.color};font-weight:700;text-transform:uppercase;margin-bottom:4px">${props?.category?.replace('_', ' ')}</div>`;
-        html += `<div style="font-size:14px;font-weight:800;line-height:1.3;margin-bottom:6px">${props?.title}</div>`;
-        html += `<div style="font-size:12px;opacity:0.75;line-height:1.4;margin-bottom:8px">${props?.description}...</div>`;
+        html += `<div style="font-size:13px;font-weight:800;line-height:1.3;margin-bottom:4px">${props?.title}</div>`;
+        html += `<div style="font-size:11px;opacity:0.75;line-height:1.4;margin-bottom:6px">${props?.description}...</div>`;
 
         if (props?.killed > 0) {
-          html += `<div style="font-size:12px;color:#ef4444;font-weight:700;margin-bottom:6px">${Number(props.killed).toLocaleString()}+ killed</div>`;
+          html += `<div style="font-size:11px;color:#ef4444;font-weight:700;margin-bottom:6px">${Number(props.killed).toLocaleString()}+ killed</div>`;
         }
 
         if (props?.videoId) {
-          html += `<div style="position:relative;width:100%;padding-bottom:56.25%;margin-bottom:6px;border-radius:6px;overflow:hidden;background:#000">`;
-          html += `<iframe src="https://www.youtube-nocookie.com/embed/${props.videoId}?rel=0&autoplay=1&mute=1&enablejsapi=1" `;
+          const iframeId = `pin-yt-${props.videoId}`;
+          html += `<div style="position:relative;width:100%;padding-bottom:56.25%;margin-bottom:4px;border-radius:6px;overflow:hidden;background:#000">`;
+          html += `<iframe id="${iframeId}" src="https://www.youtube-nocookie.com/embed/${props.videoId}?rel=0&autoplay=1&mute=1&enablejsapi=1" `;
           html += `style="position:absolute;top:0;left:0;width:100%;height:100%;border:none" `;
           html += `allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen></iframe>`;
           html += `</div>`;
-          if (props?.videoLabel) {
-            html += `<div style="font-size:10px;opacity:0.6;margin-bottom:4px">${props.videoLabel}</div>`;
-          }
+          html += `<button id="pin-vol-toggle" onclick="(function(){var f=document.getElementById('${iframeId}');var b=document.getElementById('pin-vol-toggle');if(!f)return;var m=b.dataset.muted!=='false';var cmd=m?'unMute':'mute';f.contentWindow.postMessage(JSON.stringify({event:'command',func:cmd,args:''}),'*');b.dataset.muted=m?'false':'true';b.textContent=m?'🔊 Sound On':'🔇 Muted'})()" `;
+          html += `data-muted="true" style="display:block;width:100%;padding:6px;margin-bottom:6px;border:1px solid rgba(255,255,255,0.15);border-radius:6px;background:rgba(255,255,255,0.05);color:#e0e0e0;font-size:12px;font-weight:600;cursor:pointer;text-align:center">🔇 Muted — Tap to unmute</button>`;
         }
 
         if (props?.sourceUrl) {
-          html += `<a href="${props.sourceUrl}" target="_blank" rel="noopener noreferrer" style="font-size:11px;color:#60a5fa;text-decoration:underline">Read more →</a>`;
+          html += `<a href="${props.sourceUrl}" target="_blank" rel="noopener noreferrer" style="font-size:11px;color:#60a5fa;text-decoration:underline">Read more</a>`;
         }
 
-        html += `<div style="font-size:10px;opacity:0.4;margin-top:4px">${props?.date}</div>`;
         html += `</div>`;
 
-        popup.current = new maplibregl.Popup({ closeButton: true, maxWidth: '340px', className: 'event-popup' })
+        popup.current = new maplibregl.Popup({ closeButton: true, maxWidth: 'calc(100vw - 40px)', className: 'event-popup' })
           .setLngLat(coords)
           .setHTML(html)
           .addTo(m);

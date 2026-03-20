@@ -51,7 +51,27 @@ let activeIframe: HTMLIFrameElement | null = null;
 function YouTubeEmbed({ videoId, label, isMuted }: { videoId: string; label: string; isMuted: boolean }) {
   const containerRef = useRef<HTMLDivElement>(null);
   const iframeRef = useRef<HTMLIFrameElement>(null);
-  const [loaded, setLoaded] = useState(false);
+  const readyRef = useRef(false);
+
+  // Listen for YouTube player ready message
+  useEffect(() => {
+    const handler = (e: MessageEvent) => {
+      if (typeof e.data !== 'string') return;
+      try {
+        const msg = JSON.parse(e.data);
+        if (msg.event === 'onReady' || msg.event === 'initialDelivery') {
+          readyRef.current = true;
+        }
+      } catch {}
+    };
+    window.addEventListener('message', handler);
+    // Fallback: mark ready after 2s since not all YT events fire reliably
+    const timer = setTimeout(() => { readyRef.current = true; }, 2000);
+    return () => {
+      window.removeEventListener('message', handler);
+      clearTimeout(timer);
+    };
+  }, []);
 
   // IntersectionObserver: play when >50% visible, pause when not
   useEffect(() => {
@@ -61,15 +81,18 @@ function YouTubeEmbed({ videoId, label, isMuted }: { videoId: string; label: str
     const observer = new IntersectionObserver(
       ([entry]) => {
         const iframe = iframeRef.current;
-        if (!iframe || !loaded) return;
+        if (!iframe) return;
 
         if (entry.isIntersecting) {
-          // Pause previous video
           if (activeIframe && activeIframe !== iframe) {
             ytCommand(activeIframe, 'pauseVideo');
           }
           activeIframe = iframe;
-          ytCommand(iframe, 'playVideo');
+          // Give iframe time to initialize, then play
+          setTimeout(() => {
+            ytCommand(iframe, 'playVideo');
+            ytCommand(iframe, isMuted ? 'mute' : 'unMute');
+          }, 500);
         } else {
           if (activeIframe === iframe) {
             ytCommand(iframe, 'pauseVideo');
@@ -77,19 +100,23 @@ function YouTubeEmbed({ videoId, label, isMuted }: { videoId: string; label: str
           }
         }
       },
-      { threshold: 0.5 }
+      { threshold: 0.4 }
     );
 
     observer.observe(el);
     return () => observer.disconnect();
-  }, [loaded]);
+  }, [isMuted]);
 
   // Sync mute state when toggle changes
   useEffect(() => {
     const iframe = iframeRef.current;
-    if (!iframe || !loaded) return;
-    ytCommand(iframe, isMuted ? 'mute' : 'unMute');
-  }, [isMuted, loaded]);
+    if (!iframe) return;
+    // Small delay to ensure command reaches player
+    const t = setTimeout(() => {
+      ytCommand(iframe, isMuted ? 'mute' : 'unMute');
+    }, 300);
+    return () => clearTimeout(t);
+  }, [isMuted]);
 
   return (
     <div ref={containerRef} className='px-4 pb-3'>
@@ -97,12 +124,11 @@ function YouTubeEmbed({ videoId, label, isMuted }: { videoId: string; label: str
       <div className='relative w-full aspect-video rounded-lg overflow-hidden bg-black'>
         <iframe
           ref={iframeRef}
-          src={`https://www.youtube-nocookie.com/embed/${videoId}?rel=0&enablejsapi=1&autoplay=0&mute=${isMuted ? 1 : 0}`}
+          src={`https://www.youtube-nocookie.com/embed/${videoId}?rel=0&enablejsapi=1&autoplay=1&mute=1&origin=${typeof window !== 'undefined' ? window.location.origin : ''}`}
           title={label}
           allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
           allowFullScreen
           className='absolute inset-0 w-full h-full'
-          onLoad={() => setLoaded(true)}
         />
       </div>
     </div>
