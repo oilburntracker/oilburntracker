@@ -170,7 +170,7 @@ export default function FireMap() {
   const fireData = useFireStore((s) => s.fireData);
   const layers = useFireStore((s) => s.layers);
   const setSelectedFire = useFireStore((s) => s.setSelectedFire);
-  const setSelectedFacility = useFireStore((s) => s.setSelectedFacility);
+  // Facility drawer replaced by map popup
   const mapState = useFireStore((s) => s.mapState);
   // All pins always visible — no date filtering needed
 
@@ -571,20 +571,82 @@ export default function FireMap() {
           .addTo(m);
       });
 
-      // Click facility → open drawer
+      // Click facility → popup (same style as event pins)
       m.on('click', 'facility-core', (e) => {
         if (!e.features || e.features.length === 0) return;
         const props = e.features[0].properties;
+        const coords = (e.features[0].geometry as any).coordinates.slice();
         const facility = curatedFires.find((f) => f.id === props?.id);
-        if (facility) {
-          setSelectedFacility(facility);
-          m.flyTo({
-            center: [facility.lng, facility.lat],
-            zoom: Math.max(m.getZoom(), 8),
-            pitch: 50,
-            duration: 1500
-          });
+        if (!facility) return;
+
+        if (popup.current) popup.current.remove();
+
+        // Find linked conflict event for this facility (for video)
+        const linkedEvent = conflictEvents.find(ev => ev.facilityId === facility.id);
+        const ytMedia = linkedEvent?.mediaUrls?.find(media => media.type === 'youtube');
+        const videoId = ytMedia ? getYouTubeId(ytMedia.url) : null;
+
+        const statusColors: Record<string, string> = {
+          active_fire: '#ef4444', damaged: '#f97316', monitoring: '#eab308', offline: '#6b7280', operational: '#22c55e'
+        };
+        const statusLabels: Record<string, string> = {
+          active_fire: 'ACTIVE FIRE', damaged: 'DAMAGED', monitoring: 'MONITORING', offline: 'OFFLINE', operational: 'OPERATIONAL'
+        };
+        const typeLabels: Record<string, string> = {
+          refinery: 'Refinery', lng_terminal: 'LNG Terminal', pipeline: 'Pipeline', storage: 'Oil Storage', oil_field: 'Oil Field', gas_field: 'Gas Field', port: 'Port'
+        };
+        const sColor = statusColors[facility.status] || '#999';
+        const dateStr = facility.attackDate ? new Date(facility.attackDate + 'T00:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }) : '';
+
+        let html = `<div style="font-family:system-ui;color:#e0e0e0;background:#1a1a1a;padding:10px;border-radius:8px;box-sizing:border-box">`;
+        // Header: status + date
+        html += `<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px">`;
+        html += `<span style="font-size:10px;color:${sColor};font-weight:700;letter-spacing:0.5px">${statusLabels[facility.status] || facility.status}</span>`;
+        if (dateStr) html += `<span style="font-size:11px;color:#999;font-weight:600">${dateStr}</span>`;
+        html += `</div>`;
+        // Name + type
+        html += `<div style="font-size:14px;font-weight:800;line-height:1.3;margin-bottom:2px">${facility.name}</div>`;
+        html += `<div style="font-size:11px;color:#999;margin-bottom:6px">${facility.country} · ${typeLabels[facility.facilityType] || facility.facilityType}</div>`;
+
+        // Video
+        if (videoId) {
+          const iframeId = `fac-yt-${videoId}`;
+          html += `<div style="position:relative;width:100%;padding-bottom:56.25%;margin-bottom:4px;border-radius:6px;overflow:hidden;background:#000">`;
+          html += `<iframe id="${iframeId}" src="https://www.youtube-nocookie.com/embed/${videoId}?rel=0&autoplay=1&mute=1&enablejsapi=1" `;
+          html += `style="position:absolute;top:0;left:0;width:100%;height:100%;border:none" `;
+          html += `allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen></iframe>`;
+          html += `</div>`;
+          html += `<button id="fac-vol-toggle" onclick="(function(){var f=document.getElementById('${iframeId}');var b=document.getElementById('fac-vol-toggle');if(!f)return;var m=b.dataset.muted!=='false';var cmd=m?'unMute':'mute';f.contentWindow.postMessage(JSON.stringify({event:'command',func:cmd,args:''}),'*');b.dataset.muted=m?'false':'true';b.textContent=m?'\ud83d\udd0a Sound On':'\ud83d\udd07 Muted'})()" `;
+          html += `data-muted="true" style="display:block;width:100%;padding:6px;margin-bottom:6px;border:1px solid rgba(255,255,255,0.15);border-radius:6px;background:rgba(255,255,255,0.05);color:#e0e0e0;font-size:12px;font-weight:600;cursor:pointer;text-align:center">\ud83d\udd07 Muted \u2014 Tap to unmute</button>`;
         }
+
+        // Scrolling data ticker
+        const stats: string[] = [];
+        if (facility.capacityBPD > 0) stats.push(`${(facility.capacityBPD / 1000).toFixed(0)}K BPD`);
+        if (facility.percentGlobalCapacity > 0) stats.push(`${facility.percentGlobalCapacity}% global supply`);
+        if (facility.gasCapacityBCFD) stats.push(`${facility.gasCapacityBCFD} BCF/day gas`);
+        if (facility.lngMTPA) stats.push(`${facility.lngMTPA}M tons/yr LNG`);
+        if (facility.storageMBBL) stats.push(`${facility.storageMBBL}M bbl storage`);
+        const ticker = stats.join('  ·  ');
+        if (ticker) {
+          html += `<div style="overflow:hidden;white-space:nowrap;margin-bottom:6px;padding:4px 0;border-top:1px solid rgba(255,255,255,0.1);border-bottom:1px solid rgba(255,255,255,0.1)">`;
+          html += `<div style="display:inline-block;animation:tickerScroll 12s linear infinite;font-size:11px;font-weight:700;color:#f59e0b;font-family:monospace">${ticker}  ·  ${ticker}  ·  ${ticker}</div>`;
+          html += `</div>`;
+        }
+
+        // Why it matters + if destroyed
+        html += `<div style="font-size:11px;opacity:0.85;line-height:1.4;margin-bottom:4px">${facility.whyItMatters}</div>`;
+        html += `<div style="font-size:11px;color:#ef4444;line-height:1.4;margin-bottom:6px">${facility.ifDestroyed}</div>`;
+
+        if (facility.newsSourceUrl) {
+          html += `<a href="${facility.newsSourceUrl}" target="_blank" rel="noopener noreferrer" style="font-size:11px;color:#60a5fa;text-decoration:underline">News source</a>`;
+        }
+        html += `</div>`;
+
+        popup.current = new maplibregl.Popup({ closeButton: true, maxWidth: 'calc(100vw - 40px)', className: 'event-popup' })
+          .setLngLat(coords)
+          .setHTML(html)
+          .addTo(m);
       });
 
       // Click FIRMS fire point → popup
