@@ -206,6 +206,23 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
     }
   }, [currentDate]);
 
+  // ── Sync scrubber when user clicks a pin on the map ──
+  useEffect(() => {
+    const handler = (e: Event) => {
+      const { eventId } = (e as CustomEvent).detail;
+      const ev = conflictEvents.find(c => c.id === eventId);
+      if (!ev) return;
+      const idx = ALL_DAYS.indexOf(ev.date);
+      if (idx >= 0) {
+        setIsPlaying(false);
+        setCurrentIndex(idx);
+        setActiveEvent(ev);
+      }
+    };
+    window.addEventListener('timeline-sync', handler);
+    return () => window.removeEventListener('timeline-sync', handler);
+  }, []);
+
   // Scroll event list to bottom when expanded
   useEffect(() => {
     if (expanded && eventListRef.current) {

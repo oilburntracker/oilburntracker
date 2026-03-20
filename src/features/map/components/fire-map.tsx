@@ -575,6 +575,10 @@ export default function FireMap() {
           .setHTML(html)
           .addTo(m);
         m.easeTo({ center: coords, offset: [0, -120], duration: 400 });
+        // Sync scrubber to this event's date so skip fwd/back works from here
+        if (props?.id) {
+          window.dispatchEvent(new CustomEvent('timeline-sync', { detail: { eventId: props.id } }));
+        }
       });
 
       // Click facility → popup (same style as event pins)
