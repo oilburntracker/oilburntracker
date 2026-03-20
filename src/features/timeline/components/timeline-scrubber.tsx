@@ -27,7 +27,9 @@ import {
   IconPlayerSkipForward,
   IconPlayerSkipBack,
   IconUsers,
-  IconCloud
+  IconCloud,
+  IconVolume,
+  IconVolumeOff
 } from '@tabler/icons-react';
 import { formatCO2 } from '@/features/emissions/utils/emissions-model';
 
@@ -35,6 +37,76 @@ import { formatCO2 } from '@/features/emissions/utils/emissions-model';
 function getYouTubeId(url: string): string | null {
   const m = url.match(/(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|watch\?v=|shorts\/))([a-zA-Z0-9_-]{11})/);
   return m ? m[1] : null;
+}
+
+// ── YouTube postMessage helpers ──
+function ytCommand(iframe: HTMLIFrameElement, func: string) {
+  iframe.contentWindow?.postMessage(JSON.stringify({ event: 'command', func, args: '' }), '*');
+}
+
+// Global tracking: only one video plays at a time
+let activeIframe: HTMLIFrameElement | null = null;
+
+// ── Smart YouTube embed with IntersectionObserver ──
+function YouTubeEmbed({ videoId, label, isMuted }: { videoId: string; label: string; isMuted: boolean }) {
+  const containerRef = useRef<HTMLDivElement>(null);
+  const iframeRef = useRef<HTMLIFrameElement>(null);
+  const [loaded, setLoaded] = useState(false);
+
+  // IntersectionObserver: play when >50% visible, pause when not
+  useEffect(() => {
+    const el = containerRef.current;
+    if (!el) return;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        const iframe = iframeRef.current;
+        if (!iframe || !loaded) return;
+
+        if (entry.isIntersecting) {
+          // Pause previous video
+          if (activeIframe && activeIframe !== iframe) {
+            ytCommand(activeIframe, 'pauseVideo');
+          }
+          activeIframe = iframe;
+          ytCommand(iframe, 'playVideo');
+        } else {
+          if (activeIframe === iframe) {
+            ytCommand(iframe, 'pauseVideo');
+            activeIframe = null;
+          }
+        }
+      },
+      { threshold: 0.5 }
+    );
+
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, [loaded]);
+
+  // Sync mute state when toggle changes
+  useEffect(() => {
+    const iframe = iframeRef.current;
+    if (!iframe || !loaded) return;
+    ytCommand(iframe, isMuted ? 'mute' : 'unMute');
+  }, [isMuted, loaded]);
+
+  return (
+    <div ref={containerRef} className='px-4 pb-3'>
+      <p className='text-xs text-muted-foreground font-medium mb-1.5'>{label}</p>
+      <div className='relative w-full aspect-video rounded-lg overflow-hidden bg-black'>
+        <iframe
+          ref={iframeRef}
+          src={`https://www.youtube-nocookie.com/embed/${videoId}?rel=0&enablejsapi=1&autoplay=0&mute=${isMuted ? 1 : 0}`}
+          title={label}
+          allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+          allowFullScreen
+          className='absolute inset-0 w-full h-full'
+          onLoad={() => setLoaded(true)}
+        />
+      </div>
+    </div>
+  );
 }
 
 // ── Build day-by-day date array from first event to today ──
@@ -108,6 +180,7 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
   const [expanded, setExpanded] = useState(false);
   const [activeEvent, setActiveEvent] = useState<ConflictEvent | null>(null);
   const [infoDismissed, setInfoDismissed] = useState(false);
+  const [isMuted, setIsMuted] = useState(true);
   const playRef = useRef<NodeJS.Timeout | null>(null);
   const eventListRef = useRef<HTMLDivElement>(null);
   const feedRef = useRef<HTMLDivElement>(null);
@@ -212,6 +285,11 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
   useEffect(() => {
     setInfoDismissed(false);
     if (feedRef.current) feedRef.current.scrollTop = 0;
+    // Pause any active video when changing dates
+    if (activeIframe) {
+      ytCommand(activeIframe, 'pauseVideo');
+      activeIframe = null;
+    }
     if (todayEvents.length > 0) {
       const latest = todayEvents[todayEvents.length - 1];
       setActiveEvent(latest);
@@ -368,23 +446,17 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
                 )}
               </div>
 
-              {/* YouTube embeds — autoplay muted like social feeds */}
+              {/* YouTube embeds — autoplay on scroll, one at a time */}
               {event.mediaUrls?.filter(m => m.type === 'youtube').map((media, i) => {
                 const videoId = getYouTubeId(media.url);
                 if (!videoId) return null;
                 return (
-                  <div key={`yt-${i}`} className='px-4 pb-3'>
-                    <p className='text-xs text-muted-foreground font-medium mb-1.5'>{media.label || 'Video Coverage'}</p>
-                    <div className='relative w-full aspect-video rounded-lg overflow-hidden bg-black'>
-                      <iframe
-                        src={`https://www.youtube-nocookie.com/embed/${videoId}?rel=0&autoplay=1&mute=1`}
-                        title={media.label || 'Video'}
-                        allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-                        allowFullScreen
-                        className='absolute inset-0 w-full h-full'
-                      />
-                    </div>
-                  </div>
+                  <YouTubeEmbed
+                    key={`yt-${event.id}-${i}`}
+                    videoId={videoId}
+                    label={media.label || 'Video Coverage'}
+                    isMuted={isMuted}
+                  />
                 );
               })}
 
@@ -566,6 +638,20 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
           {/* Skip forward */}
           <Button size='icon' variant='ghost' className='h-7 w-7 shrink-0' onClick={() => skipToEvent(1)}>
             <IconPlayerSkipForward className='h-3.5 w-3.5' />
+          </Button>
+
+          {/* Audio toggle */}
+          <Button
+            size='icon'
+            variant='ghost'
+            className={`h-7 w-7 shrink-0 ${!isMuted ? 'text-orange-400' : ''}`}
+            onClick={() => setIsMuted((m) => !m)}
+            title={isMuted ? 'Unmute videos' : 'Mute videos'}
+          >
+            {isMuted
+              ? <IconVolumeOff className='h-3.5 w-3.5' />
+              : <IconVolume className='h-3.5 w-3.5' />
+            }
           </Button>
 
           {/* Date display */}

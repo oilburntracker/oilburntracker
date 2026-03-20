@@ -1358,13 +1358,12 @@ export const conflictEvents: ConflictEvent[] = [
     zoom: 12,
     sourceUrl: 'https://en.wikipedia.org/wiki/2026_Aramco_refinery_attack',
     mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=4_cVrY6-mDM', label: 'WION: Breaking — Drone strike hits Saudi Aramco oil refinery' },
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=T4n-z92pRHQ', label: 'Euronews: Drones hit Saudi Ras Tanura refinery' },
       { type: 'news', url: 'https://www.bloomberg.com/news/articles/2026-03-02/saudi-arabia-s-ras-tanura-refinery-shuts-down-after-drone-attack', label: 'Bloomberg: Saudi Aramco halts Ras Tanura operations after drone strike' },
       { type: 'news', url: 'https://www.euronews.com/2026/03/02/drones-hit-saudi-ras-tanura-refinery-as-iran-strikes-targets-across-region', label: 'Euronews: Drones hit Saudi Ras Tanura refinery as Iran strikes across region' },
-      { type: 'news', url: 'https://www.thenationalnews.com/business/2026/03/02/saudi-aramco-shuts-down-ras-tanura-refinery-following-drone-attack/', label: 'The National: Saudi Aramco shuts down Ras Tanura following drone attack' },
-      { type: 'news', url: 'https://www.argusmedia.com/en/news-and-insights/latest-market-news/2794759-ras-tanura-refinery-shut-after-drone-strike-update', label: 'Argus Media: Ras Tanura refinery shut after drone strike' },
       { type: 'news', url: 'https://www.npr.org/2026/03/06/nx-s1-5736593/middle-east-iran-energy-lng', label: 'NPR: Middle East conflicts avoided energy facilities in the past — not this war' },
-      { type: 'news', url: 'https://www.aljazeera.com/news/2026/3/4/which-oil-and-gas-facilities-in-the-gulf-have-been-attacked', label: 'Al Jazeera: Which oil and gas facilities in the Gulf have been attacked? (infographic)' },
-      { type: 'news', url: 'https://www.jpost.com/middle-east/iran-news/article-888486', label: 'JPost: Iranian drones force Aramco shutdown' }
+      { type: 'news', url: 'https://www.aljazeera.com/news/2026/3/4/which-oil-and-gas-facilities-in-the-gulf-have-been-attacked', label: 'Al Jazeera: Which oil and gas facilities in the Gulf have been attacked? (infographic)' }
     ]
   },
   {
@@ -1381,12 +1380,11 @@ export const conflictEvents: ConflictEvent[] = [
     zoom: 13,
     sourceUrl: 'https://www.euronews.com/business/2026/03/09/bapco-declares-force-majeure-as-iran-sets-bahrains-only-refinery-ablaze',
     mediaUrls: [
-      { type: 'news', url: 'https://www.bloomberg.com/news/articles/2026-03-09/bahrain-s-bapco-energies-declares-force-majeure-on-operations-mmitmqq7', label: 'Bloomberg: Bapco Energies declares force majeure after refinery damaged in attack' },
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=TPE6MUTTx7c', label: 'WION: Missile hits Bahrain Bapco refinery, oil facility damaged' },
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=VGBvLVhDA9A', label: 'Oneindia: Iran\'s Shahed drones BOMB Bahrain\'s largest oil facility' },
+      { type: 'news', url: 'https://www.bloomberg.com/news/articles/2026-03-09/bahrain-s-bapco-energies-declares-force-majeure-on-operations-mmitmqq7', label: 'Bloomberg: Bapco Energies declares force majeure after refinery damaged' },
       { type: 'news', url: 'https://english.alarabiya.net/News/gulf/2026/03/09/bahrain-s-bapco-declares-force-majeure-after-iran-strikes-statement', label: 'Al Arabiya: Bahrain\'s Bapco declares force majeure after Iran strikes' },
-      { type: 'news', url: 'https://www.arabnews.com/node/2635757/business-economy', label: 'Arab News: Bahrain force majeure — zero domestic refining capacity' },
-      { type: 'news', url: 'https://gulfbusiness.com/en/2026/energy/bahrains-bapco-energies-declares-force-majeure-after-refinery-hit/', label: 'Gulf Business: Bahrain\'s Bapco declares force majeure after refinery hit' },
       { type: 'news', url: 'https://oilprice.com/Latest-Energy-News/World-News/Drone-Strike-Hits-Bahrain-Refinery-as-Crack-Spreads-Surge.html', label: 'OilPrice: Drone strike hits Bahrain refinery as crack spreads surge' },
-      { type: 'news', url: 'https://www.dailysabah.com/business/energy/bahrains-state-oil-firm-declares-force-majeure-after-iran-strikes', label: 'Daily Sabah: Bahrain\'s state oil firm declares force majeure' },
       { type: 'news', url: 'https://news.cgtn.com/news/2026-03-09/Bahrain-s-oil-company-Bapco-declares-force-majeure-following-explosion-1Lnkq6SzqY8/p.html', label: 'CGTN: BAPCO force majeure following explosion' }
     ]
   },
@@ -1403,11 +1401,12 @@ export const conflictEvents: ConflictEvent[] = [
     zoom: 12,
     sourceUrl: 'https://www.washingtonpost.com/politics/2026/03/13/trump-us-iran-war-kharg-island-oil/',
     mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=bo5U2CXtOfw', label: 'CNN: Trump says Iran\'s Kharg Island bombed, US deploying 2,500 to Mideast' },
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=nHghIBRnjq0', label: 'CBS News: Trump touts U.S. strike on Iran\'s Kharg Island' },
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=5wmc0OfDR1E', label: 'FRANCE 24: Why did the US bomb Kharg Island? What is its significance?' },
       { type: 'news', url: 'https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-13-26', label: 'CNN Live: Trump says US \'totally obliterated every military target\' at Iran oil hub' },
-      { type: 'news', url: 'https://www.cnn.com/2026/03/14/middleeast/iran-kharg-island-explainer-intl-hnk', label: 'CNN: What to know about Kharg Island, the tiny coral outcrop at the heart of Iran\'s oil' },
       { type: 'news', url: 'https://www.nbcnews.com/world/iran/iran-threatens-strike-oil-facilities-us-hits-military-targets-kharg-is-rcna263453', label: 'NBC News: US bombing of Kharg Island sparks new threats to Gulf oil infrastructure' },
       { type: 'news', url: 'https://www.cnbc.com/2026/03/13/iran-war-oil-kharg-island-trump-us-israel-middle-east-crisis.html', label: 'CNBC: What happens if Trump pushes to seize Kharg Island' },
-      { type: 'news', url: 'https://www.npr.org/2026/03/14/nx-s1-5747838/trump-kharg-island-iran-war', label: 'NPR: US bombs Kharg Island' },
       { type: 'news', url: 'https://www.aljazeera.com/news/2026/3/14/us-attacks-military-sites-on-irans-kharg-island-home-to-vast-oil-facility', label: 'Al Jazeera: US attacks military sites on Iran\'s Kharg Island oil facility' },
       { type: 'news', url: 'https://www.cbc.ca/news/world/us-iran-war-kharg-island-9.7128795', label: 'CBC: Iran vows retaliation for US attack on Kharg Island oil hub as war enters 3rd week' },
       { type: 'news', url: 'https://www.axios.com/2026/03/16/kharg-island-iran-war-trump-hormuz-strait', label: 'Axios: Kharg Island — what to know about Iran oil hub amid Trump war threats' },
@@ -1429,13 +1428,12 @@ export const conflictEvents: ConflictEvent[] = [
     zoom: 8,
     sourceUrl: 'https://www.bloomberg.com/news/articles/2026-03-16/drone-strike-sets-uae-natural-gas-field-ablaze-abu-dhabi-says',
     mediaUrls: [
-      { type: 'news', url: 'https://www.cnbc.com/2026/03/17/iran-war-uae-energy-gas-field-oil-fujairah-strait-of-hormuz.html', label: 'CNBC: Iran targets UAE energy infrastructure as gas field set ablaze, tanker struck near Hormuz' },
-      { type: 'news', url: 'https://www.cnbc.com/2026/03/16/uae-fujairah-oil-hub-drone-fire-iran-war-us-israel-middle-east.html', label: 'CNBC: UAE\'s Fujairah oil trading hub targeted by drone attack, causing large fire' },
-      { type: 'news', url: 'https://www.aljazeera.com/news/2026/3/17/drone-sparks-fire-at-uae-oil-site-as-gulf-takes-more-hits-amid-iran-war', label: 'Al Jazeera: Drone sparks fire at UAE oil site as Gulf takes more hits amid Iran war' },
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=AX92P_hOP2I', label: 'Oneindia: Shah Oil Hub BURNED by Iran — UAE oil fields in FLAMES' },
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=5L9_NjFcYnI', label: 'Hindustan Times: Fire at UAE\'s Fujairah port after Iran drone strike' },
+      { type: 'news', url: 'https://www.cnbc.com/2026/03/17/iran-war-uae-energy-gas-field-oil-fujairah-strait-of-hormuz.html', label: 'CNBC: Iran targets UAE energy infrastructure as gas field set ablaze' },
+      { type: 'news', url: 'https://www.aljazeera.com/news/2026/3/17/drone-sparks-fire-at-uae-oil-site-as-gulf-takes-more-hits-amid-iran-war', label: 'Al Jazeera: Drone sparks fire at UAE oil site as Gulf takes more hits' },
       { type: 'news', url: 'https://www.cnn.com/2026/03/17/business/oil-prices-strait-iran-attacks-intl', label: 'CNN: Oil prices jump as Iran warns Strait of Hormuz \'cannot be the same\'' },
-      { type: 'news', url: 'https://www.worldoil.com/news/2026/3/16/drone-strike-sparks-fire-at-uae-s-shah-gas-field-operated-by-adnoc-occidental/', label: 'World Oil: Drone strike sparks fire at UAE\'s Shah gas field operated by ADNOC, Occidental' },
-      { type: 'news', url: 'https://oilprice.com/Latest-Energy-News/World-News/UAE-Halts-Shah-Gas-Field-After-Iranian-Drone-Attack.html', label: 'OilPrice: UAE halts Shah Gas Field after Iranian drone attack' },
-      { type: 'news', url: 'https://www.thenationalnews.com/business/2026/03/17/shah-field-a-vital-gas-and-sulphur-asset-attacked-by-iranian-drones/', label: 'The National: Shah field — a vital gas and sulphur asset — attacked by Iranian drones' },
+      { type: 'news', url: 'https://www.worldoil.com/news/2026/3/16/drone-strike-sparks-fire-at-uae-s-shah-gas-field-operated-by-adnoc-occidental/', label: 'World Oil: Drone strike sparks fire at UAE\'s Shah gas field' },
       { type: 'news', url: 'https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_the_United_Arab_Emirates', label: 'Wikipedia: 2026 Iranian strikes on the United Arab Emirates' }
     ]
   },
@@ -1452,14 +1450,14 @@ export const conflictEvents: ConflictEvent[] = [
     zoom: 11,
     sourceUrl: 'https://www.cbsnews.com/live-updates/iran-war-israel-strike-south-pars-gas-field-trump-threat-oil-gas-prices/',
     mediaUrls: [
-      { type: 'news', url: 'https://www.bloomberg.com/news/articles/2026-03-18/iran-says-strikes-hit-key-south-pars-gas-field-oil-facilities', label: 'Bloomberg: Iran says US-Israeli strikes hit South Pars gas field, oil facilities' },
-      { type: 'news', url: 'https://www.cnn.com/2026/03/19/middleeast/iran-qatar-south-pars-gas-field-explainer-intl', label: 'CNN: What is the South Pars gas field and why is Israel\'s attack an escalation?' },
-      { type: 'news', url: 'https://www.nbcnews.com/world/iran/iran-war-gas-field-attacks-energy-prices-trump-israel-south-pars-rcna264249', label: 'NBC News: Gas field attacks send energy prices soaring' },
-      { type: 'news', url: 'https://foreignpolicy.com/2026/03/18/iran-south-pars-gas-field-oil-energy-strikes-qatar-israel-khatib-larijani/', label: 'Foreign Policy: Iran, Qatar accuse Israel of striking South Pars gas field' },
-      { type: 'news', url: 'https://www.thenationalnews.com/business/energy/2026/03/18/iran-says-south-pars-gas-field-struck-in-an-attack/', label: 'The National: Iran\'s giant South Pars gas field struck in \'dangerous\' escalation' },
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=c-v3ScBGxUk', label: 'Reuters: Israeli strike sets Iran\'s South Pars gas field ablaze' },
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=ad_Zoy2u2qo', label: 'The Independent: Fire rages at Iran\'s South Pars gas field after Israeli strike' },
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=J-aX-HMNH3Q', label: 'BBC News: Oil and gas prices surge after Israel strikes world\'s biggest gas field' },
+      { type: 'news', url: 'https://www.bloomberg.com/news/articles/2026-03-18/iran-says-strikes-hit-key-south-pars-gas-field-oil-facilities', label: 'Bloomberg: Iran says US-Israeli strikes hit South Pars gas field' },
+      { type: 'news', url: 'https://www.cnn.com/2026/03/19/middleeast/iran-qatar-south-pars-gas-field-explainer-intl', label: 'CNN: What is South Pars and why is Israel\'s attack an escalation?' },
+      { type: 'news', url: 'https://foreignpolicy.com/2026/03/18/iran-south-pars-gas-field-oil-energy-strikes-qatar-israel-khatib-larijani/', label: 'Foreign Policy: Iran, Qatar accuse Israel of striking South Pars' },
       { type: 'news', url: 'https://www.aljazeera.com/news/2026/3/18/oil-prices-surge-after-israeli-strike-on-iran-gasfield-irans-threats', label: 'Al Jazeera: Oil prices surge after Israeli strike on Iran gas field' },
-      { type: 'news', url: 'https://thesoufancenter.org/intelbrief-2026-march-18b/', label: 'Soufan Center: Red Line Crossed — Israel targets upstream energy assets, Iran responds' },
-      { type: 'news', url: 'https://www.newsweek.com/iran-war-live-latest-updates-ali-larijani-killed-tehran-retaliates-us-fores-weapons-strait-hormuz-11694515', label: 'Newsweek: Oil prices surge after major attack on Iran\'s South Pars field' },
+      { type: 'news', url: 'https://thesoufancenter.org/intelbrief-2026-march-18b/', label: 'Soufan Center: Red Line Crossed — Israel targets upstream energy assets' },
       { type: 'news', url: 'https://www.axios.com/2026/03/18/israel-strikes-iran-natural-gas-infrastructure', label: 'Axios: Israel strikes Iran\'s natural gas infrastructure' }
     ]
   },
@@ -1476,14 +1474,13 @@ export const conflictEvents: ConflictEvent[] = [
     zoom: 12,
     sourceUrl: 'https://www.aljazeera.com/news/2026/3/18/qatar-says-iran-missile-attack-sparks-fire-causes-damage-at-gas-facility',
     mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=S7N_fiB-chw', label: 'WION: Iran strikes back — Iranian missile damages Qatar\'s Ras Laffan LNG facility' },
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=bPiOKgi1KdY', label: 'FRANCE 24: Qatar orders departure of Iranian diplomats over gas facility attack' },
       { type: 'news', url: 'https://www.bloomberg.com/news/articles/2026-03-19/iran-strike-damages-17-of-qatar-lng-for-3-5-years-reuters-says', label: 'Bloomberg/Reuters: Iran strike damages 17% of Qatar LNG for 3-5 years' },
-      { type: 'news', url: 'https://www.bloomberg.com/news/articles/2026-03-18/qatar-reports-extensive-damage-at-site-of-ras-laffan-lng-plant', label: 'Bloomberg: Qatar reports extensive damage at Ras Laffan LNG plant' },
       { type: 'news', url: 'https://www.cnbc.com/2026/03/18/iran-war-qatar-ras-laffan-natural-gas-lng.html', label: 'CNBC: Iran missile attack on Qatar causes \'extensive damage\' to huge gas plant' },
-      { type: 'news', url: 'https://mofa.gov.qa/en/latest-articles/statements/qatar-condemns--denounces-blatant-iranian-attack-on-ras-laffan-industrial-city', label: 'Qatar Foreign Ministry: Qatar condemns blatant Iranian attack on Ras Laffan' },
-      { type: 'news', url: 'https://www.cbc.ca/news/world/iran-israel-united-states-attacks-9.7132837', label: 'CBC: Iran hits Qatar energy hub after its Pars oil field struck' },
+      { type: 'news', url: 'https://mofa.gov.qa/en/latest-articles/statements/qatar-condemns--denounces-blatant-iranian-attack-on-ras-laffan-industrial-city', label: 'Qatar Foreign Ministry: Qatar condemns blatant Iranian attack' },
       { type: 'news', url: 'https://www.lngindustry.com/special-reports/19032026/wood-mackenzie-ras-laffan-attacks-fundamentally-reshape-global-lng-outlook/', label: 'LNG Industry: Ras Laffan attacks fundamentally reshape global LNG outlook' },
-      { type: 'news', url: 'https://naturalgasintel.com/news/qatarenergy-says-damage-at-lng-facilities-could-take-years-to-repair-upending-supply-outlook/', label: 'NGI: QatarEnergy says damage could take years to repair, upending supply outlook' },
-      { type: 'news', url: 'https://thepeninsulaqatar.com/article/18/03/2026/qatar-condemns-iranian-brutal-attack-on-ras-laffan-industrial-city', label: 'The Peninsula Qatar: Qatar condemns Iranian brutal attack on Ras Laffan' }
+      { type: 'news', url: 'https://naturalgasintel.com/news/qatarenergy-says-damage-at-lng-facilities-could-take-years-to-repair-upending-supply-outlook/', label: 'NGI: QatarEnergy says damage could take years to repair' }
     ]
   },
   {
@@ -1498,13 +1495,13 @@ export const conflictEvents: ConflictEvent[] = [
     zoom: 6,
     sourceUrl: 'https://www.aljazeera.com/news/2026/3/18/iran-threatens-to-strike-gulf-energy-facilities-after-south-pars-attack',
     mediaUrls: [
-      { type: 'news', url: 'https://www.bloomberg.com/news/articles/2026-03-18/iran-warns-gulf-nations-of-major-response-after-gas-field-strike', label: 'Bloomberg: Gulf energy sites named as targets by Iran following gas field strike' },
-      { type: 'news', url: 'https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-18-26', label: 'CNN Live: Trump threatens Iran\'s gas fields, Gulf energy sites come under attack' },
-      { type: 'news', url: 'https://www.nbcnews.com/world/iran/live-blog/live-updates-iran-war-energy-prices-trump-gas-field-israel-qatar-rcna264010', label: 'NBC News Live: Gas, oil prices soar as Trump threatens South Pars and Iran retaliates' },
-      { type: 'news', url: 'https://theconversation.com/targeting-of-energy-facilities-turned-iran-war-into-worst-case-scenario-for-gulf-states-278730', label: 'The Conversation: Targeting energy facilities turned Iran war into worst-case scenario' },
-      { type: 'news', url: 'https://www.newsweek.com/israel-iran-war-gulf-energy-attacks-oil-prices-surge-11700194', label: 'Newsweek: Regional energy under fire as Israel expands Iran attacks' },
-      { type: 'news', url: 'https://www.jpost.com/middle-east/article-890424', label: 'JPost: IRGC threatens Gulf oil infrastructure' },
-      { type: 'news', url: 'https://www.military.com/daily-news/2026/03/19/iran-hits-back-multiple-gulf-refineries-after-israeli-strike-its-offshore-gas-field.html', label: 'Military.com: Iran hits back at multiple Gulf refineries after Israeli gas field strike' }
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=pdikj2yVZFQ', label: 'Al Jazeera: Iran issues evacuation warnings for Gulf energy sites after Israeli strike' },
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=Es_wof_BClw', label: 'DW News: Iran threatens Gulf states\' energy facilities' },
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=TpmpX-lw08s', label: 'CRUX LIVE: Qatar, UAE, Saudi Arabia under attack as Iran strikes Gulf gas' },
+      { type: 'news', url: 'https://www.bloomberg.com/news/articles/2026-03-18/iran-warns-gulf-nations-of-major-response-after-gas-field-strike', label: 'Bloomberg: Gulf energy sites named as targets by Iran' },
+      { type: 'news', url: 'https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-18-26', label: 'CNN Live: Trump threatens Iran\'s gas fields, Gulf sites under attack' },
+      { type: 'news', url: 'https://theconversation.com/targeting-of-energy-facilities-turned-iran-war-into-worst-case-scenario-for-gulf-states-278730', label: 'The Conversation: Iran war becomes worst-case scenario for Gulf states' },
+      { type: 'news', url: 'https://www.military.com/daily-news/2026/03/19/iran-hits-back-multiple-gulf-refineries-after-israeli-strike-its-offshore-gas-field.html', label: 'Military.com: Iran hits back at multiple Gulf refineries' }
     ]
   },
   {
@@ -1521,14 +1518,16 @@ export const conflictEvents: ConflictEvent[] = [
     zoom: 12,
     sourceUrl: 'https://www.pbs.org/newshour/world/iran-intensifies-attacks-on-gulf-energy-sites-after-israel-struck-its-key-gas-field',
     mediaUrls: [
-      { type: 'news', url: 'https://thehill.com/homenews/ap/ap-international/ap-iran-hits-back-at-multiple-gulf-refineries-after-israeli-strike-on-its-offshore-gas-field/', label: 'AP/The Hill: Iran hits back at multiple Gulf refineries after Israeli gas field strike' },
-      { type: 'news', url: 'https://www.npr.org/2026/03/19/nx-s1-5753520/iran-israel-gas-field-attacks', label: 'NPR: Israel and Iran attack each other\'s gas facilities in dangerous escalation' },
-      { type: 'news', url: 'https://www.theglobeandmail.com/world/article-iran-hits-gulf-refineries-after-israeli-strikes-its-offshore-gas-field/', label: 'Globe and Mail: Iran intensifies attacks on Gulf neighbours, spiking global oil prices' },
-      { type: 'news', url: 'https://www.anews.com.tr/middle-east/2026/03/19/drone-hits-operational-unit-at-mina-al-ahmadi-refinery-in-kuwait', label: 'Anadolu Agency: Drone hits operational unit at Mina Al-Ahmadi refinery in Kuwait' },
-      { type: 'news', url: 'https://www.timesofisrael.com/liveblog_entry/iranian-drone-attack-on-kuwait-oil-refinary-sparks-fire-no-injuries-reported/', label: 'Times of Israel: Iranian drone attack on Kuwait oil refinery sparks fire' },
-      { type: 'news', url: 'https://saudigazette.com.sa/article/659875/world/drone-attacks-hit-kuwait-refineries-fires-contained', label: 'Saudi Gazette/Reuters: Drone strikes hit two Kuwait refineries, fires contained' },
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=39Xos0zbQvc', label: 'CNN-News18: BREAKING — Drone attack hits Kuwait\'s Mina Al-Ahmadi refinery, oil prices spike' },
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=-dRDjfOG_Gw', label: 'India Today: Iran attacks Kuwait — drone attack sparks fire at Mina Al Ahmadi oil refinery' },
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=vHVEBj2wuD4', label: 'WION: Iran hits Qatar, Kuwait oil refineries — fresh attack on Israel' },
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=9aCpcZIdIG8', label: 'Bloomberg: European stocks fall as energy costs surge — The Opening Trade 3/19' },
+      { type: 'news', url: 'https://thehill.com/homenews/ap/ap-international/ap-iran-hits-back-at-multiple-gulf-refineries-after-israeli-strike-on-its-offshore-gas-field/', label: 'AP/The Hill: Iran hits back at multiple Gulf refineries' },
+      { type: 'news', url: 'https://www.npr.org/2026/03/19/nx-s1-5753520/iran-israel-gas-field-attacks', label: 'NPR: Israel and Iran attack each other\'s gas facilities' },
+      { type: 'news', url: 'https://www.theglobeandmail.com/world/article-iran-hits-gulf-refineries-after-israeli-strikes-its-offshore-gas-field/', label: 'Globe and Mail: Iran intensifies attacks, spiking global oil prices' },
+      { type: 'news', url: 'https://saudigazette.com.sa/article/659875/world/drone-attacks-hit-kuwait-refineries-fires-contained', label: 'Saudi Gazette/Reuters: Drone strikes hit two Kuwait refineries' },
       { type: 'news', url: 'https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_Kuwait', label: 'Wikipedia: 2026 Iranian strikes on Kuwait' },
-      { type: 'news', url: 'https://www.military.com/daily-news/2026/03/17/satellite-images-begin-show-damage-wrought-iran-war.html', label: 'Military.com: Satellite images begin to show the damage wrought by Iran war' }
+      { type: 'news', url: 'https://www.military.com/daily-news/2026/03/17/satellite-images-begin-show-damage-wrought-iran-war.html', label: 'Military.com: Satellite images show damage wrought by Iran war' }
     ]
   }
 ];
