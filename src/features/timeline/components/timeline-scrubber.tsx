@@ -388,47 +388,50 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
                 );
               })}
 
-              {/* News feed — headline cards like social media */}
+              {/* News feed — each source as its own post card */}
               {(event.sourceUrl || (event.mediaUrls && event.mediaUrls.filter(m => m.type !== 'youtube').length > 0)) && (
-                <div className='px-4 pb-3 space-y-2'>
-                  <p className='text-xs font-bold text-muted-foreground uppercase tracking-wider'>Coverage</p>
+                <div className='space-y-0'>
                   {event.sourceUrl && (
                     <a
                       href={event.sourceUrl}
                       target='_blank'
                       rel='noopener noreferrer'
-                      className='flex items-start gap-3 rounded-lg bg-muted/40 p-3 hover:bg-accent/60 transition-colors group'
+                      className='block border-t px-4 py-3 hover:bg-accent/40 transition-colors group'
                     >
-                      <IconExternalLink className='h-5 w-5 text-blue-400 shrink-0 mt-0.5' />
-                      <div className='min-w-0 flex-1'>
-                        <span className='text-sm font-semibold leading-snug line-clamp-2 group-hover:text-primary transition-colors'>
-                          {event.title}
-                        </span>
-                        <span className='text-xs text-muted-foreground block mt-0.5'>
+                      <div className='flex items-center gap-2 mb-1.5'>
+                        <IconExternalLink className='h-4 w-4 text-blue-400' />
+                        <span className='text-xs font-bold text-blue-400 uppercase'>
                           {(() => { try { return new URL(event.sourceUrl).hostname.replace('www.', ''); } catch { return 'Source'; } })()}
                         </span>
                       </div>
+                      <p className='text-base font-bold leading-snug group-hover:text-primary transition-colors'>
+                        {event.title}
+                      </p>
+                      <p className='text-sm text-muted-foreground mt-1 line-clamp-2'>
+                        {event.description.slice(0, 120)}...
+                      </p>
                     </a>
                   )}
                   {event.mediaUrls?.filter(m => m.type !== 'youtube').map((media, i) => {
                     const Icon = MEDIA_ICONS[media.type] || IconExternalLink;
+                    const domain = (() => { try { return new URL(media.url).hostname.replace('www.', ''); } catch { return media.type; } })();
                     return (
                       <a
                         key={i}
                         href={media.url}
                         target='_blank'
                         rel='noopener noreferrer'
-                        className='flex items-start gap-3 rounded-lg bg-muted/40 p-3 hover:bg-accent/60 transition-colors group'
+                        className='block border-t px-4 py-3 hover:bg-accent/40 transition-colors group'
                       >
-                        <Icon className='h-5 w-5 text-blue-400 shrink-0 mt-0.5' />
-                        <div className='min-w-0 flex-1'>
-                          <span className='text-sm font-semibold leading-snug line-clamp-2 group-hover:text-primary transition-colors'>
-                            {media.label || event.title}
-                          </span>
-                          <span className='text-xs text-muted-foreground block mt-0.5'>
-                            {(() => { try { return new URL(media.url).hostname.replace('www.', ''); } catch { return media.type; } })()}
+                        <div className='flex items-center gap-2 mb-1.5'>
+                          <Icon className='h-4 w-4 text-blue-400' />
+                          <span className='text-xs font-bold text-blue-400 uppercase'>
+                            {domain}
                           </span>
                         </div>
+                        <p className='text-base font-bold leading-snug group-hover:text-primary transition-colors'>
+                          {media.label || event.title}
+                        </p>
                       </a>
                     );
                   })}
