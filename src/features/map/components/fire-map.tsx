@@ -498,8 +498,9 @@ export default function FireMap() {
 
         if (popup.current) popup.current.remove();
 
+        const dateStr = props?.date ? new Date(props.date + 'T00:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }) : '';
         let html = `<div style="font-family:system-ui;color:#e0e0e0;background:#1a1a1a;padding:10px;border-radius:8px;box-sizing:border-box">`;
-        html += `<div style="font-size:11px;color:${props?.color};font-weight:700;text-transform:uppercase;margin-bottom:4px">${props?.category?.replace('_', ' ')}</div>`;
+        html += `<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px"><span style="font-size:11px;color:${props?.color};font-weight:700;text-transform:uppercase">${props?.category?.replace('_', ' ')}</span><span style="font-size:11px;color:#999;font-weight:600">${dateStr}</span></div>`;
         html += `<div style="font-size:13px;font-weight:800;line-height:1.3;margin-bottom:4px">${props?.title}</div>`;
         html += `<div style="font-size:11px;opacity:0.75;line-height:1.4;margin-bottom:6px">${props?.description}...</div>`;
 
@@ -687,8 +688,9 @@ export default function FireMap() {
 
       // Build popup HTML — same quality as click handler (matches refinery pin style)
       const color = CATEGORY_COLORS[ev.category];
+      const dateStr = new Date(ev.date + 'T00:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
       let html = `<div style="font-family:system-ui;color:#e0e0e0;background:#1a1a1a;padding:10px;border-radius:8px;box-sizing:border-box">`;
-      html += `<div style="font-size:11px;color:${color};font-weight:700;text-transform:uppercase;margin-bottom:4px">${ev.category.replace('_', ' ')}</div>`;
+      html += `<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px"><span style="font-size:11px;color:${color};font-weight:700;text-transform:uppercase">${ev.category.replace('_', ' ')}</span><span style="font-size:11px;color:#999;font-weight:600">${dateStr}</span></div>`;
       html += `<div style="font-size:13px;font-weight:800;line-height:1.3;margin-bottom:4px">${ev.title}</div>`;
       html += `<div style="font-size:11px;opacity:0.75;line-height:1.4;margin-bottom:6px">${ev.description.slice(0, 200)}...</div>`;
 
