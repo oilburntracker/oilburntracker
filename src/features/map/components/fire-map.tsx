@@ -5,7 +5,6 @@ import maplibregl from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import { useFireStore, type FireFeature } from '@/stores/fire-store';
 import { curatedFires, type FacilityStatus } from '@/features/fires/data/curated-fires';
-import { createPulsingDot, INTENSITY_CONFIGS } from '../utils/pulsing-dot';
 import { getEventsUpTo, CATEGORY_COLORS, type ConflictEvent } from '@/features/timeline/data/conflict-events';
 
 // Free satellite tiles — no API key needed
@@ -194,11 +193,6 @@ export default function FireMap() {
     map.current.on('load', () => {
       const m = map.current!;
 
-      // Add pulsing dot images
-      for (const [key, config] of Object.entries(INTENSITY_CONFIGS)) {
-        m.addImage(`pulsing-dot-${key}`, createPulsingDot(m, config), { pixelRatio: 2 });
-      }
-
       // ── FIRMS fire data source ──
       m.addSource('fires', {
         type: 'geojson',
@@ -241,24 +235,54 @@ export default function FireMap() {
         }
       });
 
-      // FIRMS fire points (pulsing dots)
+      // FIRMS fire points — outer glow (intensity-colored)
       m.addLayer({
-        id: 'fires-points',
-        type: 'symbol',
+        id: 'fires-glow',
+        type: 'circle',
         source: 'fires',
         minzoom: 4,
-        layout: {
-          'icon-image': [
-            'match',
-            ['get', 'intensity'],
-            'low', 'pulsing-dot-low',
-            'medium', 'pulsing-dot-medium',
-            'high', 'pulsing-dot-high',
-            'extreme', 'pulsing-dot-extreme',
-            'pulsing-dot-low'
+        paint: {
+          'circle-radius': [
+            'interpolate', ['linear'], ['zoom'],
+            4, ['match', ['get', 'intensity'], 'extreme', 8, 'high', 7, 'medium', 6, 5],
+            8, ['match', ['get', 'intensity'], 'extreme', 14, 'high', 12, 'medium', 10, 8],
+            12, ['match', ['get', 'intensity'], 'extreme', 20, 'high', 16, 'medium', 13, 10]
           ],
-          'icon-allow-overlap': true,
-          'icon-ignore-placement': true
+          'circle-color': [
+            'match', ['get', 'intensity'],
+            'extreme', '#B71C1C',
+            'high', '#F44336',
+            'medium', '#FF9800',
+            '#FFEB3B'
+          ],
+          'circle-opacity': 0.35,
+          'circle-blur': 0.8
+        }
+      });
+
+      // FIRMS fire points — solid core dot
+      m.addLayer({
+        id: 'fires-points',
+        type: 'circle',
+        source: 'fires',
+        minzoom: 4,
+        paint: {
+          'circle-radius': [
+            'interpolate', ['linear'], ['zoom'],
+            4, ['match', ['get', 'intensity'], 'extreme', 4, 'high', 3.5, 'medium', 3, 2.5],
+            8, ['match', ['get', 'intensity'], 'extreme', 7, 'high', 6, 'medium', 5, 4],
+            12, ['match', ['get', 'intensity'], 'extreme', 10, 'high', 8, 'medium', 7, 5]
+          ],
+          'circle-color': [
+            'match', ['get', 'intensity'],
+            'extreme', '#B71C1C',
+            'high', '#F44336',
+            'medium', '#FF9800',
+            '#FFEB3B'
+          ],
+          'circle-opacity': 0.9,
+          'circle-stroke-width': 1,
+          'circle-stroke-color': 'rgba(255,255,255,0.6)'
         }
       });
 
@@ -615,6 +639,7 @@ export default function FireMap() {
     const m = map.current;
     try {
       m.setLayoutProperty('fires-heat', 'visibility', layers.heatmap ? 'visible' : 'none');
+      m.setLayoutProperty('fires-glow', 'visibility', layers.markers ? 'visible' : 'none');
       m.setLayoutProperty('fires-points', 'visibility', layers.markers ? 'visible' : 'none');
       const fv = layers.facilities ? 'visible' : 'none';
       m.setLayoutProperty('facility-impact-glow', 'visibility', fv);
