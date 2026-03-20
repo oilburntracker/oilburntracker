@@ -198,6 +198,10 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
       if (first.lat && first.lng && onFlyTo) {
         onFlyTo(first.lat, first.lng, first.zoom || 8);
       }
+      // Auto-open pin popup when scrubbing manually too
+      window.dispatchEvent(
+        new CustomEvent('map-show-event', { detail: { eventId: first.id } })
+      );
     }
   }, [currentDate]);
 
