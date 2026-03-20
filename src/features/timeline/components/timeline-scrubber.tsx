@@ -107,6 +107,7 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
   const [isPlaying, setIsPlaying] = useState(false);
   const [expanded, setExpanded] = useState(false);
   const [activeEvent, setActiveEvent] = useState<ConflictEvent | null>(null);
+  const [infoDismissed, setInfoDismissed] = useState(false);
   const playRef = useRef<NodeJS.Timeout | null>(null);
   const eventListRef = useRef<HTMLDivElement>(null);
   const feedRef = useRef<HTMLDivElement>(null);
@@ -123,6 +124,18 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
   const stats = useMemo(() => getStatsAtDate(currentDate), [currentDate]);
   const casualties = useMemo(() => getCasualtiesUpTo(currentDate), [currentDate]);
   const hasEvent = todayEvents.length > 0;
+
+  // Click outside feed to dismiss
+  useEffect(() => {
+    if (infoDismissed || todayEvents.length === 0 || expanded) return;
+    const handler = (e: MouseEvent | TouchEvent) => {
+      if (feedRef.current && !feedRef.current.contains(e.target as Node)) {
+        setInfoDismissed(true);
+      }
+    };
+    document.addEventListener('pointerdown', handler);
+    return () => document.removeEventListener('pointerdown', handler);
+  }, [infoDismissed, todayEvents.length, expanded]);
 
   // ── Playback: skip quiet days, auto-scroll + pause on event days ──
   useEffect(() => {
@@ -194,6 +207,7 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
 
   // ── When landing on an event, fly to it and show card ──
   useEffect(() => {
+    setInfoDismissed(false);
     if (feedRef.current) feedRef.current.scrollTop = 0;
     if (todayEvents.length > 0) {
       const latest = todayEvents[todayEvents.length - 1];
@@ -271,7 +285,7 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
     <div className='absolute bottom-0 left-0 right-0 z-10'>
 
       {/* ── Scrolling news feed — all events for current day ── */}
-      {todayEvents.length > 0 && !expanded && (
+      {todayEvents.length > 0 && !expanded && !infoDismissed && (
         <div ref={feedRef} className='mx-3 mb-2 max-w-lg max-h-[55vh] overflow-y-auto rounded-lg border bg-background/95 backdrop-blur-md shadow-2xl'
           onTouchStart={() => setIsPlaying(false)}
         >
@@ -306,6 +320,16 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
                   {CATEGORY_LABELS[event.category]}
                 </span>
                 <span className='text-[10px] text-muted-foreground ml-auto font-mono'>
+                  {event.time && (
+                    <span className='font-bold text-foreground mr-1.5'>
+                      {(() => {
+                        const [h, m] = event.time.split(':').map(Number);
+                        const ampm = h >= 12 ? 'PM' : 'AM';
+                        const h12 = h % 12 || 12;
+                        return `${h12}:${m.toString().padStart(2, '0')} ${ampm}`;
+                      })()}
+                    </span>
+                  )}
                   {formatDate(event.date)}
                 </span>
               </div>
@@ -361,18 +385,26 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
                 );
               })}
 
-              {/* Source + news links — always visible */}
+              {/* News feed — headline cards like social media */}
               {(event.sourceUrl || (event.mediaUrls && event.mediaUrls.filter(m => m.type !== 'youtube').length > 0)) && (
-                <div className='px-3 pb-2 flex flex-wrap gap-1.5'>
+                <div className='px-3 pb-2 space-y-1.5'>
+                  <p className='text-[10px] font-bold text-muted-foreground uppercase tracking-wider'>Coverage</p>
                   {event.sourceUrl && (
                     <a
                       href={event.sourceUrl}
                       target='_blank'
                       rel='noopener noreferrer'
-                      className='inline-flex items-center gap-1 rounded-full bg-muted/60 px-2.5 py-1 text-[10px] font-medium hover:bg-accent transition-colors'
+                      className='flex items-start gap-2 rounded-lg bg-muted/40 p-2 hover:bg-accent/60 transition-colors group'
                     >
-                      <IconExternalLink className='h-3 w-3 text-blue-400' />
-                      {(() => { try { return new URL(event.sourceUrl).hostname.replace('www.', ''); } catch { return 'Source'; } })()}
+                      <IconExternalLink className='h-4 w-4 text-blue-400 shrink-0 mt-0.5' />
+                      <div className='min-w-0 flex-1'>
+                        <span className='text-[11px] font-semibold leading-tight line-clamp-2 group-hover:text-primary transition-colors'>
+                          {event.title}
+                        </span>
+                        <span className='text-[9px] text-muted-foreground block mt-0.5'>
+                          {(() => { try { return new URL(event.sourceUrl).hostname.replace('www.', ''); } catch { return 'Source'; } })()}
+                        </span>
+                      </div>
                     </a>
                   )}
                   {event.mediaUrls?.filter(m => m.type !== 'youtube').map((media, i) => {
@@ -383,10 +415,17 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
                         href={media.url}
                         target='_blank'
                         rel='noopener noreferrer'
-                        className='inline-flex items-center gap-1 rounded-full bg-muted/60 px-2.5 py-1 text-[10px] font-medium hover:bg-accent transition-colors'
+                        className='flex items-start gap-2 rounded-lg bg-muted/40 p-2 hover:bg-accent/60 transition-colors group'
                       >
-                        <Icon className='h-3 w-3' />
-                        {media.label || (() => { try { return new URL(media.url).hostname.replace('www.', ''); } catch { return media.type; } })()}
+                        <Icon className='h-4 w-4 text-blue-400 shrink-0 mt-0.5' />
+                        <div className='min-w-0 flex-1'>
+                          <span className='text-[11px] font-semibold leading-tight line-clamp-2 group-hover:text-primary transition-colors'>
+                            {media.label || event.title}
+                          </span>
+                          <span className='text-[9px] text-muted-foreground block mt-0.5'>
+                            {(() => { try { return new URL(media.url).hostname.replace('www.', ''); } catch { return media.type; } })()}
+                          </span>
+                        </div>
                       </a>
                     );
                   })}
