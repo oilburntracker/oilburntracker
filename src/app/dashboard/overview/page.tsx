@@ -62,27 +62,41 @@ function CompactStats() {
     return (
       <button
         onClick={() => setCollapsed(false)}
-        className='absolute top-3 right-3 z-10 rounded-lg border border-red-500/50 bg-black/90 backdrop-blur-md px-3 py-2 shadow-2xl cursor-pointer'
+        className='absolute top-3 right-3 z-10 rounded-xl border border-zinc-700/80 bg-black/90 backdrop-blur-md px-3 py-2 shadow-2xl cursor-pointer w-[200px]'
       >
-        <div className='flex items-center gap-2'>
-          <IconSkull className='h-5 w-5 text-red-500' />
-          <span className='text-lg font-black text-red-500 tabular-nums'>
+        {/* Minimized: key numbers in a compact strip */}
+        <div className='flex items-center gap-2 mb-1'>
+          <IconSkull className='h-4 w-4 text-red-500' />
+          <span className='text-base font-black text-red-500 tabular-nums'>
             {casualties.totalKilled.toLocaleString()}+
           </span>
-          <span className='text-xs text-zinc-500 ml-2'>tap to expand</span>
+          <span className='text-[10px] text-zinc-500'>killed</span>
+        </div>
+        <div className='flex items-center gap-2 mb-1'>
+          <IconBomb className='h-3.5 w-3.5 text-white' />
+          <span className='text-sm font-black text-white tabular-nums'>{formatBillions(cost.totalBillions)}</span>
+          <span className='text-[10px] text-zinc-500'>war cost</span>
+        </div>
+        <div className='flex items-center gap-2'>
+          <IconAlertTriangle className={`h-3.5 w-3.5 ${disruptionColor}`} />
+          <span className={`text-sm font-black tabular-nums ${disruptionColor}`}>{supply.totalPctGlobal.toFixed(1)}%</span>
+          <span className='text-[10px] text-zinc-500'>supply offline</span>
         </div>
       </button>
     );
   }
 
   return (
-    <div
-      className='absolute top-3 right-3 z-10 w-[220px] rounded-xl border border-zinc-700/80 bg-black/90 backdrop-blur-md shadow-2xl overflow-hidden'
-      onClick={() => setCollapsed(true)}
-      role='button'
-      tabIndex={0}
-      title='Tap to collapse'
-    >
+    <div className='absolute top-3 right-3 z-10 w-[220px] rounded-xl border border-zinc-700/80 bg-black/90 backdrop-blur-md shadow-2xl overflow-hidden'>
+      {/* ── MINIMIZE BUTTON ── */}
+      <button
+        onClick={() => setCollapsed(true)}
+        className='absolute top-1.5 right-1.5 z-20 rounded-full p-0.5 text-zinc-600 hover:text-zinc-300 hover:bg-zinc-800 transition-colors cursor-pointer'
+        title='Minimize'
+      >
+        <IconX className='h-3.5 w-3.5' />
+      </button>
+
       {/* ── CASUALTIES — BIG ── */}
       <div className='px-3 pt-3 pb-2 border-b border-zinc-800'>
         <div className='flex items-center gap-2 mb-1'>
