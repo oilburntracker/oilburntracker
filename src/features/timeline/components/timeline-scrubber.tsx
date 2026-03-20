@@ -338,7 +338,10 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
       setCurrentIndex(0);
       setActiveEvent(null);
     }
-    setIsPlaying((p) => !p);
+    setIsPlaying((p) => {
+      if (!p) setIsMuted(false); // unmute when user hits play
+      return !p;
+    });
   }, [currentIndex]);
 
   // Skip to next/prev event — jumps to that day and auto-plays from there
@@ -357,6 +360,7 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
       if (idx >= 0) {
         setEventSubIndex(0);
         setCurrentIndex(idx);
+        setIsMuted(false);
         setIsPlaying(true);
       }
     }
