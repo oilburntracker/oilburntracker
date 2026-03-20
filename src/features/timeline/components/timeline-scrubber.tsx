@@ -294,35 +294,35 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
         >
           {/* Running death toll — sticky header */}
           {(casualties.totalKilled > 0 || casualties.totalDisplaced > 0) && (
-            <div className='sticky top-0 z-10 px-3 py-1.5 bg-red-950/90 backdrop-blur-md flex flex-wrap items-center gap-x-3 gap-y-0.5 border-b border-red-500/30'>
-              <span className='flex items-center gap-1.5 text-sm font-black text-red-400'>
-                <IconUsers className='h-4 w-4' />
+            <div className='sticky top-0 z-10 px-4 py-2 bg-red-950/90 backdrop-blur-md flex flex-wrap items-center gap-x-4 gap-y-1 border-b border-red-500/30'>
+              <span className='flex items-center gap-2 text-base font-black text-red-400'>
+                <IconUsers className='h-5 w-5' />
                 {casualties.totalKilled.toLocaleString()}+ killed
               </span>
               {casualties.totalDisplaced > 0 && (
-                <span className='text-xs font-bold text-amber-400'>
+                <span className='text-sm font-bold text-amber-400'>
                   {(casualties.totalDisplaced / 1000000).toFixed(1)}M displaced
                 </span>
               )}
               {casualties.totalChildren > 0 && (
-                <span className='text-[10px] text-red-300'>
+                <span className='text-xs text-red-300'>
                   {casualties.totalChildren.toLocaleString()}+ children
                 </span>
               )}
-              <span className='text-[10px] text-red-400/50 ml-auto'>Day {stats.dayNumber}</span>
+              <span className='text-xs text-red-400/50 ml-auto'>Day {stats.dayNumber}</span>
             </div>
           )}
 
           {/* Each event as a full card in the feed */}
           {todayEvents.map((event, eventIdx) => (
-            <div key={event.id} className={eventIdx > 0 ? 'border-t' : ''}>
-              {/* Category + date banner */}
-              <div className='px-3 py-1.5 flex items-center gap-2' style={{ backgroundColor: CATEGORY_COLORS[event.category] + '15', borderBottom: `2px solid ${CATEGORY_COLORS[event.category]}40` }}>
-                <div className='h-2 w-2 rounded-full animate-pulse' style={{ backgroundColor: CATEGORY_COLORS[event.category] }} />
-                <span className='text-[10px] font-bold uppercase tracking-wider' style={{ color: CATEGORY_COLORS[event.category] }}>
+            <div key={event.id} className={eventIdx > 0 ? 'border-t-2' : ''}>
+              {/* Category + time banner */}
+              <div className='px-4 py-2 flex items-center gap-2' style={{ backgroundColor: CATEGORY_COLORS[event.category] + '15', borderBottom: `2px solid ${CATEGORY_COLORS[event.category]}40` }}>
+                <div className='h-2.5 w-2.5 rounded-full animate-pulse' style={{ backgroundColor: CATEGORY_COLORS[event.category] }} />
+                <span className='text-xs font-bold uppercase tracking-wider' style={{ color: CATEGORY_COLORS[event.category] }}>
                   {CATEGORY_LABELS[event.category]}
                 </span>
-                <span className='text-[10px] text-muted-foreground ml-auto font-mono'>
+                <span className='text-xs text-muted-foreground ml-auto font-mono'>
                   {event.time && (
                     <span className='font-bold text-foreground mr-1.5'>
                       {(() => {
@@ -338,46 +338,46 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
               </div>
 
               {/* Headline + description */}
-              <div className='px-3 py-2'>
-                <h3 className='text-sm font-bold leading-tight'>{event.title}</h3>
-                <p className='text-xs text-muted-foreground mt-1.5 leading-relaxed'>
+              <div className='px-4 py-3'>
+                <h3 className='text-lg font-black leading-snug'>{event.title}</h3>
+                <p className='text-sm text-muted-foreground mt-2 leading-relaxed'>
                   {event.description}
                 </p>
 
                 {/* Casualties for this specific event */}
                 {event.casualties && (event.casualties.killed || event.casualties.displaced) && (
-                  <div className='mt-2 rounded-md bg-red-950/20 border border-red-500/20 px-2.5 py-1.5 space-y-0.5'>
-                    <div className='flex flex-wrap gap-x-3 gap-y-0.5'>
+                  <div className='mt-3 rounded-lg bg-red-950/20 border border-red-500/20 px-3 py-2 space-y-1'>
+                    <div className='flex flex-wrap gap-x-4 gap-y-1'>
                       {event.casualties.killed && (
-                        <span className='text-xs font-bold text-red-400'>{event.casualties.killed.toLocaleString()}+ killed</span>
+                        <span className='text-sm font-bold text-red-400'>{event.casualties.killed.toLocaleString()}+ killed</span>
                       )}
                       {event.casualties.injured && (
-                        <span className='text-[11px] text-orange-400'>{event.casualties.injured.toLocaleString()} injured</span>
+                        <span className='text-sm text-orange-400'>{event.casualties.injured.toLocaleString()} injured</span>
                       )}
                       {event.casualties.displaced && (
-                        <span className='text-[11px] text-amber-400'>{event.casualties.displaced.toLocaleString()} displaced</span>
+                        <span className='text-sm text-amber-400'>{event.casualties.displaced.toLocaleString()} displaced</span>
                       )}
                       {event.casualties.children && (
-                        <span className='text-[10px] text-red-300'>{event.casualties.children.toLocaleString()}+ children</span>
+                        <span className='text-xs text-red-300'>{event.casualties.children.toLocaleString()}+ children</span>
                       )}
                     </div>
                     {event.casualties.source && (
-                      <p className='text-[9px] text-muted-foreground'>Source: {event.casualties.source}</p>
+                      <p className='text-[10px] text-muted-foreground'>Source: {event.casualties.source}</p>
                     )}
                   </div>
                 )}
               </div>
 
-              {/* YouTube embeds — inline, no click needed */}
+              {/* YouTube embeds — autoplay muted like social feeds */}
               {event.mediaUrls?.filter(m => m.type === 'youtube').map((media, i) => {
                 const videoId = getYouTubeId(media.url);
                 if (!videoId) return null;
                 return (
-                  <div key={`yt-${i}`} className='px-3 pb-2'>
-                    <p className='text-[10px] text-muted-foreground font-medium mb-1'>{media.label || 'Video Coverage'}</p>
-                    <div className='relative w-full aspect-video rounded-md overflow-hidden bg-black'>
+                  <div key={`yt-${i}`} className='px-4 pb-3'>
+                    <p className='text-xs text-muted-foreground font-medium mb-1.5'>{media.label || 'Video Coverage'}</p>
+                    <div className='relative w-full aspect-video rounded-lg overflow-hidden bg-black'>
                       <iframe
-                        src={`https://www.youtube-nocookie.com/embed/${videoId}?rel=0`}
+                        src={`https://www.youtube-nocookie.com/embed/${videoId}?rel=0&autoplay=1&mute=1`}
                         title={media.label || 'Video'}
                         allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
                         allowFullScreen
@@ -390,21 +390,21 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
 
               {/* News feed — headline cards like social media */}
               {(event.sourceUrl || (event.mediaUrls && event.mediaUrls.filter(m => m.type !== 'youtube').length > 0)) && (
-                <div className='px-3 pb-2 space-y-1.5'>
-                  <p className='text-[10px] font-bold text-muted-foreground uppercase tracking-wider'>Coverage</p>
+                <div className='px-4 pb-3 space-y-2'>
+                  <p className='text-xs font-bold text-muted-foreground uppercase tracking-wider'>Coverage</p>
                   {event.sourceUrl && (
                     <a
                       href={event.sourceUrl}
                       target='_blank'
                       rel='noopener noreferrer'
-                      className='flex items-start gap-2 rounded-lg bg-muted/40 p-2 hover:bg-accent/60 transition-colors group'
+                      className='flex items-start gap-3 rounded-lg bg-muted/40 p-3 hover:bg-accent/60 transition-colors group'
                     >
-                      <IconExternalLink className='h-4 w-4 text-blue-400 shrink-0 mt-0.5' />
+                      <IconExternalLink className='h-5 w-5 text-blue-400 shrink-0 mt-0.5' />
                       <div className='min-w-0 flex-1'>
-                        <span className='text-[11px] font-semibold leading-tight line-clamp-2 group-hover:text-primary transition-colors'>
+                        <span className='text-sm font-semibold leading-snug line-clamp-2 group-hover:text-primary transition-colors'>
                           {event.title}
                         </span>
-                        <span className='text-[9px] text-muted-foreground block mt-0.5'>
+                        <span className='text-xs text-muted-foreground block mt-0.5'>
                           {(() => { try { return new URL(event.sourceUrl).hostname.replace('www.', ''); } catch { return 'Source'; } })()}
                         </span>
                       </div>
@@ -418,14 +418,14 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
                         href={media.url}
                         target='_blank'
                         rel='noopener noreferrer'
-                        className='flex items-start gap-2 rounded-lg bg-muted/40 p-2 hover:bg-accent/60 transition-colors group'
+                        className='flex items-start gap-3 rounded-lg bg-muted/40 p-3 hover:bg-accent/60 transition-colors group'
                       >
-                        <Icon className='h-4 w-4 text-blue-400 shrink-0 mt-0.5' />
+                        <Icon className='h-5 w-5 text-blue-400 shrink-0 mt-0.5' />
                         <div className='min-w-0 flex-1'>
-                          <span className='text-[11px] font-semibold leading-tight line-clamp-2 group-hover:text-primary transition-colors'>
+                          <span className='text-sm font-semibold leading-snug line-clamp-2 group-hover:text-primary transition-colors'>
                             {media.label || event.title}
                           </span>
-                          <span className='text-[9px] text-muted-foreground block mt-0.5'>
+                          <span className='text-xs text-muted-foreground block mt-0.5'>
                             {(() => { try { return new URL(media.url).hostname.replace('www.', ''); } catch { return media.type; } })()}
                           </span>
                         </div>
