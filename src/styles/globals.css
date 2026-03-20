@@ -76,6 +76,9 @@
 }
 .maplibregl-popup-tip {
   border-top-color: #1a1a1a !important;
+  border-bottom-color: #1a1a1a !important;
+  border-left-color: #1a1a1a !important;
+  border-right-color: #1a1a1a !important;
 }
 
 /* Scrolling ticker for facility data */

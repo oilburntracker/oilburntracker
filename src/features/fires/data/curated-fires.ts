@@ -226,9 +226,9 @@ export const curatedFires: CuratedFire[] = [
     country: 'Saudi Arabia',
     capacityBPD: 400000,
     storageMBBL: 12,
-    status: 'monitoring',
-    newsSourceUrl: 'https://www.middleeasteye.net/news/iran-issues-order-evacuate-petrochemical-facilities-saudi-arabia-qatar-and-uae',
-    description: 'Named as direct target by Iran on Mar 18. Ordered evacuated. Saudi Red Sea refinery complex.',
+    status: 'damaged',
+    newsSourceUrl: 'https://www.pbs.org/newshour/world/iran-intensifies-attacks-on-gulf-energy-sites-after-israel-struck-its-key-gas-field',
+    description: 'Iranian drone strike Mar 19. Ballistic missile at port intercepted. Saudi\'s last Hormuz bypass route threatened.',
     percentGlobalCapacity: 0.4,
     threatLevel: 'high',
     whyItMatters: 'Saudi\'s Red Sea refining hub. Processes crude from East-West pipeline (Petroline). Strategic because it bypasses Hormuz entirely.',
@@ -264,9 +264,9 @@ export const curatedFires: CuratedFire[] = [
     country: 'UAE',
     capacityBPD: 0,
     gasCapacityBCFD: 1.45,
-    status: 'monitoring',
-    newsSourceUrl: 'https://www.middleeasteye.net/news/iran-issues-order-evacuate-petrochemical-facilities-saudi-arabia-qatar-and-uae',
-    description: 'Named as direct target by Iran on Mar 18. One of world\'s largest sour gas processing plants.',
+    status: 'offline',
+    newsSourceUrl: 'https://www.cnbc.com/2026/03/17/iran-war-uae-energy-gas-field-oil-fujairah-strait-of-hormuz.html',
+    description: 'Shut down Mar 19 after Iranian missile debris. Habshan/Bab complex offline. 17% of UAE gas supply cut.',
     percentGlobalCapacity: 0.2,
     threatLevel: 'high',
     whyItMatters: 'World\'s largest sour gas processing plant. 1.45 BCF/day. Processes gas with 5% H2S content — lethal in uncontrolled release.',
@@ -349,7 +349,7 @@ export const curatedFires: CuratedFire[] = [
   },
   {
     id: 'haifa-refinery',
-    name: 'Haifa Oil Refineries',
+    name: 'Haifa Oil Refineries (Bazan)',
     facilityType: 'refinery',
     lat: 32.8000,
     lng: 35.0167,
@@ -357,8 +357,9 @@ export const curatedFires: CuratedFire[] = [
     country: 'Israel',
     capacityBPD: 197000,
     storageMBBL: 2.8,
-    status: 'monitoring',
-    description: 'Israel\'s primary refinery complex in Haifa Bay. Hezbollah/Iran proxy target.',
+    status: 'damaged',
+    newsSourceUrl: 'https://www.aljazeera.com/news/2026/3/19/israel-says-oil-refinery-hit-in-iranian-missile-attack-no-major-damage',
+    description: 'Iranian missile strike Mar 19. Israel\'s largest refinery — half of domestic fuel. Additional damage found overnight. 4 injured.',
     percentGlobalCapacity: 0.2,
     threatLevel: 'high',
     whyItMatters: 'Israel\'s main refinery in densely populated Haifa Bay. Sits next to chemical plants with ammonia storage. Long-standing Hezbollah target.',
@@ -421,6 +422,32 @@ export function getCurrentDisruptionLevel() {
   if (affectedPct >= CATASTROPHE_THRESHOLDS.severe.pctGlobal) return { level: 'severe' as const, ...CATASTROPHE_THRESHOLDS.severe, affectedPct };
   if (affectedPct >= CATASTROPHE_THRESHOLDS.mild.pctGlobal) return { level: 'mild' as const, ...CATASTROPHE_THRESHOLDS.mild, affectedPct };
   return { level: 'normal' as const, pctGlobal: 0, label: 'Below 2% Global Supply Affected', description: 'No significant supply disruption.', affectedPct };
+}
+
+/**
+ * Supply disruption synced to timeline — uses visible facility IDs from conflict events
+ */
+export function getSupplyDisruptionUpTo(hitFacilityIds: Set<string>) {
+  let totalBPDOffline = 0;
+  let totalPctGlobal = 0;
+  let facilitiesHit = 0;
+
+  for (const facility of curatedFires) {
+    if (hitFacilityIds.has(facility.id)) {
+      totalBPDOffline += facility.capacityBPD;
+      totalPctGlobal += facility.percentGlobalCapacity;
+      facilitiesHit++;
+    }
+  }
+
+  // Disruption level based on timeline position
+  let level: 'normal' | 'mild' | 'severe' | 'crisis' | 'catastrophe' = 'normal';
+  if (totalPctGlobal >= CATASTROPHE_THRESHOLDS.catastrophe.pctGlobal) level = 'catastrophe';
+  else if (totalPctGlobal >= CATASTROPHE_THRESHOLDS.crisis.pctGlobal) level = 'crisis';
+  else if (totalPctGlobal >= CATASTROPHE_THRESHOLDS.severe.pctGlobal) level = 'severe';
+  else if (totalPctGlobal >= CATASTROPHE_THRESHOLDS.mild.pctGlobal) level = 'mild';
+
+  return { totalBPDOffline, totalPctGlobal, facilitiesHit, level };
 }
 
 /**

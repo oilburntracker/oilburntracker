@@ -1757,6 +1757,123 @@ export const conflictEvents: ConflictEvent[] = [
       { type: 'news', url: 'https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_Kuwait', label: 'Wikipedia: 2026 Iranian strikes on Kuwait' },
       { type: 'news', url: 'https://www.military.com/daily-news/2026/03/17/satellite-images-begin-show-damage-wrought-iran-war.html', label: 'Military.com: Satellite images show damage wrought by Iran war' }
     ]
+  },
+
+  // ══════════════════════════════════════════════
+  // MARCH 19, 2026 — HAIFA, RAS LAFFAN, YANBU, UAE
+  // ══════════════════════════════════════════════
+  {
+    id: 'haifa-refinery-strike',
+    date: '2026-03-19',
+    time: '14:30',
+    title: 'Iranian missiles hit Israel\'s Bazan refinery in Haifa — fires erupt',
+    category: 'retaliation',
+    description: 'Iran launches 6 missile salvos at northern Israel. Shrapnel and a direct hit strike the Bazan oil refinery complex in Haifa Bay — Israel\'s largest, producing half of domestic fuel. 15 firefighting teams deployed. Plumes of black smoke rise over the city. Additional damage discovered overnight. Energy Minister says power briefly disrupted. Plant sits adjacent to ammonia storage tanks — chemical disaster narrowly avoided. Refinery says full restoration will take "a few days." Iran says strikes are retaliation for South Pars attack.',
+    casualties: { killed: 0, injured: 4, source: 'Israel MDA / Haaretz' },
+    facilityId: 'haifa-refinery',
+    lat: 32.8000,
+    lng: 35.0167,
+    zoom: 12,
+    sourceUrl: 'https://www.aljazeera.com/news/2026/3/19/israel-says-oil-refinery-hit-in-iranian-missile-attack-no-major-damage',
+    mediaUrls: [
+      { type: 'news', url: 'https://www.jpost.com/israel-news/defense-news/article-890480', label: 'JPost: Bazan refinery damaged after Iran missile barrages' },
+      { type: 'news', url: 'https://www.usnews.com/news/world/articles/2026-03-19/iranian-attack-hits-israeli-oil-refinery-in-haifa-some-damage-reported', label: 'US News: Iranian attack hits Israeli oil refinery in Haifa' },
+      { type: 'news', url: 'https://themedialine.org/headlines/iranian-missile-hits-haifas-bazan-refineries-triggers-fire-and-hazard-assessment/', label: 'Media Line: Missile hits Bazan refineries, triggers hazard assessment' },
+      { type: 'news', url: 'https://www.timesofisrael.com/liveblog-march-19-2026/', label: 'Times of Israel: Iran launches five missile salvos at Israel' }
+    ]
+  },
+  {
+    id: 'ras-laffan-second-wave',
+    date: '2026-03-19',
+    time: '04:00',
+    title: 'Qatar confirms 17% LNG capacity destroyed — 3-5 year repair',
+    category: 'facility_damage',
+    description: 'QatarEnergy CEO Saad al-Kaabi confirms the full scope of damage from Iranian strikes on Ras Laffan: LNG trains S4 and S6 destroyed, Pearl GTL facility offline. 12.8 million tonnes/year of LNG capacity wiped out — 17% of Qatar\'s exports. Repairs estimated at 3-5 years, $26 billion in destroyed infrastructure. Annual revenue loss ~$20 billion. Global helium output cut by 14%. European gas prices doubled since war began. World\'s most important LNG hub crippled. Qatar declares force majeure on affected contracts. Asian buyers scramble for alternative supply.',
+    facilityId: 'ras-laffan',
+    lat: 25.9000,
+    lng: 51.5333,
+    zoom: 12,
+    sourceUrl: 'https://www.cnbc.com/2026/03/19/iran-attack-qatar-lng-capacity.html',
+    mediaUrls: [
+      { type: 'news', url: 'https://www.bloomberg.com/news/articles/2026-03-19/iran-strike-damages-17-of-qatar-lng-for-3-5-years-reuters-says', label: 'Bloomberg: Iran strike damages 17% of Qatar LNG for 3-5 years' },
+      { type: 'news', url: 'https://www.aljazeera.com/news/2026/3/19/iran-attacks-cut-17-of-qatars-lng-capacity-for-up-to-5-years-qatarenergy', label: 'Al Jazeera: Iran warns zero restraint if infrastructure attacked again' },
+      { type: 'news', url: 'https://globallnghub.com/qatar-lng-capacity-hit-as-ras-laffan-attacks-damage-key-trains.html', label: 'Global LNG Hub: Qatar LNG capacity hit as key trains damaged' },
+      { type: 'news', url: 'https://www.enr.com/articles/62702-strike-on-qatar-lng-hub-reveals-risk-in-mega-train-design-at-ras-laffan', label: 'ENR: Strike reveals risk in mega-train design at Ras Laffan' }
+    ]
+  },
+  {
+    id: 'yanbu-drone-strike',
+    date: '2026-03-19',
+    time: '03:15',
+    title: 'Iranian drone hits Saudi SAMREF Yanbu refinery — Red Sea route threatened',
+    category: 'facility_damage',
+    description: 'Iranian drone strikes the SAMREF refinery at Yanbu on Saudi Arabia\'s Red Sea coast. A ballistic missile targeting the adjacent port was intercepted by Patriot batteries. Saudi forces intercept 12+ additional drones within two hours. Yanbu is strategically critical — it processes crude arriving via the 1,200km East-West pipeline from Abqaiq, bypassing the Strait of Hormuz entirely. With Hormuz effectively closed, the Red Sea route via Yanbu was the last major alternative for Saudi oil exports. Damage assessment ongoing.',
+    facilityId: 'samref-yanbu',
+    lat: 24.0500,
+    lng: 38.0667,
+    zoom: 10,
+    sourceUrl: 'https://www.pbs.org/newshour/world/iran-intensifies-attacks-on-gulf-energy-sites-after-israel-struck-its-key-gas-field',
+    mediaUrls: [
+      { type: 'news', url: 'https://www.npr.org/2026/03/19/nx-s1-5753520/iran-israel-gas-field-attacks', label: 'NPR: Israel and Iran attack each other\'s gas facilities in major escalation' },
+      { type: 'news', url: 'https://www.opb.org/article/2026/03/19/israel-and-iran-attack-gas-facilities-rattling-markets/', label: 'OPB/AP: Israel and Iran attack gas facilities, rattling markets' }
+    ]
+  },
+  {
+    id: 'uae-habshan-shutdown',
+    date: '2026-03-19',
+    time: '06:00',
+    title: 'UAE shuts Habshan & Bab gas fields after Iranian missile barrage',
+    category: 'facility_damage',
+    description: 'Iranian missiles target UAE\'s Habshan gas facility and Bab oil field. Patriot and THAAD systems intercept most incoming missiles, but falling debris forces precautionary shutdown of both facilities. Habshan/Bab complex processes 1.45 BCF/day of sour gas — about 17% of UAE supply. Al Hosn sour gas plant (world\'s largest) adjacent to impact zones. UAE evacuates non-essential workers. Concurrent IRGC strike reported on al-Dhafra air base hosting US forces. UAE now the 4th Gulf state pulled into Iran\'s retaliation campaign.',
+    facilityId: 'al-hosn-gas',
+    lat: 23.8500,
+    lng: 53.1000,
+    zoom: 10,
+    sourceUrl: 'https://www.cnbc.com/2026/03/17/iran-war-uae-energy-gas-field-oil-fujairah-strait-of-hormuz.html',
+    mediaUrls: [
+      { type: 'news', url: 'https://gulfnews.com/uae/usisrael-war-on-iran-day-20-iran-warns-of-uncontrollable-consequences-uae-intercepts-threats-1.500479442', label: 'Gulf News: UAE intercepts threats as Iran warns of consequences' },
+      { type: 'news', url: 'https://theconversation.com/targeting-of-energy-facilities-turned-iran-war-into-worst-case-scenario-for-gulf-states-278730', label: 'The Conversation: Worst-case scenario for Gulf states' }
+    ]
+  },
+
+  // ══════════════════════════════════════════════
+  // MARCH 20, 2026 — KUWAIT AGAIN, HORMUZ BLOCKADE
+  // ══════════════════════════════════════════════
+  {
+    id: 'mina-al-ahmadi-second-wave',
+    date: '2026-03-20',
+    time: '04:30',
+    title: 'Iran hits Kuwait\'s Mina al-Ahmadi AGAIN — second day of strikes',
+    category: 'retaliation',
+    description: 'Two waves of Iranian drones attack Mina al-Ahmadi refinery for the second consecutive day, this time on Eid al-Fitr morning. Fires erupt across multiple units. Kuwait Petroleum Corporation shuts down additional refinery sections. The 730K BPD facility — one of the Middle East\'s largest — now operating at severely reduced capacity. Kuwait, which has stayed neutral in every regional conflict since 1991, is now fully drawn into the war. France24: "Kuwait refinery hit as Iran marks New Year under shadow of war."',
+    facilityId: 'mina-al-ahmadi',
+    lat: 29.0667,
+    lng: 48.1667,
+    zoom: 12,
+    sourceUrl: 'https://www.aljazeera.com/news/2026/3/20/kuwait-oil-refinery-hit-again-as-iran-targets-gulf-energy-infrastructure',
+    mediaUrls: [
+      { type: 'news', url: 'https://www.upi.com/Top_News/World-News/2026/03/20/iran-Kuwait-refinery-struck/6691773992136/', label: 'UPI: Iran strikes Kuwait refinery for second straight day' },
+      { type: 'news', url: 'https://www.france24.com/en/live-news/20260320-israel-strikes-decimated-iran-as-war-roils-markets', label: 'France24: Kuwait refinery hit as Iran marks New Year under shadow of war' },
+      { type: 'news', url: 'https://www.cbc.ca/news/world/iran-hits-kuwaiti-oil-refinery-9.7135780', label: 'CBC: Iran hits Kuwaiti oil refinery, explosions boom over Tehran' }
+    ]
+  },
+  {
+    id: 'hormuz-vetting-system',
+    date: '2026-03-20',
+    time: '12:00',
+    title: 'Iran building "vetting system" for Hormuz transit — selective blockade hardens',
+    category: 'chokepoint',
+    description: 'Iran announces it is developing a formal registration and vetting system for ships transiting the Strait of Hormuz. Foreign Minister Araghchi states the strait is "open, but closed to our enemies." This shifts from the initial blanket blockade to a selective chokepoint — Iran decides who passes. 21 million BPD of oil normally transits Hormuz (20% of global supply). Oil prices touch $119/barrel (Brent) before retreating. Netanyahu says Israel is helping to open the strait. Pentagon deploys 2 additional carrier groups. Analysts warn the conflict is entering its most dangerous phase yet.',
+    lat: 26.5600,
+    lng: 56.2500,
+    zoom: 9,
+    facilityId: 'strait-of-hormuz',
+    sourceUrl: 'https://www.aljazeera.com/news/2026/3/20/iran-developing-a-vetting-system-for-strait-of-hormuz-transit-report',
+    mediaUrls: [
+      { type: 'news', url: 'https://www.cnbc.com/2026/03/19/oil-jumps-iran-strikes-qatar-lng-facility-supply-worries.html', label: 'CNBC: Oil prices fall after Brent briefly touches $119' },
+      { type: 'news', url: 'https://www.npr.org/2026/03/20/nx-s1-5753773/global-oil-and-energy-prices-are-reeling-as-the-war-in-the-middle-east-escalates', label: 'NPR: Global energy prices reeling as war escalates' },
+      { type: 'news', url: 'https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis', label: 'Wikipedia: 2026 Strait of Hormuz crisis' }
+    ]
   }
 ];
 

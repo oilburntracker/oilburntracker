@@ -570,11 +570,11 @@ export default function FireMap() {
 
         html += `</div>`;
 
-        popup.current = new maplibregl.Popup({ closeButton: true, maxWidth: 'calc(100vw - 40px)', className: 'event-popup', anchor: 'bottom', offset: 15 })
+        popup.current = new maplibregl.Popup({ closeButton: true, maxWidth: 'calc(100vw - 40px)', className: 'event-popup', offset: 15 })
           .setLngLat(coords)
           .setHTML(html)
           .addTo(m);
-        m.easeTo({ center: coords, offset: [0, -120], duration: 400 });
+        m.easeTo({ center: coords, offset: [0, Math.min(-60, -window.innerHeight * 0.12)], duration: 400 });
         // Sync scrubber to this event's date so skip fwd/back works from here
         if (props?.id) {
           window.dispatchEvent(new CustomEvent('timeline-sync', { detail: { eventId: props.id } }));
@@ -653,11 +653,11 @@ export default function FireMap() {
         }
         html += `</div>`;
 
-        popup.current = new maplibregl.Popup({ closeButton: true, maxWidth: 'calc(100vw - 40px)', className: 'event-popup', anchor: 'bottom', offset: 15 })
+        popup.current = new maplibregl.Popup({ closeButton: true, maxWidth: 'calc(100vw - 40px)', className: 'event-popup', offset: 15 })
           .setLngLat(coords)
           .setHTML(html)
           .addTo(m);
-        m.easeTo({ center: coords, offset: [0, -120], duration: 400 });
+        m.easeTo({ center: coords, offset: [0, Math.min(-60, -window.innerHeight * 0.12)], duration: 400 });
       });
 
       // Click FIRMS fire point → popup
@@ -699,7 +699,7 @@ export default function FireMap() {
         const coords = (feature.geometry as any).coordinates.slice();
         if (popup.current) popup.current.remove();
 
-        popup.current = new maplibregl.Popup({ closeButton: true, maxWidth: '260px', anchor: 'bottom', offset: 15 })
+        popup.current = new maplibregl.Popup({ closeButton: true, maxWidth: '260px', offset: 15 })
           .setLngLat(coords)
           .setHTML(`
             <div style="font-family:system-ui;font-size:12px;color:#e0e0e0;background:#1a1a1a;padding:8px;border-radius:6px">
@@ -830,11 +830,11 @@ export default function FireMap() {
 
       html += `</div>`;
 
-      popup.current = new maplibregl.Popup({ closeButton: true, maxWidth: 'calc(100vw - 40px)', className: 'event-popup', anchor: 'bottom', offset: 15 })
+      popup.current = new maplibregl.Popup({ closeButton: true, maxWidth: 'calc(100vw - 40px)', className: 'event-popup', offset: 15 })
         .setLngLat([ev.lng!, ev.lat!])
         .setHTML(html)
         .addTo(m);
-      m.easeTo({ center: [ev.lng!, ev.lat!], offset: [0, -120], duration: 400 });
+      m.easeTo({ center: [ev.lng!, ev.lat!], offset: [0, Math.min(-60, -window.innerHeight * 0.12)], duration: 400 });
     };
     window.addEventListener('map-show-event', handler);
     return () => window.removeEventListener('map-show-event', handler);
