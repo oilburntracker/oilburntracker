@@ -5,7 +5,7 @@ import maplibregl from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import { useFireStore, type FireFeature } from '@/stores/fire-store';
 import { curatedFires, type FacilityStatus } from '@/features/fires/data/curated-fires';
-import { getEventsUpTo, CATEGORY_COLORS, type ConflictEvent } from '@/features/timeline/data/conflict-events';
+import { conflictEvents, CATEGORY_COLORS, type ConflictEvent } from '@/features/timeline/data/conflict-events';
 
 // Free satellite tiles — no API key needed
 const SATELLITE_STYLE: maplibregl.StyleSpecification = {
@@ -172,7 +172,7 @@ export default function FireMap() {
   const setSelectedFire = useFireStore((s) => s.setSelectedFire);
   const setSelectedFacility = useFireStore((s) => s.setSelectedFacility);
   const mapState = useFireStore((s) => s.mapState);
-  const timelineDate = useFireStore((s) => s.timelineDate);
+  // All pins always visible — no date filtering needed
 
   const initMap = useCallback(() => {
     if (!mapContainer.current || map.current) return;
@@ -447,7 +447,7 @@ export default function FireMap() {
       // ── Conflict event pins (synced to timeline) ──
       m.addSource('conflict-events', {
         type: 'geojson',
-        data: buildEventsGeoJSON(getEventsUpTo(timelineDate))
+        data: buildEventsGeoJSON(conflictEvents)
       });
 
       // Outer glow ring for event pins
@@ -667,13 +667,7 @@ export default function FireMap() {
   }, [fireData]);
 
   // Update event pins when timeline date changes
-  useEffect(() => {
-    if (!map.current) return;
-    const source = map.current.getSource('conflict-events') as maplibregl.GeoJSONSource;
-    if (source) {
-      source.setData(buildEventsGeoJSON(getEventsUpTo(timelineDate)));
-    }
-  }, [timelineDate]);
+  // All event pins always visible — no date filtering
 
   // Toggle layers
   useEffect(() => {
@@ -718,8 +712,7 @@ export default function FireMap() {
       const m = map.current;
 
       // Always resolve the full event from source data for rich content
-      const events = getEventsUpTo(timelineDate);
-      const ev = events.find(evt => evt.id === eventId);
+      const ev = conflictEvents.find(evt => evt.id === eventId);
       if (!ev || !ev.lat || !ev.lng) return;
 
       if (popup.current) popup.current.remove();
@@ -767,7 +760,7 @@ export default function FireMap() {
     };
     window.addEventListener('map-show-event', handler);
     return () => window.removeEventListener('map-show-event', handler);
-  }, [timelineDate]);
+  }, []);
 
   return (
     <div ref={mapContainer} className='h-full w-full' />
