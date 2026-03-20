@@ -170,9 +170,10 @@ export default function FireMap() {
   const fireData = useFireStore((s) => s.fireData);
   const layers = useFireStore((s) => s.layers);
   const setSelectedFire = useFireStore((s) => s.setSelectedFire);
-  // Facility drawer replaced by map popup
+  const isMuted = useFireStore((s) => s.isMuted);
+  const isMutedRef = useRef(isMuted);
+  isMutedRef.current = isMuted;
   const mapState = useFireStore((s) => s.mapState);
-  // All pins always visible — no date filtering needed
 
   const initMap = useCallback(() => {
     if (!mapContainer.current || map.current) return;
@@ -551,12 +552,12 @@ export default function FireMap() {
         if (props?.videoId) {
           const iframeId = `pin-yt-${props.videoId}`;
           html += `<div style="position:relative;width:100%;padding-bottom:56.25%;margin-bottom:4px;border-radius:6px;overflow:hidden;background:#000">`;
-          html += `<iframe id="${iframeId}" src="https://www.youtube-nocookie.com/embed/${props.videoId}?rel=0&autoplay=1&mute=1&enablejsapi=1" `;
+          html += `<iframe id="${iframeId}" src="https://www.youtube-nocookie.com/embed/${props.videoId}?rel=0&autoplay=1&mute=${isMutedRef.current ? 1 : 0}&enablejsapi=1" `;
           html += `style="position:absolute;top:0;left:0;width:100%;height:100%;border:none" `;
           html += `allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen></iframe>`;
           html += `</div>`;
           html += `<button id="pin-vol-toggle" onclick="(function(){var f=document.getElementById('${iframeId}');var b=document.getElementById('pin-vol-toggle');if(!f)return;var m=b.dataset.muted!=='false';var cmd=m?'unMute':'mute';f.contentWindow.postMessage(JSON.stringify({event:'command',func:cmd,args:''}),'*');b.dataset.muted=m?'false':'true';b.textContent=m?'🔊 Sound On':'🔇 Muted'})()" `;
-          html += `data-muted="true" style="display:block;width:100%;padding:6px;margin-bottom:6px;border:1px solid rgba(255,255,255,0.15);border-radius:6px;background:rgba(255,255,255,0.05);color:#e0e0e0;font-size:12px;font-weight:600;cursor:pointer;text-align:center">🔇 Muted — Tap to unmute</button>`;
+          html += `data-muted="${isMutedRef.current}" style="display:block;width:100%;padding:6px;margin-bottom:6px;border:1px solid rgba(255,255,255,0.15);border-radius:6px;background:rgba(255,255,255,0.05);color:#e0e0e0;font-size:12px;font-weight:600;cursor:pointer;text-align:center">${isMutedRef.current ? '🔇 Muted — Tap to unmute' : '🔊 Sound On'}</button>`;
         }
 
         if (props?.sourceUrl) {
@@ -612,12 +613,12 @@ export default function FireMap() {
         if (videoId) {
           const iframeId = `fac-yt-${videoId}`;
           html += `<div style="position:relative;width:100%;padding-bottom:56.25%;margin-bottom:4px;border-radius:6px;overflow:hidden;background:#000">`;
-          html += `<iframe id="${iframeId}" src="https://www.youtube-nocookie.com/embed/${videoId}?rel=0&autoplay=1&mute=1&enablejsapi=1" `;
+          html += `<iframe id="${iframeId}" src="https://www.youtube-nocookie.com/embed/${videoId}?rel=0&autoplay=1&mute=${isMutedRef.current ? 1 : 0}&enablejsapi=1" `;
           html += `style="position:absolute;top:0;left:0;width:100%;height:100%;border:none" `;
           html += `allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen></iframe>`;
           html += `</div>`;
           html += `<button id="fac-vol-toggle" onclick="(function(){var f=document.getElementById('${iframeId}');var b=document.getElementById('fac-vol-toggle');if(!f)return;var m=b.dataset.muted!=='false';var cmd=m?'unMute':'mute';f.contentWindow.postMessage(JSON.stringify({event:'command',func:cmd,args:''}),'*');b.dataset.muted=m?'false':'true';b.textContent=m?'\ud83d\udd0a Sound On':'\ud83d\udd07 Muted'})()" `;
-          html += `data-muted="true" style="display:block;width:100%;padding:6px;margin-bottom:6px;border:1px solid rgba(255,255,255,0.15);border-radius:6px;background:rgba(255,255,255,0.05);color:#e0e0e0;font-size:12px;font-weight:600;cursor:pointer;text-align:center">\ud83d\udd07 Muted \u2014 Tap to unmute</button>`;
+          html += `data-muted="${isMutedRef.current}" style="display:block;width:100%;padding:6px;margin-bottom:6px;border:1px solid rgba(255,255,255,0.15);border-radius:6px;background:rgba(255,255,255,0.05);color:#e0e0e0;font-size:12px;font-weight:600;cursor:pointer;text-align:center">${isMutedRef.current ? '\ud83d\udd07 Muted \u2014 Tap to unmute' : '\ud83d\udd0a Sound On'}</button>`;
         }
 
         // Scrolling data ticker
@@ -800,12 +801,12 @@ export default function FireMap() {
         if (vid) {
           const iframeId = `auto-yt-${vid}`;
           html += `<div style="position:relative;width:100%;padding-bottom:56.25%;margin-bottom:4px;border-radius:6px;overflow:hidden;background:#000">`;
-          html += `<iframe id="${iframeId}" src="https://www.youtube-nocookie.com/embed/${vid}?rel=0&autoplay=1&mute=1&enablejsapi=1" `;
+          html += `<iframe id="${iframeId}" src="https://www.youtube-nocookie.com/embed/${vid}?rel=0&autoplay=1&mute=${isMutedRef.current ? 1 : 0}&enablejsapi=1" `;
           html += `style="position:absolute;top:0;left:0;width:100%;height:100%;border:none" `;
           html += `allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen></iframe>`;
           html += `</div>`;
           html += `<button id="pin-vol-toggle" onclick="(function(){var f=document.getElementById('${iframeId}');var b=document.getElementById('pin-vol-toggle');if(!f)return;var m=b.dataset.muted!=='false';var cmd=m?'unMute':'mute';f.contentWindow.postMessage(JSON.stringify({event:'command',func:cmd,args:''}),'*');b.dataset.muted=m?'false':'true';b.textContent=m?'\ud83d\udd0a Sound On':'\ud83d\udd07 Muted'})()" `;
-          html += `data-muted="true" style="display:block;width:100%;padding:6px;margin-bottom:6px;border:1px solid rgba(255,255,255,0.15);border-radius:6px;background:rgba(255,255,255,0.05);color:#e0e0e0;font-size:12px;font-weight:600;cursor:pointer;text-align:center">\ud83d\udd07 Muted \u2014 Tap to unmute</button>`;
+          html += `data-muted="${isMutedRef.current}" style="display:block;width:100%;padding:6px;margin-bottom:6px;border:1px solid rgba(255,255,255,0.15);border-radius:6px;background:rgba(255,255,255,0.05);color:#e0e0e0;font-size:12px;font-weight:600;cursor:pointer;text-align:center">${isMutedRef.current ? '\ud83d\udd07 Muted \u2014 Tap to unmute' : '\ud83d\udd0a Sound On'}</button>`;
         }
       }
 

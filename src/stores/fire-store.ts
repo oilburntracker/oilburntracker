@@ -70,6 +70,7 @@ interface FireStore {
 
   selectedFacility: CuratedFire | null;
   timelineDate: string; // current date on scrubber
+  isMuted: boolean;
 
   setFireData: (data: FireGeoJSON) => void;
   setLoading: (loading: boolean) => void;
@@ -80,6 +81,7 @@ interface FireStore {
   setSelectedFire: (fire: FireFeature | null) => void;
   setSelectedFacility: (facility: CuratedFire | null) => void;
   setTimelineDate: (date: string) => void;
+  setIsMuted: (muted: boolean) => void;
   setMapCenter: (center: [number, number]) => void;
   setMapZoom: (zoom: number) => void;
   toggleLayer: (layer: keyof LayerToggles) => void;
@@ -113,6 +115,7 @@ export const useFireStore = create<FireStore>((set) => ({
 
   selectedFacility: null,
   timelineDate: '2026-03-19',
+  isMuted: true,
 
   setFireData: (data) => set({ fireData: data }),
   setLoading: (loading) => set({ loading }),
@@ -131,6 +134,7 @@ export const useFireStore = create<FireStore>((set) => ({
 
   setSelectedFacility: (facility) => set({ selectedFacility: facility }),
   setTimelineDate: (date) => set({ timelineDate: date }),
+  setIsMuted: (muted) => set({ isMuted: muted }),
 
   setMapCenter: (center) =>
     set((state) => ({

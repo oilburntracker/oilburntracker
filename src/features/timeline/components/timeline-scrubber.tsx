@@ -94,13 +94,14 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
   const [expanded, setExpanded] = useState(false);
   const [activeEvent, setActiveEvent] = useState<ConflictEvent | null>(null);
   const [eventSubIndex, setEventSubIndex] = useState(0); // which event within the day
-  const [isMuted, setIsMuted] = useState(true);
   const playRef = useRef<NodeJS.Timeout | null>(null);
   const eventListRef = useRef<HTMLDivElement>(null);
   const scrubberRef = useRef<HTMLDivElement>(null);
   const fireData = useFireStore((s) => s.fireData);
   const setSelectedFacility = useFireStore((s) => s.setSelectedFacility);
   const setTimelineDate = useFireStore((s) => s.setTimelineDate);
+  const isMuted = useFireStore((s) => s.isMuted);
+  const setIsMuted = useFireStore((s) => s.setIsMuted);
 
   // Live CO2 from satellite detections
   const totalCO2 = fireData.features.reduce((sum, f) => sum + f.properties.estimatedCO2TonsDay, 0);
@@ -397,7 +398,7 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
             size='icon'
             variant='ghost'
             className={`h-7 w-7 shrink-0 ${!isMuted ? 'text-orange-400' : ''}`}
-            onClick={() => setIsMuted((m) => !m)}
+            onClick={() => setIsMuted(!isMuted)}
             title={isMuted ? 'Unmute videos' : 'Mute videos'}
           >
             {isMuted
