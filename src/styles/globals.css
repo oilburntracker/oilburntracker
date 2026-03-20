@@ -49,3 +49,25 @@
   /* Apply the reveal animation */
   animation: reveal 0.4s ease-in-out forwards;
 }
+
+/* MapLibre popup dark theme for event pins */
+.maplibregl-popup-content {
+  background: #1a1a1a !important;
+  color: #e0e0e0 !important;
+  border-radius: 8px !important;
+  padding: 0 !important;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.6) !important;
+  border: 1px solid rgba(255,255,255,0.1) !important;
+}
+.maplibregl-popup-close-button {
+  color: #999 !important;
+  font-size: 18px !important;
+  padding: 4px 8px !important;
+}
+.maplibregl-popup-close-button:hover {
+  color: #fff !important;
+  background: rgba(255,255,255,0.1) !important;
+}
+.maplibregl-popup-tip {
+  border-top-color: #1a1a1a !important;
+}

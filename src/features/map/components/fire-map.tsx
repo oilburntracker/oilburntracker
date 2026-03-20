@@ -6,6 +6,7 @@ import 'maplibre-gl/dist/maplibre-gl.css';
 import { useFireStore, type FireFeature } from '@/stores/fire-store';
 import { curatedFires, type FacilityStatus } from '@/features/fires/data/curated-fires';
 import { createPulsingDot, INTENSITY_CONFIGS } from '../utils/pulsing-dot';
+import { getEventsUpTo, CATEGORY_COLORS, type ConflictEvent } from '@/features/timeline/data/conflict-events';
 
 // Free satellite tiles — no API key needed
 const SATELLITE_STYLE: maplibregl.StyleSpecification = {
@@ -123,6 +124,43 @@ function buildFacilitiesGeoJSON() {
   };
 }
 
+function getYouTubeId(url: string): string | null {
+  const m = url.match(/(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|watch\?v=|shorts\/))([a-zA-Z0-9_-]{11})/);
+  return m ? m[1] : null;
+}
+
+function buildEventsGeoJSON(events: ConflictEvent[]) {
+  return {
+    type: 'FeatureCollection' as const,
+    features: events
+      .filter((e) => e.lat && e.lng)
+      .map((e) => {
+        const ytMedia = e.mediaUrls?.find((m) => m.type === 'youtube');
+        const videoId = ytMedia ? getYouTubeId(ytMedia.url) : null;
+        return {
+          type: 'Feature' as const,
+          geometry: {
+            type: 'Point' as const,
+            coordinates: [e.lng!, e.lat!] as [number, number]
+          },
+          properties: {
+            id: e.id,
+            title: e.title,
+            description: e.description.slice(0, 200),
+            category: e.category,
+            date: e.date,
+            color: CATEGORY_COLORS[e.category],
+            videoId: videoId || '',
+            videoLabel: ytMedia?.label || '',
+            hasVideo: videoId ? 1 : 0,
+            killed: e.casualties?.killed || 0,
+            sourceUrl: e.sourceUrl || ''
+          }
+        };
+      })
+  };
+}
+
 export default function FireMap() {
   const mapContainer = useRef<HTMLDivElement>(null);
   const map = useRef<maplibregl.Map | null>(null);
@@ -133,6 +171,7 @@ export default function FireMap() {
   const setSelectedFire = useFireStore((s) => s.setSelectedFire);
   const setSelectedFacility = useFireStore((s) => s.setSelectedFacility);
   const mapState = useFireStore((s) => s.mapState);
+  const timelineDate = useFireStore((s) => s.timelineDate);
 
   const initMap = useCallback(() => {
     if (!mapContainer.current || map.current) return;
@@ -359,7 +398,113 @@ export default function FireMap() {
         }
       });
 
+      // ── Conflict event pins (synced to timeline) ──
+      m.addSource('conflict-events', {
+        type: 'geojson',
+        data: buildEventsGeoJSON(getEventsUpTo(timelineDate))
+      });
+
+      // Outer pulse ring for events with video
+      m.addLayer({
+        id: 'event-pin-ring',
+        type: 'circle',
+        source: 'conflict-events',
+        filter: ['==', ['get', 'hasVideo'], 1],
+        paint: {
+          'circle-radius': [
+            'interpolate', ['linear'], ['zoom'],
+            3, 6, 8, 14, 12, 20
+          ],
+          'circle-color': ['get', 'color'],
+          'circle-opacity': 0.2,
+          'circle-blur': 0.8
+        }
+      });
+
+      // Core pin marker
+      m.addLayer({
+        id: 'event-pin-core',
+        type: 'circle',
+        source: 'conflict-events',
+        paint: {
+          'circle-radius': [
+            'interpolate', ['linear'], ['zoom'],
+            3, 4, 8, 7, 12, 10
+          ],
+          'circle-color': ['get', 'color'],
+          'circle-opacity': 0.85,
+          'circle-stroke-width': 2,
+          'circle-stroke-color': '#ffffff'
+        }
+      });
+
+      // Video icon indicator for pins with video
+      m.addLayer({
+        id: 'event-pin-label',
+        type: 'symbol',
+        source: 'conflict-events',
+        minzoom: 5,
+        layout: {
+          'text-field': [
+            'case',
+            ['==', ['get', 'hasVideo'], 1],
+            '▶',
+            '●'
+          ],
+          'text-size': [
+            'interpolate', ['linear'], ['zoom'],
+            5, 8, 10, 12
+          ],
+          'text-allow-overlap': true,
+          'text-ignore-placement': true
+        },
+        paint: {
+          'text-color': '#ffffff'
+        }
+      });
+
       // ── Click handlers ──
+
+      // Click event pin → popup with video + summary
+      m.on('click', 'event-pin-core', (e) => {
+        if (!e.features || e.features.length === 0) return;
+        const props = e.features[0].properties;
+        const coords = (e.features[0].geometry as any).coordinates.slice();
+
+        if (popup.current) popup.current.remove();
+
+        let html = `<div style="font-family:system-ui;color:#e0e0e0;background:#1a1a1a;padding:10px;border-radius:8px;max-width:300px">`;
+        html += `<div style="font-size:11px;color:${props?.color};font-weight:700;text-transform:uppercase;margin-bottom:4px">${props?.category?.replace('_', ' ')}</div>`;
+        html += `<div style="font-size:14px;font-weight:800;line-height:1.3;margin-bottom:6px">${props?.title}</div>`;
+        html += `<div style="font-size:12px;opacity:0.75;line-height:1.4;margin-bottom:8px">${props?.description}...</div>`;
+
+        if (props?.killed > 0) {
+          html += `<div style="font-size:12px;color:#ef4444;font-weight:700;margin-bottom:6px">${Number(props.killed).toLocaleString()}+ killed</div>`;
+        }
+
+        if (props?.videoId) {
+          html += `<div style="position:relative;width:100%;padding-bottom:56.25%;margin-bottom:6px;border-radius:6px;overflow:hidden;background:#000">`;
+          html += `<iframe src="https://www.youtube-nocookie.com/embed/${props.videoId}?rel=0&autoplay=1&mute=1&enablejsapi=1" `;
+          html += `style="position:absolute;top:0;left:0;width:100%;height:100%;border:none" `;
+          html += `allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen></iframe>`;
+          html += `</div>`;
+          if (props?.videoLabel) {
+            html += `<div style="font-size:10px;opacity:0.6;margin-bottom:4px">${props.videoLabel}</div>`;
+          }
+        }
+
+        if (props?.sourceUrl) {
+          html += `<a href="${props.sourceUrl}" target="_blank" rel="noopener noreferrer" style="font-size:11px;color:#60a5fa;text-decoration:underline">Read more →</a>`;
+        }
+
+        html += `<div style="font-size:10px;opacity:0.4;margin-top:4px">${props?.date}</div>`;
+        html += `</div>`;
+
+        popup.current = new maplibregl.Popup({ closeButton: true, maxWidth: '340px', className: 'event-popup' })
+          .setLngLat(coords)
+          .setHTML(html)
+          .addTo(m);
+      });
 
       // Click facility → open drawer
       m.on('click', 'facility-core', (e) => {
@@ -429,7 +574,7 @@ export default function FireMap() {
       });
 
       // Cursors
-      for (const layerId of ['facility-core', 'fires-points']) {
+      for (const layerId of ['facility-core', 'fires-points', 'event-pin-core']) {
         m.on('mouseenter', layerId, () => { m.getCanvas().style.cursor = 'pointer'; });
         m.on('mouseleave', layerId, () => { m.getCanvas().style.cursor = ''; });
       }
@@ -455,6 +600,15 @@ export default function FireMap() {
       source.setData(fireData);
     }
   }, [fireData]);
+
+  // Update event pins when timeline date changes
+  useEffect(() => {
+    if (!map.current) return;
+    const source = map.current.getSource('conflict-events') as maplibregl.GeoJSONSource;
+    if (source) {
+      source.setData(buildEventsGeoJSON(getEventsUpTo(timelineDate)));
+    }
+  }, [timelineDate]);
 
   // Toggle layers
   useEffect(() => {
