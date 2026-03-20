@@ -18,123 +18,16 @@ import {
   IconChevronUp,
   IconChevronDown,
   IconExternalLink,
-  IconBrandYoutube,
-  IconNews,
-  IconBrandTwitter,
   IconBuildingFactory,
-  IconAlertTriangle,
   IconBolt,
   IconPlayerSkipForward,
   IconPlayerSkipBack,
   IconUsers,
   IconCloud,
   IconVolume,
-  IconVolumeOff,
-  IconArticle
+  IconVolumeOff
 } from '@tabler/icons-react';
 import { formatCO2 } from '@/features/emissions/utils/emissions-model';
-
-// ── Extract YouTube video ID from URL ──
-function getYouTubeId(url: string): string | null {
-  const m = url.match(/(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|watch\?v=|shorts\/))([a-zA-Z0-9_-]{11})/);
-  return m ? m[1] : null;
-}
-
-// ── YouTube postMessage helpers ──
-function ytCommand(iframe: HTMLIFrameElement, func: string) {
-  iframe.contentWindow?.postMessage(JSON.stringify({ event: 'command', func, args: '' }), '*');
-}
-
-// Global tracking: only one video plays at a time
-let activeIframe: HTMLIFrameElement | null = null;
-
-// ── Smart YouTube embed with IntersectionObserver ──
-function YouTubeEmbed({ videoId, label, isMuted }: { videoId: string; label: string; isMuted: boolean }) {
-  const containerRef = useRef<HTMLDivElement>(null);
-  const iframeRef = useRef<HTMLIFrameElement>(null);
-  const readyRef = useRef(false);
-
-  // Listen for YouTube player ready message
-  useEffect(() => {
-    const handler = (e: MessageEvent) => {
-      if (typeof e.data !== 'string') return;
-      try {
-        const msg = JSON.parse(e.data);
-        if (msg.event === 'onReady' || msg.event === 'initialDelivery') {
-          readyRef.current = true;
-        }
-      } catch {}
-    };
-    window.addEventListener('message', handler);
-    // Fallback: mark ready after 2s since not all YT events fire reliably
-    const timer = setTimeout(() => { readyRef.current = true; }, 2000);
-    return () => {
-      window.removeEventListener('message', handler);
-      clearTimeout(timer);
-    };
-  }, []);
-
-  // IntersectionObserver: play when >50% visible, pause when not
-  useEffect(() => {
-    const el = containerRef.current;
-    if (!el) return;
-
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        const iframe = iframeRef.current;
-        if (!iframe) return;
-
-        if (entry.isIntersecting) {
-          if (activeIframe && activeIframe !== iframe) {
-            ytCommand(activeIframe, 'pauseVideo');
-          }
-          activeIframe = iframe;
-          // Give iframe time to initialize, then play
-          setTimeout(() => {
-            ytCommand(iframe, 'playVideo');
-            ytCommand(iframe, isMuted ? 'mute' : 'unMute');
-          }, 500);
-        } else {
-          if (activeIframe === iframe) {
-            ytCommand(iframe, 'pauseVideo');
-            activeIframe = null;
-          }
-        }
-      },
-      { threshold: 0.4 }
-    );
-
-    observer.observe(el);
-    return () => observer.disconnect();
-  }, [isMuted]);
-
-  // Sync mute state when toggle changes
-  useEffect(() => {
-    const iframe = iframeRef.current;
-    if (!iframe) return;
-    // Small delay to ensure command reaches player
-    const t = setTimeout(() => {
-      ytCommand(iframe, isMuted ? 'mute' : 'unMute');
-    }, 300);
-    return () => clearTimeout(t);
-  }, [isMuted]);
-
-  return (
-    <div ref={containerRef} className='px-4 pb-3'>
-      <p className='text-xs text-muted-foreground font-medium mb-1.5'>{label}</p>
-      <div className='relative w-full aspect-video rounded-lg overflow-hidden bg-black'>
-        <iframe
-          ref={iframeRef}
-          src={`https://www.youtube-nocookie.com/embed/${videoId}?rel=0&enablejsapi=1&autoplay=1&mute=1&origin=${typeof window !== 'undefined' ? window.location.origin : ''}`}
-          title={label}
-          allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-          allowFullScreen
-          className='absolute inset-0 w-full h-full'
-        />
-      </div>
-    </div>
-  );
-}
 
 // ── Build day-by-day date array from first event to today ──
 function buildDayArray(): string[] {
@@ -171,12 +64,6 @@ function daysSince(from: string, to: string): number {
   return Math.floor((new Date(to).getTime() - new Date(from).getTime()) / 86400000);
 }
 
-const MEDIA_ICONS = {
-  youtube: IconBrandYoutube,
-  twitter: IconBrandTwitter,
-  news: IconNews
-};
-
 interface TimelineScrubberProps {
   onFlyTo?: (lat: number, lng: number, zoom: number) => void;
 }
@@ -207,11 +94,9 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
   const [expanded, setExpanded] = useState(false);
   const [activeEvent, setActiveEvent] = useState<ConflictEvent | null>(null);
   const [eventSubIndex, setEventSubIndex] = useState(0); // which event within the day
-  const [showFeed, setShowFeed] = useState(false); // feed hidden by default — map pins are primary UX
   const [isMuted, setIsMuted] = useState(true);
   const playRef = useRef<NodeJS.Timeout | null>(null);
   const eventListRef = useRef<HTMLDivElement>(null);
-  const feedRef = useRef<HTMLDivElement>(null);
   const scrubberRef = useRef<HTMLDivElement>(null);
   const fireData = useFireStore((s) => s.fireData);
   const setSelectedFacility = useFireStore((s) => s.setSelectedFacility);
@@ -242,38 +127,52 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
       });
     };
 
+    const advanceToNext = () => {
+      if (eventSubIndex < todayEvents.length - 1) {
+        setEventSubIndex((prev) => prev + 1);
+      } else {
+        advanceDay();
+      }
+    };
+
     if (hasEvent) {
       const event = todayEvents[eventSubIndex] || todayEvents[0];
       const hasVideo = event?.mediaUrls?.some(m => m.type === 'youtube');
-      // Longer pause for video events, shorter for text-only
-      const delay = hasVideo ? 8000 : 5000;
 
-      // Focus this specific event: fly to it, set it active, tell map to show popup
+      // Focus this specific event: fly to it, set active, tell map to show popup
       if (event) {
         setActiveEvent(event);
         if (event.lat && event.lng && onFlyTo) {
           onFlyTo(event.lat, event.lng, event.zoom || 8);
         }
-        // Tell the map to open this event's popup
         window.dispatchEvent(
           new CustomEvent('map-show-event', { detail: { eventId: event.id } })
         );
-        // Auto-scroll feed to this event's card
-        setTimeout(() => {
-          const card = document.getElementById(`event-card-${event.id}`);
-          card?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        }, 100);
       }
 
-      playRef.current = setTimeout(() => {
-        if (eventSubIndex < todayEvents.length - 1) {
-          // More events on this day — advance to next event
-          setEventSubIndex((prev) => prev + 1);
-        } else {
-          // Last event on this day — move to next day
-          advanceDay();
-        }
-      }, delay);
+      if (hasVideo) {
+        // Listen for YouTube video ended (state 0) via postMessage
+        const onMessage = (e: MessageEvent) => {
+          if (typeof e.data !== 'string') return;
+          try {
+            const msg = JSON.parse(e.data);
+            // YouTube sends onStateChange with info.playerState = 0 when ended
+            if (msg.event === 'onStateChange' && msg.info === 0) {
+              advanceToNext();
+            }
+          } catch {}
+        };
+        window.addEventListener('message', onMessage);
+        // Fallback: max 5 min per video in case postMessage doesn't fire
+        playRef.current = setTimeout(advanceToNext, 300000);
+        return () => {
+          window.removeEventListener('message', onMessage);
+          if (playRef.current) clearTimeout(playRef.current);
+        };
+      } else {
+        // Non-video events: 8s display
+        playRef.current = setTimeout(advanceToNext, 8000);
+      }
     } else {
       // Quiet days: advance fast
       playRef.current = setTimeout(advanceDay, 50);
@@ -292,12 +191,7 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
   // ── When landing on a new date, reset sub-index and show first event ──
   useEffect(() => {
     setEventSubIndex(0);
-    if (feedRef.current) feedRef.current.scrollTop = 0;
-    // Pause any active video when changing dates
-    if (activeIframe) {
-      ytCommand(activeIframe, 'pauseVideo');
-      activeIframe = null;
-    }
+    // Previous video in map popup gets replaced when new popup opens
     if (todayEvents.length > 0 && !isPlaying) {
       const first = todayEvents[0];
       setActiveEvent(first);
@@ -381,7 +275,7 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
     <div ref={scrubberRef} className='absolute bottom-0 left-0 right-0 z-10'>
 
       {/* ── Compact death toll pill — always visible above scrubber ── */}
-      {!showFeed && !expanded && casualties.totalKilled > 0 && (
+      {!expanded && casualties.totalKilled > 0 && (
         <div className='mx-3 mb-2 inline-flex items-center gap-3 rounded-lg bg-red-950/80 backdrop-blur-md border border-red-500/30 px-3 py-1.5 shadow-lg'>
           <span className='flex items-center gap-1.5 text-sm font-black text-red-400'>
             <IconUsers className='h-4 w-4' />
@@ -400,189 +294,7 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
         </div>
       )}
 
-      {/* ── Scrolling news feed — hidden by default, toggle with feed button ── */}
-      {todayEvents.length > 0 && !expanded && showFeed && (
-        <div ref={feedRef} className='mx-3 mb-2 max-w-lg max-h-[55vh] overflow-y-auto rounded-lg border bg-background/95 backdrop-blur-md shadow-2xl'
-          onTouchStart={() => setIsPlaying(false)}
-        >
-          {/* Running death toll — sticky header */}
-          {(casualties.totalKilled > 0 || casualties.totalDisplaced > 0) && (
-            <div className='sticky top-0 z-10 px-4 py-2 bg-red-950/90 backdrop-blur-md flex flex-wrap items-center gap-x-4 gap-y-1 border-b border-red-500/30'>
-              <span className='flex items-center gap-2 text-base font-black text-red-400'>
-                <IconUsers className='h-5 w-5' />
-                {casualties.totalKilled.toLocaleString()}+ killed
-              </span>
-              {casualties.totalDisplaced > 0 && (
-                <span className='text-sm font-bold text-amber-400'>
-                  {(casualties.totalDisplaced / 1000000).toFixed(1)}M displaced
-                </span>
-              )}
-              {casualties.totalChildren > 0 && (
-                <span className='text-xs text-red-300'>
-                  {casualties.totalChildren.toLocaleString()}+ children
-                </span>
-              )}
-              <span className='text-xs text-red-400/50 ml-auto'>Day {stats.dayNumber}</span>
-            </div>
-          )}
-
-          {/* Each event as a full card in the feed */}
-          {todayEvents.map((event, eventIdx) => (
-            <div
-              key={event.id}
-              id={`event-card-${event.id}`}
-              className={`${eventIdx > 0 ? 'border-t-2' : ''} ${isPlaying && eventIdx === eventSubIndex ? 'ring-2 ring-primary ring-inset' : ''}`}
-            >
-              {/* Category + time banner */}
-              <div className='px-4 py-2 flex items-center gap-2' style={{ backgroundColor: CATEGORY_COLORS[event.category] + '15', borderBottom: `2px solid ${CATEGORY_COLORS[event.category]}40` }}>
-                <div className='h-2.5 w-2.5 rounded-full animate-pulse' style={{ backgroundColor: CATEGORY_COLORS[event.category] }} />
-                <span className='text-xs font-bold uppercase tracking-wider' style={{ color: CATEGORY_COLORS[event.category] }}>
-                  {CATEGORY_LABELS[event.category]}
-                </span>
-                <span className='text-xs text-muted-foreground ml-auto font-mono'>
-                  {event.time && (
-                    <span className='font-bold text-foreground mr-1.5'>
-                      {(() => {
-                        const [h, m] = event.time.split(':').map(Number);
-                        const ampm = h >= 12 ? 'PM' : 'AM';
-                        const h12 = h % 12 || 12;
-                        return `${h12}:${m.toString().padStart(2, '0')} ${ampm}`;
-                      })()}
-                    </span>
-                  )}
-                  {formatDate(event.date)}
-                </span>
-              </div>
-
-              {/* Headline + description */}
-              <div className='px-4 py-3'>
-                <h3 className='text-lg font-black leading-snug'>{event.title}</h3>
-                <p className='text-sm text-muted-foreground mt-2 leading-relaxed'>
-                  {event.description}
-                </p>
-
-                {/* Casualties for this specific event */}
-                {event.casualties && (event.casualties.killed || event.casualties.displaced) && (
-                  <div className='mt-3 rounded-lg bg-red-950/20 border border-red-500/20 px-3 py-2 space-y-1'>
-                    <div className='flex flex-wrap gap-x-4 gap-y-1'>
-                      {event.casualties.killed && (
-                        <span className='text-sm font-bold text-red-400'>{event.casualties.killed.toLocaleString()}+ killed</span>
-                      )}
-                      {event.casualties.injured && (
-                        <span className='text-sm text-orange-400'>{event.casualties.injured.toLocaleString()} injured</span>
-                      )}
-                      {event.casualties.displaced && (
-                        <span className='text-sm text-amber-400'>{event.casualties.displaced.toLocaleString()} displaced</span>
-                      )}
-                      {event.casualties.children && (
-                        <span className='text-xs text-red-300'>{event.casualties.children.toLocaleString()}+ children</span>
-                      )}
-                    </div>
-                    {event.casualties.source && (
-                      <p className='text-[10px] text-muted-foreground'>Source: {event.casualties.source}</p>
-                    )}
-                  </div>
-                )}
-              </div>
-
-              {/* YouTube embeds — autoplay on scroll, one at a time */}
-              {event.mediaUrls?.filter(m => m.type === 'youtube').map((media, i) => {
-                const videoId = getYouTubeId(media.url);
-                if (!videoId) return null;
-                return (
-                  <YouTubeEmbed
-                    key={`yt-${event.id}-${i}`}
-                    videoId={videoId}
-                    label={media.label || 'Video Coverage'}
-                    isMuted={isMuted}
-                  />
-                );
-              })}
-
-              {/* News feed — each source as its own post card */}
-              {(event.sourceUrl || (event.mediaUrls && event.mediaUrls.filter(m => m.type !== 'youtube').length > 0)) && (
-                <div className='space-y-0'>
-                  {event.sourceUrl && (
-                    <a
-                      href={event.sourceUrl}
-                      target='_blank'
-                      rel='noopener noreferrer'
-                      className='block border-t px-4 py-3 hover:bg-accent/40 transition-colors group'
-                    >
-                      <div className='flex items-center gap-2 mb-1.5'>
-                        <IconExternalLink className='h-4 w-4 text-blue-400' />
-                        <span className='text-xs font-bold text-blue-400 uppercase'>
-                          {(() => { try { return new URL(event.sourceUrl).hostname.replace('www.', ''); } catch { return 'Source'; } })()}
-                        </span>
-                      </div>
-                      <p className='text-base font-bold leading-snug group-hover:text-primary transition-colors'>
-                        {event.title}
-                      </p>
-                      <p className='text-sm text-muted-foreground mt-1 line-clamp-2'>
-                        {event.description.slice(0, 120)}...
-                      </p>
-                    </a>
-                  )}
-                  {event.mediaUrls?.filter(m => m.type !== 'youtube').map((media, i) => {
-                    const Icon = MEDIA_ICONS[media.type] || IconExternalLink;
-                    const domain = (() => { try { return new URL(media.url).hostname.replace('www.', ''); } catch { return media.type; } })();
-                    return (
-                      <a
-                        key={i}
-                        href={media.url}
-                        target='_blank'
-                        rel='noopener noreferrer'
-                        className='block border-t px-4 py-3 hover:bg-accent/40 transition-colors group'
-                      >
-                        <div className='flex items-center gap-2 mb-1.5'>
-                          <Icon className='h-4 w-4 text-blue-400' />
-                          <span className='text-xs font-bold text-blue-400 uppercase'>
-                            {domain}
-                          </span>
-                        </div>
-                        <p className='text-base font-bold leading-snug group-hover:text-primary transition-colors'>
-                          {media.label || event.title}
-                        </p>
-                      </a>
-                    );
-                  })}
-                </div>
-              )}
-            </div>
-          ))}
-
-          {/* Stats footer */}
-          <div className='sticky bottom-0 px-3 py-1.5 bg-background/90 backdrop-blur-md border-t flex flex-wrap items-center gap-x-3 gap-y-0.5 text-[10px] text-muted-foreground'>
-            <span className='flex items-center gap-1'>
-              <IconBolt className='h-3 w-3 text-yellow-500' />
-              Day {stats.dayNumber}
-            </span>
-            <span className='flex items-center gap-1'>
-              <IconBuildingFactory className='h-3 w-3 text-red-400' />
-              {stats.facilitiesHit} facilities hit
-            </span>
-            {stats.pctGlobal > 0 && (
-              <span className='font-semibold text-foreground'>
-                {stats.pctGlobal.toFixed(1)}% global supply
-              </span>
-            )}
-            {totalCO2 > 0 && (
-              <span className='flex items-center gap-1 font-semibold text-orange-400'>
-                <IconCloud className='h-3 w-3' />
-                {formatCO2(totalCO2)} t CO₂/day
-              </span>
-            )}
-            {Object.entries(casualties.byRegion)
-              .sort((a, b) => b[1].killed - a[1].killed)
-              .slice(0, 3)
-              .map(([region, data]) => (
-                <span key={region} className='text-[9px]'>
-                  {region}: {data.killed.toLocaleString()}
-                </span>
-              ))}
-          </div>
-        </div>
-      )}
+      {/* Feed removed — map pin popups are the primary UI now */}
 
       {/* ── Expanded full event list ── */}
       {expanded && (
@@ -622,16 +334,13 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
                               <IconExternalLink className='h-2.5 w-2.5' /> Source
                             </a>
                           )}
-                          {event.mediaUrls?.map((media, i) => {
-                            const Icon = MEDIA_ICONS[media.type] || IconExternalLink;
-                            return (
+                          {event.mediaUrls?.map((media, i) => (
                               <a key={i} href={media.url} target='_blank' rel='noopener noreferrer'
                                 className='inline-flex items-center gap-1 text-[10px] text-primary hover:underline'
                                 onClick={(e) => e.stopPropagation()}>
-                                <Icon className='h-2.5 w-2.5' /> {media.label || media.type}
+                                <IconExternalLink className='h-2.5 w-2.5' /> {media.label || media.type}
                               </a>
-                            );
-                          })}
+                          ))}
                         </div>
                       </div>
                     )}
@@ -691,17 +400,6 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
               ? <IconVolumeOff className='h-3.5 w-3.5' />
               : <IconVolume className='h-3.5 w-3.5' />
             }
-          </Button>
-
-          {/* Feed toggle — show/hide event detail cards */}
-          <Button
-            size='icon'
-            variant='ghost'
-            className={`h-7 w-7 shrink-0 ${showFeed ? 'text-blue-400' : ''}`}
-            onClick={() => setShowFeed((f) => !f)}
-            title={showFeed ? 'Hide event feed' : 'Show event feed'}
-          >
-            <IconArticle className='h-3.5 w-3.5' />
           </Button>
 
           {/* Date display */}
