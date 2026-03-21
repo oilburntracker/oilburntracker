@@ -8,9 +8,9 @@ import TimelineScrubber from '@/features/timeline/components/timeline-scrubber';
 import { useFireData } from '@/features/map/hooks/use-fire-data';
 import { useFireStore } from '@/stores/fire-store';
 import { curatedFires, getSupplyDisruptionUpTo } from '@/features/fires/data/curated-fires';
-import { getCasualtiesUpTo, getVisibleFacilityIds } from '@/features/timeline/data/conflict-events';
+import { getCasualtiesUpTo, getVisibleFacilityIds, getNuclearStatusUpTo } from '@/features/timeline/data/conflict-events';
 import { getWarCostUpTo } from '@/features/timeline/data/war-costs';
-import { IconFlame, IconBuildingFactory, IconWorld, IconAlertTriangle, IconSkull, IconCloud, IconX, IconBomb, IconBuildingSkyscraper, IconTrendingUp, IconChevronUp } from '@tabler/icons-react';
+import { IconFlame, IconBuildingFactory, IconWorld, IconAlertTriangle, IconSkull, IconCloud, IconX, IconBomb, IconBuildingSkyscraper, IconTrendingUp, IconChevronUp, IconRadioactive } from '@tabler/icons-react';
 import { formatCO2, co2Equivalents } from '@/features/emissions/utils/emissions-model';
 import Link from 'next/link';
 
@@ -50,12 +50,13 @@ function CompactStats() {
 
   // Facilities hit synced to timeline position
   const visibleFacilityIds = getVisibleFacilityIds(timelineDate);
-  const supply = getSupplyDisruptionUpTo(visibleFacilityIds);
+  const supply = getSupplyDisruptionUpTo(visibleFacilityIds, timelineDate);
   const disruptionColor = DISRUPTION_COLORS[supply.level] || DISRUPTION_COLORS.normal;
 
   // Running totals synced to timeline scrubber
   const casualties = getCasualtiesUpTo(timelineDate);
   const cost = getWarCostUpTo(timelineDate);
+  const nuclear = getNuclearStatusUpTo(timelineDate);
 
   if (collapsed) {
     return (
@@ -76,11 +77,18 @@ function CompactStats() {
           <span className='text-sm font-black text-white tabular-nums'>{formatBillions(cost.totalBillions)}</span>
           <span className='text-[10px] text-zinc-500'>war cost</span>
         </div>
-        <div className='flex items-center gap-2'>
+        <div className='flex items-center gap-2 mb-1'>
           <IconAlertTriangle className={`h-3.5 w-3.5 ${disruptionColor}`} />
           <span className={`text-sm font-black tabular-nums ${disruptionColor}`}>{supply.productionPct.toFixed(1)}%</span>
           <span className='text-[10px] text-zinc-500'>offline</span>
         </div>
+        {nuclear && (
+          <div className='flex items-center gap-2'>
+            <IconRadioactive className='h-3.5 w-3.5 text-green-400' />
+            <span className='text-sm font-black tabular-nums text-green-400'>{nuclear.enrichmentPct}%</span>
+            <span className='text-[10px] text-zinc-500'>enrichment</span>
+          </div>
+        )}
       </button>
     );
   }
@@ -150,6 +158,43 @@ function CompactStats() {
         </div>
       </div>
 
+      {/* ── NUCLEAR THREAT ── */}
+      {nuclear && (
+        <div className='px-3 pt-2 pb-2 border-b border-zinc-800'>
+          <div className='flex items-center gap-2 mb-1'>
+            <IconRadioactive className='h-3.5 w-3.5 text-green-400' />
+            <span className='text-[10px] uppercase tracking-widest text-zinc-500 font-bold'>Nuclear</span>
+          </div>
+          <div className='space-y-0.5'>
+            <div className='flex items-center justify-between text-[11px]'>
+              <span className='text-zinc-400'>Facilities hit</span>
+              <span className='font-bold text-green-400 tabular-nums'>{nuclear.facilitiesTargeted} targeted / {nuclear.facilitiesDestroyed} destroyed</span>
+            </div>
+            <div className='flex items-center justify-between text-[11px]'>
+              <span className='text-zinc-400'>Enrichment capacity</span>
+              <span className={`font-bold tabular-nums ${nuclear.enrichmentPct > 50 ? 'text-red-400' : nuclear.enrichmentPct > 20 ? 'text-orange-400' : 'text-green-400'}`}>
+                {nuclear.enrichmentPct}% remaining
+              </span>
+            </div>
+            <div className='flex items-center justify-between text-[11px]'>
+              <span className='text-zinc-400'>Breakout time</span>
+              <span className={`font-bold tabular-nums ${nuclear.breakoutWeeks <= 4 ? 'text-red-500' : nuclear.breakoutWeeks <= 12 ? 'text-orange-400' : 'text-green-400'}`}>
+                {nuclear.breakoutWeeks <= 52 ? `${nuclear.breakoutWeeks}w` : '1y+'}
+              </span>
+            </div>
+            {nuclear.radiationRisk !== 'none' && (
+              <div className='flex items-center justify-between text-[11px]'>
+                <span className='text-zinc-400'>Radiation risk</span>
+                <span className={`font-bold tabular-nums ${nuclear.radiationRisk === 'high' ? 'text-red-500 animate-pulse' : nuclear.radiationRisk === 'elevated' ? 'text-orange-400' : 'text-yellow-400'}`}>
+                  {nuclear.radiationRisk.toUpperCase()}
+                </span>
+              </div>
+            )}
+          </div>
+          <div className='text-[9px] text-zinc-600 mt-1'>{nuclear.label}</div>
+        </div>
+      )}
+
       {/* ── SUPPLY DISRUPTION ── */}
       <div className='px-3 pt-2 pb-2 border-b border-zinc-800'>
         <div className='text-[10px] uppercase tracking-widest text-zinc-500 font-bold mb-1'>Global Oil Supply</div>
@@ -163,14 +208,14 @@ function CompactStats() {
             </div>
           </div>
         </div>
-        {supply.transitBPDAtRisk > 0 && (
+        {supply.transitBPDBlocked > 0 && (
           <div className='flex items-center justify-between mt-1 pt-1 border-t border-zinc-800/50'>
             <div>
-              <div className='text-xs font-bold text-amber-400 tabular-nums'>
-                {supply.transitPct.toFixed(0)}% transit at risk
+              <div className='text-xs font-bold text-red-400 tabular-nums'>
+                {supply.transitBlockedPct.toFixed(1)}% transit blocked
               </div>
               <div className='text-[10px] text-zinc-500 tabular-nums'>
-                {(supply.transitBPDAtRisk / 1000000).toFixed(0)}M BPD — {supply.chokepointsHit} chokepoint{supply.chokepointsHit !== 1 ? 's' : ''}
+                {(supply.transitBPDBlocked / 1000000).toFixed(1)}M BPD blocked — {supply.chokepointsHit} chokepoint{supply.chokepointsHit !== 1 ? 's' : ''}
               </div>
             </div>
           </div>

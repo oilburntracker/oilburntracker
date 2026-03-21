@@ -432,9 +432,51 @@ export function getCurrentDisruptionLevel() {
 const GLOBAL_OIL_BPD = 100_000_000;
 const CHOKEPOINT_IDS = new Set(['strait-of-hormuz', 'bab-el-mandeb']);
 
-export function getSupplyDisruptionUpTo(hitFacilityIds: Set<string>) {
+/**
+ * Progressive chokepoint disruption — actual % of traffic blocked over time.
+ * Sorted by date. For each chokepoint, the latest entry ≤ timeline date is used.
+ */
+interface ChokepointDisruption {
+  date: string;
+  chokepointId: string;
+  blockedPct: number; // 0-100: actual % of traffic blocked
+  label: string;
+}
+
+const CHOKEPOINT_DISRUPTIONS: ChokepointDisruption[] = [
+  // ── Bab el-Mandeb (Houthi attacks) ──
+  { date: '2023-11-19', chokepointId: 'bab-el-mandeb', blockedPct: 15, label: 'Houthi attacks begin — some ships rerouting' },
+  { date: '2024-01-12', chokepointId: 'bab-el-mandeb', blockedPct: 40, label: 'Major shipping lines reroute via Cape of Good Hope' },
+  { date: '2024-06-01', chokepointId: 'bab-el-mandeb', blockedPct: 50, label: 'Sustained rerouting — half of traffic avoids Red Sea' },
+  { date: '2025-01-01', chokepointId: 'bab-el-mandeb', blockedPct: 45, label: 'Ongoing Houthi disruption — some normalization' },
+  { date: '2026-03-01', chokepointId: 'bab-el-mandeb', blockedPct: 60, label: 'Iran war — Houthis intensify attacks' },
+  { date: '2026-03-09', chokepointId: 'bab-el-mandeb', blockedPct: 75, label: 'Near-total commercial avoidance' },
+
+  // ── Strait of Hormuz ──
+  { date: '2025-11-17', chokepointId: 'strait-of-hormuz', blockedPct: 5, label: 'Iran seizes tanker — threat level elevated' },
+  { date: '2026-03-01', chokepointId: 'strait-of-hormuz', blockedPct: 15, label: 'War begins — IRGC naval patrols increase' },
+  { date: '2026-03-06', chokepointId: 'strait-of-hormuz', blockedPct: 25, label: 'Iran mines approaches — insurance rates 10x' },
+  { date: '2026-03-09', chokepointId: 'strait-of-hormuz', blockedPct: 40, label: 'Iran announces Hormuz closure — tankers halt' },
+  { date: '2026-03-14', chokepointId: 'strait-of-hormuz', blockedPct: 55, label: '21 attacks on merchant ships — traffic plummets' },
+  { date: '2026-03-18', chokepointId: 'strait-of-hormuz', blockedPct: 65, label: '150+ ships anchored outside strait' },
+  { date: '2026-03-20', chokepointId: 'strait-of-hormuz', blockedPct: 70, label: 'Selective vetting system — Iran decides who passes' },
+  { date: '2026-03-21', chokepointId: 'strait-of-hormuz', blockedPct: 70, label: 'Traffic down 70% — 150+ ships stuck' },
+];
+
+function getChokepointBlockedPct(chokepointId: string, date: string): number {
+  let latest = 0;
+  for (const d of CHOKEPOINT_DISRUPTIONS) {
+    if (d.chokepointId === chokepointId && d.date <= date) {
+      latest = d.blockedPct;
+    }
+  }
+  return latest;
+}
+
+export function getSupplyDisruptionUpTo(hitFacilityIds: Set<string>, timelineDate?: string) {
   let productionBPDOffline = 0;
   let transitBPDAtRisk = 0;
+  let transitBPDBlocked = 0;
   let facilitiesHit = 0;
   let chokepointsHit = 0;
 
@@ -442,7 +484,12 @@ export function getSupplyDisruptionUpTo(hitFacilityIds: Set<string>) {
     if (!hitFacilityIds.has(facility.id)) continue;
 
     if (CHOKEPOINT_IDS.has(facility.id)) {
+      const blockedPct = timelineDate
+        ? getChokepointBlockedPct(facility.id, timelineDate)
+        : 100;
+      const blockedBPD = Math.round(facility.capacityBPD * (blockedPct / 100));
       transitBPDAtRisk += facility.capacityBPD;
+      transitBPDBlocked += blockedBPD;
       chokepointsHit++;
     } else {
       productionBPDOffline += facility.capacityBPD;
@@ -452,19 +499,23 @@ export function getSupplyDisruptionUpTo(hitFacilityIds: Set<string>) {
 
   const productionPct = (productionBPDOffline / GLOBAL_OIL_BPD) * 100;
   const transitPct = (transitBPDAtRisk / GLOBAL_OIL_BPD) * 100;
+  const transitBlockedPct = (transitBPDBlocked / GLOBAL_OIL_BPD) * 100;
 
-  // Disruption level based on production offline (not transit)
+  // Disruption level based on combined production + transit blocked
+  const combinedPct = productionPct + transitBlockedPct;
   let level: 'normal' | 'mild' | 'severe' | 'crisis' | 'catastrophe' = 'normal';
-  if (productionPct >= CATASTROPHE_THRESHOLDS.catastrophe.pctGlobal) level = 'catastrophe';
-  else if (productionPct >= CATASTROPHE_THRESHOLDS.crisis.pctGlobal) level = 'crisis';
-  else if (productionPct >= CATASTROPHE_THRESHOLDS.severe.pctGlobal) level = 'severe';
-  else if (productionPct >= CATASTROPHE_THRESHOLDS.mild.pctGlobal) level = 'mild';
+  if (combinedPct >= CATASTROPHE_THRESHOLDS.catastrophe.pctGlobal) level = 'catastrophe';
+  else if (combinedPct >= CATASTROPHE_THRESHOLDS.crisis.pctGlobal) level = 'crisis';
+  else if (combinedPct >= CATASTROPHE_THRESHOLDS.severe.pctGlobal) level = 'severe';
+  else if (combinedPct >= CATASTROPHE_THRESHOLDS.mild.pctGlobal) level = 'mild';
 
   return {
     productionBPDOffline,
     productionPct,
     transitBPDAtRisk,
+    transitBPDBlocked,
     transitPct,
+    transitBlockedPct,
     facilitiesHit,
     chokepointsHit,
     level,
