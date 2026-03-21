@@ -1776,6 +1776,7 @@ export const conflictEvents: ConflictEvent[] = [
     zoom: 12,
     sourceUrl: 'https://www.aljazeera.com/news/2026/3/19/israel-says-oil-refinery-hit-in-iranian-missile-attack-no-major-damage',
     mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=gPqE7Qmr4w4', label: 'Iran missile strike hits Israel as deaths mount' },
       { type: 'news', url: 'https://www.jpost.com/israel-news/defense-news/article-890480', label: 'JPost: Bazan refinery damaged after Iran missile barrages' },
       { type: 'news', url: 'https://www.usnews.com/news/world/articles/2026-03-19/iranian-attack-hits-israeli-oil-refinery-in-haifa-some-damage-reported', label: 'US News: Iranian attack hits Israeli oil refinery in Haifa' },
       { type: 'news', url: 'https://themedialine.org/headlines/iranian-missile-hits-haifas-bazan-refineries-triggers-fire-and-hazard-assessment/', label: 'Media Line: Missile hits Bazan refineries, triggers hazard assessment' },
@@ -1795,6 +1796,7 @@ export const conflictEvents: ConflictEvent[] = [
     zoom: 12,
     sourceUrl: 'https://www.cnbc.com/2026/03/19/iran-attack-qatar-lng-capacity.html',
     mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=7XLFhoV1Aw4', label: 'IEA approves record oil release amid Iran LNG crisis' },
       { type: 'news', url: 'https://www.bloomberg.com/news/articles/2026-03-19/iran-strike-damages-17-of-qatar-lng-for-3-5-years-reuters-says', label: 'Bloomberg: Iran strike damages 17% of Qatar LNG for 3-5 years' },
       { type: 'news', url: 'https://www.aljazeera.com/news/2026/3/19/iran-attacks-cut-17-of-qatars-lng-capacity-for-up-to-5-years-qatarenergy', label: 'Al Jazeera: Iran warns zero restraint if infrastructure attacked again' },
       { type: 'news', url: 'https://globallnghub.com/qatar-lng-capacity-hit-as-ras-laffan-attacks-damage-key-trains.html', label: 'Global LNG Hub: Qatar LNG capacity hit as key trains damaged' },
@@ -1814,6 +1816,7 @@ export const conflictEvents: ConflictEvent[] = [
     zoom: 10,
     sourceUrl: 'https://www.pbs.org/newshour/world/iran-intensifies-attacks-on-gulf-energy-sites-after-israel-struck-its-key-gas-field',
     mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=T4n-z92pRHQ', label: 'Drones hit Saudi refinery as Iran strikes region' },
       { type: 'news', url: 'https://www.npr.org/2026/03/19/nx-s1-5753520/iran-israel-gas-field-attacks', label: 'NPR: Israel and Iran attack each other\'s gas facilities in major escalation' },
       { type: 'news', url: 'https://www.opb.org/article/2026/03/19/israel-and-iran-attack-gas-facilities-rattling-markets/', label: 'OPB/AP: Israel and Iran attack gas facilities, rattling markets' }
     ]
@@ -1831,6 +1834,7 @@ export const conflictEvents: ConflictEvent[] = [
     zoom: 10,
     sourceUrl: 'https://www.cnbc.com/2026/03/17/iran-war-uae-energy-gas-field-oil-fujairah-strait-of-hormuz.html',
     mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=sUokwep7AIw', label: 'Iran escalates Gulf drone and missile attacks' },
       { type: 'news', url: 'https://gulfnews.com/uae/usisrael-war-on-iran-day-20-iran-warns-of-uncontrollable-consequences-uae-intercepts-threats-1.500479442', label: 'Gulf News: UAE intercepts threats as Iran warns of consequences' },
       { type: 'news', url: 'https://theconversation.com/targeting-of-energy-facilities-turned-iran-war-into-worst-case-scenario-for-gulf-states-278730', label: 'The Conversation: Worst-case scenario for Gulf states' }
     ]
@@ -1852,6 +1856,7 @@ export const conflictEvents: ConflictEvent[] = [
     zoom: 12,
     sourceUrl: 'https://www.aljazeera.com/news/2026/3/20/kuwait-oil-refinery-hit-again-as-iran-targets-gulf-energy-infrastructure',
     mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=5rldsS79dPc', label: 'Iran continues strikes on Gulf states' },
       { type: 'news', url: 'https://www.upi.com/Top_News/World-News/2026/03/20/iran-Kuwait-refinery-struck/6691773992136/', label: 'UPI: Iran strikes Kuwait refinery for second straight day' },
       { type: 'news', url: 'https://www.france24.com/en/live-news/20260320-israel-strikes-decimated-iran-as-war-roils-markets', label: 'France24: Kuwait refinery hit as Iran marks New Year under shadow of war' },
       { type: 'news', url: 'https://www.cbc.ca/news/world/iran-hits-kuwaiti-oil-refinery-9.7135780', label: 'CBC: Iran hits Kuwaiti oil refinery, explosions boom over Tehran' }
@@ -1870,6 +1875,7 @@ export const conflictEvents: ConflictEvent[] = [
     facilityId: 'strait-of-hormuz',
     sourceUrl: 'https://www.aljazeera.com/news/2026/3/20/iran-developing-a-vetting-system-for-strait-of-hormuz-transit-report',
     mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=fEzHCxz24qc', label: 'Europe and Japan ready to secure Hormuz' },
       { type: 'news', url: 'https://www.cnbc.com/2026/03/19/oil-jumps-iran-strikes-qatar-lng-facility-supply-worries.html', label: 'CNBC: Oil prices fall after Brent briefly touches $119' },
       { type: 'news', url: 'https://www.npr.org/2026/03/20/nx-s1-5753773/global-oil-and-energy-prices-are-reeling-as-the-war-in-the-middle-east-escalates', label: 'NPR: Global energy prices reeling as war escalates' },
       { type: 'news', url: 'https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis', label: 'Wikipedia: 2026 Strait of Hormuz crisis' }
@@ -1888,6 +1894,7 @@ export const conflictEvents: ConflictEvent[] = [
     zoom: 10,
     sourceUrl: 'https://www.npr.org/2026/03/20/nx-s1-5754550/israel-strikes-tehran-iran-attacks-gulf',
     mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=hUO8axalki0', label: 'Israel and Iran exchange strikes on Persian New Year' },
       { type: 'news', url: 'https://www.cnn.com/2026/03/20/world/video/iran-israel-war-nowruz-geranmayeh-intv-ctw-032010aseg1-cnni-world-fast', label: 'CNN: Israel strikes Iran as country celebrates Persian New Year' },
       { type: 'news', url: 'https://www.euronews.com/2026/03/20/israel-strikes-tehran-as-iran-continues-targeting-energy-infrastructure-across-gulf', label: 'Euronews: Israel strikes Tehran as Gulf energy attacks continue' },
       { type: 'news', url: 'https://www.opb.org/article/2026/03/20/israel-launches-more-strikes-on-tehran-as-iran-continues-attacks-on-gulf-oil-facilities/', label: 'NPR/OPB: Israel launches more strikes on Tehran' },
@@ -1907,6 +1914,7 @@ export const conflictEvents: ConflictEvent[] = [
     zoom: 11,
     sourceUrl: 'https://www.aljazeera.com/news/2026/3/20/irans-irgc-says-spokesman-ali-mohammad-naini-killed-in-us-israeli-attack',
     mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=juDeo15qtD0', label: 'Destruction in Tehran after Israeli strikes' },
       { type: 'news', url: 'https://english.alarabiya.net/News/middle-east/2026/03/20/iran-s-irgc-spokesman-killed-state-tv', label: 'Al Arabiya: Iran\'s IRGC spokesman killed in US-Israeli strikes' },
       { type: 'news', url: 'https://www.thenationalnews.com/news/mena/2026/03/20/irgc-says-spokesman-killed-in-us-israeli-missile-attack/', label: 'The National: IRGC says spokesman killed in US-Israeli attack' },
       { type: 'news', url: 'https://www.newarab.com/news/irgc-spokesman-killed-us-israel-strike-kuwait-refinery-hit', label: 'New Arab: IRGC spokesman killed as Kuwait refinery hit' },
@@ -1925,6 +1933,7 @@ export const conflictEvents: ConflictEvent[] = [
     zoom: 5,
     sourceUrl: 'https://www.cnbc.com/2026/03/20/trump-iran-war-ceasefire.html',
     mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=-B2NE5ms2lA', label: 'Iran war is Europe\'s war — Trump security advisor' },
       { type: 'news', url: 'https://www.thenationalnews.com/news/us/2026/03/20/trump-says-us-is-considering-winding-down-iran-war/', label: 'The National: Trump says US considering winding down Iran war' },
       { type: 'news', url: 'https://www.axios.com/2026/03/20/trump-winding-down-iran-war-hormuz-strait', label: 'Axios: Trump considers winding down without opening Hormuz' },
       { type: 'news', url: 'https://www.pbs.org/newshour/show/as-attacks-on-oil-sites-continue-trump-dismisses-ceasefire-says-iran-is-finished', label: 'PBS: Trump dismisses ceasefire, says Iran is finished' },
@@ -1943,6 +1952,7 @@ export const conflictEvents: ConflictEvent[] = [
     zoom: 12,
     sourceUrl: 'https://www.npr.org/2026/03/19/nx-s1-5753520/iran-israel-gas-field-attacks',
     mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=LOXymybZ4D8', label: 'Iran escalation risks stagflation shock' },
       { type: 'news', url: 'https://www.washingtonpost.com/national-security/2026/03/18/iran-cost-budget-pentagon/', label: 'Washington Post: Pentagon seeks $200B for Iran war' },
       { type: 'news', url: 'https://time.com/article/2026/03/20/republican-democrat-lawmakers-condemn-pentagon-iran-war-funding-request/', label: 'TIME: Lawmakers condemn Pentagon\'s $200B request' },
       { type: 'news', url: 'https://www.aljazeera.com/news/2026/3/19/hegseth-says-no-timeframe-for-war-on-iran-as-pentagon-asks-for-200bn', label: 'Al Jazeera: Hegseth says no timeframe as Pentagon asks for $200B' },
@@ -1962,6 +1972,7 @@ export const conflictEvents: ConflictEvent[] = [
     zoom: 5,
     sourceUrl: 'https://www.euronews.com/2026/03/20/israel-strikes-tehran-as-iran-continues-targeting-energy-infrastructure-across-gulf',
     mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=eejycD654sI', label: 'Trump blasts NATO allies as Iran war enters day 19' },
       { type: 'news', url: 'https://www.aljazeera.com/news/2026/3/14/trump-says-many-countries-will-send-warships-to-hormuz-amid-iran-blockade', label: 'Al Jazeera: Trump says many countries will send warships to Hormuz' },
       { type: 'news', url: 'https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-20-26', label: 'CNN Live: Iran war day 21 updates' }
     ]
@@ -1983,6 +1994,7 @@ export const conflictEvents: ConflictEvent[] = [
     zoom: 10,
     sourceUrl: 'https://www.aljazeera.com/news/2026/3/21/iran-says-us-and-israel-attacked-natanz-nuclear-facility',
     mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=ETe0ftnltG8', label: 'Iran Natanz nuclear site struck, Diego Garcia targeted' },
       { type: 'news', url: 'https://www.jpost.com/middle-east/iran-news/2026-03-20/live-updates-890625', label: 'JPost: US-Israeli strike targets Natanz nuclear site' },
       { type: 'news', url: 'https://www.timesofisrael.com/liveblog-march-21-2026/', label: 'Times of Israel: Day 22 liveblog' },
       { type: 'news', url: 'https://www.armscontrol.org/issue-briefs/2026-03/us-war-iran-new-and-lingering-nuclear-risks', label: 'Arms Control Association: Nuclear risks of US war on Iran' },
@@ -2001,6 +2013,7 @@ export const conflictEvents: ConflictEvent[] = [
     zoom: 6,
     sourceUrl: 'https://www.cnbc.com/2026/03/21/iran-targeted-but-did-not-hit-diego-garcia-base-with-missiles-wsj.html',
     mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=ETe0ftnltG8', label: 'Iran Natanz struck, Diego Garcia targeted' },
       { type: 'news', url: 'https://thehill.com/policy/international/5794306-iran-launches-missiles-diego-garcia/', label: 'The Hill: Iran fires missiles toward Diego Garcia' },
       { type: 'news', url: 'https://theaviationist.com/2026/03/21/iran-fires-two-intermediate-range-ballistic-missiles-at-diego-garcia-base/', label: 'The Aviationist: Iran fires two IRBMs at Diego Garcia' },
       { type: 'news', url: 'https://www.itv.com/news/2026-03-21/missiles-fired-at-diego-garcia-after-uk-lets-us-use-bases-for-hormuz-strikes', label: 'ITV: MoD condemns Iran\'s reckless attacks on Diego Garcia' },
@@ -2021,6 +2034,7 @@ export const conflictEvents: ConflictEvent[] = [
     zoom: 5,
     sourceUrl: 'https://news.cgtn.com/news/2026-03-21/Iran-launches-70th-wave-of-strikes-1LGKjb9Qudi/p.html',
     mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=9aTRlZKeJKo', label: 'Iran war strikes — fact check and footage' },
       { type: 'news', url: 'https://www.tribuneindia.com/news/world/irgc-says-70th-wave-of-counter-attacks-launched-5-us-military-installations-targeted/', label: 'Tribune India: IRGC says 70th wave launched, 5 US bases targeted' },
       { type: 'news', url: 'https://en.mehrnews.com/news/242791/Iran-conducts-70th-wave-of-Operation-True-Promise-4', label: 'Mehr News: Iran conducts 70th wave of Operation True Promise 4' },
       { type: 'news', url: 'https://www.aljazeera.com/news/2026/3/21/iran-war-what-is-happening-on-day-22-of-us-israel-attacks', label: 'Al Jazeera: Day 22 — what is happening' }
@@ -2038,6 +2052,7 @@ export const conflictEvents: ConflictEvent[] = [
     zoom: 6,
     sourceUrl: 'https://www.washingtonpost.com/business/2026/03/20/iran-oil-sanctions-trump/',
     mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=JDAMLl5DWOo', label: 'IEA urges oil demand cuts amid Iran crisis' },
       { type: 'news', url: 'https://www.cnbc.com/2026/03/20/us-issues-30-day-sanctions-waiver-for-sale-of-iranian-oil-at-sea.html', label: 'CNBC: US issues 30-day sanctions waiver for Iranian oil' },
       { type: 'news', url: 'https://www.nbcnews.com/world/iran/us-eases-iranian-oil-sanctions-scramble-contain-energy-prices-handing-rcna264546', label: 'NBC: US eases Iranian oil sanctions to contain energy prices' },
       { type: 'news', url: 'https://www.cbsnews.com/news/trump-administration-temporarily-lifts-sanctions-on-iranian-oil-at-sea/', label: 'CBS: Trump temporarily lifts sanctions on Iranian oil at sea' },
@@ -2056,6 +2071,7 @@ export const conflictEvents: ConflictEvent[] = [
     zoom: 4,
     sourceUrl: 'https://www.pbs.org/newshour/world/iran-threatens-to-target-tourism-sites-worldwide-and-says-its-still-building-missiles-nearly-3-weeks-into-war',
     mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=E5lurG0JbWM', label: 'Middle East crisis and global tourism threat' },
       { type: 'news', url: 'https://thehill.com/policy/international/5793186-iran-threats-world-tourism-sites-us-israel/', label: 'The Hill: Iran threatens to target global tourist sites' },
       { type: 'news', url: 'https://www.theglobeandmail.com/business/article-iran-us-israel-war-kuwait-attacks/', label: 'Globe and Mail: Iran threatens world tourist sites' },
       { type: 'news', url: 'https://www.turkiyetoday.com/region/iran-threatens-global-tourist-sites-warns-of-zero-restraint-amid-escalation-3216606/', label: 'Turkiye Today: Iran warns of zero restraint' },
@@ -2074,6 +2090,7 @@ export const conflictEvents: ConflictEvent[] = [
     zoom: 8,
     sourceUrl: 'https://www.axios.com/2026/03/21/mojtaba-khamenei-iran-leader-where',
     mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=WO4w6krbRFc', label: 'What does Mojtaba Khamenei\'s appointment mean?' },
       { type: 'news', url: 'https://www.cnn.com/2026/03/12/middleeast/mojtaba-khamenei-iran-first-speech-intl', label: 'CNN: Mojtaba Khamenei\'s first purported statement' },
       { type: 'news', url: 'https://www.iranintl.com/en/202603125349', label: 'Iran International: Iran\'s unseen new leader issues first message in writing' },
       { type: 'news', url: 'https://www.euronews.com/2026/03/16/still-no-mojtaba-iran-war-enters-third-week-amid-leadership-crisis-as-norwuz-looms', label: 'Euronews: Still no Mojtaba — leadership crisis deepens' },
@@ -2093,6 +2110,7 @@ export const conflictEvents: ConflictEvent[] = [
     zoom: 5,
     sourceUrl: 'https://www.npr.org/2026/03/21/nx-s1-5755539/iran-war-fourth-week',
     mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=v-C1M39YUOY', label: 'War in Iran — European petrol prices spike' },
       { type: 'news', url: 'https://fortune.com/article/price-of-oil-03-20-2026/', label: 'Fortune: Oil prices March 20-21 — Brent at $110+' },
       { type: 'news', url: 'https://www.aljazeera.com/news/2026/3/21/iran-war-what-is-happening-on-day-22-of-us-israel-attacks', label: 'Al Jazeera: What is happening on Day 22' },
       { type: 'news', url: 'https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis', label: 'Wikipedia: 2026 Strait of Hormuz crisis' },
