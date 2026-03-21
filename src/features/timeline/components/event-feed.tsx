@@ -52,22 +52,25 @@ export default function EventFeed({ onFlyTo, fullPage = false }: EventFeedProps)
     return getEventsUpTo(timelineDate).reverse();
   }, [timelineDate]);
 
-  const eventMap = useMemo(() => {
-    const m = new Map<string, ConflictEvent>();
-    events.forEach((e) => m.set(e.id, e));
-    return m;
-  }, [events]);
+  // Keep refs for observer callback so it uses latest data without re-creating
+  const eventMapRef = useRef<Map<string, ConflictEvent>>(new Map());
+  const videoEventIdsRef = useRef<Set<string>>(new Set());
 
-  const videoEventIds = useMemo(() => {
-    const ids = new Set<string>();
+  const eventCount = useMemo(() => {
+    const m = new Map<string, ConflictEvent>();
+    const vids = new Set<string>();
     events.forEach((e) => {
-      const yt = e.mediaUrls?.find((m) => m.type === 'youtube');
-      if (yt && getYouTubeId(yt.url)) ids.add(e.id);
+      m.set(e.id, e);
+      const yt = e.mediaUrls?.find((med) => med.type === 'youtube');
+      if (yt && getYouTubeId(yt.url)) vids.add(e.id);
     });
-    return ids;
+    eventMapRef.current = m;
+    videoEventIdsRef.current = vids;
+    return events.length;
   }, [events]);
 
   // IntersectionObserver: scrolling = scrubbing time + video autoplay
+  // Only re-create when event count changes (not on every date tick)
   useEffect(() => {
     const container = scrollRef.current;
     if (!container) return;
@@ -96,11 +99,11 @@ export default function EventFeed({ onFlyTo, fullPage = false }: EventFeedProps)
         });
 
         if (bestId && bestRatio > 0.3) {
-          const event = eventMap.get(bestId);
+          const event = eventMapRef.current.get(bestId);
           if (event && fullPage) {
             setTimelineDate(event.date);
           }
-          if (videoEventIds.has(bestId)) {
+          if (videoEventIdsRef.current.has(bestId)) {
             setActiveVideoId(bestId);
           } else {
             setActiveVideoId(null);
@@ -123,7 +126,7 @@ export default function EventFeed({ onFlyTo, fullPage = false }: EventFeedProps)
       clearTimeout(timer);
       observer.disconnect();
     };
-  }, [events, eventMap, videoEventIds, fullPage, setTimelineDate]);
+  }, [eventCount, fullPage, setTimelineDate]);
 
   const handleFlyTo = useCallback(
     (event: ConflictEvent) => {
