@@ -16,7 +16,6 @@ import {
   IconTrendingUp, IconReceipt, IconShip, IconClock, IconUsers, IconHome,
   IconInfoCircle
 } from '@tabler/icons-react';
-import Link from 'next/link';
 
 function formatBillions(n: number): string {
   if (n >= 1000) return `$${(n / 1000).toFixed(2)}T`;
@@ -129,8 +128,8 @@ export default function DeepDivePanel() {
     normal: 'bg-green-100 text-green-800 border-green-200',
     mild: 'bg-yellow-100 text-yellow-800 border-yellow-200',
     severe: 'bg-orange-100 text-orange-800 border-orange-200',
-    crisis: 'bg-red-100 text-red-800 border-red-200',
-    catastrophe: 'bg-red-200 text-red-900 border-red-300 animate-pulse',
+    crisis: 'bg-orange-200 text-orange-900 border-orange-300',
+    catastrophe: 'bg-orange-300 text-orange-950 border-orange-400 animate-pulse',
   };
 
   return (
@@ -156,20 +155,20 @@ export default function DeepDivePanel() {
       {/* ── HUMAN COST ── */}
       <div className='px-4 pt-4 pb-3 border-b border-gray-200 dark:border-zinc-700'>
         <SectionTitle icon={<IconSkull className='h-5 w-5 text-red-600' />} title='Human Cost' />
-        <div className='text-4xl font-black text-red-700 dark:text-red-500 tabular-nums leading-none'>
+        <div className='text-4xl font-black text-red-600 dark:text-red-500 tabular-nums leading-none'>
           {casualties.totalKilled.toLocaleString()}+
         </div>
-        <div className='text-base text-red-600 dark:text-red-400 font-bold mt-1 mb-3'>people killed</div>
+        <div className='text-base text-red-500 dark:text-red-400 font-bold mt-1 mb-3'>people killed</div>
 
         <div className='space-y-1'>
           <Row label='Injured' value={`${casualties.totalInjured.toLocaleString()}+`} valueColor='text-orange-600 dark:text-orange-400'
             tip='Includes military and civilian injuries reported by all sides' />
           {casualties.totalChildren > 0 && (
-            <Row label='Children killed' value={`${casualties.totalChildren.toLocaleString()}+`} valueColor='text-red-600 dark:text-red-300'
+            <Row label='Children killed' value={`${casualties.totalChildren.toLocaleString()}+`} valueColor='text-red-500 dark:text-red-300'
               tip='Children under 18 confirmed killed — likely undercounted' />
           )}
           {casualties.totalDisplaced > 0 && (
-            <Row label='Displaced from homes' value={`${(casualties.totalDisplaced / 1_000_000).toFixed(1)}M`} valueColor='text-amber-600 dark:text-amber-400'
+            <Row label='Displaced from homes' value={`${(casualties.totalDisplaced / 1_000_000).toFixed(1)}M`} valueColor='text-blue-600 dark:text-blue-400'
               tip='People forced to leave their homes, many multiple times' />
           )}
         </div>
@@ -183,7 +182,7 @@ export default function DeepDivePanel() {
                 <div key={region} className='flex items-center justify-between text-sm'>
                   <span className='text-gray-700 dark:text-zinc-300'>{region}</span>
                   <div className='flex items-center gap-2'>
-                    <span className='font-bold text-red-700 dark:text-red-400 tabular-nums'>{d.killed.toLocaleString()}</span>
+                    <span className='font-bold text-gray-900 dark:text-zinc-100 tabular-nums'>{d.killed.toLocaleString()}</span>
                     {d.injured > 0 && (
                       <span className='text-xs text-gray-400 tabular-nums'>({d.injured.toLocaleString()} inj)</span>
                     )}
@@ -201,12 +200,12 @@ export default function DeepDivePanel() {
 
       {/* ── YOUR HOUSEHOLD COST ── */}
       <div className='px-4 pt-4 pb-3 border-b border-gray-200 dark:border-zinc-700'>
-        <SectionTitle icon={<IconReceipt className='h-5 w-5 text-orange-600' />} title='Cost to Your Household' />
-        <div className='text-4xl font-black text-orange-700 dark:text-orange-400 tabular-nums leading-none'>
+        <SectionTitle icon={<IconReceipt className='h-5 w-5 text-green-700 dark:text-green-500' />} title='Cost to Your Household' />
+        <div className='text-4xl font-black text-green-800 dark:text-green-400 tabular-nums leading-none'>
           +${impact.totalMonthlyExtra}
         </div>
-        <div className='text-base text-orange-600 dark:text-orange-300 font-bold mt-1'>extra per month</div>
-        <div className='text-sm text-gray-500 mb-3'>That&apos;s <strong className='text-gray-800 dark:text-zinc-200'>${annualCostPerHousehold.toLocaleString()}/year</strong> more than before the war</div>
+        <div className='text-base text-green-700 dark:text-green-300 font-bold mt-1'>extra per month</div>
+        <div className='text-sm text-gray-500 mb-3'>That&apos;s <strong className='text-green-800 dark:text-green-200'>${annualCostPerHousehold.toLocaleString()}/year</strong> more than before the war</div>
 
         {/* Gas */}
         <StatCard>
@@ -261,7 +260,7 @@ export default function DeepDivePanel() {
             Natural gas: <strong>${impact.natGasMMBtu.toFixed(1)}/MMBtu</strong> (was ${BASELINE.natGasMMBtu.toFixed(1)})
           </div>
           {impact.natGasMMBtu > 12 && (
-            <div className='text-sm text-red-600 dark:text-red-400 font-bold mt-1'>
+            <div className='text-sm text-green-800 dark:text-green-300 font-bold mt-1'>
               Qatar&apos;s Ras Laffan destroyed — 17% of global LNG gone
             </div>
           )}
@@ -293,7 +292,7 @@ export default function DeepDivePanel() {
           </div>
           <div className='flex items-center justify-between mt-1 text-sm'>
             <span className='text-gray-500'>Before: ${BASELINE.oilPriceBbl}/bbl</span>
-            <span className='text-orange-600 dark:text-orange-400 font-bold'>+${oilDelta > 0 ? oilDelta.toFixed(0) : '0'}/barrel</span>
+            <span className='text-green-700 dark:text-green-400 font-bold'>+${oilDelta > 0 ? oilDelta.toFixed(0) : '0'}/barrel</span>
           </div>
         </StatCard>
 
@@ -349,17 +348,17 @@ export default function DeepDivePanel() {
           <div className='space-y-1'>
             <Row label='Facilities targeted' value={`${nuclear.facilitiesTargeted} of 6`}
               tip='Natanz, Fordow, Isfahan, Arak, Bushehr, Tehran Research Reactor' />
-            <Row label='Facilities destroyed' value={`${nuclear.facilitiesDestroyed} of 6`} valueColor='text-red-700 dark:text-red-400' />
+            <Row label='Facilities destroyed' value={`${nuclear.facilitiesDestroyed} of 6`} valueColor='text-orange-700 dark:text-orange-400' />
             <Row label='Enrichment remaining' value={`${nuclear.enrichmentPct}%`}
-              valueColor={nuclear.enrichmentPct > 50 ? 'text-green-700 dark:text-green-400' : nuclear.enrichmentPct > 20 ? 'text-orange-700 dark:text-orange-400' : 'text-red-700 dark:text-red-400'}
+              valueColor={nuclear.enrichmentPct > 50 ? 'text-green-700 dark:text-green-400' : nuclear.enrichmentPct > 20 ? 'text-orange-700 dark:text-orange-400' : 'text-orange-800 dark:text-orange-300'}
               tip="Iran's ability to enrich uranium. Lower = more destroyed." />
           </div>
           <div className='mt-1.5'>
-            <Bar pct={nuclear.enrichmentPct} color={nuclear.enrichmentPct < 30 ? 'bg-red-500' : nuclear.enrichmentPct < 60 ? 'bg-orange-500' : 'bg-green-500'} />
+            <Bar pct={nuclear.enrichmentPct} color={nuclear.enrichmentPct < 30 ? 'bg-orange-600' : nuclear.enrichmentPct < 60 ? 'bg-orange-500' : 'bg-green-500'} />
           </div>
 
           <Row label='Radiation risk' value={nuclear.radiationRisk.toUpperCase()}
-            valueColor={nuclear.radiationRisk === 'high' ? 'text-red-700 dark:text-red-500' : nuclear.radiationRisk === 'elevated' ? 'text-orange-700 dark:text-orange-400' : 'text-yellow-700 dark:text-yellow-400'}
+            valueColor={nuclear.radiationRisk === 'high' ? 'text-orange-800 dark:text-orange-400' : nuclear.radiationRisk === 'elevated' ? 'text-orange-700 dark:text-orange-400' : 'text-yellow-700 dark:text-yellow-400'}
             tip='Risk of radioactive contamination to nearby populations' />
 
           <div className='text-sm text-gray-500 dark:text-zinc-400 mt-1 italic'>{nuclear.label}</div>
@@ -440,7 +439,7 @@ export default function DeepDivePanel() {
             tip='Number of oil/gas facilities damaged or destroyed' />
         </div>
         <div className='mt-1.5'>
-          <Bar pct={supply.productionPct * 4} color={supply.level === 'catastrophe' ? 'bg-red-600' : supply.level === 'crisis' ? 'bg-red-500' : 'bg-orange-500'} />
+          <Bar pct={supply.productionPct * 4} color={supply.level === 'catastrophe' ? 'bg-orange-700' : supply.level === 'crisis' ? 'bg-orange-600' : 'bg-orange-500'} />
         </div>
 
         {supply.chokepoints.length > 0 && (
@@ -455,11 +454,11 @@ export default function DeepDivePanel() {
                   <span className='text-base font-bold text-gray-800 dark:text-zinc-200'>
                     {cp.id === 'strait-of-hormuz' ? 'Strait of Hormuz' : 'Bab el-Mandeb'}
                   </span>
-                  <span className={`text-lg font-black tabular-nums ${cp.blockedPct >= 60 ? 'text-red-700 dark:text-red-400' : cp.blockedPct >= 30 ? 'text-orange-700 dark:text-orange-400' : 'text-amber-700 dark:text-amber-400'}`}>
+                  <span className={`text-lg font-black tabular-nums ${cp.blockedPct >= 60 ? 'text-orange-800 dark:text-orange-400' : cp.blockedPct >= 30 ? 'text-orange-700 dark:text-orange-400' : 'text-amber-700 dark:text-amber-400'}`}>
                     {cp.blockedPct}%
                   </span>
                 </div>
-                <Bar pct={cp.blockedPct} color={cp.blockedPct >= 60 ? 'bg-red-500' : cp.blockedPct >= 30 ? 'bg-orange-500' : 'bg-amber-500'} height='h-2' />
+                <Bar pct={cp.blockedPct} color={cp.blockedPct >= 60 ? 'bg-orange-600' : cp.blockedPct >= 30 ? 'bg-orange-500' : 'bg-amber-500'} height='h-2' />
                 <div className='text-xs text-gray-500 mt-1'>
                   {(cp.capacityBPD / 1_000_000).toFixed(1)}M BPD capacity — {(cp.blockedBPD / 1_000_000).toFixed(1)}M blocked
                 </div>
@@ -501,19 +500,22 @@ export default function DeepDivePanel() {
         )}
 
         <div className='mt-3 pt-2 border-t border-gray-200 dark:border-zinc-800/50'>
-          <Link href='/dashboard/fires' className='flex items-center justify-between rounded-xl bg-white dark:bg-zinc-800/40 border border-gray-200 dark:border-zinc-700/50 p-3 shadow-sm hover:shadow-md transition-shadow'>
+          <button
+            onClick={() => window.dispatchEvent(new CustomEvent('enter-map-mode'))}
+            className='w-full flex items-center justify-between rounded-xl bg-white dark:bg-zinc-800/40 border border-gray-200 dark:border-zinc-700/50 p-3 shadow-sm hover:shadow-md transition-shadow cursor-pointer'
+          >
             <div className='flex items-center gap-4 text-sm'>
               <span className='flex items-center gap-1.5 text-orange-600'>
                 <IconFlame className='h-4 w-4' />
                 <span className='font-bold tabular-nums'>{loading ? '...' : activeFires} active</span>
               </span>
-              <span className='flex items-center gap-1.5 text-yellow-600 dark:text-yellow-400'>
+              <span className='flex items-center gap-1.5 text-teal-600 dark:text-teal-400'>
                 <IconWorld className='h-4 w-4' />
                 <span className='font-bold tabular-nums'>{curatedFires.length} tracked</span>
               </span>
             </div>
             <span className='text-sm text-blue-600 dark:text-blue-400 font-bold'>View map →</span>
-          </Link>
+          </button>
         </div>
       </div>
 

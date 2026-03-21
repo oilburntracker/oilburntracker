@@ -31,9 +31,9 @@ export default function HeroPills() {
 
       {/* Energy cost */}
       <div className='flex items-center gap-1.5 min-w-0'>
-        <IconReceipt className='h-5 w-5 text-amber-600 shrink-0' />
+        <IconReceipt className='h-5 w-5 text-green-700 dark:text-green-500 shrink-0' />
         <div className='min-w-0'>
-          <div className='text-base md:text-lg font-black text-amber-700 dark:text-amber-400 tabular-nums leading-none'>
+          <div className='text-base md:text-lg font-black text-green-800 dark:text-green-400 tabular-nums leading-none'>
             +${impact.totalMonthlyExtra}
           </div>
           <div className='text-[10px] text-gray-500 leading-none mt-0.5 hidden md:block'>/mo per household</div>
@@ -46,7 +46,7 @@ export default function HeroPills() {
       <div className='flex items-center gap-1.5 min-w-0'>
         <IconSkull className='h-5 w-5 text-red-600 shrink-0' />
         <div className='min-w-0'>
-          <div className='text-base md:text-lg font-black text-red-700 dark:text-red-500 tabular-nums leading-none'>
+          <div className='text-base md:text-lg font-black text-red-600 dark:text-red-500 tabular-nums leading-none'>
             {casualties.totalKilled.toLocaleString()}+
           </div>
           <div className='text-[10px] text-gray-500 leading-none mt-0.5 hidden md:block'>killed</div>

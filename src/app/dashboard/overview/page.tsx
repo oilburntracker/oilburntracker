@@ -147,6 +147,13 @@ export default function OverviewPage() {
   const [mapMode, setMapMode] = useState(false);
   useFireData();
 
+  // Listen for map mode trigger from DeepDivePanel "View map" button
+  useEffect(() => {
+    const handler = () => setMapMode(true);
+    window.addEventListener('enter-map-mode', handler);
+    return () => window.removeEventListener('enter-map-mode', handler);
+  }, []);
+
   const handleFlyTo = useCallback((lat: number, lng: number, zoom?: number) => {
     window.dispatchEvent(
       new CustomEvent('map-flyto', { detail: { lng, lat, zoom: zoom || 10 } })
