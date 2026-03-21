@@ -347,27 +347,7 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
   return (
     <div ref={scrubberRef} className='absolute bottom-0 left-0 right-0 z-10'>
 
-      {/* ── Compact death toll pill — always visible above scrubber ── */}
-      {!expanded && casualties.totalKilled > 0 && (
-        <div className='mx-3 mb-2 inline-flex items-center gap-3 rounded-lg bg-red-950/80 backdrop-blur-md border border-red-500/30 px-3 py-1.5 shadow-lg'>
-          <span className='flex items-center gap-1.5 text-sm font-black text-red-400'>
-            <IconUsers className='h-4 w-4' />
-            {casualties.totalKilled.toLocaleString()}+ killed
-          </span>
-          {casualties.totalDisplaced > 0 && (
-            <span className='text-xs font-bold text-amber-400'>
-              {(casualties.totalDisplaced / 1000000).toFixed(1)}M displaced
-            </span>
-          )}
-          {hasEvent && todayEvents[0] && (
-            <span className='text-xs text-foreground/70 font-semibold max-w-[200px] truncate'>
-              {todayEvents[0].title}
-            </span>
-          )}
-        </div>
-      )}
-
-      {/* Feed removed — map pin popups are the primary UI now */}
+      {/* Feed removed — stats panel + map pin popups are the primary UI now */}
 
       {/* ── Expanded full event list ── */}
       {expanded && (

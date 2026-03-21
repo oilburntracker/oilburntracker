@@ -10,8 +10,9 @@ import { useFireStore } from '@/stores/fire-store';
 import { curatedFires, getSupplyDisruptionUpTo } from '@/features/fires/data/curated-fires';
 import { getCasualtiesUpTo, getVisibleFacilityIds, getNuclearStatusUpTo } from '@/features/timeline/data/conflict-events';
 import { getWarCostUpTo } from '@/features/timeline/data/war-costs';
-import { IconFlame, IconBuildingFactory, IconWorld, IconAlertTriangle, IconSkull, IconCloud, IconX, IconBomb, IconBuildingSkyscraper, IconTrendingUp, IconChevronUp, IconRadioactive } from '@tabler/icons-react';
+import { IconFlame, IconBuildingFactory, IconWorld, IconAlertTriangle, IconSkull, IconCloud, IconX, IconBomb, IconBuildingSkyscraper, IconTrendingUp, IconChevronUp, IconRadioactive, IconReceipt, IconGasStation, IconShoppingCart, IconBolt, IconPackage } from '@tabler/icons-react';
 import { formatCO2, co2Equivalents } from '@/features/emissions/utils/emissions-model';
+import { getConsumerImpactUpTo, BASELINE } from '@/features/impact/data/consumer-impact';
 import Link from 'next/link';
 
 const FireMap = dynamic(() => import('@/features/map/components/fire-map'), {
@@ -57,6 +58,8 @@ function CompactStats() {
   const casualties = getCasualtiesUpTo(timelineDate);
   const cost = getWarCostUpTo(timelineDate);
   const nuclear = getNuclearStatusUpTo(timelineDate);
+  const impact = getConsumerImpactUpTo(timelineDate);
+  const gasMonthlyExtra = Math.max(0, (impact.gasPriceGallon - BASELINE.gasPriceGallon) * BASELINE.monthlyGasGallons);
 
   if (collapsed) {
     return (
@@ -83,18 +86,23 @@ function CompactStats() {
           <span className='text-[10px] text-zinc-500'>offline</span>
         </div>
         {nuclear && (
-          <div className='flex items-center gap-2'>
+          <div className='flex items-center gap-2 mb-1'>
             <IconRadioactive className='h-3.5 w-3.5 text-green-400' />
             <span className='text-sm font-black tabular-nums text-green-400'>{nuclear.enrichmentPct}%</span>
             <span className='text-[10px] text-zinc-500'>enrichment</span>
           </div>
         )}
+        <div className='flex items-center gap-2'>
+          <IconReceipt className='h-3.5 w-3.5 text-orange-400' />
+          <span className='text-sm font-black text-orange-400 tabular-nums'>+${impact.totalMonthlyExtra}</span>
+          <span className='text-[10px] text-zinc-500'>/mo cost</span>
+        </div>
       </button>
     );
   }
 
   return (
-    <div className='absolute top-3 right-3 z-10 w-[220px] rounded-xl border border-zinc-700/80 bg-black/90 backdrop-blur-md shadow-2xl overflow-hidden'>
+    <div className='absolute top-3 right-3 z-10 w-[220px] max-h-[calc(100dvh-140px)] rounded-xl border border-zinc-700/80 bg-black/90 backdrop-blur-md shadow-2xl overflow-hidden flex flex-col'>
       {/* ── MINIMIZE BUTTON ── */}
       <button
         onClick={() => setCollapsed(true)}
@@ -103,6 +111,9 @@ function CompactStats() {
       >
         <IconX className='h-3.5 w-3.5' />
       </button>
+
+      {/* ── Scrollable content ── */}
+      <div className='overflow-y-auto flex-1'>
 
       {/* ── CASUALTIES — BIG ── */}
       <div className='px-3 pt-3 pb-2 border-b border-zinc-800'>
@@ -231,6 +242,48 @@ function CompactStats() {
         )}
       </div>
 
+      {/* ── CONSUMER IMPACT ── */}
+      <div className='px-3 pt-2 pb-2 border-b border-zinc-800'>
+        <div className='flex items-center gap-2 mb-1'>
+          <IconReceipt className='h-3.5 w-3.5 text-orange-400' />
+          <span className='text-[10px] uppercase tracking-widest text-zinc-500 font-bold'>Your Cost</span>
+        </div>
+        <div className='text-xl font-black text-orange-400 tabular-nums leading-tight mb-1.5'>
+          +${impact.totalMonthlyExtra}<span className='text-sm font-bold text-zinc-400'>/mo</span>
+        </div>
+        <div className='space-y-0.5'>
+          <div className='flex items-center justify-between text-[11px]'>
+            <span className='flex items-center gap-1.5 text-zinc-400'>
+              <IconGasStation className='h-3 w-3 text-orange-400' />
+              Gas
+            </span>
+            <span className='font-bold text-orange-400 tabular-nums'>${impact.gasPriceGallon.toFixed(2)}/gal</span>
+          </div>
+          <div className='flex items-center justify-between text-[11px]'>
+            <span className='flex items-center gap-1.5 text-zinc-400'>
+              <IconShoppingCart className='h-3 w-3 text-amber-400' />
+              Groceries
+            </span>
+            <span className='font-bold text-amber-400 tabular-nums'>+{impact.groceryInflationPct}%</span>
+          </div>
+          <div className='flex items-center justify-between text-[11px]'>
+            <span className='flex items-center gap-1.5 text-zinc-400'>
+              <IconBolt className='h-3 w-3 text-yellow-400' />
+              Utilities
+            </span>
+            <span className='font-bold text-yellow-400 tabular-nums'>+${impact.monthlyUtilityExtra}</span>
+          </div>
+          <div className='flex items-center justify-between text-[11px]'>
+            <span className='flex items-center gap-1.5 text-zinc-400'>
+              <IconPackage className='h-3 w-3 text-red-400' />
+              Shipping
+            </span>
+            <span className='font-bold text-red-400 tabular-nums'>+{impact.shippingSurchargePct}% &middot; +{impact.deliveryDelayDays}d</span>
+          </div>
+        </div>
+        <div className='text-[9px] text-zinc-600 mt-1 italic'>{impact.headline}</div>
+      </div>
+
       {/* ── EMISSIONS + FIRES ── */}
       <Link href='/dashboard/fires' className='flex items-center justify-between px-3 py-1.5 hover:bg-zinc-900/50 transition-colors' onClick={(e) => e.stopPropagation()}>
         <div className='flex items-center gap-3 text-[11px]'>
@@ -250,6 +303,8 @@ function CompactStats() {
           </span>
         </div>
       </Link>
+
+      </div>{/* end scrollable content */}
 
       {/* ── COLLAPSE ── */}
       <button
