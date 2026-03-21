@@ -2229,3 +2229,20 @@ export function getNuclearStatusUpTo(date: string): NuclearStatus | null {
   }
   return latest;
 }
+
+export function getRecentEventStats(date: string) {
+  const events = getEventsUpTo(date);
+  const dateMs = new Date(date + 'T23:59:59').getTime();
+  const severeCategories = new Set(['escalation', 'retaliation', 'military_strike']);
+
+  let last7 = 0;
+  let severeLast30 = 0;
+
+  for (const e of events) {
+    const diff = (dateMs - new Date(e.date + 'T00:00:00').getTime()) / 86400000;
+    if (diff <= 7) last7++;
+    if (diff <= 30 && severeCategories.has(e.category)) severeLast30++;
+  }
+
+  return { eventsLast7: last7, severeEventsLast30: severeLast30, totalEvents: events.length };
+}
