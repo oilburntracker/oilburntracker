@@ -189,36 +189,12 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
     setTimelineDate(currentDate);
   }, [currentDate, setTimelineDate]);
 
-  // ── When landing on a new date, reset sub-index and show first event ──
-  // Then auto-cycle through remaining events on that day
-  const manualCycleRef = useRef<NodeJS.Timeout | null>(null);
+  // ── When landing on a new date, reset sub-index ──
   useEffect(() => {
     setEventSubIndex(0);
-    if (manualCycleRef.current) clearTimeout(manualCycleRef.current);
-
     if (todayEvents.length > 0 && !isPlaying) {
-      const showEvent = (idx: number) => {
-        const ev = todayEvents[idx];
-        if (!ev) return;
-        setEventSubIndex(idx);
-        setActiveEvent(ev);
-        if (ev.lat && ev.lng && onFlyTo) {
-          onFlyTo(ev.lat, ev.lng, ev.zoom || 8);
-        }
-        window.dispatchEvent(
-          new CustomEvent('map-show-event', { detail: { eventId: ev.id } })
-        );
-        // Auto-advance to next event on this day after 2.5s
-        if (idx < todayEvents.length - 1) {
-          manualCycleRef.current = setTimeout(() => showEvent(idx + 1), 2500);
-        }
-      };
-      showEvent(0);
+      setActiveEvent(todayEvents[0]);
     }
-
-    return () => {
-      if (manualCycleRef.current) clearTimeout(manualCycleRef.current);
-    };
   }, [currentDate]);
 
   // ── Sync scrubber when user clicks a pin on the map ──
@@ -263,7 +239,6 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
 
   // Skip forward/back — step through events within a day first, then jump to next date
   const skipToEvent = useCallback((direction: 1 | -1) => {
-    if (manualCycleRef.current) clearTimeout(manualCycleRef.current);
     const currentDateStr = ALL_DAYS[currentIndex];
     const dayEvents = EVENTS_BY_DATE.get(currentDateStr) || [];
 

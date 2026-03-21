@@ -5,6 +5,7 @@ import dynamic from 'next/dynamic';
 import MapControls from '@/features/map/components/map-controls';
 import FacilityDrawer from '@/features/fires/components/facility-drawer';
 import TimelineScrubber from '@/features/timeline/components/timeline-scrubber';
+import EventFeed from '@/features/timeline/components/event-feed';
 import { useFireData } from '@/features/map/hooks/use-fire-data';
 import { useFireStore } from '@/stores/fire-store';
 import { curatedFires, getSupplyDisruptionUpTo } from '@/features/fires/data/curated-fires';
@@ -385,6 +386,9 @@ export default function OverviewPage() {
 
       {/* Layer controls — top left */}
       <MapControls onFlyTo={handleFlyTo} />
+
+      {/* Event feed — left side */}
+      <EventFeed onFlyTo={handleFlyTo} />
 
       {/* Timeline scrubber — bottom */}
       <TimelineScrubber onFlyTo={handleFlyTo} />
