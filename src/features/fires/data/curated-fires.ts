@@ -473,12 +473,21 @@ function getChokepointBlockedPct(chokepointId: string, date: string): number {
   return latest;
 }
 
+export interface ChokepointDetail {
+  id: string;
+  name: string;
+  capacityBPD: number;
+  blockedPct: number;
+  blockedBPD: number;
+}
+
 export function getSupplyDisruptionUpTo(hitFacilityIds: Set<string>, timelineDate?: string) {
   let productionBPDOffline = 0;
   let transitBPDAtRisk = 0;
   let transitBPDBlocked = 0;
   let facilitiesHit = 0;
   let chokepointsHit = 0;
+  const chokepoints: ChokepointDetail[] = [];
 
   for (const facility of curatedFires) {
     if (!hitFacilityIds.has(facility.id)) continue;
@@ -491,6 +500,13 @@ export function getSupplyDisruptionUpTo(hitFacilityIds: Set<string>, timelineDat
       transitBPDAtRisk += facility.capacityBPD;
       transitBPDBlocked += blockedBPD;
       chokepointsHit++;
+      chokepoints.push({
+        id: facility.id,
+        name: facility.name,
+        capacityBPD: facility.capacityBPD,
+        blockedPct,
+        blockedBPD,
+      });
     } else {
       productionBPDOffline += facility.capacityBPD;
       facilitiesHit++;
@@ -518,6 +534,7 @@ export function getSupplyDisruptionUpTo(hitFacilityIds: Set<string>, timelineDat
     transitBlockedPct,
     facilitiesHit,
     chokepointsHit,
+    chokepoints,
     level,
   };
 }

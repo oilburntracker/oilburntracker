@@ -209,15 +209,20 @@ function CompactStats() {
             </div>
           </div>
         </div>
-        {supply.transitBPDBlocked > 0 && (
-          <div className='flex items-center justify-between mt-1 pt-1 border-t border-zinc-800/50'>
-            <div>
-              <div className='text-xs font-bold text-red-400 tabular-nums'>
-                {supply.transitBlockedPct.toFixed(1)}% transit blocked
+        {supply.chokepoints.length > 0 && (
+          <div className='mt-1 pt-1 border-t border-zinc-800/50 space-y-1'>
+            {supply.chokepoints.map((cp) => (
+              <div key={cp.id} className='flex items-center justify-between text-[11px]'>
+                <span className='text-zinc-400 truncate mr-2'>
+                  {cp.id === 'strait-of-hormuz' ? 'Hormuz' : 'Bab el-Mandeb'}
+                </span>
+                <span className={`font-bold tabular-nums ${cp.blockedPct >= 60 ? 'text-red-400' : cp.blockedPct >= 30 ? 'text-orange-400' : 'text-amber-400'}`}>
+                  {cp.blockedPct}% blocked
+                </span>
               </div>
-              <div className='text-[10px] text-zinc-500 tabular-nums'>
-                {(supply.transitBPDBlocked / 1000000).toFixed(1)}M BPD blocked — {supply.chokepointsHit} chokepoint{supply.chokepointsHit !== 1 ? 's' : ''}
-              </div>
+            ))}
+            <div className='text-[10px] text-zinc-500 tabular-nums'>
+              {(supply.transitBPDBlocked / 1000000).toFixed(1)}M BPD blocked of {(supply.transitBPDAtRisk / 1000000).toFixed(0)}M
             </div>
           </div>
         )}
