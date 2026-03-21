@@ -1,14 +1,21 @@
 'use client';
 
-import { useState, useMemo, useRef, useEffect, useCallback } from 'react';
+import { useMemo, useRef, useEffect, useCallback } from 'react';
 import { useFireStore } from '@/stores/fire-store';
 import {
   getEventsUpTo,
+  getCasualtiesUpTo,
+  getVisibleFacilityIds,
   CATEGORY_COLORS,
   CATEGORY_LABELS,
   type ConflictEvent
 } from '../data/conflict-events';
-import { IconExternalLink, IconSkull, IconMapPin } from '@tabler/icons-react';
+import { getSupplyDisruptionUpTo } from '@/features/fires/data/curated-fires';
+import { getConsumerImpactUpTo } from '@/features/impact/data/consumer-impact';
+import {
+  IconExternalLink, IconSkull, IconMapPin, IconFlame,
+  IconDroplet, IconReceipt, IconAlertTriangle, IconPlayerPlay
+} from '@tabler/icons-react';
 
 function getYouTubeId(url: string): string | null {
   const m = url.match(
@@ -36,6 +43,15 @@ function timeAgo(iso: string): string {
   return `${(diff / 365).toFixed(1)}yr ago`;
 }
 
+// Compute cumulative impact stats at a given date
+function getImpactAt(date: string) {
+  const casualties = getCasualtiesUpTo(date);
+  const facilityIds = getVisibleFacilityIds(date);
+  const supply = getSupplyDisruptionUpTo(facilityIds, date);
+  const impact = getConsumerImpactUpTo(date);
+  return { casualties, supply, impact };
+}
+
 interface EventFeedProps {
   onFlyTo?: (lat: number, lng: number, zoom: number) => void;
   fullPage?: boolean;
@@ -44,33 +60,30 @@ interface EventFeedProps {
 export default function EventFeed({ onFlyTo, fullPage = false }: EventFeedProps) {
   const timelineDate = useFireStore((s) => s.timelineDate);
   const setTimelineDate = useFireStore((s) => s.setTimelineDate);
-  const [activeVideoId, setActiveVideoId] = useState<string | null>(null);
   const scrollRef = useRef<HTMLDivElement>(null);
   const ratiosRef = useRef<Map<string, number>>(new Map());
+  const eventMapRef = useRef<Map<string, ConflictEvent>>(new Map());
 
   const events = useMemo(() => {
     return getEventsUpTo(timelineDate).reverse();
   }, [timelineDate]);
 
-  // Keep refs for observer callback so it uses latest data without re-creating
-  const eventMapRef = useRef<Map<string, ConflictEvent>>(new Map());
-  const videoEventIdsRef = useRef<Set<string>>(new Set());
-
   const eventCount = useMemo(() => {
     const m = new Map<string, ConflictEvent>();
-    const vids = new Set<string>();
-    events.forEach((e) => {
-      m.set(e.id, e);
-      const yt = e.mediaUrls?.find((med) => med.type === 'youtube');
-      if (yt && getYouTubeId(yt.url)) vids.add(e.id);
-    });
+    events.forEach((e) => m.set(e.id, e));
     eventMapRef.current = m;
-    videoEventIdsRef.current = vids;
     return events.length;
   }, [events]);
 
-  // IntersectionObserver: scrolling = scrubbing time + video autoplay
-  // Only re-create when event count changes (not on every date tick)
+  // Precompute impact stats for each unique date in visible events
+  const impactByDate = useMemo(() => {
+    const dates = new Set(events.map((e) => e.date));
+    const map = new Map<string, ReturnType<typeof getImpactAt>>();
+    dates.forEach((d) => map.set(d, getImpactAt(d)));
+    return map;
+  }, [events]);
+
+  // IntersectionObserver: scrolling syncs timeline date
   useEffect(() => {
     const container = scrollRef.current;
     if (!container) return;
@@ -103,11 +116,6 @@ export default function EventFeed({ onFlyTo, fullPage = false }: EventFeedProps)
           if (event && fullPage) {
             setTimelineDate(event.date);
           }
-          if (videoEventIdsRef.current.has(bestId)) {
-            setActiveVideoId(bestId);
-          } else {
-            setActiveVideoId(null);
-          }
         }
       },
       {
@@ -119,15 +127,6 @@ export default function EventFeed({ onFlyTo, fullPage = false }: EventFeedProps)
     const timer = setTimeout(() => {
       const elements = container.querySelectorAll('[data-event-id]');
       elements.forEach((el) => observer.observe(el));
-
-      // Force initial check — first visible card should autoplay immediately
-      if (elements.length > 0) {
-        const firstEl = elements[0];
-        const id = firstEl.getAttribute('data-event-id');
-        if (id && videoEventIdsRef.current.has(id)) {
-          setActiveVideoId(id);
-        }
-      }
     }, 150);
 
     return () => {
@@ -154,8 +153,8 @@ export default function EventFeed({ onFlyTo, fullPage = false }: EventFeedProps)
         {events.map((event) => {
           const ytMedia = event.mediaUrls?.find((m) => m.type === 'youtube');
           const videoId = ytMedia ? getYouTubeId(ytMedia.url) : null;
-          const isPlaying = videoId && activeVideoId === event.id;
           const catColor = CATEGORY_COLORS[event.category];
+          const stats = impactByDate.get(event.date);
 
           return (
             <div
@@ -163,9 +162,41 @@ export default function EventFeed({ onFlyTo, fullPage = false }: EventFeedProps)
               data-event-id={event.id}
               className='rounded-xl border border-gray-200 dark:border-zinc-800 bg-white dark:bg-black/60 shadow-sm overflow-hidden'
             >
+              {/* Impact pills — cumulative damage at this date */}
+              {stats && (
+                <div className='flex items-center gap-2 px-3 py-1.5 bg-gray-50 dark:bg-zinc-900/60 border-b border-gray-100 dark:border-zinc-800/50 overflow-x-auto'>
+                  <span className='flex items-center gap-1 text-[10px] font-bold text-red-600 dark:text-red-400 whitespace-nowrap'>
+                    <IconSkull className='h-3 w-3' />
+                    {stats.casualties.totalKilled.toLocaleString()}
+                  </span>
+                  <span className='text-gray-300 dark:text-zinc-700'>|</span>
+                  <span className='flex items-center gap-1 text-[10px] font-bold text-blue-600 dark:text-blue-400 whitespace-nowrap'>
+                    <IconDroplet className='h-3 w-3' />
+                    {stats.supply.productionPct.toFixed(1)}% offline
+                  </span>
+                  <span className='text-gray-300 dark:text-zinc-700'>|</span>
+                  <span className='flex items-center gap-1 text-[10px] font-bold text-green-700 dark:text-green-400 whitespace-nowrap'>
+                    <IconReceipt className='h-3 w-3' />
+                    +${stats.impact.totalMonthlyExtra}/mo
+                  </span>
+                  {stats.supply.level !== 'normal' && (
+                    <>
+                      <span className='text-gray-300 dark:text-zinc-700'>|</span>
+                      <span className={`text-[10px] font-black uppercase whitespace-nowrap ${
+                        stats.supply.level === 'catastrophe' ? 'text-orange-700 dark:text-orange-400' :
+                        stats.supply.level === 'crisis' ? 'text-orange-600 dark:text-orange-400' :
+                        'text-amber-600 dark:text-amber-400'
+                      }`}>
+                        <IconAlertTriangle className='h-3 w-3 inline' /> {stats.supply.level}
+                      </span>
+                    </>
+                  )}
+                </div>
+              )}
+
               {/* Card header */}
-              <div className='px-3 pt-3 pb-2'>
-                <div className='flex items-center justify-between mb-2'>
+              <div className='px-3 pt-2.5 pb-2'>
+                <div className='flex items-center justify-between mb-1.5'>
                   <div className='flex items-center gap-2'>
                     <div
                       className='h-2.5 w-2.5 rounded-full'
@@ -192,30 +223,33 @@ export default function EventFeed({ onFlyTo, fullPage = false }: EventFeedProps)
                 </h3>
               </div>
 
-              {/* Video — full width, big, autoplay muted on scroll */}
+              {/* YouTube thumbnail — always visible, click to watch */}
               {videoId && (
-                <div className='relative w-full bg-black' style={{ paddingBottom: '56.25%' }}>
-                  {isPlaying ? (
-                    <iframe
-                      src={`https://www.youtube-nocookie.com/embed/${videoId}?rel=0&autoplay=1&mute=1&enablejsapi=1&playsinline=1`}
-                      className='absolute inset-0 w-full h-full border-0'
-                      allow='accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture'
-                      allowFullScreen
-                    />
-                  ) : (
-                    <img
-                      src={`https://img.youtube.com/vi/${videoId}/hqdefault.jpg`}
-                      alt=''
-                      className='absolute inset-0 w-full h-full object-cover opacity-80'
-                      onError={(e) => { (e.target as HTMLImageElement).src = `https://img.youtube.com/vi/${videoId}/default.jpg`; }}
-                    />
-                  )}
+                <a
+                  href={ytMedia!.url}
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='relative block w-full bg-gray-100 dark:bg-black group'
+                  style={{ paddingBottom: '56.25%' }}
+                >
+                  <img
+                    src={`https://img.youtube.com/vi/${videoId}/hqdefault.jpg`}
+                    alt={event.title}
+                    className='absolute inset-0 w-full h-full object-cover'
+                    onError={(e) => { (e.target as HTMLImageElement).src = `https://img.youtube.com/vi/${videoId}/default.jpg`; }}
+                  />
+                  {/* Play button overlay */}
+                  <div className='absolute inset-0 flex items-center justify-center'>
+                    <div className='w-12 h-12 rounded-full bg-black/60 group-hover:bg-red-600 transition-colors flex items-center justify-center'>
+                      <IconPlayerPlay className='h-6 w-6 text-white ml-0.5' />
+                    </div>
+                  </div>
                   {ytMedia?.label && (
                     <div className='absolute bottom-2 left-2 text-[10px] bg-black/80 text-white px-2 py-0.5 rounded font-medium backdrop-blur-sm'>
                       {ytMedia.label}
                     </div>
                   )}
-                </div>
+                </a>
               )}
 
               {/* Body */}
@@ -224,10 +258,10 @@ export default function EventFeed({ onFlyTo, fullPage = false }: EventFeedProps)
                   {event.description}
                 </p>
 
-                {/* Casualties bar */}
+                {/* Casualties from this event */}
                 {event.casualties &&
                   (event.casualties.killed || event.casualties.displaced) && (
-                    <div className='flex items-center gap-3 py-1.5 px-2.5 rounded-lg bg-red-50 dark:bg-red-950/30 border border-red-200 dark:border-red-500/20'>
+                    <div className='flex flex-wrap items-center gap-2 py-1.5 px-2.5 rounded-lg bg-red-50 dark:bg-red-950/30 border border-red-200 dark:border-red-500/20'>
                       {event.casualties.killed != null &&
                         event.casualties.killed > 0 && (
                           <span className='flex items-center gap-1 text-[11px] font-bold text-red-600 dark:text-red-400'>
