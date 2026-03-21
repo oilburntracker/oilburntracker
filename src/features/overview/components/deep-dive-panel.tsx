@@ -118,11 +118,12 @@ export default function DeepDivePanel({ onMapMode }: { onMapMode?: () => void } 
     const warDays = Math.max(1, Math.round((current.getTime() - warStart.getTime()) / 86400000));
 
     // Recession probability — composite from oil price spike, supply disruption, inflation, war cost
-    const oilSpikePct = Math.min(100, ((impact.oilPriceBbl - 75) / 75) * 100); // baseline $75
-    const supplyRisk = Math.min(100, supply.productionPct * 5);
-    const inflationPressure = Math.min(100, impact.groceryInflationPct * 4);
-    const warCostDrag = Math.min(100, (cost.totalBillions / 2000) * 100);
-    const shippingStress = Math.min(100, impact.shippingSurchargePct);
+    // Scales calibrated so current situation is ~40-60%, leaving room for much worse (full embargo, $200+ oil)
+    const oilSpikePct = Math.min(100, ((impact.oilPriceBbl - 75) / 150) * 100); // 100% at $225/bbl
+    const supplyRisk = Math.min(100, supply.productionPct * 2.5); // 100% at 40% offline
+    const inflationPressure = Math.min(100, impact.groceryInflationPct * 2); // 100% at 50% inflation
+    const warCostDrag = Math.min(100, (cost.totalBillions / 5000) * 100); // 100% at $5T
+    const shippingStress = Math.min(100, impact.shippingSurchargePct * 0.5); // 100% at 200% surcharge
     const recessionScore = Math.round(
       oilSpikePct * 0.30 + supplyRisk * 0.25 + inflationPressure * 0.20 + warCostDrag * 0.15 + shippingStress * 0.10
     );
