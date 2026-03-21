@@ -8,7 +8,7 @@ import {
   CATEGORY_LABELS,
   type ConflictEvent
 } from '../data/conflict-events';
-import { IconExternalLink } from '@tabler/icons-react';
+import { IconExternalLink, IconSkull, IconMapPin } from '@tabler/icons-react';
 
 function getYouTubeId(url: string): string | null {
   const m = url.match(
@@ -48,19 +48,16 @@ export default function EventFeed({ onFlyTo, fullPage = false }: EventFeedProps)
   const scrollRef = useRef<HTMLDivElement>(null);
   const ratiosRef = useRef<Map<string, number>>(new Map());
 
-  // Reverse chronological — most recent at top, scroll down = back in time
   const events = useMemo(() => {
     return getEventsUpTo(timelineDate).reverse();
   }, [timelineDate]);
 
-  // Map for quick event lookup
   const eventMap = useMemo(() => {
     const m = new Map<string, ConflictEvent>();
     events.forEach((e) => m.set(e.id, e));
     return m;
   }, [events]);
 
-  // Video event IDs
   const videoEventIds = useMemo(() => {
     const ids = new Set<string>();
     events.forEach((e) => {
@@ -89,7 +86,6 @@ export default function EventFeed({ onFlyTo, fullPage = false }: EventFeedProps)
           }
         });
 
-        // Find the most visible event card
         let bestId: string | null = null;
         let bestRatio = 0;
         ratiosRef.current.forEach((ratio, id) => {
@@ -100,13 +96,10 @@ export default function EventFeed({ onFlyTo, fullPage = false }: EventFeedProps)
         });
 
         if (bestId && bestRatio > 0.3) {
-          // Update timeline date to match focused event
           const event = eventMap.get(bestId);
           if (event && fullPage) {
             setTimelineDate(event.date);
           }
-
-          // Autoplay video if this event has one
           if (videoEventIds.has(bestId)) {
             setActiveVideoId(bestId);
           } else {
@@ -120,7 +113,6 @@ export default function EventFeed({ onFlyTo, fullPage = false }: EventFeedProps)
       }
     );
 
-    // Observe all event cards
     const timer = setTimeout(() => {
       container
         .querySelectorAll('[data-event-id]')
@@ -142,79 +134,56 @@ export default function EventFeed({ onFlyTo, fullPage = false }: EventFeedProps)
     [onFlyTo]
   );
 
-  const wrapperClass = fullPage
-    ? 'h-full overflow-y-auto'
-    : 'w-[360px] max-h-[calc(100dvh-180px)] rounded-xl border border-zinc-700/80 bg-zinc-950/95 backdrop-blur-md shadow-2xl overflow-hidden flex flex-col';
-
   return (
-    <div className={wrapperClass}>
+    <div className={fullPage ? 'h-full' : 'w-[360px] max-h-[calc(100dvh-180px)] rounded-xl border border-zinc-700/80 bg-zinc-950/95 backdrop-blur-md shadow-2xl overflow-hidden flex flex-col'}>
       <div
         ref={scrollRef}
-        className={fullPage ? 'h-full overflow-y-auto' : 'overflow-y-auto flex-1'}
+        className={fullPage ? 'h-full overflow-y-auto px-3 py-3 space-y-3' : 'overflow-y-auto flex-1 px-3 py-3 space-y-3'}
       >
         {events.map((event) => {
           const ytMedia = event.mediaUrls?.find((m) => m.type === 'youtube');
           const videoId = ytMedia ? getYouTubeId(ytMedia.url) : null;
           const isPlaying = videoId && activeVideoId === event.id;
+          const catColor = CATEGORY_COLORS[event.category];
 
           return (
             <div
               key={event.id}
               data-event-id={event.id}
-              className='border-b border-zinc-800/60'
+              className='rounded-xl border border-zinc-800 bg-black/60 overflow-hidden'
             >
-              {/* Post header */}
-              <div className='flex items-center gap-2.5 px-4 pt-3 pb-1.5'>
-                <div
-                  className='h-8 w-8 rounded-full flex items-center justify-center shrink-0 text-[10px] font-black uppercase'
-                  style={{
-                    backgroundColor: CATEGORY_COLORS[event.category] + '25',
-                    color: CATEGORY_COLORS[event.category]
-                  }}
-                >
-                  {CATEGORY_LABELS[event.category].slice(0, 2)}
-                </div>
-                <div className='min-w-0 flex-1'>
-                  <div className='flex items-center gap-1.5'>
+              {/* Card header */}
+              <div className='px-3 pt-3 pb-2'>
+                <div className='flex items-center justify-between mb-2'>
+                  <div className='flex items-center gap-2'>
+                    <div
+                      className='h-2.5 w-2.5 rounded-full'
+                      style={{ backgroundColor: catColor }}
+                    />
                     <span
-                      className='text-xs font-bold'
-                      style={{ color: CATEGORY_COLORS[event.category] }}
+                      className='text-[10px] uppercase tracking-widest font-bold'
+                      style={{ color: catColor }}
                     >
                       {CATEGORY_LABELS[event.category]}
                     </span>
-                    <span className='text-[10px] text-zinc-600'>·</span>
-                    <span className='text-[10px] text-zinc-500'>
+                  </div>
+                  <div className='flex items-center gap-2'>
+                    <span className='text-[10px] text-zinc-500 font-mono'>
+                      {formatDate(event.date)}
+                    </span>
+                    <span className='text-[10px] text-zinc-600'>
                       {timeAgo(event.date)}
                     </span>
                   </div>
-                  <span className='text-[10px] text-zinc-600'>
-                    {formatDate(event.date)}
-                  </span>
                 </div>
-                {event.lat && event.lng && (
-                  <button
-                    onClick={() => handleFlyTo(event)}
-                    className='text-[10px] text-zinc-500 hover:text-blue-400 transition-colors px-2 py-1 rounded-md hover:bg-zinc-800 cursor-pointer shrink-0'
-                    title='Show on map'
-                  >
-                    Map ↗
-                  </button>
-                )}
-              </div>
-
-              {/* Title */}
-              <div className='px-4 pb-2'>
-                <h3 className='text-[13px] font-bold text-zinc-100 leading-snug'>
+                <h3 className='text-sm font-black text-zinc-100 leading-snug'>
                   {event.title}
                 </h3>
               </div>
 
-              {/* Video — autoplay muted when scrolled into view */}
+              {/* Video — full width, big, autoplay muted on scroll */}
               {videoId && (
-                <div
-                  className='relative w-full bg-black'
-                  style={{ paddingBottom: '56.25%' }}
-                >
+                <div className='relative w-full bg-black' style={{ paddingBottom: '56.25%' }}>
                   {isPlaying ? (
                     <iframe
                       src={`https://www.youtube-nocookie.com/embed/${videoId}?rel=0&autoplay=1&mute=1&enablejsapi=1&playsinline=1`}
@@ -224,13 +193,13 @@ export default function EventFeed({ onFlyTo, fullPage = false }: EventFeedProps)
                     />
                   ) : (
                     <img
-                      src={`https://img.youtube.com/vi/${videoId}/hqdefault.jpg`}
+                      src={`https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`}
                       alt=''
-                      className='absolute inset-0 w-full h-full object-cover opacity-60'
+                      className='absolute inset-0 w-full h-full object-cover opacity-70'
                     />
                   )}
                   {ytMedia?.label && (
-                    <div className='absolute bottom-2 left-2 text-[10px] bg-black/80 text-zinc-300 px-2 py-0.5 rounded font-medium'>
+                    <div className='absolute bottom-2 left-2 text-[10px] bg-black/80 text-zinc-300 px-2 py-0.5 rounded font-medium backdrop-blur-sm'>
                       {ytMedia.label}
                     </div>
                   )}
@@ -238,46 +207,46 @@ export default function EventFeed({ onFlyTo, fullPage = false }: EventFeedProps)
               )}
 
               {/* Body */}
-              <div className='px-4 py-2.5 space-y-1.5'>
-                <p className='text-xs text-zinc-400 leading-relaxed line-clamp-3'>
+              <div className='px-3 py-2.5 space-y-2'>
+                <p className='text-[11px] text-zinc-400 leading-relaxed'>
                   {event.description}
                 </p>
 
-                {/* Casualties */}
-                {event.casualties && (
-                  <div className='flex items-center gap-3'>
-                    {event.casualties.killed != null &&
-                      event.casualties.killed > 0 && (
-                        <span className='text-[11px] font-bold text-red-400'>
-                          {event.casualties.killed.toLocaleString()}+ killed
-                        </span>
-                      )}
-                    {event.casualties.displaced != null &&
-                      event.casualties.displaced > 0 && (
-                        <span className='text-[11px] font-bold text-amber-400'>
-                          {event.casualties.displaced.toLocaleString()}{' '}
-                          displaced
-                        </span>
-                      )}
-                    {event.casualties.children != null &&
-                      event.casualties.children > 0 && (
-                        <span className='text-[11px] font-bold text-red-300'>
-                          {event.casualties.children.toLocaleString()} children
-                        </span>
-                      )}
-                  </div>
-                )}
+                {/* Casualties bar */}
+                {event.casualties &&
+                  (event.casualties.killed || event.casualties.displaced) && (
+                    <div className='flex items-center gap-3 py-1.5 px-2.5 rounded-lg bg-red-950/30 border border-red-500/20'>
+                      {event.casualties.killed != null &&
+                        event.casualties.killed > 0 && (
+                          <span className='flex items-center gap-1 text-[11px] font-bold text-red-400'>
+                            <IconSkull className='h-3 w-3' />
+                            {event.casualties.killed.toLocaleString()}+ killed
+                          </span>
+                        )}
+                      {event.casualties.displaced != null &&
+                        event.casualties.displaced > 0 && (
+                          <span className='text-[11px] font-bold text-amber-400'>
+                            {event.casualties.displaced.toLocaleString()} displaced
+                          </span>
+                        )}
+                      {event.casualties.children != null &&
+                        event.casualties.children > 0 && (
+                          <span className='text-[11px] font-bold text-red-300'>
+                            {event.casualties.children.toLocaleString()} children
+                          </span>
+                        )}
+                    </div>
+                  )}
 
-                {/* Links */}
-                {(event.sourceUrl ||
-                  event.mediaUrls?.some((m) => m.type !== 'youtube')) && (
-                  <div className='flex flex-wrap gap-2 pt-0.5'>
+                {/* Action row */}
+                <div className='flex items-center justify-between pt-1 border-t border-zinc-800/50'>
+                  <div className='flex flex-wrap gap-2'>
                     {event.sourceUrl && (
                       <a
                         href={event.sourceUrl}
                         target='_blank'
                         rel='noopener noreferrer'
-                        className='inline-flex items-center gap-1 text-[11px] text-blue-400 hover:text-blue-300 font-medium'
+                        className='inline-flex items-center gap-1 text-[10px] text-blue-400 hover:text-blue-300 font-medium px-2 py-1 rounded-md hover:bg-zinc-800/50 transition-colors'
                       >
                         <IconExternalLink className='h-3 w-3' />
                         Source
@@ -291,14 +260,23 @@ export default function EventFeed({ onFlyTo, fullPage = false }: EventFeedProps)
                           href={media.url}
                           target='_blank'
                           rel='noopener noreferrer'
-                          className='inline-flex items-center gap-1 text-[11px] text-blue-400 hover:text-blue-300 font-medium'
+                          className='inline-flex items-center gap-1 text-[10px] text-blue-400 hover:text-blue-300 font-medium px-2 py-1 rounded-md hover:bg-zinc-800/50 transition-colors'
                         >
                           <IconExternalLink className='h-3 w-3' />
                           {media.label || media.type}
                         </a>
                       ))}
                   </div>
-                )}
+                  {event.lat && event.lng && (
+                    <button
+                      onClick={() => handleFlyTo(event)}
+                      className='inline-flex items-center gap-1 text-[10px] text-zinc-500 hover:text-zinc-300 font-medium px-2 py-1 rounded-md hover:bg-zinc-800/50 transition-colors cursor-pointer'
+                    >
+                      <IconMapPin className='h-3 w-3' />
+                      Map
+                    </button>
+                  )}
+                </div>
               </div>
             </div>
           );
