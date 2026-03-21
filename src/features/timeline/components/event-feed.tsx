@@ -117,10 +117,18 @@ export default function EventFeed({ onFlyTo, fullPage = false }: EventFeedProps)
     );
 
     const timer = setTimeout(() => {
-      container
-        .querySelectorAll('[data-event-id]')
-        .forEach((el) => observer.observe(el));
-    }, 100);
+      const elements = container.querySelectorAll('[data-event-id]');
+      elements.forEach((el) => observer.observe(el));
+
+      // Force initial check — first visible card should autoplay immediately
+      if (elements.length > 0) {
+        const firstEl = elements[0];
+        const id = firstEl.getAttribute('data-event-id');
+        if (id && videoEventIdsRef.current.has(id)) {
+          setActiveVideoId(id);
+        }
+      }
+    }, 150);
 
     return () => {
       clearTimeout(timer);

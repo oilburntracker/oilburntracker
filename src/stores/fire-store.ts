@@ -114,7 +114,7 @@ export const useFireStore = create<FireStore>((set) => ({
   },
 
   selectedFacility: null,
-  timelineDate: '2026-03-19',
+  timelineDate: '2026-03-21',
   isMuted: true,
 
   setFireData: (data) => set({ fireData: data }),
