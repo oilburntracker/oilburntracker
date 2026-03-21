@@ -146,7 +146,7 @@ export default function EventFeed({ onFlyTo, fullPage = false }: EventFeedProps)
   );
 
   return (
-    <div className={fullPage ? 'h-full' : 'w-[360px] max-h-[calc(100dvh-180px)] rounded-xl border border-zinc-700/80 bg-zinc-950/95 backdrop-blur-md shadow-2xl overflow-hidden flex flex-col'}>
+    <div className={fullPage ? 'h-full' : 'w-[360px] max-h-[calc(100dvh-180px)] rounded-xl border border-gray-300 dark:border-zinc-700/80 bg-white/95 dark:bg-zinc-950/95 backdrop-blur-md shadow-2xl overflow-hidden flex flex-col'}>
       <div
         ref={scrollRef}
         className={fullPage ? 'h-full overflow-y-auto px-3 py-3 space-y-3' : 'overflow-y-auto flex-1 px-3 py-3 space-y-3'}
@@ -161,7 +161,7 @@ export default function EventFeed({ onFlyTo, fullPage = false }: EventFeedProps)
             <div
               key={event.id}
               data-event-id={event.id}
-              className='rounded-xl border border-zinc-800 bg-black/60 overflow-hidden'
+              className='rounded-xl border border-gray-200 dark:border-zinc-800 bg-white dark:bg-black/60 shadow-sm overflow-hidden'
             >
               {/* Card header */}
               <div className='px-3 pt-3 pb-2'>
@@ -179,15 +179,15 @@ export default function EventFeed({ onFlyTo, fullPage = false }: EventFeedProps)
                     </span>
                   </div>
                   <div className='flex items-center gap-2'>
-                    <span className='text-[10px] text-zinc-500 font-mono'>
+                    <span className='text-[10px] text-gray-500 dark:text-zinc-500 font-mono'>
                       {formatDate(event.date)}
                     </span>
-                    <span className='text-[10px] text-zinc-600'>
+                    <span className='text-[10px] text-gray-400 dark:text-zinc-600'>
                       {timeAgo(event.date)}
                     </span>
                   </div>
                 </div>
-                <h3 className='text-sm font-black text-zinc-100 leading-snug'>
+                <h3 className='text-sm font-black text-gray-900 dark:text-zinc-100 leading-snug'>
                   {event.title}
                 </h3>
               </div>
@@ -204,13 +204,14 @@ export default function EventFeed({ onFlyTo, fullPage = false }: EventFeedProps)
                     />
                   ) : (
                     <img
-                      src={`https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`}
+                      src={`https://img.youtube.com/vi/${videoId}/hqdefault.jpg`}
                       alt=''
-                      className='absolute inset-0 w-full h-full object-cover opacity-70'
+                      className='absolute inset-0 w-full h-full object-cover opacity-80'
+                      onError={(e) => { (e.target as HTMLImageElement).src = `https://img.youtube.com/vi/${videoId}/default.jpg`; }}
                     />
                   )}
                   {ytMedia?.label && (
-                    <div className='absolute bottom-2 left-2 text-[10px] bg-black/80 text-zinc-300 px-2 py-0.5 rounded font-medium backdrop-blur-sm'>
+                    <div className='absolute bottom-2 left-2 text-[10px] bg-black/80 text-white px-2 py-0.5 rounded font-medium backdrop-blur-sm'>
                       {ytMedia.label}
                     </div>
                   )}
@@ -219,30 +220,30 @@ export default function EventFeed({ onFlyTo, fullPage = false }: EventFeedProps)
 
               {/* Body */}
               <div className='px-3 py-2.5 space-y-2'>
-                <p className='text-[11px] text-zinc-400 leading-relaxed'>
+                <p className='text-[11px] text-gray-600 dark:text-zinc-400 leading-relaxed'>
                   {event.description}
                 </p>
 
                 {/* Casualties bar */}
                 {event.casualties &&
                   (event.casualties.killed || event.casualties.displaced) && (
-                    <div className='flex items-center gap-3 py-1.5 px-2.5 rounded-lg bg-red-950/30 border border-red-500/20'>
+                    <div className='flex items-center gap-3 py-1.5 px-2.5 rounded-lg bg-red-50 dark:bg-red-950/30 border border-red-200 dark:border-red-500/20'>
                       {event.casualties.killed != null &&
                         event.casualties.killed > 0 && (
-                          <span className='flex items-center gap-1 text-[11px] font-bold text-red-400'>
+                          <span className='flex items-center gap-1 text-[11px] font-bold text-red-600 dark:text-red-400'>
                             <IconSkull className='h-3 w-3' />
                             {event.casualties.killed.toLocaleString()}+ killed
                           </span>
                         )}
                       {event.casualties.displaced != null &&
                         event.casualties.displaced > 0 && (
-                          <span className='text-[11px] font-bold text-amber-400'>
+                          <span className='text-[11px] font-bold text-amber-600 dark:text-amber-400'>
                             {event.casualties.displaced.toLocaleString()} displaced
                           </span>
                         )}
                       {event.casualties.children != null &&
                         event.casualties.children > 0 && (
-                          <span className='text-[11px] font-bold text-red-300'>
+                          <span className='text-[11px] font-bold text-red-500 dark:text-red-300'>
                             {event.casualties.children.toLocaleString()} children
                           </span>
                         )}
@@ -250,14 +251,14 @@ export default function EventFeed({ onFlyTo, fullPage = false }: EventFeedProps)
                   )}
 
                 {/* Action row */}
-                <div className='flex items-center justify-between pt-1 border-t border-zinc-800/50'>
+                <div className='flex items-center justify-between pt-1 border-t border-gray-200 dark:border-zinc-800/50'>
                   <div className='flex flex-wrap gap-2'>
                     {event.sourceUrl && (
                       <a
                         href={event.sourceUrl}
                         target='_blank'
                         rel='noopener noreferrer'
-                        className='inline-flex items-center gap-1 text-[10px] text-blue-400 hover:text-blue-300 font-medium px-2 py-1 rounded-md hover:bg-zinc-800/50 transition-colors'
+                        className='inline-flex items-center gap-1 text-[10px] text-blue-600 dark:text-blue-400 hover:text-blue-500 dark:hover:text-blue-300 font-medium px-2 py-1 rounded-md hover:bg-gray-100 dark:hover:bg-zinc-800/50 transition-colors'
                       >
                         <IconExternalLink className='h-3 w-3' />
                         Source
@@ -271,7 +272,7 @@ export default function EventFeed({ onFlyTo, fullPage = false }: EventFeedProps)
                           href={media.url}
                           target='_blank'
                           rel='noopener noreferrer'
-                          className='inline-flex items-center gap-1 text-[10px] text-blue-400 hover:text-blue-300 font-medium px-2 py-1 rounded-md hover:bg-zinc-800/50 transition-colors'
+                          className='inline-flex items-center gap-1 text-[10px] text-blue-600 dark:text-blue-400 hover:text-blue-500 dark:hover:text-blue-300 font-medium px-2 py-1 rounded-md hover:bg-gray-100 dark:hover:bg-zinc-800/50 transition-colors'
                         >
                           <IconExternalLink className='h-3 w-3' />
                           {media.label || media.type}
@@ -281,7 +282,7 @@ export default function EventFeed({ onFlyTo, fullPage = false }: EventFeedProps)
                   {event.lat && event.lng && (
                     <button
                       onClick={() => handleFlyTo(event)}
-                      className='inline-flex items-center gap-1 text-[10px] text-zinc-500 hover:text-zinc-300 font-medium px-2 py-1 rounded-md hover:bg-zinc-800/50 transition-colors cursor-pointer'
+                      className='inline-flex items-center gap-1 text-[10px] text-gray-500 dark:text-zinc-500 hover:text-gray-700 dark:hover:text-zinc-300 font-medium px-2 py-1 rounded-md hover:bg-gray-100 dark:hover:bg-zinc-800/50 transition-colors cursor-pointer'
                     >
                       <IconMapPin className='h-3 w-3' />
                       Map
