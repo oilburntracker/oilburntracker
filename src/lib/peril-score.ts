@@ -29,11 +29,13 @@ export const HISTORICAL_ANCHORS = [
 
 function computeNuclearScore(nuclear: NuclearStatus | null): number {
   if (!nuclear) return 0;
-  const facilitiesScore = (nuclear.facilitiesDestroyed / 6) * 30;
+  const facilitiesScore = (nuclear.facilitiesDestroyed / 6) * 25;
   const enrichmentDestroyed = (100 - nuclear.enrichmentPct) / 100;
-  const enrichmentScore = enrichmentDestroyed * 25;
+  const enrichmentScore = enrichmentDestroyed * 20;
+  // "high" = contamination risk from bombed facilities, NOT a meltdown
+  // Only "meltdown" would rival Chernobyl (75) or exceed it
   const radiationMap: Record<string, number> = {
-    none: 0, low: 10, elevated: 25, high: 45,
+    none: 0, low: 5, elevated: 15, high: 25, meltdown: 55,
   };
   const radiationScore = radiationMap[nuclear.radiationRisk] ?? 0;
   return Math.min(100, facilitiesScore + enrichmentScore + radiationScore);
