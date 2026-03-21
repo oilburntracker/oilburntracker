@@ -1965,6 +1965,140 @@ export const conflictEvents: ConflictEvent[] = [
       { type: 'news', url: 'https://www.aljazeera.com/news/2026/3/14/trump-says-many-countries-will-send-warships-to-hormuz-amid-iran-blockade', label: 'Al Jazeera: Trump says many countries will send warships to Hormuz' },
       { type: 'news', url: 'https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-20-26', label: 'CNN Live: Iran war day 21 updates' }
     ]
+  },
+
+  // ══════════════════════════════════════════════
+  // MARCH 21, 2026 — DAY 22: NATANZ, DIEGO GARCIA, 70TH WAVE
+  // ══════════════════════════════════════════════
+  {
+    id: 'natanz-nuclear-strike',
+    date: '2026-03-21',
+    time: '03:00',
+    title: 'US-Israel strikes Natanz nuclear site — IAEA warns of nuclear accident risk',
+    category: 'military_strike',
+    description: 'US and Israeli forces strike the Shahid Ahmadi Roshan uranium enrichment facility at Natanz — Iran\'s most critical nuclear site. Second strike on Natanz during the war (first hit March 1-3 targeting tunnel entrances). Iran\'s Atomic Energy Organization says "no leakage of radioactive materials." IAEA Director Grossi calls for "military restraint to avoid any risk of a nuclear accident." Israel\'s Defense Minister warns strikes "will increase significantly" in the coming week. The White House frames nuclear prevention as a key war objective. Arms control experts warn any breach of underground centrifuge halls could release uranium hexafluoride.',
+    casualties: { killed: 2, injured: 15, source: 'Iran state media / JPost' },
+    facilityId: 'natanz',
+    lat: 33.7225,
+    lng: 51.7275,
+    zoom: 10,
+    sourceUrl: 'https://www.aljazeera.com/news/2026/3/21/iran-says-us-and-israel-attacked-natanz-nuclear-facility',
+    mediaUrls: [
+      { type: 'news', url: 'https://www.jpost.com/middle-east/iran-news/2026-03-20/live-updates-890625', label: 'JPost: US-Israeli strike targets Natanz nuclear site' },
+      { type: 'news', url: 'https://www.timesofisrael.com/liveblog-march-21-2026/', label: 'Times of Israel: Day 22 liveblog' },
+      { type: 'news', url: 'https://www.armscontrol.org/issue-briefs/2026-03/us-war-iran-new-and-lingering-nuclear-risks', label: 'Arms Control Association: Nuclear risks of US war on Iran' },
+      { type: 'news', url: 'https://www.aljazeera.com/news/liveblog/2026/3/21/iran-war-live-trump-says-other-nations-have-to-protect-hormuz-from-iran', label: 'Al Jazeera: Day 22 live updates' }
+    ]
+  },
+  {
+    id: 'diego-garcia-missile',
+    date: '2026-03-21',
+    time: '05:30',
+    title: 'Iran fires missiles at Diego Garcia — 4,000 km range demonstrated',
+    category: 'escalation',
+    description: 'Iran fires two intermediate-range ballistic missiles (IRBMs) at the joint US-UK military base on Diego Garcia in the Indian Ocean — 4,000 km from Iranian territory. One missile malfunctions in flight. The other is intercepted by a US destroyer\'s SM-3 system. No damage to the base. But the strategic significance is immense: Iran\'s previously assessed operational range was 2,000-3,000 km. The demonstrated 4,000+ km range theoretically places European capitals within reach. UK Ministry of Defence condemns Iran\'s "reckless attacks." Iran\'s FM had previously warned British assets are "legitimate targets" after UK authorized US use of its bases.',
+    lat: -7.3195,
+    lng: 72.4229,
+    zoom: 6,
+    sourceUrl: 'https://www.cnbc.com/2026/03/21/iran-targeted-but-did-not-hit-diego-garcia-base-with-missiles-wsj.html',
+    mediaUrls: [
+      { type: 'news', url: 'https://thehill.com/policy/international/5794306-iran-launches-missiles-diego-garcia/', label: 'The Hill: Iran fires missiles toward Diego Garcia' },
+      { type: 'news', url: 'https://theaviationist.com/2026/03/21/iran-fires-two-intermediate-range-ballistic-missiles-at-diego-garcia-base/', label: 'The Aviationist: Iran fires two IRBMs at Diego Garcia' },
+      { type: 'news', url: 'https://www.itv.com/news/2026-03-21/missiles-fired-at-diego-garcia-after-uk-lets-us-use-bases-for-hormuz-strikes', label: 'ITV: MoD condemns Iran\'s reckless attacks on Diego Garcia' },
+      { type: 'news', url: 'https://www.aa.com.tr/en/middle-east/iran-fired-ballistic-missiles-at-us-uk-base-in-indian-ocean-report/3873597', label: 'Anadolu: Iran fired ballistic missiles at US-UK Indian Ocean base' },
+      { type: 'news', url: 'https://www.jpost.com/middle-east/iran-news/article-890690', label: 'JPost: Iran fires two missiles beyond known range' }
+    ]
+  },
+  {
+    id: 'iran-70th-wave',
+    date: '2026-03-21',
+    time: '08:00',
+    title: 'Iran\'s 70th wave — 55+ targets hit across 5 US bases',
+    category: 'retaliation',
+    description: 'IRGC announces the 70th wave of Operation True Promise 4, targeting 55+ locations across the region. Five US military bases hit simultaneously: Prince Sultan Air Base (Saudi Arabia), Al Dhafra (UAE), Ali Al Salem (Kuwait), Erbil (Iraq), and US Fifth Fleet HQ in Bahrain. Emad, Qiam-1 missiles and attack drones used against US bases. Khaibar Shikan and Qadr missiles fired at Haifa, Tel Aviv, Hadera, and other Israeli cities. Saudi air defenses shoot down 47 drones including 38 in a 3-hour window. IRGC describes strategy as "gradual attrition." Despite US claims Iran has lost 90% of missile capability, the pace of attacks hasn\'t slowed.',
+    casualties: { killed: 8, injured: 45, source: 'Al Jazeera / regional media' },
+    lat: 26.2,
+    lng: 50.6,
+    zoom: 5,
+    sourceUrl: 'https://news.cgtn.com/news/2026-03-21/Iran-launches-70th-wave-of-strikes-1LGKjb9Qudi/p.html',
+    mediaUrls: [
+      { type: 'news', url: 'https://www.tribuneindia.com/news/world/irgc-says-70th-wave-of-counter-attacks-launched-5-us-military-installations-targeted/', label: 'Tribune India: IRGC says 70th wave launched, 5 US bases targeted' },
+      { type: 'news', url: 'https://en.mehrnews.com/news/242791/Iran-conducts-70th-wave-of-Operation-True-Promise-4', label: 'Mehr News: Iran conducts 70th wave of Operation True Promise 4' },
+      { type: 'news', url: 'https://www.aljazeera.com/news/2026/3/21/iran-war-what-is-happening-on-day-22-of-us-israel-attacks', label: 'Al Jazeera: Day 22 — what is happening' }
+    ]
+  },
+  {
+    id: 'iran-sanctions-waiver',
+    date: '2026-03-21',
+    time: '10:00',
+    title: 'US lifts sanctions on 140M barrels of Iranian oil at sea',
+    category: 'diplomatic',
+    description: 'Treasury Department issues a 30-day sanctions waiver allowing purchase of 140 million barrels of Iranian crude oil already loaded on vessels at sea — approximately 1.5 days of global consumption. The move aims to ease oil prices (Brent at $112/barrel, highest since war began). Critics note the absurdity: the US is simultaneously bombing Iran and buying its oil. The waiver only covers barrels already at sea, not new production. Oil settles at $110/barrel on the news. Goldman Sachs warns oil will stay above $100 through 2027.',
+    lat: 26.5,
+    lng: 56.0,
+    zoom: 6,
+    sourceUrl: 'https://www.washingtonpost.com/business/2026/03/20/iran-oil-sanctions-trump/',
+    mediaUrls: [
+      { type: 'news', url: 'https://www.cnbc.com/2026/03/20/us-issues-30-day-sanctions-waiver-for-sale-of-iranian-oil-at-sea.html', label: 'CNBC: US issues 30-day sanctions waiver for Iranian oil' },
+      { type: 'news', url: 'https://www.nbcnews.com/world/iran/us-eases-iranian-oil-sanctions-scramble-contain-energy-prices-handing-rcna264546', label: 'NBC: US eases Iranian oil sanctions to contain energy prices' },
+      { type: 'news', url: 'https://www.cbsnews.com/news/trump-administration-temporarily-lifts-sanctions-on-iranian-oil-at-sea/', label: 'CBS: Trump temporarily lifts sanctions on Iranian oil at sea' },
+      { type: 'news', url: 'https://thehill.com/policy/energy-environment/5794259-trump-lifts-iranian-oil-sanctions/', label: 'The Hill: US lifts sanctions on Iranian oil stranded at sea' }
+    ]
+  },
+  {
+    id: 'iran-threatens-tourist-sites',
+    date: '2026-03-21',
+    time: '12:00',
+    title: 'Iran threatens tourist sites worldwide — "parks and resorts won\'t be safe"',
+    category: 'escalation',
+    description: 'General Abolfazl Shekarchi, Iran\'s top military spokesman, warns that "parks, recreational areas and tourist destinations" worldwide "won\'t be safe" for Iran\'s enemies. The threat signals a potential shift from conventional military retaliation to asymmetric global threats — echoing Iran\'s pre-war network of proxy cells and sleeper agents. Separately, IRGC spokesman insists Iran is "producing missiles even during war conditions" despite US claims that Iranian missile capacity is down 90%. The contradictory claims make damage assessment nearly impossible. Travel advisories updated across Europe and Asia.',
+    lat: 35.69,
+    lng: 51.39,
+    zoom: 4,
+    sourceUrl: 'https://www.pbs.org/newshour/world/iran-threatens-to-target-tourism-sites-worldwide-and-says-its-still-building-missiles-nearly-3-weeks-into-war',
+    mediaUrls: [
+      { type: 'news', url: 'https://thehill.com/policy/international/5793186-iran-threats-world-tourism-sites-us-israel/', label: 'The Hill: Iran threatens to target global tourist sites' },
+      { type: 'news', url: 'https://www.theglobeandmail.com/business/article-iran-us-israel-war-kuwait-attacks/', label: 'Globe and Mail: Iran threatens world tourist sites' },
+      { type: 'news', url: 'https://www.turkiyetoday.com/region/iran-threatens-global-tourist-sites-warns-of-zero-restraint-amid-escalation-3216606/', label: 'Turkiye Today: Iran warns of zero restraint' },
+      { type: 'news', url: 'https://www.timesofisrael.com/iran-threatens-to-target-tourist-recreational-sites-worldwide-as-it-keeps-up-attacks-on-gulf/', label: 'Times of Israel: Iran threatens tourist sites worldwide' }
+    ]
+  },
+  {
+    id: 'mojtaba-khamenei-mystery',
+    date: '2026-03-21',
+    time: '14:00',
+    title: 'CIA hunting for Iran\'s invisible Supreme Leader — Mojtaba never seen in public',
+    category: 'diplomatic',
+    description: 'Axios reports the CIA is actively searching for signs of Iran\'s new Supreme Leader Mojtaba Khamenei, who has not appeared in public since being named successor after his father was killed in the opening strikes on Feb 28. His Nowruz message was delivered only as a written statement read on television — no video, no audio. He wrote: "A fracture has emerged in the enemy" and declared Iran dealt a "dizzying blow." Iran\'s entire war is being directed by a leader no one has seen. Questions mount: Is he alive? Is he in a bunker? Is someone else actually running the war? The intelligence vacuum is fueling wild speculation across Iranian exile media.',
+    lat: 35.69,
+    lng: 51.39,
+    zoom: 8,
+    sourceUrl: 'https://www.axios.com/2026/03/21/mojtaba-khamenei-iran-leader-where',
+    mediaUrls: [
+      { type: 'news', url: 'https://www.cnn.com/2026/03/12/middleeast/mojtaba-khamenei-iran-first-speech-intl', label: 'CNN: Mojtaba Khamenei\'s first purported statement' },
+      { type: 'news', url: 'https://www.iranintl.com/en/202603125349', label: 'Iran International: Iran\'s unseen new leader issues first message in writing' },
+      { type: 'news', url: 'https://www.euronews.com/2026/03/16/still-no-mojtaba-iran-war-enters-third-week-amid-leadership-crisis-as-norwuz-looms', label: 'Euronews: Still no Mojtaba — leadership crisis deepens' },
+      { type: 'news', url: 'https://www.france24.com/en/asia-pacific/20260320-supreme-leader-says-iran-dealt-enemies-dizzying-blow', label: 'France 24: Supreme Leader says Iran dealt enemies a dizzying blow' }
+    ]
+  },
+  {
+    id: 'oil-110-war-week-4',
+    date: '2026-03-21',
+    time: '16:00',
+    title: 'War enters week 4 — oil at $110, Hormuz traffic down 70%, 200+ US wounded',
+    category: 'escalation',
+    description: 'Day 22 status: Brent crude at $110/barrel (up from $70 pre-war). Strait of Hormuz tanker traffic down ~70% with 150+ ships anchored outside. 21 confirmed attacks on merchant vessels since March 1. US troop count in region surpasses 50,000. US casualties: 13 killed (7 by enemy fire), 200+ wounded across 7 countries. Iran official death toll: 1,444 (but NGO HRANA documented 3,114 by March 17, including 1,354 civilians and 204 children). No ceasefire in sight — Trump: "You don\'t do a ceasefire when you\'re literally obliterating the other side." NPR: "Iran war enters fourth week with no clear end."',
+    casualties: { killed: 0, source: 'Cumulative status — see individual events' },
+    lat: 26.56,
+    lng: 56.25,
+    zoom: 5,
+    sourceUrl: 'https://www.npr.org/2026/03/21/nx-s1-5755539/iran-war-fourth-week',
+    mediaUrls: [
+      { type: 'news', url: 'https://fortune.com/article/price-of-oil-03-20-2026/', label: 'Fortune: Oil prices March 20-21 — Brent at $110+' },
+      { type: 'news', url: 'https://www.aljazeera.com/news/2026/3/21/iran-war-what-is-happening-on-day-22-of-us-israel-attacks', label: 'Al Jazeera: What is happening on Day 22' },
+      { type: 'news', url: 'https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis', label: 'Wikipedia: 2026 Strait of Hormuz crisis' },
+      { type: 'news', url: 'https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war', label: 'Wikipedia: Timeline of the 2026 Iran war' }
+    ]
   }
 ];
 

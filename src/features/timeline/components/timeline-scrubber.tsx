@@ -32,7 +32,7 @@ import { formatCO2 } from '@/features/emissions/utils/emissions-model';
 // ── Build day-by-day date array from first event to today ──
 function buildDayArray(): string[] {
   const start = new Date('2023-10-07T00:00:00');
-  const end = new Date('2026-03-20T00:00:00');
+  const end = new Date('2026-03-21T00:00:00');
   const days: string[] = [];
   const d = new Date(start);
   while (d <= end) {

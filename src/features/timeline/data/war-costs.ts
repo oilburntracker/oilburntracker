@@ -36,6 +36,9 @@ export const warCosts: WarCostEntry[] = [
   { date: '2026-03-14', category: 'weapons', label: 'Iran ballistic missile campaign on Gulf states', amountBillions: 5, source: 'IISS estimates' },
   { date: '2026-03-20', category: 'weapons', label: 'Ongoing US operations ~$1B/day (days 15-21)', amountBillions: 7, source: 'Pentagon estimate / NPR' },
   { date: '2026-03-20', category: 'weapons', label: '11th MEU deployment + 2 additional carrier groups', amountBillions: 3 },
+  { date: '2026-03-21', category: 'weapons', label: 'Natanz nuclear facility strike (bunker busters + F-35I)', amountBillions: 2 },
+  { date: '2026-03-21', category: 'weapons', label: 'Iran 70th wave — missiles at 5 US bases + Israel', amountBillions: 3, source: 'IRGC / CGTN' },
+  { date: '2026-03-21', category: 'weapons', label: 'Day 22 ongoing operations ~$1B/day', amountBillions: 1, source: 'Pentagon' },
 
   // ═══════════════════════════════════════════════
   // RESOURCES & INFRASTRUCTURE DESTROYED
@@ -57,6 +60,8 @@ export const warCosts: WarCostEntry[] = [
   { date: '2026-03-19', category: 'resources', label: 'Haifa Bazan refinery + Saudi SAMREF Yanbu', amountBillions: 3.5 },
   { date: '2026-03-19', category: 'resources', label: 'UAE Habshan gas field shutdown', amountBillions: 2 },
   { date: '2026-03-20', category: 'resources', label: 'Kuwait Mina al-Ahmadi hit again (2nd strike)', amountBillions: 1.5 },
+  { date: '2026-03-21', category: 'resources', label: 'Natanz enrichment facility damage (centrifuge halls)', amountBillions: 10, source: 'Arms Control Association' },
+  { date: '2026-03-21', category: 'resources', label: 'Damage across 5 US bases from 70th wave', amountBillions: 1.5 },
 
   // ═══════════════════════════════════════════════
   // ECONOMIC IMPACT — INFLATION, OIL, SHIPPING
@@ -73,6 +78,9 @@ export const warCosts: WarCostEntry[] = [
   { date: '2026-03-14', category: 'economic', label: 'Gulf shipping insurance 10x premium', amountBillions: 35 },
   { date: '2026-03-18', category: 'economic', label: 'LNG price crisis — Europe/Asia energy costs 3-5x', amountBillions: 120, source: 'IEA emergency report' },
   { date: '2026-03-09', category: 'economic', label: 'Global supply chain disruptions & port delays', amountBillions: 60 },
+  { date: '2026-03-21', category: 'economic', label: 'Oil sustained above $100/bbl — week 4 consumer costs', amountBillions: 80, source: '~$40 premium × 100M bbl/day × ~20 days' },
+  { date: '2026-03-21', category: 'economic', label: 'Iran sanctions waiver — 140M bbls at inflated prices', amountBillions: 8, source: '140M × ~$55 premium' },
+  { date: '2026-03-21', category: 'economic', label: 'Global tourism industry losses from Iran threats', amountBillions: 15 },
 ];
 
 export interface WarCostSummary {
