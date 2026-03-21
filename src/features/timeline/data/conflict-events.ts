@@ -1206,6 +1206,7 @@ export const conflictEvents: ConflictEvent[] = [
     mediaUrls: [
       { type: 'youtube', url: 'https://www.youtube.com/watch?v=UdRnXrtLvAA', label: 'NBC News: Biden Announces Israel-Hezbollah Ceasefire' }
     ],
+    casualties: { killed: 3061, injured: 10185, displaced: 1200000, source: 'Lebanese Ministry of Health / OCHA (Lebanon war cumulative: 3,961 killed, 16,520 injured, 1.2M displaced — 900 already counted in individual events)', children: 200 },
   },
   {
     id: 'assad-falls',
@@ -2148,12 +2149,14 @@ export function getCasualtiesUpTo(date: string) {
     totalKilledAdjusted += adj > 0 ? adj : k;
 
     let region = 'Other';
-    if (event.lat) {
-      if (event.lat > 30 && event.lng && event.lng > 33 && event.lng < 36) region = 'Israel/Palestine';
-      else if (event.lat > 33 && event.lng && event.lng > 35 && event.lng < 37) region = 'Lebanon';
-      else if (event.lat > 25 && event.lat < 37 && event.lng && event.lng > 44 && event.lng < 65) region = 'Iran';
-      else if (event.lat > 24 && event.lat < 30 && event.lng && event.lng > 46 && event.lng < 57) region = 'Gulf States';
-      else if (event.lat > 10 && event.lat < 20 && event.lng && event.lng > 42 && event.lng < 46) region = 'Yemen/Red Sea';
+    if (event.lat && event.lng) {
+      // Lebanon first — Beirut is at lng ~35.5 which overlaps Israel's range
+      if (event.lat >= 33.05 && event.lat < 34.8 && event.lng > 34.8 && event.lng < 36.8) region = 'Lebanon';
+      else if (event.lat >= 29 && event.lat < 33.35 && event.lng > 34 && event.lng < 36) region = 'Israel/Palestine';
+      else if (event.lat > 32 && event.lat < 38 && event.lng >= 36 && event.lng < 42.5) region = 'Syria';
+      else if (event.lat > 25 && event.lat < 37 && event.lng > 44 && event.lng < 65) region = 'Iran';
+      else if (event.lat > 24 && event.lat < 30 && event.lng > 46 && event.lng < 57) region = 'Gulf States';
+      else if (event.lat > 10 && event.lat < 20 && event.lng > 42 && event.lng < 46) region = 'Yemen/Red Sea';
     }
 
     if (!byRegion[region]) byRegion[region] = { killed: 0, injured: 0, displaced: 0 };

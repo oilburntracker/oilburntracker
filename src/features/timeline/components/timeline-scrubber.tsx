@@ -95,7 +95,66 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
     : null;
 
   return (
-    <div className='shrink-0 border-t border-gray-200 dark:border-zinc-700 bg-white dark:bg-zinc-900/95 px-4 py-3'>
+    <div className='shrink-0 border-t border-gray-200 dark:border-zinc-700 bg-white dark:bg-zinc-900/95 px-4 py-4'>
+      {/* Custom slider thumb styles */}
+      <style>{`
+        .timeline-slider {
+          -webkit-appearance: none;
+          appearance: none;
+          background: transparent;
+          cursor: pointer;
+        }
+        .timeline-slider::-webkit-slider-thumb {
+          -webkit-appearance: none;
+          width: 28px;
+          height: 28px;
+          border-radius: 50%;
+          background: #2563eb;
+          border: 3px solid white;
+          box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+          cursor: grab;
+          position: relative;
+          z-index: 10;
+        }
+        .timeline-slider::-webkit-slider-thumb:active {
+          cursor: grabbing;
+          transform: scale(1.15);
+          background: #1d4ed8;
+        }
+        .timeline-slider::-moz-range-thumb {
+          width: 28px;
+          height: 28px;
+          border-radius: 50%;
+          background: #2563eb;
+          border: 3px solid white;
+          box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+          cursor: grab;
+        }
+        .timeline-slider::-moz-range-thumb:active {
+          cursor: grabbing;
+          transform: scale(1.15);
+          background: #1d4ed8;
+        }
+        @media (prefers-color-scheme: dark) {
+          .timeline-slider::-webkit-slider-thumb {
+            background: #f97316;
+            border-color: #27272a;
+          }
+          .timeline-slider::-moz-range-thumb {
+            background: #f97316;
+            border-color: #27272a;
+          }
+        }
+        .dark .timeline-slider::-webkit-slider-thumb {
+          background: #f97316;
+          border-color: #27272a;
+        }
+        .dark .timeline-slider::-moz-range-thumb {
+          background: #f97316;
+          border-color: #27272a;
+        }
+      `}</style>
+
       {/* Date + day counter */}
       <div className='flex items-center justify-between mb-1.5'>
         <span className='text-base font-black text-gray-900 dark:text-white'>
@@ -108,32 +167,31 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
 
       {/* Event summary for this date */}
       {eventSummary && (
-        <div className='text-sm text-red-700 dark:text-orange-400 font-medium mb-2 truncate' title={eventSummary}>
+        <div className='text-sm text-blue-700 dark:text-orange-400 font-medium mb-2 truncate' title={eventSummary}>
           {todayEvents.length} event{todayEvents.length > 1 ? 's' : ''}: {eventSummary}
         </div>
       )}
 
       {/* Wide slider with event ticks */}
-      <div className='relative'>
+      <div className='relative py-2'>
         <input
           type='range'
           min={0}
           max={ALL_DAYS.length - 1}
           value={currentIndex}
           onChange={handleSliderChange}
-          className='w-full h-4 accent-red-600 dark:accent-orange-500 cursor-pointer relative z-10 rounded-full'
-          style={{ background: 'transparent' }}
+          className='timeline-slider w-full h-6 relative z-10'
         />
         {/* Track background */}
-        <div className='absolute top-1/2 -translate-y-1/2 left-0 right-0 h-2.5 rounded-full bg-gray-200 dark:bg-zinc-800 pointer-events-none'>
+        <div className='absolute top-1/2 -translate-y-1/2 left-0 right-0 h-3 rounded-full bg-gray-200 dark:bg-zinc-800 pointer-events-none'>
           {/* Progress fill */}
           <div
-            className='h-full rounded-full bg-gradient-to-r from-yellow-500 via-orange-500 to-red-600'
+            className='h-full rounded-full bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 dark:from-yellow-500 dark:via-orange-500 dark:to-red-600'
             style={{ width: `${(currentIndex / (ALL_DAYS.length - 1)) * 100}%` }}
           />
         </div>
         {/* Event tick marks */}
-        <div className='absolute top-1/2 -translate-y-1/2 left-0 right-0 h-2.5 pointer-events-none'>
+        <div className='absolute top-1/2 -translate-y-1/2 left-0 right-0 h-3 pointer-events-none'>
           {eventTicks.map((tick) => (
             <div
               key={tick.date}
@@ -149,7 +207,7 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
       </div>
 
       {/* Year labels */}
-      <div className='flex justify-between mt-2'>
+      <div className='flex justify-between mt-1'>
         <span className='text-sm text-gray-400 dark:text-zinc-500 font-medium'>Oct 2023</span>
         <span className='text-sm text-gray-400 dark:text-zinc-500 font-medium'>2024</span>
         <span className='text-sm text-gray-400 dark:text-zinc-500 font-medium'>2025</span>

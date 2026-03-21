@@ -149,7 +149,7 @@ export default function DeepDivePanel() {
           <span className='text-gray-300 dark:text-zinc-700'>|</span>
           <span className='text-sm text-gray-500'>{stats.totalEvents} events</span>
           <span className='text-gray-300 dark:text-zinc-700'>|</span>
-          <span className='text-sm text-red-600 dark:text-orange-400 font-bold'>{stats.eventsLast7} this week</span>
+          <span className='text-sm text-blue-600 dark:text-blue-400 font-bold'>{stats.eventsLast7} this week</span>
         </div>
       </div>
 
@@ -271,14 +271,14 @@ export default function DeepDivePanel() {
         <StatCard>
           <div className='flex items-center justify-between mb-1.5'>
             <span className='flex items-center gap-2 text-base font-bold text-gray-800 dark:text-zinc-200'>
-              <IconPackage className='h-5 w-5 text-red-600' />
+              <IconPackage className='h-5 w-5 text-blue-600' />
               Shipping &amp; Delivery
             </span>
-            <span className='text-2xl font-black text-red-700 dark:text-red-400 tabular-nums'>+{impact.shippingSurchargePct}%</span>
+            <span className='text-2xl font-black text-blue-700 dark:text-blue-400 tabular-nums'>+{impact.shippingSurchargePct}%</span>
           </div>
-          <Bar pct={impact.shippingSurchargePct} color='bg-red-500' />
+          <Bar pct={impact.shippingSurchargePct} color='bg-blue-500' />
           <div className='text-sm text-gray-600 dark:text-zinc-400 mt-1.5'>
-            Your packages take <strong className='text-red-700 dark:text-red-300'>+{impact.deliveryDelayDays} days</strong> longer
+            Your packages take <strong className='text-blue-700 dark:text-blue-300'>+{impact.deliveryDelayDays} days</strong> longer
           </div>
           <div className='text-xs text-gray-500 mt-0.5'>
             Ships reroute around Africa instead of through Suez/Hormuz — adds weeks
@@ -309,9 +309,9 @@ export default function DeepDivePanel() {
         <div className='text-base text-gray-600 font-bold mt-1 mb-3'>total economic cost</div>
 
         <div className='space-y-1'>
-          <Row label='Weapons & military' value={formatBillions(cost.weaponsBillions)} valueColor='text-red-700 dark:text-red-400'
+          <Row label='Weapons & military' value={formatBillions(cost.weaponsBillions)} valueColor='text-gray-900 dark:text-zinc-100'
             tip='Missiles, carriers, military aid, Iron Dome — your tax dollars' />
-          <Row label='Infrastructure destroyed' value={formatBillions(cost.resourcesBillions)} valueColor='text-orange-700 dark:text-orange-400'
+          <Row label='Infrastructure destroyed' value={formatBillions(cost.resourcesBillions)} valueColor='text-blue-700 dark:text-blue-400'
             tip='Oil fields, gas plants, nuclear sites, refineries — gone forever' />
           <Row label='Economic / inflation' value={formatBillions(cost.economicBillions)} valueColor='text-yellow-700 dark:text-yellow-400'
             tip='Higher prices on everything — oil, shipping, insurance, food' />
@@ -425,14 +425,14 @@ export default function DeepDivePanel() {
 
       {/* ── SUPPLY DISRUPTION ── */}
       <div className='px-4 pt-4 pb-3 border-b border-gray-200 dark:border-zinc-700'>
-        <SectionTitle icon={<IconAlertTriangle className='h-5 w-5 text-red-600' />} title='Global Oil Supply' />
+        <SectionTitle icon={<IconAlertTriangle className='h-5 w-5 text-blue-600' />} title='Global Oil Supply' />
 
         <div className={`inline-block px-3 py-1 rounded-md text-sm font-black uppercase tracking-wider border mb-2 ${disruptionBadge[supply.level] || disruptionBadge.normal}`}>
           {disruptionLabels[supply.level] || 'NORMAL'}
         </div>
 
         <div className='space-y-1'>
-          <Row label='Production offline' value={`${supply.productionPct.toFixed(1)}%`} valueColor='text-red-700 dark:text-red-400'
+          <Row label='Production offline' value={`${supply.productionPct.toFixed(1)}%`} valueColor='text-blue-700 dark:text-blue-400'
             tip='How much of the world&apos;s 100M barrels/day is offline' />
           <Row label='Barrels/day offline' value={`${(supply.productionBPDOffline / 1_000_000).toFixed(1)}M BPD`}
             tip='Millions of barrels per day no longer being produced' />
@@ -465,7 +465,7 @@ export default function DeepDivePanel() {
                 </div>
               </StatCard>
             ))}
-            <Row label='Global transit disrupted' value={`${supply.transitBlockedPct.toFixed(1)}%`} valueColor='text-red-700 dark:text-red-400' />
+            <Row label='Global transit disrupted' value={`${supply.transitBlockedPct.toFixed(1)}%`} valueColor='text-blue-700 dark:text-blue-400' />
           </div>
         )}
 
