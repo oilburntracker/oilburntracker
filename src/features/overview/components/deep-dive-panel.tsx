@@ -9,7 +9,6 @@ import { getSupplyDisruptionUpTo } from '@/features/fires/data/curated-fires';
 import { curatedFires } from '@/features/fires/data/curated-fires';
 import { formatCO2, co2Equivalents } from '@/features/emissions/utils/emissions-model';
 import { computePerilScore, HISTORICAL_ANCHORS } from '@/lib/peril-score';
-import Link from 'next/link';
 import {
   IconGasStation, IconShoppingCart, IconBolt, IconPackage,
   IconRadioactive, IconBomb, IconCloud, IconAlertTriangle,
@@ -93,7 +92,7 @@ function StatCard({ children }: { children: React.ReactNode }) {
   );
 }
 
-export default function DeepDivePanel() {
+export default function DeepDivePanel({ onMapMode }: { onMapMode?: () => void } = {}) {
   const fireData = useFireStore((s) => s.fireData);
   const loading = useFireStore((s) => s.loading);
   const timelineDate = useFireStore((s) => s.timelineDate);
@@ -117,10 +116,29 @@ export default function DeepDivePanel() {
     const warStart = new Date('2023-10-07');
     const current = new Date(timelineDate);
     const warDays = Math.max(1, Math.round((current.getTime() - warStart.getTime()) / 86400000));
-    return { impact, casualties, nuclear, cost, supply, events, stats, peril, gasExtra, oilDelta, perTaxpayer, warDays };
+
+    // Recession probability — composite from oil price spike, supply disruption, inflation, war cost
+    const oilSpikePct = Math.min(100, ((impact.oilPriceBbl - 75) / 75) * 100); // baseline $75
+    const supplyRisk = Math.min(100, supply.productionPct * 5);
+    const inflationPressure = Math.min(100, impact.groceryInflationPct * 4);
+    const warCostDrag = Math.min(100, (cost.totalBillions / 2000) * 100);
+    const shippingStress = Math.min(100, impact.shippingSurchargePct);
+    const recessionScore = Math.round(
+      oilSpikePct * 0.30 + supplyRisk * 0.25 + inflationPressure * 0.20 + warCostDrag * 0.15 + shippingStress * 0.10
+    );
+    const recession = {
+      score: Math.min(99, Math.max(0, recessionScore)),
+      oilSpikePct: Math.round(oilSpikePct),
+      supplyRisk: Math.round(supplyRisk),
+      inflationPressure: Math.round(inflationPressure),
+      warCostDrag: Math.round(warCostDrag),
+      shippingStress: Math.round(shippingStress),
+    };
+
+    return { impact, casualties, nuclear, cost, supply, events, stats, peril, gasExtra, oilDelta, perTaxpayer, warDays, recession };
   }, [timelineDate]);
 
-  const { impact, casualties, nuclear, cost, supply, stats, peril, gasExtra, oilDelta, perTaxpayer, warDays } = data;
+  const { impact, casualties, nuclear, cost, supply, stats, peril, gasExtra, oilDelta, perTaxpayer, warDays, recession } = data;
   const totalCO2 = fireData.features.reduce((s, f) => s + f.properties.estimatedCO2TonsDay, 0);
   const equiv = co2Equivalents(totalCO2);
   const activeFires = fireData.features.length;
@@ -181,22 +199,28 @@ export default function DeepDivePanel() {
           )}
         </div>
 
-        {Object.keys(casualties.byRegion).length > 0 && (
-          <div className='mt-3 pt-2 border-t border-gray-200 dark:border-zinc-800/50 space-y-1'>
-            <div className='text-xs text-gray-500 uppercase tracking-wider font-extrabold mb-1'>Deaths by Region</div>
-            {Object.entries(casualties.byRegion)
+        {Object.keys(casualties.byParty).length > 0 && (
+          <div className='mt-3 pt-2 border-t border-gray-200 dark:border-zinc-800/50 space-y-1.5'>
+            <div className='text-xs text-gray-500 uppercase tracking-wider font-extrabold mb-1'>Casualties Attributed to Military Operations</div>
+            {Object.entries(casualties.byParty)
               .sort((a, b) => b[1].killed - a[1].killed)
-              .map(([region, d]) => (
-                <div key={region} className='flex items-center justify-between text-sm'>
-                  <span className='text-gray-700 dark:text-zinc-300'>{region}</span>
-                  <div className='flex items-center gap-2'>
-                    <span className='font-bold text-gray-900 dark:text-zinc-100 tabular-nums'>{d.killed.toLocaleString()}</span>
+              .map(([party, d]) => {
+                const pct = casualties.totalKilled > 0 ? ((d.killed / casualties.totalKilled) * 100).toFixed(1) : '0';
+                return (
+                  <div key={party}>
+                    <div className='flex items-center justify-between text-sm'>
+                      <span className='text-gray-700 dark:text-zinc-300'>{party}</span>
+                      <div className='flex items-center gap-2'>
+                        <span className='font-bold text-gray-900 dark:text-zinc-100 tabular-nums'>{d.killed.toLocaleString()}</span>
+                        <span className='text-[10px] text-gray-400 tabular-nums w-10 text-right'>({pct}%)</span>
+                      </div>
+                    </div>
                     {d.injured > 0 && (
-                      <span className='text-xs text-gray-400 tabular-nums'>({d.injured.toLocaleString()} inj)</span>
+                      <div className='text-xs text-gray-400 tabular-nums ml-0.5'>{d.injured.toLocaleString()} injured · {d.displaced > 0 ? `${(d.displaced / 1_000_000).toFixed(1)}M displaced` : ''}</div>
                     )}
                   </div>
-                </div>
-              ))}
+                );
+              })}
           </div>
         )}
 
@@ -392,9 +416,50 @@ export default function DeepDivePanel() {
         </div>
       )}
 
-      {/* ── PERIL INDEX ── */}
+      {/* ── RECESSION & ECONOMIC RISK INDEX ── */}
       <div className='px-4 pt-4 pb-3 border-b border-gray-200 dark:border-zinc-700'>
-        <SectionTitle icon={<IconAlertTriangle className='h-5 w-5' style={{ color: peril.color }} />} title='Peril Index' />
+        <SectionTitle icon={<IconTrendingUp className='h-5 w-5 text-blue-600' />} title='Recession Probability Index' />
+        <div className='flex items-baseline gap-2'>
+          <span className={`text-4xl font-black tabular-nums ${recession.score >= 70 ? 'text-red-600' : recession.score >= 40 ? 'text-orange-600' : 'text-blue-600'}`}>
+            {recession.score}%
+          </span>
+          <span className={`text-lg font-black uppercase tracking-wide ${
+            recession.score >= 70 ? 'text-red-500' : recession.score >= 40 ? 'text-orange-500' : 'text-blue-500'
+          }`}>
+            {recession.score >= 80 ? 'DEPRESSION RISK' : recession.score >= 60 ? 'HIGH RISK' : recession.score >= 40 ? 'ELEVATED' : recession.score >= 20 ? 'MODERATE' : 'LOW'}
+          </span>
+        </div>
+        <div className='text-sm text-gray-500 mt-1 mb-3'>Likelihood of US recession within 12 months based on conflict-driven economic stress</div>
+
+        <div className='space-y-1'>
+          <Row label='Oil price shock' value={`${recession.oilSpikePct}/100`} sub='30% weight'
+            tip='How far oil has spiked above $75/bbl baseline. Every $10 increase historically adds 0.3% to recession odds.' />
+          <Row label='Supply chain stress' value={`${recession.supplyRisk}/100`} sub='25% weight'
+            tip='Oil production offline and chokepoint disruptions. When >10% of global supply is disrupted, recessions follow within 6-12 months.' />
+          <Row label='Inflationary pressure' value={`${recession.inflationPressure}/100`} sub='20% weight'
+            tip='Grocery and consumer price inflation driven by energy costs. Rising food prices erode consumer spending — the engine of 70% of GDP.' />
+          <Row label='War spending drag' value={`${recession.warCostDrag}/100`} sub='15% weight'
+            tip='Military spending diverted from productive economy. Each $100B in war cost = ~0.5% GDP drag.' />
+          <Row label='Shipping disruption' value={`${recession.shippingStress}/100`} sub='10% weight'
+            tip='Shipping surcharges and delays. Rerouting around conflict zones adds weeks and billions in logistics costs.' />
+        </div>
+
+        <div className='mt-2'>
+          <Bar pct={recession.score} color={recession.score >= 70 ? 'bg-red-500' : recession.score >= 40 ? 'bg-orange-500' : 'bg-blue-500'} />
+        </div>
+
+        <InfoBox>
+          {recession.score >= 70
+            ? 'Multiple recession indicators are flashing red. The 1973 oil embargo caused a 3.2% GDP contraction — current conditions are comparable or worse.'
+            : recession.score >= 40
+            ? 'Economic stress is building. The combination of energy costs and supply disruption historically precedes downturns within 6-12 months.'
+            : 'Economic impact is present but manageable. Consumer spending is absorbing the shocks — for now.'}
+        </InfoBox>
+      </div>
+
+      {/* ── CATASTROPHE INDEX ── */}
+      <div className='px-4 pt-4 pb-3 border-b border-gray-200 dark:border-zinc-700'>
+        <SectionTitle icon={<IconAlertTriangle className='h-5 w-5' style={{ color: peril.color }} />} title='Catastrophe Index' />
         <div className='flex items-baseline gap-2'>
           <span className='text-4xl font-black tabular-nums' style={{ color: peril.color }}>{peril.score}</span>
           <span className='text-xl font-bold text-gray-400'>/100</span>
@@ -508,7 +573,10 @@ export default function DeepDivePanel() {
         )}
 
         <div className='mt-3 pt-2 border-t border-gray-200 dark:border-zinc-800/50'>
-          <Link href='/dashboard/fires' className='flex items-center justify-between rounded-xl bg-white dark:bg-zinc-800/40 border border-gray-200 dark:border-zinc-700/50 p-3 shadow-sm hover:shadow-md transition-shadow'>
+          <button
+            onClick={onMapMode}
+            className='w-full flex items-center justify-between rounded-xl bg-white dark:bg-zinc-800/40 border border-gray-200 dark:border-zinc-700/50 p-3 shadow-sm hover:shadow-md transition-shadow cursor-pointer'
+          >
             <div className='flex items-center gap-4 text-sm'>
               <span className='flex items-center gap-1.5 text-orange-600'>
                 <IconFlame className='h-4 w-4' />
@@ -520,7 +588,7 @@ export default function DeepDivePanel() {
               </span>
             </div>
             <span className='text-sm text-blue-600 dark:text-blue-400 font-bold'>View map →</span>
-          </Link>
+          </button>
         </div>
       </div>
 

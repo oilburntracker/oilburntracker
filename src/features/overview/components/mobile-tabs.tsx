@@ -46,7 +46,7 @@ export default function MobileTabs({ onFlyTo, onMapMode }: MobileTabsProps) {
       {/* Tab content — use display:none so EventFeed observer stays mounted */}
       <div className='flex-1 min-h-0 relative'>
         <div className={`h-full ${tab === 'data' ? '' : 'hidden'}`}>
-          <DeepDivePanel />
+          <DeepDivePanel onMapMode={onMapMode} />
         </div>
         <div className={`h-full ${tab === 'feed' ? '' : 'hidden'}`}>
           <EventFeed onFlyTo={onFlyTo} fullPage />

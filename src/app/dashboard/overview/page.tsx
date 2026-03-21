@@ -7,7 +7,6 @@ import FacilityDrawer from '@/features/fires/components/facility-drawer';
 import TimelineScrubber from '@/features/timeline/components/timeline-scrubber';
 import EventFeed from '@/features/timeline/components/event-feed';
 import HeroPills from '@/features/overview/components/hero-pills';
-import PerilGauge from '@/features/overview/components/peril-gauge';
 import DeepDivePanel from '@/features/overview/components/deep-dive-panel';
 import MobileTabs from '@/features/overview/components/mobile-tabs';
 import { useFireData } from '@/features/map/hooks/use-fire-data';
@@ -54,7 +53,7 @@ function FloatingStats() {
     return (
       <button
         onClick={() => setCollapsed(false)}
-        className='absolute top-3 right-3 z-10 rounded-xl border border-gray-300 dark:border-zinc-700/80 bg-white/95 dark:bg-black/90 backdrop-blur-md px-3 py-2 shadow-2xl cursor-pointer w-[200px]'
+        className='absolute top-3 right-3 z-10 rounded-xl border border-gray-300 dark:border-zinc-700/80 bg-white/80 dark:bg-black/70 backdrop-blur-md px-3 py-2 shadow-2xl cursor-pointer w-[200px]'
       >
         <div className='flex items-center gap-2 mb-1'>
           <IconSkull className='h-4 w-4 text-red-600 dark:text-red-500' />
@@ -81,7 +80,15 @@ function FloatingStats() {
   }
 
   return (
-    <div className='absolute top-3 right-3 z-10 w-[340px] max-h-[calc(100dvh-140px)] rounded-xl border border-gray-300 dark:border-zinc-700/80 bg-white/95 dark:bg-black/90 backdrop-blur-md shadow-2xl overflow-hidden flex flex-col'>
+    <div
+      className='absolute top-3 right-3 z-10 w-[340px] max-h-[calc(100dvh-140px)] rounded-xl border border-gray-300 dark:border-zinc-700/80 bg-white/75 dark:bg-black/70 backdrop-blur-md shadow-2xl overflow-hidden flex flex-col'
+      onClick={(e) => {
+        const target = e.target as HTMLElement;
+        if (target.closest('a') || target.closest('button[data-collapse]')) {
+          setCollapsed(true);
+        }
+      }}
+    >
       <button
         onClick={() => setCollapsed(true)}
         className='absolute top-1.5 right-1.5 z-20 rounded-full p-0.5 text-gray-400 dark:text-zinc-600 hover:text-gray-700 dark:hover:text-zinc-300 hover:bg-gray-100 dark:hover:bg-zinc-800 transition-colors cursor-pointer'
@@ -189,10 +196,6 @@ export default function OverviewPage() {
         </button>
       </div>
 
-      {/* Peril gauge */}
-      <div className='shrink-0 border-b border-gray-200 dark:border-zinc-800 bg-white dark:bg-zinc-950'>
-        <PerilGauge />
-      </div>
 
       {/* Mobile: tabs (Feed / Data) + map icon */}
       <div className='md:hidden flex-1 min-h-0'>
@@ -202,7 +205,7 @@ export default function OverviewPage() {
       {/* Desktop: data panel + feed side by side */}
       <div className='hidden md:flex flex-1 min-h-0'>
         <div className='w-[340px] shrink-0 border-r border-gray-200 dark:border-zinc-800 bg-white dark:bg-zinc-950/90'>
-          <DeepDivePanel />
+          <DeepDivePanel onMapMode={() => setMapMode(true)} />
         </div>
         <div className='flex-1 min-w-0'>
           <EventFeed onFlyTo={handleFlyTo} fullPage />

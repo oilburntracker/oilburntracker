@@ -2126,6 +2126,12 @@ export function getEventsUpTo(date: string): ConflictEvent[] {
   return conflictEvents.filter((e) => e.date <= date);
 }
 
+// Oct 7 Hamas attack event IDs (attacks ON Israel, not Israeli response)
+const HAMAS_ATTACK_IDS = new Set([
+  'oct7-rockets', 'oct7-nova-festival', 'oct7-beeri', 'oct7-kfar-aza',
+  'oct7-nir-oz', 'oct7-nahal-oz', 'oct7-sderot', 'oct7-other-communities',
+]);
+
 export function getCasualtiesUpTo(date: string) {
   const events = getEventsUpTo(date);
   let totalKilled = 0;
@@ -2133,7 +2139,7 @@ export function getCasualtiesUpTo(date: string) {
   let totalDisplaced = 0;
   let totalKilledAdjusted = 0;
   let totalChildren = 0;
-  const byRegion: Record<string, { killed: number; injured: number; displaced: number }> = {};
+  const byParty: Record<string, { killed: number; injured: number; displaced: number }> = {};
 
   for (const event of events) {
     if (!event.casualties) continue;
@@ -2148,24 +2154,28 @@ export function getCasualtiesUpTo(date: string) {
     totalChildren += children;
     totalKilledAdjusted += adj > 0 ? adj : k;
 
-    let region = 'Other';
-    if (event.lat && event.lng) {
+    // Attribute casualties to responsible military force
+    let party = 'Other Forces';
+
+    if (HAMAS_ATTACK_IDS.has(event.id)) {
+      party = 'Hamas — Oct 7 Attack';
+    } else if (event.lat && event.lng) {
       // Lebanon first — Beirut is at lng ~35.5 which overlaps Israel's range
-      if (event.lat >= 33.05 && event.lat < 34.8 && event.lng > 34.8 && event.lng < 36.8) region = 'Lebanon';
-      else if (event.lat >= 29 && event.lat < 33.35 && event.lng > 34 && event.lng < 36) region = 'Israel/Palestine';
-      else if (event.lat > 32 && event.lat < 38 && event.lng >= 36 && event.lng < 42.5) region = 'Syria';
-      else if (event.lat > 25 && event.lat < 37 && event.lng > 44 && event.lng < 65) region = 'Iran';
-      else if (event.lat > 24 && event.lat < 30 && event.lng > 46 && event.lng < 57) region = 'Gulf States';
-      else if (event.lat > 10 && event.lat < 20 && event.lng > 42 && event.lng < 46) region = 'Yemen/Red Sea';
+      if (event.lat >= 33.05 && event.lat < 34.8 && event.lng > 34.8 && event.lng < 36.8) party = 'Israeli Military — Lebanon';
+      else if (event.lat >= 29 && event.lat < 33.35 && event.lng > 34 && event.lng < 36) party = 'Israeli Military — Gaza & West Bank';
+      else if (event.lat > 32 && event.lat < 38 && event.lng >= 36 && event.lng < 42.5) party = 'Israeli Military — Syria';
+      else if (event.lat > 25 && event.lat < 37 && event.lng > 44 && event.lng < 65) party = 'Israeli / US Coalition — Iran';
+      else if (event.lat > 24 && event.lat < 30 && event.lng > 46 && event.lng < 57) party = 'Iranian Military — Gulf States';
+      else if (event.lat > 10 && event.lat < 20 && event.lng > 42 && event.lng < 46) party = 'US / UK Coalition — Yemen';
     }
 
-    if (!byRegion[region]) byRegion[region] = { killed: 0, injured: 0, displaced: 0 };
-    byRegion[region].killed += k;
-    byRegion[region].injured += inj;
-    byRegion[region].displaced += disp;
+    if (!byParty[party]) byParty[party] = { killed: 0, injured: 0, displaced: 0 };
+    byParty[party].killed += k;
+    byParty[party].injured += inj;
+    byParty[party].displaced += disp;
   }
 
-  return { totalKilled, totalInjured, totalDisplaced, totalKilledAdjusted, totalChildren, byRegion };
+  return { totalKilled, totalInjured, totalDisplaced, totalKilledAdjusted, totalChildren, byParty };
 }
 
 export function getVisibleFacilityIds(date: string): Set<string> {
