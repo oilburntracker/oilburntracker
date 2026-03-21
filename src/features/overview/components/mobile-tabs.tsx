@@ -11,7 +11,7 @@ interface MobileTabsProps {
 }
 
 export default function MobileTabs({ onFlyTo, onMapMode }: MobileTabsProps) {
-  const [tab, setTab] = useState<'feed' | 'data'>('feed');
+  const [tab, setTab] = useState<'feed' | 'data'>('data');
 
   return (
     <div className='flex-1 min-h-0 flex flex-col'>

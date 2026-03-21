@@ -199,18 +199,15 @@ export default function OverviewPage() {
         <MobileTabs onFlyTo={handleFlyTo} onMapMode={() => setMapMode(true)} />
       </div>
 
-      {/* Desktop: feed + deep dive side by side */}
+      {/* Desktop: data panel + feed side by side */}
       <div className='hidden md:flex flex-1 min-h-0'>
+        <div className='w-[280px] shrink-0 border-r border-zinc-800 bg-black/90'>
+          <DeepDivePanel />
+        </div>
         <div className='flex-1 min-w-0'>
           <EventFeed onFlyTo={handleFlyTo} fullPage />
         </div>
-        <div className='w-[320px] shrink-0 border-l border-zinc-800 bg-black/90'>
-          <DeepDivePanel />
-        </div>
       </div>
-
-      {/* Timeline scrubber — bottom */}
-      <TimelineScrubber />
     </div>
   );
 }
