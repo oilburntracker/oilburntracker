@@ -1978,7 +1978,6 @@ export const conflictEvents: ConflictEvent[] = [
     category: 'military_strike',
     description: 'US and Israeli forces strike the Shahid Ahmadi Roshan uranium enrichment facility at Natanz — Iran\'s most critical nuclear site. Second strike on Natanz during the war (first hit March 1-3 targeting tunnel entrances). Iran\'s Atomic Energy Organization says "no leakage of radioactive materials." IAEA Director Grossi calls for "military restraint to avoid any risk of a nuclear accident." Israel\'s Defense Minister warns strikes "will increase significantly" in the coming week. The White House frames nuclear prevention as a key war objective. Arms control experts warn any breach of underground centrifuge halls could release uranium hexafluoride.',
     casualties: { killed: 2, injured: 15, source: 'Iran state media / JPost' },
-    facilityId: 'natanz',
     lat: 33.7225,
     lng: 51.7275,
     zoom: 10,
