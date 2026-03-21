@@ -224,6 +224,9 @@ function CompactStats() {
             <div className='text-[10px] text-zinc-500 tabular-nums'>
               {(supply.transitBPDBlocked / 1000000).toFixed(1)}M BPD blocked of {(supply.transitBPDAtRisk / 1000000).toFixed(0)}M
             </div>
+            <div className='text-[10px] font-bold text-red-400 tabular-nums'>
+              {supply.transitBlockedPct.toFixed(1)}% of global supply disrupted
+            </div>
           </div>
         )}
       </div>
