@@ -26,11 +26,10 @@ export default function PerilGauge() {
   }, [timelineDate]);
 
   return (
-    <div className='px-3 md:px-4 py-1.5 md:py-2'>
+    <div className='px-3 md:px-4 py-2 md:py-2.5'>
       {/* Bar + score */}
-      <div className='flex items-center gap-2'>
-        <div className='flex-1 h-2 md:h-3 rounded-full bg-zinc-800 overflow-hidden relative'>
-          {/* Gradient segments */}
+      <div className='flex items-center gap-3'>
+        <div className='flex-1 h-3 md:h-4 rounded-full bg-gray-200 dark:bg-zinc-800 overflow-hidden relative'>
           <div
             className='h-full rounded-full transition-all duration-500 ease-out'
             style={{
@@ -43,22 +42,22 @@ export default function PerilGauge() {
             {HISTORICAL_ANCHORS.map((a) => (
               <div
                 key={a.label}
-                className='absolute top-0 h-full w-px bg-zinc-500/50'
+                className='absolute top-0 h-full w-px bg-gray-400/50 dark:bg-zinc-500/50'
                 style={{ left: `${a.score}%` }}
                 title={`${a.label} (${a.year})`}
               />
             ))}
           </div>
         </div>
-        <div className='shrink-0 flex items-center gap-1.5'>
+        <div className='shrink-0 flex items-center gap-2'>
           <span
-            className='text-sm md:text-base font-black tabular-nums'
+            className='text-lg md:text-xl font-black tabular-nums'
             style={{ color: peril.color }}
           >
             {peril.score}
           </span>
           <span
-            className='text-[10px] md:text-xs font-bold uppercase tracking-wide hidden md:inline'
+            className='text-xs md:text-sm font-bold uppercase tracking-wide hidden md:inline'
             style={{ color: peril.color }}
           >
             {peril.label}
@@ -68,9 +67,9 @@ export default function PerilGauge() {
 
       {/* Historical anchors legend — desktop only */}
       <div className='hidden md:flex items-center gap-4 mt-0.5'>
-        <span className='text-[9px] text-zinc-600 uppercase tracking-wider font-bold'>Peril</span>
+        <span className='text-[10px] text-gray-400 dark:text-zinc-600 uppercase tracking-wider font-bold'>Peril</span>
         {HISTORICAL_ANCHORS.map((a) => (
-          <span key={a.label} className='text-[9px] text-zinc-600'>
+          <span key={a.label} className='text-[10px] text-gray-400 dark:text-zinc-600'>
             {a.label} ({a.score})
           </span>
         ))}

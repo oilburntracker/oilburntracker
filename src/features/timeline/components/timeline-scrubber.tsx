@@ -52,7 +52,6 @@ interface TimelineScrubberProps {
 export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
   const [currentIndex, setCurrentIndex] = useState(ALL_DAYS.length - 1);
   const setTimelineDate = useFireStore((s) => s.setTimelineDate);
-  const setSelectedFacility = useFireStore((s) => s.setSelectedFacility);
 
   const currentDate = ALL_DAYS[currentIndex];
   const todayEvents = EVENTS_BY_DATE.get(currentDate) || [];
@@ -86,31 +85,30 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
       const idx = ALL_DAYS.indexOf(date);
       const pct = (idx / (ALL_DAYS.length - 1)) * 100;
       const events = EVENTS_BY_DATE.get(date) || [];
-      const color = events.length > 0 ? CATEGORY_COLORS[events[events.length - 1].category] : '#666';
+      const color = events.length > 0 ? CATEGORY_COLORS[events[events.length - 1].category] : '#999';
       return { date, pct, color };
     });
   }, []);
 
-  // Tooltip for today's event
   const eventSummary = todayEvents.length > 0
     ? todayEvents.map(e => e.title).join(' | ')
     : null;
 
   return (
-    <div className='shrink-0 border-t border-zinc-700 bg-zinc-900/95 backdrop-blur-md px-4 py-3'>
+    <div className='shrink-0 border-t border-gray-200 dark:border-zinc-700 bg-white dark:bg-zinc-900/95 px-4 py-3'>
       {/* Date + day counter */}
-      <div className='flex items-center justify-between mb-2'>
-        <span className='text-sm font-bold text-white'>
+      <div className='flex items-center justify-between mb-1.5'>
+        <span className='text-base font-black text-gray-900 dark:text-white'>
           {formatDate(currentDate)}
         </span>
-        <span className='text-sm font-bold text-zinc-400 tabular-nums'>
+        <span className='text-base font-bold text-gray-500 dark:text-zinc-400 tabular-nums'>
           Day {dayNumber}
         </span>
       </div>
 
       {/* Event summary for this date */}
       {eventSummary && (
-        <div className='text-xs text-orange-400 font-medium mb-2 truncate' title={eventSummary}>
+        <div className='text-sm text-red-700 dark:text-orange-400 font-medium mb-2 truncate' title={eventSummary}>
           {todayEvents.length} event{todayEvents.length > 1 ? 's' : ''}: {eventSummary}
         </div>
       )}
@@ -123,27 +121,27 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
           max={ALL_DAYS.length - 1}
           value={currentIndex}
           onChange={handleSliderChange}
-          className='w-full h-3 accent-orange-500 cursor-pointer relative z-10 rounded-full'
+          className='w-full h-4 accent-red-600 dark:accent-orange-500 cursor-pointer relative z-10 rounded-full'
           style={{ background: 'transparent' }}
         />
         {/* Track background */}
-        <div className='absolute top-1/2 -translate-y-1/2 left-0 right-0 h-2 rounded-full bg-zinc-800 pointer-events-none'>
+        <div className='absolute top-1/2 -translate-y-1/2 left-0 right-0 h-2.5 rounded-full bg-gray-200 dark:bg-zinc-800 pointer-events-none'>
           {/* Progress fill */}
           <div
-            className='h-full rounded-full bg-gradient-to-r from-yellow-500 via-orange-500 to-red-500'
+            className='h-full rounded-full bg-gradient-to-r from-yellow-500 via-orange-500 to-red-600'
             style={{ width: `${(currentIndex / (ALL_DAYS.length - 1)) * 100}%` }}
           />
         </div>
         {/* Event tick marks */}
-        <div className='absolute top-1/2 -translate-y-1/2 left-0 right-0 h-2 pointer-events-none'>
+        <div className='absolute top-1/2 -translate-y-1/2 left-0 right-0 h-2.5 pointer-events-none'>
           {eventTicks.map((tick) => (
             <div
               key={tick.date}
-              className='absolute w-0.5 h-4 -mt-1 rounded-full'
+              className='absolute w-0.5 h-5 -mt-1 rounded-full'
               style={{
                 left: `${tick.pct}%`,
                 backgroundColor: tick.color,
-                opacity: 0.6
+                opacity: 0.5
               }}
             />
           ))}
@@ -151,11 +149,11 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
       </div>
 
       {/* Year labels */}
-      <div className='flex justify-between mt-1.5'>
-        <span className='text-xs text-zinc-500'>Oct 2023</span>
-        <span className='text-xs text-zinc-500'>2024</span>
-        <span className='text-xs text-zinc-500'>2025</span>
-        <span className='text-xs text-zinc-500'>Mar 2026</span>
+      <div className='flex justify-between mt-2'>
+        <span className='text-sm text-gray-400 dark:text-zinc-500 font-medium'>Oct 2023</span>
+        <span className='text-sm text-gray-400 dark:text-zinc-500 font-medium'>2024</span>
+        <span className='text-sm text-gray-400 dark:text-zinc-500 font-medium'>2025</span>
+        <span className='text-sm text-gray-400 dark:text-zinc-500 font-medium'>Mar 2026</span>
       </div>
     </div>
   );

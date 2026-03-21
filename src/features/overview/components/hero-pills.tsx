@@ -15,41 +15,41 @@ export default function HeroPills() {
   const impact = getConsumerImpactUpTo(timelineDate);
 
   return (
-    <div className='flex items-center gap-2 md:gap-3 flex-1 min-w-0'>
+    <div className='flex items-center gap-3 md:gap-4 flex-1 min-w-0'>
       {/* CO2 */}
       <div className='flex items-center gap-1.5 min-w-0'>
-        <IconFlame className='h-4 w-4 text-orange-500 shrink-0' />
+        <IconFlame className='h-5 w-5 text-orange-600 shrink-0' />
         <div className='min-w-0'>
-          <div className='text-sm md:text-base font-black text-orange-500 tabular-nums leading-none'>
+          <div className='text-base md:text-lg font-black text-orange-700 dark:text-orange-500 tabular-nums leading-none'>
             {totalCO2 > 0 ? formatCO2(totalCO2) : '—'}
           </div>
-          <div className='text-[9px] text-zinc-500 leading-none mt-0.5 hidden md:block'>t/day CO2</div>
+          <div className='text-[10px] text-gray-500 leading-none mt-0.5 hidden md:block'>t/day CO2</div>
         </div>
       </div>
 
-      <div className='w-px h-6 bg-zinc-800 shrink-0' />
+      <div className='w-px h-7 bg-gray-300 dark:bg-zinc-800 shrink-0' />
 
       {/* Energy cost */}
       <div className='flex items-center gap-1.5 min-w-0'>
-        <IconReceipt className='h-4 w-4 text-amber-400 shrink-0' />
+        <IconReceipt className='h-5 w-5 text-amber-600 shrink-0' />
         <div className='min-w-0'>
-          <div className='text-sm md:text-base font-black text-amber-400 tabular-nums leading-none'>
+          <div className='text-base md:text-lg font-black text-amber-700 dark:text-amber-400 tabular-nums leading-none'>
             +${impact.totalMonthlyExtra}
           </div>
-          <div className='text-[9px] text-zinc-500 leading-none mt-0.5 hidden md:block'>/mo per household</div>
+          <div className='text-[10px] text-gray-500 leading-none mt-0.5 hidden md:block'>/mo per household</div>
         </div>
       </div>
 
-      <div className='w-px h-6 bg-zinc-800 shrink-0' />
+      <div className='w-px h-7 bg-gray-300 dark:bg-zinc-800 shrink-0' />
 
       {/* Human cost */}
       <div className='flex items-center gap-1.5 min-w-0'>
-        <IconSkull className='h-4 w-4 text-red-500 shrink-0' />
+        <IconSkull className='h-5 w-5 text-red-600 shrink-0' />
         <div className='min-w-0'>
-          <div className='text-sm md:text-base font-black text-red-500 tabular-nums leading-none'>
+          <div className='text-base md:text-lg font-black text-red-700 dark:text-red-500 tabular-nums leading-none'>
             {casualties.totalKilled.toLocaleString()}+
           </div>
-          <div className='text-[9px] text-zinc-500 leading-none mt-0.5 hidden md:block'>killed</div>
+          <div className='text-[10px] text-gray-500 leading-none mt-0.5 hidden md:block'>killed</div>
         </div>
       </div>
     </div>
