@@ -9,6 +9,13 @@ export const navItems: NavItem[] = [
     items: []
   },
   {
+    title: 'Impact',
+    url: '/dashboard/impact',
+    icon: 'receipt',
+    isActive: false,
+    items: []
+  },
+  {
     title: 'Fire List',
     url: '/dashboard/fires',
     icon: 'fire',
