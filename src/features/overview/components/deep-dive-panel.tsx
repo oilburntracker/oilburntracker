@@ -1,6 +1,6 @@
 'use client';
 
-import { useMemo } from 'react';
+import { useMemo, useState } from 'react';
 import { useFireStore } from '@/stores/fire-store';
 import { getConsumerImpactUpTo, BASELINE } from '@/features/impact/data/consumer-impact';
 import { getCasualtiesUpTo, getNuclearStatusUpTo, getVisibleFacilityIds, getEventsUpTo, getRecentEventStats } from '@/features/timeline/data/conflict-events';
@@ -9,6 +9,7 @@ import { getSupplyDisruptionUpTo } from '@/features/fires/data/curated-fires';
 import { curatedFires } from '@/features/fires/data/curated-fires';
 import { formatCO2, co2Equivalents } from '@/features/emissions/utils/emissions-model';
 import { computePerilScore, HISTORICAL_ANCHORS } from '@/lib/peril-score';
+import Link from 'next/link';
 import {
   IconGasStation, IconShoppingCart, IconBolt, IconPackage,
   IconRadioactive, IconBomb, IconCloud, IconAlertTriangle,
@@ -23,26 +24,33 @@ function formatBillions(n: number): string {
   return `$${n.toFixed(1)}B`;
 }
 
-/* ── Reusable data row with optional tooltip ── */
+/* ── Reusable data row with optional tooltip (click to expand) ── */
 function Row({ label, value, valueColor, tip, sub }: {
   label: string; value: string; valueColor?: string; tip?: string; sub?: string;
 }) {
+  const [showTip, setShowTip] = useState(false);
   return (
-    <div className='group'>
+    <div>
       <div className='flex items-center justify-between py-0.5'>
         <span className='text-sm text-gray-600 dark:text-zinc-300 flex items-center gap-1'>
           {label}
           {tip && (
-            <span className='relative'>
-              <IconInfoCircle className='h-3.5 w-3.5 text-gray-400 dark:text-zinc-600 group-hover:text-gray-600 dark:group-hover:text-zinc-400 transition-colors cursor-help' />
-              <span className='absolute bottom-full left-1/2 -translate-x-1/2 mb-1 hidden group-hover:block w-52 p-2.5 rounded-lg bg-gray-900 text-white text-xs leading-relaxed shadow-xl z-50 pointer-events-none'>
-                {tip}
-              </span>
-            </span>
+            <button
+              onClick={() => setShowTip(!showTip)}
+              className='p-0.5 rounded-full hover:bg-gray-200 dark:hover:bg-zinc-700 transition-colors cursor-pointer'
+              aria-label='More info'
+            >
+              <IconInfoCircle className={`h-3.5 w-3.5 transition-colors ${showTip ? 'text-blue-600 dark:text-blue-400' : 'text-gray-400 dark:text-zinc-600'}`} />
+            </button>
           )}
         </span>
         <span className={`text-sm font-bold tabular-nums ${valueColor || 'text-gray-900 dark:text-white'}`}>{value}</span>
       </div>
+      {showTip && tip && (
+        <div className='text-xs text-gray-600 dark:text-zinc-400 bg-blue-50 dark:bg-zinc-800/60 border border-blue-100 dark:border-zinc-700/50 rounded-lg px-2.5 py-2 mb-1 leading-relaxed'>
+          {tip}
+        </div>
+      )}
       {sub && <div className='text-xs text-gray-400 dark:text-zinc-500 -mt-0.5 mb-0.5'>{sub}</div>}
     </div>
   );
@@ -500,10 +508,7 @@ export default function DeepDivePanel() {
         )}
 
         <div className='mt-3 pt-2 border-t border-gray-200 dark:border-zinc-800/50'>
-          <button
-            onClick={() => window.dispatchEvent(new CustomEvent('enter-map-mode'))}
-            className='w-full flex items-center justify-between rounded-xl bg-white dark:bg-zinc-800/40 border border-gray-200 dark:border-zinc-700/50 p-3 shadow-sm hover:shadow-md transition-shadow cursor-pointer'
-          >
+          <Link href='/dashboard/fires' className='flex items-center justify-between rounded-xl bg-white dark:bg-zinc-800/40 border border-gray-200 dark:border-zinc-700/50 p-3 shadow-sm hover:shadow-md transition-shadow'>
             <div className='flex items-center gap-4 text-sm'>
               <span className='flex items-center gap-1.5 text-orange-600'>
                 <IconFlame className='h-4 w-4' />
@@ -515,7 +520,7 @@ export default function DeepDivePanel() {
               </span>
             </div>
             <span className='text-sm text-blue-600 dark:text-blue-400 font-bold'>View map →</span>
-          </button>
+          </Link>
         </div>
       </div>
 

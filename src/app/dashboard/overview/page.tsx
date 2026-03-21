@@ -81,7 +81,7 @@ function FloatingStats() {
   }
 
   return (
-    <div className='absolute top-3 right-3 z-10 w-[280px] max-h-[calc(100dvh-140px)] rounded-xl border border-gray-300 dark:border-zinc-700/80 bg-white/95 dark:bg-black/90 backdrop-blur-md shadow-2xl overflow-hidden flex flex-col'>
+    <div className='absolute top-3 right-3 z-10 w-[340px] max-h-[calc(100dvh-140px)] rounded-xl border border-gray-300 dark:border-zinc-700/80 bg-white/95 dark:bg-black/90 backdrop-blur-md shadow-2xl overflow-hidden flex flex-col'>
       <button
         onClick={() => setCollapsed(true)}
         className='absolute top-1.5 right-1.5 z-20 rounded-full p-0.5 text-gray-400 dark:text-zinc-600 hover:text-gray-700 dark:hover:text-zinc-300 hover:bg-gray-100 dark:hover:bg-zinc-800 transition-colors cursor-pointer'
@@ -146,13 +146,6 @@ function WelcomeOverlay() {
 export default function OverviewPage() {
   const [mapMode, setMapMode] = useState(false);
   useFireData();
-
-  // Listen for map mode trigger from DeepDivePanel "View map" button
-  useEffect(() => {
-    const handler = () => setMapMode(true);
-    window.addEventListener('enter-map-mode', handler);
-    return () => window.removeEventListener('enter-map-mode', handler);
-  }, []);
 
   const handleFlyTo = useCallback((lat: number, lng: number, zoom?: number) => {
     window.dispatchEvent(
