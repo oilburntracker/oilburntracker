@@ -208,6 +208,9 @@ export default function OverviewPage() {
           <EventFeed onFlyTo={handleFlyTo} fullPage />
         </div>
       </div>
+
+      {/* Timeline scrubber — bottom */}
+      <TimelineScrubber />
     </div>
   );
 }

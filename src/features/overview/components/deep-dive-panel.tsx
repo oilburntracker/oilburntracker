@@ -82,24 +82,24 @@ export default function DeepDivePanel() {
   const disruptionColor = DISRUPTION_COLORS[supply.level] || DISRUPTION_COLORS.normal;
   const disruptionBg = DISRUPTION_BG[supply.level] || DISRUPTION_BG.normal;
 
+  const displayDate = new Date(timelineDate + 'T00:00:00');
+  const dateFormatted = displayDate.toLocaleDateString('en-US', { weekday: 'short', month: 'long', day: 'numeric', year: 'numeric' });
+
   return (
     <div className='h-full overflow-y-auto'>
 
-      {/* ── WAR DURATION BANNER ── */}
-      <div className='px-3 pt-3 pb-2 border-b border-zinc-800'>
-        <div className='flex items-center justify-between'>
-          <div className='flex items-center gap-2'>
-            <IconClock className='h-4 w-4 text-zinc-400' />
-            <span className='text-[10px] uppercase tracking-widest text-zinc-500 font-bold'>Conflict Duration</span>
-          </div>
-          <span className='text-sm font-black text-zinc-200 tabular-nums'>Day {warDays.toLocaleString()}</span>
+      {/* ── DATE HEADER ── */}
+      <div className='px-3 pt-3 pb-2 border-b border-zinc-800 bg-zinc-900/50'>
+        <div className='text-base md:text-lg font-black text-white leading-tight'>
+          {dateFormatted}
         </div>
-        <div className='flex items-center gap-3 mt-1 text-[11px]'>
-          <span className='text-zinc-400'>{stats.totalEvents} events tracked</span>
-          <span className='text-zinc-600'>|</span>
-          <span className='text-orange-400 font-bold'>{stats.eventsLast7} this week</span>
-          <span className='text-zinc-600'>|</span>
-          <span className='text-red-400 font-bold'>{stats.severeEventsLast30} severe (30d)</span>
+        <div className='flex items-center gap-2 mt-1'>
+          <IconClock className='h-3 w-3 text-zinc-500' />
+          <span className='text-xs font-bold text-zinc-300 tabular-nums'>Day {warDays.toLocaleString()}</span>
+          <span className='text-zinc-700'>|</span>
+          <span className='text-[11px] text-zinc-400'>{stats.totalEvents} events</span>
+          <span className='text-zinc-700'>|</span>
+          <span className='text-[11px] text-orange-400 font-bold'>{stats.eventsLast7} this week</span>
         </div>
       </div>
 
