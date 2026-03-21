@@ -201,7 +201,7 @@ export default function OverviewPage() {
 
       {/* Desktop: data panel + feed side by side */}
       <div className='hidden md:flex flex-1 min-h-0'>
-        <div className='w-[280px] shrink-0 border-r border-zinc-800 bg-black/90'>
+        <div className='w-[340px] shrink-0 border-r border-zinc-800 bg-black/90'>
           <DeepDivePanel />
         </div>
         <div className='flex-1 min-w-0'>
