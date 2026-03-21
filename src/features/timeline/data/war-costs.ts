@@ -34,6 +34,8 @@ export const warCosts: WarCostEntry[] = [
   { date: '2026-03-06', category: 'weapons', label: 'Israel F-35I deep strikes + bunker busters on Iran', amountBillions: 4 },
   { date: '2026-03-09', category: 'weapons', label: 'US expanded air campaign — B-2 sorties, 500+ strikes', amountBillions: 12 },
   { date: '2026-03-14', category: 'weapons', label: 'Iran ballistic missile campaign on Gulf states', amountBillions: 5, source: 'IISS estimates' },
+  { date: '2026-03-20', category: 'weapons', label: 'Ongoing US operations ~$1B/day (days 15-21)', amountBillions: 7, source: 'Pentagon estimate / NPR' },
+  { date: '2026-03-20', category: 'weapons', label: '11th MEU deployment + 2 additional carrier groups', amountBillions: 3 },
 
   // ═══════════════════════════════════════════════
   // RESOURCES & INFRASTRUCTURE DESTROYED

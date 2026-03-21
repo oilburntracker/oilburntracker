@@ -1874,6 +1874,97 @@ export const conflictEvents: ConflictEvent[] = [
       { type: 'news', url: 'https://www.npr.org/2026/03/20/nx-s1-5753773/global-oil-and-energy-prices-are-reeling-as-the-war-in-the-middle-east-escalates', label: 'NPR: Global energy prices reeling as war escalates' },
       { type: 'news', url: 'https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis', label: 'Wikipedia: 2026 Strait of Hormuz crisis' }
     ]
+  },
+  {
+    id: 'tehran-nowruz-strikes',
+    date: '2026-03-20',
+    time: '02:30',
+    title: 'Israel bombs Tehran on Nowruz — Persian New Year under fire',
+    category: 'escalation',
+    description: 'Israeli F-35Is launch a wave of strikes across Tehran as millions of Iranians celebrate Nowruz, the Persian New Year. Multiple explosions reported across the capital including near government buildings. IRGC fires back with missile salvos toward Jerusalem — interceptions reported over the Old City. The symbolic timing of striking on Iran\'s most sacred holiday provokes fury across the Muslim world. UN Secretary General calls it "a new low in this devastating conflict." Death toll from the overnight exchange: 47 in Iran (including 12 civilians), 4 in Israel and the West Bank.',
+    casualties: { killed: 51, injured: 200, source: 'Iran Health Ministry / IDF / CNN', children: 4 },
+    lat: 35.6892,
+    lng: 51.3890,
+    zoom: 10,
+    sourceUrl: 'https://www.npr.org/2026/03/20/nx-s1-5754550/israel-strikes-tehran-iran-attacks-gulf',
+    mediaUrls: [
+      { type: 'news', url: 'https://www.cnn.com/2026/03/20/world/video/iran-israel-war-nowruz-geranmayeh-intv-ctw-032010aseg1-cnni-world-fast', label: 'CNN: Israel strikes Iran as country celebrates Persian New Year' },
+      { type: 'news', url: 'https://www.euronews.com/2026/03/20/israel-strikes-tehran-as-iran-continues-targeting-energy-infrastructure-across-gulf', label: 'Euronews: Israel strikes Tehran as Gulf energy attacks continue' },
+      { type: 'news', url: 'https://www.opb.org/article/2026/03/20/israel-launches-more-strikes-on-tehran-as-iran-continues-attacks-on-gulf-oil-facilities/', label: 'NPR/OPB: Israel launches more strikes on Tehran' },
+      { type: 'news', url: 'https://www.fox5ny.com/news/iran-war-latest-march-20-2026', label: 'FOX: Israeli strikes hit Tehran as Iranian drones target Gulf' }
+    ]
+  },
+  {
+    id: 'irgc-spokesman-killed',
+    date: '2026-03-20',
+    time: '05:00',
+    title: 'IRGC spokesman Gen. Naini killed — 4th senior leader this week',
+    category: 'military_strike',
+    description: 'Iran\'s IRGC spokesperson Brigadier General Ali Mohammad Naini, 68, killed in a joint US-Israeli missile strike hours after appearing on state TV insisting Iran\'s missile production was unaffected. His death is the 4th major blow to Iranian leadership this week — after Ali Larijani, Gholamreza Soleimani, and Intelligence Minister Esmaeil Khatib were all killed in strikes. The systematic targeting of Iran\'s leadership echoes Israel\'s decapitation campaigns against Hamas and Hezbollah. Iran vows the killings "will not go unanswered."',
+    casualties: { killed: 1, source: 'IRGC statement / Al Jazeera' },
+    lat: 35.72,
+    lng: 51.42,
+    zoom: 11,
+    sourceUrl: 'https://www.aljazeera.com/news/2026/3/20/irans-irgc-says-spokesman-ali-mohammad-naini-killed-in-us-israeli-attack',
+    mediaUrls: [
+      { type: 'news', url: 'https://english.alarabiya.net/News/middle-east/2026/03/20/iran-s-irgc-spokesman-killed-state-tv', label: 'Al Arabiya: Iran\'s IRGC spokesman killed in US-Israeli strikes' },
+      { type: 'news', url: 'https://www.thenationalnews.com/news/mena/2026/03/20/irgc-says-spokesman-killed-in-us-israeli-missile-attack/', label: 'The National: IRGC says spokesman killed in US-Israeli attack' },
+      { type: 'news', url: 'https://www.newarab.com/news/irgc-spokesman-killed-us-israel-strike-kuwait-refinery-hit', label: 'New Arab: IRGC spokesman killed as Kuwait refinery hit' },
+      { type: 'news', url: 'https://www.dailysabah.com/world/mid-east/irans-irgc-spokesman-killed-in-strike-amid-leadership-crisis/amp', label: 'Daily Sabah: IRGC spokesman killed amid leadership crisis' }
+    ]
+  },
+  {
+    id: 'trump-wind-down-signal',
+    date: '2026-03-20',
+    time: '14:30',
+    title: 'Trump floats "winding down" war — but rejects ceasefire, sends more troops',
+    category: 'diplomatic',
+    description: 'Trump posts on Truth Social: "We are getting very close to meeting our objectives as we consider winding down our great Military efforts in the Middle East." But minutes earlier he told reporters: "I don\'t want to do a ceasefire. You don\'t do a ceasefire when you\'re literally obliterating the other side." Contradicting the wind-down signal, the 11th Marine Expeditionary Unit (2,200+ Marines) deploys from San Diego to the Gulf. Pentagon has spent ~$1 billion/day on the war. Iran dismisses the "wind down" talk — a senior Iranian source tells CNN: "Iran has no such estimate and concludes that the enemy\'s military posture hasn\'t changed."',
+    lat: 38.8977,
+    lng: -77.0365,
+    zoom: 5,
+    sourceUrl: 'https://www.cnbc.com/2026/03/20/trump-iran-war-ceasefire.html',
+    mediaUrls: [
+      { type: 'news', url: 'https://www.thenationalnews.com/news/us/2026/03/20/trump-says-us-is-considering-winding-down-iran-war/', label: 'The National: Trump says US considering winding down Iran war' },
+      { type: 'news', url: 'https://www.axios.com/2026/03/20/trump-winding-down-iran-war-hormuz-strait', label: 'Axios: Trump considers winding down without opening Hormuz' },
+      { type: 'news', url: 'https://www.pbs.org/newshour/show/as-attacks-on-oil-sites-continue-trump-dismisses-ceasefire-says-iran-is-finished', label: 'PBS: Trump dismisses ceasefire, says Iran is finished' },
+      { type: 'news', url: 'https://www.bloomberg.com/news/articles/2026-03-20/trump-says-he-doesn-t-want-ceasefire-in-iran-conflict', label: 'Bloomberg: Trump says he doesn\'t want ceasefire' }
+    ]
+  },
+  {
+    id: 'pentagon-200b-request',
+    date: '2026-03-20',
+    time: '10:00',
+    title: 'Pentagon asks for $200B war funding — "$1 billion a day to kill bad guys"',
+    category: 'escalation',
+    description: 'The Pentagon sends a $200 billion supplemental budget request to the White House to fund the Iran war — the largest war funding request since the initial Iraq invasion. Defense Secretary Hegseth confirms the figure but says it "could move." At ~$1 billion per day, the 21-day war has already cost taxpayers over $20 billion. Bipartisan congressional pushback is immediate. Goldman Sachs warns oil will stay above $100/barrel through 2027. Trump calls it "a small price to pay." The request signals preparation for a longer conflict than the administration\'s original 4-6 week timeline.',
+    lat: 38.8719,
+    lng: -77.0563,
+    zoom: 12,
+    sourceUrl: 'https://www.npr.org/2026/03/19/nx-s1-5753520/iran-israel-gas-field-attacks',
+    mediaUrls: [
+      { type: 'news', url: 'https://www.washingtonpost.com/national-security/2026/03/18/iran-cost-budget-pentagon/', label: 'Washington Post: Pentagon seeks $200B for Iran war' },
+      { type: 'news', url: 'https://time.com/article/2026/03/20/republican-democrat-lawmakers-condemn-pentagon-iran-war-funding-request/', label: 'TIME: Lawmakers condemn Pentagon\'s $200B request' },
+      { type: 'news', url: 'https://www.aljazeera.com/news/2026/3/19/hegseth-says-no-timeframe-for-war-on-iran-as-pentagon-asks-for-200bn', label: 'Al Jazeera: Hegseth says no timeframe as Pentagon asks for $200B' },
+      { type: 'news', url: 'https://reason.com/2026/03/20/200-billion-war/', label: 'Reason: Pentagon seeks $200 billion from Congress' },
+      { type: 'news', url: 'https://www.armytimes.com/news/pentagon-congress/2026/03/19/it-takes-money-to-kill-bad-guys-pentagon-seeks-200-billion-in-new-funding-for-war-in-iran/', label: 'Army Times: "It takes money to kill bad guys" — Pentagon seeks $200B' }
+    ]
+  },
+  {
+    id: 'nato-cowards-hormuz',
+    date: '2026-03-20',
+    time: '16:00',
+    title: 'Trump calls NATO allies "cowards" for refusing to join Hormuz force',
+    category: 'diplomatic',
+    description: 'Trump publicly lashes out at NATO allies, calling them "cowards" for refusing to contribute warships to a Strait of Hormuz security force. France, Germany, and the UK have all declined to participate, citing the unilateral nature of the US-Israel campaign. The diplomatic rupture deepens as European nations face the energy crisis caused by Hormuz closure but refuse to militarily back the war that caused it. Only Bahrain and UAE have offered port access. Saudi Arabia remains conspicuously silent on military cooperation despite its own facilities being hit by Iran.',
+    lat: 50.8503,
+    lng: 4.3517,
+    zoom: 5,
+    sourceUrl: 'https://www.euronews.com/2026/03/20/israel-strikes-tehran-as-iran-continues-targeting-energy-infrastructure-across-gulf',
+    mediaUrls: [
+      { type: 'news', url: 'https://www.aljazeera.com/news/2026/3/14/trump-says-many-countries-will-send-warships-to-hormuz-amid-iran-blockade', label: 'Al Jazeera: Trump says many countries will send warships to Hormuz' },
+      { type: 'news', url: 'https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-20-26', label: 'CNN Live: Iran war day 21 updates' }
+    ]
   }
 ];
 
