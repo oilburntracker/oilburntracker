@@ -237,6 +237,44 @@ function StatsSidebar() {
   );
 }
 
+// ── Mobile stats strip — compact horizontal bar for small screens ──
+function MobileStats() {
+  const timelineDate = useFireStore((s) => s.timelineDate);
+
+  const visibleFacilityIds = getVisibleFacilityIds(timelineDate);
+  const supply = getSupplyDisruptionUpTo(visibleFacilityIds, timelineDate);
+  const casualties = getCasualtiesUpTo(timelineDate);
+  const cost = getWarCostUpTo(timelineDate);
+  const impact = getConsumerImpactUpTo(timelineDate);
+
+  return (
+    <div className='md:hidden shrink-0 border-b border-zinc-800 bg-black/90 px-3 py-2 overflow-x-auto'>
+      <div className='flex items-center gap-4 min-w-max'>
+        <div className='flex items-center gap-1.5'>
+          <IconSkull className='h-3.5 w-3.5 text-red-500' />
+          <span className='text-xs font-black text-red-500 tabular-nums'>{casualties.totalKilled.toLocaleString()}+</span>
+        </div>
+        <div className='flex items-center gap-1.5'>
+          <IconBomb className='h-3 w-3 text-white' />
+          <span className='text-xs font-black text-white tabular-nums'>{formatBillions(cost.totalBillions)}</span>
+        </div>
+        <div className='flex items-center gap-1.5'>
+          <IconAlertTriangle className='h-3 w-3 text-red-400' />
+          <span className='text-xs font-black text-red-400 tabular-nums'>{supply.productionPct.toFixed(1)}%</span>
+        </div>
+        <div className='flex items-center gap-1.5'>
+          <IconReceipt className='h-3 w-3 text-orange-400' />
+          <span className='text-xs font-black text-orange-400 tabular-nums'>+${impact.totalMonthlyExtra}/mo</span>
+        </div>
+        <div className='flex items-center gap-1.5'>
+          <IconGasStation className='h-3 w-3 text-orange-400' />
+          <span className='text-xs font-black text-orange-400 tabular-nums'>${impact.gasPriceGallon.toFixed(2)}</span>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 // ── Floating stats for map mode (collapsible) ──
 function FloatingStats() {
   const fireData = useFireStore((s) => s.fireData);
@@ -378,32 +416,35 @@ export default function OverviewPage() {
 
   // ── FEED MODE (default) ──
   return (
-    <div className='relative h-[calc(100dvh-64px)] w-full flex bg-zinc-950'>
+    <div className='relative h-[calc(100dvh-64px)] w-full flex flex-col bg-zinc-950'>
       <WelcomeOverlay />
 
-      {/* Event Feed — main content */}
-      <div className='flex-1 min-w-0 flex flex-col'>
-        {/* Feed header */}
-        <div className='flex items-center justify-between px-4 py-2.5 border-b border-zinc-800 shrink-0 bg-zinc-950'>
-          <span className='text-sm font-bold text-zinc-100'>Feed</span>
-          <button
-            onClick={() => setMapMode(true)}
-            className='flex items-center gap-1.5 rounded-lg border border-zinc-700 bg-zinc-900 hover:bg-zinc-800 px-3 py-1.5 text-xs font-bold text-zinc-300 transition-colors cursor-pointer'
-          >
-            <IconMap className='h-3.5 w-3.5' />
-            Live Map
-          </button>
-        </div>
-
-        {/* Scrollable feed */}
-        <div className='flex-1 min-h-0'>
-          <EventFeed onFlyTo={handleFlyTo} fullPage />
-        </div>
+      {/* Feed header */}
+      <div className='flex items-center justify-between px-4 py-2.5 border-b border-zinc-800 shrink-0 bg-zinc-950 z-10'>
+        <span className='text-sm font-bold text-zinc-100'>Feed</span>
+        <button
+          onClick={() => setMapMode(true)}
+          className='flex items-center gap-1.5 rounded-lg border border-zinc-700 bg-zinc-900 hover:bg-zinc-800 px-3 py-1.5 text-xs font-bold text-zinc-300 transition-colors cursor-pointer'
+        >
+          <IconMap className='h-3.5 w-3.5' />
+          Live Map
+        </button>
       </div>
 
-      {/* Stats sidebar — always visible, updates as feed scrolls */}
-      <div className='w-[240px] shrink-0 border-l border-zinc-800 bg-black/90 hidden md:block'>
-        <StatsSidebar />
+      {/* Mobile stats strip — visible on small screens only */}
+      <MobileStats />
+
+      {/* Main content area */}
+      <div className='flex-1 min-h-0 flex'>
+        {/* Event Feed */}
+        <div className='flex-1 min-w-0'>
+          <EventFeed onFlyTo={handleFlyTo} fullPage />
+        </div>
+
+        {/* Stats sidebar — desktop only */}
+        <div className='w-[240px] shrink-0 border-l border-zinc-800 bg-black/90 hidden md:block'>
+          <StatsSidebar />
+        </div>
       </div>
 
       {/* Timeline scrubber — bottom */}
