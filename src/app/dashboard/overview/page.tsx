@@ -238,7 +238,7 @@ function StatsSidebar() {
 }
 
 // ── Mobile stats — tappable strip that expands to full panel ──
-function MobileStats() {
+function MobileStats({ onMapMode }: { onMapMode: () => void }) {
   const [expanded, setExpanded] = useState(false);
   const timelineDate = useFireStore((s) => s.timelineDate);
 
@@ -249,32 +249,39 @@ function MobileStats() {
   const impact = getConsumerImpactUpTo(timelineDate);
 
   return (
-    <div className='md:hidden shrink-0 border-b border-zinc-800 bg-black/90'>
-      {/* Tappable strip */}
-      <button
-        onClick={() => setExpanded(!expanded)}
-        className='w-full px-3 py-2 flex items-center justify-between cursor-pointer'
-      >
-        <div className='flex items-center gap-4 min-w-0 overflow-x-auto'>
-          <div className='flex items-center gap-1.5'>
-            <IconSkull className='h-3.5 w-3.5 text-red-500' />
-            <span className='text-xs font-black text-red-500 tabular-nums'>{casualties.totalKilled.toLocaleString()}+</span>
+    <div className='border-b border-zinc-800 bg-black/90'>
+      {/* Compact strip: stats + map button */}
+      <div className='flex items-center px-2 py-1.5'>
+        <button
+          onClick={() => setExpanded(!expanded)}
+          className='flex-1 min-w-0 flex items-center gap-3 overflow-x-auto cursor-pointer'
+        >
+          <div className='flex items-center gap-1'>
+            <IconSkull className='h-3 w-3 text-red-500' />
+            <span className='text-[11px] font-black text-red-500 tabular-nums'>{casualties.totalKilled.toLocaleString()}+</span>
           </div>
-          <div className='flex items-center gap-1.5'>
+          <div className='flex items-center gap-1'>
             <IconBomb className='h-3 w-3 text-white' />
-            <span className='text-xs font-black text-white tabular-nums'>{formatBillions(cost.totalBillions)}</span>
+            <span className='text-[11px] font-black text-white tabular-nums'>{formatBillions(cost.totalBillions)}</span>
           </div>
-          <div className='flex items-center gap-1.5'>
+          <div className='flex items-center gap-1'>
             <IconAlertTriangle className='h-3 w-3 text-red-400' />
-            <span className='text-xs font-black text-red-400 tabular-nums'>{supply.productionPct.toFixed(1)}%</span>
+            <span className='text-[11px] font-black text-red-400 tabular-nums'>{supply.productionPct.toFixed(1)}%</span>
           </div>
-          <div className='flex items-center gap-1.5'>
+          <div className='flex items-center gap-1'>
             <IconReceipt className='h-3 w-3 text-orange-400' />
-            <span className='text-xs font-black text-orange-400 tabular-nums'>+${impact.totalMonthlyExtra}/mo</span>
+            <span className='text-[11px] font-black text-orange-400 tabular-nums'>+${impact.totalMonthlyExtra}</span>
           </div>
-        </div>
-        <IconChevronUp className={`h-4 w-4 text-zinc-500 shrink-0 ml-2 transition-transform ${expanded ? '' : 'rotate-180'}`} />
-      </button>
+          <IconChevronUp className={`h-3.5 w-3.5 text-zinc-600 shrink-0 transition-transform ${expanded ? '' : 'rotate-180'}`} />
+        </button>
+        <button
+          onClick={onMapMode}
+          className='shrink-0 ml-2 flex items-center gap-1 rounded-md border border-zinc-700 bg-zinc-900 px-2 py-1 text-[11px] font-bold text-zinc-400 cursor-pointer'
+        >
+          <IconMap className='h-3 w-3' />
+          Map
+        </button>
+      </div>
 
       {/* Expanded full stats panel */}
       {expanded && (
@@ -430,20 +437,21 @@ export default function OverviewPage() {
     <div className='relative h-[calc(100dvh-64px)] w-full flex flex-col bg-zinc-950'>
       <WelcomeOverlay />
 
-      {/* Feed header */}
-      <div className='flex items-center justify-between px-4 py-2.5 border-b border-zinc-800 shrink-0 bg-zinc-950 z-10'>
-        <span className='text-sm font-bold text-zinc-100'>Feed</span>
-        <button
-          onClick={() => setMapMode(true)}
-          className='flex items-center gap-1.5 rounded-lg border border-zinc-700 bg-zinc-900 hover:bg-zinc-800 px-3 py-1.5 text-xs font-bold text-zinc-300 transition-colors cursor-pointer'
-        >
-          <IconMap className='h-3.5 w-3.5' />
-          Live Map
-        </button>
+      {/* Mobile: combined stats strip + map button */}
+      <div className='md:hidden shrink-0'>
+        <MobileStats onMapMode={() => setMapMode(true)} />
       </div>
 
-      {/* Mobile stats strip — visible on small screens only */}
-      <MobileStats />
+      {/* Desktop: minimal header with map button */}
+      <div className='hidden md:flex items-center justify-end px-3 py-1 border-b border-zinc-800 shrink-0 bg-zinc-950 z-10'>
+        <button
+          onClick={() => setMapMode(true)}
+          className='flex items-center gap-1 rounded-md border border-zinc-700 bg-zinc-900 hover:bg-zinc-800 px-2 py-1 text-[11px] font-bold text-zinc-400 transition-colors cursor-pointer'
+        >
+          <IconMap className='h-3 w-3' />
+          Map
+        </button>
+      </div>
 
       {/* Main content area */}
       <div className='flex-1 min-h-0 flex'>
