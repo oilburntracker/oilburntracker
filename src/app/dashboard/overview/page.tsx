@@ -237,8 +237,9 @@ function StatsSidebar() {
   );
 }
 
-// ── Mobile stats strip — compact horizontal bar for small screens ──
+// ── Mobile stats — tappable strip that expands to full panel ──
 function MobileStats() {
+  const [expanded, setExpanded] = useState(false);
   const timelineDate = useFireStore((s) => s.timelineDate);
 
   const visibleFacilityIds = getVisibleFacilityIds(timelineDate);
@@ -248,29 +249,39 @@ function MobileStats() {
   const impact = getConsumerImpactUpTo(timelineDate);
 
   return (
-    <div className='md:hidden shrink-0 border-b border-zinc-800 bg-black/90 px-3 py-2 overflow-x-auto'>
-      <div className='flex items-center gap-4 min-w-max'>
-        <div className='flex items-center gap-1.5'>
-          <IconSkull className='h-3.5 w-3.5 text-red-500' />
-          <span className='text-xs font-black text-red-500 tabular-nums'>{casualties.totalKilled.toLocaleString()}+</span>
+    <div className='md:hidden shrink-0 border-b border-zinc-800 bg-black/90'>
+      {/* Tappable strip */}
+      <button
+        onClick={() => setExpanded(!expanded)}
+        className='w-full px-3 py-2 flex items-center justify-between cursor-pointer'
+      >
+        <div className='flex items-center gap-4 min-w-0 overflow-x-auto'>
+          <div className='flex items-center gap-1.5'>
+            <IconSkull className='h-3.5 w-3.5 text-red-500' />
+            <span className='text-xs font-black text-red-500 tabular-nums'>{casualties.totalKilled.toLocaleString()}+</span>
+          </div>
+          <div className='flex items-center gap-1.5'>
+            <IconBomb className='h-3 w-3 text-white' />
+            <span className='text-xs font-black text-white tabular-nums'>{formatBillions(cost.totalBillions)}</span>
+          </div>
+          <div className='flex items-center gap-1.5'>
+            <IconAlertTriangle className='h-3 w-3 text-red-400' />
+            <span className='text-xs font-black text-red-400 tabular-nums'>{supply.productionPct.toFixed(1)}%</span>
+          </div>
+          <div className='flex items-center gap-1.5'>
+            <IconReceipt className='h-3 w-3 text-orange-400' />
+            <span className='text-xs font-black text-orange-400 tabular-nums'>+${impact.totalMonthlyExtra}/mo</span>
+          </div>
         </div>
-        <div className='flex items-center gap-1.5'>
-          <IconBomb className='h-3 w-3 text-white' />
-          <span className='text-xs font-black text-white tabular-nums'>{formatBillions(cost.totalBillions)}</span>
+        <IconChevronUp className={`h-4 w-4 text-zinc-500 shrink-0 ml-2 transition-transform ${expanded ? '' : 'rotate-180'}`} />
+      </button>
+
+      {/* Expanded full stats panel */}
+      {expanded && (
+        <div className='max-h-[60dvh] overflow-y-auto border-t border-zinc-800'>
+          <StatsSidebar />
         </div>
-        <div className='flex items-center gap-1.5'>
-          <IconAlertTriangle className='h-3 w-3 text-red-400' />
-          <span className='text-xs font-black text-red-400 tabular-nums'>{supply.productionPct.toFixed(1)}%</span>
-        </div>
-        <div className='flex items-center gap-1.5'>
-          <IconReceipt className='h-3 w-3 text-orange-400' />
-          <span className='text-xs font-black text-orange-400 tabular-nums'>+${impact.totalMonthlyExtra}/mo</span>
-        </div>
-        <div className='flex items-center gap-1.5'>
-          <IconGasStation className='h-3 w-3 text-orange-400' />
-          <span className='text-xs font-black text-orange-400 tabular-nums'>${impact.gasPriceGallon.toFixed(2)}</span>
-        </div>
-      </div>
+      )}
     </div>
   );
 }
