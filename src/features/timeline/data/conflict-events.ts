@@ -2168,7 +2168,6 @@ export interface NuclearStatus {
   facilitiesTargeted: number;
   facilitiesDestroyed: number;
   enrichmentPct: number;   // Iran's enrichment capability remaining (0-100)
-  breakoutWeeks: number;   // estimated weeks to nuclear weapon (0 = prevented)
   radiationRisk: 'none' | 'low' | 'elevated' | 'high';
   label: string;
 }
@@ -2181,27 +2180,27 @@ interface NuclearEvent {
 const NUCLEAR_TIMELINE: NuclearEvent[] = [
   {
     date: '2024-04-19',
-    status: { facilitiesTargeted: 1, facilitiesDestroyed: 0, enrichmentPct: 100, breakoutWeeks: 2, radiationRisk: 'none', label: 'Israel strikes near Isfahan — warning shot' }
+    status: { facilitiesTargeted: 1, facilitiesDestroyed: 0, enrichmentPct: 100, radiationRisk: 'none', label: 'Israel strikes near Isfahan — warning shot' }
   },
   {
     date: '2026-03-01',
-    status: { facilitiesTargeted: 2, facilitiesDestroyed: 0, enrichmentPct: 95, breakoutWeeks: 2, radiationRisk: 'none', label: 'War begins — Natanz tunnel entrances hit' }
+    status: { facilitiesTargeted: 2, facilitiesDestroyed: 0, enrichmentPct: 95, radiationRisk: 'none', label: 'War begins — Natanz tunnel entrances hit' }
   },
   {
     date: '2026-03-06',
-    status: { facilitiesTargeted: 3, facilitiesDestroyed: 1, enrichmentPct: 60, breakoutWeeks: 6, radiationRisk: 'low', label: 'Isfahan & Natanz heavily damaged' }
+    status: { facilitiesTargeted: 3, facilitiesDestroyed: 1, enrichmentPct: 60, radiationRisk: 'low', label: 'Isfahan & Natanz heavily damaged' }
   },
   {
     date: '2026-03-09',
-    status: { facilitiesTargeted: 4, facilitiesDestroyed: 2, enrichmentPct: 40, breakoutWeeks: 12, radiationRisk: 'elevated', label: 'Fordow bunker busters — deep underground hit' }
+    status: { facilitiesTargeted: 4, facilitiesDestroyed: 2, enrichmentPct: 40, radiationRisk: 'elevated', label: 'Fordow bunker busters — deep underground hit' }
   },
   {
     date: '2026-03-14',
-    status: { facilitiesTargeted: 5, facilitiesDestroyed: 3, enrichmentPct: 25, breakoutWeeks: 24, radiationRisk: 'elevated', label: 'Arak heavy water reactor destroyed' }
+    status: { facilitiesTargeted: 5, facilitiesDestroyed: 3, enrichmentPct: 25, radiationRisk: 'elevated', label: 'Arak heavy water reactor destroyed' }
   },
   {
     date: '2026-03-21',
-    status: { facilitiesTargeted: 6, facilitiesDestroyed: 4, enrichmentPct: 15, breakoutWeeks: 52, radiationRisk: 'high', label: 'Natanz struck again — IAEA warns of nuclear accident risk' }
+    status: { facilitiesTargeted: 6, facilitiesDestroyed: 4, enrichmentPct: 15, radiationRisk: 'high', label: 'Natanz struck again — IAEA warns of nuclear accident risk' }
   },
 ];
 

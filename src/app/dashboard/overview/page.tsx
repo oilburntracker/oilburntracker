@@ -176,16 +176,17 @@ function CompactStats() {
                 {nuclear.enrichmentPct}% remaining
               </span>
             </div>
-            <div className='flex items-center justify-between text-[11px]'>
-              <span className='text-zinc-400'>Breakout time</span>
-              <span className={`font-bold tabular-nums ${nuclear.breakoutWeeks <= 4 ? 'text-red-500' : nuclear.breakoutWeeks <= 12 ? 'text-orange-400' : 'text-green-400'}`}>
-                {nuclear.breakoutWeeks <= 52 ? `${nuclear.breakoutWeeks}w` : '1y+'}
-              </span>
-            </div>
             {nuclear.radiationRisk !== 'none' && (
-              <div className='flex items-center justify-between text-[11px]'>
+              <div className='flex items-center justify-between text-[11px] group relative'>
                 <span className='text-zinc-400'>Radiation risk</span>
-                <span className={`font-bold tabular-nums ${nuclear.radiationRisk === 'high' ? 'text-red-500 animate-pulse' : nuclear.radiationRisk === 'elevated' ? 'text-orange-400' : 'text-yellow-400'}`}>
+                <span
+                  className={`font-bold tabular-nums cursor-help ${nuclear.radiationRisk === 'high' ? 'text-red-500 animate-pulse' : nuclear.radiationRisk === 'elevated' ? 'text-orange-400' : 'text-yellow-400'}`}
+                  title={nuclear.radiationRisk === 'high'
+                    ? 'Strikes on enrichment facilities risk releasing uranium hexafluoride and radioactive material. IAEA has warned of potential nuclear accident.'
+                    : nuclear.radiationRisk === 'elevated'
+                    ? 'Multiple nuclear facilities damaged. Risk of radioactive contamination from destroyed centrifuges and stored nuclear material.'
+                    : 'Nuclear facilities targeted. Low but non-zero risk of radioactive release from conventional strikes on nuclear sites.'}
+                >
                   {nuclear.radiationRisk.toUpperCase()}
                 </span>
               </div>
