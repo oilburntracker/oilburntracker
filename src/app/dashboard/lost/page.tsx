@@ -1,10 +1,12 @@
 'use client';
 
-import { useRef, useState, useEffect, useMemo } from 'react';
+import { useRef, useState, useEffect, useMemo, useCallback } from 'react';
 import { useVirtualizer } from '@tanstack/react-virtual';
 import { livesLost, CATEGORY_ICONS } from '@/features/memorial/data/lives-lost';
 import { generateEntry, REGION_NAMES } from '@/features/memorial/lib/memorial-templates';
 import { getCasualtiesUpTo } from '@/features/timeline/data/conflict-events';
+import { IconArrowUp, IconHeart } from '@tabler/icons-react';
+import SubmitDialog from '@/features/memorial/components/submit-dialog';
 
 /* ── Types ── */
 interface MemorialRecord { age: number; sex: number; region: number; date: string }
@@ -109,7 +111,7 @@ function FeaturedEntry({ entry, number }: { entry: typeof livesLost[0]; number: 
 }
 
 /* ── Generated entry (from dataset demographics) ── */
-function DataEntry({ index, record, number }: { index: number; record: MemorialRecord; number: number }) {
+function DataEntry({ index, record, number, onRemember }: { index: number; record: MemorialRecord; number: number; onRemember: (n: number) => void }) {
   const entry = useMemo(
     () => generateEntry(index, record.age, record.sex, record.region),
     [index, record.age, record.sex, record.region]
@@ -141,6 +143,13 @@ function DataEntry({ index, record, number }: { index: number; record: MemorialR
                 <span>{dateStr}</span>
               </>
             )}
+            <span className='text-zinc-800'>·</span>
+            <button
+              onClick={() => onRemember(number)}
+              className='text-zinc-600 hover:text-zinc-300 transition-colors cursor-pointer'
+            >
+              remember them
+            </button>
           </div>
         </div>
       </div>
@@ -169,6 +178,13 @@ export default function WhatWeLostPage() {
 
   // Track furthest read position
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [submitOpen, setSubmitOpen] = useState(false);
+  const [submitEntry, setSubmitEntry] = useState<number | undefined>();
+
+  const handleRemember = useCallback((n: number) => {
+    setSubmitEntry(n);
+    setSubmitOpen(true);
+  }, []);
   useEffect(() => {
     const items = virtualizer.getVirtualItems();
     if (items.length > 0) {
@@ -243,6 +259,7 @@ export default function WhatWeLostPage() {
                         index={idx - featuredCount}
                         record={records[idx - featuredCount]}
                         number={number}
+                        onRemember={handleRemember}
                       />
                     ) : null}
                   </div>
@@ -286,6 +303,29 @@ export default function WhatWeLostPage() {
           </div>
         </div>
       </div>
+
+      {/* Back to top */}
+      {currentIndex > 50 && (
+        <button
+          onClick={() => virtualizer.scrollToIndex(0, { align: 'start' })}
+          className='absolute bottom-14 right-4 z-20 rounded-full bg-zinc-800/90 hover:bg-zinc-700 border border-zinc-700 p-2.5 shadow-lg transition-colors cursor-pointer'
+          aria-label='Back to top'
+        >
+          <IconArrowUp className='h-5 w-5 text-zinc-300' />
+        </button>
+      )}
+
+      {/* Submit memory FAB */}
+      <button
+        onClick={() => { setSubmitEntry(undefined); setSubmitOpen(true); }}
+        className='absolute bottom-4 right-4 z-20 flex items-center gap-1.5 rounded-full bg-white/10 hover:bg-white/20 border border-zinc-700 px-4 py-2.5 shadow-lg transition-colors cursor-pointer'
+        aria-label='Submit a memory'
+      >
+        <IconHeart className='h-4 w-4 text-zinc-300' />
+        <span className='text-sm text-zinc-300 font-medium'>Remember someone</span>
+      </button>
+
+      <SubmitDialog open={submitOpen} onOpenChange={setSubmitOpen} entryNumber={submitEntry} />
     </div>
   );
 }
