@@ -30,6 +30,13 @@ export const navItems: NavItem[] = [
     items: []
   },
   {
+    title: 'What We Lost',
+    url: '/dashboard/lost',
+    icon: 'heart',
+    isActive: false,
+    items: []
+  },
+  {
     title: 'About',
     url: '/dashboard/about',
     icon: 'about',

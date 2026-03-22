@@ -25,7 +25,8 @@ import {
   IconMap,
   IconChartAreaLine,
   IconInfoCircle,
-  IconReceipt
+  IconReceipt,
+  IconHeart
 } from '@tabler/icons-react';
 
 export type Icon = React.ComponentType<IconProps>;
@@ -56,5 +57,6 @@ export const Icons = {
   map: IconMap,
   timeline: IconChartAreaLine,
   about: IconInfoCircle,
-  receipt: IconReceipt
+  receipt: IconReceipt,
+  heart: IconHeart
 };

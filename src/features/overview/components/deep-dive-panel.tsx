@@ -577,6 +577,13 @@ export default function DeepDivePanel({ onMapMode }: { onMapMode?: () => void } 
           That&apos;s the population of {populationKilled}. Every number is someone&apos;s parent, child, or neighbor.
           {casualties.totalDisplaced > 0 && ` ${(casualties.totalDisplaced / 1_000_000).toFixed(1)} million people have nowhere to go home to.`}
         </InfoBox>
+
+        <a
+          href='/dashboard/lost'
+          className='mt-3 w-full flex items-center justify-center gap-2 rounded-xl bg-zinc-900 border border-zinc-800 p-3 text-sm font-bold text-zinc-300 hover:bg-zinc-800 hover:text-white transition-colors'
+        >
+          These are not just numbers — see what we lost →
+        </a>
       </div>
 
       {/* ── YOUR HOUSEHOLD COST ── */}
