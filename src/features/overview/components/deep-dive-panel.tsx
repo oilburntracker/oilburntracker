@@ -908,8 +908,8 @@ export default function DeepDivePanel({ onMapMode }: { onMapMode?: () => void } 
         </InfoBox>
       </div>
 
-      {/* ── FACILITIES DAMAGE REPORT ── */}
-      <div className='px-4 pt-4 pb-3 border-b border-gray-200 dark:border-zinc-700'>
+      {/* ── FACILITIES DAMAGE REPORT ── (only show after facility events exist) */}
+      {(hitFacilityList.length > 0 || timelineDate >= '2024-01-12') && <div className='px-4 pt-4 pb-3 border-b border-gray-200 dark:border-zinc-700'>
         <SectionTitle icon={<IconBuildingSkyscraper className='h-5 w-5 text-red-600' />} title='Facilities Damage Report' />
         <div className='text-base text-gray-500 mb-3'>
           <strong className='text-red-600'>{hitFacilityList.length}</strong> hit · <strong className='text-yellow-600'>{threatenedFacilityList.length}</strong> threatened · {curatedFires.length} total tracked
@@ -963,7 +963,7 @@ export default function DeepDivePanel({ onMapMode }: { onMapMode?: () => void } 
         <InfoBox>
           Click any facility for full breakdown — strategic importance, cascade impact, and supply chain role.
         </InfoBox>
-      </div>
+      </div>}
 
       {/* ── EMISSIONS ── */}
       <div className='px-4 pt-4 pb-3 border-b border-gray-200 dark:border-zinc-700'>
