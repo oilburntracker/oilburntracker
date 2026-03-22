@@ -170,8 +170,8 @@ export default function OverviewPage() {
         </div>
       </div>
 
-      {/* Timeline scrubber — pinned to bottom */}
-      <div className='shrink-0 sticky bottom-0 z-20 bg-white dark:bg-zinc-950 border-t border-gray-200 dark:border-zinc-800'>
+      {/* Timeline scrubber — fixed to bottom */}
+      <div className='fixed bottom-0 left-0 right-0 z-20 bg-white dark:bg-zinc-950 border-t border-gray-200 dark:border-zinc-800'>
         <TimelineScrubber />
       </div>
     </div>

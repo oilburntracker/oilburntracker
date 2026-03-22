@@ -13,7 +13,7 @@ import { curatedFires } from '@/features/fires/data/curated-fires';
 // ── Build day-by-day date array from first event to today ──
 function buildDayArray(): string[] {
   const start = new Date('2023-10-07T00:00:00');
-  const end = new Date('2026-03-21T00:00:00');
+  const end = new Date();
   const days: string[] = [];
   const d = new Date(start);
   while (d <= end) {
@@ -50,8 +50,10 @@ interface TimelineScrubberProps {
 }
 
 export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
-  const [currentIndex, setCurrentIndex] = useState(ALL_DAYS.length - 1);
+  const storedDate = useFireStore((s) => s.timelineDate);
   const setTimelineDate = useFireStore((s) => s.setTimelineDate);
+  const initialIndex = Math.max(0, ALL_DAYS.indexOf(storedDate));
+  const [currentIndex, setCurrentIndex] = useState(initialIndex >= 0 ? initialIndex : ALL_DAYS.length - 1);
 
   const currentDate = ALL_DAYS[currentIndex];
   const todayEvents = EVENTS_BY_DATE.get(currentDate) || [];
@@ -95,7 +97,7 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
     : null;
 
   return (
-    <div className='shrink-0 border-t border-gray-200 dark:border-zinc-700 bg-white dark:bg-zinc-900/95 px-4 py-4'>
+    <div className='shrink-0 border-t border-gray-200 dark:border-zinc-700 bg-white dark:bg-zinc-900/95 px-4 py-2'>
       {/* Custom slider thumb styles */}
       <style>{`
         .timeline-slider {
@@ -106,12 +108,12 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
         }
         .timeline-slider::-webkit-slider-thumb {
           -webkit-appearance: none;
-          width: 28px;
-          height: 28px;
+          width: 20px;
+          height: 20px;
           border-radius: 50%;
           background: #2563eb;
-          border: 3px solid white;
-          box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+          border: 2px solid white;
+          box-shadow: 0 1px 4px rgba(0,0,0,0.3);
           cursor: grab;
           position: relative;
           z-index: 10;
@@ -122,12 +124,12 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
           background: #1d4ed8;
         }
         .timeline-slider::-moz-range-thumb {
-          width: 28px;
-          height: 28px;
+          width: 20px;
+          height: 20px;
           border-radius: 50%;
           background: #2563eb;
-          border: 3px solid white;
-          box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+          border: 2px solid white;
+          box-shadow: 0 1px 4px rgba(0,0,0,0.3);
           cursor: grab;
         }
         .timeline-slider::-moz-range-thumb:active {
@@ -156,18 +158,18 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
       `}</style>
 
       {/* Date + day counter */}
-      <div className='flex items-center justify-between mb-1.5'>
-        <span className='text-base font-black text-gray-900 dark:text-white'>
+      <div className='flex items-center justify-between mb-0.5'>
+        <span className='text-sm font-black text-gray-900 dark:text-white'>
           {formatDate(currentDate)}
         </span>
-        <span className='text-base font-bold text-gray-500 dark:text-zinc-400 tabular-nums'>
+        <span className='text-sm font-bold text-gray-500 dark:text-zinc-400 tabular-nums'>
           Day {dayNumber}
         </span>
       </div>
 
       {/* Event summary for this date */}
       {eventSummary && (
-        <div className='text-sm text-blue-700 dark:text-orange-400 font-medium mb-2 truncate' title={eventSummary}>
+        <div className='text-xs text-blue-700 dark:text-orange-400 font-medium mb-1 truncate' title={eventSummary}>
           {todayEvents.length} event{todayEvents.length > 1 ? 's' : ''}: {eventSummary}
         </div>
       )}
@@ -180,10 +182,10 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
           max={ALL_DAYS.length - 1}
           value={currentIndex}
           onChange={handleSliderChange}
-          className='timeline-slider w-full h-6 relative z-10'
+          className='timeline-slider w-full h-5 relative z-10'
         />
         {/* Track background */}
-        <div className='absolute top-1/2 -translate-y-1/2 left-0 right-0 h-3 rounded-full bg-gray-200 dark:bg-zinc-800 pointer-events-none'>
+        <div className='absolute top-1/2 -translate-y-1/2 left-0 right-0 h-2 rounded-full bg-gray-200 dark:bg-zinc-800 pointer-events-none'>
           {/* Progress fill */}
           <div
             className='h-full rounded-full bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 dark:from-yellow-500 dark:via-orange-500 dark:to-red-600'
@@ -191,11 +193,11 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
           />
         </div>
         {/* Event tick marks */}
-        <div className='absolute top-1/2 -translate-y-1/2 left-0 right-0 h-3 pointer-events-none'>
+        <div className='absolute top-1/2 -translate-y-1/2 left-0 right-0 h-2 pointer-events-none'>
           {eventTicks.map((tick) => (
             <div
               key={tick.date}
-              className='absolute w-0.5 h-5 -mt-1 rounded-full'
+              className='absolute w-0.5 h-3 -mt-0.5 rounded-full'
               style={{
                 left: `${tick.pct}%`,
                 backgroundColor: tick.color,
@@ -207,11 +209,11 @@ export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
       </div>
 
       {/* Year labels */}
-      <div className='flex justify-between mt-1'>
-        <span className='text-sm text-gray-400 dark:text-zinc-500 font-medium'>Oct 2023</span>
-        <span className='text-sm text-gray-400 dark:text-zinc-500 font-medium'>2024</span>
-        <span className='text-sm text-gray-400 dark:text-zinc-500 font-medium'>2025</span>
-        <span className='text-sm text-gray-400 dark:text-zinc-500 font-medium'>Mar 2026</span>
+      <div className='flex justify-between mt-0.5'>
+        <span className='text-xs text-gray-400 dark:text-zinc-500 font-medium'>Oct 2023</span>
+        <span className='text-xs text-gray-400 dark:text-zinc-500 font-medium'>2024</span>
+        <span className='text-xs text-gray-400 dark:text-zinc-500 font-medium'>2025</span>
+        <span className='text-xs text-gray-400 dark:text-zinc-500 font-medium'>2026</span>
       </div>
     </div>
   );
