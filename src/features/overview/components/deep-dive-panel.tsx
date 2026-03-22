@@ -152,6 +152,94 @@ function PredictionCard({ prediction: p }: { prediction: {
   );
 }
 
+/* ── Facility damage card ── */
+function FacilityCard({ facility, hit }: { facility: (typeof curatedFires)[number]; hit: boolean }) {
+  const [open, setOpen] = useState(false);
+  const statusCfg: Record<string, { label: string; cls: string; pulse?: boolean }> = {
+    active_fire: { label: 'ON FIRE', cls: 'bg-red-100 dark:bg-red-900/40 text-red-700 dark:text-red-400 border-red-200 dark:border-red-800', pulse: true },
+    damaged: { label: 'DAMAGED', cls: 'bg-orange-100 dark:bg-orange-900/40 text-orange-700 dark:text-orange-400 border-orange-200 dark:border-orange-800' },
+    offline: { label: 'OFFLINE', cls: 'bg-gray-200 dark:bg-zinc-700/50 text-gray-700 dark:text-gray-400 border-gray-300 dark:border-zinc-600' },
+    monitoring: { label: 'THREATENED', cls: 'bg-yellow-100 dark:bg-yellow-900/40 text-yellow-700 dark:text-yellow-400 border-yellow-200 dark:border-yellow-800' },
+    operational: { label: 'OK', cls: 'bg-green-100 dark:bg-green-900/40 text-green-700 dark:text-green-400 border-green-200 dark:border-green-800' },
+  };
+  const typeLabel: Record<string, string> = {
+    refinery: 'Refinery', lng_terminal: 'LNG Terminal', pipeline: 'Pipeline',
+    storage: 'Storage', oil_field: 'Oil Field', port: 'Port/Terminal', gas_field: 'Gas Field',
+  };
+  const threatCls: Record<string, string> = {
+    critical: 'text-red-600 dark:text-red-400', high: 'text-orange-600 dark:text-orange-400',
+    elevated: 'text-yellow-600 dark:text-yellow-400', moderate: 'text-blue-600', low: 'text-green-600',
+  };
+  const st = statusCfg[facility.status] || statusCfg.operational;
+  const cap = facility.gasCapacityBCFD
+    ? `${facility.gasCapacityBCFD} BCF/d`
+    : facility.capacityBPD >= 1_000_000
+    ? `${(facility.capacityBPD / 1_000_000).toFixed(1)}M BPD`
+    : facility.capacityBPD > 0
+    ? `${(facility.capacityBPD / 1_000).toFixed(0)}K BPD`
+    : facility.storageMBBL
+    ? `${facility.storageMBBL}M bbl storage`
+    : '';
+  const pct = facility.percentGlobalCapacity;
+
+  return (
+    <div className={`rounded-xl border overflow-hidden ${hit ? 'border-red-200 dark:border-red-900/50 bg-red-50/30 dark:bg-red-950/10' : 'border-gray-200 dark:border-zinc-700/50 bg-white dark:bg-zinc-800/40'}`}>
+      <button onClick={() => setOpen(!open)} className='w-full p-3 text-left cursor-pointer'>
+        <div className='flex items-start justify-between gap-2'>
+          <div className='min-w-0'>
+            <div className='flex items-center gap-1.5'>
+              {hit && <IconFlame className={`h-4 w-4 shrink-0 text-red-500 ${st.pulse ? 'animate-pulse' : ''}`} />}
+              <span className='text-base font-black text-gray-900 dark:text-zinc-100 leading-tight'>{facility.name}</span>
+            </div>
+            <div className='flex items-center gap-1.5 mt-0.5 text-sm text-gray-500'>
+              <span>{facility.country}</span>
+              <span>·</span>
+              <span>{typeLabel[facility.facilityType] || facility.facilityType}</span>
+            </div>
+          </div>
+          <span className={`shrink-0 text-[10px] font-black uppercase px-1.5 py-0.5 rounded border ${st.cls} ${st.pulse ? 'animate-pulse' : ''}`}>
+            {st.label}
+          </span>
+        </div>
+        <div className='mt-2'>
+          <div className='flex items-center justify-between text-sm mb-1'>
+            <span className={`font-bold ${threatCls[facility.threatLevel] || ''}`}>{facility.threatLevel.toUpperCase()}</span>
+            <span className='font-bold tabular-nums text-gray-700 dark:text-zinc-300'>{cap}</span>
+          </div>
+          <Bar pct={Math.min(100, pct * 5)} color={hit ? 'bg-red-500' : 'bg-amber-400 dark:bg-amber-500'} height='h-2' />
+          <div className='text-xs text-gray-400 mt-0.5 tabular-nums'>
+            {pct}% of global supply{facility.attackDate && hit ? ` · Hit ${facility.attackDate}` : ''}
+          </div>
+        </div>
+      </button>
+      {open && (
+        <div className='px-3 pb-3 space-y-2.5 border-t border-gray-100 dark:border-zinc-800/50 pt-2'>
+          <div>
+            <div className='text-xs uppercase tracking-widest text-gray-400 font-extrabold mb-1'>Strategic importance</div>
+            <div className='text-sm text-gray-700 dark:text-zinc-300 leading-relaxed'>{facility.whyItMatters}</div>
+          </div>
+          <div>
+            <div className='text-xs uppercase tracking-widest text-red-400 font-extrabold mb-1'>If destroyed</div>
+            <div className='text-sm text-gray-700 dark:text-zinc-300 leading-relaxed'>{facility.ifDestroyed}</div>
+          </div>
+          {facility.supplyChainRole && (
+            <div>
+              <div className='text-xs uppercase tracking-widest text-gray-400 font-extrabold mb-1'>Supply chain</div>
+              <div className='text-sm text-gray-700 dark:text-zinc-300 leading-relaxed'>{facility.supplyChainRole}</div>
+            </div>
+          )}
+          {(facility.storageMBBL || facility.lngMTPA) && (
+            <div className='flex flex-wrap gap-2 text-sm'>
+              {facility.storageMBBL && <span className='px-2 py-1 rounded bg-gray-100 dark:bg-zinc-800 text-gray-600 dark:text-zinc-400'>Storage: <strong>{facility.storageMBBL}M bbl</strong></span>}
+              {facility.lngMTPA && <span className='px-2 py-1 rounded bg-gray-100 dark:bg-zinc-800 text-gray-600 dark:text-zinc-400'>LNG: <strong>{facility.lngMTPA} MTPA</strong></span>}
+            </div>
+          )}
+        </div>
+      )}
+    </div>
+  );
+}
+
 export default function DeepDivePanel({ onMapMode }: { onMapMode?: () => void } = {}) {
   const fireData = useFireStore((s) => s.fireData);
   const loading = useFireStore((s) => s.loading);
@@ -382,10 +470,24 @@ export default function DeepDivePanel({ onMapMode }: { onMapMode?: () => void } 
     // Sort by probability descending
     predictions.sort((a, b) => b.probability - a.probability);
 
-    return { impact, casualties, nuclear, cost, supply, events, stats, peril, gasExtra, oilDelta, perTaxpayer, warDays, recession, predictions };
+    // ── Facility damage map ──
+    const hitFacilityList = curatedFires
+      .filter(f => facilityIds.has(f.id))
+      .sort((a, b) => {
+        const o: Record<string, number> = { active_fire: 0, damaged: 1, offline: 2, monitoring: 3, operational: 4 };
+        return (o[a.status] ?? 5) - (o[b.status] ?? 5);
+      });
+    const threatenedFacilityList = curatedFires
+      .filter(f => !facilityIds.has(f.id))
+      .sort((a, b) => {
+        const o: Record<string, number> = { critical: 0, high: 1, elevated: 2, moderate: 3, low: 4 };
+        return (o[a.threatLevel] ?? 5) - (o[b.threatLevel] ?? 5);
+      });
+
+    return { impact, casualties, nuclear, cost, supply, events, stats, peril, gasExtra, oilDelta, perTaxpayer, warDays, recession, predictions, hitFacilityList, threatenedFacilityList };
   }, [timelineDate]);
 
-  const { impact, casualties, nuclear, cost, supply, stats, peril, gasExtra, oilDelta, perTaxpayer, warDays, recession, predictions } = data;
+  const { impact, casualties, nuclear, cost, supply, stats, peril, gasExtra, oilDelta, perTaxpayer, warDays, recession, predictions, hitFacilityList, threatenedFacilityList } = data;
   const totalCO2 = fireData.features.reduce((s, f) => s + f.properties.estimatedCO2TonsDay, 0);
   const equiv = co2Equivalents(totalCO2);
   const activeFires = fireData.features.length;
@@ -794,6 +896,63 @@ export default function DeepDivePanel({ onMapMode }: { onMapMode?: () => void } 
             : supply.level === 'crisis'
             ? 'Like the 2019 Saudi Aramco attack — but sustained across multiple countries simultaneously.'
             : 'Global oil supply under pressure. Every barrel offline means higher prices at the pump.'}
+        </InfoBox>
+      </div>
+
+      {/* ── FACILITIES DAMAGE REPORT ── */}
+      <div className='px-4 pt-4 pb-3 border-b border-gray-200 dark:border-zinc-700'>
+        <SectionTitle icon={<IconBuildingSkyscraper className='h-5 w-5 text-red-600' />} title='Facilities Damage Report' />
+        <div className='text-base text-gray-500 mb-3'>
+          <strong className='text-red-600'>{hitFacilityList.length}</strong> hit · <strong className='text-yellow-600'>{threatenedFacilityList.length}</strong> threatened · {curatedFires.length} total tracked
+        </div>
+
+        {/* Total damage summary bar */}
+        <StatCard>
+          <div className='flex items-center justify-between mb-1.5'>
+            <span className='text-base font-bold text-gray-800 dark:text-zinc-200'>Total capacity damaged/offline</span>
+            <span className='text-xl font-black text-red-600 tabular-nums'>
+              {(hitFacilityList.reduce((s, f) => s + f.capacityBPD, 0) / 1_000_000).toFixed(1)}M BPD
+            </span>
+          </div>
+          <Bar
+            pct={Math.min(100, (hitFacilityList.reduce((s, f) => s + f.percentGlobalCapacity, 0)) * 4)}
+            color='bg-red-500'
+          />
+          <div className='text-sm text-gray-500 mt-1'>
+            {hitFacilityList.reduce((s, f) => s + f.percentGlobalCapacity, 0).toFixed(1)}% of global capacity affected
+          </div>
+        </StatCard>
+
+        {hitFacilityList.length > 0 && (
+          <>
+            <div className='text-xs uppercase tracking-widest text-red-500 font-extrabold mb-2 mt-4 flex items-center gap-1.5'>
+              <IconFlame className='h-3.5 w-3.5' />
+              Hit / Damaged ({hitFacilityList.length})
+            </div>
+            <div className='space-y-2 mb-4'>
+              {hitFacilityList.map(f => (
+                <FacilityCard key={f.id} facility={f} hit />
+              ))}
+            </div>
+          </>
+        )}
+
+        {threatenedFacilityList.length > 0 && (
+          <>
+            <div className='text-xs uppercase tracking-widest text-yellow-600 font-extrabold mb-2 flex items-center gap-1.5'>
+              <IconAlertTriangle className='h-3.5 w-3.5' />
+              Threatened / Monitoring ({threatenedFacilityList.length})
+            </div>
+            <div className='space-y-2'>
+              {threatenedFacilityList.map(f => (
+                <FacilityCard key={f.id} facility={f} hit={false} />
+              ))}
+            </div>
+          </>
+        )}
+
+        <InfoBox>
+          Click any facility for full breakdown — strategic importance, cascade impact, and supply chain role.
         </InfoBox>
       </div>
 
