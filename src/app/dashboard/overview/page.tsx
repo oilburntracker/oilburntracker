@@ -108,47 +108,6 @@ function FloatingStats() {
   );
 }
 
-function WelcomeOverlay() {
-  const [visible, setVisible] = useState(false);
-
-  useEffect(() => {
-    if (typeof window === 'undefined') return;
-    const dismissed = localStorage.getItem('obt-welcome-dismissed');
-    if (!dismissed) setVisible(true);
-  }, []);
-
-  if (!visible) return null;
-
-  const dismiss = () => {
-    setVisible(false);
-    localStorage.setItem('obt-welcome-dismissed', '1');
-  };
-
-  return (
-    <div className='absolute inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm' onClick={dismiss}>
-      <div className='relative max-w-md mx-4 rounded-xl border border-orange-500/30 bg-background/95 backdrop-blur-md p-6 shadow-2xl' onClick={(e) => e.stopPropagation()}>
-        <button onClick={dismiss} className='absolute top-3 right-3 text-muted-foreground hover:text-foreground'>
-          <IconX className='h-5 w-5' />
-        </button>
-        <h2 className='text-xl font-black mb-2'>OilBurnTracker</h2>
-        <p className='text-sm text-muted-foreground leading-relaxed mb-3'>
-          Real-time conflict impact analysis. Three numbers that matter: CO&#8322; emissions, energy cost to your household, and the human toll.
-        </p>
-        <div className='space-y-1.5 text-xs text-muted-foreground'>
-          <p><strong className='text-foreground'>Scroll the feed</strong> to travel through the conflict timeline</p>
-          <p><strong className='text-foreground'>Data panel</strong> breaks down how each category affects you</p>
-          <p><strong className='text-foreground'>Peril gauge</strong> shows how close we are to historical crisis levels</p>
-        </div>
-        <button onClick={dismiss} className='mt-4 w-full rounded-lg bg-orange-600 hover:bg-orange-500 text-white font-bold py-2.5 text-sm transition-colors'>
-          Start Exploring
-        </button>
-        <p className='text-[10px] text-muted-foreground/60 text-center mt-2'>
-          Open source &middot; No tracking &middot; No accounts
-        </p>
-      </div>
-    </div>
-  );
-}
 
 export default function OverviewPage() {
   const [mapMode, setMapMode] = useState(false);
@@ -182,7 +141,6 @@ export default function OverviewPage() {
   // ── FEED MODE (default) ──
   return (
     <div className='relative h-[calc(100dvh-64px)] w-full flex flex-col bg-gray-50 dark:bg-zinc-950'>
-      <WelcomeOverlay />
 
       {/* Hero row: three pillars + map button */}
       <div className='shrink-0 flex items-center px-3 py-1.5 md:py-2 border-b border-gray-200 dark:border-zinc-800 bg-white dark:bg-zinc-950 z-10'>
