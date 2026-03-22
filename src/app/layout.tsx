@@ -56,7 +56,12 @@ export default async function RootLayout({
           dangerouslySetInnerHTML={{
             __html: `
               try {
+                var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+                if (isMobile && !('theme' in localStorage)) {
+                  localStorage.theme = 'dark';
+                }
                 if (localStorage.theme === 'dark' || ((!('theme' in localStorage) || localStorage.theme === 'system') && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                  document.documentElement.classList.add('dark');
                   document.querySelector('meta[name="theme-color"]')?.setAttribute('content', '${META_THEME_COLORS.dark}')
                 }
               } catch (_) {}
