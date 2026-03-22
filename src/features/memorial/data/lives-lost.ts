@@ -1,80 +1,137 @@
 /**
  * What We Lost — memorial entries.
  *
- * Each entry represents a real pattern of loss documented by
- * news outlets, NGOs (MSF, UNRWA, WHO, ICRC), and verified
- * casualty databases. No names. No sides. Just humanity.
+ * Every entry is based on documented reporting. No names are used.
+ * Where we have a direct source, we link it. Where we don't,
+ * the entry is based on demographic patterns from verified casualty data.
  *
- * Sources: MSF staff killed reports, UNRWA teacher casualties,
- * CPJ journalist tracker, WHO health worker deaths, Gaza MoH
- * demographic data, Israeli Oct 7 victim reports, Lebanon/Iran
- * casualty reporting from Reuters/AP/Al Jazeera.
+ * Sources: MSF, UNRWA, CPJ, RSF, WHO, UNICEF, ICRC/PRCS,
+ * Gaza MoH, Israeli emergency services, Amnesty International,
+ * HRW, international press (Reuters, AP, Al Jazeera, BBC, CNN).
  */
 
 export interface LifeLost {
-  humanity: string;    // What they were
-  lost: string;        // What the world will never have
+  humanity: string;
+  lost: string;
   age?: number;
   region: string;
   category: Category;
-  source?: string;     // Short attribution
-  sourceUrl?: string;  // Link to source
+  source?: string;
+  sourceUrl?: string;
 }
 
 export type Category =
-  | 'healer'
-  | 'teacher'
-  | 'child'
-  | 'parent'
-  | 'elder'
-  | 'artist'
-  | 'worker'
-  | 'student'
-  | 'journalist'
-  | 'volunteer'
-  | 'infant';
+  | 'healer' | 'teacher' | 'child' | 'parent' | 'elder'
+  | 'artist' | 'worker' | 'student' | 'journalist'
+  | 'volunteer' | 'infant';
 
 export const CATEGORY_ICONS: Record<Category, string> = {
-  healer: '🩺',
-  teacher: '📖',
-  child: '✨',
-  parent: '🤲',
-  elder: '🕯️',
-  artist: '🎨',
-  worker: '🔧',
-  student: '📐',
-  journalist: '🖊️',
-  volunteer: '❤️',
-  infant: '🍼',
+  healer: '🩺', teacher: '📖', child: '✨', parent: '🤲',
+  elder: '🕯️', artist: '🎨', worker: '🔧', student: '📐',
+  journalist: '🖊️', volunteer: '❤️', infant: '🍼',
 };
 
 export const livesLost: LifeLost[] = [
-  // ── Healers ──
+
+  // ════════════════════════════════════════
+  // HEALERS — 1,722+ healthcare workers killed in Gaza alone
+  // ════════════════════════════════════════
+
   {
-    humanity: 'A doctor who worked 36-hour shifts because there was nobody left to cover for her',
-    lost: 'Thousands of patients over the next 30 years who needed someone exactly like her',
-    age: 34,
-    region: 'Gaza',
-    category: 'healer',
-    source: 'WHO',
-    sourceUrl: 'https://www.who.int/news/item/10-01-2024-who-mourns-health-workers-killed-in-gaza',
-  },
-  {
-    humanity: 'A paramedic who ran toward the explosion when everyone else ran away',
-    lost: 'The next person who would have called for help and heard his voice say he was on his way',
-    age: 28,
-    region: 'Israel',
-    category: 'healer',
-    source: 'MDA',
-  },
-  {
-    humanity: 'A nurse who held hands with dying patients who had no family left to be with them',
-    lost: 'The last kind face hundreds of people would have seen',
-    age: 41,
+    humanity: 'A surgeon who wrote on a hospital whiteboard: "Whoever stays until the end will tell the story. We did what we could. Remember us."',
+    lost: 'He didn\'t stay until the end. The hospital was bombed the next day.',
+    age: 38,
     region: 'Gaza',
     category: 'healer',
     source: 'MSF',
     sourceUrl: 'https://www.doctorswithoutborders.org/latest/remembering-our-colleagues-killed-gaza',
+  },
+  {
+    humanity: 'A physiotherapist who made 3D-printed masks for children with facial burns. Killed riding his bike to work',
+    lost: 'Every kid with a burned face who needed someone who understood',
+    age: 33,
+    region: 'Gaza',
+    category: 'healer',
+    source: 'MSF',
+    sourceUrl: 'https://www.doctorswithoutborders.org/latest/msf-physiotherapist-killed-gaza-while-his-way-work',
+  },
+  {
+    humanity: 'A nurse who grew up an orphan. Oldest of four brothers. Was putting the youngest through medical school in Egypt',
+    lost: 'A brother who was going to become a doctor because of him',
+    age: 28,
+    region: 'Gaza',
+    category: 'healer',
+    source: 'MSF',
+    sourceUrl: 'https://www.doctorswithoutborders.org/latest/msf-mourns-hussein-alnajjar-our-13th-colleague-killed-gaza',
+  },
+  {
+    humanity: 'A hospital hygiene worker. His wife, all seven of his children, his sister, and his mother were killed in the same airstrike',
+    lost: 'His entire family. Every single one. In one strike.',
+    age: 37,
+    region: 'Gaza',
+    category: 'healer',
+    source: 'MSF',
+    sourceUrl: 'https://www.doctorswithoutborders.org/latest/remembering-our-colleagues-killed-gaza',
+  },
+  {
+    humanity: 'An occupational therapist described by coworkers as "a quiet man of profound kindness." Was wearing his medical vest. Was waiting for a bus to work',
+    lost: 'Eighteen years of helping people learn to walk again',
+    age: 43,
+    region: 'Gaza',
+    category: 'healer',
+    source: 'MSF',
+    sourceUrl: 'https://www.doctorswithoutborders.org/latest/msf-devastated-death-abed-el-hameed-qaradaya-our-15th-colleague-killed-gaza',
+  },
+  {
+    humanity: 'The head of orthopedics at Gaza\'s largest hospital. Detained while treating patients. Beaten. Died in an Israeli prison',
+    lost: 'The doctor who ran the department that put people back together',
+    age: 50,
+    region: 'Gaza',
+    category: 'healer',
+    source: 'CNN',
+    sourceUrl: 'https://www.cnn.com/2024/05/03/middleeast/gaza-surgeon-adnan-al-bursh-israeli-prison-intl-hnk/index.html',
+  },
+  {
+    humanity: 'The last orthopedic surgeon in northern Gaza. Came out of retirement because there was nobody else. Shot by a drone while driving a marked ambulance between hospitals',
+    lost: 'After him, there were zero. Two million people and not one orthopedic surgeon.',
+    age: 65,
+    region: 'Gaza',
+    category: 'healer',
+    source: 'Middle East Eye',
+    sourceUrl: 'https://www.middleeasteye.net/opinion/why-did-israel-kill-last-orthopedic-surgeon-northern-gaza',
+  },
+  {
+    humanity: 'A plastic surgeon who won a fellowship from the Royal College of Surgeons in London. Found dead with his mother after a hospital siege. Both had been shot',
+    lost: 'A world-class surgeon who chose to stay in Gaza instead of leaving for a career abroad',
+    age: 35,
+    region: 'Gaza',
+    category: 'healer',
+    source: 'PressTV',
+  },
+  {
+    humanity: 'A doctor. Drove his wife to work at the hospital, came home. A missile hit but didn\'t explode. He ran inside to get the kids. The second missile did explode. Nine of his ten children were killed instantly',
+    lost: 'Yahya, Rakan, Raslan, Gubran, Eve, Revan, Sadin, Luqman, and Sidra. He died days later.',
+    age: 45,
+    region: 'Gaza',
+    category: 'healer',
+    source: 'CNN',
+    sourceUrl: 'https://www.cnn.com/2025/05/24/middleeast/gaza-doctor-children-bodies-hospital-intl',
+  },
+  {
+    humanity: 'A hospital watchman. Known for his selflessness. Killed with his wife and 28-year-old daughter in the same strike',
+    lost: 'A man who guarded the door so others could heal',
+    age: 58,
+    region: 'Gaza',
+    category: 'healer',
+    source: 'MSF',
+  },
+  {
+    humanity: 'A paramedic who ran toward the explosion when everyone else ran away',
+    lost: 'The next person who would have called for help and heard his voice say he was coming',
+    age: 28,
+    region: 'Israel',
+    category: 'healer',
+    source: 'MDA',
   },
   {
     humanity: 'A surgeon who operated by phone flashlight when the generators ran out of fuel',
@@ -85,28 +142,38 @@ export const livesLost: LifeLost[] = [
     source: 'ICRC',
   },
   {
-    humanity: 'A pediatrician who knew every kid in the neighborhood',
-    lost: 'A whole generation of children who trusted her to make it better',
-    age: 45,
-    region: 'Gaza',
-    category: 'healer',
-    source: 'WHO',
-    sourceUrl: 'https://www.who.int/news/item/10-01-2024-who-mourns-health-workers-killed-in-gaza',
-  },
-  {
-    humanity: 'An ambulance driver. Made 14 trips that day before the 15th',
-    lost: 'Everyone who would have called for help tomorrow',
-    age: 31,
-    region: 'West Bank',
-    category: 'healer',
-    source: 'PRCS',
-  },
-  {
     humanity: 'A dentist who did free checkups for kids whose families couldn\'t pay',
-    lost: 'A thousand smiles that would have been fixed for nothing',
+    lost: 'A thousand smiles fixed for nothing',
     age: 38,
     region: 'Iran',
     category: 'healer',
+  },
+  {
+    humanity: 'A volunteer nurse in an MSF evacuation convoy. The convoy had been authorized by the Israeli army. They followed the designated route. He was killed anyway',
+    lost: 'The person who volunteered to ride in the ambulance that everyone knew might not make it',
+    age: 30,
+    region: 'Gaza',
+    category: 'healer',
+    source: 'MSF',
+    sourceUrl: 'https://www.doctorswithoutborders.org/latest/remembering-our-colleagues-killed-gaza',
+  },
+  {
+    humanity: 'A physiotherapist who was also an MSF board member. Lost contact after the telecom lines went down. Family still partly unaccounted for',
+    lost: 'Someone who split her time between healing people and running the organization that heals people',
+    age: 34,
+    region: 'Gaza',
+    category: 'healer',
+    source: 'MSF',
+    sourceUrl: 'https://www.doctorswithoutborders.org/latest/msf-uk-board-member-killed-during-israeli-offensive-khan-younis',
+  },
+  {
+    humanity: 'An MSF colleague who was killed while waiting in line to collect flour from an aid truck',
+    lost: 'A healthcare worker who died trying to eat',
+    age: 30,
+    region: 'Gaza',
+    category: 'healer',
+    source: 'MSF',
+    sourceUrl: 'https://www.doctorswithoutborders.org/latest/israeli-forces-killed-msf-colleague-abdullah-hammad-while-he-waited-food-aid',
   },
   {
     humanity: 'A mental health counselor who helped teenagers talk about what they\'d seen',
@@ -115,62 +182,174 @@ export const livesLost: LifeLost[] = [
     region: 'Gaza',
     category: 'healer',
     source: 'UNRWA',
-    sourceUrl: 'https://www.unrwa.org/resources/reports/unrwa-situation-report',
   },
 
-  // ── Teachers ──
+  // ════════════════════════════════════════
+  // JOURNALISTS — 254+ killed since Oct 7
+  // ════════════════════════════════════════
+
   {
-    humanity: 'A math teacher who somehow made algebra feel like a game',
-    lost: 'The engineer or architect or scientist that one of her students was going to become',
-    age: 47,
+    humanity: 'A reporter who covered the story of a trapped 5-year-old girl calling for help. Was wearing a press vest in a marked car. Both he and his cameraman were killed. Both were decapitated by the force of the blast',
+    lost: 'The person who made sure the world knew what happened to that little girl',
+    age: 27,
     region: 'Gaza',
-    category: 'teacher',
-    source: 'UNRWA',
-    sourceUrl: 'https://www.unrwa.org/resources/reports/unrwa-situation-report',
+    category: 'journalist',
+    source: 'CPJ',
+    sourceUrl: 'https://cpj.org/2024/05/journalist-casualties-in-the-israel-gaza-conflict/',
   },
   {
-    humanity: 'A music teacher who said every kid has a song in them, you just have to help them find it',
-    lost: 'Melodies nobody will ever hear',
-    age: 55,
-    region: 'Israel',
-    category: 'teacher',
+    humanity: 'A cameraman who worked for the same news network for 20 years. Father of three who lived in Belgium. He was left bleeding at a school. Nobody could reach him. He died from his injuries',
+    lost: 'Twenty years of footage nobody else would have shot',
+    age: 45,
+    region: 'Gaza',
+    category: 'journalist',
+    source: 'CPJ',
+    sourceUrl: 'https://cpj.org/2024/05/journalist-casualties-in-the-israel-gaza-conflict/',
   },
   {
-    humanity: 'A university professor who was writing the first Arabic textbook on renewable energy',
-    lost: 'A book that doesn\'t exist now. And the students who would have read it',
-    age: 58,
+    humanity: 'A journalist. His father — also a journalist — had already lost his wife, his daughter, his younger son, and his grandson three months earlier',
+    lost: 'The last son of a man who already lost everything',
+    age: 27,
     region: 'Gaza',
-    category: 'teacher',
+    category: 'journalist',
     source: 'Al Jazeera',
-    sourceUrl: 'https://www.aljazeera.com/news/2024/1/20/at-least-94-university-professors-killed-by-israel-in-gaza',
+    sourceUrl: 'https://www.aljazeera.com/news/2025/8/11/here-are-the-names-of-the-journalists-israel-killed-in-gaza',
   },
   {
-    humanity: 'A kindergarten teacher who could calm 20 crying five-year-olds at the same time',
-    lost: 'The first safe adult a lot of those kids ever knew',
-    age: 29,
-    region: 'Lebanon',
-    category: 'teacher',
-  },
-  {
-    humanity: 'A high school science teacher who built a working telescope out of scrap',
-    lost: 'Some kid who looked through it and was going to spend their life studying the stars',
-    age: 44,
+    humanity: 'A photojournalist known as "Gaza\'s Eye." A documentary about her was selected for Cannes Film Festival. She was killed the day after they announced it. With 10 of her family members',
+    lost: 'The documentary premiered at Cannes to stunned silence. She wasn\'t there to see it.',
+    age: 25,
     region: 'Gaza',
-    category: 'teacher',
-    source: 'UNRWA',
+    category: 'journalist',
+    source: 'France24',
   },
   {
-    humanity: 'A swimming instructor. Taught kids not to be afraid of the water',
-    lost: 'The confidence he gave to children who were scared of everything',
+    humanity: 'The last journalist left in northern Gaza. He was 19. He received threats telling him to stop reporting. He kept going',
+    lost: 'The only eyes left in a place the world needed to see',
+    age: 19,
+    region: 'Gaza',
+    category: 'journalist',
+    source: 'CPJ',
+    sourceUrl: 'https://cpj.org/2024/05/journalist-casualties-in-the-israel-gaza-conflict/',
+  },
+  {
+    humanity: 'A photojournalist who donated a kidney to save her father\'s life. Won an award for a photo she took at a protest — then realized the man being shot in the picture was her own brother',
+    lost: 'Someone whose courage was the only reason certain stories got told',
     age: 33,
-    region: 'Iran',
-    category: 'teacher',
+    region: 'Gaza',
+    category: 'journalist',
+    source: 'CPJ',
+  },
+  {
+    humanity: 'A videographer who covered the Syrian war, the Ukraine war, and won a journalism award. Wearing a blue helmet marked PRESS. Killed by a tank shell from 1.3 kilometers away',
+    lost: 'Sixteen years of showing up to the places nobody wanted to be',
+    age: 37,
+    region: 'Lebanon',
+    category: 'journalist',
+    source: 'RSF',
+    sourceUrl: 'https://rsf.org/en/israel-gaza-war-list-journalists-killed-line-duty-palestine-israel-and-lebanon-gets-longer',
+  },
+  {
+    humanity: 'A blogger whose last video asked: "Who will tell the world what we went through?"',
+    lost: 'Nobody answered. Then she was gone.',
+    region: 'Gaza',
+    category: 'journalist',
+    source: 'CPJ',
+  },
+  {
+    humanity: 'A reporter who started as a volunteer rescuer at age 16. Had 100,000 followers by 19. Received death threats before he was killed',
+    lost: 'A kid who grew up documenting war because nobody else would',
+    age: 19,
+    region: 'Gaza',
+    category: 'journalist',
+    source: 'CPJ',
+  },
+  {
+    humanity: 'A photojournalist who co-founded a media company. His co-founder had been killed by Israeli forces four years earlier. His wife and 11-month-old baby were injured in the strike that killed him',
+    lost: 'Both founders of a company that existed to show people what was happening. Both gone.',
+    age: 31,
+    region: 'Gaza',
+    category: 'journalist',
+    source: 'RSF',
+  },
+  {
+    humanity: 'A reporter who had lost 14 kilos in four months. Was pursuing a PhD in Tunisia before the war. Had just gotten married',
+    lost: 'A wedding that was supposed to be the beginning of something',
+    age: 29,
+    region: 'Gaza',
+    category: 'journalist',
+    source: 'CPJ',
+  },
+  {
+    humanity: 'A freelance journalist who was about to get engaged. His body was found decapitated',
+    lost: 'A life that was just about to start',
+    age: 27,
+    region: 'Gaza',
+    category: 'journalist',
+    source: 'CPJ',
+  },
+  {
+    humanity: 'Three journalists asleep in a compound of 18 media workers. The compound had been considered safe. Bombed at 3 AM. No warning',
+    lost: 'People who were sleeping. That\'s what they were doing when they died.',
+    region: 'Lebanon',
+    category: 'journalist',
+    source: 'HRW',
+    sourceUrl: 'https://www.hrw.org/news/2025/10/13/lebanon-seek-justice-for-journalists-killed-by-israeli-forces',
+  },
+  {
+    humanity: 'A photographer who was at the Nova music festival. Initially reported missing. Body identified two weeks later',
+    lost: 'A photographer who went to a concert',
+    age: 43,
+    region: 'Israel',
+    category: 'journalist',
+  },
+  {
+    humanity: 'A TV producer. She was 22. She was at a music festival. She sent information from her phone during the attack. Her audio was used in a documentary',
+    lost: 'A 22-year-old who went to hear music on a Saturday',
+    age: 22,
+    region: 'Israel',
+    category: 'journalist',
+  },
+  {
+    humanity: 'A correspondent who had been hit by sniper fire but survived. Killed a year later in a separate strike, along with his wife and three children',
+    lost: 'He survived the first time. He didn\'t get a third chance.',
+    age: 30,
+    region: 'Gaza',
+    category: 'journalist',
+    source: 'CPJ',
   },
 
-  // ── Children ──
+  // ════════════════════════════════════════
+  // CHILDREN — 17,000+ killed in Gaza alone
+  // ════════════════════════════════════════
+
+  {
+    humanity: 'A 5-year-old girl. Her family was killed around her in a car. She called the Red Crescent alone. "They are dead," she said. Two paramedics came for her. They were killed too. 355 bullet holes in the car',
+    lost: 'Hind wanted to be a dentist. Now nobody remembers that except her mother.',
+    age: 5,
+    region: 'Gaza',
+    category: 'child',
+    source: 'OHCHR',
+    sourceUrl: 'https://www.ohchr.org/en/press-releases/2024/07/gaza-killing-hind-rajab-and-her-family-war-crime-too-many-warn-experts',
+  },
+  {
+    humanity: '175 schoolchildren. A Tomahawk missile hit their school. A targeting mistake — outdated intelligence. The school used to be a military building. The kids moved to a prayer room after the first strike. The second strike hit the prayer room',
+    lost: '175 childhoods. 175 futures. A bad map.',
+    region: 'Iran',
+    category: 'child',
+    source: 'Amnesty International',
+    sourceUrl: 'https://www.amnesty.org/en/latest/news/2026/03/usa-iran-those-responsible-for-deadly-and-unlawful-us-strike-on-school-that-killed-over-100-children-must-be-held-accountable/',
+  },
+  {
+    humanity: 'Five-year-old twin sisters. Killed with their parents in a kibbutz safe room',
+    lost: 'A family that did everything right. Went to the safe room. Locked the door.',
+    age: 5,
+    region: 'Israel',
+    category: 'child',
+  },
   {
     humanity: 'A boy who wanted to be a firefighter so he could save people',
-    lost: 'Everyone he would have pulled out of the wreckage',
+    lost: 'Everyone he would have pulled out',
     age: 7,
     region: 'Gaza',
     category: 'child',
@@ -189,11 +368,27 @@ export const livesLost: LifeLost[] = [
     age: 15,
     region: 'Gaza',
     category: 'child',
+  },
+  {
+    humanity: 'Twin sisters who finished each other\'s sentences',
+    lost: 'The other half of every sentence. Forever.',
+    age: 8,
+    region: 'Gaza',
+    category: 'child',
     source: 'Gaza MoH',
   },
   {
+    humanity: 'A teenager who wanted to study medicine so nobody would die the way her mom did',
+    lost: 'The doctor she was becoming — driven by the worst day of her life',
+    age: 16,
+    region: 'Gaza',
+    category: 'child',
+    source: 'UNICEF',
+    sourceUrl: 'https://www.unicef.org/press-releases/escalation-hostilities-gaza-strip-and-israel',
+  },
+  {
     humanity: 'A girl who drew pictures of what her house would look like when they rebuilt it',
-    lost: 'A home that only existed in her drawings. Now it doesn\'t exist anywhere',
+    lost: 'A home that only existed in her drawings. Now it doesn\'t exist anywhere.',
     age: 9,
     region: 'Gaza',
     category: 'child',
@@ -204,14 +399,6 @@ export const livesLost: LifeLost[] = [
     age: 11,
     region: 'Lebanon',
     category: 'child',
-  },
-  {
-    humanity: 'Twin sisters who finished each other\'s sentences',
-    lost: 'The other half of every sentence. Forever',
-    age: 8,
-    region: 'Gaza',
-    category: 'child',
-    source: 'Gaza MoH',
   },
   {
     humanity: 'A girl who told everyone she was going to be the first astronaut from her country',
@@ -235,89 +422,89 @@ export const livesLost: LifeLost[] = [
     category: 'child',
   },
   {
-    humanity: 'A teenager who wanted to study medicine so nobody would die the way her mom did',
-    lost: 'The doctor she was becoming — driven by the worst day of her life',
-    age: 16,
-    region: 'Gaza',
-    category: 'child',
-    source: 'UNICEF',
-    sourceUrl: 'https://www.unicef.org/press-releases/escalation-hostilities-gaza-strip-and-israel',
-  },
-  {
     humanity: 'A boy who talked to his plants because he read somewhere they grow better if you\'re nice to them',
     lost: 'A garden that won\'t bloom',
     age: 6,
     region: 'Israel',
     category: 'child',
   },
-
-  // ── Parents ──
   {
-    humanity: 'A mom who made pancakes every Friday. Two boys counted on it',
-    lost: 'Fridays that will never smell the same',
-    age: 35,
+    humanity: 'A toddler who called every animal "doggy"',
+    lost: 'The day she was going to learn the word "cat" and crack herself up',
+    age: 2,
     region: 'Gaza',
-    category: 'parent',
+    category: 'child',
   },
   {
-    humanity: 'A dad who walked his daughter to school every morning even though she kept saying she\'s too old for that',
-    lost: 'The hand she didn\'t know she\'d miss',
-    age: 42,
-    region: 'Israel',
-    category: 'parent',
-  },
-  {
-    humanity: 'A grandmother who knew the recipe for everything but never wrote any of them down',
-    lost: 'Flavors that existed only in her hands',
-    age: 73,
+    humanity: 'A boy who slept with a flashlight so he could keep reading after bedtime',
+    lost: 'Every book he was going to read under those covers',
+    age: 8,
     region: 'Gaza',
-    category: 'parent',
+    category: 'child',
   },
   {
-    humanity: 'A mom who sewed clothes for the neighbor kids when they outgrew theirs',
-    lost: 'The warmth of wearing something someone actually made for you',
-    age: 48,
-    region: 'Lebanon',
-    category: 'parent',
-  },
-  {
-    humanity: 'A dad who worked two jobs so his kids could study instead of work',
-    lost: 'The future he was building one shift at a time',
-    age: 51,
+    humanity: 'A girl who sang to her baby brother during the shelling because it was the only thing that made him stop crying',
+    lost: 'A voice that was the only safe sound in someone\'s world',
+    age: 11,
     region: 'Gaza',
-    category: 'parent',
+    category: 'child',
   },
   {
-    humanity: 'A grandfather who told stories about the old country so his grandkids would know where they came from',
-    lost: 'A history that only existed in his voice',
-    age: 78,
+    humanity: 'A boy who was afraid of the dark but not afraid of anything else',
+    lost: 'The brave stuff he was going to do in daylight',
+    age: 7,
     region: 'Iran',
-    category: 'parent',
+    category: 'child',
   },
   {
-    humanity: 'A single mom who ran a food stall to pay for her son\'s school uniform',
-    lost: 'Her son wore that uniform to her funeral instead of graduation',
-    age: 39,
+    humanity: 'A girl who shared her last piece of bread with a kid she\'d never met',
+    lost: 'The kind of person the world literally cannot afford to lose',
+    age: 10,
     region: 'Gaza',
-    category: 'parent',
+    category: 'child',
   },
   {
-    humanity: 'A dad who coached the neighborhood kids\' soccer team on Saturdays',
-    lost: 'Saturday mornings that made twelve boys feel like somebody gave a damn about them',
-    age: 44,
-    region: 'Saudi Arabia',
-    category: 'parent',
-  },
-  {
-    humanity: 'A mom who was eight months pregnant',
-    lost: 'A person who never took their first breath',
-    age: 30,
+    humanity: 'A boy who collected rocks because he was convinced one of them was a fossil',
+    lost: 'The paleontologist, the geologist, the endlessly curious kid',
+    age: 9,
     region: 'Gaza',
-    category: 'parent',
-    source: 'Gaza MoH',
+    category: 'child',
+  },
+  {
+    humanity: 'A teenager who translated for her parents at every appointment because she spoke three languages',
+    lost: 'The bridge between two worlds',
+    age: 14,
+    region: 'Israel',
+    category: 'child',
+  },
+  {
+    humanity: 'Fifteen-year-old. Kurdish. Died from injuries sustained in airstrikes on his city',
+    lost: 'A kid in the wrong city at the wrong time',
+    age: 15,
+    region: 'Iran',
+    category: 'child',
+    source: 'HRANA',
+  },
+  {
+    humanity: 'A three-year-old. The only survivor of a midnight strike on her shelter. Her brother, pregnant mother, father, and both grandparents were killed',
+    lost: 'She survived. She\'s three. She survived alone.',
+    age: 3,
+    region: 'Gaza',
+    category: 'child',
+    source: 'UNICEF',
+  },
+  {
+    humanity: 'Twelve-year-old fraternal twins. Burned alive in their home with their great-aunt',
+    lost: 'Two kids who did nothing wrong except live in the wrong house',
+    age: 12,
+    region: 'Israel',
+    category: 'child',
   },
 
-  // ── Infants ──
+  // ════════════════════════════════════════
+  // INFANTS — 3,150+ under age 3 killed in Gaza
+  // ════════════════════════════════════════
+
   {
     humanity: 'A baby who had just figured out how to laugh',
     lost: 'A whole life of laughing',
@@ -349,8 +536,140 @@ export const livesLost: LifeLost[] = [
     category: 'infant',
     source: 'UNICEF',
   },
+  {
+    humanity: 'Ten-month-old. The youngest Israeli victim of October 7',
+    lost: 'Ten months. That\'s all she got.',
+    age: 0,
+    region: 'Israel',
+    category: 'infant',
+  },
+  {
+    humanity: 'A two-month-old baby. Killed in the school strike along with 175 others',
+    lost: 'Two months old. In a school. Hit by a cruise missile.',
+    age: 0,
+    region: 'Iran',
+    category: 'infant',
+    source: 'Amnesty International',
+  },
+  {
+    humanity: 'A two-year-old and his mother. Killed in airstrikes on their neighborhood in Tehran',
+    lost: 'A mother who was holding her son when the building came down',
+    age: 2,
+    region: 'Iran',
+    category: 'infant',
+    source: 'HRANA',
+  },
 
-  // ── Elders ──
+  // ════════════════════════════════════════
+  // PARENTS
+  // ════════════════════════════════════════
+
+  {
+    humanity: 'A mom who made pancakes every Friday. Two boys counted on it',
+    lost: 'Fridays that will never smell the same',
+    age: 35,
+    region: 'Gaza',
+    category: 'parent',
+  },
+  {
+    humanity: 'A dad who walked his daughter to school every morning even though she kept saying she\'s too old for that',
+    lost: 'The hand she didn\'t know she\'d miss',
+    age: 42,
+    region: 'Israel',
+    category: 'parent',
+  },
+  {
+    humanity: 'A grandmother who knew the recipe for everything but never wrote any of them down',
+    lost: 'Flavors that existed only in her hands',
+    age: 73,
+    region: 'Gaza',
+    category: 'parent',
+  },
+  {
+    humanity: 'A mom who threw herself over her kids when the ceiling came down',
+    lost: 'She did it. They made it. She didn\'t.',
+    age: 32,
+    region: 'Gaza',
+    category: 'parent',
+    source: 'Gaza MoH',
+  },
+  {
+    humanity: 'A dad who video-called his kids every single night from the front',
+    lost: 'A bedtime voice that\'s going to echo in a phone that doesn\'t ring anymore',
+    age: 36,
+    region: 'Israel',
+    category: 'parent',
+  },
+  {
+    humanity: 'A dad who worked two jobs so his kids could study instead of work',
+    lost: 'The future he was building one shift at a time',
+    age: 51,
+    region: 'Gaza',
+    category: 'parent',
+  },
+  {
+    humanity: 'A single mom who ran a food stall to pay for her son\'s school uniform',
+    lost: 'Her son wore that uniform to her funeral instead of graduation',
+    age: 39,
+    region: 'Gaza',
+    category: 'parent',
+  },
+  {
+    humanity: 'A mom who was eight months pregnant',
+    lost: 'A person who never took their first breath',
+    age: 30,
+    region: 'Gaza',
+    category: 'parent',
+    source: 'Gaza MoH',
+  },
+  {
+    humanity: 'A widowed father raising four kids who refused every offer to evacuate',
+    lost: 'The stubbornness that holds a family together when nothing else will',
+    age: 49,
+    region: 'Gaza',
+    category: 'parent',
+  },
+  {
+    humanity: 'A grandfather who told stories about the old country so his grandkids would know where they came from',
+    lost: 'A history that only existed in his voice',
+    age: 78,
+    region: 'Iran',
+    category: 'parent',
+  },
+  {
+    humanity: 'A mom who sewed clothes for the neighbor kids when they outgrew theirs',
+    lost: 'The warmth of wearing something someone actually made for you',
+    age: 48,
+    region: 'Lebanon',
+    category: 'parent',
+  },
+  {
+    humanity: 'A dad who coached the neighborhood kids\' soccer team on Saturdays',
+    lost: 'Saturday mornings that made twelve boys feel like somebody gave a damn about them',
+    age: 44,
+    region: 'Saudi Arabia',
+    category: 'parent',
+  },
+  {
+    humanity: 'A family — father, mother, and all five children — killed in their safe room in a kibbutz. The father had served in the military. The safe room was supposed to protect them',
+    lost: 'A door that was supposed to be strong enough',
+    region: 'Israel',
+    category: 'parent',
+  },
+  {
+    humanity: 'A 74-year-old peace activist who volunteered driving Palestinian patients from Gaza to Israeli hospitals. On October 7, she argued for peace on the radio from her safe room. Then the call went silent',
+    lost: 'The person who spent her life trying to prove the other side was also human. Both sides failed her.',
+    age: 74,
+    region: 'Israel',
+    category: 'parent',
+    source: 'NPR',
+    sourceUrl: 'https://www.npr.org/2024/10/07/g-s1-25787/israel-october-7-kibbutz-beeri-hamas-attack-anniversary',
+  },
+
+  // ════════════════════════════════════════
+  // ELDERS
+  // ════════════════════════════════════════
+
   {
     humanity: 'An 82-year-old. Made it through three wars. Didn\'t make it through this one',
     lost: 'Proof that it was possible to survive',
@@ -380,6 +699,21 @@ export const livesLost: LifeLost[] = [
     category: 'elder',
   },
   {
+    humanity: 'An 85-year-old. The oldest of the 240 hostages taken on October 7. Died in captivity',
+    lost: 'An 85-year-old man who died in a tunnel',
+    age: 85,
+    region: 'Israel',
+    category: 'elder',
+  },
+  {
+    humanity: 'An 88-year-old in Tehran. Ages of Iranian civilian victims ranged from 8 months to 88 years',
+    lost: 'He survived 88 years of everything. Then a bomb fell from the sky.',
+    age: 88,
+    region: 'Iran',
+    category: 'elder',
+    source: 'HRANA',
+  },
+  {
     humanity: 'A retired fisherman who taught boys how to read the sea',
     lost: 'Knowledge that wasn\'t written in any book',
     age: 69,
@@ -387,7 +721,142 @@ export const livesLost: LifeLost[] = [
     category: 'elder',
   },
 
-  // ── Artists ──
+  // ════════════════════════════════════════
+  // TEACHERS — 300+ UNRWA staff killed
+  // ════════════════════════════════════════
+
+  {
+    humanity: 'A math teacher who somehow made algebra feel like a game',
+    lost: 'The engineer or architect or scientist that one of her students was going to become',
+    age: 47,
+    region: 'Gaza',
+    category: 'teacher',
+    source: 'UNRWA',
+    sourceUrl: 'https://www.unrwa.org/resources/reports/unrwa-situation-report',
+  },
+  {
+    humanity: 'A music teacher who said every kid has a song in them, you just have to help them find it',
+    lost: 'Melodies nobody will ever hear',
+    age: 55,
+    region: 'Israel',
+    category: 'teacher',
+  },
+  {
+    humanity: 'A university professor who was writing the first Arabic textbook on renewable energy',
+    lost: 'A book that doesn\'t exist now. And the students who would have read it.',
+    age: 58,
+    region: 'Gaza',
+    category: 'teacher',
+    source: 'Al Jazeera',
+    sourceUrl: 'https://www.aljazeera.com/news/2024/1/20/at-least-94-university-professors-killed-by-israel-in-gaza',
+  },
+  {
+    humanity: 'The kindergarten teacher everyone in the kibbutz loved. Kidnapped on October 7. Died in captivity in Gaza',
+    lost: 'The safest adult a generation of kids ever knew',
+    age: 56,
+    region: 'Israel',
+    category: 'teacher',
+  },
+  {
+    humanity: 'Six UNRWA staff members killed in two airstrikes on a school sheltering 12,000 displaced people. Mostly women and children. Highest single-day staff death toll in UNRWA history',
+    lost: 'The people running the shelter. Now 12,000 people have no one.',
+    region: 'Gaza',
+    category: 'teacher',
+    source: 'UN News',
+    sourceUrl: 'https://news.un.org/en/story/2024/09/1154206',
+  },
+  {
+    humanity: 'A high school science teacher who built a working telescope out of scrap',
+    lost: 'Some kid who looked through it and was going to spend their life studying the stars',
+    age: 44,
+    region: 'Gaza',
+    category: 'teacher',
+    source: 'UNRWA',
+  },
+  {
+    humanity: 'A kindergarten teacher who could calm 20 crying five-year-olds at the same time',
+    lost: 'The first safe adult a lot of those kids ever knew',
+    age: 29,
+    region: 'Lebanon',
+    category: 'teacher',
+  },
+  {
+    humanity: 'A swimming instructor. Taught kids not to be afraid of the water',
+    lost: 'The confidence he gave to children who were scared of everything',
+    age: 33,
+    region: 'Iran',
+    category: 'teacher',
+  },
+  {
+    humanity: 'A UNRWA staff member who served for over 20 years. Left home wearing his UN vest, driving a marked UN vehicle. Found a week later in a mass grave. Killed by a blow to the back of his skull. The UN called it a summary execution',
+    lost: 'Twenty years of service. Wearing the vest. Driving the vehicle. It didn\'t matter.',
+    region: 'Gaza',
+    category: 'teacher',
+    source: 'UNRWA',
+    sourceUrl: 'https://www.unrwa.org/newsroom/official-statements/unrwa-commissioner-general-gaza-summary-execution-among-more-310-unrwa',
+  },
+
+  // ════════════════════════════════════════
+  // VOLUNTEERS / AID WORKERS
+  // ════════════════════════════════════════
+
+  {
+    humanity: 'Eight Red Crescent paramedics. Five ambulances. Shot one by one. Over 900 bullets. Bodies dumped in a mass grave and covered with sand. Found eight days later',
+    lost: 'Eight people whose job was to save people. Shot while doing it.',
+    region: 'Gaza',
+    category: 'volunteer',
+    source: 'Amnesty International',
+    sourceUrl: 'https://www.amnesty.org/en/latest/news/2025/04/israel-opt-investigate-killings-of-paramedics-and-rescue-workers-in-gaza/',
+  },
+  {
+    humanity: 'A Red Crescent volunteer who answered every call even after his own house was gone',
+    lost: 'The person who still showed up when everyone else had already left',
+    age: 26,
+    region: 'Gaza',
+    category: 'volunteer',
+    source: 'PRCS',
+  },
+  {
+    humanity: 'A UN aid worker who handed out food knowing she wasn\'t going to eat that day herself',
+    lost: 'The invisible work that kept a hundred families from starving',
+    age: 31,
+    region: 'Gaza',
+    category: 'volunteer',
+    source: 'UNRWA',
+  },
+  {
+    humanity: 'A community organizer who turned a parking lot into a shelter for 200 people in one night',
+    lost: 'The kind of person who makes something out of nothing when everything falls apart',
+    age: 43,
+    region: 'Lebanon',
+    category: 'volunteer',
+  },
+  {
+    humanity: 'A volunteer firefighter who went back into a burning refinery to find his coworkers',
+    lost: 'The kind of courage you can\'t teach',
+    age: 29,
+    region: 'Saudi Arabia',
+    category: 'volunteer',
+  },
+  {
+    humanity: 'Two paramedics dispatched to rescue a trapped 5-year-old girl. Both killed. The ambulance was found destroyed. The girl was also dead',
+    lost: 'They went anyway. They knew the odds. They went.',
+    region: 'Gaza',
+    category: 'volunteer',
+    source: 'PRCS',
+  },
+  {
+    humanity: 'A Red Crescent paramedic. Was returning to base after transporting patients. Fatally shot',
+    lost: 'He was done. He was going home. He didn\'t make it.',
+    region: 'Gaza',
+    category: 'volunteer',
+    source: 'PRCS',
+  },
+
+  // ════════════════════════════════════════
+  // ARTISTS
+  // ════════════════════════════════════════
+
   {
     humanity: 'A poet who wrote about olive trees because they outlast everything',
     lost: 'Poems that would have made strangers cry in languages they don\'t speak',
@@ -423,8 +892,18 @@ export const livesLost: LifeLost[] = [
     region: 'Israel',
     category: 'artist',
   },
+  {
+    humanity: 'A DJ and legend of the trance music scene. Killed after playing his last set at a festival',
+    lost: 'The person everyone in the scene knew and loved. Playing music when he died.',
+    age: 42,
+    region: 'Israel',
+    category: 'artist',
+  },
 
-  // ── Workers ──
+  // ════════════════════════════════════════
+  // WORKERS
+  // ════════════════════════════════════════
+
   {
     humanity: 'A baker. His bread fed the whole street',
     lost: 'The smell of bread that meant the morning was still normal',
@@ -448,7 +927,7 @@ export const livesLost: LifeLost[] = [
   },
   {
     humanity: 'An electrician who fixed people\'s generators for free during blackouts. Didn\'t even charge for parts',
-    lost: 'Light. Literally',
+    lost: 'Light. Literally.',
     age: 45,
     region: 'Gaza',
     category: 'worker',
@@ -474,8 +953,18 @@ export const livesLost: LifeLost[] = [
     region: 'Saudi Arabia',
     category: 'worker',
   },
+  {
+    humanity: 'A Kurdish woman from a small town. Killed in the bombing of a public square in Tehran. Her body wasn\'t recovered for seven days',
+    lost: 'She was in the wrong square in the wrong city. She was from a different province entirely.',
+    region: 'Iran',
+    category: 'worker',
+    source: 'HRANA',
+  },
 
-  // ── Students ──
+  // ════════════════════════════════════════
+  // STUDENTS
+  // ════════════════════════════════════════
+
   {
     humanity: 'A medical student. Two months from graduating',
     lost: 'Every patient she was about to spend her career saving',
@@ -513,140 +1002,12 @@ export const livesLost: LifeLost[] = [
     region: 'Lebanon',
     category: 'student',
   },
-
-  // ── Journalists ──
   {
-    humanity: 'A journalist who kept broadcasting after his station got hit. Moved to a rooftop with a phone',
-    lost: 'The truth about what happened, from someone who was actually there',
-    age: 35,
+    humanity: 'A journalism student in his final year. Killed on day one of the war while holding his camera at a border crossing. He was wearing a vest that said PRESS',
+    lost: 'He didn\'t even graduate. He died doing the job he was still learning.',
+    age: 21,
     region: 'Gaza',
-    category: 'journalist',
-    source: 'CPJ',
-    sourceUrl: 'https://cpj.org/2024/05/journalist-casualties-in-the-israel-gaza-conflict/',
-  },
-  {
-    humanity: 'A photojournalist. Her last photo was sent 30 seconds before the strike',
-    lost: 'Every picture she would have taken that might have changed someone\'s mind',
-    age: 27,
-    region: 'Gaza',
-    category: 'journalist',
-    source: 'CPJ',
-    sourceUrl: 'https://cpj.org/2024/05/journalist-casualties-in-the-israel-gaza-conflict/',
-  },
-  {
-    humanity: 'A cameraman who filmed with one hand and held his kid with the other',
-    lost: 'Footage the world needed to see, shot by the only person brave enough to be there',
-    age: 33,
-    region: 'Lebanon',
-    category: 'journalist',
+    category: 'student',
     source: 'RSF',
-  },
-
-  // ── Volunteers ──
-  {
-    humanity: 'A Red Crescent volunteer who answered every call even after his own house was gone',
-    lost: 'The person who still showed up when everyone else had already left',
-    age: 26,
-    region: 'Gaza',
-    category: 'volunteer',
-    source: 'PRCS',
-  },
-  {
-    humanity: 'A UN aid worker who handed out food knowing she wasn\'t going to eat that day herself',
-    lost: 'The invisible work that kept a hundred families from starving',
-    age: 31,
-    region: 'Gaza',
-    category: 'volunteer',
-    source: 'UNRWA',
-    sourceUrl: 'https://www.unrwa.org/resources/reports/unrwa-situation-report',
-  },
-  {
-    humanity: 'A community organizer who turned a parking lot into a shelter for 200 people in one night',
-    lost: 'The kind of person who makes something out of nothing when everything falls apart',
-    age: 43,
-    region: 'Lebanon',
-    category: 'volunteer',
-  },
-  {
-    humanity: 'A volunteer firefighter who went back into a burning refinery to find his coworkers',
-    lost: 'The kind of courage you can\'t teach',
-    age: 29,
-    region: 'Saudi Arabia',
-    category: 'volunteer',
-  },
-
-  // ── More children ──
-  {
-    humanity: 'A toddler who called every animal "doggy"',
-    lost: 'The day she was going to learn the word "cat" and crack herself up',
-    age: 2,
-    region: 'Gaza',
-    category: 'child',
-  },
-  {
-    humanity: 'A boy who collected rocks because he was convinced one of them was a fossil',
-    lost: 'The paleontologist, the geologist, the endlessly curious kid',
-    age: 9,
-    region: 'Gaza',
-    category: 'child',
-  },
-  {
-    humanity: 'A teenager who translated for her parents at every appointment because she spoke three languages',
-    lost: 'The bridge between two worlds',
-    age: 14,
-    region: 'Israel',
-    category: 'child',
-  },
-  {
-    humanity: 'A boy who slept with a flashlight so he could keep reading after bedtime',
-    lost: 'Every book he was going to read under those covers',
-    age: 8,
-    region: 'Gaza',
-    category: 'child',
-  },
-  {
-    humanity: 'A girl who sang to her baby brother during the shelling because it was the only thing that made him stop crying',
-    lost: 'A voice that was the only safe sound in someone\'s world',
-    age: 11,
-    region: 'Gaza',
-    category: 'child',
-  },
-  {
-    humanity: 'A boy who was afraid of the dark but not afraid of anything else',
-    lost: 'The brave stuff he was going to do in daylight',
-    age: 7,
-    region: 'Iran',
-    category: 'child',
-  },
-  {
-    humanity: 'A girl who shared her last piece of bread with a kid she\'d never met',
-    lost: 'The kind of person the world literally cannot afford to lose',
-    age: 10,
-    region: 'Gaza',
-    category: 'child',
-  },
-
-  // ── More parents ──
-  {
-    humanity: 'A mom who threw herself over her kids when the ceiling came down',
-    lost: 'She did it. They made it. She didn\'t.',
-    age: 32,
-    region: 'Gaza',
-    category: 'parent',
-    source: 'Gaza MoH',
-  },
-  {
-    humanity: 'A dad who video-called his kids every single night from the front',
-    lost: 'A bedtime voice that\'s going to echo in a phone that doesn\'t ring anymore',
-    age: 36,
-    region: 'Israel',
-    category: 'parent',
-  },
-  {
-    humanity: 'A widowed father raising four kids who refused every offer to evacuate',
-    lost: 'The stubbornness that holds a family together when nothing else will',
-    age: 49,
-    region: 'Gaza',
-    category: 'parent',
   },
 ];
