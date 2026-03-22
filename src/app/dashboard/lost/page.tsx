@@ -127,9 +127,11 @@ function DataEntry({ index, record, number }: { index: number; record: MemorialR
           <div className='text-base md:text-lg text-zinc-300 leading-snug'>
             {entry.humanity}
           </div>
-          <div className='mt-1 text-sm md:text-base text-zinc-600 leading-relaxed'>
-            {entry.lost}
-          </div>
+          {record.age < 5 && (
+            <div className='mt-1 text-sm md:text-base text-zinc-600 leading-relaxed'>
+              {entry.lost}
+            </div>
+          )}
           <div className='mt-1 flex flex-wrap items-center gap-x-2 text-xs text-zinc-700 tabular-nums'>
             <span>
               {record.age === 0 ? 'Newborn' : record.age === 1 ? '1 year old' : `Age ${record.age}`}
