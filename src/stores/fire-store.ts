@@ -114,7 +114,7 @@ export const useFireStore = create<FireStore>((set) => ({
   },
 
   selectedFacility: null,
-  timelineDate: new Date().toISOString().slice(0, 10),
+  timelineDate: (typeof window !== 'undefined' && localStorage.getItem('obt-timeline-date')) || new Date().toISOString().slice(0, 10),
   isMuted: true,
 
   setFireData: (data) => set({ fireData: data }),
@@ -133,7 +133,10 @@ export const useFireStore = create<FireStore>((set) => ({
     })),
 
   setSelectedFacility: (facility) => set({ selectedFacility: facility }),
-  setTimelineDate: (date) => set({ timelineDate: date }),
+  setTimelineDate: (date) => {
+    try { localStorage.setItem('obt-timeline-date', date); } catch {}
+    set({ timelineDate: date });
+  },
   setIsMuted: (muted) => set({ isMuted: muted }),
 
   setMapCenter: (center) =>
