@@ -9,6 +9,7 @@ import {
   Mulish,
   Noto_Sans_Mono,
   Outfit,
+  Playfair_Display,
   Space_Mono
 } from 'next/font/google';
 
@@ -65,6 +66,12 @@ const fontOutfit = Outfit({
   variable: '--font-outfit'
 });
 
+const fontPlayfair = Playfair_Display({
+  subsets: ['latin'],
+  weight: ['400', '700'],
+  variable: '--font-playfair'
+});
+
 const fontSpaceMono = Space_Mono({
   subsets: ['latin'],
   weight: ['400', '700'],
@@ -82,5 +89,6 @@ export const fontVariables = cn(
   fontDMSans.variable,
   fontFiraCode.variable,
   fontOutfit.variable,
+  fontPlayfair.variable,
   fontSpaceMono.variable
 );

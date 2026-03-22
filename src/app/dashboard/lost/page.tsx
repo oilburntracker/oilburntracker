@@ -57,7 +57,7 @@ function FeaturedEntry({ entry, number }: { entry: typeof livesLost[0]; number: 
     <div className='py-5 border-b border-zinc-900/80'>
       <div className='flex items-start gap-4'>
         <div className='shrink-0 w-16 md:w-20 pt-0.5 text-right'>
-          <span className='font-mono text-3xl md:text-4xl font-normal text-zinc-400 tabular-nums'>
+          <span className='font-[family-name:var(--font-playfair)] text-3xl md:text-4xl font-normal text-zinc-400 tabular-nums tracking-tight'>
             {number.toLocaleString()}
           </span>
         </div>
@@ -121,7 +121,7 @@ function DataEntry({ index, record, number }: { index: number; record: MemorialR
     <div className='py-4 border-b border-zinc-900/60'>
       <div className='flex items-start gap-4'>
         <div className='shrink-0 w-16 md:w-20 pt-0.5 text-right'>
-          <span className='font-mono text-2xl md:text-3xl font-normal text-zinc-500 tabular-nums'>
+          <span className='font-[family-name:var(--font-playfair)] text-2xl md:text-3xl font-normal text-zinc-500 tabular-nums'>
             {number.toLocaleString()}
           </span>
         </div>
@@ -255,7 +255,7 @@ export default function WhatWeLostPage() {
         {/* ── End ── */}
         <div className='max-w-4xl mx-auto px-6 md:px-12 py-16'>
           <div className='border-t border-zinc-800 pt-12'>
-            <div className='font-mono text-6xl md:text-8xl font-extralight text-white tabular-nums'>
+            <div className='font-[family-name:var(--font-playfair)] text-6xl md:text-8xl font-normal text-white tabular-nums'>
               {totalEntries.toLocaleString()}
             </div>
             <p className='text-lg text-zinc-500 mt-6 leading-relaxed'>
