@@ -92,78 +92,115 @@ function StatCard({ children }: { children: React.ReactNode }) {
   );
 }
 
-/* ── Expandable prediction card ── */
+/* ── Severity indicator for expect items ── */
+function SeverityDots({ level }: { level: number }) {
+  return (
+    <div className='flex gap-1 mt-1'>
+      {[1, 2, 3, 4, 5].map((i) => (
+        <div key={i} className={`h-2 w-5 rounded-full ${
+          i <= level
+            ? level >= 4 ? 'bg-red-500' : level >= 3 ? 'bg-orange-500' : 'bg-yellow-500'
+            : 'bg-gray-200 dark:bg-zinc-800'
+        }`} />
+      ))}
+    </div>
+  );
+}
+
+/* ── Always-open prediction card with infographics ── */
 function PredictionCard({ prediction: p }: { prediction: {
   scenario: string; probability: number; color: string;
   what: string; why: string; how: string; when: string;
   expect: { label: string; value: string; detail: string }[];
 }}) {
-  const [expanded, setExpanded] = useState(false);
+  // Compute a severity 1-5 for the probability bar visual
+  const severity = p.probability >= 70 ? 5 : p.probability >= 50 ? 4 : p.probability >= 30 ? 3 : p.probability >= 15 ? 2 : 1;
+  const barColor = p.probability >= 60 ? 'bg-red-500' : p.probability >= 35 ? 'bg-orange-500' : p.probability >= 15 ? 'bg-yellow-500' : 'bg-green-500';
+
   return (
     <div className='rounded-xl bg-white dark:bg-zinc-800/40 border border-gray-200 dark:border-zinc-700/50 shadow-sm overflow-hidden'>
-      <button
-        onClick={() => setExpanded(!expanded)}
-        className='w-full p-4 cursor-pointer text-left'
-      >
+      {/* Header with probability gauge */}
+      <div className='p-4 border-b border-gray-100 dark:border-zinc-800/50'>
         <div className='flex items-center justify-between mb-2'>
-          <span className='text-lg font-black text-gray-900 dark:text-zinc-100 leading-tight'>{p.scenario}</span>
-          <span className={`text-3xl font-black tabular-nums ${p.color} ml-3 shrink-0`}>{p.probability}%</span>
+          <span className='text-xl font-black text-gray-900 dark:text-zinc-100 leading-tight'>{p.scenario}</span>
+          <span className={`text-4xl font-black tabular-nums ${p.color} ml-3 shrink-0`}>{p.probability}%</span>
         </div>
-        <Bar pct={p.probability} color={
-          p.probability >= 60 ? 'bg-red-500' :
-          p.probability >= 35 ? 'bg-orange-500' :
-          p.probability >= 15 ? 'bg-yellow-500' :
-          'bg-green-500'
-        } height='h-3' />
-        <div className='flex items-center justify-between mt-2'>
-          <span className='text-sm text-gray-500 dark:text-zinc-500'>{expanded ? 'Tap to collapse' : 'Tap for full analysis'}</span>
-          <span className='text-sm text-blue-600 dark:text-blue-400 font-bold'>{expanded ? '▲' : '▼'}</span>
+        {/* Segmented probability gauge */}
+        <div className='flex gap-1'>
+          {Array.from({ length: 20 }, (_, i) => {
+            const threshold = (i + 1) * 5;
+            const filled = p.probability >= threshold;
+            return (
+              <div key={i} className={`h-4 flex-1 rounded-sm ${filled ? barColor : 'bg-gray-200 dark:bg-zinc-800'}`} />
+            );
+          })}
         </div>
-      </button>
+        <div className='flex items-center justify-between mt-1.5'>
+          <span className='text-sm text-gray-400'>0%</span>
+          <SeverityDots level={severity} />
+          <span className='text-sm text-gray-400'>100%</span>
+        </div>
+      </div>
 
-      {expanded && (
-        <div className='px-4 pb-4 space-y-4 border-t border-gray-100 dark:border-zinc-800/50'>
-          {/* What */}
-          <div className='pt-3'>
-            <div className='text-sm uppercase tracking-widest text-gray-400 font-extrabold mb-1.5'>What happens</div>
-            <div className='text-base text-gray-700 dark:text-zinc-300 leading-relaxed'>{p.what}</div>
-          </div>
+      {/* Full analysis — always visible */}
+      <div className='px-4 pb-4 space-y-4'>
+        {/* What */}
+        <div className='pt-3'>
+          <div className='text-sm uppercase tracking-widest text-gray-400 font-extrabold mb-1.5'>What happens</div>
+          <div className='text-base text-gray-700 dark:text-zinc-300 leading-relaxed'>{p.what}</div>
+        </div>
 
-          {/* Why */}
-          <div>
-            <div className='text-sm uppercase tracking-widest text-gray-400 font-extrabold mb-1.5'>Why it&apos;s likely</div>
-            <div className='text-base text-gray-700 dark:text-zinc-300 leading-relaxed'>{p.why}</div>
-          </div>
+        {/* Why */}
+        <div>
+          <div className='text-sm uppercase tracking-widest text-gray-400 font-extrabold mb-1.5'>Why it&apos;s likely</div>
+          <div className='text-base text-gray-700 dark:text-zinc-300 leading-relaxed'>{p.why}</div>
+        </div>
 
-          {/* How */}
-          <div>
-            <div className='text-sm uppercase tracking-widest text-gray-400 font-extrabold mb-1.5'>How it plays out</div>
-            <div className='text-base text-gray-700 dark:text-zinc-300 leading-relaxed'>{p.how}</div>
-          </div>
+        {/* How */}
+        <div>
+          <div className='text-sm uppercase tracking-widest text-gray-400 font-extrabold mb-1.5'>How it plays out</div>
+          <div className='text-base text-gray-700 dark:text-zinc-300 leading-relaxed'>{p.how}</div>
+        </div>
 
-          {/* When */}
-          <div>
-            <div className='text-sm uppercase tracking-widest text-gray-400 font-extrabold mb-1.5'>Timeline</div>
-            <div className='text-base text-gray-700 dark:text-zinc-300 leading-relaxed'>{p.when}</div>
-          </div>
+        {/* When */}
+        <div>
+          <div className='text-sm uppercase tracking-widest text-gray-400 font-extrabold mb-1.5'>Timeline</div>
+          <div className='text-base text-gray-700 dark:text-zinc-300 leading-relaxed'>{p.when}</div>
+        </div>
 
-          {/* What to expect — data table */}
-          <div>
-            <div className='text-sm uppercase tracking-widest text-gray-400 font-extrabold mb-2'>What to expect</div>
-            <div className='space-y-2'>
-              {p.expect.map((e) => (
-                <div key={e.label} className='rounded-lg bg-gray-50 dark:bg-zinc-900/60 border border-gray-100 dark:border-zinc-800/50 px-3 py-2.5'>
-                  <div className='flex items-center justify-between'>
-                    <span className='text-sm font-bold text-gray-700 dark:text-zinc-300'>{e.label}</span>
-                    <span className={`text-lg font-black tabular-nums ${p.color}`}>{e.value}</span>
+        {/* What to expect — infographic cards */}
+        <div>
+          <div className='text-sm uppercase tracking-widest text-gray-400 font-extrabold mb-2'>What to expect</div>
+          <div className='space-y-2'>
+            {p.expect.map((e, idx) => {
+              // Extract a number from value for visual bar (e.g. "$200-300" → 250, "50%" → 50)
+              const numMatch = e.value.match(/([\d,.]+)/);
+              const numVal = numMatch ? parseFloat(numMatch[1].replace(/,/g, '')) : 0;
+              // Heuristic bar percentage — scale based on context
+              const barPct = e.value.includes('%') ? Math.min(100, numVal)
+                : e.value.includes('$') ? Math.min(100, numVal / 3)
+                : e.value.includes('M') || e.value.includes('million') ? Math.min(100, numVal * 10)
+                : Math.min(100, numVal / 10);
+
+              return (
+                <div key={e.label} className='rounded-lg bg-gray-50 dark:bg-zinc-900/60 border border-gray-100 dark:border-zinc-800/50 overflow-hidden'>
+                  <div className='px-3 py-2.5'>
+                    <div className='flex items-center justify-between'>
+                      <span className='text-sm font-bold text-gray-700 dark:text-zinc-300'>{e.label}</span>
+                      <span className={`text-lg font-black tabular-nums ${p.color}`}>{e.value}</span>
+                    </div>
+                    <div className='text-sm text-gray-500 dark:text-zinc-500 mt-0.5 leading-relaxed'>{e.detail}</div>
                   </div>
-                  <div className='text-sm text-gray-500 dark:text-zinc-500 mt-0.5 leading-relaxed'>{e.detail}</div>
+                  {/* Mini severity bar at bottom of each expect item */}
+                  <div className='h-1.5'>
+                    <div className={`h-full ${barColor} transition-all duration-300`} style={{ width: `${Math.max(5, barPct)}%` }} />
+                  </div>
                 </div>
-              ))}
-            </div>
+              );
+            })}
           </div>
         </div>
-      )}
+      </div>
     </div>
   );
 }
