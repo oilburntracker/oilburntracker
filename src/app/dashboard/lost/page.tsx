@@ -1,23 +1,16 @@
 'use client';
 
-import { useRef, useState, useEffect, useCallback, useMemo } from 'react';
+import { useRef, useState, useEffect, useMemo } from 'react';
 import { useVirtualizer } from '@tanstack/react-virtual';
 import { livesLost, CATEGORY_ICONS } from '@/features/memorial/data/lives-lost';
-import { generateEntry } from '@/features/memorial/lib/memorial-templates';
+import { generateEntry, REGION_NAMES } from '@/features/memorial/lib/memorial-templates';
 import { getCasualtiesUpTo } from '@/features/timeline/data/conflict-events';
 
 /* ── Types ── */
-interface MemorialRecord {
-  age: number;
-  sex: number; // 0=m, 1=f
-}
+interface MemorialRecord { age: number; sex: number; region: number; date: string }
+interface MemorialData { count: number; regions: string[]; records: [number, number, number, string][] }
 
-interface MemorialData {
-  count: number;
-  source: string;
-  sourceUrl: string;
-  records: [number, number][];
-}
+const STORAGE_KEY = 'memorial-scroll-index';
 
 /* ── Data loader ── */
 function useMemorialData() {
@@ -28,7 +21,7 @@ function useMemorialData() {
     fetch('/memorial-data.json')
       .then(r => r.json())
       .then((d: MemorialData) => {
-        setData(d.records.map(([age, sex]) => ({ age, sex })));
+        setData(d.records.map(([age, sex, region, date]) => ({ age, sex, region, date })));
         setLoading(false);
       })
       .catch(() => setLoading(false));
@@ -37,13 +30,34 @@ function useMemorialData() {
   return { data, loading };
 }
 
+/* ── Saved position ── */
+function getSavedIndex(): number {
+  if (typeof window === 'undefined') return 0;
+  try {
+    const v = localStorage.getItem(STORAGE_KEY);
+    return v ? parseInt(v, 10) : 0;
+  } catch { return 0; }
+}
+
+function saveIndex(index: number) {
+  try { localStorage.setItem(STORAGE_KEY, String(index)); } catch {}
+}
+
+function formatDate(d: string): string {
+  if (!d) return '';
+  try {
+    const date = new Date(d + 'T00:00:00');
+    return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+  } catch { return ''; }
+}
+
 /* ── Featured entry (hand-crafted, sourced) ── */
 function FeaturedEntry({ entry, number }: { entry: typeof livesLost[0]; number: number }) {
   return (
     <div className='py-5 border-b border-zinc-900/80'>
       <div className='flex items-start gap-4'>
         <div className='shrink-0 w-14 md:w-18 pt-0.5 text-right'>
-          <span className='font-mono text-2xl md:text-3xl font-light text-zinc-700 tabular-nums'>
+          <span className='font-mono text-2xl md:text-3xl font-extralight text-zinc-700 tabular-nums'>
             {number.toLocaleString()}
           </span>
         </div>
@@ -93,14 +107,19 @@ function FeaturedEntry({ entry, number }: { entry: typeof livesLost[0]; number: 
 }
 
 /* ── Generated entry (from dataset demographics) ── */
-function GeneratedEntry({ index, age, sex, number }: { index: number; age: number; sex: number; number: number }) {
-  const entry = useMemo(() => generateEntry(index, age, sex), [index, age, sex]);
+function DataEntry({ index, record, number }: { index: number; record: MemorialRecord; number: number }) {
+  const entry = useMemo(
+    () => generateEntry(index, record.age, record.sex, record.region),
+    [index, record.age, record.sex, record.region]
+  );
+  const dateStr = formatDate(record.date);
+  const regionName = REGION_NAMES[record.region] || 'Gaza';
 
   return (
     <div className='py-4 border-b border-zinc-900/60'>
       <div className='flex items-start gap-4'>
         <div className='shrink-0 w-14 md:w-18 pt-0.5 text-right'>
-          <span className='font-mono text-lg md:text-xl font-light text-zinc-800 tabular-nums'>
+          <span className='font-mono text-lg md:text-xl font-extralight text-zinc-800 tabular-nums'>
             {number.toLocaleString()}
           </span>
         </div>
@@ -111,10 +130,18 @@ function GeneratedEntry({ index, age, sex, number }: { index: number; age: numbe
           <div className='mt-1 text-sm md:text-base text-zinc-600 leading-relaxed'>
             {entry.lost}
           </div>
-          <div className='mt-1 text-xs text-zinc-700 tabular-nums'>
-            {age === 0 ? 'Newborn' : age === 1 ? '1 year old' : `Age ${age}`}
-            <span className='mx-2 text-zinc-800'>·</span>
-            Gaza
+          <div className='mt-1 flex flex-wrap items-center gap-x-2 text-xs text-zinc-700 tabular-nums'>
+            <span>
+              {record.age === 0 ? 'Newborn' : record.age === 1 ? '1 year old' : `Age ${record.age}`}
+            </span>
+            <span className='text-zinc-800'>·</span>
+            <span>{regionName}</span>
+            {dateStr && (
+              <>
+                <span className='text-zinc-800'>·</span>
+                <span>{dateStr}</span>
+              </>
+            )}
           </div>
         </div>
       </div>
@@ -128,86 +155,67 @@ export default function WhatWeLostPage() {
   const total = casualties.totalKilled;
   const { data: records, loading } = useMemorialData();
   const scrollRef = useRef<HTMLDivElement>(null);
+  const [restored, setRestored] = useState(false);
 
   const featuredCount = livesLost.length;
   const datasetCount = records?.length ?? 0;
   const totalEntries = featuredCount + datasetCount;
 
-  // Header + separator + footer are outside the virtualizer
-  // Only the entries list is virtualized
   const virtualizer = useVirtualizer({
     count: totalEntries,
     getScrollElement: () => scrollRef.current,
-    estimateSize: (i) => i < featuredCount ? 140 : 100,
-    overscan: 20,
+    estimateSize: (i) => i < featuredCount ? 130 : 95,
+    overscan: 15,
   });
 
-  // Current scroll position for the counter
-  const [visibleIndex, setVisibleIndex] = useState(0);
+  // Track furthest read position
+  const [currentIndex, setCurrentIndex] = useState(0);
   useEffect(() => {
     const items = virtualizer.getVirtualItems();
     if (items.length > 0) {
-      setVisibleIndex(items[items.length - 1].index + 1);
+      const last = items[items.length - 1].index + 1;
+      setCurrentIndex(last);
+      const saved = getSavedIndex();
+      if (last > saved) saveIndex(last);
     }
   });
+
+  // Restore scroll position on load
+  useEffect(() => {
+    if (loading || restored || !records) return;
+    const saved = getSavedIndex();
+    if (saved > 10) {
+      setTimeout(() => {
+        virtualizer.scrollToIndex(saved - 5, { align: 'start' });
+      }, 100);
+    }
+    setRestored(true);
+  }, [loading, restored, records, virtualizer]);
 
   return (
     <div className='h-[calc(100dvh-64px)] w-full bg-black relative'>
       <div className='h-full overflow-y-auto' ref={scrollRef}>
 
-        {/* ── Header ── */}
-        <div className='px-6 md:px-12 pt-16 pb-12 max-w-4xl mx-auto'>
-          <div className='text-5xl md:text-7xl font-black text-white tabular-nums leading-none'>
-            {total.toLocaleString()}+
-          </div>
-          <div className='text-lg text-zinc-500 font-bold mt-3'>
-            people killed since October 7, 2023
-          </div>
-
-          <div className='mt-8 space-y-4 text-zinc-400 text-lg leading-relaxed'>
-            <p>
-              You can&apos;t feel that number. Nobody can. So we&apos;re not going to try to make you feel all of it.
-            </p>
-            <p>
-              Below are {featuredCount.toLocaleString()} people we could tell you about — drawn from verified reporting.
-              Below those, {datasetCount.toLocaleString()} more from the Gaza Ministry of Health&apos;s identified victim list.
-              Not names. What they were.
-            </p>
-            <p className='text-zinc-300'>
-              Every number is a real person. Scroll.
-            </p>
-          </div>
-
-          <div className='mt-6 flex items-center gap-4 text-sm text-zinc-600'>
-            <span>{totalEntries.toLocaleString()} identified</span>
-            <span className='text-zinc-800'>·</span>
-            <span>{(total - totalEntries).toLocaleString()} unidentified</span>
-            <span className='text-zinc-800'>·</span>
-            <span>All sides</span>
-          </div>
-        </div>
-
-        {/* ── Separator ── */}
-        <div className='max-w-4xl mx-auto px-6 md:px-12'>
-          <div className='border-t border-zinc-800' />
-        </div>
-
-        {/* ── Floating counter ── */}
-        <div className='sticky top-0 z-10 bg-black/80 backdrop-blur-sm border-b border-zinc-900'>
-          <div className='max-w-4xl mx-auto px-6 md:px-12 py-2 flex items-center justify-between'>
-            <span className='font-mono text-sm text-zinc-600 tabular-nums'>
-              {Math.min(visibleIndex, totalEntries).toLocaleString()} of {totalEntries.toLocaleString()}
+        {/* ── Sticky counter ── */}
+        <div className='sticky top-0 z-10 bg-black/90 backdrop-blur-sm border-b border-zinc-900/50'>
+          <div className='max-w-4xl mx-auto px-6 md:px-12 py-1.5 flex items-center justify-between'>
+            <span className='font-mono text-xs text-zinc-600 tabular-nums'>
+              {Math.min(currentIndex, totalEntries).toLocaleString()} of {totalEntries.toLocaleString()}
             </span>
-            <span className='text-xs text-zinc-700'>
-              {visibleIndex <= featuredCount ? 'Verified stories' : 'Identified victims'}
-            </span>
+            {getSavedIndex() > 10 && currentIndex < totalEntries - 100 && (
+              <span className='text-xs text-zinc-700'>
+                progress saved
+              </span>
+            )}
           </div>
         </div>
 
         {/* ── Virtualized list ── */}
         <div className='max-w-4xl mx-auto px-6 md:px-12'>
           {loading ? (
-            <div className='py-20 text-center text-zinc-600'>Loading {total.toLocaleString()} lives...</div>
+            <div className='py-20 text-center text-zinc-700 font-mono text-sm'>
+              {total.toLocaleString()} people
+            </div>
           ) : (
             <div
               style={{ height: virtualizer.getTotalSize(), position: 'relative', width: '100%' }}
@@ -232,10 +240,9 @@ export default function WhatWeLostPage() {
                     {idx < featuredCount ? (
                       <FeaturedEntry entry={livesLost[idx]} number={number} />
                     ) : records ? (
-                      <GeneratedEntry
+                      <DataEntry
                         index={idx - featuredCount}
-                        age={records[idx - featuredCount].age}
-                        sex={records[idx - featuredCount].sex}
+                        record={records[idx - featuredCount]}
                         number={number}
                       />
                     ) : null}
@@ -244,65 +251,38 @@ export default function WhatWeLostPage() {
               })}
             </div>
           )}
-
-          {/* ── Transition between featured and dataset ── */}
-          {!loading && records && visibleIndex > featuredCount - 5 && visibleIndex < featuredCount + 5 && (
-            <div className='fixed bottom-20 left-1/2 -translate-x-1/2 bg-zinc-900/90 backdrop-blur px-4 py-2 rounded-lg text-sm text-zinc-400 z-20'>
-              Those were the ones we could tell you about. Here are {datasetCount.toLocaleString()} more.
-            </div>
-          )}
         </div>
 
         {/* ── End ── */}
         <div className='max-w-4xl mx-auto px-6 md:px-12 py-16'>
           <div className='border-t border-zinc-800 pt-12'>
-            <div className='text-4xl md:text-5xl font-black text-white tabular-nums'>
+            <div className='font-mono text-6xl md:text-8xl font-extralight text-white tabular-nums'>
               {totalEntries.toLocaleString()}
             </div>
-            <p className='text-xl text-zinc-400 mt-4 leading-relaxed'>
-              identified. {(total - totalEntries).toLocaleString()} more were never identified.
-            </p>
-            <p className='text-lg text-zinc-500 mt-4 leading-relaxed'>
-              Every single one of them woke up that morning with something to do, someone who needed them,
-              some reason to be alive. We didn&apos;t list their names because getting a name wrong is worse
-              than not listing it. But they had names. They had plans. They had people waiting for them to come home.
+            <p className='text-lg text-zinc-500 mt-6 leading-relaxed'>
+              You just scrolled past every one of them.
             </p>
 
-            <div className='mt-8 pt-6 border-t border-zinc-900 space-y-2 text-sm text-zinc-700'>
-              <div className='font-bold text-zinc-500'>Sources</div>
+            <div className='mt-10 pt-6 border-t border-zinc-900 space-y-2 text-sm text-zinc-700'>
+              <div className='font-bold text-zinc-600'>Sources</div>
               <div>
-                <a href='https://data.techforpalestine.org/docs/killed-in-gaza/' target='_blank' rel='noopener noreferrer' className='text-zinc-500 hover:text-zinc-300 underline underline-offset-2'>Tech for Palestine — Killed in Gaza dataset (60,199 identified)</a>
+                <a href='https://data.techforpalestine.org/docs/killed-in-gaza/' target='_blank' rel='noopener noreferrer' className='text-zinc-600 hover:text-zinc-300 underline underline-offset-2'>Tech for Palestine — 60,199 identified victims (Gaza)</a>
               </div>
               <div>
-                <a href='https://airwars.org/moh-list/' target='_blank' rel='noopener noreferrer' className='text-zinc-500 hover:text-zinc-300 underline underline-offset-2'>Airwars — Gaza MoH identified victim list</a>
+                <a href='https://data.techforpalestine.org/docs/datasets/' target='_blank' rel='noopener noreferrer' className='text-zinc-600 hover:text-zinc-300 underline underline-offset-2'>Tech for Palestine — West Bank daily casualties</a>
               </div>
               <div>
-                <a href='https://www.doctorswithoutborders.org/latest/remembering-our-colleagues-killed-gaza' target='_blank' rel='noopener noreferrer' className='text-zinc-500 hover:text-zinc-300 underline underline-offset-2'>MSF — Staff killed in Gaza</a>
+                <a href='https://airwars.org/moh-list/' target='_blank' rel='noopener noreferrer' className='text-zinc-600 hover:text-zinc-300 underline underline-offset-2'>Airwars — MoH identified victim list</a>
               </div>
               <div>
-                <a href='https://cpj.org/2024/05/journalist-casualties-in-the-israel-gaza-conflict/' target='_blank' rel='noopener noreferrer' className='text-zinc-500 hover:text-zinc-300 underline underline-offset-2'>CPJ — Journalist casualties</a>
+                <a href='https://www.doctorswithoutborders.org/latest/remembering-our-colleagues-killed-gaza' target='_blank' rel='noopener noreferrer' className='text-zinc-600 hover:text-zinc-300 underline underline-offset-2'>MSF — Staff killed in Gaza</a>
               </div>
               <div>
-                <a href='https://www.unrwa.org/resources/reports/unrwa-situation-report' target='_blank' rel='noopener noreferrer' className='text-zinc-500 hover:text-zinc-300 underline underline-offset-2'>UNRWA — Staff and teacher casualties</a>
+                <a href='https://cpj.org/2024/05/journalist-casualties-in-the-israel-gaza-conflict/' target='_blank' rel='noopener noreferrer' className='text-zinc-600 hover:text-zinc-300 underline underline-offset-2'>CPJ — Journalist casualties</a>
               </div>
               <div>
-                <a href='https://until.radicaldata.org/en/database' target='_blank' rel='noopener noreferrer' className='text-zinc-500 hover:text-zinc-300 underline underline-offset-2'>Until — Preserving human stories from Gaza</a>
+                <a href='https://www.unrwa.org/resources/reports/unrwa-situation-report' target='_blank' rel='noopener noreferrer' className='text-zinc-600 hover:text-zinc-300 underline underline-offset-2'>UNRWA — Staff and teacher casualties</a>
               </div>
-            </div>
-
-            <div className='mt-10 flex flex-wrap gap-4'>
-              <button
-                onClick={() => scrollRef.current?.scrollTo({ top: 0, behavior: 'smooth' })}
-                className='px-6 py-2.5 rounded-lg border border-zinc-800 text-zinc-400 font-bold hover:border-zinc-600 hover:text-zinc-200 transition-colors cursor-pointer'
-              >
-                Back to top
-              </button>
-              <a
-                href='/dashboard/overview'
-                className='px-6 py-2.5 rounded-lg bg-zinc-900 text-zinc-300 font-bold hover:bg-zinc-800 transition-colors'
-              >
-                See the numbers
-              </a>
             </div>
           </div>
         </div>

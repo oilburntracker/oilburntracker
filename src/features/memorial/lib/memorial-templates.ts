@@ -381,42 +381,223 @@ const ELDER_LOST = [
   'Deserved to rest. Got this instead.',
 ];
 
+// ── Israel-specific (Oct 7 + soldiers) ──
+
+const ISRAEL_OCT7_HUMANITY_M = [
+  'A man who was at a music festival',
+  'A father grabbed from his home at dawn',
+  'A young man who had driven his friends to the party',
+  'A security guard who ran toward the gunfire',
+  'A soldier on his first posting near the border',
+  'A man who was eating breakfast when it started',
+  'A grandfather who hid his grandchildren in a safe room',
+  'A man who had been working in the fields since sunrise',
+  'A volunteer first responder who drove toward the rockets',
+  'A father who shielded his children with his body',
+  'A young man who called his mother when the sirens went off',
+  'A kibbutz member who had lived there his entire life',
+  'A man who stayed behind so others could escape',
+  'A peace activist who had spent years building bridges',
+  'A farmer who knew every tree on his land',
+];
+
+const ISRAEL_OCT7_HUMANITY_F = [
+  'A woman who was dancing when the music stopped',
+  'A mother who locked the safe room and stood outside it',
+  'A young woman at her first outdoor festival',
+  'A grandmother who told her grandchildren it would be okay',
+  'A woman who had just called to say she was on her way home',
+  'A nurse who ran to help the wounded',
+  'A mother who carried her baby through the fields',
+  'A woman who hid in silence for hours',
+  'A young soldier who had been posted to the border a week ago',
+  'A teacher who called her students\' parents one by one',
+  'A woman who had survived worse before and thought she could again',
+  'A mother of three who was making Saturday breakfast',
+  'A young woman who had plans to travel next month',
+  'A woman who opened her door to neighbors running',
+  'A social worker who had spent decades in the community',
+];
+
+const ISRAEL_SOLDIER_HUMANITY = [
+  'A soldier who was twenty years old',
+  'A reservist who left his family to report for duty',
+  'A young officer on his first deployment',
+  'A soldier who had just finished basic training',
+  'A reservist who was a teacher in civilian life',
+  'A soldier who wrote letters home every week',
+  'A young man serving because he thought he was protecting people',
+  'A soldier who called his mother every night',
+  'A reservist who had a business waiting for him',
+  'A soldier who never wanted to be in a war',
+  'A young man who was supposed to finish his service next month',
+  'A combat medic who went in to pull others out',
+];
+
+const ISRAEL_LOST = [
+  'Was not a combatant. Was not a target. Was just there.',
+  'Had nothing to do with any of this.',
+  'The morning had been normal. That was the last normal morning.',
+  'Their family will never feel safe in the same way.',
+  'Was a civilian. That word is supposed to mean something.',
+  'The people who loved them are still here. That\'s the hard part.',
+  'There is no political framing that makes this okay.',
+  'Someone is still leaving the porch light on.',
+  'Was living their life. That\'s all they were doing.',
+  'Nobody should die like this. Nobody.',
+];
+
+// ── Lebanon-specific ──
+
+const LEBANON_HUMANITY_M = [
+  'A shopkeeper who had run the same store for thirty years',
+  'A father who drove a taxi through Beirut traffic every day',
+  'A young man who worked in his family\'s restaurant',
+  'A farmer in the south who grew tobacco and olives',
+  'A man who had rebuilt his home after the last war',
+  'A fisherman who went out from Tyre every morning',
+  'A university student in Beirut who went home for the weekend',
+  'A mechanic who kept the neighborhood\'s cars running',
+  'A man who worked construction in the Bekaa Valley',
+  'An old man who sat on his balcony and watched the border',
+  'A teacher at a village school near the blue line',
+  'A young man who had just found work after months of searching',
+  'A pharmacist in a southern town everyone relied on',
+  'A man who refused to leave his village when the warnings came',
+  'A father who was driving his family north when it happened',
+];
+
+const LEBANON_HUMANITY_F = [
+  'A mother who was packing to evacuate when the strike hit',
+  'A grandmother who had lived through the civil war and everything after',
+  'A young woman studying nursing in Beirut',
+  'A teacher who walked to school in a village near the border',
+  'A woman who ran a small bakery that fed the block',
+  'A mother who had already evacuated twice before',
+  'An old woman who refused to leave the house she was born in',
+  'A woman who volunteered at the local Red Cross',
+  'A mother who was on the phone with her daughter when it happened',
+  'A young woman who had just graduated university',
+  'A nurse at a clinic in the south that kept getting shelled',
+  'A woman who cooked for displaced families at the shelter',
+  'A grandmother who had memorized every prayer',
+  'A woman who worked at the municipality and knew every file',
+  'A mother who carried water from the well because the pipes were broken',
+];
+
+const LEBANON_LOST = [
+  'Had survived so much already. This was supposed to be over.',
+  'The south lost another person it can\'t replace.',
+  'Was trying to leave. Didn\'t make it.',
+  'Their village will be quieter now. It was already too quiet.',
+  'Had rebuilt before. Won\'t get to rebuild again.',
+  'Left behind a house with the door still open.',
+  'Lebanon keeps losing people it needs.',
+  'Was not part of any militia. Was just home.',
+  'Their family is scattered now. That was the last thing holding them together.',
+  'Another name the world won\'t learn.',
+];
+
+// ── West Bank ──
+
+const WESTBANK_HUMANITY_M = [
+  'A young man shot at a checkpoint',
+  'A teenager who was walking home from school',
+  'A farmer who was on his land when the raid came',
+  'A man who ran a corner shop in the camp',
+  'A father of three who worked in construction',
+  'A young man who had just finished his shift',
+  'A teenager who was on the roof when they came',
+  'A man who was standing outside his front door',
+  'An old man who couldn\'t move fast enough',
+  'A young man who was driving home',
+  'A worker who crossed the checkpoint every morning',
+  'A student who was in the wrong place',
+];
+
+const WESTBANK_HUMANITY_F = [
+  'A woman who was inside her home when the raid started',
+  'A mother who was at the market',
+  'A young woman walking to university',
+  'A girl who was in the car with her family',
+  'A teacher on her way to work',
+  'A woman who was standing by the window',
+  'A mother who had just put her children to bed',
+  'An old woman who couldn\'t get to shelter',
+];
+
+const WESTBANK_LOST = [
+  'The occupation took another one.',
+  'Was in the West Bank. That was enough.',
+  'Their family will file a report. Nothing will come of it.',
+  'Another raid. Another person.',
+  'The checkpoint doesn\'t remember them. Their family does.',
+  'Was not armed. Was not wanted. Was just there.',
+  'Life under occupation. This is what it looks like.',
+  'Their name will be in a UN report. Nobody will read it.',
+];
+
+export const REGION_NAMES = ['Gaza', 'West Bank', 'Lebanon', 'Israel'] as const;
+
 export interface GeneratedEntry {
   humanity: string;
   lost: string;
   age: number;
   sex: 'm' | 'f';
+  region: string;
 }
 
-export function generateEntry(index: number, age: number, sex: number): GeneratedEntry {
+export function generateEntry(index: number, age: number, sex: number, region: number): GeneratedEntry {
   const isFemale = sex === 1;
   const s = index; // seed
+  const regionName = REGION_NAMES[region] || 'Gaza';
 
   let humanity: string;
   let lost: string;
 
-  if (age < 1) {
-    humanity = pick(INFANT_HUMANITY, s);
-    lost = pick(INFANT_LOST, s);
-  } else if (age < 5) {
-    humanity = pick(isFemale ? TODDLER_HUMANITY_F : TODDLER_HUMANITY_M, s);
-    lost = pick(TODDLER_LOST, s);
-  } else if (age < 13) {
-    humanity = pick(isFemale ? CHILD_HUMANITY_F : CHILD_HUMANITY_M, s);
-    lost = pick(CHILD_LOST, s);
-  } else if (age < 18) {
-    humanity = pick(isFemale ? TEEN_HUMANITY_F : TEEN_HUMANITY_M, s);
-    lost = pick(TEEN_LOST, s);
-  } else if (age < 35) {
-    humanity = pick(isFemale ? YOUNG_ADULT_HUMANITY_F : YOUNG_ADULT_HUMANITY_M, s);
-    lost = pick(YOUNG_ADULT_LOST, s);
-  } else if (age < 60) {
-    humanity = pick(isFemale ? ADULT_HUMANITY_F : ADULT_HUMANITY_M, s);
-    lost = pick(ADULT_LOST, s);
+  // Region-specific templates for adults
+  if (region === 3 && age >= 18) {
+    // Israel
+    if (age <= 35 && !isFemale && ((s * 2654435761) >>> 0) % 3 === 0) {
+      // Some young Israeli men are soldiers
+      humanity = pick(ISRAEL_SOLDIER_HUMANITY, s);
+    } else {
+      humanity = pick(isFemale ? ISRAEL_OCT7_HUMANITY_F : ISRAEL_OCT7_HUMANITY_M, s);
+    }
+    lost = pick(ISRAEL_LOST, s);
+  } else if (region === 2 && age >= 18) {
+    // Lebanon
+    humanity = pick(isFemale ? LEBANON_HUMANITY_F : LEBANON_HUMANITY_M, s);
+    lost = pick(LEBANON_LOST, s);
+  } else if (region === 1 && age >= 13) {
+    // West Bank
+    humanity = pick(isFemale ? WESTBANK_HUMANITY_F : WESTBANK_HUMANITY_M, s);
+    lost = pick(WESTBANK_LOST, s);
   } else {
-    humanity = pick(isFemale ? ELDER_HUMANITY_F : ELDER_HUMANITY_M, s);
-    lost = pick(ELDER_LOST, s);
+    // Gaza (default) or children from any region (universal templates)
+    if (age < 1) {
+      humanity = pick(INFANT_HUMANITY, s);
+      lost = pick(INFANT_LOST, s);
+    } else if (age < 5) {
+      humanity = pick(isFemale ? TODDLER_HUMANITY_F : TODDLER_HUMANITY_M, s);
+      lost = pick(TODDLER_LOST, s);
+    } else if (age < 13) {
+      humanity = pick(isFemale ? CHILD_HUMANITY_F : CHILD_HUMANITY_M, s);
+      lost = pick(CHILD_LOST, s);
+    } else if (age < 18) {
+      humanity = pick(isFemale ? TEEN_HUMANITY_F : TEEN_HUMANITY_M, s);
+      lost = pick(TEEN_LOST, s);
+    } else if (age < 35) {
+      humanity = pick(isFemale ? YOUNG_ADULT_HUMANITY_F : YOUNG_ADULT_HUMANITY_M, s);
+      lost = pick(YOUNG_ADULT_LOST, s);
+    } else if (age < 60) {
+      humanity = pick(isFemale ? ADULT_HUMANITY_F : ADULT_HUMANITY_M, s);
+      lost = pick(ADULT_LOST, s);
+    } else {
+      humanity = pick(isFemale ? ELDER_HUMANITY_F : ELDER_HUMANITY_M, s);
+      lost = pick(ELDER_LOST, s);
+    }
   }
 
-  return { humanity, lost, age, sex: isFemale ? 'f' : 'm' };
+  return { humanity, lost, age, sex: isFemale ? 'f' : 'm', region: regionName };
 }
