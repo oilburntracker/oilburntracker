@@ -1,160 +1,162 @@
 'use client';
 
-import { useRef, useState, useEffect, useCallback } from 'react';
+import { useRef, useState, useEffect, useCallback, useMemo } from 'react';
+import { useVirtualizer } from '@tanstack/react-virtual';
 import { livesLost, CATEGORY_ICONS } from '@/features/memorial/data/lives-lost';
+import { generateEntry } from '@/features/memorial/lib/memorial-templates';
 import { getCasualtiesUpTo } from '@/features/timeline/data/conflict-events';
 
-/* ── Number Cascade ──
-   After the sourced entries end, numbers keep counting.
-   Starts slow, accelerates, until all ~65K scroll past.
-   You feel the scale. */
+/* ── Types ── */
+interface MemorialRecord {
+  age: number;
+  sex: number; // 0=m, 1=f
+}
 
-function NumberCascade({ start, end }: { start: number; end: number }) {
-  const containerRef = useRef<HTMLDivElement>(null);
-  const [started, setStarted] = useState(false);
-  const [current, setCurrent] = useState(start);
-  const [done, setDone] = useState(false);
-  const rafRef = useRef<number>(0);
-  const startTimeRef = useRef(0);
+interface MemorialData {
+  count: number;
+  source: string;
+  sourceUrl: string;
+  records: [number, number][];
+}
 
-  // Start when scrolled into view
+/* ── Data loader ── */
+function useMemorialData() {
+  const [data, setData] = useState<MemorialRecord[] | null>(null);
+  const [loading, setLoading] = useState(true);
+
   useEffect(() => {
-    const el = containerRef.current;
-    if (!el) return;
-    const obs = new IntersectionObserver(
-      ([entry]) => { if (entry.isIntersecting) { setStarted(true); obs.disconnect(); } },
-      { threshold: 0.1 }
-    );
-    obs.observe(el);
-    return () => obs.disconnect();
+    fetch('/memorial-data.json')
+      .then(r => r.json())
+      .then((d: MemorialData) => {
+        setData(d.records.map(([age, sex]) => ({ age, sex })));
+        setLoading(false);
+      })
+      .catch(() => setLoading(false));
   }, []);
 
-  // Animate the count
-  useEffect(() => {
-    if (!started || done) return;
+  return { data, loading };
+}
 
-    const totalNumbers = end - start;
-    // Total duration: ~18 seconds
-    const totalDuration = 18000;
-    startTimeRef.current = performance.now();
+/* ── Featured entry (hand-crafted, sourced) ── */
+function FeaturedEntry({ entry, number }: { entry: typeof livesLost[0]; number: number }) {
+  return (
+    <div className='py-5 border-b border-zinc-900/80'>
+      <div className='flex items-start gap-4'>
+        <div className='shrink-0 w-14 md:w-18 pt-0.5 text-right'>
+          <span className='font-mono text-2xl md:text-3xl font-light text-zinc-700 tabular-nums'>
+            {number.toLocaleString()}
+          </span>
+        </div>
+        <div className='min-w-0 flex-1'>
+          <div className='flex items-start gap-2'>
+            <span className='text-base mt-0.5 opacity-20 shrink-0' aria-hidden>
+              {CATEGORY_ICONS[entry.category]}
+            </span>
+            <div>
+              <div className='text-lg md:text-xl font-bold text-white leading-snug'>
+                {entry.humanity}
+              </div>
+              <div className='mt-1.5 text-base md:text-lg text-zinc-400 leading-relaxed'>
+                {entry.lost}
+              </div>
+            </div>
+          </div>
+          <div className='mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-zinc-600 ml-7'>
+            {entry.age !== undefined && (
+              <span className='tabular-nums'>
+                {entry.age === 0 ? 'Newborn' : entry.age === 1 ? '1 year old' : `Age ${entry.age}`}
+              </span>
+            )}
+            <span>{entry.region}</span>
+            {entry.source && (
+              <>
+                <span className='text-zinc-800'>·</span>
+                {entry.sourceUrl ? (
+                  <a
+                    href={entry.sourceUrl}
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    className='text-zinc-500 hover:text-zinc-300 underline underline-offset-2 transition-colors'
+                  >
+                    {entry.source}
+                  </a>
+                ) : (
+                  <span className='text-zinc-600'>{entry.source}</span>
+                )}
+              </>
+            )}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
 
-    const tick = (now: number) => {
-      const elapsed = now - startTimeRef.current;
-      const progress = Math.min(elapsed / totalDuration, 1);
-
-      // Ease-in curve: starts slow, accelerates
-      // Using cubic ease-in for dramatic acceleration
-      const easedProgress = progress * progress * progress;
-
-      const nextNum = Math.min(start + Math.floor(easedProgress * totalNumbers), end);
-      setCurrent(nextNum);
-
-      if (nextNum >= end) {
-        setDone(true);
-        return;
-      }
-      rafRef.current = requestAnimationFrame(tick);
-    };
-
-    rafRef.current = requestAnimationFrame(tick);
-    return () => cancelAnimationFrame(rafRef.current);
-  }, [started, done, start, end]);
-
-  // Reset on click
-  const replay = useCallback(() => {
-    setCurrent(start);
-    setDone(false);
-    setStarted(true);
-    startTimeRef.current = performance.now();
-  }, [start]);
+/* ── Generated entry (from dataset demographics) ── */
+function GeneratedEntry({ index, age, sex, number }: { index: number; age: number; sex: number; number: number }) {
+  const entry = useMemo(() => generateEntry(index, age, sex), [index, age, sex]);
 
   return (
-    <div ref={containerRef} className='max-w-3xl mx-auto px-6 md:px-12 py-12'>
-      {/* Transition text */}
-      <div className='text-center mb-10'>
-        <p className='text-zinc-600 text-lg'>
-          Those were {start - 1} people we could tell you about.
-        </p>
-        <p className='text-zinc-500 text-lg mt-2'>
-          Here are the rest.
-        </p>
-      </div>
-
-      {/* The counter */}
-      <div className='text-center'>
-        <div
-          className='font-mono text-6xl md:text-8xl font-black tabular-nums leading-none transition-colors duration-300'
-          style={{
-            color: done
-              ? '#ffffff'
-              : `rgba(255, 255, 255, ${0.15 + 0.85 * Math.min((current - start) / (end - start), 1)})`,
-          }}
-        >
-          {current.toLocaleString()}
+    <div className='py-4 border-b border-zinc-900/60'>
+      <div className='flex items-start gap-4'>
+        <div className='shrink-0 w-14 md:w-18 pt-0.5 text-right'>
+          <span className='font-mono text-lg md:text-xl font-light text-zinc-800 tabular-nums'>
+            {number.toLocaleString()}
+          </span>
         </div>
-
-        {/* Speed indicator — shows how fast we're counting */}
-        {started && !done && (
-          <div className='mt-4 text-zinc-700 text-sm font-mono tabular-nums'>
-            {current <= start + 100 && 'counting...'}
-            {current > start + 100 && current <= start + 1000 && 'faster...'}
-            {current > start + 1000 && current <= start + 10000 && 'faster...'}
-            {current > start + 10000 && current <= start + 30000 && '...'}
-            {current > start + 30000 && ''}
+        <div className='min-w-0 flex-1'>
+          <div className='text-base md:text-lg text-zinc-300 leading-snug'>
+            {entry.humanity}
           </div>
-        )}
-
-        {/* Landing message */}
-        {done && (
-          <div className='mt-8 space-y-3 animate-in fade-in duration-1000'>
-            <p className='text-zinc-400 text-xl'>
-              Every one of those numbers was a person.
-            </p>
-            <button
-              onClick={replay}
-              className='mt-4 text-zinc-700 text-sm hover:text-zinc-400 transition-colors cursor-pointer'
-            >
-              Watch again
-            </button>
+          <div className='mt-1 text-sm md:text-base text-zinc-600 leading-relaxed'>
+            {entry.lost}
           </div>
-        )}
-      </div>
-
-      {/* Number trail — shows recent numbers fading out */}
-      {started && !done && (
-        <div className='mt-8 flex flex-wrap justify-center gap-x-3 gap-y-1 max-h-32 overflow-hidden'>
-          {Array.from({ length: Math.min(40, current - start) }, (_, i) => {
-            const num = current - i;
-            const opacity = Math.max(0.05, 1 - i * 0.025);
-            return (
-              <span
-                key={num}
-                className='font-mono text-sm tabular-nums'
-                style={{ color: `rgba(113, 113, 122, ${opacity})` }}
-              >
-                {num.toLocaleString()}
-              </span>
-            );
-          })}
+          <div className='mt-1 text-xs text-zinc-700 tabular-nums'>
+            {age === 0 ? 'Newborn' : age === 1 ? '1 year old' : `Age ${age}`}
+            <span className='mx-2 text-zinc-800'>·</span>
+            Gaza
+          </div>
         </div>
-      )}
+      </div>
     </div>
   );
 }
 
 /* ── Page ── */
-
 export default function WhatWeLostPage() {
   const casualties = getCasualtiesUpTo(new Date().toISOString().slice(0, 10));
   const total = casualties.totalKilled;
-  const entryCount = livesLost.length;
+  const { data: records, loading } = useMemorialData();
+  const scrollRef = useRef<HTMLDivElement>(null);
+
+  const featuredCount = livesLost.length;
+  const datasetCount = records?.length ?? 0;
+  const totalEntries = featuredCount + datasetCount;
+
+  // Header + separator + footer are outside the virtualizer
+  // Only the entries list is virtualized
+  const virtualizer = useVirtualizer({
+    count: totalEntries,
+    getScrollElement: () => scrollRef.current,
+    estimateSize: (i) => i < featuredCount ? 140 : 100,
+    overscan: 20,
+  });
+
+  // Current scroll position for the counter
+  const [visibleIndex, setVisibleIndex] = useState(0);
+  useEffect(() => {
+    const items = virtualizer.getVirtualItems();
+    if (items.length > 0) {
+      setVisibleIndex(items[items.length - 1].index + 1);
+    }
+  });
 
   return (
     <div className='h-[calc(100dvh-64px)] w-full bg-black relative'>
-      <div className='h-full overflow-y-auto'>
+      <div className='h-full overflow-y-auto' ref={scrollRef}>
 
         {/* ── Header ── */}
-        <div className='px-6 md:px-12 pt-16 pb-12 max-w-3xl mx-auto'>
+        <div className='px-6 md:px-12 pt-16 pb-12 max-w-4xl mx-auto'>
           <div className='text-5xl md:text-7xl font-black text-white tabular-nums leading-none'>
             {total.toLocaleString()}+
           </div>
@@ -167,120 +169,110 @@ export default function WhatWeLostPage() {
               You can&apos;t feel that number. Nobody can. So we&apos;re not going to try to make you feel all of it.
             </p>
             <p>
-              Below are some of the people behind the count. Not their names — we don&apos;t want to get anyone&apos;s
-              name wrong, and honestly, a name doesn&apos;t tell you who someone was.
+              Below are {featuredCount.toLocaleString()} people we could tell you about — drawn from verified reporting.
+              Below those, {datasetCount.toLocaleString()} more from the Gaza Ministry of Health&apos;s identified victim list.
+              Not names. What they were.
             </p>
             <p className='text-zinc-300'>
-              Instead: what they did, who needed them, and what the world doesn&apos;t get back.
-            </p>
-            <p className='text-zinc-600 text-base'>
-              These are drawn from verified reporting by MSF, UNRWA, CPJ, WHO, the Gaza Ministry of Health,
-              Israeli emergency services, and international press. Where we have a source, we link it.
-              Where we don&apos;t, the entry is based on documented demographic patterns from casualty data.
+              Every number is a real person. Scroll.
             </p>
           </div>
 
           <div className='mt-6 flex items-center gap-4 text-sm text-zinc-600'>
-            <span>{entryCount} stories shown</span>
+            <span>{totalEntries.toLocaleString()} identified</span>
             <span className='text-zinc-800'>·</span>
-            <span>{(total - entryCount).toLocaleString()} unnamed</span>
+            <span>{(total - totalEntries).toLocaleString()} unidentified</span>
             <span className='text-zinc-800'>·</span>
-            <span>All regions, all sides</span>
+            <span>All sides</span>
           </div>
         </div>
 
         {/* ── Separator ── */}
-        <div className='max-w-3xl mx-auto px-6 md:px-12'>
+        <div className='max-w-4xl mx-auto px-6 md:px-12'>
           <div className='border-t border-zinc-800' />
         </div>
 
-        {/* ── Lives ── */}
-        <div className='max-w-3xl mx-auto px-6 md:px-12 py-8'>
-          <div className='space-y-0'>
-            {livesLost.map((entry, i) => (
-              <div
-                key={i}
-                className='py-5 border-b border-zinc-900/80'
-              >
-                <div className='flex items-start gap-4'>
-                  {/* Number */}
-                  <div className='shrink-0 w-12 md:w-16 pt-0.5'>
-                    <span className='font-mono text-2xl md:text-3xl font-light text-zinc-800 tabular-nums'>
-                      {i + 1}
-                    </span>
-                  </div>
-
-                  <div className='min-w-0 flex-1'>
-                    <div className='flex items-start gap-2'>
-                      <span className='text-base mt-0.5 opacity-20 shrink-0' aria-hidden>
-                        {CATEGORY_ICONS[entry.category]}
-                      </span>
-                      <div>
-                        <div className='text-lg md:text-xl font-bold text-white leading-snug'>
-                          {entry.humanity}
-                        </div>
-                        <div className='mt-1.5 text-base md:text-lg text-zinc-400 leading-relaxed'>
-                          {entry.lost}
-                        </div>
-                      </div>
-                    </div>
-                    <div className='mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-zinc-600 ml-7'>
-                      {entry.age !== undefined && (
-                        <span className='tabular-nums'>
-                          {entry.age === 0 ? 'Newborn' : entry.age === 1 ? '1 year old' : `Age ${entry.age}`}
-                        </span>
-                      )}
-                      <span>{entry.region}</span>
-                      {entry.source && (
-                        <>
-                          <span className='text-zinc-800'>·</span>
-                          {entry.sourceUrl ? (
-                            <a
-                              href={entry.sourceUrl}
-                              target='_blank'
-                              rel='noopener noreferrer'
-                              className='text-zinc-500 hover:text-zinc-300 underline underline-offset-2 transition-colors'
-                            >
-                              {entry.source}
-                            </a>
-                          ) : (
-                            <span className='text-zinc-600'>{entry.source}</span>
-                          )}
-                        </>
-                      )}
-                    </div>
-                  </div>
-                </div>
-              </div>
-            ))}
+        {/* ── Floating counter ── */}
+        <div className='sticky top-0 z-10 bg-black/80 backdrop-blur-sm border-b border-zinc-900'>
+          <div className='max-w-4xl mx-auto px-6 md:px-12 py-2 flex items-center justify-between'>
+            <span className='font-mono text-sm text-zinc-600 tabular-nums'>
+              {Math.min(visibleIndex, totalEntries).toLocaleString()} of {totalEntries.toLocaleString()}
+            </span>
+            <span className='text-xs text-zinc-700'>
+              {visibleIndex <= featuredCount ? 'Verified stories' : 'Identified victims'}
+            </span>
           </div>
         </div>
 
-        {/* ── Number Cascade ── */}
-        <div className='border-t border-zinc-800'>
-          <NumberCascade start={entryCount + 1} end={total} />
+        {/* ── Virtualized list ── */}
+        <div className='max-w-4xl mx-auto px-6 md:px-12'>
+          {loading ? (
+            <div className='py-20 text-center text-zinc-600'>Loading {total.toLocaleString()} lives...</div>
+          ) : (
+            <div
+              style={{ height: virtualizer.getTotalSize(), position: 'relative', width: '100%' }}
+            >
+              {virtualizer.getVirtualItems().map((virtualRow) => {
+                const idx = virtualRow.index;
+                const number = idx + 1;
+
+                return (
+                  <div
+                    key={virtualRow.key}
+                    data-index={virtualRow.index}
+                    ref={virtualizer.measureElement}
+                    style={{
+                      position: 'absolute',
+                      top: 0,
+                      left: 0,
+                      width: '100%',
+                      transform: `translateY(${virtualRow.start}px)`,
+                    }}
+                  >
+                    {idx < featuredCount ? (
+                      <FeaturedEntry entry={livesLost[idx]} number={number} />
+                    ) : records ? (
+                      <GeneratedEntry
+                        index={idx - featuredCount}
+                        age={records[idx - featuredCount].age}
+                        sex={records[idx - featuredCount].sex}
+                        number={number}
+                      />
+                    ) : null}
+                  </div>
+                );
+              })}
+            </div>
+          )}
+
+          {/* ── Transition between featured and dataset ── */}
+          {!loading && records && visibleIndex > featuredCount - 5 && visibleIndex < featuredCount + 5 && (
+            <div className='fixed bottom-20 left-1/2 -translate-x-1/2 bg-zinc-900/90 backdrop-blur px-4 py-2 rounded-lg text-sm text-zinc-400 z-20'>
+              Those were the ones we could tell you about. Here are {datasetCount.toLocaleString()} more.
+            </div>
+          )}
         </div>
 
         {/* ── End ── */}
-        <div className='max-w-3xl mx-auto px-6 md:px-12 py-16'>
+        <div className='max-w-4xl mx-auto px-6 md:px-12 py-16'>
           <div className='border-t border-zinc-800 pt-12'>
             <div className='text-4xl md:text-5xl font-black text-white tabular-nums'>
-              {total.toLocaleString()}+
+              {totalEntries.toLocaleString()}
             </div>
             <p className='text-xl text-zinc-400 mt-4 leading-relaxed'>
-              You just read about {entryCount}. You just watched {(total - entryCount).toLocaleString()} more count past.
+              identified. {(total - totalEntries).toLocaleString()} more were never identified.
             </p>
             <p className='text-lg text-zinc-500 mt-4 leading-relaxed'>
               Every single one of them woke up that morning with something to do, someone who needed them,
               some reason to be alive. We didn&apos;t list their names because getting a name wrong is worse
               than not listing it. But they had names. They had plans. They had people waiting for them to come home.
             </p>
-            <p className='text-base text-zinc-600 mt-4'>
-              This page will keep growing as the war continues. Every new number is a new person.
-            </p>
 
             <div className='mt-8 pt-6 border-t border-zinc-900 space-y-2 text-sm text-zinc-700'>
               <div className='font-bold text-zinc-500'>Sources</div>
+              <div>
+                <a href='https://data.techforpalestine.org/docs/killed-in-gaza/' target='_blank' rel='noopener noreferrer' className='text-zinc-500 hover:text-zinc-300 underline underline-offset-2'>Tech for Palestine — Killed in Gaza dataset (60,199 identified)</a>
+              </div>
               <div>
                 <a href='https://airwars.org/moh-list/' target='_blank' rel='noopener noreferrer' className='text-zinc-500 hover:text-zinc-300 underline underline-offset-2'>Airwars — Gaza MoH identified victim list</a>
               </div>
@@ -296,14 +288,11 @@ export default function WhatWeLostPage() {
               <div>
                 <a href='https://until.radicaldata.org/en/database' target='_blank' rel='noopener noreferrer' className='text-zinc-500 hover:text-zinc-300 underline underline-offset-2'>Until — Preserving human stories from Gaza</a>
               </div>
-              <div>
-                <a href='https://data.techforpalestine.org/docs/killed-in-gaza/' target='_blank' rel='noopener noreferrer' className='text-zinc-500 hover:text-zinc-300 underline underline-offset-2'>Palestine Datasets — Killed in Gaza</a>
-              </div>
             </div>
 
             <div className='mt-10 flex flex-wrap gap-4'>
               <button
-                onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+                onClick={() => scrollRef.current?.scrollTo({ top: 0, behavior: 'smooth' })}
                 className='px-6 py-2.5 rounded-lg border border-zinc-800 text-zinc-400 font-bold hover:border-zinc-600 hover:text-zinc-200 transition-colors cursor-pointer'
               >
                 Back to top
