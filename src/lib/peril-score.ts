@@ -1,5 +1,22 @@
 import type { NuclearStatus } from '@/features/timeline/data/conflict-events';
 
+// ═══ OBT PERIL INDEX — Custom Composite Score ═══
+// This is an editorial index created by OilBurnTracker, NOT an established
+// academic or governmental measure. It combines three real data streams
+// (nuclear status, supply disruption, conflict tempo) into a 0-100 score.
+//
+// Weights: Nuclear 40%, Supply 35%, Escalation 25%
+// These weights reflect editorial judgment about relative threat severity.
+//
+// Historical anchors (Fukushima 55, Chernobyl 75, Cuban Missile Crisis 92)
+// are OBT editorial estimates for comparison context, not derived from
+// any external methodology.
+//
+// Data sources feeding the score:
+//   Nuclear: IAEA, Arms Control Association
+//   Supply: IEA, EIA, curated facility data
+//   Escalation: Conflict event timeline (sourced from major news outlets)
+
 export interface PerilResult {
   score: number;         // 0-100 composite
   nuclearScore: number;
