@@ -30,8 +30,8 @@ function Row({ label, value, valueColor, tip, sub }: {
   const [showTip, setShowTip] = useState(false);
   return (
     <div>
-      <div className='flex items-center justify-between py-0.5'>
-        <span className='text-sm text-gray-600 dark:text-zinc-300 flex items-center gap-1'>
+      <div className='flex items-center justify-between py-1'>
+        <span className='text-base text-gray-600 dark:text-zinc-300 flex items-center gap-1'>
           {label}
           {tip && (
             <button
@@ -39,18 +39,18 @@ function Row({ label, value, valueColor, tip, sub }: {
               className='p-0.5 rounded-full hover:bg-gray-200 dark:hover:bg-zinc-700 transition-colors cursor-pointer'
               aria-label='More info'
             >
-              <IconInfoCircle className={`h-3.5 w-3.5 transition-colors ${showTip ? 'text-blue-600 dark:text-blue-400' : 'text-gray-400 dark:text-zinc-600'}`} />
+              <IconInfoCircle className={`h-4 w-4 transition-colors ${showTip ? 'text-blue-600 dark:text-blue-400' : 'text-gray-400 dark:text-zinc-600'}`} />
             </button>
           )}
         </span>
-        <span className={`text-sm font-bold tabular-nums ${valueColor || 'text-gray-900 dark:text-white'}`}>{value}</span>
+        <span className={`text-base font-bold tabular-nums ${valueColor || 'text-gray-900 dark:text-white'}`}>{value}</span>
       </div>
       {showTip && tip && (
-        <div className='text-xs text-gray-600 dark:text-zinc-400 bg-blue-50 dark:bg-zinc-800/60 border border-blue-100 dark:border-zinc-700/50 rounded-lg px-2.5 py-2 mb-1 leading-relaxed'>
+        <div className='text-sm text-gray-600 dark:text-zinc-400 bg-blue-50 dark:bg-zinc-800/60 border border-blue-100 dark:border-zinc-700/50 rounded-lg px-3 py-2.5 mb-1.5 leading-relaxed'>
           {tip}
         </div>
       )}
-      {sub && <div className='text-xs text-gray-400 dark:text-zinc-500 -mt-0.5 mb-0.5'>{sub}</div>}
+      {sub && <div className='text-sm text-gray-400 dark:text-zinc-500 -mt-0.5 mb-0.5'>{sub}</div>}
     </div>
   );
 }
@@ -58,8 +58,8 @@ function Row({ label, value, valueColor, tip, sub }: {
 /* ── Info box for context/connection ── */
 function InfoBox({ children }: { children: React.ReactNode }) {
   return (
-    <div className='mt-2 px-3 py-2.5 rounded-lg bg-amber-50 dark:bg-zinc-800/50 border border-amber-200 dark:border-zinc-700/50'>
-      <div className='text-xs text-gray-700 dark:text-zinc-400 leading-relaxed'>{children}</div>
+    <div className='mt-3 px-3 py-3 rounded-lg bg-amber-50 dark:bg-zinc-800/50 border border-amber-200 dark:border-zinc-700/50'>
+      <div className='text-sm text-gray-700 dark:text-zinc-400 leading-relaxed'>{children}</div>
     </div>
   );
 }
@@ -103,61 +103,61 @@ function PredictionCard({ prediction: p }: { prediction: {
     <div className='rounded-xl bg-white dark:bg-zinc-800/40 border border-gray-200 dark:border-zinc-700/50 shadow-sm overflow-hidden'>
       <button
         onClick={() => setExpanded(!expanded)}
-        className='w-full p-3 cursor-pointer text-left'
+        className='w-full p-4 cursor-pointer text-left'
       >
-        <div className='flex items-center justify-between mb-1'>
-          <span className='text-sm font-bold text-gray-900 dark:text-zinc-100'>{p.scenario}</span>
-          <span className={`text-xl font-black tabular-nums ${p.color}`}>{p.probability}%</span>
+        <div className='flex items-center justify-between mb-2'>
+          <span className='text-lg font-black text-gray-900 dark:text-zinc-100 leading-tight'>{p.scenario}</span>
+          <span className={`text-3xl font-black tabular-nums ${p.color} ml-3 shrink-0`}>{p.probability}%</span>
         </div>
         <Bar pct={p.probability} color={
           p.probability >= 60 ? 'bg-red-500' :
           p.probability >= 35 ? 'bg-orange-500' :
           p.probability >= 15 ? 'bg-yellow-500' :
           'bg-green-500'
-        } height='h-2' />
-        <div className='flex items-center justify-between mt-1.5'>
-          <span className='text-xs text-gray-500 dark:text-zinc-500'>{expanded ? 'Tap to collapse' : 'Tap for full analysis'}</span>
-          <span className='text-xs text-blue-600 dark:text-blue-400 font-bold'>{expanded ? '▲' : '▼'}</span>
+        } height='h-3' />
+        <div className='flex items-center justify-between mt-2'>
+          <span className='text-sm text-gray-500 dark:text-zinc-500'>{expanded ? 'Tap to collapse' : 'Tap for full analysis'}</span>
+          <span className='text-sm text-blue-600 dark:text-blue-400 font-bold'>{expanded ? '▲' : '▼'}</span>
         </div>
       </button>
 
       {expanded && (
-        <div className='px-3 pb-3 space-y-3 border-t border-gray-100 dark:border-zinc-800/50'>
+        <div className='px-4 pb-4 space-y-4 border-t border-gray-100 dark:border-zinc-800/50'>
           {/* What */}
-          <div className='pt-2.5'>
-            <div className='text-xs uppercase tracking-widest text-gray-400 font-extrabold mb-1'>What happens</div>
-            <div className='text-sm text-gray-700 dark:text-zinc-300 leading-relaxed'>{p.what}</div>
+          <div className='pt-3'>
+            <div className='text-sm uppercase tracking-widest text-gray-400 font-extrabold mb-1.5'>What happens</div>
+            <div className='text-base text-gray-700 dark:text-zinc-300 leading-relaxed'>{p.what}</div>
           </div>
 
           {/* Why */}
           <div>
-            <div className='text-xs uppercase tracking-widest text-gray-400 font-extrabold mb-1'>Why it&apos;s likely</div>
-            <div className='text-sm text-gray-700 dark:text-zinc-300 leading-relaxed'>{p.why}</div>
+            <div className='text-sm uppercase tracking-widest text-gray-400 font-extrabold mb-1.5'>Why it&apos;s likely</div>
+            <div className='text-base text-gray-700 dark:text-zinc-300 leading-relaxed'>{p.why}</div>
           </div>
 
           {/* How */}
           <div>
-            <div className='text-xs uppercase tracking-widest text-gray-400 font-extrabold mb-1'>How it plays out</div>
-            <div className='text-sm text-gray-700 dark:text-zinc-300 leading-relaxed'>{p.how}</div>
+            <div className='text-sm uppercase tracking-widest text-gray-400 font-extrabold mb-1.5'>How it plays out</div>
+            <div className='text-base text-gray-700 dark:text-zinc-300 leading-relaxed'>{p.how}</div>
           </div>
 
           {/* When */}
           <div>
-            <div className='text-xs uppercase tracking-widest text-gray-400 font-extrabold mb-1'>Timeline</div>
-            <div className='text-sm text-gray-700 dark:text-zinc-300 leading-relaxed'>{p.when}</div>
+            <div className='text-sm uppercase tracking-widest text-gray-400 font-extrabold mb-1.5'>Timeline</div>
+            <div className='text-base text-gray-700 dark:text-zinc-300 leading-relaxed'>{p.when}</div>
           </div>
 
           {/* What to expect — data table */}
           <div>
-            <div className='text-xs uppercase tracking-widest text-gray-400 font-extrabold mb-1.5'>What to expect</div>
-            <div className='space-y-1.5'>
+            <div className='text-sm uppercase tracking-widest text-gray-400 font-extrabold mb-2'>What to expect</div>
+            <div className='space-y-2'>
               {p.expect.map((e) => (
-                <div key={e.label} className='rounded-lg bg-gray-50 dark:bg-zinc-900/60 border border-gray-100 dark:border-zinc-800/50 px-2.5 py-2'>
+                <div key={e.label} className='rounded-lg bg-gray-50 dark:bg-zinc-900/60 border border-gray-100 dark:border-zinc-800/50 px-3 py-2.5'>
                   <div className='flex items-center justify-between'>
-                    <span className='text-xs font-bold text-gray-700 dark:text-zinc-300'>{e.label}</span>
-                    <span className={`text-sm font-black tabular-nums ${p.color}`}>{e.value}</span>
+                    <span className='text-sm font-bold text-gray-700 dark:text-zinc-300'>{e.label}</span>
+                    <span className={`text-lg font-black tabular-nums ${p.color}`}>{e.value}</span>
                   </div>
-                  <div className='text-xs text-gray-500 dark:text-zinc-500 mt-0.5 leading-relaxed'>{e.detail}</div>
+                  <div className='text-sm text-gray-500 dark:text-zinc-500 mt-0.5 leading-relaxed'>{e.detail}</div>
                 </div>
               ))}
             </div>
@@ -464,22 +464,22 @@ export default function DeepDivePanel({ onMapMode }: { onMapMode?: () => void } 
 
         {Object.keys(casualties.byParty).length > 0 && (
           <div className='mt-3 pt-2 border-t border-gray-200 dark:border-zinc-800/50 space-y-1.5'>
-            <div className='text-xs text-gray-500 uppercase tracking-wider font-extrabold mb-1'>Casualties Attributed to Military Operations</div>
+            <div className='text-sm text-gray-500 uppercase tracking-wider font-extrabold mb-1.5'>Casualties Attributed to Military Operations</div>
             {Object.entries(casualties.byParty)
               .sort((a, b) => b[1].killed - a[1].killed)
               .map(([party, d]) => {
                 const pct = casualties.totalKilled > 0 ? ((d.killed / casualties.totalKilled) * 100).toFixed(1) : '0';
                 return (
                   <div key={party}>
-                    <div className='flex items-center justify-between text-sm'>
+                    <div className='flex items-center justify-between text-base'>
                       <span className='text-gray-700 dark:text-zinc-300'>{party}</span>
                       <div className='flex items-center gap-2'>
                         <span className='font-bold text-gray-900 dark:text-zinc-100 tabular-nums'>{d.killed.toLocaleString()}</span>
-                        <span className='text-[10px] text-gray-400 tabular-nums w-10 text-right'>({pct}%)</span>
+                        <span className='text-xs text-gray-400 tabular-nums w-12 text-right'>({pct}%)</span>
                       </div>
                     </div>
                     {d.injured > 0 && (
-                      <div className='text-xs text-gray-400 tabular-nums ml-0.5'>{d.injured.toLocaleString()} injured · {d.displaced > 0 ? `${(d.displaced / 1_000_000).toFixed(1)}M displaced` : ''}</div>
+                      <div className='text-sm text-gray-400 tabular-nums ml-0.5'>{d.injured.toLocaleString()} injured · {d.displaced > 0 ? `${(d.displaced / 1_000_000).toFixed(1)}M displaced` : ''}</div>
                     )}
                   </div>
                 );
@@ -500,7 +500,7 @@ export default function DeepDivePanel({ onMapMode }: { onMapMode?: () => void } 
           +${impact.totalMonthlyExtra}
         </div>
         <div className='text-base text-green-700 dark:text-green-300 font-bold mt-1'>extra per month</div>
-        <div className='text-sm text-gray-500 mb-3'>That&apos;s <strong className='text-green-800 dark:text-green-200'>${annualCostPerHousehold.toLocaleString()}/year</strong> more than before the war</div>
+        <div className='text-base text-gray-500 mb-3'>That&apos;s <strong className='text-green-800 dark:text-green-200'>${annualCostPerHousehold.toLocaleString()}/year</strong> more than before the war</div>
 
         {/* Gas */}
         <StatCard>
@@ -511,13 +511,13 @@ export default function DeepDivePanel({ onMapMode }: { onMapMode?: () => void } 
             </span>
             <span className='text-2xl font-black text-orange-700 dark:text-orange-400 tabular-nums'>${impact.gasPriceGallon.toFixed(2)}</span>
           </div>
-          <div className='text-xs text-gray-500 mb-1'>per gallon</div>
+          <div className='text-sm text-gray-500 mb-1'>per gallon</div>
           <Bar pct={(impact.gasPriceGallon / 8) * 100} color='bg-orange-500' />
-          <div className='flex items-center justify-between mt-1.5 text-sm'>
+          <div className='flex items-center justify-between mt-1.5 text-base'>
             <span className='text-gray-500'>Before war: ${BASELINE.gasPriceGallon.toFixed(2)}</span>
             <span className='text-gray-500'>2008 peak: $4.11</span>
           </div>
-          <div className='text-sm text-orange-700 dark:text-orange-300 font-bold mt-1'>
+          <div className='text-base text-orange-700 dark:text-orange-300 font-bold mt-1'>
             That&apos;s +${gasExtra.toFixed(0)}/month extra at the pump
           </div>
         </StatCard>
@@ -532,10 +532,10 @@ export default function DeepDivePanel({ onMapMode }: { onMapMode?: () => void } 
             <span className='text-2xl font-black text-amber-700 dark:text-amber-400 tabular-nums'>+{impact.groceryInflationPct}%</span>
           </div>
           <Bar pct={impact.groceryInflationPct * 3} color='bg-amber-500' />
-          <div className='text-sm text-gray-600 dark:text-zinc-400 mt-1.5'>
+          <div className='text-base text-gray-600 dark:text-zinc-400 mt-1.5'>
             <strong className='text-amber-700 dark:text-amber-300'>+${impact.monthlyGroceryExtra}/mo</strong> extra for a family of 4
           </div>
-          <div className='text-xs text-gray-500 mt-0.5'>
+          <div className='text-sm text-gray-500 mt-0.5'>
             Oil up → fertilizer up → trucking up → your eggs, milk, and bread cost more
           </div>
         </StatCard>
@@ -549,13 +549,13 @@ export default function DeepDivePanel({ onMapMode }: { onMapMode?: () => void } 
             </span>
             <span className='text-2xl font-black text-yellow-700 dark:text-yellow-400 tabular-nums'>+${impact.monthlyUtilityExtra}</span>
           </div>
-          <div className='text-xs text-gray-500 mb-1'>extra per month</div>
+          <div className='text-sm text-gray-500 mb-1'>extra per month</div>
           <Bar pct={(impact.natGasMMBtu / 25) * 100} color='bg-yellow-500' />
-          <div className='text-sm text-gray-600 dark:text-zinc-400 mt-1.5'>
+          <div className='text-base text-gray-600 dark:text-zinc-400 mt-1.5'>
             Natural gas: <strong>${impact.natGasMMBtu.toFixed(1)}/MMBtu</strong> (was ${BASELINE.natGasMMBtu.toFixed(1)})
           </div>
           {impact.natGasMMBtu > 12 && (
-            <div className='text-sm text-green-800 dark:text-green-300 font-bold mt-1'>
+            <div className='text-base text-green-800 dark:text-green-300 font-bold mt-1'>
               Qatar&apos;s Ras Laffan destroyed — 17% of global LNG gone
             </div>
           )}
@@ -571,10 +571,10 @@ export default function DeepDivePanel({ onMapMode }: { onMapMode?: () => void } 
             <span className='text-2xl font-black text-blue-700 dark:text-blue-400 tabular-nums'>+{impact.shippingSurchargePct}%</span>
           </div>
           <Bar pct={impact.shippingSurchargePct} color='bg-blue-500' />
-          <div className='text-sm text-gray-600 dark:text-zinc-400 mt-1.5'>
+          <div className='text-base text-gray-600 dark:text-zinc-400 mt-1.5'>
             Your packages take <strong className='text-blue-700 dark:text-blue-300'>+{impact.deliveryDelayDays} days</strong> longer
           </div>
-          <div className='text-xs text-gray-500 mt-0.5'>
+          <div className='text-sm text-gray-500 mt-0.5'>
             Ships reroute around Africa instead of through Suez/Hormuz — adds weeks
           </div>
         </StatCard>
@@ -656,10 +656,10 @@ export default function DeepDivePanel({ onMapMode }: { onMapMode?: () => void } 
             valueColor={nuclear.radiationRisk === 'high' ? 'text-orange-800 dark:text-orange-400' : nuclear.radiationRisk === 'elevated' ? 'text-orange-700 dark:text-orange-400' : 'text-yellow-700 dark:text-yellow-400'}
             tip='Risk of radioactive contamination to nearby populations' />
 
-          <div className='text-sm text-gray-500 dark:text-zinc-400 mt-1 italic'>{nuclear.label}</div>
+          <div className='text-base text-gray-500 dark:text-zinc-400 mt-1 italic'>{nuclear.label}</div>
 
           <div className='mt-3 pt-2 border-t border-gray-200 dark:border-zinc-800/50 space-y-2'>
-            <div className='text-xs text-gray-500 uppercase tracking-wider font-extrabold mb-1'>How does this compare?</div>
+            <div className='text-sm text-gray-500 uppercase tracking-wider font-extrabold mb-1.5'>How does this compare?</div>
             {[
               { label: 'Three Mile Island (1979)', score: 25, color: 'bg-yellow-400' },
               { label: 'Fukushima (2011)', score: 55, color: 'bg-orange-400' },
@@ -692,7 +692,7 @@ export default function DeepDivePanel({ onMapMode }: { onMapMode?: () => void } 
             {recession.score >= 80 ? 'DEPRESSION RISK' : recession.score >= 60 ? 'HIGH RISK' : recession.score >= 40 ? 'ELEVATED' : recession.score >= 20 ? 'MODERATE' : 'LOW'}
           </span>
         </div>
-        <div className='text-sm text-gray-500 mt-1 mb-3'>Likelihood of US recession within 12 months based on conflict-driven economic stress</div>
+        <div className='text-base text-gray-500 mt-1 mb-3'>Likelihood of US recession within 12 months based on conflict-driven economic stress</div>
 
         <div className='space-y-1'>
           <Row label='Oil price shock' value={`${recession.oilSpikePct}/100`} sub='30% weight'
@@ -780,7 +780,7 @@ export default function DeepDivePanel({ onMapMode }: { onMapMode?: () => void } 
 
         {supply.chokepoints.length > 0 && (
           <div className='mt-3 pt-2 border-t border-gray-200 dark:border-zinc-800/50 space-y-2'>
-            <div className='text-xs text-gray-500 uppercase tracking-wider font-extrabold flex items-center gap-1.5'>
+            <div className='text-sm text-gray-500 uppercase tracking-wider font-extrabold flex items-center gap-1.5'>
               <IconShip className='h-4 w-4' />
               Shipping Chokepoints
             </div>
@@ -795,7 +795,7 @@ export default function DeepDivePanel({ onMapMode }: { onMapMode?: () => void } 
                   </span>
                 </div>
                 <Bar pct={cp.blockedPct} color={cp.blockedPct >= 60 ? 'bg-orange-600' : cp.blockedPct >= 30 ? 'bg-orange-500' : 'bg-amber-500'} height='h-2' />
-                <div className='text-xs text-gray-500 mt-1'>
+                <div className='text-sm text-gray-500 mt-1'>
                   {(cp.capacityBPD / 1_000_000).toFixed(1)}M BPD capacity — {(cp.blockedBPD / 1_000_000).toFixed(1)}M blocked
                 </div>
               </StatCard>
@@ -858,7 +858,7 @@ export default function DeepDivePanel({ onMapMode }: { onMapMode?: () => void } 
       {/* ── PREDICTIONS BY THE NUMBERS ── */}
       <div className='px-4 pt-4 pb-3 border-b border-gray-200 dark:border-zinc-700'>
         <SectionTitle icon={<IconTrendingUp className='h-5 w-5 text-gray-700 dark:text-zinc-300' />} title='Predictions by the Numbers' />
-        <div className='text-xs text-gray-500 mb-3'>
+        <div className='text-sm text-gray-500 mb-3'>
           Scenario probabilities computed from current conflict data — supply disruption, nuclear status, escalation tempo, and economic indicators.
         </div>
 
