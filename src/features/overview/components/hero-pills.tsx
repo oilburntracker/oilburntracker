@@ -43,15 +43,15 @@ export default function HeroPills() {
       <div className='w-px h-7 bg-gray-300 dark:bg-zinc-800 shrink-0' />
 
       {/* Human cost */}
-      <div className='flex items-center gap-1.5 min-w-0'>
+      <a href='/dashboard/lost' className='flex items-center gap-1.5 min-w-0 hover:opacity-80 transition-opacity'>
         <IconSkull className='h-5 w-5 text-red-600 shrink-0' />
         <div className='min-w-0'>
           <div className='text-base md:text-lg font-black text-red-600 dark:text-red-500 tabular-nums leading-none'>
             {casualties.totalKilled.toLocaleString()}+
           </div>
-          <div className='text-[10px] text-gray-500 leading-none mt-0.5 hidden md:block'>killed</div>
+          <div className='text-[10px] text-gray-500 leading-none mt-0.5 hidden md:block'>people</div>
         </div>
-      </div>
+      </a>
     </div>
   );
 }

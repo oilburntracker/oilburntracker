@@ -530,10 +530,12 @@ export default function DeepDivePanel({ onMapMode }: { onMapMode?: () => void } 
       {/* ── HUMAN COST ── */}
       <div className='px-4 pt-4 pb-3 border-b border-gray-200 dark:border-zinc-700'>
         <SectionTitle icon={<IconSkull className='h-5 w-5 text-red-600' />} title='Human Cost' />
-        <div className='text-4xl font-black text-red-600 dark:text-red-500 tabular-nums leading-none'>
-          {casualties.totalKilled.toLocaleString()}+
-        </div>
-        <div className='text-base text-red-500 dark:text-red-400 font-bold mt-1 mb-3'>people killed</div>
+        <a href='/dashboard/lost' className='block hover:opacity-80 transition-opacity'>
+          <div className='text-4xl font-black text-red-600 dark:text-red-500 tabular-nums leading-none'>
+            {casualties.totalKilled.toLocaleString()}+
+          </div>
+          <div className='text-base text-red-500 dark:text-red-400 font-bold mt-1 mb-3'>people</div>
+        </a>
 
         <div className='space-y-1'>
           <Row label='Injured' value={`${casualties.totalInjured.toLocaleString()}+`} valueColor='text-orange-600 dark:text-orange-400'
