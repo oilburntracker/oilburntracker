@@ -70,9 +70,11 @@ function FeaturedEntry({ entry, number }: { entry: typeof livesLost[0]; number: 
               <div className='text-lg md:text-xl font-bold text-white leading-snug'>
                 {entry.humanity}
               </div>
-              <div className='mt-1.5 text-base md:text-lg text-zinc-400 leading-relaxed'>
-                {entry.lost}
-              </div>
+              {entry.sourceUrl && (
+                <div className='mt-1.5 text-base md:text-lg text-zinc-400 leading-relaxed'>
+                  {entry.lost}
+                </div>
+              )}
             </div>
           </div>
           <div className='mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-zinc-600 ml-7'>
