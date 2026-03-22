@@ -187,8 +187,11 @@ export default function WhatWeLostPage() {
   }, []);
   useEffect(() => {
     const items = virtualizer.getVirtualItems();
-    if (items.length > 0) {
-      const last = items[items.length - 1].index + 1;
+    const el = scrollRef.current;
+    if (items.length > 0 && el) {
+      const bottom = el.scrollTop + el.clientHeight;
+      const visible = items.filter(item => item.start < bottom);
+      const last = visible.length > 0 ? visible[visible.length - 1].index + 1 : 1;
       setCurrentIndex(last);
       const saved = getSavedIndex();
       if (last > saved) saveIndex(last);
