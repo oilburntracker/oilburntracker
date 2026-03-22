@@ -43,16 +43,18 @@ const INFANT_HUMANITY = [
 ];
 
 const INFANT_LOST = [
-  'Never took a first step. Never said a first word.',
-  'A whole life, over before it started.',
-  'Their parents will carry the weight of what could have been forever.',
-  'Will never know what they would have become.',
-  'A life measured in days, not years.',
-  'Their family had already imagined a future for them.',
-  'The youngest kind of person to lose.',
-  'Gone before they could know they were here.',
-  'There is no version of this that makes sense.',
-  'Someone held them and that was all there was.',
+  'Their mother had been up with them at 3am the night before, exhausted and grateful at the same time. The crib was a folded blanket on a shelter floor. They had maybe eight weeks of life — most of it spent hearing sounds no baby should hear. Their parents had already imagined a first day of school. A favorite food. A first word. None of it will happen now.',
+  'Someone spent nine months waiting for this baby. Picked a name. Argued about the name. Picked a different one. Bought things they couldn\'t afford because it felt important. Held them for the first time and felt something shift permanently inside their chest. All of that — the waiting, the hoping, the rearranging of an entire life around this small person — ended.',
+  'They were born into a hospital that was running out of everything. Their mother delivered them without painkillers because there weren\'t any. A doctor who hadn\'t slept in two days checked their lungs and said they were healthy. They were healthy. They had working lungs and a strong cry and ten fingers and ten toes and a whole life ahead of them and none of it mattered.',
+  'Their older sibling had been asking about them for months. When are they coming. What will they look like. Can I hold them. The sibling got to hold them once, maybe twice. Sat very still on the bed with their arms out, trying so hard to be gentle. That\'s the image that stays — a child holding a baby, both of them gone now.',
+  'They weighed almost nothing. You could hold them in one arm and do something else with the other. That\'s how small they were. Their entire existence fit inside a blanket. Their parents had spent more time imagining who this person would become than this person spent being alive. The dreams lasted longer than the life.',
+  'There\'s a particular kind of crying a newborn does — not because they\'re sad, because they don\'t know what sad is yet — but because the world is too bright and too loud and too cold and they want to be held. That\'s all they ever wanted. To be held. To be warm. To hear a heartbeat close to their ear. They didn\'t get enough of it.',
+  'They had just learned to track movement with their eyes. Would follow a finger back and forth, back and forth. Were starting to figure out that the blurry shapes above them were faces. Were starting to connect that one particular face with warmth and milk and safety. Were building, without knowing it, the most important bond a human being can build. It was cut short.',
+  'A nurse in a hospital without power wrapped them in whatever was clean. Their mother hadn\'t eaten in two days but was trying to feed them anyway. The body does what it can. The baby didn\'t know any of this — didn\'t know about the war or the siege or the shortage of everything. They just knew hungry and full, cold and warm, held and not held.',
+  'In another life, this baby grows up. Learns to walk by holding onto furniture. Says something that sounds like a word and the whole family celebrates. Goes to school. Makes a friend. Gets in trouble for something small. Grows taller than their mother expected. Becomes someone. In this life, none of that. Just a few weeks of being alive, then not.',
+  'Their parents probably took a photo. Probably sent it to everyone they knew. Probably stared at this baby\'s face and saw pieces of themselves and pieces of each other and tried to imagine what this person would look like at five, at ten, at twenty. Parents do that. They can\'t help it. The photos are still on someone\'s phone. The baby isn\'t.',
+  'A baby who had only known two things — their mother\'s arms and the sound of explosions. Both of those things were their whole world. They didn\'t know the explosions weren\'t normal. They didn\'t know that most babies fall asleep to quiet. Their nervous system was already wired to flinch at sounds that would have made any adult in a safe country break down.',
+  'Born during a ceasefire that didn\'t hold. Their parents thought there might be time. There wasn\'t. The math is simple and brutal — this baby was alive for fewer days than the war has been going on for. The war will continue after them. It was here before them and it will be here after and they were just a small, brief life caught inside it.',
 ];
 
 const TODDLER_HUMANITY_M = [
@@ -86,14 +88,14 @@ const TODDLER_HUMANITY_F = [
 ];
 
 const TODDLER_LOST = [
-  'Will never start school. Never make a friend. Never have a favorite color.',
-  'Their parents remember everything about them. The world doesn\'t.',
-  'A personality was forming. It got cut off.',
-  'They were just starting to become a person.',
-  'Had maybe two or three years of consciousness. That was it.',
-  'Somebody\'s baby who wasn\'t a baby anymore, and never will be anything else.',
-  'Old enough to be scared. Too young to understand why.',
-  'Knew nothing about any of this. Didn\'t have to.',
+  'They had a favorite thing — a toy, a blanket, a cup they insisted on using. They were becoming a person with preferences and opinions and a specific laugh that only came out when you did the right thing. They had a word for their mother and a word for water and were working on more. All of it was just starting. All of it stopped.',
+  'Old enough to be scared. Old enough to cry and reach for someone. Old enough to know that the sounds outside were bad even if they couldn\'t say why. Too young to understand any of it. Too young to run. Too young to have done anything to anyone. Two or three years of consciousness. Most of it spent in a war zone.',
+  'Their parents remember everything. The way they smelled after a bath. The sound they made when they were concentrating. The way they fell asleep — always fighting it, always losing. These details will keep their parents up at night for the rest of their lives. The world will not remember any of it.',
+  'They were just starting to become someone. Had a way of walking that was theirs. Had figured out that if you cry a certain way, someone comes. Had started saying no, which is how you know a person is forming — they learn what they don\'t want. They didn\'t want any of this. They didn\'t even know what this was.',
+  'Somewhere there\'s a photo of this child laughing. Maybe in a highchair. Maybe being held by someone who is also now gone. The photo will outlast everyone who knew what that laugh sounded like. It will become just an image of a child — no context, no sound, no smell of baby shampoo. Just pixels. That\'s what\'s left.',
+  'Had maybe two or three years of being a person. Learned to walk. Learned a few words. Figured out that the big people controlled the food and the lights and when things were safe. Trusted them completely. The big people couldn\'t keep them safe. That\'s not the big people\'s fault. But it\'s what happened.',
+  'A toddler doesn\'t know about borders or politics or military objectives. A toddler knows about the cup they like and the song that makes them bounce and whether the person holding them feels scared. They can feel it. They absorb it. This child spent their short life absorbing fear from every adult around them and never understanding why.',
+  'They were somebody\'s everything. The reason someone got up in the morning when getting up made no sense. The reason someone walked miles to find formula or clean water or medicine. The reason someone kept going. And then the reason was gone, and the question of why to keep going got a lot harder to answer.',
 ];
 
 const CHILD_HUMANITY_M = [
