@@ -83,6 +83,25 @@ export default function EventFeed({ onFlyTo, fullPage = false }: EventFeedProps)
     return map;
   }, [events]);
 
+  // Save & restore scroll position
+  useEffect(() => {
+    const container = scrollRef.current;
+    if (!container) return;
+    const saved = localStorage.getItem('obt-feed-scroll');
+    if (saved) {
+      requestAnimationFrame(() => { container.scrollTop = parseInt(saved, 10); });
+    }
+    let timeout: ReturnType<typeof setTimeout>;
+    const onScroll = () => {
+      clearTimeout(timeout);
+      timeout = setTimeout(() => {
+        try { localStorage.setItem('obt-feed-scroll', String(container.scrollTop)); } catch {}
+      }, 300);
+    };
+    container.addEventListener('scroll', onScroll, { passive: true });
+    return () => { container.removeEventListener('scroll', onScroll); clearTimeout(timeout); };
+  }, []);
+
   // IntersectionObserver: scrolling syncs timeline date
   useEffect(() => {
     const container = scrollRef.current;
