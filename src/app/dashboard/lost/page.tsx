@@ -5,7 +5,7 @@ import { useVirtualizer } from '@tanstack/react-virtual';
 import { livesLost, CATEGORY_ICONS } from '@/features/memorial/data/lives-lost';
 import { generateEntry, REGION_NAMES } from '@/features/memorial/lib/memorial-templates';
 import { getCasualtiesUpTo } from '@/features/timeline/data/conflict-events';
-import { IconArrowUp, IconHeart } from '@tabler/icons-react';
+import { IconHeart } from '@tabler/icons-react';
 import SubmitDialog from '@/features/memorial/components/submit-dialog';
 
 /* ── Types ── */
@@ -173,7 +173,7 @@ export default function WhatWeLostPage() {
     count: totalEntries,
     getScrollElement: () => scrollRef.current,
     estimateSize: (i) => i < featuredCount ? 130 : 95,
-    overscan: 15,
+    overscan: 40,
   });
 
   // Track furthest read position
@@ -214,9 +214,12 @@ export default function WhatWeLostPage() {
         {/* ── Sticky counter ── */}
         <div className='sticky top-0 z-10 bg-black/90 backdrop-blur-sm border-b border-zinc-900/50'>
           <div className='max-w-4xl mx-auto px-6 md:px-12 py-1.5 flex items-center justify-between'>
-            <span className='font-mono text-sm text-zinc-400 tabular-nums'>
+            <button
+              onClick={() => scrollRef.current?.scrollTo({ top: 0, behavior: 'instant' })}
+              className='font-mono text-sm text-zinc-400 tabular-nums hover:text-zinc-200 transition-colors cursor-pointer'
+            >
               {Math.min(currentIndex, totalEntries).toLocaleString()} of {totalEntries.toLocaleString()}
-            </span>
+            </button>
             {getSavedIndex() > 10 && currentIndex < totalEntries - 100 && (
               <span className='text-xs text-zinc-700'>
                 progress saved
@@ -303,17 +306,6 @@ export default function WhatWeLostPage() {
           </div>
         </div>
       </div>
-
-      {/* Back to top */}
-      {currentIndex > 50 && (
-        <button
-          onClick={() => virtualizer.scrollToIndex(0, { align: 'start' })}
-          className='absolute bottom-14 right-4 z-20 rounded-full bg-zinc-800/90 hover:bg-zinc-700 border border-zinc-700 p-2.5 shadow-lg transition-colors cursor-pointer'
-          aria-label='Back to top'
-        >
-          <IconArrowUp className='h-5 w-5 text-zinc-300' />
-        </button>
-      )}
 
       {/* Submit memory FAB */}
       <button
