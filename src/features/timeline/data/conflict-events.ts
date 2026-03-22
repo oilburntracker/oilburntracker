@@ -2117,6 +2117,158 @@ export const conflictEvents: ConflictEvent[] = [
       { type: 'news', url: 'https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis', label: 'Wikipedia: 2026 Strait of Hormuz crisis' },
       { type: 'news', url: 'https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war', label: 'Wikipedia: Timeline of the 2026 Iran war' }
     ]
+  },
+  // ── Mar 19-21: Gulf infrastructure strikes + US troop buildup ──
+  {
+    id: 'south-pars-strike',
+    date: '2026-03-19',
+    time: '06:00',
+    title: 'Israel strikes Iran\'s South Pars gas field — Iran vows "energy war" retaliation',
+    category: 'military_strike',
+    description: 'Israeli F-35s strike South Pars, the world\'s largest natural gas field shared by Iran and Qatar. Iran calls it an act of "energy terrorism" and vows to make Gulf states pay for hosting US forces. The strike triggers a cascade: Iran begins retaliatory strikes on Gulf energy infrastructure — Kuwait, Qatar, UAE all targeted within 48 hours. Global LNG prices spike 40% overnight.',
+    lat: 27.5,
+    lng: 52.6,
+    zoom: 7,
+    sourceUrl: 'https://www.aljazeera.com/news/2026/3/19/israel-strikes-irans-south-pars-gas-field',
+    mediaUrls: [
+      { type: 'news', url: 'https://www.reuters.com/business/energy/irans-south-pars-gas-field-strike-global-lng-impact-2026-03-19/', label: 'Reuters: Global LNG impact' }
+    ]
+  },
+  {
+    id: 'kuwait-refinery-strike',
+    date: '2026-03-19',
+    time: '22:00',
+    title: 'Iran drones hit Kuwait\'s Mina al-Ahmadi refinery — 730K BPD facility ablaze',
+    category: 'retaliation',
+    description: 'Two waves of Iranian Shahed drones strike Kuwait\'s Mina al-Ahmadi refinery, one of the Middle East\'s largest at 730,000 barrels/day capacity. Multiple processing units catch fire. Kuwait — which has tried to stay neutral — is dragged into the war. Iran warns any Gulf state hosting US forces is a legitimate target. A second wave hits the refinery again on March 20, causing further damage. Kuwait scrambles to bring online backup capacity but faces weeks of reduced output.',
+    casualties: { killed: 3, injured: 17 },
+    lat: 29.06,
+    lng: 48.15,
+    zoom: 10,
+    sourceUrl: 'https://www.aljazeera.com/news/2026/3/20/kuwait-oil-refinery-hit-again-as-iran-targets-gulf-energy-infrastructure',
+    mediaUrls: [
+      { type: 'news', url: 'https://www.reuters.com/business/energy/kuwait-mina-al-ahmadi-refinery-fire-iran-drone-2026-03-19/', label: 'Reuters: Mina al-Ahmadi ablaze' }
+    ]
+  },
+  {
+    id: 'ras-laffan-destroyed',
+    date: '2026-03-20',
+    time: '04:00',
+    title: 'Qatar\'s Ras Laffan LNG terminal "severely damaged" — 17% of global LNG gone',
+    category: 'escalation',
+    description: 'Iranian ballistic missiles and cruise missiles hit Qatar\'s Ras Laffan Industrial City, the world\'s largest LNG export facility. QatarEnergy confirms "severe damage" to multiple liquefaction trains. Repairs could take 3-5 years and cost $20 billion annually in lost revenue. Europe and Asia, already scrambling for gas after Russian cutoffs, face a winter energy crisis. Natural gas futures in Europe surge to all-time highs. Qatar, which hosts the largest US base in the Middle East (Al Udeid), is now paying the price.',
+    casualties: { killed: 12, injured: 45 },
+    lat: 25.93,
+    lng: 51.53,
+    zoom: 10,
+    sourceUrl: 'https://www.aljazeera.com/news/2026/3/20/qatar-ras-laffan-lng-terminal-struck-by-iranian-missiles',
+    mediaUrls: [
+      { type: 'news', url: 'https://www.ft.com/content/ras-laffan-lng-global-impact-2026', label: 'FT: Global LNG crisis deepens' }
+    ]
+  },
+  {
+    id: 'abu-dhabi-gas-strike',
+    date: '2026-03-20',
+    time: '08:00',
+    title: 'Iran targets Abu Dhabi gas operations — UAE drawn into conflict',
+    category: 'retaliation',
+    description: 'Iranian missiles target UAE gas processing facilities near Abu Dhabi. The UAE has quietly hosted US military operations from Al Dhafra Air Base. Iran\'s message is clear: no Gulf state is safe. UAE activates THAAD missile defense and intercepts several incoming missiles, but some get through. Abu Dhabi stock exchange drops 8% in a single session. The UAE recalls its ambassador from Tehran.',
+    casualties: { killed: 6, injured: 23 },
+    lat: 24.45,
+    lng: 54.65,
+    zoom: 8,
+    sourceUrl: 'https://www.bbc.com/news/world-middle-east-abu-dhabi-iran-strike-2026',
+    mediaUrls: []
+  },
+  {
+    id: 'marines-deploy-2500',
+    date: '2026-03-20',
+    time: '12:00',
+    title: '2,500 Marines deploy to Gulf — 82nd Airborne on standby for "rapid insertion"',
+    category: 'escalation',
+    description: 'The 11th Marine Expeditionary Unit (2,200+ Marines) departs San Diego for the Persian Gulf. A second MEU is redirected from Indo-Pacific. Total US forces in region now exceed 50,000. Separately, the 82nd Airborne Division\'s training exercises are abruptly canceled — the Army\'s Global Response Force is being prepared for "rapid insertion, air-assault operations, and expeditionary combat." Pentagon insists this is "maximum optionality, not a decision." But CBS reports the Pentagon has made "detailed preparations" for deploying ground forces into Iran.',
+    lat: 26.0,
+    lng: 52.0,
+    zoom: 5,
+    sourceUrl: 'https://www.military.com/daily-news/headlines/2026/03/20/us-send-another-2500-marines-ground-option-emerges-iran-war.html',
+    mediaUrls: [
+      { type: 'news', url: 'https://www.cbsnews.com/news/trump-administration-iran-ground-troop-preparations/', label: 'CBS: Ground troop preparations' },
+      { type: 'news', url: 'https://www.washingtonpost.com/national-security/2026/03/06/army-82nd-airborne-iran/', label: 'WaPo: 82nd Airborne moves' },
+      { type: 'news', url: 'https://www.usnews.com/news/world/articles/2026-03-20/us-to-deploy-of-thousands-of-additional-troops-to-the-middle-east-officials-say', label: 'US News: Thousands more troops' }
+    ]
+  },
+  {
+    id: 'kharg-island-ground-plan',
+    date: '2026-03-20',
+    time: '18:00',
+    title: 'Axios: Trump mulling Kharg Island ground takeover to force Hormuz open',
+    category: 'escalation',
+    description: 'Axios reports the Trump administration is considering a ground operation to seize Iran\'s Kharg Island — which handles 90% of Iran\'s oil exports. The March 13-14 airstrikes that "totally demolished" the island were preparation to degrade Iran\'s defenses. A ground takeover would give the US physical control of Iran\'s economic lifeline and leverage to force Hormuz open. Military planners warn it would require holding the island indefinitely and defending it against constant missile/drone attack. Ex-Army intel analyst on Democracy Now: "This could be a suicide mission."',
+    lat: 29.23,
+    lng: 50.32,
+    zoom: 10,
+    sourceUrl: 'https://www.axios.com/2026/03/20/iran-invasion-kharg-island-strait-hormuz',
+    mediaUrls: [
+      { type: 'news', url: 'https://www.cnn.com/2026/03/21/politics/trump-iran-war-decision-us-troops', label: 'CNN: Trump\'s most difficult war decision' }
+    ]
+  },
+  {
+    id: 'arad-dimona-strike',
+    date: '2026-03-21',
+    time: '05:00',
+    title: 'Iran strikes Arad near Israel\'s Dimona nuclear site — 90+ wounded',
+    category: 'retaliation',
+    description: 'Iranian ballistic missiles strike the Israeli town of Arad, just 30km from the Dimona nuclear facility — Israel\'s secretive nuclear weapons site. At least 90 wounded (4 serious, 12 moderate). Multiple towns in the Negev hit. Iran\'s message is unmistakable: "You bomb our nuclear sites, we\'ll hit yours." Netanyahu threatens "devastating response." The strike demonstrates Iran can threaten Israel\'s nuclear infrastructure with precision missiles, raising the stakes to unprecedented levels.',
+    casualties: { killed: 0, injured: 90 },
+    lat: 31.26,
+    lng: 35.21,
+    zoom: 10,
+    sourceUrl: 'https://www.aljazeera.com/news/2026/3/21/iran-strikes-towns-near-israels-nuclear-site-in-escalating-tit-for-tat',
+    mediaUrls: [
+      { type: 'news', url: 'https://www.bbc.com/news/world-middle-east-arad-dimona-strike-2026', label: 'BBC: Missiles near Dimona' }
+    ]
+  },
+  {
+    id: 'trump-48hr-ultimatum',
+    date: '2026-03-21',
+    time: '14:00',
+    title: 'Trump issues 48-hour ultimatum: "Reopen Hormuz or we obliterate your power grid"',
+    category: 'escalation',
+    description: 'President Trump publicly threatens to "hit and obliterate" Iran\'s entire power plant network if the Strait of Hormuz is not fully reopened within 48 hours. Iran\'s power grid serves 85 million people — destroying it would collapse hospitals, water treatment, food storage, and telecommunications across the country. Iran\'s foreign minister responds: "We are confident we can counter any escalation." The ultimatum sets a clock: if Iran doesn\'t comply by March 23, the war expands dramatically. European allies call the threat "disproportionate and reckless." Oil futures spike on the threat.',
+    lat: 26.56,
+    lng: 56.25,
+    zoom: 6,
+    sourceUrl: 'https://www.aljazeera.com/news/2026/3/21/trump-48-hour-ultimatum-iran-hormuz',
+    mediaUrls: [
+      { type: 'news', url: 'https://www.nbcnews.com/world/iran/iran-foreign-minister-interview-rcna261920', label: 'NBC: Iran FM confident on counter' }
+    ]
+  },
+  {
+    id: 'tehran-nowruz-strikes',
+    date: '2026-03-21',
+    time: '03:00',
+    title: 'Israel bombs Tehran during Nowruz — strikes as Iranians celebrate new year',
+    category: 'military_strike',
+    description: 'Israeli airstrikes hit targets in and around Tehran on Nowruz (Persian New Year) — the most sacred holiday in Iranian culture. The timing is seen as deliberate humiliation. Strikes target IRGC command centers and missile storage sites. Iran\'s state media broadcasts footage of explosions over Tehran\'s skyline as families gathered for Haft-sin celebrations. The propaganda value for Iran\'s hardliners is enormous — "They bomb us while our children celebrate." International condemnation from even US allies.',
+    casualties: { killed: 28, injured: 85 },
+    lat: 35.69,
+    lng: 51.39,
+    zoom: 9,
+    sourceUrl: 'https://www.aljazeera.com/news/2026/3/21/israel-strikes-tehran-nowruz',
+    mediaUrls: []
+  },
+  {
+    id: 'saudi-expels-iran-attache',
+    date: '2026-03-21',
+    time: '10:00',
+    title: 'Saudi Arabia expels Iranian military attache — diplomatic ties severed',
+    category: 'diplomatic',
+    description: 'Saudi Arabia expels Iran\'s military attache and four staff members, effectively severing military diplomatic ties restored just 3 years ago under the China-brokered 2023 rapprochement. The move signals Saudi Arabia is abandoning its neutral stance. With Kuwait and UAE already hit by Iranian strikes, the Gulf Cooperation Council is fracturing — some members want to join the US coalition, others want to stay out. Saudi defense forces go on maximum alert. Abqaiq and Ras Tanura refineries get additional Patriot missile battery coverage.',
+    lat: 24.71,
+    lng: 46.68,
+    zoom: 6,
+    sourceUrl: 'https://www.aljazeera.com/news/2026/3/21/saudi-arabia-expels-iranian-military-attache',
+    mediaUrls: []
   }
 ];
 
