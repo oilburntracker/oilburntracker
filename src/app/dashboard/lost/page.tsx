@@ -67,7 +67,7 @@ function FeaturedEntry({ entry, number }: { entry: typeof livesLost[0]; number: 
               {CATEGORY_ICONS[entry.category]}
             </span>
             <div>
-              <div className='text-lg md:text-xl font-bold text-white leading-snug'>
+              <div className='text-xl md:text-2xl font-bold text-white leading-snug'>
                 {entry.humanity}
               </div>
               {entry.sourceUrl && (
@@ -126,7 +126,7 @@ function DataEntry({ index, record, number }: { index: number; record: MemorialR
           </span>
         </div>
         <div className='min-w-0 flex-1'>
-          <div className='text-base md:text-lg text-zinc-300 leading-snug'>
+          <div className='text-xl md:text-2xl text-zinc-300 leading-snug'>
             {entry.humanity}
           </div>
           <div className='mt-1 flex flex-wrap items-center gap-x-2 text-xs text-zinc-700 tabular-nums'>
