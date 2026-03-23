@@ -1577,7 +1577,7 @@ export const conflictEvents: ConflictEvent[] = [
     title: 'Iran massacres thousands of protesters — deadliest crackdown since 1979',
     category: 'humanitarian',
     description: 'Security forces launch a coordinated massacre across multiple provinces. Verified videos show forces positioned on rooftops of buildings, mosques, and police stations firing rifles and shotguns loaded with metal pellets at protesters, targeting heads and torsos. Killings documented in Tehran, Isfahan, Gilan, Kurdistan, Kermanshah, Alborz, and at least 5 other provinces. Described as the deadliest state violence against civilians in Iran since the Islamic Revolution.',
-    casualties: { killed: 5000, injured: 15000, displaced: 500000, source: 'UN Special Rapporteur Mai Sato — "at least 5,000 killed" (Jan 16). Iran government acknowledged 3,117. Amnesty International documented systematic unlawful killings.' },
+    casualties: { killed: 15000, injured: 30000, displaced: 500000, source: 'Estimates range widely due to internet blackout: Iran gov 3,117 — UN Special Rapporteur "at least 5,000" (Jan 16) — Iran Ministry of Health 30,000+ (Britannica). Mid-range estimate used. Amnesty International, HRW documented systematic unlawful killings.' },
     lat: 35.6892,
     lng: 51.3890,
     zoom: 6,
