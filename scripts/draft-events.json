@@ -1419,5 +1419,137 @@
     "zoom": null,
     "casualties": null,
     "status": "draft"
+  },
+  {
+    "id": "israel-launches-fresh-strikes-in",
+    "date": "2026-03-23",
+    "title": "Israel launches fresh strikes in Tehran as Trump announces talks beng held with Iran on ending the war - The Times of Israel",
+    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNT3pxWmw0YTV4Q2JuTFJ4bHpNSjlvTlJfQU1qbFBQVEdLYmdPNWdZcGZHcGhaY3JpcGhHdThHZHBqWTBYRXFYWTJPNXl5VUg1YTNwUmFXX2pTbXBjSVR6SUVMWGhzMVJldXdmMnNaX1hzVHc1RWlTeExVVkEzX1FFUUF2OXNXck1iSFppS3M4d3hMbHNMMTBDbkhreGM5V05yVUhaaHlkUEhqNVNfbXpua0xDajlSb2dJdUFDT0tQZ3FnVG8?oc=5",
+    "source": "The Times of Israel",
+    "fetchedAt": "2026-03-23T14:00:13.965Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=cC3iqhFM8G0",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "cC3iqhFM8G0",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "rights-group-says-over-1400",
+    "date": "2026-03-23",
+    "title": "Rights group says over 1,400 civilians killed in Iran in three weeks of war - ایران اینترنشنال",
+    "description": "Via ایران اینترنشنال. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBPZzZkRk5mSTAxc0I1V0Zua0pFRHBQTVNSWDhPcWk2Z0lUNGJHdnJ0NHFqZ2VfZFkyYlM2MmdDNVVZdEhubEdHQURKYUp2OWZmZFE?oc=5",
+    "source": "ایران اینترنشنال",
+    "fetchedAt": "2026-03-23T14:00:20.032Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=Ga_bBCsxQCE",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "Ga_bBCsxQCE",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-military-says-strait-of",
+    "date": "2026-03-20",
+    "title": "Iran military says Strait of Hormuz will be \"completely closed\" if U.S. delivers on Trump threat - CBS News",
+    "description": "Via CBS News. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQbzljM25ZTGhrbUF5R2RCbXF2SEFmS09GRGNoUHBaci1yQUwtVjZ4N1hMWXdEbGFpUnR2a0VEdzlFa3dBODllYlFyMnBtYzE1ZmdVcV9vdUNoX2hPeUZoaFQ4dE4tejhrY2lGRFRUX0NmUXhDaTVzRG9jUFJjVE9QYWZZZHp3Vi05ak1IQml1LXQwTTE3OElXaEppaHBQSWpVT0NRTnRvVGnSAa4BQVVfeXFMT1UwV0VhdlpTeDgwSC16Y213bFFqaWJUS2dNdDNKYk1aM0QxZkVKWi1xSHJUOWlxVk10ZFZCUUotUHJULWNEMVdGNXJxdERyU1FxRnA3OUo5OFU4cThERXdzeFFzd1pTZG9MZGh3dmh5LXFMUkMyOVNsTVZKbi1DeE9LVlQ4TEhTbDViMWtRMXppeU5nVW9TaVcwWS04dFdPRXlYM3RlLUtPODZSLUd3?oc=5",
+    "source": "CBS News",
+    "fetchedAt": "2026-03-23T14:00:27.022Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=hYT6p3l83GU",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "hYT6p3l83GU",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "trump-extends-deadline-for-iran",
+    "date": "2026-03-23",
+    "title": "Trump extends deadline for Iran to reopen Strait of Hormuz - CBC",
+    "description": "Via CBC. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5kaFJtQi1iRlpNLWJPTmdJNjhoY1lTeXYzZ2JoenJ0RVhOaU92NUNTS0lTMEg3bnV6SXdENjB5blJQX1dRSV9oM1N0WXNJR3d1OGY3MVF4TlpKMm1JRkRzWmdNVUR0VktIMlVnZV9rSkd1MW8?oc=5",
+    "source": "CBC",
+    "fetchedAt": "2026-03-23T14:00:33.347Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "purdues-iranian-community-speaks-on",
+    "date": "2026-03-23",
+    "title": "Purdue’s Iranian community speaks on hopes, despairs during ongoing conflict - Purdue Exponent",
+    "description": "Via Purdue Exponent. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPeDBscGZlOUxJZDFzQzFZdExYTWZHYUhVdmJCclg1YmctZ05RMjB4VThNWHNVUEJyaXBtT3NlUUFmRXc5SlZqQXJWWVU2SlNneC13c0NLbVBLTmFlaWFjZV9zeDZIVHRMY3dXUXY5QW8tTlJUU0VkQ1VOdVA3UE5fcF9oQ00xdnBtZm5zajR3SVNaTGRRczZ3eThoRzhMd0JOSmlUc0JDVXVHM2xhYTJZY2VCT0MxQ3ZhRTFzV2xhRmVNeGtfWm9kTW9mM0VJYzBV?oc=5",
+    "source": "Purdue Exponent",
+    "fetchedAt": "2026-03-23T14:01:04.602Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israel-lebanon-iran-war-gazettextra",
+    "date": "2026-03-23",
+    "title": "Israel Lebanon Iran War - GazetteXtra",
+    "description": "Via GazetteXtra. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZW9ETTBXQ2JDMFJuVVFMN0Rzd3pXT0gxa2ZHdFpTaWNfUGZxWUVPYkY0Q2h5X1lTbTRibFRXalNjM0pNZjhiYnQ2M0lpUTJYdVYySmhFSWpoTWFRVzhMVXBSZXI4RlRDLXlESzVucTU2RFlqTDVzODdPMkx1b05wclQxNWQ0cGJxaU1yX1JHeERXcHMybTFaUmozdUJlajY0amhsWVVaLVpFREJvVTJpZl9lVnhjOU1i?oc=5",
+    "source": "GazetteXtra",
+    "fetchedAt": "2026-03-23T14:01:11.024Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
   }
 ]
