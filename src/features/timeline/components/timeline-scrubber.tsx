@@ -53,8 +53,8 @@ interface TimelineScrubberProps {
 export default function TimelineScrubber({ onFlyTo }: TimelineScrubberProps) {
   const storedDate = useFireStore((s) => s.timelineDate);
   const setTimelineDate = useFireStore((s) => s.setTimelineDate);
-  const initialIndex = Math.max(0, ALL_DAYS.indexOf(storedDate));
-  const [currentIndex, setCurrentIndex] = useState(initialIndex >= 0 ? initialIndex : ALL_DAYS.length - 1);
+  const foundIndex = ALL_DAYS.indexOf(storedDate);
+  const [currentIndex, setCurrentIndex] = useState(foundIndex >= 0 ? foundIndex : ALL_DAYS.length - 1);
 
   const currentDate = ALL_DAYS[currentIndex];
   const todayEvents = EVENTS_BY_DATE.get(currentDate) || [];
