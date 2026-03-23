@@ -1354,5 +1354,127 @@
     "lat": 30,
     "lng": 48,
     "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1WQXV1Q3p5VHFmeU9qVzBkOTMyXzBCbnlMdFZMWDlUNU82YjdiUGlaUkhuR0ZXMzBvcXlCN0JTcFBITWJwek11ZnR5NVBQemVKOUlYY2xPRQ?oc=5"
+  },
+  {
+    "id": "auto-middle-east-crisis-live-trump",
+    "date": "2026-03-23",
+    "title": "Middle East crisis live: Trump says both Iran and US ‘want to make a deal’ and claims they will talk today",
+    "category": "escalation",
+    "description": "Via The Guardian. Auto-detected by headline monitor.",
+    "lat": 35.69,
+    "lng": 51.39,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNd0RFTDRRX2hEU1BPenRYZnRNWF9xU0ljbzgwdHNRTnNCNmo2VkloUDdBaWhCV1FidEpFMHpvQUY4Q0xuZ3huVzVlekx6NkUwTXdfTUFpSVdhQ0Rpdzc4cnppV0lTQmZPbHMzQjV6ZUIweWNVdmNIMzdUVGtvdUh5MlJid0haRXg2Y2xoQVFwNkxveVkxU2xEUDZmNTZhUjhpXzBHb3JZRW1ZWUFCTEpqZE9IMU1KRG12VVl1djdtRl8tcFZpYnFPSEVjN01YSnhRanJNOWlwTzlGRTA0U2ZkMVZscW1LclQzMG54ZDNRcjNQa3FrN0w3Sw?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=2FAYYHOadeA",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "auto-us-and-irans-options-for",
+    "date": "2026-03-23",
+    "title": "US' and Iran's options for ending war narrow the longer it goes on",
+    "category": "escalation",
+    "description": "Via BBC. Auto-detected by headline monitor.",
+    "lat": 35.69,
+    "lng": 51.39,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ycDZuNWNwYWw1RFNLLTJCT29Zcm4xSll0ajM4Y1JEc1JVbV9JTnh5NHZPenN0VzJvTE5faXhRbUk1a0szcVlGUldlRHZHam1yaURNcDU5bEdTQQ?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=DtIUeCfhhQE",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "auto-breaching-the-iron-dome-the",
+    "date": "2026-03-23",
+    "title": "Breaching the Iron Dome: the Iranian cluster bombs bypassing Israeli air defences",
+    "category": "military_strike",
+    "description": "Via The Guardian. Auto-detected by headline monitor.",
+    "lat": 35.69,
+    "lng": 51.39,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQT0lGRlFZT2xNbmFhdHFoaF80TXpENVdkU1A2WEpZdUdzNkpvb3g5dF96dGtiR0NCUVROcklfZHRBZ2ZqRHRKQkZ2WE9adEZ1YW9neml6OHROa3F3aVZiTUNnNWQ3elpFWk9RTDNSdnhUeVc5Xzl4d182SlRQNWVwUURVQnVYcVQtTFBOV2dzS2MxbFpxdzNnNXlR?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=-bXEw6RdHrc",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "auto-israeli-military-says-it-is",
+    "date": "2026-03-23",
+    "title": "Israeli military says it is conducting strikes in Tehran",
+    "category": "military_strike",
+    "description": "Via Reuters. Auto-detected by headline monitor.",
+    "lat": 35.69,
+    "lng": 51.39,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdV9Vc004R2tvNUtON0laUDVxamFTZmlURjdzQ3pjdnBJX0VTOXZZT25lMHJEbjZlSFR1LS0weGtqaXFRenAyYk80Zk9mdTZ0bUp3bDZpXzRaNkVFZXBfLXR3MTV2MnI5bm9QNGdFWWNCZU81M0prZW5LZ20zNC1Ua0NvM202dDREWHg2TXBqdXFkT3B1RThVemhfd0R1OEJRYS1BQzJoZjZKOXc?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=bx4ozeuYLQI",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "auto-trump-speaks-after-announcing-delay",
+    "date": "2026-03-23",
+    "title": "Trump speaks after announcing delay on Iran attacks",
+    "category": "diplomatic",
+    "description": "Via Al Jazeera. Auto-detected by headline monitor.",
+    "lat": 35.69,
+    "lng": 51.39,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOc29vVjZra1RyNmxzNHRQUk9WYk45TWUtVEFKaFVfR2czWFJhcFNUZ3Fnd1JNTDVwT3F0NzVjQ0VOWjdNdzk5Yjc0WmE4ajdDd19OQzI2Q2ZxeWhBNjJEbS03d1JGZXNsbTFFWmZvZzRZOW5QakJ2LVlJLWItTFU3QUhVZzVfdk1Cd21SLTZaRVo1WDNmTVluUVc3QmpNU0VfU1RpU9IBqgFBVV95cUxPelJzVEpMaFlodnpWelo1LW14TG5ucFRqdmxyM0tyZjFXaE83Tl9SanZudkVqSFFoam1uclFyYUItSjhCdS0wUVZ1OUtLQ2dmbXJ1MHpnY21iNEt5LTRtMWZOMWlMRE1SdS1WV2QwLUNRZjJfZV9CcTcxTXFFZXAydUZCTEFUaVNyX05MUzhDRS12aC1GUHVjZGpRSDVQUGo1VUl4Y2FWdXhmUQ?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=KHLgKkcS0iA",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "auto-trump-says-us-is-talking",
+    "date": "2026-03-23",
+    "title": "Trump says US is talking with an Iranian leader as he extends deadline for striking power plants",
+    "category": "escalation",
+    "description": "Via AP News. Auto-detected by headline monitor.",
+    "lat": 35.69,
+    "lng": 51.39,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNkR6WmVCWTZLY2RBTmwxcXFlMl9YQ3Y5WkZHc0w3ekVrQmp0TEZ5R0E0U2pQN2ZhZ2ZJU1BkOVJWWGJIRllPU1AzblhHU1lOWElQaVI2MlRodTc3blNnQ2lxMXBYUVlhVEphSVBwQ3BDdG1VUmNYc2lVNkdkY1BPRmF2VGdJTWV4dmdvcFZqQkU0SzlZLW9pQldRSEY5MHA4a3ZqUw?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=AKRj7PvUr_w",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "auto-israel-used-weapons-in-gaza",
+    "date": "2026-02-10",
+    "title": "Israel used weapons in Gaza that made thousands of Palestinians evaporate",
+    "category": "escalation",
+    "description": "Via Al Jazeera. Auto-detected by headline monitor.",
+    "lat": 32.07,
+    "lng": 34.78,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZnpIaURjR1c2YXBFeXZTQzR5b256NTBjM1p0OW1QSGZWcWVZanctZlpMSVg0OHNDcFpGUDdoM0FSRHJsbGR4aENjMDJycnVwUUJtNDhzNEN4eVRUSHEwV2phelhXTVAyMVRiVEdRMmdTRTFTS0ZtMW5iNlFjNjBTYjRVREpnNGdSdHdxTlJJcWdvMEMyVl9XcG93SGR1Z203UWN5ZkQtMDJ1VlRxVUZuVUFxbV9SUU5peHfSAb8BQVVfeXFMUEZ5aV9JNDV3Zi1QN0x3eWVOQ1VOY05kRXhJdUJ1OTJRWWNRSmc4c2IyTUIzRXQxUVZIZktSRkUtVXJXR2hfQTMtV3M5U1RwaE1heWdDVEtpbFZydkxfdUM3VFpYdGxVazJwSlRYX2J6eDM0NWd3OWZIOWxMaVNaS2FtRDlaaW5fcEJyaVRDWGhERUpvTlVCRE55MDNrczlfNWFMaHJadEJmZmlROVdEY1c0LUFocnFHclpxLXRFWEk?oc=5"
+  },
+  {
+    "id": "auto-gazas-nasser-hospital-slams-msfs",
+    "date": "2026-02-15",
+    "title": "Gaza’s Nasser Hospital slams MSF’s ‘unsubstantiated’ armed men allegation",
+    "category": "diplomatic",
+    "description": "Via Al Jazeera. Auto-detected by headline monitor.",
+    "lat": 31.42,
+    "lng": 34.35,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUW5SR0NPcldXVHlPb0VWT2FjS3Vtb0NJTGJUaHBDUFFDQU1sWk5DWWJZTEtYNno4ZC1taXlndk1rZTVHay1JX1hGam5USzd6TzBYTnRIOW1yZmp0QzY3YXhCdnhxSTRoSHFPcUdpWWluR1FsVnkyQnYzQ1ZxX2RTSWgxTmRpem0yRmFiZDNGa2hjQ2FlaHU0aGNYV0RDdndocjZWNjJER3FJUjVyRXdz0gG0AUFVX3lxTE5JQlpONnZXLVMyVm1MMkhiQkd2dDA3TUJVVk1XOTZxeUFYYUlKUGp0T1g3Zy0xaDVUdWZKODMyQzRxZVEtMk8tam8yazJiaXlqbTlieG0wME9nX2l4anpzWm13Sml4aGhHTVFFVUEzSEFpNlVPTGlxZF9rWHlPNXNyZW94a254OEpOSTZYVlNSRFhlall2X1g0NWZuVnh1YUJySUZJV1htcHE5S2xqaHFOcXF5cA?oc=5"
   }
 ]
