@@ -34,7 +34,7 @@ function formatDate(iso: string): string {
 
 function timeAgo(iso: string): string {
   const diff = Math.floor(
-    (new Date('2026-03-21').getTime() - new Date(iso).getTime()) / 86400000
+    (Date.now() - new Date(iso).getTime()) / 86400000
   );
   if (diff === 0) return 'Today';
   if (diff === 1) return '1d ago';
