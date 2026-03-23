@@ -701,11 +701,11 @@ export default function DeepDivePanel({ onMapMode }: { onMapMode?: () => void } 
 
       {/* ── YOUR HOUSEHOLD COST ── */}
       <div className='px-4 pt-4 pb-3 border-b border-gray-200 dark:border-zinc-700'>
-        <SectionTitle icon={<IconReceipt className='h-5 w-5 text-green-700 dark:text-green-500' />} title='Cost to Your Household' />
+        <SectionTitle icon={<IconReceipt className='h-5 w-5 text-green-700 dark:text-green-500' />} title='Cost to American Households' />
         <div className='text-4xl font-black text-green-800 dark:text-green-400 tabular-nums leading-none'>
           +${impact.totalMonthlyExtra}
         </div>
-        <div className='text-base text-green-700 dark:text-green-300 font-bold mt-1'>extra per month</div>
+        <div className='text-base text-green-700 dark:text-green-300 font-bold mt-1'>extra per month (avg US household)</div>
         <div className='text-base text-gray-500 mb-3'>That&apos;s <strong className='text-green-800 dark:text-green-200'>${annualCostPerHousehold.toLocaleString()}/year</strong> more than before the war</div>
 
         {/* Gas */}
@@ -798,6 +798,16 @@ export default function DeepDivePanel({ onMapMode }: { onMapMode?: () => void } 
         </StatCard>
 
         <InfoBox>{impact.headline}</InfoBox>
+
+        <div className='mt-2 px-1 space-y-1 text-xs text-gray-400 dark:text-zinc-600'>
+          <div className='font-bold text-gray-500 dark:text-zinc-500'>Sources &amp; methodology</div>
+          <div>Gas prices: <a href='https://gasprices.aaa.com/' target='_blank' rel='noopener noreferrer' className='underline hover:text-gray-600'>AAA national average</a></div>
+          <div>Oil (Brent): <a href='https://www.eia.gov/dnav/pet/pet_pri_spt_s1_d.htm' target='_blank' rel='noopener noreferrer' className='underline hover:text-gray-600'>EIA / IEA spot price</a></div>
+          <div>Groceries: <a href='https://www.bls.gov/cpi/' target='_blank' rel='noopener noreferrer' className='underline hover:text-gray-600'>BLS CPI Food Index</a> · <a href='https://www.ers.usda.gov/data-products/food-price-outlook/' target='_blank' rel='noopener noreferrer' className='underline hover:text-gray-600'>USDA Food Price Outlook</a></div>
+          <div>Natural gas: <a href='https://www.eia.gov/dnav/ng/ng_pri_sum_dcu_nus_m.htm' target='_blank' rel='noopener noreferrer' className='underline hover:text-gray-600'>EIA Henry Hub spot</a></div>
+          <div>Shipping: <a href='https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry' target='_blank' rel='noopener noreferrer' className='underline hover:text-gray-600'>Drewry World Container Index</a></div>
+          <div>Baseline: Sep 2023 pre-crisis averages. Monthly extra = sum of gas (+{BASELINE.monthlyGasGallons} gal/mo × price delta), grocery inflation on ${BASELINE.monthlyGroceryBaseline}/mo baseline, utility increase from nat gas spot, and shipping surcharges.</div>
+        </div>
       </div>
 
       {/* ── COST OF WAR ── */}
