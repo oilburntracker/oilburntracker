@@ -1,130 +1,22 @@
 [
   {
-    "id": "iranian-missile-strikes-near-israeli",
-    "date": "2026-03-21",
-    "title": "Iranian missile strikes near Israeli nuclear facility, after Tehran says one of its sites targeted - BBC",
-    "description": "Via BBC. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE02b180dHpSREozbXl6aUtXazlWMWVsX3FRUUQ2ajZBUF8zSk8wUnMyLVBQTXNWbGRSUlNObzNFYjQ3MXdfMTVkZGQ5eExKc19VT3B5RQ?oc=5",
-    "source": "BBC",
-    "fetchedAt": "2026-03-21T23:30:42.213Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=iVHd0SUN7fE",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "iVHd0SUN7fE",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-war-live-netanyahu-threatens",
-    "date": "2026-03-21",
-    "title": "Iran war live: Netanyahu threatens more attacks after strike on Arad - Al Jazeera",
-    "description": "Via Al Jazeera. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQd1AwVTNycXh0U2FfMW8xNGNHdjgydnVQcVhpR1B3RnBlcXJsR0J2c0xfa1JIOHF6N2pVVG5lWlJNT2ZCd3hKYWtmRV9pMi15TFhWUVh3NEx2ODlJdUJ1OHFQUVVkUkdIS0E4TUZTQjJVSnB6dkNmR0NJYXh4aDRiVENrTXg1NHJ5UUdTZ3M5QlRQZVVLNXFKYU1OUTlOY1NnbmxScFdWUW0wQlJoY053UjFENkk5R2VNQWZfdUFR0gHDAUFVX3lxTE9rWXg1czB6Mlo3ZGVkbFdVTkhMbzQ5Tk5TejRWTU5oS1RnWUtncUpkcmluM0hQWXphMExlMDJiSUtGOW04eU5hRHg0eVRBeWN1bnJZLUkwRVowaFV4YzNZTk8zVmlRaVBxUlZCeWJsZlNRTnMtVW1wMVNSdHBGRG5KanZXS0w3Y2xYb3BlZkFHRlBha3FBeUx5Y19GLTVSSzN0NDVSYWdVcUFpZndSN2FfMjJ3Um1URUYwcDBkeDI0MThScw?oc=5",
-    "source": "Al Jazeera",
-    "fetchedAt": "2026-03-21T23:30:43.709Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=sriAOsBuoiw",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "sriAOsBuoiw",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "live-updates-iran-fires-ballistic",
-    "date": "2026-03-21",
-    "title": "Live updates: Iran fires ballistic missiles at US-UK military base in Indian Ocean - CNN",
-    "description": "Via CNN. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1HdjkwYkdlLUVDSVRWRmhHU1dmRnYwN3VnR2lyREdza256MkJUb3RVal9UdzZIYzNYRXFxZklzRnVjQWRGNWdBWmJVeDVLOG9GeVd1b3hXdjY4RzBDWHdkdnlHUzQwS3pLb0I1bTNKYTN4WnVmNlFPOA?oc=5",
-    "source": "CNN",
-    "fetchedAt": "2026-03-21T23:30:45.353Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=VeeyUFZHzWc",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "VeeyUFZHzWc",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-strikes-israeli-nuclear-town",
-    "date": "2026-03-21",
-    "title": "Iran strikes Israeli nuclear town in retaliation for Natanz attack amid escalating conflict - France 24",
-    "description": "Via France 24. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQMVNKZWh5VUVONzNzRHZTaDBXX0pwNm9PdTRFNE1tVXBvU1VkODJua0p3ME5oNDlwaDNrVk96eXIzRzVZSGxHMkV0aUY1YVBFa0xxNm1ZbEt1R1ZYRW5STXh6eW5KNnJYNExJckhxcWlQOEJVMllJbUZZRk1PbDFuM280SUVvVFhHd1dFdmdHX0FlNDlUbXBRV2lKOEN1SVVoX2FVYVROMWlqZTREblhpOVp5OWplM01SNlJuVjNKcDd6SlhHdWFTM28wckxHSDdvbE1EeTNNQQ?oc=5",
-    "source": "France 24",
-    "fetchedAt": "2026-03-21T23:30:46.800Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=NFpcPL5IV3Q",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "NFpcPL5IV3Q",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "trump-administration-at-crossroads-in",
-    "date": "2026-03-21",
-    "title": "Trump administration at crossroads in US-Israel war with Iran - BBC",
-    "description": "Via BBC. Auto-detected by headline monitor.",
+    "id": "iran-update-special-report-march",
+    "date": "2026-03-23",
+    "title": "Iran Update Special Report: March 22, 2026 - Institute for the Study of War",
+    "description": "Via Institute for the Study of War. Auto-detected by headline monitor.",
     "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1HdHpOM0JFTF96R1dlUEtVcFFHckhjeV9CTU5nb0pDNXZiRlYzYVVCeHRPS25uS3FRaVF5SzI5eV9vM25Mei1Ydl9BNWNUNU50Sm1yRWJBZ0xRZw?oc=5",
-    "source": "BBC",
-    "fetchedAt": "2026-03-21T23:30:49.285Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWlN4WmNWWFFDT3ZLZkgyd2FyNVZRNzJxbTd3dTVSZ3JOQjZsQWtFYzFra3F2M29QRkt4Ml9tUmtVLUs5dEFCU1U3SnhzbnJGejlLcUNkVnBmNUdFSktHbktjNUNUSXFPOWxOcnd1WkRQMmFOYW9oWlRvYm1Yal9fOUpkaUdNUWlKTnUydW5zaXEzNVo4VzdxMnp4Unl6SFJt?oc=5",
+    "source": "Institute for the Study of War",
+    "fetchedAt": "2026-03-23T04:39:10.854Z",
     "mediaUrls": [
       {
         "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=R_4arAn5lHc",
+        "url": "https://www.youtube.com/watch?v=RVnUDI6_2Do",
         "label": ""
       }
     ],
     "videoMatch": {
-      "videoId": "R_4arAn5lHc",
+      "videoId": "RVnUDI6_2Do",
       "title": "",
       "confidence": "auto"
     },
@@ -135,209 +27,26 @@
     "status": "draft"
   },
   {
-    "id": "saudi-arabia-expels-iran-military",
-    "date": "2026-03-21",
-    "title": "Saudi Arabia expels Iran military attache and four team members - Al Jazeera",
-    "description": "Via Al Jazeera. Auto-detected by headline monitor.",
+    "id": "gulf-states-opposed-war-with",
+    "date": "2026-03-22",
+    "title": "Gulf states opposed war with Iran. Most are now pushing to keep the fight going - The Times of Israel",
+    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
     "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTzg0VEdmdmxSai01T1F6X3NjQlBBU00ydWlnbTlPQ3U3Ym15NndWZVJGOUJPYzc0S3N1QUVsUTIxdnJNb0N3S3ktZGJuVmtoVEFXTWdJQWJZN0hXTlNObnlucms3UUpXM3poVWlTaFFZNjBqRk00WWJob1ZPUHlOd0tUc1NkNDdTSlF1LWR2LWQxYWJaNG1XQXhOSU81dWZHRFJNN3BQY9IBrAFBVV95cUxPdVdOSlZmRS12SUtXajBYNFJYRTJsVHdnc000emdEYXM4NmloZnpuZ0E5YldFUElldjE0WjVsdGF2VHhMb0NxeTc4TG5rTW5kOWxfS3BWUkcxOHlLSm91MEVVSVlwNFZCeTIyZFEyTkVXMS1IQ2ZhVk5mc3BpYjdtOGU0SmNBaFJXdG5GcXNtT0tSZHpYbEpUZ0hSUjlsWUk0X1pxNTdGLUNMNDVG?oc=5",
-    "source": "Al Jazeera",
-    "fetchedAt": "2026-03-21T23:30:51.684Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNOTR0bjYxTFdVNW4yZFlBei1wZC1VRE9HOGIxcDBKU1R4OUU1Zlptd3J4VExTajIzSGZaY1lGNmoxVXp2aDgtMDNwREVzT3F3SjVGSHQ1ZjRSZzlvMFY2N2YyT0hNdWpVc1g4dUlSd3VSSWs3Qm9HdTgybG9rQzBOMng4Qm56NFd3aHo3Y21UeE1rWF9ESEpGaW05WGM1YXlQVGlwZXo5UHBTYTUtaGfSAbMBQVVfeXFMUFV1TDZfX0JqYlRnSzhTLVVRWWRBRGVCU1hveUxtd0lpUWZudjh5RUxrRkRld0NDenNpaTZxTWJ3U3FRUFdQaG5wY2RGUnV1ZjI0OWh4Yld3SFAwek9vRzJFUGpGSEFIbXg3WVFHbmR0UDdNQXgyREZ2aDhZM3FsVTl6dWo1VENiZ0l1UktObUNYd3RNV2pXWjl4b2dJbkMzUm1hRWVIRElWZ2N4ZTBZYlJqaFk?oc=5",
+    "source": "The Times of Israel",
+    "fetchedAt": "2026-03-23T04:39:13.019Z",
     "mediaUrls": [
       {
         "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=FbawsoFc0fM",
+        "url": "https://www.youtube.com/watch?v=e1ObljmtYTA",
         "label": ""
       }
     ],
     "videoMatch": {
-      "videoId": "FbawsoFc0fM",
+      "videoId": "e1ObljmtYTA",
       "title": "",
       "confidence": "auto"
     },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "irans-willingness-to-escalate-this",
-    "date": "2026-03-21",
-    "title": "Iran’s willingness to escalate this high-stakes war is its greatest weapon - The Guardian",
-    "description": "Via The Guardian. Auto-detected by headline monitor.",
-    "category": "retaliation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxON3dvMnMzeWdnMDNFWTdUR19wME4yQUIyQk1tdTc5MDh6T0ZPS2lCOGhTelg3ZXdqelZKTUhZeWEtcF96ZTZPM0l6allHaHBFbTNTX0p0eXhSOEdRbkVmWE9nbmoyUXZ6ejdscEdVSFlrM2ZaeUg4TDZZVUJRbXM2ZHRWckJrUmwyeU1mSFFWWHlIZw?oc=5",
-    "source": "The Guardian",
-    "fetchedAt": "2026-03-21T23:30:54.172Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=97nnSDwx1LQ",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "97nnSDwx1LQ",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "trump-says-us-considering-winding",
-    "date": "2026-03-21",
-    "title": "Trump says US considering 'winding down' Iran war as Tehran fires long-range missiles - Reuters",
-    "description": "Via Reuters. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQ29IY2FJQXJoaThEam9QRDdIVGtreEprNklEd3FQQUNHeXIwX2RfOHBPc21QVlZrQ1BNa3ZvSjhXd0tXOUh0RGRVUTAyYURycGlaelk2SnJFdzBIdk9KYXlncHFxLW9qNVlNMFJiM1VPMFBnODlVSmtjb3F5bnhFal9MeHZPOEhMcjBPN2xSdWUzUlZXOUpTQTFJdmd5czI1cVVrVlRkRmVhYkxhWFB5cw?oc=5",
-    "source": "Reuters",
-    "fetchedAt": "2026-03-21T23:30:56.587Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=1yuoFfQhEdA",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "1yuoFfQhEdA",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-says-nuclear-enrichment-plant",
-    "date": "2026-03-21",
-    "title": "Iran says nuclear enrichment plant attacked, Israel denies responsibility - CNBC",
-    "description": "Via CNBC. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTEVPM3J4M3BRM0JHMEVsSGlmeWZfUHNKSzJYTm9HWW5sT3o4Vms1VnFTNFJPbVJUOWtQek54c1hwamZBdkFPa2p2MU5aQUxWYTBxX3pTTkFWZG1rb0lTblUxWkFIVURaMlVzdEJTMWdQREpBdmFyT2wyYXRnT1EyWk9tV2U5dzN5UmdzY0xVanYtTWpULS1sZ1ZqYURpRkM4S1otUdIBqgFBVV95cUxPTGtaTjN1OGtaR0E2MjFKR2JwY2s1ZUNaeEg1MEctV2gzMUpUeWhDcU8ya3JOaFJTYjFSTGZPTzJEbmI4WnFXN2Zvc1V6U2ZKRXJZTEhxN0RYSk1aVXZhbE01V2laU0tkLVVfdmU5V1g2OTdqTUtMaHR2WnpfZXA0VC1KWmVjem5fZUFRcWExM3dqTkFFNWNkU3JwMmQzY1RVLTZzMnBZcE1pQQ?oc=5",
-    "source": "CNBC",
-    "fetchedAt": "2026-03-21T23:30:58.747Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=82OgUPn-xGU",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "82OgUPn-xGU",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-war-enters-its-fourth",
-    "date": "2026-03-21",
-    "title": "Iran war enters its fourth week with no clear end in sight - NPR",
-    "description": "Via NPR. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBYa2ZwNDh2Tm1wbjV5ckV4RTRXeDJuc28yVjRQWXgtQzAyVWxRTElpZC1GSnU5MXZBUVk5cmNVTEdWVEt1ZzdLbjZlYVdRVmNpNnd6WV9CamR2ZERQUnMwXzMxS3RwUzVJZGJiQlF3dnd2V00?oc=5",
-    "source": "NPR",
-    "fetchedAt": "2026-03-21T23:31:04.496Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-war-maps-tracking-the",
-    "date": "2026-03-21",
-    "title": "Iran War Maps: Tracking the Mideast Conflict - The New York Times",
-    "description": "Via The New York Times. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1uUWpBOUw3b05zUlRrZFVqbThvSTc1elBsdzItdm4tR0M0eUYzSWN1Qm45RGp0R0pLbzJLekxiZ3JBODRlSjB5T2hIMThDVG12NG1zcnVKYzJNYnhqdFE0MVUtcU5VUWR1UkJ6dWthdVRvcW5t?oc=5",
-    "source": "The New York Times",
-    "fetchedAt": "2026-03-21T23:31:10.851Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-war-whats-happening-on",
-    "date": "2026-03-21",
-    "title": "Iran war: What’s happening on day 22 of US-Israel attacks? - Al Jazeera",
-    "description": "Via Al Jazeera. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQT3ZNV3EtM18yTjlzZDNUYlU3YXljZGRUY0o1N1ZXQ1FvXzVOWG45VUJ6SW1kNTRhU1hEQUpGMzVRVE5pUnNMazZ3VGxHc0lsZE1YRnFudndka255bTVEMFJnM2ZhdkZNdDdLbDIxWGxpbnBzRjlKQ05TWEJoR0JOekFncXpucVFHd1A4UVNnak0xd0lHMmxFemU2Ti1TTkHSAaQBQVVfeXFMT3V5aERRUlAxQmFnYk5NQXZ5ek9OaXhRdlVJTXVfbm9teTRsWDBPNmJxTG1hUW1kTkd4YXZaZHlSdTdlWFdWVGN0ZDB0QkdoOWhGbkRyZzQxRm1GN2pVMEJoWE9xWlRrcmRjYWNOY3NhX0d4REtuR1I2dUtEamJkMVJfZmdURHllNmRnb05qbTRUOWVqR1NxSTR1RmFhRnc5UWpwVlg?oc=5",
-    "source": "Al Jazeera",
-    "fetchedAt": "2026-03-21T23:31:17.420Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "israel-says-iran-launched-first",
-    "date": "2026-03-21",
-    "title": "Israel says Iran launched first long-range missile since war began, capable of around 4,000-km strike - Anadolu Ajansı",
-    "description": "Via Anadolu Ajansı. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxONXRWbVNQZHBybTdxU3BmTXpVbi1iWjhPUVBPUm94cUVZVlFRQ2ZCSzE1azNmbHBQMmFIS1N2QUhVQUpUZFdDX2dlekQ4WlA4RmpwZG1XVWNrXzRHVmZKOEF4em1wcHZUQnZSWVAtTFo0d2VSS3BTcnlKR25SbDNuVXBweFZOQnRIcFlidXNNY3J1QVQ3S1dZQ1VRc2toRlFxYldBWTc4RFB4ckFKMUt6S09MaFptaDVGRUNYWk5DdndyOFNCYW5kZ1I5VFRpa2Rzc2xDWk5yYVEwaVlqTnc?oc=5",
-    "source": "Anadolu Ajansı",
-    "fetchedAt": "2026-03-21T23:31:23.452Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "war-in-the-middle-east",
-    "date": "2026-03-21",
-    "title": "War in the Middle East: Iran nuclear facility hit as equivalent of ‘one classroom of children’ killed, wounded daily in Lebanon - UN News",
-    "description": "Via UN News. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9QYTczUVR4WFhXS2I0d0RXdExuZWpsaV95cWdyOUl1NEZaTmNIc21yWkllOGRVZnE3LUVTR1JUT2VMei12X0libnQwZ2RrLXlwTHlNTFA1WQ?oc=5",
-    "source": "UN News",
-    "fetchedAt": "2026-03-21T23:31:29.714Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "5m-tonnes-of-co2-emitted",
-    "date": "2026-03-21",
-    "title": "5m tonnes of CO2 emitted in just 14 days of US war on Iran, analysis finds - The Guardian",
-    "description": "Via The Guardian. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPWGItMTJYZTVTSkEyVGxEX2dhNjl3TGI3bXA0U1FmQ2swMDREalRNX1B4N3l0aFlqeU90a201SG9WVkZ4eHhTVHRzUENpeHJoZm1ZSzNkNkFDLUkzRmM3NHZjYWctVzdLVW5JdU9pYzNtWEhfUDhVc2lXdXZjdjVuSkhCZWxnVGRXbGN4Ui03emlYMHpWOXc?oc=5",
-    "source": "The Guardian",
-    "fetchedAt": "2026-03-21T23:31:36.287Z",
-    "mediaUrls": [],
-    "videoMatch": null,
     "lat": null,
     "lng": null,
     "zoom": null,
