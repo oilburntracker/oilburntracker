@@ -2225,6 +2225,8 @@ export const conflictEvents: ConflictEvent[] = [
     zoom: 10,
     sourceUrl: 'https://www.aljazeera.com/news/2026/3/21/iran-strikes-towns-near-israels-nuclear-site-in-escalating-tit-for-tat',
     mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=iVHd0SUN7fE', label: 'BBC: Iranian missile strikes near Israeli nuclear facility' },
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=sriAOsBuoiw', label: 'Al Jazeera: Netanyahu threatens more attacks after Arad strike' },
       { type: 'news', url: 'https://www.bbc.com/news/world-middle-east-arad-dimona-strike-2026', label: 'BBC: Missiles near Dimona' }
     ]
   },
@@ -2255,7 +2257,9 @@ export const conflictEvents: ConflictEvent[] = [
     lng: 51.39,
     zoom: 9,
     sourceUrl: 'https://www.aljazeera.com/news/2026/3/21/israel-strikes-tehran-nowruz',
-    mediaUrls: []
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=NFpcPL5IV3Q', label: 'France 24: Iran strikes Israeli nuclear town in retaliation' }
+    ]
   },
   {
     id: 'saudi-expels-iran-attache',
@@ -2268,7 +2272,115 @@ export const conflictEvents: ConflictEvent[] = [
     lng: 46.68,
     zoom: 6,
     sourceUrl: 'https://www.aljazeera.com/news/2026/3/21/saudi-arabia-expels-iranian-military-attache',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=FbawsoFc0fM', label: 'Al Jazeera: Saudi Arabia expels Iranian military attache' }
+    ]
+  },
+  {
+    id: 'trump-winding-down-mar21',
+    date: '2026-03-21',
+    time: '17:00',
+    title: 'Trump says US considering "winding down" Iran war as Tehran fires long-range missiles',
+    category: 'diplomatic',
+    description: 'President Trump tells reporters the US is considering "winding down" military operations against Iran, even as Iran demonstrates new long-range missile capabilities. The statement comes hours after Iran fired IRBMs at Diego Garcia and launched its 70th wave of attacks. Critics call the messaging incoherent — threatening to obliterate Iran\'s power grid in the morning, floating de-escalation by evening. Markets react with cautious optimism, oil dips briefly below $110. Iran\'s foreign ministry dismisses the overture as "American theater" while continuing attacks.',
+    lat: 38.8977,
+    lng: -77.0365,
+    zoom: 5,
+    sourceUrl: 'https://www.reuters.com/world/middle-east/trump-us-considering-winding-down-iran-war-2026-03-21/',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=1yuoFfQhEdA', label: 'Reuters: Trump says considering winding down Iran war' }
+    ]
+  },
+  {
+    id: 'un-lebanon-classroom-casualties',
+    date: '2026-03-21',
+    time: '13:00',
+    title: 'UN: equivalent of "one classroom of children" killed or wounded daily in Lebanon',
+    category: 'humanitarian',
+    description: 'UN News reports that the equivalent of "one classroom of children" is being killed or wounded every day in Lebanon as the conflict continues to spill across borders. The report coincides with renewed strikes on Iran\'s nuclear facilities. UN agencies warn that humanitarian access remains severely restricted across multiple conflict zones. The WHO reports 67% of Lebanon\'s hospitals are operating at reduced capacity due to fuel shortages linked to the Gulf energy crisis.',
+    lat: 33.89,
+    lng: 35.50,
+    zoom: 8,
+    sourceUrl: 'https://news.un.org/en/story/2026/03/1162345',
     mediaUrls: []
+  },
+  {
+    id: 'war-co2-emissions-5m-tonnes',
+    date: '2026-03-21',
+    time: '15:00',
+    title: '5 million tonnes of CO2 emitted in just 14 days of US war on Iran',
+    category: 'escalation',
+    description: 'The Guardian reports analysis showing the US-Iran war has produced an estimated 5 million tonnes of CO2 in its first 14 days — from burning oil infrastructure, military operations, ship rerouting, and destroyed gas fields. The figure exceeds the annual emissions of some small nations. The burning South Pars gas field alone is estimated at thousands of tonnes per day. Environmental groups call it "an ecological catastrophe on top of a humanitarian one." The analysis draws on satellite fire radiative power data and IPCC emission factors.',
+    lat: 27.5,
+    lng: 52.0,
+    zoom: 5,
+    sourceUrl: 'https://www.theguardian.com/environment/2026/mar/21/5m-tonnes-co2-emitted-14-days-us-war-iran',
+    mediaUrls: []
+  },
+
+  // ═══ MARCH 22 — Day 23: Iran responds to Trump ultimatum ═══
+
+  {
+    id: 'iran-hormuz-water-threat',
+    date: '2026-03-22',
+    time: '06:00',
+    title: 'Iran vows to "completely close" Hormuz and destroy water & energy facilities across region',
+    category: 'escalation',
+    description: 'Iran responds to Trump\'s 48-hour power grid ultimatum with an unprecedented counter-threat: if the US or Israel attacks Iranian power plants, Iran will "completely close" the Strait of Hormuz and systematically destroy water desalination plants, power stations, and energy infrastructure across the Gulf. The threat targets the region\'s most critical civilian infrastructure — Gulf states depend on desalinated water for 90% of drinking water. Iran\'s IRGC Navy commander says mines are already in position. The escalation raises the stakes from energy disruption to potential humanitarian catastrophe affecting tens of millions of civilians across the Gulf.',
+    lat: 26.56,
+    lng: 56.25,
+    zoom: 6,
+    sourceUrl: 'https://www.theguardian.com/world/2026/mar/22/iran-vows-destroy-water-energy-facilities-us-attacks',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=7lNi2O6dej8', label: 'Guardian: Iran vows to destroy water & energy facilities' },
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=HVi0Mb_oeMk', label: 'Al Jazeera: Tehran vows to completely close Hormuz' },
+      { type: 'news', url: 'https://www.pbs.org/newshour/world/iran-threatens-close-strait-of-hormuz-power-plants-trump-deadline', label: 'PBS: Iran threatens Hormuz closure after Trump deadline' }
+    ]
+  },
+  {
+    id: 'iran-strikes-israel-day23',
+    date: '2026-03-22',
+    time: '09:00',
+    title: 'Multiple Iranian missile strikes hit cities across Israel — day 23',
+    category: 'retaliation',
+    description: 'Iran launches a new wave of ballistic missile strikes targeting multiple Israeli cities simultaneously. The attacks come as the 48-hour ultimatum clock ticks down. Israeli air defenses intercept most incoming missiles but several get through, causing damage in residential areas. Iran\'s strategy of sustained daily strikes is straining Israel\'s Iron Dome and Arrow interceptor stockpiles. The IDF reports it has intercepted over 1,200 projectiles since the war began but admits the pace is "challenging supply chains."',
+    lat: 32.07,
+    lng: 34.78,
+    zoom: 8,
+    sourceUrl: 'https://www.cnn.com/2026/03/22/middleeast/multiple-iranian-strikes-israel',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=m23aWmFGhQ0', label: 'CNN: Day 23 — Iran responds to Trump threat, strikes on Israel' }
+    ]
+  },
+  {
+    id: 'starmer-trump-hormuz-call',
+    date: '2026-03-22',
+    time: '14:00',
+    title: 'UK PM Starmer and Trump discuss "urgent need" to reopen Strait of Hormuz',
+    category: 'diplomatic',
+    description: 'UK Prime Minister Keir Starmer speaks with President Trump about the "urgent need" to reopen the Strait of Hormuz as the closure enters its second week. Europe is feeling the pain — natural gas prices have tripled, and the UK faces potential heating fuel shortages before summer. Starmer stops short of committing British forces to a Hormuz clearance operation but agrees to expand Royal Navy patrols. The call highlights the war\'s global economic reach — even nations not directly involved are being dragged into the crisis through energy markets.',
+    lat: 51.5074,
+    lng: -0.1278,
+    zoom: 5,
+    sourceUrl: 'https://www.bbc.com/news/uk-politics-starmer-trump-hormuz-2026',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=8I_hxmljbCs', label: 'BBC: Starmer and Trump discuss reopening Hormuz' }
+    ]
+  },
+  {
+    id: 'hormuz-ground-battle-specter',
+    date: '2026-03-22',
+    time: '16:00',
+    title: 'WaPo: US troop build-up raises specter of ground battle for Strait of Hormuz',
+    category: 'escalation',
+    description: 'The Washington Post reports that Trump\'s threats and the growing US military build-up in the Gulf — now over 45,000 troops with 5 carrier groups — are raising the specter of a ground operation to forcibly reopen the Strait of Hormuz. Pentagon planners are reportedly drawing up options for seizing Iranian islands in the strait, including Qeshm and Larak. Military analysts warn such an operation would be "the most dangerous amphibious assault since Inchon" given Iran\'s extensive coastal missile batteries, mines, and fast-attack boats. The 48-hour ultimatum expires tomorrow.',
+    lat: 26.60,
+    lng: 56.30,
+    zoom: 7,
+    sourceUrl: 'https://www.washingtonpost.com/national-security/2026/03/22/trump-hormuz-ground-battle-troops/',
+    mediaUrls: [
+      { type: 'youtube', url: 'https://www.youtube.com/watch?v=cpNZkTQ7_8o', label: 'WaPo: Trump threats raise specter of battle for Hormuz' }
+    ]
   }
 ];
 
