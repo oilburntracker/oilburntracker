@@ -170,6 +170,12 @@ function FacilityCard({ facility, hit }: { facility: (typeof curatedFires)[numbe
     critical: 'text-red-600 dark:text-red-400', high: 'text-orange-600 dark:text-orange-400',
     elevated: 'text-yellow-600 dark:text-yellow-400', moderate: 'text-blue-600', low: 'text-green-600',
   };
+  const threatBarPct: Record<string, number> = {
+    critical: 90, high: 70, elevated: 50, moderate: 30, low: 15,
+  };
+  const threatBarColor: Record<string, string> = {
+    critical: 'bg-red-500', high: 'bg-orange-500', elevated: 'bg-yellow-500', moderate: 'bg-blue-400', low: 'bg-green-500',
+  };
   const st = statusCfg[facility.status] || statusCfg.operational;
   const cap = facility.gasCapacityBCFD
     ? `${facility.gasCapacityBCFD} BCF/d`
@@ -206,7 +212,7 @@ function FacilityCard({ facility, hit }: { facility: (typeof curatedFires)[numbe
             <span className={`font-bold ${threatCls[facility.threatLevel] || ''}`}>{facility.threatLevel.toUpperCase()}</span>
             <span className='font-bold tabular-nums text-gray-700 dark:text-zinc-300'>{cap}</span>
           </div>
-          <Bar pct={Math.min(100, pct * 5)} color={hit ? 'bg-red-500' : 'bg-amber-400 dark:bg-amber-500'} height='h-2' />
+          <Bar pct={threatBarPct[facility.threatLevel] || 15} color={hit ? 'bg-red-500' : (threatBarColor[facility.threatLevel] || 'bg-gray-400')} height='h-2' />
           <div className='text-xs text-gray-400 mt-0.5 tabular-nums'>
             {pct}% of global supply{facility.attackDate && hit ? ` · Hit ${facility.attackDate}` : ''}
           </div>
