@@ -1551,5 +1551,103 @@
     "zoom": null,
     "casualties": null,
     "status": "draft"
+  },
+  {
+    "id": "iran-war-live-updates-trump",
+    "date": "2026-03-23",
+    "title": "Iran War Live Updates: Trump Says Military Will Postpone Strikes on Iranian Energy Infrastructure - WSJ",
+    "description": "Via WSJ. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi_gJBVV95cUxQY2ZnZjZ6Mmx3b3JmalN6dUVXbDNNU3VFaXNMdVc1NFFXTEx5dXp5ZDcwWHV6UTIxa2piSVVRd1l1LXFWSnktOVVXTV8xTy1DVmRRWVFPN2ZaZm9iVDlvUEhZVmc0SjRLaWZ6MzhJUnVSRWNMdUVtSEpvcGF5UjZqeU9xWkpUdjhsQmZtVTZtaFdRbUhJU2toWjdMWW1jYzdNeDh4UVZmX2diOVJad0c0dG00b1RYcEhsejMtZTYzVWZTWHp6ajJGdms0dTJQQ1RTTGl2c2RBX0VJMFkzZFhtQ28xYWJYdFAxU0JOTnNzdWFzX2R3aFBJUkZfbVZiS29KQzJFaDhEbnl4Q245eTlNOWRJWmlpOHd1dXlQQ09UblBkR2RRMGs1LURiTFd6anh4bG0xZlU0bGhjVm1FMG5UaU44eUV5QjN2bzBaTHFPTEhvVzhOVWYtcXEtNk1YMU4xVmdIYVU5eTF0NkdRbmFDT2VqXzJPMnNMSnFNSWtR?oc=5",
+    "source": "WSJ",
+    "fetchedAt": "2026-03-23T15:00:20.659Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=c5fo-yhWnPw",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "c5fo-yhWnPw",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-update-special-report-march",
+    "date": "2026-03-23",
+    "title": "Iran Update Special Report, March 22, 2026 - Institute for the Study of War",
+    "description": "Via Institute for the Study of War. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWlN4WmNWWFFDT3ZLZkgyd2FyNVZRNzJxbTd3dTVSZ3JOQjZsQWtFYzFra3F2M29QRkt4Ml9tUmtVLUs5dEFCU1U3SnhzbnJGejlLcUNkVnBmNUdFSktHbktjNUNUSXFPOWxOcnd1WkRQMmFOYW9oWlRvYm1Yal9fOUpkaUdNUWlKTnUydW5zaXEzNVo4VzdxMnp4Unl6SFJt?oc=5",
+    "source": "Institute for the Study of War",
+    "fetchedAt": "2026-03-23T15:00:22.562Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=DPS_Xye1cYc",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "DPS_Xye1cYc",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "trump-backs-off-escalation-but",
+    "date": "2026-03-23",
+    "title": "Trump backs off escalation but Iran war goes on amid 'productive' talks - NBC News",
+    "description": "Via NBC News. Auto-detected by headline monitor.",
+    "category": "retaliation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTW43a284STFpVWN2UHB3VnQ4YkJiT3ZhOE9LVnlITkFqTlB5cU43akZDd3ladF82RjRvUFNzSVJ3MFhFSmtnRTNtQndkWmhaSEpiNzRWN1prbV9HOWRQMkxoZFdKa1ZUamJoRHk5TWFnbS1nSnI5OXlnbGI0bnl3SlF4ZTcwR3pJVWlySFBvV3kyX2tibmV0Q1J0aTNBbWlCTVN3TGZ2Y3duNm9m?oc=5",
+    "source": "NBC News",
+    "fetchedAt": "2026-03-23T15:00:35.234Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=I2G1_KGgcC8",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "I2G1_KGgcC8",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "tit-for-tat-strikes-against",
+    "date": "2026-03-23",
+    "title": "Tit for tat strikes against nuclear plants in Iran and Israel - ICAN - International Campaign to Abolish Nuclear Weapons",
+    "description": "Via ICAN - International Campaign to Abolish Nuclear Weapons. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1RaUhJbXROTmxUZDFpeHBET1hQU1ZLQl8tcGRTZzVuNEtyeFQtVGNwZ0Qxa3Z4d3g4cXpMSTJJM0JPQldrVzZGdVcyRGdhM0NvYmdyalhDMlp1aWZpQnpzOUVvcUYya2d6emUw?oc=5",
+    "source": "ICAN - International Campaign to Abolish Nuclear Weapons",
+    "fetchedAt": "2026-03-23T15:00:45.977Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
   }
 ]
