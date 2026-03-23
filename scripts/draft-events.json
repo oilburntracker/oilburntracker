@@ -2915,5 +2915,296 @@
     "zoom": null,
     "casualties": null,
     "status": "draft"
+  },
+  {
+    "id": "how-many-missiles-does-iran",
+    "date": "2026-03-23",
+    "title": "How many missiles does Iran have left? - The Times",
+    "description": "Via The Times. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipgNBVV95cUxNTFhtUlRNamVMRDdUMUd5QS02VGd5WTVxcXJ0R0FBRk9CbnBDWV9qTGRlaGFJUDNFWEdrY3Z6TkR4TVZOZ0dodGRDdGFQNWI1NnFGLWdudHkzWWJwYXlLLVJUSXB0Z1k0WERRb2szZ1JzTmhSVkVZMHBWQzY2akdGODZJeEthVzQ4Szl1cDlHemNxVWFicDNrRTJBUjRBRTVnWUVZdkJJMEFQZU1UdERIVy1ITkhUdEZxNGcxWm9jdDdpalpfRDFGUjh2OHc2UzZFLWE4Zlh3U1lyUE1sR2RFdXQ3T0tLZ25TT2RCZk4tdGZuZ3FxZnllRjZKVURTQV92ZmtNS194aEYzTDdNblp5Y0czODBZeUpaNExrcXBwem5SbWRZWk02VUltY2ZLdWZBdWhoR0hfa0hJVFhtTjhIN0M5M2ZBSE1zWkZ2dE5TX0V3NWRWeXBvbjE1NjVSS005T0doWC1zOV9ZcVZwTUg5VmtOSm1YTGc5ZGltQm9WOHhvZG9LZUV3cWVLX2NualJWYUluOFlDUFJpczVEcEtPZm1iOE5mdw?oc=5",
+    "source": "The Times",
+    "fetchedAt": "2026-03-23T23:00:14.294Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=wPO4AEaOrKY",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "wPO4AEaOrKY",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-targets-northern-israel-in",
+    "date": "2026-03-23",
+    "title": "Iran targets northern Israel in missile attack as IDF strikes Hezbollah in Beirut - The Times of Israel",
+    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9yM0V4R3F2NWtYUmdjTUgyRTY2NjVMdDR4Q0tpVU4zbHdaSVgyOFpyZ2tQcHNDRkx6U2hENVFNa2NQVmZXcVN5TTdfMXZJS2FtOVlNZmtDQmJ2N3JkMk9ESnBJRdIBaEFVX3lxTE9OM2dOQlBod21XMjcwMmhwTFpndDl6V2t0MnNDMDNqZHV1ajZYR0Q2NGx3SVUwcnV4R0RORnAxZTlqc0h5LW1NTmxBR0QtYVNmYzFTUnhmeTJWODBxQmpUa2tDQTc2T2Ja?oc=5",
+    "source": "The Times of Israel",
+    "fetchedAt": "2026-03-23T23:00:15.899Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=6CQ5zeXE64A",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "6CQ5zeXE64A",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "trump-backs-off-escalation-but",
+    "date": "2026-03-23",
+    "title": "Trump backs off escalation, but Iran war goes on amid 'productive' talks - NBC News",
+    "description": "Via NBC News. Auto-detected by headline monitor.",
+    "category": "retaliation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTW43a284STFpVWN2UHB3VnQ4YkJiT3ZhOE9LVnlITkFqTlB5cU43akZDd3ladF82RjRvUFNzSVJ3MFhFSmtnRTNtQndkWmhaSEpiNzRWN1prbV9HOWRQMkxoZFdKa1ZUamJoRHk5TWFnbS1nSnI5OXlnbGI0bnl3SlF4ZTcwR3pJVWlySFBvV3kyX2tibmV0Q1J0aTNBbWlCTVN3TGZ2Y3duNm9m?oc=5",
+    "source": "NBC News",
+    "fetchedAt": "2026-03-23T23:00:17.457Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=KAhk-RVyEik",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "KAhk-RVyEik",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "report-iran-outlines-formal-obdurate",
+    "date": "2026-03-23",
+    "title": "Report: Iran outlines formal, obdurate demands for a deal; offers possible concessions behind the scenes - The Times of Israel",
+    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPNFJqN3dOLVRKaUZYemxnSE9YLXNITm5XVGIxUll1UXhxQndwY0NBM0tSRzdDVVhEUG1ITHZNNVU4NDNWUUxIWlFqd21ZRW00RWVtaGoxS3NnbW85RFYwV1NaakZ4eEhsVWFTMk1WcTBaa09XOGRqeExDSjNKaV9OVUduM1BnTlhFS1E1TXAwWHdoYmJvOXFiam1scDZXS3Z3RmhIamlKOEx0OS1yb1pmZ2hIR0FlVTBQTkJaUUx2elNqa0VHVE9HMHhIVFM2MHItNWNpSkgwQmE2RG1xUmc3OQ?oc=5",
+    "source": "The Times of Israel",
+    "fetchedAt": "2026-03-23T23:00:19.626Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=x-N2TQwoNKA",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "x-N2TQwoNKA",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israel-must-not-torpedo-talks",
+    "date": "2026-03-23",
+    "title": "Israel Must Not Torpedo Talks Between the United States and Iran - Haaretz",
+    "description": "Via Haaretz. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNVEhNLWd2akJWUEdmb1Y0d1pIY2xHVU9yTWwydE9MdmZyWGdfclJCS2NyUGJIcmNnT0w2OTNpay1qTGN6bU1SMGxSeHVaSHpaVENFajNBQVhuSHJPNVlRd1NlYXpNeWZpUW5mdU9GOVVWNFFMaW9SVEpOMUoyMTE5VXVNRC1ON2Q3Vmd4V2FHelM1aTRIRVB2UjlBaTJOLWtxbGpZYVVsaVBDMUpqdnVteVItNXoxUTZnOU00VThHQjNJckJTX3ZKV3d6V18yN3Q3RjV5X3F5QzF4VXk1VjBlVEFuNjRJaGV5Ty1MWFV1c0dWNC1zSGZ0NzZPZ2dwZW9zZzJB?oc=5",
+    "source": "Haaretz",
+    "fetchedAt": "2026-03-23T23:00:21.712Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=ty4QkqizjWw",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "ty4QkqizjWw",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "trump-sees-chance-for-deal",
+    "date": "2026-03-23",
+    "title": "Trump sees chance for deal with Iran after ‘military gains’: Netanyahu | Daily Sabah - Daily Sabah",
+    "description": "Via Daily Sabah. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUlp1OC0wSkxPTzgwcFNfdldmeFlBVGQ1MHZRaUF6enlzWVB5OVJkZHJ0NzE5ZXJCVXpaeXVIVUlEUS1PY0JMQVRjVElscjNJRVltd2hDeFZPejNaTmdRYWZoX3NrTW1OcG9lWnFYd3ktbEZ1RmhUOUVlSWtYdG9mdEJRVHJCZXRkLVNhX3NKa1RaeVgwNENVYUtnNUpHNHR2UGI1MWF2NnZLMVpncHfSAbMBQVVfeXFMUDZrMjViM3dqNHVqRjJxd2dEbm8yMk9kbkJIZVdhd3FxQWwwSURVZ01fcmYzU3A0bXAySk1SUDc3LXhpLXFlNFpyc0lDaGxCUHpaQUhoVXA5R2tLcHhVeFlwdjg3bTZQb2tING8tcS1GYlV0Y1pMeDVkUWJMelJaTzRPWlc2QkdHenJpNHM1d2I0c3R3TnlLRTlqRjN4U1IyMG1jNmlGM053ZjhoLWV3WFNmNEU?oc=5",
+    "source": "Daily Sabah",
+    "fetchedAt": "2026-03-23T23:00:24.129Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=0nlkq_SsjHo",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "0nlkq_SsjHo",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israeli-economy-lost-over-57b",
+    "date": "2026-03-23",
+    "title": "Israeli economy lost over $57B during 2 years of Gaza war: Central bank - Middle East Monitor",
+    "description": "Via Middle East Monitor. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPb0J5cUNuS29rNGxEVS1YSnhNYUNKUk03VWFsVlhFM0phMW82cFh0aFZxeVpDUWpKeUpwbFRpeDJmR1lvRHlWZ1NpdmhLV2F2UmFWZ3NucVhxcnZmdmpEeDRwT0lDMDNELVRUMVF3bFVwYmlQbnJqYUNJTnZ2c3V1OXF3VmJjSEtKSkdvWmthanpSLXNxeW1JZFVqRlg5OTRkN0NzYjAwUTRZMTJHb25aMjNoONIBuAFBVV95cUxPdnI2REdOOFBHUVRkblNNQU41WGhUWWhSbjlmX3RaQ0FydWJuWHJEeXlBdktUUjlLdjA5TDB0NVl2Y2xLRmR1WVNndFktcTR2MUNzVmM2YkRSZzRxc3VaQ0dvR2tTcWpUai1uUExodzJiaGhpZ3JYRnJqdnZhdkxHclBsNXA5cEhDSVlrUm01dV9zSVRsQ3Bmd3JwcHBZOFpJSm5lMk9nNkxwNFpHMVBhbUlZSmdkYUZY?oc=5",
+    "source": "Middle East Monitor",
+    "fetchedAt": "2026-03-23T23:00:26.291Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=_rGoWSJCZ5E",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "_rGoWSJCZ5E",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "in-pictures-from-gaza-to",
+    "date": "2026-03-21",
+    "title": "In pictures: From Gaza to Lebanon, Eid al-Fitr celebrations under the shadow of war - Telegraph India",
+    "description": "Via Telegraph India. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPVHFBdFdaa1NkTFRpT0Q5a0FLajBkRXhsUUVrZmw5SGhFUkY5cWhlMEJfU2RlWmFNWHU2QjhSUnVCX1E1NTBST01vSm96ZElQaE9IN1NtcFFVenRtckNMMG5DRnBHUzVYM0xLZnA4a2E5NzJSUFowV3NGOXV5d3ZIMmdVbENvYk1WVVNPakZxNlZsYzNaekFxMXNCR20zOUNPZ1NOMW5odGVHeGJ2c2V4aE1MQ0JvRXFzS1Vnb1lHejVKODg1N2VJbEhWLU1ieThJRFAzeHVsQnFNR1NlMzJJ0gHkAUFVX3lxTFBGSnZ3TTdidDVjbnplZzJPUk85c0VJRWpTTFRfWWYzUE55ZFhrNkpvSzV1MHBLYmk3RWw1SlBsQlVFaTlXWjU3UWJvanpkYW1kVXplb3ZlYjFmZEVDaTc5UHBycGVabXcydk95TWdHMUozTlI0T2xudFJDM3Y1VDdXOGR5LVZpaDFCVldPeEgwQmhnNi04andqNzBPSkxlMGVBSFZZT3BmNTFOWWNuTXlSSVlNWVZhaldzb3pmamxjV2tuX2xzWUhnek9QNW5uc1J1ZW1OZHNjamx6elJLb3pGeEYzSA?oc=5",
+    "source": "Telegraph India",
+    "fetchedAt": "2026-03-23T23:00:37.986Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "two-indiabound-tankers-pass-through",
+    "date": "2026-03-23",
+    "title": "Two India-Bound Tankers Pass Through Strait Of Hormuz - Marine News Magazine",
+    "description": "Via Marine News Magazine. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQemxtR1J4NVRfb1BHaF82YWw0SkpBZUVpOG5Nc0p1dFBvRnRWa0tpY1U5cVJxb3d6ZHMwQVF0Vm9rMWxLenkwOFBBMDdVZkNwZUtua0ZBRFpBSnRBYlE3ZUYyVWdNcFVMU1VOZVc3MG1HVm1EYjQ4bU1GQjlmUkVpYjI0aTIxR1E?oc=5",
+    "source": "Marine News Magazine",
+    "fetchedAt": "2026-03-23T23:00:44.677Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "opinion-wind-and-sunshine-dont",
+    "date": "2026-03-23",
+    "title": "Opinion: Wind and sunshine don’t transit the Strait of Hormuz - Anchorage Daily News",
+    "description": "Via Anchorage Daily News. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUHhkb0lLU2dJN0RDVk44SXJlWWJqUWg3dGsxcjlna1hKcFlHNkNRR1NFaWVybmIzWUV2WGMzdkh6RHVPYjJpemEyS0RobFNROG5nSmxXYkhteDV4YkxLa0dpWEJ0UnNMMThNX0dHUUdDdDZETUV1NTRZQlphY2FQMGlOZVhUTDl1Y01HaTVBeUdLWEpDSU14cXJNc0NnS0lyZ1E?oc=5",
+    "source": "Anchorage Daily News",
+    "fetchedAt": "2026-03-23T23:00:51.069Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "whats-at-stake-in-trumps",
+    "date": "2026-03-23",
+    "title": "What’s at stake in Trump’s ultimatum for Iran to open Strait of Hormuz - Straight Arrow News - SAN",
+    "description": "Via Straight Arrow News - SAN. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQYzBNb1l6dnBzNDZuYVdpcmtIdW1TT1lISnFuYndWVXc0RjhpV2dSUkMxNmZrdEswMW1xUWVtRmh3LXRfakVvNFNPMEJkekpYRGpLdUJtUDFzWmNhV0lGVEpIdGFiTmJVcGtma0k2SnplQUJaWVVvaTNwODdaaDUxNkF3V2w5YzBkR2I3UnFVbGlnUQ?oc=5",
+    "source": "Straight Arrow News - SAN",
+    "fetchedAt": "2026-03-23T23:00:57.542Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "video-president-trump-extends-iran",
+    "date": "2026-03-23",
+    "title": "Video: President Trump extends Iran Strait of Hormuz deadline - KSL TV 5",
+    "description": "Via KSL TV 5. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPOWJOVjk0eERzTEZFNnlYTHlkb1c5OUtLT2tyck4wSzVjMk9iS2tfaEpRWUdtSGlyMFUxR2NZcXpTSE5Hc3ZrNHNLZURSWklPbi04c19mOE1ra21pRi03NWpKTkxxMXdmeHg3cWlzODBXWk9SYjlFNTQ0NmMyeEY1bEtOWktfbHpERkxkV1p1dUtNdlVYelcwWWpR?oc=5",
+    "source": "KSL TV 5",
+    "fetchedAt": "2026-03-23T23:01:03.327Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "twice-bombed-still-nuclear-the",
+    "date": "2026-02-28",
+    "title": "Twice Bombed, Still Nuclear: The Limits of Force Against Iran’s Atomic Program - War on the Rocks",
+    "description": "Via War on the Rocks. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZ2ZhanJ5UnBieDVjSWlUcDI5d2VNV0t0WDZWS2lGaGhUUHJWeUd0YmFVOG0xb2E1b0diUjRVcGtSUnFneHc2NkVGUDc1M3N6SUlaV0szU1ViODVFNWxiUW45blZtckd5NkFpNGQ3ZWlHRUF1dS1RaEhDcno5TEl6VWU2d3JRRUo5aTBaMzBxNGdqWjI2QWpzT2J6bzRwSGs2TmVacWIxaC1OdzdiUTQw?oc=5",
+    "source": "War on the Rocks",
+    "fetchedAt": "2026-03-23T23:01:09.589Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
   }
 ]
