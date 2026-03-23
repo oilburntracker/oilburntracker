@@ -539,7 +539,95 @@ const WESTBANK_LOST = [
   'Their name will be in a UN report. Nobody will read it.',
 ];
 
-export const REGION_NAMES = ['Gaza', 'West Bank', 'Lebanon', 'Israel'] as const;
+// ── Iran — Protest massacre & airstrike victims ──
+
+const IRAN_PROTEST_HUMANITY_M = [
+  'A university student who marched for the rial his family lost',
+  'A young man who chanted "Woman, Life, Freedom" in Azadi Square',
+  'A factory worker who walked off the job and never went back',
+  'A teenager who livestreamed the protests until his phone died',
+  'A shopkeeper who shuttered his store and joined the crowd',
+  'A taxi driver who gave free rides to protesters fleeing teargas',
+  'A mechanic who had never been to a protest before this one',
+  'A teacher who told his students to stay home — then went himself',
+  'A young man who carried a woman he didn\'t know away from the gunfire',
+  'A medical student who set up a first aid station in an alley',
+  'A Kurdish man who drove six hours from Sanandaj to join the Tehran march',
+  'A father who went to find his son in the crowd and never came home',
+  'A construction worker who made signs from scrap cardboard',
+  'A software engineer who built the VPN that kept the protest organized',
+  'A baker who handed out bread to marchers from his shop window',
+];
+
+const IRAN_PROTEST_HUMANITY_F = [
+  'A woman who removed her hijab in the square and kept walking',
+  'A university student studying law who wanted to change the system from inside',
+  'A nurse who treated wounded protesters in a basement',
+  'A young woman who painted "Zan, Zendegi, Azadi" on a wall',
+  'A mother who marched because her daughter couldn\'t afford milk',
+  'A grandmother who had marched in 1979 and was marching again',
+  'A teenager who organized walkouts at her school',
+  'A woman who opened her home to strangers running from the Basij',
+  'A pharmacist who handed out first aid supplies until they came for her',
+  'A journalist who kept filing stories after the internet went dark',
+  'A young woman who stood on a car hood and sang',
+  'A social worker who refused to be silent about what she had seen',
+  'A student who hadn\'t slept in three days — running between protests and hospital visits',
+  'A woman who distributed water bottles at the front of the march',
+  'A schoolteacher who joined the march still wearing her work clothes',
+];
+
+const IRAN_PROTEST_LOST = [
+  'Shot from a rooftop. Never saw the shooter.',
+  'Went to a protest. Came home in a body bag — if the family was lucky.',
+  'Their crime was standing in a square. The sentence was immediate.',
+  'The regime called them mohareb — enemy of God. They were holding a sign.',
+  'Disappeared for three days. Family found them in the morgue.',
+  'Survived 2022. Survived the crackdowns. Didn\'t survive January 8.',
+  'Their phone was their weapon. A bullet was the answer.',
+  'Had never broken a law in their life. Died as a "rioter" in state media.',
+  'The blood was still on the pavement when they hosed it down.',
+  'One of fifteen thousand. The regime says three thousand. The graves say more.',
+];
+
+const IRAN_AIRSTRIKE_HUMANITY_M = [
+  'A man asleep in his bed when the building collapsed',
+  'A father trying to get his family to the basement',
+  'A young man who had survived the protests only to die in the bombing',
+  'A shopkeeper who was opening his store at dawn when the blast hit',
+  'An old man who refused to believe they would bomb a residential block',
+  'A night watchman at a factory near the target',
+  'A boy walking to school when the missile hit the building next door',
+  'A husband who shielded his wife with his body in the stairwell',
+  'A man driving to work on the highway when the overpressure wave flipped his car',
+  'A janitor at the school in Minab who was setting up chairs for morning assembly',
+];
+
+const IRAN_AIRSTRIKE_HUMANITY_F = [
+  'A woman who had just dropped her kids at school',
+  'A grandmother praying in her apartment when the walls came in',
+  'A girl at her desk in the Minab school when the second strike hit the prayer room',
+  'A mother cooking breakfast when the windows blew in',
+  'A nurse on her way to the night shift at the hospital',
+  'A young woman studying for exams in her apartment',
+  'A teacher who had gathered the children in the prayer room for safety',
+  'A pregnant woman in the maternity ward of a hospital near the target',
+  'An old woman who couldn\'t get down the stairs fast enough',
+  'A teenager who had been posting about the bombs on social media all night',
+];
+
+const IRAN_AIRSTRIKE_LOST = [
+  'Killed by a bomb made in a country they\'d never visited.',
+  'Was not a military target. Was not near a military target. Was home.',
+  'The building stood for forty years. It took four seconds to bring it down.',
+  'Collateral damage. That\'s the term. It means a person who didn\'t matter enough.',
+  'The strike was "surgical." The funeral was not.',
+  'Their neighborhood was not on any target list. The shrapnel didn\'t know that.',
+  'Survived the earthquake of 2003. Did not survive the airstrike of 2026.',
+  'An American bomb. An Israeli jet. An Iranian life. The math of modern warfare.',
+];
+
+export const REGION_NAMES = ['Gaza', 'West Bank', 'Lebanon', 'Israel', 'Iran'] as const;
 
 export interface GeneratedEntry {
   humanity: string;
@@ -575,6 +663,24 @@ export function generateEntry(index: number, age: number, sex: number, region: n
     // West Bank
     humanity = pick(isFemale ? WESTBANK_HUMANITY_F : WESTBANK_HUMANITY_M, s);
     lost = pick(WESTBANK_LOST, s);
+  } else if (region === 4) {
+    // Iran — distinguish protest vs airstrike by age patterns
+    // Protest victims (Jan 8) skew young; airstrike victims (Feb 28) are all ages
+    // Use seed to deterministically split — ~83% protest, ~17% airstrike (matching 15K vs 3.1K ratio)
+    const isAirstrike = ((s * 2654435761) >>> 0) % 6 === 0; // ~17%
+    if (isAirstrike) {
+      humanity = pick(isFemale ? IRAN_AIRSTRIKE_HUMANITY_F : IRAN_AIRSTRIKE_HUMANITY_M, s);
+      lost = pick(IRAN_AIRSTRIKE_LOST, s);
+    } else {
+      if (age < 13) {
+        // Children caught in protests/violence — use universal child templates
+        humanity = pick(isFemale ? CHILD_HUMANITY_F : CHILD_HUMANITY_M, s);
+        lost = pick(CHILD_LOST, s);
+      } else {
+        humanity = pick(isFemale ? IRAN_PROTEST_HUMANITY_F : IRAN_PROTEST_HUMANITY_M, s);
+        lost = pick(IRAN_PROTEST_LOST, s);
+      }
+    }
   } else {
     // Gaza (default) or children from any region (universal templates)
     if (age < 1) {
