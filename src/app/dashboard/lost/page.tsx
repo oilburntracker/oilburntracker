@@ -72,7 +72,7 @@ function FeaturedEntry({ entry, number }: { entry: typeof livesLost[0]; number: 
               <div className='text-xl md:text-2xl font-bold text-white leading-snug'>
                 {entry.humanity}
               </div>
-              {entry.sourceUrl && (
+              {false && entry.sourceUrl && (
                 <div className='mt-1.5 text-base md:text-lg text-zinc-400 leading-relaxed'>
                   {entry.lost}
                 </div>
