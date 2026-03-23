@@ -1,3 +1,5 @@
+import autoEventsJson from './auto-events.json';
+
 export type EventCategory =
   | 'military_strike'
   | 'facility_damage'
@@ -1553,6 +1555,70 @@ export const conflictEvents: ConflictEvent[] = [
   },
 
   // ══════════════════════════════════════════════
+  // JANUARY 2026: IRAN UPRISING & MASSACRE
+  // ══════════════════════════════════════════════
+  {
+    id: 'iran-protests-erupt',
+    date: '2025-12-28',
+    title: 'Nationwide protests erupt across Iran — rial collapse triggers mass unrest',
+    category: 'escalation',
+    description: 'Protests explode in Tehran and spread to every major city within hours. Triggered by the rial losing over 40% of its value since Israel\'s June 2025 strikes on Iran, compounding years of 90% currency devaluation since 2018 sanctions. Government budget prioritized security spending by 150% while limiting wage increases to two-fifths of inflation. Millions take to the streets demanding regime change. The largest protests since the 2022 Mahsa Amini uprising — but far bigger.',
+    lat: 35.6892,
+    lng: 51.3890,
+    zoom: 6,
+    sourceUrl: 'https://www.britannica.com/event/2026-Iranian-Protests',
+    mediaUrls: [
+      { type: 'news', url: 'https://iranhumanrights.org/2026/02/irans-machinery-of-repression-escalates-arbitrary-arrests-torture-enforced-disappearances-and-death-sentences-after-protest-massacre/', label: 'Center for Human Rights in Iran: Repression escalates' }
+    ]
+  },
+  {
+    id: 'iran-massacre-jan8',
+    date: '2026-01-08',
+    title: 'Iran massacres thousands of protesters — deadliest crackdown since 1979',
+    category: 'humanitarian',
+    description: 'Security forces launch a coordinated massacre across multiple provinces. Verified videos show forces positioned on rooftops of buildings, mosques, and police stations firing rifles and shotguns loaded with metal pellets at protesters, targeting heads and torsos. Killings documented in Tehran, Isfahan, Gilan, Kurdistan, Kermanshah, Alborz, and at least 5 other provinces. Described as the deadliest state violence against civilians in Iran since the Islamic Revolution.',
+    casualties: { killed: 5000, injured: 15000, displaced: 500000, source: 'UN Special Rapporteur Mai Sato — "at least 5,000 killed" (Jan 16). Iran government acknowledged 3,117. Amnesty International documented systematic unlawful killings.' },
+    lat: 35.6892,
+    lng: 51.3890,
+    zoom: 6,
+    sourceUrl: 'https://www.amnesty.org/en/latest/news/2026/01/iran-authorities-unleash-heavily-militarized-clampdown-to-hide-protest-massacres/',
+    mediaUrls: [
+      { type: 'news', url: 'https://www.amnesty.org/en/latest/news/2026/01/iran-massacre-of-protesters-demands-global-diplomatic-action-to-signal-an-end-to-impunity/', label: 'Amnesty International: Massacre demands global action' },
+      { type: 'news', url: 'https://www.hrw.org/news/2026/02/04/iran-human-rights-situation-spirals-deeper-into-crisis', label: 'Human Rights Watch: Iran crisis deepens' },
+      { type: 'news', url: 'https://www.britannica.com/event/2026-Iranian-Protests', label: 'Britannica: 2026 Iranian Protests' }
+    ]
+  },
+  {
+    id: 'iran-internet-blackout',
+    date: '2026-01-09',
+    title: 'Khamenei orders "no mercy" — total internet blackout, mass arrests begin',
+    category: 'escalation',
+    description: 'Supreme Leader Khamenei orders security forces to "kill protesters and show no mercy." Iran implements a near-total internet shutdown, cutting the country off from the outside world. Sweeping arbitrary arrests — thousands to tens of thousands detained. Nighttime curfews and military checkpoints imposed. Prosecutors classify protesters as "mohareb" (enemy of God) — a charge carrying the death penalty. Enforced disappearances and torture reported. Families of victims attacked and silenced.',
+    lat: 35.6892,
+    lng: 51.3890,
+    zoom: 6,
+    sourceUrl: 'https://www.amnesty.org/en/latest/news/2026/01/iran-authorities-unleash-heavily-militarized-clampdown-to-hide-protest-massacres/',
+    mediaUrls: [
+      { type: 'news', url: 'https://iranhumanrights.org/2026/02/irans-machinery-of-repression-escalates-arbitrary-arrests-torture-enforced-disappearances-and-death-sentences-after-protest-massacre/', label: 'CHRI: Arbitrary arrests, torture, enforced disappearances' }
+    ]
+  },
+  {
+    id: 'iran-protests-suppressed',
+    date: '2026-01-12',
+    title: 'Protests crushed — international community learns the scale of horror',
+    category: 'humanitarian',
+    description: 'Regime suppresses visible protests without fracturing. As internet is partially restored, the scale of the massacre becomes clear to the world. At least 5,000 killed according to the UN, with some estimates far higher. Judiciary head orders "rapid prosecutions" and "deterrent" punishments. Mass graves reported. The massacre becomes a key justification cited by US/Israeli officials in the lead-up to the February 28 strikes on Iran.',
+    casualties: { killed: 0, source: 'Casualties counted in Jan 8 event. This event marks the suppression and international awareness.' },
+    lat: 35.6892,
+    lng: 51.3890,
+    zoom: 6,
+    sourceUrl: 'https://www.hrw.org/news/2026/02/04/iran-human-rights-situation-spirals-deeper-into-crisis',
+    mediaUrls: [
+      { type: 'news', url: 'https://www.amnesty.org/en/latest/campaigns/2026/01/what-happened-at-the-protests-in-iran/', label: 'Amnesty International: What happened at the protests' }
+    ]
+  },
+
+  // ══════════════════════════════════════════════
   // 2026: THE IRAN WAR
   // ══════════════════════════════════════════════
   {
@@ -2384,16 +2450,26 @@ export const conflictEvents: ConflictEvent[] = [
   }
 ];
 
+// ═══ AUTO-PUBLISHED EVENTS (from headline monitor pipeline) ═══
+const autoEvents: ConflictEvent[] = autoEventsJson as ConflictEvent[];
+export const allEvents: ConflictEvent[] = [...conflictEvents, ...autoEvents]
+  .sort((a, b) => a.date.localeCompare(b.date) || (a.time || '').localeCompare(b.time || ''));
+
 // ═══ HELPER FUNCTIONS ═══
 
 export function getEventsUpTo(date: string): ConflictEvent[] {
-  return conflictEvents.filter((e) => e.date <= date);
+  return allEvents.filter((e) => e.date <= date);
 }
 
 // Oct 7 Hamas attack event IDs (attacks ON Israel, not Israeli response)
 const HAMAS_ATTACK_IDS = new Set([
   'oct7-rockets', 'oct7-nova-festival', 'oct7-beeri', 'oct7-kfar-aza',
   'oct7-nir-oz', 'oct7-nahal-oz', 'oct7-sderot', 'oct7-other-communities',
+]);
+
+// Jan 2026 Iran regime massacre — Iranian government killing its own people
+const IRAN_REGIME_IDS = new Set([
+  'iran-massacre-jan8', 'iran-protests-erupt', 'iran-internet-blackout', 'iran-protests-suppressed',
 ]);
 
 export function getCasualtiesUpTo(date: string) {
@@ -2423,6 +2499,8 @@ export function getCasualtiesUpTo(date: string) {
 
     if (HAMAS_ATTACK_IDS.has(event.id)) {
       party = 'Hamas — Oct 7 Attack';
+    } else if (IRAN_REGIME_IDS.has(event.id)) {
+      party = 'Iranian Regime — Protest Massacre';
     } else if (event.lat && event.lng) {
       // Lebanon first — Beirut is at lng ~35.5 which overlaps Israel's range
       if (event.lat >= 33.05 && event.lat < 34.8 && event.lng > 34.8 && event.lng < 36.8) party = 'Israeli Military — Lebanon';
@@ -2444,7 +2522,7 @@ export function getCasualtiesUpTo(date: string) {
 
 export function getVisibleFacilityIds(date: string): Set<string> {
   const ids = new Set<string>();
-  for (const event of conflictEvents) {
+  for (const event of allEvents) {
     if (event.date <= date && event.facilityId) {
       ids.add(event.facilityId);
     }
@@ -2453,7 +2531,7 @@ export function getVisibleFacilityIds(date: string): Set<string> {
 }
 
 export function getTimelineDates(): string[] {
-  const dates = Array.from(new Set(conflictEvents.map((e) => e.date)));
+  const dates = Array.from(new Set(allEvents.map((e) => e.date)));
   return dates.sort();
 }
 

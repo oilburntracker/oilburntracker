@@ -5,8 +5,9 @@ import { useFireStore } from '@/stores/fire-store';
 import { getConsumerImpactUpTo, BASELINE } from '@/features/impact/data/consumer-impact';
 import { getCasualtiesUpTo, getNuclearStatusUpTo, getVisibleFacilityIds, getEventsUpTo, getRecentEventStats } from '@/features/timeline/data/conflict-events';
 import { getWarCostUpTo } from '@/features/timeline/data/war-costs';
-import { getSupplyDisruptionUpTo } from '@/features/fires/data/curated-fires';
+import { getSupplyDisruptionUpTo, getInfrastructureDamageByCountry } from '@/features/fires/data/curated-fires';
 import { curatedFires } from '@/features/fires/data/curated-fires';
+import type { CountryDamageEntry, DamageClassification } from '@/features/fires/data/curated-fires';
 import { formatCO2, co2Equivalents } from '@/features/emissions/utils/emissions-model';
 import { computePerilScore, HISTORICAL_ANCHORS } from '@/lib/peril-score';
 import {
@@ -240,6 +241,108 @@ function FacilityCard({ facility, hit }: { facility: (typeof curatedFires)[numbe
               {facility.lngMTPA && <span className='px-2 py-1 rounded bg-gray-100 dark:bg-zinc-800 text-gray-600 dark:text-zinc-400'>LNG: <strong>{facility.lngMTPA} MTPA</strong></span>}
             </div>
           )}
+        </div>
+      )}
+    </div>
+  );
+}
+
+/* ── Country comparison bar chart ── */
+function CountryComparisonBar({ countries }: { countries: CountryDamageEntry[] }) {
+  const oilCountries = countries.filter(c => c.hasOilInfra && c.pctGlobalOffline > 0);
+  if (oilCountries.length === 0) return null;
+  const maxPct = Math.max(...oilCountries.map(c => c.pctGlobalOffline), 1);
+
+  return (
+    <StatCard>
+      <div className='text-xs uppercase tracking-widest text-gray-500 font-extrabold mb-2'>% Global Supply Offline by Country</div>
+      <div className='space-y-1.5'>
+        {oilCountries.map(c => (
+          <div key={c.country}>
+            <div className='flex items-center justify-between text-sm mb-0.5'>
+              <span className='font-bold text-gray-700 dark:text-zinc-300'>{c.country}</span>
+              <span className='font-bold tabular-nums text-gray-900 dark:text-zinc-100'>{c.pctGlobalOffline.toFixed(1)}%</span>
+            </div>
+            <Bar pct={(c.pctGlobalOffline / maxPct) * 100} color={
+              c.damageClassification === 'devastated' ? 'bg-red-600' :
+              c.damageClassification === 'heavy' ? 'bg-red-500' :
+              c.damageClassification === 'moderate' ? 'bg-orange-500' :
+              'bg-yellow-500'
+            } height='h-2' />
+          </div>
+        ))}
+      </div>
+    </StatCard>
+  );
+}
+
+/* ── Country damage card ── */
+const DAMAGE_BADGE: Record<DamageClassification, { label: string; cls: string }> = {
+  devastated: { label: 'DEVASTATED', cls: 'bg-red-100 dark:bg-red-900/40 text-red-700 dark:text-red-400 border-red-200 dark:border-red-800' },
+  heavy:      { label: 'HEAVY DAMAGE', cls: 'bg-orange-100 dark:bg-orange-900/40 text-orange-700 dark:text-orange-400 border-orange-200 dark:border-orange-800' },
+  moderate:   { label: 'MODERATE', cls: 'bg-yellow-100 dark:bg-yellow-900/40 text-yellow-700 dark:text-yellow-400 border-yellow-200 dark:border-yellow-800' },
+  light:      { label: 'LIGHT', cls: 'bg-blue-100 dark:bg-blue-900/40 text-blue-700 dark:text-blue-400 border-blue-200 dark:border-blue-800' },
+  threatened: { label: 'THREATENED', cls: 'bg-gray-100 dark:bg-zinc-700/50 text-gray-700 dark:text-gray-400 border-gray-300 dark:border-zinc-600' },
+  unaffected: { label: 'UNAFFECTED', cls: 'bg-green-100 dark:bg-green-900/40 text-green-700 dark:text-green-400 border-green-200 dark:border-green-800' },
+};
+
+function CountryCard({ entry, hitFacilityIds }: { entry: CountryDamageEntry; hitFacilityIds: Set<string> }) {
+  const [open, setOpen] = useState(false);
+  const badge = DAMAGE_BADGE[entry.damageClassification];
+
+  return (
+    <div className={`rounded-xl border overflow-hidden ${
+      entry.damageSeverity >= 80 ? 'border-red-200 dark:border-red-900/50 bg-red-50/30 dark:bg-red-950/10' :
+      entry.damageSeverity >= 40 ? 'border-orange-200 dark:border-orange-900/50 bg-orange-50/20 dark:bg-orange-950/10' :
+      'border-gray-200 dark:border-zinc-700/50 bg-white dark:bg-zinc-800/40'
+    }`}>
+      <button onClick={() => setOpen(!open)} className='w-full p-3 text-left cursor-pointer'>
+        <div className='flex items-start justify-between gap-2'>
+          <div className='min-w-0'>
+            <span className='text-base font-black text-gray-900 dark:text-zinc-100'>{entry.country}</span>
+            {entry.hasOilInfra ? (
+              <div className='text-sm text-gray-500 mt-0.5'>
+                <strong className='text-red-600'>{entry.facilitiesHit}</strong>/{entry.facilitiesTotal} facilities hit
+                {entry.capacityOfflineBPD > 0 && (
+                  <> · <strong>{(entry.capacityOfflineBPD / 1_000_000).toFixed(1)}M BPD</strong> offline</>
+                )}
+              </div>
+            ) : (
+              <div className='text-sm text-gray-500 mt-0.5'>
+                {entry.events} events · <strong className='text-red-600'>{entry.casualties.killed.toLocaleString()}</strong> killed
+                {entry.casualties.injured > 0 && <> · {entry.casualties.injured.toLocaleString()} injured</>}
+              </div>
+            )}
+          </div>
+          <span className={`shrink-0 text-[10px] font-black uppercase px-1.5 py-0.5 rounded border ${badge.cls}`}>
+            {badge.label}
+          </span>
+        </div>
+        {entry.hasOilInfra && entry.pctGlobalOffline > 0 && (
+          <div className='mt-2'>
+            <Bar pct={entry.pctGlobalOffline * 10} color={
+              entry.damageClassification === 'devastated' ? 'bg-red-600' :
+              entry.damageClassification === 'heavy' ? 'bg-red-500' :
+              'bg-orange-500'
+            } height='h-2' />
+            <div className='text-xs text-gray-400 mt-0.5 tabular-nums'>
+              {entry.pctGlobalOffline.toFixed(1)}% of global supply offline
+            </div>
+          </div>
+        )}
+        {entry.events > 0 && (
+          <div className='flex items-center gap-3 mt-1.5 text-xs text-gray-400'>
+            <span>{entry.events} events</span>
+            {entry.casualties.killed > 0 && <span>{entry.casualties.killed.toLocaleString()} killed</span>}
+            {entry.casualties.displaced > 0 && <span>{(entry.casualties.displaced / 1_000_000).toFixed(1)}M displaced</span>}
+          </div>
+        )}
+      </button>
+      {open && entry.facilities.length > 0 && (
+        <div className='px-3 pb-3 space-y-2 border-t border-gray-100 dark:border-zinc-800/50 pt-2'>
+          {entry.facilities.map(f => (
+            <FacilityCard key={f.id} facility={f} hit={hitFacilityIds.has(f.id)} />
+          ))}
         </div>
       )}
     </div>
@@ -490,10 +593,12 @@ export default function DeepDivePanel({ onMapMode }: { onMapMode?: () => void } 
         return (o[a.threatLevel] ?? 5) - (o[b.threatLevel] ?? 5);
       });
 
-    return { impact, casualties, nuclear, cost, supply, events, stats, peril, gasExtra, oilDelta, perTaxpayer, warDays, recession, predictions, hitFacilityList, threatenedFacilityList };
+    const countryDamage = getInfrastructureDamageByCountry(facilityIds, timelineDate, events);
+
+    return { impact, casualties, nuclear, cost, supply, events, stats, peril, gasExtra, oilDelta, perTaxpayer, warDays, recession, predictions, hitFacilityList, threatenedFacilityList, countryDamage, facilityIds };
   }, [timelineDate]);
 
-  const { impact, casualties, nuclear, cost, supply, stats, peril, gasExtra, oilDelta, perTaxpayer, warDays, recession, predictions, hitFacilityList, threatenedFacilityList } = data;
+  const { impact, casualties, nuclear, cost, supply, stats, peril, gasExtra, oilDelta, perTaxpayer, warDays, recession, predictions, hitFacilityList, threatenedFacilityList, countryDamage, facilityIds } = data;
   const totalCO2 = fireData.features.reduce((s, f) => s + f.properties.estimatedCO2TonsDay, 0);
   const equiv = co2Equivalents(totalCO2);
   const activeFires = fireData.features.length;
@@ -970,6 +1075,28 @@ export default function DeepDivePanel({ onMapMode }: { onMapMode?: () => void } 
           Click any facility for full breakdown — strategic importance, cascade impact, and supply chain role.
         </InfoBox>
       </div>}
+
+      {/* ── COUNTRY DAMAGE REPORT ── */}
+      {countryDamage.length > 0 && (
+        <div className='px-4 pt-4 pb-3 border-b border-gray-200 dark:border-zinc-700'>
+          <SectionTitle icon={<IconWorld className='h-5 w-5 text-blue-600' />} title='Country Damage Report' />
+          <div className='text-base text-gray-500 mb-3'>
+            Infrastructure and conflict damage by country — sorted by severity
+          </div>
+
+          <CountryComparisonBar countries={countryDamage} />
+
+          <div className='space-y-2 mt-3'>
+            {countryDamage.map(entry => (
+              <CountryCard key={entry.country} entry={entry} hitFacilityIds={facilityIds} />
+            ))}
+          </div>
+
+          <InfoBox>
+            Click any country to expand and see individual facility damage cards. Countries like Lebanon and Yemen appear based on conflict events even without oil infrastructure.
+          </InfoBox>
+        </div>
+      )}
 
       {/* ── EMISSIONS ── */}
       <div className='px-4 pt-4 pb-3 border-b border-gray-200 dark:border-zinc-700'>

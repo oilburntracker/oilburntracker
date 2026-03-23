@@ -539,6 +539,172 @@ export function getSupplyDisruptionUpTo(hitFacilityIds: Set<string>, timelineDat
   };
 }
 
+// ═══ COUNTRY DAMAGE AGGREGATION ═══
+
+/** Minimal event shape to avoid circular import with conflict-events.ts */
+interface EventForCountry {
+  date: string;
+  lat?: number;
+  lng?: number;
+  casualties?: {
+    killed?: number;
+    injured?: number;
+    displaced?: number;
+  };
+}
+
+export type DamageClassification = 'devastated' | 'heavy' | 'moderate' | 'light' | 'threatened' | 'unaffected';
+
+export interface CountryDamageEntry {
+  country: string;
+  facilitiesHit: number;
+  facilitiesTotal: number;
+  capacityOfflineBPD: number;
+  pctGlobalOffline: number;
+  worstStatus: FacilityStatus;
+  overallThreat: ThreatLevel;
+  events: number;
+  casualties: { killed: number; injured: number; displaced: number };
+  damageClassification: DamageClassification;
+  damageSeverity: number; // 0-100, for sort order
+  facilities: CuratedFire[];
+  hasOilInfra: boolean;
+}
+
+/** Bounding boxes for countries without oil infrastructure */
+const COUNTRY_BBOXES: Record<string, { latMin: number; latMax: number; lngMin: number; lngMax: number }> = {
+  Lebanon: { latMin: 33.05, latMax: 34.8, lngMin: 34.8, lngMax: 36.8 },
+  Yemen:   { latMin: 10, latMax: 20, lngMin: 42, lngMax: 46 },
+};
+
+/** Bounding boxes for countries WITH oil infrastructure (for event counting) */
+const OIL_COUNTRY_BBOXES: Record<string, { latMin: number; latMax: number; lngMin: number; lngMax: number }> = {
+  'Saudi Arabia': { latMin: 16, latMax: 32.2, lngMin: 34.5, lngMax: 56 },
+  'Iran':         { latMin: 25, latMax: 40, lngMin: 44, lngMax: 63.5 },
+  'UAE':          { latMin: 22.5, latMax: 26.2, lngMin: 51, lngMax: 56.5 },
+  'Qatar':        { latMin: 24.4, latMax: 26.3, lngMin: 50.7, lngMax: 52 },
+  'Iraq':         { latMin: 29, latMax: 37.5, lngMin: 38.8, lngMax: 48.5 },
+  'Kuwait':       { latMin: 28.5, latMax: 30.1, lngMin: 46.5, lngMax: 48.5 },
+  'Bahrain':      { latMin: 25.7, latMax: 26.4, lngMin: 50.3, lngMax: 50.9 },
+  'Israel':       { latMin: 29.5, latMax: 33.3, lngMin: 34.2, lngMax: 35.9 },
+};
+
+function classifyDamage(facilitiesHit: number, facilitiesTotal: number, pctGlobal: number, worstStatus: FacilityStatus, events: number): { classification: DamageClassification; severity: number } {
+  if (facilitiesTotal > 0) {
+    const hitRatio = facilitiesHit / facilitiesTotal;
+    if (worstStatus === 'active_fire' && hitRatio >= 0.5) return { classification: 'devastated', severity: 95 };
+    if (worstStatus === 'active_fire' || (worstStatus === 'damaged' && hitRatio >= 0.5)) return { classification: 'heavy', severity: 80 };
+    if (worstStatus === 'damaged' || worstStatus === 'offline') return { classification: 'moderate', severity: 60 };
+    if (facilitiesHit > 0) return { classification: 'light', severity: 40 };
+    if (events > 0) return { classification: 'threatened', severity: 20 };
+    return { classification: 'unaffected', severity: 0 };
+  }
+  // Non-oil country — classify by events/casualties
+  if (events >= 20) return { classification: 'devastated', severity: 90 };
+  if (events >= 10) return { classification: 'heavy', severity: 70 };
+  if (events >= 5) return { classification: 'moderate', severity: 50 };
+  if (events > 0) return { classification: 'light', severity: 30 };
+  return { classification: 'unaffected', severity: 0 };
+}
+
+const STATUS_SEVERITY: Record<FacilityStatus, number> = { active_fire: 4, damaged: 3, offline: 2, monitoring: 1, operational: 0 };
+const THREAT_SEVERITY: Record<ThreatLevel, number> = { critical: 4, high: 3, elevated: 2, moderate: 1, low: 0 };
+
+export function getInfrastructureDamageByCountry(
+  hitFacilityIds: Set<string>,
+  timelineDate: string,
+  events: EventForCountry[],
+): CountryDamageEntry[] {
+  // Group facilities by country (exclude International Waters)
+  const countryFacilities: Record<string, CuratedFire[]> = {};
+  for (const f of curatedFires) {
+    if (f.country === 'International Waters') continue;
+    if (!countryFacilities[f.country]) countryFacilities[f.country] = [];
+    countryFacilities[f.country].push(f);
+  }
+
+  // Count events + casualties per country using bounding boxes
+  const allBBoxes = { ...OIL_COUNTRY_BBOXES, ...COUNTRY_BBOXES };
+  const countryEvents: Record<string, { events: number; killed: number; injured: number; displaced: number }> = {};
+  for (const country of Object.keys(allBBoxes)) {
+    countryEvents[country] = { events: 0, killed: 0, injured: 0, displaced: 0 };
+  }
+
+  for (const ev of events) {
+    if (!ev.lat || !ev.lng) continue;
+    for (const [country, bbox] of Object.entries(allBBoxes)) {
+      if (ev.lat >= bbox.latMin && ev.lat < bbox.latMax && ev.lng >= bbox.lngMin && ev.lng < bbox.lngMax) {
+        countryEvents[country].events++;
+        if (ev.casualties) {
+          countryEvents[country].killed += ev.casualties.killed || 0;
+          countryEvents[country].injured += ev.casualties.injured || 0;
+          countryEvents[country].displaced += ev.casualties.displaced || 0;
+        }
+        break; // each event to one country only
+      }
+    }
+  }
+
+  // Build entries for oil countries
+  const entries: CountryDamageEntry[] = [];
+  for (const [country, facilities] of Object.entries(countryFacilities)) {
+    const hit = facilities.filter(f => hitFacilityIds.has(f.id));
+    const capacityOfflineBPD = hit.reduce((s, f) => s + f.capacityBPD, 0);
+    const pctGlobalOffline = hit.reduce((s, f) => s + f.percentGlobalCapacity, 0);
+    let worstStatus: FacilityStatus = 'operational';
+    let overallThreat: ThreatLevel = 'low';
+    for (const f of facilities) {
+      if (STATUS_SEVERITY[f.status] > STATUS_SEVERITY[worstStatus]) worstStatus = f.status;
+      if (THREAT_SEVERITY[f.threatLevel] > THREAT_SEVERITY[overallThreat]) overallThreat = f.threatLevel;
+    }
+    const ce = countryEvents[country] || { events: 0, killed: 0, injured: 0, displaced: 0 };
+    const { classification, severity } = classifyDamage(hit.length, facilities.length, pctGlobalOffline, worstStatus, ce.events);
+
+    entries.push({
+      country,
+      facilitiesHit: hit.length,
+      facilitiesTotal: facilities.length,
+      capacityOfflineBPD,
+      pctGlobalOffline,
+      worstStatus,
+      overallThreat,
+      events: ce.events,
+      casualties: { killed: ce.killed, injured: ce.injured, displaced: ce.displaced },
+      damageClassification: classification,
+      damageSeverity: severity,
+      facilities,
+      hasOilInfra: true,
+    });
+  }
+
+  // Add non-oil countries (Lebanon, Yemen) if they have events
+  for (const [country, bbox] of Object.entries(COUNTRY_BBOXES)) {
+    if (countryFacilities[country]) continue; // already handled
+    const ce = countryEvents[country];
+    if (!ce || ce.events === 0) continue;
+    const { classification, severity } = classifyDamage(0, 0, 0, 'operational', ce.events);
+    entries.push({
+      country,
+      facilitiesHit: 0,
+      facilitiesTotal: 0,
+      capacityOfflineBPD: 0,
+      pctGlobalOffline: 0,
+      worstStatus: 'operational',
+      overallThreat: 'low',
+      events: ce.events,
+      casualties: { killed: ce.killed, injured: ce.injured, displaced: ce.displaced },
+      damageClassification: classification,
+      damageSeverity: severity,
+      facilities: [],
+      hasOilInfra: false,
+    });
+  }
+
+  // Sort by severity descending
+  entries.sort((a, b) => b.damageSeverity - a.damageSeverity || b.pctGlobalOffline - a.pctGlobalOffline);
+  return entries;
+}
+
 /**
  * Haversine distance in km between two coordinates
  */
