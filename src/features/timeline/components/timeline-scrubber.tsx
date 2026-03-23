@@ -2,6 +2,7 @@
 
 import { useState, useCallback, useRef, useEffect, useMemo } from 'react';
 import {
+  allEvents,
   conflictEvents,
   getEventsUpTo,
   CATEGORY_COLORS,
@@ -27,7 +28,7 @@ const ALL_DAYS = buildDayArray();
 
 // Build a lookup: date → events on that date
 const EVENTS_BY_DATE = new Map<string, ConflictEvent[]>();
-for (const event of conflictEvents) {
+for (const event of allEvents) {
   const existing = EVENTS_BY_DATE.get(event.date) || [];
   existing.push(event);
   EVENTS_BY_DATE.set(event.date, existing);

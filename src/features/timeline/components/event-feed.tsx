@@ -87,7 +87,7 @@ export default function EventFeed({ onFlyTo, fullPage = false }: EventFeedProps)
   useEffect(() => {
     const container = scrollRef.current;
     if (!container) return;
-    const saved = localStorage.getItem('obt-feed-scroll');
+    const saved = sessionStorage.getItem('obt-feed-scroll');
     if (saved) {
       requestAnimationFrame(() => { container.scrollTop = parseInt(saved, 10); });
     }
@@ -95,7 +95,7 @@ export default function EventFeed({ onFlyTo, fullPage = false }: EventFeedProps)
     const onScroll = () => {
       clearTimeout(timeout);
       timeout = setTimeout(() => {
-        try { localStorage.setItem('obt-feed-scroll', String(container.scrollTop)); } catch {}
+        try { sessionStorage.setItem('obt-feed-scroll', String(container.scrollTop)); } catch {}
       }, 300);
     };
     container.addEventListener('scroll', onScroll, { passive: true });
