@@ -3345,5 +3345,83 @@
         "label": ""
       }
     ]
+  },
+  {
+    "id": "auto-live-updates-mixed-signals-on",
+    "date": "2026-03-24",
+    "title": "Live updates: Mixed signals on Iran talks as war rages on and oil prices climb back over $100",
+    "category": "facility_damage",
+    "description": "Via CNN. Auto-detected by headline monitor.",
+    "lat": 35.69,
+    "lng": 51.39,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9DSy1uYWZFRFdKSEN0c0c1VmJxaXpjU2tsNzVRSjd5VW15YmtzMUUxam5HWXNDTy1VUVYtTE9WS3Q2WVRGeTl0V1ZlaFYzU3hpbzlmMFBVMHI4VXRBLXNnWDV2TktsLV9GY0h2WU5GNG5jYmlLZjlLWg?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=F7vLyz6ixf8",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "auto-iran-fires-more-missiles-at",
+    "date": "2026-03-24",
+    "title": "Iran fires more missiles at Israel and rejects Trump's talk as 'fake news' for markets",
+    "category": "military_strike",
+    "description": "Via NPR. Auto-detected by headline monitor.",
+    "lat": 35.69,
+    "lng": 51.39,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9zOE1sVDFSeUVhTmZyUWhlLV91TE9md2tLN2lCS3dhdUM1VzdrdGVhcmJzaXRkaVdmaDUyenBpWGFaSzBpTTQybEFxLUpPVmkyUW5oUXloSUh1YjN1b3VOaU5TWDJ3ZXhYcENN?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=4NpDLxEO_r4",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "auto-airstrikes-batter-iran-as-it",
+    "date": "2026-03-24",
+    "title": "Airstrikes batter Iran as it attacks Israel and Gulf states, while diplomatic efforts gather pace",
+    "category": "diplomatic",
+    "description": "Via AP News. Auto-detected by headline monitor.",
+    "lat": 35.69,
+    "lng": 51.39,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQmNqX0xqUURjclQ0RkdQOFhFUWwxemU2Z3dnZFFudDZkZlJnRFp3dVVtZWpKdjEwRWxpVVVkZ2pWdWJRQWhCWUt5RzFkU1ZiYjF4dzg1d0Jsd283MzR6N1lsSGxnYTVqRFo0b05iNVFfN3JYUGVvMy1JTkRCaExVaDFWdlI4b1pCQUxTVmZPSzdJVkFUUjV6b00wbU1ZVU44eEl0aw?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=HJu7_l97vA0",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "auto-keir-starmers-policy-on-the",
+    "date": "2026-03-24",
+    "title": "Keir Starmer’s policy on the Iran war is a recipe for catastrophe",
+    "category": "escalation",
+    "description": "Via Al Jazeera. Auto-detected by headline monitor.",
+    "lat": 35.69,
+    "lng": 51.39,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWGx2REwtcnpQWjlsWnF0ZkdNRkp6Mnlxa0pEbHJ2MFFraDhhUVVDMll2T1B4clZQYmttU0hNN2ROYTdkcTE3MG8wdEdudTc3dHIzNEcta0NqR1ExMGlUNUsxZ3Y3SzRlOGdDUnIxenFqcW1FT21oMEhiVjJ0aGFUVVVIQnkyUDRtX0t5YTNBSVQ3Y01MODVTSUNGVzM2eUdqREQxX3E4cjdMVXNqcUHSAbMBQVVfeXFMTThrV21mZ01hMjdraDFFZ2RwTTEwQkh0YWhGaEpLQ2tnWXl3NnZmRFdCQzU3cThyaDRBdFBiamx6LVlWTFpXTWhrWUFzbGYyLWZiZUhraVpzaGhwQTdmbXlhOURaWFdLa25PWDZMazBaNWs3RkNvOEV6VlF3NzZUeVNibmp4YXl5V01KQjByUVYtUUFVVkc4dHZuSTd2VVcwdXpub3kyNlZacjlxQ1VsSDU5THM?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=8ecvSh7gKB4",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "auto-qatarenergy-declares-force-majeure-on",
+    "date": "2026-03-24",
+    "title": "QatarEnergy declares force majeure on some LNG contracts",
+    "category": "escalation",
+    "description": "Via Al Jazeera. Auto-detected by headline monitor.",
+    "lat": 25.29,
+    "lng": 51.53,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZ2pTVDBvVTNlRnZZS2NqajVBc0JBS0hRRDlOUG92bk9ESHVCclZxdGVVNWFBWmFHaFI5QzNsWlJuRXJnY2NiQ25xV25vaVBWZTRvRnRTRkExX1o3bW9FSFM2Q19SQkZQdzFzaF82Z1NnRTlwU1duYlZOOHBsVVRTOUxmc3RBeEhIbXRwOHRWWDdzbEQxUFVmYTBycEp6UdIBowFBVV95cUxOcG40R3lNOG1hNElkVk5wczNXLVFRa0lIZTBwZm9haGFwV1dST1E0UEFYVTQ0cUQ1cmZKaWZxamZlMG4ydEhlUDlxcmNiZHRpTFl3YXUwZG01ZmZEdl9McFBDYUdPRnFReklFbjZZb0VfRkFVaUZpdGZFNWV6dVlWazJFTzAtTmxROGNLcXdWN1JrSEJUNnYwZGtTckVOVjFuZ29v?oc=5"
   }
 ]
