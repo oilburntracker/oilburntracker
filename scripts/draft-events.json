@@ -1,174 +1,5 @@
 [
   {
-    "id": "iran-update-special-report-march",
-    "date": "2026-03-23",
-    "title": "Iran Update Special Report: March 22, 2026 - Institute for the Study of War",
-    "description": "Via Institute for the Study of War. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWlN4WmNWWFFDT3ZLZkgyd2FyNVZRNzJxbTd3dTVSZ3JOQjZsQWtFYzFra3F2M29QRkt4Ml9tUmtVLUs5dEFCU1U3SnhzbnJGejlLcUNkVnBmNUdFSktHbktjNUNUSXFPOWxOcnd1WkRQMmFOYW9oWlRvYm1Yal9fOUpkaUdNUWlKTnUydW5zaXEzNVo4VzdxMnp4Unl6SFJt?oc=5",
-    "source": "Institute for the Study of War",
-    "fetchedAt": "2026-03-23T04:39:10.854Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=RVnUDI6_2Do",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "RVnUDI6_2Do",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "gulf-states-opposed-war-with",
-    "date": "2026-03-22",
-    "title": "Gulf states opposed war with Iran. Most are now pushing to keep the fight going - The Times of Israel",
-    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNOTR0bjYxTFdVNW4yZFlBei1wZC1VRE9HOGIxcDBKU1R4OUU1Zlptd3J4VExTajIzSGZaY1lGNmoxVXp2aDgtMDNwREVzT3F3SjVGSHQ1ZjRSZzlvMFY2N2YyT0hNdWpVc1g4dUlSd3VSSWs3Qm9HdTgybG9rQzBOMng4Qm56NFd3aHo3Y21UeE1rWF9ESEpGaW05WGM1YXlQVGlwZXo5UHBTYTUtaGfSAbMBQVVfeXFMUFV1TDZfX0JqYlRnSzhTLVVRWWRBRGVCU1hveUxtd0lpUWZudjh5RUxrRkRld0NDenNpaTZxTWJ3U3FRUFdQaG5wY2RGUnV1ZjI0OWh4Yld3SFAwek9vRzJFUGpGSEFIbXg3WVFHbmR0UDdNQXgyREZ2aDhZM3FsVTl6dWo1VENiZ0l1UktObUNYd3RNV2pXWjl4b2dJbkMzUm1hRWVIRElWZ2N4ZTBZYlJqaFk?oc=5",
-    "source": "The Times of Israel",
-    "fetchedAt": "2026-03-23T04:39:13.019Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=e1ObljmtYTA",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "e1ObljmtYTA",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iranus-live-tehran-threatens-to",
-    "date": "2026-03-23",
-    "title": "Iran-US live: Tehran threatens to ‘close’ Strait of Hormuz despite Trump’s deadline - The Independent",
-    "description": "Via The Independent. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQS3pIWERDeTU0UUhrMng0amNUOEdQV2NPSV9YRHkzWTlQNUozekZ5Wm1lRkh5WDc5R2xwMEJpalc1OEhqdHFlQWloTGJrSWhteXQ2TUNrMlgyY0dnTGlNWWVJemlBb3hhX2pSN1Y2V3VnZVA0RHMtQ3YwQTN0ZUNWLUI1RXhpekZDZHk5NVVBNkh6QzBZREpPbUZVRjN6S3BVVzlMb1B0R0V0MkJUS2s4Wklua0g0a0R2Tlp1Q2ZrX3NJSU5I?oc=5",
-    "source": "The Independent",
-    "fetchedAt": "2026-03-23T06:00:12.579Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=c5fo-yhWnPw",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "c5fo-yhWnPw",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-war-world-economy-facing",
-    "date": "2026-03-23",
-    "title": "Iran war: World economy facing 'major threat,' IEA head says - dw.com",
-    "description": "Via dw.com. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNU3RON0ItUXVMTXBiaUFCSkVSaERDa09jeEdYOWg1WWJFYmh1b0ZzLWZ0aVFuOElxcmNibUxJdkI1YjJmcmdNdVpqVmFRTnFVLU9CU2d1WXl1U3FtMnBGa1pPWjVrNnd0UFBnVTdQc252dUZZd0ZXU3puZmpZb1Vrby1NeTZwWkZBUlNhc3FEOVFuLTlMbHFz?oc=5",
-    "source": "dw.com",
-    "fetchedAt": "2026-03-23T06:00:22.170Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=O0EoObkQOKk",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "O0EoObkQOKk",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "illegal-inhuman-iran-sticks-spanish",
-    "date": "2026-03-23",
-    "title": "'Illegal, inhuman': Iran sticks Spanish PM's 'no war' message on missiles targeting Israel - The Times of India",
-    "description": "Via The Times of India. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQYUtGNURYUWNKWVA1UjZzR0NFUThBalJreEs1OThkZkp0b3dqTUVKa0dJajh1Ykl0dzZGM056VEszaGprWTFyckg0LVFPRHNUQmw2elhwck9UUWxZSDdvVUdXakgwY3JoMjZQNHl2aW50bG5uLVc3bVYwWURlemNqWGY3S1czM0hMT0I4RE02R3dPSGZYdHU1cHM2UTBVYnJ6eW1yeUhVSUtwemtHTDMycDhSM3BWTXJhUk8yZ3BLQ1d1RWNoUnZkV3RJSkczYnYxYTZsb1FGYTJ6Vy1ZN0M2Zl9Id3hhUGxnSW1xVldjVGZvWFBhQXfSAfsBQVVfeXFMTlV4d2ViQURpQXRpMlVYVmVndXVIZDExNjlESTVNTS1Sa2hKSGk2V1dySmljS3R1Tl93dGo0S3k1RzB2LWdObFhObTJhc2hqSDRDdVJZM1JoRFYyX2szWmRwNDIzVkdWUm8wbHRyT0dhdlAxOVhuT0Z2MkEyXzRpeExqTDNYQTcyN0lISGFRbVBWdjMyZ2czbktvLXdPMTJMeXJadlB2UG9yMnhkdm02eHRMWFphSzdTUE51RmNneEdFU25BTTJxTkU2MFF4ZlNaZW9vd0x1d0RfVDdnY193cWlKbGdvSHRrR3lHUV84Q3Z6NWhBejJTT3h4SzA?oc=5",
-    "source": "The Times of India",
-    "fetchedAt": "2026-03-23T06:00:24.079Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=D4pdN7ZjlOs",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "D4pdN7ZjlOs",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "a-blank-check-for-israel",
-    "date": "2026-03-12",
-    "title": "A Blank Check for Israel and the War with Iran - War on the Rocks",
-    "description": "Via War on the Rocks. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbUo0UGlSZ3lJSFFyTUFsV0ZscVZTRHAxTU13bGZxbV9MQ0pCYWF3LVRmb1VHUmwtcEJMTWZhQVdYcnZxUUFMaURFNlNlVkNxSUgzLXkwS3pTdXFLNUw5MjgxM1JlUmNyYTFpSlcwU2VYNWpuU2hqLUFlWVBfc2dPVHRKZU1DS09HNUJv?oc=5",
-    "source": "War on the Rocks",
-    "fetchedAt": "2026-03-23T06:00:39.788Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-war-day-23-is",
-    "date": "2026-03-23",
-    "title": "Iran War – Day 23: Is De-escalation Even Possible? - The Times of Israel",
-    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
-    "category": "retaliation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRE93NjRTcFVpaUw2VnVIM2piTnFuaVMxRlJhcnpfaXNHUmR5empFd2NRVklqZnRaeTFHbUkybmNTbS1GZHNtZGdSU0pDQVRVcVhhUGZIM2VNV2dHQnRiN3BhWjVhbXNzWmZvQ1liNDhpbGptWTFXU1I3a21PYW5jLUt0YkdNUQ?oc=5",
-    "source": "The Times of Israel",
-    "fetchedAt": "2026-03-23T06:00:45.485Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "israel-launches-new-wave-of",
     "date": "2026-03-23",
     "title": "Israel launches new wave of attacks on Tehran and Iran threatens to start hitting Gulf power plants - The Killeen Daily Herald",
@@ -4255,6 +4086,165 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBJX3VBcWpZUWpOTGN6TGh1WUFLTVVGOGFsVmtZQk9QOTd6RzJhdTZTVjFuQ2ZLRGk0ZkJoOU1lc3B3bXppX0wtd3RPZjFVd1VxSlpiWEI5cmV6SHF4RlpqMUhqWVExd2VCZVE?oc=5",
     "source": "edition.cnn.com",
     "fetchedAt": "2026-03-24T05:01:04.834Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-war-us-and-iran",
+    "date": "2026-03-24",
+    "title": "Iran war: US and Iran at odds over peace talks - DW.com",
+    "description": "Via DW.com. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZW9WZEdfNG1TWHdiNE5xelluZDdOT3dPTUlVenFkT0F2cmhGMEVibVBPRU5MZHBDR252MEZ5eGN0aHQtUzlSTjVpSW5xSFpodzZaclFyWlZwUzZDdHZ4V3dZaHd5Rm1FNzd6eHlabjdDeHdFNjdJSnZiM2hxTkVjM1Vzd3RlazR6?oc=5",
+    "source": "DW.com",
+    "fetchedAt": "2026-03-24T06:00:13.868Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=l6zUp1NAv68",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "l6zUp1NAv68",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-fires-new-wave-of",
+    "date": "2026-03-24",
+    "title": "Iran fires new wave of missiles at Israel after denying Trump talks - The Grand Junction Daily Sentinel",
+    "description": "Via The Grand Junction Daily Sentinel. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNemVSS1BuQWZ0dERTV09Bb29fS1FyQlFGTnZjZk5JdzUyZFhYdDVmdWdzRU1BMGRHZEkyRHRjLUFRWFk0VWlmOW1Fa0J0Q1dnT0Itbi1rVjZRVjBiV0xfb2lVclRrZkFLdXBLcGNzOVZWS0RkdDhmMnlMdHU0VDg5ajJXcGNtMEVpWXV5Sm13MDR4Vy1lYU1YMk0tU01hczZza1NpMEdNTmdNTUo2YlVaSDNrb2cxd0R1elFwdDE4YUw2TlNRVEN0cklfczRreEhCTlAtLVFFRlpFYXB0dlhNZ0NnNEVHejlQOXdPS29wRdIB9AFBVV95cUxNZ25KODBMTXdYMHViVXNFZUJVdTNfbUhEVzJmN1p5eFhsUEw2OGM0MTl0WFVLV3cwTmhJM0NHeWFZWE1CbE9sTTNha1UtUGNCSkJXaDBwRnZDeDVJeU9KM3lMdW4xUEIyTzEyeUpFM25YUERDSFM4NFoxQXQtVGFZN3J5Rko5aFhyYzViQlVQaVlXc20yWWRUY3NCUjJ6RVVzS2lmRFEtNjVRRmV5U3MtQVpnOG9wZ253TzhkYWRoVmZNMGhubEY5XzVCWDBtUVU0OWhNbXlRUVR4ODQ0U2JjRDA3LWlXRzA5NE9YRlE1LTNXci1h?oc=5",
+    "source": "The Grand Junction Daily Sentinel",
+    "fetchedAt": "2026-03-24T06:00:19.364Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=cD880s2Y1Ew",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "cD880s2Y1Ew",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "wsj-saudi-arabia-and-uae",
+    "date": "2026-03-24",
+    "title": "WSJ: Saudi Arabia and UAE ‘inching toward’ joining fighting against Iran - The Times of Israel",
+    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQc0UtLTRuMmhwSEpSZElGWDVvVGpZMUtqblhPTHVGZWxwOURzNEJudURFWkstbnRYR2dmOGt6QlphbDlhbllwLUJBWWoyNzN4WmlaZFI3SVZfLVZ2WVp4Zmp1eFpFRTY4MVlyenlTS1ZjM3M0RWVsaDFuUEdfbTNLSV8yWF9xelFuUTlIbjNyb1ZhYmVSSkpTUGxMWk1iOHloS05UbExwekVrb1NDbEFyNTBBSGFIdw?oc=5",
+    "source": "The Times of Israel",
+    "fetchedAt": "2026-03-24T06:00:23.508Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=GqoqUs_Z-_4",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "GqoqUs_Z-_4",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-targets-israel-and-gulf",
+    "date": "2026-03-24",
+    "title": "Iran targets Israel and Gulf Arab states even as Trump says US is in talks to end the war - Northeast Mississippi Daily Journal",
+    "description": "Via Northeast Mississippi Daily Journal. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQNVBuQldubzNGQS1QQ3VsZE1EUTJJcjUwVkpiS28zd3dNOVR1Ykw2REJDbmRPN3Z2NXNCaElPbnR6d2VWSmYxWnJZb293ZzVpUDU2RW9ENzdjeEJKQjFOWVdKRzd3RkRZQWs2THNLYmUzYVpXLXc3NFc4X3cxRFBoeVEyUlczLVZ1MjBEOXlmY3lRS01YcXd0ZEltTjhxcDZSLW9qTWxhRDFDTl9NLTFCMWc2b3ZNWUM2M1hXcXljQ3AxSkk3OUhseUEyTEJlVEVVMHNTam53MFFCNW5zX2lqVWMzRlhLX2dQMW5OSjN3aFhLa1ZLdFRYckVtTQ?oc=5",
+    "source": "Northeast Mississippi Daily Journal",
+    "fetchedAt": "2026-03-24T06:00:25.716Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=3PQYNawx9UU",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "3PQYNawx9UU",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "opinion-as-the-us-and",
+    "date": "2026-03-23",
+    "title": "Opinion | As the US and Israel Escalate in Iran, Europe Trades Alignment for Strategic Autonomy - Common Dreams",
+    "description": "Via Common Dreams. Auto-detected by headline monitor.",
+    "category": "retaliation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBFREdMblp5RVBLQmdORWh1b21nSzhVOG9fNmhoOHZncjRXbG9PRnpGelVTaENqQTd0WjVHS2lzX2NjeWlvc0ZTYWdPbTVfLW5raTZNM3RYNHlxVy1BTXJ2c1Q0d1JFT0VUNnJqTVZUcw?oc=5",
+    "source": "Common Dreams",
+    "fetchedAt": "2026-03-24T06:00:50.927Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "the-riyadh-statement-trkiye-azerbaijan",
+    "date": "2026-03-24",
+    "title": "The Riyadh statement: Türkiye, Azerbaijan and Arab regimes legitimize US-Israel war on Iran - World Socialist Web Site",
+    "description": "Via World Socialist Web Site. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1FOUtGMXl0NVpPMGRTMGE5MWZfRzdVLVQ4Rjc1TEFXcUlTRjVVaF8zX3dJNkFSejEteVFPRmFkUXlEbHZEbjlrWGNrV3BzelF1aHpEY2ZRVGdpejNVOUYxdFlXVkw5Nldm?oc=5",
+    "source": "World Socialist Web Site",
+    "fetchedAt": "2026-03-24T06:00:57.293Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israel-after-the-iran-war",
+    "date": "2026-03-06",
+    "title": "Israel After the Iran War - Foreign Affairs",
+    "description": "Via Foreign Affairs. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE96YnNEcGxyelB3dFF1QVFsTV9IMlJrcXVFTTlYanRUMWxCeDF6eksxaTloTTh6ZXpOOXprb0U2d1lzbmFOTkdrYXdqSGlkX3lfdUhjd1hGYWhrWno5OVRwbkxJOHo1WU83VTE0?oc=5",
+    "source": "Foreign Affairs",
+    "fetchedAt": "2026-03-24T06:01:09.722Z",
     "mediaUrls": [],
     "videoMatch": null,
     "lat": null,
