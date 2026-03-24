@@ -1,225 +1,5 @@
 [
   {
-    "id": "trump-pauses-threat-to-hit",
-    "date": "2026-03-23",
-    "title": "Trump Pauses Threat to Hit Energy Sites - Council on Foreign Relations",
-    "description": "Via Council on Foreign Relations. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1uNzNfQ1NTZ1hKVG5qYUdLakNHUldvYjhnaFI5ZThsZ0tQYnJOX2NFX2E1bHdPYTZCR29fcVFST05CUG43bXc5a0JadTdFQjBpdkVpdV9FVHFERW9CUHhkUllObC1yck5ZMHdTa0JobE5NYzlRTE93?oc=5",
-    "source": "Council on Foreign Relations",
-    "fetchedAt": "2026-03-23T17:00:17.301Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=tQOUXGFjKDw",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "tQOUXGFjKDw",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "daily-report-the-second-iran",
-    "date": "2026-03-23",
-    "title": "Daily Report: The Second Iran War – March 23, 2026 (18:00) - Alma Research and Education Center",
-    "description": "Via Alma Research and Education Center. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNaFVFT0FZeW9QbWNMZTVhYkFNR3lyc0wyd2t3NU4xeWFEYjU0ZzQ5cnNvZ1BkaWN6cDdsN01jbHhmQUt5Q2hYX2hCU1dGU09CRncxYjdIRksyT1R1U0dfN3Y2SGFrdXJFcG0tb0NKYkhPYWRjYXpxUnVnM3JuNGdqREZ3?oc=5",
-    "source": "Alma Research and Education Center",
-    "fetchedAt": "2026-03-23T17:00:19.819Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=B3KTmW5k6X4",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "B3KTmW5k6X4",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "trump-says-us-in-productive",
-    "date": "2026-03-23",
-    "title": "Trump says US in ‘productive’ talks with Iran to end war - The Pittsburgh Jewish Chronicle",
-    "description": "Via The Pittsburgh Jewish Chronicle. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxOUWw1TVV2VzJRRFhQbG1zZUpqenBab1ZNNlZreVVfTjVQLWdwNzdJSDg1OTVBVGJLWlFxWU9KYWdXNG85eXlWOHFFWDhRcVF3Z21IMnc2LWVremVmWXliV3RabFlaTlg4QTJJeTF4aC1wQkh0ajlmQnR4aXE1eFhvcDdtOXBFN3R1SXRuZWlxTDgyMG5yelFvRi13Nl9VQQ?oc=5",
-    "source": "The Pittsburgh Jewish Chronicle",
-    "fetchedAt": "2026-03-23T17:00:24.936Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=CUmizwGxjFw",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "CUmizwGxjFw",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "pakistan-steps-up-as-key",
-    "date": "2026-03-23",
-    "title": "Pakistan steps up as key mediator in US–Israel–Iran war, eyes Islamabad talks - Muslim Network TV",
-    "description": "Via Muslim Network TV. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcFB4TU9ocTlxU1pwMkx5V0dNSXowN1VZWHFaeXp6a2ZzbUpKUXMwUG9XckJaQ2VWZ2ZGQkpHMG85ckJVN09xYU5wazQ5NDMwbDFtUFBjM2lBcUxfbGhuY1MzUGV3d19Yd3FsaV9CM3NnQlYydVV6Y0Y4VmNMYnk4amZkZGQyYWtVQklKSGM4cVQ0b2dJNGR6eGdDTTJKbmdWWXhweEItSjhHZw?oc=5",
-    "source": "Muslim Network TV",
-    "fetchedAt": "2026-03-23T17:00:27.117Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=847SWZek4ak",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "847SWZek4ak",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "how-the-war-with-iran",
-    "date": "2026-03-23",
-    "title": "How the war with Iran is actually going - The Hill",
-    "description": "Via The Hill. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPUFhBdHBiSkUzZ0NXSkhQLVo2cTJuYUh0aDdJZ1ZtR0RlbWVVTi1TWk5FYzJEYWZfa2pnUmRLdXRmczlFSFB6X18zdTFXR2tjbXdBc0tRc05OQ3IxUWszZVRhRl9fTy1wYmVtUGQzbHA2c3RBdzVsYUUzdmFqd0I0QXNEWkfSAYoBQVVfeXFMTm8zVkJNaUcydzFSV25XMDN0Q2t3aWJ4NUhVb1pDZXpXRzNqdUVMWVBiem02aFRmUGVodktwenZXMzJWbV9udHJHR010QmVxSVFCT09RVjluY2FiTWIyN2VOOUN4RFNWajV2SUZFcUpPNDU3QjRYNW51SkE1dVVMd0hPWDgxd0FWRldB?oc=5",
-    "source": "The Hill",
-    "fetchedAt": "2026-03-23T17:00:33.080Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "joe-kent-says-trump-is",
-    "date": "2026-03-23",
-    "title": "Joe Kent says Trump is trying to get peace with Iran, Israel is against it - The National News Desk",
-    "description": "Via The National News Desk. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNbHJGV0dRM2FRX1hPdHAwSWNnenNLeGltZGkyUVFsQVhRdFlXQVE1anZtVVVZM0hMZzdRLWozYXQwaGFYTzFsYUxUN3dQWTFXaDRkTjNoODZFM3Nsc3NVVFEtRHV5R0tQZEIxYU9GUjBCUHJKcW1Vb0FVNVcwS0ljNjdCUGRqaVVIZ0JvLWFhTjBwSHFmSWdmaUJ0bXpIdzZUSVI4SFdRWGxKWXBOMUppelAwYzB4d1dYdUhmRnlBLVk2S1QtY0tic3ZOQmtOUml3YzB0Z1FIa1dOUTRKeTRUX2dUek1XenJhTlZQTXcxVFY?oc=5",
-    "source": "The National News Desk",
-    "fetchedAt": "2026-03-23T17:00:39.252Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "israel-iran-war-the-pantagraph",
-    "date": "2026-03-23",
-    "title": "Israel Iran War - The Pantagraph",
-    "description": "Via The Pantagraph. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA0eU16SVdleF82WjNUS1otZzlLY1hsMS1GU1BXZ3F5TzFMUGdLYkZHMVhIeFFEMkY4YWRublh5ekdYTnJIMERxTWtzX3lhWGJ3eDI4Yll3QVVKTGV2aF9POTRUTms1T0J3RWZMVi1xdDM2ZTZDUUl0LS1R?oc=5",
-    "source": "The Pantagraph",
-    "fetchedAt": "2026-03-23T17:00:45.456Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "song-about-enemy-drones-written",
-    "date": "2026-03-23",
-    "title": "Song about enemy drones written by 11-year-old becomes unofficial anthem of Israel-Iran war - The Jerusalem Post",
-    "description": "Via The Jerusalem Post. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBjWmk1NjQyY1NEN25BY3NfZTNBTWdzaU5TVDc1dUp1SFRUWGVnNVpvS1JUOVBndjhlYkFaZ0RPZEhPYkVaUnNxSGQyRFNVRzIxb25MR0RWbXdxNzRUN3QxY09SNnJxcVU?oc=5",
-    "source": "The Jerusalem Post",
-    "fetchedAt": "2026-03-23T17:00:52.441Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "idf-says-it-destroyed-or",
-    "date": "2026-03-23",
-    "title": "IDF says it destroyed or disabled around 330 of Iran’s 470 missile launchers - The Times of Israel",
-    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9yM0V4R3F2NWtYUmdjTUgyRTY2NjVMdDR4Q0tpVU4zbHdaSVgyOFpyZ2tQcHNDRkx6U2hENVFNa2NQVmZXcVN5TTdfMXZJS2FtOVlNZmtDQmJ2N3JkMk9ESnBJRdIBaEFVX3lxTE9OM2dOQlBod21XMjcwMmhwTFpndDl6V2t0MnNDMDNqZHV1ajZYR0Q2NGx3SVUwcnV4R0RORnAxZTlqc0h5LW1NTmxBR0QtYVNmYzFTUnhmeTJWODBxQmpUa2tDQTc2T2Ja?oc=5",
-    "source": "The Times of Israel",
-    "fetchedAt": "2026-03-23T17:00:59.338Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "aptopix-israel-iran-war-charleston",
-    "date": "2026-03-23",
-    "title": "APTOPIX Israel Iran War - Charleston Gazette-Mail",
-    "description": "Via Charleston Gazette-Mail. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdW51Tl9zeWFCc3RxUG9DM3I1SUV4SUpudU1SMmlOeHo5U2pNMHBHTEZ3Y0ZXdk9ZcWVtRUlycDAtYy1OZVBOMXNLaWdJZUNrWmI4RDlLN19XWnkzbDRybHpJc2JCS1FrSDNLM0pIQzFMQ0VKN3RWWmcyRFFyVWh4Z2lzaG1PbFlOak01aDhSTENWLXptUnVzS0puQlBzbndsQ1BfN2JQVndybEdQdmtKM0lIcHNMT200UXc?oc=5",
-    "source": "Charleston Gazette-Mail",
-    "fetchedAt": "2026-03-23T18:00:20.187Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=885C-hlT5sk",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "885C-hlT5sk",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "expensive-war-soaring-jet-fuel",
     "date": "2026-03-23",
     "title": "Expensive War: Soaring Jet Fuel Prices Double the Cost of Israel's Iran Strikes - Haaretz",
@@ -4298,6 +4078,195 @@
     "fetchedAt": "2026-03-24T15:01:00.006Z",
     "mediaUrls": [],
     "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-targets-israel-and-gulf",
+    "date": "2026-03-24",
+    "title": "Iran targets Israel and Gulf Arab states, Israel to expand Lebanon operations - CBC",
+    "description": "Via CBC. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE84ZF9uRURMSmVvRVlXZ0pnb1dYM2ZaTkROdGJ2aERzUU15M3JMWnE0dE0xWGdwTjA3UFM1YVlHQlRzOGlISDVMZmw4aEpFeHVGSHhEMXpzOUlNS0pMT0pzS0NOQld5SlZCLXRkNTNZbEpPNWM4d1E?oc=5",
+    "source": "CBC",
+    "fetchedAt": "2026-03-24T16:00:20.367Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=lNc9blykzI8",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "lNc9blykzI8",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "airstrikes-batter-iran-as-it",
+    "date": "2026-03-24",
+    "title": "Airstrikes batter Iran as it attacks Israel and Gulf states, while diplomatic efforts gather pace - Los Angeles Times",
+    "description": "Via Los Angeles Times. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPUkNiY1RJZ1hnYUdGZU1YdTB0RVl4ZmlfTF8yMXJMVUg3M0ZPaS1lV3NLcDQ5WVctMXloZmdwbmFEcC1oYXpfT0FITFVXOGUwRWJZMHlkc3BkcnNNenphRTFaVHplQUhQUzcwcTVxazRUdGdYV09wQzJNbDBBQ2JOaDJrekpMcmVkLUpWc2JfSm9ibzR5ZXc2N1VnYXktakJJemVWQ3VBZXE2bXhtU3BnNXFHc0MweVVXRkJFOHdFQ3A5NF9ubDc2Vkt6UHNwQ3M2a1VVLVNlVE8yWlJMTHhR?oc=5",
+    "source": "Los Angeles Times",
+    "fetchedAt": "2026-03-24T16:00:29.866Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=HJu7_l97vA0",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "HJu7_l97vA0",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-strikes-israel-as-war",
+    "date": "2026-03-24",
+    "title": "Iran Strikes Israel as War Rages on After Trump’s Disputed Mention of Peace Talks - Time Magazine",
+    "description": "Via Time Magazine. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQTZibFMxbkJDVGJsTWNOc3BtMnNSb1N6RENUMU9nTjYxdUZLaGoyX3FlRUtnZGNEQm9HaUtBbDg2dnFEVkZhYlFvZjNvX01FSWNIb0dmSGo5U3ljX2MtVVd4Uy01UDNNcTJFQWQ1M0lfYnVUZTR3alUzdlI0dTdwYmVENFIwTmZIUmpqUnhqeXJBOERhejFMNg?oc=5",
+    "source": "Time Magazine",
+    "fetchedAt": "2026-03-24T16:00:32.364Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=K05O6t_HvPk",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "K05O6t_HvPk",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "in-iran-civilians-hopes-for",
+    "date": "2026-03-24",
+    "title": "In Iran, civilians' hopes for 'regime change' fade - DW.com",
+    "description": "Via DW.com. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOYkNENURsb3NOcU9kaGJZRGJsUU4zRlgxR09RYm5MMWRmRkZjSHR6UWhDUl9GaklzZ2tmQW1Ja1NXd3g5aTcxVkNneEMwa0FsYTVHb25HNmljTGNFa1FZNXU1WWF0aXc3bmFrQS1KQ0VVNUZkcGZjLVFudUVudk1KS25SdDhfd9IBhgFBVV95cUxNMUpvZ0pUQzFvVjdDT2N6UU5fdnZSM1RaQWFpME94c0FobmFmOWtsUVpqOWdJNjdwV2pUVW5TNEdiSjBsdTRlY2g4ZU9MVDM5TmdfR1dzUlE3OE5mVDgwWHJ4NVQ4N2lKRFRHYWpzb1BlaEQ5dS00UlJ3OHQ5bnVfTGI4ZGw2UQ?oc=5",
+    "source": "DW.com",
+    "fetchedAt": "2026-03-24T16:00:34.880Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=1dCK2Bl7TXI",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "1dCK2Bl7TXI",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "trump-wants-out-of-this",
+    "date": "2026-03-24",
+    "title": "Trump wants out of this war, Israel doesn’t. This is a win for Iran - The Independent",
+    "description": "Via The Independent. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQWNuSUp5RUJwZmYwZEV4NkFLQTRXYzlXSExvdUNEM0hrWURQbURwbjlkdzZiZ1JwSWJoTVhoTUtmcjRXanRDX3lHSFBYN0dBTkxzYVpOY3dFQVdNbTZjVXZMTVNEaDJaR2FoLWJ6WXh6c051eTdCLXZFWEFDRnppdC1hREpLWXVQVWl4NzJFQThDWWJvYkZkekR4V2s1Sm9mRkRiU0U0a3l1RzFhVnVvaWloQQ?oc=5",
+    "source": "The Independent",
+    "fetchedAt": "2026-03-24T16:00:37.312Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=DtIUeCfhhQE",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "DtIUeCfhhQE",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israels-war-on-iran-risks",
+    "date": "2026-03-24",
+    "title": "Israel’s War on Iran Risks Undermining Its Own Long-Term Survival – FT Analysis - Palestine Chronicle",
+    "description": "Via Palestine Chronicle. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQb3A5TTFrLWpBaWwxT1hnbkZpZUZNN1pkYkhOcnM3WTU0Sk1jX21uUnNFenJjRDRtZ1BUdFEwNmJKRW95Rm9EZHM1TXNxMEg4ZEZ4R0VhN3RzNG5lWHhuWFlpT2I0MUs4VllRWFUyZFlhdVZmWTFpa285MEE1M2ZDM0pUeUU1QlE5dEFSNmFpWlNYdmVfNjN4UGFYSUpDU2Foa3pZczRrMWY2VlRnWkw2bld3?oc=5",
+    "source": "Palestine Chronicle",
+    "fetchedAt": "2026-03-24T16:00:39.791Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=OX48PoI_wRI",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "OX48PoI_wRI",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "why-irans-jerusalem-strikes-risk",
+    "date": "2026-03-24",
+    "title": "Why Iran’s Jerusalem Strikes Risk Sparking a Broader Religious Conflict - Bloomberg.com",
+    "description": "Via Bloomberg.com. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPYk1XdlJEYmx2akViQUpqZ2ZxQzB1SXZDMjVmOHNvODU4YTVLQXIyU1ZpVngtaENiUVBBN3Z1MVc2SXlURk1CNDlCQlBvM1JOaFJmeC0wRXJ1enhGYlVzUk92UlhfSEhsbEVVanlIdVZPR0UtbjVGaXpsY0FreU9BLXhFMjN0X2s2Y0htTl9TTTluSkFwcmo0a0xhSFg2TG5RRTRXQ1JzN012MDExQ3d6a2taendzX1dINTJPRFhR?oc=5",
+    "source": "Bloomberg.com",
+    "fetchedAt": "2026-03-24T16:00:42.064Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=ovDc6v4iBAk",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "ovDc6v4iBAk",
+      "title": "",
+      "confidence": "auto"
+    },
     "lat": null,
     "lng": null,
     "zoom": null,
