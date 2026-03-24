@@ -15,7 +15,7 @@ import {
   IconRadioactive, IconBomb, IconCloud, IconAlertTriangle,
   IconSkull, IconFlame, IconWorld, IconBuildingSkyscraper,
   IconTrendingUp, IconReceipt, IconShip, IconClock, IconUsers, IconHome,
-  IconInfoCircle
+  IconInfoCircle, IconHeart, IconStethoscope, IconBook, IconCamera, IconSchool, IconFriends
 } from '@tabler/icons-react';
 
 function formatBillions(n: number): string {
@@ -596,16 +596,31 @@ export default function DeepDivePanel({ onMapMode }: { onMapMode?: () => void } 
 
     const countryDamage = getInfrastructureDamageByCountry(facilityIds, timelineDate, events);
 
-    return { impact, casualties, nuclear, cost, supply, events, stats, peril, gasExtra, oilDelta, perTaxpayer, warDays, recession, predictions, hitFacilityList, threatenedFacilityList, countryDamage, facilityIds };
+    // ── Years of life lost: avg age in memorial data ~29, WHO life expectancy 72 → ~43 years remaining per person ──
+    const yearsOfLifeLost = Math.round(casualties.totalKilled * 43);
+
+    // ── Role-based loss counts — sourced documented numbers, scaled proportionally to timeline ──
+    // Base counts are at ~85,000 total killed (current conflict total)
+    const baseTotal = 85000;
+    const scale = Math.min(1, casualties.totalKilled / baseTotal);
+    const roleCounts = [
+      { icon: 'stethoscope', label: 'Medical professionals', count: Math.round(1722 * scale), source: 'MSF / WHO' },
+      { icon: 'heart', label: 'Children', count: casualties.totalChildren, source: 'UNICEF / MoH' },
+      { icon: 'book', label: 'Teachers & UN staff', count: Math.round(300 * scale), source: 'UNRWA' },
+      { icon: 'camera', label: 'Journalists', count: Math.round(254 * scale), source: 'CPJ' },
+      { icon: 'school', label: 'University students', count: Math.round(4200 * scale), source: 'Al Jazeera / MoE' },
+      { icon: 'friends', label: 'Parents', count: Math.round(casualties.totalKilled * 0.35), source: 'Demographic estimate' },
+    ];
+
+    return { impact, casualties, nuclear, cost, supply, events, stats, peril, gasExtra, oilDelta, perTaxpayer, warDays, recession, predictions, hitFacilityList, threatenedFacilityList, countryDamage, facilityIds, yearsOfLifeLost, roleCounts };
   }, [timelineDate]);
 
-  const { impact, casualties, nuclear, cost, supply, stats, peril, gasExtra, oilDelta, perTaxpayer, warDays, recession, predictions, hitFacilityList, threatenedFacilityList, countryDamage, facilityIds } = data;
+  const { impact, casualties, nuclear, cost, supply, stats, peril, gasExtra, oilDelta, perTaxpayer, warDays, recession, predictions, hitFacilityList, threatenedFacilityList, countryDamage, facilityIds, yearsOfLifeLost, roleCounts } = data;
   const totalCO2 = fireData.features.reduce((s, f) => s + f.properties.estimatedCO2TonsDay, 0);
   const equiv = co2Equivalents(totalCO2);
   const activeFires = fireData.features.length;
   const displayDate = new Date(timelineDate + 'T00:00:00');
   const dateFormatted = displayDate.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' });
-  const populationKilled = casualties.totalKilled >= 50000 ? 'a small city' : casualties.totalKilled >= 10000 ? 'a small town' : 'a neighborhood';
   const annualCostPerHousehold = impact.totalMonthlyExtra * 12;
 
   const disruptionLabels: Record<string, string> = {
@@ -639,64 +654,49 @@ export default function DeepDivePanel({ onMapMode }: { onMapMode?: () => void } 
         </div>
       </div>
 
-      {/* ── HUMAN COST ── */}
+      {/* ── WHAT WE LOST ── */}
       <div className='px-4 pt-4 pb-3 border-b border-gray-200 dark:border-zinc-700'>
-        <SectionTitle icon={<IconSkull className='h-5 w-5 text-red-600' />} title='Human Cost' />
+        <SectionTitle icon={<IconHeart className='h-5 w-5 text-red-600' />} title='What We Lost' />
+
+        {/* Years of life lost — the unifying number */}
         <a href='/dashboard/lost' className='block hover:opacity-80 transition-opacity'>
           <div className='text-4xl font-black text-red-600 dark:text-red-500 tabular-nums leading-none'>
-            {casualties.totalKilled.toLocaleString()}+
+            {(yearsOfLifeLost / 1_000_000).toFixed(1)}M years
           </div>
-          <div className='text-base text-red-500 dark:text-red-400 font-bold mt-1 mb-3'>people</div>
+          <div className='text-base text-gray-500 dark:text-zinc-400 font-bold mt-1'>of human life</div>
+          <div className='text-sm text-gray-400 dark:text-zinc-500 tabular-nums mt-0.5'>
+            {casualties.totalKilled.toLocaleString()}+ killed · {casualties.totalInjured.toLocaleString()}+ injured · {casualties.totalDisplaced > 0 ? `${(casualties.totalDisplaced / 1_000_000).toFixed(1)}M displaced` : ''}
+          </div>
         </a>
 
-        <div className='space-y-1'>
-          <Row label='Injured' value={`${casualties.totalInjured.toLocaleString()}+`} valueColor='text-orange-600 dark:text-orange-400'
-            tip='Includes military and civilian injuries reported by all sides' />
-          {casualties.totalChildren > 0 && (
-            <Row label='Children killed' value={`${casualties.totalChildren.toLocaleString()}+`} valueColor='text-red-500 dark:text-red-300'
-              tip='Children under 18 confirmed killed — likely undercounted' />
-          )}
-          {casualties.totalDisplaced > 0 && (
-            <Row label='Displaced from homes' value={`${(casualties.totalDisplaced / 1_000_000).toFixed(1)}M`} valueColor='text-blue-600 dark:text-blue-400'
-              tip='People forced to leave their homes, many multiple times' />
-          )}
-        </div>
-
-        {Object.keys(casualties.byParty).length > 0 && (
-          <div className='mt-3 pt-2 border-t border-gray-200 dark:border-zinc-800/50 space-y-1.5'>
-            <div className='text-sm text-gray-500 uppercase tracking-wider font-extrabold mb-1.5'>Casualties Attributed to Military Operations</div>
-            {Object.entries(casualties.byParty)
-              .sort((a, b) => b[1].killed - a[1].killed)
-              .map(([party, d]) => {
-                const pct = casualties.totalKilled > 0 ? ((d.killed / casualties.totalKilled) * 100).toFixed(1) : '0';
-                return (
-                  <div key={party}>
-                    <div className='flex items-center justify-between text-base'>
-                      <span className='text-gray-700 dark:text-zinc-300'>{party}</span>
-                      <div className='flex items-center gap-2'>
-                        <span className='font-bold text-gray-900 dark:text-zinc-100 tabular-nums'>{d.killed.toLocaleString()}</span>
-                        <span className='text-xs text-gray-400 tabular-nums w-12 text-right'>({pct}%)</span>
-                      </div>
-                    </div>
-                    {d.injured > 0 && (
-                      <div className='text-sm text-gray-400 tabular-nums ml-0.5'>{d.injured.toLocaleString()} injured · {d.displaced > 0 ? `${(d.displaced / 1_000_000).toFixed(1)}M displaced` : ''}</div>
-                    )}
+        {/* Role-based loss grid — no sides, just people */}
+        <div className='mt-4 grid grid-cols-2 gap-2'>
+          {roleCounts.map((role) => {
+            const Icon = role.icon === 'stethoscope' ? IconStethoscope
+              : role.icon === 'heart' ? IconHeart
+              : role.icon === 'book' ? IconBook
+              : role.icon === 'camera' ? IconCamera
+              : role.icon === 'school' ? IconSchool
+              : IconFriends;
+            return (
+              <div key={role.label} className='flex items-center gap-2.5 rounded-lg bg-gray-100 dark:bg-zinc-900 px-3 py-2' title={`Source: ${role.source}`}>
+                <Icon className='h-4 w-4 text-gray-400 dark:text-zinc-500 shrink-0' />
+                <div className='min-w-0'>
+                  <div className='text-base font-black text-gray-900 dark:text-zinc-100 tabular-nums leading-tight'>
+                    {role.count.toLocaleString()}+
                   </div>
-                );
-              })}
-          </div>
-        )}
-
-        <InfoBox>
-          That&apos;s the population of {populationKilled}. Every number is someone&apos;s parent, child, or neighbor.
-          {casualties.totalDisplaced > 0 && ` ${(casualties.totalDisplaced / 1_000_000).toFixed(1)} million people have nowhere to go home to.`}
-        </InfoBox>
+                  <div className='text-xs text-gray-500 dark:text-zinc-400 truncate'>{role.label}</div>
+                </div>
+              </div>
+            );
+          })}
+        </div>
 
         <a
           href='/dashboard/lost'
-          className='mt-3 w-full flex items-center justify-center gap-2 rounded-xl bg-zinc-900 border border-zinc-800 p-3 text-sm font-bold text-zinc-300 hover:bg-zinc-800 hover:text-white transition-colors'
+          className='mt-4 w-full flex items-center justify-center gap-2 rounded-xl bg-zinc-900 border border-zinc-800 p-3 text-sm font-bold text-zinc-300 hover:bg-zinc-800 hover:text-white transition-colors'
         >
-          These are not just numbers — see what we lost →
+          Scroll through every one →
         </a>
       </div>
 
