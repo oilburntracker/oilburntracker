@@ -1,188 +1,5 @@
 [
   {
-    "id": "dire-strait-the-american-prospect",
-    "date": "2026-03-23",
-    "title": "Dire Strait - The American Prospect",
-    "description": "Via The American Prospect. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5QVnRhXzd0UmlEZS1oUzhzVXFMYVphc2gyNkIzbkwwWWtlUnc2YVc4MS1OWUZvT3N0WF9yajRQRFp0RERKdjFYY3lsU19vZFZuTHhBS3gwVnJJRk41b1hpM0xGcHZsWVl5UjlDT18xLXJ5WXRX?oc=5",
-    "source": "The American Prospect",
-    "fetchedAt": "2026-03-23T21:00:59.297Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "which-countries-are-allowed-to",
-    "date": "2026-03-19",
-    "title": "Which countries are allowed to cross the Strait Of Hormuz amid the Iran war? - Dakota News Now",
-    "description": "Via Dakota News Now. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNM0NhdFlvQjV2cFZTbjlpbnVUMlFyaEx2bTk0c1ZfV3ZhdGEzcmo3STZXOFdtMTVlUjFmUm1uSTMyZnFudWRDczlfMFNtSjFVUzNPcnZZUmVSVGgycGdkM2UyTVcydEFzcDVudWIzUzhkeVhkN29ibFpTMmo1aDdVc2I4OU1KQUpENWU4emxhd2ROUmpJeVZWN1BZVzlMakUyTXdYSWZyZG1XV2JwX2c?oc=5",
-    "source": "Dakota News Now",
-    "fetchedAt": "2026-03-23T21:01:12.321Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "as-usisraeli-war-on-iran",
-    "date": "2026-03-23",
-    "title": "As US-Israeli war on Iran enters fourth week, costs are mounting - Northeastern Global News",
-    "description": "Via Northeastern Global News. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9TellfMEw0S0JwcWwzMFZiOHFEX1R6Vy1vSWVmMmQ3TmpobWMyS01HLUJBT3JKak95a1RhYm1TLWRRZk94Tkl3UDZaV0dwOE10NW5SdmllaUxRVUozYkt6ZklLQ2NMdkY5SHh0WnpZSklNbmdOWGc?oc=5",
-    "source": "Northeastern Global News",
-    "fetchedAt": "2026-03-23T22:00:12.233Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=q-PP8GHHdTk",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "q-PP8GHHdTk",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-war-escalates-energy-prices",
-    "date": "2026-03-20",
-    "title": "Iran war escalates, energy prices spike after Israeli strike on South Pars gas field - CBS News",
-    "description": "Via CBS News. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxORFVCUi1adnVxSDVZenBIZEE2dWVlMS0yNXZ5Uy1vRnk0NkJzTFRKZExlNjQ1LTcwOVBSN2VtQWNxVlhZMndkdnpmQTluNjJpQmdwZG53OE9yVExBOWtMX0JtZERCS3QtVFpNemhxTzJNSjlnNHVCeXF3eHFUMkJsT2ZCcU5CdG1USWZuMVFVdDVHOGRONkpVX1VyWC1IM21GemRMTmVTTWtXYzZ3akHSAbMBQVVfeXFMUG9aOVR6LU5QNS1xVDNfdnhWVkFaT2taQWNWVl8zZjhhWjhUR1hqb2ZtOHo0SXBGclhyUG5KQ3h1TF9CNldFYnN5S3p5aGpMa0VMYkpyWVJfRXk4MnVuWVI0RU1Jcm5Ya2w5dTRnU1pqNTlET0MweGdZaU5FdnVHRmYyYkU0SWJ1VmJUZ1QyaDFSeWV4Mzh3NWliLU8tdnc4MzhXYUg2VkVQV25YMk1RY0IwZ2s?oc=5",
-    "source": "CBS News",
-    "fetchedAt": "2026-03-23T22:00:17.272Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=Swf76jG3ReY",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "Swf76jG3ReY",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "washington-policy-weekly-despite-the",
-    "date": "2026-03-23",
-    "title": "Washington Policy Weekly: Despite the War, Trump Allows Iran to Sell Its Oil - Arab Center Washington DC",
-    "description": "Via Arab Center Washington DC. Auto-detected by headline monitor.",
-    "category": "infrastructure",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNdF9rVUY2eXMzQlg2QlZfZkQ1dGFOc3c4RFUxc2pwa1BLMUR3d2dQVkstdEZDd3J3VUU0ajFJM2J2TU0yZzYxOGR1dW1yOEd2dGtna2dpeHc1RWVDdnZEQ2FnbjBpLUZfWHFRVjFjXzQ4Wkl1SVpLLUxpX3lpVTRWNk1KdjdyYkpCYW90WUxuSkI2SFFDNDRIREN6dVAxSVEtWEZTSHlUbDh6QVNfSmc?oc=5",
-    "source": "Arab Center Washington DC",
-    "fetchedAt": "2026-03-23T22:00:26.518Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=DtIUeCfhhQE",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "DtIUeCfhhQE",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "trump-announces-very-good-iran",
-    "date": "2026-03-23",
-    "title": "Trump announces 'very good' Iran talks denied by Tehran - Nonstop Local News",
-    "description": "Via Nonstop Local News. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOYzRITWhiczJ3SWlnRkd5RnJycEFnNEM5TmFOU2Vtd0RwUnJwMUdhSVlkMlhLbGhYZEZQTFFlVlZ6WVp0aHhtQ0RCVTREZ2xfaXlpSTNEcFFERGtKVGFraGZoTmtMaWh4cnRuYWxVaE9GTTdSdkZCYnFkMjdWbXVxU0hPOVVsU0hFRXpKVkZ5VHJSSWJNYTBWeEozdTN0OVAwdzRHQ1BXbTJtb20tbmZGaG9mZ25MeFdNTXl0Y292d3kzTDA4VzhfZF9Sa3ZqX0ZGSWNLd29xQQ?oc=5",
-    "source": "Nonstop Local News",
-    "fetchedAt": "2026-03-23T22:00:33.298Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "from-gaza-to-lebanon-doctor",
-    "date": "2026-03-21",
-    "title": "From Gaza to Lebanon, doctor races against time to treat war-wounded children - AL-Monitor",
-    "description": "Via AL-Monitor. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZElRRjAzX2RaMUw3NE15eGJuTlVmSWx2a1ZyRGhzNU56YjQyRV9hQUNEVkhGb1RFdFo3aUN6b1gzU2k5R1B5aEtmQmI2UjBkVmZ2TkNSbmdvdUV4em40WjZGMUZsV3BfNno0WVFfdXAxUEYyY3Fqal90MGQwOXY2SDU4UmhQUXlBNWNwX2RfT3J0Y2ZXcGc1MEt0ZWlHRUFzTzdRSjdpeFV1UWZCU3k0?oc=5",
-    "source": "AL-Monitor",
-    "fetchedAt": "2026-03-23T22:00:46.235Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "oil-dives-as-trump-backs",
-    "date": "2026-03-23",
-    "title": "Oil Dives as Trump Backs Off Iran Threats, Says Talks Underway - Bloomberg.com",
-    "description": "Via Bloomberg.com. Auto-detected by headline monitor.",
-    "category": "infrastructure",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPN1hEMzZxY2Z0NWhwMkxnY0pKYVY0VUFaSEFOR1o2VDNzRFZpZS1MYkhUdm9BLXI0dVRUYThwVFFBZVJRMkxpRHJnNXMzcXdHMHBFM2pQYjdFTFoyUEEzS3VEb3hoVVV1TktkdU51bzRaMGdoSV9SYkQzMXIxRlc2U3Y1RHU0SWJUYXA0bnFMZ3BtMEtEUHZTR3VfQ3BZcmk1QXc?oc=5",
-    "source": "Bloomberg.com",
-    "fetchedAt": "2026-03-23T22:00:52.217Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "prolonged-conflict-in-the-middle",
-    "date": "2026-03-23",
-    "title": "Prolonged conflict in the Middle East could disrupt food supply in the Philippines by affecting crop production and the supply chain, according to the United Nations World Food Program (WFP). https://tinyurl.com/4ecvmmhc | via ONE News - Facebook",
-    "description": "Via Facebook. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNaV8zM0Jxck15WEVXd3JRakUzcmJTNl81QkZyUzhsdVBMTVZabXNoeTJPUnc1YzZwS2YzbXdaZVU0MDczOWJDNTZqVV9mUm1tLUN5bVB5ZFk3Ulp6MlhQSVlQMTg0QlE0WTFhSC1VamNZMGVkQzFsZW5TME0zemZzY29USFc3NmhwWm0weHY4dzVFdHpkc3RlNm5kR2x4c1FTMlJJMDcwbUlaSlY5UUdJT2puY2NhQWxpVGN0S3g3TkdISnZUOVlXQUthMDZWNzd0TXJjQ3hUWF9TelNC?oc=5",
-    "source": "Facebook",
-    "fetchedAt": "2026-03-23T22:00:58.681Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "5-african-countries-benefit-as",
     "date": "2026-03-23",
     "title": "5 African countries benefit as Dangote supplies 456,000 tonnes of fuel amid global oil disruption - Business Insider Africa",
@@ -4359,6 +4176,199 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbFF5c0NvdWo0WlJEMl9tSlVBVzNIbXZEOFhGV21wNDg5NkFxMkk3V2IweDRxbGt0QTlycTkwNEs0czRRRUUycVBUSmJzY3l5bHE3OHpmSnVOYS1haENxYTNBZjhMSnB4TTl2VUdVOEM3SENsbkx5N2ZUY29HVHRPQW9kNlB5bnBGMUlNS0VzX3lSWGxQNlFLTkVyQ1VOQkNudFRHbUVkZlV0WE9EZlhyV1Q5U1dYOHlBWmZGYVdEYw?oc=5",
     "source": "ohchr",
     "fetchedAt": "2026-03-24T20:00:51.963Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "the-israeli-military-wants-several",
+    "date": "2026-03-24",
+    "title": "The Israeli military wants several more weeks to fight Iran war, officials say - WBUR",
+    "description": "Via WBUR. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE50aFpNSC1OYVZPOEJhTjhXcnpkY0VmUnQzeGZiX1JEX25SWlgyVjFpdWNJdlVaeHd4UkpsXzV4RFgyQnhJRnp0MDNIUnZMaXlkOUcySkFPS0dUeG9jWVNTT2JCQUM?oc=5",
+    "source": "WBUR",
+    "fetchedAt": "2026-03-24T21:00:16.634Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=SCe-9TOy3F4",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "SCe-9TOy3F4",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "trump-says-iran-gave-present",
+    "date": "2026-03-24",
+    "title": "Trump Says Iran Gave ‘Present’ Tied to Energy Flows in Talks - Bloomberg.com",
+    "description": "Via Bloomberg.com. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZm9RQU1yalVIdFh0NS1WejVsOTRzUWJwWEEwbzB5bUVlclBhSldKZmVWa3R2d2NLa0Y2TDJiRlJCTzNPM2EtdmZtSDEzZ05Od1VoVmV4Qm1HTEx6U084R1hFVXdkZnpjenA1UTVqQk5RazJlaTdjMTlPOGFOTWRXTUFzeTVpNF95aEwtdlZzZllwMXdqR0E1MDdmQ1Z4UU5GRnUzTV9nV3Z4Zw?oc=5",
+    "source": "Bloomberg.com",
+    "fetchedAt": "2026-03-24T21:00:20.637Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=mehwqmfupEc",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "mehwqmfupEc",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "report-lays-out-trumps-conditions",
+    "date": "2026-03-24",
+    "title": "Report lays out Trump's conditions for ending war, but says Israel fears he'll instead push for a monthlong ceasefire - The Times of Israel",
+    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNLXgweWgycDZUVTBRYXJEYW9VYm43YUhmLVk4STgzTnQtZW41UzgwVkV4cFNSRXVWSkxKalFETmVmVFpMRllQVFI3RHpWUEVlcEFyNWxMSFRhZUN2dUl6RHlsbHVrRmlheUtVZ0xjNENyWHBlbDFrd3FYRzN4cE5mMUFMZU9tN2VnRkdwdURuNlhSaXN2Z0dCXzNuRkc4ZF83MDNycnNqRnBDRWJyMW9FV1ZmTTBQNm1FUk9kM0tXMzdYSHYyZ2t6YmFuMTk3a3FlTG84S3RONU9LQXBObmdyVmMwZTlGMU9vdW9fR3J0cmJqQQ?oc=5",
+    "source": "The Times of Israel",
+    "fetchedAt": "2026-03-24T21:00:23.067Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=glNqY-tKDVE",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "glNqY-tKDVE",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israel-says-war-is-not",
+    "date": "2026-03-22",
+    "title": "Israel says 'war is not close to ending' as its nuclear research center is targeted for first time - Fortune",
+    "description": "Via Fortune. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORVVXb21vVmdqN1g4ajB0a3RBTkJhcTNNWXVyd0FGVjVvT0RoNHNTb3YzSjU2Z1JIenFrSGtoT3NMaW1vRlZZcjNBZmpKbU1HNlNRbEptRTVIMVVneGpoWTVxTGc2Ui01RW9KTWxRcF92MU1PWGZpcjdUNW5YQWJueXdWVlVLMU1SbExVQWV2U05oeTlRdHlDU3NDUDlCV2tZV19Xc3hoOFRUYXF1M3V5NWFB?oc=5",
+    "source": "Fortune",
+    "fetchedAt": "2026-03-24T21:00:25.406Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=DtIUeCfhhQE",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "DtIUeCfhhQE",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "the-latest-iran-fires-a",
+    "date": "2026-03-24",
+    "title": "The Latest: Iran fires a dozen missile salvos at Israel as Trump insists talks are progressing - Union-Bulletin",
+    "description": "Via Union-Bulletin. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOajBGd3dzVzM5UFhXWF9MbGx5RWRoaUJzLVd1M0NRNnJJckVlWVpmRnhkeUJ4VHd4SFFTMWN5ODNVV0hDVzlRQ19HdnMyTlhVd2k0UkxhRGptV2ZwcGszd29wTllEQlRWZUNaaEtCT2NVUmc5YVhBeUd0VTdKWkVYLTlzUnpTcDcwaU91RFlFaFNUNnJVUFF4MUEyb2o3MS1aeW9BdkVyX3I3N2o2S3RKaW9jeDcxRlZuVko4OTBwRHJNdmpjNzdGT1VCdlNIMUF4YktpbnAtdFYzRUVzaW01ZkZVYkQ2WG9vUzk5VVhkWFFTN21ST0syWFJQdF9Ldmc3Y1hYb09obmk?oc=5",
+    "source": "Union-Bulletin",
+    "fetchedAt": "2026-03-24T21:00:40.136Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "the-latest-iran-fires-a",
+    "date": "2026-03-24",
+    "title": "The Latest: Iran fires a dozen missile salvos at Israel as Trump insists talks are progressing - Beloit Daily News",
+    "description": "Via Beloit Daily News. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNeEI4UjBwXy1wY3dCdmNTQ29VeXNHYm00UGxLRzlDV1BFN2VZcXZaQklMemRFSXJ3ZkdiM3hjdnFqUms4WmxtV0hxU1hubnllNWFDNDJhRGZKWTJPRGdBclRONDFGU1c2bWhUNWNQQVJlSnVCLXZqSlZQMVpJLTh1TmMybVFrNkk5TmdNMEtFYzl2VVlRckRzb20tZ1otbjlpYmV0OF9POUdlMktqM3JVRlZiYm1ObVNpUkRraU8yNWwyeGE2N2xHYVBnQld6eHNHc0xTVkkzLU5aMzFnY1J6TktteUJlR3N2RmZRV29EMlVGemk2VF8tRzRvLUhCdm0xWWo5UjVza1dTTU1RRnlj?oc=5",
+    "source": "Beloit Daily News",
+    "fetchedAt": "2026-03-24T21:00:46.506Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "reflections-on-the-us-and",
+    "date": "2026-03-24",
+    "title": "Reflections On The US And Israel War Against Iran – OpEd - Eurasia Review",
+    "description": "Via Eurasia Review. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQTl9oQ01Vc0tFUWN5TU1Kb3NjNmh1WmVoTVhtNGlUbjNFV3B3UFYtQTlRT1pwRU52QzNhU3BRcGtVdVBnYkpfWkltTUU1RVJVSlhycHdGd283Rm1pbmJJUklDLVRoc2VEUkR6dkNtSTNCamFfZjF4XzdFZ0tkZjVQeEkwZ0dYUjNtTXRvV2dlaWlJNXltTGI3cUlB?oc=5",
+    "source": "Eurasia Review",
+    "fetchedAt": "2026-03-24T21:00:53.255Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "uc-davis-iranian-student-organization",
+    "date": "2026-03-24",
+    "title": "UC Davis Iranian Student Organization unites community amidst U.S.-Israel war with Iran - The California Aggie",
+    "description": "Via The California Aggie. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPR2xEdUhYWXBjTERRQUZRTHF4THVQNEVXYkZCQjExckFLcFl4ckFmdmFtMnlESTlLRFU1bHNGOFVoVW1fUlR6TWhqYndOME9RTkhFVXZsbTczX3ZwNUxBT3l2emY4NEk2cG93dzFLYjJEd2NwUkhuRWt2OC1MTnBhSXpsa042TEdnX3RZdG1aSDdXWWlRdFlIVFRJcDJ0dDBpMjRxNlppa3J4cHljVHQzSGlDRmx0UHV2TDVR?oc=5",
+    "source": "The California Aggie",
+    "fetchedAt": "2026-03-24T21:01:06.719Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "airstrikes-batter-iran-as-it",
+    "date": "2026-03-24",
+    "title": "Airstrikes batter Iran as it attacks Israel and Gulf states, while diplomatic efforts gather pace - KIMT",
+    "description": "Via KIMT. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPNGhfOTRuSTlJWWoyalRUb0hjWGNhdmZLSHNNanN0ZVU4SkhnMG0yYnNuUHZYT3VrLTUyUDQzQk5IcC1ZeGVYN0tVYjBLaFo1V2R5R3FScnJ1cFFKZ09ic0s0Z2QwYVVKX2FLdVhPbTEyTFRaZHVXS0JkT1RFS3JjWThtX3dpZzEyeFdTMjRRYU0xREZqTXJ3WGNldHpTUk8xSVhtSUVjV3drWWlIRVowUWlBNWFzc0FNQ1ozQ0JIOHVKSzlhci1VcXZYa0ZZVGVHdDZ0b0ZzOWdkSDV2Sm9oNWhIbzVhVGNSdWZuM2w4N1E2R29fUVZtV1FlLUFMY2NmX2c?oc=5",
+    "source": "KIMT",
+    "fetchedAt": "2026-03-24T21:01:13.002Z",
     "mediaUrls": [],
     "videoMatch": null,
     "lat": null,
