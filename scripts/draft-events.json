@@ -1,113 +1,5 @@
 [
   {
-    "id": "the-latest-trump-raises-hopes",
-    "date": "2026-03-24",
-    "title": "The Latest: Trump raises hopes for war to wind down but no sign of reduced fighting - CT Insider",
-    "description": "Via CT Insider. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONWxaTlhlakNpMDdmWVBuUThaa1pXZ1hwN21GX0tGVHFzckFqSjNsNzBvdkdDSVVicEVfaU9jNWhZa05OZkJ2TExKZmNkWGYzY2NQZHVMS014ZW5XMWp1YXhxMEhTNlc3RW90bzg0NHVWSmtqWDI5R0dnTDVLbmNORllrVWtESWlZWnN0RW5ibnZRaG5Uak00MnR5TDJKUjZ0RHpR?oc=5",
-    "source": "CT Insider",
-    "fetchedAt": "2026-03-24T12:00:42.006Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=pWOzivZzrz4",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "pWOzivZzrz4",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-war-live-iran-warns",
-    "date": "2026-03-24",
-    "title": "Iran War Live Iran Warns Israel Of \"Heavy\" Attacks If They Hit Civilians In Lebanon, Gaza - NDTV",
-    "description": "Via NDTV. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMzBxOWtmVzlTd3otdW1OcmlkRFhxNWVfcGtDU3BfZGk2aHhUTUphZUtVb01MQUZ1M1huOEd4UVlXZUJFNzNOeXlBR1p1cjZOdnlQU2RCZ3lMUGtGR2s0WmRrZ1NiTEZPc1JHWFQzNGtLZHBJa2NabUdINGdzUURkbnhZNGNKV2xETDZwWE5IOWRHUzQ0Z0prU1p6aU43aUNYakNxUFhwZ1BMeThvQl85b1BMQjNBSFFlam15Q2FPWS1OOGdiNGc?oc=5",
-    "source": "NDTV",
-    "fetchedAt": "2026-03-24T12:00:44.402Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=2aA2IxzpeEM",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "2aA2IxzpeEM",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "hebrew-media-iran-sets-five",
-    "date": "2026-03-24",
-    "title": "Hebrew media: Iran sets five conditions to end war with US and Israel - Middle East Monitor",
-    "description": "Via Middle East Monitor. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdlRpSnZRYWNKakFRdV95a2ZCVkptOUcxM1dNZ3ZxOFQ1dzdYSmUyb3pRZDJvckN5Y2VMa2E1dFEzWUVSV2hFXy1MNzlnYzVFcVY1ZWlFMU12SWtGZHM0MklnVFdGanBXOURuQ255ZFdWUk1MQkdVQ2xBZkt5dXhpMXk4aF90UGdCS3ByOUZuRUN6MmRHUEI2ZkZaaGN3d1hMTzAyV2pmbzh5VkU3WjVxX1BR0gG3AUFVX3lxTE13WFgyR04xVFdCZVlUc2dFNlpPWDhiUGJsUXhhemJLVVZ3anp6QVNvN0ZsbVNxY1BxLTdQMUpWdjhiQ3dKQkJEOVJNNVAyM0JxWmd1Yk82ZjJlZWkxYXI2SUlJOGdpbWhub2hSWEpZS1ljMlQ3cDdWbG5Ielp0cDdsOFhjSG85Ym40a3RKeFp3cU13MUVYdll2Q1A5WXVJWl9SWVJuY09XRWVHT3FJaUhHaTNBREMwVQ?oc=5",
-    "source": "Middle East Monitor",
-    "fetchedAt": "2026-03-24T12:00:46.658Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=4xMnThv94kI",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "4xMnThv94kI",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-war-attacks-intensify-as",
-    "date": "2026-03-24",
-    "title": "Iran war: Attacks intensify as oil rises above $100 - DW.com",
-    "description": "Via DW.com. Auto-detected by headline monitor.",
-    "category": "infrastructure",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQelJBX1VXcEFXdmtkYjNsRnBnMDB2TVM2NXF6UlFKUy0xZjgtdEJtelI0VEpRQXBRQmpwelRXTUVKdVo3RHlwMVJMR194QzdjbmctYUtqbkhyaFNweUlEamxBREdyeWkydXJReng5U1NmUzlmRFN4cWRtdkFlUGg4ZW9oMmo3R3Uxd2pzWHBR?oc=5",
-    "source": "DW.com",
-    "fetchedAt": "2026-03-24T13:00:11.925Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=BhC9m61Uhic",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "BhC9m61Uhic",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "iran-israel-trade-strikes-despite",
     "date": "2026-03-24",
     "title": "Iran, Israel trade strikes despite Trump talk of negotiations - The Grand Junction Daily Sentinel",
@@ -4234,6 +4126,216 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQYVN0R1lYVlJnaEkzWTNpckg3NE1obnhaRVcyVXNVb0tveEZHUGpuVElnYTJJcDVqUF9EYktuOXUtT1V2Wjd0SU9pUnlqT0ljbjJPbzVWdnJXMHMzTHE4clFaNzRwSVZiUGlaYkVYZDdEWG81Yk1XTkZnNmp1M0Z5MlNxR0hEWURYcXpxNkpjUzBEcnpvNUlmMk9xR25KbVRTaEJicVBqa1JkdG9nN1VmdDFfRmd2S21RSVVTRnN3cUhRLXM?oc=5",
     "source": "dailyrecordnews.com",
     "fetchedAt": "2026-03-25T12:00:59.219Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "irans-potential-peace-negotiator-known",
+    "date": "2026-03-25",
+    "title": "Iran’s Potential Peace Negotiator Known for Strongman Approach - Bloomberg.com",
+    "description": "Via Bloomberg.com. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNaTFEM2dqczdZbTQ2SWZJX0hVcEQ1NHhIZWV2NUFKZzJxUURweHNKajhEYnI1VmJGaVVOYkJSOHNVQzh5NE5xZ1dmWHhIUEFnSF9GQjNJNk5EbXE1Y1ZBcWQyRk1NUHB2V0hDamV3YlN5OXltaS1tMEVNU051OFVMWUo4Q0hHelY3dDZWODI1Nm1vcEhaVjB5eGkxdXJPMWZMQTE1b3RXUUhfT3V5LU0yU2pGcw?oc=5",
+    "source": "Bloomberg.com",
+    "fetchedAt": "2026-03-25T13:00:12.169Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=w9amdi8Mo4k",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "w9amdi8Mo4k",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-targets-major-israeli-power",
+    "date": "2026-03-25",
+    "title": "Iran targets major Israeli power plant in missile attacks, no injuries or damage - The Times of Israel",
+    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5mbGFZQVlhMVloYlljWFRBdENLNHc5OU4xWDIxa0pYS2pUeWRxb0NFOEttaVBOazdqRzZVT2JIM3RvcGI3bGphajZuNzRrZHNEcTh6LTZrNXdtRzhwN0t2UGhCb9IBaEFVX3lxTE5Hd2ZNWUg4amxhbDhNVHNqcTd6dHNySThlWkNsVThVc3I1YzJ3RE5qUUFXUnotcHRXVGExWWJabDJ6OU1iRDJ5dVdmX0dzNUJNMWJTUGk4em54NHlPanVRU3piQVlwbmNI?oc=5",
+    "source": "The Times of Israel",
+    "fetchedAt": "2026-03-25T13:00:17.121Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=nIxGRKM0j8M",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "nIxGRKM0j8M",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "live-updates-usisraeli-war-against",
+    "date": "2026-03-25",
+    "title": "Live Updates: US-Israeli war against Iran rages on in fourth week - The Jerusalem Post",
+    "description": "Via The Jerusalem Post. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1Zc3N1VE44bi10ajVJc0Y1SW5fYUZrbVlBbGpRVmQ2OWRFdHhvdDhPS0s5R1Y2aTU5VnRLd3Y4YUlXcVZVUVVxUVRQMUxmOXplU0tHcldWbUM5eUVWWXpQbnlQZ1FrMmNVVDhsQ18zbVFUUUVWSThjbFFiTm5iU0E?oc=5",
+    "source": "The Jerusalem Post",
+    "fetchedAt": "2026-03-25T13:00:24.419Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=AwQN2MXH9Ck",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "AwQN2MXH9Ck",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "debating-the-iran-war-israel",
+    "date": "2026-03-25",
+    "title": "Debating the Iran War, Israel, Free Speech and More With The Free Press' Coleman Hughes - Glenn Greenwald | Substack",
+    "description": "Via Glenn Greenwald | Substack. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9XTVpCRDVEc3ByZm5fdm5TYVdxdzI4bEJiTUl4S29GY2YyVzZsdjVIaS10cUZKeDh6VEt3M2N6bXRvMFBfOUowOVFweWRWV2F2a0hob1FBamlnbW9UZFdRTG1wNy1yc3ZHazlXN3hUelhzTldtbFVOMjJB?oc=5",
+    "source": "Glenn Greenwald | Substack",
+    "fetchedAt": "2026-03-25T13:00:27.172Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=a2aYd-XHzsI",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "a2aYd-XHzsI",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-received-ceasefire-plan-from",
+    "date": "2026-03-25",
+    "title": "Iran received ceasefire plan from the U.S. but Tehran dismisses idea of ne­go­ti­ating with Wash­ington - Spectrum News",
+    "description": "Via Spectrum News. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOZDBsQ1Q1WDY3al81aGJBN3JLX1pfV21TeU9GcTJwUGZXZWdVU3pVZE5kb1VqZFF5aGtUYkJ0VGdyeG1wWHV0RTRfX0oyVEFSMjR0SHgzNXNnbThjYldaUUpoeFQxNlZ4TUdFX0JUNkp0VU5ndkJHcTlCQ3JLSEVnZXJrNUhtWFNWODBubksxbC1nSXE3QWlHUldLS2hoOHJwRk1jekZvaGNiM3ktLVRqeFk5RkJVRktwQktnTkNFZVNKbHd2bHk4bFZFWVZ6TjdUQzg3SnpadW9OLW5BdGstNDZoT2MtbERXb3c?oc=5",
+    "source": "Spectrum News",
+    "fetchedAt": "2026-03-25T13:00:33.764Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "live-pakistan-delivers-us-proposal",
+    "date": "2026-03-25",
+    "title": "Live: Pakistan delivers US proposal to Iran as talks venue debated - Middle East Eye",
+    "description": "Via Middle East Eye. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNc184MUpxSlBUMWtyZjZMRlNkYlQwZVRSelV6T29CWVRZSXJ2X2lzMXVqRVFWR2xpVFJqeXVmMDE2MjhxSUdrakIzeG9YWjBOUlAtWEt4Mk4tYXNCSTNYU1dxbmx1bDFLRmh4M3dLLUZsMmxBeVBXUUNkY0JHMGlySUJMeVJOWUxEdXBmR0Z6bkZMbnIwaXFkb1I5WmkxM3E2bTd2RTRkY29DaEpjcWVQd1NrUG02WXQ3LXpZWnZR?oc=5",
+    "source": "Middle East Eye",
+    "fetchedAt": "2026-03-25T13:00:46.653Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "us-sends-paratroopers-to-middle",
+    "date": "2026-03-25",
+    "title": "U.S. sends paratroopers to Middle East as Iran-Israel conflict escalates, truce floats - Aurora Sentinel",
+    "description": "Via Aurora Sentinel. Auto-detected by headline monitor.",
+    "category": "retaliation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPVVVnRE05MGxtSU5GWHZWbkhneUoxeXdYY1BKREdKd3ZIX0hZSTdIUkR0XzRBdjV6Y2IwUWNVNkZZVEFOYlk1ZVFacHBla0lfZlMtZms5MHV4aG9DUk9HSF94dFI5WVJTVmMtb09MdWlRajhqVGVaTjB4Vk03Ymh1dUtJLTBKOUlNT0xrc3liRXM1Um5pU1ZKcjF6VWNlYjhEaEhfRWJYOW5icVpPN01ZMk00djVpZnpRNFltVTE3TGI4VGRhU2Z1cnNrM3F0aGs?oc=5",
+    "source": "Aurora Sentinel",
+    "fetchedAt": "2026-03-25T13:00:53.397Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "us-15point-plan-reaches-tehran",
+    "date": "2026-03-25",
+    "title": "US 15-point plan reaches Tehran as Iran publicly scoffs at diplomacy - ایران اینترنشنال",
+    "description": "Via ایران اینترنشنال. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9jMUhEZEZKeEpUZWlDUWZ4bjZuZVRIQWc4cE40ejJwVlRhX19mZUkyWUk1YWdYa1lCRnNMcGxWQ2Vib2FLbUE4T2lUd05jbTF6Z1E?oc=5",
+    "source": "ایران اینترنشنال",
+    "fetchedAt": "2026-03-25T13:00:59.720Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-israel-trade-strikes-as",
+    "date": "2026-03-25",
+    "title": "Iran, Israel trade strikes as diplomats work behind the scenes - CBS 19 News",
+    "description": "Via CBS 19 News. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQbkFZNEkxazVUSk03Wll0al83VWxzQXliU05td0VQV0NiUU5uc0R5OTNwTzcwTUJ3TTdRWjhVTzBNWWpXVlBoMERmVDU3ek1uaUdyUEZtemlDZ29jUGhDdmhSSXFLQkdaZXhwclJGRG0tNEJtczdPMU5XeUpKbUkwbGozMGJpNlZXSVhIOWFtaTVNTElXN3VyWkdJbkU3WWlPc0FkMU1RMWdoelJYTTAyek1OdWFzVllUS3hNR0RlcFYzRzNIRkhYQmdJR0RSb0JGak4w?oc=5",
+    "source": "CBS 19 News",
+    "fetchedAt": "2026-03-25T13:01:06.149Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israel-first-exisraeli-negotiator-daniel",
+    "date": "2026-03-24",
+    "title": "“Israel First”: Ex-Israeli Negotiator Daniel Levy Says Netanyahu Led Trump into Illegal Iran War - Democracy Now!",
+    "description": "Via Democracy Now!. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1mMFBVWFJmZVY4a3RHT2hsb0xkc2FHdlZUaERHMnBWX1RDRG5wS2xERXp2Q1dPOHZTaWsyLWFLNXB2aG5Ya3BmVzFFR0JoSF8xZWZON2dncnF5TEpRbTBDWjV1Z0RKaXhIRVZSRFF0RndVeDVOejhWbTBsNFJKOE0?oc=5",
+    "source": "Democracy Now!",
+    "fetchedAt": "2026-03-25T13:01:12.369Z",
     "mediaUrls": [],
     "videoMatch": null,
     "lat": null,
