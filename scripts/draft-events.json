@@ -1,137 +1,5 @@
 [
   {
-    "id": "live-updates-trump-raises-hopes",
-    "date": "2026-03-24",
-    "title": "Live updates: Trump raises hopes for war to wind down but no sign of reduced fighting - NBC 6 South Florida",
-    "description": "Via NBC 6 South Florida. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPaGNzWlE2SlNqQUF1SnRTeExocmtsSDM1cGVhc0MtVGFFS1Ntd1RlTGJrSlNFcDMyYjhSeThzdzh5US1kMEV1SXRnQ1FncFdJa2owUXZMRkZHNGJUV2lLRFNNREo3R2VqT1gzakJuWGRiN1JwU3N5eGNsNmNFM1M1Z1Z6NElfLUpNMnVmSDlsdWpnVldidDFFZkk4dEh5Yl9teElWNXNtclI5bVhVdWFQdVk5MTJENFhaMk1VRER4OW8yREhiQ0wybFE1VURWS0cxcHBUR0ViOUk3Mmd60gHkAUFVX3lxTFBoU011ZDBiZWNfQ1F0RjN0dGgtUURIYmhXbERFM3ZiaWR0TEp5UC1LTHN5TzYtZkpJT2ItRFVVMUhSODdBaExEdHZPdmR2a3RyZUNRdVc1QU1QVjNXMkpOTURXMldjNkVTdU51M190T0M5WFlaS1hMc1JPM1Q4cWhtUFVRSE5FRmgtVzdqT0oxLTYwX1JldjJweU9FRWY1RGcxb1JSa09BV05sMFBBWHNRbTdIYnZsb2lxTHozQk9vellPUXo1a0J0OTFIUlptTURSeE82REJNWjU1TUI1SmlabEV4NA?oc=5",
-    "source": "NBC 6 South Florida",
-    "fetchedAt": "2026-03-24T15:00:32.708Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=XeZu_rHB8fk",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "XeZu_rHB8fk",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "live-iran-dismisses-trumps-talk",
-    "date": "2026-03-24",
-    "title": "Live: Iran dismisses Trump's talk of negotiations as 'fake news' - Middle East Eye",
-    "description": "Via Middle East Eye. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1FeXpPbkl0TndOTmdVREw1ZUF0MTE1MDd3SXFQWHpWbTBBWEtVWVhlZmZZX2pJZ3BDNERQay1pWW1jbElKNUNEVUFfTVdkTXdaZjB2eUlLblpySXdWN2JLOXUwWWlBRjI2azN0V1V0N1ZZRjg?oc=5",
-    "source": "Middle East Eye",
-    "fetchedAt": "2026-03-24T15:00:34.938Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=NatzWb3183o",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "NatzWb3183o",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "israel-asserts-control-over-southern",
-    "date": "2026-03-24",
-    "title": "Israel asserts control over southern Lebanon; 82,000 civilian targets struck in Iran, Red Crescent says; Antibiotics, insulin scarce in Cuba - Givebutter",
-    "description": "Via Givebutter. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPbnVudGdxYlEtdjh0cGEzbzJGS1BaTTVwczR1dVQ5R1lNNm5FSmtFQnNwZl9oM0hGYkt2QU80clI3ZUJHYklRbHRwVTFFcXl6cVlDeWtLdFlBQkdwMmVNS2g0b1VuV2RnWnp1d0dHMEZqWmlzd2NQSTdkS2t3bnZkMzlaM3BlckNIQjVKT2hUdVMwc3pNZ0otNmV5VG1DeEVfc2NYYm9nU2RsQi1HTjE4aXQ2REU2ZlZrY1ZPb0NndFNTd3NNTmh5bjJn?oc=5",
-    "source": "Givebutter",
-    "fetchedAt": "2026-03-24T15:00:41.339Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-war-wave-of-iranian",
-    "date": "2026-03-24",
-    "title": "Iran war: Wave of Iranian strikes on Israel overnight - WKRN News 2",
-    "description": "Via WKRN News 2. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTlE4TndUMm00N184dlR4cWpMMEJtWUxwYVppRThVWVhhMXc4TF9VbjFkdW1hTmRCbXZ6ejZVanExbkp0c2JVTFN0THcyT0kwTWpSem9aZXhnbktqaGVFbmZheXVnYWtNZERkWGpwRGJyUjNyQXZZM1F2V09tUzg2LTh6UkpvVmpZV0hwZmVUei1RWUk?oc=5",
-    "source": "WKRN News 2",
-    "fetchedAt": "2026-03-24T15:00:47.862Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-war-takes-mounting-toll",
-    "date": "2026-03-23",
-    "title": "Iran war takes mounting toll on America’s military - The Hill",
-    "description": "Via The Hill. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1taTlwWWJzdThLZl9jRHhnZEIwTTkwUVRJZExVOGtQa09WRV9kaVVrQkttUk5falBleUNDX3Z6RzdydG1GRUItcUhyb3FwV09EcHRtc2t0ZjZQZVdIQ0NMcXpsbDJmWWxEbjQ0ZVJvM1B3RHRfRW1uV1hDRdIBgAFBVV95cUxORFp0SnNsR3JOMWotRy1kTmxha0RibVFORDVGZXg2TmJDQzBFQjhNTjRhb21UOVFxeWhtLUY3YkRaeXVRVW84djVyN3hZN3gtUF9CNFNFalJDdWc4RkRrYU81UlU1VEVlckpKNm5KZ2ZUYVhtVTFWOW5jbVA4eE40bA?oc=5",
-    "source": "The Hill",
-    "fetchedAt": "2026-03-24T15:01:00.006Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-targets-israel-and-gulf",
-    "date": "2026-03-24",
-    "title": "Iran targets Israel and Gulf Arab states, Israel to expand Lebanon operations - CBC",
-    "description": "Via CBC. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE84ZF9uRURMSmVvRVlXZ0pnb1dYM2ZaTkROdGJ2aERzUU15M3JMWnE0dE0xWGdwTjA3UFM1YVlHQlRzOGlISDVMZmw4aEpFeHVGSHhEMXpzOUlNS0pMT0pzS0NOQld5SlZCLXRkNTNZbEpPNWM4d1E?oc=5",
-    "source": "CBC",
-    "fetchedAt": "2026-03-24T16:00:20.367Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=lNc9blykzI8",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "lNc9blykzI8",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "airstrikes-batter-iran-as-it",
     "date": "2026-03-24",
     "title": "Airstrikes batter Iran as it attacks Israel and Gulf states, while diplomatic efforts gather pace - Los Angeles Times",
@@ -4248,6 +4116,182 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQ1l5N2NBRlBmZHhoZUtXNldmV1d0UUlpdWxqNXYtYkNQWjQyX1ZUdlRaQi1NTloyUWUzekM3emhiWklCWDNmbF9iek9ZeWV6VElVQk1yY2xrWUx5MWE2V3cxalhPQ1hGTHJHY2ctclBnTmlhMzVMLUlOLW54TDlVVjVUY29FN0ZkSHFoVkh2U1JNRkdXUWpYdGI1ZEpGZGhsWjlr?oc=5",
     "source": "Pittsburgh Post-Gazette",
     "fetchedAt": "2026-03-25T15:01:07.698Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "where-the-americanisraeli-war-on",
+    "date": "2026-03-25",
+    "title": "Where the American-Israeli War on Iran Leaves the Gulf Arabs - Stimson Center",
+    "description": "Via Stimson Center. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNVmhHbzZES1NaSTZTUjg0ejlqQWhGT1hRNWZHanVuOW9iQWNfQ1I0Z3VPUVRIcHVuQVdPb2p6dlFMMVpZRVpzWTFpWkxhdTBIR3BmQmNBZGNWVzZPY3djWjJQSDYwdC1fc3JtakFXNTNvZFlqaFZHZThFS3R3bVEyUlJMUVFsVXZZUjBpYjNYSElOdkww?oc=5",
+    "source": "Stimson Center",
+    "fetchedAt": "2026-03-25T16:00:20.756Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=DtIUeCfhhQE",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "DtIUeCfhhQE",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "us-awaits-irans-response-on",
+    "date": "2026-03-25",
+    "title": "U.S. awaits Iran's response on peace summit as Israel watches warily - Axios",
+    "description": "Via Axios. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE80cFpRQmE2c3p1N3JsY3drNW9zYmQ2RU1pRjR0Y1NVUzhaazY1U3JQbVo4Tjc3dTF5cEcwT2dCdFhUejdDRk53cnhwQUpuZUIwbHl5b2RPTmtQNE4za3BRNzhYTUNReTh4VlFhaEFpZmY3bDg?oc=5",
+    "source": "Axios",
+    "fetchedAt": "2026-03-25T16:00:23.390Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=9eKF3HYJsAI",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "9eKF3HYJsAI",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-war-winding-down-as",
+    "date": "2026-03-24",
+    "title": "Iran war winding down as US and Israel hit fewer daily targets - The Jerusalem Post",
+    "description": "Via The Jerusalem Post. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBWRFhmNGlpckVuNmlfNVlob05lTE1rWW1RVXJtQXhpZlRoX2FOQmtwaFYyY2RTQW5SLTc3UkxmazJRZkJSX3dCVFpFa0N4NEhrR1Q1TDJiYUFwVnl5UVRqVEQ2OGNpeFVuMGc?oc=5",
+    "source": "The Jerusalem Post",
+    "fetchedAt": "2026-03-25T16:00:25.663Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=vUq9zhzR51Q",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "vUq9zhzR51Q",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "the-iran-strikes-explained-how",
+    "date": "2026-03-23",
+    "title": "The Iran Strikes, Explained: How We Got Here and What It Means - American Jewish Committee (AJC)",
+    "description": "Via American Jewish Committee (AJC). Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOaDVleG42dlJ6RVktQkxYdTYxYVFSNDU3UFFwZHJqQy1VeG5WV2oxc2gyaEhTYlBBNG9OTFFHVkp4aTdqRlFKNWtMLU5QdEllZVdNejNJLWhiTVBwUE9COVZrWUNiNFhCbmZyaEE2YVpVcV9rZzdMSERvWlhGMUg4VDZyb3AyRkhFd21nZGJB?oc=5",
+    "source": "American Jewish Committee (AJC)",
+    "fetchedAt": "2026-03-25T16:00:27.933Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=UEQ18v9k9SQ",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "UEQ18v9k9SQ",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-demanding-closure-of-us",
+    "date": "2026-03-25",
+    "title": "Iran demanding closure of US bases in Gulf, end of Israeli strikes on Hezbollah as conditions for ceasefire -- WSJ - The Times of Israel",
+    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQS2UzMjJiVHh6YjBHVGVuQ19lSVRmb3FMV25XcWFNbDRYSmdXeXE3a1hVQjZoVWd0MXc0QXhCZ0RycGpVRVZtQjBqdmxZYTJiM0drcTB1Y2tSR2tGTjF4Y3FiT2UtdjZXNjkyTzBIdEpmZGd1MHlfd1VIM3RkZzZfVmczZlQwenVuU0tfc2xqSEROMGoxMXV3c0QwNnF3T283VTJ5SFBDZGZtYm40dzR1UTBWZllOVEo3MTVRMEFoSGlkdVItbVBjS05KZi0wd1M0bzdRbFBzV2YyM1U4ckpBQlhNcllwVzVBcHRGdA?oc=5",
+    "source": "The Times of Israel",
+    "fetchedAt": "2026-03-25T16:00:46.351Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "governments-declare-emergency-energy-policies",
+    "date": "2026-03-25",
+    "title": "Governments Declare Emergency Energy Policies in Response to Iran War - Council on Foreign Relations",
+    "description": "Via Council on Foreign Relations. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQzF1QkpZdkNLd2JTUXZkZVFPLUUySU9tLTlOVC01d2Q1MEx3YTlmVHA1R284Yk5iX2w5LUJPVEpBT2JUVHFaOFNrVjFaaHFTeGJNV3VFaW53SjcxMnc4WE9lblk0Y0ttMWtpdWp0OFQ1Nk1BRUpaWHhjTGZxOW9HRlpJdWJFMWplajlOY1RvUWVJZU9wTnpEVjNSRlhGeGM?oc=5",
+    "source": "Council on Foreign Relations",
+    "fetchedAt": "2026-03-25T16:00:52.234Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israel-iran-war-gazettextra",
+    "date": "2026-03-25",
+    "title": "Israel Iran War - GazetteXtra",
+    "description": "Via GazetteXtra. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQeGdoUEEyaTRObEI3MXYtSlB6UU9QcmRaUThpb2FtNHRsRFh0cmNLcnBlazQ5cWNXNGZ4Sy0tR3dEeWRzaGJLNjc4R1NoQkZXRHdLQy1xMndCdFNKc3FCY1RLb0cza01UaXltTERnWVJBbXN6WWsxNW1oNTNRYkdLV1ktZERkQWtVT2wxbkFlOGFmZG1abWVDLWZ3ZnYyaWtEc1VvNUVtR2U5YXIyTHc?oc=5",
+    "source": "GazetteXtra",
+    "fetchedAt": "2026-03-25T16:01:05.305Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "daily-report-the-second-iran",
+    "date": "2026-03-25",
+    "title": "Daily Report: The Second Iran War – March 25, 2026 (18:00) - Alma Research and Education Center",
+    "description": "Via Alma Research and Education Center. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOXzdWUnQ0THEteG5DVkNFcWlORW1RS3M4akNlaC1jRWVGdVp2cVhBTV9FU1BYeE5RY1NkNGZNdkdneWRtT0s3eUlhWXI2ZVBReFplVzV3MmRGa1pxM094TWh6U0JiUEU4S1ZrMGE4aF9QRlBfMFZLQmRMVklBa2tSTTRR?oc=5",
+    "source": "Alma Research and Education Center",
+    "fetchedAt": "2026-03-25T16:01:11.577Z",
     "mediaUrls": [],
     "videoMatch": null,
     "lat": null,
