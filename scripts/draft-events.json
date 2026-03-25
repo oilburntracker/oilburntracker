@@ -1,181 +1,5 @@
 [
   {
-    "id": "iranus-war-latest-tehran-mines",
-    "date": "2026-03-24",
-    "title": "Iran-US war latest: Tehran mines the Strait of Hormuz - The Telegraph",
-    "description": "Via The Telegraph. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQT05EdjZrQkktV0d6bzE3dDF5ZmJ6Z3N3WkNmczc5TnhLSnMzVjI4X0RVOW9TdHNQbEJqMWJPMHlzaWhjdWxpQThKdFZOSnpqM2hKck1McjNMYkYxYzdvOWI2aXRpSERBeXdVZ3cwU2ZxSmhiclF1ZTdwb0FtcnpVa0lzbDA3cl9sT3RsZGFWUHY5M3FlQUtjRUVTTlNuLXY0ZkJvT0w1bw?oc=5",
-    "source": "The Telegraph",
-    "fetchedAt": "2026-03-24T09:00:58.288Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "tanker-carrying-iraqi-oil-crosses",
-    "date": "2026-03-24",
-    "title": "Tanker Carrying Iraqi Oil Crosses Hormuz - Crude Oil Prices Today | OilPrice.com",
-    "description": "Via Crude Oil Prices Today | OilPrice.com. Auto-detected by headline monitor.",
-    "category": "infrastructure",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOc2JtUjl2MFR2LXhERktoLWVQVzRCcmFYSVUwTWpBUy00RGpaMW5CUHBpeFozSkk5RkFGb0ZEYzY1aC1oZ3B2bWJaakRSZkNKMFlwSXc3V2lWTGxwQ0lHMHExcVpiNk1ONDF1VWpDSGdVdFpFNkFSSjBuR05jalhjUkNvM1hhYWx4YU9rUkplMXZ1RzR2SnZGZDRuOHjSAaIBQVVfeXFMTVloOEdCZm5URWVlaW10bjRRYTJuU0hQRkhmaUZ4a3RNeXFESnVLamJZWUZrZHY5QTBkcXRMSU04VjVReU9tamw4SkRVclJfSUFfNmxqUE5DU21rakpnNDM5QzFBZ0dJQlc0RmVJdklxbXNUNmVBMFJhaEE5Z2JkVktORVNqbkZzckt1OXM1WU9Gb0I4cGdZV3l6d0F4Q1FHSlBn?oc=5",
-    "source": "Crude Oil Prices Today | OilPrice.com",
-    "fetchedAt": "2026-03-24T09:01:04.617Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-war-live-updates-iran",
-    "date": "2026-03-24",
-    "title": "Iran War Live Updates: Iran Presses Assault as Diplomatic Efforts Persist - WSJ",
-    "description": "Via WSJ. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi_gJBVV95cUxPdDBsdWRGQnNpUGNLU2tINy02U3o2ZWxTWFZfRzVsY25sWHFiMDllZmhSeTVCU2tvNFNudHdkWGMwVlVTOU5zSzFDVk53aU9JNUR6Z250a3hLSXpfQkwyVGlDYW1TdThManpYRXRFUkFWRlJUZE1kSXpUYV9zd3dCRktCd2pMNUppM3V5aWVOZmZiTXN3aUZjQjJwX3lmYk1MVnl5NnUwUW1yeTZQVUhTR3h6MXowSlRLcnVSU2Rqc0hhN0VIUno2enB5ZkpUdnJRZXpsYXVBYnVaQm95X3pxN2QtdnMtaFZ0R1VoUFVUY0hmMlVoRUgzbzVTM0dLSTl1X2tBd3Vab0ZWa0diUkNuODh3U2gzci13NHk2eDF5MVE1V1N0cEp5MHM3MUxlenlzbmpnQ2ZQNGFPdkNBQlJEeE1WVW5vU1E4cWhiYXFLZGk4OUVUVFB3ZHZLY2NRdzBUMmNJZmJCRjZBbVJIZWtmYUFtQ0VrWnJ5SWlIRGxR?oc=5",
-    "source": "WSJ",
-    "fetchedAt": "2026-03-24T10:00:13.515Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=Dj2fq25h7Eo",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "Dj2fq25h7Eo",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-launches-strikes-against-israel",
-    "date": "2026-03-24",
-    "title": "Iran launches strikes against Israel and Gulf states after denying talks with US - Euronews.com",
-    "description": "Via Euronews.com. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQSUJBY25HYjlUaU9STTBWX2VycXdDbktZMjBDZ0xrXzRZbGdhTlo5UXF1djlIYmRLRmNJM1l6QUJZSXN0YXlhNF9SOUNfNzJTM0ZuNjZmUnhVbWVvd0dqMGZBcFZOMEhPVTNjZkdOU3BERnVYbjBtcVlwUmpSb0hwWGJVYjQ1YV9NTzNZc2xFcDA2dl9JT2g1bktUMkJMalBzQVM2NUVBMkxVenpEVGxIc1RzS2hBM0lSNXZOb2RSQW9MbFU3?oc=5",
-    "source": "Euronews.com",
-    "fetchedAt": "2026-03-24T10:00:16.865Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=V_qVzmk3pLI",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "V_qVzmk3pLI",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "israel-iran-war-news8000com",
-    "date": "2026-03-24",
-    "title": "Israel Iran War - news8000.com",
-    "description": "Via news8000.com. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPS0oweXZ1NGNtZlpBT1F3NFh5Vjc5MDZJWjg4Z211ZzNiZkdDN2dMVEFlVTIwWDdrZW1lOGZHa216YWRQWHhXVkVSTE84RHdXLTlTbXQ5U0U5dndmYnhYb2t3Q3BsUWN3c1dpVWVEajFJODhUOFBxVHlEWkQxN1RmcTVSU05ZTVQwbDJWUjZnekZuU21EcVVBWnVvZFBycW9oZDNGb21VNnRINDVt?oc=5",
-    "source": "news8000.com",
-    "fetchedAt": "2026-03-24T10:00:19.062Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=j6IbuaPW8EI",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "j6IbuaPW8EI",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-hits-israel-with-missiles",
-    "date": "2026-03-24",
-    "title": "Iran hits Israel with missiles after denying Trump talks - Nonstop Local News",
-    "description": "Via Nonstop Local News. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNSHNlY0EwWXdlM2FHYXJUUXN6SV9xdkdSWUhLcFZsd3pPREpPNjZvUDFZUXJIaXNFT2s0TmtJSlRXTjMzRjJzcU5kVG9WQjNlVkYzMnFycVdyWUNDN0pZSUFkMXNyblNweHpLS0VFcktVV3JYN3BqX2ZpTzdKcFBRdjNEenhmR19GQ1ZDU1ZZc0c2cUp0TVlBYWxFcmQtSkw2aExWcnpLUkRSSTdCaWhTY2Q1d25UUFNOdkhfOHRvZFdQRWJvVXFQb19JbVE2OG1MVlgwY2FzWlphQ2s?oc=5",
-    "source": "Nonstop Local News",
-    "fetchedAt": "2026-03-24T10:00:24.083Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=2p-paSiFzRM",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "2p-paSiFzRM",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "4-people-lightly-hurt-buildings",
-    "date": "2026-03-24",
-    "title": "4 people lightly hurt, buildings mangled as Iranian missile attack hits Tel Aviv - The Times of Israel",
-    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNb2dlN2xialhWRkVGOTYtTHBLeGZObnRoX0pPZWNGaEN0NmswU3hSd2RXX1lmbGJOUmI3NnRtYklFVXdjTHBLd1AzVGhSNEx5TEpWbUt1VE55VFFlVWFmYmdLckprbXpheFJIOTNoMDMyQTVwZXhLY0tDWDhzQjkxenBtNE5sVWVBVlVEY1hHU1I2UzFWdGlTbU45VmFnNF9JVmNKQlJFeVZLSUdRNi0tZy0wSk5TYWhsNXJqVVdXRdIBxAFBVV95cUxPQUdfUnFyZ2J0RGZZTjZMd2wwSjEycUNjTHhXUkJVb2VUa2hncFJXb1g4U195T29xaXczQzNIRzFzQzZDa212bHAwUk42OU4zQWN0d3l4eHNHNkJKaEI3a1I0eXVtN2lLbnZxZmlGcExET0Y2d3pkaDV1OUxidWdBTnRoNzc3akpUWnVwNk9vNlFoS1dxdUliU2RacmlrNmtYaGpTa2F1ZjJvV2p6WHd2MnpNVmdPUDl6RGZUa2pLTmgxM2Z0?oc=5",
-    "source": "The Times of Israel",
-    "fetchedAt": "2026-03-24T10:00:34.788Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "fog-of-war-eight-signs",
-    "date": "2026-03-24",
-    "title": "Fog of war: Eight signs that Iran-US-Israel conflict is not over despite Trump's five-day pause announcement - WION",
-    "description": "Via WION. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOa3dPTDRqS1Aza2xFcjZtUU5nOG1jOFRtWm0yMXdTNTM2QVYzemdOa0lzYXBUZWF2UDd0ZmtQdGNUQ2FoSkc3T2V0VGg4V1JXMUxiNExpU1YyNXpWU2RVbXVKUjhqcDhEb1RCaGRRNWc5VFVkQ1RCYkhWcFB5UXhDX01aT2J5VVJWa3hjdUpBd1cyQmNUWHlYTkVfVVFvNFNEQ1BlUE0zWHlzVHRQZlpXUXhXOVp0YVlmT2lpWFl3TkdONHpHemtJcTFRSmE2bGROcnRhYU5udGxDZmxDM1RKMnM1QjhEbmMxTDBfU0V6UGpZNVpBTEhJZmdqbU5rUdIBgwJBVV95cUxPQzlrUUpPQ0xtZk56LUN0ZUhQR1Q0LWRWLVliSFpPR1RtTUpkakxIOXRWemQzR3kwXzFRaldOam05c1VrS2poakJCbkpIbmoyZy1rdGFCdjZYYWlRZDRJN3Zob1ptcERtNHFRdWlBNlIzYUh0U1pUckNoSTdZdTZaVm94OGtXcHZabllVMTlNWU9OekxFcmJmeTBYdE9sNVhyVnR4OWU5QXZueXRrS0JESzlQMVk2M3NvbTJTMEFZOG50U3huTm54emZNanlwVTdWV1FiaHN2YTJMR0RCVFJub1J3dGJnMmpJZzlNYXNTWTFlSko4cDR4TFVkbjdiNkVkZ0Rv?oc=5",
-    "source": "WION",
-    "fetchedAt": "2026-03-24T10:00:40.990Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "how-the-us-israel-iran",
     "date": "2026-03-24",
     "title": "How the US, Israel & Iran are controlling their media narratives - The New Arab",
@@ -4302,6 +4126,94 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNbnllckpvZkZvbDFCLUZhYm9ibU5USENoTzlVb091RXVaUnh4cWdxLUJnQk9MRnlFMmxmMVVrYlVoUmp5eER3bFpuZVNtNGpPbVoxVzZBVE44bVAwZzVGUXcySzZRaVUxeEZQZ0psQy1URF9jRmVUdXBzUWNGOWJuU3VUNXRJNlhDM3ppUlpXZnJTRXZJaGhpMkl4X3VjZXlnM21BWlBSNkVXdWJ6R0J2UW1LWHE?oc=5",
     "source": "Bloomberg.com",
     "fetchedAt": "2026-03-25T09:01:11.844Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-attacks-israel-and-gulf",
+    "date": "2026-03-25",
+    "title": "Iran attacks Israel and Gulf states, plays down Trump peace talks claim - NBC News",
+    "description": "Via NBC News. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNaU91ZHNmNzVvX1dmODlNYTBpODY4WXl0a2lDX1pISU5jMHRfZ1JpMFVIWWtkaVZ5NGRaMVZjREtqOU8wUmZ3ZlN0YU8yVnRfSkpjRkFEN3Uxb0hkei1JcVEwcG9YV3VGWFVJckdLankzUUNmNVFxTVBxRy1OTEN6VDIyQU5BMWw2TlJLRDZ4dHBfTFZ3RjNZUllFTlg1amVVbjNqcHNOR0tES3NSWWdBbjd3ZHIzR0ctVk16bkdWZWg?oc=5",
+    "source": "NBC News",
+    "fetchedAt": "2026-03-25T10:00:13.680Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=CnvDS_kjq1k",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "CnvDS_kjq1k",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "trump-calls-off-strait-of",
+    "date": "2026-03-23",
+    "title": "Trump calls off Strait of Hormuz ultimatum as Iran receives U.S. message from mediators - CBS News",
+    "description": "Via CBS News. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPeUZ0OXdtVlZuZnZadTJ0VjJURkFfcHM3OFBuTEJJeTZvNnBtUXdqeVdZWVVlc3RySXhtbmtqMmlEcDB5OEZEQTk1d3hqeDFvVE1ZbjVvTDFrSHNaWnRzX013QVQybjY0LVJNVVhPQkJBeWJSa3B2UVlqXzhQLVpGM0FySmFZcGVOOFFhSXlWQXJHWWvSAZgBQVVfeXFMUHo4UkM2WUxkNjZ3OXJhRDFxdTJkc1JKUUVxcXJqVkF0S3N3ZU5HYVl0VlRyMG5iRzFIOGRxNVpBS2lFVmRtc2ppYUwwTmRMSmw1LUlfY2pYZ05TZzFrdzQzRWozLWpWZkthanV6ckwzWFhxai1SVDA4dFNMY2FZVHotdWxtYmZxd1pMTkMxa3ZmbHRsQjVQaWc?oc=5",
+    "source": "CBS News",
+    "fetchedAt": "2026-03-25T10:00:22.066Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=c5fo-yhWnPw",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "c5fo-yhWnPw",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "over-5000-treated-in-israeli",
+    "date": "2026-03-25",
+    "title": "Over 5,000 treated in Israeli hospitals since start of Iran war, Health Ministry says - JNS",
+    "description": "Via JNS. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNemVkUHFwODd4NTZHN252a0piZ3JwRlhOeTk3a2NXbzRGRU42M3hyeTlJMUtfTnlhcnlhc0JJMzRsMDliVlNrT2xTOV9FdnBHX3duOGdlU01QSjl5NmFKS040WlpTYkFNOXJzNUliTjQteWpSekdfREE3MTF4UUdadVduWmE1VDBLRTZXRHhXOUVQNlZ5SEVaSzU4c09FdEU1dFdESWRUNUlnTWR5RHNKWUJrVl9Bd0NQNVVOQlFB?oc=5",
+    "source": "JNS",
+    "fetchedAt": "2026-03-25T10:00:58.091Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "ea-on-france-24-usisrael",
+    "date": "2026-03-25",
+    "title": "EA on France 24: US-Israel War — Trump’s Deception About “Talks” With Iran - EA WorldView",
+    "description": "Via EA WorldView. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdnhJX3dwNEt6VFNOVUx2ZGc2c3pCRzN1OGtORThtZ1lhaVV4eDJQMmM5d2FMU001NC1jNkExZ3NYbWo1NmNBY21TWEtzNEhjZk9ub0J6ZHRHcDlyYmFNXzVwWlRxbWFIczJqaEZUWlhCcmxqTERka2dIalJiTEs2TzAxSTJOQ1dGcTd2bA?oc=5",
+    "source": "EA WorldView",
+    "fetchedAt": "2026-03-25T10:01:11.432Z",
     "mediaUrls": [],
     "videoMatch": null,
     "lat": null,
