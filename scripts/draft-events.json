@@ -1,103 +1,5 @@
 [
   {
-    "id": "iran-targets-israel-and-gulf",
-    "date": "2026-03-24",
-    "title": "Iran targets Israel and Gulf states after denying Trump talks - Euronews.com",
-    "description": "Via Euronews.com. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQSUJBY25HYjlUaU9STTBWX2VycXdDbktZMjBDZ0xrXzRZbGdhTlo5UXF1djlIYmRLRmNJM1l6QUJZSXN0YXlhNF9SOUNfNzJTM0ZuNjZmUnhVbWVvd0dqMGZBcFZOMEhPVTNjZkdOU3BERnVYbjBtcVlwUmpSb0hwWGJVYjQ1YV9NTzNZc2xFcDA2dl9JT2g1bktUMkJMalBzQVM2NUVBMkxVenpEVGxIc1RzS2hBM0lSNXZOb2RSQW9MbFU3?oc=5",
-    "source": "Euronews.com",
-    "fetchedAt": "2026-03-24T17:00:28.314Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=lNc9blykzI8",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "lNc9blykzI8",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "german-president-says-iran-war",
-    "date": "2026-03-24",
-    "title": "German President Says Iran War Is 'Disastrous' Violation of International Law - Haaretz",
-    "description": "Via Haaretz. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOTmdBU2h3TGEtVGFITjhyX3pJTTY3TEUyR21iM2d5VVMyN2tzQXVYa2YtSkFDWjN6d0YyME0zdTgyUmVjajBUbnJ4SVVleTEtcW9ZV0g4RzFqaW9pallQTG5Mb09Fd2tuUDJaWXFvSGxCcjljMThmS2sxWGc2clRhN0wxMGgydHR4VF83T0FUdks4Y1IwLTVvV0czc1RTOVBRdWxfOTN6MmZEd3BuVjVBUXhJcktSY2dZWlNKWXdGV0xocDBsdDJQVlIxTTRpS19xWnlfczBDLUJ4TENfUlU2cnZXNjBBOVY0ME9JOGVycm9pUmE3T0NBN1NMUEZRR0FrN3VydFdaX0xDeVNMTmFfeG11Yk0?oc=5",
-    "source": "Haaretz",
-    "fetchedAt": "2026-03-24T17:00:35.748Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=KkN2M9sfP9Q",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "KkN2M9sfP9Q",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "saudi-crown-prince-said-to",
-    "date": "2026-03-24",
-    "title": "Saudi crown prince said to be pushing Trump not to halt fighting against Iran - The Times of Israel",
-    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE81bGV3VXF1Zk5vZjREVDR6dElpTWw2TVFTdERkdUFkV0NDQS1sZjVucnBmU3RQZTU3eHJhVkVpVlVZUEdIUjJnMXhXZTZHdlh1Y2N1ZW4wSS1sM0tNeEEzWVRlQdIBaEFVX3lxTE5IU0tOOVZLWjJlbU1ZczJpekNWYkxFWnhhQjNab0ZJT1BJRWtCSjJtMFZwVFV5aEdsbW1EeFpUakxOclNaU09ZOGZCTTdFeHU1YXZmWl9rVWxyeloxdkJnTi04a1lZWWUx?oc=5",
-    "source": "The Times of Israel",
-    "fetchedAt": "2026-03-24T17:00:38.061Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=njhAAfXMKoM",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "njhAAfXMKoM",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-fires-more-missiles-at",
-    "date": "2026-03-24",
-    "title": "Iran fires more missiles at Israel and rejects Trump's talk as 'fake news' for markets - New Hampshire Public Radio",
-    "description": "Via New Hampshire Public Radio. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaS1BVmphMVdEdzdjWTNzZGdwVnA2ajYzcnVnWnVFaDEzaEl5WXNTQjNCV09XZTJXMkhGd194ejBjWm9McmVrUjRhamhnZS1fLUtGdGNfZTJ6Y19SMFlxVVA3TWhIaWtNQUpzQUpwUzV1MHM2VGRWS0dVTDFVQ09lMkNmMlZ3NDYxOVlCVUg4c0g0WjBRZkh1bGJOR1dmWHpudWQzQkZOOXRQMjFiVWk5bkQtUWxQZw?oc=5",
-    "source": "New Hampshire Public Radio",
-    "fetchedAt": "2026-03-24T17:00:57.975Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "live-updates-iran-attacks-israel",
     "date": "2026-03-24",
     "title": "Live updates: Iran attacks Israel and Gulf states, plays down Trump peace talks claim - NBC News",
@@ -4174,6 +4076,148 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQRkc0NFlVZVpZLVJ4SHF3MmJoNFlDYS13dlFmNU5tMV9BQ2JELTJZckJVOExVTkktSzdjV3VZMWtKYVBjZm93TlZia2F4WG1sZ1Zrc1hCNzNVdUtDY3BYTXJid0UzX2tsTmpFOGdIamZkSHN6VDEyRUZMUEFjMl9VTjdpRDh1cjRPYWpIeFB2Y1VnVC11aEpVZzBYT3NtZEZ5Ymc0ckNZdmoxUGFHYmI1MEdvZ2lpYlZRalI0eWE2eU5NN1pxLTlGeEpSLWo?oc=5",
     "source": "WRAL",
     "fetchedAt": "2026-03-25T17:00:58.402Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-war-news-live-updates",
+    "date": "2026-03-25",
+    "title": "Iran War News Live Updates: Mediators Aim for U.S.-Iran Meeting by Thursday - WSJ",
+    "description": "Via WSJ. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi9wJBVV95cUxNSHpPZ0VtanVHRGNiZGFtOXlwdHl5b0FlYzBzak1JRHZzZkJQY3B1NzE0QzJoc3pGV251eTZZZHp0TGg2UXJZckdLQzQ2dmJJTEw2UHVqbWJfN1piSGZ5OHdwZzExcXFpMXpYbUpLNF9jSWU5V0FFQ2t3b3RkSG1Xb3NoUTFVRC1SY3B6dEVVQkVwRW5CbDRGTEJBRnlOX1d1NlNldmlxUXU2a2FHaUtsblFuanRzY0tFS3VCX0wtMTNYemVBaEJEZ19taG14ZENWX2pzbFdTUHZTMjZYbHpLallqNjFPbGk2emt2elBmekNfVW83aE5rWWY4ZFN6bFZnVm1HTDNWUlZRZW12ZmZvNEFGZV9pOHZfSDVVblNDSHM2YU44OER3UXY5a24tM3NhQjZCRkJMQUg3d0lRU2p1M05wMjRaNTVIemRmOEZkZEREc1FpSjJ1UURPbmpOOHRISThaYmd6aTBTSXhoelBBc2VCVkxlbG8?oc=5",
+    "source": "WSJ",
+    "fetchedAt": "2026-03-25T18:00:14.442Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=k0BhzBbSmGI",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "k0BhzBbSmGI",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "live-updates-iran-rejects-terms",
+    "date": "2026-03-25",
+    "title": "Live Updates: Iran rejects terms to end war proposed by Trump administration, state TV says - CBS News",
+    "description": "Via CBS News. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQLVZWRVVrY3Roc2hveGNLNEdBQ2p1VmxZNnE4SWlLZVQ3cUh0dUJScXF6UGtxYjJyTmNOWHNWZUc1d0s5Y19XOTRWWExPLVZhTG9laC1xSDNueWVSeTVyeUZHcFU2TUNWQVFlRC1MdEhHT3VjTXJfVTRlY0ZDMUJFODdBYU9RcDMzRHZXTGRoc2tiZ0RZQUhfdVVrNTdTb1lRb2MtN1ROV3fSAa4BQVVfeXFMTXREQlphZXRFNXhBbXF4d3VicXZhRjByUzJOb25feGNMN2l1dE5QT3dkTFFSOTRFejBsUDA5SDJOQ2F3allOOTdkZ2JRZVdqSHNsOTh2d0pmc3VabU9uUEdNRlVRZGpBQUxkUUdWTkR5U21hNjFNREtIMGMzNElWbXBqd1Fkbk14bWlRYXJoQ3BRdHB5dGphaGJLN1RMMjRlZHZfUWtqdXRMRVJVZWN3?oc=5",
+    "source": "CBS News",
+    "fetchedAt": "2026-03-25T18:00:17.870Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=TaHqMO8sAbc",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "TaHqMO8sAbc",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "what-trumps-war-in-iran",
+    "date": "2026-03-25",
+    "title": "What Trump’s War in Iran Means for the World’s Oil Supply - The New Yorker",
+    "description": "Via The New Yorker. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcmJrWkVGOUpQWU5NUjF3ZTJxRjdZWDE2SkJYbko0T0ZBQnQ3WmtyZ3dvVmV6RFEzS2IxRFdlS2FyV1JGN1JKYTI2amwwbGNHalNUUS16TXhTT1A2Rkt4dS1jZ3NJWmtlOXNwZjRJTEdfSzdiWTRxTVUyUHBXRWZ2ZVVLSGF0YlNBX3k1WGFWMkttUlFJOG9ady1PaFlCQWhFVlJNR2hMTGlweDZYTVB3NDZR?oc=5",
+    "source": "The New Yorker",
+    "fetchedAt": "2026-03-25T18:00:19.966Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=CNq9Nj8J0O0",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "CNq9Nj8J0O0",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "2026-iran-war-explained-united",
+    "date": "2026-03-23",
+    "title": "2026 Iran War | Explained, United States, Israel, Strait of Hormuz, Map, & Conflict - Britannica",
+    "description": "Via Britannica. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9GTnhfOUV2MndpMTFxdjZSeUpvMm1mRTVrNVZROVRoRHZyZjRCQzVpdzlPcVlWY2lTdEtuMTFEQ25Fd09mR3I4TU5RLTBzS3doUzR5d0VlY2piQQ?oc=5",
+    "source": "Britannica",
+    "fetchedAt": "2026-03-25T18:00:30.096Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=mE3AiFEkSP8",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "mE3AiFEkSP8",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "the-iran-war-exposes-africas",
+    "date": "2026-03-25",
+    "title": "The Iran war exposes Africa’s narrative‑driven stance on Israel - JNS",
+    "description": "Via JNS. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOemVxY3lTcmgzM05aT3F4TzNPMFUwU21LN21oN0YzRGJUaDNkZXVBbU9KcF9nS2lVbjdoay1UNW9Nb0hqQ1dVSGJ3T0VBWFNobTFlWG1ndkZOcXNxNVJDN2ctVDl3dGU5eklZNGFBTGUwbkVBRWhTeWpJQXZ4dERmQnl5TmlFTnJtX3VCZXlUSjNORnda?oc=5",
+    "source": "JNS",
+    "fetchedAt": "2026-03-25T18:00:43.361Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israel-is-gleefully-copying-nazi",
+    "date": "2026-03-25",
+    "title": "Israel is gleefully copying Nazi imagery in the propaganda war with Iran - The Forward",
+    "description": "Via The Forward. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9iZUg1MktPTG1lQUxkaE5nZFhSblRWM2xUc1dLSjRtYzFnQlJkS09KMkpLeU05Y2tzQVMtNFo3N2l5X254ZXAxSVpfNDR4bThNUWV6QTBzT3lNdFNSWTJHR3FwdF9FR0JrQ0c1Um1NUQ?oc=5",
+    "source": "The Forward",
+    "fetchedAt": "2026-03-25T18:00:49.841Z",
     "mediaUrls": [],
     "videoMatch": null,
     "lat": null,
