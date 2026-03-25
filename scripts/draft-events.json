@@ -1,201 +1,5 @@
 [
   {
-    "id": "iran-targets-israel-gulf-states",
-    "date": "2026-03-24",
-    "title": "Iran targets Israel, Gulf states after Trump says negotiations underway - The Hill",
-    "description": "Via The Hill. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOamgwTE01UEZNcWk0VEVzVzRaazhiTV90c2JXQ3BIaEZVYV8tTlVxM0o2U3NKUWZzQ2l0WGNqa2FTRWltOHZLSWFGWU5CVmt4OVJ5Q1kwMHFHcTJxZE1TUDB5amZqMGp4Mzd1MU5CbG1mcmh0WmgzV2ZzMVhmT3B5cWRFQ2FHWGRBRFJfMUpCXzZ6QkkxN2t4N24tM1VzckNYOEVQV9IBqgFBVV95cUxNQUM4RVFaYjMyYXY4N1BSbzZabzBlLXdCSXBCQ1JWemFwdTBZWUpRTlZJdjhSQlBhZnVlTFBoQlNERWNzbkZCN0lYWlBDSS1IN2xLZU5KeVBLSkx5LVFyU1FsdDliaVdjV1JJZkRiY0k5Q0NRTlRRd01QMGVEVU5DdnJKYXAyN3c2MUNkcmNEYndydHVhb1JCaXY0Q0NIVUg4UnQ4UTFJaW9Rdw?oc=5",
-    "source": "The Hill",
-    "fetchedAt": "2026-03-24T14:00:41.147Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=lNc9blykzI8",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "lNc9blykzI8",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "group-claiming-europe-antisemitic-attacks",
-    "date": "2026-03-24",
-    "title": "Group claiming Europe antisemitic attacks tells CBS News it will target \"U.S. and Israeli interests worldwide\" - CBS News",
-    "description": "Via CBS News. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSUh4Xy1yWVY5RGY5VGdRSmFWMzkwcUpFU3JNSC1jZFpUZ19NM19EdzdFajNXTlRFaV9XbXpWSGNwdnlmWFQwcGV4eGZRU3VNUVZlMjVpa0loTVZkZXZKSzNydDU0T29VT1l0VDdYd0ZPcTlBU3BWRDJUczVWMmxPVHNZYi1aZXNSS0J0SGR3MWtIVjJLT3NCTzRvMVNsa0ZVaWdnU2F30gGrAUFVX3lxTE1ST19SWExkZFFMRElnV3pGczk3MEtkaldlQWRsMnZwUG55bUNYbERYcmdMLV9ydGw5ejNSLWtLcEF4X0gyVmVBZ3c1S1pfa3V3eEZUWVdfbzYwUFU3dHZSMmU5VU1iaFlTbGFYSmpJRl9XS0NMZTZlS2lWVUtFN21vMDNhUDBFZjR1WkFsOWdBMlVCOXBJMV81aEVkaHhwUTJWRzZoTkxGTkwzRQ?oc=5",
-    "source": "CBS News",
-    "fetchedAt": "2026-03-24T14:00:47.336Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "german-president-calls-iran-war",
-    "date": "2026-03-24",
-    "title": "German president calls Iran war a disastrous mistake, in rare rebuke of Trump - The Times of Israel",
-    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPckxqZW12QXVHUkZjbTB4TW1HQU41SFpDOWowWHpKUVJ2YVVjLUYzNEg5TXNldnN0cG5lMFZOODl6M2FvOEI2Skx3TDQ3d24xZjYtWVRxX2g3bDRnUE96cUNHVUtKV0NnbV9RcU5qSkkzWHhJS001QjluTUM4VVVCVDhnaGdyMjg2TDZxU3JBOTdTRThRMDZRcm1rOHFRUG9RUDhJS3B3T2RLNGdHMXBrcWJQN2FVdy1mbXVqV1FUVQ?oc=5",
-    "source": "The Times of Israel",
-    "fetchedAt": "2026-03-24T14:00:53.415Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-war-live-updates-iran",
-    "date": "2026-03-24",
-    "title": "Iran War Live Updates: Iran Worries U.S. Talks Might Be a Trap - WSJ",
-    "description": "Via WSJ. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi_gJBVV95cUxPRUItRVZTUzE1UGU4OXJXWndrd3lNWHVFdmFLSDdaQVdTTkJOQ2dZRTA1WGJrYmhWdldXZlpnWGdwcndSbURNbTktVGl5WHNmMWFZMllRTl9tUjkxRnhjZ3p0eGVwYkF6VGR2ZVBvSWxlZnhyRkxBUU9HUUNzMjhBMWhwbE1sNkxFWThoN2JHUGdMVGZlT3NGWlBKQUdiMFFSd044bE5PdmphNlBiU1FVUGNtcWxBekFZV0N6QUw4Uks4cjUzZlV4SlBESUJzcFEwME5QRkZsT1B6empYZkZLSEYzellNQUdhLXFqZHRzM2E5dHZlbjZ4b2JRMHBmSjNDcU41dUZ2am03N3VsWWxpODZGNlZLa3ZZY2wyNlV1UGszYlMycThkM2hOZkZ2XzFQVkJvRGdyeDRYNzRSa2ZtaC15VERnWVluRi1jX3RJUEQzajlPNzJaQjlhbmVkeW1laWdXMUw1Z3V1VmltOFd4ak5NbHBLMFFFZldiemhB?oc=5",
-    "source": "WSJ",
-    "fetchedAt": "2026-03-24T15:00:14.758Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=7FrH2eCWaIg",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "7FrH2eCWaIg",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "live-updates-usisraeli-war-against",
-    "date": "2026-03-24",
-    "title": "Live Updates: US-Israeli war against Iran rages on in fourth week - The Jerusalem Post",
-    "description": "Via The Jerusalem Post. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1Zc3N1VE44bi10ajVJc0Y1SW5fYUZrbVlBbGpRVmQ2OWRFdHhvdDhPS0s5R1Y2aTU5VnRLd3Y4YUlXcVZVUVVxUVRQMUxmOXplU0tHcldWbUM5eUVWWXpQbnlQZ1FrMmNVVDhsQ18zbVFUUUVWSThjbFFiTm5iU0E?oc=5",
-    "source": "The Jerusalem Post",
-    "fetchedAt": "2026-03-24T15:00:20.721Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=yFJyR0VGavY",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "yFJyR0VGavY",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "pakistan-offers-to-host-peace",
-    "date": "2026-03-24",
-    "title": "Pakistan offers to host peace talks to end US-Israeli war on Iran - Yahoo",
-    "description": "Via Yahoo. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQMWV2dUJGNXlCVEhrTUhwVTk2WFlCSGlpYU5sbS1TYnRaTVdCRFpRNWtHNF8tNzZ3TTJrZElocEZZeEJ4ZlJhVmdmcUFuNTFjVGREbVRXZDhQaHV1bVgxUDVIZWlnN3BjNGZtcEVaUXlSbGI2bHRLLWttV3FfR2JMc3VmbDNnLVBTU1lF?oc=5",
-    "source": "Yahoo",
-    "fetchedAt": "2026-03-24T15:00:22.914Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=P1JtN8UYfP4",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "P1JtN8UYfP4",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "israel-first-exisraeli-negotiator-daniel",
-    "date": "2026-03-24",
-    "title": "“Israel First”: Ex-Israeli Negotiator Daniel Levy Says Netanyahu Led Trump into Illegal Iran War - Democracy Now!",
-    "description": "Via Democracy Now!. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1mMFBVWFJmZVY4a3RHT2hsb0xkc2FHdlZUaERHMnBWX1RDRG5wS2xERXp2Q1dPOHZTaWsyLWFLNXB2aG5Ya3BmVzFFR0JoSF8xZWZON2dncnF5TEpRbTBDWjV1Z0RKaXhIRVZSRFF0RndVeDVOejhWbTBsNFJKOE0?oc=5",
-    "source": "Democracy Now!",
-    "fetchedAt": "2026-03-24T15:00:27.654Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=W1FruK36luM",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "W1FruK36luM",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "airstrikes-batter-iran-as-it",
-    "date": "2026-03-24",
-    "title": "Airstrikes batter Iran as it attacks Israel and Gulf states, while diplomatic efforts gather pace - Las Vegas Review-Journal",
-    "description": "Via Las Vegas Review-Journal. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQODVuSVFfeVQ4eVNSLWQzMUsxTnpORlVtSkRBRXo0ZE9sN1cySUxEWWFYeUVRcDNiRV83VzZzbVpvSXY1eG5BVnYtM09Sa0xYWXVIcVQ1SGM3Q2dfcUtSWXVxb0JKYnNMemlMUHVDWVYwc29jQzNTc094bmZKTlRjWEFKcUhHMjl6S01qdy1peHVEaVphaV92OEVnXzBUYVVqRHU2ekItR01ySk5SNnNnU1FxLXFSOWlVRTVaSHIyRkFwSnBCUUozN2I1djZlcGNaOHc?oc=5",
-    "source": "Las Vegas Review-Journal",
-    "fetchedAt": "2026-03-24T15:00:30.048Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=HJu7_l97vA0",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "HJu7_l97vA0",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "live-updates-trump-raises-hopes",
     "date": "2026-03-24",
     "title": "Live updates: Trump raises hopes for war to wind down but no sign of reduced fighting - NBC 6 South Florida",
@@ -4324,6 +4128,128 @@
       "title": "",
       "confidence": "auto"
     },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "why-mohammad-ghalibaf-could-be",
+    "date": "2026-03-25",
+    "title": "Why Mohammad Ghalibaf Could Be A Critical Cog In Trump's Iran Project - NDTV",
+    "description": "Via NDTV. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcU8xcFBwUmxveDRRTFBxem5IVDk4RmM0UGFjQTV2LVRfdWRhVlJHN05OTVg3MnRDbTVkVVVsZEVXVHVnSHVGRFpHdFFmNG9ENUlSam9QbU9ra3ZmQW05bVVzV2N5SmNQUHV1eUcxTnJmNXlzVk1oeVpiZ015aDZxSE9Wbm5pR0FPekpyenh2Ry1kZ2M2bk56cnEzMk03NTRTRnFlZVRJcnhncTRtb0E?oc=5",
+    "source": "NDTV",
+    "fetchedAt": "2026-03-25T15:00:18.164Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=PKRyzdNNYZM",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "PKRyzdNNYZM",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-war-rages-with-pentagon",
+    "date": "2026-03-24",
+    "title": "Iran war rages with Pentagon expected to send 82nd Airborne troops to Middle East - CBS News",
+    "description": "Via CBS News. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMnJ4aHRpWHEySzBfUVVDSGg4bFpOMDBnOG5VY3NMY0NCQU5ETUZzMFdTOHZ4bW9tV0tDblZPVmY4TUVfd19yUjJabkNEU3g4QnpLS2FCRWxiemxRLTdaVG9ad3h0T2JNQ1FkSHlDc0xrbzBZMGJ1dDAxa0tpdEtuM3l2MHNjUHJ4X2NGU1dFLXVBb3BPWE5tcktxNHVmRjRtV2gyM1pn0gGrAUFVX3lxTE1WX21IajlZZVYxZUF5bUY5SHhCZHJLMlE3VDBWZ2h4VUFQNVl6Q3FrT1FyYVhNMXVtcDVOQ0dtNTJ1UjdTSXRBSFRrQ29ST0EyaVdPRHdyS3l1YTJJLWlHcGstYjNMOTBGWmlFbktqT0tMRENnX3RRcVRDNjlmS1BfbXo0NlZUUGtRa0lFTTV2ZWUyc0RncExoZnpKVFVndzJUYzFPR0l0WFpmNA?oc=5",
+    "source": "CBS News",
+    "fetchedAt": "2026-03-25T15:00:28.027Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=KO_XX0eoPD8",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "KO_XX0eoPD8",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "american-jews-wont-be-silenced",
+    "date": "2026-03-25",
+    "title": "American Jews Won't Be Silenced. We Have Every Right to Oppose the Iran War - Opinion - Haaretz",
+    "description": "Via Haaretz. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNeGVsejhaaVhOX0doaXBFcTdCbG9keWZzS01iZVpadDVlOTl0c21hRC1MZERJRnhGSDRnZXNQR3FId2pwRDdJc2VjRVdrR1J4RjdOUndESDRVcFhxb2JmODBxM0pRX05sM3Q1MFNVTnJQSjYxVWVmUlJUd0tJdEU4M2RBT0dxYTVvdWpfc29ib2tFaElpNUswNkpmbW54a1lmVUZrRTlUdm5zUHhKSndyYVFiNE9oeElpVE5xR05WeHkxSWVEQnN2RzhVOTRtRVctcWlQMEo4ZmNrNE9aY204QUZCbWQyc0R1NG1lZE9WcjUtQXlHNDZwZFZxVjBJNEhNNEZYN2pQOFhqZEMtc2c?oc=5",
+    "source": "Haaretz",
+    "fetchedAt": "2026-03-25T15:00:46.795Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "aptopix-lebanon-israel-iran-war",
+    "date": "2026-03-25",
+    "title": "APTOPIX Lebanon Israel Iran War - news8000.com",
+    "description": "Via news8000.com. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOT1NmVTF4OVZwbUZUNmJEOVFwUUtadXdCQ0tHM2ROLUQ1QURRa3RzWmtEVXE1dF9ZczNSak9zVE5SU1dMYnBGMkVRYXRkQXJ0LUU4SVBQNVNaV1h2SS1XMkZ4dXMtQXI5R25iSzFESXI1QTk0dW1tSEZEV1BMczVfVWJQVFk0X2FvRTFDM2RDRGNGc0g5NHloV2ZWbk5peEw5R0FwMVpoV3hKLVZPRVBrMDE1WVRhOUF1V0tEakZVaHVNUQ?oc=5",
+    "source": "news8000.com",
+    "fetchedAt": "2026-03-25T15:00:54.000Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "from-blitzkrieg-to-war-of",
+    "date": "2026-03-25",
+    "title": "From Blitzkrieg to War of Attrition: What the US-Israel-Iran Conflict Reveals - WhoWhatWhy",
+    "description": "Via WhoWhatWhy. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQeXp5cTZsc0trMW9xQlRBLV9xWnI1T09EMm1mby1VcUI3eDJnVVpyUDNFRnNscDlQcExsRXFXSDZHZWRKVE9lOWVFa1YySUhiQVFidV9BX09zazFycHlpa2ItZnlCaklJTm1UMW41Y0tpaThKdWVHNUdMZ1N6WHlQUlg1ODZFRWRvVEt6TTFBQkZVMmllaDA3cHpBZE5tUVlsYlkxRmdEOGRHMThSVzNNT19IMkZtT0pRTWY4?oc=5",
+    "source": "WhoWhatWhy",
+    "fetchedAt": "2026-03-25T15:01:00.617Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-is-the-first-war",
+    "date": "2026-03-25",
+    "title": "Iran is the first war of the social media age. It’s an information black box. - Pittsburgh Post-Gazette",
+    "description": "Via Pittsburgh Post-Gazette. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQ1l5N2NBRlBmZHhoZUtXNldmV1d0UUlpdWxqNXYtYkNQWjQyX1ZUdlRaQi1NTloyUWUzekM3emhiWklCWDNmbF9iek9ZeWV6VElVQk1yY2xrWUx5MWE2V3cxalhPQ1hGTHJHY2ctclBnTmlhMzVMLUlOLW54TDlVVjVUY29FN0ZkSHFoVkh2U1JNRkdXUWpYdGI1ZEpGZGhsWjlr?oc=5",
+    "source": "Pittsburgh Post-Gazette",
+    "fetchedAt": "2026-03-25T15:01:07.698Z",
+    "mediaUrls": [],
+    "videoMatch": null,
     "lat": null,
     "lng": null,
     "zoom": null,
