@@ -1,174 +1,5 @@
 [
   {
-    "id": "world-faces-largestever-oil-supply",
-    "date": "2026-03-12",
-    "title": "World faces largest-ever oil supply disruption on Middle East war, IEA says - Virginia Business",
-    "description": "Via Virginia Business. Auto-detected by headline monitor.",
-    "category": "infrastructure",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNc0hDV1ZxbldRSXhmTGxyZEFjSVJGNk9tVGNRdEsxazlFeDhqM09lb1BHR3ozNXdCZXdXclpUVnNTSVdqVVBUN21JV1VTQktaTC1tVWR6R3FQSDdiNVNJaktWVl9FZVNrbXVvNlJNWU9wOFNnX244Yk1ySExxWFJ6bVBraGFPT0E?oc=5",
-    "source": "Virginia Business",
-    "fetchedAt": "2026-03-24T00:00:51.277Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "oil-set-for-16-weekly",
-    "date": "2026-03-06",
-    "title": "Oil Set for 16% Weekly Gain on Middle East Disruption - Investing.com",
-    "description": "Via Investing.com. Auto-detected by headline monitor.",
-    "category": "infrastructure",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVjV3Q29NNVhyc3pfVnlNa25teFNBckl5RnB4SWVrcHJDeHZaMjVSelBVYS1kc3JUWVBfYTE4UkEwdW16OTFwUU9DSjlrRzc2Y1FPUkhHYnExNGpKekowR2pmX3RwTzJFeVNxbzJxRTVjZGhxR09DQ0FpcmhINWp1b3JEVGQ1MjZVWk9CSk1kNzFwNGt2ZExfYXNZclpmdw?oc=5",
-    "source": "Investing.com",
-    "fetchedAt": "2026-03-24T00:00:58.345Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "usisraeli-war-on-iran-live",
-    "date": "2026-03-24",
-    "title": "US-Israeli war on Iran LIVE: Trump says postponing Iran power plant strikes for five days after 'very good' talks - The Hindu",
-    "description": "Via The Hindu. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNQW93ejBDM1l6cDFaRHVqdUt5ZUwtZXplX2VqSjBYaVN2aHpNRVYyWkpDQnlXVk1rWW5fd0lRN1JDRkRBVldyaDYyT1JxbFJFSkhHYkkwT0ROSVk0OUI5a044S1RWckM5Q2xKUGpOY3lWSnJpUFdHb25GbWp0M2FRZXg3Qmk4eXVGWWpGaHdYby1EU1kzQW42cHJmR3FUbmx2aTdGaWJUNHIwREhCaGNmeGxkV244WGt3U3VteEJCUnlkNllqcjUyaGlVM19UeGJQdGQ1LXV4Vm9DQ29oSXd4SDdTbm8wNGNNQ1ptemVELWwxUdIB-AFBVV95cUxPcEtQLWRBTUxEd203MUNuYm93M0Q5dVNJLWRyMmVfMHhQM1hYMU5tNjVwS09xMjBvZi1uQjdGY0hFRGtWaC1GeWlhSS1Ob3ZGNDZabGYxRTBRTEx0WURiZHZKQ3VLTk5hZWdDNjgyNHRTSTlCVndtR2hWREVJXzJyUENlelNMVmRSN0xQd0tLS3NJWTNxelotZ1VMZDA2M2pzWHNRLV9yVll5VS12NFNwR3lsWnN6dmQzd2NyRnVXVV9Oa0NKZ005dW9odThXSWVOay1kdDFoa3ZiWGVtR3l4VkFrN3J4N3EtSUgxR1k0NGs1dkloN0tUag?oc=5",
-    "source": "The Hindu",
-    "fetchedAt": "2026-03-24T01:00:15.252Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=Uiz_9R0ildQ",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "Uiz_9R0ildQ",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "live-updates-trump-calls-off",
-    "date": "2026-03-23",
-    "title": "Live Updates: Trump calls off Strait of Hormuz ultimatum as Iran receives U.S. message from mediators - CBS News",
-    "description": "Via CBS News. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPeUZ0OXdtVlZuZnZadTJ0VjJURkFfcHM3OFBuTEJJeTZvNnBtUXdqeVdZWVVlc3RySXhtbmtqMmlEcDB5OEZEQTk1d3hqeDFvVE1ZbjVvTDFrSHNaWnRzX013QVQybjY0LVJNVVhPQkJBeWJSa3B2UVlqXzhQLVpGM0FySmFZcGVOOFFhSXlWQXJHWWvSAZgBQVVfeXFMUHo4UkM2WUxkNjZ3OXJhRDFxdTJkc1JKUUVxcXJqVkF0S3N3ZU5HYVl0VlRyMG5iRzFIOGRxNVpBS2lFVmRtc2ppYUwwTmRMSmw1LUlfY2pYZ05TZzFrdzQzRWozLWpWZkthanV6ckwzWFhxai1SVDA4dFNMY2FZVHotdWxtYmZxd1pMTkMxa3ZmbHRsQjVQaWc?oc=5",
-    "source": "CBS News",
-    "fetchedAt": "2026-03-24T01:00:16.864Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=zY5cbG0xDDc",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "zY5cbG0xDDc",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "ending-iran-war-now-would",
-    "date": "2026-03-24",
-    "title": "Ending Iran war now would cede Hormuz to the enemy, Trump’s former Defense secretary says - Politico",
-    "description": "Via Politico. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUGhKZzU1OEtjUmJpQVAtVlpEY01PdXVRTGdWOGZ6MG5GLTNMRmVWYldTaDNsam1hQW4tYlJiaC14aEVLRjVqR3Y0U21qZ2VCd0ROLUZHU3YyTWlSeUNvZ0VZdzJaam1jSXpxRjU4YkhyYTdFR3hLM0lQdlR2ejJBTERNM2E3VnNQQkdjNmJJd2dRZw?oc=5",
-    "source": "Politico",
-    "fetchedAt": "2026-03-24T01:00:21.150Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=-FV6yYNbN7A",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "-FV6yYNbN7A",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "trump-believes-israel-will-honour",
-    "date": "2026-03-23",
-    "title": "Trump believes Israel will honour US-Iran truce deal, but offers no guarantee - TRT World",
-    "description": "Via TRT World. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE14bWdMUkc4SjdScWw2VC1zUm1GWnVSY2wwMEZZTmpLSDZxYTkxWFo4NkNCRURVZzd5VU96T0xybDVrYks1VjhjUHVzVzFNSXpxZW04NUF0YknSAV5BVV95cUxNU29LVmQwSDFzYmlSZjM1SDRFQnYzcTRxQXppN0dMVWdRSEdYX3drU1FYa3dBTkRPZmRrLUh0S0drWnpzYzJhMTFqX3JYTDE5WFlTUm1mSFhpVTdsZlFn?oc=5",
-    "source": "TRT World",
-    "fetchedAt": "2026-03-24T01:00:23.612Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=DtIUeCfhhQE",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "DtIUeCfhhQE",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "benjamin-netanyahu-affirms-israel-will",
-    "date": "2026-03-23",
-    "title": "Benjamin Netanyahu affirms Israel will protect own interests if US, Iran start talks - The Jerusalem Post",
-    "description": "Via The Jerusalem Post. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9kYUx5OFZmZjJjazNBRGpYN2JyTGl6WVl2UGZ0bkpRR1NlOFZseUI2cms5ZWM3UWlxcTlRaDg4ZWxNYkNRSm1iSzRfazFsS0ZUQWd6MHBzelo2NmJj?oc=5",
-    "source": "The Jerusalem Post",
-    "fetchedAt": "2026-03-24T01:00:26.348Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=GAm2RAbAc-Y",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "GAm2RAbAc-Y",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "israels-economy-suffers-57b-loss",
     "date": "2026-03-24",
     "title": "Israel's economy suffers $57B loss from two years of Gaza genocide - TRT World",
@@ -4345,6 +4176,162 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOckNaQkZ6bTA3cEJfcHZtX3FGSmFfdjY3dndVbURBVGlsdi1mSEdQYmhmOXBDTWZEMDJtYW03QkxIeTY2SjN3MXhPZW0ybnBZamNReE8yMncwX2s3QWlKWTU3ZFEtaGl3OGQtZXR3ZERYNWNhNE9JM0tFRkREVkhDZ0IyQ0lTMWh5S3ppVzVhd25td0VvbXRkeHVHYnFfTlFCRndfTVJiODdZVFhHVlpjQWMwWUZzZzZjUlEtbTVac213YVE?oc=5",
     "source": "WRAL",
     "fetchedAt": "2026-03-25T00:01:08.262Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "trump-cites-progress-with-iran",
+    "date": "2026-03-25",
+    "title": "Trump cites progress with Iran; US proposes plan to end war - KSL.com",
+    "description": "Via KSL.com. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZ0lRa2JMXzgyRGMyOGw5VUlyNUVDRlNXWUI2VWZLNDVkc1pZTUZYdjFCUjZCNk5JVDZqVGJHWHMta3psd0RVd0lVUFlJZ3k3MV8tdGtEbkpIRkxUVF9EclQ1UFpBYVFBOGlyRFMxbnRWQ2hyMWd0RUFkLWR6RmpPN1N3bWNKaGU4Z1VzWHpMeVQzNkFVRHNlZGlhVURfRlhfejk2cnRmTkp6ZzBWSnBCS2k5UUlON0J2?oc=5",
+    "source": "KSL.com",
+    "fetchedAt": "2026-03-25T01:00:18.383Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=CiKMdlqt9p0",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "CiKMdlqt9p0",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "more-us-troops-head-to",
+    "date": "2026-03-24",
+    "title": "More US troops head to Mideast as diplomatic efforts to end Iran war accelerate - fox23.com",
+    "description": "Via fox23.com. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNTnF5UEpNMDVzeXNXbDkwcERTWm0zbXhkazJoazhMS0FDY2g3Wnk4ajdZZkdmcXJxVmY3UGl4dzgyRVl3U2NYQW1pTDRyOWlrT0JiSl9uZ1c2b0VHNGxTMDRxQTExZE1lMDBrUXVURDM2ZXpLbkhBV29uWm1NQ2pTVGFhT19HZ2xhRDRNUlVXR24xWFhPYTN5VDlTLUZKLTZZd1lBU3hNbWlDUjZnMHlnTkZicnZ5cTltM0FyOXlXZ25rYnhjY2NkSW9SUG1BWmRIbGl4Mnp1Q3pIcWJ0SzVwZ1ctbWpTUDhmbGduVllhcDFJVjRoMFk1WC1ZVmRmdw?oc=5",
+    "source": "fox23.com",
+    "fetchedAt": "2026-03-25T01:00:25.706Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=DdPtaALGYJI",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "DdPtaALGYJI",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israels-economy-suffers-57b-loss",
+    "date": "2026-03-24",
+    "title": "Israel's economy suffers $57B loss from two years of Gaza genocide - TRT World",
+    "description": "Via TRT World. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBrdnp2MWFoTHZQQVlaRU54aXp1OHJWVkJCSmNXdnpCeUJDZEZ3QUpQVnVqTjduZWRnS1FXcXpSZUc0NlBRVmlwOXdGT0VHY1JPREl2TER4M2TSAV5BVV95cUxQZl9wWDVUOGF4RW5LejM2VzYyNkotaXZzVk9tRmhJZnAzWDNnVndFci1IVXhRN3JKUFNsQUs5V3h3dHFVOXVTQUI5dzlOcWswUDlsU1ljSGhMWjdRdGJB?oc=5",
+    "source": "TRT World",
+    "fetchedAt": "2026-03-25T01:00:40.381Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israel-tortures-gaza-toddler-to",
+    "date": "2026-03-23",
+    "title": "Israel 'tortures Gaza toddler' to force 'confession' from father - The New Arab",
+    "description": "Via The New Arab. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQc1NZcC1iTGxHbjBUXzJndWFMTjNxY0NoYUJUck9UTUFjNC04YXRoVXBLYUtuY2pIZXVpSEhsaWctRzFFaVJwMHhlVFBVRF9NTW9DejNBMUhxbmhrdzFQSWtmWWo3ZnFxbWE5bml5MzRnOHhhaE00Q2NtX3g0b3JUdF8wMlFhTXM30gGOAUFVX3lxTE5oVG93bVZyRHNXa2JwZlhVXzVGNGg5UGxkVnJ5X3pqb25aZ2g3SHpuaEhPbnJ5VWxZOWFRNTM5S0VrNVZJdkNGbXYtUEhUa29XT2ljU3Zma0NuM1Qya3l1MlZweklDV2RCR2FrcGpnUTlVNjZVMmlaNzZ3V1lkVHd5dzd6RS1CRzI0UUZybUE?oc=5",
+    "source": "The New Arab",
+    "fetchedAt": "2026-03-25T01:00:46.913Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "times-letters-shifting-objectives-in",
+    "date": "2026-03-25",
+    "title": "Times letters: Shifting objectives in the fog of war with Iran - The Times",
+    "description": "Via The Times. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMizwNBVV95cUxObXNJSTRhdF9VYmduVzFIZ1ZsVzZwbFdFTGdHWlk3Tmw1UEJJelpGRTRwZjVHZnFpTHhuZXRLX3RoQ25oX2FudS1tLXRqM0FIQm9WVzEwUFEwc0JVRjJxNktjclhUaUVFR2hNajlvbVh5Z2F3Yk4yZkc1OTk4Y0w3dHdIN19sM3hGSHM1dFN6dmtSTHhjbmF5WGRBSFlTX2ZRZVBSLXV1aS1oT1pvM281YkRjOXVmQ01XMEliWWZIRjVGbmE0QXUwZS1jQ2Y1Ry1ydFhhOHR3RlpaMGZwV0t2QjNObHRpZE9neWZWLUh4Y0JjZS14aTdrYm5uaHNXNV9Zc0Z6STdNMVRsLVVjZDNDb2dVMW83RE9JMWdXdVNMdGR6UURia1lwaTQyY2swUzJmZlhhSXlfb3NXb0hRckpGc3JRVTN4NUg0dGhxNVBMYUk5OGxNbmEzSlVfS3VnUVFueC1VLVVUeTBxUjZmbWR3T0U3MkFscnFXSDVpbVhvRTBjR2taZktjaXdBVWhLZ1VVTWtwdEVib1NsSjZOLW5udkxqTFVpWWlrbnZrYUZHNFY1V2k1Rlp2Q25hMzhhTzhFRDJSNVp5SDBqTEZoRG8w?oc=5",
+    "source": "The Times",
+    "fetchedAt": "2026-03-25T01:00:53.569Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israeli-forces-allegedly-torture-palestinian",
+    "date": "2026-03-24",
+    "title": "Israeli Forces Allegedly Torture Palestinian Toddler in Gaza - Tempo.co English",
+    "description": "Via Tempo.co English. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNTkc5M1JUSGNxMFFEcUQ1eHQ5N05Bdk90NDItRlIzN2FVS3NLWEJYUjBLQzNnR0h4TG1JMTZMQUZNT09EZThhaHluYWRyWHUxM0FlYjcwNF9vdW9IYmpsSWdDYl9aY1hsOEtELV9jRmVEemxoUVlWRERSUTF0UzFTTnlqdmpFbWFjV1NOczVlZWhYUHE5OUxBWQ?oc=5",
+    "source": "Tempo.co English",
+    "fetchedAt": "2026-03-25T01:00:59.720Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israel-says-economy-lost-over",
+    "date": "2026-03-23",
+    "title": "Israel says economy lost over $73 billion during two years of war in Gaza - The Straits Times",
+    "description": "Via The Straits Times. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQYlZXTVg5TjZSRDRzX1g5RE1zSlNoNlZqNFFybzhYeHJZXy02ZEQtNHV1NjZFUld3a3N5cHFUeGR4LTZkSlB6bVJiUkxlRDBETVZfVGRsWkdmTUdldVV1dU4yaGpTa01IQlBSR3p0QjcxUUowN3NjR1NaUmxJMThYcEFwRVdxTncxdFpxVGE0eTJvRUxiNkNLQ2FlZGRjWl9DSlYwTlVpMFhsZHUzc19ZOWlQWU5TRERHYnlZ?oc=5",
+    "source": "The Straits Times",
+    "fetchedAt": "2026-03-25T01:01:06.380Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "cafod-urges-end-to-scandal",
+    "date": "2026-03-23",
+    "title": "CAFOD urges end to ‘scandal’ of war as Gaza’s aid risks running out - cafod.org.uk",
+    "description": "Via cafod.org.uk. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOYlBXUDVwUi0xWkg5T2hFcVM3R3RybVFBRkpTYjVMeGFQT0dYMXZkRFAzMDNFMzNaVXJNQ0dNRWx5LXFlSUpxUXJnUzlYUnNjQm5NZmN1d1dXVG1RNDlzUzRJYXozWUdWcU5HNFdhYXVFR3BrandZd3lpeFN3d3E4MGhRa0JGY1VLZ2xCWDkyamY5R3VUTGFYRG9pd0VoREZRcDFjV2FZYVcxTVNzT2R3UXpB?oc=5",
+    "source": "cafod.org.uk",
+    "fetchedAt": "2026-03-25T01:01:12.947Z",
     "mediaUrls": [],
     "videoMatch": null,
     "lat": null,
