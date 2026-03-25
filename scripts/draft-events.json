@@ -1,127 +1,5 @@
 [
   {
-    "id": "live-updates-iran-attacks-israel",
-    "date": "2026-03-24",
-    "title": "Live updates: Iran attacks Israel and Gulf states, plays down Trump peace talks claim - NBC News",
-    "description": "Via NBC News. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNaU91ZHNmNzVvX1dmODlNYTBpODY4WXl0a2lDX1pISU5jMHRfZ1JpMFVIWWtkaVZ5NGRaMVZjREtqOU8wUmZ3ZlN0YU8yVnRfSkpjRkFEN3Uxb0hkei1JcVEwcG9YV3VGWFVJckdLankzUUNmNVFxTVBxRy1OTEN6VDIyQU5BMWw2TlJLRDZ4dHBfTFZ3RjNZUllFTlg1amVVbjNqcHNOR0tES3NSWWdBbjd3ZHIzR0ctVk16bkdWZWg?oc=5",
-    "source": "NBC News",
-    "fetchedAt": "2026-03-24T18:00:18.095Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=V_qVzmk3pLI",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "V_qVzmk3pLI",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-fires-more-missiles-at",
-    "date": "2026-03-24",
-    "title": "Iran fires more missiles at Israel and rejects Trump’s talk as ‘fake news’ for markets - WABE",
-    "description": "Via WABE. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOcnZ6YUNhdzhvUDQxR2ExV3pHSkZuaGdWR3VzbEhlTzRMYkYtRTN6anozdm1rSlNvbVM4UGI5UHJsRHNjaEc0ZnJvN2MtckhOeHNWcWRQbjZOazhFalRHcl9PbWd5YlJhUmIyeTNYT2xJS1ZRc0lneFdleWRrTlRnekNaLVN3TzEwanZkaTJPZ3pGSXNicmF2elJITUg3UmxnM2t2eFhONmE?oc=5",
-    "source": "WABE",
-    "fetchedAt": "2026-03-24T18:00:28.031Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=4YQ80rc0GNo",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "4YQ80rc0GNo",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "israel-iran-war-gazettextra",
-    "date": "2026-03-24",
-    "title": "Israel Iran War - GazetteXtra",
-    "description": "Via GazetteXtra. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUVNlT1pkMXFCODd6bTEyM0RRLVc3NUdiSFlNdEV1RzBLNnUwVjFfTVJuR2d4cGZmZVFlaE1oS1pER3ppMnRhcDY0UE5IQXVBMk5GempVdTZNbkZwV3QybFp1QW9NcmV5eTdFekVaV0RfNkluZk5hUFpqTXFIeHhGcjRVZ1JhYUVrak9Pc2REUmE0MnVKVF84eDRwTE5GZXRDX0hmd3BDN1FVUTNXSkE?oc=5",
-    "source": "GazetteXtra",
-    "fetchedAt": "2026-03-24T18:00:42.550Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-blames-israel-for-africas",
-    "date": "2026-03-24",
-    "title": "Iran blames Israel for Africa's silence as war grinds on - Middle East Eye",
-    "description": "Via Middle East Eye. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQT3hEQ0pURnEtcllfQWJkT2NMTEpTcEI0Z3p4OGJYZVpWdVp5dXo4NkhuUVFqLU9SRDdpVUx3NXB2T1ZsTDlHME5sNmtIUVlpS1MxUWlMYUNoMFd6OFNYTjZfa085U1JBYXNMYS1mRU1md2hSTXVjUnJScGMyOFNwamlQbHJ4N2dfYU9zVmFUY1Ixdw?oc=5",
-    "source": "Middle East Eye",
-    "fetchedAt": "2026-03-24T18:00:48.789Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "us-awaits-irans-response-on",
-    "date": "2026-03-24",
-    "title": "U.S. awaits Iran's response on peace summit as Israel watches warily - Axios",
-    "description": "Via Axios. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE80cFpRQmE2c3p1N3JsY3drNW9zYmQ2RU1pRjR0Y1NVUzhaazY1U3JQbVo4Tjc3dTF5cEcwT2dCdFhUejdDRk53cnhwQUpuZUIwbHl5b2RPTmtQNE4za3BRNzhYTUNReTh4VlFhaEFpZmY3bDg?oc=5",
-    "source": "Axios",
-    "fetchedAt": "2026-03-24T18:00:55.382Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "usisraeli-war-on-iran-is",
-    "date": "2026-03-24",
-    "title": "US-Israeli war on Iran is 'breach of international law': German president - CBS 19 News",
-    "description": "Via CBS 19 News. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQRXdDMWVlU2hGTmQ0bVJYZHd6VG8zdFBIUFh2RS15M09fYWZzSy1Jc2U2WkJ1Y0t4VXAtb2V3TlJNbEFFQWZzV1FQNmhzUTBuQ1pMM3labVhUTkZraWlIUVhRV1pxNURHcnRwZ3NlV203Z19OcDBVeHktaHp6THdGdHJYLVNQZlQ5SXRoQVM5aFQwSkhicVpMaHdRUkRFMzFqVXd2cl93cVBrem5iTTQ5cHFVQlhLY2w1UkNBUnlncU03YjdYTG9fb2txY3ZnRFdlSjU0LU8xM0diZXhwWjJz?oc=5",
-    "source": "CBS 19 News",
-    "fetchedAt": "2026-03-24T18:01:02.122Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "evidence-shows-israeli-double-tap",
     "date": "2026-03-24",
     "title": "Evidence shows Israeli 'double tap' attack killed Hind Rajab - The New Arab",
@@ -4218,6 +4096,270 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9iZUg1MktPTG1lQUxkaE5nZFhSblRWM2xUc1dLSjRtYzFnQlJkS09KMkpLeU05Y2tzQVMtNFo3N2l5X254ZXAxSVpfNDR4bThNUWV6QTBzT3lNdFNSWTJHR3FwdF9FR0JrQ0c1Um1NUQ?oc=5",
     "source": "The Forward",
     "fetchedAt": "2026-03-25T18:00:49.841Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "live-updates-white-house-says",
+    "date": "2026-03-25",
+    "title": "Live Updates: White House says Trump will \"unleash hell\" if Iran does not make deal - CBS News",
+    "description": "Via CBS News. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQLVZWRVVrY3Roc2hveGNLNEdBQ2p1VmxZNnE4SWlLZVQ3cUh0dUJScXF6UGtxYjJyTmNOWHNWZUc1d0s5Y19XOTRWWExPLVZhTG9laC1xSDNueWVSeTVyeUZHcFU2TUNWQVFlRC1MdEhHT3VjTXJfVTRlY0ZDMUJFODdBYU9RcDMzRHZXTGRoc2tiZ0RZQUhfdVVrNTdTb1lRb2MtN1ROV3fSAa4BQVVfeXFMTXREQlphZXRFNXhBbXF4d3VicXZhRjByUzJOb25feGNMN2l1dE5QT3dkTFFSOTRFejBsUDA5SDJOQ2F3allOOTdkZ2JRZVdqSHNsOTh2d0pmc3VabU9uUEdNRlVRZGpBQUxkUUdWTkR5U21hNjFNREtIMGMzNElWbXBqd1Fkbk14bWlRYXJoQ3BRdHB5dGphaGJLN1RMMjRlZHZfUWtqdXRMRVJVZWN3?oc=5",
+    "source": "CBS News",
+    "fetchedAt": "2026-03-25T19:00:14.864Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=SsdkClL2_bg",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "SsdkClL2_bg",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-war-news-live-updates",
+    "date": "2026-03-25",
+    "title": "Iran War News Live Updates: Trump White House Hints That Iran War Will End by China Summit - WSJ",
+    "description": "Via WSJ. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi9wJBVV95cUxPWXduUjdSdkpSOVJ0cVNaa3hvdllRU2lnOHQ2cWFKS3B1OGM5TnZiR0VjQklfY0lqbzdRUnltVXBiUEQyWHBGNm5sclc0VG1uaG02LUJMNkZiSjVfSndvTUNacWhRYU1GQWhXdGFKUm9HYUdESHVmcGxOTmMtbi0zdEFBNTlrSEh0UjBrR0Y4blNJU3E0QmkwZWhuUTNlNG9BN0pNSE90M3o5S241b1lVWUl3SndJYndLNGhWenBHeG9Qc2NrOTdPUkRjMjlGZVRDSWlRSWVfaGxFY1dobjZDX1lvZW1iSkFZZEpQWmlwc3Y4OVFGZHpCcnU3enNyYzJ4Skp3bHR5VnlJeEdTRUQ5OEVRRGpiYjhXMEJfcVRPZnlGRzRIVHgybndYX25MOHZkVFdXV1k0WDY0WjNyOHl3bzFRUmpTSUJTWUVrQWdqbXhpdkpmTEVmX3o4QXEtdXJ6b0pTaUpVWjZRVkVqQnZhaFR6aGxuQjA?oc=5",
+    "source": "WSJ",
+    "fetchedAt": "2026-03-25T19:00:16.540Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=iwfzfam96xo",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "iwfzfam96xo",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "how-the-iran-war-could",
+    "date": "2026-03-25",
+    "title": "How the Iran war could change the US relationship with Gulf states - Atlantic Council",
+    "description": "Via Atlantic Council. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTEx4a0ZBNzFhNmdKWVFxck1BZUdtellLM0xvMS1SRGhMOHZtRExyOWNoVzhZbTBobHN3VTdVRUNfYjV0cU1jSkZITjBYR3drbmNqalh4dHUya1ZkVEQyOFdTd2g4SWJxVm83aGpVLUtiZ0JVaWs0dTl3V0owUnBQeFhYZl9VcHE4S05XS0FjUkg5UXRTNjhmV3h5MFJLRTZCYjdYcnp0d2tRZ3RPMERR?oc=5",
+    "source": "Atlantic Council",
+    "fetchedAt": "2026-03-25T19:00:18.142Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=DtIUeCfhhQE",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "DtIUeCfhhQE",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "seeking-a-deal-with-different",
+    "date": "2026-03-25",
+    "title": "Seeking a deal with different faces of the same regime, Trump risks subverting his own vital war goals - The Times of Israel",
+    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQWXBwVUh5dXQxNmlPVURONGh6WnFUT0xQTDlSNlJ5Y1Jvdl8xQlZoTmpZV0ktMkJ5UHRmRlh2LTlzR0FSaHp4RFREV2VBRzV2NXhoWUJ6WWhmcnZnNXVQRG01QklXOUZPSTRiVG5na1NNeDdGU01HMXNIVVFhS3RlWG93dy0xLWdGY1UwTkI2N1UxUjJGdnlpdkVSMHVQbWczRklJUUJVMVVEYUk1UFM1RFo1SjNYdWI2Ym5EMHdEdE5mYVJTcHlvMGlyaTbSAdIBQVVfeXFMT1BMbTJCY3pLNndNT3FTUkRTZ2EyQnc0SjE2RFVvcHZ6QjJ0WjlFZlFPUHFGSXVDNi15dkkxN0w2WHpQRlVuMy00T3NpMU0xZ3lHcDMtS3Vfd05DM3BUUDUtWFpaT2JoR296MHVmTXc2VHB4SjFlanZjWGxzRy0zak1CT0JOb01maHh0cFk4TFcwZ3FnYU5fY01uMDNQSVo4SkNpSFpySUNqMVZoUm5wdDRwZ29lYXM0WDdiLWktLW1LTm8zMFl6RjNrU1Z3LS1LeGFB?oc=5",
+    "source": "The Times of Israel",
+    "fetchedAt": "2026-03-25T19:00:23.021Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=tdJm7mVBrhU",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "tdJm7mVBrhU",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "regional-shockwaves-longterm-implications-of",
+    "date": "2026-03-25",
+    "title": "Regional Shockwaves: Long-Term Implications of the U.S.-Israel-Iran War - Carnegie Endowment for International Peace",
+    "description": "Via Carnegie Endowment for International Peace. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPeHlIdk1lRGZRMXM5S0drNHlZOFhKa051Wm1SbmNyRHRSencyOFRHTy1fZVo4SEJSVWpmM2FlZHJHcEZBTUwwQzdxbE1VN1pxdE9ndkRzU2NJa2d0TEExbzRVMi15LS1TTmhfdWp4RTV3bTRmWFVSMTF0N0xYNUF5d3M4bnlJcl9JSFA1U3hCcFB0NEdiTXBKLVloeV9DWXM0cGRfd3BEcGI1Q055WFVKbEdqaw?oc=5",
+    "source": "Carnegie Endowment for International Peace",
+    "fetchedAt": "2026-03-25T19:00:25.299Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=1APLZsB33uQ",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "1APLZsB33uQ",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "live-updates-no-timeline-on",
+    "date": "2026-03-25",
+    "title": "Live updates: ‘No timeline’ on Strait of Hormuz reopening, White House says - NewsNation",
+    "description": "Via NewsNation. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMzhrTzYzbkprZC03SnhfSEdod1VfWEJoTU9VUzNoR3hzTWR3X0d6V0xqWVNhcjdraVBrYWZ3RmtmdWt5LU5VVHZjUFBPX2t5YWNnUmVTWTRudWdkX2lIR3JZa29IZDBTOGQ5aF85LXg1MFJqSGNIVldldWN1TUhqYjN0RkdyajkxdDYySy1WQdIBlAFBVV95cUxOTG05VGU2cmtrT3BfVnpxT0RaX1dCRXBMbTZTX21zdWtGdkVBMzYzaHdzOHZZT0FRTEhySnRXVVZUUG11VTI1N0xzOUp4OThZSHMxaTdHMGZoNk1TZXZiUklkOC1maTNnb3NVSjlvWjFwLWNxOEtQb1JiNHJRZlo5OFhlMjNmOXRzS2JfaElld3FJUWdE?oc=5",
+    "source": "NewsNation",
+    "fetchedAt": "2026-03-25T19:00:27.613Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=zrR2PTjI9DQ",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "zrR2PTjI9DQ",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "nyt-israel-concerned-trump-could",
+    "date": "2026-03-25",
+    "title": "NYT: Israel concerned Trump could stop war suddenly, is trying to wipe out Iran's arms industry within 48 hours - The Times of Israel",
+    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOMWFfTjhpakZjZzE3bGNjZHhwanV4NmpOdjZ3MnNJd0xnOHhBQXNDX1RhQTc0MnNvTmRsTzItV3drSnU4Tm1KZlU4dFdTaUpKalJYMGNtWUhVWW1KQnNUYk5tTk9SNk5OSjNNbEdnQ0dVa0Nlc0lzcWdvUjQyR1o0TDNqVTZRSmxEalUzQV9fVk1sUUE1bmYzeFpIeTNqNWJIWUtDSFJJLXE0dDdyb0RNcmhCc0xFdTZGaEk1alB2Wk0wYXM2RmV1QXFNYTVwTTBZSnU1Ri1CbkZrbHQ0M1N5MFVhak9GUDA1TWc?oc=5",
+    "source": "The Times of Israel",
+    "fetchedAt": "2026-03-25T19:00:37.180Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "how-donald-trump-may-have",
+    "date": "2026-03-25",
+    "title": "How Donald Trump May Have Sabotaged His Chances for a Deal with Iran - The New Yorker",
+    "description": "Via The New Yorker. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbWFsMHVkNDUwbFJ2VDYyUEVmWk5GZkRPSnZsZ2hUZ0Q1SUN6VUJBS0NiMzRGSzBVdXh3ZjBkNHJPTFljWnhTelBucm5GQUIyOTVOcjJ6OGRxUnhfYmwxZTZyRlF0dkVFOE1hZHNuaTNfSmVuSTQyREsyU2RneU1SeTFPSXUzSmJmRDJ4S0VWcERNUkdwMlFnU3dGT3MxYnpWMlJ2VnVzVFhLTjg?oc=5",
+    "source": "The New Yorker",
+    "fetchedAt": "2026-03-25T19:00:43.253Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "report-netanyahu-orders-escalation-of",
+    "date": "2026-03-25",
+    "title": "Report: Netanyahu orders escalation of Iran strikes over fear war will end soon - Haaretz",
+    "description": "Via Haaretz. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipAJBVV95cUxOSFNQZlpHV0FoVzJYYno3bElWLW5iMHIzSDV2SG13MzJIVnQxbE5HbU5VcnB0NDUzalFwY19HTnYxWGVyMVNxRU9jZ3ZPSU05TFhlMUNDU3ZGOEhiY1U5aHRaOC00UE5sRFhWSmVRVDhHdVFacjRVQVFJSnYwcUdZVEp4T0NLZk5RbTZhSUN2NXR2ZnJ1YUhqUG5jQnhjS2dhWVloNkZxcFAxRzhOdmJmZGY1dUZJRFVlRUJfeU8wNkZ3Wk5SUXU5cGNZbmFzYmNQX0c2T241ai1tV2JxcUV1bGV5R3Y1cEFJTDQtVlJmM0JGRWM1MHJQT3NtdS03SmRpYlByRWFWYktoeUNDd2lRVnVBQi10VmdTcVVBRkhOUlNOMlRa?oc=5",
+    "source": "Haaretz",
+    "fetchedAt": "2026-03-25T19:00:49.713Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "white-house-us-ahead-of",
+    "date": "2026-03-25",
+    "title": "White House: US ahead of expected 4-6 week timeline for Iran war - The Times of Israel",
+    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObTlka2szWDMzUkFuRS1nVGtwYjM2bFAxb05MYmEyTEhJb2FaTXdnTXFMVjBUbEpZaUtaMlphNG55cHVCOHNtX3c0YkdKb1pQX2ZpVVQwQURaa3U5aHVuUkxNTVRVbGc3cVpZSHQyVlg5cFJQVkxUNTd2bDM4NUZpRGhCc3QxYnpXWDBBT1FxSllwekRGMUwtYmtPTk1NOWVfd0ZxN0ZMa1ZzRUVWMlE?oc=5",
+    "source": "The Times of Israel",
+    "fetchedAt": "2026-03-25T19:00:55.992Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-received-ceasefire-plan-from",
+    "date": "2026-03-25",
+    "title": "Iran received ceasefire plan from the U.S. but Tehran dismisses idea of ne­go­ti­ating with Wash­ington - spectrumlocalnews.com",
+    "description": "Via spectrumlocalnews.com. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOQ2RYVHV3dUhWTEs3elFyVkxWUmx4UEpuY3V5MmE0TTFORElzVnNmUFZ5UHF5T2lncFZJUkNHdUZuTGhWT05lcXBYODJIR25hOTZKMEpBZndPY3h3cEtIZ0hKUi1wTGRMWTJ1V3NGZlcwX0lxeUJBSWlKQkh1cDRJcmxjdHoxT2dhNTdpLVotUXh3Y2JGaVFnNmtlTXFVWXdTdVNKeVAxaHhHWDExWC00OEZjVDlPbk5FbkxOWHFNcUlkNV93aWpEcG5Bb2FEeTNVejN0WjM4d1RjTm1EcVBDQ0Z6c3loTzZFWWZ3R054cnM?oc=5",
+    "source": "spectrumlocalnews.com",
+    "fetchedAt": "2026-03-25T19:01:02.937Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "trump-eyes-iran-deal-but",
+    "date": "2026-03-25",
+    "title": "Trump eyes Iran deal, but no end in sight for Israel war in Lebanon - AL-Monitor",
+    "description": "Via AL-Monitor. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQkwtSGhNSDMzRVdudHYzcldLbExzZkFMNVpieVo4Vk5PNElLdW1BbnNZV1cyRDdVUGhLY18weGptLXZvUFkxcjU4T0UtLURrRXdyUkhSa1VVOEFYSWZmb1VNQ3ZrQm93WUJmcWVkb1ZNOXZsRWh5UkxqdEJIR0FHdzNjeVV2cDR6RmtZVDk3UTZneUFTMXVMVm5YOEM0UQ?oc=5",
+    "source": "AL-Monitor",
+    "fetchedAt": "2026-03-25T19:01:09.594Z",
     "mediaUrls": [],
     "videoMatch": null,
     "lat": null,
