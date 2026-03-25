@@ -1,184 +1,5 @@
 [
   {
-    "id": "the-latest-pakistans-prime-minister",
-    "date": "2026-03-24",
-    "title": "The Latest: Pakistan’s prime minister says his nation is ready to facilitate talks to end Iran war - San Antonio Express-News",
-    "description": "Via San Antonio Express-News. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPU3NKdG5fc2ZielVVMENKejZlWFo5TWh5S1FJRWFKZXhrT0xENUN3dkhOUDNOTjIxcWdKTkMzRUZwakVuYlV2WFlTdHhOX2xFem5JaG9mSzVfUlRlcHgyWmZXc1BCRUsxY2c3dm1MM0ZIb0w3V3ZfMDdUY2ZRV3ZKanozVGM3a3RBcHhSd2RDS2hqbXByakxvUUg5bDBlUWloSHE4MkZB?oc=5",
-    "source": "San Antonio Express-News",
-    "fetchedAt": "2026-03-24T20:00:27.841Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=BoYfV2Yp-dk",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "BoYfV2Yp-dk",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "the-latest-iran-fires-a",
-    "date": "2026-03-24",
-    "title": "The Latest: Iran fires a dozen missile salvos at Israel as Trump insists talks are progressing - NonStop Local KHQ",
-    "description": "Via NonStop Local KHQ. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPVUUwbi1MTTJ6U1RXak9wc0pPUnhHNHB5cGNPUWFGRXFiVmdjNjJ2cHlSaHR1dFBHMUNFdXdkeTc1VkQxNmYwN3dDaS1lRjZIRzhwNFdGcldhSzZsTFEyV0dSNHBBeUpVSlFmTXJvNlpzTUFjZGdXT256YUFscGctSUFia2RWOFJ0MnJ0QnlkLXc5OGlEeHVST2Q3OUNHQkE1WHRXYUltblhVYVlCSlY3ZjFacW4xUzhuc0ROTkRPTldqT3A2RG42NldlRlA1V3FGU2FRRlpSLUt2NW15aFZjdFVXVUIyVkdhZkF6YnhvaEVnUQ?oc=5",
-    "source": "NonStop Local KHQ",
-    "fetchedAt": "2026-03-24T20:00:30.441Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=jqrC5b0OZe4",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "jqrC5b0OZe4",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-claims-israel-us-attacked",
-    "date": "2026-03-24",
-    "title": "Iran claims Israel, US, attacked near nuclear power plant, no technical damage or casualties - The Jerusalem Post",
-    "description": "Via The Jerusalem Post. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB3bnd0clEtYjVsTVotNVI0bnU0Nk9YX25JT2tSU28wZUhnbUdnLTV5emVxMl9GUC1qQmFFbU9KSWVnam8tU3Vtb2JleGNGek1TRFNoMjBMdzd3VFEtR1MteTZjU2l0bExMaUE?oc=5",
-    "source": "The Jerusalem Post",
-    "fetchedAt": "2026-03-24T20:00:35.315Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=Uiz_9R0ildQ",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "Uiz_9R0ildQ",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "aptopix-israel-iran-war-the",
-    "date": "2026-03-24",
-    "title": "APTOPIX Israel Iran War - The Pantagraph",
-    "description": "Via The Pantagraph. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1HRWtzRGU3d01LeEk2aVY2RmVDZk16X2lzU284MUhRTWo2TTJoZTR0dTg3bHU5ZkNUNUVnN1dGbU5vTGxMQmpFVFZiMzZGWllhWkEwZjF1OTZ0cmhidHhIU2h4N28tUlF1Q29zblR5UDVhRU9LVlVlUlVB?oc=5",
-    "source": "The Pantagraph",
-    "fetchedAt": "2026-03-24T20:00:37.345Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=juBClffTBRQ",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "juBClffTBRQ",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "airstrikes-batter-iran-as-it",
-    "date": "2026-03-24",
-    "title": "Airstrikes batter Iran as it attacks Israel and Gulf states - MyStateline",
-    "description": "Via MyStateline. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZWQwRFRheUMxdTRWOVFOLTUzRmh0dUJnUGZRTk0zSEVNcm9GR2lhNWdHQ21LY0MyWlVBX19BRW14a1VRR1R0YXk2TnI4MmxBbFNDeXFuT19MUFZpS2NlVzBCdVQ0TkctSWMtRFh0WjE4eUZTeUZuY1RURlg4MjJGVXVJVExwN0xHSkgxanBtVFltWEI1d0ZsdtIBqgFBVV95cUxPTEFrVXo1eXRMZElqVFIwOEl4TGhvT21Qa05tSzBwRzVEWHlpZy0yUzBuMWhqVFpHMnBLVThTNXFVbHRvaHpqSEd3WG55bWR2cm9EV1hhdm16T0JId3pRZzFjTVdkdnYyZlVSNHNFWEdTcHdVYk9TbjRjZ0UyeWxvM21PSjJCOWNxNkUzOHF1TGt1aHFUWUt3TDJORnJfdDFHZnI0ZDJhYlE0UQ?oc=5",
-    "source": "MyStateline",
-    "fetchedAt": "2026-03-24T20:00:39.717Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=HJu7_l97vA0",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "HJu7_l97vA0",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "ethnic-cleansing-concerns-in-gaza",
-    "date": "2026-02-19",
-    "title": "Ethnic cleansing concerns in Gaza and West Bank amid intensified violence and forcible transfers by Israel – UN report - ohchr",
-    "description": "Via ohchr. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbFF5c0NvdWo0WlJEMl9tSlVBVzNIbXZEOFhGV21wNDg5NkFxMkk3V2IweDRxbGt0QTlycTkwNEs0czRRRUUycVBUSmJzY3l5bHE3OHpmSnVOYS1haENxYTNBZjhMSnB4TTl2VUdVOEM3SENsbkx5N2ZUY29HVHRPQW9kNlB5bnBGMUlNS0VzX3lSWGxQNlFLTkVyQ1VOQkNudFRHbUVkZlV0WE9EZlhyV1Q5U1dYOHlBWmZGYVdEYw?oc=5",
-    "source": "ohchr",
-    "fetchedAt": "2026-03-24T20:00:51.963Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "the-israeli-military-wants-several",
-    "date": "2026-03-24",
-    "title": "The Israeli military wants several more weeks to fight Iran war, officials say - WBUR",
-    "description": "Via WBUR. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE50aFpNSC1OYVZPOEJhTjhXcnpkY0VmUnQzeGZiX1JEX25SWlgyVjFpdWNJdlVaeHd4UkpsXzV4RFgyQnhJRnp0MDNIUnZMaXlkOUcySkFPS0dUeG9jWVNTT2JCQUM?oc=5",
-    "source": "WBUR",
-    "fetchedAt": "2026-03-24T21:00:16.634Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=SCe-9TOy3F4",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "SCe-9TOy3F4",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "trump-says-iran-gave-present",
     "date": "2026-03-24",
     "title": "Trump Says Iran Gave ‘Present’ Tied to Energy Flows in Talks - Bloomberg.com",
@@ -4287,6 +4108,209 @@
       "title": "",
       "confidence": "auto"
     },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "dw-news-nearly-a-month",
+    "date": "2026-03-25",
+    "title": "DW News. . Nearly a month into the US-Israeli war on Iran, there are renewed behind-the-scenes efforts to stop the fighting. Strikes continue almost daily: Israel hitting targets deep inside Iran, and Tehran responding with missiles and drones across the region. - facebook.com",
+    "description": "Via facebook.com. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPUEUwd21OOVdNNUNJeXBGb0hQaXBkenJ5MEx4M0dldDBWODlTQXN6azFlNUQ1S1VKdFlpSTFuUldRN3RxaVNqNDlzck9qNUxaNkUxV0x6bWlCMUNIT0p6TmVQTk1MSVFmZ3dpSUNOWmdFZ3NyalVKd2VRelZudy16VW05R2dSUDVobUdnQ1J4cDJJbGdxUU9WWDJLcXpwQnBuR0I2azdFZUhHNTMtaXF1N2pvSjBlQXNISkxoalBKdXMyVnJzOVZwdFVma3VfWEY2STc0Sl9IeU5NX0VkSzFZMW5R?oc=5",
+    "source": "facebook.com",
+    "fetchedAt": "2026-03-25T21:00:13.381Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=FXzNPt6ZKOc",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "FXzNPt6ZKOc",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "live-updates-iran-says-it",
+    "date": "2026-03-25",
+    "title": "Live updates: Iran says it has no plans for negotiations with the U.S. - NBC News",
+    "description": "Via NBC News. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOVVRTUDd5Vkk1bU9MYzUxUV9pMVFfSlJ1N0tDRWNFckxJWlFtdWE5a3RRb2ZaT0t3T0hqZkoySFpLZnllXzRoanBybTV3THFkQVM3Z25OQk1ZRTBDNWtMTmlxREVkSE8yQ1NLQkh4UEJwQzc2akU0Mk9Xa0NOUW1Rd3BncFFWN19pRUlIYjBGSUdBbV9iMDNlT3JEclNZM0JKQzdNOFJhN29ZYTRLbDU1SHNfVVlTcExTZzRpX3dR?oc=5",
+    "source": "NBC News",
+    "fetchedAt": "2026-03-25T21:00:16.728Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=KCuxmIpWt7M",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "KCuxmIpWt7M",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "the-axis-behind-iran-how",
+    "date": "2026-03-25",
+    "title": "The Axis Behind Iran: How China, Russia, and North Korea Sustain Tehran’s Military Threat - JINSA",
+    "description": "Via JINSA. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRENxa2RyT2JaNnMybEFFQWxHMWs2MlQ0QTFkMVVaOGNHMFRGVm1VMFgtd1J6eDFaaTJqVDhOTVVuMXJVQ2sydmZ0MnFGSlo4S2FGbmVtSUVjT0tkazhNOUYzb2RZSTBDZWxsVlRtTUUzWTBIZEdWak03aGNPRXl0U2VhWVNZVm10RGIxUXFNMmZJR081SDRnNmZZUTdsaGdTYnM1Zk8tZnBqTkR2SmFHR0hNOU1jYUxj?oc=5",
+    "source": "JINSA",
+    "fetchedAt": "2026-03-25T21:00:23.828Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=u5-E6huRJGM",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "u5-E6huRJGM",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israel-remains-a-happy-place",
+    "date": "2026-03-25",
+    "title": "Israel remains a happy place despite another war - Cleveland Jewish News",
+    "description": "Via Cleveland Jewish News. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNQ0F6QWdRcmJDcGF1WHYzY2NQT25uZ1FSVUlKaFJJM3dpUFlMSjVTZVJjQlNGTWlUOUNrM2g4dm0tY25oRjJnVk9lR2NxMDVqZThjdHpJazRrVnY1X055OUhHeWhvOWpxd3NZS2hmNm13MG9pczg0MnF5Q2ozWXFYYjdkRkFrZFJUVUFmQzV3MDRRREkxQVhSZ1JCbmt0SzAxYks1MTZsdlktcUY5dmhMUi1rRHJVN2pOcXVvWTBZU0FZdXVRTUZabVFmWUpTdVRhUnJjZXpfd2ZObEFxZkNaM25LNE9qRXBScDFMM0VWNNIB9AFBVV95cUxOdG52YjctemVxOFRLa200Nm9lbXB6N1U2TFpPY0JNUHoxRnhoaDF4ZjloVndQX3U3MEhSWmFnbnc0bFNZdDFTNWV3SmdFanpHS2pTTmJMSFVsYTYxSzM0M0pBdzZOelJmV0lsd2QtaHlzZ0g5THhBRUhUX0F5ZzJoemVkX3dsbmd5YmM1TGRBR2hZN2tONGJ3WERPQjdpRWsySmNaVFV0bkJLZDFLTWEzbHNVRVlpM0N0SVJHa2hua056dy0xT2w1R1pFMHhGS0ZtN2pnTlFMT3MwRk9TUWVSTHpIcllvbHdPc09NR2t2MHNyQlRm?oc=5",
+    "source": "Cleveland Jewish News",
+    "fetchedAt": "2026-03-25T21:00:26.504Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=tdJm7mVBrhU",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "tdJm7mVBrhU",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "katz-eyal-zamir-confirm-15000",
+    "date": "2026-03-25",
+    "title": "Katz, Eyal Zamir confirm 15,000 IDF bombs on Iran since war started - The Jerusalem Post",
+    "description": "Via The Jerusalem Post. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE82WGxiUmVtQWpILXo1aldYZ09EU0tDOWZTdzRuWTA1WC1GbW5MTUVRakM4T2VZSnFkeENSMi1sWXhJSVNSVU5PV25jUzRoNXd3aXlNbHVZMU1xT3BPTGFfX2xSU1U3OTRVQkljOHN3?oc=5",
+    "source": "The Jerusalem Post",
+    "fetchedAt": "2026-03-25T21:00:28.812Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=Aob8MYJqaDk",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "Aob8MYJqaDk",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "on-the-iran-war-a",
+    "date": "2026-03-25",
+    "title": "On the Iran War, a Deep Disconnect Between Experts and Policymakers - Foreign Policy",
+    "description": "Via Foreign Policy. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYXNxU2VRNTRnSTVTQ3NWaHoxdE8weUthR0pzSDRkUm5FRHBnQV90ZlF3M052VzBvTFlRWXdKdUVZNDRNSUVjS2JJN3RsUGE2WmNUYWJ2cHd5UTdyUlZYTlBNYUlFTnhjUElGXzYzbXNvcFJ0alc4THRZZWljQWM3MkFjZy1FaUJ6VmJRd0w3VVl1N25JMFhlcg?oc=5",
+    "source": "Foreign Policy",
+    "fetchedAt": "2026-03-25T21:00:41.810Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israel-preparing-to-shift-pace",
+    "date": "2026-03-25",
+    "title": "Israel preparing to shift pace, targets of Iran strikes if Trump announces truce - Haaretz",
+    "description": "Via Haaretz. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipgJBVV95cUxNZUFRdjFrcTZ6bm54eDVnN0xDMFdFRUx4aHRNdWNyTmFFN3RpQWp2TGEwU3ZPMjVDQUJybWo1aVFDV3REeG9tNEpkZE9keHV1MlJWbS15N1U3S21DYTM2VnBCakhYUkVXV3ZJNDhfN1JXOG9vQ3JvX2N3T1VMNEtteVZKN1otTmxhbVNsQmJoczBBbVJNQXpxS1NtSGFRS1ZSQlF6bXQxWU5JNkJDVHN3LVh2YXlZS0EtRXdsdEdsN3NEYl8tX09EVzg4MGU2YTM0cWZUQ3I2OEdRTS1xdFdWbnczTm1UdGdNeGdUZlN0dW53UWdydVJyY0NwNTdyMTVYZm92eTk2a2xwdmI4bUNJNG5lempQNElnbF9Yc2Jwdk5MX2pEMHc?oc=5",
+    "source": "Haaretz",
+    "fetchedAt": "2026-03-25T21:00:48.203Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-rejects-trumps-proposal-to",
+    "date": "2026-03-25",
+    "title": "Iran rejects Trump's proposal to end the war and lays out 5 conditions - VPM",
+    "description": "Via VPM. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQVkFXcjVxWUJRVUxwZ3pNMnotRkNfMmE4MksyZzM5RnFkZVk3NmtzaWdnaTdxd2x2b3U4U2x6UEFXZVFGTF9jUVBoa1h2cUFRVWdOV2twcVUwOUtRSDRqOWpwcWtjV0xvWGRWUDBranhqLWF2Skt5cE43ODRtdnZUOWtORG84Yi0tSktDLTZUcGtwWjVNZmR5dUUwaGZMaGVwc2tlYVh3c2NXX3ZEckF0alpEMkpQbmlNNGc?oc=5",
+    "source": "VPM",
+    "fetchedAt": "2026-03-25T21:00:55.196Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "5-reasons-why-the-events",
+    "date": "2026-03-18",
+    "title": "5 Reasons Why the Events in Gaza Are Not “Genocide” - American Jewish Committee (AJC)",
+    "description": "Via American Jewish Committee (AJC). Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1zQTNIMWEwd0owNU92cmFfTWhEVDhTMUNPT3MwaEtFNEtJYTc5cDZORmRsQmNqTXpRQXMtb084SXZPd0U2WGs5UE5idmFDeTh0YVpUNU5GYmotRXIxYmF1UXVoRkk3SzF0ckUzTDJPcUprLTJGdGl3UlI3ZkM5RDA?oc=5",
+    "source": "American Jewish Committee (AJC)",
+    "fetchedAt": "2026-03-25T21:01:07.263Z",
+    "mediaUrls": [],
+    "videoMatch": null,
     "lat": null,
     "lng": null,
     "zoom": null,
