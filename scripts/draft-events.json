@@ -1,191 +1,5 @@
 [
   {
-    "id": "iran-war-live-updates-israel",
-    "date": "2026-03-24",
-    "title": "Iran War Live Updates: Israel Says Iran Has Launched Fresh Waves of Missiles - WSJ",
-    "description": "Via WSJ. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi_gJBVV95cUxOX0JJNnlQSWhBQkFiRS1tTW9aTEJuQm1VaVNQU2p0a1V3dEpBeFFZbFFpMjJEbVBOWXM3UVlKNTVKMkwwaFhQVDd6S1JqWlkyQm9YdVRYd1F1aFVqOHN2dWpBRjNhLWQ5S2xHX3lrSUJmWWpFUk15Q1BQdmRTTmNUdzRhMnBRQU9tV0JFYTBCdXFXaWI5M3BKTEttbzNuWTVrelBhOEpnbVpxYXF5S01NV3N4cW1WTUQ5WjhkSUZwUnRLalR2WkZ0T1BJUEJISVlmeWhXVGVPclR6WlpQZVZqT09uc3ZFUlU2T2xRc3lGd05qdFpmcDhaVklXS0dPLUZNdEVZemV2d3duYjJhWDhkenN6V3k1SXctZjQ2UmlQSEV4SGdIUm5WQUdvSmd6SkhKZnc4X0ZvMWpRdWtYYkFfMU5tX0JEVV9ZcWhVNHNLUTdaMUo0dTJlY2JEUDFVVWJ2WjA5YzJiODFENndzV3RKSzU1dXNKUzU5bEt2dHF3?oc=5",
-    "source": "WSJ",
-    "fetchedAt": "2026-03-24T08:00:13.728Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=oqAAD_d-7VE",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "oqAAD_d-7VE",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "on-the-ground-in-lebanon",
-    "date": "2026-03-24",
-    "title": "On the ground in Lebanon, reporter shows Christians enduring US-Israel-Iran war - Angelus News",
-    "description": "Via Angelus News. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB1Vnd0eGo0STM4U0VFOFdRVThrcXF4aWpJaGNtMUJ2b1V5WXY1dVlMSVlMdC1fOHFVQW5GMW96THVHeWxPbkw2TkNSaTQ5aWlrMDZMV0NwZUhyQlNYYW5NR2lKb2pFb1d6RmpEZ3ZDLUU?oc=5",
-    "source": "Angelus News",
-    "fetchedAt": "2026-03-24T08:00:16.681Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=3KyTnwusgIo",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "3KyTnwusgIo",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "israel-iran-war-dailyrecordnewscom",
-    "date": "2026-03-24",
-    "title": "Israel Iran War - dailyrecordnews.com",
-    "description": "Via dailyrecordnews.com. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQLWNLWm14am9TdFR3TmpPSUFFdi12OUpUWGVSd3dYVF9jSGktd0YyVmVBbWNwOVA3bjloTzNwRE5hZ3Y0bm9hbF9RWWpHbGFUR3BndkFQdzRBREstb1RhRWNXNi1FZWRRTWtYRXZpWm1wSG9ZSnRHV0JRVmZMa1c4MjQzbEZnekFueER4WXphR2dIMzdVVlM1LWhZdElkLWpzT2Z3X3V4cXZOVkJyU1BEU29ERjFKSURF?oc=5",
-    "source": "dailyrecordnews.com",
-    "fetchedAt": "2026-03-24T08:00:18.816Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=k9eVWQsnjA0",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "k9eVWQsnjA0",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "israelus-war-kills-300-children",
-    "date": "2026-03-24",
-    "title": "Israel-US War Kills 300 Children in Iran, Lebanon - Politics Today",
-    "description": "Via Politics Today. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOY0V5eXFseUZ0NFRyM1RYR3FDUnpDTlIyQXB4djF4cHdjeDJMZ1FUOS1WZFpNc2RGelcwSTVlVURpaTkxTFBCbWFzS1lYcUxXamwwbkU4SlNzQ190aFdsVFEwSUNiWFdhXzBaUFRSXzlvemJYc2tmd3hFaGJOSGlScg?oc=5",
-    "source": "Politics Today",
-    "fetchedAt": "2026-03-24T08:00:23.855Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=NKhhVrzS5LI",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "NKhhVrzS5LI",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "opinion-exit-denied-why-iran",
-    "date": "2026-03-24",
-    "title": "Opinion | Exit Denied? Why Iran Won't Make It This Easy For Trump To 'Pause' The War - NDTV",
-    "description": "Via NDTV. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPRW1oOXJkbkxTUmM5a0lVbEhDZ1JnQkJXTFhKTmxTY0Z0Zld0LVlrZGNhdk5KQTI1U0lFcDhaOENmNDgzMkpEOFFlY2s1cGRfTnJVenB5V3dOMG5qcDdXWU5STFBLclluSmNnbG9uODdFUGxDX3RjYjM4ZHZiRUx2YjljX2g3UC0tLXhnY1psUDBEemc5OWZHYWlRN0Fyd1pIeTA5SGlVSVVhaWozN25GRDFBdjlpd1lsX0E?oc=5",
-    "source": "NDTV",
-    "fetchedAt": "2026-03-24T08:00:26.013Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=skcPc9HDLBU",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "skcPc9HDLBU",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "the-latest-trump-raises-hopes",
-    "date": "2026-03-24",
-    "title": "The Latest: Trump raises hopes for war to wind down but no sign of reduced fighting - Newsday",
-    "description": "Via Newsday. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPUE1DVmhtNENDY0thZ2RuRDZlbjRUaGxZTlNnSU9wRFRiMjJyc3haNzVFY1dEeEVyQXhPNHZtTDBsYVdjbUtvVktIV1o0OWYwcXd1c08yQXFzYl90eWFTNWlKZVNoUnhPTXVhT213Wk83UmhadHVObU1tRjJQRWNQX1lkSVU?oc=5",
-    "source": "Newsday",
-    "fetchedAt": "2026-03-24T08:00:32.611Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "with-trumps-backtrack-a-new",
-    "date": "2026-03-24",
-    "title": "With Trump's backtrack, a new reality emerges in the Iran war - ABC News",
-    "description": "Via ABC News. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNb2dZR2s0MFAtVzZjR3k0bUtLMXowQzMzVXhUSmFwOWg3WjJNSncxOFZ6UFVaWFBKOWJqZ0NqQnptY3hUZ2ZjdW9PV0tZLWRDSGU1Q2ZhNjFCeUhnUXc2eHMyaUZvenI3YkxCcDZGdkpYeTBjRzJEbURabTJJTDRFanhCMElXai02dGRHR0o0dnA0ZVRfcHRCWEhNRUUtbDhn?oc=5",
-    "source": "ABC News",
-    "fetchedAt": "2026-03-24T08:00:39.273Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "mossad-chief-barnea-predicted-iran",
-    "date": "2026-03-24",
-    "title": "Mossad chief Barnea predicted Iran regime change most likely to take a year on eve-of-war - The Jerusalem Post",
-    "description": "Via The Jerusalem Post. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBnZXY3eEc0MkNMZnBvX3Q0VVc2NGFXeFdzVE1oTklBTjdMMG9KclB3YUxQZGl0d1NNRTgwcXladHo4a0NWbXk2NnFuaHJLT1NGX1ZmSHdMWUQ2VmFRME1xOGFZbGFCNXNaSTc0NXFB?oc=5",
-    "source": "The Jerusalem Post",
-    "fetchedAt": "2026-03-24T08:00:45.668Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "iran-targets-israel-and-gulf",
     "date": "2026-03-24",
     "title": "Iran targets Israel and Gulf states after denying Trump claim of talks - South China Morning Post",
@@ -4342,6 +4156,216 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOWmcyc0dkV2pvQk41UTdPWFp1M1RtSzZSU3g0SmM4TlRnSkszSFo0UVR4bHBoVkVCcVFrQ000LWRLWU02X1hQNzFISFk2eDZtR2xpZWY0ODF4THJldjVPRkFVVWFjdEYzdDI5NXE1UDRkR2tCcXFXeWx6V09mTlVrcjZuejZsM1cyczFpN2RiRkwyRkIzRzNkYy15Zzh4Rk90MmlvLW1RUXlQRkNMUHEwbVJaWU0?oc=5",
     "source": "The Business Times",
     "fetchedAt": "2026-03-25T07:01:11.006Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "dont-call-defeat-agreement-trump",
+    "date": "2026-03-25",
+    "title": "\"Don't Call Defeat Agreement\": Trump Wants Peace Now, Why Iran May Fight On - NDTV",
+    "description": "Via NDTV. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPbURTWWQ3emFUM1NTenFNUE1tWXNzcXE3Q21TTEQ3WV85YUdSa0lLeVZrZjduWTJ0Tk5mOVh2Zm1pTExLemFGSjJzWEhLT216RmFwOXo3S0FRSlBuUnFqX0EyRkt2Mk1zZE4yZDBKWjVJamR6TnA2Vk9hNTdDcHVvWlFTU05QN1NOZHRlMURlMHp1X2ZlWm9pODZsQVVHdFY3WXYycFVnWlpscFNUUTg3OElrRV9ndE5sV0twTmIySUFFQnpYSWVlaGVnT2h2SzNDVU5IQjZFRVFVZUNwLW1mUF9ETENWRXRfUXgtcDlGc3XSAfgBQVVfeXFMTVhLcl8tVEdzYmlmekpQSjh6cjh2c0s1Q1RCR3lGYXhWM1A3czA3UGxxcFpvWHpkRlRNbW1WU1NlX3ByX18wVmNpLXl1SkpUNzdqSjJrTnB2dEk1WEtaOUp1THA1ODB6MTdoa1ZCUUljemlDcy00d1pBcHljWHBIUzZGZnpJbTBhN20zYk1oU3JQdENBMG9IelMteVVNazRhYXlGOF8waXBEOG03RnRlSnZDbkJ6UmVvWk1WZWVDS2U3X01KY2dsSS1YWlR4cmRpcktZUEFSTEdmN0FZbGw1WDlFV21MaDhmeElaMWJ3LUpyblJvMkhaRHM?oc=5",
+    "source": "NDTV",
+    "fetchedAt": "2026-03-25T08:00:12.282Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=ESfK-WPdfU0",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "ESfK-WPdfU0",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iranian-rulers-fought-to-survive",
+    "date": "2026-03-24",
+    "title": "Iranian rulers fought to survive. They found leverage en route to an endgame. - The Christian Science Monitor",
+    "description": "Via The Christian Science Monitor. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUEVha1BIV2ttVExyUDVxbzV4ZVM4YmtrSmpsUUNSNG1QQXdvYzBodVlNWUZGTVFDRVJfVWR4VkxWRjQwTy1BY3RIc0ZhUTRTenBNZXJUb29OR2l1RTQxbGtpeUxYRW1IbFZxTVBkTWFOZ0ItRHNpVVRtQTZuQXN6SlhsNzFsM2FpcXZzRGUyUm4zSVd4dTYw0gGwAUFVX3lxTE8tOTNCRnVSd0NPRkFXZ1pmaGMwZmlxdjBFckZxdGdNdWc3ODVlRHVEQ0dqRXh1QVJVNTE4amxaU1ZTaUpyb3lsWGpZS0Q2dEtqRUYxZWtlNGtXX08waXdnM3J3b1NvcUNndTFXVmdSOXZtVEZiTUJKbUxfd0dIM09OUENqaWlibUZVSU45eE0wM3d1T3J4a0dBajlURDF3WldwU1BxUUpZQ3hUTjlETU92?oc=5",
+    "source": "The Christian Science Monitor",
+    "fetchedAt": "2026-03-25T08:00:15.423Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=ESfK-WPdfU0",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "ESfK-WPdfU0",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "us-gave-heads-up-to",
+    "date": "2026-03-24",
+    "title": "US gave heads up to Israel before presenting Iran with Trump's conditions for ending war -- Israeli official - The Times of Israel",
+    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNZVhTWjZVeXA0dl9fNmpLZGFhX2NBZGNfLVRmU1c4azBHNHNfQm5GM1AxNHRWVFd1aW9HbUF1bHlHc2JpQVNiYW1GdWtqX2pDc0RiYU9LNlQ5U2M5Q3VoRmdsVGRNNmc2MTdFZ0tENjE0MGViT2g3TnpueVJFS0NuWW9paWpLZmN1S2M3NVdiNUxfeUhJdFlQc2lhNjJIUXRVRS0zUlh5T2V3SG9zd21feEg0TTJta3VMV3ZFOXhyWUgzNWRPSXZOTFFvVUt3VkxURWhCTlFLQ3FrTDRQYkRfUXdLQmM?oc=5",
+    "source": "The Times of Israel",
+    "fetchedAt": "2026-03-25T08:00:21.621Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=DtIUeCfhhQE",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "DtIUeCfhhQE",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israel-sees-over-12000-compensation",
+    "date": "2026-03-25",
+    "title": "Israel sees over 12,000 compensation claims filed as Iran war rages on - The Jerusalem Post",
+    "description": "Via The Jerusalem Post. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5jNDZZdDhfZ19HTS01NW1oQlJtOElGUXpYeW9udEZVbTQxSkV4RUs2QUlNOFRuOEUyVF85eElxWXlqaUtiSGNWVTlQSW9rNmN1R0hqemhZM2lkalFY?oc=5",
+    "source": "The Jerusalem Post",
+    "fetchedAt": "2026-03-25T08:00:23.790Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=jREnsY_ScOU",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "jREnsY_ScOU",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-regime-change-likely-to",
+    "date": "2026-03-24",
+    "title": "Iran regime change likely to take a year, Mossad chief Barnea predicted on eve of war - The Jerusalem Post",
+    "description": "Via The Jerusalem Post. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBnZXY3eEc0MkNMZnBvX3Q0VVc2NGFXeFdzVE1oTklBTjdMMG9KclB3YUxQZGl0d1NNRTgwcXladHo4a0NWbXk2NnFuaHJLT1NGX1ZmSHdMWUQ2VmFRME1xOGFZbGFCNXNaSTc0NXFB?oc=5",
+    "source": "The Jerusalem Post",
+    "fetchedAt": "2026-03-25T08:00:32.259Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-hezbollah-try-hacking-israels",
+    "date": "2026-03-25",
+    "title": "Iran, Hezbollah try hacking Israel's cameras to assassinate Israeli officials - Haaretz",
+    "description": "Via Haaretz. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiowJBVV95cUxQOUFpV2dsMUpPaVNmYzRLQ09NQ0lWVWd1bWt5SThfc3NBZkpnQTdYaldvTGJkVUFDcmdpT1ViY0xvNHNNZGpObl9FU2JiTVowNDNpX01kdmVXa3d6dTZFYXFvSXpSR1hwMzJhSWhZNTVBbGE1Q2FRU0x2RlM3ZjVScUpxVmF3NGY0b3I2LTlRZElGUmRheVRHQnRWT0Q3OFZ5R195bWI4T1plT2RDc2JMb3hpSGFCT284WlhuVUVyTnhLdHpXYnludUJlZVJ4TGNCYjFqMEFhZ3F0emhkV1FUSkdDaHpFTmtrd185c3FQbVF0Z3QzTWdZRVhMYmJSN05FVFJ3R0NTdEtodWtVb2VRaFgtNDg1S0RBOVBNOExsZWsxRFU?oc=5",
+    "source": "Haaretz",
+    "fetchedAt": "2026-03-25T08:00:39.194Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "remarks-by-unrwa-commissionergeneral-philippe",
+    "date": "2026-03-25",
+    "title": "Remarks by UNRWA Commissioner-General Philippe Lazzarini at the Geneva Graduate Institute: “The War in Gaza and the Future of UNRWA and the Rules-based Order” - UNRWA",
+    "description": "Via UNRWA. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQN2VuN3hmcEpselVNZlNCWFE4ODFGNVVwTVg0bTRVYVZaOWF0YVdyV1cwdGxtSFBGTHFoNnB2blRjX1VfNFhyam1TRVN3TkdLZUFqYkR4dG5zLUhrNy03WjdFeHNaSVR0S3hLVGNEZ2lJazlpOXZLMHdqM3RKbWdqRXUzVWYyUjBvdHJPWERWLVFvdkZIU1ZNcEZUYzcwYWQyalY2VHRxa1lrd3F6WW9WdkMtRmZ3eTlqRVBURk5oRExES2tqVlpRSFhR?oc=5",
+    "source": "UNRWA",
+    "fetchedAt": "2026-03-25T08:00:52.295Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "5-reasons-why-the-events",
+    "date": "2026-03-18",
+    "title": "5 Reasons Why the Events in Gaza Are Not “Genocide” - American Jewish Committee",
+    "description": "Via American Jewish Committee. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1zQTNIMWEwd0owNU92cmFfTWhEVDhTMUNPT3MwaEtFNEtJYTc5cDZORmRsQmNqTXpRQXMtb084SXZPd0U2WGs5UE5idmFDeTh0YVpUNU5GYmotRXIxYmF1UXVoRkk3SzF0ckUzTDJPcUprLTJGdGl3UlI3ZkM5RDA?oc=5",
+    "source": "American Jewish Committee",
+    "fetchedAt": "2026-03-25T08:00:58.409Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "trumps-board-of-peace-gaza",
+    "date": "2026-03-25",
+    "title": "Trump’s ‘Board of Peace’ Gaza envoy urges Hamas to disarm ‘without delay’ - The Straits Times",
+    "description": "Via The Straits Times. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQU0xuMVVReHdPM0JLZmtSaEg1RW1aSjdsZHBaSWRMUWZ0U2RyVm5GVU5Hdm5pWTFnRXZad3NBOW9QYk9ad3V1RDBST29QX2ZBbkF2RWtlbXNqNXZEWmJpcThkbEwtRHlUVzlvM1RZQ09HbWpNX3dTTHowOTlKMDMzSkdvYzliZ19rM3VZUFBrN0JYbDJvSDc3dUtpUzNrN2N4NERDSGNNMHM2ZEt1bDlJM19JOTQ3UQ?oc=5",
+    "source": "The Straits Times",
+    "fetchedAt": "2026-03-25T08:01:04.841Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "war-on-iran-how-israel",
+    "date": "2026-03-24",
+    "title": "War on Iran: How Israel is demolishing the myth that once shielded it - Middle East Eye",
+    "description": "Via Middle East Eye. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPU1k1YzJjZ2dqT2hMRDNOMHNCc0ZzRl9GV3BOWWtpLTlRY3Y3TkY3YW5GZldSRkdVWmZ1enNydWtaUVI5LXliMkFaYnFiaU5zTnI4TnBFejBlUl9yV3g2OEJ6enNGMk55VVRrREU0aDk4akNwVXNOQXItdTUwZVpUelBHV1ZaT0VtLWV5UVhPV1doS2pqMGc?oc=5",
+    "source": "Middle East Eye",
+    "fetchedAt": "2026-03-25T08:01:11.119Z",
     "mediaUrls": [],
     "videoMatch": null,
     "lat": null,
