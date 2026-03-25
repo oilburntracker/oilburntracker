@@ -1,83 +1,5 @@
 [
   {
-    "id": "how-the-us-israel-iran",
-    "date": "2026-03-24",
-    "title": "How the US, Israel & Iran are controlling their media narratives - The New Arab",
-    "description": "Via The New Arab. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQSElwOU1RNG94VVFuZFQyRXZ4VTZwSHdfTkU4bF9weFU3UDlYSnJ3RXF4V2VIRlZBMU1rckphNFFtM3R2Mmt2Y3ZQeHBqbkNvb0FlbWM5UmN2MXZTTmY5SDluRE5BUUZIVU8ydEtSTHZxOWZTLXVTMFhRYW1iNlVmbjBIanRydWFPN3ZITG8ycXptbE3SAZgBQVVfeXFMUDB3bEVvOUlSZVZocXBzZVFjTXRnOUVzVXhQNTVINmdibElfa2JaZEdBWXF5QXU3aFVfZFJobFdQTlh5YTRWNkREbXNNYmFfbkp2d2JfblR3bndPTkl3UWwzUjd2NGdSMGMxQ0dEMTBtM0Yza3ZrSWtpYi1XLWFaanRJYWJnNEpLSGlEallHWjJCZURZVm9HNXk?oc=5",
-    "source": "The New Arab",
-    "fetchedAt": "2026-03-24T10:00:47.289Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "bloomberg-israels-economy-has-lost",
-    "date": "2026-03-24",
-    "title": "Bloomberg: Israel’s Economy Has Lost $57 Billion Over Two Years of War With Gaza Strip - Hasht-e Subh Daily",
-    "description": "Via Hasht-e Subh Daily. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRnFXUG9FRXFHdWJzcUlXcEhnVDlSMmtVWk9hNkxVVE9JdVpnNlJpeTYxQzVaSFozTUxrZENuc24yMlNneFVQUzRhZmFMVU4yQlRuSFdKTjdEZDdRdXhrMDIxaGFvb0N5dWNvczFfV2NINS12MUZGRTF1WkJHQWZ4eWRPM3dxRDYtMkgtLXlWZmdTZUR1VzFRQ1RvNFlGSDJHcS1SU2wtcGE2Zw?oc=5",
-    "source": "Hasht-e Subh Daily",
-    "fetchedAt": "2026-03-24T10:01:00.777Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "what-does-the-ongoing-war",
-    "date": "2026-03-24",
-    "title": "What does the ongoing war disruption mean for retailers? - Inside Retail Asia",
-    "description": "Via Inside Retail Asia. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOdHU3c3k0TjJ5ZW5MVVVYZG9JOHhzUEgtT2NMUUFadXhxNlIydWZtLXNrSUN4UGdfYUNHdkpTNjNzXzVaQlRfd3JmNnA4N01hYzdPWDY4LWpSVGdDSEJwaldkcVQzemtELVhuUWVOOWxGamtaSUU2bzJvU09pdGRncXd3ZXVJMV9DaTZLeg?oc=5",
-    "source": "Inside Retail Asia",
-    "fetchedAt": "2026-03-24T10:01:07.416Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "trump-says-hes-postponing-attacks",
-    "date": "2026-03-24",
-    "title": "Trump says he's postponing attacks on Iran power plants, citing 'productive' talks to end war - NBC News",
-    "description": "Via NBC News. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNS3dsSTBqUVpDeGZzU0g3RHZhREJLa0lvbTRJLTdtaW5CV3BmOU1qemk2TjlHekhURC1vQ3VZSG1BUUdLN1QxWW5JVGNuYm1pT1BEVjVrc1kydUU0LWt6VDVHcXZ1ZGdrMG5CaUJjSHJpVmpuQW1QNWg4aHZicm9SMU5kdkJJdlNCblRTU3gxZGF4QmFTaXhWVGlzOXhLV191LXpxNzVHSzM2NXJfNVpHXzhUeVF4d2hHTkM5MXRQVFRJalRVZGxVdVowMA?oc=5",
-    "source": "NBC News",
-    "fetchedAt": "2026-03-24T11:00:19.712Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=IsJhlhDKHo8",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "IsJhlhDKHo8",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "strikes-hit-iran-and-tehran",
     "date": "2026-03-24",
     "title": "Strikes hit Iran and Tehran targets Israel and Gulf states amid mixed signals over talks to end war - Union-Bulletin",
@@ -4214,6 +4136,263 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdnhJX3dwNEt6VFNOVUx2ZGc2c3pCRzN1OGtORThtZ1lhaVV4eDJQMmM5d2FMU001NC1jNkExZ3NYbWo1NmNBY21TWEtzNEhjZk9ub0J6ZHRHcDlyYmFNXzVwWlRxbWFIczJqaEZUWlhCcmxqTERka2dIalJiTEs2TzAxSTJOQ1dGcTd2bA?oc=5",
     "source": "EA WorldView",
     "fetchedAt": "2026-03-25T10:01:11.432Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "how-the-war-in-iran",
+    "date": "2026-03-25",
+    "title": "How the War in Iran Became a Race to Stabilize the Global Economic Order - newyorker.com",
+    "description": "Via newyorker.com. Auto-detected by headline monitor.",
+    "category": "economic",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcmJrWkVGOUpQWU5NUjF3ZTJxRjdZWDE2SkJYbko0T0ZBQnQ3WmtyZ3dvVmV6RFEzS2IxRFdlS2FyV1JGN1JKYTI2amwwbGNHalNUUS16TXhTT1A2Rkt4dS1jZ3NJWmtlOXNwZjRJTEdfSzdiWTRxTVUyUHBXRWZ2ZVVLSGF0YlNBX3k1WGFWMkttUlFJOG9ady1PaFlCQWhFVlJNR2hMTGlweDZYTVB3NDZR?oc=5",
+    "source": "newyorker.com",
+    "fetchedAt": "2026-03-25T11:00:12.094Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=4Ql24Z8SIeE",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "4Ql24Z8SIeE",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-update-special-report-march",
+    "date": "2026-03-25",
+    "title": "Iran Update Special Report, March 24, 2026 - Institute for the Study of War",
+    "description": "Via Institute for the Study of War. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTXk3QzBsYVExcXkzenk2d0JYcDNEUkJNRGtudngxWlZVSkxKSExYajFRT0ZuSVpDNW45LTIxU1dfRGdTVlgtVV9OZHg0NW5wUHdDTEZ0dFBIbGRYaHZJZE1DeFU4LW9fay1sSTA1dWFIS1A2UEl0YTdtX2JVWV93RXY1UW94ajZDSDR2V0FDQ1gwdHpLaFE?oc=5",
+    "source": "Institute for the Study of War",
+    "fetchedAt": "2026-03-25T11:00:15.225Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=LS8DL7CcgLE",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "LS8DL7CcgLE",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "dont-pin-trumps-iran-war",
+    "date": "2026-03-25",
+    "title": "Don’t Pin Trump’s Iran War on Netanyahu (Or Israel. Or the Jews.) - Washington Monthly",
+    "description": "Via Washington Monthly. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWVZ6X0pzNHRNV1MxS1FPczlITGhjdTNhNlVtZDJma051TWpiZUNPaHJmci1oblR6SUY3RXFnN2pUZUxzSmxVMHVYSGVuS3ZkNzhXZjNSZEVKUUhtejFWTXF1bDZNblVzWTFkSC1ISjVJc3NmVm5zZVRySXYxTER0dTV4MjNQOFllYTZRZTBYd0g0cVYwVFE0RzJqM2Y2ekZfTURn?oc=5",
+    "source": "Washington Monthly",
+    "fetchedAt": "2026-03-25T11:00:19.408Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=kNDO0Eu4Zh4",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "kNDO0Eu4Zh4",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "lebanon-israel-iran-war-gazettextra",
+    "date": "2026-03-25",
+    "title": "Lebanon Israel Iran War - GazetteXtra",
+    "description": "Via GazetteXtra. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNd2MwSHJlRmZtSmtSdnhnRkc1SmxORUdpN0hnRUJkbUhtbW1QS1BUYWgwaWNZTkxVUVF5VlBQMXNRbTVsdnAtZzJJcnlmN05KNFQ0eHFJX3ZiTU1KTmdsZU04Y0E2V01CN1JHT3EyMDAwU2hQWV90S19oYzZ4NUJVMGdEVFFtSXV5SzZ2RWlVNlNTdF9oZThHQjdZdmg4ZGtaanp3LTJyX0Z5OVRpX1JwNUlINEw1dmZV?oc=5",
+    "source": "GazetteXtra",
+    "fetchedAt": "2026-03-25T11:00:21.566Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=vRzqPXh5rnM",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "vRzqPXh5rnM",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-said-to-toughen-negotiating",
+    "date": "2026-03-25",
+    "title": "Iran said to toughen negotiating stance, tamping down chances of deal with US to end war - The Times of Israel",
+    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPYlNKclBsQW0zalBLcHZrNzE0MXV1OFZZUHRVOTZ0dUVhUm42MUFWTmpQRk9yTTVmZ2VMZWZZdG5hOFpzRmJzV2lvb0pkcDZuRFZHZGlNMVVBWmRueTJMUkZOeTV3WWVtWHBCcFR3WVh0dnowc3EtaDlkenlWcWVxOTNoX19INjV1Q1cyb0t2d00tOVQ0VzlPX3hjWUk2MEpFRzFwN1JuRjJ0QW1UU0pmRUUwLWVGdUVnN0HSAb8BQVVfeXFMTW1Ea0Nha2JoRV8waGVnbXRERExYRVpjQ1EtWTRyNGpaTHBfMmVqb1NCX3FGX2FQWmliLW04TkU1VXBfam5PWUpzMDh1X010Y2FpTTdzUnp4TTVzSTJ5dG1vTlg1Y2I1Vnc3NjB3MWJVTlFoR2QwakdIbnVzRkhFNGlIY2dscmFaYWtvMFFBYnVkMDdJcktfaFg2dzZDUGJvNDBuR3NWRHZYQXNNQ2IwUlk2SHlLcS1MeDlRb2cteTQ?oc=5",
+    "source": "The Times of Israel",
+    "fetchedAt": "2026-03-25T11:00:23.836Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=tzHu-YZ6XoQ",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "tzHu-YZ6XoQ",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "negotiating-with-yourselves-why-iran",
+    "date": "2026-03-25",
+    "title": "\"Negotiating With Yourselves?\" Why Iran Has Nothing To Lose, Trump Does - NDTV",
+    "description": "Via NDTV. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPbURTWWQ3emFUM1NTenFNUE1tWXNzcXE3Q21TTEQ3WV85YUdSa0lLeVZrZjduWTJ0Tk5mOVh2Zm1pTExLemFGSjJzWEhLT216RmFwOXo3S0FRSlBuUnFqX0EyRkt2Mk1zZE4yZDBKWjVJamR6TnA2Vk9hNTdDcHVvWlFTU05QN1NOZHRlMURlMHp1X2ZlWm9pODZsQVVHdFY3WXYycFVnWlpscFNUUTg3OElrRV9ndE5sV0twTmIySUFFQnpYSWVlaGVnT2h2SzNDVU5IQjZFRVFVZUNwLW1mUF9ETENWRXRfUXgtcDlGc3XSAfgBQVVfeXFMTVhLcl8tVEdzYmlmekpQSjh6cjh2c0s1Q1RCR3lGYXhWM1A3czA3UGxxcFpvWHpkRlRNbW1WU1NlX3ByX18wVmNpLXl1SkpUNzdqSjJrTnB2dEk1WEtaOUp1THA1ODB6MTdoa1ZCUUljemlDcy00d1pBcHljWHBIUzZGZnpJbTBhN20zYk1oU3JQdENBMG9IelMteVVNazRhYXlGOF8waXBEOG03RnRlSnZDbkJ6UmVvWk1WZWVDS2U3X01KY2dsSS1YWlR4cmRpcktZUEFSTEdmN0FZbGw1WDlFV21MaDhmeElaMWJ3LUpyblJvMkhaRHM?oc=5",
+    "source": "NDTV",
+    "fetchedAt": "2026-03-25T11:00:26.386Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=BDqWHeym9W4",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "BDqWHeym9W4",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "eatimes-radio-videocast-trumps-corruption",
+    "date": "2026-03-25",
+    "title": "EA-Times Radio VideoCast: Trump’s Corruption and the US-Israel War on Iran - EA WorldView",
+    "description": "Via EA WorldView. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNa191UHBoa0MyOEJIWk9LeDd1U1I1VzhGbDhfamdRaFhwVDIxMlE2b1VOOUx4eWdyc1doMzdvWm1nWlpYMkNXTE1aanM4ekpiREVibGN3bHVMeDJQSV9FSzZDc0d2Nlc5bElrcXZLUE5tYUstYzZJUG9YN1dBeU50QVpXRXRRZw?oc=5",
+    "source": "EA WorldView",
+    "fetchedAt": "2026-03-25T11:00:28.723Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=il4HtW29RYE",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "il4HtW29RYE",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "us-and-israel-have-inflicted",
+    "date": "2026-03-25",
+    "title": "US and Israel have inflicted long-term damage on themselves in their war with Iran - The Irish Times",
+    "description": "Via The Irish Times. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPYUJIWHBrUncwa3hkRTV5dmJHMVFpQ0RnYlVEbW5RcElWVkI1cHhkWktTeVNEU0l6ZjcwcmpPVlJRRk9Td254WkJCRFZhZ1VaNzNmRmVfSHhFOXMtRDJQVktKbGRaM0NvN3VyUU5qMExlYU94MDVsLXNLclBrTGYwR0RCdlFUOThPT0VIcTdEaE5ZM0dST3oyQmtqUnFFMzBEeF9EeA?oc=5",
+    "source": "The Irish Times",
+    "fetchedAt": "2026-03-25T11:00:35.121Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "what-we-know-on-day",
+    "date": "2026-03-25",
+    "title": "What we know on Day 26 of the US and Israel’s war with Iran - Yahoo News Australia",
+    "description": "Via Yahoo News Australia. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5COU1mZ0pjNXh0VkdqYU9UNldvWGdMVDJtNmgydXdLNDBNTFpEc0FESDRkUUM0OHd0a1plTFFzdmtBWG51bXg4MnEycFYwYWpmTFRPeUhCX3dvUF9qakdzMzZfelRZS1NYYkdwMGo1WQ?oc=5",
+    "source": "Yahoo News Australia",
+    "fetchedAt": "2026-03-25T11:00:41.894Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "trump-wants-to-seal-a",
+    "date": "2026-03-25",
+    "title": "Trump wants to seal a deal with Iran, but Israel worries over how far he will go - Haaretz",
+    "description": "Via Haaretz. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNWjJQd2JPZnRXU3BoQ0JRSUV0ZU5obEJMcXItYmRyb3phcDI2SXU3QjhVS0F1aXpaNmFkR3Y2RkgzeXVCNXczMWZnYUdvVk9EemdrUWJHR2ZFR05oanZ0WTE5cEQ5ZVdzTUpINEFXajhHSjNCcjg0UXpCTldkVFZ6N3psSzNVY0N5RTJleWZoRXA4LTFOWjVsdmJMc19ZRmxwWDU2R3FWV1BNSFFrcjMwR3JGQjN4eElmSjBkdWs1Vm12OGJ0THBDRDJPOWpXWlIwNTVnMl9XU2FhNFlrVzZrQzFkNWo5dHNtNllFV1B1cUthaGVxRFppd0J2dkItUG1BYi1wZUNvRUgxT05oUzNKMEt0YmlTQXM?oc=5",
+    "source": "Haaretz",
+    "fetchedAt": "2026-03-25T11:00:48.746Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israels-economy-lost-57-billion",
+    "date": "2026-03-25",
+    "title": "Israel's economy lost $57 billion during two years of Gaza war, bank report shows - Yeni Safak English",
+    "description": "Via Yeni Safak English. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNOW1XN19nSmdYVlg0WE55aGRmTl8yU3R2NHlsSWF5SXZYclE0R2ZEb3VWbHB3YW5RT2dvazNzeFFjNFU2amI5Q3RZQ3VXXzhaMTFGVVZBenN4dmpQNUNyc0M2YkFGNGh3VFFpcGlsTE5EWWVnRW1GSU9BRzVVWUNqYzNkX3B6ZWI2akFuSV9mSko4dmVDUW50MUJIMHhPRld1Sm1hSmtFeWlJTnMyWVZfRFRhS2dhdklM?oc=5",
+    "source": "Yeni Safak English",
+    "fetchedAt": "2026-03-25T11:01:02.331Z",
     "mediaUrls": [],
     "videoMatch": null,
     "lat": null,
