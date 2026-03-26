@@ -1,184 +1,5 @@
 [
   {
-    "id": "daily-brief-about-usisraeli-strikes",
-    "date": "2026-03-24",
-    "title": "Daily brief about U.S.-Israeli strikes on Iran: Day 25 - Xinhua",
-    "description": "Via Xinhua. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE11T2ktbkNsYUl1cnNSTFFrSC12YUJBeWMtaUs0bHdOcEZydDNhZnZ0Q3dSVWtkSld3VkpGREdEeHh6b1FYcXVrcXUwc3lldzFtd1dGNjJDaGs5MlZPR1B1cTZJZXo0TlVzY2ZCcGxlTWxtelJJaWNCWnFpcE8?oc=5",
-    "source": "Xinhua",
-    "fetchedAt": "2026-03-24T22:00:37.822Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=yvcBSwCeRWM",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "yvcBSwCeRWM",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "the-latest-iran-fires-a",
-    "date": "2026-03-24",
-    "title": "The Latest: Iran fires a dozen missile salvos at Israel as Trump insists talks are progressing - Nonstop Local News",
-    "description": "Via Nonstop Local News. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOdkk1c2Zubml6cENvS1UyZHBORGhnVkx3WGVOVzRYR2g2QXgxNjJTekhkS1ZmRjlXeC1JaE12Tm51OGdCUEpCWUYzZ01vSl9NcDM4Z3V1Nk5BU1hpRkJsa2N2VXlUTEZDNjNlN3ZCNTl4VTNjTDNzZ1oxaThTa0FQOGZpYTF2Rjk1V2lIdWR2TzIxQks3eTVhdnRzNFpzbHgxYU9JRWtwRmFveGkwel9wVXYtOERfQ2ZiWmpzWmpIcXlCc0dtamtPeEZETXl1a1Awb2pDaEw0dFVISjl0Q0NlREF4eHg0QVFWam9NOG94V3pNenZweVpTaWd1Zjg?oc=5",
-    "source": "Nonstop Local News",
-    "fetchedAt": "2026-03-24T22:00:39.980Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=jqrC5b0OZe4",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "jqrC5b0OZe4",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-war-live-updates-mediators",
-    "date": "2026-03-24",
-    "title": "Iran War Live Updates: Mediators Aim for U.S.-Iran Meeting by Thursday - WSJ",
-    "description": "Via WSJ. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi_gJBVV95cUxQWEJYWHJ1WFRSU0NvT0E1U3hvWmFrYzZ4b2pVdkRKYzdhUGpyci1OVUd3d251bmd4eHBwQVo3SHZjTElXREtxSGkxTEhHcFZKcXc1eWh3VVRJQzhoTEJGX1JaMy02dmV1RjhlYUhSTmZSNF9kckdZeVBRNTA3OW1YdUpDSW9aWmtteG0zZUJldEVZbDZzMGVzcE54eFYzNkNaMHFHVHYwRWM5cXB5aUVzU3UwQU1sMzhScUcwdU03QVpzTG5janhIOV9wdURIVTNQWi1yVGphQ25fTHVleW1WZ3dFc0tJVnlEZ1VDRVM4cTRxX1M3a1JXR0VNSzRMbmpudnNSam5uNkR1M1UzcWNpLVVrd1p2ZllzRVQwOUlGaTlMQ2FNWXVuU0NnT3FHeEM5ejhZOG4yNlY5bXY0ZlhMMGNyMFVGbDhhaHhiOG4wUlRfTzNvcXNYUU9INTBMOTZ4SFFOWHRBdlRPQ1JUajF4dVU3YmFoV1h0bW1ONVBn?oc=5",
-    "source": "WSJ",
-    "fetchedAt": "2026-03-24T23:00:14.349Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=K6G8Gvow4ww",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "K6G8Gvow4ww",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "israels-war-against-hezbollah-takes",
-    "date": "2026-03-24",
-    "title": "Israel's war against Hezbollah takes a dangerous turn. Here’s what you need to know - Australian Broadcasting Corporation",
-    "description": "Via Australian Broadcasting Corporation. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPYmNGdmZUbXZFVTBlM1dGODhkWVlmNTJlV3oyeTNfMWhiSHBzaENFMzIxemtsQTdFRGtNbGpFSGZqMjhBY0pLM212WldUcXhWd25mRmowb01Da3pNRGdfRHBtLXg5aGhpUHhXWjFjdGpuOURmZXFJZGJYekxETGpoRGdZSy00dDZuLU1WVQ?oc=5",
-    "source": "Australian Broadcasting Corporation",
-    "fetchedAt": "2026-03-24T23:00:22.279Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=zYVC8WEhn7w",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "zYVC8WEhn7w",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "9-people-hurt-after-iranian",
-    "date": "2026-03-24",
-    "title": "9 people hurt after Iranian cluster bomb munitions impact in Bnei Brak - The Times of Israel",
-    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE81bGV3VXF1Zk5vZjREVDR6dElpTWw2TVFTdERkdUFkV0NDQS1sZjVucnBmU3RQZTU3eHJhVkVpVlVZUEdIUjJnMXhXZTZHdlh1Y2N1ZW4wSS1sM0tNeEEzWVRlQdIBaEFVX3lxTE5IU0tOOVZLWjJlbU1ZczJpekNWYkxFWnhhQjNab0ZJT1BJRWtCSjJtMFZwVFV5aEdsbW1EeFpUakxOclNaU09ZOGZCTTdFeHU1YXZmWl9rVWxyeloxdkJnTi04a1lZWWUx?oc=5",
-    "source": "The Times of Israel",
-    "fetchedAt": "2026-03-24T23:00:24.871Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=3uCZ55-Xyic",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "3uCZ55-Xyic",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "the-israeli-authorities-said-missiles",
-    "date": "2026-03-24",
-    "title": "The Israeli authorities said missiles launched from Iran hit Tel Aviv and other parts of Israel on Tuesday, after the U.S. and Iran sent conflicting signals about whether they were negotiating to end the war in the Middle East. Follow the latest updates. - facebook.com",
-    "description": "Via facebook.com. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPYzY1bFdIdFMycWNnRTE1Rk91SVBlamJXRHF1ZVRjUDltNllHekYwYTMzSjBOZXlzZzFWUE1qcEJkaFdxdDVkeWNNT0sxbGJSRHpQbUNhYUIxMzBnNnZTN2NacExZUW5OWDlMSGtHRExQWG9KejZGZzRhSXlqUVFkSUlWdmEtaHNGc1kzSF9ySURBamM5VmtzUkM3OVhvVXBEX3YyNEU5RHRvWERjVC01Zm15c2hMZWJ4SXh3RlJpcW5sU0JSaUN0dUpkSHpndTdHWk5z?oc=5",
-    "source": "facebook.com",
-    "fetchedAt": "2026-03-24T23:00:26.993Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=LTy5bi_Ffyc",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "LTy5bi_Ffyc",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "as-iran-war-rages-netanyahu",
-    "date": "2026-03-24",
-    "title": "As Iran war rages, Netanyahu builds ‘Greater Israel’ from Palestinian and Lebanese land - People's World",
-    "description": "Via People's World. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQWVRfdjJYbGk4MWtOdkhyQnJPM1Ixa1VYQ0ptZTAtWk9KQmxaaXg4VVJidXNhZU9RQkwzUGQ4bmVKQWlQSlg3VUJ6NkM3Q2E1NUFtbzcwV1FDd3RqNm5QaHpZVjlFZVlNN2lCVzMtV3FQbndsZExWRURkNG1xZTNEN3EwRXNpWTZHbmc3NUE5SnAtZDJHdnBPcjZBZHFZcUFBUmpJa2xwRkxWX1Q4eWFBdndFeVJnUjQ2YTNWTmhndw?oc=5",
-    "source": "People's World",
-    "fetchedAt": "2026-03-24T23:00:33.133Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "the-latest-iran-fires-a",
     "date": "2026-03-24",
     "title": "The Latest: Iran fires a dozen missile salvos at Israel as Trump insists talks are progressing - WRAL",
@@ -4255,6 +4076,192 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNbkJKcWhwLTZ4d0xodFppMkJiWWMxNWsxaEE3Ui1ZZjdEWWItcU5IX3RHVHB4bTJtbHNCVEFvZ1hPTjRZVDNXZndjUVY4ZTVsdEI4aFNEOElJYllaaEVCakI0SnpTYTNYd1o5UE1YRUFiaXJjRmhWS0NPQWxKWFlCSDZ6bHlZeUdMMlgwdUN6dnNuaURQbUk3dDV6Q3V2X1F0YW5yMFV2TmlVNFN4YlhibkgtbGZpWVo2QmlJaG52QUVyX1RqRnpnTGdGeFBMQ0FMVjV4Zy1YUDNJaXNPeFJDX0pzZWVOUQ?oc=5",
     "source": "The Guam Daily Post",
     "fetchedAt": "2026-03-25T23:01:09.572Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "uganda-military-chief-iran-war",
+    "date": "2026-03-25",
+    "title": "Uganda military chief: Iran war must end, but we’ll join it if Israel’s at risk of defeat - The Times of Israel",
+    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUms4em0tRWVoZTJjYzhlTFpRM2J5d1U0XzFRRWg3TDA1UG84dkc4V05QbHZMS1k3ZGZzVktwSDdaV1dsbWo5bnFrbEkwdDBLcWdyUk9MRzQtbUliMGx5ZUtHSFRfT0VIUVlDOGh5YXh1TWJfX3BWNVNSX1R0QnJocS1RQkhRYm9SUnZWNTVJSGw1S0R3UjRTYkl4Z3VXckRMOWUyTWtiWklUNUVXYUlvczJ6REx2R2M5dk1WMXMweGxvcGNvWXNDVTE1aw?oc=5",
+    "source": "The Times of Israel",
+    "fetchedAt": "2026-03-26T00:00:16.346Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=3awOGXVgHbs",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "3awOGXVgHbs",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "pope-says-israel-does-not",
+    "date": "2025-11-30",
+    "title": "Pope says Israel does not accept 'only solution' to Gaza conflict in surprise press conference - National Catholic Reporter",
+    "description": "Via National Catholic Reporter. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQb2FyVkdrYTdTZC1oc21BWGg5b1ZmV3AyUHZ2bWx5Vzk0MjJDSUdsUG0tWlZoWlBWWDRkVUVBWUhvR09jbGxiSmdNRWUwclZqNkRYc0YwZ0RCcURZUy0xMVVHMl9reHpfNXAtTkZ3dTU3N1ozMGh2RE9UQlVkdWZVSUZkLVltT2Ffb0xvbHJ1YkhmeG9WQTR0WmJJR05rc1ZHVGZwTlItUV9CTFhfZkdCeDNJanBMR3V2bkJNVw?oc=5",
+    "source": "National Catholic Reporter",
+    "fetchedAt": "2026-03-26T00:00:24.827Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=DHRuJejIbI8",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "DHRuJejIbI8",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "fatalities-injuries-during-the-israelhamas",
+    "date": "2026-02-02",
+    "title": "Fatalities & injuries during the Israel-Hamas war - Statista",
+    "description": "Via Statista. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdU40TEhZZ1VIaDNWWldFZFNZUlZiYzZYYTNZc2lBZWlOV1ZHSkpHcWJpRDFHeVVHaG9tUFdyYlBreXFJMGtsN0I0U1NMV0tRTVBzcEJKUEpDSEhDeWN6djJQLWQzWDJvQUlaNnN4ZlFodnhYZGE0QVljcjZYSFE2aDk0Nkk0RTJZZ3EzUWFzRlFoZmNQNnNhSVFaYzl3ekxXV3c1R1pwLUZ1RkRpTllwaUJSVDZmWE1PS29rYTZ0bnNua3ZjVkI2QjBtUEREenZtalVNUzJkSXY?oc=5",
+    "source": "Statista",
+    "fetchedAt": "2026-03-26T00:00:29.523Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=-mZI_vrqS18",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "-mZI_vrqS18",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "gazas-many-injured-will-need",
+    "date": "2025-10-02",
+    "title": "Gaza’s many injured will need rehabilitation care and support for years to come, WHO report - emro.who.int",
+    "description": "Via emro.who.int. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQaklIV2JXTlRMLXc2UGFqSE9udDRjOHBaaHd4a19IdWg3cHFNODg1NjNEaFUyU1ZBNFpQRVBPM2JUYUxteWdoTUZaN0tQbF84a3hOLVlIVGFfWGFwSVJRcmlBQzdGcXFpaWdOMnVHU0I1OUJtdnJtR3pnQnY0cDBZcnU5bk5zOS05M1BsSEtYeUpMTW4tT1RoVGJnNnlXZnZGeEtsVVY5dUUtQnVDQ3BWTWowNmRwWXRuMHNfaFEyWHZ5NGM2S2Fr?oc=5",
+    "source": "emro.who.int",
+    "fetchedAt": "2026-03-26T00:00:32.037Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=UB_yB2XbE44",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "UB_yB2XbE44",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "why-its-so-hard-to",
+    "date": "2026-03-25",
+    "title": "Why it’s so hard to reopen the Strait of Hormuz - The Seattle Times",
+    "description": "Via The Seattle Times. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNcWMwUFNSc3pMUTRyTFZMMVdwQlppRDJqYjd2bzIwSmxlSGdwbEFzd2R5VmYzMklTWTZMRlA3YzBsc0dxNmFveGNNTHRXa3g4Q3Ntd2p6dDNXRS1fSmp5TmlEWm02M1cxYjgzRWkxZlNTSV9sVE1KOUlnVmpwdVdhWDQtOXR0NlZaLTlNTFRoSTRNVmM?oc=5",
+    "source": "The Seattle Times",
+    "fetchedAt": "2026-03-26T00:00:37.234Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=c5fo-yhWnPw",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "c5fo-yhWnPw",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "trump-touts-significant-iran-present",
+    "date": "2026-03-24",
+    "title": "Trump touts ‘significant’ Iran ‘present’ linked to Strait of Hormuz as deal talks heat up - Fox News",
+    "description": "Via Fox News. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPY0g3QlhQLUwtYUw1UHNJWlkwRXFrUnMtaXBpR2tfSVJicklJb1BaakVYZ1c0T2RPbk9tM3drNGV3WTJHVENwaU5vcFp5LUFkZmN5TmJ0cS1ZbnF1TFhUcnE4UDRBdWRFUVhGRFUtSVJYbExaMDVOUFNWY1Bwa0R4NUlGMFRRRkFfOXJBRnZ5cEU5WkQ3bTFIVUQ0aFdWeWpzX1FZaXY5NC1iTVFsTUHSAbMBQVVfeXFMTUxjVGc2SXl6LTA4dFliMklOa1RVTGc1VWxIX0V3VmEwTXZEUEdZNlZQbVR4RlZkVkM0TGFpUFBLeXV2Rm5sRlk0TjBrN2JwOU56cV9vSnE3VXhqVkY2cjJMcGxGaTBleWVKdS1EeEtIU2R1VnhuWmFwZ0ZKcWNsd09VTmN3d2tIbzdnaF9tN2VkaXRyMTBqN2RNN0ZjOWZ6YWs0bUFNRnZ0RHZ2RnU2WEtwUHc?oc=5",
+    "source": "Fox News",
+    "fetchedAt": "2026-03-26T00:00:44.393Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "tehrans-plan-to-monetize-strait",
+    "date": "2026-03-24",
+    "title": "Tehran's plan to monetize Strait of Hormuz | Iran International - ایران اینترنشنال",
+    "description": "Via ایران اینترنشنال. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5EMGdsTlc2LTVRdzVsMnJYRHBhRnVneHMtMjcxandweGE2REZYclg2aDVvNTdzd1RaNS1SVW05bWtOTkJ4NlVxZ0Z6N3FfbU5CQ0E?oc=5",
+    "source": "ایران اینترنشنال",
+    "fetchedAt": "2026-03-26T00:00:50.772Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "traffic-through-the-strait-of",
+    "date": "2026-03-25",
+    "title": "Traffic Through the Strait of Hormuz, As of March 25, 2026 at 8:00 AM ET - Institute for the Study of War",
+    "description": "Via Institute for the Study of War. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPY1dxQW5QUTZ0U3BadUVRNTlkQURtaWt6ZVpqZ0VuM1BscGZtclJ2RHladjRqUjdSbXdaZ2tvbnV5cHZ1ZFJoNmlERlo0dWVYTnVjVWF1N2hTS1RReHdDZjd5X2NjclRUSE10ZXNWVjdwak1wUU5QRzhqV3E4T2d2Q3pxUE1yd1BqOUdiT0lWMXZ1cGlrWklHQlI1VU16MVMyRlFDUzlR?oc=5",
+    "source": "Institute for the Study of War",
+    "fetchedAt": "2026-03-26T00:00:57.085Z",
     "mediaUrls": [],
     "videoMatch": null,
     "lat": null,
