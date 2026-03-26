@@ -1,154 +1,5 @@
 [
   {
-    "id": "iran-war-winding-down-as",
-    "date": "2026-03-24",
-    "title": "Iran war winding down as US and Israel hit fewer daily targets - The Jerusalem Post",
-    "description": "Via The Jerusalem Post. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBWRFhmNGlpckVuNmlfNVlob05lTE1rWW1RVXJtQXhpZlRoX2FOQmtwaFYyY2RTQW5SLTc3UkxmazJRZkJSX3dCVFpFa0N4NEhrR1Q1TDJiYUFwVnl5UVRqVEQ2OGNpeFVuMGc?oc=5",
-    "source": "The Jerusalem Post",
-    "fetchedAt": "2026-03-25T16:00:25.663Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=vUq9zhzR51Q",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "vUq9zhzR51Q",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "the-iran-strikes-explained-how",
-    "date": "2026-03-23",
-    "title": "The Iran Strikes, Explained: How We Got Here and What It Means - American Jewish Committee (AJC)",
-    "description": "Via American Jewish Committee (AJC). Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOaDVleG42dlJ6RVktQkxYdTYxYVFSNDU3UFFwZHJqQy1VeG5WV2oxc2gyaEhTYlBBNG9OTFFHVkp4aTdqRlFKNWtMLU5QdEllZVdNejNJLWhiTVBwUE9COVZrWUNiNFhCbmZyaEE2YVpVcV9rZzdMSERvWlhGMUg4VDZyb3AyRkhFd21nZGJB?oc=5",
-    "source": "American Jewish Committee (AJC)",
-    "fetchedAt": "2026-03-25T16:00:27.933Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=UEQ18v9k9SQ",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "UEQ18v9k9SQ",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-demanding-closure-of-us",
-    "date": "2026-03-25",
-    "title": "Iran demanding closure of US bases in Gulf, end of Israeli strikes on Hezbollah as conditions for ceasefire -- WSJ - The Times of Israel",
-    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQS2UzMjJiVHh6YjBHVGVuQ19lSVRmb3FMV25XcWFNbDRYSmdXeXE3a1hVQjZoVWd0MXc0QXhCZ0RycGpVRVZtQjBqdmxZYTJiM0drcTB1Y2tSR2tGTjF4Y3FiT2UtdjZXNjkyTzBIdEpmZGd1MHlfd1VIM3RkZzZfVmczZlQwenVuU0tfc2xqSEROMGoxMXV3c0QwNnF3T283VTJ5SFBDZGZtYm40dzR1UTBWZllOVEo3MTVRMEFoSGlkdVItbVBjS05KZi0wd1M0bzdRbFBzV2YyM1U4ckpBQlhNcllwVzVBcHRGdA?oc=5",
-    "source": "The Times of Israel",
-    "fetchedAt": "2026-03-25T16:00:46.351Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "governments-declare-emergency-energy-policies",
-    "date": "2026-03-25",
-    "title": "Governments Declare Emergency Energy Policies in Response to Iran War - Council on Foreign Relations",
-    "description": "Via Council on Foreign Relations. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQzF1QkpZdkNLd2JTUXZkZVFPLUUySU9tLTlOVC01d2Q1MEx3YTlmVHA1R284Yk5iX2w5LUJPVEpBT2JUVHFaOFNrVjFaaHFTeGJNV3VFaW53SjcxMnc4WE9lblk0Y0ttMWtpdWp0OFQ1Nk1BRUpaWHhjTGZxOW9HRlpJdWJFMWplajlOY1RvUWVJZU9wTnpEVjNSRlhGeGM?oc=5",
-    "source": "Council on Foreign Relations",
-    "fetchedAt": "2026-03-25T16:00:52.234Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "israel-iran-war-gazettextra",
-    "date": "2026-03-25",
-    "title": "Israel Iran War - GazetteXtra",
-    "description": "Via GazetteXtra. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQeGdoUEEyaTRObEI3MXYtSlB6UU9QcmRaUThpb2FtNHRsRFh0cmNLcnBlazQ5cWNXNGZ4Sy0tR3dEeWRzaGJLNjc4R1NoQkZXRHdLQy1xMndCdFNKc3FCY1RLb0cza01UaXltTERnWVJBbXN6WWsxNW1oNTNRYkdLV1ktZERkQWtVT2wxbkFlOGFmZG1abWVDLWZ3ZnYyaWtEc1VvNUVtR2U5YXIyTHc?oc=5",
-    "source": "GazetteXtra",
-    "fetchedAt": "2026-03-25T16:01:05.305Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "daily-report-the-second-iran",
-    "date": "2026-03-25",
-    "title": "Daily Report: The Second Iran War – March 25, 2026 (18:00) - Alma Research and Education Center",
-    "description": "Via Alma Research and Education Center. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOXzdWUnQ0THEteG5DVkNFcWlORW1RS3M4akNlaC1jRWVGdVp2cVhBTV9FU1BYeE5RY1NkNGZNdkdneWRtT0s3eUlhWXI2ZVBReFplVzV3MmRGa1pxM094TWh6U0JiUEU4S1ZrMGE4aF9QRlBfMFZLQmRMVklBa2tSTTRR?oc=5",
-    "source": "Alma Research and Education Center",
-    "fetchedAt": "2026-03-25T16:01:11.577Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-rejects-us-proposal-lays",
-    "date": "2026-03-25",
-    "title": "Iran rejects US proposal, lays out five conditions for ending imposed war: Source to Press TV - PressTV",
-    "description": "Via PressTV. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTkptS18xYk1tQi1DNkE4eFo2Y09td2x6MUJfOHB5dEFXTjBJSVM4WXpRaTU0WUYwa1VKV21kUXdHaXdzY3A4RjhTelQ4a0dPcGVMNkVkb0xBVzNpT0Vuc0tfTW9RR2lIbVlxRFNCTmRtV19yZUhXS2VqQ21GTEQzdE4xRDJtSndJN1MxVlF0S0lGMmFOandHLTFKdGJjc3hsUVNUM04xR0c4VHVuQmE3aG1jQU5RLWYzSFlvRkVSZlg?oc=5",
-    "source": "PressTV",
-    "fetchedAt": "2026-03-25T17:00:18.641Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=7MO7Zp_Vg80",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "7MO7Zp_Vg80",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "live-updates-iran-rejects-us",
     "date": "2026-03-25",
     "title": "Live updates: Iran rejects US proposal to end war, sets ceasefire conditions - NewsNation",
@@ -4475,6 +4326,219 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZV9aRzBia3JTUmxuS0k4dk81Y3lDX2pFYi0yNHk3WFJ4SjE4NU1fYTFFNEVTMkNnZjNJbUdsUnJVNHZoU20telBlYS1HWTd0LXR6RklrcjV4QWd5ckpoaWVtVDN3ZGduNWNWeGNydlRTbUlGSlhCaW43WC1JUGlablc1MXo1azduYXVabnZ0Q3BtM2xvMmtJS0tmNFNLYUdvYi1lZm1rUkJNbUlscU9hZXRtYw?oc=5",
     "source": "JNS.org",
     "fetchedAt": "2026-03-26T17:01:09.767Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-war-trump-says-hes",
+    "date": "2026-03-26",
+    "title": "Iran war: Trump says he's unsure about a deal with Tehran - dw.com",
+    "description": "Via dw.com. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQU1ZESk5aVjhaZnhheU1xcmhJTUoyZERKTWZMUVZtbGFscmxvdWNSblhHUjVkYU9jeEZEUVpRYlIzMjM0OEl0QUd1R2o5aC16NnNkZzk5YjB2OHlMNVBvSWRWOXc2cW5pbEVCV295dDBaWHlQcFBXOXZCTDRJRFlPVzZETlNOLWE1QVh2Vk1CUHd4d2wyVWc?oc=5",
+    "source": "dw.com",
+    "fetchedAt": "2026-03-26T18:00:16.947Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=EaFRPQb9NNI",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "EaFRPQb9NNI",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "the-us-and-iran-are",
+    "date": "2026-03-26",
+    "title": "The U.S. and Iran are in 'indirect talks,' says intermediary Pakistan, as war rages on - Oregon Public Broadcasting - OPB",
+    "description": "Via Oregon Public Broadcasting - OPB. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdENMTXBwcC0zYTNoTXpFdTRQbnpkRXd5b0ZRX1JocGdubkY0NjlLYnh0SG1SMGtpaW10VUl5ZDFjLWxIV2Y1bVN1dE9IVld1cUlWUGxzc0N4YktJb3ZQdndqSF9pRUFQQm9ZS1FWODFEamstQ3RGeG42aTZ2eFlUZ0pMYk8xMkY3T1pkaHF2YjREMlZCTG1mWkZaczJKQQ?oc=5",
+    "source": "Oregon Public Broadcasting - OPB",
+    "fetchedAt": "2026-03-26T18:00:18.704Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=zxbJISTETsM",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "zxbJISTETsM",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israel-races-to-pound-irans",
+    "date": "2026-03-26",
+    "title": "Israel Races to Pound Iran’s Arms Production Before War Ends - WSJ",
+    "description": "Via WSJ. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirwNBVV95cUxNcDNPaGpEdEVqVGxwSHhXdENnWmU0RFdZTWc2Y2I2aFhJSGV2SFlScnFaNWI4aGs1TFlaTE9Xb2FHOFpQNU5PQUs1Q0NIR2lNUUs4NTAxU2hUaS1ybmZCb2JyOFg2dzgwM1hmUmdUTk5teXAxYTA4aFVGekJCUUVvREt4VHhIbzRrX3BJVWY1YkphS3puZDFENlFzSkUtZ1FMaWIyQXZrUXBYa18xdDBxaGtFUEV1SG16UjFLNVRySW93d0gtQ21lWGwtOVBWR2VGSTdtZ1hUZHZQVG5OeHJlWnNLWVYtVEpVaWYzWVpHWnNhZmNPWmdnUFNCS2VXZFp0bzNHNEdKcUR4cVhHMmhVdW1iR2tmTzNHM0FRSzhCQjRlZHp2MVZiOXlXTHBKODhXZHBYNG1OMjBBTkttUEFHcER1YUwwRXBBcGpjVDRCclBJU1N5TUZicURtSXRUY2xjTG1IQXRqaExPSmpVYzZlYXRuS3hQdDZySjgzekthMGZsM0xjc2NtWXY4SkxvelhJaFo2cTBkWjNQb0R6bVdxUUJNdlRvQWVJWm83RWxkQQ?oc=5",
+    "source": "WSJ",
+    "fetchedAt": "2026-03-26T18:00:21.310Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=5C_h9e7HXhY",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "5C_h9e7HXhY",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israel-losing-sway-over-trump",
+    "date": "2026-03-26",
+    "title": "Israel losing sway over Trump on Iran as IDF chief raises '10 red flags' - Haaretz",
+    "description": "Via Haaretz. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQYUx1V0lFS29hOW9nNUtoc3RyOC1tZ3ZzSm9ZSjlLVEowOEZwS0I2NHE0NEdLUWNveUFDWlBIWlZOOHBuTHVOdGZKQTV4WjE4c0cyZFdCMWU5UEZIbXo3ZzJDYm5Yb2VjNXZaczJqOXI5b0kyM1N6eTdPSWdaQ3pYWXY1YVEzZ3lScVk2VW93WDRGM2hSWUMydjJEbG54ZTl6bkM1Q1NLSk1RS1VpY2tLUHhxbmxBbFBUbkFRelRGYUV6M1dOWWdfaU9LMUM0STY5WUlOS0xsbXJNZS1YSEIwaUUyckYwT04xUUI4Y1JjQU9GN05scXVEOFdEVGxpQ2V5NW1FcHlwQjVncjlJMnFQN2ZYZy1wRTdyVUE?oc=5",
+    "source": "Haaretz",
+    "fetchedAt": "2026-03-26T18:00:23.851Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=ZVlbm0cXa54",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "ZVlbm0cXa54",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israel-iran-war-dailyrecordnewscom",
+    "date": "2026-03-26",
+    "title": "Israel Iran War - dailyrecordnews.com",
+    "description": "Via dailyrecordnews.com. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNaXMwZjJkUVJXMUNxdnFyNFVTS0ZUVW84RUczelEwdzJ3Rl81T2xraW9udS1TTjZaWUhNUTg4WnNYYURYdF9JbmgwODBiMUk3RXVZVE1qWUlfM0RCeTIxV3BVOXZ2X21CUkVYbkREenVjUTVRS0dMVklRVkZtZllJR2hieWt5VGhuck81M2JDSDRnRW5WWW8tLWlFQkFpREVUdTIyMHc3LTMtRW1XMGxTTmMzRWZwMnpv?oc=5",
+    "source": "dailyrecordnews.com",
+    "fetchedAt": "2026-03-26T18:00:25.760Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=ajbmwPl0d18",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "ajbmwPl0d18",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "lebanon-israel-iran-war-the",
+    "date": "2026-03-26",
+    "title": "Lebanon Israel Iran War - The Missoulian",
+    "description": "Via The Missoulian. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE80WVdMb3V0Z2IxcklsNE9yTUNiRW43LTRPVFpTTzE4YkxsR1BaZU9PZDdOZDdoSm9BU19mQVNYeXFWMV9SSGNYbkJlTk9feFN2eFJwMDRINzFPVklGQ2U1bDNCTi0wdXhMX0ZobnlNdHlET3ZSbDA2UHVn?oc=5",
+    "source": "The Missoulian",
+    "fetchedAt": "2026-03-26T18:00:28.095Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=ddkMs694Pnc",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "ddkMs694Pnc",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "pakistan-confirms-its-relaying-messages",
+    "date": "2026-03-26",
+    "title": "Pakistan confirms it's relaying messages between the U.S. and Iran as war rages on - WUFT",
+    "description": "Via WUFT. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdE1KWnMwUzhVUVNrazd6eWNmZ1NtZFJMeFo3c0h5aDY2TlF6S3lGR2VJQU16MXU2OWhZb2t4d0EzeXlOX1JkWU9tQlNwQ1RadmxhSHlrNTd0LTFDUGxnN0Y5bFVZYU5uckN6MGJiM25aOHp1Rll1QS1CWUVBZ2QxWTNVdGd0TDlRMUI2Yk1kN3IxMmxkT1E4ZWh6MEJ2TVN6RC0xMnBkYmw2Uml3X0pmMlRB?oc=5",
+    "source": "WUFT",
+    "fetchedAt": "2026-03-26T18:00:34.037Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "gaza-death-toll-surpasses-72200",
+    "date": "2026-03-26",
+    "title": "Gaza death toll surpasses 72,200 since October 2023, Health Ministry says - Yeni Safak English",
+    "description": "Via Yeni Safak English. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUm9Ca2hMenhxOXlZamhXWmpBMktnb3dGT2k1ZVhyUkloNy1RVW9ObFFRcENNMXRRc2JjOHRNcG1KQXI5STU3VEJwTktNdUczM2FiLV8wbmUwSVdmbWtLbTFaUXlyM0RjSENETy1CR1NiVmFWeGd6WUIyNWNfbHh0UEphYTZ6OVR4cDhOSXhqMk5iV0IxQjc0S0I1dUdpazVyYl94VXgxVEsyMGpQTG9J?oc=5",
+    "source": "Yeni Safak English",
+    "fetchedAt": "2026-03-26T18:00:46.676Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "trumps-board-of-peace-proposes",
+    "date": "2026-03-24",
+    "title": "Trump's Board of Peace Proposes Phased Hamas Disarmament - The Jewish Independent",
+    "description": "Via The Jewish Independent. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1NdGpvN0dNcEw3enhTR0l5bEVYTUFVVkxyaHhjRk0xd1h6NHRoT1RMRTBFS2ExeXQyRFFrbVBZOWw5b18xVFhxd3BPRGhuR1pHSXBpVFZjTTJQeC1IZTRmZVJUb2ZwR2FGODE2R3JUenZocVhvYlE?oc=5",
+    "source": "The Jewish Independent",
+    "fetchedAt": "2026-03-26T18:00:52.458Z",
     "mediaUrls": [],
     "videoMatch": null,
     "lat": null,
