@@ -1,211 +1,5 @@
 [
   {
-    "id": "ea-on-france-24-usisrael",
-    "date": "2026-03-25",
-    "title": "EA on France 24: US-Israel War — Trump’s Deception About “Talks” With Iran - EA WorldView",
-    "description": "Via EA WorldView. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdnhJX3dwNEt6VFNOVUx2ZGc2c3pCRzN1OGtORThtZ1lhaVV4eDJQMmM5d2FMU001NC1jNkExZ3NYbWo1NmNBY21TWEtzNEhjZk9ub0J6ZHRHcDlyYmFNXzVwWlRxbWFIczJqaEZUWlhCcmxqTERka2dIalJiTEs2TzAxSTJOQ1dGcTd2bA?oc=5",
-    "source": "EA WorldView",
-    "fetchedAt": "2026-03-25T10:01:11.432Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "how-the-war-in-iran",
-    "date": "2026-03-25",
-    "title": "How the War in Iran Became a Race to Stabilize the Global Economic Order - newyorker.com",
-    "description": "Via newyorker.com. Auto-detected by headline monitor.",
-    "category": "economic",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcmJrWkVGOUpQWU5NUjF3ZTJxRjdZWDE2SkJYbko0T0ZBQnQ3WmtyZ3dvVmV6RFEzS2IxRFdlS2FyV1JGN1JKYTI2amwwbGNHalNUUS16TXhTT1A2Rkt4dS1jZ3NJWmtlOXNwZjRJTEdfSzdiWTRxTVUyUHBXRWZ2ZVVLSGF0YlNBX3k1WGFWMkttUlFJOG9ady1PaFlCQWhFVlJNR2hMTGlweDZYTVB3NDZR?oc=5",
-    "source": "newyorker.com",
-    "fetchedAt": "2026-03-25T11:00:12.094Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=4Ql24Z8SIeE",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "4Ql24Z8SIeE",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-update-special-report-march",
-    "date": "2026-03-25",
-    "title": "Iran Update Special Report, March 24, 2026 - Institute for the Study of War",
-    "description": "Via Institute for the Study of War. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTXk3QzBsYVExcXkzenk2d0JYcDNEUkJNRGtudngxWlZVSkxKSExYajFRT0ZuSVpDNW45LTIxU1dfRGdTVlgtVV9OZHg0NW5wUHdDTEZ0dFBIbGRYaHZJZE1DeFU4LW9fay1sSTA1dWFIS1A2UEl0YTdtX2JVWV93RXY1UW94ajZDSDR2V0FDQ1gwdHpLaFE?oc=5",
-    "source": "Institute for the Study of War",
-    "fetchedAt": "2026-03-25T11:00:15.225Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=LS8DL7CcgLE",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "LS8DL7CcgLE",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "dont-pin-trumps-iran-war",
-    "date": "2026-03-25",
-    "title": "Don’t Pin Trump’s Iran War on Netanyahu (Or Israel. Or the Jews.) - Washington Monthly",
-    "description": "Via Washington Monthly. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWVZ6X0pzNHRNV1MxS1FPczlITGhjdTNhNlVtZDJma051TWpiZUNPaHJmci1oblR6SUY3RXFnN2pUZUxzSmxVMHVYSGVuS3ZkNzhXZjNSZEVKUUhtejFWTXF1bDZNblVzWTFkSC1ISjVJc3NmVm5zZVRySXYxTER0dTV4MjNQOFllYTZRZTBYd0g0cVYwVFE0RzJqM2Y2ekZfTURn?oc=5",
-    "source": "Washington Monthly",
-    "fetchedAt": "2026-03-25T11:00:19.408Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=kNDO0Eu4Zh4",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "kNDO0Eu4Zh4",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "lebanon-israel-iran-war-gazettextra",
-    "date": "2026-03-25",
-    "title": "Lebanon Israel Iran War - GazetteXtra",
-    "description": "Via GazetteXtra. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNd2MwSHJlRmZtSmtSdnhnRkc1SmxORUdpN0hnRUJkbUhtbW1QS1BUYWgwaWNZTkxVUVF5VlBQMXNRbTVsdnAtZzJJcnlmN05KNFQ0eHFJX3ZiTU1KTmdsZU04Y0E2V01CN1JHT3EyMDAwU2hQWV90S19oYzZ4NUJVMGdEVFFtSXV5SzZ2RWlVNlNTdF9oZThHQjdZdmg4ZGtaanp3LTJyX0Z5OVRpX1JwNUlINEw1dmZV?oc=5",
-    "source": "GazetteXtra",
-    "fetchedAt": "2026-03-25T11:00:21.566Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=vRzqPXh5rnM",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "vRzqPXh5rnM",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-said-to-toughen-negotiating",
-    "date": "2026-03-25",
-    "title": "Iran said to toughen negotiating stance, tamping down chances of deal with US to end war - The Times of Israel",
-    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPYlNKclBsQW0zalBLcHZrNzE0MXV1OFZZUHRVOTZ0dUVhUm42MUFWTmpQRk9yTTVmZ2VMZWZZdG5hOFpzRmJzV2lvb0pkcDZuRFZHZGlNMVVBWmRueTJMUkZOeTV3WWVtWHBCcFR3WVh0dnowc3EtaDlkenlWcWVxOTNoX19INjV1Q1cyb0t2d00tOVQ0VzlPX3hjWUk2MEpFRzFwN1JuRjJ0QW1UU0pmRUUwLWVGdUVnN0HSAb8BQVVfeXFMTW1Ea0Nha2JoRV8waGVnbXRERExYRVpjQ1EtWTRyNGpaTHBfMmVqb1NCX3FGX2FQWmliLW04TkU1VXBfam5PWUpzMDh1X010Y2FpTTdzUnp4TTVzSTJ5dG1vTlg1Y2I1Vnc3NjB3MWJVTlFoR2QwakdIbnVzRkhFNGlIY2dscmFaYWtvMFFBYnVkMDdJcktfaFg2dzZDUGJvNDBuR3NWRHZYQXNNQ2IwUlk2SHlLcS1MeDlRb2cteTQ?oc=5",
-    "source": "The Times of Israel",
-    "fetchedAt": "2026-03-25T11:00:23.836Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=tzHu-YZ6XoQ",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "tzHu-YZ6XoQ",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "negotiating-with-yourselves-why-iran",
-    "date": "2026-03-25",
-    "title": "\"Negotiating With Yourselves?\" Why Iran Has Nothing To Lose, Trump Does - NDTV",
-    "description": "Via NDTV. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPbURTWWQ3emFUM1NTenFNUE1tWXNzcXE3Q21TTEQ3WV85YUdSa0lLeVZrZjduWTJ0Tk5mOVh2Zm1pTExLemFGSjJzWEhLT216RmFwOXo3S0FRSlBuUnFqX0EyRkt2Mk1zZE4yZDBKWjVJamR6TnA2Vk9hNTdDcHVvWlFTU05QN1NOZHRlMURlMHp1X2ZlWm9pODZsQVVHdFY3WXYycFVnWlpscFNUUTg3OElrRV9ndE5sV0twTmIySUFFQnpYSWVlaGVnT2h2SzNDVU5IQjZFRVFVZUNwLW1mUF9ETENWRXRfUXgtcDlGc3XSAfgBQVVfeXFMTVhLcl8tVEdzYmlmekpQSjh6cjh2c0s1Q1RCR3lGYXhWM1A3czA3UGxxcFpvWHpkRlRNbW1WU1NlX3ByX18wVmNpLXl1SkpUNzdqSjJrTnB2dEk1WEtaOUp1THA1ODB6MTdoa1ZCUUljemlDcy00d1pBcHljWHBIUzZGZnpJbTBhN20zYk1oU3JQdENBMG9IelMteVVNazRhYXlGOF8waXBEOG03RnRlSnZDbkJ6UmVvWk1WZWVDS2U3X01KY2dsSS1YWlR4cmRpcktZUEFSTEdmN0FZbGw1WDlFV21MaDhmeElaMWJ3LUpyblJvMkhaRHM?oc=5",
-    "source": "NDTV",
-    "fetchedAt": "2026-03-25T11:00:26.386Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=BDqWHeym9W4",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "BDqWHeym9W4",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "eatimes-radio-videocast-trumps-corruption",
-    "date": "2026-03-25",
-    "title": "EA-Times Radio VideoCast: Trump’s Corruption and the US-Israel War on Iran - EA WorldView",
-    "description": "Via EA WorldView. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNa191UHBoa0MyOEJIWk9LeDd1U1I1VzhGbDhfamdRaFhwVDIxMlE2b1VOOUx4eWdyc1doMzdvWm1nWlpYMkNXTE1aanM4ekpiREVibGN3bHVMeDJQSV9FSzZDc0d2Nlc5bElrcXZLUE5tYUstYzZJUG9YN1dBeU50QVpXRXRRZw?oc=5",
-    "source": "EA WorldView",
-    "fetchedAt": "2026-03-25T11:00:28.723Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=il4HtW29RYE",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "il4HtW29RYE",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "us-and-israel-have-inflicted",
     "date": "2026-03-25",
     "title": "US and Israel have inflicted long-term damage on themselves in their war with Iran - The Irish Times",
@@ -4472,6 +4266,128 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOVVRTUDd5Vkk1bU9MYzUxUV9pMVFfSlJ1N0tDRWNFckxJWlFtdWE5a3RRb2ZaT0t3T0hqZkoySFpLZnllXzRoanBybTV3THFkQVM3Z25OQk1ZRTBDNWtMTmlxREVkSE8yQ1NLQkh4UEJwQzc2akU0Mk9Xa0NOUW1Rd3BncFFWN19pRUlIYjBGSUdBbV9iMDNlT3JEclNZM0JKQzdNOFJhN29ZYTRLbDU1SHNfVVlTcExTZzRpX3dR?oc=5",
     "source": "NBC News",
     "fetchedAt": "2026-03-26T11:00:59.880Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "idf-soldier-killed-in-gunfight",
+    "date": "2026-03-26",
+    "title": "IDF soldier killed in gunfight with Hezbollah in Lebanon; another injured by ‘friendly fire’ - The Times of Israel",
+    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA0VDZKN3VsUGFmX2dPZlM1bEhERVFqRzYxRTBrSlBpWHVWUGFEN29mbE5XM2dXSEFSNzRyUDVFTkcya2t0S3RlUTVMSkZxQ041T25lQm1Ldk16R0lndTVKakVMONIBaEFVX3lxTE9Hb19ReGF6eHA3bnh2NGhGUGRVbHBLbU5sY1NDa1lNWVRyR3BveW1LNGVldEZwOE1TZTdMRnlWajB6LW96TEM4NTFWWnZPX2RSMnJBd1ZXd0xSclUzcEdlVl81VE53a0lu?oc=5",
+    "source": "The Times of Israel",
+    "fetchedAt": "2026-03-26T12:00:15.745Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=WWRoPw4LwNk",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "WWRoPw4LwNk",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "the-gulf-didnt-want-the",
+    "date": "2026-03-26",
+    "title": "The Gulf Didn’t Want the Iran War. They Need Trump to Win It Anyway. - Council on Foreign Relations",
+    "description": "Via Council on Foreign Relations. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTHBJU045SkJTMmRpY1BwZEoxeU1McFdmOHZUU1hSVkZMVGtzN0VybEk5dVVtbG1sb3pDUUhnOFJ2MU5xWUpfdWthaERTVlp5YWR4dzV0eXhUUG16UlVQU0htaVBKMkJhQ0NHWnpCQ2JlRG1KUTJtX3FocHFEajU4NElJZHFWYk5DRFBqaEpkZUVwd3dEN1hoTnpB?oc=5",
+    "source": "Council on Foreign Relations",
+    "fetchedAt": "2026-03-26T12:00:26.636Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=jYRKgc5Sg8U",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "jYRKgc5Sg8U",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "five-myths-destroyed-by-israels",
+    "date": "2026-03-26",
+    "title": "Five myths destroyed by Israel’s wars on Iran - Amwaj.media",
+    "description": "Via Amwaj.media. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUmZYZno5Xy1rbnBBTWhhQWV0SXd6QTI0OXZsYUhKcmt6TjJ0YVNHZVlrbTF4bzVWUFBvOEtuM3diWjBGX015a01CU3NVSzdENmtLTTgwZFBqdWtpa0Iwb3U5bHJPZjk3RmR1YzRJdXlLZkRTanpkX1VvZWdLS1lOTA?oc=5",
+    "source": "Amwaj.media",
+    "fetchedAt": "2026-03-26T12:00:39.438Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "live-guards-navy-commander-tangsiri",
+    "date": "2026-03-26",
+    "title": "Live - Guards navy commander Tangsiri killed as Iran war continues - ایران اینترنشنال",
+    "description": "Via ایران اینترنشنال. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBfR1BERVdWMDV2R2dQMl9qV1NVY09xZ3JaOEhEV0JsNHhja1lLc1BVY0xfT19TR1k2U3F4QlBCY09MUFV1cUVIazc3YkRSdmp1c3BXMUZiZVl5U0czMmc?oc=5",
+    "source": "ایران اینترنشنال",
+    "fetchedAt": "2026-03-26T12:00:45.443Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "breaking-news-the-israeli-military",
+    "date": "2026-03-26",
+    "title": "Breaking News: The Israeli military said it killed Alireza Tangsiri, an Iranian naval commander who played a pivotal role in blocking the Strait of Hormuz. - facebook.com",
+    "description": "Via facebook.com. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPazFfRDJRUXY0VjJ2MEo0Y3ZsWGxJQ2txeGFEOVdNaXlYallvV0lCU0ZvZXBWVUFYLVVUTzlhdjg5YlZsVnhTQlhrTVBvdW5SUldSNXJiUnVoZkI1T0FUbnk2a1JYM3prTjZod2NkVVViRjY4RG4wSWxQN3RXYkRfMlZ1cldOVVhwejRGWm96bGQ4Q2Vzem1DWERyUExRLWRBMVBtMXVvYi1VZVpld0V6RVpROF9TT2ZDMjF1LTMzc0xoaWU3dmpmb2w1OXM4eHhNN09j?oc=5",
+    "source": "facebook.com",
+    "fetchedAt": "2026-03-26T12:00:52.508Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "explainerisraeli-plan-for-lebanon-buffer",
+    "date": "2026-03-26",
+    "title": "Explainer-Israeli plan for Lebanon 'buffer zone' follows long past of invasions, occupation - The Straits Times",
+    "description": "Via The Straits Times. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPU0xiN3lrd1IyS0Vvbk55VlNzdlF4dUxzMkVKZzF5SktiV01MdXB6X0hwWnRxWTdJVFJ2eGJXRUg1WHNOaE9ySUt4VGRBcXNYdGZaYmVoYVVOWldIUHZEdWZQLURGV2lvRVZTRS04Q2FIZlBZdWh1Slc1NXJVVml2VFh4R3Z1NTdSRHNzMmJ2QmZZNnlBTnlLQ05ZXzQzV291YjNhNkhSdlh5MDdyQWlFM1NONEVnNDFUQlhaMUJXTFhramw2MG5leUhENUtBRFJD?oc=5",
+    "source": "The Straits Times",
+    "fetchedAt": "2026-03-26T12:01:11.754Z",
     "mediaUrls": [],
     "videoMatch": null,
     "lat": null,
