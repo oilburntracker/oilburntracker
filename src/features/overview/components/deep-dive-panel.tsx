@@ -660,7 +660,9 @@ export default function DeepDivePanel({ onMapMode }: { onMapMode?: () => void } 
 
         {/* Years of life lost — the unifying number */}
         <a href='/dashboard/lost' className='block hover:opacity-80 transition-opacity'>
-          <div className='text-4xl font-black text-red-600 dark:text-red-500 tabular-nums leading-none'>
+          <div className='text-4xl font-black text-red-600 dark:text-red-500 tabular-nums leading-none'
+            title={`${casualties.totalKilled.toLocaleString()} lives × 43 avg years remaining = ${(yearsOfLifeLost / 1_000_000).toFixed(1)}M years. Based on WHO global life expectancy of 72 and avg victim age of 29 from identified casualty records.`}
+          >
             {(yearsOfLifeLost / 1_000_000).toFixed(1)}M years
           </div>
           <div className='text-base text-gray-500 dark:text-zinc-400 font-bold mt-1'>of human life</div>
