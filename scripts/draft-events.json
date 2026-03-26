@@ -1,205 +1,5 @@
 [
   {
-    "id": "oil-prices-drop-on-prospect",
-    "date": "2026-03-25",
-    "title": "Oil prices drop on prospect of Middle East ceasefire easing supply disruption - Deccan Herald",
-    "description": "Via Deccan Herald. Auto-detected by headline monitor.",
-    "category": "infrastructure",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMDFtbm1lQVhGYnpnUFZodzdzb3FlTzlXNlVGRS0yZnhESzlZaUNrU256dkozYkswbi12dXVfZzVENWcyZWFTXzZUQWJydHg0b085V09CSGN4RkkyM0VpNmRvc0xjMDd6T0ZBZHNCejVtZ2RLVThFdDVfSDN5dGpNd3BDdVRLYkd4SDNuM2tuN3JMOG5JbHJTdnpNR0Rra0ZHTkhaYzc2b3JPZ0hpVjFhUmZLMmsza2JTZXMxZ3ktVGo?oc=5",
-    "source": "Deccan Herald",
-    "fetchedAt": "2026-03-25T06:00:59.428Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "oil-prices-drop-on-prospect",
-    "date": "2026-03-25",
-    "title": "Oil prices drop on prospect of Middle East ceasefire easing supply disruption - KLSE Screener",
-    "description": "Via KLSE Screener. Auto-detected by headline monitor.",
-    "category": "infrastructure",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNc09xeFgtTmU0N0JMNGktaWtKV2xUeU1iRGZhbHE4TDZyZnlzT2VkRGtyT29lVGVxUHliR2U2dVZ0ZDgwWklaYnlpY3B4cFRhNUdBUFEzVHFhUmJpa0JTMThRQjQ1YmV3ZlpodTgxNFdNRUFIVVYtay1DXzhSb1JnSndOdzhZdDExTGhjbHFpZEo1Tnhrd2J6TVQ1b21KYUFLTFZLWTV3VC1CcXFrRUFrVTQxb3VfRnJTcUE3MUVCX0xfQ2RjQWc?oc=5",
-    "source": "KLSE Screener",
-    "fetchedAt": "2026-03-25T06:01:05.802Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-says-nonhostile-ships-can",
-    "date": "2026-03-24",
-    "title": "Iran Says ‘Non-Hostile’ Ships Can Transit Strait of Hormuz, FT Reports - EnergyNow.com",
-    "description": "Via EnergyNow.com. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVlZsMzNMcFlHUmNaLUVpNS12SWNuVDJUaXB6bWFxdFByMTkyQXhaX3BKZlhDcThQZTNzcTdrc1ZUYWhndnZPVElSempuQmpuVHluN0tTRk5qUVRjeHFubWFDMnNaNWV0dThsVHdPbk4wOUpaVWZJMWNCTnJNaXUzeWtablRJSnduY1VlcW90ekNQZ04zcDdDb3Jqa0o4STg?oc=5",
-    "source": "EnergyNow.com",
-    "fetchedAt": "2026-03-25T06:01:12.454Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "on-the-ground-in-lebanon",
-    "date": "2026-03-24",
-    "title": "On the ground in Lebanon, reporter shows Christians enduring US-Israel-Iran war - Angelus News",
-    "description": "Via Angelus News. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB1Vnd0eGo0STM4U0VFOFdRVThrcXF4aWpJaGNtMUJ2b1V5WXY1dVlMSVlMdC1fOHFVQW5GMW96THVHeWxPbkw2TkNSaTQ5aWlrMDZMV0NwZUhyQlNYYW5NR2lKb2pFb1d6RmpEZ3ZDLUU?oc=5",
-    "source": "Angelus News",
-    "fetchedAt": "2026-03-25T07:00:21.239Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=PZILwCcseJ4",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "PZILwCcseJ4",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "us-forms-15point-plan-to",
-    "date": "2026-03-25",
-    "title": "US Forms 15-Point Plan to End Iran War as Trump Pushes Talks - Bloomberg.com",
-    "description": "Via Bloomberg.com. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOeTRJREE1NHFSYlQyQ1czY1VNdnRHOGJ2NmFORkc4T25QR2o5MUR4UDVaSmFXeVFBZzV3N2FjaS1pdjJJcE9JNHlZdVlvQU5vbjhpR2FIX3hRaDZPMHFHTTFUX19GQUFaeENDWG5RZjV2WlNmZi1vZ2NzRnp5TERlMU1QUnZMWXRyb2lkREZFR2ttbnZ6MnBkODlmenJ4RzM1TzQzUTFfV0pNeS1CTGhJRE9B?oc=5",
-    "source": "Bloomberg.com",
-    "fetchedAt": "2026-03-25T07:00:23.738Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=NcfLwTbJzz8",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "NcfLwTbJzz8",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-war-live-israel-says",
-    "date": "2026-03-25",
-    "title": "Iran war live: Israel says it will control bridges and area south of Lebanon’s Litani River - Middle East Eye",
-    "description": "Via Middle East Eye. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNc184MUpxSlBUMWtyZjZMRlNkYlQwZVRSelV6T29CWVRZSXJ2X2lzMXVqRVFWR2xpVFJqeXVmMDE2MjhxSUdrakIzeG9YWjBOUlAtWEt4Mk4tYXNCSTNYU1dxbmx1bDFLRmh4M3dLLUZsMmxBeVBXUUNkY0JHMGlySUJMeVJOWUxEdXBmR0Z6bkZMbnIwaXFkb1I5WmkxM3E2bTd2RTRkY29DaEpjcWVQd1NrUG02WXQ3LXpZWnZR?oc=5",
-    "source": "Middle East Eye",
-    "fetchedAt": "2026-03-25T07:00:26.084Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=oqAAD_d-7VE",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "oqAAD_d-7VE",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "airstrikes-hit-iran-as-it",
-    "date": "2026-03-25",
-    "title": "Airstrikes hit Iran as it attacks Israel and Gulf states while diplomatic efforts accelerate - TelegraphHerald.com",
-    "description": "Via TelegraphHerald.com. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQN3F2RDkxalZoT0hKeUVpLWxMQ1ZUN0t0VEdBUzBkT2ZFMXRweHk0eFhDUmVSbWNxU3M0TkJ1b2ZobEJpUXRFYk5zdFdYWl9wOURHaWNQeXRUYV9qVU5OaGY3Q3pVbUo0T1V5OFZYTFJGbHZEdjBySE1LMFhFeGRZWnVpaTZ3amZsejB4MjdIYkxVby1ORFJBejZ0NUtPNUVTOHk0?oc=5",
-    "source": "TelegraphHerald.com",
-    "fetchedAt": "2026-03-25T07:00:32.697Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "war-and-diplomacy-collide-as",
-    "date": "2026-03-25",
-    "title": "War and Diplomacy Collide as Israel Hits Tehran While Trump Pushes Secret Deal - Halloween Horrors",
-    "description": "Via Halloween Horrors. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPY3JENzN5bzdMZ0VvZ1cxc1JIdzdqRWZTam1yZThqQUtMYlVHZGVRalFxZEFCRGtpSm56ZklRVmY2YUFYNmpLc0JULVdnZVdGbzVERC1PdEtfdnBaV0FjRjhYUFdsOV9MSGpJaEl2OGdKdFBKNGh5Z2lxX2EzWWtlZGw1YTdLYURHQWZ4dksyd25DNXRtYTJFd3lwUnBOcmx2NFRVMzBrNlFVNzJlNlVOVVJRSlZ1WWZF?oc=5",
-    "source": "Halloween Horrors",
-    "fetchedAt": "2026-03-25T07:00:44.871Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "violent-and-nonviolent-death-tolls",
-    "date": "2026-02-18",
-    "title": "Violent and non-violent death tolls for the Gaza conflict: new primary evidence from a population-representative field survey - The Lancet",
-    "description": "Via The Lancet. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPdFFpSmNfcWFtb1R1ZDZsNHQwQWN1UGh1bWhLOEJsdWhyY09HcXU5dnNWSkJkUXE3ZEpRNkhwWlF5bVlVMTJ5QklaQ292N0ZGXzFaSHhGU3pVZ3dtTzJsQ3NxMEg2Zm5BWmtzZF83RzhVTS00QWlxR3ZUMWEySjVuUURPeUxXeFZOcUNR?oc=5",
-    "source": "The Lancet",
-    "fetchedAt": "2026-03-25T07:00:51.299Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "oil-prices-drop-on-prospect",
-    "date": "2026-03-25",
-    "title": "Oil prices drop on prospect of Middle East ceasefire easing supply disruption - Ammon News",
-    "description": "Via Ammon News. Auto-detected by headline monitor.",
-    "category": "infrastructure",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE90c0hLQ1NzN3dOWGNDbjY1NGNuakxsY3kwVE8tMmFCSmpiNmZTUWdrakp3ZTh1NjlZcnBCQXpRem1jRzU0SVR4dDVaWE9ndw?oc=5",
-    "source": "Ammon News",
-    "fetchedAt": "2026-03-25T07:01:04.839Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "asia-faces-crisis-from-middle",
     "date": "2026-03-23",
     "title": "Asia faces crisis from Middle East disruption: Vivian Balakrishnan - The Business Times",
@@ -4446,6 +4246,138 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNb3Z5ZkRXcENOMnlLbTZBbThIUmhpRnluNWxaa1dabDFXSlAyRHV3aEdDSFFoMFZtUS02RXhjN200azg2c0x3QkNyOTY0SHhMemdQaFAzM3NRUGd2b09NQnNfZ0RJdVJkWXFjYVhWN2NPWXhnMkVESWNKTzZlX0gwaS13NmpFRlRUaDMtZW4zZXVza3IyVmpveG1qQVhYQUQ1OXZOU09BM0dsS3ZSQTMtbktIM3A0WUhiLVNnaWN0SmtUbDAxMHlfUWNud3hXMFZKSFU5cTQtYy0?oc=5",
     "source": "TradingView",
     "fetchedAt": "2026-03-26T07:01:12.485Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "usisrael-war-with-iran-how",
+    "date": "2026-03-26",
+    "title": "US-Israel war with Iran: How much does it really cost? - DW.com",
+    "description": "Via DW.com. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQcFJjbEFpRWVRRWVFclNxVmZCTXlWcmN2QlpNSkNzX1ZIWFJrMWU2NHFNczJtdHZmUTExX3hfWWFUOUNrMGpDc3hwTWZDeG5WYlhfODFDVGFBUE8wZXlkS1cyYVZHRjd6QThwb2Y2MlFlRjI3ckN2N2V1YW0xOW1fX29fR2tKWnhVRko1S2hzdU1SUFE?oc=5",
+    "source": "DW.com",
+    "fetchedAt": "2026-03-26T08:00:12.243Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=K9OFF0AW3h4",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "K9OFF0AW3h4",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "usisraeliran-war-news-live-updates",
+    "date": "2026-03-26",
+    "title": "US-Israel-Iran War News Live Updates - The Times of India",
+    "description": "Via The Times of India. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi8AJBVV95cUxOdHJjbXEyZ0syejhKRU5lcm0xRTlqNjhucUxvazFmV1lYS2lZRjZfZzRGcFJMU3NaRmdpSjduZDNQYmZlTlVpdVQxUlpfbHJLck1WaF9NaFd0NkRITkdJMm9rRDFZZXVadWpXZFR0NUpzNUlTLWNnQVFkT3R2Q0F3WVhLY1VKX3BhY2RvUmVyUDNHYnhjSnVRZWxxd3FOaHRBNHRsMXVSVmtPYXZ4NEFsaVM2UHdlNUNQRjhIdHBlcFZWYWE4S2JTN1JlVUlhNHBlbktTekp6Ny1WNkRsMXRxcGtDMEttOS1JRG03SFV0RV9SeVJnakN2T2xHNmR3NzRVRWVfLVQ4b3ZUS3B5dVg0T3c1djY3c3RGbGZTcW9wSEk1Wm5GZVdJTGZDZHVvS2pyRmt3OThfYWlnbkQ0ZkpRLUxJcHVuNWM0UjgtWXQxV0M5SFVna0tCaXdJSk81YjlpOWxHSk84R29fN0FFVDI2Mw?oc=5",
+    "source": "The Times of India",
+    "fetchedAt": "2026-03-26T08:00:19.620Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=cvkbpDGHXrc",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "cvkbpDGHXrc",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "trump-defends-iran-war-amid",
+    "date": "2026-03-26",
+    "title": "Trump defends Iran war amid economic fallout, backlash from Republican lawmakers - The Times of Israel",
+    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
+    "category": "economic",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZlRBalMtREZfd2FkQUxDQjVSd3RZeEVXdFhvV19xMnVEc3N2UDZGdmFSYVZadUdYQWlCalg5clhLem5mVFM3T1B5MHVJVnhfQnVaVjhVdC1QUVItMGlLM2ZDM3doZUg5b1N2Z3RWM2lnUm1aMEV5SzBJdV83cjR6US1sMHNMa1dIczlMVVZWbDVGVjI5bU1Xb05hdVRVcjhqeDN0bFIwSUYtcHR0dmJv0gG0AUFVX3lxTE5fb3k4VWl5RmE5SmxiOTRUZDhEQ0Nud3pSU0FWV3NjYjlWbEIwYVJOSFRwQWpZbUdTT01mWWE3WjZneHhpZmpRUm92YW1GZkFVYldsenpTTlhZSFZaV3ctMlNSQkp0akRLQUxfZ19JMXk1aXA2WDVmc1k2aVpEMW1ncEFFTFpMTm9OM0JQbVhMVjFjb1RlaHo0b01oSm03a2NxVHB0TFZMQ0Q1ZHdnQmNEZ0d3Mg?oc=5",
+    "source": "The Times of Israel",
+    "fetchedAt": "2026-03-26T08:00:26.486Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=fUr5RQbY2zI",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "fUr5RQbY2zI",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "gulf-states-losing-patience-with",
+    "date": "2026-03-26",
+    "title": "Gulf states 'losing patience' with Iran, could join US-Israel war against Tehran: Report - The Times of India",
+    "description": "Via The Times of India. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPbEJSa3NPU1pzUUlQMDJaUjZHVEtsMU5WcWZvTGUxRHBrNS1ubzA1a1lJMDlWWk1Ec21wbHZyUmtxdktmc3BwZVl0YVhGSUVVU1h4MnJPbzV5WXNjTy1lNzZsRFE5OWJ1WlhRYmQ1WnFhOU5XWUJDeDh4REpZMjVIVE9jQWRqeFU2cWZtSFVsSFJCelBnRndiUENTLXdqSXpNbU5GLWZtMFl0NjNuTDZlby1yS0p0NWV6eFNYVWxHZXJDUVNtRkREWTRzWVUxTlRQS19RTEY0c1lXMW5EejRuM2hMc3lzN0pLTGctbTREb2RFTkU2bkNZOWM0NnFTVjIzNjNYZk5XWW1KTnQ0eGfSAZMCQVVfeXFMTVRiUUxDT19YRUJzQmNhRkJEdWJ2OXZLMnhTdUQyVHZTQkZ1M05EWnloQUR5VU40czNVZ29GOWMybXQwcHNxTjN1Q0RhcHpsQkppdnBJNE9ObU92WWotN3dSdHkxd0szUURzd29VcERYdy1kZmJkZjlIUkg1UTUwWGZDaHNoUVFBSEE5NTA5VGdRMURmYWZpTXQ1SWpWY3VUTl9KUTZMNFRBa0dMZVhkTXN3TUZlZVl1dkRDdFhBVF92M3VsWkxIQU9rTXpIeU1YNXNLV2VvZG9mU3kzNmhHZWVDTHhTZ1oyVlRmcnoxdVUxT0VaSWYwRk01aEh5cnc4d3JVcjNqR00yOVpxMGdQRnlRM0k?oc=5",
+    "source": "The Times of India",
+    "fetchedAt": "2026-03-26T08:00:35.605Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israeli-air-strikes-kill-four",
+    "date": "2026-03-23",
+    "title": "Israeli air strikes kill four in Gaza as ‘genocidal war’ persists under cover of Iranian conflict - Newsbook",
+    "description": "Via Newsbook. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOOGRnT0c1QWstUy1IUGNWVFhJLUR2cWlkblYycTFHenN0TDNIU0NFY05WdnNXd0d4bk40ZnVmUTdaanlFLVZmOUkzaXJmUFZSMk03VUJsMndJZ0JabGQ5NDlrTkcxeGpFMUlFMTEtNkVvU2h0d0Y2bXJBLTJqV3dLSm1kTWRTNjFwQWtmUVlPYWYwRlRzRkg1NGVkeVJSQnRQRlJqNmNFTFVWNGtHUGIyeU5aTVVkLVB6NFVac2J6WE8?oc=5",
+    "source": "Newsbook",
+    "fetchedAt": "2026-03-26T08:00:55.464Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "after-more-than-two-years",
+    "date": "2026-01-08",
+    "title": "After more than two years of war, Palestinian children are hungry, denied education and 'like the living dead' – report - University of Cambridge",
+    "description": "Via University of Cambridge. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQenh4N0xCVjdCc3R6LThOLXdfX1pkNTlhZC16VnpVVlBsV2U3bWg3bUo5TXBjQ1JObHBOOTdmckoxaG42X2FKMU1KNHF2Z3hzZWZFNUpodmhFTFBjd216S2xmZzVkS042VUkyX2otTVprak9WdmFybnJGY1FnNVozTlAxdVNfZlhXWWxnWVJmbWVFc2pHVlZnNmFzaFBlMm5oRnBfbXpzbUtNdl9MaFBPanVSczEwQUpPdjFETVRVQy1pNV9vM1VWbnBn?oc=5",
+    "source": "University of Cambridge",
+    "fetchedAt": "2026-03-26T08:01:01.967Z",
     "mediaUrls": [],
     "videoMatch": null,
     "lat": null,
