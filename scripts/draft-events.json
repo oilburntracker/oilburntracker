@@ -1,208 +1,5 @@
 [
   {
-    "id": "live-updates-us-has-now",
-    "date": "2026-03-25",
-    "title": "Live updates: US has now hit 10,000 targets in Iran - NewsNation",
-    "description": "Via NewsNation. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMzhrTzYzbkprZC03SnhfSEdod1VfWEJoTU9VUzNoR3hzTWR3X0d6V0xqWVNhcjdraVBrYWZ3RmtmdWt5LU5VVHZjUFBPX2t5YWNnUmVTWTRudWdkX2lIR3JZa29IZDBTOGQ5aF85LXg1MFJqSGNIVldldWN1TUhqYjN0RkdyajkxdDYySy1WQdIBlAFBVV95cUxOTG05VGU2cmtrT3BfVnpxT0RaX1dCRXBMbTZTX21zdWtGdkVBMzYzaHdzOHZZT0FRTEhySnRXVVZUUG11VTI1N0xzOUp4OThZSHMxaTdHMGZoNk1TZXZiUklkOC1maTNnb3NVSjlvWjFwLWNxOEtQb1JiNHJRZlo5OFhlMjNmOXRzS2JfaElld3FJUWdE?oc=5",
-    "source": "NewsNation",
-    "fetchedAt": "2026-03-25T23:00:19.010Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=awX9DAOOC1M",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "awX9DAOOC1M",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "here-are-irans-5-conditions",
-    "date": "2026-03-25",
-    "title": "Here are Iran’s 5 conditions for ending war after rejecting US ceasefire plan - The Hill",
-    "description": "Via The Hill. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPNVJwbHBtZ3VXSWNyU1l5QWxVNmt4SnRXM0N5eFVNTlFIcVVwdmN2Mm9qWTdYbnN4aGNVdE84Qmo3UDVDRXhVOXV2Q1hjb19kRzdzeHpNd09qcWQ1U3VlM3dILTJzZG5jZWFuYnBOcEhhelU0TDdmZ29wcmdvMmM1WElrQTJqNGdZYjcweXRn0gGTAUFVX3lxTE1nMkIya3dwM2JodXNBTkc1UXdROGVXYWszYVFzTExKbm90TVVzb3BlU1Zjbk5aTkRma1JQcmx6TnFYbWU5a3hYRU5ta3VQM2owU2xvRTl5VUJXTGRKdXMwdnA3WFdhZHJVRDBuQ0Zyd2Nmbnh1ZE5ObmZ4dmZiaUN4cy1mSWUtV3FFaVpSYnRoTFh5RQ?oc=5",
-    "source": "The Hill",
-    "fetchedAt": "2026-03-25T23:00:31.043Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=p9PatXXKuIo",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "p9PatXXKuIo",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "when-a-lion-roars-israel",
-    "date": "2026-03-25",
-    "title": "When a lion roars: Israel leads the battle against Iran - opinion - The Jerusalem Post",
-    "description": "Via The Jerusalem Post. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1mM1VtT3BSWmRnSU5BdXFITkZRbmF5ZEtMWTBMcHAyN19oTm4zeElyWFRkel9Yb0FaVmZmRkJVc2NpYnc1NU5vSGZJbVRsZzZuajRfYjREbw?oc=5",
-    "source": "The Jerusalem Post",
-    "fetchedAt": "2026-03-25T23:00:50.156Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "white-house-us-ahead-of",
-    "date": "2026-03-25",
-    "title": "White House: US ahead of expected 4-6 week timeline for Iran war; 'very close' to meeting objectives - The Times of Israel",
-    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObTlka2szWDMzUkFuRS1nVGtwYjM2bFAxb05MYmEyTEhJb2FaTXdnTXFMVjBUbEpZaUtaMlphNG55cHVCOHNtX3c0YkdKb1pQX2ZpVVQwQURaa3U5aHVuUkxNTVRVbGc3cVpZSHQyVlg5cFJQVkxUNTd2bDM4NUZpRGhCc3QxYnpXWDBBT1FxSllwekRGMUwtYmtPTk1NOWVfd0ZxN0ZMa1ZzRUVWMlE?oc=5",
-    "source": "The Times of Israel",
-    "fetchedAt": "2026-03-25T23:00:56.674Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "gavin-newsom-regrets-calling-israel",
-    "date": "2026-03-25",
-    "title": "Gavin Newsom regrets calling Israel ‘an apartheid state’ - Sacramento Bee",
-    "description": "Via Sacramento Bee. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOS2FyY0pROHg0ODVVNlNOVWptTVNZV2YxOUU3SFlwdThCX2c1UzVqaWdRRFBBdWk3Z29SX0twenoxa0otM09wRDhDZ0x0QnRKUXNJZDFEV093OHVjUFpjSDYxMDJ5VzdLNlh1OG05UWlja3VhenJ4ZUtHbnpsdnQzR2oyQm9hQ0o3dG9N0gGLAUFVX3lxTE9EbGxkVHh4TG8zTVN1Y3g0N3RUREpiQlU5TDhIYTVYLUY2RWJVTGlKM0QyMXFtVE04VktBS1NjSUhMLWNEQTZnZjJqZ2lielA3RERsR3RlLWZKZC0wTEdNdFRpQTFEY0wyTHdPQXNWY1huTFlnMkU0b01lM3doMmVWZkxKekhKVTVoODg?oc=5",
-    "source": "Sacramento Bee",
-    "fetchedAt": "2026-03-25T23:01:03.449Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "gaza-civil-defence-says-israeli",
-    "date": "2026-03-25",
-    "title": "Gaza civil defence says Israeli strike kills one, tents on fire - The Guam Daily Post",
-    "description": "Via The Guam Daily Post. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNbkJKcWhwLTZ4d0xodFppMkJiWWMxNWsxaEE3Ui1ZZjdEWWItcU5IX3RHVHB4bTJtbHNCVEFvZ1hPTjRZVDNXZndjUVY4ZTVsdEI4aFNEOElJYllaaEVCakI0SnpTYTNYd1o5UE1YRUFiaXJjRmhWS0NPQWxKWFlCSDZ6bHlZeUdMMlgwdUN6dnNuaURQbUk3dDV6Q3V2X1F0YW5yMFV2TmlVNFN4YlhibkgtbGZpWVo2QmlJaG52QUVyX1RqRnpnTGdGeFBMQ0FMVjV4Zy1YUDNJaXNPeFJDX0pzZWVOUQ?oc=5",
-    "source": "The Guam Daily Post",
-    "fetchedAt": "2026-03-25T23:01:09.572Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "uganda-military-chief-iran-war",
-    "date": "2026-03-25",
-    "title": "Uganda military chief: Iran war must end, but we’ll join it if Israel’s at risk of defeat - The Times of Israel",
-    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUms4em0tRWVoZTJjYzhlTFpRM2J5d1U0XzFRRWg3TDA1UG84dkc4V05QbHZMS1k3ZGZzVktwSDdaV1dsbWo5bnFrbEkwdDBLcWdyUk9MRzQtbUliMGx5ZUtHSFRfT0VIUVlDOGh5YXh1TWJfX3BWNVNSX1R0QnJocS1RQkhRYm9SUnZWNTVJSGw1S0R3UjRTYkl4Z3VXckRMOWUyTWtiWklUNUVXYUlvczJ6REx2R2M5dk1WMXMweGxvcGNvWXNDVTE1aw?oc=5",
-    "source": "The Times of Israel",
-    "fetchedAt": "2026-03-26T00:00:16.346Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=3awOGXVgHbs",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "3awOGXVgHbs",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "pope-says-israel-does-not",
-    "date": "2025-11-30",
-    "title": "Pope says Israel does not accept 'only solution' to Gaza conflict in surprise press conference - National Catholic Reporter",
-    "description": "Via National Catholic Reporter. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQb2FyVkdrYTdTZC1oc21BWGg5b1ZmV3AyUHZ2bWx5Vzk0MjJDSUdsUG0tWlZoWlBWWDRkVUVBWUhvR09jbGxiSmdNRWUwclZqNkRYc0YwZ0RCcURZUy0xMVVHMl9reHpfNXAtTkZ3dTU3N1ozMGh2RE9UQlVkdWZVSUZkLVltT2Ffb0xvbHJ1YkhmeG9WQTR0WmJJR05rc1ZHVGZwTlItUV9CTFhfZkdCeDNJanBMR3V2bkJNVw?oc=5",
-    "source": "National Catholic Reporter",
-    "fetchedAt": "2026-03-26T00:00:24.827Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=DHRuJejIbI8",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "DHRuJejIbI8",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "fatalities-injuries-during-the-israelhamas",
-    "date": "2026-02-02",
-    "title": "Fatalities & injuries during the Israel-Hamas war - Statista",
-    "description": "Via Statista. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdU40TEhZZ1VIaDNWWldFZFNZUlZiYzZYYTNZc2lBZWlOV1ZHSkpHcWJpRDFHeVVHaG9tUFdyYlBreXFJMGtsN0I0U1NMV0tRTVBzcEJKUEpDSEhDeWN6djJQLWQzWDJvQUlaNnN4ZlFodnhYZGE0QVljcjZYSFE2aDk0Nkk0RTJZZ3EzUWFzRlFoZmNQNnNhSVFaYzl3ekxXV3c1R1pwLUZ1RkRpTllwaUJSVDZmWE1PS29rYTZ0bnNua3ZjVkI2QjBtUEREenZtalVNUzJkSXY?oc=5",
-    "source": "Statista",
-    "fetchedAt": "2026-03-26T00:00:29.523Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=-mZI_vrqS18",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "-mZI_vrqS18",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "gazas-many-injured-will-need",
     "date": "2025-10-02",
     "title": "Gaza’s many injured will need rehabilitation care and support for years to come, WHO report - emro.who.int",
@@ -4491,6 +4288,195 @@
     "fetchedAt": "2026-03-27T00:01:14.910Z",
     "mediaUrls": [],
     "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iranisrael-war-highlights-trump-delays",
+    "date": "2026-03-27",
+    "title": "Iran-Israel war highlights: Trump delays Strait of Hormuz deadline as Wall Street has biggest loss of war - The Hindu",
+    "description": "Via The Hindu. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWGxZQVdQQ0tpTXNQcjFmUnZUU2VhWFp4U2xjWEhYUEpaRWkzNHNNaFdwLVhQTnNLRzhUSGQwQU5RRzNuVTFCbkVZU0hkZ0QwVVlNWEdNaVpuU0hMay1Hb3BteEMxWkc0cXlHa2N1dkMwcWlwUkFtemRmaUowUG9GS1FUclMxZllCNTZJU0xMaGVIdzFydGpzbV9UaDN1d3RSQ0hEOEZ3LXJVcHVVRmc2RHhNelgtYWowYW9MTnVfWjfSAccBQVVfeXFMTmFpeUVxVEVINkF5emZrSHYwZlhTNTlmZjJGLVl1S0VYRXRSeVlUVS1qSDl3MzBUZUlXdWxoV0FBRDRSOU44Vl9UV1pkMU5sakEyWkY3V01rWXp6a00yOXVLc2JGSTBOeS1lT1J0eVY0ck5EMkg0LUVwdC04NzItOUdmQXZrbExXQ09qQ2FlZHk0QzJXQjNpTi1yU29zZllpYUxlQm1jZDRRbWJlb2ZMMTVYVUw5NGN5NXpyUUJZRXNFcVJNb1Zkcw?oc=5",
+    "source": "The Hindu",
+    "fetchedAt": "2026-03-27T01:00:18.044Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=eRMYX10JQpc",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "eRMYX10JQpc",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-signals-readiness-for-ground",
+    "date": "2026-03-26",
+    "title": "Iran Signals Readiness for Ground War, Launches 83rd Wave of Missiles at Israel - Kurdistan24",
+    "description": "Via Kurdistan24. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQMGlJSXdNUGtaeTEtSkZZX29qNE9tSGRzVlJIZVY2cl9oLVM1dHNkM25NTTFsRFBjcXdlS3FIZENPQTBmZlFQREJyWXJVRUpNZEZNMUgwdVZtamtmUWtPbFFCT214WldzR0tjZ0VZb01zYWNQeUhqNUhmZHdlNVl4b3JlcGEtZl9wVjZxT1djZjdMWG50dGtVanVPWXp6dGN1OUJRTlZXVXVPdVpFTTY5TFR6VjVrT1V6UEpPZnI3SQ?oc=5",
+    "source": "Kurdistan24",
+    "fetchedAt": "2026-03-27T01:00:29.940Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=v7AaEM812Sg",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "v7AaEM812Sg",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "the-crown-jewels-of-the",
+    "date": "2026-03-26",
+    "title": "The 'crown jewels' of the Iranian nuclear program and why the US wants them - Australian Broadcasting Corporation",
+    "description": "Via Australian Broadcasting Corporation. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMG1CLUNRSEhPU2pUUGoxXzZ5MzNGYnBLeE41NmZFNmdDZHlrU01Pb3h2WlN5TktHcXRZOWpZNVBkMVpNZVE3bnV2MFlxTGJ6MnZ6ZmVvcjhmbEFlOEZ1MlBIOG9aLVMzeFg1Z0Y4VWw1el8wdnVkUmtneFB3cDRvRkVUWU9aUmplTEFTeUFybUlXWWdjSzBDNXk5NHZQZmNBRVlxZGo5LUZoUQ?oc=5",
+    "source": "Australian Broadcasting Corporation",
+    "fetchedAt": "2026-03-27T01:00:34.990Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=ZXSkK34oi-s",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "ZXSkK34oi-s",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-missile-attacks-on-israel",
+    "date": "2026-03-27",
+    "title": "Iran missile attacks on Israel continue overnight; Trump: Iranians ‘petrified’ to protest against regime - The Times of Israel",
+    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBZeVdEQmRlQUlxc2puS1BkSURUWHhSdS1xd3hRTGJIX2dwSHFUYzR0amVzN1FHQ3Rob0lmcnhmVzVzbDVOYlIxay1kU1p5S2tjcGsyVEdxSUtVXzNYYXZGLXhsd9IBaEFVX3lxTE4zQWhYOFdjeTNGb04tRDBuSGl0dWRJV3FUSTZvSXpTQmpJaXIyZUcxMTN0enJYTGkyd0c3eTRSWW1kOTlRTC1Ra05ydkYwNHBaWXNmRGQzcFYzUGp2OHVIeFVsUWJTcUFW?oc=5",
+    "source": "The Times of Israel",
+    "fetchedAt": "2026-03-27T01:00:37.336Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=K05O6t_HvPk",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "K05O6t_HvPk",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israeli-economy-lost-over-57b",
+    "date": "2026-03-23",
+    "title": "Israeli economy lost over $57B during 2 years of Gaza war: Central bank - Middle East Monitor",
+    "description": "Via Middle East Monitor. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPb0J5cUNuS29rNGxEVS1YSnhNYUNKUk03VWFsVlhFM0phMW82cFh0aFZxeVpDUWpKeUpwbFRpeDJmR1lvRHlWZ1NpdmhLV2F2UmFWZ3NucVhxcnZmdmpEeDRwT0lDMDNELVRUMVF3bFVwYmlQbnJqYUNJTnZ2c3V1OXF3VmJjSEtKSkdvWmthanpSLXNxeW1JZFVqRlg5OTRkN0NzYjAwUTRZMTJHb25aMjNoONIBuAFBVV95cUxPdnI2REdOOFBHUVRkblNNQU41WGhUWWhSbjlmX3RaQ0FydWJuWHJEeXlBdktUUjlLdjA5TDB0NVl2Y2xLRmR1WVNndFktcTR2MUNzVmM2YkRSZzRxc3VaQ0dvR2tTcWpUai1uUExodzJiaGhpZ3JYRnJqdnZhdkxHclBsNXA5cEhDSVlrUm01dV9zSVRsQ3Bmd3JwcHBZOFpJSm5lMk9nNkxwNFpHMVBhbUlZSmdkYUZY?oc=5",
+    "source": "Middle East Monitor",
+    "fetchedAt": "2026-03-27T01:00:39.548Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=_rGoWSJCZ5E",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "_rGoWSJCZ5E",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "middle-east-crisis-proof-us",
+    "date": "2026-03-26",
+    "title": "Middle East crisis proof US LNG exports don't disrupt domestic market, oil execs say - Upstream Online",
+    "description": "Via Upstream Online. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTFJiMUJEelJHaVVGb0QtQmpKRzBWSS1FdDd0RjMxV2ZuNWxDWHFGUEt5WUV5QTR0OFI2UjB5RjRuZncxM1M2TjVMNnk5TnR5Mi0zeXJibWgzcHB4aWxzb0o4MXBiUFpoc3ktajd1d01UaWFteU1uY3dBRkttSG81YWZ4Yno1OXpHal9wWnFtRjd6bjNhaFpFV3pnNE81V0FLbWUyYVo4UHR1QlJ5ek51NUtpcFJYdk4wQ3pxY2otQWpBcDlNMWFoV0swNVItRmZtMWc?oc=5",
+    "source": "Upstream Online",
+    "fetchedAt": "2026-03-27T01:00:42.365Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=OIYnOkCjCYw",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "OIYnOkCjCYw",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "oil-surges-as-iran-war",
+    "date": "2026-03-27",
+    "title": "Oil Surges As Iran War Fears Intensify, Hormuz Disruption Stokes Supply Shock - BusinessToday Malaysia",
+    "description": "Via BusinessToday Malaysia. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbTZLMjZBZUpvSW1fZGo0MUJwNmR2cjM3NGFGTl95cVQyd0d0U1piVUlVbHFEai1vbmFMYW1rc2RzdGozeDB5TV9LaWE0S1U0RVJxaHF4RGxPRC1wcFZTdVRJUnExR09TZlRsMFdhak92bElfMVNpNElrVy1IVGtPcU05ejI4Nk9SRmhpcVQtRmNjc1VzZnlwSGZMZWhKVEY0SGF3UFpaY0Rta2J3bGNMa050cTR0LWhPejF4X1N3?oc=5",
+    "source": "BusinessToday Malaysia",
+    "fetchedAt": "2026-03-27T01:00:47.100Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=5E583oEEwes",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "5E583oEEwes",
+      "title": "",
+      "confidence": "auto"
+    },
     "lat": null,
     "lng": null,
     "zoom": null,
