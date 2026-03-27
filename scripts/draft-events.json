@@ -1,154 +1,5 @@
 [
   {
-    "id": "pofma-order-issued-to-toc",
-    "date": "2026-03-26",
-    "title": "POFMA order issued to TOC editor over article on S’poreans serving in IDF - The Straits Times",
-    "description": "Via The Straits Times. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQTWxiVm5HUjNycDlHZGo0QUs4SHgzVGtDSjNxT1ZjVndkR1BmZFZrYy1hTDBSOU1MU0FVNkxLbEJ0U2NCWWpwbEx1YnBmMDNvR0Z5MlF6UHdZQkFZak51UkNfQ2lVUGhIR2tPeUg4d3hpUGhXdURwOWNGZXdGWThPWm95ankyRmtjRzR1dFVsMF9rVGN0dWtFbkRBdU1PTEh4UmZmUHh0bDRZa3pyYTB5M0xrb3dwSS1hNFp3RkhRVC1sUEY0bl9LcDlsVEt1TGg0WVFYd2V2eFBjZTQ?oc=5",
-    "source": "The Straits Times",
-    "fetchedAt": "2026-03-26T07:00:52.751Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "oil-prices-rebound-brent-rises",
-    "date": "2026-03-26",
-    "title": "Oil prices rebound: Brent rises to $104, WTI hits $92.02 as supply concerns persist - Economy Middle East",
-    "description": "Via Economy Middle East. Auto-detected by headline monitor.",
-    "category": "infrastructure",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQS0ZiZEVZTWZBNzVRTVZtTnRkY3dfdTRnOGZIT2FWaTJVZ2NjVzRERjZzVzBVckMzcEZRWlJpTzNydnJVeTFDMkNsYVB2anFLeW1SSU5TNGR0bTFDZVZyam1KZ1RvS1pjY2l6WjBmMWhpS0VFSVFYOUdlNWtyZFZSd3pSZmR2X1g0QUZYY3B5WFBtWFJxQmJOUmc4c1ZFLV9rU01uZ2lvdEcxcGNacGhyMElwR3Jxdw?oc=5",
-    "source": "Economy Middle East",
-    "fetchedAt": "2026-03-26T07:00:59.867Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "oil-falls-on-prospect-of",
-    "date": "2026-03-25",
-    "title": "Oil falls on prospect of Middle East ceasefire easing supply disruption - TradingView",
-    "description": "Via TradingView. Auto-detected by headline monitor.",
-    "category": "infrastructure",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNb3Z5ZkRXcENOMnlLbTZBbThIUmhpRnluNWxaa1dabDFXSlAyRHV3aEdDSFFoMFZtUS02RXhjN200azg2c0x3QkNyOTY0SHhMemdQaFAzM3NRUGd2b09NQnNfZ0RJdVJkWXFjYVhWN2NPWXhnMkVESWNKTzZlX0gwaS13NmpFRlRUaDMtZW4zZXVza3IyVmpveG1qQVhYQUQ1OXZOU09BM0dsS3ZSQTMtbktIM3A0WUhiLVNnaWN0SmtUbDAxMHlfUWNud3hXMFZKSFU5cTQtYy0?oc=5",
-    "source": "TradingView",
-    "fetchedAt": "2026-03-26T07:01:12.485Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "usisrael-war-with-iran-how",
-    "date": "2026-03-26",
-    "title": "US-Israel war with Iran: How much does it really cost? - DW.com",
-    "description": "Via DW.com. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQcFJjbEFpRWVRRWVFclNxVmZCTXlWcmN2QlpNSkNzX1ZIWFJrMWU2NHFNczJtdHZmUTExX3hfWWFUOUNrMGpDc3hwTWZDeG5WYlhfODFDVGFBUE8wZXlkS1cyYVZHRjd6QThwb2Y2MlFlRjI3ckN2N2V1YW0xOW1fX29fR2tKWnhVRko1S2hzdU1SUFE?oc=5",
-    "source": "DW.com",
-    "fetchedAt": "2026-03-26T08:00:12.243Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=K9OFF0AW3h4",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "K9OFF0AW3h4",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "usisraeliran-war-news-live-updates",
-    "date": "2026-03-26",
-    "title": "US-Israel-Iran War News Live Updates - The Times of India",
-    "description": "Via The Times of India. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi8AJBVV95cUxOdHJjbXEyZ0syejhKRU5lcm0xRTlqNjhucUxvazFmV1lYS2lZRjZfZzRGcFJMU3NaRmdpSjduZDNQYmZlTlVpdVQxUlpfbHJLck1WaF9NaFd0NkRITkdJMm9rRDFZZXVadWpXZFR0NUpzNUlTLWNnQVFkT3R2Q0F3WVhLY1VKX3BhY2RvUmVyUDNHYnhjSnVRZWxxd3FOaHRBNHRsMXVSVmtPYXZ4NEFsaVM2UHdlNUNQRjhIdHBlcFZWYWE4S2JTN1JlVUlhNHBlbktTekp6Ny1WNkRsMXRxcGtDMEttOS1JRG03SFV0RV9SeVJnakN2T2xHNmR3NzRVRWVfLVQ4b3ZUS3B5dVg0T3c1djY3c3RGbGZTcW9wSEk1Wm5GZVdJTGZDZHVvS2pyRmt3OThfYWlnbkQ0ZkpRLUxJcHVuNWM0UjgtWXQxV0M5SFVna0tCaXdJSk81YjlpOWxHSk84R29fN0FFVDI2Mw?oc=5",
-    "source": "The Times of India",
-    "fetchedAt": "2026-03-26T08:00:19.620Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=cvkbpDGHXrc",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "cvkbpDGHXrc",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "trump-defends-iran-war-amid",
-    "date": "2026-03-26",
-    "title": "Trump defends Iran war amid economic fallout, backlash from Republican lawmakers - The Times of Israel",
-    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
-    "category": "economic",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZlRBalMtREZfd2FkQUxDQjVSd3RZeEVXdFhvV19xMnVEc3N2UDZGdmFSYVZadUdYQWlCalg5clhLem5mVFM3T1B5MHVJVnhfQnVaVjhVdC1QUVItMGlLM2ZDM3doZUg5b1N2Z3RWM2lnUm1aMEV5SzBJdV83cjR6US1sMHNMa1dIczlMVVZWbDVGVjI5bU1Xb05hdVRVcjhqeDN0bFIwSUYtcHR0dmJv0gG0AUFVX3lxTE5fb3k4VWl5RmE5SmxiOTRUZDhEQ0Nud3pSU0FWV3NjYjlWbEIwYVJOSFRwQWpZbUdTT01mWWE3WjZneHhpZmpRUm92YW1GZkFVYldsenpTTlhZSFZaV3ctMlNSQkp0akRLQUxfZ19JMXk1aXA2WDVmc1k2aVpEMW1ncEFFTFpMTm9OM0JQbVhMVjFjb1RlaHo0b01oSm03a2NxVHB0TFZMQ0Q1ZHdnQmNEZ0d3Mg?oc=5",
-    "source": "The Times of Israel",
-    "fetchedAt": "2026-03-26T08:00:26.486Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=fUr5RQbY2zI",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "fUr5RQbY2zI",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "gulf-states-losing-patience-with",
-    "date": "2026-03-26",
-    "title": "Gulf states 'losing patience' with Iran, could join US-Israel war against Tehran: Report - The Times of India",
-    "description": "Via The Times of India. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPbEJSa3NPU1pzUUlQMDJaUjZHVEtsMU5WcWZvTGUxRHBrNS1ubzA1a1lJMDlWWk1Ec21wbHZyUmtxdktmc3BwZVl0YVhGSUVVU1h4MnJPbzV5WXNjTy1lNzZsRFE5OWJ1WlhRYmQ1WnFhOU5XWUJDeDh4REpZMjVIVE9jQWRqeFU2cWZtSFVsSFJCelBnRndiUENTLXdqSXpNbU5GLWZtMFl0NjNuTDZlby1yS0p0NWV6eFNYVWxHZXJDUVNtRkREWTRzWVUxTlRQS19RTEY0c1lXMW5EejRuM2hMc3lzN0pLTGctbTREb2RFTkU2bkNZOWM0NnFTVjIzNjNYZk5XWW1KTnQ0eGfSAZMCQVVfeXFMTVRiUUxDT19YRUJzQmNhRkJEdWJ2OXZLMnhTdUQyVHZTQkZ1M05EWnloQUR5VU40czNVZ29GOWMybXQwcHNxTjN1Q0RhcHpsQkppdnBJNE9ObU92WWotN3dSdHkxd0szUURzd29VcERYdy1kZmJkZjlIUkg1UTUwWGZDaHNoUVFBSEE5NTA5VGdRMURmYWZpTXQ1SWpWY3VUTl9KUTZMNFRBa0dMZVhkTXN3TUZlZVl1dkRDdFhBVF92M3VsWkxIQU9rTXpIeU1YNXNLV2VvZG9mU3kzNmhHZWVDTHhTZ1oyVlRmcnoxdVUxT0VaSWYwRk01aEh5cnc4d3JVcjNqR00yOVpxMGdQRnlRM0k?oc=5",
-    "source": "The Times of India",
-    "fetchedAt": "2026-03-26T08:00:35.605Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "israeli-air-strikes-kill-four",
     "date": "2026-03-23",
     "title": "Israeli air strikes kill four in Gaza as ‘genocidal war’ persists under cover of Iranian conflict - Newsbook",
@@ -4425,6 +4276,182 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPdFFpSmNfcWFtb1R1ZDZsNHQwQWN1UGh1bWhLOEJsdWhyY09HcXU5dnNWSkJkUXE3ZEpRNkhwWlF5bVlVMTJ5QklaQ292N0ZGXzFaSHhGU3pVZ3dtTzJsQ3NxMEg2Zm5BWmtzZF83RzhVTS00QWlxR3ZUMWEySjVuUURPeUxXeFZOcUNR?oc=5",
     "source": "The Lancet",
     "fetchedAt": "2026-03-27T08:01:09.412Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "trumps-turn-to-iran-talks",
+    "date": "2026-03-26",
+    "title": "Trump’s turn to Iran talks could mean he wants out — or he might have a surprise in store - The Times of Israel",
+    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVTc2bmM0ZE9TQmQ3U05pMDdQTlRKTHUwWW9melJ5eXppcXR1T2pqWFJOM2o2UXRvMEx1WExxMkN6LVlibWlXN2dNX3ZXek9CanJfVnhkRTlIelEzN1FuejVKd2ZoRkwxUHBHOUZfTWk2OGg0VnRiWnVmakVtWWFwYllfSlExMWlESnB5dUlXbzhTemc3M3g0c21PWVQzSVR1TlBmZllKOE9PSkppbk5mbVhhRjRBRDkt0gG-AUFVX3lxTFBpWVlNRS11RHJjcjdXMTVJXzNVQU85dS1zVXFKSGtYdVVjVXhJZEZULXlqeG54MDZUaUVmbU9nZFc0dUpNLXlUOFo3WFV0M3NTVGdXamZWSlRhWlBBMmZHd2VoN1dVazFEM1ZFaENUcHZOMFRacGR3TG9fRXdqQVVBY3EzNWk2bFdOQUVMQjRKaUN1TUZkdHk2SnQyRE1XVnd5c3VnTDZHcWROeGZzanB5Nkw1Si1IcDNPVG1LelE?oc=5",
+    "source": "The Times of Israel",
+    "fetchedAt": "2026-03-27T09:00:19.240Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=EaFRPQb9NNI",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "EaFRPQb9NNI",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israel-launches-strikes-on-iran",
+    "date": "2026-03-27",
+    "title": "Israel launches strikes on Iran with no sign of diplomatic breakthrough - South China Morning Post",
+    "description": "Via South China Morning Post. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUklnMVE1RWFzSnRIWGJsRzRSNGF2YW9oTmdCYmZrSGczZFRISFJWcU5VYUV2akotc1lKYTlyeDhmYmhLN1Z2Y2tPMC1zR29GZm5ZRGZmZ2VlU2NmU3EtNTZNV2JaYXBiWE9ZdzBEanJEUFNmMldNOU5nZ2xqWkVXbGNjWEZ6MGtVdVd4bDg4c2NQUVNlV01YRE5SY2M2a0w2WTlkVjhIdWFvWEZiY2ROZ1hGQm4yQmpTYnZHMQ?oc=5",
+    "source": "South China Morning Post",
+    "fetchedAt": "2026-03-27T09:00:24.239Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=Tdgw_VNmP-g",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "Tdgw_VNmP-g",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "uganda-will-join-iran-war",
+    "date": "2026-03-26",
+    "title": "Uganda will join Iran war 'on the side of Israel,' military chief warns - The Jerusalem Post",
+    "description": "Via The Jerusalem Post. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE42czNuSTRDMFhHcWliX0JOZGt1ODNocy1PQlUzZi1XeWRuVE91MVBLZ21XaUpPbnZEeUN3R2NRN2g3VkRRT2UxMVhtZlhWYk82eFJkM1NwWjZURFhnd3ZwNmtST2ZNb0M3ZGc?oc=5",
+    "source": "The Jerusalem Post",
+    "fetchedAt": "2026-03-27T09:00:26.573Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=MpAWkkmx8RE",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "MpAWkkmx8RE",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israel-launches-new-wave-of",
+    "date": "2026-03-27",
+    "title": "Israel launches new wave of strikes on Iran with no sign of diplomatic breakthrough - WPLG Local 10",
+    "description": "Via WPLG Local 10. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQaEpqNl9JdkdOX1FCaEpDbFBGdmZudGluaE1jWEpiZ0xjMVlEODY1TERVYlJLb0dWbTg2Mk1YMjRVMEgyQ1JKUENpdlg1SXFRbW5oRmo1SEdBc25XREVxLWs4T290S09sVVZ1dl80RG9FRzZ5RDVpMzJwdjUwWm85Q3FnZXVGRS0xRWR1SGZtMlBfMUxvQWF6ZEs0MDMwSExKcjFoMGpoRlhRbTZ0TW16cE5hNWVhaFVjaWFMTUxCaTJoVHJqWGlCQmdB?oc=5",
+    "source": "WPLG Local 10",
+    "fetchedAt": "2026-03-27T09:00:28.975Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=HzrT_0s59JM",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "HzrT_0s59JM",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "live-heavy-explosions-reported-in",
+    "date": "2026-03-27",
+    "title": "Live - Heavy explosions reported in Tehran and other cities early Friday - ایران اینترنشنال",
+    "description": "Via ایران اینترنشنال. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBfR1BERVdWMDV2R2dQMl9qV1NVY09xZ3JaOEhEV0JsNHhja1lLc1BVY0xfT19TR1k2U3F4QlBCY09MUFV1cUVIazc3YkRSdmp1c3BXMUZiZVl5U0czMmc?oc=5",
+    "source": "ایران اینترنشنال",
+    "fetchedAt": "2026-03-27T09:00:35.122Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "watch-israels-war-with-iran",
+    "date": "2026-03-27",
+    "title": "Watch Israel’s War With Iran Will End When Trump Says Stop - Bloomberg.com",
+    "description": "Via Bloomberg.com. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxObkZ5S0h3REc1Tk5RSVJ4eUhrZWIwZGdlcHoydlo1YTdlNkVXZjlyWUdnRURVNndNWUxxUG5VM3huR2Y2LVRCWHUtNVBMYmkweUxyYlFFdUJVdk8yVnJPOU5IRVB6MFNnZWRkcURsZmZuc2hibnRjRHI4N0ktbEUtV2JVRFQ1RHh0QWt0aHI3eFNCaXFvdThuUVVDWFJBd2FGdVpnbHRqR1hXeWc?oc=5",
+    "source": "Bloomberg.com",
+    "fetchedAt": "2026-03-27T09:00:41.573Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "uganda-military-chief-suggests-could",
+    "date": "2026-03-26",
+    "title": "Uganda military chief suggests could join Israel in Iran war - The New Arab",
+    "description": "Via The New Arab. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPalo3V3dxaFVNMEFuX2o1NVVqRlZKTWY3SEVYV2FnUkpBMEhiM3lFdVM0S3lkR2tzbmNFMFpoRXNfVjc3SmxxWmNCcnBZcmlUZTBYb2JtOVFaZUctTDg5MHlZMU1MYWwwY0IxWE15OTdVYlNROVdZT2FjZmk3RHk5bEpvU1dxMTQxTmNtZGlvMNIBlAFBVV95cUxNM2VoOEl4SDh2UFZHQVowdzQ2MzYzeWpZUXNCYV9RamNrNnpSUm0ydXRkdFdnbkhsS0NQNWZhNFRPQ0FyUHhTTlV1a1o0aU1xZnN0Wmd6MFdLeDBneGtrS3Z4UjZJc1lveWFsNXVwUVhMRmt0RjRncW00cW1YNTFpczN4YmswUGRKeVlyWXdXS09qb1RX?oc=5",
+    "source": "The New Arab",
+    "fetchedAt": "2026-03-27T09:00:48.424Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "gaza-children-cling-to-education",
+    "date": "2026-03-27",
+    "title": "Gaza children cling to education amid war, displacement - Middle East Monitor",
+    "description": "Via Middle East Monitor. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOclhUUmhZamE5bmZQc2x2WTJyNDFjTFFLbVE0VE0zMm1NR0Y4VnRoV3UzV0dXcnEzMXNadUpCMF9SMlpzbDRqWm5PSW51MUIzWGdXcXpzbzVTZTlNb2hfY2dkdnRSZnF6U0pYRW4wTEhjR24tVmV4S3JWQVJ0NnJ5SF83M3BMd3JZYk43VjdSZ0NNVDFPNGN0UEVDMVpiTjTSAaQBQVVfeXFMT2hMZndTVVNjdTQ5aDdyWHRVN3B2bWdaNDhnUkJTOVJDQVJQUWExcHpWYjVfNzBnOFBPbV9lR2YzTWNna2dNc0FPbXhjTDVzQXlkak55QkJBVEpPU0dzSXI5b0U0ZFFUVjVqRWZ0WjJrdnRKVTJLcWdkaWFzZ1dybGpMZU93M09BYkZfQWpzN3FDSnB0dGtEQzVENzYyQ3FrWTZqVnY?oc=5",
+    "source": "Middle East Monitor",
+    "fetchedAt": "2026-03-27T09:01:00.740Z",
     "mediaUrls": [],
     "videoMatch": null,
     "lat": null,
