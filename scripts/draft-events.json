@@ -1,245 +1,5 @@
 [
   {
-    "id": "lebanon-israel-iran-war-arizona",
-    "date": "2026-03-26",
-    "title": "Lebanon Israel Iran War - Arizona Daily Star",
-    "description": "Via Arizona Daily Star. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9TRW1aWl9VNDdKMUxpTWlibXNrQkt6ZEs3R2hUdGlubV9GamUyYm5OalE0TE15WVJtZHFUN2dxXzd6MnN5S2VBWVJjZ3U2N3Q3bUMtQ1A4b19aYkdLZFBaYjlFdlBsdUJBWXBhN2Zyc1dRRi1B?oc=5",
-    "source": "Arizona Daily Star",
-    "fetchedAt": "2026-03-26T17:00:28.608Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=kWE-Sz6zk5Y",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "kWE-Sz6zk5Y",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "uae-envoy-to-us-says",
-    "date": "2026-03-26",
-    "title": "UAE envoy to US says ‘ceasefire not enough’ and calls for escalation in Iran war - Middle East Eye",
-    "description": "Via Middle East Eye. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOS0paNFlHUnVRSzFqa1pDQXEwS2R4c1RrRTQ2SGV1WWdSZDlVcG56eDVuRGZiWHJDUmtHUk9kOTUtaUdrcm04emk2cXAzWnFJMjU1WFotdVpVMTR2WHlBNUdGWlNaTHZuWXdLME84VXZUbE1xTlZyT1NJSEY3U1FXUmNmODJmdklxMHRNQXFnZk1EY1o2LUVDdW4taEluOERaMlFkLVRRelgxQQ?oc=5",
-    "source": "Middle East Eye",
-    "fetchedAt": "2026-03-26T17:00:30.752Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=f6iBsKJMSsc",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "f6iBsKJMSsc",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "regional-shockwaves-longterm-implications-of",
-    "date": "2026-03-25",
-    "title": "Regional Shockwaves: Long-Term Implications of the U.S.-Israel-Iran War - Carnegie Endowment for International Peace",
-    "description": "Via Carnegie Endowment for International Peace. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPeHlIdk1lRGZRMXM5S0drNHlZOFhKa051Wm1SbmNyRHRSencyOFRHTy1fZVo4SEJSVWpmM2FlZHJHcEZBTUwwQzdxbE1VN1pxdE9ndkRzU2NJa2d0TEExbzRVMi15LS1TTmhfdWp4RTV3bTRmWFVSMTF0N0xYNUF5d3M4bnlJcl9JSFA1U3hCcFB0NEdiTXBKLVloeV9DWXM0cGRfd3BEcGI1Q055WFVKbEdqaw?oc=5",
-    "source": "Carnegie Endowment for International Peace",
-    "fetchedAt": "2026-03-26T17:00:37.515Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "houthis-say-ready-to-join",
-    "date": "2026-03-26",
-    "title": "Houthis say ready to join Iran war, raising shipping risks - ایران اینترنشنال",
-    "description": "Via ایران اینترنشنال. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1zSF9XcVhOVnhYYlA4cmRlNE1jOGdkR0RMeTJJWjRVX3ZESm5KeHdfN0EteDYxS29heWFJM1ZpZ1lOdVY4eGZTV0ZHdGFoaEtKbGc?oc=5",
-    "source": "ایران اینترنشنال",
-    "fetchedAt": "2026-03-26T17:00:49.963Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "8000-tons-of-military-equipment",
-    "date": "2026-03-26",
-    "title": "8,000 tons of military equipment delivered to Israel since start of Iran war - JNS.org",
-    "description": "Via JNS.org. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZV9aRzBia3JTUmxuS0k4dk81Y3lDX2pFYi0yNHk3WFJ4SjE4NU1fYTFFNEVTMkNnZjNJbUdsUnJVNHZoU20telBlYS1HWTd0LXR6RklrcjV4QWd5ckpoaWVtVDN3ZGduNWNWeGNydlRTbUlGSlhCaW43WC1JUGlablc1MXo1azduYXVabnZ0Q3BtM2xvMmtJS0tmNFNLYUdvYi1lZm1rUkJNbUlscU9hZXRtYw?oc=5",
-    "source": "JNS.org",
-    "fetchedAt": "2026-03-26T17:01:09.767Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-war-trump-says-hes",
-    "date": "2026-03-26",
-    "title": "Iran war: Trump says he's unsure about a deal with Tehran - dw.com",
-    "description": "Via dw.com. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQU1ZESk5aVjhaZnhheU1xcmhJTUoyZERKTWZMUVZtbGFscmxvdWNSblhHUjVkYU9jeEZEUVpRYlIzMjM0OEl0QUd1R2o5aC16NnNkZzk5YjB2OHlMNVBvSWRWOXc2cW5pbEVCV295dDBaWHlQcFBXOXZCTDRJRFlPVzZETlNOLWE1QVh2Vk1CUHd4d2wyVWc?oc=5",
-    "source": "dw.com",
-    "fetchedAt": "2026-03-26T18:00:16.947Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=EaFRPQb9NNI",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "EaFRPQb9NNI",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "the-us-and-iran-are",
-    "date": "2026-03-26",
-    "title": "The U.S. and Iran are in 'indirect talks,' says intermediary Pakistan, as war rages on - Oregon Public Broadcasting - OPB",
-    "description": "Via Oregon Public Broadcasting - OPB. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdENMTXBwcC0zYTNoTXpFdTRQbnpkRXd5b0ZRX1JocGdubkY0NjlLYnh0SG1SMGtpaW10VUl5ZDFjLWxIV2Y1bVN1dE9IVld1cUlWUGxzc0N4YktJb3ZQdndqSF9pRUFQQm9ZS1FWODFEamstQ3RGeG42aTZ2eFlUZ0pMYk8xMkY3T1pkaHF2YjREMlZCTG1mWkZaczJKQQ?oc=5",
-    "source": "Oregon Public Broadcasting - OPB",
-    "fetchedAt": "2026-03-26T18:00:18.704Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=zxbJISTETsM",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "zxbJISTETsM",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "israel-races-to-pound-irans",
-    "date": "2026-03-26",
-    "title": "Israel Races to Pound Iran’s Arms Production Before War Ends - WSJ",
-    "description": "Via WSJ. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMirwNBVV95cUxNcDNPaGpEdEVqVGxwSHhXdENnWmU0RFdZTWc2Y2I2aFhJSGV2SFlScnFaNWI4aGs1TFlaTE9Xb2FHOFpQNU5PQUs1Q0NIR2lNUUs4NTAxU2hUaS1ybmZCb2JyOFg2dzgwM1hmUmdUTk5teXAxYTA4aFVGekJCUUVvREt4VHhIbzRrX3BJVWY1YkphS3puZDFENlFzSkUtZ1FMaWIyQXZrUXBYa18xdDBxaGtFUEV1SG16UjFLNVRySW93d0gtQ21lWGwtOVBWR2VGSTdtZ1hUZHZQVG5OeHJlWnNLWVYtVEpVaWYzWVpHWnNhZmNPWmdnUFNCS2VXZFp0bzNHNEdKcUR4cVhHMmhVdW1iR2tmTzNHM0FRSzhCQjRlZHp2MVZiOXlXTHBKODhXZHBYNG1OMjBBTkttUEFHcER1YUwwRXBBcGpjVDRCclBJU1N5TUZicURtSXRUY2xjTG1IQXRqaExPSmpVYzZlYXRuS3hQdDZySjgzekthMGZsM0xjc2NtWXY4SkxvelhJaFo2cTBkWjNQb0R6bVdxUUJNdlRvQWVJWm83RWxkQQ?oc=5",
-    "source": "WSJ",
-    "fetchedAt": "2026-03-26T18:00:21.310Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=5C_h9e7HXhY",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "5C_h9e7HXhY",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "israel-losing-sway-over-trump",
-    "date": "2026-03-26",
-    "title": "Israel losing sway over Trump on Iran as IDF chief raises '10 red flags' - Haaretz",
-    "description": "Via Haaretz. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQYUx1V0lFS29hOW9nNUtoc3RyOC1tZ3ZzSm9ZSjlLVEowOEZwS0I2NHE0NEdLUWNveUFDWlBIWlZOOHBuTHVOdGZKQTV4WjE4c0cyZFdCMWU5UEZIbXo3ZzJDYm5Yb2VjNXZaczJqOXI5b0kyM1N6eTdPSWdaQ3pYWXY1YVEzZ3lScVk2VW93WDRGM2hSWUMydjJEbG54ZTl6bkM1Q1NLSk1RS1VpY2tLUHhxbmxBbFBUbkFRelRGYUV6M1dOWWdfaU9LMUM0STY5WUlOS0xsbXJNZS1YSEIwaUUyckYwT04xUUI4Y1JjQU9GN05scXVEOFdEVGxpQ2V5NW1FcHlwQjVncjlJMnFQN2ZYZy1wRTdyVUE?oc=5",
-    "source": "Haaretz",
-    "fetchedAt": "2026-03-26T18:00:23.851Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=ZVlbm0cXa54",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "ZVlbm0cXa54",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "israel-iran-war-dailyrecordnewscom",
-    "date": "2026-03-26",
-    "title": "Israel Iran War - dailyrecordnews.com",
-    "description": "Via dailyrecordnews.com. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNaXMwZjJkUVJXMUNxdnFyNFVTS0ZUVW84RUczelEwdzJ3Rl81T2xraW9udS1TTjZaWUhNUTg4WnNYYURYdF9JbmgwODBiMUk3RXVZVE1qWUlfM0RCeTIxV3BVOXZ2X21CUkVYbkREenVjUTVRS0dMVklRVkZtZllJR2hieWt5VGhuck81M2JDSDRnRW5WWW8tLWlFQkFpREVUdTIyMHc3LTMtRW1XMGxTTmMzRWZwMnpv?oc=5",
-    "source": "dailyrecordnews.com",
-    "fetchedAt": "2026-03-26T18:00:25.760Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=ajbmwPl0d18",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "ajbmwPl0d18",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "lebanon-israel-iran-war-the",
     "date": "2026-03-26",
     "title": "Lebanon Israel Iran War - The Missoulian",
@@ -4486,6 +4246,317 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE44MUQwVkN1Q0VFSVlzdnlNcm5LcW9mZkFFb3FRUDJuWHRST1dIcnNHTkFEanFCOXk1T3hSU3FCOHcyWFBXQW13TXNibzR0bEhxem9wMFlfcXBta1XSAWBBVV95cUxPQzhDUm9WTkxyYTEwS2pZcTJhRlVNa2t3T3NzWGZ1aGZvZWoxbHhoaGdmT1FYaFFSVm1nLTJGaklCVW4tM0M0cEVjVWpULWZWdk00XzVfNWU0M1ZCZV9RR2I?oc=5",
     "source": "FOX 9 Minneapolis-St. Paul",
     "fetchedAt": "2026-03-27T16:01:05.554Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "usiran-war-in-numbers-thousands",
+    "date": "2026-03-27",
+    "title": "US-Iran war in numbers: Thousands dead, billions spent and a global economy in crisis - The Independent",
+    "description": "Via The Independent. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPejEyMTVoOGhFbWRlVjV1MWtjMnhvR2hPcDVJdUVROTJiSlRBWVhEQ0hkS2NISnF6cDc0QWF1S2xRMU1idmJhR05xUFI2cGF1SFJ0Nk9qY2M4cGNzenhvOV9BckJveXFZb2JVMlJuNU4tZWFZUkNlR3pjU192aWFxZ1FDdjNIR1BLZWIyTElvRERCeUJRdk1nck9uRWk?oc=5",
+    "source": "The Independent",
+    "fetchedAt": "2026-03-27T17:00:13.034Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=BJHry70QHSA",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "BJHry70QHSA",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israel-vows-to-escalate-strikes",
+    "date": "2026-03-27",
+    "title": "Israel vows to ‘escalate’ strikes on Iran as Trump pauses attacks on energy sites - cnn.com",
+    "description": "Via cnn.com. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1hdDAzWUpXVmJkOWRUTzV1Q2czV0hIX0VVaThkV05VUTg4ckVGWDR5aHB3Zy12RUsyQnlFWEk4R0NGSlVXa2d1akxockVPSDlRWFByazhxQkJIZERKWlY2LWJjZVV4WWZ6Q1otbmtKdDdvSlc0NXU1WU8zTQ?oc=5",
+    "source": "cnn.com",
+    "fetchedAt": "2026-03-27T17:00:16.584Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=gNsGQk0TxHc",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "gNsGQk0TxHc",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "vance-reportedly-chided-pm-in",
+    "date": "2026-03-27",
+    "title": "Vance reportedly chided PM in tense phone call for overselling chances of Iran regime change - The Times of Israel",
+    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBZeVdEQmRlQUlxc2puS1BkSURUWHhSdS1xd3hRTGJIX2dwSHFUYzR0amVzN1FHQ3Rob0lmcnhmVzVzbDVOYlIxay1kU1p5S2tjcGsyVEdxSUtVXzNYYXZGLXhsd9IBaEFVX3lxTE4zQWhYOFdjeTNGb04tRDBuSGl0dWRJV3FUSTZvSXpTQmpJaXIyZUcxMTN0enJYTGkyd0c3eTRSWW1kOTlRTC1Ra05ydkYwNHBaWXNmRGQzcFYzUGp2OHVIeFVsUWJTcUFW?oc=5",
+    "source": "The Times of Israel",
+    "fetchedAt": "2026-03-27T17:00:17.829Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israel-warns-attacks-on-iran",
+    "date": "2026-03-27",
+    "title": "Israel warns attacks on Iran 'will escalate and expand' as Trump says ceasefire talks are going 'very well' - pbs.org",
+    "description": "Via pbs.org. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNd21kak50X3VnWWhLYUJtM2VNNlNrRDJjWFRfTHlOUGY2MzVMZW5IeGZMU2NlTkFiejk2enoxeUc2U0pNR3R3SDNtQjMxVEl3bWdIZmM4dTU0NWRYLWE2eXh0V0lKcTZzNlhzWDZkSmFJamJwZzBoaVVCaGFTby1ZUzhaS0xDM2pPZkwxSzRXbDcwTEFUUzdLb09xY3l3S1hWQ0N2QWxzdUFUdzFNRGdoYndFYmFubTZydi1jTlY3YnlrV2FXMHNtcU00TjE1MjRuMkh3a9IB2gFBVV95cUxNUTFqbl9VSDZJV1puTDBLSWltLXh6bGdlOUdtYUdMNVJLUFVnZ0RtNFVCMERxdW9CV0gyRW0zcVJXRlhTZmNmdDBKSzE1NWQzR2ZGVHl2c0UxYVdKVWRPUmtCQmg5ZGxjT2RZanFjenN3RWVfd2dkYjhOODdRMDhPOERjc0NSTjVsQkZQRjFQN3NzLUFDWHB2MWRZNldfaWF6aUtHOWpISUhCUVhPSTRTSTlhVUpGMVdBTDlVX3ltckV1ZnRqWEV5V0dKZ3VNaHc0dnR1MnhwMXQydw?oc=5",
+    "source": "pbs.org",
+    "fetchedAt": "2026-03-27T17:00:20.321Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=zufp_HAIL-M",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "zufp_HAIL-M",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "for-us-war-with-iran",
+    "date": "2026-03-27",
+    "title": "For U.S., war with Iran may come down to ‘markets and munitions’ - Harvard Gazette",
+    "description": "Via Harvard Gazette. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNX1JvRWhFWVo3S0VBV1h2aHNoVHhqVXVTZWlWTS13Y1pqY25CZl92LUVJWEpXSFVaOXp2REJ0YVVPbnhhOVBYTUItb2ZzZC1DVnQwVDhYVjJWdVg1M2FIbElYeENzRlhkZXZUWGVfVF9jcGNIcUh3TXJQT2F4M3lhV1FqcXBuUkMxdzJjaVNhRVVBOFc0WkxES3g5OHRjOXhZYXFZbkY0MFpVOGJH?oc=5",
+    "source": "Harvard Gazette",
+    "fetchedAt": "2026-03-27T17:00:22.607Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=CR80mZ7d26c",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "CR80mZ7d26c",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "what-we-know-on-day",
+    "date": "2026-03-27",
+    "title": "What we know on Day 28 of the US and Israel’s war with Iran - cnn.com",
+    "description": "Via cnn.com. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMWlFTzBxTnFkd051LXNLQ1JoN1FMbklLZHNKazZhU3RZajdHZW5nT1pQd1JicFV3R2I2ZUFCd21xSWVRRE5obk95b2dYazBaUXk3TlpOVURORzdUbUxjcXl4WVZiT3RtR0Mwcm90MkpESVRadGlEOEs3S1lmWldwSVU5eG9RRE9NYy1vMWNxSnV1YVdvT2NzTUplaldKMENnMFJV?oc=5",
+    "source": "cnn.com",
+    "fetchedAt": "2026-03-27T17:00:25.262Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=U4PVW9mvVhc",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "U4PVW9mvVhc",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "live-updates-iran-claims-us",
+    "date": "2026-03-27",
+    "title": "Live Updates: Iran claims US, Israel struck heavy water research reactor, IDF conducts wave of strikes in Beirut - The Jerusalem Post",
+    "description": "Via The Jerusalem Post. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9HSGVESHNVa05ZdDF2R1pCNFd4ZFJFbmhyNnlzV0g3MGwzV0hTV1dZVEVkaEUtdWtva1otRkNwaXYtblYxY3k4cnVITXN6Z1dyRFZENXZmNTc3S2l6QnBDLV9NUnRzbHhSX1MwajlPdTBjOVZwZWpWSl92TWNwLUU?oc=5",
+    "source": "The Jerusalem Post",
+    "fetchedAt": "2026-03-27T17:00:30.335Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=hnX2MmsT_B4",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "hnX2MmsT_B4",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "what-we-know-on-day",
+    "date": "2026-03-26",
+    "title": "What we know on Day 27 of the US and Israel’s war with Iran: Trump frustrated with Tehran and IRGC navy chief dead - cnn.com",
+    "description": "Via cnn.com. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQX282N3ZvRGxjbkJiNjQyakc2SDZDWFJsSEhJeGZtTHdVUDF0cDJ3dFExcUtSUHJldG1wOVhqUUxhVG5UTk9OWmJYaGRSNkQyUzktY29GN0FkT0RtMDloUXBTVXJFVGNjaTN1N2twLW9WSC05UDFlSHF3NE82MVFNTkJLU0xMb2laRHlZWmVucGJKdl9hVThrRmU5c0hNTDBrN21V?oc=5",
+    "source": "cnn.com",
+    "fetchedAt": "2026-03-27T17:00:32.906Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=EnmwU_L7UMU",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "EnmwU_L7UMU",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "for-the-us-and-israel",
+    "date": "2026-03-27",
+    "title": "For the US and Israel, the Iran war is exposing an uncomfortable new world order - openDemocracy",
+    "description": "Via openDemocracy. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQmxvU1oxZlF0VldDcnFZdUFfS3lHdnc2TnJUNVIzZDFZVjl6VjRRU0JlRGtEUkg4NU9XS3F6NTJLRzU3enRWMDFvZk1aYzZEM09YTExMTzJtWWhRV183em04TlJIT0g4Y0ZMUXVLQmtpZlpORUhJQzRWMS1tZGRWU2p6TlR0WU1VN1NTOXNyMUpaNHlHNDJLUFFlcWhhWEdfMnBYYUdQOS1HRTJVVVR2TzN1eGVoZw?oc=5",
+    "source": "openDemocracy",
+    "fetchedAt": "2026-03-27T17:00:35.470Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=rhwmri42hRA",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "rhwmri42hRA",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "alliance-rift-and-dedollarization-as",
+    "date": "2026-03-27",
+    "title": "Alliance Rift and De-dollarization as Derivatives of the U.S.-Israel vs Iran War - China-US Focus",
+    "description": "Via China-US Focus. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNNFd3M0syMGxGbnFVVGpNbS1FSWZaTkJpZTZZOENDZEtaTUpsVVlKbm05MGhGeTNjRldkaTRvMm1wYVQ0N1BJeGhlRHFtdUQzbzhvZkpGaEQ1a2gxRk90d1RPdldRaklQY3dPVnhTaWRQd1hkSXBHSGNZZWJ4R0hyWWxsZjI2TnM2MWhOMmNpNVNNLTFqSEJIMFdsemFvbkE1YUppem5CMUdkX05lM1hUc1dPRFY2Uk9MR0pBRW1LVQ?oc=5",
+    "source": "China-US Focus",
+    "fetchedAt": "2026-03-27T17:00:37.761Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-latest-israel-to-expand",
+    "date": "2026-03-27",
+    "title": "Iran latest: Israel to expand attack in Iran, Trump delays deadline for Strait of Hormuz - livenowfox.com",
+    "description": "Via livenowfox.com. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUWJ1NVEzUmpfbTd5Ym8xbEloREZjNXVYbjZDbXlITWFLc3FXUTJocmVON1B4bWo4WTdvMkIyUlEtYjVQNERjQWVyX3duZWtWbzlhbXU4UjJwUnZqcUQ5NWpjazc5OWU1NmxRMzNlSTUtNnlFSVlkTG1zOUh4X1ZDSFgwSXBpZnRBd2FvdnpNanFrd1RweHEyX3dEVkFsTmFQNzlCSkpaNzjSAa4BQVVfeXFMTkJtSGZKOEZYbFBFUWpQWW5oQ0dlVFpTeXVfam40M1Z0QjFfbFZfVnJ3MjB1V2UtVW9YRXBIZUZDSW5MSDV3emFJWVlwMlA0U0JsNGM3S1V4a3JwYi16bkJaVlR4ZGZIYzR5MDU0V1RZSTdsdkJrbkw5T1dCYWFKTmFhWFhyb1FDRlhrZEo4SkZqNEdTdWhJZU4wUldmWDYwcjNNN05LYVFqUmZNZWt3?oc=5",
+    "source": "livenowfox.com",
+    "fetchedAt": "2026-03-27T17:00:40.129Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=eY4dA16E2wI",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "eY4dA16E2wI",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-says-nuclear-facilities-have",
+    "date": "2026-03-27",
+    "title": "Iran says nuclear facilities have been targeted after Israel said attacks 'will escalate and expand' - KTVN",
+    "description": "Via KTVN. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQak9zNWNoWnR2dnJ3U2NNYWxGSkplcVA0OUNxcEhTNGZrc0lGWm1qaWVlWmhlcU10eS1nRnNKbU9OcG5LMmwtQjVSLVZGUDh3UkNyVUlZSXg5MTJJeW5uVXJkbkViVjRuR3pCRUFsSVBmd2MyYXliMzlVZ0QydWJwMmFTWnVXY2ZMUlRWNHBnQjFINEZ3Mm1odEZuSlBheWlTbDcySC1vek1JdDJRTzFMNk50dmhnMW1JVFphbXRNRTBzZ0tRdUlEOWdNa3ZJZUVpRGtzV0FoUE83VlFrM0U0TXBNTTgxX1c3OENBeFI4VG01djhRQVA1cUEyazBreHpZQk5WQmFHOWtHTndzczZSaWZR?oc=5",
+    "source": "KTVN",
+    "fetchedAt": "2026-03-27T17:00:46.510Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "three-chessboards-one-war-one",
+    "date": "2026-03-27",
+    "title": "Three chessboards, one war: One month into the second Iran war - opinion - The Jerusalem Post",
+    "description": "Via The Jerusalem Post. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9JdVRUUzQ5OFAtb25lcV9mcU5Pek1ROWoybDY2LTBaTzAxOWh6VEJOVjl2SGJLc0lvcE9zOHJKRFhQZl84dU9ZTmo1RHJTYmVUZGdyNjZRX1p6dFVVOE9sZElhTQ?oc=5",
+    "source": "The Jerusalem Post",
+    "fetchedAt": "2026-03-27T17:00:53.049Z",
     "mediaUrls": [],
     "videoMatch": null,
     "lat": null,
