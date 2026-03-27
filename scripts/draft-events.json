@@ -1,147 +1,5 @@
 [
   {
-    "id": "kennedy-on-iran-the-president",
-    "date": "2026-03-26",
-    "title": "Kennedy on Iran: ‘The president didn’t start a war, he was trying to stop a war’ - The Hill",
-    "description": "Via The Hill. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPYkV3X29lbjlvMkNiNUY0NGEwazdyRFE4X2Z6d2FGSl9fRFBDR2RYVFluOHJRV3FENjJXWDRXckpONDRhTUVkOXdhd1I3Q0RpMUlZVXRnaDlqcWRha2g4Tkk0c3owRlp1dGhqZHpuQ3p4dWdiSlAzMHNyb3VmUWlzNk1rVmo1UGhTNGfSAY8BQVVfeXFMTVJVd3lQR29aU3ZhRm9wZERrS0RkZ0lxSnl2YWJiaEVoWktRVTVGVGpNNnl2VWpWXy0xNWRXU0gtaHRsdkdGY2dSX3RvYTFoR1FGVmVFcXJxUy03THg5OVJkekQySUpCbHMyTlN0Qy1iUjEtQklpaHBoVW10d1AzTmhodG5pNV8tOEJpbHBFWnc?oc=5",
-    "source": "The Hill",
-    "fetchedAt": "2026-03-26T14:00:44.011Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=XEH_l0zV1jM",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "XEH_l0zV1jM",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "israel-versus-hezbollah-why-the",
-    "date": "2026-03-26",
-    "title": "Israel Versus Hezbollah: Why the Iran War Has Spread to Lebanon - Bloomberg.com",
-    "description": "Via Bloomberg.com. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNMGxjQ0VMLW5aaXlLa2RLQmZRcExmdUpKckFTWEh4a0p0RUFIODdXZ1BlMHRmcExacF9ialZxSzRzdW90NTVNQUoyLUI0dDNlRVN3UHhBbzlvUDlfQjZXV2lQVUJiUVNHeS1Ya2FLSHlRVjh5Rkx6OXlZSVRJYmx0UEpyM2tQMVk1QnFwb1liQkthd1RzNjRid0pXeFp2N3ZhQWRYMGoxYlZjRWZPWUE?oc=5",
-    "source": "Bloomberg.com",
-    "fetchedAt": "2026-03-26T14:00:49.871Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "israel-says-it-killed-irgc",
-    "date": "2026-03-26",
-    "title": "Israel Says It Killed IRGC Navy Commander Responsible for Blocking Strait - WSJ",
-    "description": "Via WSJ. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi9wJBVV95cUxNYzdSdUtYcXZiak4xbWF0Q1VaNzhjWk9Pc3NDZWVFU0FsRTB6c1pMVlBZaVFGODF5TDIzeC1pcEl5Yk96TURZV0I2Z2cxNE9iTzRRc0tqR2l4Wnk5QTFDOEFBUi02RDBkREJEdzJJQWl0MlZwTUF5SFBjVXlqNGpnRU95ZDZKZUlJdlg0ZnVmTjBoM0I1NDVXODdnSjRYMU1ReG5DbmpUdklxajg4RjMxUzgtS1VfV3FCczRGS2JraVo2Zl9kbFpjU0VxNWlCSk1nY0dWcjZDUnRIZG1uZy1QVTlhVVVKR3RSaXFqd0tjc0lSLVEwR3M3ajdXbWk1Uno4SzZrN2Q1dnNNY29DOGw3NjBaQ1ZSREEtbmFFMVkxWm9KbE43VmZJNlpqUnFWWERXb1g2RjRzenlnZkZoSGxWZmloVHhFcE9hX0RFdU5YbHhPT0hkdFJNT1N6bGlfc05wQ3JlYW5uaEhqdWpwSXlBR0l5M3FtMVE?oc=5",
-    "source": "WSJ",
-    "fetchedAt": "2026-03-26T15:00:15.440Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=P_-IM9pofxw",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "P_-IM9pofxw",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "the-latest-trump-tells-iran",
-    "date": "2026-03-26",
-    "title": "The Latest: Trump tells Iran to ‘get serious soon’ on negotiations after Tehran rejects ceasefire - Union-Bulletin",
-    "description": "Via Union-Bulletin. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOVXYxdGdRbkYtdk1QN2RrcjhuSjR4cU1KMDZIYUhwYldiUkpwcXdRR1VTMENCMEpwaVU0cTZZTFFKUU9lcnhURDdTTllIdGJIanVSTVY4NzFZenQySElXU3hHWC1fTWtWM3NRcWhzdnVMOVJVczhVeGRtN2trV0lHZVBGdmVFUlRPckthSGpXcTZHcW5wQVNsZTRRdjUybDJHQ2cweG1uVG1CYnBhOVV3S0FSdGNUSVJ5c2NQLVVpU3VMWndRUGQ3RzZoSFBNdjFKaXhYT2RIS2wzVVFHc1hiNFpsQXY5WjA3YXN5X2JIQUdRaHlCV2JsWFVHWUE2c3Q2allDZEJjakc?oc=5",
-    "source": "Union-Bulletin",
-    "fetchedAt": "2026-03-26T15:00:36.251Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=45eqozZ-oVc",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "45eqozZ-oVc",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "latest-on-iran-war-as",
-    "date": "2026-03-26",
-    "title": "Latest on Iran war as Israel claims Alireza Tangsiri was killed, Trump insists talks are occurring - CBS News",
-    "description": "Via CBS News. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPOC1FOGtueDN4RFpfeDgtbHlTN1hkUFF1SktCZ3R2bHl4WGVYNGRXUUk0MVJYU3RDLW9YVnhTNVRoM21yeFB1OFpfWE1PTVItaEtWVE90RE4ydlA0b09CNGtpMTFWWUE0MHJqdklfVVBEWF9ieWxZYVJFdFFJb3JRaFhCeVFGdmZBdlRZOWtIbkdYR19pZWhKWi1JdERURnZXeFBxRk9EN2Jndkh5Sm5CdTJwei1TOERZVFlLTU9qV19HN2xzSGN3?oc=5",
-    "source": "CBS News",
-    "fetchedAt": "2026-03-26T15:00:41.034Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=wzcWmEQy9eI",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "wzcWmEQy9eI",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "national-security-council-advises-israelis",
-    "date": "2026-03-26",
-    "title": "National Security Council advises Israelis abroad to avoid public Passover events during Iran war - The Jerusalem Post",
-    "description": "Via The Jerusalem Post. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9icWVvdFc0bVlxTlRnU1k1TlNURFlJTnNLUzh6SXozUGRpUmh2R0xibTI3VG5NS3Joc2ZPdnpDY19VOU1wTm5NcXhUT3ZHUGxQMFJRMkhDQ2dybUEzTkpjcG1qd1ZJWmpZR3c?oc=5",
-    "source": "The Jerusalem Post",
-    "fetchedAt": "2026-03-26T15:00:47.551Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "iran-war-news-israel-says",
     "date": "2026-03-26",
     "title": "Iran War News: Israel Says It Killed IRGC Navy Commander Responsible for Blocking Strait — Live Updates - WSJ",
@@ -4460,6 +4318,189 @@
       "title": "",
       "confidence": "auto"
     },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "trump-weighs-deploying-up-to",
+    "date": "2026-03-27",
+    "title": "Trump weighs deploying up to 10,000 more troops to Middle East during war with Iran: report - Fox News",
+    "description": "Via Fox News. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQcmVQRmpSOXdSNTV5TjFNbUZ5dDgtYTJtQ21JcG8zd2JlZTdjSEZOYktyaUk2N3B1QXRXU01RSmVBVXlNd3hqQU5JcldJVkwyNnZ3TWVJdHFZc1B6ZjVPMFg3dlZKRWJJNU1VdE55b21EU2d6OUZxbnpTdWRBa3QtN1MtYmUybHl1a3RrV3Rn0gGTAUFVX3lxTE05UzgxS0x1NS1lZlBGYS1JcUl1V0Jfd3k3XzFjanpRRE1wU0QxSk1QVXU3WU1fMHFod0lNUGd2WmNCODFNNGxGOGhGSXNkaUN1eTM3c1VtZnZyUExfYmhUcjlmN0F2anZ2bUdVTlZkaG9weEZud3ZvVEtfaW5Gelc4ZnR3ajFKV0pYOWl2V1VvZ3FYdw?oc=5",
+    "source": "Fox News",
+    "fetchedAt": "2026-03-27T15:00:20.377Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=s6WHjnHwTQ4",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "s6WHjnHwTQ4",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "aptopix-lebanon-israel-iran-war",
+    "date": "2026-03-27",
+    "title": "APTOPIX Lebanon Israel Iran War - GazetteXtra",
+    "description": "Via GazetteXtra. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQdGZWUUo2WHd4dEJOZkNFOTdjYTN5UUJrTWh4MnRwblFNdDdEZV93QTNMMi05TzhpdVRPNjBRV0lvaWpOV0FtRlo4QVNlaVhObWlxUkNELWlsdmc1VXZwcHRJZGJ2Y3ZVRkJuX0dHQlFSbzgyNjFYUzVxcDR1aFI0eU5jeU9tSi12UHlSOUF6Tm9Qa0psY0tGZjZVdG5pRXI2VHZXdWY2akpNZGtXSXI5MjlnQmNQek5ET0lXRlozNnZKZ2s?oc=5",
+    "source": "GazetteXtra",
+    "fetchedAt": "2026-03-27T15:00:23.616Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=0lChJzDjYO4",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "0lChJzDjYO4",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "three-chessboards-one-war-one",
+    "date": "2026-03-27",
+    "title": "Three chessboards, one war: One month into the second Iran war- opinion - The Jerusalem Post",
+    "description": "Via The Jerusalem Post. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9JdVRUUzQ5OFAtb25lcV9mcU5Pek1ROWoybDY2LTBaTzAxOWh6VEJOVjl2SGJLc0lvcE9zOHJKRFhQZl84dU9ZTmo1RHJTYmVUZGdyNjZRX1p6dFVVOE9sZElhTQ?oc=5",
+    "source": "The Jerusalem Post",
+    "fetchedAt": "2026-03-27T15:00:28.552Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=6uEoo-PICb4",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "6uEoo-PICb4",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "lebanon-israel-iran-war-dailyrecordnewscom",
+    "date": "2026-03-27",
+    "title": "Lebanon Israel Iran War - dailyrecordnews.com",
+    "description": "Via dailyrecordnews.com. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOcWw1WjQtUTFodkFNdGpYSjBOZkRvejNLMW92RjBHMjFwM3BvNWJqeUltaHBJUGNBTFBZQTBlUERCWlNUeUpzNXRQdGVDY0JuVU1WR2NlT2pTOXZ6d1pXb0twNG4wSmdtQTBwNzlvU1ZNUER5LXlTYk5mUk5qSUNqemFhNEl3ckN4eUhnSnhFY2tfUVdwT1ZrNFFOUEhTNnNza0FPaTJ6anJDR2RaWWdKampQUV91RVlMOHJHWWxMUzkxbFU?oc=5",
+    "source": "dailyrecordnews.com",
+    "fetchedAt": "2026-03-27T15:00:46.420Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israel-warns-attacks-on-iran",
+    "date": "2026-03-27",
+    "title": "Israel warns attacks on Iran ‘will escalate and expand’ as Trump claims cease-fire advancements - New York Post",
+    "description": "Via New York Post. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQYUo5a1g5TVZBcUVmTGR0YjEyQXpyMFVpWW50TUFYbGt6UGRCRkJWZXY5c1ZGbW9NLXdpUVNhNDhoTDA0R2FQa3JtYVF0WG9vaGxSeDQ5SVhJMTIxV2VGNUVnSGdRdGZ3VElOUUNwTWttOTBCTE5XYlNHdE13bGxJcnFVbDNmR0N1aV81WFhBMXU2N1VBRGRXVGRDenhUN2t3a3N2aWZUcVNTR2dCSi1MZTRqb0F3LTd4X2h5WjRyV2YtVG9BNS1DdUc4Sk10bW93YnVrRzFR?oc=5",
+    "source": "New York Post",
+    "fetchedAt": "2026-03-27T15:00:53.363Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iranus-israel-war-and-erosion",
+    "date": "2026-03-27",
+    "title": "Iran-US, Israel War And Erosion Of India’s Strategic Autonomy – OpEd - Eurasia Review",
+    "description": "Via Eurasia Review. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSDY3ME5Mbm96dUx4UEIxT285OUoxenpGRlpiQkYyZDRMdWI1dzBCTlRJakR6SmZJZFloQ2tvV01ucjZTRmhCTWRCblBXUmNUNlhoSTYwYWhnVzN3eHNvenZhMXAwM1NRQWNFRC1qMjQ3RE5CeTVtZHhuR0xNbzQ2bF90ZTZmRVZSclVlUjF2VEl5VWgtS1VaT1F4dksxcVg4dm53LUJmQQ?oc=5",
+    "source": "Eurasia Review",
+    "fetchedAt": "2026-03-27T15:01:00.013Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israel-warns-attacks-on-iran",
+    "date": "2026-03-27",
+    "title": "Israel warns attacks on Iran will ‘escalate and expand’ with no sign of diplomatic breakthrough - The Globe and Mail",
+    "description": "Via The Globe and Mail. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5ubXdBY19qMGZ4X1pYem9XUHhPZmxvLXdNajdNYlFhYVRCaW9hNFZEWEdmdjJYZDl5ajg5ZVBCMEZUZHVCa19qOHpZWWQtbGpHekJvbWRlQW5JelA5cWhTYXdnamNabjNVLUpyUUx3bUJMZGFyR3poNlc1S0xwNUE?oc=5",
+    "source": "The Globe and Mail",
+    "fetchedAt": "2026-03-27T15:01:06.710Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "irans-steel-plants-targeted-by",
+    "date": "2026-03-27",
+    "title": "Iran's Steel Plants Targeted by U.S.-Israeli Aristrikes - Kurdistan24",
+    "description": "Via Kurdistan24. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQU1PdkZVTnl1Sjl5azJMaDV2OWp6OWVqQ1JBbVRKMmpXNlBiOXpHVFdUZnI1WG5qOS1pSlc2NGFrTkxSOHJJQTJrVEpodlFKdVV2alJNeFBOM3luVXFmdGtNZkdnYUNYclZGT1RwZWpwZHZPdXBRNk9UaDNfYkNMTFpOMlJ0R3lXMkxGSXFwQy1yYU1RMzNUSjhKR1I?oc=5",
+    "source": "Kurdistan24",
+    "fetchedAt": "2026-03-27T15:01:13.365Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "live-updates-six-injured-amid",
+    "date": "2026-03-27",
+    "title": "Live Updates: Six injured amid Iranian missile barrage, US-Iran talks 'progressing slowly' - The Jerusalem Post",
+    "description": "Via The Jerusalem Post. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9HSGVESHNVa05ZdDF2R1pCNFd4ZFJFbmhyNnlzV0g3MGwzV0hTV1dZVEVkaEUtdWtva1otRkNwaXYtblYxY3k4cnVITXN6Z1dyRFZENXZmNTc3S2l6QnBDLV9NUnRzbHhSX1MwajlPdTBjOVZwZWpWSl92TWNwLUU?oc=5",
+    "source": "The Jerusalem Post",
+    "fetchedAt": "2026-03-27T15:01:19.401Z",
+    "mediaUrls": [],
+    "videoMatch": null,
     "lat": null,
     "lng": null,
     "zoom": null,
