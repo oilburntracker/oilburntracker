@@ -1,191 +1,5 @@
 [
   {
-    "id": "the-damaged-gaza-war-cemetery",
-    "date": "2026-02-12",
-    "title": "The damaged Gaza War Cemetery highlights ongoing risk to soldier graves in conflict zones - The Conversation",
-    "description": "Via The Conversation. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOT3Nna05zRlI0cFJrUkV6S21qRkxtT0R3Rkc1RnVWbGJXZHEtRGpKYjVoZ3lvRk94STdpRVVzaEVpWnJOTFoyWmZEOHkwS3JPaTNXeGNCelZsTFg2cGhFNTFzSGlUemM0WXpUZXF5a21VVnF3ODI2Y1VFeEpJZWViOXYwRTF5WUVidWdxUFU5TWdtblZwbC1CLXRqSTUyMW1hUENoNjQxZWxmMEZRY3B5S0hIdUx6anBCUFhIVG53U1VSdw?oc=5",
-    "source": "The Conversation",
-    "fetchedAt": "2026-03-27T03:00:42.917Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "wti-oil-drops-as-us",
-    "date": "2026-03-23",
-    "title": "WTI Oil drops as US strike delay eases Middle East supply disruption fears - Mitrade",
-    "description": "Via Mitrade. Auto-detected by headline monitor.",
-    "category": "infrastructure",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZ3ZUazlweUxPdy1DNGs4UzNHYmJ4VGVId054aklQcVQtaFh6Q1dNWDJSVkhpOHNkVFVUT09KRVFfUVRWcnphNVBPTzJRcjNUdXg3TVd3Z25xQ0x4SkZabXp6d2s4QTg0RG84cmZqRGxmLWdUYnFJbmI0NmpLT3NkYjRhSQ?oc=5",
-    "source": "Mitrade",
-    "fetchedAt": "2026-03-27T03:00:56.274Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "oil-prices-climb-as-investors",
-    "date": "2026-03-26",
-    "title": "Oil prices climb as investors reassess Middle East ceasefire prospects - Dunya News",
-    "description": "Via Dunya News. Auto-detected by headline monitor.",
-    "category": "infrastructure",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNeUdKRW9xY3o1NDcwMkdXcGRQOVA1WlBKamdjcEJNb0xJb0RQS2U1WVpTMjdibnl4SlBnZFVXNUpkQW80NUhxRVM4ckZ4dFg5OHVEWGE3VjlpS0J6VDZTM2N3Y2l6RVRIVGVOZ1BuSFlURlQwT2dUcmRiX0Zud19qUnpsc2xybHNxTG9yQ2ZHSkJZSzV6U2VYLUxtYzU1RExCbW8zZGNfR0VFeGZQZHZhOXNiRWVPYjFsMTBsNw?oc=5",
-    "source": "Dunya News",
-    "fetchedAt": "2026-03-27T03:01:03.040Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "us-said-weighing-deployment-of",
-    "date": "2026-03-27",
-    "title": "US said weighing deployment of another 10,000 ground troops to Mideast; IDF strikes in Tehran - The Times of Israel",
-    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBZeVdEQmRlQUlxc2puS1BkSURUWHhSdS1xd3hRTGJIX2dwSHFUYzR0amVzN1FHQ3Rob0lmcnhmVzVzbDVOYlIxay1kU1p5S2tjcGsyVEdxSUtVXzNYYXZGLXhsd9IBaEFVX3lxTE4zQWhYOFdjeTNGb04tRDBuSGl0dWRJV3FUSTZvSXpTQmpJaXIyZUcxMTN0enJYTGkyd0c3eTRSWW1kOTlRTC1Ra05ydkYwNHBaWXNmRGQzcFYzUGp2OHVIeFVsUWJTcUFW?oc=5",
-    "source": "The Times of Israel",
-    "fetchedAt": "2026-03-27T04:00:12.099Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=1BbpFLKspAM",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "1BbpFLKspAM",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-war-latest-us-delays",
-    "date": "2026-03-27",
-    "title": "Iran war latest: US delays strikes on Iran energy infrastructure - The Times",
-    "description": "Via The Times. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMilgNBVV95cUxPNW42ZWtMandNU2hWamNBSmFFalJ4ampRV3JPRnpVb0h1cS1PTDVocW9QcmY3ZE9LU0ZJS1JSMDJMd2Y3eG56cTNXQ3p1VTI0aS1jRVFmWFJXejJEUVdqQWFXOENjWGxCQ3ZBd0xFaXRPUUZMc0QwenFGZ3p1M2xGSE80MGhreUJNS0FGdTFZcEs3YTJJd1VyM1lCMllLdFhxWkZ1VEpfam4zdVlpaURvSVNsTS0xdG1QV2NaQm9VN054NHRESzg3MWlnRC1tMFJkajJ5dHRaYzc5MUFGNnllWWVGT21jTE9Pc0NmbmZIQUlPY0QwVW9vS050anBKMjJYRldLSFRiV3J5ZTAtVy1Ga3NiU0pjcGtMMDhJR1BDekdkQUxma3loYjlIaGp5RG1rQXYxYWFCUVh1RmY2U1ZMazVHMFhsdXk3cUlPOE5rVTJ0YzJ5bWpLaVhTOG91VXp6alc1TkdGUXV3aWlaRHM5U2NpT0ZTV3FqUU5FeE5FaTFSck9DMTdKa3hNR1U4bWxQSnhZcTNn?oc=5",
-    "source": "The Times",
-    "fetchedAt": "2026-03-27T04:00:13.836Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=buglfD-2Hog",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "buglfD-2Hog",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "the-iran-war-the-view",
-    "date": "2026-03-26",
-    "title": "The Iran War: The View from the United States - .::. UCLA International Institute",
-    "description": "Via .::. UCLA International Institute. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4wOU5vclpISE9ReS1KVjgzV0s3dUpXb3hEb1VvdllQRnBlekFzNkNTb1REd2xZRUMtUGdpVkZOdVJwdnVCX3F4MHl3emppS1lwRzF2NHh0R09DbWxsNzFIaF83bEJEUUU?oc=5",
-    "source": ".::. UCLA International Institute",
-    "fetchedAt": "2026-03-27T04:00:20.126Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=3wDCuNG5s2I",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "3wDCuNG5s2I",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "analysis-back-channel-diplomacy-emerges",
-    "date": "2026-03-26",
-    "title": "Analysis: Back channel diplomacy emerges as Iran war intensifies - WTOP",
-    "description": "Via WTOP. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQdUxfX0FfbDlHN3hhcDlhRGt5aEw2QVZyZ0hJSThnbElNOFRzMzZOTUE0a09UaHBBdzRFMmszaHpFNFJKZVlPNlkxYVdHeEpCaDZyR01NTWtrcVBIWklxbHN1WUxTZnhLaGdUZWNJRy1PZTFxUkpZM3QtdF9QOG1VUHJWN2k0VTBwWG41TldtVTZxdVBSa3B1cFRmRXhuWWJsX010Tnp0c2J6NjlZ?oc=5",
-    "source": "WTOP",
-    "fetchedAt": "2026-03-27T04:00:22.424Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=zOEGOigMhOo",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "zOEGOigMhOo",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "us-said-mulling-final-blow",
-    "date": "2026-03-26",
-    "title": "US said mulling 'final blow' options if Iran talks fail, including sending troops to seize key assets - The Times of Israel",
-    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQRDFBbllDeGZBQTVOWjhjUXg2eC15aTZheTJaWjdKWmpsS3VXSmRnRXVsVG5pejhkdlA1NmtaNWxEUmNIZ1hrc1RYZ0V1SmJDQ0lUM29hckVsMWNpM1dlZGVjcGZLM0dKbW9uVGxCTERuOTBpZEN4aWRBVjh1QnRmbV9QT1I0bnJFVlBzOEhJaTh5ZEtNWHAzS3RyWW44VHhNU3FrTVVEaGowMmJ3WHBaTjZQcXctM1poQ1JuZXVueWxKNE9PU3BaLQ?oc=5",
-    "source": "The Times of Israel",
-    "fetchedAt": "2026-03-27T04:00:27.358Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=9q09ibKIjkc",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "9q09ibKIjkc",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "what-is-us-policy-on",
     "date": "2026-01-13",
     "title": "What Is U.S. Policy on the Israeli-Palestinian Conflict? - Council on Foreign Relations",
@@ -4432,6 +4246,118 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOcWpWZU5DOE5SLWdIYTh1RzlFdm51WjlZNzVJVFdqSUtnOXZFNl96aVJCZm4xZl9sdWZYRERPNW5vNTNjbGVVQUNFcHFtWk5lOHJBMGpxdHd5akwtYnNZS3ZTZEtrRUFIUFpaUkJGMU1BeFkwMGkxUElqNjI0WnlLM0stQm9PQl93dksteUl6aW1kakNOd2RadUtXR3B3aERiZkI0VjNfc3RaQXBUNjdLR2JFQ0tGV1FlOUHSAb8BQVVfeXFMT1MzYnV5aFZqRTV6N2RGTjVDTmd5Y1c5MzNzeTFaOGFZQ3N1aWRKOEowVTQzN0RsbVIwWHRwa083VFg0ZjA2NlBhT0UyRkRrRW1QbmlIRWdmZnFxU0poaUh0d2lQMjd6VUhrX0dtM2wySzIyLTZrZ1dqUjhjRmVBN0ZZVUl0a0ZKTjVBTzB1Uk1XUUhWREJUTnhFcTZXdkdwUi1wNkk2bjdPamVabGxnRlhBdnV6Szl4VjFkSVBJbVE?oc=5",
     "source": "timesofisrael.com",
     "fetchedAt": "2026-03-28T00:01:08.185Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "attacks-ramp-up-in-iran",
+    "date": "2026-03-28",
+    "title": "Attacks ramp up in Iran war including strikes on US troops in Saudi Arabia - Politico",
+    "description": "Via Politico. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPYVg3ck5HTHlKaFpfakRLWVJRcl9OWGVmSktjZmZHWUkzSWJBbTJpOUgxcDd1ZF9zRHV5M2tXc3N3LUZHenV0cGkycGt0UDlfVGpkaEpvYzZ5ZDE3WGlUR09BeTJDLV9hZ1QzNmRkblpuM09lOTJ6czJnSXB6OTFWa1BmNHBUNVQ2ajdrQUJWZER1M2IyRzJ4LWRheVI3cGUwYklRRFB0c0ljdEdNQ01KNEYwSnpUclVHSmp3UlFMZU1aUQ?oc=5",
+    "source": "Politico",
+    "fetchedAt": "2026-03-28T01:00:15.961Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=47mq5jmLVSo",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "47mq5jmLVSo",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "watchdog-blasts-bbc-cnn-nyt",
+    "date": "2026-03-28",
+    "title": "Watchdog blasts BBC, CNN, NYT for applying 'war crime' label almost exclusively to US, Israel in Iran conflict - Fox News",
+    "description": "Via Fox News. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNQjlVQzVGZktxVGRzR0M1anJrei1oWEsxeEhzWk9IUXo2aHZkSGFlMGQwdmdOVVlfSDRZUGhsUUo2aHdOVVF6R3lyU2Q4cjhoNF90THZHYXMtaXFpeVhTOWFnLW5HU19KSHlWNk45TjJ5VDlndkdOdmU1Q0hmM3kyMVd5UkpVVzcyZzRJcXJzVTQyaTFMVHdhVDdvb2dTS1MzWnFlQ1A1aEJBMjFhS2hfRVFXbmR5VU1CU05EV2FsZTJ5c1JyeDd30gHMAUFVX3lxTFA0cGdvNTgtMUd2cm5WWmJyUkpYbUh3dHFiNmd2dElvRmN2M3oyOGw3YmlSblpmVHBFXzNmLU5fbW1KcFA4MWJsNXVYa1NhNzVGWTNWTW1ZSlRzU19ITzRvS1lOdmZVNzJCWlhvSW9SWmw5Vk0wVmpaeHZSOG5wUWVxNjRXSWsyenoyWWxSUmVnQXFNNDFyUFNORUc4cGVCbHlNQzNibFFyd2tNanZmTURzc1V1aWNYOVFqQ1E1YlF4ME1OUVc0QnRYTFdQQQ?oc=5",
+    "source": "Fox News",
+    "fetchedAt": "2026-03-28T01:00:17.232Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "fear-fatigue-shape-daily-life",
+    "date": "2026-03-27",
+    "title": "Fear, fatigue shape daily life in Tel Aviv amid Iran war - DW.com",
+    "description": "Via DW.com. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTy1kT3h1RG5zYVhndmdHTVdlVHE2eTlIMHJJWUZiU3dRdU9WUVNXVDk2OTlRMzFzLUFqU09UcUNBNXRTY1lfcUpOY2I4aldBM0F5TGhwT2Z5MmlEM0pTb1Z0RXpmNURybE9yWVhWbHRtX1JjbGlweVoxUWl3RGd5REtMNU1EdDRsdmpsQzZ2QkJXR09vZExF?oc=5",
+    "source": "DW.com",
+    "fetchedAt": "2026-03-28T01:00:53.202Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "g7-calls-for-halt-to",
+    "date": "2026-03-27",
+    "title": "G7 Calls For Halt To Attacks On Civilian Infrastructure - rferl.org",
+    "description": "Via rferl.org. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPR29VWDJZbDJOOEd0SmtIYVBiVXc2SXd1WXRDRXhVblNFOXAtOVA2bTZYcVItZUlnUmh4WGxsNnBURndzR0VqUlhRUHRjTURDc2ZrSC04UE9tZzFaX0ZRcXVRLW95cmFQUGJxS2JrQVY1bnRtTnpVVHh0eVNqUnVrRU53?oc=5",
+    "source": "rferl.org",
+    "fetchedAt": "2026-03-28T01:01:00.187Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "houthis-warn-they-will-join",
+    "date": "2026-03-27",
+    "title": "Houthis warn they will join war if US-Israeli escalation against Iran continues - thenationalnews.com",
+    "description": "Via thenationalnews.com. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPU25WNF9iclVUb0RDb2tzTnJkc2hfdWxKLXd0TmJpMVVWV2dEdzdGb0ZweG4wUFc0Yk10Y0N1M0JzVXhsbWFuaTBKOUNRb3ZDLTJYZUtxczRKSGhQTDY1bndjQVF3ZkVxcG54WHBPT3hrMjBrZDZlVWFiOHR2dDNjTmJnaF9sRU1aZ0RzaTEyTHBMVDM1MVp3eFlncGEyY1VCMnE4Mjc5OEhSVnFKYWNvNmxSRXBOb21mRENPQmkxTFptTUdqbDl5QXF2UGQyMEZYTDh0V3RJT0wxeG8yUEE?oc=5",
+    "source": "thenationalnews.com",
+    "fetchedAt": "2026-03-28T01:01:06.833Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "war-in-iran-israel-and",
+    "date": "2026-03-28",
+    "title": "War in Iran: Israel and Gulf states fear a hasty US exit - Le Monde.fr",
+    "description": "Via Le Monde.fr. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOS0RDYnRvY0tFa1g2RHZwd2w3WUduVS0wRkZkUmhfTEtEdHZtamlxOVFwcl9tNUl1amhXd1JScUJGWlJHSGxScDBITkozTURSSnRGWkxiSFRTeEw3bFh5czg5ck1kdGx5bmVtY3dRNGdNRlE0QlFwaVZsZzQtTG1IRDFoVzktOUhIVVZLdnNnQ1JUc3dyWEtCNU9ZSFhhNTBERm45dnRjTm9UTjdSOExXQzhWTFVGbk4wWkw4U0pMSmh5QmJyMjVpMA?oc=5",
+    "source": "Le Monde.fr",
+    "fetchedAt": "2026-03-28T01:01:13.281Z",
     "mediaUrls": [],
     "videoMatch": null,
     "lat": null,
