@@ -1,201 +1,5 @@
 [
   {
-    "id": "iran-still-depends-on-hormuz",
-    "date": "2026-03-27",
-    "title": "Iran still depends on Hormuz despite years of workarounds - ایران اینترنشنال",
-    "description": "Via ایران اینترنشنال. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE10cmdoeHhMaDdrYTZSU2NjY1VsLXFUOU5FZUpWdHY1OTFEQnJXbEFZbGgxZ1A4U2hnSDMyVHlFRlpwV1hsR2syd3VnTXJxZU03R3c?oc=5",
-    "source": "ایران اینترنشنال",
-    "fetchedAt": "2026-03-27T02:01:05.056Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "president-trump-extends-iran-deadline",
-    "date": "2026-03-26",
-    "title": "President Trump extends Iran deadline, says Hormuz ‘present’ proves talks are progressing - KOCO",
-    "description": "Via KOCO. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPNzVEZlVUREdjZERVTnRyTXhDU2YzdzVEOW5zR0phS2ktQl9IY1l2ZTdqUWhVM1pwbzVmdi1xeldLalpqSi1UeldzVFBCSEVIT3hDakZBVHUtY09lYjJBTWNRVTRqaHVfOWJMVHdIU3VTWnFiSU85TTZqdHdtdkJ2MlhMTWt2SkFUdnhoUi0xRHNidUlwbDdEcGVUWWhCNXJtRjdLTUVlQ1YtN3RxdUh5Z0pPeFIwSjlhc1ptbGlQaGZGdw?oc=5",
-    "source": "KOCO",
-    "fetchedAt": "2026-03-27T02:01:11.493Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-update-special-report-march",
-    "date": "2026-03-26",
-    "title": "Iran Update Special Report, March 25, 2026 - Institute for the Study of War",
-    "description": "Via Institute for the Study of War. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQekRVcjk4NG5lRWxrclh0YTJGZXRXUllySmJUd0RGV3BkeVpsaHJ5amxib0Ztc3A1dFp6RG5xNVdOMWUxLWhSS2hqN0tPR2NpVG1DNURDTC0wTWNOYjZtV1VOTE0tV1k0dDZrWkxxajludmlWXy1RQzdTRno2UWd0bU1yWlhQM0kwTmJYelI3QjQ5bWVpZGc?oc=5",
-    "source": "Institute for the Study of War",
-    "fetchedAt": "2026-03-27T03:00:16.354Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=ZRKHicqQAPA",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "ZRKHicqQAPA",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "26-days-of-iran-war",
-    "date": "2026-03-27",
-    "title": "26 days of Iran war: In Israel, a good night's sleep becomes rarest luxury - India Today",
-    "description": "Via India Today. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdUQyRU1SSGYwaGhRQ3c0RTdCSFBrd0x3NDg0TTlrN01YZmZibmhJczlmdHBqbngyMVdqaFhEbkR4aDBEWnlsNk0xVnVoWUtvM1B0MmdOODhMc3RHQ1NGaTZ2VF9GazZPODlMV1lIMy1YeUwzVUtzcnhfenNzSWJGNXRvWkZxSFRjT01DTkRna1VHNVFoTFlKcGJlYUVZd3R1ZjVhM0sxdktmY0dEaFpXSUJXaGlwbHNEVFZwNWYxczHSAcYBQVVfeXFMTVhRdkVZRFVmLTc1QlByR3ZIUnFPSDBpOV8xUDU5ckRoXzJyWFBFRWkyYkhPWk5laDNOekRnNnhhTGdYa3pxSlFSRGJ3VmprTEVjQUpKa1ZFUlR6bGxBc19EVnpvUkJsMzFOU0tHRF8wNndicjJyVExVYzNqdWRBdFIzN0VYYWg0QTQ4eWZEaFFvQWxkcTFobm9Tb3VJbHFDSHV0VkVsRG9tWE5IenphclN0YnZwQzhmLU9hRUV1RTBUS000WEln?oc=5",
-    "source": "India Today",
-    "fetchedAt": "2026-03-27T03:00:18.043Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=K2kgGocWZTQ",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "K2kgGocWZTQ",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "remarks-by-unrwa-commissionergeneral-philippe",
-    "date": "2026-03-25",
-    "title": "Remarks by UNRWA Commissioner-General Philippe Lazzarini at the Geneva Graduate Institute: “The War in Gaza and the Future of UNRWA and the Rules-based Order” - UNRWA",
-    "description": "Via UNRWA. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQN2VuN3hmcEpselVNZlNCWFE4ODFGNVVwTVg0bTRVYVZaOWF0YVdyV1cwdGxtSFBGTHFoNnB2blRjX1VfNFhyam1TRVN3TkdLZUFqYkR4dG5zLUhrNy03WjdFeHNaSVR0S3hLVGNEZ2lJazlpOXZLMHdqM3RKbWdqRXUzVWYyUjBvdHJPWERWLVFvdkZIU1ZNcEZUYzcwYWQyalY2VHRxa1lrd3F6WW9WdkMtRmZ3eTlqRVBURk5oRExES2tqVlpRSFhR?oc=5",
-    "source": "UNRWA",
-    "fetchedAt": "2026-03-27T03:00:22.885Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=W6cSLzuIiFY",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "W6cSLzuIiFY",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "the-usisrael-war-on-iran",
-    "date": "2026-03-25",
-    "title": "The US-Israel war on Iran has opened a regional Pandora’s box - The New Arab",
-    "description": "Via The New Arab. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOeEF5OTU0SXN3QWlJc1JtZTZSS3V2eUhPZzhlNzJtMDVULTNtV09QWm1sLUNHbjE2Vks1R3dzaU9SSzdzSjk3bDg2c0wwcnFvLXlEdkFsWkcxNG55SXUyWjdvZWhrSUp6NEtEdzRRcU5sRVRfUTdIV2JwUUZQM0ptUm5tRkoxQVFaanZv0gGQAUFVX3lxTE1yS0t0UkNMYWRQc0NYVWF6bjdKRmlob1hpQTRKNkpWNWF6b19haElTUkxTQ1ZqQVhJZmFTczY5Rkc1aHVfWEMwWmNmd0FoLWVfc3dZaUNNZzNidnpieHdHdks5V0xOS0F3SjJfMkp1Uzh6Yk1vaFB6aXpobXJWY2RRbXU2WXZyYmZsdXpzeVFjYg?oc=5",
-    "source": "The New Arab",
-    "fetchedAt": "2026-03-27T03:00:25.333Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=bqwddkCN7tg",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "bqwddkCN7tg",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "lebanon-must-not-become-next",
-    "date": "2026-03-26",
-    "title": "Lebanon must not become next Gaza, says UN chief - Dawn",
-    "description": "Via Dawn. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9kQXdlbC05THcyNUgyU1B1dmVIYk1HZmNaZmlTU2t5RHZpUDJrTndUMkFWM05XQVBxTjFfWUhRTEpGcTBsMjFyctIBTkFVX3lxTE9TSVZIZHJLel83UC16RE1mOUdwUk9ValprTWNqWVowMVp5Q1RuX0tzNmNWYWItemM5SzZtcW1PS01aNzU1VlFQMmUxeEQ3dw?oc=5",
-    "source": "Dawn",
-    "fetchedAt": "2026-03-27T03:00:27.793Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=b_0r8kNHVMA",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "b_0r8kNHVMA",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "pope-says-israel-does-not",
-    "date": "2025-11-30",
-    "title": "Pope says Israel does not accept 'only solution' to Gaza conflict in surprise press conference - National Catholic Reporter",
-    "description": "Via National Catholic Reporter. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQb2FyVkdrYTdTZC1oc21BWGg5b1ZmV3AyUHZ2bWx5Vzk0MjJDSUdsUG0tWlZoWlBWWDRkVUVBWUhvR09jbGxiSmdNRWUwclZqNkRYc0YwZ0RCcURZUy0xMVVHMl9reHpfNXAtTkZ3dTU3N1ozMGh2RE9UQlVkdWZVSUZkLVltT2Ffb0xvbHJ1YkhmeG9WQTR0WmJJR05rc1ZHVGZwTlItUV9CTFhfZkdCeDNJanBMR3V2bkJNVw?oc=5",
-    "source": "National Catholic Reporter",
-    "fetchedAt": "2026-03-27T03:00:29.954Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=DHRuJejIbI8",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "DHRuJejIbI8",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "the-damaged-gaza-war-cemetery",
     "date": "2026-02-12",
     "title": "The damaged Gaza War Cemetery highlights ongoing risk to soldier graves in conflict zones - The Conversation",
@@ -4452,6 +4256,182 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRVdGQUlpa0JQNVk2OWNPRXhTSFR5QUhxeDlqNWd0YzJQZVNBNEZhWUJ2RW9mazVKTFdJOGdUdFJoSFhqMjNYeXFZdTJUZ29Ccl9qaUpSMFZEN0lJeTFkQ1VwakhlR1F1NHFpbHV4M0c5TkowNHV4cmI2SWZxaTFRX193UGjSAYoBQVVfeXFMTnVIRFhpRjFqT3htTnBJWXcyZXlkQlp6WWRHTUlyejlLVkItUzlTMlI4ZENuUzJkWnJ0VGRfVXVfR2UzQnZZekwzZUJpVDZlcEhDX3loa0FNSTNUVmk4V0JPWWg3V01adjhzVldCbWhZcmx0OGtlaGM5VjYxclE3X202S2NSS2lKaWZ3?oc=5",
     "source": "The Hill",
     "fetchedAt": "2026-03-27T23:00:51.688Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-war-live-updates-tehran",
+    "date": "2026-03-27",
+    "title": "Iran War Live Updates: Tehran Moves to Assert Its Control Over Strait of Hormuz After Trump Claims Progress in Talks - nytimes.com",
+    "description": "Via nytimes.com. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5PWm1LQkxpaXZGMG4xQ3RlWkV6TnZJWUtWOTFmbEtJUkloUHJnWUxxYjJ3NWF5UGtCZVV6SkFTc25fSDlLaG1hRFQtZEFLR3hHYm9ncnZ0dWdIblNkeGl0Qms2WU1pN3UyVnBSZ19EcEtmektYWVRpRGpwOA?oc=5",
+    "source": "nytimes.com",
+    "fetchedAt": "2026-03-28T00:00:11.959Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=I2h1lWlq4ak",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "I2h1lWlq4ak",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "live-updates-israel-vows-to",
+    "date": "2026-03-27",
+    "title": "Live updates: Israel vows to 'intensify and expand' Iran attacks; Trump delays Strait of Hormuz deadline - nbcnews.com",
+    "description": "Via nbcnews.com. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVFUzN2x3eUpxX3lvQmFUOTBtQVhScXBFRmhpY0YtZ2ROMDE5MnB0bklZQXR2bVlERkt6a0ZQeWVKalNxYnVOZHNxdjFMaC1MWWlMWDVUTEtwSHQtQUJxbEh4UndIamR5T2N3Rk1acWxLcHdNZ3llaHQwWXEzdmVUUHdZck9MWlRLSGVtaWJKWmx6M3BsNFdWN2diU3ppeDc0aWNvSnhtSWhCR1o4YnI5UXJB?oc=5",
+    "source": "nbcnews.com",
+    "fetchedAt": "2026-03-28T00:00:16.802Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=wp5Ntchw6M0",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "wp5Ntchw6M0",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "russia-reportedly-sending-iran-drones",
+    "date": "2026-03-27",
+    "title": "Russia reportedly sending Iran drones for use against the US and Israel - longwarjournal.org",
+    "description": "Via longwarjournal.org. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPMi1PNWZVY1JUR3B3ZnlJaG5XbnhZb21vd0pJcVZOMjhtMXNtUkVWUzFEUzhNU29jMGFDNGN1M1Jwal92RjUtVXREQnRIR2l2QVdTLUNkSFVPUHJKREZRRHY0RUpkZFBpTzk3N1BLc0dOX0x1M3d2TEhpRkNUaERNOC1yYmlCa3dWMWZIYnphbUtjTzhCa0FncThJYk5qVGljWG9JSEQ1QnJJNDhaZzBTTHFsSjRYSnh3SUpEQjdUVlY?oc=5",
+    "source": "longwarjournal.org",
+    "fetchedAt": "2026-03-28T00:00:21.910Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=Riw3kKeu3FY",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "Riw3kKeu3FY",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "78-of-jewish-israelis-support",
+    "date": "2026-03-27",
+    "title": "78% of Jewish Israelis support continuing Iran war — poll - timesofisrael.com",
+    "description": "Via timesofisrael.com. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPa2htOC1TQlM2SXJPQ1VfcnFINmxkblp6d3c3NXh2c0laVHo1eHZRLVlYMlNTS3BvWVNFX05abWlvaUVFV2wyWnVvUGt2T0tUc0NfY3FiT0EycXVJTGwwc0dRdXRnLWctM0JTYWMyMzZxMFZlRHY3RnZEMGVFSGFWaE9oRXVUaGJmM0NVR3R30gGTAUFVX3lxTE1aUWNEOThxbGxhVy0tNGxUUGthRFc0UGtzRXRPSE1SNHFRTnR3NVFKSWw3aWQ3Z0NlcXBidGozM3N2d2xnUnlWaDZ6NS04YVZVQUk5V0JPejEtN2FHdnpJcGJabGR2UEZBV1hJZmdvSFN3SThNRVJJT291clN1V2F2T2t2bzUyVXVYUHF5dGkxNlhuMA?oc=5",
+    "source": "timesofisrael.com",
+    "fetchedAt": "2026-03-28T00:00:26.369Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=ZPuY5KhwRRg",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "ZPuY5KhwRRg",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "12day-war-june-2025-strike",
+    "date": "2026-03-23",
+    "title": "12-Day War (June 2025) | Strike, Ceasefire, Attack, Nuclear Program, Ayatollah Khamenei, American bases, Map, & United States - britannica.com",
+    "description": "Via britannica.com. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBkQy1uaDB0YnFqSDFKVDE3TmQxS252bGlLVVFOYlJRcGV1eWthZE9yTkJKR215MUJCSlRLTVI3X2F4eURCQm8yY0ZfZEhDOWFwTU55UFZR?oc=5",
+    "source": "britannica.com",
+    "fetchedAt": "2026-03-28T00:00:42.044Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-update-special-report-march",
+    "date": "2026-03-27",
+    "title": "Iran Update Special Report, March 26, 2026 - Institute for the Study of War",
+    "description": "Via Institute for the Study of War. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQU0ZWNUlfWDdXejlpcnQ1VnBOMjZESmxlQlhyRGhIenlQMnF5dWUxeGhXekdXZk5xbUdmc0luaDBFeHB4SmNlNzhXZjY4aVJhMFJPN3hHc1paX1NWUXVLR3E2Q1h3RGtyLTZwdW80UEhrY3JzSWt5MjZSRHFWXy00NGlGOUxYUkdTenRaeHM5bGZGWEYxa1E?oc=5",
+    "source": "Institute for the Study of War",
+    "fetchedAt": "2026-03-28T00:00:48.570Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "aptopix-israel-iran-war-gazettextra",
+    "date": "2026-03-27",
+    "title": "APTOPIX Israel Iran War - GazetteXtra",
+    "description": "Via GazetteXtra. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQTlpwTGQzTVJmbkdVa2JPbS1MY1pjOGNDVUdHY3FsQllXUjl3MnhGamlYczJtSjZmXy1xd1E1YlFUMnlhVjloTVU0V0lzOFhzSW5HOEYwQ19Gc25MUXVxSmtDSUF5SEtDbm0zTDduMnJlUVRSamY5LVgtVEx6TFlEQXA2MVNVMHJxUlBSUlRGYWlmMTZOY3IzVE5SMUNIcjd5UlN1YWoxSjVMZnpkNS1FVUZQZ0tBNGlq?oc=5",
+    "source": "GazetteXtra",
+    "fetchedAt": "2026-03-28T00:00:54.855Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "katz-warns-strikes-on-iran",
+    "date": "2026-03-27",
+    "title": "Katz warns strikes on Iran to intensify as regime keeps up missile fire at Israeli civilian areas - timesofisrael.com",
+    "description": "Via timesofisrael.com. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOcWpWZU5DOE5SLWdIYTh1RzlFdm51WjlZNzVJVFdqSUtnOXZFNl96aVJCZm4xZl9sdWZYRERPNW5vNTNjbGVVQUNFcHFtWk5lOHJBMGpxdHd5akwtYnNZS3ZTZEtrRUFIUFpaUkJGMU1BeFkwMGkxUElqNjI0WnlLM0stQm9PQl93dksteUl6aW1kakNOd2RadUtXR3B3aERiZkI0VjNfc3RaQXBUNjdLR2JFQ0tGV1FlOUHSAb8BQVVfeXFMT1MzYnV5aFZqRTV6N2RGTjVDTmd5Y1c5MzNzeTFaOGFZQ3N1aWRKOEowVTQzN0RsbVIwWHRwa083VFg0ZjA2NlBhT0UyRkRrRW1QbmlIRWdmZnFxU0poaUh0d2lQMjd6VUhrX0dtM2wySzIyLTZrZ1dqUjhjRmVBN0ZZVUl0a0ZKTjVBTzB1Uk1XUUhWREJUTnhFcTZXdkdwUi1wNkk2bjdPamVabGxnRlhBdnV6Szl4VjFkSVBJbVE?oc=5",
+    "source": "timesofisrael.com",
+    "fetchedAt": "2026-03-28T00:01:08.185Z",
     "mediaUrls": [],
     "videoMatch": null,
     "lat": null,
