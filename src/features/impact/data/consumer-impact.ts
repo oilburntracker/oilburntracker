@@ -283,6 +283,20 @@ export const consumerImpactData: ConsumerImpact[] = [
     headline: 'Oil drops 13% to $101 — but gas hasn\'t followed yet. Grocery inflation building as trucking costs rise.',
     source: 'AAA: $3.96 Mar 23. Fortune: Brent $101.44. BLS CPI food +3.1% YoY Feb.',
   },
+  {
+    date: '2026-03-27',
+    oilPriceBbl: 105,
+    gasPriceGallon: 4.02,
+    groceryInflationPct: 5.5,
+    monthlyGroceryExtra: 55,
+    natGasMMBtu: 7.0,
+    monthlyUtilityExtra: 68,
+    shippingSurchargePct: 65,
+    deliveryDelayDays: 12,
+    totalMonthlyExtra: 160,
+    headline: 'Brent surges 2.9% to $105 on nuclear/steel strikes. IRGC threatens Gulf industrial targets. Stocks hit worst streak in 4 years.',
+    source: 'Fortune: Brent $104.81. US crude $98.61 (+4.4%). AAA est ~$4.02.',
+  },
 ];
 
 // ═══ MERGE AUTO-GENERATED DAILY DATA ═══

@@ -2448,7 +2448,112 @@ export const conflictEvents: ConflictEvent[] = [
     mediaUrls: [
       { type: 'youtube', url: 'https://www.youtube.com/watch?v=cpNZkTQ7_8o', label: 'WaPo: Trump threats raise specter of battle for Hormuz' }
     ]
-  }
+  },
+
+  // ═══ MARCH 27 — Day 28: Israel escalates to industrial + nuclear targets ═══
+
+  {
+    id: 'yazd-yellowcake-strike',
+    date: '2026-03-27',
+    time: '06:00',
+    title: 'Israel strikes Iran\'s only yellowcake plant in Yazd — "unique facility" destroyed',
+    category: 'military_strike',
+    description: 'Israeli F-35I strikes hit the Ardakan yellowcake production plant in Yazd Province — described by the IDF as "the only one of its kind in Iran." Yellowcake is uranium concentrate, the essential feedstock for the enrichment process. Without it, Iran cannot produce enriched uranium regardless of how many centrifuges survive. Iran\'s Atomic Energy Organization confirms the strike but says there were "no casualties and no risk of contamination." The strike represents a systematic dismantling of Iran\'s nuclear supply chain from raw material to final enrichment.',
+    lat: 32.31,
+    lng: 54.02,
+    zoom: 8,
+    sourceUrl: 'https://www.aljazeera.com/news/2026/3/27/israel-launches-strikes-on-iran-nuclear-sites-as-war-enters-fifth-week',
+    mediaUrls: [
+      { type: 'news', url: 'https://fortune.com/2026/03/27/israel-strikes-irans-nuclear-facilities-tehran-vows-retaliation/', label: 'Fortune: Israel strikes Iran nuclear facilities' },
+      { type: 'news', url: 'https://www.euronews.com/2026/03/27/iran-says-nuclear-facilities-hit-by-strikes-after-israel-warns-attacks-will-escalate', label: 'Euronews: Iran nuclear facilities hit' }
+    ]
+  },
+  {
+    id: 'arak-heavy-water-strike-2',
+    date: '2026-03-27',
+    time: '06:30',
+    title: 'Arak heavy water complex hit again — second strike on Shahid Khondab reactor',
+    category: 'military_strike',
+    description: 'Israeli strikes hit the Shahid Khondab Heavy Water Complex in Arak for the second time — the facility had been inactive since an earlier Israeli attack in June. Heavy water is used as a moderator in nuclear reactors capable of producing plutonium. The IAEA reports "no radiation risk" from the strike. Iran\'s nuclear program is now degraded across the entire fuel cycle: yellowcake production (Yazd), enrichment (Natanz/Fordow), and plutonium pathway (Arak).',
+    lat: 34.05,
+    lng: 49.25,
+    zoom: 9,
+    sourceUrl: 'https://www.aljazeera.com/news/2026/3/27/israel-launches-strikes-on-iran-nuclear-sites-as-war-enters-fifth-week',
+    mediaUrls: [
+      { type: 'news', url: 'https://www.israelhayom.com/2026/03/27/why-irans-struck-nuclear-sites-matter/', label: 'Israel Hayom: Why struck nuclear sites matter' }
+    ]
+  },
+  {
+    id: 'iran-steel-plants-strike',
+    date: '2026-03-27',
+    time: '08:00',
+    title: 'Israel bombs 2 IRGC-linked steel plants — first industrial targets of the war',
+    category: 'military_strike',
+    description: 'In a significant escalation, Israel strikes two of Iran\'s largest steel facilities: Khuzestan Steel near Ahvaz and Mobarakeh Steel in Isfahan. Both are partially owned by the IRGC. Israeli security sources say the damage is "expected to cost billions" and will "paralyze Iran\'s steel industry." Iran is the world\'s 7th largest steel producer. This marks the first time Israel has targeted Iranian industrial facilities not directly linked to defense or energy — signaling a strategy of broad economic warfare. Defense Minister Israel Katz vows to "intensify" operations and "expand the targeting scope."',
+    lat: 32.65,
+    lng: 51.68,
+    zoom: 7,
+    sourceUrl: 'https://www.timesofisrael.com/israel-bombs-2-irgc-linked-steel-plants-2-nuclear-facilities-as-iran-vows-revenge/',
+    mediaUrls: [
+      { type: 'news', url: 'https://www.bloomberg.com/news/articles/2026-03-27/us-israel-hit-iran-s-nuclear-facilities-as-tehran-attacks-gulf', label: 'Bloomberg: US-Israel hit Iran nuclear & steel' }
+    ]
+  },
+  {
+    id: 'bushehr-near-miss',
+    date: '2026-03-27',
+    time: '07:00',
+    title: 'Projectile hits near Bushehr Nuclear Power Plant — Iran\'s only operational reactor',
+    category: 'escalation',
+    description: 'Iran\'s Atomic Energy Organization reports a projectile struck near the Bushehr Nuclear Power Plant — Iran\'s only operational civilian nuclear reactor, built with Russian assistance. The organization says the strike caused "no casualties, financial, or technical damage." Bushehr has been considered off-limits due to the catastrophic contamination risk of hitting an active reactor. Whether this was a warning shot or a near-miss is unclear, but it sends an unmistakable message about the escalation trajectory.',
+    lat: 28.83,
+    lng: 50.89,
+    zoom: 10,
+    sourceUrl: 'https://www.pbs.org/newshour/world/israel-warns-attacks-on-iran-will-escalate-and-expand-as-trump-says-ceasefire-talks-are-going-very-well',
+    mediaUrls: []
+  },
+  {
+    id: 'irgc-eye-for-eye-threat',
+    date: '2026-03-27',
+    time: '12:00',
+    title: 'IRGC: "The equation will no longer be an eye for an eye" — threatens Gulf industrial targets',
+    category: 'retaliation',
+    description: 'IRGC Aerospace Commander Seyed Majid Moosavi warns that "the equation will no longer be an eye for an eye — just wait." The IRGC publishes target lists including industrial facilities in Saudi Arabia, UAE, Kuwait, Qatar, and Bahrain, and urges foreign workers to evacuate. Foreign Minister Araghchi vows Israel will "exact a HEAVY price" for striking "two of Iran\'s largest steel factories, a power plant and civilian nuclear sites." Iran launches 5 missile salvos throughout the day, with over 450 ballistic missiles fired since the war began.',
+    casualties: { killed: 1, injured: 12, source: 'IDF / JPost (1 killed in Tel Aviv, cluster munitions)' },
+    lat: 35.69,
+    lng: 51.39,
+    zoom: 6,
+    sourceUrl: 'https://www.aljazeera.com/news/2026/3/27/israel-launches-strikes-on-iran-nuclear-sites-as-war-enters-fifth-week',
+    mediaUrls: [
+      { type: 'news', url: 'https://www.jpost.com/middle-east/iran-news/2026-03-27/live-updates-891386', label: 'JPost: Iran fires 5 missile salvos' }
+    ]
+  },
+  {
+    id: 'iran-civilian-damage-82k',
+    date: '2026-03-27',
+    time: '14:00',
+    title: 'UN: 82,000 civilian buildings damaged across Iran — 180,000 people affected',
+    category: 'humanitarian',
+    description: 'The UN International Organization for Migration documents that 82,000 civilian buildings across Iran have sustained damage since the war began, affecting 180,000 people. At least 120 museums and historical sites have been damaged. Over 1,900 people have been killed in US-Israeli attacks on Iran in 28 days. The humanitarian toll extends far beyond military targets — Iran\'s civilian infrastructure is being systematically degraded by the breadth of the air campaign.',
+    casualties: { killed: 18, injured: 45, source: 'Iran Health Ministry / Al Jazeera (18 killed in Qom)' },
+    lat: 34.64,
+    lng: 50.88,
+    zoom: 6,
+    sourceUrl: 'https://www.aljazeera.com/news/2026/3/27/israel-launches-strikes-on-iran-nuclear-sites-as-war-enters-fifth-week',
+    mediaUrls: []
+  },
+  {
+    id: 'oil-spike-mar27',
+    date: '2026-03-27',
+    time: '16:00',
+    title: 'Brent surges 2.9% to $104.81 — stocks hit longest losing streak in 4 years',
+    category: 'escalation',
+    description: 'Oil prices surge on the nuclear strikes and IRGC threat to target Gulf industrial infrastructure. Brent crude rises 2.9% to $104.81/barrel, US crude jumps 4.4% to $98.61. Stock markets log their longest losing streak in nearly four years as investors price in the war\'s expanding scope — from military to industrial to nuclear targets. Analysts warn that if Iran follows through on targeting Gulf industrial facilities, oil could spike past the $112 peak hit earlier in the conflict.',
+    lat: 25.0,
+    lng: 54.0,
+    zoom: 4,
+    sourceUrl: 'https://fortune.com/2026/03/27/israel-strikes-irans-nuclear-facilities-tehran-vows-retaliation/',
+    mediaUrls: []
+  },
 ];
 
 // ═══ AUTO-PUBLISHED EVENTS (from headline monitor pipeline) ═══
@@ -2577,6 +2682,10 @@ const NUCLEAR_TIMELINE: NuclearEvent[] = [
   {
     date: '2026-03-21',
     status: { facilitiesTargeted: 6, facilitiesDestroyed: 4, enrichmentPct: 15, radiationRisk: 'high', label: 'Natanz struck again — IAEA warns of nuclear accident risk' }
+  },
+  {
+    date: '2026-03-27',
+    status: { facilitiesTargeted: 9, facilitiesDestroyed: 5, enrichmentPct: 5, radiationRisk: 'high', label: 'Yazd yellowcake + Arak heavy water + near Bushehr — full fuel cycle targeted' }
   },
 ];
 

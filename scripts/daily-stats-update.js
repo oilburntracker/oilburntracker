@@ -20,29 +20,29 @@ const ROOT = path.join(__dirname, '..');
 // The script generates entries starting the day AFTER each lastDate.
 
 const CONSUMER_BASELINE = {
-  lastDate: '2026-03-23',
-  oilPriceBbl: 101,
-  gasPriceGallon: 3.96,
-  groceryInflationPct: 5.0,
-  natGasMMBtu: 6.8,
+  lastDate: '2026-03-27',
+  oilPriceBbl: 105,
+  gasPriceGallon: 4.02,
+  groceryInflationPct: 5.5,
+  natGasMMBtu: 7.0,
   shippingSurchargePct: 65,
   deliveryDelayDays: 12,
-  // Targets for mean reversion (scenario: war stabilizing, SPR releases)
-  oilTarget: 98,
-  gasTarget: 4.05,       // Pump prices lag oil drops
-  groceryTarget: 6.0,     // Still building from supply chain effects
-  natGasTarget: 6.2,      // Initial panic subsiding
-  shippingTarget: 60,     // Routes adjusted
+  // Targets for mean reversion (scenario: IRGC threatening Gulf targets, elevated risk)
+  oilTarget: 108,          // Nuclear strikes + industrial escalation = higher floor
+  gasTarget: 4.15,         // Pump prices still catching up
+  groceryTarget: 6.5,      // Supply chain stress building
+  natGasTarget: 7.5,       // IRGC Gulf threats keep energy elevated
+  shippingTarget: 70,      // Gulf insurance spiking on industrial target threats
 };
 
 const WAR_COST_BASELINE = {
-  lastDate: '2026-03-21',
+  lastDate: '2026-03-27',
   dailyMilitaryBillions: 1.0,   // Pentagon: ~$1B/day carrier + air ops
   dailyEconomicBillions: 2.0,   // Oil premium + shipping disruption drag
 };
 
 const CASUALTY_BASELINE = {
-  lastDate: '2026-03-22',
+  lastDate: '2026-03-27',
   // Estimated daily rate across all theaters (Gaza + Lebanon + Iran + Gulf)
   dailyKilled: 150,
   dailyInjured: 350,

@@ -42,6 +42,7 @@ export const warCosts: WarCostEntry[] = [
   { date: '2026-03-21', category: 'weapons', label: 'Natanz nuclear facility strike (bunker busters + F-35I)', amountBillions: 2, source: '[OBT estimate from munition costs]' },
   { date: '2026-03-21', category: 'weapons', label: 'Iran 70th wave — missiles at 5 US bases + Israel', amountBillions: 3, source: 'IRGC / CGTN reporting' },
   { date: '2026-03-21', category: 'weapons', label: 'Day 22 ongoing operations ~$1B/day', amountBillions: 1, source: 'Pentagon' },
+  { date: '2026-03-27', category: 'weapons', label: 'Israel F-35I strikes on Yazd yellowcake + Arak heavy water + 2 steel plants', amountBillions: 2, source: '[OBT estimate from sortie/munition costs]' },
 
   // ═══════════════════════════════════════════════
   // RESOURCES & INFRASTRUCTURE DESTROYED
@@ -66,6 +67,8 @@ export const warCosts: WarCostEntry[] = [
   { date: '2026-03-20', category: 'resources', label: 'Kuwait Mina al-Ahmadi hit again (2nd strike)', amountBillions: 1.5, source: '[OBT estimate from KPC capacity data]' },
   { date: '2026-03-21', category: 'resources', label: 'Natanz enrichment facility damage (centrifuge halls)', amountBillions: 10, source: 'Arms Control Association', sourceUrl: 'https://www.armscontrol.org/issue-briefs/2026-03/us-war-iran-new-and-lingering-nuclear-risks' },
   { date: '2026-03-21', category: 'resources', label: 'Damage across 5 US bases from 70th wave', amountBillions: 1.5, source: '[OBT estimate from Pentagon damage reports]' },
+  { date: '2026-03-27', category: 'resources', label: 'Khuzestan Steel + Mobarakeh Steel destroyed — Iran\'s steel industry paralyzed', amountBillions: 8, source: 'Israeli security sources: "expected to cost billions" / Times of Israel', sourceUrl: 'https://www.timesofisrael.com/israel-bombs-2-irgc-linked-steel-plants-2-nuclear-facilities-as-iran-vows-revenge/' },
+  { date: '2026-03-27', category: 'resources', label: 'Ardakan yellowcake plant + Arak heavy water complex destroyed', amountBillions: 5, source: '[OBT estimate from nuclear facility construction costs]' },
 
   // ═══════════════════════════════════════════════
   // ECONOMIC IMPACT — INFLATION, OIL, SHIPPING
