@@ -11151,5 +11151,49 @@
         "label": ""
       }
     ]
+  },
+  {
+    "id": "auto-day-28-of-middle-east",
+    "date": "2026-03-28",
+    "title": "Day 28 of Middle East conflict — US service members injured in attack on Saudi air base",
+    "category": "military_strike",
+    "description": "Via CNN. Auto-detected by headline monitor.",
+    "lat": 24.71,
+    "lng": 46.68,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1hdDAzWUpXVmJkOWRUTzV1Q2czV0hIX0VVaThkV05VUTg4ckVGWDR5aHB3Zy12RUsyQnlFWEk4R0NGSlVXa2d1akxockVPSDlRWFByazhxQkJIZERKWlY2LWJjZVV4WWZ6Q1otbmtKdDdvSlc0NXU1WU8zTQ?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=dXVsfBrdYNk",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "auto-targeted-israeli-airstrike-kills-3",
+    "date": "2026-03-28",
+    "title": "Targeted Israeli airstrike kills 3 journalists in southern Lebanon covering the war",
+    "category": "military_strike",
+    "description": "Via PBS. Auto-detected by headline monitor.",
+    "lat": 32.07,
+    "lng": 34.78,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQTGF5ZldvUEFtQ1Q4TklqNG5hNXhWdTFTbXpfY0lUTDFsUjVpZTllNEozUllhUFkyYldNWGNoalNhbmhERHhWeVk1WThDeldBdnB3eEF0Vk53cFdZQ1pNWW1TYmhtRENuazJKeXpnQkRIRFEzamcyOG9kNXhKSUgzbk5UMlNxRG5JaEN1ZkdtbmVpNHdtdUJZRnlwaFBPakNTZTNBRnN2d1FxUGVieDRoRWlwa1BEaVFWWmfSAb8BQVVfeXFMUFUxcjZBOXFuTlo5RWtieW1meXNIX1JaS2ZlTWZVbk51TlppRkZ3bVdyNU9qY1NhR0FlSFV6eF85bEV0NUctZ1puemtiSWN5SFNvNVBFVnlabjJKVFpGRy0wNDhxeWVvRlhGUTBmRFVndVFnZUJuUk9hY3ZXb25icTNOR1QtQ0tDY21IblY5cVV5S01DLWpqWGJuLUF6YVl5cC03LUVvYmIxUmw1WXdMN010Z0JueDJxMGI5bUxMN3M?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=gLUBc5WApGo",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "auto-potential-houthi-threat-to-red",
+    "date": "2026-03-28",
+    "title": "Potential Houthi threat to Red Sea shipping could further damage global economy",
+    "category": "chokepoint",
+    "description": "Via BBC. Auto-detected by headline monitor.",
+    "lat": 15.37,
+    "lng": 44.19,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9Oc2gzNmFHWFAwM1V6b3dMSjhYUzZjRVlTbTNrSUlra2ZGLUVoZlR3akNWQ2Z0NmJvc29HRFV5eE1aN3MzNDZJTEJvSS1pdmdZV2ZsMkpfUnZZUQ?oc=5"
   }
 ]
