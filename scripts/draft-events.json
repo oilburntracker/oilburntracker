@@ -1,218 +1,5 @@
 [
   {
-    "id": "for-us-war-with-iran",
-    "date": "2026-03-27",
-    "title": "For U.S., war with Iran may come down to ‘markets and munitions’ - Harvard Gazette",
-    "description": "Via Harvard Gazette. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNX1JvRWhFWVo3S0VBV1h2aHNoVHhqVXVTZWlWTS13Y1pqY25CZl92LUVJWEpXSFVaOXp2REJ0YVVPbnhhOVBYTUItb2ZzZC1DVnQwVDhYVjJWdVg1M2FIbElYeENzRlhkZXZUWGVfVF9jcGNIcUh3TXJQT2F4M3lhV1FqcXBuUkMxdzJjaVNhRVVBOFc0WkxES3g5OHRjOXhZYXFZbkY0MFpVOGJH?oc=5",
-    "source": "Harvard Gazette",
-    "fetchedAt": "2026-03-27T17:00:22.607Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=CR80mZ7d26c",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "CR80mZ7d26c",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "what-we-know-on-day",
-    "date": "2026-03-27",
-    "title": "What we know on Day 28 of the US and Israel’s war with Iran - cnn.com",
-    "description": "Via cnn.com. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMWlFTzBxTnFkd051LXNLQ1JoN1FMbklLZHNKazZhU3RZajdHZW5nT1pQd1JicFV3R2I2ZUFCd21xSWVRRE5obk95b2dYazBaUXk3TlpOVURORzdUbUxjcXl4WVZiT3RtR0Mwcm90MkpESVRadGlEOEs3S1lmWldwSVU5eG9RRE9NYy1vMWNxSnV1YVdvT2NzTUplaldKMENnMFJV?oc=5",
-    "source": "cnn.com",
-    "fetchedAt": "2026-03-27T17:00:25.262Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=U4PVW9mvVhc",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "U4PVW9mvVhc",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "live-updates-iran-claims-us",
-    "date": "2026-03-27",
-    "title": "Live Updates: Iran claims US, Israel struck heavy water research reactor, IDF conducts wave of strikes in Beirut - The Jerusalem Post",
-    "description": "Via The Jerusalem Post. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9HSGVESHNVa05ZdDF2R1pCNFd4ZFJFbmhyNnlzV0g3MGwzV0hTV1dZVEVkaEUtdWtva1otRkNwaXYtblYxY3k4cnVITXN6Z1dyRFZENXZmNTc3S2l6QnBDLV9NUnRzbHhSX1MwajlPdTBjOVZwZWpWSl92TWNwLUU?oc=5",
-    "source": "The Jerusalem Post",
-    "fetchedAt": "2026-03-27T17:00:30.335Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=hnX2MmsT_B4",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "hnX2MmsT_B4",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "what-we-know-on-day",
-    "date": "2026-03-26",
-    "title": "What we know on Day 27 of the US and Israel’s war with Iran: Trump frustrated with Tehran and IRGC navy chief dead - cnn.com",
-    "description": "Via cnn.com. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQX282N3ZvRGxjbkJiNjQyakc2SDZDWFJsSEhJeGZtTHdVUDF0cDJ3dFExcUtSUHJldG1wOVhqUUxhVG5UTk9OWmJYaGRSNkQyUzktY29GN0FkT0RtMDloUXBTVXJFVGNjaTN1N2twLW9WSC05UDFlSHF3NE82MVFNTkJLU0xMb2laRHlZWmVucGJKdl9hVThrRmU5c0hNTDBrN21V?oc=5",
-    "source": "cnn.com",
-    "fetchedAt": "2026-03-27T17:00:32.906Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=EnmwU_L7UMU",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "EnmwU_L7UMU",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "for-the-us-and-israel",
-    "date": "2026-03-27",
-    "title": "For the US and Israel, the Iran war is exposing an uncomfortable new world order - openDemocracy",
-    "description": "Via openDemocracy. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQmxvU1oxZlF0VldDcnFZdUFfS3lHdnc2TnJUNVIzZDFZVjl6VjRRU0JlRGtEUkg4NU9XS3F6NTJLRzU3enRWMDFvZk1aYzZEM09YTExMTzJtWWhRV183em04TlJIT0g4Y0ZMUXVLQmtpZlpORUhJQzRWMS1tZGRWU2p6TlR0WU1VN1NTOXNyMUpaNHlHNDJLUFFlcWhhWEdfMnBYYUdQOS1HRTJVVVR2TzN1eGVoZw?oc=5",
-    "source": "openDemocracy",
-    "fetchedAt": "2026-03-27T17:00:35.470Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=rhwmri42hRA",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "rhwmri42hRA",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "alliance-rift-and-dedollarization-as",
-    "date": "2026-03-27",
-    "title": "Alliance Rift and De-dollarization as Derivatives of the U.S.-Israel vs Iran War - China-US Focus",
-    "description": "Via China-US Focus. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNNFd3M0syMGxGbnFVVGpNbS1FSWZaTkJpZTZZOENDZEtaTUpsVVlKbm05MGhGeTNjRldkaTRvMm1wYVQ0N1BJeGhlRHFtdUQzbzhvZkpGaEQ1a2gxRk90d1RPdldRaklQY3dPVnhTaWRQd1hkSXBHSGNZZWJ4R0hyWWxsZjI2TnM2MWhOMmNpNVNNLTFqSEJIMFdsemFvbkE1YUppem5CMUdkX05lM1hUc1dPRFY2Uk9MR0pBRW1LVQ?oc=5",
-    "source": "China-US Focus",
-    "fetchedAt": "2026-03-27T17:00:37.761Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-latest-israel-to-expand",
-    "date": "2026-03-27",
-    "title": "Iran latest: Israel to expand attack in Iran, Trump delays deadline for Strait of Hormuz - livenowfox.com",
-    "description": "Via livenowfox.com. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUWJ1NVEzUmpfbTd5Ym8xbEloREZjNXVYbjZDbXlITWFLc3FXUTJocmVON1B4bWo4WTdvMkIyUlEtYjVQNERjQWVyX3duZWtWbzlhbXU4UjJwUnZqcUQ5NWpjazc5OWU1NmxRMzNlSTUtNnlFSVlkTG1zOUh4X1ZDSFgwSXBpZnRBd2FvdnpNanFrd1RweHEyX3dEVkFsTmFQNzlCSkpaNzjSAa4BQVVfeXFMTkJtSGZKOEZYbFBFUWpQWW5oQ0dlVFpTeXVfam40M1Z0QjFfbFZfVnJ3MjB1V2UtVW9YRXBIZUZDSW5MSDV3emFJWVlwMlA0U0JsNGM3S1V4a3JwYi16bkJaVlR4ZGZIYzR5MDU0V1RZSTdsdkJrbkw5T1dCYWFKTmFhWFhyb1FDRlhrZEo4SkZqNEdTdWhJZU4wUldmWDYwcjNNN05LYVFqUmZNZWt3?oc=5",
-    "source": "livenowfox.com",
-    "fetchedAt": "2026-03-27T17:00:40.129Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=eY4dA16E2wI",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "eY4dA16E2wI",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-says-nuclear-facilities-have",
-    "date": "2026-03-27",
-    "title": "Iran says nuclear facilities have been targeted after Israel said attacks 'will escalate and expand' - KTVN",
-    "description": "Via KTVN. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQak9zNWNoWnR2dnJ3U2NNYWxGSkplcVA0OUNxcEhTNGZrc0lGWm1qaWVlWmhlcU10eS1nRnNKbU9OcG5LMmwtQjVSLVZGUDh3UkNyVUlZSXg5MTJJeW5uVXJkbkViVjRuR3pCRUFsSVBmd2MyYXliMzlVZ0QydWJwMmFTWnVXY2ZMUlRWNHBnQjFINEZ3Mm1odEZuSlBheWlTbDcySC1vek1JdDJRTzFMNk50dmhnMW1JVFphbXRNRTBzZ0tRdUlEOWdNa3ZJZUVpRGtzV0FoUE83VlFrM0U0TXBNTTgxX1c3OENBeFI4VG01djhRQVA1cUEyazBreHpZQk5WQmFHOWtHTndzczZSaWZR?oc=5",
-    "source": "KTVN",
-    "fetchedAt": "2026-03-27T17:00:46.510Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "three-chessboards-one-war-one",
-    "date": "2026-03-27",
-    "title": "Three chessboards, one war: One month into the second Iran war - opinion - The Jerusalem Post",
-    "description": "Via The Jerusalem Post. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9JdVRUUzQ5OFAtb25lcV9mcU5Pek1ROWoybDY2LTBaTzAxOWh6VEJOVjl2SGJLc0lvcE9zOHJKRFhQZl84dU9ZTmo1RHJTYmVUZGdyNjZRX1p6dFVVOE9sZElhTQ?oc=5",
-    "source": "The Jerusalem Post",
-    "fetchedAt": "2026-03-27T17:00:53.049Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "iran-war-israel-hits-iranian",
     "date": "2026-03-27",
     "title": "Iran war: Israel hits Iranian heavy water nuclear reactor - DW.com",
@@ -4389,6 +4176,209 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPR29VWDJZbDJOOEd0SmtIYVBiVXc2SXd1WXRDRXhVblNFOXAtOVA2bTZYcVItZUlnUmh4WGxsNnBURndzR0VqUlhRUHRjTURDc2ZrSC04UE9tZzFaX0ZRcXVRLW95cmFQUGJxS2JrQVY1bnRtTnpVVHh0eVNqUnVrRU53?oc=5",
     "source": "Radio Free Europe/Radio Liberty",
     "fetchedAt": "2026-03-28T14:00:56.693Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "houthi-entry-into-iran-war",
+    "date": "2026-03-28",
+    "title": "Houthi Entry Into Iran War Raises Specter Of Twin Chokepoint Crisis - Radio Free Europe/Radio Liberty",
+    "description": "Via Radio Free Europe/Radio Liberty. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPVnE4RkxYUnhmdTJKcE8zU3pFRlBuR0xqcHQ5WFY1WWs3Ukk4Y2JPb28xNDlQTVFNZXE2MEp3Qzh4Mjg0Zm9waHNGQkx3R0RBZ3VIaUVwWGVDc19IZ3BtWm1xSFdzNVA5Y1NGY3pLZlBYelFUWmotVG5ESmctOHctUVNiR0xMb2R6RVHSAYwBQVVfeXFMT1FJNFp1NUtKTzFwYzBIYTdnWEh3bVlWZkxDbUxyWWVqRlhwWUtxSkUxb0VfRVFTZnJHNkp0Z0RxVmY1WXVQTXdoU1dpeFpsek9jYWJJcDJXS3BJX0JMZTZMVFNabFQ0UnhJNmEwNXA0REhjdVRqOVgtSlNSaHkwa2NQaHVfQ05lTk1jVE4?oc=5",
+    "source": "Radio Free Europe/Radio Liberty",
+    "fetchedAt": "2026-03-28T15:00:14.502Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=uNzhC8DOhCI",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "uNzhC8DOhCI",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "live-updates-latest-from-israel",
+    "date": "2026-03-28",
+    "title": "Live Updates: Latest from Israel, Iran, and the Middle East - The Jerusalem Post",
+    "description": "Via The Jerusalem Post. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1XLVVnNGtyUk9HbXgwMkplVmhPSTNrZG84TjRqNmZBLWh3OFdDOXp4OXNoX3dCNktBTFhHTzIzR2UwS0hxWktNNS1oQW9LalZrQmxGNlV2T3d3RkNXbWVjWTEtZ05CUENJeVF6MGNMbW10OTVBM3ZIRGpVRGpoa00?oc=5",
+    "source": "The Jerusalem Post",
+    "fetchedAt": "2026-03-28T15:00:20.364Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=pwMFVaIPRgQ",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "pwMFVaIPRgQ",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "lebanon-israel-iran-war-news8000com",
+    "date": "2026-03-28",
+    "title": "Lebanon Israel Iran War - news8000.com",
+    "description": "Via news8000.com. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQUpWaWM5TnVWZlVHeGllakxPTXMtYzNTNGRucV9ZeldBUTdJSUtsMF9XZ0R2d1lSWnExS19JMW5IaW00SUlDNjB4d3hPdWgzbGtDQkxHZWc4RnFzY0x3aWhRUU1jNjc1ODR4LUQxQ2NsY2ZsOEk2cUE0NFlVQVplSGJrNXFaQ2xPUTdGMExNdHhGVm9WZGxkd1QyRzZYQ3lSZG5aVjBIZ2xvcGJIT25NcG5UWVU4aUU?oc=5",
+    "source": "news8000.com",
+    "fetchedAt": "2026-03-28T15:00:22.752Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=5bzGygvtX6I",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "5bzGygvtX6I",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "why-the-houthis-waited-until",
+    "date": "2026-03-28",
+    "title": "Why the Houthis waited until now to strike Israel amid Iran war - The Jerusalem Post",
+    "description": "Via The Jerusalem Post. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5uVG0xS2VnTkpiNXFfeU9oOGpNRXp4Q3FsZnpKbl9ELVVsSXVGcDVBQzZ0TlMxS1M4akZlT0ktY3RPRkxPVC1EVnFSSjAybWVCQ3hVZ2tXbG4waER2?oc=5",
+    "source": "The Jerusalem Post",
+    "fetchedAt": "2026-03-28T15:00:25.065Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=lBh9Jj_gH_c",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "lBh9Jj_gH_c",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "houthis-launch-first-yemeni-strike",
+    "date": "2026-03-28",
+    "title": "Houthis launch first Yemeni strike in Iran war, target Israel - upi.com",
+    "description": "Via upi.com. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQQ1lqTlJjMjNYSndoZFJIVndMZUdQMWctY2FKSVpzSjgwWThIakhmOXFVcFlGVXFuTTZCSlE1OGhHR1RxdnMya1VCaEZoQzVNUGZMWFlMVUpqbmM3TDF4N2E4dThveTRKa1d3WVQ3SHN3N1NnNHhtMWswbE9TUmxsejBoWlhjc3QxUUdyamt0c09RMUl1V0gwS2F6Z9IBoAFBVV95cUxQdkNVUnZac3Y5dC1MTHpwaTQzbm96aEhyV09BZlpwaTB2RW5EcG1sZ2JTRERqY282U0dnNkFhcTR2VUtFWEZkYzRlTFlXckpCa29SZlRPUUYyc3NEbXY5MkVaRDVJZVBOeGJrd1UxNVc5a3lfck1POG9HcktONlRyVjNDTW9nakZHOEFzTy1UYVBIRjRIYXd3bU9tRUt4cWZ3?oc=5",
+    "source": "upi.com",
+    "fetchedAt": "2026-03-28T15:00:27.448Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=7Ft4eocPefo",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "7Ft4eocPefo",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "one-month-in-new-front",
+    "date": "2026-03-28",
+    "title": "One month in, new front opens as Yemen’s Houthis enter Iran-Israel war - timesofindia.indiatimes.com",
+    "description": "Via timesofindia.indiatimes.com. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOcHJOWGkyakFOb0FCTFRRbm5QU2k2ODdZUXZDVkxrcHFBRHhkd3N1Mnd5bjNpM3pXVEFUM0tLTFcxQWZrX2RMWXhabGlrdDAxT05XZjlLT1RIcHdtQ2tHOUlJN25WM0tMT3hqUTJnck9heEh6RGlGSWNpUVFPZ1JYTmFuUTAxY0RXYzlwd2duc2RxOFVvcl9yOEgwRDBvS0syV1lJQl9fTHBzRnpVSjlPMlhtdnZRN0VLRHNrZXh2YU1rOUdfWFBOMlVST2NXTjRQNHhnT2pXeHB2RFdzbGNDMTB30gHnAUFVX3lxTE9pM0xfWDdKdFBpZGpEeFRLNVpFcTllMzY0ZEN0MlAyZEpVVjFLckVDRUNsSmZLUmhYS0VtSmFmd2lGYlN4TUlYZkozSjRJRnNrZHdtdGtHVlItbEpFNVFNOUJvUW1DWHY2Zi1JYkhuZHJhWTNzNVRJY2tFNWRHb0RMTm5veWs2TzFJVmlGZklTX0ROa3J2RGgyT2F3SkczZFBWdkFya2p0NFdIX0ZoSHRqMGFfai1LUmZnYmxOTnRiMWI0MVpiRHN5d0tZcFEzNmtaSnN4U3JvdTgwRGRKc2dXOHVSZUN2bw?oc=5",
+    "source": "timesofindia.indiatimes.com",
+    "fetchedAt": "2026-03-28T15:00:36.831Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "yemens-houthis-join-iran-war",
+    "date": "2026-03-28",
+    "title": "Yemen's Houthis Join Iran War, Consider Closing Red Sea Shipping Route - Haaretz",
+    "description": "Via Haaretz. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNV1QwZFIxSHliVy1ydTN1UUJwUUJYdHdOUmY0R0QwMzB5dFRRTmlxX1lGelVGWHlBZjhmeE8xTm42U3dhaHd1YUI4ellJYmJ1V01vQmtFNnRhX3dmTFF5NnN5cVdoNFpFaURXVEhFZ0JpTUZKQWM1SjZoQVVNWDJZYUxSUWJDREtNS2pSbEg3YnJnQzRHRk9Kc2FVYUJsS0xoVkV5QTRjWXZzdTlOdXNGWnVocjgzdDFuWDJBMFVWbnpFbVNqYkQxT1EwWjJTTnQ0cjNQQzd4SWZNemVKRVF6YmdKRklqRmkySjBrY0hjMkREVWxxQjVka3V5ZlNHODUtSF9QLUhGYjhvdw?oc=5",
+    "source": "Haaretz",
+    "fetchedAt": "2026-03-28T15:00:42.863Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israel-says-it-intercepted-first",
+    "date": "2026-03-28",
+    "title": "Israel says it intercepted first incoming missile from Yemen as war in Middle East intensifies - audacy.com",
+    "description": "Via audacy.com. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBLb1NoVVExcTVWOGdNaWlXUHk4NTYwQXE1TFhUeTV4WE9UYVpFZnp0YVlXYllUSmpSSThXSWhUNF9GbTRRRXdTVU5qalBzOVhzRUJ6ZjlUZkcteEVIYko3NVBDeXBvdw?oc=5",
+    "source": "audacy.com",
+    "fetchedAt": "2026-03-28T15:00:49.369Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "2026-iran-war-explained-united",
+    "date": "2026-03-23",
+    "title": "2026 Iran War | Explained, United States, Israel, Strait of Hormuz, Map, & Conflict - Britannica",
+    "description": "Via Britannica. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9GTnhfOUV2MndpMTFxdjZSeUpvMm1mRTVrNVZROVRoRHZyZjRCQzVpdzlPcVlWY2lTdEtuMTFEQ25Fd09mR3I4TU5RLTBzS3doUzR5d0VlY2piQQ?oc=5",
+    "source": "Britannica",
+    "fetchedAt": "2026-03-28T15:00:55.643Z",
     "mediaUrls": [],
     "videoMatch": null,
     "lat": null,
