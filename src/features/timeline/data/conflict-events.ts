@@ -1,4 +1,5 @@
 import autoEventsJson from './auto-events.json';
+import autoDailyStatsJson from './auto-daily-stats.json';
 
 export type EventCategory =
   | 'military_strike'
@@ -2452,7 +2453,9 @@ export const conflictEvents: ConflictEvent[] = [
 
 // ═══ AUTO-PUBLISHED EVENTS (from headline monitor pipeline) ═══
 const autoEvents: ConflictEvent[] = autoEventsJson as ConflictEvent[];
-export const allEvents: ConflictEvent[] = [...conflictEvents, ...autoEvents]
+// ═══ AUTO DAILY STATS (from daily-stats-update.js — casualty estimates) ═══
+const autoDailyStats: ConflictEvent[] = autoDailyStatsJson as ConflictEvent[];
+export const allEvents: ConflictEvent[] = [...conflictEvents, ...autoEvents, ...autoDailyStats]
   .sort((a, b) => a.date.localeCompare(b.date) || (a.time || '').localeCompare(b.time || ''));
 
 // ═══ HELPER FUNCTIONS ═══

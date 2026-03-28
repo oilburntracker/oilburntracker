@@ -17,6 +17,8 @@
 //   Groceries $1,000/mo — BLS CPI avg family of 4
 //   Utilities ~$120/mo — EIA RECS 2022
 
+import autoConsumerJson from './auto-consumer-impact.json';
+
 export interface ConsumerImpact {
   date: string;
   oilPriceBbl: number;           // Brent $/barrel
@@ -283,13 +285,22 @@ export const consumerImpactData: ConsumerImpact[] = [
   },
 ];
 
+// ═══ MERGE AUTO-GENERATED DAILY DATA ═══
+// Auto data from scripts/daily-stats-update.js fills gaps between curated entries.
+// Curated entries always take precedence over auto entries for the same date.
+const curatedDates = new Set(consumerImpactData.map((e) => e.date));
+const allConsumerData: ConsumerImpact[] = [
+  ...consumerImpactData,
+  ...(autoConsumerJson as ConsumerImpact[]).filter((a) => !curatedDates.has(a.date)),
+].sort((a, b) => a.date.localeCompare(b.date));
+
 /**
  * Returns the latest consumer impact entry on or before the given date.
  * Falls back to the first entry if the date is before all entries.
  */
 export function getConsumerImpactUpTo(date: string): ConsumerImpact {
-  let latest = consumerImpactData[0];
-  for (const entry of consumerImpactData) {
+  let latest = allConsumerData[0];
+  for (const entry of allConsumerData) {
     if (entry.date <= date) {
       latest = entry;
     }

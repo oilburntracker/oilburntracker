@@ -6,6 +6,8 @@
 // SOURCING POLICY: Every entry must have a source field.
 // Entries marked [OBT estimate] are derived from cited methodology, not direct quotes.
 
+import autoWarCostsJson from './auto-war-costs.json';
+
 export interface WarCostEntry {
   date: string;
   category: 'weapons' | 'resources' | 'economic';
@@ -90,12 +92,15 @@ export interface WarCostSummary {
   economicBillions: number;
 }
 
+// ═══ MERGE AUTO-GENERATED DAILY COST DATA ═══
+const allWarCosts: WarCostEntry[] = [...warCosts, ...(autoWarCostsJson as WarCostEntry[])];
+
 export function getWarCostUpTo(date: string): WarCostSummary {
   let weapons = 0;
   let resources = 0;
   let economic = 0;
 
-  for (const entry of warCosts) {
+  for (const entry of allWarCosts) {
     if (entry.date > date) continue;
     switch (entry.category) {
       case 'weapons': weapons += entry.amountBillions; break;
