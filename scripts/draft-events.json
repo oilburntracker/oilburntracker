@@ -1,161 +1,5 @@
 [
   {
-    "id": "iran-update-special-report-march",
-    "date": "2026-03-28",
-    "title": "Iran Update Special Report, March 27, 2026 - understandingwar.org",
-    "description": "Via understandingwar.org. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcVNkQV9jQmdhQkRtVVM5VjhPSDRzeHBqWWF4d0x5Q2p4SW5WZjloLUhCZjJOZVJ5cTJPbVdRMHF2MDBibXJDYVotT1lyMFZWU2llekc0MkUtVUY5VWh2MXVvVm5RejlySFlPU20xU1g5NU1EaVVsNjA1SUhGM2FlY1JXV25HTGZ2eDJUZzVEX3M4QjJLR2c?oc=5",
-    "source": "understandingwar.org",
-    "fetchedAt": "2026-03-28T11:00:19.635Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=ZRKHicqQAPA",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "ZRKHicqQAPA",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iranbacked-houthis-fire-missile-at",
-    "date": "2026-03-28",
-    "title": "Iran-backed Houthis fire missile at Israel from Yemen, risking further escalation - NBC News",
-    "description": "Via NBC News. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdVZ2Z3d1MjduMVAwTkphREg2TDRfQk1KaUxTaTVWaC1jYnd0VUl2RFlGLUhUYTUyT0pFX3VQdGxnVWktQTVDM0thSmtlWkducmpKSnBnMnp0OEthSTliOEtyM2RUYk5ZUVBDLVE5dFFTQVNKMFowN0FBSjF4OXd5SzRLQjJndlpXeE9odkVBMGx4MmtMNXl5SUhuM0Z2c0JJWm1UUG4wWkJZTjJtY2s4?oc=5",
-    "source": "NBC News",
-    "fetchedAt": "2026-03-28T11:00:26.768Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=b2E5YugB4pM",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "b2E5YugB4pM",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-update-special-report-march",
-    "date": "2026-03-27",
-    "title": "Iran Update Special Report, March 26, 2026 - understandingwar.org",
-    "description": "Via understandingwar.org. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQU0ZWNUlfWDdXejlpcnQ1VnBOMjZESmxlQlhyRGhIenlQMnF5dWUxeGhXekdXZk5xbUdmc0luaDBFeHB4SmNlNzhXZjY4aVJhMFJPN3hHc1paX1NWUXVLR3E2Q1h3RGtyLTZwdW80UEhrY3JzSWt5MjZSRHFWXy00NGlGOUxYUkdTenRaeHM5bGZGWEYxa1E?oc=5",
-    "source": "understandingwar.org",
-    "fetchedAt": "2026-03-28T11:00:33.300Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "lebanon-israel-iran-war-gazettextra",
-    "date": "2026-03-28",
-    "title": "Lebanon Israel Iran War - GazetteXtra",
-    "description": "Via GazetteXtra. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNQWZDcnJNZkJuQ2hDTlBQTlRRWndGUVZUXzU4U1B3Rm9xWDJaNW9WbDlSUTRBS1ZReEpvdjNaSEdueHh6VEZfLUVyNmVfQ2c0VGVtRnFXMnlOcGFJVXlVSG5pcUE1SDEyc2F0VDhjRlg2THRWTjlueDZscFhfSUVKejF0bWNKVkx6VjQ1eVBvbjNJZXdyQ09nN0JVRDhCTlFF?oc=5",
-    "source": "GazetteXtra",
-    "fetchedAt": "2026-03-28T11:00:39.956Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "israel-says-it-intercepted-first",
-    "date": "2026-03-28",
-    "title": "Israel says it intercepted first incoming missile from Yemen as war in Middle East intensifies - wral.com",
-    "description": "Via wral.com. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOOHMyN3N6YXRHYnlJTTlzYzMyWFdkUjB5WVVXZXhyR3VHaFFlSldhcVJKcVFLWkpxMGtrTlNEb25nQlRza1BObk95UjdmTno2TUNZbjNaaUkwZUFJX0c2Mk1OclZpT1hjNnlIZnVyMmRfMDkzZDN1ZDB1TENnZmR4cUJ5OV94VGlSRThVLWt6SVB5WVhXWF9ORjBhTVhYUWd4ZlRIcEp5OGJBb2NvUWcyaWxTc3hqQkNid3NZY1VtWFQwa2U1RTNFY1ZB?oc=5",
-    "source": "wral.com",
-    "fetchedAt": "2026-03-28T11:00:46.525Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "in-an-asymmetrical-war-iran",
-    "date": "2026-03-28",
-    "title": "In an Asymmetrical War, Iran Seeks an Edge With Its Information War - nytimes.com",
-    "description": "Via nytimes.com. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9jd3hvNmdwSVNkcHZzRTRCaFM1T1dzZDBxYW1id2RldHVkcFk0V3lic0xXWmdvUF9VZHd4b2c2RE13VklsOVlDVzVfWUJUTHRQS3ZFeU5GMW85cXU2YllrZTRVZHFfdTgxa2xXQnZzd1psUS0tMVJYS3paRQ?oc=5",
-    "source": "nytimes.com",
-    "fetchedAt": "2026-03-28T11:00:52.655Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "yemens-houthis-fire-at-israel",
-    "date": "2026-03-28",
-    "title": "Yemen’s Houthis Fire at Israel, Vowing Further Attacks - nytimes.com",
-    "description": "Via nytimes.com. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUXNaODNFbEpBTWZqVHk1NGJsVjI4WGg1aVRSMnBtUzU1LUs1R0hIbUNFa2FySnhRQjhOdDFzRlBYTExhOXVNdzhyVGQ3Q2tqeVh6ZjF2MFp5U2lvVVZzS3BmWFBuSHYzUGZZVWlBY28wZ1dPM2UyVm45b2N4d2hZdnNjM2hHYjJvMG1ObElId3hsQQ?oc=5",
-    "source": "nytimes.com",
-    "fetchedAt": "2026-03-28T11:00:59.263Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "us-troops-injured-in-attack",
-    "date": "2026-03-28",
-    "title": "U.S. troops injured in attack on Saudi base as the war reaches one month - Central Florida Public Media",
-    "description": "Via Central Florida Public Media. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZlN4aDFYdV9sWlFwalNHMG5qRU9RT1A1Y1hVeFJldVJydHdmRHFvN2NzZDhoeVRZMHFRbVJVME81UVFZWlpfbHlyOWdDdHU3R2pOMVUxdkpJTkc0RUFJVW1ET19ydlpNVE5GZ1J5by1PWm5xNHp2QXgzcG00NmdXa2xYT29VYnVwYkNCZEMyamcwNklmSEhtTmVtMnFKS1JlWmNwZzlFVjE0NEU?oc=5",
-    "source": "Central Florida Public Media",
-    "fetchedAt": "2026-03-28T11:01:05.609Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "major-blow-to-economy-iranian",
     "date": "2026-03-28",
     "title": "‘Major blow to economy’: Iranian official acknowledges impact of Israeli strikes on steel plants - ynetnews",
@@ -4412,6 +4256,229 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxON0xFQWpZd3FMcml0MGFhamF3WFZWdHJXWWExYVU3djVnNjI1MjJ4dk4zS0N5TmV1d1FweUY3c3lfT1FJSjFSRmxDSlBKWXpuQUdkcVFhOWs4Y0hINk41Q09HM2pnb1NkTW8zNGphOFN4cHFtTWQ5U0hCdXJCNGgwdjVncjNmcGg1U2c?oc=5",
     "source": "CSIS | Center for Strategic and International Studies",
     "fetchedAt": "2026-03-29T06:01:04.423Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "2026-iran-war-explained-united",
+    "date": "2026-03-23",
+    "title": "2026 Iran War | Explained, United States, Israel, Strait of Hormuz, Map, & Conflict - Britannica",
+    "description": "Via Britannica. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9GTnhfOUV2MndpMTFxdjZSeUpvMm1mRTVrNVZROVRoRHZyZjRCQzVpdzlPcVlWY2lTdEtuMTFEQ25Fd09mR3I4TU5RLTBzS3doUzR5d0VlY2piQQ?oc=5",
+    "source": "Britannica",
+    "fetchedAt": "2026-03-29T07:00:15.281Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=mE3AiFEkSP8",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "mE3AiFEkSP8",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "over-a-dozen-us-soldiers",
+    "date": "2026-03-28",
+    "title": "Over a dozen U.S. soldiers injured in attack on Saudi base as Iran-backed Houthis enter war - npr.org",
+    "description": "Via npr.org. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5JWTFJV1pZMDF5aERWWUUzU2hmaFFxN1FXS0R2S2puYTZubXhpTTdEeEk5WVRRY0xEZmY3bHJkdlI0ZElPWXc1aEl1LTlWdWRHY3FadGlCbnJMSFppbG5CNEZZcFAzVnhtMkdnRGJBMVQ?oc=5",
+    "source": "npr.org",
+    "fetchedAt": "2026-03-29T07:00:16.839Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=kDZTTtk7uC4",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "kDZTTtk7uC4",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-war-live-updates-crucial",
+    "date": "2026-03-29",
+    "title": "Iran War Live Updates: Crucial E-3 Sentry Aircraft Damaged in Saudi Base Attack - wsj.com",
+    "description": "Via wsj.com. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi-gJBVV95cUxOQTdxc19sbm5jOTh2czliaktxWFd4ek01cFI4M2RKSW51WDZuUEJSbXJ4OHRvZXJObG96TUF3TEpUTUpMNG1EaU9TeDlWdm1CdzdyMkI0TG95dmM5elJuQlozOTVDS1I0cVctMUNiZVI3bkF2am9qQjJJNTFXSTE0YzNFSFVkN3ltZ0xVSFlZWnN5ZEx1MS14V2ZsMEh2WGtxQ1pBa2QteVhIdFVsRXJhbUZ1Zm12VHFaaUYzdzh2LVFQLVdReDFSS2NDM3BoT2JBYVhTem1sUFJmWE1XRlhmVXZscXlLY3M1ZjRSZDFaNEVqSmxEdkRxQWRUUjkyZ2xpa25tZ0d3bkRUcmZaaWNXaG1fUVdEMEF0dDdMR0laaU1ueVFlenVab0YxM1JtWXh6eUtnX29wYUZJUkd4ajBySGhWY0NGdmYxXzRHUHBZRVhrenhnQjhrOHc5NG5ua0RfX3QxRHo3ZUtHUnMwTXZ2T0N6Tjh6VF82WXc?oc=5",
+    "source": "wsj.com",
+    "fetchedAt": "2026-03-29T07:00:21.546Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=DtIUeCfhhQE",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "DtIUeCfhhQE",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "live-updates-latest-from-israel",
+    "date": "2026-03-29",
+    "title": "Live Updates: Latest from Israel, Iran, and the Middle East - jpost.com",
+    "description": "Via jpost.com. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1XLVVnNGtyUk9HbXgwMkplVmhPSTNrZG84TjRqNmZBLWh3OFdDOXp4OXNoX3dCNktBTFhHTzIzR2UwS0hxWktNNS1oQW9LalZrQmxGNlV2T3d3RkNXbWVjWTEtZ05CUENJeVF6MGNMbW10OTVBM3ZIRGpVRGpoa00?oc=5",
+    "source": "jpost.com",
+    "fetchedAt": "2026-03-29T07:00:24.094Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=ZUwSExAdw34",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "ZUwSExAdw34",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "idf-israeliamerican-soldier-killed-3",
+    "date": "2026-03-29",
+    "title": "IDF Israeli-American soldier killed, 3 wounded by rocket in southern Lebanon - haaretz.com",
+    "description": "Via haaretz.com. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiogJBVV95cUxPblc0OHJBNHpBQ04yT0RZUEdpOTRIbnlVLWhBbkJFNmkzUjA4NWRkc3dxS3hoVUpTd2xqYVBPaGFad3BOX2NFX2dGMzlFWXVQaUlWbUFGOUdVZVpHNTlfQzdhbWx5UDVGdTVmSXRvb05lTHlmSU5HYzBLMl9tRUY5VWt3UDFEd1diZEk0RjdkWGF1VnZxMzQxMndTN1NVOXdRUjFCcHQ1enZLcF9peUNoTVl2UWpZNGpyX29FTkIwN2xod2lSS0ZlTHo4QURhVFdxR0RMRmoxWFZRbVBKRDI1V0V6a1BMcEhLVl9KUHR3MjVCWmE4QnJENWxRNGh2S3FLU2U4eGZ0RW44ODlkR2VyYTlZQjN5SExFb3U1U0xJNjFJdw?oc=5",
+    "source": "haaretz.com",
+    "fetchedAt": "2026-03-29T07:00:26.375Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=1TvVobMOFHA",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "1TvVobMOFHA",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-war-latest-houthis-vow",
+    "date": "2026-03-28",
+    "title": "Iran war latest: Houthis vow to continue strikes after joining conflict - news.sky.com",
+    "description": "Via news.sky.com. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMHktWWNfVGpzRU93cFZXVWdfVkEweldpVW5yOG9nZlQ0aGxZb2JFNDN6eGNUa0VwRTF4Y1lRZkhZQ1JlS0V1c0J2c01sY2hVVmNRUFlJaHlUUGtfRUxLakhBZU1QcWFDVHE0ZzZVamdoaG9wbFhPX2lfSUo1M1dxZTFUSTdMcGw5aVNKWDRZeVdfVV80eDMwUHRHTUtVMjlLcUtyWQ?oc=5",
+    "source": "news.sky.com",
+    "fetchedAt": "2026-03-29T07:00:28.607Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=M17MwZ_qj8c",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "M17MwZ_qj8c",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israel-says-war-is-not",
+    "date": "2026-03-22",
+    "title": "Israel says 'war is not close to ending' as its nuclear research center is targeted for first time - Fortune",
+    "description": "Via Fortune. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORVVXb21vVmdqN1g4ajB0a3RBTkJhcTNNWXVyd0FGVjVvT0RoNHNTb3YzSjU2Z1JIenFrSGtoT3NMaW1vRlZZcjNBZmpKbU1HNlNRbEptRTVIMVVneGpoWTVxTGc2Ui01RW9KTWxRcF92MU1PWGZpcjdUNW5YQWJueXdWVlVLMU1SbExVQWV2U05oeTlRdHlDU3NDUDlCV2tZV19Xc3hoOFRUYXF1M3V5NWFB?oc=5",
+    "source": "Fortune",
+    "fetchedAt": "2026-03-29T07:00:30.890Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=MkHzRrxkjBw",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "MkHzRrxkjBw",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "the-iran-strikes-explained-how",
+    "date": "2026-03-23",
+    "title": "The Iran Strikes, Explained: How We Got Here and What It Means - American Jewish Committee (AJC)",
+    "description": "Via American Jewish Committee (AJC). Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOaDVleG42dlJ6RVktQkxYdTYxYVFSNDU3UFFwZHJqQy1VeG5WV2oxc2gyaEhTYlBBNG9OTFFHVkp4aTdqRlFKNWtMLU5QdEllZVdNejNJLWhiTVBwUE9COVZrWUNiNFhCbmZyaEE2YVpVcV9rZzdMSERvWlhGMUg4VDZyb3AyRkhFd21nZGJB?oc=5",
+    "source": "American Jewish Committee (AJC)",
+    "fetchedAt": "2026-03-29T07:00:37.508Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-war-live-israel-army",
+    "date": "2026-03-29",
+    "title": "Iran War LIVE: Israel Army Says Struck Iran Complex Producing Naval Weapons - NDTV",
+    "description": "Via NDTV. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPYXc5aWkxT1gzUXl5VVdCai1DMWxDNUdjbm41YldmRWRwb2FmRC1raG5KSkdRNm9VMWdNQ2NQN1hoNXdFZWpET3RFcm9HRzlHWDZZaWpxUzVJX0gxQ3phTDlRWnU1WWg5YTF5SnNKUXZPRjF6S1h4TTJFa2JxWHZPRnd5V19ldUJmMTZhbThmakNvcXRQT3JWcF92WmtjbnljY19xdHpOTVloZmRoc1RMOFBFaG1VdEJ3aUFUOWg0clVFZEdsbnNKSURSY1J5NTQ3ZUpoUTJrZWZUTFBEOFMwQ2g0N2RJN25iTEdELU5uVGpiTzlkMmhOQ1lsb3RyZ2xjVmVjOEE4cm1pTllJU2FJVGNSNER1MmfSAZ8CQVVfeXFMT2s4Q1BnaHcxUlp1V3BFajk2NHVzS253V3drYWFHY0VsbXJpZzVTUUZ0UEdTSk1hTTFLeGtrTUd4amYzdkdCQ1E2Z2pic09HTHJSNmZIdnUxSXBPXzJacENaeVd1c2pRZ05aUW1CSXpZYm1ncFFidElwNTlFVkVBaVNlaXZDaS1PWTlRSnZ6ZjJhS3Z4T0RHNUIyLS11UFE3Q2tiZ1laSC1fLXpGZWgwSG80N2R3bDF0QkViN3c3cmtFYW1iVURjSVVBRnMyeVJ1cHdMaUU2bFJoWjZUaWVZbHgyeFMxQnlicks1RkY5aV83ZC1sY2dQRjAtQWJPNjI1MGtxMGpxbnY2enRBWElFZk41aW1ZQkQ1UjJvYk9ESkE?oc=5",
+    "source": "NDTV",
+    "fetchedAt": "2026-03-29T07:01:02.627Z",
     "mediaUrls": [],
     "videoMatch": null,
     "lat": null,
