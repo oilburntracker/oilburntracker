@@ -1,188 +1,5 @@
 [
   {
-    "id": "a-usisraeli-loss-doesnt-mean",
-    "date": "2026-03-27",
-    "title": "A U.S.-Israeli Loss Doesn't Mean an Iranian Victory - Haaretz",
-    "description": "Via Haaretz. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNUVhjQzFwV2twM2d4UUh3S1V0YWJQaExwSmVSVmduSVR4WUtXTUptdTFIWG1DX1I1dTRYcWo3dW90bDFZYjNObTU2Q292cGVFZHFrb2pZR0hjSkVhVzZkcm8zeXl1WG9ud0dWNGl0UWJvcU5kVUl4eWFWbWMyMVNySmJDQ2hLdkE1MWZrVWE3amp5QnhvLU9zZ3ZDZlRvd1E0UmtuMVQyRG1Da2g5dzFISE5NYTEwRjliSEhib2RTSE9XLUJPdXl4N1dVMHB4ek43WU5hZWhfV1Ryc09mM3lXV21aTlhnYjE4MVlXdWNrZw?oc=5",
-    "source": "Haaretz",
-    "fetchedAt": "2026-03-28T07:00:52.624Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "while-all-eyes-are-on",
-    "date": "2026-03-27",
-    "title": "While all eyes are on the Iran conflict, settler violence is surging in the West Bank - ACLED",
-    "description": "Via ACLED. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTFRvbFBNQ0R3aUhCMW0xUG1KVE4wa0xWbUItZUdTY0hOU1Bzd01oMGNIS2g1TVdiV3AtbWF3dmNFUngzVTlocVZDVHNjYnU4T2s1MldLQ0VkY09rSVozMFd5SW1mOHpNQ2F2dllHTXNFMF81NXJPTHZ5UmcxTjNfY05MLWZIb2E5VnloaXh2cDJvMm9SWGpqREIyWDU?oc=5",
-    "source": "ACLED",
-    "fetchedAt": "2026-03-28T07:00:58.833Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "israels-air-defense-strains-under",
-    "date": "2026-03-27",
-    "title": "Israel's air defense strains under Iranian cluster assaults - DW.com",
-    "description": "Via DW.com. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbkVpX0duSjB6a0lXSFB5eS1pelY3VWlpOGtnOS10MXJkVjl6alhnQmpZUkR3UUdoOVdBby0zcTR4YnAzQVFEb2xvOURKd0JHQWJvTEVPamN1RmtCTVVrYWVTemRxOWdna3lncTdCUmplQnZuVXBINlV1VTNBYVZfYWk5bGNvcUxQYktUU3oyZHp0ZHhpdWdUN0ZRaw?oc=5",
-    "source": "DW.com",
-    "fetchedAt": "2026-03-28T07:01:05.473Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "unrwa-situation-report-214-on",
-    "date": "2026-03-25",
-    "title": "UNRWA Situation Report #214 on the Humanitarian Crisis in the Gaza Strip and the Occupied West Bank, including East Jerusalem - UNRWA",
-    "description": "Via UNRWA. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZ21NOUV6aGU3U1BaWVMyY3hCU0tpaDVFTkc3SXFpOHA3VzVteHhYMWhwQVB4QW5SNjFpaWZZRFE3bDhxOEZKMkRXWEw3alVzVmROUnlVdGFNeHJlN2pIYVBKSmFvdkZpQ3pveTBYamVaVFQ4Y3JFM0VqRGlUR2ZjbHI0R3FmWFlsdjVVZ2dLMTM5QkhIR1dOOUVxcVJoZWZGSWk0YXdLbFp5a28yalQ1LThDTlpMcVNwa3VTMg?oc=5",
-    "source": "UNRWA",
-    "fetchedAt": "2026-03-28T07:01:12.110Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-war-houthis-claim-attack",
-    "date": "2026-03-28",
-    "title": "Iran war: Houthis claim attack on Israel - DW.com",
-    "description": "Via DW.com. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPQmdVcGx0YXNMN0hNTkFEc3B0NVpDQXVmelpocVR2N2dvYVVoeWMxU0lkSUZQM2dPcG1EOW9lcFgteUZ6YXRua0pDQ0xzYm4wV3U1Y0wwNDNlNVBPSDdmYW5fYUpLdEFJTno2VU1WRzZkY1FSd2dpeC1VaElUTGd2VA?oc=5",
-    "source": "DW.com",
-    "fetchedAt": "2026-03-28T08:00:13.507Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=LvYalniOcps",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "LvYalniOcps",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "joining-war-yemens-iranbacked-houthis",
-    "date": "2026-03-28",
-    "title": "Joining war, Yemen’s Iran-backed Houthis launch missile attack on southern Israel - The Times of Israel",
-    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdzhQcEtYeGlkU0tLQ0dCSW5MYTM3eWxtSXNENktjcWtiVEZHTERnMzl2Q243OTNKN2cxc3Y2dVdPUXJWT0tXYU04elBvRDcwbFFaWkF5Q0w4S3Y1RjQtbmlBQzJJTTNhejRtQlhpQTVnbUQxbjEwWVB2OHVDMm15T3lfemo0bXNXRmZNUE9IamlqNnZZMktQckpjQy04bnBEa1lKS1Mzc3htdnE0RmfSAbMBQVVfeXFMTmx3dmlHaXdJUEJUVlRwYlJsejJNNEEteWpXa2hvOXd5RHdZWVkxOU85LWdIZ2FuZS1sRDlwT0JDVURrcEp5UEpqcGdEbHlPd1ZhR3NhOWRFSVdtdXM0OG04QXM5YVFxYlBzZ1dMZ0RSdUJybGpvTnY2UFA0Y1YwQTcwTF9UbE5QcE5aclp6bXFMemZQdUNpd19hdTV3cXV6dUprVDY0M1JoTzlsZmw2cFU1RkU?oc=5",
-    "source": "The Times of Israel",
-    "fetchedAt": "2026-03-28T08:00:18.731Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=QE7oRvh6ouI",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "QE7oRvh6ouI",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-war-israel-hits-iranian",
-    "date": "2026-03-27",
-    "title": "Iran war: Israel hits Iranian heavy water nuclear reactor - DW.com",
-    "description": "Via DW.com. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZEtyeXAteExYR1BmQ1hmendwdEJQbFo0eGRCVXdWMWFwT1JkSmU4UHJIYTJtT0puUVUzVTBFd2hfVk1ONXVNV3MxZGMtOHBUdnlCVG9pU3BhMk8zY0VpcHpBTXZTalRpLVpkZUlJNF9TbUxsWGZhd09BLS1na29SR08wQVIzZ3daZ3lpMmVleGp4WkV3ZWtv?oc=5",
-    "source": "DW.com",
-    "fetchedAt": "2026-03-28T08:00:25.938Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=pwMFVaIPRgQ",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "pwMFVaIPRgQ",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "houthis-threaten-to-join-war",
-    "date": "2026-03-28",
-    "title": "Houthis threaten to join war if US-Israeli escalation against Iran continues - thenationalnews.com",
-    "description": "Via thenationalnews.com. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPU25WNF9iclVUb0RDb2tzTnJkc2hfdWxKLXd0TmJpMVVWV2dEdzdGb0ZweG4wUFc0Yk10Y0N1M0JzVXhsbWFuaTBKOUNRb3ZDLTJYZUtxczRKSGhQTDY1bndjQVF3ZkVxcG54WHBPT3hrMjBrZDZlVWFiOHR2dDNjTmJnaF9sRU1aZ0RzaTEyTHBMVDM1MVp3eFlncGEyY1VCMnE4Mjc5OEhSVnFKYWNvNmxSRXBOb21mRENPQmkxTFptTUdqbDl5QXF2UGQyMEZYTDh0V3RJT0wxeG8yUEE?oc=5",
-    "source": "thenationalnews.com",
-    "fetchedAt": "2026-03-28T08:00:32.047Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "israel-says-it-intercepted-first",
-    "date": "2026-03-28",
-    "title": "Israel says it intercepted first incoming missile from Yemen as war in Middle East intensifies - WBOC TV",
-    "description": "Via WBOC TV. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNZ1QwdEtuT0o2OGVfYm43MmtyTU9LSFI5STNaaDRja0hUczl4NzRkbWNzS2ttamlkMmJRS2V6ckJXZlQ5MHZPa25VdDgtaXJESGx1bTk2b1NhTUdla3RwUktadVFJUjI5WEV1X000S2RiQXM5UjNnT2p6RjBTeWNyZzNWVURGRkJTdjEyLUh0QWFVTEp4S2NBXzZaSHVFa0VnWWxfVzZ6a0JXWHNwQmtvZUhlbndxR0JIYkpvOG5SUFdpNFctWlB4WGp0cXF4T2hqNG51ejZKMzBtV2JqUlRxM2VrSEdSdndFY3NaSFVpV25NWVJ0Qm9FeHlhOXZQTU0yV1cxa2VRbE1Na0Q3MnBRc2RB?oc=5",
-    "source": "WBOC TV",
-    "fetchedAt": "2026-03-28T08:00:57.873Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "iran-says-nuclear-sites-hit",
     "date": "2026-03-27",
     "title": "Iran says nuclear sites hit after Israel warns attacks 'will escalate' - Euronews.com",
@@ -4389,6 +4206,209 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMiowJBVV95cUxONWFUUXc2N3FtV2lwanZJS1lVSU9sYjlaYXhOZFcweDlzd0hRYl8zaTJMVG96cUVEZ0tZajFnYlFCUkh2N0w0NDhLMGVSdlhWSDlOX0F5aGF5bDFTaWFMQUtTekVDV1hmVElWN0VFVkFET2QxY191VDJvUEplSDRIODNrOVdMNjlUNTlyak9qR3A1cDRTWHJFVHMyTEJtYTFUX1lGdlZac19GZ21wQzNYakdGR3gtNUdUMmtaY0hKYzg5Nk9VaXNpakJxS2V3bFNjQ1otdVlSVWVySVFlbkgzam05UHlfbTZpVkozZURhU21wRng0MnNpdDk3Q18zclY3NTZKc1dmQmN2TDdkY2ZLbURtWXM1TERCbFg3bXkzaEloTWc?oc=5",
     "source": "Haaretz",
     "fetchedAt": "2026-03-29T03:01:09.460Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-war-irgc-says-us",
+    "date": "2026-03-29",
+    "title": "Iran war: IRGC says US campuses in Middle East at risk - DW.com",
+    "description": "Via DW.com. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPeDFtenVuR2lUY1luMmVQZWY0ZFpYb3RUcFFaV216QTBtbGNsXzdHWkIyQUlJMTJReWVWbjFCMGExVHJiOEltV0Y4Wk1iWF8xalFiTlF0cE9EaTdiSlE3U2hTc09GUjU1emRKWlNQWVhNYlZpdko2TUZhay1GNnFsMWRFSUYwQ1J4dkt6elh6VkdXaWs?oc=5",
+    "source": "DW.com",
+    "fetchedAt": "2026-03-29T04:00:12.277Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=5U1fDBUzPH4",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "5U1fDBUzPH4",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iranbacked-houthis-join-war-as",
+    "date": "2026-03-28",
+    "title": "Iran-Backed Houthis Join War as More US Troops Reach Region - Bloomberg.com",
+    "description": "Via Bloomberg.com. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPT2RaS0xKWlZOWDc3RDVGTGFXREp5aWRVRlNaa1dWUW8yR1RPenJJUGtlN2lGZ2xVcEhkd3lLaEFRMmdlR0R4TjZfQ1dwZllmak1KRnNlZXluYUpvLTRwcEFrcmFTLWtMdExYMk9ubUNESDRGNWxiNmVfUDZiWl9FM3Y3SlFCdUJmUjMydVpwV2JCQXJsM2tWZzRGY0NwNHI2N3dwMkNhRHpEalE4VHAzYkotRDlQZw?oc=5",
+    "source": "Bloomberg.com",
+    "fetchedAt": "2026-03-29T04:00:13.960Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=NTETc3MpL-k",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "NTETc3MpL-k",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "houthis-enter-iran-war-widening",
+    "date": "2026-03-28",
+    "title": "Houthis enter Iran war, widening the conflict with strike targeting Israel - cbsnews.com",
+    "description": "Via cbsnews.com. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZ0plV3A4aVIxRTh1N3pmekQtLURXdWJFNnJhSl9ZLTFBVjU2SG82eE4xTWtyNFVkanZESk1tYk5YVFdZU0pnMTBsMnhnVlVmSGdMbWRqWktRQ3BLcTR1VFhTX3lwUThLT050VXgxdlR5UjBROXBLeHY1WnlBRWhydHpjZDhiR0xqdjhOV2FrektfdW9aNUNHTUFJVQ?oc=5",
+    "source": "cbsnews.com",
+    "fetchedAt": "2026-03-29T04:00:15.651Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=ajqvwFmSt6s",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "ajqvwFmSt6s",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israel-warns-houthis-will-pay",
+    "date": "2026-03-28",
+    "title": "Israel warns Houthis will ‘pay the price’ for entering war - telegraph.co.uk",
+    "description": "Via telegraph.co.uk. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQb2VySnA2RDVsTmpkRnZ5eHV5cXVWSExKd3RXR21TWEpuM1JPaG1QSHphRUN2TG5BSHRqQlVkbHplZnZ1RWUxMVJid3pJc2ZXaWN2bzVrWWJaMmdHUWZ1REZEZFp5WUNNamVVaWIwWjV4X2hsUHNZazdhRXBrWC1iUWZ6QTFsM19wc2NsQUs0bzJ1UGM?oc=5",
+    "source": "telegraph.co.uk",
+    "fetchedAt": "2026-03-29T04:00:17.284Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=8nG9ziF_iB8",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "8nG9ziF_iB8",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "the-war-in-iran-operational",
+    "date": "2026-03-15",
+    "title": "The War in Iran: Operational Progress, but Challenges Remain - understandingwar.org",
+    "description": "Via understandingwar.org. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOOHlIa2s1d2FNU1lLTk5qd0dZSlVWMG5EVE55NVBqdGNudFVRN0FpczZZVWlFeEg2SjNJZ0hRcEU5QWVqTVR0Z3FtVk50Vkd5Y3hENnkwV2JwZ0o5ZGFBNDBjV00zU2JVcFNzSnZ2dHdOLS1lNGh2TF9Bb3Blem5lNmlFNkJ6VVpHdzdycGlzUVdmY3lCTVdFRVQ3M1BWWm92SHQ4Vi02MHcteXRsZlE?oc=5",
+    "source": "understandingwar.org",
+    "fetchedAt": "2026-03-29T04:00:19.855Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=buglfD-2Hog",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "buglfD-2Hog",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "yemens-houthis-enter-iran-war",
+    "date": "2026-03-28",
+    "title": "Yemen's Houthis enter Iran war with attack on Israel, while US Marines arrive in region - reuters.com",
+    "description": "Via reuters.com. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNVVtc1ZtWmlSeGkxX2N1VkZxUW1RUkFReGRKX0o5OXROT21WUjVGMS1lUFlqVFpNcUtSN3gtR3BaMFNaMGR5RDRkYW1DaExPcXJ6eEx6dXlYRVBIWEpHSm94dWNlRTZlQnhaR1BwNGl0WnhneklBenpxV1dMcDFROHlGMFQtOVF1ZGxWUm14VWtvMXlicko5bWZZWHdvSUo1aUJELWxZYTgwZFZkX3ZJd242Z0I?oc=5",
+    "source": "reuters.com",
+    "fetchedAt": "2026-03-29T04:00:33.573Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "report-at-least-24-people",
+    "date": "2026-03-29",
+    "title": "Report: At least 24 people killed in Iran, as strikes near record levels - Haaretz",
+    "description": "Via Haaretz. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiogJBVV95cUxPblc0OHJBNHpBQ04yT0RZUEdpOTRIbnlVLWhBbkJFNmkzUjA4NWRkc3dxS3hoVUpTd2xqYVBPaGFad3BOX2NFX2dGMzlFWXVQaUlWbUFGOUdVZVpHNTlfQzdhbWx5UDVGdTVmSXRvb05lTHlmSU5HYzBLMl9tRUY5VWt3UDFEd1diZEk0RjdkWGF1VnZxMzQxMndTN1NVOXdRUjFCcHQ1enZLcF9peUNoTVl2UWpZNGpyX29FTkIwN2xod2lSS0ZlTHo4QURhVFdxR0RMRmoxWFZRbVBKRDI1V0V6a1BMcEhLVl9KUHR3MjVCWmE4QnJENWxRNGh2S3FLU2U4eGZ0RW44ODlkR2VyYTlZQjN5SExFb3U1U0xJNjFJdw?oc=5",
+    "source": "Haaretz",
+    "fetchedAt": "2026-03-29T04:00:40.227Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "live-updates-trump-considers-sending",
+    "date": "2026-03-28",
+    "title": "LIVE UPDATES: Trump considers sending up to 10,000 more troops to Middle East during Iran war - Fox News",
+    "description": "Via Fox News. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQcmVQRmpSOXdSNTV5TjFNbUZ5dDgtYTJtQ21JcG8zd2JlZTdjSEZOYktyaUk2N3B1QXRXU01RSmVBVXlNd3hqQU5JcldJVkwyNnZ3TWVJdHFZc1B6ZjVPMFg3dlZKRWJJNU1VdE55b21EU2d6OUZxbnpTdWRBa3QtN1MtYmUybHl1a3RrV3Rn?oc=5",
+    "source": "Fox News",
+    "fetchedAt": "2026-03-29T04:00:47.032Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "yemens-houthis-enter-iran-war",
+    "date": "2026-03-29",
+    "title": "Yemen's Houthis enter Iran war with attack on Israel, while Marines arrive in region - KSL News",
+    "description": "Via KSL News. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTFJTV043Y1lkdEg5WV9ORHlJdllMOTVEbW9aTTBXTHBzclZWdmswZXhxRU40SkFkeUxiekNUN2d4M2pub2N5Mkg1QzBqX0s3dTk0TWlrMTJxSUtCY3l0QzVJM0ZXT2dzTVZhWWxGTElhRy1heW1wVGhhY0pKMmt2SmxSM3dGZ0paMThwR3NDRkZTQUlzMkVRTUVPWl9pSHVwZGZ0LXhsWldIMzN5enM1TTloWjhBU1RQbUw0?oc=5",
+    "source": "KSL News",
+    "fetchedAt": "2026-03-29T04:01:12.877Z",
     "mediaUrls": [],
     "videoMatch": null,
     "lat": null,
