@@ -654,6 +654,48 @@ export default function DeepDivePanel({ onMapMode }: { onMapMode?: () => void } 
         </div>
       </div>
 
+      {/* ── EMISSIONS ── */}
+      <div className='px-4 pt-4 pb-3 border-b border-gray-200 dark:border-zinc-700'>
+        <SectionTitle icon={<IconCloud className='h-5 w-5 text-orange-600' />} title='Emissions' />
+        {totalCO2 > 0 ? (
+          <div className='text-3xl font-black text-orange-700 dark:text-orange-400 tabular-nums leading-none'>
+            {formatCO2(totalCO2)} <span className='text-lg font-bold'>tons/day</span>
+          </div>
+        ) : (
+          <div className='text-lg font-black text-gray-400'>{loading ? '...' : '—'}</div>
+        )}
+
+        {totalCO2 > 0 && (
+          <div className='mt-2 space-y-1'>
+            <Row label='Same CO2 as this many cars (yearly)' value={equiv.carsPerYear.toLocaleString()}
+              tip='Each car emits ~4.6 tons CO2/year' />
+            <Row label='Same as this many homes (yearly)' value={equiv.homesPerYear.toLocaleString()}
+              tip='Average US home: ~7.5 tons CO2/year' />
+            <Row label='% of global daily emissions' value={`${equiv.percentGlobalDaily}%`}
+              tip='The world emits ~100 million tons of CO2 per day' />
+          </div>
+        )}
+
+        <div className='mt-3 pt-2 border-t border-gray-200 dark:border-zinc-800/50'>
+          <button
+            onClick={onMapMode}
+            className='w-full flex items-center justify-between rounded-xl bg-white dark:bg-zinc-800/40 border border-gray-200 dark:border-zinc-700/50 p-3 shadow-sm hover:shadow-md transition-shadow cursor-pointer'
+          >
+            <div className='flex items-center gap-4 text-sm'>
+              <span className='flex items-center gap-1.5 text-orange-600'>
+                <IconFlame className='h-4 w-4' />
+                <span className='font-bold tabular-nums'>{loading ? '...' : activeFires} active</span>
+              </span>
+              <span className='flex items-center gap-1.5 text-teal-600 dark:text-teal-400'>
+                <IconWorld className='h-4 w-4' />
+                <span className='font-bold tabular-nums'>{curatedFires.length} tracked</span>
+              </span>
+            </div>
+            <span className='text-sm text-blue-600 dark:text-blue-400 font-bold'>View map →</span>
+          </button>
+        </div>
+      </div>
+
       {/* ── WHAT WE LOST ── */}
       <div className='px-4 pt-4 pb-3 border-b border-gray-200 dark:border-zinc-700'>
         <SectionTitle icon={<IconHeart className='h-5 w-5 text-red-600' />} title='What We Lost' />
@@ -1110,48 +1152,6 @@ export default function DeepDivePanel({ onMapMode }: { onMapMode?: () => void } 
           </InfoBox>
         </div>
       )}
-
-      {/* ── EMISSIONS ── */}
-      <div className='px-4 pt-4 pb-3 border-b border-gray-200 dark:border-zinc-700'>
-        <SectionTitle icon={<IconCloud className='h-5 w-5 text-orange-600' />} title='Emissions' />
-        {totalCO2 > 0 ? (
-          <div className='text-3xl font-black text-orange-700 dark:text-orange-400 tabular-nums leading-none'>
-            {formatCO2(totalCO2)} <span className='text-lg font-bold'>tons/day</span>
-          </div>
-        ) : (
-          <div className='text-lg font-black text-gray-400'>{loading ? '...' : '—'}</div>
-        )}
-
-        {totalCO2 > 0 && (
-          <div className='mt-2 space-y-1'>
-            <Row label='Same CO2 as this many cars (yearly)' value={equiv.carsPerYear.toLocaleString()}
-              tip='Each car emits ~4.6 tons CO2/year' />
-            <Row label='Same as this many homes (yearly)' value={equiv.homesPerYear.toLocaleString()}
-              tip='Average US home: ~7.5 tons CO2/year' />
-            <Row label='% of global daily emissions' value={`${equiv.percentGlobalDaily}%`}
-              tip='The world emits ~100 million tons of CO2 per day' />
-          </div>
-        )}
-
-        <div className='mt-3 pt-2 border-t border-gray-200 dark:border-zinc-800/50'>
-          <button
-            onClick={onMapMode}
-            className='w-full flex items-center justify-between rounded-xl bg-white dark:bg-zinc-800/40 border border-gray-200 dark:border-zinc-700/50 p-3 shadow-sm hover:shadow-md transition-shadow cursor-pointer'
-          >
-            <div className='flex items-center gap-4 text-sm'>
-              <span className='flex items-center gap-1.5 text-orange-600'>
-                <IconFlame className='h-4 w-4' />
-                <span className='font-bold tabular-nums'>{loading ? '...' : activeFires} active</span>
-              </span>
-              <span className='flex items-center gap-1.5 text-teal-600 dark:text-teal-400'>
-                <IconWorld className='h-4 w-4' />
-                <span className='font-bold tabular-nums'>{curatedFires.length} tracked</span>
-              </span>
-            </div>
-            <span className='text-sm text-blue-600 dark:text-blue-400 font-bold'>View map →</span>
-          </button>
-        </div>
-      </div>
 
       {/* ── PREDICTIONS BY THE NUMBERS ── */}
       <div className='px-4 pt-4 pb-3 border-b border-gray-200 dark:border-zinc-700'>
