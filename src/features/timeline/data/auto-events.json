@@ -11480,5 +11480,39 @@
         "label": ""
       }
     ]
+  },
+  {
+    "id": "auto-live-updates-iran-war-us",
+    "date": "2026-03-29",
+    "title": "Live updates: Iran war, US sailors and Marines arrive in Middle East as conflict expands",
+    "category": "escalation",
+    "description": "Via CNN. Auto-detected by headline monitor.",
+    "lat": 35.69,
+    "lng": 51.39,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE44a0tINlhLYXQ3UHo0TGhkNDRBNm80T0picjlkWTY3VzdrbFRZTnVnVDVwWEg4T095MzdfT1FUWTlSWWxxdHgtdGtMRF9IN1pQY19ub0stZXJJbUNLSHA4cGp3Y0xLTXNCbmRqcTAwOF9oT1Nsd1hOYkZmWQ?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=slopcfT7qzE",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "auto-usisrael-attacks-on-iran-death",
+    "date": "2026-03-01",
+    "title": "US-Israel attacks on Iran: Death toll and injuries live tracker",
+    "category": "military_strike",
+    "description": "Via Al Jazeera. Auto-detected by headline monitor.",
+    "lat": 35.69,
+    "lng": 51.39,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNejktU2hOR25jX3gya0NiZFFRWFFIU1pRTzZkbGJDazRlUTR5RXJfN3cwZnJyV25HX1g5bGZkWmN0YmpILXV1TXZaRUl6cXpSY2ZJNkNGZFYxcUFLdDRsSGw4UlVZTnUxdUdvdkNwTDlaRUlBVjg2OXlzZEZoQnpCVFpqNnhVcmI1ejQ4V2M5U1VxdlZ5bFdsYmdIY2dIQUprMUFZY9IBqgFBVV95cUxQa3JzejVyemNBVFJUWmI0SHJMbGF1azJaWmJVVzVtWUF4SWRlaFNXeWhVZkVnZ05nU0pmQXZIbkxYemdDeEpxLWItTHZRWUJsa3JCRkhPTFRjMHIwUWltTTlnNzJVZmRhZmNwTVFQcDR1Nnl5LWtFSGk0QkpvQWo1U25GbmJpZWE4RVhKZWpNYmRQWjBONkItN21rd3packdHbFVXWVpnZlRZdw?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=ZDgqHhdtpXg",
+        "label": ""
+      }
+    ]
   }
 ]
