@@ -1,238 +1,5 @@
 [
   {
-    "id": "major-blow-to-economy-iranian",
-    "date": "2026-03-28",
-    "title": "‘Major blow to economy’: Iranian official acknowledges impact of Israeli strikes on steel plants - ynetnews",
-    "description": "Via ynetnews. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE4xTjFsUlozYVlNQmg1YmpjUjM1TllFYncwdmFNT0twd2d4Yi1VN1A1RDFna3M1M3Vxak5GZVdfWUF6R3J2azM0TXZia2RGdDFDNzBvTDdtZw?oc=5",
-    "source": "ynetnews",
-    "fetchedAt": "2026-03-28T11:01:12.024Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "middle-east-crisis-live-yemens",
-    "date": "2026-03-28",
-    "title": "Middle East crisis live: Yemen’s Houthis launch first attack on Israel since outbreak of Iran war - theguardian.com",
-    "description": "Via theguardian.com. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxONXo0ZUdkaW5rQUh1dmgwR0gxLWVTV3RGdEJQQUFCVFJTZmQ5UUQxMjhHamR4MXpNTGt4UDhqWmFEMnhkQVVXY1MtVEo5di1hV0hnUDcxU3lla3lHc0RmQTJkUm9NUjJ5akFkN3M2RDZwNEItSGhMT3lybDBWSWJnWkZBSktrRy04aktLOTlrQ0szd2x6SGZWRlJnWHJ5d1J0WHYxMWNfYVRwSE5VeDEzUkxKMjBtbVNQZXZGbXhMelJ5SzVvVDNjNE1HaUJpa2VSMkZfenFRcXJ4cWhocDJTVFdwV0tSXzg4ZkNMN2Nyb3R4Zw?oc=5",
-    "source": "theguardian.com",
-    "fetchedAt": "2026-03-28T12:00:11.837Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=LAndNCMtfv4",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "LAndNCMtfv4",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iranbacked-houthis-claim-missile-launch",
-    "date": "2026-03-28",
-    "title": "Iran-backed Houthis claim missile launch on Israel as war in Middle East intensifies - The Globe and Mail",
-    "description": "Via The Globe and Mail. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPbDgySmtGX3BPdlhNWnJBRHptMG9wc055eGh1WnBMU1VPMy16RkZMLVlJQ3NuNGZnWDRWZlpnOUxTV3VIaEsyR0d3Q25uS3FiUk01U1gyeF9EMV9sRGlxUElqbjBfaGdwOUtMTGR4bUxxUU5pQzlhbVNhbTJxMEtYZ293?oc=5",
-    "source": "The Globe and Mail",
-    "fetchedAt": "2026-03-28T12:00:15.076Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=_HAnwf-JzlI",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "_HAnwf-JzlI",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "the-israeli-military-wants-several",
-    "date": "2026-03-24",
-    "title": "The Israeli military wants several more weeks to fight Iran war, officials say - npr.org",
-    "description": "Via npr.org. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE83NTJQYXhUdGF1U1RIRHpnZVZ5M0NDdzRYMVpySW9kUzZOUUJyS3pObEI1MVFhWTZ1Y0hOYTlrbkFJSFpjdExjWlE0cEU2eUQxZEExN2VMMVhURkhIVkFsR1BZdDJsaElCeGZSRQ?oc=5",
-    "source": "npr.org",
-    "fetchedAt": "2026-03-28T12:00:19.375Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=gMq0VHGeiC8",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "gMq0VHGeiC8",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "war-spreads-across-middle-east",
-    "date": "2026-03-28",
-    "title": "War spreads across Middle East as Iran, Houthis target Israel and US forces - Scripps News",
-    "description": "Via Scripps News. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdHZvUlZlc2lOVnhXQVZNMjgyT19maDN6czZXZ0tKUzl2TTNfN1RCU05tLTN2eXNwOTFZeHBhSFZmYlVDV1pxTVNnSzdJdGJFUEpRU2x6WWJ0SUFqVW03YVhhQ3Z6SjVORVAzM1JlWnE0Y29FVG1uN1NSc1liSGhMR0U4VHlCbUpvQUczalBiLTdUMS1Gc0NhWTBEQUd4MU0yS19pNjczVFBMVFNXMlNlRzNtcmt6UzdyQnAw?oc=5",
-    "source": "Scripps News",
-    "fetchedAt": "2026-03-28T12:00:21.605Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=E09B61iEHXo",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "E09B61iEHXo",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "gulf-countries-warn-of-rising",
-    "date": "2026-03-28",
-    "title": "Gulf countries warn of rising threat from Iran-backed militias and proxies - theguardian.com",
-    "description": "Via theguardian.com. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUWQzMnc3a1MzSkdwWjROTjBWdnk0SFE3bURYeXA1UmxiakU4bUNnMWRiMFZuNjNyQWxpeUI0RmtOcTE1elBnRUdZWjRrSHZTRl9kNS1DeXo2cHRSNUY3MkRCWkZWTUp4U3B2WE1IYUg5elhrekhJYzdkLTVtX09yOTRwWUhRQ3gwajRKa3Z3dnMxRG85LWVVelJ3NV9VWTFCcjRwbFFFMDk2d1NiZzJxNENvUzdZWjEyUXRxcHAtVQ?oc=5",
-    "source": "theguardian.com",
-    "fetchedAt": "2026-03-28T12:00:23.790Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=8zgAVL-Ph9U",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "8zgAVL-Ph9U",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "what-is-netanyahus-endgame-in",
-    "date": "2026-03-27",
-    "title": "What is Netanyahu’s endgame in Iran war? – The Latest - theguardian.com",
-    "description": "Via theguardian.com. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONlhBaWZBdFNQMjMzRlFXVkNZMkdCcGNvWTllS1lnYllYSTA5aUpiYkxCZWZoTGFLWkxDTFlaMmdwZVJ1bG45VXM3cmtCWjQ3OTI1NTU5alZBcmpib3pnZjlQMjVUeEpDR0pjaDk2dDF3a1dTUzFicXkyTHBZZ1ozUHVBel82eEZwRnI1SUhfYTdBNEFmb3pjMmt0UzlGWWpkakE?oc=5",
-    "source": "theguardian.com",
-    "fetchedAt": "2026-03-28T12:00:26.206Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=e1W1bpZQQaA",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "e1W1bpZQQaA",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "israel-didnt-drag-the-us",
-    "date": "2026-03-28",
-    "title": "Israel Didn’t ‘Drag’ the U.S. Into War—American Hawks Have Wanted This for Decades - Foreign Policy in Focus",
-    "description": "Via Foreign Policy in Focus. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQek50dFJsXzBXdlF6LV9Ea1k0dzF3eExOZmlRZXRxbEJsQXJscTRHcVYtNHV1a0pjdGZWa0huLUhId19HZW0yUWs0QVo3M2tmU19pVXZJY2pXbnJvQnFfWmUtREo4SmxGS25sc2JodDZFZUFWRFZycXd3Mk9UUEZHUThUem9ramtmd1dhZG5ITmptVUM2NFM2U1J4Z20?oc=5",
-    "source": "Foreign Policy in Focus",
-    "fetchedAt": "2026-03-28T12:00:28.646Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=EIEoBI3Um_g",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "EIEoBI3Um_g",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "yemens-houthis-launch-first-attack",
-    "date": "2026-03-27",
-    "title": "Yemen’s Houthis launch first attack on Israel since outbreak of conflict, as Rubio says war to end in ‘weeks’ - theguardian.com",
-    "description": "Via theguardian.com. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZEJPUk51aVpCMUlaZGZKM2t4Y3RDR0szODdnSGFBU0xzWW9mVXZOR25uT01VbFNMX3FwVjVDN3E4cklzNHFoTmdWal9WNjdPckREaFlrWEZQTno3ei1RdTdjMl9IblRsdUlPQXdyTVJVb1QxWUc0M24zOWstUk96c1BVMk1WZFo0RXZ5Vk5IQWNsY25VaC1ySXc2eGpWVV9PamMyMVVvRXNJbGhuZGc0Rl96WE15Zw?oc=5",
-    "source": "theguardian.com",
-    "fetchedAt": "2026-03-28T12:00:31.018Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=7Ft4eocPefo",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "7Ft4eocPefo",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "donald-trump-iran-war-news",
     "date": "2026-03-28",
     "title": "Donald Trump, Iran war news: One month into conflict, some Trump administration objectives unfulfilled as he looks to wind it down - ABC30 Fresno",
@@ -4479,6 +4246,111 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPYXc5aWkxT1gzUXl5VVdCai1DMWxDNUdjbm41YldmRWRwb2FmRC1raG5KSkdRNm9VMWdNQ2NQN1hoNXdFZWpET3RFcm9HRzlHWDZZaWpxUzVJX0gxQ3phTDlRWnU1WWg5YTF5SnNKUXZPRjF6S1h4TTJFa2JxWHZPRnd5V19ldUJmMTZhbThmakNvcXRQT3JWcF92WmtjbnljY19xdHpOTVloZmRoc1RMOFBFaG1VdEJ3aUFUOWg0clVFZEdsbnNKSURSY1J5NTQ3ZUpoUTJrZWZUTFBEOFMwQ2g0N2RJN25iTEdELU5uVGpiTzlkMmhOQ1lsb3RyZ2xjVmVjOEE4cm1pTllJU2FJVGNSNER1MmfSAZ8CQVVfeXFMT2s4Q1BnaHcxUlp1V3BFajk2NHVzS253V3drYWFHY0VsbXJpZzVTUUZ0UEdTSk1hTTFLeGtrTUd4amYzdkdCQ1E2Z2pic09HTHJSNmZIdnUxSXBPXzJacENaeVd1c2pRZ05aUW1CSXpZYm1ncFFidElwNTlFVkVBaVNlaXZDaS1PWTlRSnZ6ZjJhS3Z4T0RHNUIyLS11UFE3Q2tiZ1laSC1fLXpGZWgwSG80N2R3bDF0QkViN3c3cmtFYW1iVURjSVVBRnMyeVJ1cHdMaUU2bFJoWjZUaWVZbHgyeFMxQnlicks1RkY5aV83ZC1sY2dQRjAtQWJPNjI1MGtxMGpxbnY2enRBWElFZk41aW1ZQkQ1UjJvYk9ESkE?oc=5",
     "source": "NDTV",
     "fetchedAt": "2026-03-29T07:01:02.627Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iranus-war-live-houthis-launch",
+    "date": "2026-03-29",
+    "title": "Iran-US war live: Houthis launch second missile attack on Israel - The Independent",
+    "description": "Via The Independent. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTWd1UUVMN3NkY0dJN09lZ0ZMQWVHZVJkZ3NENWMtSXA5aUhXSE9zNXBoaGJtb25UaTVxazVheTRtUzQ1YTdQcUtMQmY5aUI5b0taMmg1NnF0REZCdmxIMmxtZ3l3YzcwZ1QtRlFFa2M3VEtQR054M1JfY2dEQnNpc1NXMEJCeVAxRFdsdzBhUW1KLWVRSi05ZUFzeERWSFVxclpYRWV2Sm1YbklhUHk0?oc=5",
+    "source": "The Independent",
+    "fetchedAt": "2026-03-29T08:00:19.160Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=g-QepsSdySM",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "g-QepsSdySM",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "yemens-houthi-launch-1st-strike",
+    "date": "2026-03-28",
+    "title": "Yemen's Houthi launch 1st strike on Israel amid Iran war - dw.com",
+    "description": "Via dw.com. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVjFPYXpiRWpOYzVMSkZ1bjJrSVk3Z3h5MUZQb2ltN09RMFdjdC1SSEdCZXJIN3VJQklkaGVGLUVUcFJxWlJ4RkJyUjVPYUJkZW5RcEh3Ym5WcHkzU1V2V21uUVZXR0tQQlNXc0lMekRYVjNSZnNVSC1heWlndVlJSXBVX1A3bC13S2dZdVk3TUw0X0xWcVEw?oc=5",
+    "source": "dw.com",
+    "fetchedAt": "2026-03-29T08:00:26.015Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=v6no8aGF9E0",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "v6no8aGF9E0",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "in-search-of-victory-trump",
+    "date": "2026-03-29",
+    "title": "In search of victory, Trump escalates Iran war as Israel nears exhaustion - Haaretz",
+    "description": "Via Haaretz. Auto-detected by headline monitor.",
+    "category": "retaliation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiowJBVV95cUxONWFUUXc2N3FtV2lwanZJS1lVSU9sYjlaYXhOZFcweDlzd0hRYl8zaTJMVG96cUVEZ0tZajFnYlFCUkh2N0w0NDhLMGVSdlhWSDlOX0F5aGF5bDFTaWFMQUtTekVDV1hmVElWN0VFVkFET2QxY191VDJvUEplSDRIODNrOVdMNjlUNTlyak9qR3A1cDRTWHJFVHMyTEJtYTFUX1lGdlZac19GZ21wQzNYakdGR3gtNUdUMmtaY0hKYzg5Nk9VaXNpakJxS2V3bFNjQ1otdVlSVWVySVFlbkgzam05UHlfbTZpVkozZURhU21wRng0MnNpdDk3Q18zclY3NTZKc1dmQmN2TDdkY2ZLbURtWXM1TERCbFg3bXkzaEloTWc?oc=5",
+    "source": "Haaretz",
+    "fetchedAt": "2026-03-29T08:00:45.352Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "ugandan-military-chief-vows-to",
+    "date": "2026-03-28",
+    "title": "Ugandan military chief vows to back Israel against Iran in viral social media barrage - Fox News",
+    "description": "Via Fox News. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPYUdXNzJTQ1JkbkgwTlJndDBySGU3ZlpxZFUzdUFRZ0RTR2wtMVJLbWJKdmpnWElnWTMtSDNkak16X3BSNWhXbGx3Z2dhcEJoZ2c3OE1WUENzNnh0bTFrWXo4dDM2Z3VNY1JPZnRsQjZGa3I1dV9iNURPUnZQTWhLdldpQUVmbENTdmRDeFZPdDBDWDIyaHBsMVZBQzh6MG1WYy1tZ3pCOWpYYjBVNVHSAbMBQVVfeXFMTzUzUzZRUXZENXFxNkFJV1FrNGNsbHhCbmFUTnFLOWI0UlZ5eXFYdkdUNjNUQ29WWGhybEdCNkZYSlB1NFJVY3RTbVM1QV9nc2dFTzVMeVpBa2ZRUGV0SDdLU0lBV0plY2VwMk5JRVo5bHZ3TkVsVTJVNGx2alQzQWs2V2Ytc3FKcDRBaDhEeE5zN2tpYmdXbVdocXdsQkJ1M3hJWU1jVFB5Rkt6REVsOVR2T3M?oc=5",
+    "source": "Fox News",
+    "fetchedAt": "2026-03-29T08:01:04.707Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "pentagon-said-prepping-weekslong-ground",
+    "date": "2026-03-29",
+    "title": "Pentagon said prepping weeks-long ground operation in Iran, short of full invasion - The Times of Israel",
+    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObXFGVXpmVE56Zkp2WEJuTWdsY0RLTnpDcXF5LVRPNGhOTUJoRXF3a1laeWVDNWY0LVRQM2ZVZmxPNUxTa0wzSUxhSFc1WGhvNFVkd2Q5TWxlSjBvYVFtUW12YWxJenBXTVA1TWMxZzZobTlkODFRbW1kd3UxUkJJRFE4X1ZfUm5yTUN4ZkM5RlZKcWNJZFJYc04tenB5Y0lmQzlFU0NmWC1qU2gwR3RJZFV30gG3AUFVX3lxTFBYQmZwUnN1eHJxbUMwNzZVREV5UEtEMzhSZ2I4dW5aQ3R4VVduQy1xWGRsNDhVTXJucFdEc2ZoSmh5V3Ytd1Mxc05VNUFyMUlrZkQwTFFoUENOYWV2bl8wa010c0hGUnhhTkVBTDhTYkVuOEQ4c2pyZFcwd1VTUlhXajVRbHVBQlZaTENfZDVkVUgzRDVtbjlmRThINWw3ZGVlWmlQeHlDalRFTGF3Zi0wd0ctMWxZUQ?oc=5",
+    "source": "The Times of Israel",
+    "fetchedAt": "2026-03-29T08:01:10.702Z",
     "mediaUrls": [],
     "videoMatch": null,
     "lat": null,
