@@ -1,255 +1,5 @@
 [
   {
-    "id": "aptopix-lebanon-israel-iran-war",
-    "date": "2026-03-28",
-    "title": "APTOPIX Lebanon Israel Iran War - Columbia Missourian",
-    "description": "Via Columbia Missourian. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQWGVwMFlkWlNBdEpxTTc3V1VoMWJBVDBLdFE1NDlxWnFia3QtMkdsaDFkeEJ1cV9fejRxUnowS1BTNGJTQUE5dUJoTmlzSGRwa1l2RnVGNS1ybU9kdXR4U1Exa1hKbmN4U0JHMWVscUotMUtHdzYteTFlcjBhaXV4SVNudUFRNllsWXNPRHlJSGpVUHJad0RVcG14OWpKYTk5U0dlTllLcW5kQllkZ3cwZEJ6eEN5eHlBRWktRmpRUzQyaTlDX2x1b2tiNGI?oc=5",
-    "source": "Columbia Missourian",
-    "fetchedAt": "2026-03-28T23:00:29.391Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=R2yp9XF4vHw",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "R2yp9XF4vHw",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "thousands-of-us-marines-arrive",
-    "date": "2026-03-28",
-    "title": "Thousands of U.S. marines arrive in Middle East as Yemen's Houthis join war against Israel - CBC",
-    "description": "Via CBC. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOQmN1OFg2WUMxZXlNS1JmcUpWVW9qMmVkUjdHM2hSZkh4ejFZcWNCRWg2WVpPRFJBYnJpdWdzcjY0WXhJelVVZDBaVVJIdnNJM0MzTTM5MjVXQ2JZNWlfZ2c5QjJ2enFpX3Q3eG5uNkI5X1JZanljSTFjUTlkd29Leg?oc=5",
-    "source": "CBC",
-    "fetchedAt": "2026-03-28T23:00:31.916Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=_RBoam1tA98",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "_RBoam1tA98",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "israel-iran-war-the-missoulian",
-    "date": "2026-03-28",
-    "title": "Israel Iran War - The Missoulian",
-    "description": "Via The Missoulian. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1UU3c4U01fcl96UmhXSHBkSFZTMkw0bVN5VDR0MW5Lai1YVlZ1QmJZbmU5MFVVUG9PNzh4U2F0dVFUQjNEbU1zeHNlR3cyNTVIajZlb3EybjV5TkljbGdCc3FWSFlLOHhGSjRadkJ2LVhLSUlYR01fQmFn?oc=5",
-    "source": "The Missoulian",
-    "fetchedAt": "2026-03-28T23:00:51.220Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "1-month-on-where-usisrael",
-    "date": "2026-03-28",
-    "title": "1 Month On, Where US-Israel War On Iran Stands And What It Cost So Far - ndtv.com",
-    "description": "Via ndtv.com. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQRDV4cGFObkNFUUNNWHBMd2l5X2pLMXphbEhVMnVYLWlkMXFKM25GcTJFQVpWT2psYkgwNUlaR1I4cVlKWW5GZUtUSVhNOWZFRDdhT0hWTFhreVAzdzJBWTZkOXpyeENlRDBILWx4clA1emNfN2k3WFRPeVJtSmhPeVhkTGFUdEIwVTc1WjRUUzhLNE5zd1MwSzl5ZTlFZ1R3UXdvMXJuZlpmVG82ZkxYcHRzS3dRQlgyV3Fn0gHDAUFVX3lxTE1NeElaM0dJWGlhOFUxNHEwZGxKbGJOOFNVTnlZUnB4WlMwSHowbUwwRmJidy1FSjB1N0FrZjRXWXNhTjc4dnBhR1JwdHhoUFNLV3huWUNfOWtkb2owbXlyVjZzc05nX3J6OU9TSmcycHF3ZkZrb3NfSV9tbjY2QXRQd1NjcVdXYkR3NU9tTHpWcE5XeTZXUGFmSWw2LUQyT3ZrMVJNcVR5ejZHQVl0VnlCU3J4YlBCSzk2YWlVMlpxVTFPMA?oc=5",
-    "source": "ndtv.com",
-    "fetchedAt": "2026-03-28T23:01:04.973Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "houthis-enter-iran-war-widening",
-    "date": "2026-03-28",
-    "title": "Houthis enter Iran war, widening the conflict with strike targeting Israel - CBS News",
-    "description": "Via CBS News. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZ0plV3A4aVIxRTh1N3pmekQtLURXdWJFNnJhSl9ZLTFBVjU2SG82eE4xTWtyNFVkanZESk1tYk5YVFdZU0pnMTBsMnhnVlVmSGdMbWRqWktRQ3BLcTR1VFhTX3lwUThLT050VXgxdlR5UjBROXBLeHY1WnlBRWhydHpjZDhiR0xqdjhOV2FrektfdW9aNUNHTUFJVQ?oc=5",
-    "source": "CBS News",
-    "fetchedAt": "2026-03-29T00:00:12.608Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=ajqvwFmSt6s",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "ajqvwFmSt6s",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "12-us-troops-injured-in",
-    "date": "2026-03-28",
-    "title": "12 U.S. Troops Injured in Attack on Saudi Base, Officials Say - nytimes.com",
-    "description": "Via nytimes.com. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5PWm1LQkxpaXZGMG4xQ3RlWkV6TnZJWUtWOTFmbEtJUkloUHJnWUxxYjJ3NWF5UGtCZVV6SkFTc25fSDlLaG1hRFQtZEFLR3hHYm9ncnZ0dWdIblNkeGl0Qms2WU1pN3UyVnBSZ19EcEtmektYWVRpRGpwOA?oc=5",
-    "source": "nytimes.com",
-    "fetchedAt": "2026-03-29T00:00:17.259Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=xjpQgf0wayI",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "xjpQgf0wayI",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iranbacked-houthis-in-yemen-launch",
-    "date": "2026-03-28",
-    "title": "Iran-backed Houthis in Yemen launch attack on Israel for first time in war - washingtonpost.com",
-    "description": "Via washingtonpost.com. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB2LW9fUjBuQ1haQUdiQzRBSDBVNkFWazR3dDZsbDBJZE5yeDRUQjFBN0RaS0dzWjNCSm1TdW85anFXNno3V3p4OXFEUEgwRVJNOC1LcUhRN3p6X21FRm5uaFZwTUFxeDVmR2pZYm9iem4wOHBzUGpyOWRLSEg?oc=5",
-    "source": "washingtonpost.com",
-    "fetchedAt": "2026-03-29T00:00:19.668Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=YZ1GoP8Yy8o",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "YZ1GoP8Yy8o",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "one-month-of-war-assessing",
-    "date": "2026-03-28",
-    "title": "One month of war: Assessing military strength of US, Israel, Iran - aa.com.tr",
-    "description": "Via aa.com.tr. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPYUkzcURWUWZmREs3TXk2Qm9CaVcweWdhSHJ3WEtXd3g1ODNHeHJYUklnOUE2S3E4bVhvXzlpN0ZjaG00MVY5STQ2cGt5UnZiQ1FuQURTZmlxdGo3VVNhLTFlc1d4YzBIU1NWSHRLRVZ3emVucDZwLUxFcXN2NjJjeDJPYzNiazNSSkdBYm9ka2JKbkcwdzlsMGFqWnlVcnJMVGFjOWpDMGxiZHM?oc=5",
-    "source": "aa.com.tr",
-    "fetchedAt": "2026-03-29T00:00:27.347Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=buglfD-2Hog",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "buglfD-2Hog",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-war-houthis-claim-2nd",
-    "date": "2026-03-28",
-    "title": "Iran war: Houthis claim 2nd attack on Israel in 24 hours - DW.com",
-    "description": "Via DW.com. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVVphOFZLSkYyZkVGbGhFaW9TZ0UzYXZ3NTNIR2ZRenZYQjhjbTlOZmRDb0JjOW5mS0J2eTdka3VoZVdwRHVWN01mU19jMDZSbnRfek1EejF3UlJKNXJ6YUloQjltVGhYaTVldmdFWlVuRnJZNWIyV0JxUmZDX3VUWjE4R0c3aVBlYUVVRi1ucl9HMGlvZHc?oc=5",
-    "source": "DW.com",
-    "fetchedAt": "2026-03-29T00:00:30.058Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=g-QepsSdySM",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "g-QepsSdySM",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "marines-arrive-in-middle-east",
-    "date": "2026-03-28",
-    "title": "Marines arrive in Middle East as U.S. sends more troops to region - upi.com",
-    "description": "Via upi.com. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQQ1lqTlJjMjNYSndoZFJIVndMZUdQMWctY2FKSVpzSjgwWThIakhmOXFVcFlGVXFuTTZCSlE1OGhHR1RxdnMya1VCaEZoQzVNUGZMWFlMVUpqbmM3TDF4N2E4dThveTRKa1d3WVQ3SHN3N1NnNHhtMWswbE9TUmxsejBoWlhjc3QxUUdyamt0c09RMUl1V0gwS2F6Z9IBoAFBVV95cUxQdkNVUnZac3Y5dC1MTHpwaTQzbm96aEhyV09BZlpwaTB2RW5EcG1sZ2JTRERqY282U0dnNkFhcTR2VUtFWEZkYzRlTFlXckpCa29SZlRPUUYyc3NEbXY5MkVaRDVJZVBOeGJrd1UxNVc5a3lfck1POG9HcktONlRyVjNDTW9nakZHOEFzTy1UYVBIRjRIYXd3bU9tRUt4cWZ3?oc=5",
-    "source": "upi.com",
-    "fetchedAt": "2026-03-29T00:00:34.749Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=7LinUW0CGE0",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "7LinUW0CGE0",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "yemens-houthis-strike-at-israel",
     "date": "2026-03-28",
     "title": "Yemen's Houthis strike at Israel in their first such attack since Iran war began - AL-Monitor",
@@ -4596,6 +4346,256 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNV3lfZDlnLU9KZUVsS1YxdlFrNkhNbkJNdUdkX1czZFlOZV9wU09FWnMyOXNyaUFBWWdjcmpNRVo2YWQzWlRqMTBxNjNyTmpDMnlXVWNMRjNlRTNjUmtSdkRJaFJlOHpTaG8zMUZJTXkxcHFaOHhnQ2xLNElVYXZ4azNIZm1STnV2alBqcXZmV1p1Q2FFM2UzTmQwZVJHbFhKNDZOM01LV0NIRkl1MVRfLUtKUm9fdw?oc=5",
     "source": "afr.com",
     "fetchedAt": "2026-03-29T20:01:07.924Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "why-did-us-and-israel",
+    "date": "2026-03-27",
+    "title": "Why did US and Israel attack Iran and how long could the war last? - bbc.com",
+    "description": "Via bbc.com. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE55MG5wdTJrMFlNLWRENFBMZEFMcW0yN0E5dE1lajB6eGRWU1JNN2Y0cXhkbGlGdEpTcG1naHdqN00yLThGV3Qzd2RmYWhBa0tfS1I5ejRobjVGZw?oc=5",
+    "source": "bbc.com",
+    "fetchedAt": "2026-03-29T21:00:14.068Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=SEYvYYX5acY",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "SEYvYYX5acY",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "ali-larijani-irans-slain-top",
+    "date": "2026-03-18",
+    "title": "Ali Larijani, Iran’s Slain Top Security Chief, Spoke to FRONTLINE in 2025 - pbs.org",
+    "description": "Via pbs.org. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcmtvZUg1enJzNWEwdjl4X3dPeGk0dXFrcHdXSThfdG9wNXozYjBlVFp4VDJ3NkkxbWc5WENfcUsxWE8tZXYyNkFZNjlwdVNkTi1ONmN3SXJBMGZVcld5Qm9QUzl0MDgtX1AwdU9ZWmVuNzQ2SV95V1dLaHJFdWVOaWJWRmp1N0s3Zk9RZkdhQmF5WU9WcjY1SWZySQ?oc=5",
+    "source": "pbs.org",
+    "fetchedAt": "2026-03-29T21:00:15.772Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=aTEMtw2ybEo",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "aTEMtw2ybEo",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "usisraeliran-war-news-live-updates",
+    "date": "2026-03-29",
+    "title": "US-Israel-Iran War News Live Updates: Series of explosions rattle northern Tehran, power cuts in parts of Iran's capital - timesofindia.indiatimes.com",
+    "description": "Via timesofindia.indiatimes.com. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMizAJBVV95cUxNSkppQjNUQmNFdUJmS0RjMV9YdXl1WUowYUpfMmgzMlpLbHJjZUlwTjhYX0lrdUZETXNkenJyczREOFRfa2RKaG14cnQ5dzFscWRoLTJueE9Gc2tBWkdyZWZMWTR4WXQ4ekJ2dVV0cDhibDYyMFlyaFUwZGR5TWMyLUdndW1FbVp1WmdmV3ZXcHhzUFhGWlhSZ2FDOGtMM0FfLVZmOERfYzdlTU9SZFcyMGwwd3N0UkZGX3h5YTB4bUs5b1Nrc2RIajJidFVrVlJoQm9pcmNxYy1vQm53M1RBUlE5b3hoMmpacHU0cUdyaWhaTEM5TjZWUkV6WGRlODgwVVZfRERwd01qNzk0MEFldnA2RWNuQjZhaFlTd2VJd3Ewcm4zTDRFYXRCWEs4QnpxdGRjOHhqc3ppbmN2UkF5ZTUtZzMyckRqWjRYWNIB0gJBVV95cUxNWnY2QWluTGRfdGsxdndiN2Z5N2NvN0F2bHgtbldiZzJPQWF1Ty1wZHo3VUFRalVlemNPZjBaaHZyeUpWd1VlVFEtak5IaUhqejEyN0RocnJoUHhEcXZVaVdHNTZQb0NjcnBZRlo2bERMTzJUbWQtQ2FITDhRbzNNUGdBT3RBOFhwaTJOWWNOUlAyS25EZVFhc04wT0htal9HSzV5dGlHcDBKX29wZlc1Zlk5aGNHUTl3cWNud0pyVkxxY09ESEJIYmlJckFtQ0s1SnM0Z1BFQ0ppRWM5Z1BSRHVCT0NfU2dMSHNiVnV3QWV3cDZfUDVjVkw0bDFGenBwVlQwbGMzY2Q4LW1JNXdITXo1WWlrTVoyQ1VyZzc1SVNISWl4aDRCeHRUYmozU1QzOV9XdFlPQ1hhVEtTaTlsZE1KcU51RXh2Q1p5SjlPbjJGZw?oc=5",
+    "source": "timesofindia.indiatimes.com",
+    "fetchedAt": "2026-03-29T21:00:19.901Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=ZUwSExAdw34",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "ZUwSExAdw34",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "pakistan-offers-to-host-meaningful",
+    "date": "2026-03-29",
+    "title": "Pakistan offers to host 'meaningful talks' as threat of U.S. ground assault in Iran looms - CBC",
+    "description": "Via CBC. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5QODBWbHRsVE9POUxZVy1uVW16eGtMUGhZeXlpMGxJeDR0a0dPcldON1hTVFM5WmQyMURFU3JSQ21zX25vUFJIOTUwcDhWT1d4eXBuNWF0QVBSMy1QcVZFSDF0TC1hTVV1OGtHTGFveDhVV2VVZzJrY0hKSQ?oc=5",
+    "source": "CBC",
+    "fetchedAt": "2026-03-29T21:00:22.346Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=CLtd5Dhd0bs",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "CLtd5Dhd0bs",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "rubios-war-remarks-blow-open",
+    "date": "2026-03-03",
+    "title": "Rubio's war remarks blow open MAGA elites' Israel split - axios.com",
+    "description": "Via axios.com. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE9HT0dQWnV5RXJhUFluRnpDczZBVnk5WEZlanNmYllBMjliZE5MQkw2RllKYWFQMnR0ZXgxOHpCME90YnM4a1NNVTdaUVlfZDI2dDlrTUNuc2VJcTdXWGktcFdEVFcybHR2dDU4NHItMmFNZw?oc=5",
+    "source": "axios.com",
+    "fetchedAt": "2026-03-29T21:00:24.802Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=ee8WIxGCnr0",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "ee8WIxGCnr0",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "pm-denies-australia-out-of",
+    "date": "2026-03-20",
+    "title": "PM denies Australia out of step with allies after joint statement - Australian Broadcasting Corporation",
+    "description": "Via Australian Broadcasting Corporation. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNZ2pQOGJ0OEh4bUhQNDFpLVVDYTYwNFVrNW9TOXZRMkJ3RDBUNHZBRjV3S3dxd1dWQ3RsZGZwdllmNDdIZElTaTBManNKYXQyRW1naFJJQzdHaXFDV3RDTno2dEpRNG9adDB6a0dEcGhjUGZaOWFuUHZ0MVJWY2xTUGVpVmxvM1U?oc=5",
+    "source": "Australian Broadcasting Corporation",
+    "fetchedAt": "2026-03-29T21:00:27.327Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=7EG_Hc9Ya4o",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "7EG_Hc9Ya4o",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iranian-attacks-across-gulf-continue",
+    "date": "2026-03-29",
+    "title": "Iranian attacks across Gulf continue as major industrial sites hit - bbc.com",
+    "description": "Via bbc.com. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1DdHd2aVprYzBtU05yVEJYRUVnR3dKUkt3b2QtMnpYVzc5cjNBMVJjY05hVEVFSXdhd0ZVSEhVenYteFpHRm05bms2X3p3b215ZTRyeTh3Rkt1dw?oc=5",
+    "source": "bbc.com",
+    "fetchedAt": "2026-03-29T21:00:29.691Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=eY4dA16E2wI",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "eY4dA16E2wI",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "power-cuts-in-tehran-after",
+    "date": "2026-03-29",
+    "title": "Power cuts in Tehran after energy infrastructure hit, Iran says, as industrial complex on fire in Israel - bbc.com",
+    "description": "Via bbc.com. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1CdkxWNHN0Zk8xSmJQcFdkdWhLZy1qSTlDbzJCNEVFM1FOcTlwS1NyWXMzaEVvZTZxcFNyMWc4WkFzMmdSYXFUbzNTckRuWEdzamNQdDlraTNnd0RpZ1E?oc=5",
+    "source": "bbc.com",
+    "fetchedAt": "2026-03-29T21:00:32.025Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=zLGojjLbXKU",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "zLGojjLbXKU",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iranbacked-houthis-join-war-with",
+    "date": "2026-03-28",
+    "title": "Iran-backed Houthis join war with attack against Israel - bbc.com",
+    "description": "Via bbc.com. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5oY1N1ME83RElJVUc5OFZSaXJFMms5a1Z4MDdxR2VrN3JPam9RVUZMQlpqdzZsYUVBNko1RWtRM2s4ckpiR0FxdDlXS1RuYXBlOElaZU1uYThidw?oc=5",
+    "source": "bbc.com",
+    "fetchedAt": "2026-03-29T21:00:45.056Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "yemens-houthis-enter-iran-war",
+    "date": "2026-03-29",
+    "title": "Yemen's Houthis enter Iran war with attack on Israel, while Marines arrive in region - KSL News",
+    "description": "Via KSL News. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTFJTV043Y1lkdEg5WV9ORHlJdllMOTVEbW9aTTBXTHBzclZWdmswZXhxRU40SkFkeUxiekNUN2d4M2pub2N5Mkg1QzBqX0s3dTk0TWlrMTJxSUtCY3l0QzVJM0ZXT2dzTVZhWWxGTElhRy1heW1wVGhhY0pKMmt2SmxSM3dGZ0paMThwR3NDRkZTQUlzMkVRTUVPWl9pSHVwZGZ0LXhsWldIMzN5enM1TTloWjhBU1RQbUw0?oc=5",
+    "source": "KSL News",
+    "fetchedAt": "2026-03-29T21:00:51.328Z",
     "mediaUrls": [],
     "videoMatch": null,
     "lat": null,
