@@ -1,248 +1,5 @@
 [
   {
-    "id": "tehran-strikes-military-base-in",
-    "date": "2026-03-28",
-    "title": "Tehran strikes military base in Saudi Arabia after Israel hits Iranian nuclear facilities - CBC",
-    "description": "Via CBC. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNX3ZCS0R5cFZSZ3lFcDg2M3IwU1RySEZIdUVYTEM3NG5qWDRBUzBNWUI2cGJURVk3RkpFLTNJd2U3ZmFaNDB5TUpuSjFKRjI0NWgyMjBnVDhWSUhQc0JXQjAwNDZRYTdZM1JqN3FGTU55ZHc5MHVaUXRqVHF3MC1RNEcyamVncWRlSVdlcg?oc=5",
-    "source": "CBC",
-    "fetchedAt": "2026-03-28T03:00:11.831Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=uxvqAmB9gcA",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "uxvqAmB9gcA",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "three-charts-that-are-warning",
-    "date": "2026-03-27",
-    "title": "Three charts that are warning signs flashing for Trump on Iran war - bbc.com",
-    "description": "Via bbc.com. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBkelUzRWp2clpDUTVVNnI2TGxUTU1UangzcU5uUWllTEludzlIM0ZqQVVZcVhwM2VnVGE4ejdZeGFkajB0OXhORVBsVVVIcjg1QjFUT2dwVmxqdw?oc=5",
-    "source": "bbc.com",
-    "fetchedAt": "2026-03-28T03:00:15.103Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=U-GVvkAuaKg",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "U-GVvkAuaKg",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "live-updates-israel-vows-to",
-    "date": "2026-03-27",
-    "title": "Live updates: Israel vows to 'intensify and expand' Iran attacks; Trump delays Strait of Hormuz deadline - NBC News",
-    "description": "Via NBC News. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVFUzN2x3eUpxX3lvQmFUOTBtQVhScXBFRmhpY0YtZ2ROMDE5MnB0bklZQXR2bVlERkt6a0ZQeWVKalNxYnVOZHNxdjFMaC1MWWlMWDVUTEtwSHQtQUJxbEh4UndIamR5T2N3Rk1acWxLcHdNZ3llaHQwWXEzdmVUUHdZck9MWlRLSGVtaWJKWmx6M3BsNFdWN2diU3ppeDc0aWNvSnhtSWhCR1o4YnI5UXJB?oc=5",
-    "source": "NBC News",
-    "fetchedAt": "2026-03-28T03:00:16.785Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=iM64MlNEPIc",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "iM64MlNEPIc",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "my-daughter-is-under-the",
-    "date": "2026-03-27",
-    "title": "'My daughter is under the rubble': Inside Tehran as civilian toll of strikes rises - bbc.com",
-    "description": "Via bbc.com. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9SNmY2TTZxeml6emtjYWxUdTM4Mk05a3JJc21yOENpd3F1MlNobTgxenRlZzI2dG5Oalhxamo5NEUwS0xCbjZVVi1PQlJWd0FuWXh0WXlhdURaUQ?oc=5",
-    "source": "bbc.com",
-    "fetchedAt": "2026-03-28T03:00:19.106Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=ZvY_-SEFHpI",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "ZvY_-SEFHpI",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "why-did-us-and-israel",
-    "date": "2026-03-27",
-    "title": "Why did US and Israel attack Iran and how long could the war last? - bbc.com",
-    "description": "Via bbc.com. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE55MG5wdTJrMFlNLWRENFBMZEFMcW0yN0E5dE1lajB6eGRWU1JNN2Y0cXhkbGlGdEpTcG1naHdqN00yLThGV3Qzd2RmYWhBa0tfS1I5ejRobjVGZw?oc=5",
-    "source": "bbc.com",
-    "fetchedAt": "2026-03-28T03:00:21.565Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=SEYvYYX5acY",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "SEYvYYX5acY",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-war-splits-older-and",
-    "date": "2026-03-28",
-    "title": "Iran war splits older and younger conservatives - as pressure builds for Trump to find exit ramp - bbc.com",
-    "description": "Via bbc.com. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1aN3Y1VjNPTE9mZ09TSWhiRGNKN3pqYlpEQzZucG1ITEF3RG95OEFKV1M0WDVpdmtSMm9HQTFjNTlDbkVMSDMzdUFBdGFyaUdBLW9HRVVkYUNJUQ?oc=5",
-    "source": "bbc.com",
-    "fetchedAt": "2026-03-28T03:00:23.595Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=D9BZ0j8kzh0",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "D9BZ0j8kzh0",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "houthis-threaten-to-join-iran",
-    "date": "2026-03-27",
-    "title": "Houthis threaten to join Iran war if these 3 red lines crossed - thehill.com",
-    "description": "Via thehill.com. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRVdGQUlpa0JQNVk2OWNPRXhTSFR5QUhxeDlqNWd0YzJQZVNBNEZhWUJ2RW9mazVKTFdJOGdUdFJoSFhqMjNYeXFZdTJUZ29Ccl9qaUpSMFZEN0lJeTFkQ1VwakhlR1F1NHFpbHV4M0c5TkowNHV4cmI2SWZxaTFRX193UGjSAYoBQVVfeXFMTnVIRFhpRjFqT3htTnBJWXcyZXlkQlp6WWRHTUlyejlLVkItUzlTMlI4ZENuUzJkWnJ0VGRfVXVfR2UzQnZZekwzZUJpVDZlcEhDX3loa0FNSTNUVmk4V0JPWWg3V01adjhzVldCbWhZcmx0OGtlaGM5VjYxclE3X202S2NSS2lKaWZ3?oc=5",
-    "source": "thehill.com",
-    "fetchedAt": "2026-03-28T03:00:31.644Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=lKEoYW3BqJA",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "lKEoYW3BqJA",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-update-special-report-march",
-    "date": "2026-03-28",
-    "title": "Iran Update Special Report, March 27, 2026 - Institute for the Study of War",
-    "description": "Via Institute for the Study of War. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcVNkQV9jQmdhQkRtVVM5VjhPSDRzeHBqWWF4d0x5Q2p4SW5WZjloLUhCZjJOZVJ5cTJPbVdRMHF2MDBibXJDYVotT1lyMFZWU2llekc0MkUtVUY5VWh2MXVvVm5RejlySFlPU20xU1g5NU1EaVVsNjA1SUhGM2FlY1JXV25HTGZ2eDJUZzVEX3M4QjJLR2c?oc=5",
-    "source": "Institute for the Study of War",
-    "fetchedAt": "2026-03-28T03:00:33.849Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=ZRKHicqQAPA",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "ZRKHicqQAPA",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "trump-extends-pause-on-striking",
-    "date": "2026-03-26",
-    "title": "Trump extends pause on striking Iranian energy plants; Witkoff floats 15-point peace proposal - CBS News",
-    "description": "Via CBS News. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTTFaaHhvaFQzUHA2aXdtZXVMVXE0WGdGbXlCQWV3MnlWdE1ObVZ1cGlYaXBka1E3NmNELUFzSkZCMURxUllYVXhzOVNqc0hqMWJJS1c0ck1VVG1PT29ZRzZjd0NYNEJXUEFxdkhDSVhFUTRtdEhkNnphdGJTUV9BZS0yZXRNOFpHMWpjMUVmSjNyY09YRTUxQzlyTG5BWTQtU1FibS1PbFNXZ9IBrwFBVV95cUxOalp4ZjRjejN4Rm8wMUxWaEluN3Z5eXlpZnFsaWFSWUlYbTlnWThQSVZzM2pIT21iY0txVXVYeTR0bHIyNWEzSjJSRmJSRkV5UzU2anZ6UmVyTUxUdGJyME1ZMVBGWEd2TW8xaEd6SmZMQWR3bk43WkI2bG5pdUh2cXNzU1hmWU9YUmVfbThhUGVOTUhfc2c2cUVGNXoxa3NDVERGMkNvNkV0aXh4blZ3?oc=5",
-    "source": "CBS News",
-    "fetchedAt": "2026-03-28T03:00:36.383Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=nZksBevNs3E",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "nZksBevNs3E",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "one-month-in-what-do",
     "date": "2026-03-27",
     "title": "One month in, what do American conservatives make of the war in Iran? - bbc.com",
@@ -4399,6 +4156,212 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQRDV4cGFObkNFUUNNWHBMd2l5X2pLMXphbEhVMnVYLWlkMXFKM25GcTJFQVpWT2psYkgwNUlaR1I4cVlKWW5GZUtUSVhNOWZFRDdhT0hWTFhreVAzdzJBWTZkOXpyeENlRDBILWx4clA1emNfN2k3WFRPeVJtSmhPeVhkTGFUdEIwVTc1WjRUUzhLNE5zd1MwSzl5ZTlFZ1R3UXdvMXJuZlpmVG82ZkxYcHRzS3dRQlgyV3Fn0gHDAUFVX3lxTE1NeElaM0dJWGlhOFUxNHEwZGxKbGJOOFNVTnlZUnB4WlMwSHowbUwwRmJidy1FSjB1N0FrZjRXWXNhTjc4dnBhR1JwdHhoUFNLV3huWUNfOWtkb2owbXlyVjZzc05nX3J6OU9TSmcycHF3ZkZrb3NfSV9tbjY2QXRQd1NjcVdXYkR3NU9tTHpWcE5XeTZXUGFmSWw2LUQyT3ZrMVJNcVR5ejZHQVl0VnlCU3J4YlBCSzk2YWlVMlpxVTFPMA?oc=5",
     "source": "ndtv.com",
     "fetchedAt": "2026-03-28T23:01:04.973Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "houthis-enter-iran-war-widening",
+    "date": "2026-03-28",
+    "title": "Houthis enter Iran war, widening the conflict with strike targeting Israel - CBS News",
+    "description": "Via CBS News. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZ0plV3A4aVIxRTh1N3pmekQtLURXdWJFNnJhSl9ZLTFBVjU2SG82eE4xTWtyNFVkanZESk1tYk5YVFdZU0pnMTBsMnhnVlVmSGdMbWRqWktRQ3BLcTR1VFhTX3lwUThLT050VXgxdlR5UjBROXBLeHY1WnlBRWhydHpjZDhiR0xqdjhOV2FrektfdW9aNUNHTUFJVQ?oc=5",
+    "source": "CBS News",
+    "fetchedAt": "2026-03-29T00:00:12.608Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=ajqvwFmSt6s",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "ajqvwFmSt6s",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "12-us-troops-injured-in",
+    "date": "2026-03-28",
+    "title": "12 U.S. Troops Injured in Attack on Saudi Base, Officials Say - nytimes.com",
+    "description": "Via nytimes.com. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5PWm1LQkxpaXZGMG4xQ3RlWkV6TnZJWUtWOTFmbEtJUkloUHJnWUxxYjJ3NWF5UGtCZVV6SkFTc25fSDlLaG1hRFQtZEFLR3hHYm9ncnZ0dWdIblNkeGl0Qms2WU1pN3UyVnBSZ19EcEtmektYWVRpRGpwOA?oc=5",
+    "source": "nytimes.com",
+    "fetchedAt": "2026-03-29T00:00:17.259Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=xjpQgf0wayI",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "xjpQgf0wayI",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iranbacked-houthis-in-yemen-launch",
+    "date": "2026-03-28",
+    "title": "Iran-backed Houthis in Yemen launch attack on Israel for first time in war - washingtonpost.com",
+    "description": "Via washingtonpost.com. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB2LW9fUjBuQ1haQUdiQzRBSDBVNkFWazR3dDZsbDBJZE5yeDRUQjFBN0RaS0dzWjNCSm1TdW85anFXNno3V3p4OXFEUEgwRVJNOC1LcUhRN3p6X21FRm5uaFZwTUFxeDVmR2pZYm9iem4wOHBzUGpyOWRLSEg?oc=5",
+    "source": "washingtonpost.com",
+    "fetchedAt": "2026-03-29T00:00:19.668Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=YZ1GoP8Yy8o",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "YZ1GoP8Yy8o",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "one-month-of-war-assessing",
+    "date": "2026-03-28",
+    "title": "One month of war: Assessing military strength of US, Israel, Iran - aa.com.tr",
+    "description": "Via aa.com.tr. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPYUkzcURWUWZmREs3TXk2Qm9CaVcweWdhSHJ3WEtXd3g1ODNHeHJYUklnOUE2S3E4bVhvXzlpN0ZjaG00MVY5STQ2cGt5UnZiQ1FuQURTZmlxdGo3VVNhLTFlc1d4YzBIU1NWSHRLRVZ3emVucDZwLUxFcXN2NjJjeDJPYzNiazNSSkdBYm9ka2JKbkcwdzlsMGFqWnlVcnJMVGFjOWpDMGxiZHM?oc=5",
+    "source": "aa.com.tr",
+    "fetchedAt": "2026-03-29T00:00:27.347Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=buglfD-2Hog",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "buglfD-2Hog",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-war-houthis-claim-2nd",
+    "date": "2026-03-28",
+    "title": "Iran war: Houthis claim 2nd attack on Israel in 24 hours - DW.com",
+    "description": "Via DW.com. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVVphOFZLSkYyZkVGbGhFaW9TZ0UzYXZ3NTNIR2ZRenZYQjhjbTlOZmRDb0JjOW5mS0J2eTdka3VoZVdwRHVWN01mU19jMDZSbnRfek1EejF3UlJKNXJ6YUloQjltVGhYaTVldmdFWlVuRnJZNWIyV0JxUmZDX3VUWjE4R0c3aVBlYUVVRi1ucl9HMGlvZHc?oc=5",
+    "source": "DW.com",
+    "fetchedAt": "2026-03-29T00:00:30.058Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=g-QepsSdySM",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "g-QepsSdySM",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "marines-arrive-in-middle-east",
+    "date": "2026-03-28",
+    "title": "Marines arrive in Middle East as U.S. sends more troops to region - upi.com",
+    "description": "Via upi.com. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQQ1lqTlJjMjNYSndoZFJIVndMZUdQMWctY2FKSVpzSjgwWThIakhmOXFVcFlGVXFuTTZCSlE1OGhHR1RxdnMya1VCaEZoQzVNUGZMWFlMVUpqbmM3TDF4N2E4dThveTRKa1d3WVQ3SHN3N1NnNHhtMWswbE9TUmxsejBoWlhjc3QxUUdyamt0c09RMUl1V0gwS2F6Z9IBoAFBVV95cUxQdkNVUnZac3Y5dC1MTHpwaTQzbm96aEhyV09BZlpwaTB2RW5EcG1sZ2JTRERqY282U0dnNkFhcTR2VUtFWEZkYzRlTFlXckpCa29SZlRPUUYyc3NEbXY5MkVaRDVJZVBOeGJrd1UxNVc5a3lfck1POG9HcktONlRyVjNDTW9nakZHOEFzTy1UYVBIRjRIYXd3bU9tRUt4cWZ3?oc=5",
+    "source": "upi.com",
+    "fetchedAt": "2026-03-29T00:00:34.749Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=7LinUW0CGE0",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "7LinUW0CGE0",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "yemens-houthis-strike-at-israel",
+    "date": "2026-03-28",
+    "title": "Yemen's Houthis strike at Israel in their first such attack since Iran war began - AL-Monitor",
+    "description": "Via AL-Monitor. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOa3FmWU9tX2JFdmlFcXEyVnFDVmFFYzFNVjFzZlhuOUZ6bkhiTVdCT0hOZ29XakpwckdiMG1fZkhUdEd1aGlxQnVKemNjMGJaMUtoMV9aZnU5NTV3ZGxxTGFGTG1YU2VhbU5WZzc5Uk82V2Z2TkY1NHRGNTVNVUktQy16c2l1NGVjbXhvTm9OMXhEYUJVNXBuQWJERmQtUFB4dEpocjNRX09EcDJzM2ZZcmJB?oc=5",
+    "source": "AL-Monitor",
+    "fetchedAt": "2026-03-29T00:00:37.356Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=Z-HCJFLGiVg",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "Z-HCJFLGiVg",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "yemens-houthis-enter-iran-war",
+    "date": "2026-03-28",
+    "title": "Yemen's Houthis enter Iran war, while US Marines arrive in region - CNA",
+    "description": "Via CNA. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMERZMUpDWG9iMVF1UHJENnVzVUxudWFyTVZUOF9zWlg2LUFDMmJ2cGxoRDMyRzhGM3pwQmVYd29NVkJEcmk3MzZ5UGNrWDZHalBmQkhISkJVWlVhZGY4MTdIM3VpdHlwcllXREFpMS16RDRBQTB6enBad0liZUoxdHllOUVTMHN6S2stQ3ZfMFlSamYzaEVHQnVEUmdvek1VMVo3YzE2dFFIdWtDc3c?oc=5",
+    "source": "CNA",
+    "fetchedAt": "2026-03-29T00:00:48.578Z",
     "mediaUrls": [],
     "videoMatch": null,
     "lat": null,
