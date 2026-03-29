@@ -1,120 +1,5 @@
 [
   {
-    "id": "donald-trump-iran-war-news",
-    "date": "2026-03-28",
-    "title": "Donald Trump, Iran war news: One month into conflict, some Trump administration objectives unfulfilled as he looks to wind it down - ABC30 Fresno",
-    "description": "Via ABC30 Fresno. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQWFVxbUFpV3JpMEI1dmRWbzRjYlhMUGxBS3RHWFZ4ejVqcnlOSHBmNkFHSUlZWVhvSmUyTkI4RGVMeHN2VDlKUndMYXhRMEh0ZHNyQmVqbXNfQTN6TUtNdVNhMFA3T3VNSEw5QjB2MUZEbkxFQjhmWW1sRG1lbjRuUUdsUzVrN2ZGMkx0NUFFSlIwZ2kyWjEzMXA1TUV5ODhIZnFRd3pYdkRWTDZQem50cjlhQzdYQXRFZjl2QUhyMW9mOXNBckpxY3ZNd9IB0AFBVV95cUxNM1Q2MkVzdm5tZ3lpU3F2QU96cC1Jdkg3azFEbVRZS2pES2xvT3o0X2NiY2s5RFNTcjV3Rnl1dEktYWhJckxJQWJWaHlYeUhacHZkZG05aVozbjd4UF85UHZ6eXdJem9nbF9yX3didTVHeFhFQXE2cmJZbWlOU3RlSktOalBKbzRDTXZhOWtpY3FIWHNCRzlSVmJOVjc1LXNqVU14VldrWVh2TWI2UEdnNVZEdV9JMmpoNnhSYWlESVl4V0tWeWwwaTJqQjBLQnYy?oc=5",
-    "source": "ABC30 Fresno",
-    "fetchedAt": "2026-03-28T12:00:37.683Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "a-war-of-regression-how",
-    "date": "2026-03-27",
-    "title": "A war of regression: how Trump bombed the US into a worse position with Iran - theguardian.com",
-    "description": "Via theguardian.com. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVzJ3UGtCZk1Rc1pzSjhWV2I2UzFiUVEweVd3LVd1MWQ1ekhaOTlvU0x2Ul9XMEZjV1ZnMm1pY1pzWFRLTTBIR0JKanlFSkhNcFQ4ZTRncktyN0dUbVdtelMyZkJXc2p5SmZTZnZKNzk2ZWt6ZktvNVI5MG1KQXVNY09kVllUZnVxLWxwOS1QckRJV1dsUlN3MTJWX0Qya2dObE82OE5hcjFEeERu?oc=5",
-    "source": "theguardian.com",
-    "fetchedAt": "2026-03-28T12:00:44.320Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "analysis-what-do-houthi-attacks",
-    "date": "2026-03-28",
-    "title": "Analysis: What do Houthi attacks on Israel mean for the Iran war? - Chatham House",
-    "description": "Via Chatham House. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVlBTcFdTVkR3QUJvZmU3SXVDZlBOWjRIMHJpUFkwZWlDcXlJRHhuQzRhLXdDUm85alhwSDVUWkZpV2NsTTlaTGhLN3lFWVpaUm9jVkRIMGxOMkxQbG5xanIzTzdEaDl0SmM4NXIzaGhoOXd4a19JTHAyaWJyX3ZjaUFaRVJxakJKdmRPbFBPakVzNmM?oc=5",
-    "source": "Chatham House",
-    "fetchedAt": "2026-03-28T13:00:15.196Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=7Ft4eocPefo",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "7Ft4eocPefo",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "israel-says-it-intercepted-first",
-    "date": "2026-03-28",
-    "title": "Israel says it intercepted first incoming missile from Yemen as war in Middle East intensifies - WRAL",
-    "description": "Via WRAL. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOOHMyN3N6YXRHYnlJTTlzYzMyWFdkUjB5WVVXZXhyR3VHaFFlSldhcVJKcVFLWkpxMGtrTlNEb25nQlRza1BObk95UjdmTno2TUNZbjNaaUkwZUFJX0c2Mk1OclZpT1hjNnlIZnVyMmRfMDkzZDN1ZDB1TENnZmR4cUJ5OV94VGlSRThVLWt6SVB5WVhXWF9ORjBhTVhYUWd4ZlRIcEp5OGJBb2NvUWcyaWxTc3hqQkNid3NZY1VtWFQwa2U1RTNFY1ZB?oc=5",
-    "source": "WRAL",
-    "fetchedAt": "2026-03-28T13:00:24.298Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=I0r3_atxi1Y",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "I0r3_atxi1Y",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "the-wars-after-the-war",
-    "date": "2026-03-11",
-    "title": "The Wars After the War: Why Israel and Iran May Keep Fighting - CSIS | Center for Strategic and International Studies",
-    "description": "Via CSIS | Center for Strategic and International Studies. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxON0xFQWpZd3FMcml0MGFhamF3WFZWdHJXWWExYVU3djVnNjI1MjJ4dk4zS0N5TmV1d1FweUY3c3lfT1FJSjFSRmxDSlBKWXpuQUdkcVFhOWs4Y0hINk41Q09HM2pnb1NkTW8zNGphOFN4cHFtTWQ5U0hCdXJCNGgwdjVncjNmcGg1U2c?oc=5",
-    "source": "CSIS | Center for Strategic and International Studies",
-    "fetchedAt": "2026-03-28T13:00:26.657Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=5hBAA1UjYpc",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "5hBAA1UjYpc",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "iranbacked-houthis-claim-first-missile",
     "date": "2026-03-28",
     "title": "Iran-backed Houthis claim first missile launch on Israel as war in the Mideast intensifies - WHDH",
@@ -4351,6 +4236,192 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObXFGVXpmVE56Zkp2WEJuTWdsY0RLTnpDcXF5LVRPNGhOTUJoRXF3a1laeWVDNWY0LVRQM2ZVZmxPNUxTa0wzSUxhSFc1WGhvNFVkd2Q5TWxlSjBvYVFtUW12YWxJenBXTVA1TWMxZzZobTlkODFRbW1kd3UxUkJJRFE4X1ZfUm5yTUN4ZkM5RlZKcWNJZFJYc04tenB5Y0lmQzlFU0NmWC1qU2gwR3RJZFV30gG3AUFVX3lxTFBYQmZwUnN1eHJxbUMwNzZVREV5UEtEMzhSZ2I4dW5aQ3R4VVduQy1xWGRsNDhVTXJucFdEc2ZoSmh5V3Ytd1Mxc05VNUFyMUlrZkQwTFFoUENOYWV2bl8wa010c0hGUnhhTkVBTDhTYkVuOEQ4c2pyZFcwd1VTUlhXajVRbHVBQlZaTENfZDVkVUgzRDVtbjlmRThINWw3ZGVlWmlQeHlDalRFTGF3Zi0wd0ctMWxZUQ?oc=5",
     "source": "The Times of Israel",
     "fetchedAt": "2026-03-29T08:01:10.702Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israel-pushes-to-expand-iran",
+    "date": "2026-03-29",
+    "title": "Israel Pushes to Expand Iran Strikes as Trump Holds Back on Energy Targets - Haaretz",
+    "description": "Via Haaretz. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiowJBVV95cUxONWFUUXc2N3FtV2lwanZJS1lVSU9sYjlaYXhOZFcweDlzd0hRYl8zaTJMVG96cUVEZ0tZajFnYlFCUkh2N0w0NDhLMGVSdlhWSDlOX0F5aGF5bDFTaWFMQUtTekVDV1hmVElWN0VFVkFET2QxY191VDJvUEplSDRIODNrOVdMNjlUNTlyak9qR3A1cDRTWHJFVHMyTEJtYTFUX1lGdlZac19GZ21wQzNYakdGR3gtNUdUMmtaY0hKYzg5Nk9VaXNpakJxS2V3bFNjQ1otdVlSVWVySVFlbkgzam05UHlfbTZpVkozZURhU21wRng0MnNpdDk3Q18zclY3NTZKc1dmQmN2TDdkY2ZLbURtWXM1TERCbFg3bXkzaEloTWc?oc=5",
+    "source": "Haaretz",
+    "fetchedAt": "2026-03-29T09:00:15.395Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=4zcReE3GjIg",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "4zcReE3GjIg",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "12-americans-injured-in-iranian",
+    "date": "2026-03-29",
+    "title": "12 Americans injured in Iranian strike on Prince Sultan Air Base in Saudi Arabia - Fox News",
+    "description": "Via Fox News. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOS0Nacmk1V0dYUW16dU5JMHN1OFZUUENfSTVzZEhobjJHN3lyWnJjWDI2ZUtDMTdmZWctMWdIR21HVVN0NmltS1dKYXZKREVSTS0zcElVeXp1WjNubWlKSFhPcEhVUHg1Z0J0Ry1PSWlNdjNNdTZFaGFmekhjYVFpbmpvWdIBiAFBVV95cUxOWXB3Tmh6N2tjMjZWZVZ3MjdBSkpzX2FjSkZFaUtjN1NBYThvcHNHc2FTTjljSlF1QWJCV2V5S0NSdVA5UzdKekhkZnhCcGdIZVlwNUhicC1EQ3o0YnhpbVRJY1BYZ2ZSX2FkLXRlcVR3c1pScUh5X1FoNnp3VDNsclY0UVdwa3VO?oc=5",
+    "source": "Fox News",
+    "fetchedAt": "2026-03-29T09:00:16.926Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=xjpQgf0wayI",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "xjpQgf0wayI",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "live-updates-latest-from-israel",
+    "date": "2026-03-29",
+    "title": "Live Updates: Latest from Israel, Iran, and the Middle East - The Jerusalem Post",
+    "description": "Via The Jerusalem Post. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1XLVVnNGtyUk9HbXgwMkplVmhPSTNrZG84TjRqNmZBLWh3OFdDOXp4OXNoX3dCNktBTFhHTzIzR2UwS0hxWktNNS1oQW9LalZrQmxGNlV2T3d3RkNXbWVjWTEtZ05CUENJeVF6MGNMbW10OTVBM3ZIRGpVRGpoa00?oc=5",
+    "source": "The Jerusalem Post",
+    "fetchedAt": "2026-03-29T09:00:21.743Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=ZUwSExAdw34",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "ZUwSExAdw34",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "usisraeliran-war-news-live-updates",
+    "date": "2026-03-29",
+    "title": "US-Israel-Iran War News Live Updates: 'US talks peace in public but plans ground attack in secret' says Iran speaker Qalibaf; warns armed forces waiting - The Times of India",
+    "description": "Via The Times of India. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMizAJBVV95cUxNSkppQjNUQmNFdUJmS0RjMV9YdXl1WUowYUpfMmgzMlpLbHJjZUlwTjhYX0lrdUZETXNkenJyczREOFRfa2RKaG14cnQ5dzFscWRoLTJueE9Gc2tBWkdyZWZMWTR4WXQ4ekJ2dVV0cDhibDYyMFlyaFUwZGR5TWMyLUdndW1FbVp1WmdmV3ZXcHhzUFhGWlhSZ2FDOGtMM0FfLVZmOERfYzdlTU9SZFcyMGwwd3N0UkZGX3h5YTB4bUs5b1Nrc2RIajJidFVrVlJoQm9pcmNxYy1vQm53M1RBUlE5b3hoMmpacHU0cUdyaWhaTEM5TjZWUkV6WGRlODgwVVZfRERwd01qNzk0MEFldnA2RWNuQjZhaFlTd2VJd3Ewcm4zTDRFYXRCWEs4QnpxdGRjOHhqc3ppbmN2UkF5ZTUtZzMyckRqWjRYWNIB0gJBVV95cUxNWnY2QWluTGRfdGsxdndiN2Z5N2NvN0F2bHgtbldiZzJPQWF1Ty1wZHo3VUFRalVlemNPZjBaaHZyeUpWd1VlVFEtak5IaUhqejEyN0RocnJoUHhEcXZVaVdHNTZQb0NjcnBZRlo2bERMTzJUbWQtQ2FITDhRbzNNUGdBT3RBOFhwaTJOWWNOUlAyS25EZVFhc04wT0htal9HSzV5dGlHcDBKX29wZlc1Zlk5aGNHUTl3cWNud0pyVkxxY09ESEJIYmlJckFtQ0s1SnM0Z1BFQ0ppRWM5Z1BSRHVCT0NfU2dMSHNiVnV3QWV3cDZfUDVjVkw0bDFGenBwVlQwbGMzY2Q4LW1JNXdITXo1WWlrTVoyQ1VyZzc1SVNISWl4aDRCeHRUYmozU1QzOV9XdFlPQ1hhVEtTaTlsZE1KcU51RXh2Q1p5SjlPbjJGZw?oc=5",
+    "source": "The Times of India",
+    "fetchedAt": "2026-03-29T09:00:26.679Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=XZhL2hucIVo",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "XZhL2hucIVo",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iranianbacked-houthis-in-yemen-attack",
+    "date": "2026-03-29",
+    "title": "Iranian-backed Houthis in Yemen attack Israel for first time in war - washingtonpost.com",
+    "description": "Via washingtonpost.com. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB2LW9fUjBuQ1haQUdiQzRBSDBVNkFWazR3dDZsbDBJZE5yeDRUQjFBN0RaS0dzWjNCSm1TdW85anFXNno3V3p4OXFEUEgwRVJNOC1LcUhRN3p6X21FRm5uaFZwTUFxeDVmR2pZYm9iem4wOHBzUGpyOWRLSEg?oc=5",
+    "source": "washingtonpost.com",
+    "fetchedAt": "2026-03-29T09:00:28.801Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=YZ1GoP8Yy8o",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "YZ1GoP8Yy8o",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-military-says-strait-of",
+    "date": "2026-03-23",
+    "title": "Iran military says Strait of Hormuz will be \"completely closed\" if U.S. delivers on Trump threat - CBS News",
+    "description": "Via CBS News. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQbzljM25ZTGhrbUF5R2RCbXF2SEFmS09GRGNoUHBaci1yQUwtVjZ4N1hMWXdEbGFpUnR2a0VEdzlFa3dBODllYlFyMnBtYzE1ZmdVcV9vdUNoX2hPeUZoaFQ4dE4tejhrY2lGRFRUX0NmUXhDaTVzRG9jUFJjVE9QYWZZZHp3Vi05ak1IQml1LXQwTTE3OElXaEppaHBQSWpVT0NRTnRvVGnSAa4BQVVfeXFMT1UwV0VhdlpTeDgwSC16Y213bFFqaWJUS2dNdDNKYk1aM0QxZkVKWi1xSHJUOWlxVk10ZFZCUUotUHJULWNEMVdGNXJxdERyU1FxRnA3OUo5OFU4cThERXdzeFFzd1pTZG9MZGh3dmh5LXFMUkMyOVNsTVZKbi1DeE9LVlQ4TEhTbDViMWtRMXppeU5nVW9TaVcwWS04dFdPRXlYM3RlLUtPODZSLUd3?oc=5",
+    "source": "CBS News",
+    "fetchedAt": "2026-03-29T09:00:35.555Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "our-coverage-is-not-truthful",
+    "date": "2026-03-13",
+    "title": "‘Our coverage is not truthful’: How Israel is censoring reporting on the war - +972 Magazine",
+    "description": "Via +972 Magazine. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE96ZVBLalpSVjNNR29PUjVaaEZ4SmpkVnA5dnNyNlpSWXJUZjlta05ZYTBrWHhGQm9XQjhwcEdYNHVMNnM5QjNsb0Jra3NPN21PSDZLb0RuaWNZMG1odmpoODRCamJ3TzQ?oc=5",
+    "source": "+972 Magazine",
+    "fetchedAt": "2026-03-29T09:00:41.907Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "why-the-houthis-waited-until",
+    "date": "2026-03-28",
+    "title": "Why the Houthis waited until now to strike Israel amid Iran war - The Jerusalem Post",
+    "description": "Via The Jerusalem Post. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5uVG0xS2VnTkpiNXFfeU9oOGpNRXp4Q3FsZnpKbl9ELVVsSXVGcDVBQzZ0TlMxS1M4akZlT0ktY3RPRkxPVC1EVnFSSjAybWVCQ3hVZ2tXbG4waER2?oc=5",
+    "source": "The Jerusalem Post",
+    "fetchedAt": "2026-03-29T09:01:01.661Z",
     "mediaUrls": [],
     "videoMatch": null,
     "lat": null,
