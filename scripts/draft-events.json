@@ -1,157 +1,5 @@
 [
   {
-    "id": "while-all-eyes-are-on",
-    "date": "2026-03-27",
-    "title": "While all eyes are on the Iran conflict, settler violence is surging in the West Bank - ACLED",
-    "description": "Via ACLED. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTFRvbFBNQ0R3aUhCMW0xUG1KVE4wa0xWbUItZUdTY0hOU1Bzd01oMGNIS2g1TVdiV3AtbWF3dmNFUngzVTlocVZDVHNjYnU4T2s1MldLQ0VkY09rSVozMFd5SW1mOHpNQ2F2dllHTXNFMF81NXJPTHZ5UmcxTjNfY05MLWZIb2E5VnloaXh2cDJvMm9SWGpqREIyWDU?oc=5",
-    "source": "ACLED",
-    "fetchedAt": "2026-03-29T13:01:09.205Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-war-latest-tehran-waiting",
-    "date": "2026-03-29",
-    "title": "Iran war latest: Tehran waiting for US troops as marines arrive in Middle East - The Independent",
-    "description": "Via The Independent. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTWd1UUVMN3NkY0dJN09lZ0ZMQWVHZVJkZ3NENWMtSXA5aUhXSE9zNXBoaGJtb25UaTVxazVheTRtUzQ1YTdQcUtMQmY5aUI5b0taMmg1NnF0REZCdmxIMmxtZ3l3YzcwZ1QtRlFFa2M3VEtQR054M1JfY2dEQnNpc1NXMEJCeVAxRFdsdzBhUW1KLWVRSi05ZUFzeERWSFVxclpYRWV2Sm1YbklhUHk0?oc=5",
-    "source": "The Independent",
-    "fetchedAt": "2026-03-29T14:00:15.731Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=wbAAIfHjtBA",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "wbAAIfHjtBA",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "usisraeliran-war-news-live-updates",
-    "date": "2026-03-29",
-    "title": "US-Israel-Iran War News Live Updates: Explosions heard in southern Iran, talks on de-escalation under way in Pakistan - The Times of India",
-    "description": "Via The Times of India. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMizAJBVV95cUxNSkppQjNUQmNFdUJmS0RjMV9YdXl1WUowYUpfMmgzMlpLbHJjZUlwTjhYX0lrdUZETXNkenJyczREOFRfa2RKaG14cnQ5dzFscWRoLTJueE9Gc2tBWkdyZWZMWTR4WXQ4ekJ2dVV0cDhibDYyMFlyaFUwZGR5TWMyLUdndW1FbVp1WmdmV3ZXcHhzUFhGWlhSZ2FDOGtMM0FfLVZmOERfYzdlTU9SZFcyMGwwd3N0UkZGX3h5YTB4bUs5b1Nrc2RIajJidFVrVlJoQm9pcmNxYy1vQm53M1RBUlE5b3hoMmpacHU0cUdyaWhaTEM5TjZWUkV6WGRlODgwVVZfRERwd01qNzk0MEFldnA2RWNuQjZhaFlTd2VJd3Ewcm4zTDRFYXRCWEs4QnpxdGRjOHhqc3ppbmN2UkF5ZTUtZzMyckRqWjRYWNIB0gJBVV95cUxNWnY2QWluTGRfdGsxdndiN2Z5N2NvN0F2bHgtbldiZzJPQWF1Ty1wZHo3VUFRalVlemNPZjBaaHZyeUpWd1VlVFEtak5IaUhqejEyN0RocnJoUHhEcXZVaVdHNTZQb0NjcnBZRlo2bERMTzJUbWQtQ2FITDhRbzNNUGdBT3RBOFhwaTJOWWNOUlAyS25EZVFhc04wT0htal9HSzV5dGlHcDBKX29wZlc1Zlk5aGNHUTl3cWNud0pyVkxxY09ESEJIYmlJckFtQ0s1SnM0Z1BFQ0ppRWM5Z1BSRHVCT0NfU2dMSHNiVnV3QWV3cDZfUDVjVkw0bDFGenBwVlQwbGMzY2Q4LW1JNXdITXo1WWlrTVoyQ1VyZzc1SVNISWl4aDRCeHRUYmozU1QzOV9XdFlPQ1hhVEtTaTlsZE1KcU51RXh2Q1p5SjlPbjJGZw?oc=5",
-    "source": "The Times of India",
-    "fetchedAt": "2026-03-29T14:00:17.396Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=MnR_edrlNM0",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "MnR_edrlNM0",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "houthis-join-the-iran-war",
-    "date": "2026-03-28",
-    "title": "Houthis join the Iran war, launch missile at Israel - axios.com",
-    "description": "Via axios.com. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE1KaWVIVXlqMDVySW5zNExoN05vOUZOWlBxTGZkdWRWT0lqVzJGQTVLMV9uc01Va3FabkNQTmdWN1VrNUVESEI0eW1EY3djci1VOHB3NlNKSVEtaWR1N0Q0RVlSb2hxSUZLcmtvcjJoZzFIZw?oc=5",
-    "source": "axios.com",
-    "fetchedAt": "2026-03-29T14:00:19.940Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=BxWUJtHnE6g",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "BxWUJtHnE6g",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-israel-us-war-updates",
-    "date": "2026-03-29",
-    "title": "Iran Israel U.S. war updates LIVE: Yemen's Houthis enter Iran war with attacks on Israel, while U.S. Marines arrive in region - The Hindu",
-    "description": "Via The Hindu. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOem9rdU5pMGtwbktVcDE1MmNneTR6N2xRd29DdDh0bDhCNFhNczB1UTYtenBwLVVDSmNQZWtDVTlSNmdxcFBQLTg2UHhtelJ1N2JEZVc1XzRCQ0IxN3VIZ25iQ0VxNy1GSzFLdm0wZjRSRHZESmFmTEhaYktLMlBScXJLNElrMW9hRUQzTFpBU2owZzlzRmhwOGR3cWVFNTlSczFQbnJQRDhlcWhUZHfSAbQBQVVfeXFMT09LQXRHLXhldjNYSVo4Qm1JMHppcmNNblhNVVVDQldNV0F0b19MblZfWFdKRWV4ak5zTVhLS3FtUGItMFNocmw5MEQtNURZNlhBMF9qRXZDSXhScF9jSDdxWXBMLUtnYmQ1LUV5ZE44bGtSWUZEdTZaa0FsczhjTWNQR3B6MDdJTldlOFJpdlp4cGRWRmMtUDJ0MmdudVA2ZW1QWFNfYzB5ZzBBcEQ1R2dobUU4?oc=5",
-    "source": "The Hindu",
-    "fetchedAt": "2026-03-29T14:00:22.384Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=ZUwSExAdw34",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "ZUwSExAdw34",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-war-latest-tehran-threatens",
-    "date": "2026-03-29",
-    "title": "Iran war latest: Tehran threatens to set US ground troops on fire - as 'land invasion' prepared - Sky News",
-    "description": "Via Sky News. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMHktWWNfVGpzRU93cFZXVWdfVkEweldpVW5yOG9nZlQ0aGxZb2JFNDN6eGNUa0VwRTF4Y1lRZkhZQ1JlS0V1c0J2c01sY2hVVmNRUFlJaHlUUGtfRUxLakhBZU1QcWFDVHE0ZzZVamdoaG9wbFhPX2lfSUo1M1dxZTFUSTdMcGw5aVNKWDRZeVdfVV80eDMwUHRHTUtVMjlLcUtyWQ?oc=5",
-    "source": "Sky News",
-    "fetchedAt": "2026-03-29T14:00:25.207Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=o6jFWDcwe5Q",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "o6jFWDcwe5Q",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "israels-gulfstate-gamble-in-the",
     "date": "2026-03-17",
     "title": "Israel’s Gulf-State Gamble in the Iran War - The New Yorker",
@@ -4598,6 +4446,50 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNT3JUUEdSYnYxaTJVd3dBN2JLbmFkYmlUTHlfN1dSb0x2ekZyR3hoOHVmV18xLXlSVllaY0tib3Zqb2NiYVoybmZvT1hwZXBrYm5vZlU3X056ZUZZYlNpMlprcWxkSlhyYlRYdUJDSjA0cGJiMEktTmVVUkp3WmhaSkZraFpjb2NKNV9JWWZjeV96UlpBMC1B0gGcAUFVX3lxTE9CQ09EYjdVRUhmTkxrSFNuWGxuTE9pTmU0NlR6ZnY2WnR5MjdoTHhCN1IzNkJvVFI3Z3BuVkxaRG1Fekt6aTVGNE5BQkxDdGVSSEs1UjQzOEdLUF9qellOYlZsdHpTcFhYUFRCZVBxZWFOWm5heTRJaTFZTWpyZk5kWjhtMEtSUk8tekVyNl9kQ1B0SnpaZUZMSTVkcg?oc=5",
     "source": "cnbc.com",
     "fetchedAt": "2026-03-30T09:00:43.633Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-war-latest-trump-says",
+    "date": "2026-03-30",
+    "title": "Iran war latest: Trump says he wants Iran's oil and could seize key island - as photos reveal US spy plane wreckage - Sky News",
+    "description": "Via Sky News. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOMTRZbVYwcUVWLUpQZGQtOGZ3ZHJtTzVPS25Pb3BqUTJ1SjAxVzBKYzhkUUtIS3hTZ2FEc0FaelIwY3B2LXFOV2xLRnFZZTVreUFZb0w3dkRZa3JubEkya0Jka2d2MlNkalpjMTdUY2tHdHFCOG83NTF2LTNEbkxLM2l2Y245UnVkUmlwOUxmcXp3Z1RTdXRGNUt2ZFIzYVlybk44SlhqY2hENGVKNFBaaW50aHhfMTJqRXVvV3RtTVZ3YnNXT2Y0dWVJMTJJZw?oc=5",
+    "source": "Sky News",
+    "fetchedAt": "2026-03-30T10:00:11.998Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=OMLnltuYanM",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "OMLnltuYanM",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "strikes-continue-as-houthis-join",
+    "date": "2026-03-29",
+    "title": "Strikes Continue as Houthis Join Iran War, US Troops Arrive - Bloomberg.com",
+    "description": "Via Bloomberg.com. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTjNFQ2VmNDM2NEpZNmtvQ0tpZ0w0YW9BRjFOZm42dGhPT3hjdjVJNS13Um9WYzl0bXBaRFl5cEdNRmY3cUpvd3k1a2ZkNEpZa1QyYVRxWWtYM0pEdXdIaTUyQlpFbm9veFFvemJtdno3ekR2U0hORkU1LVlBcm85eGExYVo5cUV5MElXMFpEd0kxYjg2RGp5WWRXRTBnU1dCR3liWnVmVXE5U3lybFczUGE4aw?oc=5",
+    "source": "Bloomberg.com",
+    "fetchedAt": "2026-03-30T10:01:02.812Z",
     "mediaUrls": [],
     "videoMatch": null,
     "lat": null,
