@@ -1,59 +1,5 @@
 [
   {
-    "id": "israels-gulfstate-gamble-in-the",
-    "date": "2026-03-17",
-    "title": "Israel’s Gulf-State Gamble in the Iran War - The New Yorker",
-    "description": "Via The New Yorker. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVzZ3eXBpSU1MNGU5Z0Z1N2V3aDh3OFc0NXRBa3c1M0lTX0hkS2kyNzJtN3J5Qkwtdm0xRVBWQVR6cjNfNFJGLUVpT05CdVV5LU9PQktsR1VEbEJ0eEU2STlnM0IzVlRoc1QwWk5XRG90dmNIT05odXpVU1N3ckwycnN0Y0J6V1Jp?oc=5",
-    "source": "The New Yorker",
-    "fetchedAt": "2026-03-29T14:00:30.224Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=CnvDS_kjq1k",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "CnvDS_kjq1k",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "trump-extends-pause-on-iran",
-    "date": "2026-03-27",
-    "title": "Trump extends pause on Iran energy strikes as U.S. stocks tumble to new low - MS NOW",
-    "description": "Via MS NOW. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1iTFdEY3lGRFpoMkpMeWZ1VkpLaUhXLURLTlIzOVN6b0Rqa0JRVjl0dElFLXZiQVpvVzRsWHlsRzRlQnp1cTkxY1hlYUxwV05MbEtXeXQySFV1ZmZ3R25sTWZBVVhETnR2VXlQbUN4UQ?oc=5",
-    "source": "MS NOW",
-    "fetchedAt": "2026-03-29T14:00:40.364Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=Lfk_qcGkbss",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "Lfk_qcGkbss",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "usisraeliran-war-live-iran-strike",
     "date": "2026-03-29",
     "title": "US-Israel-Iran War Live: Iran strike on Saudi Arabia's Sultan Airbase destroys US's AWACS aircraft - India Today",
@@ -4490,6 +4436,283 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTjNFQ2VmNDM2NEpZNmtvQ0tpZ0w0YW9BRjFOZm42dGhPT3hjdjVJNS13Um9WYzl0bXBaRFl5cEdNRmY3cUpvd3k1a2ZkNEpZa1QyYVRxWWtYM0pEdXdIaTUyQlpFbm9veFFvemJtdno3ekR2U0hORkU1LVlBcm85eGExYVo5cUV5MElXMFpEd0kxYjg2RGp5WWRXRTBnU1dCR3liWnVmVXE5U3lybFczUGE4aw?oc=5",
     "source": "Bloomberg.com",
     "fetchedAt": "2026-03-30T10:01:02.812Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-war-live-updates-trump",
+    "date": "2026-03-30",
+    "title": "Iran War Live Updates: Trump Says Iran to Allow More Oil Ships Through Strait of Hormuz - nytimes.com",
+    "description": "Via nytimes.com. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBEY3pMUEo3TXJ1eUVDbjllTHlSekFfallBbm9vTEU5SXJJMVRkRUVfblp3RE5NTnZHTE1CRlljc3lhRU1vcnpkZUFoaU1ydTJmRDF5Ym14Nm54d2lILWROaGlONllDYXJtMjlLaWlnWlNTY3ZIMVBwZQ?oc=5",
+    "source": "nytimes.com",
+    "fetchedAt": "2026-03-30T11:00:15.160Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=OMLnltuYanM",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "OMLnltuYanM",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "in-allied-campaign-one-war",
+    "date": "2026-03-30",
+    "title": "In allied campaign, one war mission fell to Israel — killing top Iranians - washingtonpost.com",
+    "description": "Via washingtonpost.com. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBCQ3VVN1daX0g1NlZoVXFwRUNCUFVhT3BRb2VXUmJibXlNZjBNUkc5a3lNQ09sSVIzZnhpT3pqV0dLQWVFTmpGaXM4c1p1S1pRcnQ4Y1dncldXTzNpeGdPa3ktZGkyQ1RIRU85NjFzNzMzdnNGVmhYNV9SRE9OUQ?oc=5",
+    "source": "washingtonpost.com",
+    "fetchedAt": "2026-03-30T11:00:19.364Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=0vk2brj9CgU",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "0vk2brj9CgU",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "heres-what-happened-in-the",
+    "date": "2026-03-30",
+    "title": "Here’s What Happened in the War in the Middle East on Sunday - nytimes.com",
+    "description": "Via nytimes.com. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPV1FWTGoyUWVHSVN1RGZ0TUlTX0tYQzRIeW1XQUlkZXhOaXFkUVBLZXZfc3NhNVNvSExHZXFXNlZWNXM0bVlza3hGZ0liN2NRc19qbElONUhOUkJ3YnR2a1p4dkNuWk5qbkE5Z1luM1p2dzIwTE1leVZoWDJiZFFUZWYyOGw2bkh1bmNqTnFmYnNXbWJDUG1j?oc=5",
+    "source": "nytimes.com",
+    "fetchedAt": "2026-03-30T11:00:21.785Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=Ne0eqe9CiYM",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "Ne0eqe9CiYM",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "trump-insists-killing-of-irans",
+    "date": "2026-03-30",
+    "title": "Trump insists killing of Iran’s leaders ‘truly is regime change,’ deal to end war ‘could be soon’ - The Times of Israel",
+    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOV2VnQVhMSXBmaFozaXZoTlpxOGNqQlRuUC1GNnZ5U0FlWDg2dndBcEFyNWpBN2pqOGFNQ2tkNENHS1Y3b01nUS04Z1lYRTdFdldvNEFzWldZRG1kVURpSjBZdXBZbGNJNDkzVGNCOFh6V01kN28wM2hpWUhUVnVjalFrbGhWbnNTcktKTzhFaEZjYlM4UUx0UUVhSGx6aTRTZGttXzNFNnJ3bGJ5dkxCTXZHVnZ4V18ycmZCd2xQVdIBxAFBVV95cUxNdS1wZ2paYm9aMVNkaXoxWEVXWjljekg5MjhmWWFYZjM4ZlVScjNxbzkzaUpCb1o4a2MyZE5tMG9xWTAwcFRXdGtZZUFjT2pMMG55VXItYWgxNzBBRVE0c3ZZcHN1dGpzNFBFdGwxUTVUZjFqcFdjaXdYWkFsNWFkNGh5LTc3Vm16T3Vpd0JKSWNSYm5wRVh4cEhmRk5YRWtmUV9CRm5CV1B3a09SS0lGSHdDdkVqN196dWJ6WGlWbmx0c2Fp?oc=5",
+    "source": "The Times of Israel",
+    "fetchedAt": "2026-03-30T11:00:26.821Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=jfZ0Z12FEJ8",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "jfZ0Z12FEJ8",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "a-month-past-usisrael-war",
+    "date": "2026-03-30",
+    "title": "A month past US-Israel war on Iran, water and power under threat - The New Arab",
+    "description": "Via The New Arab. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRHd6b1JKal9SNG1ib2Z4WlpuYXAxTEViT1dOeHZ6RnhyWFVMemJZSHBTNlJwYWFyZnQ2ZURPbjUtUklsR3VUbGpvR2E1dGJFM2Q4NTZHbmM3ZmZsSGxlQ0JtTWZ2NEd0Y21POE9wa3RpQ3hXX3diYnlMcTVQTVpZTzlyaW5TY2l3QmxOOU9zZnLSAZYBQVVfeXFMTkhIQXd6LXh1RUdia3VZS0xneTNrRi1LbE13MWJWZW9mNzlnbG9wWHlZeDNnRWR0c3BjUU1rRGxHR2hTUGFKaFlGaUxTamZWU0dZM3hxUWxwTVBWb0NKTGpMbGVzb2I0bm1ubXFKMW1UTncyVVZYZDN2aXJKSThRR3NYS25wWnZsSXU1SXpJM1FnUkpoWF9n?oc=5",
+    "source": "The New Arab",
+    "fetchedAt": "2026-03-30T11:00:29.399Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=kegoI9InOhU",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "kegoI9InOhU",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "us-military-attacks-irans-oil",
+    "date": "2026-03-26",
+    "title": "U.S. Military Attacks Iran’s Oil Export Hub, Trump Says - nytimes.com",
+    "description": "Via nytimes.com. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBsbTAydmVETEVIUkpKc1NIY1A2RWdwa1pYZkhfckdGNk9UX3pWRlBidlZ0bEhGZnNJR1pPNDdBY2x6N3BrOGphdm56U01CSzBXNWYxSk12OFVSQ1VZZnJ4dGtMUFJoQkl4bkJ0WGpvb2JKUkY1R2tsUVFIaw?oc=5",
+    "source": "nytimes.com",
+    "fetchedAt": "2026-03-30T11:00:31.840Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=cKZrkUzu42M",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "cKZrkUzu42M",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "trump-weighing-all-options-on",
+    "date": "2026-03-30",
+    "title": "Trump weighing all options on Iran's Kharg island - VPM",
+    "description": "Via VPM. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcTZpN2VneUJZelJJZjFiYm01MDJDRk5OZXdMTUJpZUROLTB6OEoyUkc2cmUzRS1vSTdWdl90bVdMczVmenZRYW5DMU15V2VoWm15RmhtZWxvWC1WZjNXQlNZTHl5NEFRelg4T1owcGJEelhkTUx4RUJ6VGZFaU9FdXRoWWVYb2pYZFlTNXVsZ0owX0NNQ2k1TEpMV2dJQQ?oc=5",
+    "source": "VPM",
+    "fetchedAt": "2026-03-30T11:00:34.413Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=jks9KxPii34",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "jks9KxPii34",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israel-braces-for-delayed-economic",
+    "date": "2026-03-30",
+    "title": "Israel braces for delayed economic fallout of war in Iran - Le Monde.fr",
+    "description": "Via Le Monde.fr. Auto-detected by headline monitor.",
+    "category": "economic",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQclNjRUdONVFzZmpCTks0QVpfX0VUUEZtLTBIc01uUnZYc2ZtNktBZGJPOGRsaWFsdHZOTlZRNWpYRWFkQ3M0blBwUTNnMFJOYzFabHU5NnA4QmVMV2hkTjZXUWdHUzgwUWg0UWZjcmxYV2dVd05sNFZDOEpldG5XTU9pbk83dExxdlE2NjhwZ0x1aUo1R2N4YTBuekQ5MDJYQlFVZ2N0SjdBVF9DYTBlNGlMWlhpXzREUFFZMWsyRmJwWGtJ?oc=5",
+    "source": "Le Monde.fr",
+    "fetchedAt": "2026-03-30T11:00:36.662Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=XZwXLZRyj80",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "XZwXLZRyj80",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "not-the-first-time-ap",
+    "date": "2026-03-30",
+    "title": "Not the First Time: AP Erases Houthi Attacks on Israel - camera.org",
+    "description": "Via camera.org. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNSTRzQ253YTZEMTZENWNVektwYVA4Zk50bUZzdk5kYTFpa0t5dUtFQWowZmwwN0FJSUtDc2dCQU1QcERrOFFMUnpTOFFNVGswTmthcDhEbHVSMnJvWjhLQWwxTmZianM2MXFoNXM1Q2k3MjMtZGp5ZEhtdlhlUnRZMXk0ZUxhODFiWEp4NHRB?oc=5",
+    "source": "camera.org",
+    "fetchedAt": "2026-03-30T11:00:38.931Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=prxaurQZkLo",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "prxaurQZkLo",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israel-has-displaced-6m-people",
+    "date": "2026-03-30",
+    "title": "Israel has displaced 6M people since October 2023 - TRT World",
+    "description": "Via TRT World. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPcTlDeFNWNTVlbklzc3JTaXFlV282TnotWGh1dklSRldIdGhGVFlqOXNTRXltRVVETmVsRG1FWXJ4a2JkcEFLQ1VFazU0V0h6VXNBUG5SNFp3ZUYzdlZnSlhQM21VUlpyVkpBSzZIN2poZTd0SFpZazNvbXZHUVZ5ZWJiTzBFT29LcnhRREs3Z01kOHMxeW5iaC1wLWk4ZFk3Tmc0ZnM2Mkd2SkM2QXdYUVFieXhUYnBkeEo3V2dVWk0yYmpqcVpwb9IBXkFVX3lxTE9zendaU1lTZ2pxelI3YlFEcjVLOTNmUHFjaU5zeWRxdTlvbFVxNEVkTUg5TDRxdnctdmZBVk42RW1DaXR1OHJKYW01MHA5T1lfdzFfdXEteDdUenR3ZGc?oc=5",
+    "source": "TRT World",
+    "fetchedAt": "2026-03-30T11:00:45.280Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "fire-seen-near-israeli-oil",
+    "date": "2026-03-30",
+    "title": "Fire seen near Israeli oil refinery after Iranian missile attack - thegazette.com",
+    "description": "Via thegazette.com. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOQ1ZrSXdzVHYtUDBlc2pVeC0yUHE5Z3pBSGFQNzZYRFFxYUNnaC1uWm5Sc3FtVWd5dG9tYlEzM1lLbTctU19NRENPck1adE02WWQyNC12VDZxb0ZweHdGeDNSMUZXLVlod3BhUVdMVk9jd3Nfc1NIREp0TlBCTGdsWnBqVThaWHlEYjVZVUdjRTgwWG90alJuQng0Uzc0a2djaVozMUNlY0ZQQmRkRmFDWmctV1Fza1YzVWxCSmZVVHppRGpLVTNVaVF4Q3FrQlNRNG1uZVd6alZMQnJIcFg1dmxsb1pJcXc?oc=5",
+    "source": "thegazette.com",
+    "fetchedAt": "2026-03-30T11:00:51.788Z",
     "mediaUrls": [],
     "videoMatch": null,
     "lat": null,
