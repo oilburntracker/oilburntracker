@@ -1,272 +1,5 @@
 [
   {
-    "id": "usisraeliran-war-live-iran-strike",
-    "date": "2026-03-29",
-    "title": "US-Israel-Iran War Live: Iran strike on Saudi Arabia's Sultan Airbase destroys US's AWACS aircraft - India Today",
-    "description": "Via India Today. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOOFJYejhhTWcxREVqVjZnZDVqVDhHZkI5eG5oMFJMUlJWQkQ2RGRpMWxxZTV3eW01MS1Tb3Nwbkc3RmtWX2hFZkgtNUFwODhiOWZNUUFENDRVSTVuaTJnTDRlU0ZBZVNKcVE1czFaZ09wLWtfbXdSMFU5Vi1vQ0RGb2RoXzRfakU1dnhqcE83SGhacU5JUzhPNjk0V3lBQ3RzM2RwZU1WanZPUkEzNHRDekxEcHJQUldHOWVieUFkcTg1N0RuSFdQUVZtWHlKd9IB0wFBVV95cUxPeVg1eVdhSFRNbkNUM3FzaG5MaEpXTnpvRzQ1bkhfS1pjMjRSVGZxTldDVW1CX0hpWUNFTW9hRnFJNjVqRmVZeDVNM0FvTFlhbzlUWGE2U1RWUDVFOHJGa2MxcllIaVJMa1JvVTN5eWlhcDltTFdxdkdIeVhwdEhRRnJ3WFZaUnYzNzhveVp5UXViRkdHU2pTOTd5dmowcE5HSjhiMWhTNVY2MzlESlhPQlF0Q3ZLcDRzaC1Cd0lXdkhRLXduN0VmcmFXakYzRmtCQ3V3?oc=5",
-    "source": "India Today",
-    "fetchedAt": "2026-03-29T14:00:43.124Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=S0PW5Q3tSHE",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "S0PW5Q3tSHE",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-war-live-updates-top",
-    "date": "2026-03-29",
-    "title": "Iran War Live Updates: Top diplomats from Turkey, Egypt and Saudi Arabia arrive in Islamabad for peace talks - Firstpost",
-    "description": "Via Firstpost. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNTXZwSFRXQ1dJWUhOVllINzEwVkxOTWhNNWxCaDlVR2h1WDhWNURBejd6RFVzQW5rcHRTVUZWNU5KbktkLWpwOGVIVVMwVDhHM29oa3BuRzhjSS14ZE1MWnBvVEMySl9xZHFzWFVPUWhNRGhxV1kySmIxZVR2RlA5ZzltRjA4RENEcmtXU19VcURKZHQ4WGVxZXU3dWM1YjZiVlEycjV2eHk5MmZTaU5xdGpTSmFBVFYyTzdKbk1aVTFuSGlTM0dYYTN0NEpWSzV1d08yUlpjSGNxU0pvSm9vc3l1Zml3cHphVk45THRDQ1VSajNrTlHSAfsBQVVfeXFMUDFQQVJ6MWZaTE1INWJwVzhDRC1BSEdkZVlHVmhrVmFmSWQwY292NmM1cnM0eE8xMEI2ZVpBTmZ2ODNWMnNXMDJRNi1RVlJzd3ZmQkgwaEkxazY1OUd2bHV0Mm5jUjZvbS1BZHo0TGNKZHV6bHdsUDMxSHFra00tSUhsSjF4VHFaQmlqTjRrV0tlWVdRVmprMFhIQ3BqNmNZOUVhVHdHWDdaUjhZQ1F6RjRscmNwWXBhRjNsbU9Ga2txekg3eFc4VlQ1R1NJNWJvV0FMelRMdXUyV255Mzd3TnBfczd0eHo5YzhGVm9aS3REVEM5bm1aSjhHUTA?oc=5",
-    "source": "Firstpost",
-    "fetchedAt": "2026-03-29T14:00:45.412Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=V-zlJHnBcyA",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "V-zlJHnBcyA",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-war-live-updates-tehran",
-    "date": "2026-03-29",
-    "title": "Iran War Live Updates: Tehran Warns Against Invasion After U.S. Marine Unit Arrives in Middle East - WSJ",
-    "description": "Via WSJ. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi-gJBVV95cUxQMkNrdjdYUUhpRjNBSDFDb0c3ZTIxTncxNHVpUVZ6NWRmeEJ2U1h3b2lfMjN2ZFFSaTZ4d0JMRWVuUlEzSWNKM3FYUklpQkZWZktqQ2NsMGpRbVFSZTdiZ0xrOTJVUkJ1UkN0Y1JMRGM4M0FXRmlhaDNjZGJ0TWUxXzFEMEw4bEs2RkNZSWhlc2VjMWtsd2JfWVB0WlpWcjZCblZKaUxuN01oekZJd2tJOWFhSFk1RmM4eDRYY0FoUDFIUUlZSWo1MHBkdDZ3WnJJVzFWZHNOYVpVREJBQmVXaERLdk4xcjJ1cUpEQ2xJODAyVG5Na25kb0NwaF95X2huUWVwellkclNpY1R5Y19WSFduaElyLTR0UmxnaXkyeC1rZF9GSlBDTnJ2eGotR08xeEc3dXlqcTJid3dOMFpVb0dqYXlHZ2xQa3JMNUtVQjVkZDcwZ0gwLTAxbGpRWlBKRXNRakVVanBwSTJyMlhxSVJLclc3aklrblE?oc=5",
-    "source": "WSJ",
-    "fetchedAt": "2026-03-29T15:00:14.130Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=ZUwSExAdw34",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "ZUwSExAdw34",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "usisraeliran-war-news-live-updates",
-    "date": "2026-03-29",
-    "title": "US-Israel-Iran War News Live Updates: Israel claims it hit Iran's key ballistic missile unit, says it was 'one of only two of its kind' - The Times of India",
-    "description": "Via The Times of India. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMizAJBVV95cUxNSkppQjNUQmNFdUJmS0RjMV9YdXl1WUowYUpfMmgzMlpLbHJjZUlwTjhYX0lrdUZETXNkenJyczREOFRfa2RKaG14cnQ5dzFscWRoLTJueE9Gc2tBWkdyZWZMWTR4WXQ4ekJ2dVV0cDhibDYyMFlyaFUwZGR5TWMyLUdndW1FbVp1WmdmV3ZXcHhzUFhGWlhSZ2FDOGtMM0FfLVZmOERfYzdlTU9SZFcyMGwwd3N0UkZGX3h5YTB4bUs5b1Nrc2RIajJidFVrVlJoQm9pcmNxYy1vQm53M1RBUlE5b3hoMmpacHU0cUdyaWhaTEM5TjZWUkV6WGRlODgwVVZfRERwd01qNzk0MEFldnA2RWNuQjZhaFlTd2VJd3Ewcm4zTDRFYXRCWEs4QnpxdGRjOHhqc3ppbmN2UkF5ZTUtZzMyckRqWjRYWNIB0gJBVV95cUxNWnY2QWluTGRfdGsxdndiN2Z5N2NvN0F2bHgtbldiZzJPQWF1Ty1wZHo3VUFRalVlemNPZjBaaHZyeUpWd1VlVFEtak5IaUhqejEyN0RocnJoUHhEcXZVaVdHNTZQb0NjcnBZRlo2bERMTzJUbWQtQ2FITDhRbzNNUGdBT3RBOFhwaTJOWWNOUlAyS25EZVFhc04wT0htal9HSzV5dGlHcDBKX29wZlc1Zlk5aGNHUTl3cWNud0pyVkxxY09ESEJIYmlJckFtQ0s1SnM0Z1BFQ0ppRWM5Z1BSRHVCT0NfU2dMSHNiVnV3QWV3cDZfUDVjVkw0bDFGenBwVlQwbGMzY2Q4LW1JNXdITXo1WWlrTVoyQ1VyZzc1SVNISWl4aDRCeHRUYmozU1QzOV9XdFlPQ1hhVEtTaTlsZE1KcU51RXh2Q1p5SjlPbjJGZw?oc=5",
-    "source": "The Times of India",
-    "fetchedAt": "2026-03-29T15:00:15.919Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=ZUwSExAdw34",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "ZUwSExAdw34",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "israel-warns-houthis-will-pay",
-    "date": "2026-03-28",
-    "title": "Israel warns Houthis will ‘pay the price’ for entering war - The Telegraph",
-    "description": "Via The Telegraph. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQb2VySnA2RDVsTmpkRnZ5eHV5cXVWSExKd3RXR21TWEpuM1JPaG1QSHphRUN2TG5BSHRqQlVkbHplZnZ1RWUxMVJid3pJc2ZXaWN2bzVrWWJaMmdHUWZ1REZEZFp5WUNNamVVaWIwWjV4X2hsUHNZazdhRXBrWC1iUWZ6QTFsM19wc2NsQUs0bzJ1UGM?oc=5",
-    "source": "The Telegraph",
-    "fetchedAt": "2026-03-29T15:00:17.743Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=8nG9ziF_iB8",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "8nG9ziF_iB8",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "the-israeli-military-wants-several",
-    "date": "2026-03-24",
-    "title": "The Israeli military wants several more weeks to fight Iran war, officials say - npr.org",
-    "description": "Via npr.org. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE83NTJQYXhUdGF1U1RIRHpnZVZ5M0NDdzRYMVpySW9kUzZOUUJyS3pObEI1MVFhWTZ1Y0hOYTlrbkFJSFpjdExjWlE0cEU2eUQxZEExN2VMMVhURkhIVkFsR1BZdDJsaElCeGZSRQ?oc=5",
-    "source": "npr.org",
-    "fetchedAt": "2026-03-29T15:00:20.257Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=ywS48TGNGh0",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "ywS48TGNGh0",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "israeli-support-for-iran-war",
-    "date": "2026-03-29",
-    "title": "Israeli Support for Iran War Wanes After Early Enthusiasm, Poll Shows - Haaretz",
-    "description": "Via Haaretz. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQT2ExN3ZMTFBoWUx4R2RtVkpWOXdDNmdNbUozeHBsbEVFMkNHZlQ4OW1EY1RtQWdwY3diRWxoZ0RDMkpSNHJKdnRIdGl0aVNXLW5fMjJiQnFEeXV2Q3QzbWdSbllRTTI2YWR2UEtzdEFwV3JZQWpKVEFJdTd2cUpfdTRjdE5mdnhGbEkxR2M1bUpITWZQOFUwaVBWNlhtUjZfSmx4WmtiVmpvakpMQy1EVzhiSEVZUlE3RHZRNXpRYTJmOEhmdE1TQklfY0Z2cVRUZXRSOE81eEd3ejQ4WXVER1lXRDJvd1dHd0RkT2FtbHN1SlpVVzZFOVI1ZlI3UlpKSmg4R3VPN3JiVjMtZ0hoNm9tdXNrXzA?oc=5",
-    "source": "Haaretz",
-    "fetchedAt": "2026-03-29T15:00:35.067Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=iwEAN2I04-o",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "iwEAN2I04-o",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "mediators-gather-in-pakistan-for",
-    "date": "2026-03-29",
-    "title": "Mediators gather in Pakistan for talks on ending the month long Israel-Iran war - The Economic Times",
-    "description": "Via The Economic Times. Auto-detected by headline monitor.",
-    "category": "economic",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPUFNvUVJnRTVCOVQyMVhLdEVFY0QxQWVOUnpLTmdKQXJENjM1Ylh0TjQ3UW1jM3JNbjRNUzhkWXM2aXhlUUkta0dqMldxX0NRRXVFaTBEaUYxYlE3UXlqa0JIdVI0ZnpBazJyZE1zTFd0QmJmT2FnWEFaTXlqOGVtejhucnNzSlRsR0hjU1ZqUm8xV01IOTFMZHpIQWpiUFVwSXFVc1VDbW5sS1VkRGRHZEdFTGtzRkdPYVNaWkRuS0xKSnU0UlJOZVQxRDVOS2J5ZWo2UkQ1dTVYTDNJSV9EUDJGZ09rYzlGdEE0OHJ2RVp2bmFlRGfSAfsBQVVfeXFMUG84MFlGaXhZTUZXRW9ydzR3VU45VjdDMVhTMXJESzFwNEgxUkZaNVFpM1lFeE1iWmxDTXA2YnczWXNsQi1wTzhsRUU5MVoyWnVYRmxYalFYS2lUdzVSMVVZTlZIamlnUklId2ZLZ1VuNFlYaFNSNUVLaFhrQUFfUmotT04xM3BqTC1QMzN3VEQxUXZlQkZhVTk4QklkUEVvS0RUbUtGTXNLd0hpLVI0MW10eHZpV1FaVW5rN1REZlZSdDZmU01jZDRPVnJUYXZERko2cVRqZjBBMnJGeWZ1WjNYaFdnVFVoRV9JcnBDOHVoYmM3M280ZWlPbE0?oc=5",
-    "source": "The Economic Times",
-    "fetchedAt": "2026-03-29T15:00:48.289Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "us-professor-living-in-israel",
-    "date": "2026-03-29",
-    "title": "US professor living in Israel: what Americans see online about Iran war is 'not reality' - ynetnews.com",
-    "description": "Via ynetnews.com. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5tN2dkUU9uNkpaQ1poN0Q4a1FPbVVxMFp2Ry0xYzBzVXdGUEFTZWlic3NWMDZ2REJyeXBsZExpM0J0LVh0bzhsOUpFd0stTlZsenVwMGo1OA?oc=5",
-    "source": "ynetnews.com",
-    "fetchedAt": "2026-03-29T15:00:54.503Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-war-live-updates-israeli",
-    "date": "2026-03-29",
-    "title": "Iran War Live Updates: Israeli military says it is just days away from striking all its priority targets in Iran - Firstpost",
-    "description": "Via Firstpost. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNTXZwSFRXQ1dJWUhOVllINzEwVkxOTWhNNWxCaDlVR2h1WDhWNURBejd6RFVzQW5rcHRTVUZWNU5KbktkLWpwOGVIVVMwVDhHM29oa3BuRzhjSS14ZE1MWnBvVEMySl9xZHFzWFVPUWhNRGhxV1kySmIxZVR2RlA5ZzltRjA4RENEcmtXU19VcURKZHQ4WGVxZXU3dWM1YjZiVlEycjV2eHk5MmZTaU5xdGpTSmFBVFYyTzdKbk1aVTFuSGlTM0dYYTN0NEpWSzV1d08yUlpjSGNxU0pvSm9vc3l1Zml3cHphVk45THRDQ1VSajNrTlHSAfsBQVVfeXFMUDFQQVJ6MWZaTE1INWJwVzhDRC1BSEdkZVlHVmhrVmFmSWQwY292NmM1cnM0eE8xMEI2ZVpBTmZ2ODNWMnNXMDJRNi1RVlJzd3ZmQkgwaEkxazY1OUd2bHV0Mm5jUjZvbS1BZHo0TGNKZHV6bHdsUDMxSHFra00tSUhsSjF4VHFaQmlqTjRrV0tlWVdRVmprMFhIQ3BqNmNZOUVhVHdHWDdaUjhZQ1F6RjRscmNwWXBhRjNsbU9Ga2txekg3eFc4VlQ1R1NJNWJvV0FMelRMdXUyV255Mzd3TnBfczd0eHo5YzhGVm9aS3REVEM5bm1aSjhHUTA?oc=5",
-    "source": "Firstpost",
-    "fetchedAt": "2026-03-29T15:01:00.799Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "usisraeliran-war-news-live-updates",
-    "date": "2026-03-29",
-    "title": "US-Israel-Iran War News Live Updates: Israel to 'expand' control over south Lebanon; Iran envoy refuses to leave Beirut despite expulsion - timesofindia.indiatimes.com",
-    "description": "Via timesofindia.indiatimes.com. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMizAJBVV95cUxNSkppQjNUQmNFdUJmS0RjMV9YdXl1WUowYUpfMmgzMlpLbHJjZUlwTjhYX0lrdUZETXNkenJyczREOFRfa2RKaG14cnQ5dzFscWRoLTJueE9Gc2tBWkdyZWZMWTR4WXQ4ekJ2dVV0cDhibDYyMFlyaFUwZGR5TWMyLUdndW1FbVp1WmdmV3ZXcHhzUFhGWlhSZ2FDOGtMM0FfLVZmOERfYzdlTU9SZFcyMGwwd3N0UkZGX3h5YTB4bUs5b1Nrc2RIajJidFVrVlJoQm9pcmNxYy1vQm53M1RBUlE5b3hoMmpacHU0cUdyaWhaTEM5TjZWUkV6WGRlODgwVVZfRERwd01qNzk0MEFldnA2RWNuQjZhaFlTd2VJd3Ewcm4zTDRFYXRCWEs4QnpxdGRjOHhqc3ppbmN2UkF5ZTUtZzMyckRqWjRYWNIB0gJBVV95cUxNWnY2QWluTGRfdGsxdndiN2Z5N2NvN0F2bHgtbldiZzJPQWF1Ty1wZHo3VUFRalVlemNPZjBaaHZyeUpWd1VlVFEtak5IaUhqejEyN0RocnJoUHhEcXZVaVdHNTZQb0NjcnBZRlo2bERMTzJUbWQtQ2FITDhRbzNNUGdBT3RBOFhwaTJOWWNOUlAyS25EZVFhc04wT0htal9HSzV5dGlHcDBKX29wZlc1Zlk5aGNHUTl3cWNud0pyVkxxY09ESEJIYmlJckFtQ0s1SnM0Z1BFQ0ppRWM5Z1BSRHVCT0NfU2dMSHNiVnV3QWV3cDZfUDVjVkw0bDFGenBwVlQwbGMzY2Q4LW1JNXdITXo1WWlrTVoyQ1VyZzc1SVNISWl4aDRCeHRUYmozU1QzOV9XdFlPQ1hhVEtTaTlsZE1KcU51RXh2Q1p5SjlPbjJGZw?oc=5",
-    "source": "timesofindia.indiatimes.com",
-    "fetchedAt": "2026-03-29T16:00:13.981Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=ZUwSExAdw34",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "ZUwSExAdw34",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "iran-warns-us-not-to",
     "date": "2026-03-29",
     "title": "Iran warns U.S. not to use ground troops as regional powers discuss how to end war - CBC",
@@ -4713,6 +4446,155 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOQ1ZrSXdzVHYtUDBlc2pVeC0yUHE5Z3pBSGFQNzZYRFFxYUNnaC1uWm5Sc3FtVWd5dG9tYlEzM1lLbTctU19NRENPck1adE02WWQyNC12VDZxb0ZweHdGeDNSMUZXLVlod3BhUVdMVk9jd3Nfc1NIREp0TlBCTGdsWnBqVThaWHlEYjVZVUdjRTgwWG90alJuQng0Uzc0a2djaVozMUNlY0ZQQmRkRmFDWmctV1Fza1YzVWxCSmZVVHppRGpLVTNVaVF4Q3FrQlNRNG1uZVd6alZMQnJIcFg1dmxsb1pJcXc?oc=5",
     "source": "thegazette.com",
     "fetchedAt": "2026-03-30T11:00:51.788Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-war-tehran-calls-trumps",
+    "date": "2026-03-30",
+    "title": "Iran war: Tehran calls Trump's peace demands 'excessive' - DW.com",
+    "description": "Via DW.com. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMkI5R1BaVUNNcDBVZHJHYVhwTmNWZllSQXR5YkxVaGxYdkpUT3ZDSEtUVnRKbVBCdXVvclE1bzVRc2pJZDVOcU9Wdk1DSUJRcWhFNU01QjF0c1NPWlh1c2RNN0FjektPSjhTUHM0bFVmYzBPbFYxWFZqSHlzanBqS2FZLTgyaGxyQmV0Q0dQZ1pjQQ?oc=5",
+    "source": "DW.com",
+    "fetchedAt": "2026-03-30T12:00:13.929Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=4zFyqwc_kHQ",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "4zFyqwc_kHQ",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-update-special-report-march",
+    "date": "2026-03-30",
+    "title": "Iran Update Special Report, March 29, 2026 - understandingwar.org",
+    "description": "Via understandingwar.org. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUnNHdDBRMk4ta1EtaHFycjVxMkFZSXJfWXZqUXNSRFNRMENad29ISEpXNVJtX0NsM0luaVBjOVp0M2dPcFFNNWREZkpaR3Z4b3c2d2ZLRkpkY3dxSFJDVkdMSnFKR2t2Um9BamxQeVFSaFE1cVp6ZG1jWWlwQVpKRzl0WGRxMWZpSUk1WXY1TDA1WF9mdnc?oc=5",
+    "source": "understandingwar.org",
+    "fetchedAt": "2026-03-30T12:00:22.643Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=3o584DrEQfs",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "3o584DrEQfs",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "live-updates-latest-from-israel",
+    "date": "2026-03-30",
+    "title": "Live Updates: Latest from Israel, Iran, and the Middle East - jpost.com",
+    "description": "Via jpost.com. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBGZXNwUnc4dl9QN3hYY3FzNF9jMzVTM2ZTMks1RTdPNVNaaGZzNG5tYnFsSkI2NjhxVlNyN2RKNTRNdlhfeHk2cjhkNldsd2xXckhnYXVDR3M3SzAzV1JYanJuUXZtMGtIZGJoTEp3c0Q0Z3dTWVE1SVY2bjJRQk0?oc=5",
+    "source": "jpost.com",
+    "fetchedAt": "2026-03-30T12:00:27.323Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=OXRjAIKpVTo",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "OXRjAIKpVTo",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "the-israeli-military-wants-several",
+    "date": "2026-03-24",
+    "title": "The Israeli military wants several more weeks to fight Iran war, officials say - npr.org",
+    "description": "Via npr.org. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE83NTJQYXhUdGF1U1RIRHpnZVZ5M0NDdzRYMVpySW9kUzZOUUJyS3pObEI1MVFhWTZ1Y0hOYTlrbkFJSFpjdExjWlE0cEU2eUQxZEExN2VMMVhURkhIVkFsR1BZdDJsaElCeGZSRQ?oc=5",
+    "source": "npr.org",
+    "fetchedAt": "2026-03-30T12:00:36.489Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "irans-war-against-the-us",
+    "date": "2026-03-30",
+    "title": "Iran's war against the US and Israel is being fueled by North Korean weapons, expert warns - Fox News",
+    "description": "Via Fox News. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxON2pnQUtFdG11c3JxcG5GUGpIR3JJOGVjOFlQbEhSYVpSYzczckNFeWdJUzdob0hza0NlNnVjUk5BbUFQVWd2ZXlWV3B4cjIzcDUwOGMzdGxvZlFIOFh4OXZLNWxPdEVYbWZubWpGa1M4UEhFS3RKRUhzVUFobHRFM2k3ZUM2eFE5MVlBYzJ3U3p3Y3NQU0FXTHZRam5WYzk0RmduWU1LY9IBrAFBVV95cUxQTzFiUWRzTDAtX0NIQThmMGZrLWR3TS1WMnN0QnVNOUhUZGZkQ0lxdWFDVXVOQ012N3lpeGZsNkVBUmZreDMyNVpYem1iemV3OWdDWEctOEJZZVpWZ2lfdlU0MlAxX3NpOTdKTHBNOTY3TlJRNGZKa2k0Z0w1YUNpSndGb0p4eWdRU0w1cDVPMDNsQjJ3WTkwZW1LQXRhdmJGMEktaFFfd19Dbkw2?oc=5",
+    "source": "Fox News",
+    "fetchedAt": "2026-03-30T12:00:42.978Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "fire-seen-near-israeli-oil",
+    "date": "2026-03-30",
+    "title": "Fire seen near Israeli oil refinery after Iranian missile attack | National News | 2news.com - KTVN",
+    "description": "Via KTVN. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOMTZrQVdJdHRORGsxaDdUXzhEN2gwWDVXVHF4RWxKd2x2bF9HamJZRGFJZ19NcmRVNnphYVFtaFg4Wl9lY3NqYm5HcjFPSzJPdGhpYldMRS1BaU1oa2RSaDBiMHZvSFh6TGlQZ18yYU5aMDV5Wkw5RzQtbk5QSXppaXZLU0tPSXhKcTBON1pZb1VhNFBzQ284cEtRUE5VaE8tVmRnMXhWWm9UeWxtZkRqOXJpZzdJZXZ6Ujk1Q3ROQk16WmVBMjBzVV9mOExwa3ZMMXpnR0U5elROTWZvT1Bfd1ptNl8?oc=5",
+    "source": "KTVN",
+    "fetchedAt": "2026-03-30T12:01:02.159Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-and-israel-trade-strikes",
+    "date": "2026-03-30",
+    "title": "Iran and Israel trade strikes as US mulls Gulf ground assaults - Nonstop Local News",
+    "description": "Via Nonstop Local News. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQUGx3dmszRG9aQ29vb3M4X2s2cDVaLV9kRk9JYlduQS1EMGZyU0FaeFMxLXdvcmhHVEh2TnVqS2IwY0pPY2dES0ptMFBlUHdjTU9VQmFtX19SZm9CdVR0WlYxVnVlZ2hlbk5ETHlPRDZCeDRra211dHVNRmlldHpvSEt4X3pmMnRqUjc4ZFhYZElWQ3J6ejJtTk9BMjcxNzBENzhmTWJVV1ZhWkFrN2JoSnZyQndnZE1mYlJyVTZxeW5ueVFRMHdqbWhzRWdKTk1Da0xhYmtoazVyY1ZOVnlhZk8xdw?oc=5",
+    "source": "Nonstop Local News",
+    "fetchedAt": "2026-03-30T12:01:08.869Z",
     "mediaUrls": [],
     "videoMatch": null,
     "lat": null,
