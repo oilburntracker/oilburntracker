@@ -8,7 +8,7 @@ import { getWarCostUpTo } from '@/features/timeline/data/war-costs';
 import { getSupplyDisruptionUpTo, getInfrastructureDamageByCountry } from '@/features/fires/data/curated-fires';
 import { curatedFires } from '@/features/fires/data/curated-fires';
 import type { CountryDamageEntry, DamageClassification } from '@/features/fires/data/curated-fires';
-import { formatCO2, co2Equivalents, FACILITY_PARAMS } from '@/features/emissions/utils/emissions-model';
+import { formatCO2, co2Equivalents, FACILITY_PARAMS, estimateCO2FromCapacity, capacityBreakdown } from '@/features/emissions/utils/emissions-model';
 import type { FacilityType } from '@/features/fires/data/curated-fires';
 import { computePerilScore, HISTORICAL_ANCHORS } from '@/lib/peril-score';
 import {
@@ -647,12 +647,32 @@ export default function DeepDivePanel({ onMapMode }: { onMapMode?: () => void } 
 
   const { impact, casualties, nuclear, cost, supply, stats, peril, gasExtra, oilDelta, perTaxpayer, warDays, recession, predictions, hitFacilityList, threatenedFacilityList, countryDamage, facilityIds, yearsOfLifeLost, roleCounts } = data;
   const facilityFires = fireData.features.filter(f => f.properties.matchedFacility);
-  const totalCO2 = facilityFires.reduce((s, f) => s + f.properties.estimatedCO2TonsDay, 0);
-  const equiv = co2Equivalents(totalCO2);
+  const satelliteCO2 = facilityFires.reduce((s, f) => s + f.properties.estimatedCO2TonsDay, 0);
   const totalDetections = fireData.features.length;
   const facilityFireCount = facilityFires.length;
 
-  // Per-facility-type CO2 breakdown for tooltip
+  // IDs of facilities matched by satellite
+  const satelliteMatchedIds = useMemo(() => new Set(
+    facilityFires.map(f => f.properties.matchedFacility!.id)
+  ), [facilityFires]);
+
+  // Capacity-based CO2 for burning facilities WITHOUT satellite data
+  const capacityEstimates = useMemo(() => {
+    return curatedFires
+      .filter(f => (f.status === 'active_fire' || f.status === 'damaged') && !satelliteMatchedIds.has(f.id))
+      .map(f => ({
+        facility: f,
+        co2: estimateCO2FromCapacity(f.facilityType, f.status, f.capacityBPD, f.gasCapacityBCFD, f.storageMBBL),
+        breakdown: capacityBreakdown(f.facilityType, f.status, f.capacityBPD, f.gasCapacityBCFD, f.storageMBBL),
+      }))
+      .filter(e => e.co2 > 0);
+  }, [satelliteMatchedIds]);
+
+  const capacityCO2 = capacityEstimates.reduce((sum, e) => sum + e.co2, 0);
+  const totalCO2 = satelliteCO2 + capacityCO2;
+  const equiv = co2Equivalents(totalCO2);
+
+  // Per-facility-type CO2 breakdown for tooltip (satellite-based)
   const co2ByType = useMemo(() => {
     const byType: Record<string, { co2: number; frp: number; count: number }> = {};
     for (const f of facilityFires) {
@@ -672,26 +692,39 @@ export default function DeepDivePanel({ onMapMode }: { onMapMode?: () => void } 
 
   // Build full calculation tooltip text
   const calcTooltip = useMemo(() => {
-    if (co2ByType.length === 0) return '';
-    const lines = [
-      'CO\u2082 Calculation Breakdown',
-      '\u2500'.repeat(40),
-      'Formula: CO\u2082 = FRP \u00d7 86400 / (f_rad \u00d7 H_c) \u00d7 EF / 1000',
-      '',
-    ];
-    for (const t of co2ByType) {
-      const label = t.type.replace('_', ' ');
+    const lines: string[] = [];
+    if (co2ByType.length > 0) {
       lines.push(
-        `\u25cf ${label} (${t.count} detection${t.count > 1 ? 's' : ''})`,
-        `  FRP: ${t.frp.toFixed(1)} MW \u00d7 ${t.params.multiplier} t/MW/day = ${t.co2.toFixed(1)} t/day`,
-        `  f_rad=${t.params.fRad}, H_c=${t.params.hc} MJ/kg (${t.params.fuel}), EF=${t.params.ef}`,
+        'CO\u2082 Calculation Breakdown',
+        '\u2500'.repeat(40),
+        'SATELLITE-BASED (FRP):',
+        'Formula: CO\u2082 = FRP \u00d7 86400 / (f_rad \u00d7 H_c) \u00d7 EF / 1000',
         '',
       );
+      for (const t of co2ByType) {
+        const label = t.type.replace('_', ' ');
+        lines.push(
+          `\u25cf ${label} (${t.count} detection${t.count > 1 ? 's' : ''})`,
+          `  FRP: ${t.frp.toFixed(1)} MW \u00d7 ${t.params.multiplier} t/MW/day = ${t.co2.toFixed(1)} t/day`,
+          `  f_rad=${t.params.fRad}, H_c=${t.params.hc} MJ/kg (${t.params.fuel}), EF=${t.params.ef}`,
+          '',
+        );
+      }
+      lines.push(`Satellite subtotal: ${satelliteCO2.toFixed(1)} t CO\u2082/day`);
     }
-    lines.push(`Total: ${totalCO2.toFixed(1)} t CO\u2082/day`);
-    lines.push('', 'Sources: IPCC 2006, Elvidge et al. 2020, EPA 2024');
+    if (capacityEstimates.length > 0) {
+      lines.push('', 'CAPACITY-BASED (no satellite data):');
+      for (const e of capacityEstimates) {
+        lines.push(`\u25cf ${e.facility.name}: ${e.co2.toFixed(0)} t/day`);
+      }
+      lines.push(`Capacity subtotal: ${capacityCO2.toFixed(0)} t CO\u2082/day`);
+    }
+    if (lines.length > 0) {
+      lines.push('', `Total: ${totalCO2.toFixed(1)} t CO\u2082/day`);
+      lines.push('', 'Sources: IPCC 2006, Elvidge et al. 2020, EPA 2024');
+    }
     return lines.join('\n');
-  }, [co2ByType, totalCO2]);
+  }, [co2ByType, satelliteCO2, capacityEstimates, capacityCO2, totalCO2]);
 
   // Count facilities confirmed burning/damaged from curated data (news-sourced)
   const curatedBurningCount = curatedFires.filter(f => f.status === 'active_fire' || f.status === 'damaged').length;
@@ -737,11 +770,24 @@ export default function DeepDivePanel({ onMapMode }: { onMapMode?: () => void } 
 
         {/* Headline CO2 number with calculation tooltip */}
         {totalCO2 > 0 ? (
-          <div
-            className='text-3xl font-black text-orange-700 dark:text-orange-400 tabular-nums leading-none cursor-help'
-            title={calcTooltip}
-          >
-            {formatCO2(totalCO2)} <span className='text-lg font-bold'>tons/day CO₂</span>
+          <div>
+            <div
+              className='text-3xl font-black text-orange-700 dark:text-orange-400 tabular-nums leading-none cursor-help'
+              title={calcTooltip}
+            >
+              {formatCO2(totalCO2)} <span className='text-lg font-bold'>tons/day CO₂</span>
+            </div>
+            {/* Source breakdown label */}
+            {satelliteCO2 > 0 && capacityCO2 > 0 && (
+              <div className='text-sm text-gray-500 dark:text-zinc-400 mt-1'>
+                {formatCO2(satelliteCO2)} t/day satellite + {formatCO2(capacityCO2)} t/day estimated from facility capacity
+              </div>
+            )}
+            {satelliteCO2 === 0 && capacityCO2 > 0 && (
+              <div className='text-sm text-gray-500 dark:text-zinc-400 mt-1'>
+                Estimated from facility capacity (no live satellite data)
+              </div>
+            )}
           </div>
         ) : (
           <div>
@@ -767,7 +813,7 @@ export default function DeepDivePanel({ onMapMode }: { onMapMode?: () => void } 
           </div>
         )}
 
-        {/* Per-facility-type breakdown with formula */}
+        {/* Per-facility-type breakdown with formula (satellite) */}
         {co2ByType.length > 0 && (
           <div className='mt-3 space-y-1.5'>
             {co2ByType.map(t => {
@@ -797,14 +843,44 @@ export default function DeepDivePanel({ onMapMode }: { onMapMode?: () => void } 
           </div>
         )}
 
+        {/* Capacity-based estimates breakdown */}
+        {capacityEstimates.length > 0 && (
+          <div className='mt-3 space-y-1.5'>
+            {satelliteCO2 > 0 && (
+              <div className='text-xs text-gray-400 dark:text-zinc-500 uppercase tracking-wide font-semibold'>Capacity-based estimates</div>
+            )}
+            {capacityEstimates.map(e => (
+              <div
+                key={e.facility.id}
+                className='flex items-center justify-between text-sm cursor-help rounded px-2 py-1 hover:bg-amber-50 dark:hover:bg-zinc-800/60 transition-colors'
+                title={e.breakdown}
+              >
+                <span className='text-gray-600 dark:text-zinc-300'>{e.facility.name}</span>
+                <span className='font-bold tabular-nums text-amber-700 dark:text-amber-400'>
+                  {formatCO2(e.co2)} t/day
+                  <span className='text-gray-400 dark:text-zinc-600 font-normal ml-1 text-xs'>(capacity est.)</span>
+                </span>
+              </div>
+            ))}
+          </div>
+        )}
+
         {/* Detection match info */}
         <div className='mt-2 text-sm text-gray-500 dark:text-zinc-400'>
           {facilityFireCount > 0 ? (
             <>
               <strong className='text-orange-600'>{facilityFireCount}</strong> of {totalDetections} satellite detections matched to tracked facilities.
               Unmatched detections (agricultural, wildfire, flaring) excluded.
+              {capacityEstimates.length > 0 && (
+                <> + {capacityEstimates.length} facility estimates from capacity data.</>
+              )}
             </>
-          ) : loading ? '...' : totalDetections > 0 ? (
+          ) : loading ? '...' : capacityEstimates.length > 0 ? (
+            <>
+              {totalDetections > 0 ? `${totalDetections} satellite detections in region — none within tracked facility zones. ` : ''}
+              {capacityEstimates.length} burning {capacityEstimates.length === 1 ? 'facility' : 'facilities'} estimated from capacity data (EPA factors).
+            </>
+          ) : totalDetections > 0 ? (
             <>
               {totalDetections} satellite detections in region — none currently within tracked facility zones.
               {curatedBurningCount > 0 && ` ${curatedBurningCount} facilities confirmed burning per news reports.`}

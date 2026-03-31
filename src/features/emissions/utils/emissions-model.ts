@@ -152,6 +152,109 @@ export function co2Breakdown(frpMW: number, facilityType?: FacilityType | null):
   ].join('\n');
 }
 
+// ═══ CAPACITY-BASED CO2 ESTIMATION (FALLBACK) ═══
+//
+// When no satellite FRP data is available for a confirmed-burning facility,
+// we estimate CO2 from facility capacity using EPA emission factors.
+//
+// Sources:
+//   - EPA GHG Emission Factors Hub (2024): 0.43 tonnes CO2/barrel crude
+//   - EPA: 54,600 tonnes CO2/BCF natural gas
+//   - Burn fraction: conservative 5% for active fire, 2% for damaged
+//     (a major fire typically affects one unit, not the whole facility)
+
+const CRUDE_CO2_PER_BARREL = 0.43;   // tonnes CO2/barrel (EPA)
+const GAS_CO2_PER_BCF = 54_600;      // tonnes CO2/BCF (EPA)
+
+const BURN_FRACTION: Record<string, number> = {
+  active_fire: 0.05,  // 5% of capacity actively burning
+  damaged: 0.02,      // 2% smoldering/partial
+};
+
+/**
+ * Estimate CO2 emissions from facility capacity when satellite FRP data is unavailable.
+ * Uses EPA emission factors and a conservative partial-burn fraction.
+ */
+export function estimateCO2FromCapacity(
+  facilityType: FacilityType,
+  status: string,
+  capacityBPD: number,
+  gasCapacityBCFD?: number,
+  storageMBBL?: number,
+): number {
+  const beta = BURN_FRACTION[status];
+  if (!beta) return 0;  // not burning
+
+  // Gas facilities: use gas capacity
+  if ((facilityType === 'gas_field' || facilityType === 'lng_terminal' || facilityType === 'pipeline')
+      && gasCapacityBCFD) {
+    return gasCapacityBCFD * GAS_CO2_PER_BCF * beta;
+  }
+
+  // Oil facilities: use BPD
+  if (capacityBPD > 0) {
+    return capacityBPD * CRUDE_CO2_PER_BARREL * beta;
+  }
+
+  // Storage-only (e.g. Fujairah, capacityBPD=0): derive daily from storage
+  if (storageMBBL) {
+    const dailyEquivBPD = (storageMBBL * 1_000_000) / 365;
+    return dailyEquivBPD * CRUDE_CO2_PER_BARREL * beta;
+  }
+
+  return 0;
+}
+
+/**
+ * Generate a human-readable breakdown for a capacity-based CO2 estimate.
+ */
+export function capacityBreakdown(
+  facilityType: FacilityType,
+  status: string,
+  capacityBPD: number,
+  gasCapacityBCFD?: number,
+  storageMBBL?: number,
+): string {
+  const beta = BURN_FRACTION[status];
+  if (!beta) return 'Not burning — no emissions estimated';
+  const pctLabel = `${(beta * 100).toFixed(0)}%`;
+  const statusLabel = status === 'active_fire' ? 'Active fire' : 'Damaged';
+
+  if ((facilityType === 'gas_field' || facilityType === 'lng_terminal' || facilityType === 'pipeline')
+      && gasCapacityBCFD) {
+    const co2 = gasCapacityBCFD * GAS_CO2_PER_BCF * beta;
+    return [
+      `${statusLabel}: ${pctLabel} burn fraction`,
+      `Gas capacity: ${gasCapacityBCFD} BCF/day`,
+      `CO₂ = ${gasCapacityBCFD} × 54,600 t/BCF × ${pctLabel} = ${co2.toFixed(0)} t/day`,
+      `Source: EPA emission factors (capacity-based estimate)`,
+    ].join('\n');
+  }
+
+  if (capacityBPD > 0) {
+    const co2 = capacityBPD * CRUDE_CO2_PER_BARREL * beta;
+    return [
+      `${statusLabel}: ${pctLabel} burn fraction`,
+      `Capacity: ${capacityBPD.toLocaleString()} BPD`,
+      `CO₂ = ${capacityBPD.toLocaleString()} × 0.43 t/bbl × ${pctLabel} = ${co2.toFixed(0)} t/day`,
+      `Source: EPA emission factors (capacity-based estimate)`,
+    ].join('\n');
+  }
+
+  if (storageMBBL) {
+    const dailyEquivBPD = (storageMBBL * 1_000_000) / 365;
+    const co2 = dailyEquivBPD * CRUDE_CO2_PER_BARREL * beta;
+    return [
+      `${statusLabel}: ${pctLabel} burn fraction`,
+      `Storage: ${storageMBBL}M bbl → ${Math.round(dailyEquivBPD).toLocaleString()} bbl/day equiv`,
+      `CO₂ = ${Math.round(dailyEquivBPD).toLocaleString()} × 0.43 t/bbl × ${pctLabel} = ${co2.toFixed(0)} t/day`,
+      `Source: EPA emission factors (capacity-based estimate)`,
+    ].join('\n');
+  }
+
+  return 'No capacity data available';
+}
+
 /**
  * Format CO2 tonnes for display
  */

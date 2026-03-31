@@ -1,8 +1,9 @@
 'use client';
 
+import { useMemo } from 'react';
 import { useFireStore } from '@/stores/fire-store';
 import { curatedFires } from '@/features/fires/data/curated-fires';
-import { formatCO2 } from '@/features/emissions/utils/emissions-model';
+import { formatCO2, estimateCO2FromCapacity } from '@/features/emissions/utils/emissions-model';
 import {
   Card,
   CardHeader,
@@ -18,10 +19,24 @@ export default function StatsBar() {
   const facilityFires = fireData.features.filter(f => f.properties.matchedFacility);
   const activeFires = facilityFires.length;
   const totalDetections = fireData.features.length;
-  const totalCO2 = facilityFires.reduce(
+  const satelliteCO2 = facilityFires.reduce(
     (sum, f) => sum + (f.properties.estimatedCO2TonsDay || 0),
     0
   );
+
+  // Capacity-based fallback for burning facilities without satellite match
+  const capacityCO2 = useMemo(() => {
+    const matchedIds = new Set(
+      facilityFires
+        .filter(f => f.properties.matchedFacility)
+        .map(f => f.properties.matchedFacility!.id)
+    );
+    return curatedFires
+      .filter(f => (f.status === 'active_fire' || f.status === 'damaged') && !matchedIds.has(f.id))
+      .reduce((sum, f) => sum + estimateCO2FromCapacity(f.facilityType, f.status, f.capacityBPD, f.gasCapacityBCFD, f.storageMBBL), 0);
+  }, [facilityFires]);
+
+  const totalCO2 = satelliteCO2 + capacityCO2;
 
   const matchedFacilityIds = new Set(
     fireData.features
