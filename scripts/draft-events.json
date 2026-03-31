@@ -1,174 +1,5 @@
 [
   {
-    "id": "what-we-know-on-day",
-    "date": "2026-03-29",
-    "title": "What we know on Day 30 of the war with Iran: Israel prepared for ‘multi-front war’ and more US troops arrive in the region - cnn.com",
-    "description": "Via cnn.com. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPemo4aG92YmVObXh2c2lZeXpZdlFZUUR0S0VEUUF1TWdObEdCMnBOaGJQa2FWS1FjTGRISXhMcjM1bXVpalpPSW9uNG10aC1fNWJ4ay10eHhwZ1JlSGZ6ZUVFSFZqNkJQR3lOMGpQb3Mwbl9qWC1QQUhWTzJiTklIaF9VdlBzMkd6bk1wam1KMGhqX1YzZjVHcWlHTmg0UFByZHRZ?oc=5",
-    "source": "cnn.com",
-    "fetchedAt": "2026-03-30T22:00:40.085Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=NpV5rmt5aCo",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "NpV5rmt5aCo",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "the-guardian-view-on-trumps",
-    "date": "2026-03-30",
-    "title": "The Guardian view on Trump’s Iran war: escalation without end | Editorial - theguardian.com",
-    "description": "Via theguardian.com. Auto-detected by headline monitor.",
-    "category": "retaliation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQWt2eEIxQTNFTUp0dEdYeGlJQmdvV0o0YWUxVFJlRGdCdGM5NThvak5RVW9mVlQtNkVjelBKY2FiWTQ3U2FvV0FYR21NemdVN1I2OHhQVUdhVlZFZGlBdmkwRDF4WmtCOS03d3hHT210cDFkWTNTazJOQTJLTmppNF9ha2xKbGJXRGw2T0pXMXZqNG9HRUZOMHROWll3T1Q3NU5vM09fUzJpam9NazhlZHEyNA?oc=5",
-    "source": "theguardian.com",
-    "fetchedAt": "2026-03-30T22:00:47.159Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-war-shock-is-dimming",
-    "date": "2026-03-30",
-    "title": "Iran war 'shock' is dimming outlook for many economies, IMF says - reuters.com",
-    "description": "Via reuters.com. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOVkZ4V3JzSm00c3VWNkVPbGxrenFEaGJzd3FLSzFzbU9yRW5tT2lRREQwRzdBTGplUlVqOWYtR2dnTjRmQUJOT1dxeFhLbXZVcFdTS3BGRU1uQjh0UEZyaTJUVFpzTzVTNUZFNmtka0ZWdHM2aDVlQ1U2UDAwM1NydEt6eFdWVUNEazdPMGFJZGdTbmdtbml3emY5bTFCSHRGcTZINE5qZDk?oc=5",
-    "source": "reuters.com",
-    "fetchedAt": "2026-03-30T22:00:53.070Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "one-month-in-most-israelis",
-    "date": "2026-03-30",
-    "title": "One month in, most Israelis still support the war on Iran, new poll shows - The Globe and Mail",
-    "description": "Via The Globe and Mail. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNbVhZZi01UG93R01vVnVtQl82NDJpcWVIY25FSTN0VDFOZVowY0trTXpldmVVVmw2S3dHZHBCNXY2VUtjb05hbzZGejNpVlJ4akdtSGNrbTNTVHdlVDNiajlBdy13MzR2aHVwQ2ItS1RZNUU3cllfbmV0VmdhTk8tZw?oc=5",
-    "source": "The Globe and Mail",
-    "fetchedAt": "2026-03-30T23:00:12.427Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=qQAl6KFxCqo",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "qQAl6KFxCqo",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "israeliran-war-day-31-idf",
-    "date": "2026-03-30",
-    "title": "Israel-Iran War Day 31 IDF Attack on Lebanese Army Checkpoint Kills One Soldier, Wounds Five - Haaretz",
-    "description": "Via Haaretz. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQU2dDMmJHWm93VHpJV1lUSnYwRUwtajZOMF8xd2lwRE9WS0Q5Tmpic0dEWVhrOWE5X2duLVM2UHBBZkg2WTlvVzY3Uzd6Rkw3YjlzOW5jRVY0NlRlZ0RjZnl0VV9tVFkwRDJoUnJLRm1zRTNrbVVoSHhwbmR5UEpDRU9lMWMzUXJfdUUtZXlMNFBRdHZTNDVZdjFLV1g0WEliZU1VRUxlczFfYzVsOWdYejJ4ZFRkemtHVEl5d0VUR3lZTTFUUHJEMXNhUC1PZXFVNEU2MWJjN3hzc2I3SEpjaFBaSGJHcXRKRllGcGlfQlFwYTJ5dFRzYm9zOVJjYnplMU9QLTJzbklsS3NDUUUwbFludzhqQjQ?oc=5",
-    "source": "Haaretz",
-    "fetchedAt": "2026-03-30T23:00:21.952Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=c98jpIosHHA",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "c98jpIosHHA",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "aptopix-lebanon-israel-iran-war",
-    "date": "2026-03-30",
-    "title": "APTOPIX Lebanon Israel Iran War - Columbia Missourian",
-    "description": "Via Columbia Missourian. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNV3FKaTE2R1RvSTA2YTVjejd5RmhRNGs1VUhQWTFvQ2ZoQWJ2VVlJdDVqZVBqMHVGVFhCbDlKUFdwVUtEcDI2VXVDNFhkSERkVmhpd0RDcXV2NUxVbklFNlFUU3FDZWF2LVZpLUVqRkJia0ZlN3NXUmVneW90MnpEbzNPT3AwRHpmZTNWRF9mSG5CdVdkR0pNRk1GZDBlY3lBVVhKWWF3U05LNmRTQjFvZEtGS0REdXBsQTBLamxySXlLMTYwUWcyZ29WZm8?oc=5",
-    "source": "Columbia Missourian",
-    "fetchedAt": "2026-03-30T23:00:24.035Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=4tVvV32z-5g",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "4tVvV32z-5g",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "aptopix-lebanon-israel-iran-war",
-    "date": "2026-03-30",
-    "title": "APTOPIX Lebanon Israel Iran War - Buffalo News",
-    "description": "Via Buffalo News. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9FNXhESUJjTVIyTC1YcEpZOFdFUW1fYWIxU2Q1Wkdwa0lORG94YUE4Nm1yb2NGcDZITGJhOEtMTzI0SzdHajFYOFotOGRKbG1MWlllYVgyRVREb3NudTgwNUtVZy11NzFPVXQzQTBadC1vcmdmNjg1ekVObw?oc=5",
-    "source": "Buffalo News",
-    "fetchedAt": "2026-03-30T23:00:26.196Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=XwkJCvKgklg",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "XwkJCvKgklg",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "israel-shifts-to-hitting-irans",
     "date": "2026-03-29",
     "title": "Israel shifts to hitting Iran’s economy, as it enters ‘completion phase’ of war - The Times of Israel",
@@ -4435,6 +4266,263 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBXdEE1SzVKZW9zM0N4S3B0OGJ1YmgyXzdiaDVtN0ZGTUdGZnQ3bzRxQS1ab19wN3dKbFRxWG90dXlCWXZkQnVEY2FqZFY3a0pXMzV2N2RHbTZKT2FXV1ZNLUVEMHYwTEFXY2c?oc=5",
     "source": "The Jerusalem Post",
     "fetchedAt": "2026-03-31T20:00:59.636Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "netanyahu-says-iran-war-goals",
+    "date": "2026-03-31",
+    "title": "Netanyahu says Iran war goals achieved 'beyond halfway point' as strikes continue across Middle East - Euronews.com",
+    "description": "Via Euronews.com. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTFBsUjFBeXRJX184NXpiUHNVdXpwRHhqOGw0b0h6LTVobHV5WkV2Slc4bGtyTVBWOEoxOVlCeWZzZ0VGY3RiRWxaTjBBaU9XUEZlV3JvbUg0VjB5UmNPdHFoa2Vpb1RZTlFTa1ZJaWlBSlUyUQ?oc=5",
+    "source": "Euronews.com",
+    "fetchedAt": "2026-03-31T21:00:16.312Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=VP2rTIEuZtc",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "VP2rTIEuZtc",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "live-updates-latest-from-israel",
+    "date": "2026-03-31",
+    "title": "Live Updates: Latest from Israel, Iran, and the Middle East - jpost.com",
+    "description": "Via jpost.com. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBSeWZZUE5HdkNTNzlsc3JTMk43cU1VNlBkaGZBWVRHTVR3NUFPakIzUzV4V2VzeU1jbjEtT2VFZjAzLXNsYTAxaXFLY29CYXRiS2h0VmZDVTNoZzFBYmVPdWR1OVctQjJ5ZE54LXdLUklpcTd3eF9kWWVsam1fWDg?oc=5",
+    "source": "jpost.com",
+    "fetchedAt": "2026-03-31T21:00:18.828Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=OXRjAIKpVTo",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "OXRjAIKpVTo",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israel-iran-war-rutland-herald",
+    "date": "2026-03-31",
+    "title": "Israel Iran War - Rutland Herald",
+    "description": "Via Rutland Herald. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPelJiSnVmcmF2TlE2UjNzQ3QzSFN1czJGckItMVF3bWVWbVRrYUtXTzBKNVROVlljYTR3aTcxU1c1SXRoYXZBeDNMUHdkZFdXMzZMZ09tRUFLV1FtejdPOE1jZGJOZFV3aTVJbUNOUXVGZ0tKS2F5S0hEdEdwbURaekp2MHVob0RnV0dNUDY5T3I4MmtFcG9YNkw0ci1aZ2NjZmxtb21BZ3RacGc?oc=5",
+    "source": "Rutland Herald",
+    "fetchedAt": "2026-03-31T21:00:21.330Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=lgUIx3zUesY",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "lgUIx3zUesY",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "islamic-revolutionary-guard-corps-threatens",
+    "date": "2026-03-31",
+    "title": "Islamic Revolutionary Guard Corps threatens US companies across Middle East - jpost.com",
+    "description": "Via jpost.com. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBfbUtMOGZBVUZFUE5CYS04cEgtLUM4N19fd3NWeVpSdVU1LUxjWUplY1hXZ2NPZFM1bElmZnRZN3JZa0UxNlJfVDdhQ1llTlkwQzIxSElFSUx2WXUzR21qTTZib3pfUTNvRlE?oc=5",
+    "source": "jpost.com",
+    "fetchedAt": "2026-03-31T21:00:23.769Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=kFX-vkm1pik",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "kFX-vkm1pik",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "could-turkey-help-mediate-an",
+    "date": "2026-03-31",
+    "title": "Could Turkey help mediate an end to the Iran war? - Atlantic Council",
+    "description": "Via Atlantic Council. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbmNYQlhRSjBuejJqaktDNm12MFdaT1E4RGl5SFVaaEt5NWdWOFg5NkoyUUNBMnZ0SldPX0IxRVlfdnNKMG5qTHRUdGZSZHd3WVZ1SEtBa0lLUjNMVnZ2TTk2LURzRmk5d3pzbEpXWGZHamhjQU9oTTM4elZpa192M3A3QS1zaGJPTVRTQXVxZ3MyTDU5UURrdWhUU0ZXLVdtNUE?oc=5",
+    "source": "Atlantic Council",
+    "fetchedAt": "2026-03-31T21:00:26.109Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=tGB5LvBJSnw",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "tGB5LvBJSnw",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "gulf-states-pressure-trump-to",
+    "date": "2026-03-31",
+    "title": "Gulf States pressure Trump to continue war with Iran until fall of Islamic regime - report - jpost.com",
+    "description": "Via jpost.com. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE16SjBfTWpUc1loXzF1OVI0Sm9HazlrdDNCSV82QTZSTml6aXBoZ2o4cXp6U2lwdjhLZ2pFcDlhcXU0NUt0MTVMZ0N0YzRBT0ZEVW9TcjJfNnVMRlZtRmc1Z1o4U2c0dFdyRUE?oc=5",
+    "source": "jpost.com",
+    "fetchedAt": "2026-03-31T21:00:28.484Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=_Cmxx7cZcDA",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "_Cmxx7cZcDA",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "benjamin-netanyahu-iranian-regime-weaker",
+    "date": "2026-03-31",
+    "title": "Benjamin Netanyahu: Iranian regime 'weaker than ever' - jpost.com",
+    "description": "Via jpost.com. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBucTNRbFA1ZTYyaDJiYjFNOU1nYVljY3JuU0dwamhKR1U1bkd4NnlJOU1OZ3NkM2hhYUstRENKUzdYeXN2MlF1eGJXakc5YVU3cmREbEZIUE8wakY4?oc=5",
+    "source": "jpost.com",
+    "fetchedAt": "2026-03-31T21:00:30.810Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=DHi46BHlbRI",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "DHi46BHlbRI",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "renewed-threat-from-houthis-in",
+    "date": "2026-03-31",
+    "title": "Renewed Threat From Houthis in Yemen as Iran War Intensifies - fdd.org",
+    "description": "Via fdd.org. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPdmJGZ3JFSFZvN0tnQmFma3ZYYkJYWjVseFhnLWpGalpUdGx5QTBMTllZaUVNUmZoQnhWeGY0TDlsXzh5ajF0aFcxR3VFSFo4aDZ4aFIwM2htTVlZSlBMR2VSdmc1cWxWYWluTDlHRHFLUFdwaUk5RUJSOXpFZDlzWWFJZVp6Zm53X1g4NVNRNTczMW1kYkpoV2E2WlRJcWw0bGZV?oc=5",
+    "source": "fdd.org",
+    "fetchedAt": "2026-03-31T21:00:44.385Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "opinion-why-europe-is-wrong",
+    "date": "2026-03-31",
+    "title": "Opinion | Why Europe is wrong to think Iran is ‘not our war’ - Politico",
+    "description": "Via Politico. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOTlZIYjYwMi1nSW9ZRXF1SUFQX3lSSS1MS3RjV0xRcG93aXlwdFFSVkxJMUw4VHdwUWw4WWk2VjFGWEJQNmZ1MjZrZng0Ui1sSE9zQ2FRM2c2ak5RQ1RHcmJjYnZhSTIxZWRnU1VsSldZN2pxUEhjSXZ6NFBwS2tEN3pEazFJczhpWlk5cg?oc=5",
+    "source": "Politico",
+    "fetchedAt": "2026-03-31T21:00:51.182Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "irans-regime-remains-defiant-despite",
+    "date": "2026-03-31",
+    "title": "Iran’s regime remains defiant despite absorbing massive blows from Israel and the US - The Times of Israel",
+    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUzNsLXI2UXphZDJQWThpRjhzUkt6MC1XQlBfZXhnYzJ1Z3RoVHRyalNrTTgzeVB0QXhjb3VvZ0YxZkVyRTZfc1JNZFhZVUhWZk1DYTlBWUVneEJ2QlNZWjVJczdPNG45UXUzR3pEaHpwMHdQWDRvdlY5OFpEZkk3dDE0ODhhSEs1UXlJNUJZVWV4eXZqSkV3LTVKcllzdlJHQjFENTM0RWh4cUFHWTBoeFFZZW3SAboBQVVfeXFMTXNqbjl5M1dpYVAzbnkzNDlGTjhwcmt2WTFndlBGUU5DNEFVVkxoSmRleUIwcENMS1dHeEZpZ0FOaDVMMENkekdCVE5CY3E2U1REaVc2ZG1Ucnk5b0VxUkRGQ3liMHc2NC1YZjFBdjZkdkpQVnVYcjNNMEQ5dFJ0clRKU043bFRDUUU2U2I3YjBMRGd3NjdCUUdHdW5RMXhYTVRwZG1wTnNUWlc0OGdmclBDSnFQRFh2QmpR?oc=5",
+    "source": "The Times of Israel",
+    "fetchedAt": "2026-03-31T21:00:57.495Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "arab-regimes-backing-for-usisrael",
+    "date": "2026-03-31",
+    "title": "Arab regimes’ backing for US-Israel war on Iran preparing region-wide conflagration - World Socialist Web Site",
+    "description": "Via World Socialist Web Site. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0wREhBZ3dwNE9BS0FkdDR2NzJaRW9zbWxvejdDM3VZNVFjWnVBYUU5enZWVzlTYzlzUS1TQU82TWZ6OVMxdTRvazBBX2xVQVFIcTZsZDFLd1dPMVEzeHlSWE1kTG9NWXhk?oc=5",
+    "source": "World Socialist Web Site",
+    "fetchedAt": "2026-03-31T21:01:04.350Z",
     "mediaUrls": [],
     "videoMatch": null,
     "lat": null,
