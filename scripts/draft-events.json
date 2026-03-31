@@ -1,147 +1,5 @@
 [
   {
-    "id": "iranbacked-houthis-join-war-with",
-    "date": "2026-03-28",
-    "title": "Iran-backed Houthis join war with attack against Israel - bbc.com",
-    "description": "Via bbc.com. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5oY1N1ME83RElJVUc5OFZSaXJFMms5a1Z4MDdxR2VrN3JPam9RVUZMQlpqdzZsYUVBNko1RWtRM2s4ckpiR0FxdDlXS1RuYXBlOElaZU1uYThidw?oc=5",
-    "source": "bbc.com",
-    "fetchedAt": "2026-03-30T21:00:17.082Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=UztPrVTRp6o",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "UztPrVTRp6o",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "oil-rises-and-asia-shares",
-    "date": "2026-03-30",
-    "title": "Oil rises and Asia shares slide as Iran war enters fifth week - bbc.com",
-    "description": "Via bbc.com. Auto-detected by headline monitor.",
-    "category": "infrastructure",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5WT09BMm11ajVYN3ppZUs5NmhMM2cxaXl6NXhQWnlKRFFvNXpLeFhPdHY4bkxEUlNudlRTdC1USUFxU0JHb1ZvdVpvNm0yX0diLUFYUXZRVVN2UQ?oc=5",
-    "source": "bbc.com",
-    "fetchedAt": "2026-03-30T21:00:19.424Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=TRSH_SU_LIk",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "TRSH_SU_LIk",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "usiranisrael-officials-should-uphold-laws",
-    "date": "2026-03-30",
-    "title": "US/Iran/Israel: Officials Should Uphold Laws of War - Human Rights Watch",
-    "description": "Via Human Rights Watch. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQcFQxOE5ad3hGV3d3ZjZMLVdEd2tiendDSnNiazJyVXYzX2IwYkcxRC1IbERMUHM3OHFhcng4MEFRMVZEQlJXb2xlN0MtWGtsaTlvVFJkSWdlRS1RRnhQZjdxOHl5azVkckxyTmxzeW15RnNmbUdSYWpCbFdxV3hRMkRrMHRVYWxGQ3d3RGVNOA?oc=5",
-    "source": "Human Rights Watch",
-    "fetchedAt": "2026-03-30T21:00:23.833Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=uVEcX3gi5ts",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "uVEcX3gi5ts",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-war-tehran-warns-us",
-    "date": "2026-03-29",
-    "title": "Iran war: Tehran warns US against ground assault - DW.com",
-    "description": "Via DW.com. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSXE4WVFndEZQVWNOQjh2UkVNV2FIaTQ3MERlWEtuN192WG1pRnlsVE9zMVFHUVRncDZmX0NKb204STYwNXQ3LV9HQm51c2thVVJLWWExNGx6U2pnd2QyMnpPb3BRMlMzMC1SS1N1NTFVOVo1UWE2TDRYbWJCU0tXRXFnV2pCb0l2Z3pB?oc=5",
-    "source": "DW.com",
-    "fetchedAt": "2026-03-30T21:00:26.374Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=M4UtKeVcj1I",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "M4UtKeVcj1I",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "trump-is-weighing-all-options",
-    "date": "2026-03-30",
-    "title": "Trump is weighing all options on Iran's Kharg Island - Oregon Public Broadcasting - OPB",
-    "description": "Via Oregon Public Broadcasting - OPB. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQYkQyR1pKYmFjR3YxaTNNWGxzUEtsVi0tSkdGUEVCZUw1RUJzdUdVOWFkRnFWZC1FTVdvemt2Qm9uM2xUVTBGci0wamdVUkc3UWtDQTYydjh1NldMNGFxNjN1M0tTRi1yZmk3LXJ3MHVsXzRqbWJrSEJNWWlaMWFuaF9wZDVEU2JybzBfU05FWDFZckRqU2c?oc=5",
-    "source": "Oregon Public Broadcasting - OPB",
-    "fetchedAt": "2026-03-30T21:00:35.186Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "spain-closes-airspace-to-us",
-    "date": "2026-03-30",
-    "title": "Spain closes airspace to US aircraft involved in Iran war - bbc.com",
-    "description": "Via bbc.com. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9SWVcyVVNGd0hrZmVRWV9LNGxFUTNHZDVIck5xX0lBd0xhNk1EcTNISFdma0dBTS1ZcWx3Qi1pZXVzaEJLWTdGbV9ZaEFwTkRlazNUQ01YbEVkQQ?oc=5",
-    "source": "bbc.com",
-    "fetchedAt": "2026-03-30T21:00:54.249Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "what-we-know-on-day",
     "date": "2026-03-30",
     "title": "What we know on Day 31 of the US and Israel’s war with Iran: Trump threatens escalation if no deal reached - wxow.com",
@@ -4448,6 +4306,236 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOelNELW5BRWRscUtVZTRPb2pmeFRKLWZiN010Rk5jVF8xbVh2R1FLUy04bFpUc0Rmb0x2dlZjLXdsakt0NkdPVktNalJlS25sbEpudTBydm41VHN1cm1LeXA2ZnVWT0VSVjFic0Q4VnR2OWNLdG01Z2hvRWptejBnbWVobHFfZnc2WDk5VGpjUQ?oc=5",
     "source": "Yahoo",
     "fetchedAt": "2026-03-31T18:00:58.014Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iiranus-war-latest-trump-tells",
+    "date": "2026-03-31",
+    "title": "IIran-US war latest: Trump tells allies and UK to ‘get your own oil’ - The Independent",
+    "description": "Via The Independent. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdlBqRmJaWF9EWmVLUnJlY0JMem13OG11OUxuVjlHUTRKQ2pCOHRNeWtWa3hpUmZLU2JkNVpJZ05DVEdseGlhS2NQUTZ2dWZXUGltcnJuU3VQVjVFZDNkYjNUWnRuaXhzZU5xckJzVm1hU3VxY3VNRUM0dDNoNGNXWDdsMXVfSDhnTm5GZ0F5SEhTXzEwZHl1SEY4UFc?oc=5",
+    "source": "The Independent",
+    "fetchedAt": "2026-03-31T19:00:12.975Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=ngDoYGBLH7w",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "ngDoYGBLH7w",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "middle-east-crisis-live-us",
+    "date": "2026-03-31",
+    "title": "Middle East crisis live: US has begun flying B52 bombers over Iran, Pentagon says - theguardian.com",
+    "description": "Via theguardian.com. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMm9RSmxYamtBQm94ZVdtU3hRRVFEUmVIUWlXVWJzb29VaEd6M1JUUFUyY3lZcmZYX3JvRTB0a0dkbVRESWt6ZXd2QjBvMFRVN1REYS1nUWFpeUstaDlpUF80RUxEbGp4dDZxNWN4eTlmOWdnTE92UHIzdWJmWHNZN1hxY2pVN3ZvR0Vvbml4ZmlGeEtDQ0VfSHdJSF9CbVQ0WmJpTTNCN0hCelpoTjRCQVhkZ0FuRUVzMGxFdHdScDdYS3c?oc=5",
+    "source": "theguardian.com",
+    "fetchedAt": "2026-03-31T19:00:14.739Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=d8uHnOCWzDs",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "d8uHnOCWzDs",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-war-live-updates-tehran",
+    "date": "2026-03-31",
+    "title": "Iran war live updates: Tehran threatens to target US companies as UN Security Council meets on Lebanon - reuters.com",
+    "description": "Via reuters.com. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUzBGc1VWRVdEQXIxUlNsU0VCVDVGdmU4ZkR5bDVabmE5cmNGWFNUOURGUlF0THJsZ2FfNmFfQThyUTZjSFpfemVDaENpcExRd0RaTm9KTWFraExlaFpFM1VKeTlucER3SXl0dkoteUpxaTRraTJXLVZaMGdLVmZ6VVc2SVVxbFIzX1d6S0tGT0NyOUp0dVFoNXByM3VySVpnajgyN3NsbkJVdGc2VUFIOVQxSEJicUJWeEE?oc=5",
+    "source": "reuters.com",
+    "fetchedAt": "2026-03-31T19:00:20.757Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=BFeEamBZPHY",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "BFeEamBZPHY",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "as-trump-signals-retreat-from",
+    "date": "2026-03-31",
+    "title": "As Trump signals retreat from war, Israel may have to keep fighting Iranian threat - timesofisrael.com",
+    "description": "Via timesofisrael.com. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUlpFZzJ2SXRiS05iaEFZT3pxZGFZbHVLaDFsX2lfazFhSmNEcGQ5OEdwaDdNelpaLUhYd1puT1lCRHRqWXIyb1JsV1pxZTJ1NmFWcGk2UzJRRldrcnhQZE02TVVKbDdOT3BONkdJVnFwcDFxWnZubDlhQjJqZEM4Ylg5VVdkbGMwc1NDR29LUmV6dXQ4OVZycWk2bHJpdHVzWUwtYkNfRTIySVhZclNJVmN30gG3AUFVX3lxTE5Cd0lZUVRyUHVNaU5jTlpmOWwtZnVyN3BRSk1za1FxaVBCd0w5WTRuWlpCX25ydkd2TGJZU2RVb2VZQXBRTnVfNnRyOFdGamN3OFBDZUxQNFdlZTdBLW11cy1FamdWXzZfNUIzbHlkc3FOdU5rY3REX0tETU1zSmhBMmJHQ0l4MXQ3dlk3eU4ycjVPWWxEbkgwLVZXSjRqVU9hUllsd01ZeXdEdXFsZEVJS0VseXJXTQ?oc=5",
+    "source": "timesofisrael.com",
+    "fetchedAt": "2026-03-31T19:00:23.106Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=KkBLgGZeGgM",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "KkBLgGZeGgM",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "fo-exclusive-the-dangerous-implications",
+    "date": "2026-03-31",
+    "title": "FO Exclusive: The Dangerous Implications of the New US/Israel–Iran War - fairobserver.com",
+    "description": "Via fairobserver.com. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPdWJUSUpyVnpFYzNyZkN2eFlSRWlGVTNQbGo1TlJDekhkZTFWMDhaLThVZ0VDNXVfMkxpejFGUTJZLVk0UENvNzdhMnBsZFZmMHo0NHBORWlNOHBCR0x6Zlo1T1JxZ3ltRWEzb3hRelpUbWowZlo4b1hsMEdPQUx0YlFLRmxGOGY0dGFvV05FN2xic0NhX3FBTElFYWNhcFZ1MHBzcVBqNWRrNGRsYVhybkozSi04X3NHUS16V3ZZc25UekI2amc?oc=5",
+    "source": "fairobserver.com",
+    "fetchedAt": "2026-03-31T19:00:25.663Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=abIXWiAWpBM",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "abIXWiAWpBM",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "europe-pushes-back-on-some",
+    "date": "2026-03-31",
+    "title": "Europe pushes back on some US military operations as concerns over Iran war mount - reuters.com",
+    "description": "Via reuters.com. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTGI1RDRzSnZ0MW9jTlhyd0tGNFdjQk5EQkwtS3U3UjJXUzFxR05NRVlmT01WLUtEeGlTZzhiUExVbEpENElQT05YckFqcS1URTRZQUZtMzZ1UF9YSXFUYVNlT2ttbjRaTFlhUXVkQmJHVV9oUUFtNjA2N1VzVFpOS0QxNFkzeWozYmFOYWx0bFZ3YzJESUtxZ2RfREtYR2RiaWFQS2VBRzdhcUpUNTBVRGQyMkYweHFHd0Ew?oc=5",
+    "source": "reuters.com",
+    "fetchedAt": "2026-03-31T19:00:28.112Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=apcRxUs7iYg",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "apcRxUs7iYg",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "watch-pentagon-holds-briefing-on",
+    "date": "2026-03-31",
+    "title": "WATCH: Pentagon holds briefing on the progress of the Iran war - timesofisrael.com",
+    "description": "Via timesofisrael.com. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNX3JpN2ROY3BCUFk3aWZwZUR0emZzSDhxaVJCRkRiTS0ydkVDQlBwTzBwMTNjalp5Q2N4dEdoelplaVhDalduelFyTWJSMmgzZjF4ZEZtUldhRGYySkpKQlR2X09qUUJ0UkJIS0lzZm5uQnFfb01mdVFJaW5LY3FaOEhuWDM1QnpJMlVWRHdjQ0I2ZkNIMGdWX1hXOUJna0NPTktYUHJjN2lsbWJ0TVE?oc=5",
+    "source": "timesofisrael.com",
+    "fetchedAt": "2026-03-31T19:00:53.739Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "satellite-images-begin-to-show",
+    "date": "2026-03-31",
+    "title": "Satellite images begin to show damage wrought across the region by Iran war - timesofisrael.com",
+    "description": "Via timesofisrael.com. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTEF6RjlhN3VRdklNUHpSVWl3RndGVjUtVVFuLWprOVE0TkhRdDNCeWFXSzE4Yk5LbDJKUl80YmZNdFdlUDFOaFMza0pUaTJhaWQ1WXFHbDI2S1dNRk96QWsteUh3aWxPUkVOTHh3ekpfVDFZanN1ck9TUE1XX1NlNDdlRG9NWFRuVlRtVWlMQ1lTLUdTdy14Rkh6WmlWMDhYTXNwWlNDb0NxZ9IBrwFBVV95cUxQWE9hdHFnTnExWUdkNjdSMDVud2FvT1NUV1I0NXJPUkxxS0RuaElZTEJfQXZ6Ujkxd2lqUjljS0hBa2JXTGxHNjhSUUtadW1EWWlXb1VXZUczQW93ektTbG9vSHk0ZUpPUm1WY19xeHNsclp3aWxja2VxTUpUTkxoMG1Mc1JRMnB2YXFLUTlVSVJkbzJoQmd2NzRfbFNjelBlVEVtN1huYmdNME5DRzlz?oc=5",
+    "source": "timesofisrael.com",
+    "fetchedAt": "2026-03-31T19:00:59.682Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "renewed-threat-from-houthis-in",
+    "date": "2026-03-31",
+    "title": "Renewed Threat From Houthis in Yemen as Iran War Intensifies - Foundation for Defense of Democracies",
+    "description": "Via Foundation for Defense of Democracies. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPdmJGZ3JFSFZvN0tnQmFma3ZYYkJYWjVseFhnLWpGalpUdGx5QTBMTllZaUVNUmZoQnhWeGY0TDlsXzh5ajF0aFcxR3VFSFo4aDZ4aFIwM2htTVlZSlBMR2VSdmc1cWxWYWluTDlHRHFLUFdwaUk5RUJSOXpFZDlzWWFJZVp6Zm53X1g4NVNRNTczMW1kYkpoV2E2WlRJcWw0bGZV?oc=5",
+    "source": "Foundation for Defense of Democracies",
+    "fetchedAt": "2026-03-31T19:01:06.031Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "islamic-revolutionary-guard-corps-threatens",
+    "date": "2026-03-31",
+    "title": "Islamic Revolutionary Guard Corps threatens US companies across Middle East - The Jerusalem Post",
+    "description": "Via The Jerusalem Post. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBfbUtMOGZBVUZFUE5CYS04cEgtLUM4N19fd3NWeVpSdVU1LUxjWUplY1hXZ2NPZFM1bElmZnRZN3JZa0UxNlJfVDdhQ1llTlkwQzIxSElFSUx2WXUzR21qTTZib3pfUTNvRlE?oc=5",
+    "source": "The Jerusalem Post",
+    "fetchedAt": "2026-03-31T19:01:12.656Z",
     "mediaUrls": [],
     "videoMatch": null,
     "lat": null,
