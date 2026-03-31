@@ -15,8 +15,10 @@ export default function StatsBar() {
   const fireData = useFireStore((s) => s.fireData);
   const loading = useFireStore((s) => s.loading);
 
-  const activeFires = fireData.features.length;
-  const totalCO2 = fireData.features.reduce(
+  const facilityFires = fireData.features.filter(f => f.properties.matchedFacility);
+  const activeFires = facilityFires.length;
+  const totalDetections = fireData.features.length;
+  const totalCO2 = facilityFires.reduce(
     (sum, f) => sum + (f.properties.estimatedCO2TonsDay || 0),
     0
   );
@@ -38,12 +40,15 @@ export default function StatsBar() {
       <Card>
         <CardHeader className='pb-2'>
           <div className='flex items-center justify-between'>
-            <CardDescription>Active Fires</CardDescription>
+            <CardDescription>Facility Fires</CardDescription>
             <IconFlame className='text-orange-500 h-4 w-4' />
           </div>
           <CardTitle className='text-2xl tabular-nums'>
             {loading ? '...' : activeFires.toLocaleString()}
           </CardTitle>
+          <p className='text-xs text-muted-foreground'>
+            {loading ? '' : `of ${totalDetections} satellite detections`}
+          </p>
         </CardHeader>
       </Card>
       <Card>

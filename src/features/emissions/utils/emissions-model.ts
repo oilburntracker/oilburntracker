@@ -2,59 +2,89 @@ import type { FacilityType } from '@/features/fires/data/curated-fires';
 
 // ═══ FRP-to-CO2 METHODOLOGY ═══
 //
-// Formula: CO2 (tonnes/day) = FRP(MW) × 86400(s/day) / (f_rad × H_c) × EF_CO2 / 1000
+// Formula: CO2 (t/day) = FRP(MW) × 86400(s/day) / (f_rad × H_c(MJ/kg)) × EF(kg CO2/kg) / 1000
 //
 // Where:
-//   f_rad  = radiative fraction (facility-dependent)
-//   H_c    = heat of combustion (MJ/kg)
-//   EF_CO2 = emission factor (kg CO2/kg fuel)
+//   FRP    = Fire Radiative Power measured by satellite (MW = MJ/s)
+//   f_rad  = apparent radiative fraction (fraction of total combustion heat
+//            that the satellite observes as thermal radiation)
+//   H_c    = net calorific value / heat of combustion (MJ/kg)
+//   EF     = CO2 emission factor (kg CO2 per kg fuel burned)
 //
-// Sources:
+// ═══ FUEL PARAMETERS (IPCC 2006 Guidelines, Vol 2, Ch 1-2) ═══
+//
+//   Crude oil:   H_c = 42.3 MJ/kg (NCV), EF = 3.10 kg CO2/kg
+//                (73,300 kg CO2/TJ × 42.3 GJ/t ÷ 1000 = 3.101)
+//
+//   Natural gas: H_c = 48.0 MJ/kg (NCV), EF = 2.69 kg CO2/kg
+//                (56,100 kg CO2/TJ × 48.0 GJ/t ÷ 1000 = 2.693)
+//
+//   URL: https://www.ipcc-nggip.iges.or.jp/public/2006gl/
+//
+// ═══ RADIATIVE FRACTIONS ═══
+//
+//   Biomass fires: f_rad ≈ 0.14 ±0.03 (Wooster et al. 2005)
+//
+//   Petroleum fires: f_rad ≈ 0.07-0.12 — significantly lower than biomass
+//   because dark hydrocarbon smoke absorbs outgoing thermal radiation.
+//   Elvidge et al. (2020) found satellite FRP underestimates petroleum fire
+//   emissions by ~2× compared to biomass-calibrated models.
+//
+// ═══ SOURCES ═══
+//
 //   - Wooster et al. (2005), J. Geophys. Res., 110, D24311
 //     DOI: 10.1029/2005JD006318
-//     Established FRP↔combustion rate: FBCC = 0.368 ±0.015 kg/MJ
-//     Radiative fraction for biomass: ~0.14 ±0.03
+//     FBCC = 0.368 ±0.015 kg/MJ; f_rad(biomass) ≈ 0.14
 //
 //   - Freeborn et al. (2008), J. Geophys. Res., 113, D01301
 //     DOI: 10.1029/2007JD008679
-//     Confirmed FBCC = 0.453 ±0.068 kg/MJ (broader fuel types)
+//     FBCC = 0.453 ±0.068 kg/MJ (broader fuel types)
 //
 //   - Kaiser et al. (2012), Biogeosciences, 9, 527-554
 //     DOI: 10.5194/bg-9-527-2012
-//     GFAS methodology: land-cover-specific FRP→DM→emissions
+//     GFAS: land-cover-specific FRP→dry-matter→emissions
 //
 //   - Elvidge et al. (2020), Remote Sensing, 12(2), 238
 //     DOI: 10.3390/rs12020238
-//     Satellite FRP underestimates petroleum fires by ~2x due to dark smoke
-//
-//   - IPCC 2006 Guidelines, Vol 2, Ch 1-2
-//     Crude oil: NCV = 42.3 GJ/t, CO2 EF = 73,300 kg CO2/TJ
-//     ≈ 3,100 kg CO2 per tonne crude oil
-//     URL: https://www.ipcc-nggip.iges.or.jp/public/2006gl/
+//     Satellite FRP underestimates petroleum fires ~2× due to dark smoke
 //
 //   - EPA GHG Emission Factors Hub (2024)
 //     Crude oil: 74.54 kg CO2/mmBtu
 //     URL: https://www.epa.gov/system/files/documents/2024-02/ghg-emission-factors-hub-2024.pdf
 //
-// Petroleum fires: radiative fraction 0.10-0.15 (lower than biomass due to
-// dark smoke absorption, per Elvidge 2020). This yields multipliers of 42-86
-// tonnes CO2/day per MW FRP, consistent with our facility-specific values.
+// ═══ MULTIPLIER DERIVATION ═══
 //
-// These are order-of-magnitude estimates. Real emissions depend on fuel type,
-// combustion efficiency, and atmospheric conditions.
+// Each multiplier below = 86400 / (f_rad × H_c) × EF / 1000
+// Verify: refinery = 86400 / (0.08 × 42.3) × 3.10 / 1000 = 79.2 t/MW/day
+//
+// We use the LOWER end of f_rad ranges (more smoke → more hidden heat),
+// giving HIGHER estimates. This is intentionally conservative — it is better
+// to overestimate pollution from burning oil infrastructure than to undercount.
+//
+// These are order-of-magnitude estimates. Real emissions depend on fuel
+// composition, combustion efficiency, wind, and atmospheric conditions.
+
+// IPCC fuel parameters
+const CRUDE_H_C = 42.3;  // MJ/kg (net calorific value)
+const CRUDE_EF = 3.10;   // kg CO2/kg fuel
+const GAS_H_C = 48.0;    // MJ/kg
+const GAS_EF = 2.69;     // kg CO2/kg fuel
+
+// Compute multiplier: t CO2/day per MW FRP
+function mult(fRad: number, hc: number, ef: number): number {
+  return Math.round((86400 / (fRad * hc) * ef / 1000) * 10) / 10;
+}
 
 // Tonnes CO2 per MW-day by facility type
-// Derived from IPCC crude oil NCV (42.3 GJ/t), CO2 EF (3.1 kg CO2/kg fuel),
-// and facility-specific radiative fractions (0.10-0.15 per Elvidge 2020)
 const FACILITY_MULTIPLIERS: Record<FacilityType | 'unknown', number> = {
-  refinery: 86.4,       // f_rad ≈ 0.10 (heavy crude, dense smoke)
-  lng_terminal: 72.0,   // f_rad ≈ 0.12 (cleaner burn than crude)
-  pipeline: 50.4,       // f_rad ≈ 0.17 (gas-dominated, less smoke)
-  storage: 64.8,        // f_rad ≈ 0.13 (mixed fuels, tank fires)
-  oil_field: 79.2,      // f_rad ≈ 0.11 (wellhead fires, crude)
-  gas_field: 72.0,      // f_rad ≈ 0.12 (natural gas, some condensate)
-  port: 72.0,           // f_rad ≈ 0.12 (mixed fuel storage)
-  unknown: 60.0         // f_rad ≈ 0.14 (conservative default)
+  refinery:      mult(0.08,  CRUDE_H_C, CRUDE_EF),  // 79.2 — heavy crude, dense dark smoke
+  oil_field:     mult(0.09,  CRUDE_H_C, CRUDE_EF),  // 70.4 — wellhead crude fires
+  storage:       mult(0.10,  CRUDE_H_C, CRUDE_EF),  // 63.3 — mixed fuels, tank fires
+  port:          mult(0.10,  CRUDE_H_C, CRUDE_EF),  // 63.3 — mixed crude/product storage
+  gas_field:     mult(0.12,  GAS_H_C,   GAS_EF),    // 40.4 — natural gas, some condensate
+  lng_terminal:  mult(0.12,  GAS_H_C,   GAS_EF),    // 40.4 — LNG/natural gas
+  pipeline:      mult(0.15,  GAS_H_C,   GAS_EF),    // 32.3 — gas-dominated, cleaner burn
+  unknown:       mult(0.12,  CRUDE_H_C, CRUDE_EF),  // 52.7 — conservative middle estimate
 };
 
 /**

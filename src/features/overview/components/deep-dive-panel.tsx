@@ -616,9 +616,11 @@ export default function DeepDivePanel({ onMapMode }: { onMapMode?: () => void } 
   }, [timelineDate]);
 
   const { impact, casualties, nuclear, cost, supply, stats, peril, gasExtra, oilDelta, perTaxpayer, warDays, recession, predictions, hitFacilityList, threatenedFacilityList, countryDamage, facilityIds, yearsOfLifeLost, roleCounts } = data;
-  const totalCO2 = fireData.features.reduce((s, f) => s + f.properties.estimatedCO2TonsDay, 0);
+  const facilityFires = fireData.features.filter(f => f.properties.matchedFacility);
+  const totalCO2 = facilityFires.reduce((s, f) => s + f.properties.estimatedCO2TonsDay, 0);
   const equiv = co2Equivalents(totalCO2);
-  const activeFires = fireData.features.length;
+  const totalDetections = fireData.features.length;
+  const facilityFireCount = facilityFires.length;
   const displayDate = new Date(timelineDate + 'T00:00:00');
   const dateFormatted = displayDate.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' });
   const annualCostPerHousehold = impact.totalMonthlyExtra * 12;
@@ -676,6 +678,11 @@ export default function DeepDivePanel({ onMapMode }: { onMapMode?: () => void } 
           </div>
         )}
 
+        <div className='mt-2 text-sm text-gray-500 dark:text-zinc-400'>
+          <strong className='text-orange-600'>{loading ? '...' : facilityFireCount}</strong> of {loading ? '...' : totalDetections} satellite detections matched to tracked facilities.
+          Unmatched detections (agricultural, wildfire, flaring) excluded from CO₂ estimate.
+        </div>
+
         <div className='mt-3 pt-2 border-t border-gray-200 dark:border-zinc-800/50'>
           <button
             onClick={onMapMode}
@@ -684,7 +691,7 @@ export default function DeepDivePanel({ onMapMode }: { onMapMode?: () => void } 
             <div className='flex items-center gap-4 text-sm'>
               <span className='flex items-center gap-1.5 text-orange-600'>
                 <IconFlame className='h-4 w-4' />
-                <span className='font-bold tabular-nums'>{loading ? '...' : activeFires} active</span>
+                <span className='font-bold tabular-nums'>{loading ? '...' : facilityFireCount} facility fires</span>
               </span>
               <span className='flex items-center gap-1.5 text-teal-600 dark:text-teal-400'>
                 <IconWorld className='h-4 w-4' />
@@ -694,7 +701,75 @@ export default function DeepDivePanel({ onMapMode }: { onMapMode?: () => void } 
             <span className='text-sm text-blue-600 dark:text-blue-400 font-bold'>View map →</span>
           </button>
         </div>
+
+        <div className='mt-2 px-1 space-y-1 text-xs text-gray-400 dark:text-zinc-600'>
+          <div className='font-bold text-gray-500 dark:text-zinc-500'>Sources &amp; methodology</div>
+          <div>Fire detection: <a href='https://firms.modaps.eosdis.nasa.gov/' target='_blank' rel='noopener noreferrer' className='underline hover:text-gray-600'>NASA FIRMS VIIRS</a> (375m resolution, updated every 30 min)</div>
+          <div>CO₂ factors: <a href='https://www.ipcc-nggip.iges.or.jp/public/2006gl/' target='_blank' rel='noopener noreferrer' className='underline hover:text-gray-600'>IPCC 2006 Guidelines</a> Vol 2 · Crude oil NCV 42.3 GJ/t, EF 73,300 kg CO₂/TJ</div>
+          <div>FRP method: Wooster et al. (2005) <a href='https://doi.org/10.1029/2005JD006318' target='_blank' rel='noopener noreferrer' className='underline hover:text-gray-600'>doi:10.1029/2005JD006318</a></div>
+          <div>Petroleum correction: Elvidge et al. (2020) <a href='https://doi.org/10.3390/rs12020238' target='_blank' rel='noopener noreferrer' className='underline hover:text-gray-600'>doi:10.3390/rs12020238</a> — FRP underestimates petroleum fires ~2x</div>
+          <div>EPA factors: <a href='https://www.epa.gov/ghgemissions/emission-factors-hub' target='_blank' rel='noopener noreferrer' className='underline hover:text-gray-600'>EPA GHG Emission Factors Hub (2024)</a></div>
+          <div>Equivalents: 4.6 t CO₂/car/yr (<a href='https://www.epa.gov/greenvehicles' target='_blank' rel='noopener noreferrer' className='underline hover:text-gray-600'>EPA</a>) · 7.5 t CO₂/home/yr (<a href='https://www.eia.gov/consumption/residential/' target='_blank' rel='noopener noreferrer' className='underline hover:text-gray-600'>EIA RECS</a>)</div>
+          <div>Only fires within facility match radius are counted. These are order-of-magnitude estimates.</div>
+        </div>
       </div>
+
+      {/* ── FACILITIES DAMAGE REPORT ── (only show after facility events exist) */}
+      {(hitFacilityList.length > 0 || timelineDate >= '2024-01-12') && <div className='px-4 pt-4 pb-3 border-b border-gray-200 dark:border-zinc-700'>
+        <SectionTitle icon={<IconBuildingSkyscraper className='h-5 w-5 text-red-600' />} title='Facilities Damage Report' />
+        <div className='text-base text-gray-500 mb-3'>
+          <strong className='text-red-600'>{hitFacilityList.length}</strong> hit · <strong className='text-yellow-600'>{threatenedFacilityList.length}</strong> threatened · {curatedFires.length} total tracked
+        </div>
+
+        {/* Total damage summary bar */}
+        <StatCard>
+          <div className='flex items-center justify-between mb-1.5'>
+            <span className='text-base font-bold text-gray-800 dark:text-zinc-200'>Total capacity damaged/offline</span>
+            <span className='text-xl font-black text-red-600 tabular-nums'>
+              {(hitFacilityList.reduce((s, f) => s + f.capacityBPD, 0) / 1_000_000).toFixed(1)}M BPD
+            </span>
+          </div>
+          <Bar
+            pct={Math.min(100, (hitFacilityList.reduce((s, f) => s + f.percentGlobalCapacity, 0)) * 4)}
+            color='bg-red-500'
+          />
+          <div className='text-sm text-gray-500 mt-1'>
+            {hitFacilityList.reduce((s, f) => s + f.percentGlobalCapacity, 0).toFixed(1)}% of global capacity affected
+          </div>
+        </StatCard>
+
+        {hitFacilityList.length > 0 && (
+          <>
+            <div className='text-xs uppercase tracking-widest text-red-500 font-extrabold mb-2 mt-4 flex items-center gap-1.5'>
+              <IconFlame className='h-3.5 w-3.5' />
+              Hit / Damaged ({hitFacilityList.length})
+            </div>
+            <div className='space-y-2 mb-4'>
+              {hitFacilityList.map(f => (
+                <FacilityCard key={f.id} facility={f} hit />
+              ))}
+            </div>
+          </>
+        )}
+
+        {threatenedFacilityList.length > 0 && (
+          <>
+            <div className='text-xs uppercase tracking-widest text-yellow-600 font-extrabold mb-2 flex items-center gap-1.5'>
+              <IconAlertTriangle className='h-3.5 w-3.5' />
+              Threatened / Monitoring ({threatenedFacilityList.length})
+            </div>
+            <div className='space-y-2'>
+              {threatenedFacilityList.map(f => (
+                <FacilityCard key={f.id} facility={f} hit={false} />
+              ))}
+            </div>
+          </>
+        )}
+
+        <InfoBox>
+          Click any facility for full breakdown — strategic importance, cascade impact, and supply chain role.
+        </InfoBox>
+      </div>}
 
       {/* ── WHAT WE LOST ── */}
       <div className='px-4 pt-4 pb-3 border-b border-gray-200 dark:border-zinc-700'>
@@ -1073,63 +1148,6 @@ export default function DeepDivePanel({ onMapMode }: { onMapMode?: () => void } 
             : 'Global oil supply under pressure. Every barrel offline means higher prices at the pump.'}
         </InfoBox>
       </div>
-
-      {/* ── FACILITIES DAMAGE REPORT ── (only show after facility events exist) */}
-      {(hitFacilityList.length > 0 || timelineDate >= '2024-01-12') && <div className='px-4 pt-4 pb-3 border-b border-gray-200 dark:border-zinc-700'>
-        <SectionTitle icon={<IconBuildingSkyscraper className='h-5 w-5 text-red-600' />} title='Facilities Damage Report' />
-        <div className='text-base text-gray-500 mb-3'>
-          <strong className='text-red-600'>{hitFacilityList.length}</strong> hit · <strong className='text-yellow-600'>{threatenedFacilityList.length}</strong> threatened · {curatedFires.length} total tracked
-        </div>
-
-        {/* Total damage summary bar */}
-        <StatCard>
-          <div className='flex items-center justify-between mb-1.5'>
-            <span className='text-base font-bold text-gray-800 dark:text-zinc-200'>Total capacity damaged/offline</span>
-            <span className='text-xl font-black text-red-600 tabular-nums'>
-              {(hitFacilityList.reduce((s, f) => s + f.capacityBPD, 0) / 1_000_000).toFixed(1)}M BPD
-            </span>
-          </div>
-          <Bar
-            pct={Math.min(100, (hitFacilityList.reduce((s, f) => s + f.percentGlobalCapacity, 0)) * 4)}
-            color='bg-red-500'
-          />
-          <div className='text-sm text-gray-500 mt-1'>
-            {hitFacilityList.reduce((s, f) => s + f.percentGlobalCapacity, 0).toFixed(1)}% of global capacity affected
-          </div>
-        </StatCard>
-
-        {hitFacilityList.length > 0 && (
-          <>
-            <div className='text-xs uppercase tracking-widest text-red-500 font-extrabold mb-2 mt-4 flex items-center gap-1.5'>
-              <IconFlame className='h-3.5 w-3.5' />
-              Hit / Damaged ({hitFacilityList.length})
-            </div>
-            <div className='space-y-2 mb-4'>
-              {hitFacilityList.map(f => (
-                <FacilityCard key={f.id} facility={f} hit />
-              ))}
-            </div>
-          </>
-        )}
-
-        {threatenedFacilityList.length > 0 && (
-          <>
-            <div className='text-xs uppercase tracking-widest text-yellow-600 font-extrabold mb-2 flex items-center gap-1.5'>
-              <IconAlertTriangle className='h-3.5 w-3.5' />
-              Threatened / Monitoring ({threatenedFacilityList.length})
-            </div>
-            <div className='space-y-2'>
-              {threatenedFacilityList.map(f => (
-                <FacilityCard key={f.id} facility={f} hit={false} />
-              ))}
-            </div>
-          </>
-        )}
-
-        <InfoBox>
-          Click any facility for full breakdown — strategic importance, cascade impact, and supply chain role.
-        </InfoBox>
-      </div>}
 
       {/* ── COUNTRY DAMAGE REPORT ── */}
       {countryDamage.length > 0 && (

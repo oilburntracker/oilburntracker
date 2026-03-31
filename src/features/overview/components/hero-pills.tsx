@@ -10,7 +10,8 @@ export default function HeroPills() {
   const fireData = useFireStore((s) => s.fireData);
   const timelineDate = useFireStore((s) => s.timelineDate);
 
-  const totalCO2 = fireData.features.reduce((s, f) => s + f.properties.estimatedCO2TonsDay, 0);
+  const facilityFires = fireData.features.filter(f => f.properties.matchedFacility);
+  const totalCO2 = facilityFires.reduce((s, f) => s + f.properties.estimatedCO2TonsDay, 0);
   const casualties = getCasualtiesUpTo(timelineDate);
   const impact = getConsumerImpactUpTo(timelineDate);
 

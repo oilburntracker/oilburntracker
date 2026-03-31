@@ -101,7 +101,7 @@ function csvToGeoJSON(csv: string) {
         satellite: row.satellite || '',
         daynight: row.daynight || '',
         intensity: classifyIntensity(frp),
-        estimatedCO2TonsDay: frp * 60,
+        estimatedCO2TonsDay: frp * 52.7, // conservative default: mult(0.12, 42.3, 3.10)
         matchedFacility: null
       }
     });
