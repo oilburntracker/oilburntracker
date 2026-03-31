@@ -75,17 +75,31 @@ function mult(fRad: number, hc: number, ef: number): number {
   return Math.round((86400 / (fRad * hc) * ef / 1000) * 10) / 10;
 }
 
-// Tonnes CO2 per MW-day by facility type
-const FACILITY_MULTIPLIERS: Record<FacilityType | 'unknown', number> = {
-  refinery:      mult(0.08,  CRUDE_H_C, CRUDE_EF),  // 79.2 — heavy crude, dense dark smoke
-  oil_field:     mult(0.09,  CRUDE_H_C, CRUDE_EF),  // 70.4 — wellhead crude fires
-  storage:       mult(0.10,  CRUDE_H_C, CRUDE_EF),  // 63.3 — mixed fuels, tank fires
-  port:          mult(0.10,  CRUDE_H_C, CRUDE_EF),  // 63.3 — mixed crude/product storage
-  gas_field:     mult(0.12,  GAS_H_C,   GAS_EF),    // 40.4 — natural gas, some condensate
-  lng_terminal:  mult(0.12,  GAS_H_C,   GAS_EF),    // 40.4 — LNG/natural gas
-  pipeline:      mult(0.15,  GAS_H_C,   GAS_EF),    // 32.3 — gas-dominated, cleaner burn
-  unknown:       mult(0.12,  CRUDE_H_C, CRUDE_EF),  // 52.7 — conservative middle estimate
+// Per-facility-type parameters for transparency (exported for UI tooltips)
+export interface FacilityEmissionParams {
+  fRad: number;
+  hc: number;
+  ef: number;
+  fuel: 'crude oil' | 'natural gas';
+  multiplier: number;
+  note: string;
+}
+
+export const FACILITY_PARAMS: Record<FacilityType | 'unknown', FacilityEmissionParams> = {
+  refinery:      { fRad: 0.08, hc: CRUDE_H_C, ef: CRUDE_EF, fuel: 'crude oil',   multiplier: mult(0.08,  CRUDE_H_C, CRUDE_EF), note: 'Heavy crude, dense dark smoke' },
+  oil_field:     { fRad: 0.09, hc: CRUDE_H_C, ef: CRUDE_EF, fuel: 'crude oil',   multiplier: mult(0.09,  CRUDE_H_C, CRUDE_EF), note: 'Wellhead crude fires' },
+  storage:       { fRad: 0.10, hc: CRUDE_H_C, ef: CRUDE_EF, fuel: 'crude oil',   multiplier: mult(0.10,  CRUDE_H_C, CRUDE_EF), note: 'Mixed fuels, tank fires' },
+  port:          { fRad: 0.10, hc: CRUDE_H_C, ef: CRUDE_EF, fuel: 'crude oil',   multiplier: mult(0.10,  CRUDE_H_C, CRUDE_EF), note: 'Mixed crude/product storage' },
+  gas_field:     { fRad: 0.12, hc: GAS_H_C,   ef: GAS_EF,   fuel: 'natural gas', multiplier: mult(0.12,  GAS_H_C,   GAS_EF),   note: 'Natural gas, some condensate' },
+  lng_terminal:  { fRad: 0.12, hc: GAS_H_C,   ef: GAS_EF,   fuel: 'natural gas', multiplier: mult(0.12,  GAS_H_C,   GAS_EF),   note: 'LNG / natural gas' },
+  pipeline:      { fRad: 0.15, hc: GAS_H_C,   ef: GAS_EF,   fuel: 'natural gas', multiplier: mult(0.15,  GAS_H_C,   GAS_EF),   note: 'Gas-dominated, cleaner burn' },
+  unknown:       { fRad: 0.12, hc: CRUDE_H_C, ef: CRUDE_EF, fuel: 'crude oil',   multiplier: mult(0.12,  CRUDE_H_C, CRUDE_EF), note: 'Conservative middle estimate' },
 };
+
+// Tonnes CO2 per MW-day by facility type
+const FACILITY_MULTIPLIERS: Record<FacilityType | 'unknown', number> = Object.fromEntries(
+  Object.entries(FACILITY_PARAMS).map(([k, v]) => [k, v.multiplier])
+) as Record<FacilityType | 'unknown', number>;
 
 /**
  * Estimate CO2 emissions in tonnes/day from FRP (in MW) and facility type.
@@ -111,6 +125,31 @@ export function co2Equivalents(tonsPerDay: number) {
     homesPerYear: Math.round((tonsPerDay * 365) / 7.5),
     percentGlobalDaily: ((tonsPerDay / 100000000) * 100).toFixed(4)
   };
+}
+
+/**
+ * Generate a human-readable calculation breakdown for a CO2 estimate.
+ * Shows the exact formula and values so users can verify.
+ */
+export function co2Breakdown(frpMW: number, facilityType?: FacilityType | null): string {
+  const type = facilityType || 'unknown';
+  const p = FACILITY_PARAMS[type] || FACILITY_PARAMS.unknown;
+  const result = frpMW * p.multiplier;
+  const typeLabel = type === 'unknown' ? 'unknown' : type.replace('_', ' ');
+  return [
+    `Facility type: ${typeLabel} (${p.note})`,
+    `Fuel: ${p.fuel}`,
+    ``,
+    `Formula: CO\u2082 = FRP \u00d7 86400 / (f_rad \u00d7 H_c) \u00d7 EF / 1000`,
+    ``,
+    `FRP (satellite)  = ${frpMW.toFixed(1)} MW`,
+    `f_rad            = ${p.fRad} (Elvidge 2020)`,
+    `H_c              = ${p.hc} MJ/kg (IPCC 2006, ${p.fuel})`,
+    `EF               = ${p.ef} kg CO\u2082/kg (IPCC 2006)`,
+    `Multiplier       = 86400 / (${p.fRad} \u00d7 ${p.hc}) \u00d7 ${p.ef} / 1000 = ${p.multiplier} t/MW/day`,
+    ``,
+    `Result: ${frpMW.toFixed(1)} MW \u00d7 ${p.multiplier} = ${result.toFixed(1)} t CO\u2082/day`,
+  ].join('\n');
 }
 
 /**

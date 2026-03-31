@@ -8,7 +8,8 @@ import { getWarCostUpTo } from '@/features/timeline/data/war-costs';
 import { getSupplyDisruptionUpTo, getInfrastructureDamageByCountry } from '@/features/fires/data/curated-fires';
 import { curatedFires } from '@/features/fires/data/curated-fires';
 import type { CountryDamageEntry, DamageClassification } from '@/features/fires/data/curated-fires';
-import { formatCO2, co2Equivalents } from '@/features/emissions/utils/emissions-model';
+import { formatCO2, co2Equivalents, FACILITY_PARAMS } from '@/features/emissions/utils/emissions-model';
+import type { FacilityType } from '@/features/fires/data/curated-fires';
 import { computePerilScore, HISTORICAL_ANCHORS } from '@/lib/peril-score';
 import {
   IconGasStation, IconShoppingCart, IconBolt, IconPackage,
@@ -70,6 +71,35 @@ function Bar({ pct, color, height }: { pct: number; color: string; height?: stri
   return (
     <div className={`w-full rounded-full bg-gray-200 dark:bg-zinc-800 overflow-hidden ${height || 'h-2.5'}`}>
       <div className={`h-full rounded-full transition-all duration-300 ${color}`} style={{ width: `${Math.min(100, pct)}%` }} />
+    </div>
+  );
+}
+
+/* ── Collapsible sources/methodology dropdown ── */
+function SourcesDropdown() {
+  const [open, setOpen] = useState(false);
+  return (
+    <div className='mt-2'>
+      <button
+        onClick={() => setOpen(!open)}
+        className='flex items-center gap-1 text-xs font-bold text-gray-500 dark:text-zinc-500 hover:text-gray-700 dark:hover:text-zinc-300 transition-colors cursor-pointer'
+      >
+        <IconInfoCircle className='h-3.5 w-3.5' />
+        <span>Sources &amp; methodology</span>
+        <span className={`transition-transform ${open ? 'rotate-180' : ''}`}>&#9662;</span>
+      </button>
+      {open && (
+        <div className='mt-1.5 px-1 space-y-1 text-xs text-gray-400 dark:text-zinc-600'>
+          <div>Fire detection: <a href='https://firms.modaps.eosdis.nasa.gov/' target='_blank' rel='noopener noreferrer' className='underline hover:text-gray-600'>NASA FIRMS VIIRS</a> (375m resolution, updated every 30 min)</div>
+          <div>CO₂ factors: <a href='https://www.ipcc-nggip.iges.or.jp/public/2006gl/' target='_blank' rel='noopener noreferrer' className='underline hover:text-gray-600'>IPCC 2006 Guidelines</a> Vol 2 · Crude oil NCV 42.3 GJ/t, EF 73,300 kg CO₂/TJ</div>
+          <div>FRP method: Wooster et al. (2005) <a href='https://doi.org/10.1029/2005JD006318' target='_blank' rel='noopener noreferrer' className='underline hover:text-gray-600'>doi:10.1029/2005JD006318</a></div>
+          <div>Petroleum correction: Elvidge et al. (2020) <a href='https://doi.org/10.3390/rs12020238' target='_blank' rel='noopener noreferrer' className='underline hover:text-gray-600'>doi:10.3390/rs12020238</a> — FRP underestimates petroleum fires ~2x</div>
+          <div>EPA factors: <a href='https://www.epa.gov/ghgemissions/emission-factors-hub' target='_blank' rel='noopener noreferrer' className='underline hover:text-gray-600'>EPA GHG Emission Factors Hub (2024)</a></div>
+          <div>Equivalents: 4.6 t CO₂/car/yr (<a href='https://www.epa.gov/greenvehicles' target='_blank' rel='noopener noreferrer' className='underline hover:text-gray-600'>EPA</a>) · 7.5 t CO₂/home/yr (<a href='https://www.eia.gov/consumption/residential/' target='_blank' rel='noopener noreferrer' className='underline hover:text-gray-600'>EIA RECS</a>)</div>
+          <div className='pt-1 text-gray-500 dark:text-zinc-500'>Formula: CO₂ (t/day) = FRP(MW) × 86400 / (f_rad × H_c) × EF / 1000. Hover any row above for the full calculation.</div>
+          <div>Only fires geo-matched within facility radius are counted. These are order-of-magnitude estimates.</div>
+        </div>
+      )}
     </div>
   );
 }
@@ -621,6 +651,51 @@ export default function DeepDivePanel({ onMapMode }: { onMapMode?: () => void } 
   const equiv = co2Equivalents(totalCO2);
   const totalDetections = fireData.features.length;
   const facilityFireCount = facilityFires.length;
+
+  // Per-facility-type CO2 breakdown for tooltip
+  const co2ByType = useMemo(() => {
+    const byType: Record<string, { co2: number; frp: number; count: number }> = {};
+    for (const f of facilityFires) {
+      const type = f.properties.matchedFacility?.facilityType || 'unknown';
+      if (!byType[type]) byType[type] = { co2: 0, frp: 0, count: 0 };
+      byType[type].co2 += f.properties.estimatedCO2TonsDay || 0;
+      byType[type].frp += f.properties.frp || 0;
+      byType[type].count++;
+    }
+    return Object.entries(byType)
+      .sort((a, b) => b[1].co2 - a[1].co2)
+      .map(([type, d]) => {
+        const p = FACILITY_PARAMS[type as FacilityType] || FACILITY_PARAMS.unknown;
+        return { type, ...d, params: p };
+      });
+  }, [facilityFires]);
+
+  // Build full calculation tooltip text
+  const calcTooltip = useMemo(() => {
+    if (co2ByType.length === 0) return '';
+    const lines = [
+      'CO\u2082 Calculation Breakdown',
+      '\u2500'.repeat(40),
+      'Formula: CO\u2082 = FRP \u00d7 86400 / (f_rad \u00d7 H_c) \u00d7 EF / 1000',
+      '',
+    ];
+    for (const t of co2ByType) {
+      const label = t.type.replace('_', ' ');
+      lines.push(
+        `\u25cf ${label} (${t.count} detection${t.count > 1 ? 's' : ''})`,
+        `  FRP: ${t.frp.toFixed(1)} MW \u00d7 ${t.params.multiplier} t/MW/day = ${t.co2.toFixed(1)} t/day`,
+        `  f_rad=${t.params.fRad}, H_c=${t.params.hc} MJ/kg (${t.params.fuel}), EF=${t.params.ef}`,
+        '',
+      );
+    }
+    lines.push(`Total: ${totalCO2.toFixed(1)} t CO\u2082/day`);
+    lines.push('', 'Sources: IPCC 2006, Elvidge et al. 2020, EPA 2024');
+    return lines.join('\n');
+  }, [co2ByType, totalCO2]);
+
+  // Count facilities confirmed burning/damaged from curated data (news-sourced)
+  const curatedBurningCount = curatedFires.filter(f => f.status === 'active_fire' || f.status === 'damaged').length;
+
   const displayDate = new Date(timelineDate + 'T00:00:00');
   const dateFormatted = displayDate.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' });
   const annualCostPerHousehold = impact.totalMonthlyExtra * 12;
@@ -659,30 +734,82 @@ export default function DeepDivePanel({ onMapMode }: { onMapMode?: () => void } 
       {/* ── EMISSIONS ── */}
       <div className='px-4 pt-4 pb-3 border-b border-gray-200 dark:border-zinc-700'>
         <SectionTitle icon={<IconCloud className='h-5 w-5 text-orange-600' />} title='Emissions' />
-        {totalCO2 > 0 ? (
-          <div className='text-3xl font-black text-orange-700 dark:text-orange-400 tabular-nums leading-none'>
-            {formatCO2(totalCO2)} <span className='text-lg font-bold'>tons/day</span>
+
+        {/* Headline CO2 number with calculation tooltip */}
+        {(totalCO2 > 0 || curatedBurningCount > 0) ? (
+          <div
+            className='text-3xl font-black text-orange-700 dark:text-orange-400 tabular-nums leading-none cursor-help'
+            title={calcTooltip}
+          >
+            {totalCO2 > 0 ? formatCO2(totalCO2) : '~'} <span className='text-lg font-bold'>tons/day CO₂</span>
+            {totalCO2 === 0 && curatedBurningCount > 0 && (
+              <div className='text-sm font-normal text-gray-500 dark:text-zinc-400 mt-1'>
+                {curatedBurningCount} facilities burning per news reports — awaiting live satellite data
+              </div>
+            )}
           </div>
         ) : (
           <div className='text-lg font-black text-gray-400'>{loading ? '...' : '—'}</div>
         )}
 
+        {/* Equivalents */}
         {totalCO2 > 0 && (
           <div className='mt-2 space-y-1'>
-            <Row label='Same CO2 as this many cars (yearly)' value={equiv.carsPerYear.toLocaleString()}
-              tip='Each car emits ~4.6 tons CO2/year' />
+            <Row label='Same CO₂ as this many cars (yearly)' value={equiv.carsPerYear.toLocaleString()}
+              tip={`${formatCO2(totalCO2)} t/day × 365 days / 4.6 t/car/yr = ${equiv.carsPerYear.toLocaleString()} cars. Source: EPA (epa.gov/greenvehicles)`} />
             <Row label='Same as this many homes (yearly)' value={equiv.homesPerYear.toLocaleString()}
-              tip='Average US home: ~7.5 tons CO2/year' />
+              tip={`${formatCO2(totalCO2)} t/day × 365 days / 7.5 t/home/yr = ${equiv.homesPerYear.toLocaleString()} homes. Source: EIA Residential Energy Consumption Survey`} />
             <Row label='% of global daily emissions' value={`${equiv.percentGlobalDaily}%`}
-              tip='The world emits ~100 million tons of CO2 per day' />
+              tip={`${formatCO2(totalCO2)} t/day / 100,000,000 t/day global × 100. Source: IEA (36.8 Gt/yr ÷ 365 = ~100M t/day)`} />
           </div>
         )}
 
+        {/* Per-facility-type breakdown with formula */}
+        {co2ByType.length > 0 && (
+          <div className='mt-3 space-y-1.5'>
+            {co2ByType.map(t => {
+              const label = t.type.replace('_', ' ');
+              return (
+                <div
+                  key={t.type}
+                  className='flex items-center justify-between text-sm cursor-help rounded px-2 py-1 hover:bg-orange-50 dark:hover:bg-zinc-800/60 transition-colors'
+                  title={[
+                    `${label}: ${t.count} detection${t.count > 1 ? 's' : ''}`,
+                    `Total FRP: ${t.frp.toFixed(1)} MW`,
+                    `Fuel: ${t.params.fuel} (H_c = ${t.params.hc} MJ/kg, EF = ${t.params.ef} kg CO₂/kg)`,
+                    `Radiative fraction: ${t.params.fRad} (${t.params.note})`,
+                    ``,
+                    `Multiplier = 86400 / (${t.params.fRad} × ${t.params.hc}) × ${t.params.ef} / 1000 = ${t.params.multiplier} t/MW/day`,
+                    `CO₂ = ${t.frp.toFixed(1)} MW × ${t.params.multiplier} = ${t.co2.toFixed(1)} t/day`,
+                  ].join('\n')}
+                >
+                  <span className='text-gray-600 dark:text-zinc-300 capitalize'>{label}</span>
+                  <span className='font-bold tabular-nums text-orange-700 dark:text-orange-400'>
+                    {formatCO2(t.co2)} t/day
+                    <span className='text-gray-400 dark:text-zinc-600 font-normal ml-1 text-xs'>({t.frp.toFixed(0)} MW × {t.params.multiplier})</span>
+                  </span>
+                </div>
+              );
+            })}
+          </div>
+        )}
+
+        {/* Detection match info */}
         <div className='mt-2 text-sm text-gray-500 dark:text-zinc-400'>
-          <strong className='text-orange-600'>{loading ? '...' : facilityFireCount}</strong> of {loading ? '...' : totalDetections} satellite detections matched to tracked facilities.
-          Unmatched detections (agricultural, wildfire, flaring) excluded from CO₂ estimate.
+          {facilityFireCount > 0 ? (
+            <>
+              <strong className='text-orange-600'>{facilityFireCount}</strong> of {totalDetections} satellite detections matched to tracked facilities.
+              Unmatched detections (agricultural, wildfire, flaring) excluded.
+            </>
+          ) : loading ? '...' : totalDetections > 0 ? (
+            <>
+              {totalDetections} satellite detections in region — none currently within tracked facility zones.
+              {curatedBurningCount > 0 && ` ${curatedBurningCount} facilities confirmed burning per news reports.`}
+            </>
+          ) : 'Awaiting satellite data...'}
         </div>
 
+        {/* Map button */}
         <div className='mt-3 pt-2 border-t border-gray-200 dark:border-zinc-800/50'>
           <button
             onClick={onMapMode}
@@ -691,7 +818,7 @@ export default function DeepDivePanel({ onMapMode }: { onMapMode?: () => void } 
             <div className='flex items-center gap-4 text-sm'>
               <span className='flex items-center gap-1.5 text-orange-600'>
                 <IconFlame className='h-4 w-4' />
-                <span className='font-bold tabular-nums'>{loading ? '...' : facilityFireCount} facility fires</span>
+                <span className='font-bold tabular-nums'>{loading ? '...' : facilityFireCount > 0 ? `${facilityFireCount} facility fires` : `${totalDetections} detections`}</span>
               </span>
               <span className='flex items-center gap-1.5 text-teal-600 dark:text-teal-400'>
                 <IconWorld className='h-4 w-4' />
@@ -702,16 +829,8 @@ export default function DeepDivePanel({ onMapMode }: { onMapMode?: () => void } 
           </button>
         </div>
 
-        <div className='mt-2 px-1 space-y-1 text-xs text-gray-400 dark:text-zinc-600'>
-          <div className='font-bold text-gray-500 dark:text-zinc-500'>Sources &amp; methodology</div>
-          <div>Fire detection: <a href='https://firms.modaps.eosdis.nasa.gov/' target='_blank' rel='noopener noreferrer' className='underline hover:text-gray-600'>NASA FIRMS VIIRS</a> (375m resolution, updated every 30 min)</div>
-          <div>CO₂ factors: <a href='https://www.ipcc-nggip.iges.or.jp/public/2006gl/' target='_blank' rel='noopener noreferrer' className='underline hover:text-gray-600'>IPCC 2006 Guidelines</a> Vol 2 · Crude oil NCV 42.3 GJ/t, EF 73,300 kg CO₂/TJ</div>
-          <div>FRP method: Wooster et al. (2005) <a href='https://doi.org/10.1029/2005JD006318' target='_blank' rel='noopener noreferrer' className='underline hover:text-gray-600'>doi:10.1029/2005JD006318</a></div>
-          <div>Petroleum correction: Elvidge et al. (2020) <a href='https://doi.org/10.3390/rs12020238' target='_blank' rel='noopener noreferrer' className='underline hover:text-gray-600'>doi:10.3390/rs12020238</a> — FRP underestimates petroleum fires ~2x</div>
-          <div>EPA factors: <a href='https://www.epa.gov/ghgemissions/emission-factors-hub' target='_blank' rel='noopener noreferrer' className='underline hover:text-gray-600'>EPA GHG Emission Factors Hub (2024)</a></div>
-          <div>Equivalents: 4.6 t CO₂/car/yr (<a href='https://www.epa.gov/greenvehicles' target='_blank' rel='noopener noreferrer' className='underline hover:text-gray-600'>EPA</a>) · 7.5 t CO₂/home/yr (<a href='https://www.eia.gov/consumption/residential/' target='_blank' rel='noopener noreferrer' className='underline hover:text-gray-600'>EIA RECS</a>)</div>
-          <div>Only fires within facility match radius are counted. These are order-of-magnitude estimates.</div>
-        </div>
+        {/* Sources — collapsible dropdown */}
+        <SourcesDropdown />
       </div>
 
       {/* ── FACILITIES DAMAGE REPORT ── (only show after facility events exist) */}
