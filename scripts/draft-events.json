@@ -1,157 +1,5 @@
 [
   {
-    "id": "oil-jumps-back-to-115",
-    "date": "2026-03-30",
-    "title": "Oil jumps back to $115 a barrel as the Iran war widens again - qz.com",
-    "description": "Via qz.com. Auto-detected by headline monitor.",
-    "category": "infrastructure",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5JTVhEM3BHRk10azctclBheV9RT3lSVWJkWEVFenF5REpka1pSLWladXpwdU9DcDY2ZWdLSWE1VTN5MDBVeXA1cU1iZGprOW02MEpSVXQwV3NtQjJBWFc2SW94ckFPSFBv?oc=5",
-    "source": "qz.com",
-    "fetchedAt": "2026-03-30T17:01:13.250Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-war-latest-trump-makes",
-    "date": "2026-03-29",
-    "title": "Iran war latest: Trump makes new threat against Tehran - as Israeli soldiers ski into Lebanon - Sky News",
-    "description": "Via Sky News. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOMTRZbVYwcUVWLUpQZGQtOGZ3ZHJtTzVPS25Pb3BqUTJ1SjAxVzBKYzhkUUtIS3hTZ2FEc0FaelIwY3B2LXFOV2xLRnFZZTVreUFZb0w3dkRZa3JubEkya0Jka2d2MlNkalpjMTdUY2tHdHFCOG83NTF2LTNEbkxLM2l2Y245UnVkUmlwOUxmcXp3Z1RTdXRGNUt2ZFIzYVlybk44SlhqY2hENGVKNFBaaW50aHhfMTJqRXVvV3RtTVZ3YnNXT2Y0dWVJMTJJZw?oc=5",
-    "source": "Sky News",
-    "fetchedAt": "2026-03-30T18:00:14.177Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=Ei3K_D3Ek7c",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "Ei3K_D3Ek7c",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "trump-is-weighing-all-options",
-    "date": "2026-03-30",
-    "title": "Trump is weighing all options on Iran’s Kharg Island - npr.org",
-    "description": "Via npr.org. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPMlhlbTNTSWNackZ1am1QLXJIalN6aEdweU9KRFRuc2xHOGdEU3Jad0JpSVFBNXY1ek5ZdmNCVy1aSzZ2UGRVcExRUkRoZDBrS3ByN1RmZVVnZS1ZTWRDOFpPNGtPQXkyTHR5dVRKWGQyTWVTX2lQdGZXUW5mQVhaMERNc0JHdmVYNTR6V05HeHU?oc=5",
-    "source": "npr.org",
-    "fetchedAt": "2026-03-30T18:00:15.684Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=PbrHEv6AyrU",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "PbrHEv6AyrU",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "most-american-jews-disapprove-of",
-    "date": "2026-03-30",
-    "title": "Most American Jews disapprove of US military action against Iran, new poll shows - The Times of Israel",
-    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQSkxHNFViNERzWXVWWnNFTFlzMVVhdlkwVGVwUDdhTnJlUnJvYWxVTXRQSUp0X2FLVEFYTW1fNFFRUEZaLXBrbExMRHBETEFsYUFBRUJPaHJXVVJrcVpRMk5hSnE1eUlHT21BZkZpd0RxbE9XWGhlaTBCckU2LTE4X0cyM1JIMTBfLTF6T3htblBWZU9nblcySXFpelJvRlFmNXkxWlp0UzZIOXdkLTRzQXV1OU05ZGtWemp2bTF4MFd3RE0?oc=5",
-    "source": "The Times of Israel",
-    "fetchedAt": "2026-03-30T18:00:17.203Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=unPXNF1kND8",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "unPXNF1kND8",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "houthis-join-the-iran-war",
-    "date": "2026-03-28",
-    "title": "Houthis join the Iran war, launch missile at Israel - Axios",
-    "description": "Via Axios. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE1KaWVIVXlqMDVySW5zNExoN05vOUZOWlBxTGZkdWRWT0lqVzJGQTVLMV9uc01Va3FabkNQTmdWN1VrNUVESEI0eW1EY3djci1VOHB3NlNKSVEtaWR1N0Q0RVlSb2hxSUZLcmtvcjJoZzFIZw?oc=5",
-    "source": "Axios",
-    "fetchedAt": "2026-03-30T18:00:19.803Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=YZ1GoP8Yy8o",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "YZ1GoP8Yy8o",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "israel-iran-war-gazettextracom",
-    "date": "2026-03-30",
-    "title": "Israel Iran War - gazettextra.com",
-    "description": "Via gazettextra.com. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZU9QVGg4TEVnZkFjU0RXcHZ4ek40MFh6NDR3aW5DSnZQQUVReE9faHVDa1IwMV94bXhhdUN4d0RrQ0MwZlZReDZBbzZBRUVWVEk0amJWdUN0cE5XMWNJeVJpM0ZDVlViNVN5eUdWZmV0NmhPM1FxN3BkYzljeE1pQm1BbmZLVk1Pdk83Tm5LTm1zNFNKeFRLaWRLNDd4U1Z1bXNLVkhiVFcxVndROGc?oc=5",
-    "source": "gazettextra.com",
-    "fetchedAt": "2026-03-30T18:00:22.016Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=JReg6NWzs3M",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "JReg6NWzs3M",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "israel-ramps-up-arms-production",
     "date": "2026-03-30",
     "title": "Israel ramps up arms production amid Iran war, Lebanon assault - The New Arab",
@@ -4410,6 +4258,145 @@
       "title": "",
       "confidence": "auto"
     },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "trump-tells-the-uk-and",
+    "date": "2026-03-31",
+    "title": "Trump tells the UK and other countries 'go get your own oil' from Strait of Hormuz - bbc.com",
+    "description": "Via bbc.com. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0zSDdjTFNGMU9HWS1rX0tMYWFlU3FnbmVpNy1aNGZhWFkwcWlzWnBpWno0THB1YzlHMnh5VDNUb3dEdTRlRVRsd09rM1EtR2JrRl9keA?oc=5",
+    "source": "bbc.com",
+    "fetchedAt": "2026-03-31T15:00:16.302Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=8l6FVGYKf8A",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "8l6FVGYKf8A",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "why-did-us-and-israel",
+    "date": "2026-03-30",
+    "title": "Why did US and Israel attack Iran and how long could the war last? - bbc.com",
+    "description": "Via bbc.com. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE55MG5wdTJrMFlNLWRENFBMZEFMcW0yN0E5dE1lajB6eGRWU1JNN2Y0cXhkbGlGdEpTcG1naHdqN00yLThGV3Qzd2RmYWhBa0tfS1I5ejRobjVGZw?oc=5",
+    "source": "bbc.com",
+    "fetchedAt": "2026-03-31T15:00:23.004Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=SEYvYYX5acY",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "SEYvYYX5acY",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "the-usisraeli-war-on-iran",
+    "date": "2026-03-31",
+    "title": "The U.S.-Israeli War on Iran Is Illegal. Here’s Why That Matters. - Foreign Policy in Focus",
+    "description": "Via Foreign Policy in Focus. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPU0RfQlBYTFVHMVVNUDJsV19Xc3huOThmM3ZfOTlDcXFGODFTRHV3NkNzYXQwdC1xRUtVRTV1Q1hWQWRfSkRYc3d5bFQta3d2X2pobEgwSlozbUhxaTBhOFJfUjE3aDNSeFNRa0NaZWJ6SjF5clpIVUZkUGhscjFrSE12VEZuZw?oc=5",
+    "source": "Foreign Policy in Focus",
+    "fetchedAt": "2026-03-31T15:00:38.970Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "satellite-images-begin-to-show",
+    "date": "2026-03-31",
+    "title": "Satellite images begin to show damage wrought across the region by Iran war - The Times of Israel",
+    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTEF6RjlhN3VRdklNUHpSVWl3RndGVjUtVVFuLWprOVE0TkhRdDNCeWFXSzE4Yk5LbDJKUl80YmZNdFdlUDFOaFMza0pUaTJhaWQ1WXFHbDI2S1dNRk96QWsteUh3aWxPUkVOTHh3ekpfVDFZanN1ck9TUE1XX1NlNDdlRG9NWFRuVlRtVWlMQ1lTLUdTdy14Rkh6WmlWMDhYTXNwWlNDb0NxZ9IBrwFBVV95cUxQWE9hdHFnTnExWUdkNjdSMDVud2FvT1NUV1I0NXJPUkxxS0RuaElZTEJfQXZ6Ujkxd2lqUjljS0hBa2JXTGxHNjhSUUtadW1EWWlXb1VXZUczQW93ektTbG9vSHk0ZUpPUm1WY19xeHNsclp3aWxja2VxTUpUTkxoMG1Mc1JRMnB2YXFLUTlVSVJkbzJoQmd2NzRfbFNjelBlVEVtN1huYmdNME5DRzlz?oc=5",
+    "source": "The Times of Israel",
+    "fetchedAt": "2026-03-31T15:00:46.164Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "bank-of-israel-navigates-iran",
+    "date": "2026-03-31",
+    "title": "Bank of Israel navigates Iran War impact: Is a rate hike in the cards? - cnbc.com",
+    "description": "Via cnbc.com. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPTWhXTmRUbzJ4MDlSTlQ4dXdWZTA0Q0xvYTgycDVNWHZ1X2JvNXZDSkFMb0E3SXhMN01YODVzeHc2M01pMWNRTUpSY3BWV2hPZnZqV0pHZUQzTDM1ekc4SEx3SEk1VWl1Yk5IZ0xUNzlXRkNlcHI5WEFTZFEtdDc4Y19OWFB4Z1VDSjZ5ek82a2U1ck9wV1ZPVXJkRlBvQUV4REN4eVlnZjFFWWNiQ0lKNlJURElZNHF5cEN1OG9IbmtraVNVNTlzS2hrLUtmdDRERFNwU0tQVzAyQU0?oc=5",
+    "source": "cnbc.com",
+    "fetchedAt": "2026-03-31T15:00:52.533Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-using-children-in-security",
+    "date": "2026-03-31",
+    "title": "Iran using children in security roles in war, reports and witnesses say - bbc.com",
+    "description": "Via bbc.com. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBid1lpZmpoM0s2bmlHQmNGTkNsV19NVGdFUWd6R0x1M1YybEcyaUxxNzBZaDdIMi1YempObkp1X2plSnpiM1hKenRaM2RFRTVKYlRCZWJLdFFpdw?oc=5",
+    "source": "bbc.com",
+    "fetchedAt": "2026-03-31T15:00:58.684Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "after-the-iran-war-5",
+    "date": "2026-03-31",
+    "title": "After the Iran war: 5 possible outcomes and 4 ways Canada can flex its middle-power muscle - The Conversation",
+    "description": "Via The Conversation. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPSm1WOHNLVkZ1UTh2ZFFjTTU0YW14eGZFRnZWSTlPQ0pZY3JFdWN0SXp3SUtsdW1JQXZuVEdkYmxubm9lYmVDREt5ZzJRd0dKUW1scjNUeUp0NFlHSWtZTzQ5aDY0SVVaMG91dFpDbU1JYW12TW5yamVJM3FlekNtTnhUQTdNd3o3aGdKMS1tcVl2c2xKZUMzaFhCVk1JWUJYNlV3OF9kSmFzOXN4SWs0WlZmSk44VXE0aUV3a29YUkoxdw?oc=5",
+    "source": "The Conversation",
+    "fetchedAt": "2026-03-31T15:01:04.710Z",
+    "mediaUrls": [],
+    "videoMatch": null,
     "lat": null,
     "lng": null,
     "zoom": null,
