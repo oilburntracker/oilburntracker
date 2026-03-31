@@ -201,11 +201,11 @@ function FacilityCard({ facility, hit }: { facility: (typeof curatedFires)[numbe
     critical: 'text-red-600 dark:text-red-400', high: 'text-orange-600 dark:text-orange-400',
     elevated: 'text-yellow-600 dark:text-yellow-400', moderate: 'text-blue-600', low: 'text-green-600',
   };
-  const threatBarPct: Record<string, number> = {
-    critical: 90, high: 70, elevated: 50, moderate: 30, low: 15,
-  };
-  const threatBarColor: Record<string, string> = {
-    critical: 'bg-red-500', high: 'bg-orange-500', elevated: 'bg-yellow-500', moderate: 'bg-blue-400', low: 'bg-green-500',
+  // Bar represents % of global supply — scaled so 1% fills ~20%, 5% fills 100%
+  const barPct = Math.min(100, facility.percentGlobalCapacity * 20);
+  const statusBarColor: Record<string, string> = {
+    active_fire: 'bg-red-500', damaged: 'bg-orange-500', offline: 'bg-gray-500',
+    monitoring: 'bg-yellow-500', operational: 'bg-green-500',
   };
   const st = statusCfg[facility.status] || statusCfg.operational;
   const cap = facility.gasCapacityBCFD
@@ -243,7 +243,7 @@ function FacilityCard({ facility, hit }: { facility: (typeof curatedFires)[numbe
             <span className={`font-bold ${threatCls[facility.threatLevel] || ''}`}>{facility.threatLevel.toUpperCase()}</span>
             <span className='font-bold tabular-nums text-gray-700 dark:text-zinc-300'>{cap}</span>
           </div>
-          <Bar pct={threatBarPct[facility.threatLevel] || 15} color={hit ? 'bg-red-500' : (threatBarColor[facility.threatLevel] || 'bg-gray-400')} height='h-2' />
+          <Bar pct={barPct} color={hit ? 'bg-red-500' : (statusBarColor[facility.status] || 'bg-gray-400')} height='h-2' />
           <div className='text-xs text-gray-400 mt-0.5 tabular-nums'>
             {pct}% of global supply{facility.attackDate && hit ? ` · Hit ${facility.attackDate}` : ''}
           </div>
@@ -736,20 +736,23 @@ export default function DeepDivePanel({ onMapMode }: { onMapMode?: () => void } 
         <SectionTitle icon={<IconCloud className='h-5 w-5 text-orange-600' />} title='Emissions' />
 
         {/* Headline CO2 number with calculation tooltip */}
-        {(totalCO2 > 0 || curatedBurningCount > 0) ? (
+        {totalCO2 > 0 ? (
           <div
             className='text-3xl font-black text-orange-700 dark:text-orange-400 tabular-nums leading-none cursor-help'
             title={calcTooltip}
           >
-            {totalCO2 > 0 ? formatCO2(totalCO2) : '~'} <span className='text-lg font-bold'>tons/day CO₂</span>
-            {totalCO2 === 0 && curatedBurningCount > 0 && (
-              <div className='text-sm font-normal text-gray-500 dark:text-zinc-400 mt-1'>
-                {curatedBurningCount} facilities burning per news reports — awaiting live satellite data
+            {formatCO2(totalCO2)} <span className='text-lg font-bold'>tons/day CO₂</span>
+          </div>
+        ) : (
+          <div>
+            <div className='text-lg font-black text-gray-400'>{loading ? '...' : 'Awaiting satellite data'}</div>
+            {curatedBurningCount > 0 && (
+              <div className='text-sm text-gray-500 dark:text-zinc-400 mt-1'>
+                {curatedBurningCount} facilities confirmed burning/damaged per news reports.
+                CO₂ estimates update when NASA FIRMS detects active thermal signatures.
               </div>
             )}
           </div>
-        ) : (
-          <div className='text-lg font-black text-gray-400'>{loading ? '...' : '—'}</div>
         )}
 
         {/* Equivalents */}
