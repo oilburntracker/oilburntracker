@@ -1,164 +1,5 @@
 [
   {
-    "id": "iran-update-special-report-march",
-    "date": "2026-03-30",
-    "title": "Iran Update Special Report, March 29, 2026 - Institute for the Study of War",
-    "description": "Via Institute for the Study of War. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUnNHdDBRMk4ta1EtaHFycjVxMkFZSXJfWXZqUXNSRFNRMENad29ISEpXNVJtX0NsM0luaVBjOVp0M2dPcFFNNWREZkpaR3Z4b3c2d2ZLRkpkY3dxSFJDVkdMSnFKR2t2Um9BamxQeVFSaFE1cVp6ZG1jWWlwQVpKRzl0WGRxMWZpSUk1WXY1TDA1WF9mdnc?oc=5",
-    "source": "Institute for the Study of War",
-    "fetchedAt": "2026-03-30T20:00:24.480Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=3o584DrEQfs",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "3o584DrEQfs",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-wipes-out-usisraeli-radars",
-    "date": "2026-03-30",
-    "title": "Iran wipes out US-Israeli radars & sensors, changing course of war - Responsible Statecraft",
-    "description": "Via Responsible Statecraft. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5UbTJyN1F4OFRxaWJaVFp0eFh5VVpBY1pUMjNlSlVySlpwTjRiR0ltNjdMcjl4TU1rSzhtSTFMY3lBX0p0WktVWDd6QlpnU0tHZzBuRlJ1c2VyNE5ucGRjZHQ3VEh3dmtl?oc=5",
-    "source": "Responsible Statecraft",
-    "fetchedAt": "2026-03-30T20:00:26.895Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=KRzmhNzJ5ps",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "KRzmhNzJ5ps",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "irans-war-with-israel-and",
-    "date": "2026-03-26",
-    "title": "Iran’s War With Israel and the United States | Global Conflict Tracker - Council on Foreign Relations",
-    "description": "Via Council on Foreign Relations. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMWduRExjZXhMUjFuYjV4Zzc0LS11OHVKUEhXSlpUNUdFMm9MVGlJeFd5eGh1ZWpEWWhFNEdJX0tOVTlJbnZ5NmpBQ3dYeGNpSTBOSWtISUduak5WSHhfQUhQcHBKbVpLdG1IVi1ySWVGd05NM18yektrem1TM3ZvaV9xVjR2eC04cE9RZ3FZajNCZWFHNzBaS0hhSS02dw?oc=5",
-    "source": "Council on Foreign Relations",
-    "fetchedAt": "2026-03-30T20:00:40.815Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "israels-war-with-iran-is",
-    "date": "2026-03-30",
-    "title": "Israel's War With Iran Is the First Polymarket War - Haaretz",
-    "description": "Via Haaretz. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPc0s1N24zbF9wQkZhU24yNEhJeXo4am1VUTZpSU1mSzJLNkFWTHlxMUh3UVlsSFdMZ19vZlJDQ212Ym1pUHBIRHdPSEpjQmwwX0tsMmdHN04zYWtiUWJraXJkS2p2Q25RTXZuZnVtNEhqOVYzX3NIN1hsZ3NGRllMancwZHQwUnVTQUxTNjV2d1VMeTQyWGE2WFZndFJnT2FQdGZsQlppT3h3LWdYTDJQYzlpXzJTSmF5RUVKVUxxTm9QZkM4R2NXYV94OThzX1NpQ2R0dEhzVXBheDRKNXBmd25LdXVGcDJySkE1MmFn?oc=5",
-    "source": "Haaretz",
-    "fetchedAt": "2026-03-30T20:00:47.333Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "israel-iran-war-dailyrecordnewscom",
-    "date": "2026-03-30",
-    "title": "Israel Iran War - dailyrecordnews.com",
-    "description": "Via dailyrecordnews.com. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRnhqdHduMTRrME9oN0NudkU1bHl3Um1rcExJZzBDVXBGYUFMUUpxNFNDeU9DdlNkenhCYWRCOElVRGZPWmxTYnRCc0hORjgtNWUycVptNVh3amxBcnplOVlWbWpOUXM1VFRyODhYU01iVUhXckpSaVBldldNOEJ6Z0hIM1J0QlRiQmVLeERsUUFhWThCRmNPaURPQVItSUo4TFNZdkQ0VS10UERwSXdKY0ZQRE9xYUFw?oc=5",
-    "source": "dailyrecordnews.com",
-    "fetchedAt": "2026-03-30T20:00:59.985Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "israel-approves-45b-defense-budget",
-    "date": "2026-03-30",
-    "title": "Israel approves $45B defense budget as Iran war rages - Breaking Defense",
-    "description": "Via Breaking Defense. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOOUFTaV9KN1Y0a19yUUlzNVZ5eHh3c1FBZHUtc1NJMzJhZDFZZ3R0MmFpZm1xcm5FdXdrMDRpOGJ6ZUdsX091c1VwOFJlU3NMUWs0WXZRV0lXYWdESVZOSVl4SnlMWHRUYnRsTFdZakpEVS1jTmUtaHVfdDRUYUVBSjRYeUNjSXdfWVNRXzRpeEdzWk0?oc=5",
-    "source": "Breaking Defense",
-    "fetchedAt": "2026-03-30T21:00:11.903Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=CyXlBu38JTA",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "CyXlBu38JTA",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "why-did-us-and-israel",
-    "date": "2026-03-30",
-    "title": "Why did US and Israel attack Iran and how long could the war last? - bbc.com",
-    "description": "Via bbc.com. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE55MG5wdTJrMFlNLWRENFBMZEFMcW0yN0E5dE1lajB6eGRWU1JNN2Y0cXhkbGlGdEpTcG1naHdqN00yLThGV3Qzd2RmYWhBa0tfS1I5ejRobjVGZw?oc=5",
-    "source": "bbc.com",
-    "fetchedAt": "2026-03-30T21:00:15.420Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=SEYvYYX5acY",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "SEYvYYX5acY",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "iranbacked-houthis-join-war-with",
     "date": "2026-03-28",
     "title": "Iran-backed Houthis join war with attack against Israel - bbc.com",
@@ -4475,6 +4316,138 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQaW42THRaWHdQTnN0aVJza1RvX1ZXanNtUFRkMDc2MVdyd0h5LU1qY0RDSEtuOHhzdUdPdC1WalVTb1diS1RaU2ZnYXVZNGVLNC0zaXRnZUd3YnhVNG1uM3k5TGlpcHNhWFBVeHNocmhBOUw2aGN6Y1VGckZCSXFCajFPRVI5NExlSUhlXzVGbnA1WkVxYm90UWJyeWZxbTBwNlQ2bWV4c09sOXBxZjhKRtIBtgFBVV95cUxOS0VRaXBTc1VLRUJjbllVUkN1V0lMclVOUFYybWRMMmNDMDQtQk8zWW9XTmJsUW11SnZnOG12RnlzSW9rVENGWFBoTVoyYjdOZ0cxUnZkU3c3NDFXR0pLcnd0UmRBaG1YVWVpalIzdEdYeFd0LVk3SG5QMk5rQ1NwRFpFRmhIak90ME9XQzZZY1pwczFCTWRXUC11M1dRV1NPRk40OEx4WGtLTW9tMHhxUzlFeTM0Zw?oc=5",
     "source": "cbsnews.com",
     "fetchedAt": "2026-03-31T17:00:57.775Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israel-irans-missile-strike-that",
+    "date": "2026-03-30",
+    "title": "Israel: Iran’s missile strike that killed nine civilians ‘must be investigated as a war crime’ – new investigation - Amnesty International",
+    "description": "Via Amnesty International. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNaE90eERwVTBkT1JjNTZUcFNXakpuVG55d2dkbE1abEFzcVRINEZjUHFZZ1F4MFFQVXdfWnI5ZzhONXFpOEtPZnpsSDJOZVVlZDB0NmJUNmEzNG5SZ24wWnloSWtldXRMRXFNLU1VRExnOU5jdVo2Wm1ZMjJCdHJ6QWdxTUVkWUt6N29OaTA0RWFYMVpvZ2JkWDlWblVWOWRQTTVBd2RKMVpkaDNlQkVWWjZjV0c5eXBaNzR0RG5VZmNaRmpaQVBZbjJ0d3B1dmRnZUhkWHVfT283UmZ1NVZQZ1ZMV0c5WHVuMFlCcw?oc=5",
+    "source": "Amnesty International",
+    "fetchedAt": "2026-03-31T18:00:18.548Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=1TMdjrrrmws",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "1TMdjrrrmws",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "live-updates-latest-from-israel",
+    "date": "2026-03-31",
+    "title": "Live Updates: Latest from Israel, Iran, and the Middle East - The Jerusalem Post",
+    "description": "Via The Jerusalem Post. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBSeWZZUE5HdkNTNzlsc3JTMk43cU1VNlBkaGZBWVRHTVR3NUFPakIzUzV4V2VzeU1jbjEtT2VFZjAzLXNsYTAxaXFLY29CYXRiS2h0VmZDVTNoZzFBYmVPdWR1OVctQjJ5ZE54LXdLUklpcTd3eF9kWWVsam1fWDg?oc=5",
+    "source": "The Jerusalem Post",
+    "fetchedAt": "2026-03-31T18:00:26.067Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=OXRjAIKpVTo",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "OXRjAIKpVTo",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "ceasefire-or-regime-change-israelis",
+    "date": "2026-03-31",
+    "title": "Cease-fire or Regime Change? Israelis Split on How Iran War Should End, Poll Shows - Haaretz",
+    "description": "Via Haaretz. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOd1R3MC1OdmZOYUJUWkZUM0FrMU5FOURiNXJCdXVmSkI3VHI4YkZ0Z3B3MVJuNFVGYlAzdHptQ2pmUXpmNnN1M3BZdUhBN3lCbWZ1WS1SR2JDZkd6Q1NJbkRtbjBnMzRObm5SZzRmQXpEamlHOFJqa0Z5SERlMUFSTE5HV0FlT3p3OVFCSHNZcFJXS2paWVY4M245QlVSbVZOa1p5Y3ZkN3dnMVRfNWJLb3M2OExpZU5zOFhqdGo0ZE45VzB1S3NmUl9jRVdYaFF4MFZtaFYxXzZUdFFyXzU1ajA4VlRnMFFYV3VpMA?oc=5",
+    "source": "Haaretz",
+    "fetchedAt": "2026-03-31T18:00:33.212Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=-9FO9vjN5Hw",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "-9FO9vjN5Hw",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "trump-said-to-tell-aides",
+    "date": "2026-03-31",
+    "title": "Trump said to tell aides he’s willing to end Iran war without reopening Hormuz - The Times of Israel",
+    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONE12elpseEdtZlJrZjRBdU1sTE50a2poVDVaV0ZNSEh0OHVtXzBUZlpyM2gwQVMzeGhSYUlzQkNvRHU3bTB4T3JwQnNHMlZOdHFQZHBqelkxUFZTUGtJSWsyMkIxTnhjeXRrMGk5d1Jyc3BEckV2N1FMRFVKSHFaODd2dU5Qb2FBcDVKZkdKeDJPLXpPN1p4bmV5bWlaYi1hVVdCZGR6MjR6TW900gGyAUFVX3lxTFBURnVmTDVnVUNjYnZja1k2Q1JOUVdteTdzbWprck9paXNEMkxyeWxaREdRX1A2RXdWRUFPUmhlMWQwS29LOVlJTHdsVU4zNFhFUTRaZWc0UU9vTjFmNXdkMnJDSHRvaEpJY3o3NzVoYzRCclNfV3cydTJNb1lKUWN3cllNOHpGLWhnVFJaLVB4UW1GSWNLOTVhSDdOeTFacjg2YnlScm9WOHh4NmptSVdFVnc?oc=5",
+    "source": "The Times of Israel",
+    "fetchedAt": "2026-03-31T18:00:44.413Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "netanyahu-declines-to-set-timeline",
+    "date": "2026-03-31",
+    "title": "Netanyahu Declines to Set Timeline for Ending Iran War in pro-Trump Outlet - Haaretz",
+    "description": "Via Haaretz. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilAJBVV95cUxON0hSVUxXX3htd203OEdjRzViUDFzTjBFODI2MnlmMXVUeml5QU5HY1ZnVkl6Z2w0OVcwZTVOX0kwcDFXQjFvdXVyVVhXOHY2SUxDcTY5MGl2dTVnc01xSE1rMHMwWkNfLWsyMDgwRDItNkxRZkN0clFwSU1hQzkxYjFLYlNZM2xzNnRDT2t4RHRSR25rQXZDUmRhNjdqejl4M2MtNEtrQmxHb01CZGdFRFpWMmVuN3Y5cHNFZHdLZGQzdGFEYnhhRE5JRV9FNEZyZ2tLX2J2bDl3U3daUGJ3bEZqUUhxX1E2WjVLTFlBM0tvcVZGdWFsaUxFWEVaSEFGMTZrRXNYNUR1eEN6OElPZTlZeWI?oc=5",
+    "source": "Haaretz",
+    "fetchedAt": "2026-03-31T18:00:50.745Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-remains-a-stubborn-foe",
+    "date": "2026-03-31",
+    "title": "Iran remains a stubborn foe after absorbing massive US-Israeli attacks - Yahoo",
+    "description": "Via Yahoo. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOelNELW5BRWRscUtVZTRPb2pmeFRKLWZiN010Rk5jVF8xbVh2R1FLUy04bFpUc0Rmb0x2dlZjLXdsakt0NkdPVktNalJlS25sbEpudTBydm41VHN1cm1LeXA2ZnVWT0VSVjFic0Q4VnR2OWNLdG01Z2hvRWptejBnbWVobHFfZnc2WDk5VGpjUQ?oc=5",
+    "source": "Yahoo",
+    "fetchedAt": "2026-03-31T18:00:58.014Z",
     "mediaUrls": [],
     "videoMatch": null,
     "lat": null,
