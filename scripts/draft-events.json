@@ -1,242 +1,5 @@
 [
   {
-    "id": "israeli-forces-shoot-dead-two",
-    "date": "2026-03-30",
-    "title": "Israeli forces shoot dead two Palestinians in West Bank - The New Arab",
-    "description": "Via The New Arab. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOOXJYNExTb2hnR1Fwd1RtQWZObHFyTXBvWEdWTFZQYTdyaFlKM01JRUhFUEVoOE5MZ0tha1p5d0ptZ3ZYdGhtT2FJQ0kyMzNRUUt6NUtrUXp1SkNhaHlDZHlKbl9DVnBldUxCSG4yN3prclVIWFVhY3FuMUI0NnNSZVhRZ2JXV0910gGOAUFVX3lxTE9iOWlaVjUxdnM0aDJ3LXE2aVgwX1ZrNWJ1bmRDNlFoX2x0TGp3R0IxdzhyQUdFQUJKRExFY3ZKalhobDgyWjZYeVZBVWFaSldHdkYwa19nUno2ZGM3a2F1ZElORkd2Vnl4OUxzZlVvUVZPbVhMY3RIR2JKUjA2QlNLMzNFRnptRUFoaktvSWc?oc=5",
-    "source": "The New Arab",
-    "fetchedAt": "2026-03-30T18:01:10.230Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-war-live-updates-trump",
-    "date": "2026-03-30",
-    "title": "Iran War Live Updates: Trump Renews Energy Site Threats After Claiming Progress in Peace Talks - nytimes.com",
-    "description": "Via nytimes.com. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBEY3pMUEo3TXJ1eUVDbjllTHlSekFfallBbm9vTEU5SXJJMVRkRUVfblp3RE5NTnZHTE1CRlljc3lhRU1vcnpkZUFoaU1ydTJmRDF5Ym14Nm54d2lILWROaGlONllDYXJtMjlLaWlnWlNTY3ZIMVBwZQ?oc=5",
-    "source": "nytimes.com",
-    "fetchedAt": "2026-03-30T19:00:12.861Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=ny-aHDfibGY",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "ny-aHDfibGY",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "israels-other-war-nytimescom",
-    "date": "2026-03-30",
-    "title": "Israel’s Other War - nytimes.com",
-    "description": "Via nytimes.com. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOb1JmV1ZGd0lOcUU2OVYyN280a2FtSWUzcWFsTzJkR3UtRFlGVGNEeFZvTXRzMEh2eU9uZVBMSDJJOTVFMy12cHdNNnNyUjR6UWI2eU9PNl9pREh3UmtCV2RUOXJQdUNRVGZSbVpINU9MVDJVWHEwWFpMZW0zWEEzdWpPM3BLZw?oc=5",
-    "source": "nytimes.com",
-    "fetchedAt": "2026-03-30T19:00:14.489Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=b0T76O_Xg_8",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "b0T76O_Xg_8",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-war-makes-things-personal",
-    "date": "2026-03-30",
-    "title": "Iran war makes things personal for veteran candidates - Politico",
-    "description": "Via Politico. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBsRDd1VkpLTll1UUhNdmcxblY5aGZmc2ctZTZ5WFcwNExvd0p5c1pRSEFUUE9sX2N4VXgxeTlMVGFySno1R2JTMHdqQ3dKWi1NOVJiVWNkcm5wNEZKQW5PMkhlZGZTTHdkUlhLREhtN1hBVk1tVmFaRGh6RHo?oc=5",
-    "source": "Politico",
-    "fetchedAt": "2026-03-30T19:00:16.060Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=4pVooKNzFpk",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "4pVooKNzFpk",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "israel-iran-war-rutland-herald",
-    "date": "2026-03-30",
-    "title": "Israel Iran War - Rutland Herald",
-    "description": "Via Rutland Herald. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQaTM2V19QZ05KTUUxUXllSnRkcjhqdU80UE9mWGE1V2llWGhFM2lWcTBtQ0ZqaWl2bTFBY1lldnhTSVZxdzRBSXZIeGJXelB3R2V2UkIzQUVYN051ekRnNnFEOXoxdjhqQmo2T3M3TWRfOHVmbUZ4VDVqMDdOdXRVRm1KU1JTMDgyVzlJcWc3dVBXaTcxd0hpamNKMXBGRWl0MEdmZ1ZFN3FmVk0?oc=5",
-    "source": "Rutland Herald",
-    "fetchedAt": "2026-03-30T19:00:22.198Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=lgUIx3zUesY",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "lgUIx3zUesY",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "bank-of-israel-slashes-growth",
-    "date": "2026-03-30",
-    "title": "Bank of Israel slashes growth prospects as Iran war takes toll on economy - The Times of Israel",
-    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOLU9ISVc2TEtzYzhSU25XbFhtcXRkbzIzREd6ME53QnVTakdHeEJiNTlyM1dnM01xWldOcXdHX0w1TkZaLUMxejFKNHlKM2lnWDNWVFpZaXhVN1RzRGdRZklyQ01oSTR5VVBBNzd3Znczb3NhLTY0RE1SYk41SnRSaDJ1TXQzcTMteUx2aENHcWF1QXVXZkUtaDc4WmIyOUJITnNfRTY4UdIBrAFBVV95cUxOWFhNZGhacVlZRjhCNmR3QWlOUktZYnFZMDVXSmVURG1yYTJpdjhGNFVjSkhnOWgxdmxveFIxcXVadVE0T0dMRGZNQlVSX1dMQnFCME9RR0pzTzZXQUk1T29aeXBHREZjb3hEbTNBTXNSSGVSNE9VWFVLZDFMeThWMnJxeWItQmRoQjUzcXVKNjBCRndBenFQaDM2dnRfa2hpT3F1eDlBclJoYTB3?oc=5",
-    "source": "The Times of Israel",
-    "fetchedAt": "2026-03-30T19:00:39.898Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "trump-claims-regime-change-in",
-    "date": "2026-03-30",
-    "title": "Trump Claims ‘Regime Change’ in Iran Is Already Complete - nytimes.com",
-    "description": "Via nytimes.com. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOazRsTEJBNEphYVN5c1lxTFZidlRxaHMzV21PMk5OZGY4dXYtQ3J6dzBtek9aeG56S3JUVHV6VTRYSmotUDFtbDJQS3VJdVhjbnVvUFNfaEhnWThDRS1PbnNTbFpsYmZOQ1FRblQ5RzE2SG13bi11ZDdVYlRhdWRWLXU4aWJmYnlZ?oc=5",
-    "source": "nytimes.com",
-    "fetchedAt": "2026-03-30T19:00:46.692Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "support-for-iran-war-drops",
-    "date": "2026-03-30",
-    "title": "Support for Iran war drops among Israeli Jews, but remains high - Jewish Insider",
-    "description": "Via Jewish Insider. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOeHgzMEtvNndDSXBmYWVwb0NtN2Q2QnVFVHJJOFNLNWxrUHpNTmQ1eFE2REF4RE02T183QUN1aDVtSEhjSFI0a1hGeUxnTkthMEtraldUVV9qUlR3aHljQUhvRUVldTJ5RnZGRGN2MC1rUkNCajB5Z29UUGpuZGxzbm9vbkhaQQ?oc=5",
-    "source": "Jewish Insider",
-    "fetchedAt": "2026-03-30T19:00:53.370Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "both-hezbollah-and-iran-weighed",
-    "date": "2026-03-30",
-    "title": "Both Hezbollah and Iran weighed preemptive strikes on Israel, defense sources say - The Jerusalem Post",
-    "description": "Via The Jerusalem Post. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5JbFQ1OHlzSmZoemZOR0NNZURJY2ZaNklmYk9JUkwtUUVYMm90QlBlNExXelZEREZMMUxzajcyQ0JScUhlMU5CTGRvRGdGcnd3cmI2Rk0ydk85ZHJlLUM5Nk8tRFpVMmljLUlVOXN3?oc=5",
-    "source": "The Jerusalem Post",
-    "fetchedAt": "2026-03-30T19:01:00.027Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "trump-mulls-seizing-iranian-island",
-    "date": "2026-03-30",
-    "title": "Trump mulls seizing Iranian island even as Pakistan steps up pressure for diplomatic talks | CBC News - CBC",
-    "description": "Via CBC. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQcnFpN3ZRQVZieHp2R0pCVm1DaWF0NzJDZ0Q3MDNobHNtVDhVbE5tRE0yUE5fZklVeUJQaVFEcVV4eTYzQ1dwaGM3alFIMEtMSjVWd3lXVlJSZTVqV2F6TnQ3MlhSY2hvZ2tGR09VcFJrZVVDSVVZaUFxa05Wd1ZkcDdR?oc=5",
-    "source": "CBC",
-    "fetchedAt": "2026-03-30T19:01:13.956Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "knesset-passes-law-mandating-death",
-    "date": "2026-03-30",
-    "title": "Knesset passes law mandating death penalty for West Bank Palestinians convicted of terrorism - The Times of Israel",
-    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1BUjYxUFRZSVRTVTdIanFGUExCMWt4XzkzeUw3WkpNU3B6cUFFSWZLNHNqZzhkZXp6RE81eXIzbTRTV3FCbERnUUF5SWlNWHJ5anNvTVduckh4dmpVX2VBSzZaMNIBaEFVX3lxTFBUMmhtNEN2VXNMX1ZGVUstaGl6RDZ2V1c5dEhFYm5fSl9Zc01pbVhWS0ptZGxRdUhmZlZsaTFDVVlETWhvYUVTWTJHV25Xc1NQX0pDQkNEMGh4V3FfdVlySDJVMGttUUpP?oc=5",
-    "source": "The Times of Israel",
-    "fetchedAt": "2026-03-30T20:00:15.608Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=I_iONiSNZnE",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "I_iONiSNZnE",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "iran-update-special-report-march",
     "date": "2026-03-30",
     "title": "Iran Update Special Report, March 29, 2026 - Institute for the Study of War",
@@ -4555,6 +4318,165 @@
       "title": "",
       "confidence": "auto"
     },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "middle-east-crisis-live-go",
+    "date": "2026-03-31",
+    "title": "Middle East crisis live: ‘Go get your own oil,’ Trump tells allies in angry outburst - theguardian.com",
+    "description": "Via theguardian.com. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMm9RSmxYamtBQm94ZVdtU3hRRVFEUmVIUWlXVWJzb29VaEd6M1JUUFUyY3lZcmZYX3JvRTB0a0dkbVRESWt6ZXd2QjBvMFRVN1REYS1nUWFpeUstaDlpUF80RUxEbGp4dDZxNWN4eTlmOWdnTE92UHIzdWJmWHNZN1hxY2pVN3ZvR0Vvbml4ZmlGeEtDQ0VfSHdJSF9CbVQ0WmJpTTNCN0hCelpoTjRCQVhkZ0FuRUVzMGxFdHdScDdYS3c?oc=5",
+    "source": "theguardian.com",
+    "fetchedAt": "2026-03-31T17:00:13.707Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=oiVexxJkc8U",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "oiVexxJkc8U",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israel-targets-irans-leaders-with",
+    "date": "2026-03-30",
+    "title": "Israel targets Iran’s leaders with lethal expertise using new AI platform - washingtonpost.com",
+    "description": "Via washingtonpost.com. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBCQ3VVN1daX0g1NlZoVXFwRUNCUFVhT3BRb2VXUmJibXlNZjBNUkc5a3lNQ09sSVIzZnhpT3pqV0dLQWVFTmpGaXM4c1p1S1pRcnQ4Y1dncldXTzNpeGdPa3ktZGkyQ1RIRU85NjFzNzMzdnNGVmhYNV9SRE9OUQ?oc=5",
+    "source": "washingtonpost.com",
+    "fetchedAt": "2026-03-31T17:00:23.519Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=aun3wLRDmW8",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "aun3wLRDmW8",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "live-updates-iran-war-pushes",
+    "date": "2026-03-31",
+    "title": "Live Updates: Iran war pushes gas price over $4 a gallon as Trump mulls dropping Strait of Hormuz efforts - cbsnews.com",
+    "description": "Via cbsnews.com. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTkNSR1NUcVd4NEkyRXN6TTVBZFVvNEFKZHRJc0RqMjBmVTR6eXBRVVFKeDcwLXA3YmlrQUYxZDlFa1hSb2h1TS03LXVnNy1SellPczFibzVEWUVfSW1XLThHZkZnWG42WENKN1F0NWtMNTJ3TEotaE5GbFdiVXVjNHdrUkhXaWl2V0pwWU5ucDJoRWs5VUlPVHFvT1k5UTcxMWNXV0FjX2I2b19WMXfSAbMBQVVfeXFMTXhJbl9GLVJLMUJjcExWcENrajJ6UEt3UElaQ01ralJqTG1ibnladEk5ZVdKN1V2T29mRVZpcWFlak9RZDRQVlk4VGpIQklmSkZxVGd3NUk2T1l1dEE3V0JEZDc1VXpfOEhHTU1YSWt0RTV5blRaeEJTSkhmaXBuVmE0RHBNaHJsVlIwNk5XOG01MkxLdTNSVm5JMjdzSk5MMDdDa0djRWdvX3duTlVxT3NHQUk?oc=5",
+    "source": "cbsnews.com",
+    "fetchedAt": "2026-03-31T17:00:25.741Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=ZUwSExAdw34",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "ZUwSExAdw34",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israel-irans-missile-strike-that",
+    "date": "2026-03-30",
+    "title": "Israel: Iran’s missile strike that killed nine civilians ‘must be investigated as a war crime’ – new investigation - amnesty.org",
+    "description": "Via amnesty.org. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNaE90eERwVTBkT1JjNTZUcFNXakpuVG55d2dkbE1abEFzcVRINEZjUHFZZ1F4MFFQVXdfWnI5ZzhONXFpOEtPZnpsSDJOZVVlZDB0NmJUNmEzNG5SZ24wWnloSWtldXRMRXFNLU1VRExnOU5jdVo2Wm1ZMjJCdHJ6QWdxTUVkWUt6N29OaTA0RWFYMVpvZ2JkWDlWblVWOWRQTTVBd2RKMVpkaDNlQkVWWjZjV0c5eXBaNzR0RG5VZmNaRmpaQVBZbjJ0d3B1dmRnZUhkWHVfT283UmZ1NVZQZ1ZMV0c5WHVuMFlCcw?oc=5",
+    "source": "amnesty.org",
+    "fetchedAt": "2026-03-31T17:00:28.055Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=HJc6035TTMQ",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "HJc6035TTMQ",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "trump-is-losing-the-war",
+    "date": "2026-03-31",
+    "title": "Trump is losing the war in Iran - washingtonpost.com",
+    "description": "Via washingtonpost.com. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxNUm9tOFRWUXZGaEVQVUtZVnJCY0ZmNER5TXh2TkpDdzRvWjlJVzZ5cHZ4dGhvUE9nUklDOVJvZkFIUXJwQ1Mwd3hZbVowQVlnd0E1a0ExX012YWhha0NiQmVOZjZDVlpFWmlHQjltSVpOQmtEREdlSFpNM09rODI4RTlRNGRHeV9vNGZaWTFIMUwzUjBRZ2tmUGFOU0hKZw?oc=5",
+    "source": "washingtonpost.com",
+    "fetchedAt": "2026-03-31T17:00:39.479Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "the-us-may-send-thousands",
+    "date": "2026-03-31",
+    "title": "The US may send thousands of troops to Iran. Have we learned nothing from the past? | Moustafa Bayoumi - theguardian.com",
+    "description": "Via theguardian.com. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBKUV9xMTNuNGFkNXRXRFZIMWsybU1MVk91MmJWbWRfbG1GWFR1LU1nampTWWF1eFNlRlU1MkJuNUt5Z1lMQVlBMTYxcC03M3RRN0dpVU83TDNYbFZHTVBLWU1YdURnWm9ySkoyZ1gxdnRyRF9Jc3k1OWJ6UVc?oc=5",
+    "source": "theguardian.com",
+    "fetchedAt": "2026-03-31T17:00:45.230Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "trump-renews-threat-to-irans",
+    "date": "2026-03-30",
+    "title": "Trump renews threat to Iran's power plants as war sends oil prices soaring again - cbsnews.com",
+    "description": "Via cbsnews.com. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQaW42THRaWHdQTnN0aVJza1RvX1ZXanNtUFRkMDc2MVdyd0h5LU1qY0RDSEtuOHhzdUdPdC1WalVTb1diS1RaU2ZnYXVZNGVLNC0zaXRnZUd3YnhVNG1uM3k5TGlpcHNhWFBVeHNocmhBOUw2aGN6Y1VGckZCSXFCajFPRVI5NExlSUhlXzVGbnA1WkVxYm90UWJyeWZxbTBwNlQ2bWV4c09sOXBxZjhKRtIBtgFBVV95cUxOS0VRaXBTc1VLRUJjbllVUkN1V0lMclVOUFYybWRMMmNDMDQtQk8zWW9XTmJsUW11SnZnOG12RnlzSW9rVENGWFBoTVoyYjdOZ0cxUnZkU3c3NDFXR0pLcnd0UmRBaG1YVWVpalIzdEdYeFd0LVk3SG5QMk5rQ1NwRFpFRmhIak90ME9XQzZZY1pwczFCTWRXUC11M1dRV1NPRk40OEx4WGtLTW9tMHhxUzlFeTM0Zw?oc=5",
+    "source": "cbsnews.com",
+    "fetchedAt": "2026-03-31T17:00:57.775Z",
+    "mediaUrls": [],
+    "videoMatch": null,
     "lat": null,
     "lng": null,
     "zoom": null,
