@@ -1,299 +1,5 @@
 [
   {
-    "id": "israel-irans-missile-strike-that",
-    "date": "2026-03-30",
-    "title": "Israel: Iran’s missile strike that killed nine civilians ‘must be investigated as a war crime’ – new investigation - Amnesty International",
-    "description": "Via Amnesty International. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNaE90eERwVTBkT1JjNTZUcFNXakpuVG55d2dkbE1abEFzcVRINEZjUHFZZ1F4MFFQVXdfWnI5ZzhONXFpOEtPZnpsSDJOZVVlZDB0NmJUNmEzNG5SZ24wWnloSWtldXRMRXFNLU1VRExnOU5jdVo2Wm1ZMjJCdHJ6QWdxTUVkWUt6N29OaTA0RWFYMVpvZ2JkWDlWblVWOWRQTTVBd2RKMVpkaDNlQkVWWjZjV0c5eXBaNzR0RG5VZmNaRmpaQVBZbjJ0d3B1dmRnZUhkWHVfT283UmZ1NVZQZ1ZMV0c5WHVuMFlCcw?oc=5",
-    "source": "Amnesty International",
-    "fetchedAt": "2026-03-31T18:00:18.548Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=1TMdjrrrmws",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "1TMdjrrrmws",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "live-updates-latest-from-israel",
-    "date": "2026-03-31",
-    "title": "Live Updates: Latest from Israel, Iran, and the Middle East - The Jerusalem Post",
-    "description": "Via The Jerusalem Post. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBSeWZZUE5HdkNTNzlsc3JTMk43cU1VNlBkaGZBWVRHTVR3NUFPakIzUzV4V2VzeU1jbjEtT2VFZjAzLXNsYTAxaXFLY29CYXRiS2h0VmZDVTNoZzFBYmVPdWR1OVctQjJ5ZE54LXdLUklpcTd3eF9kWWVsam1fWDg?oc=5",
-    "source": "The Jerusalem Post",
-    "fetchedAt": "2026-03-31T18:00:26.067Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=OXRjAIKpVTo",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "OXRjAIKpVTo",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "ceasefire-or-regime-change-israelis",
-    "date": "2026-03-31",
-    "title": "Cease-fire or Regime Change? Israelis Split on How Iran War Should End, Poll Shows - Haaretz",
-    "description": "Via Haaretz. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOd1R3MC1OdmZOYUJUWkZUM0FrMU5FOURiNXJCdXVmSkI3VHI4YkZ0Z3B3MVJuNFVGYlAzdHptQ2pmUXpmNnN1M3BZdUhBN3lCbWZ1WS1SR2JDZkd6Q1NJbkRtbjBnMzRObm5SZzRmQXpEamlHOFJqa0Z5SERlMUFSTE5HV0FlT3p3OVFCSHNZcFJXS2paWVY4M245QlVSbVZOa1p5Y3ZkN3dnMVRfNWJLb3M2OExpZU5zOFhqdGo0ZE45VzB1S3NmUl9jRVdYaFF4MFZtaFYxXzZUdFFyXzU1ajA4VlRnMFFYV3VpMA?oc=5",
-    "source": "Haaretz",
-    "fetchedAt": "2026-03-31T18:00:33.212Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=-9FO9vjN5Hw",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "-9FO9vjN5Hw",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "trump-said-to-tell-aides",
-    "date": "2026-03-31",
-    "title": "Trump said to tell aides he’s willing to end Iran war without reopening Hormuz - The Times of Israel",
-    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONE12elpseEdtZlJrZjRBdU1sTE50a2poVDVaV0ZNSEh0OHVtXzBUZlpyM2gwQVMzeGhSYUlzQkNvRHU3bTB4T3JwQnNHMlZOdHFQZHBqelkxUFZTUGtJSWsyMkIxTnhjeXRrMGk5d1Jyc3BEckV2N1FMRFVKSHFaODd2dU5Qb2FBcDVKZkdKeDJPLXpPN1p4bmV5bWlaYi1hVVdCZGR6MjR6TW900gGyAUFVX3lxTFBURnVmTDVnVUNjYnZja1k2Q1JOUVdteTdzbWprck9paXNEMkxyeWxaREdRX1A2RXdWRUFPUmhlMWQwS29LOVlJTHdsVU4zNFhFUTRaZWc0UU9vTjFmNXdkMnJDSHRvaEpJY3o3NzVoYzRCclNfV3cydTJNb1lKUWN3cllNOHpGLWhnVFJaLVB4UW1GSWNLOTVhSDdOeTFacjg2YnlScm9WOHh4NmptSVdFVnc?oc=5",
-    "source": "The Times of Israel",
-    "fetchedAt": "2026-03-31T18:00:44.413Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "netanyahu-declines-to-set-timeline",
-    "date": "2026-03-31",
-    "title": "Netanyahu Declines to Set Timeline for Ending Iran War in pro-Trump Outlet - Haaretz",
-    "description": "Via Haaretz. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMilAJBVV95cUxON0hSVUxXX3htd203OEdjRzViUDFzTjBFODI2MnlmMXVUeml5QU5HY1ZnVkl6Z2w0OVcwZTVOX0kwcDFXQjFvdXVyVVhXOHY2SUxDcTY5MGl2dTVnc01xSE1rMHMwWkNfLWsyMDgwRDItNkxRZkN0clFwSU1hQzkxYjFLYlNZM2xzNnRDT2t4RHRSR25rQXZDUmRhNjdqejl4M2MtNEtrQmxHb01CZGdFRFpWMmVuN3Y5cHNFZHdLZGQzdGFEYnhhRE5JRV9FNEZyZ2tLX2J2bDl3U3daUGJ3bEZqUUhxX1E2WjVLTFlBM0tvcVZGdWFsaUxFWEVaSEFGMTZrRXNYNUR1eEN6OElPZTlZeWI?oc=5",
-    "source": "Haaretz",
-    "fetchedAt": "2026-03-31T18:00:50.745Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-remains-a-stubborn-foe",
-    "date": "2026-03-31",
-    "title": "Iran remains a stubborn foe after absorbing massive US-Israeli attacks - Yahoo",
-    "description": "Via Yahoo. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOelNELW5BRWRscUtVZTRPb2pmeFRKLWZiN010Rk5jVF8xbVh2R1FLUy04bFpUc0Rmb0x2dlZjLXdsakt0NkdPVktNalJlS25sbEpudTBydm41VHN1cm1LeXA2ZnVWT0VSVjFic0Q4VnR2OWNLdG01Z2hvRWptejBnbWVobHFfZnc2WDk5VGpjUQ?oc=5",
-    "source": "Yahoo",
-    "fetchedAt": "2026-03-31T18:00:58.014Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iiranus-war-latest-trump-tells",
-    "date": "2026-03-31",
-    "title": "IIran-US war latest: Trump tells allies and UK to ‘get your own oil’ - The Independent",
-    "description": "Via The Independent. Auto-detected by headline monitor.",
-    "category": "infrastructure",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdlBqRmJaWF9EWmVLUnJlY0JMem13OG11OUxuVjlHUTRKQ2pCOHRNeWtWa3hpUmZLU2JkNVpJZ05DVEdseGlhS2NQUTZ2dWZXUGltcnJuU3VQVjVFZDNkYjNUWnRuaXhzZU5xckJzVm1hU3VxY3VNRUM0dDNoNGNXWDdsMXVfSDhnTm5GZ0F5SEhTXzEwZHl1SEY4UFc?oc=5",
-    "source": "The Independent",
-    "fetchedAt": "2026-03-31T19:00:12.975Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=ngDoYGBLH7w",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "ngDoYGBLH7w",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "middle-east-crisis-live-us",
-    "date": "2026-03-31",
-    "title": "Middle East crisis live: US has begun flying B52 bombers over Iran, Pentagon says - theguardian.com",
-    "description": "Via theguardian.com. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMm9RSmxYamtBQm94ZVdtU3hRRVFEUmVIUWlXVWJzb29VaEd6M1JUUFUyY3lZcmZYX3JvRTB0a0dkbVRESWt6ZXd2QjBvMFRVN1REYS1nUWFpeUstaDlpUF80RUxEbGp4dDZxNWN4eTlmOWdnTE92UHIzdWJmWHNZN1hxY2pVN3ZvR0Vvbml4ZmlGeEtDQ0VfSHdJSF9CbVQ0WmJpTTNCN0hCelpoTjRCQVhkZ0FuRUVzMGxFdHdScDdYS3c?oc=5",
-    "source": "theguardian.com",
-    "fetchedAt": "2026-03-31T19:00:14.739Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=d8uHnOCWzDs",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "d8uHnOCWzDs",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-war-live-updates-tehran",
-    "date": "2026-03-31",
-    "title": "Iran war live updates: Tehran threatens to target US companies as UN Security Council meets on Lebanon - reuters.com",
-    "description": "Via reuters.com. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUzBGc1VWRVdEQXIxUlNsU0VCVDVGdmU4ZkR5bDVabmE5cmNGWFNUOURGUlF0THJsZ2FfNmFfQThyUTZjSFpfemVDaENpcExRd0RaTm9KTWFraExlaFpFM1VKeTlucER3SXl0dkoteUpxaTRraTJXLVZaMGdLVmZ6VVc2SVVxbFIzX1d6S0tGT0NyOUp0dVFoNXByM3VySVpnajgyN3NsbkJVdGc2VUFIOVQxSEJicUJWeEE?oc=5",
-    "source": "reuters.com",
-    "fetchedAt": "2026-03-31T19:00:20.757Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=BFeEamBZPHY",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "BFeEamBZPHY",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "as-trump-signals-retreat-from",
-    "date": "2026-03-31",
-    "title": "As Trump signals retreat from war, Israel may have to keep fighting Iranian threat - timesofisrael.com",
-    "description": "Via timesofisrael.com. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUlpFZzJ2SXRiS05iaEFZT3pxZGFZbHVLaDFsX2lfazFhSmNEcGQ5OEdwaDdNelpaLUhYd1puT1lCRHRqWXIyb1JsV1pxZTJ1NmFWcGk2UzJRRldrcnhQZE02TVVKbDdOT3BONkdJVnFwcDFxWnZubDlhQjJqZEM4Ylg5VVdkbGMwc1NDR29LUmV6dXQ4OVZycWk2bHJpdHVzWUwtYkNfRTIySVhZclNJVmN30gG3AUFVX3lxTE5Cd0lZUVRyUHVNaU5jTlpmOWwtZnVyN3BRSk1za1FxaVBCd0w5WTRuWlpCX25ydkd2TGJZU2RVb2VZQXBRTnVfNnRyOFdGamN3OFBDZUxQNFdlZTdBLW11cy1FamdWXzZfNUIzbHlkc3FOdU5rY3REX0tETU1zSmhBMmJHQ0l4MXQ3dlk3eU4ycjVPWWxEbkgwLVZXSjRqVU9hUllsd01ZeXdEdXFsZEVJS0VseXJXTQ?oc=5",
-    "source": "timesofisrael.com",
-    "fetchedAt": "2026-03-31T19:00:23.106Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=KkBLgGZeGgM",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "KkBLgGZeGgM",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "fo-exclusive-the-dangerous-implications",
-    "date": "2026-03-31",
-    "title": "FO Exclusive: The Dangerous Implications of the New US/Israel–Iran War - fairobserver.com",
-    "description": "Via fairobserver.com. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPdWJUSUpyVnpFYzNyZkN2eFlSRWlGVTNQbGo1TlJDekhkZTFWMDhaLThVZ0VDNXVfMkxpejFGUTJZLVk0UENvNzdhMnBsZFZmMHo0NHBORWlNOHBCR0x6Zlo1T1JxZ3ltRWEzb3hRelpUbWowZlo4b1hsMEdPQUx0YlFLRmxGOGY0dGFvV05FN2xic0NhX3FBTElFYWNhcFZ1MHBzcVBqNWRrNGRsYVhybkozSi04X3NHUS16V3ZZc25UekI2amc?oc=5",
-    "source": "fairobserver.com",
-    "fetchedAt": "2026-03-31T19:00:25.663Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=abIXWiAWpBM",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "abIXWiAWpBM",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "europe-pushes-back-on-some",
-    "date": "2026-03-31",
-    "title": "Europe pushes back on some US military operations as concerns over Iran war mount - reuters.com",
-    "description": "Via reuters.com. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTGI1RDRzSnZ0MW9jTlhyd0tGNFdjQk5EQkwtS3U3UjJXUzFxR05NRVlmT01WLUtEeGlTZzhiUExVbEpENElQT05YckFqcS1URTRZQUZtMzZ1UF9YSXFUYVNlT2ttbjRaTFlhUXVkQmJHVV9oUUFtNjA2N1VzVFpOS0QxNFkzeWozYmFOYWx0bFZ3YzJESUtxZ2RfREtYR2RiaWFQS2VBRzdhcUpUNTBVRGQyMkYweHFHd0Ew?oc=5",
-    "source": "reuters.com",
-    "fetchedAt": "2026-03-31T19:00:28.112Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=apcRxUs7iYg",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "apcRxUs7iYg",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "watch-pentagon-holds-briefing-on",
     "date": "2026-03-31",
     "title": "WATCH: Pentagon holds briefing on the progress of the Iran war - timesofisrael.com",
@@ -4522,6 +4228,222 @@
     "fetchedAt": "2026-04-01T15:01:06.878Z",
     "mediaUrls": [],
     "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "europe-pushes-back-on-some",
+    "date": "2026-03-31",
+    "title": "Europe pushes back on some US military operations as concerns over Iran war mount - reuters.com",
+    "description": "Via reuters.com. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTGI1RDRzSnZ0MW9jTlhyd0tGNFdjQk5EQkwtS3U3UjJXUzFxR05NRVlmT01WLUtEeGlTZzhiUExVbEpENElQT05YckFqcS1URTRZQUZtMzZ1UF9YSXFUYVNlT2ttbjRaTFlhUXVkQmJHVV9oUUFtNjA2N1VzVFpOS0QxNFkzeWozYmFOYWx0bFZ3YzJESUtxZ2RfREtYR2RiaWFQS2VBRzdhcUpUNTBVRGQyMkYweHFHd0Ew?oc=5",
+    "source": "reuters.com",
+    "fetchedAt": "2026-04-01T16:00:17.124Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=apcRxUs7iYg",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "apcRxUs7iYg",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "satellite-images-begin-to-show",
+    "date": "2026-03-31",
+    "title": "Satellite images begin to show damage wrought across the region by Iran war - timesofisrael.com",
+    "description": "Via timesofisrael.com. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTEF6RjlhN3VRdklNUHpSVWl3RndGVjUtVVFuLWprOVE0TkhRdDNCeWFXSzE4Yk5LbDJKUl80YmZNdFdlUDFOaFMza0pUaTJhaWQ1WXFHbDI2S1dNRk96QWsteUh3aWxPUkVOTHh3ekpfVDFZanN1ck9TUE1XX1NlNDdlRG9NWFRuVlRtVWlMQ1lTLUdTdy14Rkh6WmlWMDhYTXNwWlNDb0NxZw?oc=5",
+    "source": "timesofisrael.com",
+    "fetchedAt": "2026-04-01T16:00:19.551Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=fZ10u4DnOHE",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "fZ10u4DnOHE",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "as-us-weighs-putting-troops",
+    "date": "2026-04-01",
+    "title": "As US weighs putting troops in Iran, realities on ground keep Israeli boots closer to home - timesofisrael.com",
+    "description": "Via timesofisrael.com. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNcU5ZM2gtc3phaURFc2pIckFHd0N2OE9XU1Q4TjJxMHRpRHJaekVLZ3Uyc0YxUHpkMmphdklndGcwMmJwUmo0b3NEcUhUYnNUTll5d2JFLThxbDlHQzgzaEwwb1pfV1FSRWNmRG5kVmgzTFlINnlqUk1IMjhpSFJYa09ERTZTeEhyX2k2Z2czeWhxQkdDUHfSAZsBQVVfeXFMTVpCbHVHQ2R2VzMtZlhQUVdyZDl5bEp3RGxqemhQMGRucjNKaHFOeVQySE5NcHhycFV3clB2VWJ6eUdHZ080eEt1bDdud1ZPWkV6dmtqenhQMVlsdzR0a3l3WmsyODloRXhETDhIM3FlYVdGd3RpQ1FSQ20yd2RoazZydXFfb1BfUVp5b3E3UHdwY0c0ZVFnRFF6TTg?oc=5",
+    "source": "timesofisrael.com",
+    "fetchedAt": "2026-04-01T16:00:21.710Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=rwBOrrDXqsE",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "rwBOrrDXqsE",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "as-trump-signals-retreat-from",
+    "date": "2026-03-31",
+    "title": "As Trump signals retreat from war, Israel may have to keep fighting Iranian threat - timesofisrael.com",
+    "description": "Via timesofisrael.com. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUlpFZzJ2SXRiS05iaEFZT3pxZGFZbHVLaDFsX2lfazFhSmNEcGQ5OEdwaDdNelpaLUhYd1puT1lCRHRqWXIyb1JsV1pxZTJ1NmFWcGk2UzJRRldrcnhQZE02TVVKbDdOT3BONkdJVnFwcDFxWnZubDlhQjJqZEM4Ylg5VVdkbGMwc1NDR29LUmV6dXQ4OVZycWk2bHJpdHVzWUwtYkNfRTIySVhZclNJVmN30gG3AUFVX3lxTE5Cd0lZUVRyUHVNaU5jTlpmOWwtZnVyN3BRSk1za1FxaVBCd0w5WTRuWlpCX25ydkd2TGJZU2RVb2VZQXBRTnVfNnRyOFdGamN3OFBDZUxQNFdlZTdBLW11cy1FamdWXzZfNUIzbHlkc3FOdU5rY3REX0tETU1zSmhBMmJHQ0l4MXQ3dlk3eU4ycjVPWWxEbkgwLVZXSjRqVU9hUllsd01ZeXdEdXFsZEVJS0VseXJXTQ?oc=5",
+    "source": "timesofisrael.com",
+    "fetchedAt": "2026-04-01T16:00:26.718Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=g8SdKLx_C3g",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "g8SdKLx_C3g",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "trump-says-us-may-exit",
+    "date": "2026-03-31",
+    "title": "Trump says US may exit Iran war soon and threatens to quit NATO, as oil crisis escalates - reuters.com",
+    "description": "Via reuters.com. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOUWNIcFhzTVphcmZFN3RseUw4ZlFOSFpPZnZ2RGh5RGw3bVZmSUpoR1VjR1hmeFk1NGExWEQxUTk2TUd3bnY4ZHZpUlpCSmNwZDQtT3BMRHZOOFFwcWlidkdGcHZ0Rm9DeFJzb3ZXNlBXSnJjV1JpRmRzTlNETHNqUnRzWm5ISFdzSXV0Vk44WXpqQURWbWZrRWxwZkdQV1huZTR2Sm53?oc=5",
+    "source": "reuters.com",
+    "fetchedAt": "2026-04-01T16:00:37.126Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=AfJLgmTyz8M",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "AfJLgmTyz8M",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "pope-leo-xiv-urges-an",
+    "date": "2026-04-01",
+    "title": "Pope Leo XIV urges an Easter end to the US-Israel war on Iran, says Trump recently stated that he would like to end the war - ABC7 New York",
+    "description": "Via ABC7 New York. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNUJYRWpjTkN1Y09QLW52eHZTTWpmaHcwVEVMRGE4WmZ3LXpsWVRETWZYelFlY2U5LVg0MFJJMlpCWFdUdENYbXE2TEdIRjQ4SEFoQ0tIbXc4cDNIXzIydHd0OVE2Vk5Ka3BVam1Qb01QRmFPMHFzSkc2ODFUUDZNM05qb0JXUUZQaGNDR2ZZTkJaaFRydEpTNFpneEhLQTZXRkJDd2I1bGxzdEI4UTVndDhXdFNITVJRMkoxTFg3UHHSAcYBQVVfeXFMT1pYMnJ1cFJOLTdsRGh4UFhZSkNZaTRWWkQtQ2FfcFE1cF9PSEVUUmxPYlQ0QzBkVXFpak9YSnMzY3lCTlhDN2ZKU0c4eFFnU3laQkpiWkJrNEZ2UkhNWG1CTTFROVVMdFdQQXpxV0YySUVwNU1SWEsyeDVrRWtNVzlEeDB5dVM0Sm05Y0gwRm9nM1RlcWs5NGpzTWVnV0tKNE01VGJvRWVSaXY5Ynp3V1B0X2xESTV2VHZ3NXRySl9sTDNqZFpn?oc=5",
+    "source": "ABC7 New York",
+    "fetchedAt": "2026-04-01T16:00:39.434Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=mV83o08JfAY",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "mV83o08JfAY",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "letters-to-the-editor-war",
+    "date": "2026-04-01",
+    "title": "Letters to the editor: War in Iran must end; we need a healthier Ohio - Dayton Daily News",
+    "description": "Via Dayton Daily News. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOWDliOHNJeTNaRnNCN2JOVVlxaHVEdEFSR1dJX3pmTklKZ04yalZvOW5NLXdlVlJRbXNNX2ZyNXlva0p4UjFYLXpnZUUyVTZaZmNyRE9LeS1XY3N4eVRvNk9mUTItNnZrYXVKZ3h1NzlOa2N0cUMxSUlMekpmNWF4bGhlY1g1SjFzTHRZSWw3QnZHbHJOcWdzY0lvSnpfRFgzeXI2STBEVmR4aVJsT29GSjIyUlk2U1o5Snl0ZTRXSldub2NrUGhQU0huYUZ0eDg2WkpyT2U0cXNuYW9EUUVFTmFQWTEtbUNBVGlhbEROcTBTVEZGMXc?oc=5",
+    "source": "Dayton Daily News",
+    "fetchedAt": "2026-04-01T16:00:41.802Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=3UW5EQ81WGM",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "3UW5EQ81WGM",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "trump-to-address-nation-after",
+    "date": "2026-04-01",
+    "title": "Trump to address nation after saying U.S. may leave war within weeks - Oregon Public Broadcasting - OPB",
+    "description": "Via Oregon Public Broadcasting - OPB. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWHA5YWtIQmF6UW1iSkF2VEJNVnNHUmpUMHpyS3MwT0I1ZW1yTTFPYzJZbFh0eGRFcWd6MHFvLUVTalRENGw0eWRZWW9ibGk0SnZKMTJQSERkRlFQbVAzeTFTS3lHcGxvU0FrUG5fRWxkU2NyTW1JWUtubjE2NDU5Um5faWk1aGJWWmNzVlVHOFdQLW9USDZXMVZ1YkllSVZMNWFIMndPc25UNjA?oc=5",
+    "source": "Oregon Public Broadcasting - OPB",
+    "fetchedAt": "2026-04-01T16:00:44.232Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=2Stxmu42Xjk",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "2Stxmu42Xjk",
+      "title": "",
+      "confidence": "auto"
+    },
     "lat": null,
     "lng": null,
     "zoom": null,
