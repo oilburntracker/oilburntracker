@@ -1,181 +1,5 @@
 [
   {
-    "id": "the-latest-fighting-as-israel",
-    "date": "2026-03-31",
-    "title": "The Latest: Fighting as Israel invades Lebanon kills UN peacekeepers and Israeli troops | National News | 2news.com - KTVN",
-    "description": "Via KTVN. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQakFXem00SVBVWlJIWWhPMjIxN180Si1iYUhkZmRiUXB6Tjg1QTBpbVJ6ZGdnbDJXbk5uWjNnOE5MbS1JaUhBNHd3dUJLVG9KMGFEeDdRdnp2aUhjSkVDcVk1VWc1N25sWGp4cGctcXQ3Mk9NTHFmTFhjNlM1dl9mZkc4Nldndm5XNDM4ZVd5NVhZTHBiOGhpMHNYak04b25CTm01VDRhQ0d1VC0xVU5vTU5YZ0dpaENobnRuZTVpempDUWNITkJZY0FuQVFmSHBPNHdFZ0JUWDVwelVUQmR4N1JNLURGeGdxRjF4d0pmbDc0akRwVWo0MGNSN1BOUUkwaVE?oc=5",
-    "source": "KTVN",
-    "fetchedAt": "2026-03-31T06:00:20.934Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=kxzoxGDsxkU",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "kxzoxGDsxkU",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "usisraeliran-war-in-numbers-xinhua",
-    "date": "2026-03-30",
-    "title": "U.S.-Israel-Iran war in numbers - Xinhua",
-    "description": "Via Xinhua. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4xYkNxTUlXck5qU0VLVTUyS0JtS3NyX2xxOUY4c1dRMlRTRncyVHBvdGtEYkhhd0FKdjRjRXRuNm9nOFdyYTB5MUFuVERIZzg5M2FKY29vVTVtSlItd1I5ZkN1a1VBWDQxdnRRVEl1WURVMld3VXliRXRNNFI?oc=5",
-    "source": "Xinhua",
-    "fetchedAt": "2026-03-31T06:00:25.464Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=bmvUCsfTbgE",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "bmvUCsfTbgE",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "daily-life-in-israel-iran",
-    "date": "2026-03-31",
-    "title": "Daily life in Israel, Iran amid ongoing US-Israel-Iran conflict - Global Times",
-    "description": "Via Global Times. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5rYlRHZEJIQVUtQ1VzZVpLRDdKZGRWUE5mOXdORHh1OEJ3OV9tM2RXRERHUFRpU2hLdnRzaDBTVEZNbkNnMWpaRU5HNnNnY0NRbHVaNGVVYkJ5Z3AxY01LT0pn?oc=5",
-    "source": "Global Times",
-    "fetchedAt": "2026-03-31T06:00:44.180Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "netanyahu-israel-over-halfway-to",
-    "date": "2026-03-30",
-    "title": "Netanyahu: Israel over halfway to war goals in Iran, no timeline for ending conflict - ynetnews.com",
-    "description": "Via ynetnews.com. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1pU1YtU05GM2NmZTlYMXZTTXhRQWszblU5ZEFqWkhYcjlHd2p4akU0OFFuZzJLMnhfY2pnYlVGZ3VHRG9vV1lydTRwWFFmSGNPbHIwODlCYw?oc=5",
-    "source": "ynetnews.com",
-    "fetchedAt": "2026-03-31T06:00:50.676Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "only-received-requests-no-negotiations",
-    "date": "2026-03-31",
-    "title": "Only received requests, no negotiations since war began: Iran rejects Trump' claims - India Today",
-    "description": "Via India Today. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxOdHRSVTZLY3plbUpDVV8ydFk1bGREclRibUJsRTNBSU4yYTMySVAtU0daT1ZqRGtmWllYMTFkN2cwZlVNVmRxTDlMOVp5X0dEMGJVUXQ5YllXMzQtdWNqTzRBMU51bnFGel84UzY1YVhoYVNtMG5lcXpHTjVxbVJyNnZ3c3ZSZXEwLU1JbnZoM0ZCb3N4cjBWcUdJNndXNVNvT2JIUFc2YzItNHI4RU5LUGpPWndWVGRaM0gzbDl1V0NYOTdHSW52VzFPS1pfOXlEZmxwQ2ZvNGRfNFlSUEQ5Zm9HdnFTNkZZVklGRTl2NUh2RnRBMjAtTDJRb1l2OUhrZ1N6SERJU1hDaWM2SEE3RkR0TjJNTTFCeUlqM2RzY2x5Wm5PeFZXbtIBrgJBVV95cUxPLUFLLVVPMXhmLUJFSmtHdHJvYUQ3YlJwZk5zMG5KVFg4LWh5MHRxYjEzeHU2eTA1ZG5iZVA0b212QXFKOEdDRGVRR3NNUlFBOXVpa0hkVG1EMGRxVDZNakJyek54VHY5c2tRSUN6b3dwWnlPbHFIbS1mamNxU3pjSHc4ZG1WVE1iSzNiZjlIMXQ1UnAtTGxNd24yV0UwUjBCbDBsNXl0UjB4V0ppT0hCczFXcU00bFBTdXdxSnQ4UXZVQkY4eEp4dVBlVlloMnI5U3R4Ym5SeXV1MGNEZjhYZjdrSlZ3REJkUVhIZjMxVUZaUzFzMldoQ3hQbkRNX19ORGU0VTl2YUdMbmhZcDcxT2xNQUM2M2tfRkFtbHFQTWpXWlktZ25ZMFRIa1VZQQ?oc=5",
-    "source": "India Today",
-    "fetchedAt": "2026-03-31T06:00:57.562Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "twenty-questions-and-expert-answers",
-    "date": "2026-03-11",
-    "title": "Twenty questions (and expert answers) about the Iran war - Atlantic Council",
-    "description": "Via Atlantic Council. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUVdZeXBGY21TbWRWWkhXQi0yREptal9UTDRHZjlhZGpHd0NBN21MSVM0Uk4zWHRjQTFXd0RiazEyX3EzcTJha0VZcEoyb01hZGtudTh3RHVGS2hOTDZXMnN0ZktTbmZhYzUtRGVkdFI5Yk85RzhsQzdrWHJvZlZGd21DWmhnQVBBeVdVZzhKRUFBV0lFQTdaQk9XcUR0TEk?oc=5",
-    "source": "Atlantic Council",
-    "fetchedAt": "2026-03-31T06:01:10.645Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "universities-become-new-frontline-as",
-    "date": "2026-03-31",
-    "title": "Universities become new frontline as the US-Israel war against Iran escalates - cnn.com",
-    "description": "Via cnn.com. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOX1d6cTRpREdSZ1hNOUpBSjNDUzJCdHdYenJha2FNZ1dHODJtUDVIZzU1dkYzSjZ5WG05cTAzWEs3cFVpOHVFMWd1WklFR1hzRjU0Vm1uTFRPbU1GZDVrWnZuSXMydXduN1RVbF9zQThyNFhNZW1BVU95T1BYLUJ3V1pPcw?oc=5",
-    "source": "cnn.com",
-    "fetchedAt": "2026-03-31T07:00:13.396Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=vWaoon6lZM0",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "vWaoon6lZM0",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-war-latest-trump-willing",
-    "date": "2026-03-30",
-    "title": "Iran war latest: Trump 'willing to end war without reopening strait' - as Tehran executes two men - Sky News",
-    "description": "Via Sky News. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOMTRZbVYwcUVWLUpQZGQtOGZ3ZHJtTzVPS25Pb3BqUTJ1SjAxVzBKYzhkUUtIS3hTZ2FEc0FaelIwY3B2LXFOV2xLRnFZZTVreUFZb0w3dkRZa3JubEkya0Jka2d2MlNkalpjMTdUY2tHdHFCOG83NTF2LTNEbkxLM2l2Y245UnVkUmlwOUxmcXp3Z1RTdXRGNUt2ZFIzYVlybk44SlhqY2hENGVKNFBaaW50aHhfMTJqRXVvV3RtTVZ3YnNXT2Y0dWVJMTJJZw?oc=5",
-    "source": "Sky News",
-    "fetchedAt": "2026-03-31T07:00:16.542Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=tw-ePIdnuH8",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "tw-ePIdnuH8",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "trump-ramps-up-threats-oil",
     "date": "2026-03-31",
     "title": "Trump ramps up threats, oil tanker struck: What we know on Day 32 of the US and Israel’s war with Iran - cnn.com",
@@ -4522,6 +4346,260 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNFRkLXdxa0pIOG9CNk9nOTJiNjlXNy1KVnJNMjVBbjczc1F5MWZMcE1hbE5XUlFoZWNMTTVNbm80U0RoMWNWT3JEajNIUi0wcjh0Q1dVTEpCRkVVZHFwOGxLOV9ZY2NrNUpMVzdHbkZfLXR0QnB1cXAwdngxaWdWRjFNNktuY0xTQWJHWFpDWmd2MzNORmpjbw?oc=5",
     "source": "Honolulu Star-Advertiser",
     "fetchedAt": "2026-04-01T04:01:06.611Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-war-march-31-2026",
+    "date": "2026-04-01",
+    "title": "Iran War, March 31, 2026: Trump to Address Nation Wednesday on Iran - WSJ",
+    "description": "Via WSJ. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi6gJBVV95cUxQdmZ0TnFtSXZodmlNY01CVE1MRXZzMHR5TDRJbklaZlJDNUlzcVk2Nmk4ZWZKengzRUQ0MzFGdDAwTUQtZU5oTkVyVHhBZWV5ZmJpWWZKdExuTmpTcEhVMURWWHR6bGt6MWJrcGdlaWh5VFQ0eFhMOUJwcHdOd2xSbHpTSElPMWd1MlFrWS1RZVN0VXRfSlhiRVRrempxaFAwUFEtNnJuX05UUlluY1lDQm9YVTFjVC03aU9UNnZGQUY1dzFsSFd5Vm9VNHpTVDBHYk9ySXd2eDJvcXJQTVlZdjdpMHBiSDVldmZ3NU5DN2NZWHY5a1VxUmczem90RUgyMVZOMnlneXI0Nlg1ZG9BRkRNeXdiY1c5Znd4SzZhR2t0ZDBROEdSZG9tQllmdC13R2ZmN2Z3WEIyNDc4ZjBFRWNZYVZFaEtJRnhGWGhnV2x0cW1IWUtyUXVJRjZjQnYzRG5qOW05Z3ZnZw?oc=5",
+    "source": "WSJ",
+    "fetchedAt": "2026-04-01T05:00:17.256Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=ISgPESo2ZeY",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "ISgPESo2ZeY",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "us-attacks-isfahan-in-iran",
+    "date": "2026-04-01",
+    "title": "US attacks Isfahan in Iran as gas price average tops $4 dollars - Fox News",
+    "description": "Via Fox News. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOMW84NnVkTkZiclZQeS1OTjM0UWdrUktrQVp2cUJNUXAzVzlKN1hRSWlEX2QzNG45QWQ2UWxBc1EtVTFTQllfWTFGSzJ0bl91WmhUWnZONmhnX2s4ZVliSGdURzJobnZaVU0wZTlFMmZPWWhEMkNhbmxCZzBRODRZSU85RDNqMjjSAYwBQVVfeXFMTS1SUHdtSFZ6azBMa1Y5bHc4Zk96WXcyakxVZ3E0N044OUhmbnM0eDdndU15MzlCbWdxTjlXLTJEZHV1UnM0OUEyNXR2Y1dDQmJEemdFUXI4akF4UE5HbnNPckJ1VWRydnlOaG9FdlVJYURBejROWmxfVkdPQzJ4NnhiQ1ZyZEp2bDJGMHI?oc=5",
+    "source": "Fox News",
+    "fetchedAt": "2026-04-01T05:00:19.829Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=z8Rw4s3Ud2s",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "z8Rw4s3Ud2s",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "trump-underestimated-irans-resilience-and",
+    "date": "2026-04-01",
+    "title": "Trump underestimated Iran's resilience and now there is only one way out of the war - University of Western Australia",
+    "description": "Via University of Western Australia. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZ05lNUtETC1BYk93WXdSZ1pHUVBOM3hUelRONld1VGF4UHNHVkpKbmhKZ1JxdWU4THp2LWFGa2dEQXM1MV9iMUZSQV9GTHZycjk4RUd1VFcxQ2Y5T0d4aDQ1SDN6Z2hlR0lENzlYaUhOU3pibDNYSkU4Y0pwV1ZBcnBrRm9QT0hCUlpNMDlsUHFBT2xocU5TTV9QN1FZYUR4T3BKMGk2VDFEc29jaWRlUkNvWFA0U2Q1TXZ4NEVEZG5qTV9oOEphaQ?oc=5",
+    "source": "University of Western Australia",
+    "fetchedAt": "2026-04-01T05:00:22.371Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=rtycOs_oB4A",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "rtycOs_oB4A",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "trump-says-us-ready-to",
+    "date": "2026-04-01",
+    "title": "Trump Says US Ready To Leave Iran \"Without Deal\", Israel Indicate Other Plans - ndtv.com",
+    "description": "Via ndtv.com. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNN2F2RFdQVmo4LWI4OEN1Rl9MTjRJWXZEcGdrNlpjU09qbkw1aXZJblRoQ0dxRWRUZU9vM3B4RUhwcXRTQy11S28yd1NFT2o1OTc3OTZLVk8wV3hnYzAxSlJlNHg4QUtPWHVvT1Q0akxWNjZmQklRcFhwT09pTWpMS1BqMGdmMEhHUkRCMGozUG5rQTZsaUZOWEZwbWZUX3U1bFJkRkpUc0JodDN2NkhhRzRuWEZrODJ3ZVR3N2FYcnRJekU5N2k5Q9IB0AFBVV95cUxQNDJxZHlWdlg1ZXFDcEFmeWs0TFBFVnM3RWxMWHFyUzRJS0FmZF9QLWd5YkFkamdrM2R2Qk0xNHJrYWNLSmVlUHlVb2QxUktkaWsyY2d5SXItUk14T3ZQdVdvYUNqRWlkMVFpSl8xRTZjQmJJdHUxTlZOelJxbXE3aWZmZVJIMU5PdjJqWnRLbXNkSnVtY0V1NU5ucWJHakE4cDJ3V0FvX3dGb1YtSHJHRG05RmFvMTFpeDluaG5FWXlvWGpUbDk2V3dZdVFQTHZp?oc=5",
+    "source": "ndtv.com",
+    "fetchedAt": "2026-04-01T05:00:24.885Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=ISgPESo2ZeY",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "ISgPESo2ZeY",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "trump-to-address-nation-on",
+    "date": "2026-03-31",
+    "title": "Trump to address nation on Iran war Wednesday night, White House says - cnbc.com",
+    "description": "Via cnbc.com. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1FblpQb2ozcVJsWWw4UFN6UC1qRWxfcDMtelcxbnI3Y1E0SVhOa0V2WHFYZWQwcmkzZGM1QUN6VXY2RUpaNTNZRFJFZXZuOWFiWThYMk42UzRsQUpNclg1StIBZkFVX3lxTFAwczM5bWpQNjF1WldCSkdCMnlfUlNfUEdqM0dpNzRkdzkyMkFhOWQ1WnBKNG9GQnk0bk83TlMxa1JySmZIbjRfbWVaTmFLV2MxV3FYWTZZWHFTZEE2aGFQVm1HQ2g5Zw?oc=5",
+    "source": "cnbc.com",
+    "fetchedAt": "2026-04-01T05:00:27.020Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=S0U5eIoQUcQ",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "S0U5eIoQUcQ",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "white-house-says-trump-to",
+    "date": "2026-04-01",
+    "title": "White House says Trump to ‘address the nation’ about Iran war on Wednesday night in US - The Times of Israel",
+    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQeHdWQkVra1FLakZvM3g0YTN4Y3hDbnBTbGpyUl9fSGFnRkZzZDduUEMySlZyS1ZBZUMyV2s3UjdQR1BGXzNjYlFrOXQteFlrcWJpckpJbXZxRUpxZ0ZYazZJU0tadTI0RVJQb25GVXhlcjJxdF9hd3BOOG9fVl9HQ0JoN2s3bEhzV0pveGs0eFlCdkZQMTVRM0FodjV1OURYc1NlZklnTTFpZUtEYTBXV05qNGNxSndUWnU0TXZUVnNZdF9abThZQjBn?oc=5",
+    "source": "The Times of Israel",
+    "fetchedAt": "2026-04-01T05:00:33.820Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "unrwa-head-seeks-investigation-into",
+    "date": "2026-04-01",
+    "title": "UNRWA head seeks investigation into killing of staff in Gaza war - whbl.com",
+    "description": "Via whbl.com. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSGxOQ2Jncl9EUUtXdlV1UGdKdnBHOFNoYkJiSnRqdUdlTFE1VkVxd2s3TEkwT1Jlc0Y1dHc4c2MtdkFXd2dRVHFsZU52eDdxMV9sMElMaEpXUGJyS0QwTVFUb1NubGdLUHdZazVyRVZFMWJKRG1QRERPVnlfWXc4UDNVblBkZVNQRDQwdHBTWW5nWkl4WmpvdA?oc=5",
+    "source": "whbl.com",
+    "fetchedAt": "2026-04-01T05:00:39.489Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "evacuated-from-gaza-as-newborns",
+    "date": "2026-03-31",
+    "title": "Evacuated from Gaza as newborns, a group of Palestinian toddlers returns to an uncertain future - Boston Herald",
+    "description": "Via Boston Herald. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSjBwbnVSY3EyVWUyV2UzV3g0R1R0ZFZrR2dsQkxPOFV3U1Z4QUJNZGtDazVwbkh3YzV3OWlWeXNJdWl3YS1FNzE5cUtTS2UzWUliUEdoUXhqb1M4SFJBci12ODJPallYY1huRnhsQWw1ZTUzdnhFQlEtWXk3TU9mbnR4ZXNEY3M?oc=5",
+    "source": "Boston Herald",
+    "fetchedAt": "2026-04-01T05:00:46.102Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "unrwa-calls-for-an-investigation",
+    "date": "2026-03-31",
+    "title": "UNRWA Calls for an Investigation into Killing of UNRWA Staff during Israeli War on Gaza - qna.org.qa",
+    "description": "Via qna.org.qa. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNTkxweDdmNlR2d2t0NnNTVThNNTd0YUswamlHRWxkYXR1SkFjazZ1S2VfbVE5bkRkTWpfQ0xvWE5kSUIxMDNEYnl4WHpZTHpqRGs4VnpoSFZoSjZiX3Y2RjR2ZlRyYWJqMlcwTUItQXBsakVia1dpb0dqSS1KT05lZzhucXRGemZNOFlITGl1aXRmWDBPaUhmcjhwUTBtMWJyN1pGLW53N01vUjRDQVN2X05ydDZOaXZwZmhyMXFhSVhuTWRqVVdZNnNCY1F3ck0?oc=5",
+    "source": "qna.org.qa",
+    "fetchedAt": "2026-04-01T05:00:52.819Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "escalating-tensions-gaza-air-strikes",
+    "date": "2026-03-30",
+    "title": "Escalating Tensions: Gaza Air Strikes Amid Rising Conflict - Devdiscourse",
+    "description": "Via Devdiscourse. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPN1owN1BCRDlKN1hsYl9RMWdSQUZqalBzN1hBamNSVW1BanFwRVduMDMxbkl6bUNuQWEzeGRDWUdsWndXdjB0SXd4bHVkeVFsaGZ0RmtYekFkVDdCNm1YQUlRVk9NdjVKYjFvSE5ZYjlsQTFoeWcxRThYUjhVUlVnSFpIZVc0cDdDQjVnS0N2a0hEZzRKZFNYc0dfdmREV0JOWUNTamppelNkTVJyRjU5Z3l30gG3AUFVX3lxTE9kZ0w5Q1k1WFlEN1ZDZjlzMWdFd0g5WndxSFFhY2FDS0FWQ3ZiOEx1cFVVV25TNmpUOTJXVVdOTzBKZHN1aUphNEh4cFZBSEJfSUM5WS1YUDNheVhQVER6Wkt5cWJjTWhhYW9hWXVHSFBzbVlLdXowcmExeWlhMXFXTkg5Y1BrSnA1Nk9DTVl0VWFkTXpZd0JDOVgxajd6bWFIMUl1TkZXVk1KOHlac1Atd2ZzbFVkRQ?oc=5",
+    "source": "Devdiscourse",
+    "fetchedAt": "2026-04-01T05:00:59.591Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "how-the-big-oil-and",
+    "date": "2026-03-28",
+    "title": "How the big oil and gas CEOs think the Iran war supply disruption will play out - cnbc.com",
+    "description": "Via cnbc.com. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQOHd0d3YzbzE5LUlBUWZXVnZZTXprc0ExcnBoV21nLTdGS2h5d0kxdmpMLVBrUFh6dkgxNXNncUtvTy1JTnZHQjlIVmdOMFhiaEtFTDF0eVRpZDhLVGd2UXRTUDhFWkU1NURxM1R2UXhvVm16anNyWWpUa3RYVzFnRHRZNld4LTEyZXZiLVNraE5CWTBj0gGaAUFVX3lxTE9NSmlnV0l6Ti1QNl8yNVE4VThWLWJ5LV9YZUdMdHY3ME9oZHVhVV9EcnZZUmk4UXlGUTJNaWNNVWIybXpxY2VnYVJjeGRxVXFaTlBHSlltMEctYTAza21Odm5BX0pDMWVUYWZvSFVXWDZ4eUdla1NOTnpyaExLZTZHd2RUMDhtY0RBUVo2aW5jUHB4Mm5ISnBRUEE?oc=5",
+    "source": "cnbc.com",
+    "fetchedAt": "2026-04-01T05:01:06.199Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "oil-prices-close-at-highest",
+    "date": "2026-03-27",
+    "title": "Oil prices close at highest level since 2022 as Iran negotiations fail to ease supply fears - cnbc.com",
+    "description": "Via cnbc.com. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPS0ZuUlZpQllhX2NtRkxWX0t0MElWZ01USUYzdnZnUEhEY21tZzRDVnNLZ3dHSVMzeFdrdW4zQmJ2RTNsSmw4a0hucVpiNi12UGJic2RrRy0tWDlYdnJJTnU2RWQwWUV2X0FhRjFzSGxWdmlGZUQ5WGdhX0dFWWg4ODgyWVlxcVRyVk9PMDZKSlFtN0dwLUR5VWh6WkF0NDhPSy1TcNIBqgFBVV95cUxQUlJReFdZXzlHX1hDTkp4QWlEc0QtclBqa0hvdnNBZ3VweFA1dkoyVjFuNl9CY2RubWt1N1E4VlkybHRHdmdvRVNXbEt0THBGUFZuZU9RTVlFVWtrVEFLV3JnODFDYVR3dXpRcFMtZHlDYzgycXg3elJSWkZsbHlDX1p0NmJObUdoVWh4aU5UM1pSRkFsRkdZLXl6OUVOSmxwcU1FOHNGSjN3QQ?oc=5",
+    "source": "cnbc.com",
+    "fetchedAt": "2026-04-01T05:01:13.191Z",
     "mediaUrls": [],
     "videoMatch": null,
     "lat": null,

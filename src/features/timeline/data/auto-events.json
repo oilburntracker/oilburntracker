@@ -16402,5 +16402,39 @@
         "label": ""
       }
     ]
+  },
+  {
+    "id": "auto-day-32-of-middle-east",
+    "date": "2026-04-01",
+    "title": "Day 32 of Middle East conflict — Iran threatens US tech companies, Kuwaiti oil tanker attacked",
+    "category": "facility_damage",
+    "description": "Via CNN. Auto-detected by headline monitor.",
+    "lat": 35.69,
+    "lng": 51.39,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8yUHVXWlFCM3FxaGVTbWVGVjQwdkNFeEFtWWh4OUpCNVNkODZWZ3V6SHJzMUFsQXBINS0zWWYwQy01RGVaUmhlQVJUQWpuanVtVl9iOVpRdjdzY05BZmFqeW5PV2hHaHBrSDd1ajN6T0VHX254Y29V?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=nmOwffJ3QeM",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "auto-president-trump-will-address-the",
+    "date": "2026-03-31",
+    "title": "President Trump will address the nation on the Iran war",
+    "category": "escalation",
+    "description": "Via AP News. Auto-detected by headline monitor.",
+    "lat": 35.69,
+    "lng": 51.39,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE90dHZRdWlORGY0UVFheG5CTUVaYXhmZ2xsdHpzTERQaUMtUjllc0lXMC1udVJMTlJFVTB5ckljUGx5RFZuREtab2JVcVRRNDBiUi1mV3o0NV9FWGlsRHlRY0lXNGFZRjA?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=S0U5eIoQUcQ",
+        "label": ""
+      }
+    ]
   }
 ]
