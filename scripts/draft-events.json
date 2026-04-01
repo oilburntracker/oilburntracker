@@ -1,221 +1,5 @@
 [
   {
-    "id": "israeliran-the-first-polymarket-war",
-    "date": "2026-03-30",
-    "title": "Israel-Iran: The First Polymarket War - Haaretz",
-    "description": "Via Haaretz. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPc0s1N24zbF9wQkZhU24yNEhJeXo4am1VUTZpSU1mSzJLNkFWTHlxMUh3UVlsSFdMZ19vZlJDQ212Ym1pUHBIRHdPSEpjQmwwX0tsMmdHN04zYWtiUWJraXJkS2p2Q25RTXZuZnVtNEhqOVYzX3NIN1hsZ3NGRllMancwZHQwUnVTQUxTNjV2d1VMeTQyWGE2WFZndFJnT2FQdGZsQlppT3h3LWdYTDJQYzlpXzJTSmF5RUVKVUxxTm9QZkM4R2NXYV94OThzX1NpQ2R0dEhzVXBheDRKNXBmd25LdXVGcDJySkE1MmFn?oc=5",
-    "source": "Haaretz",
-    "fetchedAt": "2026-03-31T13:00:43.234Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=0JR9oSO8Lvw",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "0JR9oSO8Lvw",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "4-ways-iran-could-strike",
-    "date": "2026-03-30",
-    "title": "4 ways Iran could strike back if Trump invades Kharg Island - The Hill",
-    "description": "Via The Hill. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRlBHMEh5WUl4UzJYV2k1TUNUMHVkRDEydTdkRlE4WnZENUUwOWVyQW1pdC0yQ0JxRkEzLWNYX2tXX29oNUlYMndCUUZDSzcyeXpCLU9SLWdMSWJvWVo5RUNYX3p6b0tscW9JQW5aOXNfRWlwbEJqemhYME5WYndQYzV0clg1N194S0E1LTR30gGTAUFVX3lxTFBNN1ZDWEhweUNGVGUzMEpSTzJESWFXOERyZDhHMUVfMlNTNWc0RDIwQ2RvY0plbEFxZHBZeGE1SWhtOUI3X003aUFHQzhQQXRRU3RnU0hYaTNsTmlCeDZ2c09zaW00blR3NXFpU083cTBIeXlQcTRkR0k1VDhtSWJUZDhuYVBsV0owVFhzSEstZWZVUQ?oc=5",
-    "source": "The Hill",
-    "fetchedAt": "2026-03-31T14:00:14.480Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=ysKipxJLWe0",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "ysKipxJLWe0",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-update-special-report-march",
-    "date": "2026-03-30",
-    "title": "Iran Update Special Report, March 29, 2026 - understandingwar.org",
-    "description": "Via understandingwar.org. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUnNHdDBRMk4ta1EtaHFycjVxMkFZSXJfWXZqUXNSRFNRMENad29ISEpXNVJtX0NsM0luaVBjOVp0M2dPcFFNNWREZkpaR3Z4b3c2d2ZLRkpkY3dxSFJDVkdMSnFKR2t2Um9BamxQeVFSaFE1cVp6ZG1jWWlwQVpKRzl0WGRxMWZpSUk1WXY1TDA1WF9mdnc?oc=5",
-    "source": "understandingwar.org",
-    "fetchedAt": "2026-03-31T14:00:25.575Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=oLyhJc-on8M",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "oLyhJc-on8M",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-war-eu-calls-tehran",
-    "date": "2026-03-31",
-    "title": "Iran war: EU calls Tehran to discuss Strait of Hormuz - dw.com",
-    "description": "Via dw.com. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNRU1VLUpXdW1FajZvdWUtRmplWnJ1Z1RDNy1NUUxOaUlVU2dpcjUxLTFEVXQ3SEdjQ0xmMWNSc0llMlRJNURldGJBYm1VRjVzbHhiUnR4LWl2QU1uYmZlU0V5eTVjdWhDVkFXeXZFa2EwcHFJZDhQM2VJWkVlaE5rc1FmWjNTbHJPMnIxeUwtSXdRdw?oc=5",
-    "source": "dw.com",
-    "fetchedAt": "2026-03-31T14:00:33.044Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=prxaurQZkLo",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "prxaurQZkLo",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "aptopix-israel-iran-war-dailyrecordnewscom",
-    "date": "2026-03-31",
-    "title": "APTOPIX Israel Iran War - dailyrecordnews.com",
-    "description": "Via dailyrecordnews.com. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOeUgtYUk0QUpXRFB6Skg1QVpCM2tyZmdQZ3BrOE5rNHlZX2IxRVlYelpFLWlXZV9wSVl2VzhQZEZnMGM0dGtLUEVpbU9SVVFCMVZQRi1SWEV5V2VLMm5kWUVlU1dFS1NpQVluX28zbGtRUDJHaklJcm1yajQ1XzQ5SXNoZW1zN0tpd1lXM1dodHVJM0p5dzVET3JsX2NiTTd4ejN3TGNtYlZ1aXNOVUp4N0hlTlNXdlEtTUJqZG0zWmg0Vkk?oc=5",
-    "source": "dailyrecordnews.com",
-    "fetchedAt": "2026-03-31T14:00:35.437Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=a8JTWSpyfIU",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "a8JTWSpyfIU",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "live-updates-fighting-as-israel",
-    "date": "2026-03-31",
-    "title": "Live updates: Fighting as Israel invades Lebanon kills U.N. peacekeepers and Israeli troops - NBC 7 San Diego",
-    "description": "Via NBC 7 San Diego. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNb0RFR29maGo3RFk1cG44QzlfSUJEM1BWMUpTOXMycDQwVzEweUlsYnp5SnFMUTNIZjQwel83cFF6X3BqcXNITnVuVEdhbkVXOGZFdnI4dFhDVnJhUkp4RjBNa1BUMjc0NVRXZTFXWnJkUTNGdV9DY2wzMUp3WVZpR0trclNoUnVfbTZXdDFKZDJ3SVc0WnZBeHBGU0hVWnUwQ0d0ZjlVR0NSQ1l6LVVZ0gG3AUFVX3lxTE5XV05weVlnemdTOHhaN0ota1FDT0xweUE2enRselZyVEdlUWtPOHpvU0hsLVd2eHpEX2cybXJxYURlV2VrWTNCV3p1di1tOVJ2dUFrVXpuZnNIMFlKVkZVOFBRclVxTzh3SmQ3VDJlNkpaYkYwOF91X3ZTR0R1UnJ4a25IbmJXNlN2TVplWVpSV01SVm5ONVJLV1pOa3oyOEtKelpEV1BJbmQzWk9FQWpYNmkxak03SQ?oc=5",
-    "source": "NBC 7 San Diego",
-    "fetchedAt": "2026-03-31T14:00:42.827Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=ZUwSExAdw34",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "ZUwSExAdw34",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "gulf-states-pressure-trump-to",
-    "date": "2026-03-31",
-    "title": "Gulf States pressure Trump to continue war with Iran until fall of Islamic regime - report - The Jerusalem Post",
-    "description": "Via The Jerusalem Post. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE16SjBfTWpUc1loXzF1OVI0Sm9HazlrdDNCSV82QTZSTml6aXBoZ2o4cXp6U2lwdjhLZ2pFcDlhcXU0NUt0MTVMZ0N0YzRBT0ZEVW9TcjJfNnVMRlZtRmc1Z1o4U2c0dFdyRUE?oc=5",
-    "source": "The Jerusalem Post",
-    "fetchedAt": "2026-03-31T14:00:45.240Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=mHxxg7UcHCM",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "mHxxg7UcHCM",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "trump-tells-the-uk-and",
-    "date": "2026-03-31",
-    "title": "Trump tells the UK and other countries 'go get your own oil' from Strait of Hormuz - bbc.com",
-    "description": "Via bbc.com. Auto-detected by headline monitor.",
-    "category": "infrastructure",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0zSDdjTFNGMU9HWS1rX0tMYWFlU3FnbmVpNy1aNGZhWFkwcWlzWnBpWno0THB1YzlHMnh5VDNUb3dEdTRlRVRsd09rM1EtR2JrRl9keA?oc=5",
-    "source": "bbc.com",
-    "fetchedAt": "2026-03-31T15:00:16.302Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=8l6FVGYKf8A",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "8l6FVGYKf8A",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "why-did-us-and-israel",
     "date": "2026-03-30",
     "title": "Why did US and Israel attack Iran and how long could the war last? - bbc.com",
@@ -4482,6 +4266,229 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQV2o5QmVndUQ3dFY3ZGJ4YmJLeFJCV29wdWV6cTZ6MU1kMURRdXlLR2thM0dhemhHRFF1d09ieXMzazI2dUhTN2VldFVGSDU5ZnNMWEYzcmVjQVl2MjZ3WFl0OF8yY0JvcHhJMGRWN2JSenhlSFVQV0FFNG1JUE1xb2Vad1VVT3lGWjV1MG5B0gGTAUFVX3lxTE0wWnJiY2lwdTVFMS1YYVNzcmtyTTh5bEhXSlVEWE1kQlV0N0pQbHdEbFBzRTQ3VE5HR1FMTnpsdFFfcldtSFRmNGxPZ0pyb0J4dHlBenNvVW9aaGIwZzBjUUh4OUtEYjF5YUlGTkR0VDNfU3VOcVZKX2Eybm5XRlQzWVRIQlV6aDFjRmJxcV9NVVNYQQ?oc=5",
     "source": "The New Arab",
     "fetchedAt": "2026-04-01T11:01:04.744Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "opinion-whats-behind-uae-and",
+    "date": "2026-04-01",
+    "title": "Opinion | What's Behind UAE And Saudi's Offer To 'Join' Trump's Iran War? - NDTV",
+    "description": "Via NDTV. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVnM4dkJMZFg1UTBPNXZpLXBSeHZadTdRaXNqY3N4TngxeVUxcUpIRFlDMDM0elpybWtzVHNUNzA2UGpsX3NITTluRmZnOHVIbXRydlJPNS1uSWhBbUpfUTlwVl8tWmFjVElickh6WDFSZVlYckN4SkdxdXhydWthbUhuZm1ZNzhjYURLbm5mN1hmNWVPcnFNYVBGY0t1N3RMbDhGdUV0UDZ3SEti?oc=5",
+    "source": "NDTV",
+    "fetchedAt": "2026-04-01T12:00:12.105Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=uT9N4OohKYs",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "uT9N4OohKYs",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-hits-israel-after-trump",
+    "date": "2026-04-01",
+    "title": "Iran hits Israel after Trump says US will end war 'soon' - DW.com",
+    "description": "Via DW.com. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNcjRCbG93VGRqVlVZeWpyLWtxcXJSbEtFX0d1VE5PQ2VnaGYyVktxMDhFVlQ0a1A4QnlhUjU2SVlSVWlucU5QdkEzZWFMblZQcmVmYVBhN2N4dm52SXRCS0dYZGdmRWdfazNqUU8xZVY0TUY1R3N5czc3MXdWQ2pYLVhWZmlTblIxbm55RFhTdk1FS1Z6THE4MTRTOVp4aWtGdDg3RFhpZEVGaHNmRVB6RHc4ZEVjb2prcXFNa01OVDJFUnY1aEE?oc=5",
+    "source": "DW.com",
+    "fetchedAt": "2026-04-01T12:00:15.275Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=jcIgcEdRqEE",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "jcIgcEdRqEE",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "trump-says-iran-war-could",
+    "date": "2026-03-31",
+    "title": "Trump says Iran war could wrap up in 2-3 weeks as conflict pushes gas prices over $4 a gallon - CBS News",
+    "description": "Via CBS News. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTkNSR1NUcVd4NEkyRXN6TTVBZFVvNEFKZHRJc0RqMjBmVTR6eXBRVVFKeDcwLXA3YmlrQUYxZDlFa1hSb2h1TS03LXVnNy1SellPczFibzVEWUVfSW1XLThHZkZnWG42WENKN1F0NWtMNTJ3TEotaE5GbFdiVXVjNHdrUkhXaWl2V0pwWU5ucDJoRWs5VUlPVHFvT1k5UTcxMWNXV0FjX2I2b19WMXfSAbMBQVVfeXFMTXhJbl9GLVJLMUJjcExWcENrajJ6UEt3UElaQ01ralJqTG1ibnladEk5ZVdKN1V2T29mRVZpcWFlak9RZDRQVlk4VGpIQklmSkZxVGd3NUk2T1l1dEE3V0JEZDc1VXpfOEhHTU1YSWt0RTV5blRaeEJTSkhmaXBuVmE0RHBNaHJsVlIwNk5XOG01MkxLdTNSVm5JMjdzSk5MMDdDa0djRWdvX3duTlVxT3NHQUk?oc=5",
+    "source": "CBS News",
+    "fetchedAt": "2026-04-01T12:00:16.957Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=qQAl6KFxCqo",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "qQAl6KFxCqo",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "as-us-weighs-putting-troops",
+    "date": "2026-04-01",
+    "title": "As US weighs putting troops in Iran, realities on ground keep Israeli boots closer to home - The Times of Israel",
+    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNcU5ZM2gtc3phaURFc2pIckFHd0N2OE9XU1Q4TjJxMHRpRHJaekVLZ3Uyc0YxUHpkMmphdklndGcwMmJwUmo0b3NEcUhUYnNUTll5d2JFLThxbDlHQzgzaEwwb1pfV1FSRWNmRG5kVmgzTFlINnlqUk1IMjhpSFJYa09ERTZTeEhyX2k2Z2czeWhxQkdDUHfSAZsBQVVfeXFMTVpCbHVHQ2R2VzMtZlhQUVdyZDl5bEp3RGxqemhQMGRucjNKaHFOeVQySE5NcHhycFV3clB2VWJ6eUdHZ080eEt1bDdud1ZPWkV6dmtqenhQMVlsdzR0a3l3WmsyODloRXhETDhIM3FlYVdGd3RpQ1FSQ20yd2RoazZydXFfb1BfUVp5b3E3UHdwY0c0ZVFnRFF6TTg?oc=5",
+    "source": "The Times of Israel",
+    "fetchedAt": "2026-04-01T12:00:19.486Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=rwBOrrDXqsE",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "rwBOrrDXqsE",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "irans-regime-remains-defiant-despite",
+    "date": "2026-03-31",
+    "title": "Iran’s regime remains defiant despite absorbing massive blows from Israel and the US - The Times of Israel",
+    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUzNsLXI2UXphZDJQWThpRjhzUkt6MC1XQlBfZXhnYzJ1Z3RoVHRyalNrTTgzeVB0QXhjb3VvZ0YxZkVyRTZfc1JNZFhZVUhWZk1DYTlBWUVneEJ2QlNZWjVJczdPNG45UXUzR3pEaHpwMHdQWDRvdlY5OFpEZkk3dDE0ODhhSEs1UXlJNUJZVWV4eXZqSkV3LTVKcllzdlJHQjFENTM0RWh4cUFHWTBoeFFZZW3SAboBQVVfeXFMTXNqbjl5M1dpYVAzbnkzNDlGTjhwcmt2WTFndlBGUU5DNEFVVkxoSmRleUIwcENMS1dHeEZpZ0FOaDVMMENkekdCVE5CY3E2U1REaVc2ZG1Ucnk5b0VxUkRGQ3liMHc2NC1YZjFBdjZkdkpQVnVYcjNNMEQ5dFJ0clRKU043bFRDUUU2U2I3YjBMRGd3NjdCUUdHdW5RMXhYTVRwZG1wTnNUWlc0OGdmclBDSnFQRFh2QmpR?oc=5",
+    "source": "The Times of Israel",
+    "fetchedAt": "2026-04-01T12:00:24.072Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=3AcjSmlW8Gc",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "3AcjSmlW8Gc",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "opinion-why-europe-is-wrong",
+    "date": "2026-03-31",
+    "title": "Opinion | Why Europe is Wrong to Think Iran is ‘Not Our War’ - Politico",
+    "description": "Via Politico. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOTlZIYjYwMi1nSW9ZRXF1SUFQX3lSSS1MS3RjV0xRcG93aXlwdFFSVkxJMUw4VHdwUWw4WWk2VjFGWEJQNmZ1MjZrZng0Ui1sSE9zQ2FRM2c2ak5RQ1RHcmJjYnZhSTIxZWRnU1VsSldZN2pxUEhjSXZ6NFBwS2tEN3pEazFJczhpWlk5cg?oc=5",
+    "source": "Politico",
+    "fetchedAt": "2026-04-01T12:00:29.382Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=wx90gNjfPd8",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "wx90gNjfPd8",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "trumps-iran-war-is-a",
+    "date": "2026-04-01",
+    "title": "Trump’s Iran War Is a Dilemma, Not a Debacle - Foreign Policy",
+    "description": "Via Foreign Policy. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONHRXN0lJaGk5anVFYmJMM1FhbE43TExqenlDYnBjLXVvRW5XUkR1VEJkMHdkQjF4VjF6VFd5d3JGQmhtS3JGb28xbzlpR3hrdTFGZlZRa0hqNWVCWGFCSzhsRVFHRk14aGswdVp1R1ZUZ1VOdHRweFc1TmFZOWxLcDFsWWJJbW1lWjJ4V0VEZFEzckxBXzl6OVZR?oc=5",
+    "source": "Foreign Policy",
+    "fetchedAt": "2026-04-01T12:00:31.992Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=54if9r6yiQ8",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "54if9r6yiQ8",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "trump-says-us-may-exit",
+    "date": "2026-04-01",
+    "title": "Trump says U.S. may exit Iran war soon, as new attacks hit Gulf states and Iran - The Globe and Mail",
+    "description": "Via The Globe and Mail. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5ncGs4NFJDZlA1VWVQMkt6b204VzFLdk9wZDh3UU5pTDNXS0trWWs3OVkwQnQwV25xUlVuWG4yQ1RSWGVxWGNHWlltZm9fUUg0SDBfcURWdnlocGpoQnlCa1NnMHQxRHdzb2NaNlRJWDdPYTA?oc=5",
+    "source": "The Globe and Mail",
+    "fetchedAt": "2026-04-01T12:00:45.556Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israel-iran-war-rutland-herald",
+    "date": "2026-03-31",
+    "title": "Israel Iran War - Rutland Herald",
+    "description": "Via Rutland Herald. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPelJiSnVmcmF2TlE2UjNzQ3QzSFN1czJGckItMVF3bWVWbVRrYUtXTzBKNVROVlljYTR3aTcxU1c1SXRoYXZBeDNMUHdkZFdXMzZMZ09tRUFLV1FtejdPOE1jZGJOZFV3aTVJbUNOUXVGZ0tKS2F5S0hEdEdwbURaekp2MHVob0RnV0dNUDY5T3I4MmtFcG9YNkw0ci1aZ2NjZmxtb21BZ3RacGc?oc=5",
+    "source": "Rutland Herald",
+    "fetchedAt": "2026-04-01T12:00:52.325Z",
     "mediaUrls": [],
     "videoMatch": null,
     "lat": null,
