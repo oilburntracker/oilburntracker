@@ -16368,5 +16368,39 @@
         "label": ""
       }
     ]
+  },
+  {
+    "id": "auto-opinion-trump-shrugs-off-an",
+    "date": "2026-03-31",
+    "title": "Opinion | Trump shrugs off an attack on U.S. lives. The reason has a name.",
+    "category": "military_strike",
+    "description": "Via The Washington Post. Auto-detected by headline monitor.",
+    "lat": 38.9,
+    "lng": -77.04,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQYUV5ZkwtbjhCSXJWMzZvMUZBdmlsMnpTRHR6QXZNMEg2UXRtUHdMVnhib2pTTVB3c1RJb1dRR0ZPNTRwQ2NrVVU3NTNiT0F4aGdRcG1td1J2QkVYWU9oeFZLRndkM29STVlEY0p4YkpzRGZDN1VSZjVhVzRMeVJBUUJlZ0hjUGM5M1Y4N2VFZ1hjSjc5?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=fxMiy_An7V8",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "auto-iran-war-turns-middle-east",
+    "date": "2026-03-31",
+    "title": "Iran war turns Middle East dream into nightmare for Asia's migrant workers",
+    "category": "escalation",
+    "description": "Via BBC. Auto-detected by headline monitor.",
+    "lat": 35.69,
+    "lng": 51.39,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBjeWlHdTI4TEVQa3FGNURTT0xsa3FSRzV0enJpUUJUeTdKSEhBMFpVQ3VKRGNsOXdhMUNSQmlEM1Zva3VUbjdabkd0SHpxeVN1Q0tkSkVUdHJYQQ?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=4y5sOYAACnc",
+        "label": ""
+      }
+    ]
   }
 ]
