@@ -1,100 +1,5 @@
 [
   {
-    "id": "live-former-us-embassy-in",
-    "date": "2026-04-01",
-    "title": "Live - Former US embassy in Tehran hit as Trump set to update Americans on war - ایران اینترنشنال",
-    "description": "Via ایران اینترنشنال. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9wbUxpOWxMUFpVeTVwcmJmeGN4bG5RR3hLWkJaZ2x0NnFOTTF1ZDg2MGh0dE5rOERZZUtrN05YWURsNGEzYjczV2ZreG9CUlV6OG1UejlXVERiaUpEb1E?oc=5",
-    "source": "ایران اینترنشنال",
-    "fetchedAt": "2026-04-01T09:00:23.706Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=oNoj-uzVvHM",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "oNoj-uzVvHM",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "israel-strikes-tehran-as-trump",
-    "date": "2026-04-01",
-    "title": "Israel Strikes Tehran as Trump Prepares Address on War’s Possible Endgame - Kurdistan24",
-    "description": "Via Kurdistan24. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPb1F2N0xxVXFsVF8yeW42b0QxUXloTTg4Y0F6dlVyZ183cnBXc2VwSWpiRHI3dFp0ZEhLd0FiVkVnY2hzWVQxWkF1NUMtYi16UUZYSm9qZ3A2LWtkLXlzWEItZFZIcnBLU2M0Tk1aR0o0YlVzY0FSRHhVVGQyUTJKNTlHbmsyczF6aFYwSWcxYndLOGVidEJoNGJXdnEwRWJSZ0hzbHI1aFB1X0RvSU1BcEY3b0IwMEE?oc=5",
-    "source": "Kurdistan24",
-    "fetchedAt": "2026-04-01T09:00:38.734Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-war-turns-middle-east",
-    "date": "2026-03-31",
-    "title": "Iran war turns Middle East dream into nightmare for Asia's migrant workers - bbc.com",
-    "description": "Via bbc.com. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBjeWlHdTI4TEVQa3FGNURTT0xsa3FSRzV0enJpUUJUeTdKSEhBMFpVQ3VKRGNsOXdhMUNSQmlEM1Zva3VUbjdabkd0SHpxeVN1Q0tkSkVUdHJYQQ?oc=5",
-    "source": "bbc.com",
-    "fetchedAt": "2026-04-01T09:00:51.296Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "with-israeli-strike-on-a",
-    "date": "2026-04-01",
-    "title": "With Israeli Strike On A Caspian Port, Iran War Could Endanger Russia's Trade Route With Tehran - Radio Free Europe/Radio Liberty",
-    "description": "Via Radio Free Europe/Radio Liberty. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1TdW40R1hNWDBqcjNHUUZ4LWtPTGI1bGhyRVhmNTNDdW9kcDVLRGtmbmx4Q2pSU3Z4XzBqbEhTZTh2SjAyYWwxMU93TkpXZ2xVeHdqdnJrSXhCV0xhbGlJX0JBMVQwZWRaMGI4TkFncE1vZ0txUVE3RGZn0gF8QVVfeXFMTWdKcEowNkZUM3F0Xy1mMGxQUFgwNFhvbWM1eTNQNW1vTk9EWk40UlJyeXJWVi1nWC1LdWlSWWJjdnpyYzhFcUdiN3FXZndhVFBJZFVOZHlESWhwc3JxbGRTTktRM2Ftb3dhUTZfVnhWV2dOYjJPbXJtRlAtSw?oc=5",
-    "source": "Radio Free Europe/Radio Liberty",
-    "fetchedAt": "2026-04-01T09:00:57.963Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "ceasefire-or-regime-change-israelis",
-    "date": "2026-03-31",
-    "title": "Cease-fire or Regime Change? Israelis Split on How Iran War Should End, Poll Shows - Haaretz",
-    "description": "Via Haaretz. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOd1R3MC1OdmZOYUJUWkZUM0FrMU5FOURiNXJCdXVmSkI3VHI4YkZ0Z3B3MVJuNFVGYlAzdHptQ2pmUXpmNnN1M3BZdUhBN3lCbWZ1WS1SR2JDZkd6Q1NJbkRtbjBnMzRObm5SZzRmQXpEamlHOFJqa0Z5SERlMUFSTE5HV0FlT3p3OVFCSHNZcFJXS2paWVY4M245QlVSbVZOa1p5Y3ZkN3dnMVRfNWJLb3M2OExpZU5zOFhqdGo0ZE45VzB1S3NmUl9jRVdYaFF4MFZtaFYxXzZUdFFyXzU1ajA4VlRnMFFYV3VpMA?oc=5",
-    "source": "Haaretz",
-    "fetchedAt": "2026-04-01T09:01:04.350Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "iran-war-live-missile-from",
     "date": "2026-04-01",
     "title": "Iran war live: ‘Missile from Iran’ hits oil tanker off Qatar’s coast - aljazeera.com",
@@ -4411,6 +4316,280 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE4zbWQ5TW1zSjV1LXpFX0FjRXliMEZ6M0JCOElxd1kyY3R3WUx2SlVkOENZbXI4d1FxU3JjU0hnRW9qbWlldFNYcEcxUGtzVFRmbDhHN3FBNA?oc=5",
     "source": "The Jerusalem Post",
     "fetchedAt": "2026-04-02T04:00:55.538Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "live-updates-iran-wars-core",
+    "date": "2026-04-02",
+    "title": "Live Updates: Iran war's \"core strategic objectives are nearing completion,\" Trump says - CBS News",
+    "description": "Via CBS News. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTHljMlVvcm1yV2JaNWg3TExNeTVnS2J5SHRCbmJMUF8wOEJOV0NDc3RzdExDT3JXM1k4UzFPb2xMTXBzTDZOaHEwRGhpVXVSckdMYXZIQUhrS2JOS3Y4cjZ5Q0tKMUQzU2tTODRUcFVHZzRQcmFLeEFXeElUY1ZIQkZpby1vU0tmcnBxYzhBcm1tbXRfU2g0WkpwQ2t2LW03WnBTWVRuS1A2SExlbXfSAbMBQVVfeXFMT3lsU0pqWFI0LUstM2phYVNqZkpHdlFuLVhMUzNpSW1xbS1MQWE5ZTd3NHU3SW5zOFRPT2E5OHN2VGkyME50UVJLS1MydUdCZ25VNURITkMwcTVYMDVoa1V2Sm9EWllUUFpRa1lZU3VNLUhuRGEzNDdJUWVZZ0dYRW9UcUxaN0txd2xuM0gzS1VsSzdGWVRpYzJJSEwxVWZXbmlQSXlTblE4Y05PU1d4U2lwY0U?oc=5",
+    "source": "CBS News",
+    "fetchedAt": "2026-04-02T05:00:12.519Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=qT5Rf6HIp-0",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "qT5Rf6HIp-0",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "trump-declares-us-nearing-completion",
+    "date": "2026-04-02",
+    "title": "Trump declares US ‘nearing completion’ of ‘core strategic objectives’ in the Iran war - The Times of Israel",
+    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9IdWtBQkpmODNMaDdWVzJKTVBfMjFOS21Yc1h4Nktjd3NPMm9oaU84NjFQZnVnRjlfcWxrTFJIVzNYSVZRd25yeXNxbFBKdjJQMTZfcTY5SWNIU3hJMDNvUk8tRdIBaEFVX3lxTE9SdERVUlhBRG1fYm1DcW55dm5BRzlfM2ZYc21nZnA4bzVyeUc5ZW9oWWItTkgzdjdTMndhUDVDTnZaMHotV0FQUTI2NDVZS19YZEh4QWtwQ3VjeUktR1JMMThhZjJQdE9v?oc=5",
+    "source": "The Times of Israel",
+    "fetchedAt": "2026-04-02T05:00:15.909Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=exDlqDXyjvQ",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "exDlqDXyjvQ",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iranian-americans-have-turned-against",
+    "date": "2026-04-01",
+    "title": "Iranian Americans Have Turned Against the War, New Poll Finds - theintercept.com",
+    "description": "Via theintercept.com. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRmdzWVNqcXBaUGczNF9SanJ3RlRGRlgzSVluVm9hOVBTdkR2N19WQ3BCNmVkWG04OTR4alcxNmI2TC1Rb1Y0MWItNkJ5bEFBeWJmM0JabXl5bTZkYnBiT1JweXdHaEJSZFJOcG5uWml1dGx0QklaMWw0N2dFaHpmeEJfaG8?oc=5",
+    "source": "theintercept.com",
+    "fetchedAt": "2026-04-02T05:00:17.481Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=LqFXJEIUXLk",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "LqFXJEIUXLk",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "trump-on-iran-were-going",
+    "date": "2026-04-02",
+    "title": "Trump on Iran: We're going to hit them extremely hard over next two-three weeks - Haaretz",
+    "description": "Via Haaretz. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMingJBVV95cUxPemMtM01UZDU4b0Nsb1VuRm5UcjZlem5ZZUxDQVRMQUlsZGZyVnlEbTVHd2Q1Y1JwTFV5bnNudG9BeTE2S1F1VlFsSVptVl9rNnVwTjYyN2gwbUxVM3Q2bHRRUTVPMGJVTFlPSXBOUTRIYkhjQ0FZYnFpVklhX0hzR3NuV0FCcmFfem8tNWw0WUMtd29xNm1PZzNRU2YyUGhBNGdCM2Q4OVduYWF4OWJKRm04VzlRSW1NSkxKUXhiOEppdGNwNjZVR1VTaEhudmZaMFNuRGhta1IxMHpGSXhtcEtXYlJ3bDM4Y2htNHFuakhvSUJiS0ZQclFwVjRkS25MWmFIUHZlNi1NZXFuUzNaUGN4LVFxUVJ4WFh6X2xn?oc=5",
+    "source": "Haaretz",
+    "fetchedAt": "2026-04-02T05:00:22.562Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=On0IaFJE0qY",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "On0IaFJE0qY",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "daily-brief-about-usisraeli-strikes",
+    "date": "2026-04-01",
+    "title": "Daily brief about U.S.-Israeli strikes on Iran: Day 33 - Xinhua",
+    "description": "Via Xinhua. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5vSkJLd2psN1I4SHVsaVE2UnFQdXpINjZ2LXU2OGJ5bWR6T0dmUFFzb180M3NqVjUteU85MFlmMElNTnJFRmp2LU1tWUVsRVlXdXRFak1YMlUzSDNsMGY2MWlFZ0FVbU1vNExKeUJ5LVdUS0NDbFNPc012QUE?oc=5",
+    "source": "Xinhua",
+    "fetchedAt": "2026-04-02T05:00:24.904Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=yvcBSwCeRWM",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "yvcBSwCeRWM",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "irans-war-with-israel-and",
+    "date": "2026-03-26",
+    "title": "Iran’s War With Israel and the United States | Global Conflict Tracker - Council on Foreign Relations",
+    "description": "Via Council on Foreign Relations. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMWduRExjZXhMUjFuYjV4Zzc0LS11OHVKUEhXSlpUNUdFMm9MVGlJeFd5eGh1ZWpEWWhFNEdJX0tOVTlJbnZ5NmpBQ3dYeGNpSTBOSWtISUduak5WSHhfQUhQcHBKbVpLdG1IVi1ySWVGd05NM18yektrem1TM3ZvaV9xVjR2eC04cE9RZ3FZajNCZWFHNzBaS0hhSS02dw?oc=5",
+    "source": "Council on Foreign Relations",
+    "fetchedAt": "2026-04-02T05:00:27.430Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=YAwcOM_XxkQ",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "YAwcOM_XxkQ",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "in-their-conflict-with-iran",
+    "date": "2026-04-01",
+    "title": "'In their conflict with Iran, the US and Israel are pursuing divergent war aims' - lemonde.fr",
+    "description": "Via lemonde.fr. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPRGpOQ3lJc1VwT1pNV2VCYzhpX1JhZy0tRGw1WGxUOER3ZWNFWU94WjdVbWtybUdrOGd0dUpPLTlTa3puOV9US2s1OWhTZEoxQTBKaWhoc0I0WlVhUHdLNjliSlNYR0pJTFU4dmJrUkdCU253YkNUSXNlUDlBb1RkMHJHWHZJT0o0RUZMcENrY1lHUHVXcEVNTUUwRnNFX0hFSkFFNXNsTGNKWDcxM3hGdU1OdlExQ0pjZEg0ZkppZFBRUTJ3UmIyTlRqSUlxeGdoUVhFeDFfdGZYWE9LTEdF?oc=5",
+    "source": "lemonde.fr",
+    "fetchedAt": "2026-04-02T05:00:29.882Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=qQAl6KFxCqo",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "qQAl6KFxCqo",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "hopes-dim-for-swift-end",
+    "date": "2026-04-02",
+    "title": "Hopes dim for swift end to Iran war after Trump speech, oil prices surge anew - Al-Monitor",
+    "description": "Via Al-Monitor. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUDVYVVR5enhBanY5SXZGaFF2RVZSOVFKRGVkRklrWWRhOEVCUWlOdW53ZDNkc3JlaUxIRVY1ei1rR3IxSVZ6dnpZSjl2eG5VUk0tMHNyZjRWT1MzUnAxUno5NXQyN2t6ZTR2c2oydG1qX0tvVHFoeVpsSmE5MjNYRmhIeU90bXVjUjZ3ZzlhOEVORXZDRDlWRUVFaGM1dUtPM2ZnNGlXMk9ueU45eGh5c2VOdkM?oc=5",
+    "source": "Al-Monitor",
+    "fetchedAt": "2026-04-02T05:00:36.240Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "watch-trump-delivers-address-to",
+    "date": "2026-04-02",
+    "title": "WATCH: Trump delivers address to the nation about the Iran war - The Times of Israel",
+    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZ2c2VE1yZnMxUm9ibHgwRjZzWEpIVkwzS3ROSVg4bDVTZXI4NFo0RWc3SVRRNUhEVG1PQmNtV3VLaWp3UXpvOF9IN0E5ZWlxYWx3X2plYTJkSWNCZkF5X2ROMFA1WjJmdXd0YmtETWFFYWN5WE1VbjN3MElaSmVZYl82QWlsWkdpLS1oU3dCY2ZJMTNkVzltZ0Z0VDF5LUM3SW9DeEJwZF9BN28?oc=5",
+    "source": "The Times of Israel",
+    "fetchedAt": "2026-04-02T05:00:42.655Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "opinion-why-2-gulf-states",
+    "date": "2026-04-01",
+    "title": "Opinion | Why 2 Gulf States Want Iran War To Continue - Even As They're Battered By It - NDTV",
+    "description": "Via NDTV. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVnM4dkJMZFg1UTBPNXZpLXBSeHZadTdRaXNqY3N4TngxeVUxcUpIRFlDMDM0elpybWtzVHNUNzA2UGpsX3NITTluRmZnOHVIbXRydlJPNS1uSWhBbUpfUTlwVl8tWmFjVElickh6WDFSZVlYckN4SkdxdXhydWthbUhuZm1ZNzhjYURLbm5mN1hmNWVPcnFNYVBGY0t1N3RMbDhGdUV0UDZ3SEti?oc=5",
+    "source": "NDTV",
+    "fetchedAt": "2026-04-02T05:00:49.233Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "not-the-economy-stupid-how",
+    "date": "2026-04-01",
+    "title": "Not the Economy, Stupid – How Gaza Reshaped America’s View of the Iran War - palestinechronicle.com",
+    "description": "Via palestinechronicle.com. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcjVUOHkwckc3MloyZ0ZydmpaMTY0QkdPWlN1M082Y0xxd2g0Y0xtaUxNTmljXzFnWjlsVEJRMlFkeS1NNjZOMUVrQTViQldidFZUY1NzYVdnOTk5dDFoUmRfX1B1c3R3LTRMc1lJUFJLbERNQVI1dG9mU3pqZmtZek5wRXdHYl9yQm90ZUtueVRKNXJ6cDlJY0F4cHNQcERpcnR3c0dlamxDUQ?oc=5",
+    "source": "palestinechronicle.com",
+    "fetchedAt": "2026-04-02T05:00:55.160Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "breaking-the-gaza-aid-bottleneck",
+    "date": "2026-04-02",
+    "title": "Breaking The Gaza Aid Bottleneck: 106-Tonne Delivery Arrives Via New Sea Route - eurasiareview.com",
+    "description": "Via eurasiareview.com. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTk90MXMwOW91Vktqb2N4TEMtZzRMSjR3MWx1TTNzdHZoc0ZPcjhONEZVdWU0VkJrQkVtZXE2LWpOVmJHTXpXNzN2eWRKcURqNWlxZ1ppa1dhTGtlR1JsQ2JyRk5EU0liZTNjVFVNWGhnbGNzNm1jWjFIN1FmSlZLZlc0ekZ1aWI4cVZjcjcyTlZ4ZU5zdTlXcUJYMEJqWnppV1JEeE9EekZ1bE5lVmtoU0h1TE0xcE5k?oc=5",
+    "source": "eurasiareview.com",
+    "fetchedAt": "2026-04-02T05:01:01.791Z",
     "mediaUrls": [],
     "videoMatch": null,
     "lat": null,
