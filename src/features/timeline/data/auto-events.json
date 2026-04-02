@@ -18243,5 +18243,66 @@
         "label": ""
       }
     ]
+  },
+  {
+    "id": "auto-live-updates-iran-war-news",
+    "date": "2026-04-02",
+    "title": "Live updates: Iran war news, oil prices surge on Trump’s vow to hit Iran ‘extremely hard’",
+    "category": "facility_damage",
+    "description": "Via CNN. Auto-detected by headline monitor.",
+    "lat": 35.69,
+    "lng": 51.39,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPd1ppZExOLTBzQ0RlRmRqNEhyUkliVHFiVHhuNjVSUkVCWEk5T3lVWU5ycjcwQW9qMHA2QWVJLWpoamkwcUFrYUVVd0YtZmdKSC1Db0dEdFMybUp2V25PT1lHTjVvRXRTc0ZmZjctYjFxc3NhWmF4QnFIQmo0Y1c2WGxjQQ?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=ERROs9KioAI",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "auto-yemens-houthis-coordinate-with-iran",
+    "date": "2026-04-02",
+    "title": "Yemen’s Houthis coordinate with Iran, but retain independence, despite war",
+    "category": "chokepoint",
+    "description": "Via Al Jazeera. Auto-detected by headline monitor.",
+    "lat": 35.69,
+    "lng": 51.39,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE51SkcyZGJHT0FvMl9ERWxGM0JDTXJ0RDJTTVNERDVwd05EcGkzb0xJc0RQNXk5TnJXTTVjMnU2bTg1VkJSbzJLM0FDbmhNRVNUMmZrbTJQaldjV1hMU1BqUDRvMHh2QlRUUV9iVzNkSFlNd0ZhaUHSAXtBVV95cUxQVWdPZWU1amNtXzU4ZU00WHliT1hUUWU1YUlLdzdiNmp4LW4tWkxGXzgtS2VmVGNfeE5wS3RjbnVXTG54Vm9aNF9ESk9PVjY3ekU1dWVoRE1LOERmNTl4TEg0dEZUWnJjcHZJU0cyOElVX24xblN2a19XWVk?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=lu3bxImXKW0",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "auto-useurope-rift-widens-as-trump",
+    "date": "2026-04-02",
+    "title": "US-Europe rift widens as Trump lashes out at NATO allies over Mideast war",
+    "category": "escalation",
+    "description": "Via AP News. Auto-detected by headline monitor.",
+    "lat": 30,
+    "lng": 48,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOdWFFMEhFRmdIZ0tUNXo5ZzFjcWlTQ08zMnc2VTFzbDUwaU94UlhsQWVBdi1MeHk2UUpxcWk3U0lDREdQVmwwbUdaNzFUd1RoZ3NwcE5TaDlDV0V4ejFWb1hoZ2ptendBNDlOSHBCd2FRbThKSFhHWDVuRnVBeUp3RllZa3JxWHJUdjBMS1o1dFNFMVpyMF96bFVpczY?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=bNSoTwsvV-4",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "auto-iran-fires-missiles-at-israel",
+    "date": "2026-04-02",
+    "title": "Iran fires missiles at Israel and Gulf neighbors as Trump talks of winding down Mideast war",
+    "category": "military_strike",
+    "description": "Via AP News. Auto-detected by headline monitor.",
+    "lat": 35.69,
+    "lng": 51.39,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSExyLTIwYkxDM3RVdU4xN2FXeThlcmdZWm9GRnJjeThwQlo5VVgzV2hXTko3T2dwOEk1R1BsZE5MdGNLcmJmbXdueFVkY2tiUDJoM3ZORnpwbTUxazh5bklLQjF0dzVjZkoyZ25uWFZ6T0Ztck4tYzNEakRhLTdoWG5laGR6cDVSajUzMExDZ2JiTEl4WU5qWTRyZ2lSSHlBTXhN?oc=5"
   }
 ]
