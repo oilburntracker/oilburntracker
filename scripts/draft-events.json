@@ -1,208 +1,5 @@
 [
   {
-    "id": "iran-war-trump-says-us",
-    "date": "2026-04-02",
-    "title": "Iran war: Trump says US will 'finish the job' - DW.com",
-    "description": "Via DW.com. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNcjRCbG93VGRqVlVZeWpyLWtxcXJSbEtFX0d1VE5PQ2VnaGYyVktxMDhFVlQ0a1A4QnlhUjU2SVlSVWlucU5QdkEzZWFMblZQcmVmYVBhN2N4dm52SXRCS0dYZGdmRWdfazNqUU8xZVY0TUY1R3N5czc3MXdWQ2pYLVhWZmlTblIxbm55RFhTdk1FS1Z6THE4MTRTOVp4aWtGdDg3RFhpZEVGaHNmRVB6RHc4ZEVjb2prcXFNa01OVDJFUnY1aEE?oc=5",
-    "source": "DW.com",
-    "fetchedAt": "2026-04-02T03:00:18.445Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=On0IaFJE0qY",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "On0IaFJE0qY",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "why-did-us-and-israel",
-    "date": "2026-04-01",
-    "title": "Why did US and Israel attack Iran and how long could the war last? - bbc.com",
-    "description": "Via bbc.com. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE55MG5wdTJrMFlNLWRENFBMZEFMcW0yN0E5dE1lajB6eGRWU1JNN2Y0cXhkbGlGdEpTcG1naHdqN00yLThGV3Qzd2RmYWhBa0tfS1I5ejRobjVGZw?oc=5",
-    "source": "bbc.com",
-    "fetchedAt": "2026-04-02T03:00:23.188Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=d8uHnOCWzDs",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "d8uHnOCWzDs",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "what-is-benjamin-netanyahus-end",
-    "date": "2026-04-02",
-    "title": "What is Benjamin Netanyahu’s end game in the Iran war? - The Conversation",
-    "description": "Via The Conversation. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNYk9FOU5mdEx0aFZIUFZNbmVrUE1JZlpKS1U5dGZaOFNtZnRucnhUSjM1M0R2SmlCSVIwWGp2clBnZ0NLVGJLUi1CLUR3UndKWThQaU1YU2cxemE1OUhuSVFqMW8zSV9oc3pPZ0M3Y1dQU05YVmVLOTZ2elpvVGJsVE5fMHpEMnBOUXdteFV0WHo?oc=5",
-    "source": "The Conversation",
-    "fetchedAt": "2026-04-02T03:00:27.755Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=e1W1bpZQQaA",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "e1W1bpZQQaA",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "trump-prepares-to-address-nation",
-    "date": "2026-04-02",
-    "title": "Trump prepares to address nation on Iran after vowing to end conflict in ‘weeks’ - washingtonpost.com",
-    "description": "Via washingtonpost.com. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQalhvekptbU9yUU82cnd6VjgyVmt1Tjd4VFkxQ2JBb2h0UjlHT21yMkQ5RnpnNS1zQVZhVmVxVTd3elhrNjZOeGFVaXB4X1NsakI1cmp0SXZuWVU5UGdHMThYc0pZVHFjYm5penRCTFR4eDQ3LVpVT3ZobzQ3OTlCcjZ5aw?oc=5",
-    "source": "washingtonpost.com",
-    "fetchedAt": "2026-04-02T03:00:57.658Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "lebanon-israel-iran-war-mankato",
-    "date": "2026-04-02",
-    "title": "Lebanon Israel Iran War - Mankato Free Press",
-    "description": "Via Mankato Free Press. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZTRpN2NWMkxkRU1FYkdGcFJlZXp6amNSbk9KUzRMNkpHa2lTeEYwTFRLQXpqRHBkTkhxdVA0SUE5YXBSdmFVTWxyWG1GQkJKdUpJaUlObGt3NFVlcldERjkxVzVUcWdkdm9yZ0I2WDR1cHpPZ1FPNDJVd0ozNXFKcHhDNHJPc1pscFNVN05WNmRkWUdOVDJmd05QbDZvZkZlVjFjNEhWYl9ldENoT2ZLWXVPYXV6NHVXRVE?oc=5",
-    "source": "Mankato Free Press",
-    "fetchedAt": "2026-04-02T03:01:04.216Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "live-trump-says-iran-could",
-    "date": "2026-04-02",
-    "title": "Live - Trump says Iran could be bombed ‘back to the Stone Age’ as deal pursued - ایران اینترنشنال",
-    "description": "Via ایران اینترنشنال. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9wbUxpOWxMUFpVeTVwcmJmeGN4bG5RR3hLWkJaZ2x0NnFOTTF1ZDg2MGh0dE5rOERZZUtrN05YWURsNGEzYjczV2ZreG9CUlV6OG1UejlXVERiaUpEb1E?oc=5",
-    "source": "ایران اینترنشنال",
-    "fetchedAt": "2026-04-02T03:01:10.302Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "live-updates-iran-wars-core",
-    "date": "2026-04-02",
-    "title": "Live Updates: Iran war's \"core strategic objectives are nearing completion,\" Trump says - cbsnews.com",
-    "description": "Via cbsnews.com. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTHljMlVvcm1yV2JaNWg3TExNeTVnS2J5SHRCbmJMUF8wOEJOV0NDc3RzdExDT3JXM1k4UzFPb2xMTXBzTDZOaHEwRGhpVXVSckdMYXZIQUhrS2JOS3Y4cjZ5Q0tKMUQzU2tTODRUcFVHZzRQcmFLeEFXeElUY1ZIQkZpby1vU0tmcnBxYzhBcm1tbXRfU2g0WkpwQ2t2LW03WnBTWVRuS1A2SExlbXfSAbMBQVVfeXFMT3lsU0pqWFI0LUstM2phYVNqZkpHdlFuLVhMUzNpSW1xbS1MQWE5ZTd3NHU3SW5zOFRPT2E5OHN2VGkyME50UVJLS1MydUdCZ25VNURITkMwcTVYMDVoa1V2Sm9EWllUUFpRa1lZU3VNLUhuRGEzNDdJUWVZZ0dYRW9UcUxaN0txd2xuM0gzS1VsSzdGWVRpYzJJSEwxVWZXbmlQSXlTblE4Y05PU1d4U2lwY0U?oc=5",
-    "source": "cbsnews.com",
-    "fetchedAt": "2026-04-02T04:00:13.613Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=YmrquGW-l5Q",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "YmrquGW-l5Q",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "coming-home-traveling-from-maine",
-    "date": "2026-04-02",
-    "title": "Coming home: Traveling from Maine to Israel during the Iran war - The Jerusalem Post",
-    "description": "Via The Jerusalem Post. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBqcFZ0a21LNHFNd0FMUEZLc1JZS0pYM21Jb25MRDhVazdZYjRHUjQ3N3ZCbGcxQ0ZEd2FFZERlQWl3cnZjU2FKdjRIWkluR3U1VGV4ampn?oc=5",
-    "source": "The Jerusalem Post",
-    "fetchedAt": "2026-04-02T04:00:26.886Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=H0d1KMbw4YM",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "H0d1KMbw4YM",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "will-the-caspian-region-be",
-    "date": "2026-04-01",
-    "title": "Will the Caspian Region Be Drawn Into the Iran War? - Center for European Policy Analysis (CEPA)",
-    "description": "Via Center for European Policy Analysis (CEPA). Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPbmk3d1Y2MUtTTUY1eWxIbEZYemJ4eWVYMXNMQ3FlWGpnUmI2cTVVanE0QTV3S3c3LVp5QUd1TUpka0FWVXVwTEQ4NDE0X21fdW9yT25tN3EwUmY4LVZxSHp1VmtKNWRVQmtvNlA3cERUS3pBbF9IV1J1U2dSazhHanpB?oc=5",
-    "source": "Center for European Policy Analysis (CEPA)",
-    "fetchedAt": "2026-04-02T04:00:35.238Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "iran-war-rages-ahead-of",
     "date": "2026-04-01",
     "title": "Iran war rages ahead of Trump’s “important update”; Houthis launch third attack on Israel; Lebanese army withdraws from border towns - Givebutter",
@@ -4479,6 +4276,280 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZ3V6SUhIWjl3bV9EeUxEN3lBM2hLR2hoQkcwTWtCMDRVUzB5STZNYzM4dlFaQ2h2M2RpUFFGQXVxUkpRdzNEaHZVcGZQRDM2YUhaaG13RGJJZVN5SWQ4OG9KT0wwZmY1UDliZUpkM3NkOUEySTRkZFlEN0RwNjliX0xZSldzODllcGlvN0luclFxZTA3REhFalJsRS13aXlDY3hEYzJyV0Y1Zw?oc=5",
     "source": "Kurdistan24",
     "fetchedAt": "2026-04-02T23:01:06.128Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "confused-about-the-us-israel",
+    "date": "2026-04-02",
+    "title": "Confused about the U.S., Israel and Iran war? You’re not alone, say experts | story | Kids News - CBC",
+    "description": "Via CBC. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOLThUSjBkaTYwcFE0X0lfek1qcWZ5N3FIbm4yVHJOcjJEdTJhMmlsNW1wZW1GRDF3V1A0YXJ4NUZnTWF3OVYxUkxabjBpQUh6djdVWmlkb1JfdnBubFYxeTFXR0ZYNUNiLU9VTUNaVzFMOHhKU1p1YXJBdU1RRmhPNC1EMzl5cUs4cVUyM05xLXZseFk4b3c1YngxemtNbVRUM1VCSnFB?oc=5",
+    "source": "CBC",
+    "fetchedAt": "2026-04-03T00:00:12.117Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=2gItb7ytQQ0",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "2gItb7ytQQ0",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "live-updates-hegseth-asks-the",
+    "date": "2026-04-02",
+    "title": "Live updates: Hegseth asks the Army’s top uniformed officer to step down during Iran war - apnews.com",
+    "description": "Via apnews.com. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9ZN0tlNFJqTDN5MTg1QXdEWDdrUWNRT1FXaWd2anVqV21uRWhxOUkyaTVyWkJjZm1Cb3otcnQyd2RCYnVqVHd6MmczSnNPUC0yS3ljQ3ZTZHdxdWVVMDFROEItQzd2QnM?oc=5",
+    "source": "apnews.com",
+    "fetchedAt": "2026-04-03T00:00:13.751Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=leHt7KtrDjA",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "leHt7KtrDjA",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "live-updates-us-tells-americans",
+    "date": "2026-04-02",
+    "title": "Live updates: U.S. tells Americans in Iraq to leave immediately amid threat from Iran-backed militias - nbcnews.com",
+    "description": "Via nbcnews.com. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZzd3eC1SZmVXQTgyRGxyU1VoeTE5RUo3RkNQdmZianIxaGlpWEVfa0loU0VWRDk3QUlxYlJDOEkyRTM3b0d1YTJ6NWs1Wk01QUdYcmtkcnM2S19xOGpBTUFpWmNBRTRPdFFuS0toeG5jaUxtaEFzNXdwdWxTLUxkNFpiTFdCek1LMjQw?oc=5",
+    "source": "nbcnews.com",
+    "fetchedAt": "2026-04-03T00:00:15.372Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=On0IaFJE0qY",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "On0IaFJE0qY",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israel-iran-war-telegraphheraldcom",
+    "date": "2026-04-02",
+    "title": "Israel Iran War - TelegraphHerald.com",
+    "description": "Via TelegraphHerald.com. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSDV3dThGOXUwcHI3QnpFR1NiVzF1Vnh6SUdTZ184WmwxR09sSkNMcE5LOWNWMDI1Nnd4TVZpT0N0V0U0bTI3aGVHMnJEYkJoc0Q3eGkteEk3aTRpNG5kU1dEdWFmTk01bmdSR0NidEQ1VDdlY2YtVnd1QXpKQ05BOXpWeDhBTDllWG9zV25ZU0hfTTRiemc?oc=5",
+    "source": "TelegraphHerald.com",
+    "fetchedAt": "2026-04-03T00:00:16.802Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=3EIPmf3CMJg",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "3EIPmf3CMJg",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "trump-israel-will-do-what",
+    "date": "2026-04-02",
+    "title": "Trump: Israel will ‘do what I tell them’ regarding end of Iran war, will ‘stop when I stop’ - The Times of Israel",
+    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNQUg5di1GbEkwTEcxeG1mT3JrOG1hSU5JS2ZKYXlXOHNTVmpEcGU1Z2pNTXlsNUV0aWJSVHR0bHp2ZFIwWDdDaWY3aUNYNjlfV2F0ZzB6YUp0S0ZhS1BHaHdqT0tTUUhSMVFwYWxLTmNvUXRjYUlJQ0tQeGI4UHk0RlEtcl9oQ0tQSndPbDI2Smp1REI1MWlNTFNQVmVRQkp4emNuOHpqN3NwMkxrTWRGUzlvQzRPU2t6NlZIZ24ybFhyODRpUzAxX2VxSQ?oc=5",
+    "source": "The Times of Israel",
+    "fetchedAt": "2026-04-03T00:00:21.643Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=3MUVnZevlEs",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "3MUVnZevlEs",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "trumps-push-to-end-iran",
+    "date": "2026-04-02",
+    "title": "Trump’s push to end Iran war bucks Israel’s desire for regime change - The Hill",
+    "description": "Via The Hill. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSm5lUmQ4dFJfY1FDVklZRWJUdVVqYTNUYk5SWWRDVHpGWjBQLWZyVWRHQmFvNExaZ285b1diMlBiY2pFbFRrRTNaMGltYVhpS2RUV0c1SEZvYmtLWDdQeVBvN2FSVTFwV1hKRzY4YjQ4WUdpNXJXa21tUDd2dmVUbXh3N013M1Bu0gGOAUFVX3lxTE5wWFFyUllPMGNQcmszd01QWnRBamhpQUpMcEZHMXV0d3dGcmNWRFNXNlBWM3dVeUV3Q1JjeUd5aURXUzI0aV83UnYzV09KcmZNWXhDQXNmNEhmWWQ4MXpweFNqN3ZnWlhmOFB6ZkJ2RDlJb2s1dVNfcmNtTDQxY3dxVGtHel9uU3dtZWVzanc?oc=5",
+    "source": "The Hill",
+    "fetchedAt": "2026-04-03T00:00:26.691Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=eSS-tgTARp8",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "eSS-tgTARp8",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "idf-destroys-irgc-ground-forces",
+    "date": "2026-04-02",
+    "title": "IDF destroys IRGC Ground Forces base in Tehran, begins striking mobile command centers - The Jerusalem Post",
+    "description": "Via The Jerusalem Post. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBoQl8xQjZSek1KQi1ldFFkc2RCX3c5MElmeHNKY3BqNzlLeGdUUW9Ub0dnLTJnbng1STBsNmZUWnFqZU5LYkI2ZVVnUVpKelc5T1NSZjN0R3FYRDM4TmdUZFNEMWJvTWtfbl9jV1pR?oc=5",
+    "source": "The Jerusalem Post",
+    "fetchedAt": "2026-04-03T00:00:29.033Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=BMy_ny0vZ3M",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "BMy_ny0vZ3M",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "preparing-for-the-postiran-war",
+    "date": "2026-04-02",
+    "title": "Preparing For The Post-Iran War Era – OpEd - Eurasia Review",
+    "description": "Via Eurasia Review. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPaWJ1S0RwZDR3UHljRzNlWUhWb1ZYeFlxaUE5M3RqTEJ0Y3k3TFVDeGFaS3ExM0JOUGhKdFkzLURyVjd0X2djTHdBdUhmNHBmRFEzNGlScFNENnd2eUkyRm53TE5ZQXNZWnNJb1ZDTk00UW9IZGhseWkxQnR4RDJBWWVVaU1aNDQ?oc=5",
+    "source": "Eurasia Review",
+    "fetchedAt": "2026-04-03T00:00:35.883Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-warns-of-crushing-attacks",
+    "date": "2026-04-02",
+    "title": "Iran warns of 'crushing' attacks on US after Trump threats - Le Monde.fr",
+    "description": "Via Le Monde.fr. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYzJNQ3E3c2gwLTdoRlpUeElRQ01rc1pockI0VEV0Uy05M2ZnSnhJc0w0WW1zeDE1R3ZnMENVMHk3RTRxanBpVWxIRHdWTWV4MFVtclJLOENHZW8zS0NOLUg4ZnAzUl9Fcy1qUDM3VHJYbGtUSTFDZ0lJdjVfaExxeWJnQ3o5blZrLWNSRDg2d0pwUzNsME9PS1BETTZJa3hnLTFkZjJscFVRd2EteUs0STZTV0RtR3JNV0xCQ3FDakMxTk03?oc=5",
+    "source": "Le Monde.fr",
+    "fetchedAt": "2026-04-03T00:00:48.898Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "billions-for-terror-israel-says",
+    "date": "2026-04-02",
+    "title": "Billions for terror: Israel says Iran doubled Hezbollah funding since last war - ynetnews.com",
+    "description": "Via ynetnews.com. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBwYnJXZXRRVHJiYWp6c2lkaTYtZE5CS2NaWm5nLTFncU8wMUdOckpTVEFfcWZXb2dMaklPQVJVMTF3RWJJUUp0R19RWlV4Ul80YUVGVHl3?oc=5",
+    "source": "ynetnews.com",
+    "fetchedAt": "2026-04-03T00:00:55.982Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "what-is-going-on-inside",
+    "date": "2026-04-02",
+    "title": "What is going on inside Israel? - Counterfire",
+    "description": "Via Counterfire. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1KWlBOOXpaR2daY094enVKQk56akJ3RHdQdUItY0NNR3MxRGtDXzhBVmo1NkZ0c0c1bXNXWWtYRjJtby1kSnpDM3doTXVQUW1nSFBDd2UxUnRVYzdZX0pieTdub1VSSEFyTDFsYkNjZ3N5Ti0wX3c?oc=5",
+    "source": "Counterfire",
+    "fetchedAt": "2026-04-03T00:01:02.786Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "5-reasons-why-the-events",
+    "date": "2026-03-18",
+    "title": "5 Reasons Why the Events in Gaza Are Not “Genocide” - American Jewish Committee (AJC)",
+    "description": "Via American Jewish Committee (AJC). Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1zQTNIMWEwd0owNU92cmFfTWhEVDhTMUNPT3MwaEtFNEtJYTc5cDZORmRsQmNqTXpRQXMtb084SXZPd0U2WGs5UE5idmFDeTh0YVpUNU5GYmotRXIxYmF1UXVoRkk3SzF0ckUzTDJPcUprLTJGdGl3UlI3ZkM5RDA?oc=5",
+    "source": "American Jewish Committee (AJC)",
+    "fetchedAt": "2026-04-03T00:01:09.388Z",
     "mediaUrls": [],
     "videoMatch": null,
     "lat": null,
