@@ -20178,5 +20178,42 @@
         "label": ""
       }
     ]
+  },
+  {
+    "id": "auto-2-us-planes-are-down",
+    "date": "2026-04-03",
+    "title": "2 U.S. planes are down and Iran hits Gulf refineries as the war wraps its 5th week",
+    "category": "facility_damage",
+    "description": "Via NPR. Auto-detected by headline monitor.",
+    "lat": 35.69,
+    "lng": 51.39,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUUItXzRnYUxtZXcteWxacFMzZ1dhZkdUSlZPMXVoMENEMmJYaTEzZTRCRzlYMmRmcm1HV2dseG9KNnVYbHZBNS1XaTFqZGFFU1RxY2lMUlZSMDdYTmstcnJvODZMQXo5OUpPSno0UnlsN2xsZ0FqcVZUSU9lOTQySDRmRDhqMEpEN012WTNMclN5Z09UU1JMU0FrUUpfTTdxSFlkQVpPWUFscFZfY20xVTVxZy1XQ1FXQUF6VHdnZnIzQUdFcHNJ?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=LKaBM70UZU4",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "auto-1-crew-member-rescued-after",
+    "date": "2026-04-03",
+    "title": "1 crew member rescued after US fighter jet shot down in Iran, officials tell AP",
+    "category": "escalation",
+    "description": "Via AP News. Auto-detected by headline monitor.",
+    "lat": 35.69,
+    "lng": 51.39,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaTRHZ181b3ZFdEMxenBZSl9zSThiM0s3aWhSOFpyMHB1T25heWIwQ3Z0Y1NyVEVjLXVoeHZBUkI4d3BvQVpyOFhxQ3NoOTlCTFRudjhCLVR6RW1MZG9MT3NqTjVVNWo0VUVkMzFQb0FYSnFjOUo3cXNxbE0waG5kZzVRNTFPM04wcmxMc0VEMWc2aW1RdlpLaktJRUUyNG9aeHZr?oc=5"
+  },
+  {
+    "id": "auto-iran-is-quickly-repairing-missile",
+    "date": "2026-04-03",
+    "title": "Iran Is Quickly Repairing Missile Bunkers, U.S. Intelligence Says",
+    "category": "diplomatic",
+    "description": "Via The New York Times. Auto-detected by headline monitor.",
+    "lat": 35.69,
+    "lng": 51.39,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOQUZZV1RpLWhlQWZ2Zm5GN25KYk9mQ3MtakREcXNmLWdhT0VGUTdEMnZfTHV2MDdpcDJNY1Brc3VMRGRHOGJmeGhzQ3JmV3JKeU9EYVNyUmdrclV2WDloRjVxck5jLVI2RzNfYV9lNHA4TUU2RXNuMnhuOEMwRGFpaA?oc=5"
   }
 ]
