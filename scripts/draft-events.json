@@ -1,174 +1,5 @@
 [
   {
-    "id": "un-secy-general-calls-for",
-    "date": "2026-04-02",
-    "title": "UN Secy. General Calls for End to Iran War - C-SPAN",
-    "description": "Via C-SPAN. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOVlEzQ1JqV0ZnMFFJMDFZT3d4cmxJZHVjYmdzYWZHN3BaLXJWOVRjZTJHTnA3OTdXY1g4eVRnOWMyYldVeUtQYmthS2w2eFJPQnd6ZXdJNTZOcHk5T21zS3ktQ2NHYzhtZHNLX1FMamUtXzVDM0pPVlczZXpIUHF2QUQ2STJZVGxiUzRiY29QdXVCOFBVVkNN?oc=5",
-    "source": "C-SPAN",
-    "fetchedAt": "2026-04-02T17:01:06.831Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-threatens-crushing-and-broader",
-    "date": "2026-04-02",
-    "title": "Iran Threatens ‘Crushing and Broader’ Attacks After Trump’s Speech - time.com",
-    "description": "Via time.com. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaDVpRk85REdmSkRDNTVvNzNJcnp1WWcxYktkajVHbTQ0ZFJqLU5oNXZ0em43TG5fSG02Qm5TWU8xemVEMnhNaUpSTlNNcXI3d2IxU2txVDZrd3NFRXNRZXlEcllDRWdoQXpGRHhtcnBGYi05SGNRMDhIRHdGcHozTHFtSkQwQUpSLU04RmRlME9VQ3hNV1Eyek05d3pZYWctREttREl2ZVhTdw?oc=5",
-    "source": "time.com",
-    "fetchedAt": "2026-04-02T17:01:13.558Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "one-wounded-as-waves-of",
-    "date": "2026-04-02",
-    "title": "One Wounded as Waves of Iranian, Houthi Missile Attacks Target Central Israel - Haaretz",
-    "description": "Via Haaretz. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMingJBVV95cUxPemMtM01UZDU4b0Nsb1VuRm5UcjZlem5ZZUxDQVRMQUlsZGZyVnlEbTVHd2Q1Y1JwTFV5bnNudG9BeTE2S1F1VlFsSVptVl9rNnVwTjYyN2gwbUxVM3Q2bHRRUTVPMGJVTFlPSXBOUTRIYkhjQ0FZYnFpVklhX0hzR3NuV0FCcmFfem8tNWw0WUMtd29xNm1PZzNRU2YyUGhBNGdCM2Q4OVduYWF4OWJKRm04VzlRSW1NSkxKUXhiOEppdGNwNjZVR1VTaEhudmZaMFNuRGhta1IxMHpGSXhtcEtXYlJ3bDM4Y2htNHFuakhvSUJiS0ZQclFwVjRkS25MWmFIUHZlNi1NZXFuUzNaUGN4LVFxUVJ4WFh6X2xn?oc=5",
-    "source": "Haaretz",
-    "fetchedAt": "2026-04-02T18:00:12.414Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=kw5qQ1cg6UY",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "kw5qQ1cg6UY",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "over-100-international-law-experts",
-    "date": "2026-04-02",
-    "title": "Over 100 International Law Experts Warn: U.S. Strikes on Iran Violate UN Charter and May Be War Crimes - Just Security",
-    "description": "Via Just Security. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRTU3RHlxMUZlOVliQUw1ZHlXUThYdllkTkRfQnRRWnhTRHNoeE00NTF2dXJVUGt4bzhIWGsyeGZ5UGpPYnJYdzU3MC1HdmdGbnhLbzBTRkc1cVFYY0l2VjRYdVExSGdyd0xxM01qM2NNc2ZJbHhvY0lvcF9DZS11cXZUSUVuQmJy?oc=5",
-    "source": "Just Security",
-    "fetchedAt": "2026-04-02T18:00:14.100Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=rWf5dm878TQ",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "rWf5dm878TQ",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-responds-to-trump-address",
-    "date": "2026-04-02",
-    "title": "Iran responds to Trump address with missile attacks on Israel, Gulf states - thehill.com",
-    "description": "Via thehill.com. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOZHFBTXA3M3VYMWo3OFBGVjAxcWVZMUl0SkRiTjN2WWZ0ay16UVozWktxaXlFeF9rLTVEWHB3Y0J1TFpRRFlUaGtBa2thcklhdkJ4eXJfaGxKTWI3Q0VMOFc4ZEZ3d1IyVTZuZnVzSktuWDlDd29WREJIdEFWSzBRY0gtT1EtYzZXQWlyXy1fZ3BpYzdtcVVGRXpsQmxJbmlySHdRRFNn0gGrAUFVX3lxTE9mWlNGVjR2T2g0UzlWRHRXeEtHVUpYNFBhamxkbDg5ZVVobzJuSjBYcjVhbEdkbXNYYkRycjRxTXpybjJsLW9ZYlFKMjRfMHpQSHRIR0pZNEpKWjJUSmZfVFR1UVpHeS14TElTMDRadW11QnJaVUFjX0VYZW5oeEJZc1gteG4tRk5nc0NZVnZYWlZJYml5d1FBcVFwNTJ1OWliUmQ0bVBLLVpUQQ?oc=5",
-    "source": "thehill.com",
-    "fetchedAt": "2026-04-02T18:00:17.640Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=qT5Rf6HIp-0",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "qT5Rf6HIp-0",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "coming-home-traveling-from-maine",
-    "date": "2026-04-02",
-    "title": "Coming home: Traveling from Maine to Israel during the Iran war - The Jerusalem Post",
-    "description": "Via The Jerusalem Post. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBqcFZ0a21LNHFNd0FMUEZLc1JZS0pYM21Jb25MRDhVazdZYjRHUjQ3N3ZCbGcxQ0ZEd2FFZERlQWl3cnZjU2FKdjRIWkluR3U1VGV4ampn?oc=5",
-    "source": "The Jerusalem Post",
-    "fetchedAt": "2026-04-02T18:00:22.588Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=H0d1KMbw4YM",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "H0d1KMbw4YM",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "lebanon-israel-iran-war-gazettextra",
-    "date": "2026-04-02",
-    "title": "Lebanon Israel Iran War - GazetteXtra",
-    "description": "Via GazetteXtra. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZko0MXptZ2ZiUW51V0pTaUkySVlwRTBZemVZSVpBMnh6MFhzQVlWbS1lWDgwUDlSLVBXQ0JEVGt0ZHo1Njc0bFVCYUpmLTYtQnpRYWtTbElYcmxFWVZaYUNLYjEtdEQ5dmo2QlZmYTBsM2hJa1dnWUE3YlJrUlRTZFBDQXdpNkJHOXEzOVRKZFNVRmFlUE9mbG5kOWpKaDRTUmtzVUM3RnVnd01tcHJNcWVHcld2TEtU?oc=5",
-    "source": "GazetteXtra",
-    "fetchedAt": "2026-04-02T18:00:24.693Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=a2wc3wMOz3M",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "a2wc3wMOz3M",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "the-latest-oil-prices-surge",
     "date": "2026-04-02",
     "title": "The Latest: Oil prices surge, stocks waver with Trump offering no clear end to war - Audacy",
@@ -4475,6 +4306,290 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNSEFfaWE5S0JmMFRyRVRLblV5VC0wQ0Y5cDV1b04tOEtOMlBVMTYwZDAyd3hJZDdLWEhHaVpRVE9YYzJDNm5fRURmTjloWFB0ckJkLW9KVkRhTHdiTDlaMEJNVndsNXVxMk5vdEZ3ZUxRWk85cWtGYXV2OU44U0VnWEJRQ0hxeG92dWVEQ1R1dmdpT2o2RlFlZFhDN2pNMkhqekRvOXhqNzBoa2h5blY4MTdLbGdyQ3V5aVNHU1BESm13dlhWN1hhM3dNeHJZa2VzY3Y4?oc=5",
     "source": "WSLS",
     "fetchedAt": "2026-04-03T12:01:10.560Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-war-live-water-plant",
+    "date": "2026-04-03",
+    "title": "Iran war live: Water plant hit in Kuwait; Tehran attacks the Gulf, Israel - aljazeera.com",
+    "description": "Via aljazeera.com. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOeGJ0ekwwY3dNdl80eTNoenJGbDdwNE8takkzZmdsZDQzbXNOeUlpdnV3TllJUXVvLTVQRWtiRVNQWkg1LXM4VWc2Q1BhN1pYSWE3VzFtNVFibkU3bE5laW5sMzd0YVFoOUpqUzFScWRFVlVEdXNUcEt2MTdzWmx4M0Y3WkxLSnNMMlBOaTliT2dMMEl6X2NDUTU4Mnd6NFJWSnJmeVFWNTJIVXFWZmlGUmFfbi1BT3RiVzcw0gHAAUFVX3lxTE05eVV2ek96MDg5d0dSQ2h6SlRRRGtETjQxVURiTjFSbWswTWJHSHpUcGpPWHpkWnhiV0ZDWmZCeVJwVXQ1TFF5N2J3WFJTRWZUalFDUzF1T0U1TDFXUC1uS2NSNHYxaFh1OFo2a2VVQXZpaE1qMkFfeEtsVFo0cmhiS2JQVXVLTWc3eUJjY2JsNE5jRjBVZVlPMjF2TVR2Y1liVGtVck4xOHB3SGcyMUNqdGFVYkpMQ3l6dkVQaXZYOA?oc=5",
+    "source": "aljazeera.com",
+    "fetchedAt": "2026-04-03T13:00:12.425Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=32Bpqt0CJ6E",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "32Bpqt0CJ6E",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "as-iran-war-rages-on",
+    "date": "2026-04-02",
+    "title": "As Iran war rages on and oil prices rise, Trump says U.S. \"hasn't even started destroying what's left\" - CBS News",
+    "description": "Via CBS News. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSDBtSW1WMkVtNVMtNW1iNU1BcTV4R3NOZ01BUk95cTR5SHdfRFE3ZjdVTWV1bWhmemgyRVBTQzFjYnBWcy1SUTBhS2RITWhIUWhQb0UxSDlLWXotTEJYeFVxS3BkcWxvMkpUOFN0VklNRkc1OWI5bnpJRkIxY3JyZk5UWm5zOWlweTUyNno5UGpudFdHaklfTXAyNXhmR3ZsaXJBZFlEXzc0TzZ6bFFXX9IBtgFBVV95cUxNdU5yY0swcXYxTS1HVzRWWEhybS0wMnR0dUdjbGdtOVVTSUlEYTFjYTRQUzcyMndORmhGc0VZaVk2S2szckRDcU4zaW5yVGF5WTMzcFU4SC00VkxpUkxEVlFVZTBuT1o4VHluMmI3elRZVUFySHZFS1VyX0Zob3V1WjBlN1gzYmpLX1dycWJnYWowRE8tc0E1N3ZHck1DOVpMOWNYLXU5bWRVMlJCYXlpS2ZTV3UzUQ?oc=5",
+    "source": "CBS News",
+    "fetchedAt": "2026-04-03T13:00:14.206Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=id4k2ocPn-M",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "id4k2ocPn-M",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-condemns-usisraeli-moral-collapse",
+    "date": "2026-04-03",
+    "title": "Iran condemns US-Israeli ‘moral collapse’ after attacks on civilian sites - aljazeera.com",
+    "description": "Via aljazeera.com. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTmdmcmc2UEdxaHBZbmc3R2FpZVNPLS0zM29UcWVwRF9EXzh5cVFreXJwbjVFQUdNMWpfSVVObjRLZnFlV01MbWhjTjd3dFRHRmc5b1hfVnZpY0ttdVJVQkxya2VVRlBPYl9Id2hTSWczakpIMFA3ejJxM2xBa3gtRWxlSXo2VkRaSmNMa3Roc3BZMDRMaEdyRW5HZmM4enBxcWx4VWlqS2Z0eFpWcVYtQdIBtgFBVV95cUxNVF9TYnIwVGFfRS1jLUJPRHZIRUtDUlBPLWVHMGFmRktPWlpBR0pZbFpVRHdHQmcyeEZNUWRiVmp3S1hnUHdYRE5uSU5Bejg0WEZjQmtRVXJTVWI0NHMzYmc4SFhpTEFpWVdydXBxbmlOc3ZyNHU0VFl4Q0U4aVZUYTg3dWpLUklEeGhoVUpCUUk0NDhwb2xsWG0yaWZYSXpfckdWc3ZfYm9aRXotYWVIUUM4R28yUQ?oc=5",
+    "source": "aljazeera.com",
+    "fetchedAt": "2026-04-03T13:00:15.781Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=3Vyzyxw5Brw",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "3Vyzyxw5Brw",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "over-100-us-legal-experts",
+    "date": "2026-04-03",
+    "title": "Over 100 US legal experts condemn strikes on Iran as possible ‘war crimes’ - aljazeera.com",
+    "description": "Via aljazeera.com. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVjBrcmNuVi12cG9HY2puU2p1NExzRzY0TG8xeXRTVDhsS2FWcHNYbXE3alhsTmpxYVBnNzIwcTk2eVZFQzQ2RFgtajlqNXZJVXNHNk5rQzcwQlNUUlpYVDAxR05SMkdocVQtems0N2hFdVZxLWRCZW9RWTduRkFFRVV0TmF4ZC1IdGItUXFIU25henI0VWQ1MUNpZFNsTUZKN0NNUGJ3MktidzI4V2NPSk5R0gG3AUFVX3lxTE9Uc25GalJLVFlaRHREUEppTHNDSnByS29pNzdsZm1wV1VvOEJqc2hjdFhyQ1FrdmlRTndqYnVtR2w4cTExOEZub2poNFFKMExTamdBQ0pVX0lxdThLOG1waGthS3d3TEhjQWFzck1qd0dCOXBpMjVqQVFPd0JKNFdobUViNlg1a1dRaFp6bC1jXzFPejIyUmx0bUFkYkFNSjN4RkdlY1NFM3N3Ql9aVTVuMHp6N21SMA?oc=5",
+    "source": "aljazeera.com",
+    "fetchedAt": "2026-04-03T13:00:17.497Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=bU9LHCRcDtA",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "bU9LHCRcDtA",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "i-dont-know-how-well",
+    "date": "2026-04-03",
+    "title": "‘I don’t know how we’ll emerge from this’: How much more can Israelis take? - aljazeera.com",
+    "description": "Via aljazeera.com. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOOXVEZ0FzZ2o5ZUFDb3BNRlhobEV0WFFwZzFoNl9hUmxFT1dDZ0t6ZUZOZHdXdktZLUdINVVMLUk5TGl3ZXJKVmVNaERiSXB6SnpmODVXQVA2ZEtqeEI4ZmYzSU9UOGUzbmx3amh4RVRPOW1qSFI2MWFMTWpyblU2MWtkQkRnQmI2V3ppa3VWMFFGZXVxeUQ4RmplNkhEdW5OTUVtZjRNLXNGSlNmelHSAbMBQVVfeXFMT3dKc0hmOW8ya2FBaUxGblF3RzVKc2lGOFVIX2JGMm11bF96c2taNURUZzI2Q0F6WFVsd3RqcHIyNGlLamYwc0JIa3M0azE1UEdDSERRUm52Mmo2RnplQXBTM2wzLUg4MWpsQUw1NV9qVmk5UUtDa05mUnp1SmxIblhLbExqVGFJbGdGYjZ1aVljTXgwQ0syNC1FeVV3Q2tLNklkU0t3bG1JTFNMMGFNd2J6ZzA?oc=5",
+    "source": "aljazeera.com",
+    "fetchedAt": "2026-04-03T13:00:20.053Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=217CdX7Z2tM",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "217CdX7Z2tM",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "usisraeliran-conflict-is-one-war",
+    "date": "2026-04-03",
+    "title": "U.S.-Israel-Iran Conflict Is One War Across Two Fronts: Cyber And Kinetic - Forbes",
+    "description": "Via Forbes. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPZEVkX3JzU1FhTXMxWnBxSC15RF8tNHVydVJ6UGVwV25GX2Q3MHNiRnJRWFhXekVUTUFTWXdSWmZmRXJhd2VGSF9wQklCalJKN1gtN0ZsbVBzcWFheTcxbXJ1eW1FQ1FCZjdqbjhNUGJJaFhHVnBjVTdITE5CRDE4Mk9WWXN4Y3N3UnJRazhfcF9MdEJ0b1dVSlVKdTF3eXRaR1ZEOFFEamVRR1ZYTHdpYlh1UlI0eE5ENHJvZ2Z4d0s5anhwdUlBa3lGS3RlUXU2d0VUdHZqQkk4UQ?oc=5",
+    "source": "Forbes",
+    "fetchedAt": "2026-04-03T13:00:22.448Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=vWaoon6lZM0",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "vWaoon6lZM0",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "how-the-us-and-israel",
+    "date": "2026-04-03",
+    "title": "How the US and Israel are waging war on Iran’s medicines, vaccines - aljazeera.com",
+    "description": "Via aljazeera.com. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNaHVzSGFtYW4tTUlsOERab3IxWFpKbG1jYTMyM1hPYnFPaEJzX3hzREtTcjNoYWlFdDFxVWtHVURLVU9DNXE1U2lDeG5fczl2c2ptaDBNbjhsUEZMZXNWdDRsNjRGRVFRbkVFN1J0ZGgyS01NOGNZX2puXzhJd29HY04xXy1oYzV6dklLQldsdW4wQmpzUkpqTFptWUhsSFpPcmpBcnBSd9IBrAFBVV95cUxQWDBpc1BrME5iMGowXy1sQzhuRGpMemdzZ1lzd2VsYUJPTzZUY3VqVFU5S090OEJ3bFYwYUFZQjNXUjhpeTV3RWVzTWplam1laF94cHFkYVBjWTgwX0kyXzRmY05tRUUwLXNWbFUwYzdPM2MwZXphUHJaRE1lX2xBVDRJWjY0c3BQT3FIbHRkN0JEZHpTLU9tRUdpeExRUmo2cUJpR3RiT0QzeVc4?oc=5",
+    "source": "aljazeera.com",
+    "fetchedAt": "2026-04-03T13:00:24.865Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=XQGnWJ8lVT8",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "XQGnWJ8lVT8",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "lebanon-israel-iran-war-gazettextra",
+    "date": "2026-04-03",
+    "title": "Lebanon Israel Iran War - GazetteXtra",
+    "description": "Via GazetteXtra. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbHdFVVdMOHE1SHp4SkZSWjBOM1p5MFZ6OVUxcG1wYXktcWFRa2tVcUZQM1VOWTExWWlybE8zcnFBNWtGeXVwd3BaU2lqLUtFWG5qY0pvYUx0cm15RE1yNnhOUEF3MlN4Tlk4TldFckxuLWppdzlrd2UzZFZZcHc1bEE2Vlo4Vl9PVDhpdHU1R1hBWXVTV0FEWF9XZnFMc2xqZXFjcjR1TldEVWtGdXduR3pzRUF5djZB?oc=5",
+    "source": "GazetteXtra",
+    "fetchedAt": "2026-04-03T13:00:27.016Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=K588G6H24k4",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "K588G6H24k4",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "the-latest-iran-launches-missiles",
+    "date": "2026-04-03",
+    "title": "The Latest: Iran launches missiles at Israel and Gulf states as explosions hit Tehran - KTVN",
+    "description": "Via KTVN. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQV0pXYnJhaHhBLVo2QmVZenZMNnZXUGh6Z2FFQmdpZjNlenBSdEZGaTNXa0J3LTJOYkVad29sNnc3Vkl0c0hTS1M5Sy1LbmJrVmZpWl9jS3J1V0J0dG1jdGRnRUk2OWpvOTVaWUh2bW85NDlCNGNGY2xCdy16Mk42dHhoSGwtWE1HMkxjUUhaVmZvc19UeVJSZEV2OWpwRVBncW9EbEZYMUtLUWEtWUo1Wnd0UFh4YVpZOWRUU1ZWOFM5MjVTZHFPRnJWRWZJWXlXZDdMVDZxS0dGZzV0Q1Y3ZjBRMWd4RUcyVjd2ZVpzdW1fU0FpaXBMUGc1VmJtaHV3a1hRTF80dw?oc=5",
+    "source": "KTVN",
+    "fetchedAt": "2026-04-03T13:00:40.747Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-fires-on-targets-across",
+    "date": "2026-04-03",
+    "title": "Iran fires on targets across Mideast while Israel and US hit Tehran as war shows no signs of slowing - daytondailynews.com",
+    "description": "Via daytondailynews.com. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNZm1PdnNsWWZfMjJRUmNzR3JOLW9oNGh6dUFkNjZKQzFOazhLaFB0bFBkR1I1NVdyMjhTNWh3WmNfNXhLTjhBVGJKeUMxUHFtc053NmdTMmpLbnBWS3BaSEhFMFVtcG5wc2FMOTlpWm4tdUtzZ0czOWpzb2J0OGFnNlh5QVpIQnhBanRCbjRMd1BFY3dYT1Z1d0dRRjdnWTh0dFk5RndsNHd0bDJWRlB0bkowM0RNbkozTzlORjZEd3h1eFQ1NmMtd05MWTFSTmg1UGc2LW9yMVo5eHMxUHNJak1OQm1ZeGVTSDV0LUtUMi1TeGNoZXZReThBV3JNUzBBaFAtckhR?oc=5",
+    "source": "daytondailynews.com",
+    "fetchedAt": "2026-04-03T13:00:53.264Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-fires-on-targets-across",
+    "date": "2026-04-03",
+    "title": "Iran fires on targets across the Mideast while Israel and US hit Tehran as war nears end of 5th week - The Killeen Daily Herald",
+    "description": "Via The Killeen Daily Herald. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPLXBKTUd0ZXZ4Um52bVpPd0h4emNhdGd4XzcxOVVkTW9Xd1FPMEQ5WWhjU2t3WW5VenpMVXVWQmlJZnIza1Z5ZE5HYzB1R2UyTVZ5MHEwTnc0eTVaVlY3V2xEY0JEWEpJeFdtMXlDd3FNYmhVU0lHQ1V1ODctcEJtd3h1Y2t3cG9mTnZjanFGbG9Lck1VTDhLcERFWlJKY2s1RU5Fc3M4SWU4SDI2UU5TWFpXZlpmbklKNDRlR1RhWE93VjhmNDdrSG05NFNVSjZuM1NaZzdmUzhUS244NzR6c3VGS1QtdTFuazREWlVxTEw?oc=5",
+    "source": "The Killeen Daily Herald",
+    "fetchedAt": "2026-04-03T13:00:59.585Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "the-latest-iran-launches-missiles",
+    "date": "2026-04-03",
+    "title": "The Latest: Iran launches missiles at Israel and Gulf states as explosions hit Tehran - The Lufkin Daily News",
+    "description": "Via The Lufkin Daily News. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPWDdoMWhqTnJWa2NvdGxiRHVGNkhyY0FLZXJDM1p0eExUZDcwM2hfWF9PVl84TXlNUXp1SDRuTXFBTWR4dHVrUG1jZ25HUzFSRV8yUmJ6U2VYXzFuZXFPQng5NVRhSkR0OVhlZHZ6WnJMaV9zSGhBR2JBbl8yZUUxTGlncnBzU1pydUdlYkdUM3U2NXZUXzBOVElBQU9UN1VmQnRMaXhQQnpIZHhFcmNteEhBcHZSWW9IMWg3WUl4OXRDWTRHamtmYUwyUU9KMjdhSm9TR0lPQWNrSUVDMzNTQldvSVNTVDU5bF92SlExdGp4WlF3enpMWm53bVRUZzNQdkhxZUxZejcweEE?oc=5",
+    "source": "The Lufkin Daily News",
+    "fetchedAt": "2026-04-03T13:01:05.965Z",
     "mediaUrls": [],
     "videoMatch": null,
     "lat": null,
