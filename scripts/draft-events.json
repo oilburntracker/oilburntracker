@@ -1,181 +1,5 @@
 [
   {
-    "id": "data-facility-targeted-in-wake",
-    "date": "2026-04-02",
-    "title": "Data facility targeted in wake of Trump's speech, plus what else you should know - Australian Broadcasting Corporation",
-    "description": "Via Australian Broadcasting Corporation. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUm1QejRGQU1tbWZYdWpYZ0xidzQyWkZiSWtHMXVLcnBCcjZiQjVDY0g0angweHVWaERZOEZfSTR5NGhVLWFaMk44SEFOZ3AxeUttdGFtbTc5Y0Fpc0kydktlV0VIYnZqVlJRVkxWa0dFdUlDUUdjREZZdEc2MFBUQ095R1pJQ196aUlVTA?oc=5",
-    "source": "Australian Broadcasting Corporation",
-    "fetchedAt": "2026-04-02T22:00:25.903Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=Lgo2IuQq-mA",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "Lgo2IuQq-mA",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "usisraeliran-conflict-2026-the-house",
-    "date": "2026-03-31",
-    "title": "US/Israel-Iran conflict 2026 - The House of Commons Library",
-    "description": "Via The House of Commons Library. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBLUVlHOWM5XzJtTzd6aW1SZUJfdmRBRmVDcnRjMmZoY1lJbll1UF9zZEkxVVRySzdTaUpzN1lUMlZmN18yOXNfVk5UdU9BNVA5STNSSUZ1Q2pzM0Z4VEFGN21fbi1JMGc4cmJhZk1DaVhCeFIx?oc=5",
-    "source": "The House of Commons Library",
-    "fetchedAt": "2026-04-02T22:00:46.369Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "usisraeli-war-kills-over-1500",
-    "date": "2026-04-02",
-    "title": "US-Israeli war kills over 1,500 Iranian and 1,200 Lebanese civilians - KALW",
-    "description": "Via KALW. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTS1pdWFjOFNQZTNvTENIeXZOeUMwTktWck15TUxUTVQtTHZWUWJGV2I0cmtSazNvOXFkaWxITzZVakdMOUVDNmEyUWZ1RnBValpFVXJQbFc5ZzM0VGllamxYUjVCNGJtSDFoVVpTQWdSdmdwck9sYTNzVkZFQWk3Q3prODhLSjdLWlhha3Q2OExqbzFJSWR4SmVoRzhqV19UU29rWm1XMXlINlFVdzcxN0swOXBiZw?oc=5",
-    "source": "KALW",
-    "fetchedAt": "2026-04-02T22:00:53.014Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "hopes-fade-for-swift-end",
-    "date": "2026-04-02",
-    "title": "Hopes fade for swift end to war with Iran after Trump says military operations would intensify - The Globe and Mail",
-    "description": "Via The Globe and Mail. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQjlYaU9jd19jZlRNbzJWY1RGd1VyWDV5T2pDMmJfbkxmSFpBcTBmSU9vck9XMHB1blVsM2FWUWd2d1paRTM1c3dzWGo1UmVHa1NRTUEzdFN3N2xvcEJQQzRHYXdqakZnTjV1WUxudVZ6djRDM1R2MVQ4Mi1tcFE5OEF5RkM2UzI4eWc?oc=5",
-    "source": "The Globe and Mail",
-    "fetchedAt": "2026-04-02T22:01:06.250Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "gulf-nations-back-un-resolution",
-    "date": "2026-04-02",
-    "title": "Gulf nations back UN resolution authorizing ‘all necessary measures’ to reopen Hormuz - The Times of Israel",
-    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9IdWtBQkpmODNMaDdWVzJKTVBfMjFOS21Yc1h4Nktjd3NPMm9oaU84NjFQZnVnRjlfcWxrTFJIVzNYSVZRd25yeXNxbFBKdjJQMTZfcTY5SWNIU3hJMDNvUk8tRdIBaEFVX3lxTE9SdERVUlhBRG1fYm1DcW55dm5BRzlfM2ZYc21nZnA4bzVyeUc5ZW9oWWItTkgzdjdTMndhUDVDTnZaMHotV0FQUTI2NDVZS19YZEh4QWtwQ3VjeUktR1JMMThhZjJQdE9v?oc=5",
-    "source": "The Times of Israel",
-    "fetchedAt": "2026-04-02T23:00:16.044Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=88ZYwX-yE8k",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "88ZYwX-yE8k",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "make-a-deal-before-its",
-    "date": "2026-04-02",
-    "title": "Make a deal before it’s too late, Trump warns Tehran — as it happened - The Times",
-    "description": "Via The Times. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQWm1oQnRCOFNzYXRYMGhRWU1Eb29HeTUtQ2tqRkpoNmdlUjlCOU1TMmNqdUJrbmowOFBQcjdBWmxLTUN3RHAxcXIyemdaTTlJMkotTllibERyMnFteUpERDhvZlg1bDc3bTBFSVJkT2dteVNfYVZGNUFXbVd0dlNBNDFIcGY1OHlwcG1QN2VBbmVVamRBZVAzejdwMWZQNzhzd2R5cVB1UTJTSm5hQjN6TTZR?oc=5",
-    "source": "The Times",
-    "fetchedAt": "2026-04-02T23:00:20.096Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=fbHySz-sTjE",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "fbHySz-sTjE",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-where-and-how-usisraeli",
-    "date": "2026-04-02",
-    "title": "Iran: Where and how US-Israeli strikes are harming civilians - acleddata.com",
-    "description": "Via acleddata.com. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNdUlYXzc4TWNpTG9TVVBkQ3RwaE9heTZ2eGhudHZoMUVOamcxbVVkeWJMRDliNkhDSTU5NWwxYUJKOVNoS3J5RjdVYThheGx1cnRscmptVHZTR2YxVmxYbFFVeUI4QlU4aHQ1MXZfdXV2X2hfamd5bEtkY29XWWtTc3BGdzdySHpOdVRhajcxMS0zZw?oc=5",
-    "source": "acleddata.com",
-    "fetchedAt": "2026-04-02T23:00:24.714Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=qYVUoE1EhkQ",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "qYVUoE1EhkQ",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "why-israelis-are-losing-faith",
-    "date": "2026-04-02",
-    "title": "Why Israelis Are Losing Faith in the Iran War - haaretz.com",
-    "description": "Via haaretz.com. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNUzdrZTNzRjZhNUhsNHRzcFF2bjVrTlpzUkFiQW1iSXhNcW85dC0xb3BmaUotMGpvZTJkeHlNY2oxM2syWHZSNzhLMmx6UmlFLVc0dFZaMTd1YkJBTXF4RFo3RG9HaElGaXVMbWhUWWY3ZmJaNGdYaXpsNjhKbEJlallPNmU0dWdZVS1McjVqTWFpdFB0ZnFGNG5xTThWYnlFangtOHpJVFlnd291dHZhSmxvY3E5Q0dkdkNuSzBGdmthanlFd2pGNHEydk11V25PdklsVGxGVFBIaFVTcXY1TjdUdmdWOHo2TUIzM0IwRHVSbWl5WVZFXw?oc=5",
-    "source": "haaretz.com",
-    "fetchedAt": "2026-04-02T23:00:33.566Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "israels-center-must-rise-up",
     "date": "2026-04-02",
     "title": "Israel's Center Must Rise Up Against the Iran War - haaretz.com",
@@ -4392,6 +4216,239 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOeE43dGM3NmFiWWFSZzNXYjlFd1RNbjVfOFhQeVFJSzAxb25WLVB1cElXWjFELVB5ZjJRT3BwOVVCWTFvY0xHMDF0dmFGNzlkaEpqeW1XVFRqa1V4QXZSZlY3RGRLUG8wdTRPa0R5SExsY2lfdG02YVJqdFA3aEVySW4xbWxkYmhROUxmc0NnRXlQcFRGMWNDQUhmelB6RjJGTmZ2ZGktMjR2cTBVWElSWTZOSTFtUnA0dzJzMGlGYXdJbXk0al8yaUZ3THQzRUFpWVJocVZ6TQ?oc=5",
     "source": "The Durango Herald",
     "fetchedAt": "2026-04-03T17:01:12.873Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "1-crew-member-rescued-after",
+    "date": "2026-04-03",
+    "title": "1 crew member rescued after US fighter jet goes down in Iran, AP sources say - WTOP",
+    "description": "Via WTOP. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNSUlHRnhaNUdTZHhmV08wYmVyU0dEVmVJdDItU0c0c05zdHNHNENfLWxDMjNpaS1xZEREaVdBM19vdDRHTVJLWDl5N1I5UnB3S0RHU283bjI2bEZPcEZlaTVJYmJjY1JGeWVrYUNhTTZ3VjNqRW14NmtwTmotNzd5eHRKWEtYUzh2NlNCb29jQllHa2ZzcmlPZ3hWRFA1MDR5SUYzNW9mWS1valhoczRCT3JubEdaZlh2QThrb0NkSDRCWWlsT0Y5MWIzckg?oc=5",
+    "source": "WTOP",
+    "fetchedAt": "2026-04-03T18:00:14.362Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=vWgAiV0R28M",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "vWgAiV0R28M",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "us-tells-americans-in-iraq",
+    "date": "2026-04-03",
+    "title": "U.S. tells Americans in Iraq to leave immediately amid threat from Iran-backed militias - NBC News",
+    "description": "Via NBC News. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZzd3eC1SZmVXQTgyRGxyU1VoeTE5RUo3RkNQdmZianIxaGlpWEVfa0loU0VWRDk3QUlxYlJDOEkyRTM3b0d1YTJ6NWs1Wk01QUdYcmtkcnM2S19xOGpBTUFpWmNBRTRPdFFuS0toeG5jaUxtaEFzNXdwdWxTLUxkNFpiTFdCek1LMjQw?oc=5",
+    "source": "NBC News",
+    "fetchedAt": "2026-04-03T18:00:15.857Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=RTEiIRtzXBM",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "RTEiIRtzXBM",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "live-updates-latest-from-israel",
+    "date": "2026-04-03",
+    "title": "Live Updates: Latest from Israel, Iran, and the Middle East - The Jerusalem Post",
+    "description": "Via The Jerusalem Post. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5ib21jS0xTaVFSS1k3d2JMM0M2dDViSkdGRF9uQnZaU0lCcmxtV0ZTTFFpSE41U0JTQVZkelFSMV9tbnd2N0NoRHdkUHNwT1hOa1VoSTVjVTdRNGM1dDF5M2VsakthSzNsY2sySUdlMmFwZU5fNndoNWZCS05nU3M?oc=5",
+    "source": "The Jerusalem Post",
+    "fetchedAt": "2026-04-03T18:00:17.534Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=rmxBKHmDjFM",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "rmxBKHmDjFM",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "collection-iran-israel-and-the",
+    "date": "2026-04-02",
+    "title": "Collection: Iran, Israel and the United States at War (2025-2026 Operations) - Just Security",
+    "description": "Via Just Security. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBoSVdUeXVkem5oeFB6SzlYa0xrbmpSVXdlWDdrX3dhbG5vWFNvZ1ZLXzR6U0N1WVMyekQ0RzY2UXgwRWdwU0E2ZXRIbXZwaWN2eTZRbkU4M1N2X25xMjY0RjQ4WFdvdEc2VHhkbXpONWJYWEo2TzBB?oc=5",
+    "source": "Just Security",
+    "fetchedAt": "2026-04-03T18:00:22.505Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=vWaoon6lZM0",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "vWaoon6lZM0",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "usisraeliran-conflict-is-one-war",
+    "date": "2026-04-03",
+    "title": "U.S.-Israel-Iran Conflict Is One War Across Two Fronts: Cyber And Kinetic - forbes.com",
+    "description": "Via forbes.com. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPZEVkX3JzU1FhTXMxWnBxSC15RF8tNHVydVJ6UGVwV25GX2Q3MHNiRnJRWFhXekVUTUFTWXdSWmZmRXJhd2VGSF9wQklCalJKN1gtN0ZsbVBzcWFheTcxbXJ1eW1FQ1FCZjdqbjhNUGJJaFhHVnBjVTdITE5CRDE4Mk9WWXN4Y3N3UnJRazhfcF9MdEJ0b1dVSlVKdTF3eXRaR1ZEOFFEamVRR1ZYTHdpYlh1UlI0eE5ENHJvZ2Z4d0s5anhwdUlBa3lGS3RlUXU2d0VUdHZqQkk4UQ?oc=5",
+    "source": "forbes.com",
+    "fetchedAt": "2026-04-03T18:00:27.626Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=qQAl6KFxCqo",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "qQAl6KFxCqo",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "dw-news-the-usisrael-war",
+    "date": "2026-04-03",
+    "title": "DW News. . The US-Israel war on Iran has triggered the biggest oil shock in history. From energy bills to groceries, consumers worldwide are already paying the price — and it’s only been one month. #dwbusiness - facebook.com",
+    "description": "Via facebook.com. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPR3l1eEQxalVqRF9mbWlzeVplN0J5RENzSktvOG42aHhEbkFBam55LVRIZmZyZXpiVXl5SmZmaUwzcGYteU9lNWNZRGJIb2JDU0lrM0NEblRzVDRLazQzQVNmSHcyR2YweTU4RVJ2Q0d0SWNkUTdOZnl2d3N4ZWkyY1hxS0xRbkJzR0FoRWxteWpvRU9xdTdTUkgxUEV6TDVJQnMtYTFuQ0NwOERiM19fQlFWdi0yTW8?oc=5",
+    "source": "facebook.com",
+    "fetchedAt": "2026-04-03T18:00:32.385Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=hLFgp4SoX7M",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "hLFgp4SoX7M",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "in-photos-week-five-of",
+    "date": "2026-04-03",
+    "title": "In Photos: Week Five Of The Iran War - rferl.org",
+    "description": "Via rferl.org. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBCUU94cWhpR3hNX1VKV0ZRdHkzWk9lMFV6Tmx0dzlvOFVxT0gydzFwal9UT1lKWVNDekw5NHcycDZxWF9RbXlhR0J3TGpsME9TS1ppWUNReHM4eGNyMldhSjFKdTlya1d6SDJkRWdBS2JjMElIMzkzOGcwY1ROUdIBgAFBVV95cUxOTlhoUS1lZmpabkVTSTZzbXlmdktOVk1ROFdKUzI3RGpKRVJqbHJKUDlscHlCNnI4bGlvMkRwcFYxc0lETDhwUHJ6d01RT3dEdFFucGFzSUVlQnlwVm1qRVRnamx5Z0RVQ0UzcURPaU4zNkRtTWFYN2tlUXd3cHE2dA?oc=5",
+    "source": "rferl.org",
+    "fetchedAt": "2026-04-03T18:00:34.806Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=ZuAJ35F235Q",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "ZuAJ35F235Q",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "affiliate-of-iranian-state-tv",
+    "date": "2026-04-03",
+    "title": "Affiliate of Iranian state TV claims U.S. pilot ejected from their aircraft over south­western Iran - Spectrum News",
+    "description": "Via Spectrum News. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOTk8xUUI3UEt3VUs4N2czYl9pMXlWcTRuNTVqaVdtMmwyYkZ1ZDgxLUxLUUx4b1RlQ2VoVjl0cUhXeUZhSkZuNU9vSGJDY3VYclpPeFZrdlNRVk9iYWlVQU45Wi1zYzBKQlVEeFZQZWhuMnFUNUE2ZEVSc1BJSWl6REl3d2xqNnF6Zi1pRV9sdmxDc2lrbWxyUGFLMlZfeUU1MTl1VzZpWkRGT2h2dTVPMG5CdGFFc1FTRExvYTRkNTFUbHNBa3k0R0hYazdULWVCNU1TRGNUekFNTFN3M21oc2dpOThydw?oc=5",
+    "source": "Spectrum News",
+    "fetchedAt": "2026-04-03T18:00:37.154Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=Gla9-7LlZTw",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "Gla9-7LlZTw",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "1-crew-member-rescued-after",
+    "date": "2026-04-03",
+    "title": "1 crew member rescued after US fighter jet goes down in Iran, AP sources say - WRAL",
+    "description": "Via WRAL. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNbFQyNHFZSkh0c0xLT091c0dyX1pWdldibGwtWGctMmkxb2ZXYXRROEcxNWhGc3daU3RWXzQtNWJmOW9hR2twVk9XU3R5X0M2dEdiVExIQUJRRnVQN2Nod3NhcklNMjBOYmpYdEQxcG0zUVhLWWdMSWlGR1REYTZUQjd0Z3haQlVldThLZzF6NFpEZjJxMzJFX0JYTEJjSll6dFdfbVhBbmpyTUt6UEFXWk5rcWlzbm1YWlRWTmdnWGhENC1kbWo2SkdfRmxvd1FVa0E?oc=5",
+    "source": "WRAL",
+    "fetchedAt": "2026-04-03T18:00:50.582Z",
     "mediaUrls": [],
     "videoMatch": null,
     "lat": null,
