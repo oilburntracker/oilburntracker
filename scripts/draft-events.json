@@ -1,208 +1,5 @@
 [
   {
-    "id": "iran-fires-missiles-at-israel",
-    "date": "2026-04-02",
-    "title": "Iran fires missiles at Israel and Gulf neighbors as Trump talks of winding down Mideast war - KTVO",
-    "description": "Via KTVO. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQNkdOVU1hRllIYk9jaGlvYTFldlNyZjYtVkN4UVRfbjJtWkVtVEtNNmFXVVYxQ1ppa1FNUjc1blJBRUpKWnhZNDFvWjBuUGdaOXIwU2FLM0pYbU1NRnI0TmZwM0FrX2dLSUNFdWpNYzE1OVpTOWxSaFB4UzBta3JOTWRudkt4V2RURDBjamZVaUlZOGt3UE5DYnR5Mi1jeWJTbXEyLXd5WDlVeDJDdDFtWDRDWU0tMTdvMy16MzFhendpbzBvMHdFeThpbFQzTTZiOXZaekxrdnhMY1NhcENmLWVGQllERkotNVRhLTlyVmRBelZBMEdwWXdfUE9STEd0ZVNNYzdTNA?oc=5",
-    "source": "KTVO",
-    "fetchedAt": "2026-04-02T15:00:46.702Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "hezbollah-fired-about-100-rockets",
-    "date": "2026-04-02",
-    "title": "Hezbollah Fired About 100 Rockets at Israel Since Passover Began Wednesday Night - Haaretz",
-    "description": "Via Haaretz. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMingJBVV95cUxPemMtM01UZDU4b0Nsb1VuRm5UcjZlem5ZZUxDQVRMQUlsZGZyVnlEbTVHd2Q1Y1JwTFV5bnNudG9BeTE2S1F1VlFsSVptVl9rNnVwTjYyN2gwbUxVM3Q2bHRRUTVPMGJVTFlPSXBOUTRIYkhjQ0FZYnFpVklhX0hzR3NuV0FCcmFfem8tNWw0WUMtd29xNm1PZzNRU2YyUGhBNGdCM2Q4OVduYWF4OWJKRm04VzlRSW1NSkxKUXhiOEppdGNwNjZVR1VTaEhudmZaMFNuRGhta1IxMHpGSXhtcEtXYlJ3bDM4Y2htNHFuakhvSUJiS0ZQclFwVjRkS25MWmFIUHZlNi1NZXFuUzNaUGN4LVFxUVJ4WFh6X2xn?oc=5",
-    "source": "Haaretz",
-    "fetchedAt": "2026-04-02T16:00:14.032Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=EAqbgOqfODc",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "EAqbgOqfODc",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "in-its-5th-week-iran",
-    "date": "2026-04-02",
-    "title": "In its 5th week Iran war shows no sign of abating - Vatican News",
-    "description": "Via Vatican News. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSEE4MVlYVW95OWhJUDNEazFsRnVBZG56NmR5djFNcG95cTRsbkFRbDVaNW5lekZtakpjaGJUVnJzUW9zVXdWU3ZkN3RfUE1XX1FITTVvOERwSzcyT3dHNTFGZE1mM1BMMlE5bzIzZ0JoRk5HTUVHeWtYSzdZUkVHeGVJdHlqalBIaTFFeDlPbTBPRzh2b0dXbEhObjhDRGp1QTNNSWNDM2FSQlhWUDRtZkl6eTU?oc=5",
-    "source": "Vatican News",
-    "fetchedAt": "2026-04-02T16:00:17.228Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=VsTuLD_w6vs",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "VsTuLD_w6vs",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "israelis-spend-passover-under-shadow",
-    "date": "2026-04-02",
-    "title": "Israelis spend Passover under shadow of Iran war, as businesses cling to survival - timesofisrael.com",
-    "description": "Via timesofisrael.com. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPRWZVRmtXNG04WU9hWVhsWkt6V1Y4emt1eTRGWjIweW0xUXI2V0RQeE40U05zUFZOQ09oUVRBamhtQXY4Slo5TFliZF90Y0dEWnNkQkxYaHNaWDVnVG5NYjNuS0ZiaVdhNEN1anFETWo0N09vRFVxS1hBRUxFbGNmcmpERGxMRjJUZTNnN1dkTTNldkNMV1ViNUVIcnZGNjJsR3YyX0tBN2FudHIxTUpzTNIBtgFBVV95cUxOXzlhSUZOczFrcEFDQ2c2Zi1kUEhfZkI2Ukxib19MSnpCejNsRG1vSXRhY0tKakZVNFBQamZIOTlwdDA1Qk5wX3ZGM293d0V1MHhhY25ZZGE3OFU1TGxmRUtONkxRLUtfUmNwVVlJaHMxajVtbHdoamYzcEhqQTFzUmJOUGIyd09Qem96dU8wbWxNTWpscXQ2ck5rWFpMRVU3dGFNcmpFQ1VDY3dtaFJjUGpCRHZWQQ?oc=5",
-    "source": "timesofisrael.com",
-    "fetchedAt": "2026-04-02T16:00:19.629Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=aun3wLRDmW8",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "aun3wLRDmW8",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "aptopix-israel-iran-war-galvnewscom",
-    "date": "2026-04-02",
-    "title": "APTOPIX Israel Iran War - galvnews.com",
-    "description": "Via galvnews.com. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZVl6VXBvRzIzZHpSMWtLY2N4LWtoUUF0bVZ6WTlPdGx3eWxkcnRMeE9QTlQ4aklHNG9XXzM2X2VLcXNpS3pRbXZxaFk2T3RTSGxaV1R6SXd1YVVPNkhzT2dRYkkxQ2VvWG1UWTc4SmZmMzJuMUV2dnBEUC1UbkxLUDhfbEh5U3FxZnlBcFlTTmQ5eXg1bWJJa2l3a2dudlRRdG1VTnV2bHBSQ0Y2OE53QlhtVQ?oc=5",
-    "source": "galvnews.com",
-    "fetchedAt": "2026-04-02T16:00:24.497Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=GzO52hOQDa0",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "GzO52hOQDa0",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "how-israelis-endure-irans-psychological",
-    "date": "2026-04-02",
-    "title": "How Israelis endure Iran’s psychological war of nerves - The Jerusalem Post",
-    "description": "Via The Jerusalem Post. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9HdmVFQnlEQWV6RkR1TkVzUEVteTMyWWZxd21jSkZQOE1WdS1Tc05QeXRtdmZMN3FtVnRBWnhhQkFFUnVzMEY3YlZEMHBiaGg4X1ltR3c3YmFEb1FSRFVkSGpDMTFhU3VOdHdRWmFnRkt5U1ZDQ0U2LXBzbUc?oc=5",
-    "source": "The Jerusalem Post",
-    "fetchedAt": "2026-04-02T16:00:26.856Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=vquow4m4scQ",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "vquow4m4scQ",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-threatens-crushing-and-broader",
-    "date": "2026-04-02",
-    "title": "Iran Threatens ‘Crushing and Broader’ Attacks After Trump’s Speech - Time Magazine",
-    "description": "Via Time Magazine. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaDVpRk85REdmSkRDNTVvNzNJcnp1WWcxYktkajVHbTQ0ZFJqLU5oNXZ0em43TG5fSG02Qm5TWU8xemVEMnhNaUpSTlNNcXI3d2IxU2txVDZrd3NFRXNRZXlEcllDRWdoQXpGRHhtcnBGYi05SGNRMDhIRHdGcHozTHFtSkQwQUpSLU04RmRlME9VQ3hNV1Eyek05d3pZYWctREttREl2ZVhTdw?oc=5",
-    "source": "Time Magazine",
-    "fetchedAt": "2026-04-02T16:00:46.105Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "houthi-spokesperson-threatens-us-israel",
-    "date": "2026-04-02",
-    "title": "Houthi spokesperson threatens US, Israel as Iran conflict intensifies - Fox News",
-    "description": "Via Fox News. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBnVzIxMFdpUTlNdTBfU2NBTFJXdTk2MGY1YjlmUDFicThSa3kwSkZDMzhqdmFVWHl1SGxfNkRSWW9VUG80eWVwSXk5NFhDWnA0S3RoUDVB?oc=5",
-    "source": "Fox News",
-    "fetchedAt": "2026-04-02T16:00:52.268Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "live-iran-says-no-enemy",
-    "date": "2026-04-02",
-    "title": "Live - Iran says no enemy troops would survive as Trump threatens ‘Stone Age’ strikes | Iran International - ایران اینترنشنال",
-    "description": "Via ایران اینترنشنال. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9wbUxpOWxMUFpVeTVwcmJmeGN4bG5RR3hLWkJaZ2x0NnFOTTF1ZDg2MGh0dE5rOERZZUtrN05YWURsNGEzYjczV2ZreG9CUlV6OG1UejlXVERiaUpEb1E?oc=5",
-    "source": "ایران اینترنشنال",
-    "fetchedAt": "2026-04-02T16:00:58.357Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "tehran-vows-crushing-blows-to",
     "date": "2026-04-02",
     "title": "Tehran vows ‘crushing’ blows to US after Trump threats to send Iran to ‘stone age’ - timesofisrael.com",
@@ -4551,6 +4348,199 @@
       "title": "",
       "confidence": "auto"
     },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-hits-gulf-energy-hubs",
+    "date": "2026-04-03",
+    "title": "Iran hits Gulf energy hubs, Israel and U.S. strike Tehran as war shows no signs of slowing - CBC",
+    "description": "Via CBC. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTFB1X0VUMVZ6TUFhejJCb01YajYzVnNQRklkeGZTWm13OGlWMnNoWkliaWZMN3U3YnM2eW5JMmU2dlpDRmFQb2REeGg2Ty1hOExwbFNoTXRfUUNZZFhGcnIxdERvWnVfSmJNNHV6aU9JRkpudw?oc=5",
+    "source": "CBC",
+    "fetchedAt": "2026-04-03T11:00:13.348Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=b65b0oQ7M88",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "b65b0oQ7M88",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-war-live-updates-iran",
+    "date": "2026-04-03",
+    "title": "Iran war live updates: Iran fires missiles at Israel and Gulf, explosions around Tehran - apnews.com",
+    "description": "Via apnews.com. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5CSk5fazBfeWhqMXFmNU04UzJEOWZKOHdTb21rMGxhaXN0M01MUVU3aEt6Z1dIMW8xN2JmTVc5dWhJVDZBTkM4d3ZJbFRQYkxINXd4NDgxVFJJRE5QZHNxdFRBU2Eta2s?oc=5",
+    "source": "apnews.com",
+    "fetchedAt": "2026-04-03T11:00:15.024Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=rmxBKHmDjFM",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "rmxBKHmDjFM",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-fires-on-targets-across",
+    "date": "2026-04-03",
+    "title": "Iran fires on targets across the Mideast while Israel and US hit Tehran as war nears end of 5th week - apnews.com",
+    "description": "Via apnews.com. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaTRHZ181b3ZFdEMxenBZSl9zSThiM0s3aWhSOFpyMHB1T25heWIwQ3Z0Y1NyVEVjLXVoeHZBUkI4d3BvQVpyOFhxQ3NoOTlCTFRudjhCLVR6RW1MZG9MT3NqTjVVNWo0VUVkMzFQb0FYSnFjOUo3cXNxbE0waG5kZzVRNTFPM04wcmxMc0VEMWc2aW1RdlpLaktJRUUyNG9aeHZr?oc=5",
+    "source": "apnews.com",
+    "fetchedAt": "2026-04-03T11:00:16.742Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=Ul2Yvg3_VcU",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "Ul2Yvg3_VcU",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "cyber-and-kinetic-warfare-are",
+    "date": "2026-04-03",
+    "title": "Cyber And Kinetic Warfare Are Now One Battlefield: What The U.S.-Israel-Iran Conflict Reveals - Forbes",
+    "description": "Via Forbes. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPZEVkX3JzU1FhTXMxWnBxSC15RF8tNHVydVJ6UGVwV25GX2Q3MHNiRnJRWFhXekVUTUFTWXdSWmZmRXJhd2VGSF9wQklCalJKN1gtN0ZsbVBzcWFheTcxbXJ1eW1FQ1FCZjdqbjhNUGJJaFhHVnBjVTdITE5CRDE4Mk9WWXN4Y3N3UnJRazhfcF9MdEJ0b1dVSlVKdTF3eXRaR1ZEOFFEamVRR1ZYTHdpYlh1UlI0eE5ENHJvZ2Z4d0s5anhwdUlBa3lGS3RlUXU2d0VUdHZqQkk4UQ?oc=5",
+    "source": "Forbes",
+    "fetchedAt": "2026-04-03T11:00:26.115Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=0h_cVa5fo14",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "0h_cVa5fo14",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israel-under-fire-as-trump",
+    "date": "2026-04-03",
+    "title": "Israel under fire as Trump warns of destroying Iranian infrastructure - france24.com",
+    "description": "Via france24.com. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPRmdkMGRhaVA5VnZfeTRXa1VNU0FVSXNlU1g0Qld5UXcybHhVU1VtREVsSHZmdDhNdVRwcFg1T1JiZXp3NVJoWTltUzdOZTlKVzlVODhjT0llQm5xdVhWNktOdDBqc0QxS0pab1ltRkZ4LURXTHRJbWp4NzNkaDZ5ODdOdDlpMlZTRHRBVHhya1E3bGJmRnRfNlN1cTVDWWlKVThYdVB0bERuYTk0S2U4Vg?oc=5",
+    "source": "france24.com",
+    "fetchedAt": "2026-04-03T11:00:45.240Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "disturbing-trend-of-usisraeli-strikes",
+    "date": "2026-04-03",
+    "title": "‘Disturbing trend’ of US-Israeli strikes hitting non-military targets in Iran - france24.com",
+    "description": "Via france24.com. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQnJIV0pRSGNycFREOFN2TmlHLXpxVXhPYlVTb2FpV0tFbGg0cFVGaXVwN1lQLXo0eGdYRGFtTVgxRXA0cHFNQXZTVVRDaEt5aTN6RGFvenQ5SEZxb1VfYUx3QWM4RzFYdEZVSVpHSFBxaXpRRmxhWjNLWi12blV1N3lZVEpCbUFFaU1OTkpuakhtVzF1blpLNDV3bzc5b0ZaVWoyNmRn?oc=5",
+    "source": "france24.com",
+    "fetchedAt": "2026-04-03T11:00:52.753Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "what-is-going-on-inside",
+    "date": "2026-04-02",
+    "title": "What is going on inside Israel? Iran War Briefing #30 - Counterfire",
+    "description": "Via Counterfire. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1KWlBOOXpaR2daY094enVKQk56akJ3RHdQdUItY0NNR3MxRGtDXzhBVmo1NkZ0c0c1bXNXWWtYRjJtby1kSnpDM3doTXVQUW1nSFBDd2UxUnRVYzdZX0pieTdub1VSSEFyTDFsYkNjZ3N5Ti0wX3c?oc=5",
+    "source": "Counterfire",
+    "fetchedAt": "2026-04-03T11:00:59.229Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "analysis-what-do-houthi-attacks",
+    "date": "2026-03-28",
+    "title": "Analysis: What do Houthi attacks on Israel mean for the Iran war? - Chatham House",
+    "description": "Via Chatham House. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVlBTcFdTVkR3QUJvZmU3SXVDZlBOWjRIMHJpUFkwZWlDcXlJRHhuQzRhLXdDUm85alhwSDVUWkZpV2NsTTlaTGhLN3lFWVpaUm9jVkRIMGxOMkxQbG5xanIzTzdEaDl0SmM4NXIzaGhoOXd4a19JTHAyaWJyX3ZjaUFaRVJxakJKdmRPbFBPakVzNmM?oc=5",
+    "source": "Chatham House",
+    "fetchedAt": "2026-04-03T11:01:05.762Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "the-latest-iran-launches-missiles",
+    "date": "2026-04-03",
+    "title": "The Latest: Iran launches missiles at Israel and Gulf states as explosions heard around Tehran - Journal-News.com",
+    "description": "Via Journal-News.com. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPeVZIbjNxN1g3dzU2QjBrRGVpcENXV0YwR1l4RkRzcUFTV1MxQ1plYXlnZlVSTkZHalVweW5pdnNkWkRFYmQ3LVk5bkJRM25pX19Wd3FFcUpPV1cxS1dCOERYUkZGYXZfMVlZbmxXWFpSTTFtQ01WaDJ4dGxhd1NLVjllYnc1RWQwcFFBT29NTTRfc0NKY21ITWVqSlo3MjNIVDBqTVFTVnE0R0hmYjJuQnpwV19WcU9pdXlZdTUzMzdNb1cwMTQ4TzllUjRBdnBrcDdPOHlJZWR2WlNqZU1wbkdUZFMxdkxLa043dnV1NjV0azZCd3lJbHlSdkhqVmFkV2UxX2c4bmRnSThocE8xZTFRSQ?oc=5",
+    "source": "Journal-News.com",
+    "fetchedAt": "2026-04-03T11:01:12.382Z",
+    "mediaUrls": [],
+    "videoMatch": null,
     "lat": null,
     "lng": null,
     "zoom": null,
