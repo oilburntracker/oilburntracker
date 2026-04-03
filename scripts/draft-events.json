@@ -1,140 +1,5 @@
 [
   {
-    "id": "we-seek-escape-we-drink",
-    "date": "2026-04-02",
-    "title": "We Seek Escape, We Drink, We Feel Rage: You Can Say Israelis Have Lost It - Haaretz",
-    "description": "Via Haaretz. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMingJBVV95cUxOdFRRanNWZjdCMUIyaENNanpzazJpV2prRHBkTWZHNFVPTVVsRjRDbkNoTU8xNlg5MzFRQ0ZUTURjT3k5WjFMT1ctcVhsdERsYUROOWt5Q1lObFkxaWRyYjBPc2Q5YlBDVW1wRVlGWU91Um9WdE5tcl82eEZhZTJkdTdEQi1LRzFIek1WUFdlYkh2UXExMTAzdkZqVUhWN0xDZkRkLUVaOTZsTHdzem50M3A3WU5yOUxFVTE2UXFFVy1SengwaEpobUV2UUVsQ2ItYm5lVXdLS1VNVHFEaTVMLW05TjBlQW15RHloOEw5eXYtVVF5NWJfbXdDM3U1c19ZSkJQamtpSjhOVkFpdGNMWHNZNGlTeEp5X1R6MXh3?oc=5",
-    "source": "Haaretz",
-    "fetchedAt": "2026-04-02T13:00:40.521Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=FntkAGN8VWE",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "FntkAGN8VWE",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "israel-targeted-senior-official-to",
-    "date": "2026-04-02",
-    "title": "Israel targeted senior official to disrupt diplomatic opening, Iranian sources claim - i24NEWS",
-    "description": "Via i24NEWS. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQdFUtZjdmcmwzS0VpMVB5WGd2YkNGOXh0MENkV2hDbUdqSHNjVTY5cWdsOXNaMldxYS1LSGhJYWFIaThFcGx4aDQ2OEc1M2ZvMGdvYUtrNXViWWQ2YUxtVGpYYVRqWVB3N2J6SG1xNHRNd0dxUzFrVHlmOThTdFRoQVdSUkdsRFJnQ3YzaF9yRXNiX3lxVFhOWlhHLTVpeGFjWW5xNU1kSkE3dnY4d3ZUYUowdkJ6eWVuSUh2Y1VtclBPTnl1TDZUdmxaTQ?oc=5",
-    "source": "i24NEWS",
-    "fetchedAt": "2026-04-02T13:00:42.778Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=5Fgvh5qInY0",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "5Fgvh5qInY0",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-war-live-updates-trump",
-    "date": "2026-04-02",
-    "title": "Iran War Live Updates: Trump Claims Military Success but Offers No Clear Timeline to End Fighting - nytimes.com",
-    "description": "Via nytimes.com. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5FX1k1RVNLZEtqbUY2WnNnc2gyNWs2UkI4WlVFY3oxemhKV04tQ2RacjZyd2JoNDNhRjV0TG9iVUNRbHZSRTFuQU5kS1k0RHd4cmQ3LVRJS3o2Y1pEdWNOYWRvTFNVTXM2TERvd2xTWXhtclkxSTk3SA?oc=5",
-    "source": "nytimes.com",
-    "fetchedAt": "2026-04-02T14:00:14.208Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=KHoX1xyEVNs",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "KHoX1xyEVNs",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "israels-perpetual-war-with-iran",
-    "date": "2026-04-01",
-    "title": "Israel's perpetual war with Iran may be hard to win with military might alone - bbc.com",
-    "description": "Via bbc.com. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5XY3c4aE5zNTBVWlJ0V0VCTjdneGlad3Zscjh1emhpSTgyV1dKdzZ2N3pmTG9vclp6dW5OR3N0V0VvMVRNQl9xcVl1Y0VNeTY3bG5zTThla3Radw?oc=5",
-    "source": "bbc.com",
-    "fetchedAt": "2026-04-02T14:00:17.628Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=ur7LrGG1g5I",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "ur7LrGG1g5I",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "trump-says-he-wants-to",
-    "date": "2026-03-31",
-    "title": "Trump Says He Wants to Delay Visit to China Because of Middle East Conflict - nytimes.com",
-    "description": "Via nytimes.com. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE16Q0JMQldZWG9nSjhQRVZVQnZkTTdsUDQ3a3R5eno5TFVKNXdQdFNDNGdfN2p4SFFIUDJQcFZZNVNSaWY1V0VOZ1V2YnFDTnBOaHcyTVVIc1RHLXZSTlUtV3FvUUM4VGRzMDNYTWt1bU03RDJqQkpFTUxLcHA?oc=5",
-    "source": "nytimes.com",
-    "fetchedAt": "2026-04-02T14:00:20.375Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=FeS54u-1UPo",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "FeS54u-1UPo",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "trump-initially-laid-out-five",
     "date": "2026-04-02",
     "title": "Trump Initially Laid Out Five Goals for the Iran War. Here’s Where They Stand. - nytimes.com",
@@ -4491,6 +4356,314 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBNSWRscU1CX3VIbkVUWUxUX292Zm44TGllVTc3aHE3ZG5kVmE4cEMtNGpMN3lSRjBiamVCVk9ya2F0YXlrNzJJNTlBSTRVSmNHam9wNGVvd2E2SFF0QnZ4MmFpUjFydmJ3WFE?oc=5",
     "source": "The Jerusalem Post",
     "fetchedAt": "2026-04-03T08:01:11.803Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-war-live-exfm-zarif",
+    "date": "2026-04-03",
+    "title": "Iran war live: Ex-FM Zarif says Tehran should ‘declare victory, make deal’ - aljazeera.com",
+    "description": "Via aljazeera.com. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOeGJ0ekwwY3dNdl80eTNoenJGbDdwNE8takkzZmdsZDQzbXNOeUlpdnV3TllJUXVvLTVQRWtiRVNQWkg1LXM4VWc2Q1BhN1pYSWE3VzFtNVFibkU3bE5laW5sMzd0YVFoOUpqUzFScWRFVlVEdXNUcEt2MTdzWmx4M0Y3WkxLSnNMMlBOaTliT2dMMEl6X2NDUTU4Mnd6NFJWSnJmeVFWNTJIVXFWZmlGUmFfbi1BT3RiVzcw0gHAAUFVX3lxTE05eVV2ek96MDg5d0dSQ2h6SlRRRGtETjQxVURiTjFSbWswTWJHSHpUcGpPWHpkWnhiV0ZDWmZCeVJwVXQ1TFF5N2J3WFJTRWZUalFDUzF1T0U1TDFXUC1uS2NSNHYxaFh1OFo2a2VVQXZpaE1qMkFfeEtsVFo0cmhiS2JQVXVLTWc3eUJjY2JsNE5jRjBVZVlPMjF2TVR2Y1liVGtVck4xOHB3SGcyMUNqdGFVYkpMQ3l6dkVQaXZYOA?oc=5",
+    "source": "aljazeera.com",
+    "fetchedAt": "2026-04-03T09:00:11.560Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=x3icbpiNtU0",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "x3icbpiNtU0",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-war-what-is-happening",
+    "date": "2026-04-03",
+    "title": "Iran war: What is happening on day 35 of US-Israeli attacks? - aljazeera.com",
+    "description": "Via aljazeera.com. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOeUVubXl4Q3IyVDAzTHJqU2VnSTZILUJ6NTU2R010ZjhERXZub21rWVdRbi04QkFOSGphVFNIejliaUxXUmMwMzlfWnRmSW9Ca3k5STZsOW1ySTFCRkk0T0YzSnZDdXE3TktLZ2NIT2Ita0NqczlOMnVWY1lRRG10N0h0amNQczNUa0J5NUpKMzJ6NFltT3RXRlFiWWxxajTSAaQBQVVfeXFMT3RXRlZFbE1NRDUyUnprdEZJOGdza25TdDhRb0VYR0gxenV3MzhYdFhMd2NmOERPS3VQNDlWS2hwU19GdzF5bGRiN2FyVFhzeEdoN2lmdEFoVnhrWGlSUVBmTFRFMXVUSzZxWDhNNk9jdlY0blJhU3pLWlE4RDRXSHRMdG9EMXllUWJyb0stNnNIS09aTzJPSFV1Vi14VWs2OTdsakw?oc=5",
+    "source": "aljazeera.com",
+    "fetchedAt": "2026-04-03T09:00:14.626Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=zersIVQ3Of8",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "zersIVQ3Of8",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-war-what-is-happening",
+    "date": "2026-04-02",
+    "title": "Iran war: What is happening on day 34 of US-Israel attacks? - aljazeera.com",
+    "description": "Via aljazeera.com. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZmNEZGNMeXNjcFdWVUxSaUE0T2p6R0g4ZHZlc1FJNTlCNlNmbkdMVFJkU3hLdmdXS1BPRXRZMFZrUFU5Vzl0ems1UHEtTEt5RlVYTWFEZUhkZ3Fyc0pOSW9xdHhvVU5hYkZGVXA1V2s4SHBjSXBuUkV5eG1lUkRQR0tfaVhCOEk4YTN5eUhBdFg5UG5MX1R1Q3g3REpvUdIBowFBVV95cUxOTlBzYk9UQnEybXlrTTh6WVZjTkJya1FhYmh2RFEtakpGVVNtSXhaSjc1cEo2T2xaU0lfSTNjdE5JczV3cFVzU2pFbXZEOF84T1VrdTR4OTFuZ0ExakhjR2JRWEh4ZGdvYVdsU0NrbldwQVlsdVBDdjBWV2xDN3NpUHJ3VFVXel9SbXJ1ZGJpZEJNUUZTU1NNQ0F4MlMtVEo0ZGlJ?oc=5",
+    "source": "aljazeera.com",
+    "fetchedAt": "2026-04-03T09:00:16.193Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=CY-LPiEoRB0",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "CY-LPiEoRB0",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "as-war-drags-on-us",
+    "date": "2026-04-02",
+    "title": "As war drags on, US reiterates Trump open to diplomacy with Iran - aljazeera.com",
+    "description": "Via aljazeera.com. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOZzA1bjJPc1hvQXQ1dnVJdkRTc195X0pQeXBpSmpUYnlZR01VRTBiTTNDbTI2S1UwMVdIYXd2ZTF5RnA0OV9EQmdFVk96MXFzWUYxTDRmSjV5aEJ0WkZzRm8teldhZU15V282V1FqRmVTSFljQ29sYlVIeWpfS1NFYkxkYVF1dDdPdUZoZ2VOaTJEcHlCRTlJb0JEanBySnllaThzQTJ30gGrAUFVX3lxTFBzVW1rTW00U05DNGkyMHhfNHBkUXdFUkNmTUZhR0VvQVNITWgzOC00N2tOVVZpcnFKTmJXQ3paUmowX2ppNm9nUFpMYU5JOVkxbFVDeDVnSDZLX3JSMVVFNXRJcnhwb0g4azV4c1JRSzBXTXQzLW44RTF6bTR0aTZuS3hUdkQ1a2NycEJscUdaTzZ2aVNaMERMWThUa1B3REVuaUVkRDRkNXhGcw?oc=5",
+    "source": "aljazeera.com",
+    "fetchedAt": "2026-04-03T09:00:18.764Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=QnGVbyA_PGw",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "QnGVbyA_PGw",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "what-might-end-israels-war",
+    "date": "2026-04-02",
+    "title": "What might end Israel’s war on Iran? - aljazeera.com",
+    "description": "Via aljazeera.com. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPc0NQNUppX0dUOW5jUmRsaEZpeVBNZVlWYjlDV0ttMTlUXzNlVS1TVnBGODV5MFN2YzliQWZXRE9kWTdsU1IxUGNaWnJOUG1FcHpXUkZxemdYZjNXOGRvUmJZVFo5TXpiSzV0ZnVwbE5aTzk0UGlFNWhuTGxrWDRPYWNQeGxnUFZsNjNlNGJaWVNId9IBlwFBVV95cUxQWFF5WHJxem5kVDdHbnNJUXVLMW5HLTdScEltU3N3aFRaLTVUQ1pKel9JdGxkXzdWWnRhcmNyWXBDLXJKZ2U3VHJqLWVtTE1wMm15LWFLVUxvQVAxRjhSTzJuTXpvNVlqVnhKRi1DcVlpaldwRFlRaDBfanEyMzctb2YxOXpELXF2bDVQdzRfSVVRSEtaOVBv?oc=5",
+    "source": "aljazeera.com",
+    "fetchedAt": "2026-04-03T09:00:21.178Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=RPXTFp0MUsE",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "RPXTFp0MUsE",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-war-what-is-happening",
+    "date": "2026-04-01",
+    "title": "Iran war: What is happening on day 33 of US-Israel attacks? - aljazeera.com",
+    "description": "Via aljazeera.com. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxPREVidE5zODlwSDRwWDFJME9jOXlmMjFuYVFROTlKd2xGUkZoRE44NVVxcXBzVkQzcEZJV3Q1ZUFsUzRwX0F6ZGVjc096b1U4QTNvR2xhb1dIVW8tREc2OW5LYzRDR0ltcjFaaGdCLW9lc2cwMlR3eEJwNEpPa1Q4bXFuWDZ6dThKbHpJLUhzdWRGYmJfRXJrdFR2M1JmQdIBowFBVV95cUxQQjZyeVZ3dGg0WXhlWC0zU2l5cGFvRnFMV053QkoyQVVnTWV0TzBLM2c4Uk5UZ25Qb0Q0M0d4ekg5QUlYblZ3MW5TQnJaa2JtYzU3TjFmRUx4MUNRaktxYVh3dTZlWERrV3ZKd19HcjdyWnNKVkpXeGlLQ19kYUNqYnRyZ21sZ2pjYUdWRFl3LWIzRmdYZlBjbjN0VHZHM19kN2JF?oc=5",
+    "source": "aljazeera.com",
+    "fetchedAt": "2026-04-03T09:00:23.570Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=qDoZ9j6GNlQ",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "qDoZ9j6GNlQ",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-says-army-forces-are",
+    "date": "2026-04-02",
+    "title": "Iran says army forces are ready to repel US-Israeli attacks - aljazeera.com",
+    "description": "Via aljazeera.com. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMm9tdjJtUTZ6ak9IbFBPYlNXWkJJdmFLSGY2cUszX0NxR3gxUG1ZelNhSjBjOWNlZzdYTXlXa1lPUGE2SEUxNlg0VU9hMUswZ1lla3F5ZXlmcDg1b3NUWGsxWVJQLXR0LXltWkVkVFR6dTBNaVlSMS00SjFXbC01LWplVkpYT2o3bzlscjgwWVNsVlMxM09nMi04bFJpRGZuaEdLQzZlSDh4aEF4Z2fSAbMBQVVfeXFMTk9pLUp2UTF4V1Q3NzM0UlFQUkZZeS14Tm9MRzN5QkN1RFlfU3JvbE4zLW5icEdUcS05QmQtUHVzNXc0VmQ4c19NclpJUlpVbTdHX1piQ1ZZY3lGdU5jeW9JVnRpd3lvZjNsaWdjSFgzOWNKR1V4S2YxQ18xT2txLTZxc2dKcWZ1VVAtR2xPbVhrNXBtZXNNRWpOclpxQ25JT3JJMzNwV3dhODJXNGkxa1Itczg?oc=5",
+    "source": "aljazeera.com",
+    "fetchedAt": "2026-04-03T09:00:25.839Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=xYDwxXGnQbM",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "xYDwxXGnQbM",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "yemens-houthis-coordinate-with-iran",
+    "date": "2026-04-02",
+    "title": "Yemen’s Houthis coordinate with Iran, but retain independence, despite war - aljazeera.com",
+    "description": "Via aljazeera.com. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE51SkcyZGJHT0FvMl9ERWxGM0JDTXJ0RDJTTVNERDVwd05EcGkzb0xJc0RQNXk5TnJXTTVjMnU2bTg1VkJSbzJLM0FDbmhNRVNUMmZrbTJQaldjV1hMU1BqUDRvMHh2QlRUUV9iVzNkSFlNd0ZhaUHSAXtBVV95cUxQVWdPZWU1amNtXzU4ZU00WHliT1hUUWU1YUlLdzdiNmp4LW4tWkxGXzgtS2VmVGNfeE5wS3RjbnVXTG54Vm9aNF9ESk9PVjY3ekU1dWVoRE1LOERmNTl4TEg0dEZUWnJjcHZJU0cyOElVX24xblN2a19XWVk?oc=5",
+    "source": "aljazeera.com",
+    "fetchedAt": "2026-04-03T09:00:32.206Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "what-is-benjamin-netanyahus-end",
+    "date": "2026-04-02",
+    "title": "What is Benjamin Netanyahu’s end game in the Iran war? - The Conversation",
+    "description": "Via The Conversation. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNYk9FOU5mdEx0aFZIUFZNbmVrUE1JZlpKS1U5dGZaOFNtZnRucnhUSjM1M0R2SmlCSVIwWGp2clBnZ0NLVGJLUi1CLUR3UndKWThQaU1YU2cxemE1OUhuSVFqMW8zSV9oc3pPZ0M3Y1dQU05YVmVLOTZ2elpvVGJsVE5fMHpEMnBOUXdteFV0WHo?oc=5",
+    "source": "The Conversation",
+    "fetchedAt": "2026-04-03T09:00:38.892Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "how-chinas-teapot-refineries-are",
+    "date": "2026-04-03",
+    "title": "How China’s ‘teapot’ refineries are cushioning it from Iran war oil crisis - aljazeera.com",
+    "description": "Via aljazeera.com. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPY0JadUd4MzJCT0t4RzhoV1ZISGpmQjNGYWlpMnBUN3BKQldFWWtQc01nQWxHOUI3M1VsQXZZVVZsamtJSVlGS21OMzFpS0xpaTQxeDJIS0dXUFA4d3R1ODc4U29lVm1TTWVNMm0yQ3gwZ0t3cVQ3bjRfVDFwSDRfX3F2NTI0M3JUU00tWjRQUlVJWWRydlRrS1VNWTVvVlVBRmZIbURpbElzbUVhMkpkTNIBtgFBVV95cUxQRkhabm05UDZ6MWR0U1RHWDl1S3lLRFRvSUJXaGpuY2xFNjF3bU02Vmtpc2NKSXVvdWlBQzB1Uk5JN3hZdE1FTzc3SXROMlJJT0l0T1RRbzBiWnBaREIxNnN2aGpRZnN5R0Vla1RlNGUwRHptMXplZlAtN1h4LUF1SV9lcEk4U2tLbV9UVklfNS03NThPTTlIMl9uck1Ud2tjTUVtVHhSNGpWRFFjTnZSNGstN3V0dw?oc=5",
+    "source": "aljazeera.com",
+    "fetchedAt": "2026-04-03T09:00:45.622Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "how-war-on-iran-turned",
+    "date": "2026-04-03",
+    "title": "How war on Iran turned Pakistan’s LNG surplus into a looming shortage - aljazeera.com",
+    "description": "Via aljazeera.com. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcHhpaXFmd2ZiUnhOTkRFRlRyUVMzZjRrc2l3bGtKeHgwV2RLdTFlZzF5b1dEUU5VdTdZWmE3UFpIVmQxd2tIZFV2aUZab1BkanZVVTlXYWExUUlwcEZpYmE3V2RWbUwtTXdCYjRRaGpaMG9FUk5vQ1Vjb2p3a2xRcHJpYVBIcVl1cnA1amVqcXdRQmYxUy03bGppOV9xLUJlNjY0U0drcVp5TnBH0gGyAUFVX3lxTE51VkJzOC1OSmVwQnd2ekhkSGJ3cEU4XzB2QWU3SkJRaXF4eEkxVHg0eHRZRTB6aTNRYy1ZZ3hfbFhxOWJtWGZuNDh4Z3lkOThPemttRzF2THNQN3dyTnY3VWZZWUYzSTk5QUtDTXNmZllybk9JN0lIM2JHb29zRXpOZVFxX0MwQldPZFh4MVFwd1pzYkItZ19CRXJXR3pIVmQ1aXlwLWpHWlNGQnQ2UUNZMWc?oc=5",
+    "source": "aljazeera.com",
+    "fetchedAt": "2026-04-03T09:00:52.780Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-fires-on-targets-across",
+    "date": "2026-04-03",
+    "title": "Iran fires on targets across Mideast while Israel and US hit Tehran as war shows no signs of slowing - Dayton Daily News",
+    "description": "Via Dayton Daily News. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNZm1PdnNsWWZfMjJRUmNzR3JOLW9oNGh6dUFkNjZKQzFOazhLaFB0bFBkR1I1NVdyMjhTNWh3WmNfNXhLTjhBVGJKeUMxUHFtc053NmdTMmpLbnBWS3BaSEhFMFVtcG5wc2FMOTlpWm4tdUtzZ0czOWpzb2J0OGFnNlh5QVpIQnhBanRCbjRMd1BFY3dYT1Z1d0dRRjdnWTh0dFk5RndsNHd0bDJWRlB0bkowM0RNbkozTzlORjZEd3h1eFQ1NmMtd05MWTFSTmg1UGc2LW9yMVo5eHMxUHNJak1OQm1ZeGVTSDV0LUtUMi1TeGNoZXZReThBV3JNUzBBaFAtckhR?oc=5",
+    "source": "Dayton Daily News",
+    "fetchedAt": "2026-04-03T09:00:59.251Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "pakistan-to-continue-with-iranus",
+    "date": "2026-04-02",
+    "title": "Pakistan to continue with Iran-US mediation despite ‘obstacles’ - aljazeera.com",
+    "description": "Via aljazeera.com. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOb0NBbnFzNm5Rckw1N1pzc3FMb1RUNDNaMGhWRi1MX2trcFM2dVVqRUt0NzhmSTU4ajQtbmpEeXR0aUlXM01fakkxQmpIQk9NcmZ3R2hDYnkxUnlMZVI4OWM2X0ppUVZDalBuUWVVMUJQekR0X015RjhUWTcxdGQ0QmJ2NzAwZEtEQnd6YjJkNlZXUzgzTUhoOEpxc2hheDY1eHlJ0gGoAUFVX3lxTE5Ba1RzdC11THVhbGJMY2NUQlhvTlRvbWJfTGhOT1RYdzRfLWRKdUczb1EtMGM0RVoydmlrdkVJem9KcXlFd2gxUVh2VHJiVjJURlZvVmhqb1dEZFdwOTNCd0NjMXlYRHIyWThuTjBuc0lfRlYtWnpIdUtNeWRVLTRVSjlyYnFxSDY2STZ2RlFhajhGcllSUk11QUMyYk9PcTFuclhZRjY3Qw?oc=5",
+    "source": "aljazeera.com",
+    "fetchedAt": "2026-04-03T09:01:05.946Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israelusiran-war-exposing-a-world",
+    "date": "2026-04-03",
+    "title": "Israel–US–Iran War: Exposing a World Already Burning - The Times of Israel",
+    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQbXRKUHhCQW5WRHRRcHhXTXZDbEFSTzN3NHdpckkyS2xuYkFaUVBVUGpwV2VTd0FBUDlSVDItSEpSV1lTb3BGN2dtSXFhUVR1aF9MZGc3MGxrYl9nbzVFS0J0ZU9IQWwyZ3k3b2h4VzBrU3BrRWJTVHpQcmdHUy1vaDBTN3FzczM1Z0xqbA?oc=5",
+    "source": "The Times of Israel",
+    "fetchedAt": "2026-04-03T09:01:13.087Z",
     "mediaUrls": [],
     "videoMatch": null,
     "lat": null,
