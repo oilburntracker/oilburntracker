@@ -1,245 +1,5 @@
 [
   {
-    "id": "rationale-for-iran-war-questioned",
-    "date": "2026-04-02",
-    "title": "Rationale for Iran war questioned after Trump says ‘I don’t care’ about regime’s uranium stockpiles - theguardian.com",
-    "description": "Via theguardian.com. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMUVnQmEzZ2NtUDlOX2ZvZXBPTWEtWXEwQzV0V3dqVEhkcUxVUHhCMU1OdzhsdXQ3OVNKbVdnd2tUSVFfX2tjUGhaa1BTQ01IdzhzeGVOWS1uOVdkeGh2T3BaRWtSRFJpMkVZTHNFU3JES0NteEFoWllvdGtsdXRKNm54SElfNUNHOVFkdS1MX1RTU1U?oc=5",
-    "source": "theguardian.com",
-    "fetchedAt": "2026-04-02T12:00:49.826Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "irans-war-with-israel-and",
-    "date": "2026-03-26",
-    "title": "Iran’s War With Israel and the United States | Global Conflict Tracker - cfr.org",
-    "description": "Via cfr.org. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMWduRExjZXhMUjFuYjV4Zzc0LS11OHVKUEhXSlpUNUdFMm9MVGlJeFd5eGh1ZWpEWWhFNEdJX0tOVTlJbnZ5NmpBQ3dYeGNpSTBOSWtISUduak5WSHhfQUhQcHBKbVpLdG1IVi1ySWVGd05NM18yektrem1TM3ZvaV9xVjR2eC04cE9RZ3FZajNCZWFHNzBaS0hhSS02dw?oc=5",
-    "source": "cfr.org",
-    "fetchedAt": "2026-04-02T12:01:03.044Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "coordinated-conflict-how-the-ukraine",
-    "date": "2026-04-02",
-    "title": "Coordinated conflict: how the Ukraine and Iran wars are starting to overlap - theguardian.com",
-    "description": "Via theguardian.com. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNaE93M1RRUFdJemM1UmdldWZmVllDTDByVVdqTGNMN0NVU1RENGtLZ2p3b05wbkw2NHpPVWs0R1JoOVdvdUoxcTlrN1FJRW1mZ0hILWdxeG9CRjZpLWFMdWRaay1ZQUdnczFESTZjd1lDNl9Tck5RenFzR2VKb3lvRklSMWd1TVFEb181WTZ2X01OdXFzNE9CZjlPSFdQbUFwT01ZalpWcFJfTFQxWHpPTWt2c3lnYkhFTHBNZQ?oc=5",
-    "source": "theguardian.com",
-    "fetchedAt": "2026-04-02T12:01:09.518Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "live-updates-us-tells-americans",
-    "date": "2026-04-02",
-    "title": "Live updates: U.S. tells Americans in Iraq to leave immediately amid threat from Iran-backed militias - NBC News",
-    "description": "Via NBC News. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZzd3eC1SZmVXQTgyRGxyU1VoeTE5RUo3RkNQdmZianIxaGlpWEVfa0loU0VWRDk3QUlxYlJDOEkyRTM3b0d1YTJ6NWs1Wk01QUdYcmtkcnM2S19xOGpBTUFpWmNBRTRPdFFuS0toeG5jaUxtaEFzNXdwdWxTLUxkNFpiTFdCek1LMjQw?oc=5",
-    "source": "NBC News",
-    "fetchedAt": "2026-04-02T13:00:12.339Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=F2BwOgKfh8Y",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "F2BwOgKfh8Y",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iranians-reel-from-usisraeli-attacks",
-    "date": "2026-04-02",
-    "title": "Iranians Reel From US-Israeli Attacks on Civilian Infrastructure - Bloomberg.com",
-    "description": "Via Bloomberg.com. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVFdjbERqUlRnUGxJLUJZTWNPV1EwU1JfeXpja0NuRTZ2MS1CaHg5Yjl3OG85UXNPb2JYQmxieVVjQ3FKdGxIbHRSTzhheDJmcl92SEpUOEVsZlNnVXNBc1d2ZlkwbmZDeEdjOVpWRFVqV1JwTl9fM2gxbEhGU1FJZ0I2NnZTZUs2M1RHSkZ5bVhTdWhXdFVXdVZKQW81Sk53N0hNb1lSNEhlZ0ZjdS1ORHJvTQ?oc=5",
-    "source": "Bloomberg.com",
-    "fetchedAt": "2026-04-02T13:00:15.616Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=T02au1s0RPQ",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "T02au1s0RPQ",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-wars-core-strategic-objectives",
-    "date": "2026-04-01",
-    "title": "Iran war's \"core strategic objectives are nearing completion,\" Trump says - CBS News",
-    "description": "Via CBS News. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTHljMlVvcm1yV2JaNWg3TExNeTVnS2J5SHRCbmJMUF8wOEJOV0NDc3RzdExDT3JXM1k4UzFPb2xMTXBzTDZOaHEwRGhpVXVSckdMYXZIQUhrS2JOS3Y4cjZ5Q0tKMUQzU2tTODRUcFVHZzRQcmFLeEFXeElUY1ZIQkZpby1vU0tmcnBxYzhBcm1tbXRfU2g0WkpwQ2t2LW03WnBTWVRuS1A2SExlbXfSAbMBQVVfeXFMT3lsU0pqWFI0LUstM2phYVNqZkpHdlFuLVhMUzNpSW1xbS1MQWE5ZTd3NHU3SW5zOFRPT2E5OHN2VGkyME50UVJLS1MydUdCZ25VNURITkMwcTVYMDVoa1V2Sm9EWllUUFpRa1lZU3VNLUhuRGEzNDdJUWVZZ0dYRW9UcUxaN0txd2xuM0gzS1VsSzdGWVRpYzJJSEwxVWZXbmlQSXlTblE4Y05PU1d4U2lwY0U?oc=5",
-    "source": "CBS News",
-    "fetchedAt": "2026-04-02T13:00:19.999Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=VeOA6_j2cCM",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "VeOA6_j2cCM",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "how-the-iran-war-undermines",
-    "date": "2026-04-02",
-    "title": "How the Iran War undermines the nuclear nonproliferation regime - Bulletin of the Atomic Scientists",
-    "description": "Via Bulletin of the Atomic Scientists. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQUWZxTm56YUsxWWQwZnVDQjVPQWt3ZGJISy1kcDExYXFxTHYzQlEtVEdrRDJkTWlfWFA5ekNuZ044R2JLS0w2eXlVNWRsSTlSdjhpRGNjWjZHSG9QMEp0RVNaRjBDSVZuZ1BPYV9rdGFrdW9OdEJxNk1mMXFBM2xxU0E1RTcxdngxZW5uOXVBU1N0dkM3ZnpWRm1LenA?oc=5",
-    "source": "Bulletin of the Atomic Scientists",
-    "fetchedAt": "2026-04-02T13:00:27.529Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=w9OCWNYXR5c",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "w9OCWNYXR5c",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "live-updates-latest-from-israel",
-    "date": "2026-04-02",
-    "title": "Live Updates: Latest from Israel, Iran, and the Middle East - The Jerusalem Post",
-    "description": "Via The Jerusalem Post. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9jOERwMWJFOUdiaEVfUmFqVjJjTGs3eWlTSE9SU1hxNmQ2SWZKR0VEMmJnbmZ1MTUwR2l0QzlMYTRLZFFtVVdxdXdpek5Ddm9Cb21iRTBFNXJwWVAtME9NV2JyRFJMVGdWMjZ1Q2YtaEVJNjhXRFFvRFYzNjdxNlk?oc=5",
-    "source": "The Jerusalem Post",
-    "fetchedAt": "2026-04-02T13:00:32.450Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=rmxBKHmDjFM",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "rmxBKHmDjFM",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "excounterterrorism-chief-says-trump-must",
-    "date": "2026-04-02",
-    "title": "Ex-counterterrorism chief says Trump must restrain Israel before he can declare victory in Iran - Fox News",
-    "description": "Via Fox News. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMXVfa214Nll2WWN5YUpMamp3a1pSeWRpSDNLc0N2dkh3Nk00UmoybUtVZWZaX1dGbll3NFZ0OUdRVWdCb2hHaFFSZlFSbTRsVlJKWllfZVdyc2Jad29KcW9PN3o2cURTc004U0I3elJxZUJPRlRFV1BHQWJpQ2tDN0hndFBNVTIwRVRCVVJ1WTRzZFAybEVHUDdJUHVkeWM5X2FtSmZxZWo5RTIwRVNnTkgyblVpWFZkaC1ZTl82VEx3dXfSAcgBQVVfeXFMT1FqdGFjNEZBaUN3VWJkZEYyUjRvVHR0cE5VbEl0azZxQWMwc1c3bllqV01oUWxBMnAxSTNkRkd5ODE1NmNGZGRQMUN5TDE2cnc5RnR4Z3VVZFdtQk5LRldrRVRjWk5ycEhHMGp5Y0cwd0VuM1FxMk5JQzA0cVhRVzhxMkM5ZU5jZ2JCN3g3YjI0V1Z2MFBkdzduclVSemlHT012MlJIX0ZiTGdKM3UyRzFteTRWdW9KdzYwZEhPRlNVLWExSWRwUE0?oc=5",
-    "source": "Fox News",
-    "fetchedAt": "2026-04-02T13:00:35.196Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=RV58n6a-0gQ",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "RV58n6a-0gQ",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-fires-missiles-at-israel",
-    "date": "2026-04-02",
-    "title": "Iran Fires Missiles At Israel And Gulf Neighbors As Trump Talks Of Winding Down War - HuffPost",
-    "description": "Via HuffPost. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA1U0FfX1JES2RoZUZXR3BjV3RSX1h2eDRyckh0bFN4NzQ2aTJGQWpiUzNkNF9BQTU1aUJ3clhlaXBNYjNXSjRlUXJlSXhxdEtKQzJrdHJjd3U5eVA4WUotbVRTRXE5M2hBaEpGZW93WVVtU2JiOWpqSHAzOG_SAYIBQVVfeXFMUFYteldUTVRnbVpVbGNKLUxMLWJBXzNyb2tVaDRPWDhITXZZTkdjU1JrOGdmdXA1Z1JnbG9uOC0zUHhJY3Zrc1ZCSEZQYjNaNkVjT19FOW9mTy1WM3lhUzBId28xRWprMndpOS1YMnJmSHdTWktfOV84ZzhqWlh5QTNEZw?oc=5",
-    "source": "HuffPost",
-    "fetchedAt": "2026-04-02T13:00:37.820Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=FVGOTNCeKgg",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "FVGOTNCeKgg",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "we-seek-escape-we-drink",
     "date": "2026-04-02",
     "title": "We Seek Escape, We Drink, We Feel Rage: You Can Say Israelis Have Lost It - Haaretz",
@@ -4616,6 +4376,121 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPbno5TmVsYzQ0Yl80LUpPc0tXMGN0N0Nfa2tNZFNyR0dlTnloT0NBb3hrem00QThwdEFvTXBuSndCVG5FVE9OTExCMC1sd0JLcWRsdXdBSjAtRVN3VU0xTXNJRUxieEFkalBzMzZIVkU3NlhJVEVYdDRLc2NNNHZCUzJUcUp3ZjRQeENHM1d6NzFrRjR6SHFvY2ZHNURYMklRQVdV?oc=5",
     "source": "Al-Monitor",
     "fetchedAt": "2026-04-03T07:01:10.333Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-latest-kuwait-oil-hub",
+    "date": "2026-04-03",
+    "title": "Iran latest: Kuwait oil hub hit in drone strike as Trump threatens more destruction - The Independent",
+    "description": "Via The Independent. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNenJrbGsyVVR1LTAzSHg3UkJzZTZadk8tamtOM1QxRGprdlYyTHBmbkpYUzNCOU1yVndfc1BxRWZ0M3l2OHlBRVNNX3JEdnV2Vm5PTmtPUXB5cFphQVlWblZnVXdJNTYxZFVOTUlCbWhVOXF1ejB4a193bk14bFNWMzViWFlyc1FuU1RZQW1OQ1g3eXJ2V05GN1hKTnd6aVJ3WHRINWxyOF8tZVc5SHV5b2xNQQ?oc=5",
+    "source": "The Independent",
+    "fetchedAt": "2026-04-03T08:00:14.969Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=CBgVZEnA64w",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "CBgVZEnA64w",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "what-is-benjamin-netanyahus-end",
+    "date": "2026-04-02",
+    "title": "What is Benjamin Netanyahu’s end game in the Iran war? - theconversation.com",
+    "description": "Via theconversation.com. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNYk9FOU5mdEx0aFZIUFZNbmVrUE1JZlpKS1U5dGZaOFNtZnRucnhUSjM1M0R2SmlCSVIwWGp2clBnZ0NLVGJLUi1CLUR3UndKWThQaU1YU2cxemE1OUhuSVFqMW8zSV9oc3pPZ0M3Y1dQU05YVmVLOTZ2elpvVGJsVE5fMHpEMnBOUXdteFV0WHo?oc=5",
+    "source": "theconversation.com",
+    "fetchedAt": "2026-04-03T08:00:20.981Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=e1W1bpZQQaA",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "e1W1bpZQQaA",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "is-iraq-being-dragged-into",
+    "date": "2026-04-03",
+    "title": "Is Iraq being dragged into the Iran war? - dw.com",
+    "description": "Via dw.com. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNYXUyNmE3LUNXNkJvdFo1dFhxWjVwX2xGcnhGdmdZb3pFaXpuOW1PR0JlTGdPWmVibExwQWJjS1hjTkZhUEszUmozZjNZVzdqMU4wSlNVdTRoN2lNeklKRzlwSFo3UlpVUlpjMEJnZFdTQXIxTHpIb1dUMXdLN0FwTnBkcEVLSFZBQ2VBNF9FTFZ0bTdU0gGUAUFVX3lxTFBmQ1ZGdVFrUHAxYXFQbDctZUhKVTVnT21Ram43SDR1bnpBcU1vSXl3Wmp2eEU5VVd2QWlOWmVLcVBCbGNCeWNiWVRFZk1qS1ZZcklEcVV5dEVXY3BPd3B5Z1BBd3VhajZtWkRPZndiWlZfNmxkN3NEVzRRY0RUenU1Y3lCN2V6NWNROFI1YWVKcTZQMzQ?oc=5",
+    "source": "dw.com",
+    "fetchedAt": "2026-04-03T08:00:23.443Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=S50ccZWljrc",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "S50ccZWljrc",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "health-ministry-148-people-hospitalized",
+    "date": "2026-04-03",
+    "title": "Health Ministry: 148 people hospitalized due to injuries from Iran war over past 24 hours - The Times of Israel",
+    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNWHp6aTBtNU9uNjFhSkFkOG5VY0xMS0JLRWtRZXM0U3pQZGxGZmRJY1NXaUs2cDMwWUlVNVV6NmhmSExxTDd6QUdBUGxRN2t1LXZRRFFrcUsyeDJwS3lIZWZxd2FucXN4V21HVzNLd3djaVhGOWZaM3R4MzA0VGJGaFY3Vjh4YzVmZUtxUnJuVWthc3NKTHhEVl9XZmVTblBnZVdRVWU5SzZDWUVlQ1IyX0JWWTA1eUpCZVlJaXp2MnJSNmJ0MXhXNWZzTDFUblE?oc=5",
+    "source": "The Times of Israel",
+    "fetchedAt": "2026-04-03T08:00:51.932Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "us-intelligence-says-half-of",
+    "date": "2026-04-03",
+    "title": "US intelligence. says half of Iran's weapons arsenal still intact, officials disagree - The Jerusalem Post",
+    "description": "Via The Jerusalem Post. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBNSWRscU1CX3VIbkVUWUxUX292Zm44TGllVTc3aHE3ZG5kVmE4cEMtNGpMN3lSRjBiamVCVk9ya2F0YXlrNzJJNTlBSTRVSmNHam9wNGVvd2E2SFF0QnZ4MmFpUjFydmJ3WFE?oc=5",
+    "source": "The Jerusalem Post",
+    "fetchedAt": "2026-04-03T08:01:11.803Z",
     "mediaUrls": [],
     "videoMatch": null,
     "lat": null,
