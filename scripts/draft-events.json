@@ -1,161 +1,5 @@
 [
   {
-    "id": "israel-iran-war-gazettextra",
-    "date": "2026-04-03",
-    "title": "Israel Iran War - GazetteXtra",
-    "description": "Via GazetteXtra. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQQlVudWhMcDl5Y0RfR0RFaGxFeDVWV1lYZkJodk5ZSGpGTVFyZGxGUzUybnlMQjFGd0M1dENIeHZjZWZaQWJrZHVid0E0ajctbDg5aGRZOEhBVGgwdFZwNW04WWZuZDVWS3pXV1pJQzV5ZnpsanllT2xUd3QzTGRHY21qRURUdVFBNGllZjR6RGdacnBoNHZNdEJaV21FWXpiOXFKNUJvVGJMYm04X0E?oc=5",
-    "source": "GazetteXtra",
-    "fetchedAt": "2026-04-04T00:00:26.827Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=JReg6NWzs3M",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "JReg6NWzs3M",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "industrial-zone-damaged-in-negev",
-    "date": "2026-04-03",
-    "title": "Industrial zone damaged in Negev, falls in central Israel after Iranian missile - The Jerusalem Post",
-    "description": "Via The Jerusalem Post. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1tYW95cmxmeG56b1FOMmtZYTBLUUdVUWdiLTY4MnBRQlBaR0RqYVdaUXlySHQyM1BXOUlEQWl4cVhhQlZOdGsxbm05V3BldHk4TGgyRHhhMlpMaU1FYVVkNV91bENndFdZa2hyeUxn?oc=5",
-    "source": "The Jerusalem Post",
-    "fetchedAt": "2026-04-04T00:00:33.647Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "trump-on-iran-war-israel",
-    "date": "2026-04-03",
-    "title": "Trump On Iran War: Israel Will Stop 'when I Stop' - i24NEWS",
-    "description": "Via i24NEWS. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOd19xenk0UFBGaFVEODU5MmFaRWJ4YTVhSF9Vbk80TGNGMnk2aTJVc1Q1bnBBVjdmX3NrUDY4S1NkMU05em5HbDVlRzA2OXhSUlZfMWs4MU9yMlJwZTVubzVFcU1fblNRWmFGV0dtWTFDOVNIZWhhMmJoWTl5TnZuTmttQmRSOEtWR21MaVFaMWJDb1h3dWR0TWdzbmUxZE1WZXFYd2VOLVQ?oc=5",
-    "source": "i24NEWS",
-    "fetchedAt": "2026-04-04T00:00:40.618Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "no-end-in-sight-israel",
-    "date": "2026-04-03",
-    "title": "No End in Sight: Israel Predicts Two More Weeks of Fighting as Gerald Ford Rejoins Middle East Operations - Kurdistan24",
-    "description": "Via Kurdistan24. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQdHNMTmR3dGRBOVFHMGNpd01oNDZMdXNDdVNwd0M2azExSFl4SjRoME5CTXdXcDBxdV9QUHAzeU0tOVFDQktOWnoxT3p0bkJTT3AwZHkzTVUyaGs0RFlFU25HYlpVQTRKQnZUV3JzT2UzeC1UTWM5TEQ5d1dUSVJIcGhNTS1HbHZ5cVJIaldBeGxvTTd5VGprMEQzTjFKWjNJZkZKYzlmblFNQ1d2SVZZNi16blo0UzQwVTFqN0JKUDdIS1dPV2JVeldRRDlzaVBMMGpXYmlhWHpPTXdJU1lORGR3?oc=5",
-    "source": "Kurdistan24",
-    "fetchedAt": "2026-04-04T00:00:47.504Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "2-us-aircraft-shot-down",
-    "date": "2026-04-03",
-    "title": "2 U.S. aircraft shot down as war in Iran escalates. At least 1 crew member is missing - MPR News",
-    "description": "Via MPR News. Auto-detected by headline monitor.",
-    "category": "retaliation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQek9VS2o5OENlX0E0djlzRE13RUVvalJTUzdOZzhDYlFnLVBPbFRXdUVYUXNYMnhnSU5qMHd3WlA5QzZqUXZQalFtX3A5UkMyTmJXZ1ZfME9WTFg4Ml83RUc4RzFHcl9wSmRDekl0NkNuSmQzOHdPcGlsNFB3VkNiYkhVRnZkTG1fWmFkdkNlOW9OaG5vUTlpamZnVGxCYTRMOERSWUpVNXlLOTZ2N0tPT2FINjI5dzVaWmpJOEdB?oc=5",
-    "source": "MPR News",
-    "fetchedAt": "2026-04-04T00:00:53.630Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "sisis-highwire-act-can-egypt",
-    "date": "2026-04-03",
-    "title": "Sisi’s High-Wire Act: Can Egypt Survive a Victorious Israel and a Weakened Iran? - Middle East Forum",
-    "description": "Via Middle East Forum. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPanNUTy15U1lsWHEyaS1heUFJZmZ2UTlZbmRJT2F4QXpFMy1NdmZId2haOVFRdzlXQ09ncGdQclBKcjdCYnhETFRpWEJ6QV9ELXVaQzM5M0xtbmdNT0VGMzNBRHc1VGpPUG9HRk5zSWw3aUlxX2IxMUwyeURJbTBSQ1dQVE9aTnBKT3VXZ1ZuV18xOUVNWmRkU0FqTUd4bm9TcGlZ?oc=5",
-    "source": "Middle East Forum",
-    "fetchedAt": "2026-04-04T00:01:00.169Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "were-in-war-trump-says",
-    "date": "2026-04-03",
-    "title": "‘We’re in war’: Trump says downing of fighter jet won’t impact talks with Iran - The Times of Israel",
-    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNT2FTMnFObTZkT1dhSGw1R2ctcWN2ZXdJdndxdW1Gb25nWmxNdHBTYXFINVpuUVNXd0gtcVVIV09idTUzVjVQZXZzd2JkdnFfT1YtUXhpX2dSd0JvZ0c1RGZscW9YLVhxVnY4eEg1dE1FazIwWHVlS0lMZExkdTNnT0poYnlzelJPNXFwV0lVMUlCX05VREdXWmRzVG9pOWEyczFtZUtxQjRoWnVfV3JiVTV6UG5OQnRfeHJV?oc=5",
-    "source": "The Times of Israel",
-    "fetchedAt": "2026-04-04T00:01:13.475Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-update-special-report-april",
-    "date": "2026-04-03",
-    "title": "Iran Update Special Report, April 2, 2026 - understandingwar.org",
-    "description": "Via understandingwar.org. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNTXZ4cTczUHBOZUIxaEcyYTBrOEF3bm1YZ2RyLVVRNGl6N2pKdElTWHZQN1Zyd3FyS2E4Ym9fZTBTUzYtSnRvaC00ZzRYcWVkRHV4T0lRUml0cndLeFZYanN5N3ZveXJweXFMZXVsN2VvZkJWQUJGeWxIa3JXbWZEd3hqYmJNXzN4MWdISm9qcGNsZGtf?oc=5",
-    "source": "understandingwar.org",
-    "fetchedAt": "2026-04-04T01:00:13.287Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=ApnSnGzOcS8",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "ApnSnGzOcS8",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "irans-war-with-israel-and",
     "date": "2026-04-02",
     "title": "Iran’s War With Israel and the United States | Global Conflict Tracker - Council on Foreign Relations",
@@ -4442,6 +4286,155 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRXkydHltcS1rZWpaVTYxRFA4UlpzMF9TRGVGX3pqMUR3WVlSeFc3d3dIeVFhMTJtMTJGUW16bHJPX19GRTB2T1VNY21xN0ZxWU5fOUFFWXhrMzNEUHdrOVFfWXBZa1cxc2wzcHVKNXQtTmpSME1idE90bW4zclFDRUJLQmw?oc=5",
     "source": "ft.com",
     "fetchedAt": "2026-04-04T18:00:57.467Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-war-latest-search-for",
+    "date": "2026-04-04",
+    "title": "Iran war latest: Search for missing US pilot continues - as Trump issues latest threat to Iran - Sky News",
+    "description": "Via Sky News. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOMTRZbVYwcUVWLUpQZGQtOGZ3ZHJtTzVPS25Pb3BqUTJ1SjAxVzBKYzhkUUtIS3hTZ2FEc0FaelIwY3B2LXFOV2xLRnFZZTVreUFZb0w3dkRZa3JubEkya0Jka2d2MlNkalpjMTdUY2tHdHFCOG83NTF2LTNEbkxLM2l2Y245UnVkUmlwOUxmcXp3Z1RTdXRGNUt2ZFIzYVlybk44SlhqY2hENGVKNFBaaW50aHhfMTJqRXVvV3RtTVZ3YnNXT2Y0dWVJMTJJZw?oc=5",
+    "source": "Sky News",
+    "fetchedAt": "2026-04-04T19:00:11.598Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=FkijjLEefPw",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "FkijjLEefPw",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "us-fighter-jet-downed-over",
+    "date": "2026-04-04",
+    "title": "U.S. fighter jet downed over Iran, one pilot rescued, official says - NBC News",
+    "description": "Via NBC News. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNRVlaM2dadXgtOGxNNEE3V3RDZzhMd29EOXgyY2pNdVNsblNfdExsZDFseEEzNVVJaXV2Qjd6YmszZ1VCLTYzaE02UXlnTUlWWXJJMU5ZUjZFNXpkcXhyU0pVUGYyWlNOdnNjS1hMMDBzdUVnVHdtR2JYMk9jQUxPOWJ2MXZnM3dPTEJKcllycVdkX01xT05hcjZrZDN6blA3QW5tdmlwZHZDUFRUVTlhTFlITTcwOUpDSUE?oc=5",
+    "source": "NBC News",
+    "fetchedAt": "2026-04-04T19:00:13.178Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=NE92ZzTeDGA",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "NE92ZzTeDGA",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "irans-war-with-israel-and",
+    "date": "2026-04-02",
+    "title": "Iran’s War With Israel and the United States | Global Conflict Tracker - Council on Foreign Relations",
+    "description": "Via Council on Foreign Relations. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMWduRExjZXhMUjFuYjV4Zzc0LS11OHVKUEhXSlpUNUdFMm9MVGlJeFd5eGh1ZWpEWWhFNEdJX0tOVTlJbnZ5NmpBQ3dYeGNpSTBOSWtISUduak5WSHhfQUhQcHBKbVpLdG1IVi1ySWVGd05NM18yektrem1TM3ZvaV9xVjR2eC04cE9RZ3FZajNCZWFHNzBaS0hhSS02dw?oc=5",
+    "source": "Council on Foreign Relations",
+    "fetchedAt": "2026-04-04T19:00:23.828Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=Sveo1TJHZGs",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "Sveo1TJHZGs",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "us-israel-iran-war-latest",
+    "date": "2026-04-04",
+    "title": "US Israel Iran War Latest Update: U.S. Pilot Lost in Iran, F-15E Downed, Trump Gives 48 Hours Before 'All Hell....' — Here Is Where the Iran War Stands Right Now - The Sunday Guardian",
+    "description": "Via The Sunday Guardian. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMingJBVV95cUxQblhJN2x5TXdoTEwxc1E0cHhDZm5Td053clRRc2NRaDlQd09xeWJ0VFMwNVY0VTFrVDJwdWNzSk5wTnM2blpqWm9KcXFyMzBPSjVCQkhOcGgtYm9IMjIxOElTYWNvZkhQTkdXaXpjMmdaM0xiOWxQMWpHZ0ZsUG5vczQ5ajc5NzhJa1VnSmMxTmNzZ1hCc1dSWHlDYjFjeE91NEFCMS1NREl3T3NuMmp4UUJ3a1ZLVEplanNBTS1WSEZKdTNQZ01CdGxON1ZTSHhRZXdFMXVrQ3piSnV3Wm4wYllzZEtPX1dRZ3hLREpIM24weEx6R0d5QnJKQmpnUVJOa19zd25LSTRDRC1rUnNlOFM3QW1NZE9nR1RFd3F3?oc=5",
+    "source": "The Sunday Guardian",
+    "fetchedAt": "2026-04-04T19:00:39.316Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "how-many-people-have-been",
+    "date": "2026-04-04",
+    "title": "How many people have been killed in the US-Israel war on Iran since the conflict began? - The Independent",
+    "description": "Via The Independent. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPazNGWHNwU2pvbUJkWmd3NGdnQ1g3WEUxUE9fMHAwTDVGYnFJbVR2ZEY2SVNSc0lDbDhjalhkdzZyaHVNZEdJT2hHSnVGb0dvc1cyaUhCV1A5ZkZPRWUxaGc5WlV3UUlyMmg2ZmtKejBBT2stQjc0QV8ybG1FeUxjeDNjZ0ZIYWdhTlBVOUI1UE80anNPYi1PYmFQSThFX2xzY3ZET1BCblk?oc=5",
+    "source": "The Independent",
+    "fetchedAt": "2026-04-04T19:00:45.937Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "usisraeliran-war-latest-news-your",
+    "date": "2026-04-04",
+    "title": "US-Israel-Iran War Latest News: ‘Your Sons Under More Danger With Trump,’ Iran Tells US Woman Amid Search for Missing Pilot - The Sunday Guardian",
+    "description": "Via The Sunday Guardian. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOaHFCSzJUY3ZWdHRFQ28yOGI2LWFkVk44a0RaQkZhN3hyS3FnMzhrNkloeDBGMUxLUTN0UHNmVWNvRGVSSkdZeWJUS2tmcXF3cHpfeEtnLUdNSW1LdG0wYXRLeDM3QXJuWmUyTnlVRzFldVFiTkxVSDFvbTBvbzhkVlBxbmJSVVFkeXUxYUxVSUt0UDJfRjF0THRzalJVWjNFcmpLU1kwR3ZvU1EwWVd4Wkd4MFluTDRveVh0bndlMlhTcm5JTXA2TjVzZTZqajNLTkVXYW9scXJmX1dPUTF3SF9ORUlEX2h4SWZ0OFk5cw?oc=5",
+    "source": "The Sunday Guardian",
+    "fetchedAt": "2026-04-04T19:01:03.895Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-calls-on-the-public",
+    "date": "2026-04-04",
+    "title": "Iran calls on the public to find the ‘enemy pilot’ as the US continues a frantic search - Politico",
+    "description": "Via Politico. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxObUlCTENRRWJzNzVvRDBBMXhPMWx5bS13T3E4NWJwcjhpX2Q0NWVwRVB3TDJ4MnJVMC1veU0yaUh4NTg2VHJLSDRkQUFtcVdKQnE0QnYyZlVDWWdTWjZIS3FiS0ZFM0hBa3BSWnZ5bG1waEl2QmZZWVJ5dVhsYkxpN2Fvbm5xTTVpZy1fVndfTWxaLTRQWjBSd2txdGplZ1V6ZHdrbnZ6bm5hMFBVNDA4Q1VDeHJPLVFyNm9IQnZfbkFRalRpNEdkRmZ0MC1PVXZmejRV?oc=5",
+    "source": "Politico",
+    "fetchedAt": "2026-04-04T19:01:10.611Z",
     "mediaUrls": [],
     "videoMatch": null,
     "lat": null,
