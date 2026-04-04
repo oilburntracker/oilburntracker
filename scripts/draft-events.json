@@ -1,343 +1,5 @@
 [
   {
-    "id": "how-the-war-with-iran",
-    "date": "2026-04-03",
-    "title": "How the War with Iran Ends - War on the Rocks",
-    "description": "Via War on the Rocks. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1HbVI0WjZZd2NOR3dNMHNYWmNFelV5Szgyd21BNjEtRW52c01jLTZPUlNCaWhLYVBEY1ZoVWM1emxHUThFX1ZzbFc4Um93M3ZNNHI3Qkk0UXBvX0JzRFpFNlFqckRDaFFIZ3ItRVl3?oc=5",
-    "source": "War on the Rocks",
-    "fetchedAt": "2026-04-03T21:00:17.046Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=0j_D5iHd06A",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "0j_D5iHd06A",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "idf-strikes-beirut-tehran-one",
-    "date": "2026-04-03",
-    "title": "IDF Strikes Beirut, Tehran; One Wounded in Northern Israel - Haaretz",
-    "description": "Via Haaretz. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOWXJEQXZiNFdoY1FhMXdMNll6ZEJfdW1ocFM5eXNTVEM2S05YQS1najBJQ285dGZnNVlGY0h6d2JYZE1KNHdZb1ZoLXM0ZUZaUGFqdURBWEZtUmcycHlSTkYzNWV5SVh3SUJwS3B4d1RwOGdwMGJPakxjV0M0YkZsSnVTdjd6MFd5LVpoT0d4Z2lfMEFGR2h3RVZYQ2E2X09INFJ6NG03bWNaaUtLa0JuSmQ1ZGhOUUhCTmtUV0N0dkQ0TUJXOEN4QTc3ZHo0c1pfRzlNLVdPVzE2VWJTbmlhdURHYl82XzBINzFyZjNLQVlGUTZYeGZtOVBySFZsaXpIXzVHdGNncVpYSTJKSjRv?oc=5",
-    "source": "Haaretz",
-    "fetchedAt": "2026-04-03T21:00:19.545Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=pVb8ha8VlqU",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "pVb8ha8VlqU",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "drone-footage-shows-a-factory",
-    "date": "2026-04-03",
-    "title": "Drone footage shows a factory in Israel damaged by Iranian missile debris - aljazeera.com",
-    "description": "Via aljazeera.com. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZnhzTmJYT1ZjUkZlQWZPd2QwVlBNQVgtMmhjb0xMRUFPbGJCQWFIdDlvYU11TlR5SG1WWEpfUTZGTndLTndTME4yb0s3OVh3WjFrOW1DakZLak5ubzFITlpqVk1NUUM0YVFSaDhDRlZoamZpVW45My1tOGhoVU9WZmRCVXlrZUVSYU5tV2ZCWGJadW9kMDlQMHhDaUU5YW4tMFNTOEM1QndHUXZxR2JmNS1HaTdLbXhwTEo2bGQ1NUrSAcYBQVVfeXFMTWZ2QTcwU1Jld253NlljSXpSeGQ5V2lvLWtQNUhRX0oyYUN1Ql9MXzJ4ay1lMV9TMWpJZjhvX0xidmZPMjkzaERPd3djdTU4MjU3S2xYZlMxQVRfUmx5ZGx5N0E2TGdxTW0wVVIybk91b0JGa3gtRXVNYS1kNGNtd3gxS3M3MTZvMTRvVGNBMEJQVFRBMF9EdGN0NHFhaUhKazVIM3B2cTg2YU9Qb1ZJNkdtYTl2V2VZczJmVXo0MGRYMmI1M2dR?oc=5",
-    "source": "aljazeera.com",
-    "fetchedAt": "2026-04-03T21:00:24.581Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=5QBvpqAunf0",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "5QBvpqAunf0",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "israel-iran-war-columbia-missourian",
-    "date": "2026-04-03",
-    "title": "Israel Iran War - Columbia Missourian",
-    "description": "Via Columbia Missourian. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNa2ZhaGJnTXFUX1M1ZU5ob2FXMEJXWHFiWnJDNGZVMVdzMWFUUGczZVFMc21qd1liM2lPSW9MSWdvY2t3Ump2eEJGVW5EU09PZElsT3MtSmxnd1VzbTc4OW5oSmNqMFRmU0pCbUJiSXAxTXEycm5WUGo2dU5Sc2lxWE1haTV3aE5seEg1blB0ajJtd0I0MndjbTJHQWt0TUlhNU1BaHNRUl9OcVhXSnJ2RmlPYkd2MlE?oc=5",
-    "source": "Columbia Missourian",
-    "fetchedAt": "2026-04-03T21:00:26.888Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=TqHhjPoD1xs",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "TqHhjPoD1xs",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "more-than-20-attacks-on",
-    "date": "2026-04-03",
-    "title": "More than 20 attacks on Iranian healthcare facilities since March 1: WHO - aljazeera.com",
-    "description": "Via aljazeera.com. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSDVSTVlINkJNUWVwaENTM0NUci1LZ3BWNDBMMzNveWhYMmFlZkpMTHM4ajVZS0g2R2daaGxMU1lGZlJ3VndHaTYxSmdzLTR2S0FXNEZwU1Rwb3k0b29wSHREd2R2VTRnU21qUmZxV29qV2FvMmFOVHpQS2t6TGMzMk00MXo3OVRESHU3c285cXpZZ3ZYM0FUYV9CTUFnLVRhdG5wa3YtTmc5X1FEVENTbtIBtgFBVV95cUxNYzdJekRoaVk5X2RPOHVvcWlqQ3lnNGtEWk9iUVR4M3kzRmdsemo1MWFxNHFPMnVCQV9ZMnFwcE1mWUl6QXNMR1RqVmxJN1ZaNFlfaGl0MGE1bEpKdnBTQUtTUUJOVEQwMms4Q2NzVkpkNmNmTWxOZUN5cTY0Y0tDeDMzV3A5aFZqdGpoTWZXYm5MOVZnamtrNlV0c0R5R0VXTm5qdDJ2S3Q5OGgwdjBoaFJSUXVCZw?oc=5",
-    "source": "aljazeera.com",
-    "fetchedAt": "2026-04-03T21:00:40.007Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iranian-forces-launch-search-for",
-    "date": "2026-04-03",
-    "title": "Iranian forces launch search for crew of downed US fighter jet - aljazeera.com",
-    "description": "Via aljazeera.com. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUE40SnhEVGpQNFQyRmpZNklQcFJUUGpndk1VaGdBZE1DQzlWRzJaSlNIZ1lvUmVHa0ExdmN0S1REWUNzbjZaTFlJMDlIbjZWQ2JyYkF0cjRsNUtJOFg4dG9EVlJ2LVY1TXpzWlFMTFJlelFJRzM2c0pvc0taNE9sX0NfWnh2X09IMFVVZmx5UEdfUG51b2lNYzdlWTAxclZNNS1nRll30gGrAUFVX3lxTE5rN1dfOVo0Q0Z6RjNpeGZNWk5TR1lrS01hVkdGeXdwV2ZvaW00d3luTHpjM2EzOUpPS290YzJjUXJpQ2tiLUYxaVRrZkh2OFhVbmZKT1pveW91YlNEUnExMTRIb3VndXprY2xBRExONDNDRnJmdmMtMHkwa2R3eFJub2RESE1UMktfODduVmljVjJXQnFUcE1aWXBaY0plV1hrNVVtTkFPU19XMA?oc=5",
-    "source": "aljazeera.com",
-    "fetchedAt": "2026-04-03T21:00:46.315Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "aptopix-lebanon-israel-iran-war",
-    "date": "2026-04-03",
-    "title": "APTOPIX Lebanon Israel Iran War - Columbia Missourian",
-    "description": "Via Columbia Missourian. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNeUI0b2RfaS1mY2xlNWtVQVFWeTdZMm5vYVROcWVBUFFmZHI2UmJaV09LY1cyR2dpc19YNHU1WFkzVk9ZRGphREJvVFd4amY5Rmc1N3FsS3BfWm05YUdHTS04aUVvaTZBTUtDN3hlMGFpeF92UjJ4TXVReE5rVlVFVV9MbDktT3BtU3FsNGdTUk5BWTZIdGhtaEtaTmwtbnRWRzdDSjNDY0V5aW8xZkFoVjJHQ2lXb2hJcllMcVlIWGVCanpFRFlyLW1ESTc?oc=5",
-    "source": "Columbia Missourian",
-    "fetchedAt": "2026-04-03T21:00:52.868Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "1-crew-member-rescued-after",
-    "date": "2026-04-03",
-    "title": "1 crew member rescued after U.S. fighter jet goes down in Iran, AP sources say - Spectrum News",
-    "description": "Via Spectrum News. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOcFJsWUdKMF9lSDZDN1FnWDBObHBaNmdnbUl0RUFrRFZiY0RaVU1nSDYyMjdlOHNwV1d2SFZBTy1RVmpQbmU2bHpQaTB5VEdtTnJDanYzeVhlLW9MdGt3Qko2WURWTFhzLU8tT291Ni02OUZVcllzRkZSVU5fM0hiY3hHQUVpT2tIZU42cHJUdHZVZkhXUWZzUUlKbzYyMnBDNlF5SklkQURRNHdKV3kzRVItSjFid3BydncyQ3VQeWozc1B0bjQ5eEowOUFsYWYzdmJiZFd1S1g3aUE1S0VJUndqWWI?oc=5",
-    "source": "Spectrum News",
-    "fetchedAt": "2026-04-03T21:01:00.059Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "what-is-benjamin-netanyahus-end",
-    "date": "2026-04-02",
-    "title": "What is Benjamin Netanyahu’s end game in the Iran war? - The Conversation",
-    "description": "Via The Conversation. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNYk9FOU5mdEx0aFZIUFZNbmVrUE1JZlpKS1U5dGZaOFNtZnRucnhUSjM1M0R2SmlCSVIwWGp2clBnZ0NLVGJLUi1CLUR3UndKWThQaU1YU2cxemE1OUhuSVFqMW8zSV9oc3pPZ0M3Y1dQU05YVmVLOTZ2elpvVGJsVE5fMHpEMnBOUXdteFV0WHo?oc=5",
-    "source": "The Conversation",
-    "fetchedAt": "2026-04-03T22:00:18.327Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=lyloosZP8Qw",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "lyloosZP8Qw",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "2-us-aircraft-shot-down",
-    "date": "2026-04-03",
-    "title": "2 US aircraft shot down as war in Iran escalates. At least 1 crew member is missing - Orlando Sentinel",
-    "description": "Via Orlando Sentinel. Auto-detected by headline monitor.",
-    "category": "retaliation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9MdDBUOGx3cjFzYnppcVAyUmUza2JwU1Nxa2t4WjF0YVh2NXB3bUM1eExhYUVWSm9JTUR6SkFUZmt2T29tOVRFU1RselRPYndlZTFLNXpTUmNIbjh1Z3U1dElRaDByWkN1RnRMa3pJSzNiNE5obDJGbG5BcmxMQQ?oc=5",
-    "source": "Orlando Sentinel",
-    "fetchedAt": "2026-04-03T22:00:23.533Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=sRz7getLyL8",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "sRz7getLyL8",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "us-and-israel-are-trying",
-    "date": "2026-04-03",
-    "title": "US and Israel are trying to rescue fighter jet crew in Iran - courthousenews.com",
-    "description": "Via courthousenews.com. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQazRLRFpFaUg1c2Vvbk1mNU1rcWswb01kc1ZFT1hFSVd4aWpCTWRFNzlaTjRmaFh4MWVDREhHaGpacDlnTXdzX1Y2RmlYNnROSExweWZCTzVWTzgzMU4zaVo4dDJDbHpHQVllcFVLT3RnRjhYMm4wcFhzX0N1bXZDS0wzS3FoRjdZRHhKY0xvWVAzMFJCTVZTaFVsRFVQdG9n?oc=5",
-    "source": "courthousenews.com",
-    "fetchedAt": "2026-04-03T22:00:28.357Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=2xIVn81Jsyg",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "2xIVn81Jsyg",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "one-crew-member-rescued-after",
-    "date": "2026-04-03",
-    "title": "One crew member rescued after American aircraft went down in Iran, U.S. and Israeli officials say - KTVN",
-    "description": "Via KTVN. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQeDcyRHJQa0FCeE9LRnFvNjM3M1hMeDRNN3REMzdncnlhZDhyc1JEX2FCU0FlWlNkc3VnMnJVaGdIU1dXVWtVM0FDU3h5aDR5NHdTM1pZeEJhTk9GWXI0djlfc09EWVphV2FOeHJVOXFzdXhNYTRqWjRJbFBUMklkVGh4MExPRFZrblB1NVNWYkhzMWZiSzlnbjVYdk0xYnVLejItOHJxUnZFUjNiNG9meEktRjZackhvWlFMV2pTaEZUSXNLTEl2UTBLNnZKMWZCMERQX3ZHV28zODU1SmVoS25oX0w3dw?oc=5",
-    "source": "KTVN",
-    "fetchedAt": "2026-04-03T22:00:33.359Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=vWgAiV0R28M",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "vWgAiV0R28M",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "day-35-of-iran-war",
-    "date": "2026-04-03",
-    "title": "Day 35 of Iran War: US, Israel Expand Strikes on Iran as Washington Ramps Up Pressure - foodmarket.com",
-    "description": "Via foodmarket.com. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOZWpZQUg4R0VJQUJrYUxkWmZlOXBWVzFYODM5RjIzQjZVM0dPckNRU0EtcHZMcGNEV0lYTldwN1g0QjdJdXdCYVRjU0F4YmI0bTRRbUd0YXhXbVBmSnpNMzFYUjFQdzdHa2w4dWxOcUNzaDNIX3VRbllodXZCbGJNcDRZR2cwbW5IeG5BQmF5dFJzNFFURUp3aW90WmdaX0ktM2QwWURMbV91WlJMQzFVU1RDZWFCa181emNleUFxOElpOXJURlE?oc=5",
-    "source": "foodmarket.com",
-    "fetchedAt": "2026-04-03T22:00:36.023Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=UxZaOelqpEo",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "UxZaOelqpEo",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "aptopix-lebanon-israel-iran-war",
-    "date": "2026-04-03",
-    "title": "APTOPIX Lebanon Israel Iran War - Bedford Gazette",
-    "description": "Via Bedford Gazette. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOWGhmZ1ktaGZoSzBDWnp6N2QwNjB6NEtiNVJEaklnY2ZHaGQtbDF0VGJNUWttdUpDV1ZobjJnSjVnZ2ZSMzJPZm95d3UyMldsa0VReG1fTDFYRTd3eXBzZ09Ld3VmRnVpMzJXUlluQ2xpeU1MTk5YUzEzbURnWUxwdVpGV0ppQU85RFhoc0xsQkVxOUxQcE5MWjMyaWwyaTQ5ODdoUk1BQ203YnBTZl9rMTZGSEQ1SnlDOThSN1JXQQ?oc=5",
-    "source": "Bedford Gazette",
-    "fetchedAt": "2026-04-03T22:00:38.206Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=020Rn3nyNd0",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "020Rn3nyNd0",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "un-investigation-looms-over-deadly",
     "date": "2026-03-31",
     "title": "U.N. Investigation Looms Over Deadly Gaza Conflict - devdiscourse.com",
@@ -4634,6 +4296,199 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQeC00eHlSbWpHdTBVSXRvY1AtVWVVLXhBRWtwNk1iUVAtTmk4a1gwRHFFWHJsMUFjS25QcEk1OV91VEJCT1VkMmZvdDZpSER1QW9EbTNuTmVla3loWjV1RnBwMzYxUUlNNnltRGlRS0pyWms1dElrdmJoelVubm1qR19LdWF2Q2ZVM2NBanFFaHJFM0thMXhhRUZfUS1JRTE3Z0JmbEFfM0hNRnhCNjl1SkV5a09BNFR0?oc=5",
     "source": "independent.co.uk",
     "fetchedAt": "2026-04-04T15:01:12.097Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "russia-said-coordinating-with-idf",
+    "date": "2026-04-04",
+    "title": "Russia said coordinating with IDF on evacuation of workers from Iran nuclear plant - The Times of Israel",
+    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdlAxaHVjek5tM2c1OFhLaTd0REFaV3lWSHFxaDVpSkcwWlBVVXpaSWRxTWRzY3BMcjNqYVpISkhGTy1LLXhJR25zNk80Tk1jWVlkWkVYZDR4aUpRelBWVDdiY2IwZHZNdWhFUzJ0eTRkX2FUbDBjTVp1MGZLNVdfOWRJeUFhLU5Td0xfRGxZUk9LQ0doRmFqQmhkZDBRNlV6ejBIY01NSlJRRG9UMnJjcVdqWdIBuAFBVV95cUxNSjNRNUI4eFU3RzhoMU1mSC1aRTlDOUhoVl9EQWZnQkZqMUlqcXpsLXdYTkhHZXA2VkVuMzJGSHAzc0FmQkFZWnhWc2xZRFFtd3dSQy1GX1RlMzlNbmtMcTc0VEFtTTRvMURIV0RfX3lGMTBpT2pFS204YWZpWEE3c3Q2VENVcGdBTG1aQXp3bWstTkpGZGZITUtBNzFsNjZScEpyZ0dURmdwVlQxNVlXdzJ6alF4T2ta?oc=5",
+    "source": "The Times of Israel",
+    "fetchedAt": "2026-04-04T16:00:14.043Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=hfX3_vGgo9o",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "hfX3_vGgo9o",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "how-the-war-with-iran",
+    "date": "2026-04-03",
+    "title": "How the War with Iran Ends - War on the Rocks",
+    "description": "Via War on the Rocks. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1HbVI0WjZZd2NOR3dNMHNYWmNFelV5Szgyd21BNjEtRW52c01jLTZPUlNCaWhLYVBEY1ZoVWM1emxHUThFX1ZzbFc4Um93M3ZNNHI3Qkk0UXBvX0JzRFpFNlFqckRDaFFIZ3ItRVl3?oc=5",
+    "source": "War on the Rocks",
+    "fetchedAt": "2026-04-04T16:00:17.443Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=CNq9Nj8J0O0",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "CNq9Nj8J0O0",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israel-iran-war-unionbulletin",
+    "date": "2026-04-04",
+    "title": "Israel Iran War - Union-Bulletin",
+    "description": "Via Union-Bulletin. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNeVdjdVBZTTRPS1pNM01mLUZHQ3pKZXBiTERFQTZtWVRVcEloRkwxOG9pOEZ2NVpCME5tWlFUYkZ6RmN0clJzSEFmbGk2cHB5SmxpRnFIa0RHMk42VGJ6QnZ1VHcwa3BrcjRiUVJyMXJXTGpseV9lcGZTaDNKa29NZTNIY25NNWMtTGdYbkpKYmRYeFVaRVpTZkVVVWJSa1pzYnFnS1NXVkg?oc=5",
+    "source": "Union-Bulletin",
+    "fetchedAt": "2026-04-04T16:00:19.819Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=nhr3mIMD4uQ",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "nhr3mIMD4uQ",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "what-young-republicans-are-saying",
+    "date": "2026-04-03",
+    "title": "What young Republicans are saying about Trump's handling of the Iran war - pbs.org",
+    "description": "Via pbs.org. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNaVdhRVhPNVpFT1RpdUlaek5tekw4blFsRmZvTXVMVDMwMjMwMjNHdlFfa2FObHBDTHFDTFJiLTFLTy1kb0tIUzk3Vm80UHJES21iV2dmV2prcHk4YjB1S2FXaDBFa0d0M3l5WjFlVU5lbkVUdDQ2TUk1R1NvTm5ycGN1YUlFYm1kcTd3Uk1mclRsMmYzdFdDam5rVW1sSFdPZ21yT3J1R1Y?oc=5",
+    "source": "pbs.org",
+    "fetchedAt": "2026-04-04T16:00:22.142Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=xmR7wnHvbJI",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "xmR7wnHvbJI",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israel-launches-new-strikes-on",
+    "date": "2026-03-27",
+    "title": "Israel launches new strikes on Iran as Rubio says war could end 'in a matter of weeks' - pbs.org",
+    "description": "Via pbs.org. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUjFMelYxVmp0c3lieVk1T2s5cGhwNG54bnZGdWl6QVFPSTNtYnEzUk42SS1nS2ZyNVBjblEyV0F3bFFmaUpva0NkZl9HV1FIeUR2all5T2JEeHFlNVNiQVFjMUFwbUFMWkluenRtZVVhcVVhR1p2R2xMLTBETUhvdG5kZTRsZVJmSENoWmc2RWtsVm4tbFVUSDlxT2JKRVhZd0w2cTZVRWc4Q0RxYkhwQWhRcEZpVUZ3WVE?oc=5",
+    "source": "pbs.org",
+    "fetchedAt": "2026-04-04T16:00:34.126Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "crew-member-rescued-after-american",
+    "date": "2026-04-03",
+    "title": "Crew member rescued after American aircraft went down in Iran, U.S. and Israeli officials say - pbs.org",
+    "description": "Via pbs.org. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOR1U3eFJWMGlGTXFqRWU1UmYyUTVwUFpmZFljdHBnMGZCNUttQnltcGRHVUdpT0I4b2Ywc2RJNmROcmxNTlZsS0gwSU94Qm1GOGpuZXduNzhsNVRlQjVPa2pnZTlYQ0xOSWplSUQ1QU5aYVRaT2tIcDlIX2xUNDZ4cjlMYlY2MGpyM3kyUWFlanQ3MkZBVmIwWHB0QVRqVXBLRG8zeXl3N0RELU5Sbjl0QzBla3ZCTXFDQVZmWDF3QWNHdXM10gHKAUFVX3lxTFBjcU9Rc0xsN0lhcnJqR0RqaEcwam03YlBENUVCQlNudjFEbGw2R0NhMG1vNTBSQktfbDY5cXFQRk80S2tsZl8yZ0lvYU1TVGJ4MDIzQmpmUmV0TlpEUzdDZ1JsM1F1dXZkQ3NZMTVENWNQX0VMbkVCdG12LVNPenhIQVo2R2pnQXV6eDRhNHZzVUFyelQ3TmdVNmIxODhrT2Z5U1E5MlBBXzhqLVNtMGFfNi1sUHhPN0RKT1M0ZDFRU25BODQ5a20wblE?oc=5",
+    "source": "pbs.org",
+    "fetchedAt": "2026-04-04T16:00:40.840Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "irans-true-promise-4-wave",
+    "date": "2026-04-04",
+    "title": "Iran's True Promise 4 wave 95 hits US forces, Israeli-linked ship in Hormuz - شفق نيوز",
+    "description": "Via شفق نيوز. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTHRBOGExb0x5VzIwQWw4NTdwZG0yR1djSC1HV0ZXcTVORWZuN2RwNkxFODMzSmxZMmExSDZuNjEtWjdZSlo4TTNvN25aNWdDdmZZTjFVSEJpdzlxZzVmSDB1RlpVYmpUWVZLUS1YOFJyMWdRMjFFcDN1WFFyN2ZqQm5qTjZ2RHNhS0EtWFFHU3dnM3draW1kTDFDR3Jfd3VUNktSY1VCendVNTdf?oc=5",
+    "source": "شفق نيوز",
+    "fetchedAt": "2026-04-04T16:00:47.031Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "lebanon-israel-iran-war-buffalo",
+    "date": "2026-04-04",
+    "title": "Lebanon Israel Iran War - Buffalo News",
+    "description": "Via Buffalo News. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5jZFYtVzJMbkZXYlJOZThDZ1NxOWVXVGlobkRVbUczazlPLU9LMHFaTTJ1NmZOVFhEVVRIal92UU9EUlVoMkNxMU9HVEp5VUhhTG4ycG5Dalc2bW5CMWpPZ2F2TFVoMVhUTmVzYVU5aHczckF0Ylo3OUVSNA?oc=5",
+    "source": "Buffalo News",
+    "fetchedAt": "2026-04-04T16:00:53.881Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "former-israeli-diplomat-says-wars",
+    "date": "2026-04-04",
+    "title": "Former Israeli diplomat says war’s end must address Iran’s threat to Israel, US - KVAL",
+    "description": "Via KVAL. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPRDFmbS0tWHBpVDNucnB2VjhJVWtjNDhZZGRacUd5bFN4VXc0U3ktNFE4a3R5SkpQYm9yeDRLTFR4ejUzWmpYOVBnM1M2c2RYN09rWlI4NUVSbzNpRTJhZlVjNzZuRjFBOFh5Yms4UThpVm54LUFRcDRzRWRzQ1Y0UE5vZ3IyT2EybEs0cmo4SmZZU1NQSWZQU05TUGNEYXY4RU9Kb09JVERfQ1FOS0R6WF9JMVBwVlBXelRuWkFJQ3FXQQ?oc=5",
+    "source": "KVAL",
+    "fetchedAt": "2026-04-04T16:01:12.769Z",
     "mediaUrls": [],
     "videoMatch": null,
     "lat": null,
