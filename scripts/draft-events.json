@@ -1,205 +1,5 @@
 [
   {
-    "id": "iran-war-us-israel-hit",
-    "date": "2026-04-03",
-    "title": "Iran war: US, Israel hit major bridge, steel plants in Iran - DW.com",
-    "description": "Via DW.com. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTVNVczJpUnFSSkpGeTJxVnd5cUxFZnVFNkl2N1luXy13SnJ6XzRHRDlRdGx2U2hFZ095NVRYN3RVV0xGdS15QmxZbW5mMVJ0QTlQbmlLQWF1OWZnd2lPcEFyUk9UWHBfUEZiYWNpVWYtOHgtNXlDZTVtSEZiMnY2eFMtMzBKcEh1XzNVX00ycVkzaXlsQ1E?oc=5",
-    "source": "DW.com",
-    "fetchedAt": "2026-04-03T16:00:27.232Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=pnvc9cUoSII",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "pnvc9cUoSII",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "why-israelis-are-losing-faith",
-    "date": "2026-04-02",
-    "title": "Why Israelis Are Losing Faith in the Iran War - Haaretz",
-    "description": "Via Haaretz. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNUzdrZTNzRjZhNUhsNHRzcFF2bjVrTlpzUkFiQW1iSXhNcW85dC0xb3BmaUotMGpvZTJkeHlNY2oxM2syWHZSNzhLMmx6UmlFLVc0dFZaMTd1YkJBTXF4RFo3RG9HaElGaXVMbWhUWWY3ZmJaNGdYaXpsNjhKbEJlallPNmU0dWdZVS1McjVqTWFpdFB0ZnFGNG5xTThWYnlFangtOHpJVFlnd291dHZhSmxvY3E5Q0dkdkNuSzBGdmthanlFd2pGNHEydk11V25PdklsVGxGVFBIaFVTcXY1TjdUdmdWOHo2TUIzM0IwRHVSbWl5WVZFXw?oc=5",
-    "source": "Haaretz",
-    "fetchedAt": "2026-04-03T16:00:46.047Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "live-updates-iran-launches-missiles",
-    "date": "2026-04-03",
-    "title": "Live updates: Iran launches missiles at Israel and Gulf states as explosions hit Tehran - NBC4 Washington",
-    "description": "Via NBC4 Washington. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOLTlfSUZQYUpERm9WVjFaNDMwMm51ekhfTXE3YzJaVWFrRUFFTWowZ2xlbkRaSm14TEhWZ3VHcUJDUXRISW9kRW4wRUFWTVYwdzhzejdELS00QUx6YUVzR3I2dFBtbG13WjItbDk1emMtQ08wd2IzWU5uTlZJaXRIT0RzcExfankwXzQ5VUt5eWhLamEtbFVFcUJqcm9rQWRpQ2xodUxFZE02b0dPNDdTdV9R0gG6AUFVX3lxTE5lM3VsMEQ3a2tUVUp5eDZPbjlsSVRCVmIwVDZnMmhhaFNRNXg4bW1EZ3BnUHp4c1U4N295RWpUWTdYMnFwMHR0TzFZbXVsVkh5QWhRWUZ2RlpvSFJWYUVIMldrSTk4cHcwNEFMcTJWT1RlU0lXbnhselVkYzZ2bWVRWlFNVUpveDM2eS1raDZuZmFHYW9QdXo0dDJFd09CVksxcDgwMjd0S2J1WGd2Yll1dE1uZ2FVOHBJZw?oc=5",
-    "source": "NBC4 Washington",
-    "fetchedAt": "2026-04-03T16:00:52.484Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "irans-former-top-diplomat-suggests",
-    "date": "2026-04-03",
-    "title": "Iran’s former top diplomat suggests terms for ceasefire in war with US, Israel - The Times of Israel",
-    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTHVSY1FoTU1RbDlZR2ltVTZlS2hhVkVhMFhsLVVQQzJ6ckpWeUxsbjltcWU5ZjRxNnlRRURWVE9uTjU0NVNteDI1eWJQSkZrR1ZDQzVfTDlVT2RoaVFMaDBkWWhDaGxVbGVjWHc3MXQ5ZVN5YlQxQnZmN2VPeDU3b3hoUWRmVE1WcENLcHBxWTFDVjZ2cEMwOXdrUG8wYTZ1dlRWU0Y0SVJNQ212MTlqUnlIWng2aUpBTVowVTF6Yw?oc=5",
-    "source": "The Times of Israel",
-    "fetchedAt": "2026-04-03T16:01:04.975Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "live-updates-us-fighter-jet",
-    "date": "2026-04-03",
-    "title": "Live updates: U.S. fighter jet shot down in Iran, search and rescue mission underway - NBC 6 South Florida",
-    "description": "Via NBC 6 South Florida. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSWZIMlMtblFma1Uwd1BrbGJmQUZheFZzclNveDNIbVJrRC1taG5uZmI1Z1RnLTh5ek00ZEhoWmtMaEUtajREV0dmWFM2M1p6SlFoUG0tVWFiZlB3YVNDRk0zeTA2ZXh4VVhiX2p1dFkzUTJhTHBtOVZnOUxNaW1QU0Y2ZGRudlc2R3I4VTlVUFNrc2lBZUxubkNxcUZEOHhPM1dFdnpMMnVSRkXSAbMBQVVfeXFMTzhfNU9uNEpfbkFYZWltWlM2RmVrNjNVNHRaYjJYMnQyTTJtYXctcUVvS09VN1cxZmVSem5zQ0tZbHh4Uk5NaXI5U0FnUHJGZEJxVlRBZ0pCblZiSzdaVTU3YWJQWUdQTjZVT0xaLXlzTXZzUndNd0w4d28wWkl6enVTaGEwNmVubHBxUTVmMkozOE1Ta3lQXzd5d0FQaDktb2FMQ0NZWmQxb1B1UWxKRnMwd1E?oc=5",
-    "source": "NBC 6 South Florida",
-    "fetchedAt": "2026-04-03T16:01:11.358Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "why-did-us-and-israel",
-    "date": "2026-04-03",
-    "title": "Why did US and Israel attack Iran and how long could the war last? - bbc.com",
-    "description": "Via bbc.com. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE55MG5wdTJrMFlNLWRENFBMZEFMcW0yN0E5dE1lajB6eGRWU1JNN2Y0cXhkbGlGdEpTcG1naHdqN00yLThGV3Qzd2RmYWhBa0tfS1I5ejRobjVGZw?oc=5",
-    "source": "bbc.com",
-    "fetchedAt": "2026-04-03T17:00:21.247Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=d8uHnOCWzDs",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "d8uHnOCWzDs",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "live-updates-us-fighter-jet",
-    "date": "2026-04-03",
-    "title": "Live updates: US fighter jet reportedly shot down over Iran - NewsNation",
-    "description": "Via NewsNation. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNckExZmpsX1BTWExsLUVJQkhfTlpXRXJzSUtUQ0FXWjJIMUFhNkxKUWYxVDA4aE9HNWliWVZhM0JFNUEyRVpvXzh2RzFtOEphV0tsUVB5ZXdCZEl0VzlNNFg0aGEybmFTQmRtSTBsdkNpZlhUQTRZWWxGSVV3YUZsTWFzNTlmTmZFM2pldWktZ0RrQdIBlwFBVV95cUxPTHZXbXN0WThhcXBVNk5INWM1a05ZX0lBNFFXOTdMMy1IVHBRUV9uSEZObVA4YVhYaDIyY1JNd0JMbldPc21id2V0RWlXS1NsODZ2SDVrM2ZnUzR2Zjk2ZGhlSjRxRVlQWm5RNENrUXUwQlFJWS1ZWEVWbU04TDZHeGN2VUoyWUZhY282NzVUOHFfN1gwYzRJ?oc=5",
-    "source": "NewsNation",
-    "fetchedAt": "2026-04-03T17:00:28.148Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=Vb67QGolLeQ",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "Vb67QGolLeQ",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "pope-leo-urges-israeli-president",
-    "date": "2026-04-03",
-    "title": "Pope Leo urges Israeli president to end Iran war, Vatican says - NewsNation",
-    "description": "Via NewsNation. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPRE0zYjdHampOQUNlVzZvU0VPamdwRWtoOExkYjI3RnVpUi1FZTEyUjJvc3hHcW5HN1RUVnZCdnBna3VNVXdURkY3NFJGd0VGbTRTTXEyQ0JUZGwtZzh1Q0ptSEZCMHA0a25fbU1kYmlWbnZiUzJQSS1ZdzRwbWJ3TdIBhgFBVV95cUxPU2dNOWVPblJ2RnA0MzIwb3BFb2xfbVJQSWZWdXFIcDktR1RIa2pPdXFvQ2cwZGJpQlNGWWNNZHQ1UXhMdGp4Y19iYUxBUXJENDllazgwNUx4RnN0cE9naTFQTGZrMmxRNVR5M1VrMksxczRfV0xYdlNZTHZPV3dIZ2tzVENoQQ?oc=5",
-    "source": "NewsNation",
-    "fetchedAt": "2026-04-03T17:00:34.426Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "1-crew-member-rescued-after",
-    "date": "2026-04-03",
-    "title": "1 crew member rescued after US fighter jet goes down in Iran, AP sources say - wral.com",
-    "description": "Via wral.com. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNbFQyNHFZSkh0c0xLT091c0dyX1pWdldibGwtWGctMmkxb2ZXYXRROEcxNWhGc3daU3RWXzQtNWJmOW9hR2twVk9XU3R5X0M2dEdiVExIQUJRRnVQN2Nod3NhcklNMjBOYmpYdEQxcG0zUVhLWWdMSWlGR1REYTZUQjd0Z3haQlVldThLZzF6NFpEZjJxMzJFX0JYTEJjSll6dFdfbVhBbmpyTUt6UEFXWk5rcWlzbm1YWlRWTmdnWGhENC1kbWo2SkdfRmxvd1FVa0E?oc=5",
-    "source": "wral.com",
-    "fetchedAt": "2026-04-03T17:00:40.650Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "affiliate-of-iranian-state-tv",
-    "date": "2026-04-03",
-    "title": "Affiliate of Iranian state TV claims a US pilot ejected from their aircraft over southwestern Iran - KTVN",
-    "description": "Via KTVN. Auto-detected by headline monitor.",
-    "category": "escalation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNTFRIbDFCMzJxV296QjU5U0N5SjF3QkUtTlBnbmVXNU9jUUNtU2cyd2JBbnlaYTdqQmJFeUZXRTQ3YUJWSGNxS1N1Q1ZQcE5HVVFtMDYxTkNMRVpTZWhBNzlwVU5MTzY2TE8wWmlicVZ5VnJHRFFZU1NoMUlLdklpbklTTWh6dVplaTVRbzA5ZTRZbjZJMWdDNi01S2xpazBTbTRiVnFxV1FTN05SRWt6N3Voa3N5emxGckUteng1ZHRDcDBiTFpfZEhET0t0YVduTUlJZDhsNDlOVF9WMGxwSUJESVF6MVB6R2J4TndEME90ZFlnMng4?oc=5",
-    "source": "KTVN",
-    "fetchedAt": "2026-04-03T17:00:47.349Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "israels-top-court-president-tells",
     "date": "2026-04-03",
     "title": "Israel's Top Court President Tells Police to Allow anti-Iran War Demonstrations - Haaretz",
@@ -4526,6 +4326,236 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOMFFlU1VBTW9Ta3lVallBYk01VmdUdFdSMTFnRjJULWxfUGlWd3ppNFM5UF9iWUt5c3VOUXY0cG9aa0IteWxmUzdlS2lFZ2pSVlh1SDJHRHdTMEUyQVlJbVhmWDRFWUhWMDFPblBiY3RVMW1QQTBXQTlOSVloeExVeldXMUN4M2tZVWQ5Q3pqVWswVlg0dW5PbG9VdURxOTQ0bEdRWlJXYjQybUVnZFMySjFYYmxqN3dHMlRQQUxuazZGQ01CbjlkWVJTX1pucGEyaHBkQXU0S3Z6SUtMRlZrZnlnN01PTm9fZmR5VdIB8wFBVV95cUxQUDhSUFIzNm9oVDRKOXBpd1REUHYySTgxa1NaVmpiNURNeERTREtNMkx3UDN1VmlSYWdtNngtcjVlWjF6Qm52cUR0MWNwd1E1c1ZMMnU3c1ZEeVZaSFI5Xy11am5FYXVHbXE4cDlheElEMXB5bTRJaWRHNXA1eHNoNTQxTXpBMTVRcnpNYVBWWjZCN1VUdlhuWmR6ZGdObUN0UDdKM2ljLXpTS1hIMnlnLUx5QlFsLVhfZm4xTUdlb2IyUnRHdFpkckZnZVltTmVBMEk1S2tVMHZoSUIyQXpkUWQ3R2RJenlHSzRCNjE4QzhySzA?oc=5",
     "source": "The Indian Express",
     "fetchedAt": "2026-04-04T11:01:10.660Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-war-latest-us-pilot",
+    "date": "2026-04-04",
+    "title": "Iran war latest: US pilot search continues as Iranian drone targets Oracle in Dubai - The Independent",
+    "description": "Via The Independent. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeExncTAyMW9PR1BKZzk4Z0hHa2tFR0JOXzFxejFYdTFDZjRZeGVhclg0MEw1djZtZWFlckJkbUg3aUhhQWVKY0Ztdi1fWm43ZmY2OThRQ0ktUDhYb0wyNzlFS2YtaWdZWFVJR0JRQU5Za2lPbTZSbFc3YjJFSXBzb3B4SWNudTJrSXFXTFZ0T0l6dVEwMEhtYWxNdnJnVlp2ZDMwSFZqZUZrOXd0UUphdU1sMVdXcEVDek1tUHhUVHI?oc=5",
+    "source": "The Independent",
+    "fetchedAt": "2026-04-04T12:00:13.418Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=3AStObksAHI",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "3AStObksAHI",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "who-is-winning-the-iran",
+    "date": "2026-04-02",
+    "title": "Who Is Winning the Iran War? - CSIS | Center for Strategic and International Studies",
+    "description": "Via CSIS | Center for Strategic and International Studies. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9hOWVvLWJGenY5TEZyU0xIT2NUbEI1cGFPUkI0NWQxSU8tVzRwaDZsaU0tNUU2ZjhWSlpsenZ2MW1NNjF6M3Y1OG9rZDl2ZUxwMW5zd0hyaVBoRFZheDJF?oc=5",
+    "source": "CSIS | Center for Strategic and International Studies",
+    "fetchedAt": "2026-04-04T12:00:15.178Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=THbl4xD56FM",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "THbl4xD56FM",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "voices-from-the-arab-press",
+    "date": "2026-04-03",
+    "title": "Voices from the Arab press: US-Israel Iran war faces political limits - The Jerusalem Post",
+    "description": "Via The Jerusalem Post. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBHWVdNSkNEOUx4YkNTVkNycXhJWGJMWmZwQXN0WWpSMUw4eUhnQ3ZSV0J5X0FqdS1MSlg0SWNxWEtFVlQyT3lfZnViSlBUbm55djh1aHBKQ1ZMZXRN?oc=5",
+    "source": "The Jerusalem Post",
+    "fetchedAt": "2026-04-04T12:00:16.719Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=sA6jV6CWo_w",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "sA6jV6CWo_w",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "united-airlines-cancels-flights-to",
+    "date": "2026-04-04",
+    "title": "United Airlines Cancels Flights to Israel Until September Over Iran War - Haaretz",
+    "description": "Via Haaretz. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNejU1a2VKcTNTNmV3dll5a08zZWFpeTJlM0lxTHhWLTd2bEJzTF9SWkcyZ2o2b2tVTWoweENFeVp0UEdGQmdtcjRLVGZ4R0pSWDJ2ZjlwZGZjQXgweDdKakp3WlZDOWhYampJaGpldzJoNE5FSXhKVWNJNmNUakVnUW43aU1teU1SNFhjV3I2a0laT3AzWE1YYzYzdnAxNnhGVUE5a2JNV0NTUE91ZkhxQkxmcDB3ek9IN0p5Y2owVmlQVmVYc01ubGRkQnhJOHlvQncyWjdLMHRIZUR1WllQUXZJWGUzYlptWm5mTUFnVm9yVnVoMUM5QmNURkVNNUZuTEdCbWxR?oc=5",
+    "source": "Haaretz",
+    "fetchedAt": "2026-04-04T12:00:21.632Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=UHJ1UO3EhtI",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "UHJ1UO3EhtI",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "red-sea-arena-yemens-houthis",
+    "date": "2026-04-03",
+    "title": "Red Sea arena: Yemen’s Houthis open fourth front in Iran war, with global implications - The Jerusalem Post",
+    "description": "Via The Jerusalem Post. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9UMUl1ajVmSmhGQjAwb05XUzR3ZHR5d01oVVVnaEt1czNHMmxoOGNJcHdrb3lncVczR1lXYV9Ld2Nyb1oybThjUXdiSzNGRnE1LWJMVGIxVGpsYkFB?oc=5",
+    "source": "The Jerusalem Post",
+    "fetchedAt": "2026-04-04T12:00:28.879Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=Z-HCJFLGiVg",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "Z-HCJFLGiVg",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "us-israel-strike-irans-bushehr",
+    "date": "2026-04-04",
+    "title": "US, Israel strike Iran’s Bushehr nuclear plant, killing 1 | Daily Sabah - Daily Sabah",
+    "description": "Via Daily Sabah. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPd3hrSnJ6YzY5eGVBVDV6Njd6MS1uOVY4al9heUJSREpURmVQLUM5R2lUV0pvTWZfLTAyUzB1MlBWcHRJcGpPcDdvZmFPbFpnUWUzMm9yQ0hmU1E1M2tGb25yWVI4UE94X3BOcTFPTG9IeFkzR2lVNWZsY0kxWTFyS2lZMXl5RkJSVGwwdGdTcnVDYXhlSE80SGhwMzPSAaIBQVVfeXFMUGpuR2NOYU9OaElhZGtaUi13OURSX1JscVBia29GWG9qNE1lcUhuTFNodm1NQmx5eG8wZGwwZ085dkdQZjEtT0NJQVVaZ0luTmNSWmJ4dmJyOXdfUXgzWEY5My1naEhIWUF2NENvejF1THhvLVM5VE1RZlFMSUpqT2V2RVE1NWptLXhYQnh3Tk5na3ZfeGFPOVNUVmdvLThxSjRR?oc=5",
+    "source": "Daily Sabah",
+    "fetchedAt": "2026-04-04T12:00:31.259Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=sK24sGtzdbQ",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "sK24sGtzdbQ",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "explosion-damages-proisrael-center-in",
+    "date": "2026-04-04",
+    "title": "Explosion Damages Pro-Israel Center in Netherlands, No Injuries Reported - Kurdistan24",
+    "description": "Via Kurdistan24. Auto-detected by headline monitor.",
+    "category": "escalation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdk1Qa2VkLUM1X2tWNWFXWHVYeFB2Z3I4M1lIQjBfNF9IWEZPTWFHY2djaVdzd2tlYkRYS3cxcHdRU1cxaFdTcmVJbkFJb2NwYUoyZkQ1ZjJ3V0ZtUUpLQ1BtWmlwakJieG9oZldOV1Q4MzVQcV9NS3VsNElxYm1ZMnR4cDhuTVBYM3UxbGdua3JnYVZhUF9WX3BxaEdCY2lsSHoxaTRzb05kYnpYVjI1NktsTEpDdw?oc=5",
+    "source": "Kurdistan24",
+    "fetchedAt": "2026-04-04T12:00:44.103Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "video-a-dolls-funeral-in",
+    "date": "2026-04-03",
+    "title": "Video: A Doll's Funeral In Gaza Shows How War Has Reached Its Youngest - NDTV",
+    "description": "Via NDTV. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQR19halZDdk9zVFBIQ3M2eFFpdFZ6SE1UOUN0VXJDSzgwdFVuanZZdlFld1NJN0sxOFBCZUxab2FCMW1kQ1M1dDItU0puNjFqYW5CXzJiV3ZWcjhNYk93ck5iSW9EeDBlNEVnUjFYMjQ1emVXa2hueWQxVXk3M0prUHd5YkE2WmhxNTdFOEtCSTE4d1N1RktwZDgteWNkWThwRnR6cnFyZVM4TWM5SUhTQmE2eXVLTzZhUWNkaHlXMW1oSVcwTnY2dzNja9IB0wFBVV95cUxQSE9Sb3hFNFVVa09ZcFlUNXZZTnpNY3JiMGdibkN2WjhEWHo3WEdEQnJpRzBxNm4yRS1JOUpVX2VTUEdBcUJLMEZXYzF0Q1RoMmVrRWc0NFVkMUpOYUVzQkk0WHRxMTE1djFSWnZVaWZsNldQdjNlVVRpaEIxczZFNzl2M2RNN3Bya3VyS0NQZ0g1V0dXSzRjMFI1TFdYc0t0cVBHSEY4QW5TZXE1T3d6RjNZeVp2OXlpMllld3Zycmg0d0J1eUJ4Zy1nSUVIX1gwZVY0?oc=5",
+    "source": "NDTV",
+    "fetchedAt": "2026-04-04T12:00:50.071Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "palestinian-babies-separated-from-parents",
+    "date": "2026-04-04",
+    "title": "Palestinian babies separated from parents at start of war, reunited after 2 years - ABC News",
+    "description": "Via ABC News. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZzRBaHdVMkZPZW40UG9kQ1dTUzIyc0xqMm9aTGhKY3pEaURFT0RpRExNYjhjWER6WkpuNGxWMXF6emU3MWxzbmxxUzhoSzE0UUVkYW1jczloei1hcDZjdFpQQ1Jodzc1RndtYjBRQTRzazBSSmZCMkhqaEV2ZW1rZUYwQVd5V2JxZkU4ODVZN0h3R1U1WnhJZVdvVEZwLVBYYk9MdzRPWmR4cjZuWXJDMTVRY2rSAboBQVVfeXFMUF84UEtudG50c2NVLXE0U1BjOVlUaFAwaXozbmRmT0gycmV0WEtYRnE3U19KQnUwdTZyS0RETl9sZGdBZ21WRklNZENXR3NwamJ5VnFFaldvV0R5cTl0RDFDVkhoOUVyUWFmdmN5YjhUVC1hMFR2c29mZ1RzNGVzeVllRjJ3UVdBYmpTOHZUYmZhczNJRTZhaUNUZ3pORXd0RFlrREI5U0hPUV9VSFhMajhsREU4N09KZHN3?oc=5",
+    "source": "ABC News",
+    "fetchedAt": "2026-04-04T12:00:57.163Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "premature-babies-who-escaped-war",
+    "date": "2026-03-31",
+    "title": "Premature babies who escaped war in Gaza finally reunited with families after more than 2 years - CBS News",
+    "description": "Via CBS News. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNcDItWmF5a3FYOExPZHV4X2dra1JaT1hTR1Q2ZjQ3TS1Sd3M0NDZLRVN1RDM0eEh4Y0dudVlLOTRobVR0S3BvUTMta0E3aTQ1UFpvNDFNZnNzdzAxUXpOcG9MZ1h3TlhQdUlWNElzcTFOa0pzNC1SeTl5RmJoSGVtOXZ3NXE1UEhhS1ZCTlh2WTFTbVdXdU91Q0c3RjVNSXhidVJN0gGoAUFVX3lxTE9iWEl1eEZja0FIWW9lLVE3VXdWQkVLRWh3X21aSGlHQkpvLXo4MWtOOTVOZWFlSVVUcE5feGFnTld3S1BaQnJxOVpKZmlNMkZnanVNR0pHZ3lBRFhxQ3VNeTFlenBRbDA4SnQ4MkUxZTZXZVVVT2N2WHAyTndNZ2lGVjNkWC1DX2VKX0FEbDQtNFhKQWRIT0JLR0tFVVZNYllaWEpnYkJCNw?oc=5",
+    "source": "CBS News",
+    "fetchedAt": "2026-04-04T12:01:03.449Z",
     "mediaUrls": [],
     "videoMatch": null,
     "lat": null,
