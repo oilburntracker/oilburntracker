@@ -4262,5 +4262,49 @@
         "label": ""
       }
     ]
+  },
+  {
+    "id": "auto-iran-intensifies-attacks-on-gulf",
+    "date": "2026-03-19",
+    "title": "Iran intensifies attacks on Gulf energy sites after Israel struck its key gas field",
+    "category": "military_strike",
+    "description": "Via PBS. Auto-detected by headline monitor.",
+    "lat": 35.69,
+    "lng": 51.39,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNaFVCX2djRl9zQWlmMl81bVd6b3pqbFlOdkl3V0dFaGFKS21DX0FDMXB4cVVWRDljcl9zTkdvUk5CU2V5elliVENtMmNMaHRxS3hqSmJXQk5qMmsyT0NocUNTQnRialNoZ1czaHJTZlhfRXd2Z1djazQ0a0JQTlpjMFBPRjdvOFVJT1ItenBfUlJhbnpoY2ZpMWVsc2ViVUVpU0pNMTAwdWk4REVoZWtTTXdud1daU3FmWnfSAb8BQVVfeXFMT3pKRTZ1dUREa2dOdTMxS1Q1TWg2MWUwSjloRUJlcFpFZHZ1SHh3QlhfYXdDa05OUDMtSTk1d2xWOXFTVENxSWZXcjFvaUp1V2JxaTRlNC1ucFZwYnVyZ1NpWm01ZWwtTEt2QmlBZHF5V2dfbEhHU01xRkQyd21vNW9xbGFBZm52bnlLbzNsUjNGajVQb1ZJY1hnbEtGbjVFRkRKQ1YxSEhXTC12M3pBXzEtZ2xPZXRuX194c0Zpb1E?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=9RpPOpF_SVM",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "auto-un-nuclear-agency-chief-deeply",
+    "date": "2026-04-04",
+    "title": "UN nuclear agency chief ‘deeply concerned’ by reports of latest attack on Iran power plant",
+    "category": "facility_damage",
+    "description": "Via UN News. Auto-detected by headline monitor.",
+    "lat": 35.69,
+    "lng": 51.39,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE54YmhURUtZT0ktWHdpLTkwc1FWQ1l0TjE0OWhlY04yc1VRQkZQT2dXdWxrbk1kNmFKT2JVaWptYXc1OHVmOTF0SGVBMVJYc0VfajhxVjNjaw?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=Bj0Fv1hCgnw",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "auto-iran-war-what-is-the",
+    "date": "2026-03-26",
+    "title": "Iran war: What is the Strait of Hormuz and why does it matter?",
+    "category": "chokepoint",
+    "description": "Via BBC. Auto-detected by headline monitor.",
+    "lat": 35.69,
+    "lng": 51.39,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9tN3d3SGFFOS1kb0ctMnU0WDdib1hmYUVaLXQ3bm5vRUFlUjVhN05nLVBJOUozTXo2ZnpDZ0NHQUJzMXpBNkdqbHdJNy13bUF0aDJSLUdLR19OQQ?oc=5"
   }
 ]
