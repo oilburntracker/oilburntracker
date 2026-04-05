@@ -1,114 +1,16 @@
 [
   {
-    "date": "2026-03-28",
+    "date": "2026-04-05",
     "category": "weapons",
-    "label": "Day 27 ongoing operations (~$1B/day)",
-    "amountBillions": 1,
+    "label": "Day 35 ongoing operations (~$1.1B/day)",
+    "amountBillions": 1.1,
     "source": "Pentagon daily operational cost estimate"
   },
   {
-    "date": "2026-03-28",
+    "date": "2026-04-05",
     "category": "economic",
-    "label": "Day 27 economic drag — energy disruption & shipping",
-    "amountBillions": 2,
-    "source": "[OBT model: sustained oil premium + shipping disruption]"
-  },
-  {
-    "date": "2026-03-29",
-    "category": "weapons",
-    "label": "Day 28 ongoing operations (~$1B/day)",
-    "amountBillions": 1,
-    "source": "Pentagon daily operational cost estimate"
-  },
-  {
-    "date": "2026-03-29",
-    "category": "economic",
-    "label": "Day 28 economic drag — energy disruption & shipping",
-    "amountBillions": 2,
-    "source": "[OBT model: sustained oil premium + shipping disruption]"
-  },
-  {
-    "date": "2026-03-30",
-    "category": "weapons",
-    "label": "Day 29 ongoing operations (~$1B/day)",
-    "amountBillions": 1,
-    "source": "Pentagon daily operational cost estimate"
-  },
-  {
-    "date": "2026-03-30",
-    "category": "economic",
-    "label": "Day 29 economic drag — energy disruption & shipping",
-    "amountBillions": 2,
-    "source": "[OBT model: sustained oil premium + shipping disruption]"
-  },
-  {
-    "date": "2026-03-31",
-    "category": "weapons",
-    "label": "Day 30 ongoing operations (~$1B/day)",
-    "amountBillions": 1,
-    "source": "Pentagon daily operational cost estimate"
-  },
-  {
-    "date": "2026-03-31",
-    "category": "economic",
-    "label": "Day 30 economic drag — energy disruption & shipping",
-    "amountBillions": 2,
-    "source": "[OBT model: sustained oil premium + shipping disruption]"
-  },
-  {
-    "date": "2026-04-01",
-    "category": "weapons",
-    "label": "Day 31 ongoing operations (~$1B/day)",
-    "amountBillions": 1,
-    "source": "Pentagon daily operational cost estimate"
-  },
-  {
-    "date": "2026-04-01",
-    "category": "economic",
-    "label": "Day 31 economic drag — energy disruption & shipping",
-    "amountBillions": 2,
-    "source": "[OBT model: sustained oil premium + shipping disruption]"
-  },
-  {
-    "date": "2026-04-02",
-    "category": "weapons",
-    "label": "Day 32 ongoing operations (~$1B/day)",
-    "amountBillions": 1,
-    "source": "Pentagon daily operational cost estimate"
-  },
-  {
-    "date": "2026-04-02",
-    "category": "economic",
-    "label": "Day 32 economic drag — energy disruption & shipping",
-    "amountBillions": 2,
-    "source": "[OBT model: sustained oil premium + shipping disruption]"
-  },
-  {
-    "date": "2026-04-03",
-    "category": "weapons",
-    "label": "Day 33 ongoing operations (~$1B/day)",
-    "amountBillions": 1,
-    "source": "Pentagon daily operational cost estimate"
-  },
-  {
-    "date": "2026-04-03",
-    "category": "economic",
-    "label": "Day 33 economic drag — energy disruption & shipping",
-    "amountBillions": 2,
-    "source": "[OBT model: sustained oil premium + shipping disruption]"
-  },
-  {
-    "date": "2026-04-04",
-    "category": "weapons",
-    "label": "Day 34 ongoing operations (~$1B/day)",
-    "amountBillions": 1,
-    "source": "Pentagon daily operational cost estimate"
-  },
-  {
-    "date": "2026-04-04",
-    "category": "economic",
-    "label": "Day 34 economic drag — energy disruption & shipping",
-    "amountBillions": 2,
+    "label": "Day 35 economic drag — energy disruption & shipping",
+    "amountBillions": 2.3,
     "source": "[OBT model: sustained oil premium + shipping disruption]"
   }
 ]
