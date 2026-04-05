@@ -244,6 +244,39 @@ fs.writeFileSync(
 );
 console.log(`  Casualties: ${statsData.length} entries (${CASUALTY_BASELINE.lastDate} → ${today})`);
 
+// ═══ GITHUB ACTIVITY CHECK ═══
+// Check for issues, PRs, and branches from community members
+try {
+  const repo = 'oilburntracker/oilburntracker';
+  const issues = JSON.parse(execSync(
+    `gh issue list --repo ${repo} --state open --json number,title,createdAt,author --limit 10`,
+    { timeout: 15000, encoding: 'utf-8' }
+  ).trim() || '[]');
+  const prs = JSON.parse(execSync(
+    `gh pr list --repo ${repo} --state open --json number,title,createdAt,author,headRefName --limit 10`,
+    { timeout: 15000, encoding: 'utf-8' }
+  ).trim() || '[]');
+  const branches = JSON.parse(execSync(
+    `gh api repos/${repo}/branches --jq '[.[] | select(.name != "master")] | .[0:10]'`,
+    { timeout: 15000, encoding: 'utf-8' }
+  ).trim() || '[]');
+
+  const activity = [];
+  if (issues.length > 0) activity.push(`${issues.length} open issue(s): ${issues.map(i => `#${i.number} "${i.title}" by ${i.author?.login || 'unknown'}`).join(', ')}`);
+  if (prs.length > 0) activity.push(`${prs.length} open PR(s): ${prs.map(p => `#${p.number} "${p.title}" by ${p.author?.login || 'unknown'} (${p.headRefName})`).join(', ')}`);
+  if (branches.length > 0) activity.push(`${branches.length} non-master branch(es): ${branches.map(b => b.name).join(', ')}`);
+
+  if (activity.length > 0) {
+    const logFile = path.join(__dirname, 'github-activity.log');
+    fs.appendFileSync(logFile, `[${today}] ${activity.join('; ')}\n`);
+    console.log(`  GitHub: ${activity.join('; ')}`);
+  } else {
+    console.log('  GitHub: no open issues, PRs, or extra branches');
+  }
+} catch (e) {
+  console.log(`  GitHub check skipped: ${e.message}`);
+}
+
 // Git commit + push (only if data changed)
 try {
   const status = execSync('git status --porcelain src/features/impact/data/auto-consumer-impact.json src/features/timeline/data/auto-war-costs.json src/features/timeline/data/auto-daily-stats.json', {

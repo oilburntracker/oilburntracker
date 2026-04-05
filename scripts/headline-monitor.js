@@ -8,7 +8,7 @@
  * Cron:  0 * * * * cd /home/agent/repos/oilburntracker && node scripts/headline-monitor.js
  */
 
-import { readFileSync, writeFileSync, appendFileSync, existsSync } from 'fs';
+import { readFileSync, writeFileSync, existsSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 
@@ -217,50 +217,6 @@ function generateEventId(title) {
     .join('-');
 }
 
-// ── Check GitHub repo activity (issues, PRs, branches) ──
-async function checkGitHubActivity() {
-  const repo = 'oilburntracker/oilburntracker';
-  const logFile = join(__dirname, 'github-activity.log');
-
-  try {
-    // Use gh CLI for authenticated access
-    const { execSync } = await import('child_process');
-
-    // Check open issues
-    const issues = JSON.parse(execSync(
-      `gh issue list --repo ${repo} --state open --json number,title,createdAt,author --limit 10`,
-      { timeout: 15000, encoding: 'utf-8' }
-    ).trim() || '[]');
-
-    // Check open PRs
-    const prs = JSON.parse(execSync(
-      `gh pr list --repo ${repo} --state open --json number,title,createdAt,author,headRefName --limit 10`,
-      { timeout: 15000, encoding: 'utf-8' }
-    ).trim() || '[]');
-
-    // Check recent branches (non-master)
-    const branches = JSON.parse(execSync(
-      `gh api repos/${repo}/branches --jq '[.[] | select(.name != "master")] | .[0:10]'`,
-      { timeout: 15000, encoding: 'utf-8' }
-    ).trim() || '[]');
-
-    const activity = [];
-    if (issues.length > 0) activity.push(`${issues.length} open issue(s): ${issues.map(i => `#${i.number} "${i.title}" by ${i.author?.login || 'unknown'}`).join(', ')}`);
-    if (prs.length > 0) activity.push(`${prs.length} open PR(s): ${prs.map(p => `#${p.number} "${p.title}" by ${p.author?.login || 'unknown'} (${p.headRefName})`).join(', ')}`);
-    if (branches.length > 0) activity.push(`${branches.length} non-master branch(es): ${branches.map(b => b.name).join(', ')}`);
-
-    if (activity.length > 0) {
-      const summary = `[${new Date().toISOString()}] GitHub activity:\n  ${activity.join('\n  ')}\n`;
-      appendFileSync(logFile, summary);
-      console.log(`  GitHub: ${activity.join('; ')}`);
-    } else {
-      console.log(`  GitHub: no open issues, PRs, or extra branches`);
-    }
-  } catch (e) {
-    console.log(`  GitHub check skipped (gh CLI unavailable or error: ${e.message})`);
-  }
-}
-
 // ── Main ──
 async function main() {
   console.log(`[${new Date().toISOString()}] Headline Monitor starting...`);
@@ -352,9 +308,6 @@ async function main() {
   }
   writeFileSync(ytFile, JSON.stringify(ytUnique.slice(0, 30), null, 2));
   console.log(`  Saved ${ytUnique.length} unique YouTube videos`);
-
-  // 6. Check GitHub activity (issues, PRs, branches)
-  await checkGitHubActivity();
 
   if (newHeadlines.length > 0) {
     console.log(`\n  NEW HEADLINES:`);
