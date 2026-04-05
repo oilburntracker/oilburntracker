@@ -646,7 +646,15 @@ export default function DeepDivePanel({ onMapMode }: { onMapMode?: () => void } 
   }, [timelineDate]);
 
   const { impact, casualties, nuclear, cost, supply, stats, peril, gasExtra, oilDelta, perTaxpayer, warDays, recession, predictions, hitFacilityList, threatenedFacilityList, countryDamage, facilityIds, yearsOfLifeLost, roleCounts } = data;
-  const facilityFires = fireData.features.filter(f => f.properties.matchedFacility);
+  // Only show satellite fires for facilities that were attacked by the scrubber date
+  const isToday = timelineDate >= new Date().toISOString().slice(0, 10);
+  const facilityFires = fireData.features.filter(f => {
+    if (!f.properties.matchedFacility) return false;
+    // Only include satellite data when scrubber is at today (satellite data is live/current)
+    if (!isToday) return false;
+    // Only include if this facility was attacked by the scrubber date
+    return data.facilityIds.has(f.properties.matchedFacility.id);
+  });
   const satelliteCO2 = facilityFires.reduce((s, f) => s + f.properties.estimatedCO2TonsDay, 0);
   const totalDetections = fireData.features.length;
   const facilityFireCount = facilityFires.length;
@@ -657,16 +665,23 @@ export default function DeepDivePanel({ onMapMode }: { onMapMode?: () => void } 
   ), [facilityFires]);
 
   // Capacity-based CO2 for burning facilities WITHOUT satellite data
+  // Only include facilities attacked on or before the scrubber date
   const capacityEstimates = useMemo(() => {
     return curatedFires
-      .filter(f => (f.status === 'active_fire' || f.status === 'damaged') && !satelliteMatchedIds.has(f.id))
+      .filter(f => {
+        if (f.status !== 'active_fire' && f.status !== 'damaged') return false;
+        if (satelliteMatchedIds.has(f.id)) return false;
+        // Only include if attack happened by the scrubber date
+        if (f.attackDate && f.attackDate > timelineDate) return false;
+        return true;
+      })
       .map(f => ({
         facility: f,
         co2: estimateCO2FromCapacity(f.facilityType, f.status, f.capacityBPD, f.gasCapacityBCFD, f.storageMBBL),
         breakdown: capacityBreakdown(f.facilityType, f.status, f.capacityBPD, f.gasCapacityBCFD, f.storageMBBL),
       }))
       .filter(e => e.co2 > 0);
-  }, [satelliteMatchedIds]);
+  }, [satelliteMatchedIds, timelineDate]);
 
   const capacityCO2 = capacityEstimates.reduce((sum, e) => sum + e.co2, 0);
   const totalCO2 = satelliteCO2 + capacityCO2;

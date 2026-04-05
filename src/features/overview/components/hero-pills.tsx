@@ -12,16 +12,25 @@ export default function HeroPills() {
   const fireData = useFireStore((s) => s.fireData);
   const timelineDate = useFireStore((s) => s.timelineDate);
 
-  const facilityFires = fireData.features.filter(f => f.properties.matchedFacility);
+  // Only show satellite CO2 when scrubber is at today (satellite data is live)
+  const isToday = timelineDate >= new Date().toISOString().slice(0, 10);
+  const facilityFires = isToday
+    ? fireData.features.filter(f => f.properties.matchedFacility)
+    : [];
   const satelliteCO2 = facilityFires.reduce((s, f) => s + f.properties.estimatedCO2TonsDay, 0);
 
-  // Capacity-based fallback for burning facilities without satellite match
+  // Capacity-based fallback — only for facilities attacked by scrubber date
   const capacityCO2 = useMemo(() => {
     const matchedIds = new Set(facilityFires.map(f => f.properties.matchedFacility!.id));
     return curatedFires
-      .filter(f => (f.status === 'active_fire' || f.status === 'damaged') && !matchedIds.has(f.id))
+      .filter(f => {
+        if (f.status !== 'active_fire' && f.status !== 'damaged') return false;
+        if (matchedIds.has(f.id)) return false;
+        if (f.attackDate && f.attackDate > timelineDate) return false;
+        return true;
+      })
       .reduce((sum, f) => sum + estimateCO2FromCapacity(f.facilityType, f.status, f.capacityBPD, f.gasCapacityBCFD, f.storageMBBL), 0);
-  }, [facilityFires]);
+  }, [facilityFires, timelineDate]);
 
   const totalCO2 = satelliteCO2 + capacityCO2;
   const casualties = getCasualtiesUpTo(timelineDate);

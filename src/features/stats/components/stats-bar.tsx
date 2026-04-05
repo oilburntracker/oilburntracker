@@ -15,8 +15,13 @@ import { IconFlame, IconCloud, IconBuildingFactory, IconWorld } from '@tabler/ic
 export default function StatsBar() {
   const fireData = useFireStore((s) => s.fireData);
   const loading = useFireStore((s) => s.loading);
+  const timelineDate = useFireStore((s) => s.timelineDate);
 
-  const facilityFires = fireData.features.filter(f => f.properties.matchedFacility);
+  // Only show satellite fires when scrubber is at today
+  const isToday = timelineDate >= new Date().toISOString().slice(0, 10);
+  const facilityFires = isToday
+    ? fireData.features.filter(f => f.properties.matchedFacility)
+    : [];
   const activeFires = facilityFires.length;
   const totalDetections = fireData.features.length;
   const satelliteCO2 = facilityFires.reduce(
@@ -24,7 +29,7 @@ export default function StatsBar() {
     0
   );
 
-  // Capacity-based fallback for burning facilities without satellite match
+  // Capacity-based fallback — only for facilities attacked by scrubber date
   const capacityCO2 = useMemo(() => {
     const matchedIds = new Set(
       facilityFires
@@ -32,23 +37,33 @@ export default function StatsBar() {
         .map(f => f.properties.matchedFacility!.id)
     );
     return curatedFires
-      .filter(f => (f.status === 'active_fire' || f.status === 'damaged') && !matchedIds.has(f.id))
+      .filter(f => {
+        if (f.status !== 'active_fire' && f.status !== 'damaged') return false;
+        if (matchedIds.has(f.id)) return false;
+        if (f.attackDate && f.attackDate > timelineDate) return false;
+        return true;
+      })
       .reduce((sum, f) => sum + estimateCO2FromCapacity(f.facilityType, f.status, f.capacityBPD, f.gasCapacityBCFD, f.storageMBBL), 0);
-  }, [facilityFires]);
+  }, [facilityFires, timelineDate]);
 
   const totalCO2 = satelliteCO2 + capacityCO2;
 
-  const matchedFacilityIds = new Set(
-    fireData.features
-      .filter((f) => f.properties.matchedFacility)
-      .map((f) => f.properties.matchedFacility!.id)
-  );
-  const facilitiesAffected = matchedFacilityIds.size;
+  // Facilities affected — use curated data filtered by scrubber date
+  const facilitiesAffected = useMemo(() => {
+    return curatedFires.filter(f =>
+      (f.status === 'active_fire' || f.status === 'damaged' || f.status === 'offline') &&
+      f.attackDate && f.attackDate <= timelineDate
+    ).length;
+  }, [timelineDate]);
 
-  const globalEnergyAtRisk = Array.from(matchedFacilityIds).reduce((sum, id) => {
-    const facility = curatedFires.find((f) => f.id === id);
-    return sum + (facility?.percentGlobalCapacity || 0);
-  }, 0);
+  const globalEnergyAtRisk = useMemo(() => {
+    return curatedFires
+      .filter(f =>
+        (f.status === 'active_fire' || f.status === 'damaged' || f.status === 'offline') &&
+        f.attackDate && f.attackDate <= timelineDate
+      )
+      .reduce((sum, f) => sum + (f.percentGlobalCapacity || 0), 0);
+  }, [timelineDate]);
 
   return (
     <div className='grid grid-cols-2 gap-3 lg:grid-cols-4'>
@@ -59,10 +74,10 @@ export default function StatsBar() {
             <IconFlame className='text-orange-500 h-4 w-4' />
           </div>
           <CardTitle className='text-2xl tabular-nums'>
-            {loading ? '...' : activeFires.toLocaleString()}
+            {loading ? '...' : isToday ? activeFires.toLocaleString() : facilitiesAffected.toLocaleString()}
           </CardTitle>
           <p className='text-xs text-muted-foreground'>
-            {loading ? '' : `of ${totalDetections} satellite detections`}
+            {loading ? '' : isToday ? `of ${totalDetections} satellite detections` : 'confirmed hit by this date'}
           </p>
         </CardHeader>
       </Card>
