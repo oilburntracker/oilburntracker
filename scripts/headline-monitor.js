@@ -2,13 +2,13 @@
 /**
  * Headline Monitor — checks news RSS + YouTube every hour
  * Finds conflict-related headlines and matching videos,
- * saves drafts for review, and emails a summary.
+ * saves drafts for review, and checks GitHub for issues/PRs.
  *
  * Usage: node scripts/headline-monitor.js
  * Cron:  0 * * * * cd /home/agent/repos/oilburntracker && node scripts/headline-monitor.js
  */
 
-import { readFileSync, writeFileSync, existsSync } from 'fs';
+import { readFileSync, writeFileSync, appendFileSync, existsSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 
@@ -217,37 +217,47 @@ function generateEventId(title) {
     .join('-');
 }
 
-// ── Email summary via Conductor ──
-async function emailSummary(newHeadlines) {
-  if (newHeadlines.length === 0) return;
-
-  const body = newHeadlines.map((h, i) =>
-    `${i + 1}. ${h.title}\n   Source: ${h.source}\n   ${h.link}\n   Video: ${h.video ? h.video.url : 'none found'}\n   Category: ${h.category}\n`
-  ).join('\n');
-
-  const subject = `OBT: ${newHeadlines.length} new headline${newHeadlines.length > 1 ? 's' : ''} found`;
-  const message = `Headline Monitor found ${newHeadlines.length} new stories:\n\n${body}\n\nDraft events saved to scripts/draft-events.json\nReview and add to conflict-events.ts as needed.`;
+// ── Check GitHub repo activity (issues, PRs, branches) ──
+async function checkGitHubActivity() {
+  const repo = 'oilburntracker/oilburntracker';
+  const logFile = join(__dirname, 'github-activity.log');
 
   try {
-    // Try Conductor email API
-    const res = await fetch('http://localhost:8080/api/google/email/send', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        account: 'oilburntracker',
-        to: 'gabe1044hiddenfarms@gmail.com',
-        subject,
-        body: message,
-      }),
-      signal: AbortSignal.timeout(10000),
-    });
-    if (res.ok) {
-      console.log(`  Emailed summary to Gabe`);
+    // Use gh CLI for authenticated access
+    const { execSync } = await import('child_process');
+
+    // Check open issues
+    const issues = JSON.parse(execSync(
+      `gh issue list --repo ${repo} --state open --json number,title,createdAt,author --limit 10`,
+      { timeout: 15000, encoding: 'utf-8' }
+    ).trim() || '[]');
+
+    // Check open PRs
+    const prs = JSON.parse(execSync(
+      `gh pr list --repo ${repo} --state open --json number,title,createdAt,author,headRefName --limit 10`,
+      { timeout: 15000, encoding: 'utf-8' }
+    ).trim() || '[]');
+
+    // Check recent branches (non-master)
+    const branches = JSON.parse(execSync(
+      `gh api repos/${repo}/branches --jq '[.[] | select(.name != "master")] | .[0:10]'`,
+      { timeout: 15000, encoding: 'utf-8' }
+    ).trim() || '[]');
+
+    const activity = [];
+    if (issues.length > 0) activity.push(`${issues.length} open issue(s): ${issues.map(i => `#${i.number} "${i.title}" by ${i.author?.login || 'unknown'}`).join(', ')}`);
+    if (prs.length > 0) activity.push(`${prs.length} open PR(s): ${prs.map(p => `#${p.number} "${p.title}" by ${p.author?.login || 'unknown'} (${p.headRefName})`).join(', ')}`);
+    if (branches.length > 0) activity.push(`${branches.length} non-master branch(es): ${branches.map(b => b.name).join(', ')}`);
+
+    if (activity.length > 0) {
+      const summary = `[${new Date().toISOString()}] GitHub activity:\n  ${activity.join('\n  ')}\n`;
+      appendFileSync(logFile, summary);
+      console.log(`  GitHub: ${activity.join('; ')}`);
     } else {
-      console.log(`  Email failed (${res.status}), summary saved to drafts file`);
+      console.log(`  GitHub: no open issues, PRs, or extra branches`);
     }
-  } catch {
-    console.log(`  Conductor not available, summary saved to drafts file only`);
+  } catch (e) {
+    console.log(`  GitHub check skipped (gh CLI unavailable or error: ${e.message})`);
   }
 }
 
@@ -343,9 +353,10 @@ async function main() {
   writeFileSync(ytFile, JSON.stringify(ytUnique.slice(0, 30), null, 2));
   console.log(`  Saved ${ytUnique.length} unique YouTube videos`);
 
-  // 6. Email summary
+  // 6. Check GitHub activity (issues, PRs, branches)
+  await checkGitHubActivity();
+
   if (newHeadlines.length > 0) {
-    await emailSummary(newHeadlines);
     console.log(`\n  NEW HEADLINES:`);
     newHeadlines.forEach((h, i) => {
       console.log(`  ${i + 1}. [${h.category}] ${h.title}`);

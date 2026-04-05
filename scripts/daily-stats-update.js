@@ -20,32 +20,32 @@ const ROOT = path.join(__dirname, '..');
 // The script generates entries starting the day AFTER each lastDate.
 
 const CONSUMER_BASELINE = {
-  lastDate: '2026-03-27',
-  oilPriceBbl: 105,
-  gasPriceGallon: 4.02,
-  groceryInflationPct: 5.5,
-  natGasMMBtu: 7.0,
-  shippingSurchargePct: 65,
+  lastDate: '2026-04-04',
+  oilPriceBbl: 108,
+  gasPriceGallon: 4.09,
+  groceryInflationPct: 5.6,
+  natGasMMBtu: 7.3,
+  shippingSurchargePct: 64,
   deliveryDelayDays: 12,
-  // Targets for mean reversion (scenario: IRGC threatening Gulf targets, elevated risk)
-  oilTarget: 108,          // Nuclear strikes + industrial escalation = higher floor
-  gasTarget: 4.15,         // Pump prices still catching up
-  groceryTarget: 6.5,      // Supply chain stress building
-  natGasTarget: 7.5,       // IRGC Gulf threats keep energy elevated
-  shippingTarget: 70,      // Gulf insurance spiking on industrial target threats
+  // Targets for mean reversion (scenario: sustained conflict, Gulf shipping disrupted)
+  oilTarget: 115,          // Sustained strikes + Gulf chokepoint risk pushing higher
+  gasTarget: 4.40,         // Pump prices tracking oil with lag
+  groceryTarget: 7.0,      // Supply chain stress compounding over weeks
+  natGasTarget: 8.5,       // LNG rerouting + Gulf disruption
+  shippingTarget: 80,      // Insurance premiums climbing on sustained conflict
 };
 
 const WAR_COST_BASELINE = {
-  lastDate: '2026-03-27',
-  dailyMilitaryBillions: 1.0,   // Pentagon: ~$1B/day carrier + air ops
-  dailyEconomicBillions: 2.0,   // Oil premium + shipping disruption drag
+  lastDate: '2026-04-04',
+  dailyMilitaryBillions: 1.1,   // Pentagon: ~$1.1B/day expanded carrier + air ops
+  dailyEconomicBillions: 2.3,   // Rising oil premium + deepening shipping disruption
 };
 
 const CASUALTY_BASELINE = {
-  lastDate: '2026-03-27',
+  lastDate: '2026-04-04',
   // Estimated daily rate across all theaters (Gaza + Lebanon + Iran + Gulf)
-  dailyKilled: 150,
-  dailyInjured: 350,
+  dailyKilled: 140,
+  dailyInjured: 330,
   childrenPct: 0.17,       // ~17% of killed are children (UNICEF pattern)
 };
 
