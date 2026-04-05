@@ -18,37 +18,85 @@ const SEEN_FILE = join(DATA_DIR, 'seen-headlines.json');
 const DRAFTS_FILE = join(DATA_DIR, 'draft-events.json');
 
 // ── Search queries for Google News RSS ──
+// Focused on concrete conflict impacts: casualties, infrastructure, energy, nuclear, shipping
 const NEWS_QUERIES = [
-  'Israel Iran war',
-  'Gaza conflict',
-  'Middle East oil disruption',
-  'Strait of Hormuz',
-  'Yemen Houthi attacks shipping',
-  'Iran nuclear facilities',
-  'oil price surge conflict',
-  'Israel Lebanon Hezbollah',
-  'Gaza ceasefire',
-  'Iran retaliation Israel',
+  'Iran oil refinery strike damage',
+  'Iran nuclear facility attack IAEA',
+  'Strait of Hormuz shipping blocked tanker',
+  'Iran war casualties killed civilians',
+  'Middle East oil supply disruption barrel',
+  'Gaza casualties killed hospital',
+  'Houthi shipping attack tanker',
+  'Iran war infrastructure damage pipeline',
+  'Lebanon Israel airstrike casualties',
+  'Iran CO2 emissions pollution war environmental',
 ];
 
 // ── YouTube search queries ──
 const YT_QUERIES = [
-  'Israel Iran war today',
-  'Gaza latest news today',
-  'Middle East conflict oil',
-  'Houthi shipping attack',
-  'Iran nuclear news',
+  'Iran oil infrastructure damage satellite',
+  'Iran nuclear facility IAEA',
+  'Strait Hormuz shipping disruption',
+  'Iran war civilian casualties',
+  'Middle East war environmental damage',
 ];
+
+// ═══ CONTENT QUALITY FILTERS ═══
+
+// REJECT: opinion, commentary, political theater, live blogs, analysis
+const REJECT_PATTERNS = [
+  /\b(opinion|editorial|letters?\s+to|column|blog|viewpoint|perspective)\b/i,
+  /\blive\s+(updates?|coverage|blog|news)\b/i,
+  /\b(middle east|iran war|iran|gaza)\s+(crisis\s+)?live:/i,
+  /here'?s what happened/i,
+  /what.{0,20}(winning|happened|to know|to understand|can tell us)/i,
+  /how (trump|our|young|will|the us)/i,
+  /trump\s+(says|claims|threatens|warns|tells|wants|demands|pushes|can|is\s+(losing|waging|fighting))/i,
+  /\b(pope|evangelical|god'?s name|divine|moral world order)\b/i,
+  /\b(voices from|as it happened|the latest:|latest developments)\b/i,
+  /\bstripped?\b.{0,30}\b(residency|citizenship|visa)\b/i,
+  /how\s+(do|does|will|are|is|can|our|young)\b/i,
+  /\b(fallout from|deal with the|pushing back|comes under strain)\b/i,
+  /flip-flopping|boxed himself|four bad options|finish the job/i,
+  /\b(reporter covers|without being in it)\b/i,
+  /day \d+ of (us|u\.s\.|american|israeli)/i,
+  /what is happening on day/i,
+];
+
+// REQUIRE: at least one concrete conflict-impact indicator
+const RELEVANCE_PATTERNS = [
+  /killed|dead|died|casualt|wound|injur|massacre/i,         // casualties
+  /struck|destroy|damage|bomb|shell|missile|drone strike/i,  // military action with damage
+  /refiner|pipeline|petrochemical|oil field|storage|terminal/i, // energy infrastructure
+  /nuclear|enrichment|natanz|fordow|bushehr|IAEA|radiation/i,  // nuclear
+  /blocked|closed|disrupted|shipping|tanker|hormuz/i,         // chokepoint/shipping
+  /CO2|emission|pollution|environmental|climate/i,            // environmental
+  /barrel|crude|oil price|gas price|LNG|supply disruption/i,  // energy markets
+  /hospital|school|university|civilian|humanitarian/i,        // humanitarian targets
+  /troop|ground.?force|deploy|battalion|brigade|infantry/i,   // ground operations
+  /satellite|FIRMS|imagery|blackout/i,                        // intelligence/monitoring
+];
+
+function shouldReject(title) {
+  return REJECT_PATTERNS.some(p => p.test(title));
+}
+
+function isRelevant(title, description = '') {
+  const text = `${title} ${description}`;
+  return RELEVANCE_PATTERNS.some(p => p.test(text));
+}
 
 // ── Category detection ──
 const CATEGORY_RULES = [
-  { pattern: /nuclear|enrichment|natanz|fordow|radiation/i, category: 'nuclear' },
-  { pattern: /oil|refiner|pipeline|barrel|crude|petrol|gas price|fuel/i, category: 'infrastructure' },
-  { pattern: /houthi|shipping|strait|hormuz|bab.el|tanker|maritime/i, category: 'shipping' },
+  { pattern: /nuclear|enrichment|natanz|fordow|bushehr|radiation|IAEA/i, category: 'nuclear' },
+  { pattern: /refiner|pipeline|petrochemical|oil field|barrel|crude|petrol|fuel|LNG/i, category: 'infrastructure' },
+  { pattern: /houthi|shipping|strait|hormuz|bab.el|tanker|maritime|blocked/i, category: 'shipping' },
+  { pattern: /killed|dead|casualt|massacre|civilian|hospital|wounded/i, category: 'humanitarian' },
+  { pattern: /strike|bomb|attack|missile|drone|raid|offensive|shell/i, category: 'military_strike' },
+  { pattern: /CO2|emission|pollution|environmental|climate/i, category: 'environmental' },
+  { pattern: /troop|ground.?force|deploy|battalion|infantry/i, category: 'military_strike' },
   { pattern: /ceasefire|peace|negotiat|diplomat|UN|united nations/i, category: 'diplomacy' },
-  { pattern: /strike|bomb|attack|missile|drone|raid|offensive/i, category: 'military_strike' },
   { pattern: /retaliat|escalat|response|counter/i, category: 'retaliation' },
-  { pattern: /killed|dead|casualt|massacre|civilian|hospital/i, category: 'escalation' },
   { pattern: /sanction|economic|inflation|recession/i, category: 'economic' },
 ];
 
@@ -57,7 +105,7 @@ function detectCategory(title, description = '') {
   for (const rule of CATEGORY_RULES) {
     if (rule.pattern.test(text)) return rule.category;
   }
-  return 'escalation';
+  return null; // No category = don't publish
 }
 
 // ── Load/save seen headlines ──
@@ -250,12 +298,24 @@ async function main() {
 
   console.log(`  ${uniqueNew.length} new headlines after dedup`);
 
-  // 3. For each new headline, find a YouTube video and create a draft event
-  for (const item of uniqueNew.slice(0, 15)) { // Cap at 15 per run
+  // 3. For each new headline, apply quality filters, then create draft events
+  for (const item of uniqueNew.slice(0, 20)) { // Cap at 20 per run
+    // Quality gate: reject opinion/commentary/political theater
+    if (shouldReject(item.title)) {
+      console.log(`  REJECT (content filter): ${item.title.slice(0, 70)}`);
+      continue;
+    }
+
+    // Relevance gate: must mention concrete conflict impact
+    const category = detectCategory(item.title);
+    if (!category && !isRelevant(item.title)) {
+      console.log(`  SKIP (not relevant): ${item.title.slice(0, 70)}`);
+      continue;
+    }
+
     console.log(`  Processing: ${item.title.slice(0, 60)}...`);
 
     const video = await findVideoForHeadline(item.title);
-    const category = detectCategory(item.title);
 
     const draft = {
       id: generateEventId(item.title),
