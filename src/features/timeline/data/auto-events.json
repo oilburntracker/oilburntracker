@@ -64,7 +64,14 @@
     "description": "Via Al Jazeera. Auto-detected by headline monitor.",
     "lat": 32.07,
     "lng": 34.78,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQmxncmxUQ0o2dmE2WDZGaWtCdnRHZTVPSDJXSTc5TElNN3FRR0FyMWdYcXpiM19SVm5RU3dwRXd3NmN5dk5zd2xBQ3EwYkNhWFNVV0ZFT25YcVFWMUk1ckpsVHluaWtkdjlZZkFXNWNONktTZEZIbUF2ZXJTWi0wcl93QmhyeGFveEhkRVUyNVV0OVI4eHZuRW5NX0ZGeHlsV2k4bTdJNkZnQdIBrwFBVV95cUxOSDEzekl1QThzWlZLSFl0c0JMQXo4RUJEbHVQeHcxSlZMWmFtUHFMQ1J2MWRCZjVucVJBVVctV2tzQWZhZHdGRzgyM2dIQ1hQU3JkQ0ZvQTJlWVdoaUx1TUl2RFc2X09lS054ZmZPSGZ2NXE5aFdrX0FXVHFYMDktNkNITWhyNjRSc0xmRm5ramRwRjRtcXJ2SllHOEtuTWNMVi0xTDdjdzJqRU9VUWhB?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQmxncmxUQ0o2dmE2WDZGaWtCdnRHZTVPSDJXSTc5TElNN3FRR0FyMWdYcXpiM19SVm5RU3dwRXd3NmN5dk5zd2xBQ3EwYkNhWFNVV0ZFT25YcVFWMUk1ckpsVHluaWtkdjlZZkFXNWNONktTZEZIbUF2ZXJTWi0wcl93QmhyeGFveEhkRVUyNVV0OVI4eHZuRW5NX0ZGeHlsV2k4bTdJNkZnQdIBrwFBVV95cUxOSDEzekl1QThzWlZLSFl0c0JMQXo4RUJEbHVQeHcxSlZMWmFtUHFMQ1J2MWRCZjVucVJBVVctV2tzQWZhZHdGRzgyM2dIQ1hQU3JkQ0ZvQTJlWVdoaUx1TUl2RFc2X09lS054ZmZPSGZ2NXE5aFdrX0FXVHFYMDktNkNITWhyNjRSc0xmRm5ramRwRjRtcXJ2SllHOEtuTWNMVi0xTDdjdzJqRU9VUWhB?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=ey03bm8AO70",
+        "label": "Israeli forces kill UN staff member and injure another in Gaza | Al Jazeera English"
+      }
+    ]
   },
   {
     "id": "auto-severe-weather-in-gaza-hits",
@@ -297,7 +304,14 @@
     "description": "Via Al Jazeera. Auto-detected by headline monitor.",
     "lat": 35.69,
     "lng": 51.39,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOd2Y1WG9fV0tUOExiVW44aHZJS1pKeHZxXzA4TE1kUFdHOHN2YVpnXzFWdFEwSmZQMElYV2FHaHYyUy0zcklRLXRMN2oxTFZ6UThXdnZHTWI3Z0tfdHNtUW41RUxfUVFnbXdlTVhzNkREWC1wSDFiRDBCWHFvRzh4T195Y0FTR1pUTEhOSmJucTNKNWxYRER1NWdyZW84MVB2S1NTRnhzSFZGUkQ2N3A5QdIBtgFBVV95cUxOZDBjWTNKZ2pMMmdmd1dJVm9GbkR2ZDVFQkxBSDA4SXpQODVMNnM5M2trRV83N1luZFJXTXBlNUU3Nml3SDhub0xWQkRvaUlmMVNJTlJ3UHNPcG9WdjNLbUxKWWdaaGpLSTRibXpQNlBNX0JrcFpINDhGS1NBWG1fR0ZKUGtiNkxjUTZlTGw2eWRZMDJjZ2ZpNzRPcVc5cHViU3I0N194RzVOZTBwQm10ZHBoeTlVQQ?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOd2Y1WG9fV0tUOExiVW44aHZJS1pKeHZxXzA4TE1kUFdHOHN2YVpnXzFWdFEwSmZQMElYV2FHaHYyUy0zcklRLXRMN2oxTFZ6UThXdnZHTWI3Z0tfdHNtUW41RUxfUVFnbXdlTVhzNkREWC1wSDFiRDBCWHFvRzh4T195Y0FTR1pUTEhOSmJucTNKNWxYRER1NWdyZW84MVB2S1NTRnhzSFZGUkQ2N3A5QdIBtgFBVV95cUxOZDBjWTNKZ2pMMmdmd1dJVm9GbkR2ZDVFQkxBSDA4SXpQODVMNnM5M2trRV83N1luZFJXTXBlNUU3Nml3SDhub0xWQkRvaUlmMVNJTlJ3UHNPcG9WdjNLbUxKWWdaaGpLSTRibXpQNlBNX0JrcFpINDhGS1NBWG1fR0ZKUGtiNkxjUTZlTGw2eWRZMDJjZ2ZpNzRPcVc5cHViU3I0N194RzVOZTBwQm10ZHBoeTlVQQ?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=jzf7ymL-EKk",
+        "label": "Iranian strikes hit Haifa and Tel Aviv as damage spreads across Israel | Al Jazeera English"
+      }
+    ]
   },
   {
     "id": "auto-middle-east-live-20-march",
@@ -307,7 +321,14 @@
     "description": "Via UN News. Auto-detected by headline monitor.",
     "lat": 30,
     "lng": 48,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1WQXV1Q3p5VHFmeU9qVzBkOTMyXzBCbnlMdFZMWDlUNU82YjdiUGlaUkhuR0ZXMzBvcXlCN0JTcFBITWJwek11ZnR5NVBQemVKOUlYY2xPRQ?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1WQXV1Q3p5VHFmeU9qVzBkOTMyXzBCbnlMdFZMWDlUNU82YjdiUGlaUkhuR0ZXMzBvcXlCN0JTcFBITWJwek11ZnR5NVBQemVKOUlYY2xPRQ?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=EG0Z95Ql65s",
+        "label": "War in the Middle East: 15 dead in Israeli strikes on Lebanon • FRANCE 24 English | France 24"
+      }
+    ]
   },
   {
     "id": "auto-on-eid-palestinians-mourn-loved",
@@ -4440,7 +4461,14 @@
     "description": "Via The Guardian. Auto-detected by headline monitor.",
     "lat": 35.69,
     "lng": 51.39,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQSGQzc1BKakdia2hJbmxuUTJOcWNlWnpwalhhRnlOVUlGQzlDTHBrNGZWaDdSYjBKYUdJUGt0TGlrZUt4WjFjbkEycVFUU2lMcFFnRHNsNVhOQlB5dndMVTJqQ1dxNVdIY2I4SlZuSkJYaThoOGJPY2pfbWQ0dkdlLVRLVEIzZ2JERlVnVHZGalRxU2hZbWI4S2JNUldONUV6cjZPS1Q0ODFCUjJxZG96eWNBZ1lQSUVUVjJvVk1NbXJPbzZUb09jcFZheng1X0M1ZVg4VERUcmtERkNkWEU0Ug?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQSGQzc1BKakdia2hJbmxuUTJOcWNlWnpwalhhRnlOVUlGQzlDTHBrNGZWaDdSYjBKYUdJUGt0TGlrZUt4WjFjbkEycVFUU2lMcFFnRHNsNVhOQlB5dndMVTJqQ1dxNVdIY2I4SlZuSkJYaThoOGJPY2pfbWQ0dkdlLVRLVEIzZ2JERlVnVHZGalRxU2hZbWI4S2JNUldONUV6cjZPS1Q0ODFCUjJxZG96eWNBZ1lQSUVUVjJvVk1NbXJPbzZUb09jcFZheng1X0M1ZVg4VERUcmtERkNkWEU0Ug?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=OyDXBF63n_g",
+        "label": "'At the edge of a battlefield': What is it like at the Strait of Hormuz? #Iran #MiddleEast #BBCNews | BBC News"
+      }
+    ]
   },
   {
     "id": "auto-irans-new-supreme-leader-vows",
@@ -4450,7 +4478,14 @@
     "description": "Via BBC. Auto-detected by headline monitor.",
     "lat": 35.69,
     "lng": 51.39,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ZT0VFQWRKWFhLM3ZVeGR5eWxSWWI5NDZuUFhkZ3ZXcjB1QXJtVkQ0U1VOWEZlVWNqZVRZbXByVDJFYWY0c1FFZGhZTDU4M1hiamhZakxDSmk4QQ?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ZT0VFQWRKWFhLM3ZVeGR5eWxSWWI5NDZuUFhkZ3ZXcjB1QXJtVkQ0U1VOWEZlVWNqZVRZbXByVDJFYWY0c1FFZGhZTDU4M1hiamhZakxDSmk4QQ?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=6NcJj7asdJY",
+        "label": "Iran's navy rejects Trump's demand to open Strait of Hormuz | Mornings | Sky News"
+      }
+    ]
   },
   {
     "id": "auto-wti-june-brent-crude-futures",
@@ -4511,7 +4546,14 @@
     "description": "Via CNBC. Auto-detected by headline monitor.",
     "lat": 35.69,
     "lng": 51.39,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOajhNYVowVElvV3psTFJ4OEctTk9TYnRuMTE3VG9zYno1YjI4NEw2Mm84YlhmbGNoTnF5Wlh4VVNUdWxpVm5fMFRvbE5CUzluNnBUQ2xsdDhCZll1a241b2JSZUd4WVhiUXVWQ2RGZ3NqQXRrblhPbzN4d0N3N2Z6Uk9CTXVPcnhsRDh0cGoyODRKYmVKblUzVE5uRFBIbTcwWERz0gGoAUFVX3lxTFBPaC1SUDMwRU5uLThtTzdBenBnd1JvaTk2S2x1Rm9aeWdQd1NjcmhINThaM3dJYXpjR09tSjU0LVB0Y0xGVFVyWnBhb2lHcEhHR0N5bWNFcWRoZnh6c2RXQUt4WV9JcTBkQ3pLNHlvcTNXbDVZcFBxR2MzN1UwTE5ySHFLMTVwV3RKVm9HQ0xhZWdaRlRLLWdoS0RRempjMlc3akdYSnpNcA?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOajhNYVowVElvV3psTFJ4OEctTk9TYnRuMTE3VG9zYno1YjI4NEw2Mm84YlhmbGNoTnF5Wlh4VVNUdWxpVm5fMFRvbE5CUzluNnBUQ2xsdDhCZll1a241b2JSZUd4WVhiUXVWQ2RGZ3NqQXRrblhPbzN4d0N3N2Z6Uk9CTXVPcnhsRDh0cGoyODRKYmVKblUzVE5uRFBIbTcwWERz0gGoAUFVX3lxTFBPaC1SUDMwRU5uLThtTzdBenBnd1JvaTk2S2x1Rm9aeWdQd1NjcmhINThaM3dJYXpjR09tSjU0LVB0Y0xGVFVyWnBhb2lHcEhHR0N5bWNFcWRoZnh6c2RXQUt4WV9JcTBkQ3pLNHlvcTNXbDVZcFBxR2MzN1UwTE5ySHFLMTVwV3RKVm9HQ0xhZWdaRlRLLWdoS0RRempjMlc3akdYSnpNcA?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=NkuB_EpUWqg",
+        "label": "Strait of Hormuz remains effectively closed despite Trump's threats to Iran | BBC News | BBC News"
+      }
+    ]
   },
   {
     "id": "auto-satellite-imagery-shows-apparent-attack",
@@ -4565,7 +4607,14 @@
     "description": "Via Reuters. Auto-detected by headline monitor.",
     "lat": 35.69,
     "lng": 51.39,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOU21EbEhtTTcwZ2VVNV8ySnJFbmZlM290ZDVPLVNmNmNldkJPWWJJUHdpTG10U0FOaWJsam9Dc01haU5HSEtmTHFqTGNxTnlneDZhRTloZkZIUFJoWWlxT3FhZHdQU3BTaDFBRDdQX3VFNS00NENjdWg1dl93b1phaktQMFE?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOU21EbEhtTTcwZ2VVNV8ySnJFbmZlM290ZDVPLVNmNmNldkJPWWJJUHdpTG10U0FOaWJsam9Dc01haU5HSEtmTHFqTGNxTnlneDZhRTloZkZIUFJoWWlxT3FhZHdQU3BTaDFBRDdQX3VFNS00NENjdWg1dl93b1phaktQMFE?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=OyDXBF63n_g",
+        "label": "'At the edge of a battlefield': What is it like at the Strait of Hormuz? #Iran #MiddleEast #BBCNews | BBC News"
+      }
+    ]
   },
   {
     "id": "auto-greek-oil-tanker-drifting-and",
@@ -4683,7 +4732,14 @@
     "description": "Via The Guardian. Auto-detected by headline monitor.",
     "lat": 35.69,
     "lng": 51.39,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSFFvb2J6cjdmdHV4dGlSY1JFdktaRlYzZU8wdHhhNVpBRC1lOXJtOUNJLW9IVmpWeEt4NnowNFNMZUI3eGZqQVBBZzI3alMtaVpaT1pMakctOE55a3poRmx0MWRjZjR2dEE3djRHa2RwR2NVQTk4cWdSN1Zpd1JJckxTcmMyTEhIQVRTZndCZlJhd1ozNEFrSjBnYjZwbUhUWWdPVTln?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSFFvb2J6cjdmdHV4dGlSY1JFdktaRlYzZU8wdHhhNVpBRC1lOXJtOUNJLW9IVmpWeEt4NnowNFNMZUI3eGZqQVBBZzI3alMtaVpaT1pMakctOE55a3poRmx0MWRjZjR2dEE3djRHa2RwR2NVQTk4cWdSN1Zpd1JJckxTcmMyTEhIQVRTZndCZlJhd1ozNEFrSjBnYjZwbUhUWWdPVTln?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=OyDXBF63n_g",
+        "label": "'At the edge of a battlefield': What is it like at the Strait of Hormuz? #Iran #MiddleEast #BBCNews | BBC News"
+      }
+    ]
   },
   {
     "id": "auto-which-cargo-ships-are-managing",
@@ -4730,7 +4786,14 @@
     "description": "Via CNBC. Auto-detected by headline monitor.",
     "lat": 26.56,
     "lng": 56.25,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdU1YUjFQZl9vSHFkNENuc3BZWmNkWmFka1RScEd3YnhvcnNrQjBsOG40SUxWYmZ3SGV2bDQxUzBYcThFdGF2VnRrSXBtNzh3T0txaWphdmthQVNDZDRXbTVGcXh4ZzBwd2JTT2FrZ1FDYzR2NzlvVHlhMk1VWTl2RUxBRnkxWUU1NzFqQ1ZvcEk2eUZrSVZDVDdCWU9uNnPSAaQBQVVfeXFMTlA0bXVNVVNmdFU4LXF1Sm5KNkhvMDlJR3Y0MmFJaHlXWWtkM1BVT1ZHS2pMV0J0TWNQMmhjZ0J4ZjdrY0RrOERvUVVwQTBiLUI4czVRMnVkazBxQU5IS3lmTVpMNkxLMkllaHlXbFRrTkR3X2FiYW45OGNUQlhpZE5WUGVQN1NEalBKRW8tdUctbWRsOXhxVVhFc1Y1cEc2Njc0QjA?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdU1YUjFQZl9vSHFkNENuc3BZWmNkWmFka1RScEd3YnhvcnNrQjBsOG40SUxWYmZ3SGV2bDQxUzBYcThFdGF2VnRrSXBtNzh3T0txaWphdmthQVNDZDRXbTVGcXh4ZzBwd2JTT2FrZ1FDYzR2NzlvVHlhMk1VWTl2RUxBRnkxWUU1NzFqQ1ZvcEk2eUZrSVZDVDdCWU9uNnPSAaQBQVVfeXFMTlA0bXVNVVNmdFU4LXF1Sm5KNkhvMDlJR3Y0MmFJaHlXWWtkM1BVT1ZHS2pMV0J0TWNQMmhjZ0J4ZjdrY0RrOERvUVVwQTBiLUI4czVRMnVkazBxQU5IS3lmTVpMNkxLMkllaHlXbFRrTkR3X2FiYW45OGNUQlhpZE5WUGVQN1NEalBKRW8tdUctbWRsOXhxVVhFc1Y1cEc2Njc0QjA?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=OyDXBF63n_g",
+        "label": "'At the edge of a battlefield': What is it like at the Strait of Hormuz? #Iran #MiddleEast #BBCNews | BBC News"
+      }
+    ]
   },
   {
     "id": "auto-the-damage-to-the-world",
