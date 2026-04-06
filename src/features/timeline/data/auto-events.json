@@ -4485,5 +4485,32 @@
         "label": ""
       }
     ]
+  },
+  {
+    "id": "auto-iaea-confirms-buildings-damaged-at",
+    "date": "2026-03-03",
+    "title": "IAEA confirms buildings damaged at Iran’s Natanz nuclear facility",
+    "category": "facility_damage",
+    "description": "Via Al Jazeera. Auto-detected by headline monitor.",
+    "lat": 35.69,
+    "lng": 51.39,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQODA4SEZyam5IVHBrVWswemNiRktXU0lDbzdQOTJPZnNoQjRjMERmelBRdE5JVEllM3NVNU1mOGlRVEUxVmdvYmJBM1pMWmU1S2htTzFyTUZhSUJuNUNfMHV6VmxFQzZ6eFRVYVZJQ3FqNFFfVzR0dmliMUV1cWVkQmU2eHdBZC1PcjQ5TEx5STFRS2k4VkNHSVRWbTZtNnfSAaQBQVVfeXFMTm4tX1ZXZlBuTFdFZlRqQXNwd3A2NkVleVJzSmlLZG1sWW51SUJ5aXRNVnNxcHMtdmpPN2YzbkNyNk5VMi14ZG9yVC1qS0hfbFVncTN4SDdHNkwweFAwM1NGd083T1pPaXYtODhMc3RGOXFvLVA4eEtfVWhVUkZzNWh3bVNrWmtDVVRJbmYwaktwSkd4QkpGVGVBS09OMGs2VFFXbUo?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=ij3vojJ3duw",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "auto-trump-if-iran-blocks-the",
+    "date": "2019-06-14",
+    "title": "Trump: If Iran blocks the Strait of Hormuz, 'it's not going to be closed for long'",
+    "category": "chokepoint",
+    "description": "Via CNBC. Auto-detected by headline monitor.",
+    "lat": 35.69,
+    "lng": 51.39,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOajhNYVowVElvV3psTFJ4OEctTk9TYnRuMTE3VG9zYno1YjI4NEw2Mm84YlhmbGNoTnF5Wlh4VVNUdWxpVm5fMFRvbE5CUzluNnBUQ2xsdDhCZll1a241b2JSZUd4WVhiUXVWQ2RGZ3NqQXRrblhPbzN4d0N3N2Z6Uk9CTXVPcnhsRDh0cGoyODRKYmVKblUzVE5uRFBIbTcwWERz0gGoAUFVX3lxTFBPaC1SUDMwRU5uLThtTzdBenBnd1JvaTk2S2x1Rm9aeWdQd1NjcmhINThaM3dJYXpjR09tSjU0LVB0Y0xGVFVyWnBhb2lHcEhHR0N5bWNFcWRoZnh6c2RXQUt4WV9JcTBkQ3pLNHlvcTNXbDVZcFBxR2MzN1UwTE5ySHFLMTVwV3RKVm9HQ0xhZWdaRlRLLWdoS0RRempjMlc3akdYSnpNcA?oc=5"
   }
 ]
