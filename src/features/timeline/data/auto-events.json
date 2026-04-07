@@ -5109,5 +5109,32 @@
         "label": "'At the edge of a battlefield': What is it like at the Strait of Hormuz? #Iran #MiddleEast #BBCNews | BBC News"
       }
     ]
+  },
+  {
+    "id": "auto-huge-fires-at-russian-oil",
+    "date": "2026-03-31",
+    "title": "Huge fires at Russian oil facilities following Ukraine strikes, satellite images show",
+    "category": "military_strike",
+    "description": "Via BBC. Auto-detected by headline monitor.",
+    "lat": 30,
+    "lng": 48,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9NYXdiZTIxR2VYdmJMVkR4OC1wZ3FpYVQtVTFsWUVnaUg2dnhUNWpURE00NENFLVZra2FSbTA0aDFoRUMwbDZ3dnhkNENhTzZrNTdjODBsdDMxZw?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=xyAd2xYWfbg",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "auto-how-iran-war-ship-attacks",
+    "date": "2026-03-12",
+    "title": "How Iran war ship attacks choked off Strait of Hormuz",
+    "category": "chokepoint",
+    "description": "Via BBC. Auto-detected by headline monitor.",
+    "lat": 35.69,
+    "lng": 51.39,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1VNnZxUmVhdk1rRkx3ejd4U01FaHFsMnV2ek9aVms3U2haNU9HTUpwXzM4dk5QbFFZaW1SN0JoOWtmWHRXT1doalh1bWdhckVDLUpQSWNpRnZOdw?oc=5"
   }
 ]
