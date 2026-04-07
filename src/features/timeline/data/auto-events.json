@@ -1618,7 +1618,14 @@
     "description": "Via Reuters. Auto-detected by headline monitor.",
     "lat": 30,
     "lng": 48,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVGpnTU9fTlh1THhHLTdCRUd6ZmEyLUs0OUN4eTNjLW9peWZYRm5GMnVTMHNId1ZIR0NBU3BHb2RjbWF0eWVyRW5sb3NMLWlOTFJxMmRSMnJOa1gzS1c2RVRuc0FLbi1WUnZOaGs4VmFyU0hNcHVRNlRCWDNuWTRESmNjaldGRGFHZmxBTnN6dnJNNDdISU95Y1hrbW16QWpIT0JCWU1aNjlTSEktaTd1Z2dlTQ?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVGpnTU9fTlh1THhHLTdCRUd6ZmEyLUs0OUN4eTNjLW9peWZYRm5GMnVTMHNId1ZIR0NBU3BHb2RjbWF0eWVyRW5sb3NMLWlOTFJxMmRSMnJOa1gzS1c2RVRuc0FLbi1WUnZOaGs4VmFyU0hNcHVRNlRCWDNuWTRESmNjaldGRGFHZmxBTnN6dnJNNDdISU95Y1hrbW16QWpIT0JCWU1aNjlTSEktaTd1Z2dlTQ?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=2-m320d9qYo",
+        "label": "Tensions rise as Trump's Iran deadline nears and as violence erupts in the Middle East | CBS News"
+      }
+    ]
   },
   {
     "id": "auto-russia-slams-second-usisraeli-strike",
@@ -4776,7 +4783,14 @@
     "description": "Via France 24. Auto-detected by headline monitor.",
     "lat": 26.56,
     "lng": 56.25,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOSkVJNDNIbkpEMUFpenhfdTEwVWFnTzBNNmh3c1U4anhBSUF5NUxCVU5UMVFmMG43YndfWGpQeGlaTUhrU2NqVDQ4WUtCeDRYRVJUSnRqcy1GQ0NhUldxVGlDNE5jenZhemFJX1B0RlBGaFcxWnJLaF82TVFTckJrUkFhUG9VOWJpVFpVY3IxWE44YnVHUzBLQnN1WEJwVlB6ZXNYVERYdmh2NXFDQ3paTGp1Qm43RGs?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOSkVJNDNIbkpEMUFpenhfdTEwVWFnTzBNNmh3c1U4anhBSUF5NUxCVU5UMVFmMG43YndfWGpQeGlaTUhrU2NqVDQ4WUtCeDRYRVJUSnRqcy1GQ0NhUldxVGlDNE5jenZhemFJX1B0RlBGaFcxWnJLaF82TVFTckJrUkFhUG9VOWJpVFpVY3IxWE44YnVHUzBLQnN1WEJwVlB6ZXNYVERYdmh2NXFDQ3paTGp1Qm43RGs?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=2-m320d9qYo",
+        "label": "Tensions rise as Trump's Iran deadline nears and as violence erupts in the Middle East | CBS News"
+      }
+    ]
   },
   {
     "id": "auto-the-strait-of-hormuz-crisis",
@@ -4891,7 +4905,14 @@
     "description": "Via BBC. Auto-detected by headline monitor.",
     "lat": 35.69,
     "lng": 51.39,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9tN3d3SGFFOS1kb0ctMnU0WDdib1hmYUVaLXQ3bm5vRUFlUjVhN05nLVBJOUozTXo2ZnpDZ0NHQUJzMXpBNkdqbHdJNy13bUF0aDJSLUdLR19OQQ?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9tN3d3SGFFOS1kb0ctMnU0WDdib1hmYUVaLXQ3bm5vRUFlUjVhN05nLVBJOUozTXo2ZnpDZ0NHQUJzMXpBNkdqbHdJNy13bUF0aDJSLUdLR19OQQ?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=OyDXBF63n_g",
+        "label": "'At the edge of a battlefield': What is it like at the Strait of Hormuz? #Iran #MiddleEast #BBCNews | BBC News"
+      }
+    ]
   },
   {
     "id": "auto-iaea-says-irans-khondab-heavy",
@@ -4901,7 +4922,14 @@
     "description": "Via Al Jazeera. Auto-detected by headline monitor.",
     "lat": 35.69,
     "lng": 51.39,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPY01rdjI1azdYSWxRc182Z18yTi1oOVVsSlFxOFBEQktKNWFUcGxuX29XVnphWGpQOUNhMjdLaFdwNUdCZEkzTXMyQkxvZXlyVjV5ZFVKQzdsa1JVckU4M2R5eFV3OTJOX0lxX1BOUG53Y0VWODBBeHZqeXEwazNld1YzVllFOHEyODVHRzdBcHlhYURHcUJUVTdINVJxWEt6bzVpaHBlM2R4WDBKdjFuX3BlcXRSYzTSAbwBQVVfeXFMT05EVklPMXRLM08yS2N4OGVxM0RHQWpNdEJ3RnQyVWNkY2lRNHo3eURwdkp0RVVlaTlVSmhtMHFmVWlpUllkTW8tdlp6UHNSUzJESldDQUxMV1JzYmVxVTBWUk9pUWNNd0pNSU5mWXZvRTl5cThJNHFMVkdUZG5tZFJHM3lUbVJPYkx5bHJndnVhb3pzOTZYR0FlUVdJTXdDRDVlNHliWDhMNlNzcHItM1ZoeDRXMk0tZXRLYXA?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPY01rdjI1azdYSWxRc182Z18yTi1oOVVsSlFxOFBEQktKNWFUcGxuX29XVnphWGpQOUNhMjdLaFdwNUdCZEkzTXMyQkxvZXlyVjV5ZFVKQzdsa1JVckU4M2R5eFV3OTJOX0lxX1BOUG53Y0VWODBBeHZqeXEwazNld1YzVllFOHEyODVHRzdBcHlhYURHcUJUVTdINVJxWEt6bzVpaHBlM2R4WDBKdjFuX3BlcXRSYzTSAbwBQVVfeXFMT05EVklPMXRLM08yS2N4OGVxM0RHQWpNdEJ3RnQyVWNkY2lRNHo3eURwdkp0RVVlaTlVSmhtMHFmVWlpUllkTW8tdlp6UHNSUzJESldDQUxMV1JzYmVxVTBWUk9pUWNNd0pNSU5mWXZvRTl5cThJNHFMVkdUZG5tZFJHM3lUbVJPYkx5bHJndnVhb3pzOTZYR0FlUVdJTXdDRDVlNHliWDhMNlNzcHItM1ZoeDRXMk0tZXRLYXA?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=q0Oz39I5pt4",
+        "label": "iaea irans khondab heavy water news | YouTube Search"
+      }
+    ]
   },
   {
     "id": "auto-bahrains-alba-assesses-damage-after",
@@ -5073,6 +5101,13 @@
     "description": "Via The Guardian. Auto-detected by headline monitor.",
     "lat": 35.69,
     "lng": 51.39,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSFFvb2J6cjdmdHV4dGlSY1JFdktaRlYzZU8wdHhhNVpBRC1lOXJtOUNJLW9IVmpWeEt4NnowNFNMZUI3eGZqQVBBZzI3alMtaVpaT1pMakctOE55a3poRmx0MWRjZjR2dEE3djRHa2RwR2NVQTk4cWdSN1Zpd1JJckxTcmMyTEhIQVRTZndCZlJhd1ozNEFrSjBnYjZwbUhUWWdPVTln?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSFFvb2J6cjdmdHV4dGlSY1JFdktaRlYzZU8wdHhhNVpBRC1lOXJtOUNJLW9IVmpWeEt4NnowNFNMZUI3eGZqQVBBZzI3alMtaVpaT1pMakctOE55a3poRmx0MWRjZjR2dEE3djRHa2RwR2NVQTk4cWdSN1Zpd1JJckxTcmMyTEhIQVRTZndCZlJhd1ozNEFrSjBnYjZwbUhUWWdPVTln?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=OyDXBF63n_g",
+        "label": "'At the edge of a battlefield': What is it like at the Strait of Hormuz? #Iran #MiddleEast #BBCNews | BBC News"
+      }
+    ]
   }
 ]
