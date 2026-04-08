@@ -5381,5 +5381,22 @@
         "label": ""
       }
     ]
+  },
+  {
+    "id": "auto-after-ceasefire-ship-traffic-in",
+    "date": "2026-04-08",
+    "title": "After Cease-Fire, Ship Traffic in Strait of Hormuz Remains Throttled",
+    "category": "chokepoint",
+    "description": "Via The New York Times. Auto-detected by headline monitor.",
+    "lat": 26.56,
+    "lng": 56.25,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxObFp4X0tIUm5hcmUxaVcxbG5pLUtFWS14dTVYck1Gbl9FTzFUelJ2emloNC1VZmNVTWVmZU9mYXlraFBjRjgyZENZX2VrWU41U0Zzb3BtZ0ZJa3lldVlIdVdhdmhwUXV6eWJ3cVI2NVdZdDRWcHVfdVN3d2NTdHdwUW1WeDFJMDFGQV9WOTVWdXJaa3M1ZlE?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=wlSMoJgfFUM",
+        "label": ""
+      }
+    ]
   }
 ]
