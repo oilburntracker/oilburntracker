@@ -524,7 +524,14 @@
     "description": "Via Al Jazeera. Auto-detected by headline monitor.",
     "lat": 35.69,
     "lng": 51.39,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTnlkTVhpWFlWaWRFYUxuaUlIVFQwd0ZZT19QWnk0WGVvWmJiMmVYTk5jUkFucmE1M1gzb1lSWmNrc0RNNnBGTzNpZFVMLW8zbDJUUmxsT3hHM285cFVhTnZYWGx2ak00U0VoMzducVBjSzhyTW52TENJejEzZWRwNkp6djFXR3U0UU1VV2cwU19CQ2FrcFV6bDM5S3Q3VlJDLU9qZEFHLXVON3lQ0gGyAUFVX3lxTFBsd1RFYV94MjZicldvLXFIZlFPLXdfR0plNUg1RFRuSXREcGhuVFEzWnRZWEdXaHFPM3pzWU9LUWdOd0taMWVSVjRhMXpINzl6a2hvaWFFRzBjYzdtRFZiTDJ5NUE4TEF2a244SlpYeGQza3h1eWhkNXBIN0d4aVhmRTRUaFNvY0NIcEFvQmtJZVQ3MzlMM3hyeW1RUXNnOGstaTBGQ0xmc0h2c0ZkdkFSQVE?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTnlkTVhpWFlWaWRFYUxuaUlIVFQwd0ZZT19QWnk0WGVvWmJiMmVYTk5jUkFucmE1M1gzb1lSWmNrc0RNNnBGTzNpZFVMLW8zbDJUUmxsT3hHM285cFVhTnZYWGx2ak00U0VoMzducVBjSzhyTW52TENJejEzZWRwNkp6djFXR3U0UU1VV2cwU19CQ2FrcFV6bDM5S3Q3VlJDLU9qZEFHLXVON3lQ0gGyAUFVX3lxTFBsd1RFYV94MjZicldvLXFIZlFPLXdfR0plNUg1RFRuSXREcGhuVFEzWnRZWEdXaHFPM3pzWU9LUWdOd0taMWVSVjRhMXpINzl6a2hvaWFFRzBjYzdtRFZiTDJ5NUE4TEF2a244SlpYeGQza3h1eWhkNXBIN0d4aVhmRTRUaFNvY0NIcEFvQmtJZVQ3MzlMM3hyeW1RUXNnOGstaTBGQ0xmc0h2c0ZkdkFSQVE?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=Evwn1pCJw7w",
+        "label": "REPLAY: Hegseth claims Iran suffered 'devastating military defeat' • FRANCE 24 English | France 24"
+      }
+    ]
   },
   {
     "id": "auto-aftermath-of-iranian-missile-strikes",
@@ -5135,7 +5142,14 @@
     "description": "Via BBC. Auto-detected by headline monitor.",
     "lat": 35.69,
     "lng": 51.39,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1VNnZxUmVhdk1rRkx3ejd4U01FaHFsMnV2ek9aVms3U2haNU9HTUpwXzM4dk5QbFFZaW1SN0JoOWtmWHRXT1doalh1bWdhckVDLUpQSWNpRnZOdw?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1VNnZxUmVhdk1rRkx3ejd4U01FaHFsMnV2ek9aVms3U2haNU9HTUpwXzM4dk5QbFFZaW1SN0JoOWtmWHRXT1doalh1bWdhckVDLUpQSWNpRnZOdw?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=GyLo9AB71n4",
+        "label": "Iran and US agree to conditional ceasefire and opening of Hormuz strait | BBC News | BBC News"
+      }
+    ]
   },
   {
     "id": "auto-these-are-the-casualties-and",
@@ -5222,7 +5236,14 @@
     "description": "Via Reuters. Auto-detected by headline monitor.",
     "lat": 35.69,
     "lng": 51.39,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTXVhSkMtX1QybGNnaWJqSHRkRmNXS2NvMFA1dWJnaTVQd2EzV2tIeHdxcFBTaW4zX0tNVjFMNWpabkFWYVplOFM0eDVQT2ctZkxQTTBHVW5zOU1OS1BRM2NKUzAxaG5rUmtfUWpFZlpmeVdWTV93dGJHM2V4X1ZRTHlqbFRNcVMteUNZN1JQTkstUTFJVVJON0RrQkRodE9USks3UmdiMEFUdw?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTXVhSkMtX1QybGNnaWJqSHRkRmNXS2NvMFA1dWJnaTVQd2EzV2tIeHdxcFBTaW4zX0tNVjFMNWpabkFWYVplOFM0eDVQT2ctZkxQTTBHVW5zOU1OS1BRM2NKUzAxaG5rUmtfUWpFZlpmeVdWTV93dGJHM2V4X1ZRTHlqbFRNcVMteUNZN1JQTkstUTFJVVJON0RrQkRodE9USks3UmdiMEFUdw?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=rsL36Zrd_vY",
+        "label": "Hegseth, Caine speak at Pentagon after Trump announces 2-week ceasefire with Iran | full video | CBS News"
+      }
+    ]
   },
   {
     "id": "auto-a-pharmacist-and-a-homesick",
@@ -5262,7 +5283,14 @@
     "description": "Via CNBC. Auto-detected by headline monitor.",
     "lat": 35.69,
     "lng": 51.39,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTmx4YTlxTmlUNW1HNTJ5cGdLdDY1czd0S0JrWEt6bEJJVHJGZUl1eVJmRnhfeUhwM3pXdDhETEdFSzVYYVBsMWVaRHJLNkswc2psWU8yU0VENzlHX1h6UHBKcXFBXzJhaXVYa3M4UWpfRldRelotUVVXdEVNblhscndXNTRFeUZKbWJCbzJhUVJUZFdMMV9BVy0tVXRjemNMUndac3pXTkJ0bVAtS1NVdFYwelBGVG9sZ2JFVi1vYkdiMWvSAcgBQVVfeXFMTmxNYzNvUXluSnhPN3hoZXU3b2JnOUkwYnZZUkw4M20xbGNLaW9oX2NNdUpGUFU1U080LUZCVk1OUmZRa2V6SHcwY3JteV9oSkxidHVaRXlCOXdVV3lLLXpYOHRKTlV0MVI3bFpJbHRsYWJQd1pSOHMtV0dYMHpyV1R3TjVXZFh5NTRlZ29WZGJCOU9yQTNid2tUdFdob0ZYeWlZYTVSZHliWGkyS3B6bFF0VWdXSEdzc3JMYTRPS2JuZ3d5dmZjWEc?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTmx4YTlxTmlUNW1HNTJ5cGdLdDY1czd0S0JrWEt6bEJJVHJGZUl1eVJmRnhfeUhwM3pXdDhETEdFSzVYYVBsMWVaRHJLNkswc2psWU8yU0VENzlHX1h6UHBKcXFBXzJhaXVYa3M4UWpfRldRelotUVVXdEVNblhscndXNTRFeUZKbWJCbzJhUVJUZFdMMV9BVy0tVXRjemNMUndac3pXTkJ0bVAtS1NVdFYwelBGVG9sZ2JFVi1vYkdiMWvSAcgBQVVfeXFMTmxNYzNvUXluSnhPN3hoZXU3b2JnOUkwYnZZUkw4M20xbGNLaW9oX2NNdUpGUFU1U080LUZCVk1OUmZRa2V6SHcwY3JteV9oSkxidHVaRXlCOXdVV3lLLXpYOHRKTlV0MVI3bFpJbHRsYWJQd1pSOHMtV0dYMHpyV1R3TjVXZFh5NTRlZ29WZGJCOU9yQTNid2tUdFdob0ZYeWlZYTVSZHliWGkyS3B6bFF0VWdXSEdzc3JMYTRPS2JuZ3d5dmZjWEc?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=GyLo9AB71n4",
+        "label": "Iran and US agree to conditional ceasefire and opening of Hormuz strait | BBC News | BBC News"
+      }
+    ]
   },
   {
     "id": "auto-iranian-strikes-on-bases-used",
