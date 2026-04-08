@@ -5487,5 +5487,32 @@
         "label": ""
       }
     ]
+  },
+  {
+    "id": "auto-saudi-arabias-biggest-oil-refinery",
+    "date": "2026-03-02",
+    "title": "Saudi Arabia’s Biggest Oil Refinery Halts After Drone Attack",
+    "category": "facility_damage",
+    "description": "Via Bloomberg. Auto-detected by headline monitor.",
+    "lat": 24.71,
+    "lng": 46.68,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQem52VlAtQzEydWR3akNDOVBjTV9OZEE1WTlDQjJfUDdlOWJUcUROS2RXY05vUThmaFFKTGxhZnJjN2Z5SHFLaFpNRUZXLUNGbGFNS1dPMmtkSVJhdkRHMkM5MUxOQ0g5azlPaHk1MXE0ZlRabUR6SlBKYUFhRGhFd3U4QnhnUWUzTm5WTUZGMVhmaXlSalBqNlV0dklZTGhjOUxPd3dOdEFoTHVKRVZEUmEweEdvZw?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=yAX4Av85F8A",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "auto-what-is-the-strait-of",
+    "date": "2026-03-16",
+    "title": "What is the strait of Hormuz and can the US stop Iran from blocking it?",
+    "category": "chokepoint",
+    "description": "Via The Guardian. Auto-detected by headline monitor.",
+    "lat": 35.69,
+    "lng": 51.39,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSFFvb2J6cjdmdHV4dGlSY1JFdktaRlYzZU8wdHhhNVpBRC1lOXJtOUNJLW9IVmpWeEt4NnowNFNMZUI3eGZqQVBBZzI3alMtaVpaT1pMakctOE55a3poRmx0MWRjZjR2dEE3djRHa2RwR2NVQTk4cWdSN1Zpd1JJckxTcmMyTEhIQVRTZndCZlJhd1ozNEFrSjBnYjZwbUhUWWdPVTln?oc=5"
   }
 ]
