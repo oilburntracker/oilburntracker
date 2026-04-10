@@ -1,103 +1,5 @@
 [
   {
-    "id": "world-faces-largestever-oil-supply",
-    "date": "2026-03-12",
-    "title": "World faces largest-ever oil supply disruption on Middle East war, IEA says - Reuters",
-    "description": "Via Reuters. Auto-detected by headline monitor.",
-    "category": null,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOS3FNV1luMy1GeGRhSnlnTm84UUZlWWJsV3JiX29pR0pLLXJNTDlOYmZhM1hPTlFOTVN6d2RKNzllQTFPSk9UOWQtNHAtcFowQWZnOHBzSWJ3NW1NTkdXODVCb1hSalR4Y1ltQTYyQlZ0NU5vS0ZwVjFSSDRPLU55ZG1WcWd3Y3F5bjhSRzk0ZGZMUFRvZlhzY1Bld08xU2ZySG9mOTdtaEZHVEFQSTZFclRTMWV1Q1FScmpqRmNabzE?oc=5",
-    "source": "Reuters",
-    "fetchedAt": "2026-04-10T01:00:27.120Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=2A4GMqJyLMo",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "2A4GMqJyLMo",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "new-iea-report-highlights-options",
-    "date": "2026-03-20",
-    "title": "New IEA report highlights options to ease oil price pressures on consumers in response to Middle East supply disruptions - IEA – International Energy Agency",
-    "description": "Via IEA – International Energy Agency. Auto-detected by headline monitor.",
-    "category": "retaliation",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQaFJDX1lRbi1nNXViN0FzU25nMGpOa1pIbzFkQk5QbE02QTlWZUxiNkk0UXd5bXY3c0tpS1lELXFyTXQ2eS16bDhBdl9VdVY2UGRzQ3diY19SRF96UEJsYk1Qb0ZHbEdwVU55eFc2TjNKUmxVNVVKS2tVRHVyYmtHSVVCdGFqV3E2MWNhT0h4RjRXdndsdEplNzNHX3lrVVlsSkdNMTQ0MHNoSy1NYWVYVlV0R29rUXB1Q25HSFdFVlNwdS1uaG9NbFItd09TU1NCLU1SWkI5d1JhUTRCdEE?oc=5",
-    "source": "IEA – International Energy Agency",
-    "fetchedAt": "2026-04-10T01:00:29.642Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=m4bhT8AES1E",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "m4bhT8AES1E",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "oil-prices-surge-amid-middle",
-    "date": "2026-04-06",
-    "title": "Oil Prices Surge Amid Middle East Supply Disruptions and War Tensions - Devdiscourse",
-    "description": "Via Devdiscourse. Auto-detected by headline monitor.",
-    "category": null,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMzBxbG1mMHVXaTNGRkU0Zl80Ql9YeEpzRWl3TDJNWVNncjBfSG1vVXRJd0hUTUhGMnNxYkplVzZjZEZ0VEVvdjFLemNHckRwbUYtamd0SE1TejZNRzNjTEdvakhOT3RVUzJWaU9pOHE4dXhrMFdqeUl1LXhqVlJqM3JfVE5oVGdkLVdNNWFDNnd1NF90NkFOb1VONDJvSmY4RFk3SFBibjNBUlpNOC03Rl93VWJaVWpMN3JyVE5fTE9QZ9IBxwFBVV95cUxORHRvYVhudTA4Tmw3M0R5alRmNnZFTXdQTmlyVFdnWnQ3MkxsT19wWVJLRVp6R3lCdjM4N1ZEVjVVRTEyd0lCTFpjclZZaWppc1RKNF9WQlU3dUFmUk9zdTA1cXlnX1hIWnZQZWdtTXplRGV6V1U3WnJJY0tLdkI2dkVsSDRuLU9WbnJyN0lpNUdmaldRdDRNRTQxQkgwTDI5TTBNNWkzMVdIb21sZ0t1dFFlTVdUc2VEWF9rbjlQcUc5UW9UQm9n?oc=5",
-    "source": "Devdiscourse",
-    "fetchedAt": "2026-04-10T01:00:31.994Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=Y0t6KownMTM",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "Y0t6KownMTM",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-war-is-the-largest",
-    "date": "2026-03-12",
-    "title": "Iran war is the largest oil supply disruption in history, report finds - Politico",
-    "description": "Via Politico. Auto-detected by headline monitor.",
-    "category": null,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTi1mWDRuVmU0c2FkYWhYRnQ0YU1ob2YxSlFFRjk4S3dkV3NPOUVqbWE4bXFNSnlTald2dmJuYng0YXdRYUVVOEVpZ3NDdTlyVnpyNDhsT0YtT1VXekRGc0Nfd2tWUWJIcDR1QVh4eXc1MUQ5SzNrOS1GZnIxXzFkcFpsZmx0enc?oc=5",
-    "source": "Politico",
-    "fetchedAt": "2026-04-10T01:00:44.566Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "middle-east-oil-shock-is",
     "date": "2026-03-12",
     "title": "Middle East oil shock is ‘largest supply disruption’ in history, IEA says - Buenos Aires Times",
@@ -4756,6 +4658,141 @@
     ],
     "videoMatch": {
       "videoId": "x17mO5DBtfo",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "irans-war-casualty-numbers-show",
+    "date": "2026-04-10",
+    "title": "Iran’s War Casualty Numbers Show Major Inconsistencies - IranWire",
+    "description": "Via IranWire. Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaTlBdlI3dHpqdmU5NzdLeDhranZLeHI1XzFTQ2N1d21jRDd0MnYtY1lqYkxfQ3hQSDNsUkpIbzM2UEZpRTIzb2x2QXBqcmdweDNhVmNEWWZBWEVQUkM1YVBFWXJUTWtCdUwxZ0pLQjdJSXVNOEcyZjREaGlLbThsZjY2ODV2M2QxdmF0d3Ryem1RT3Qw?oc=5",
+    "source": "IranWire",
+    "fetchedAt": "2026-04-10T22:00:12.143Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=HJlSqYCDgCw",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "HJlSqYCDgCw",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "how-many-people-have-been",
+    "date": "2026-04-06",
+    "title": "How many people have been killed in the Iran war? - The Japan Times",
+    "description": "Via The Japan Times. Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5MY19wRnJLbzY3Nm9mR3hIQldfelhUQ1lweXFsd3lVTWFwM3h6azMwM1ZvNzJqcmpxVmVXZ2tkWlhNWEdZUThLLWczOU5KbnpVaTJ5RWl3VmRZbGRfbEJvTHBzNjBDVFJfdUo4U3NFeWlNQ0dYeGxWSzB4UQ?oc=5",
+    "source": "The Japan Times",
+    "fetchedAt": "2026-04-10T22:00:13.797Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=a1HfiWXJDLg",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "a1HfiWXJDLg",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "does-the-video-show-a",
+    "date": "2026-03-13",
+    "title": "Does the Video Show a Recent Houthi Attack on Oil Tanker Chios Lion? - موقع مسبار",
+    "description": "Via موقع مسبار. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUks2Mm1KMVk1blhYUFhfLXJVYWZBR3RuT2V3RGRhNU5kTHlyWHpfdi1Sa0JlU21tSXdwZmJGWUJ2aERiQU9qd1JJVFNJYTRsbnZ5TjZTWllqNVU4VHotaDJvNkw4V3N1M0REd055MHZuVnZzMWZpaGFPZUxTWEJ3UzYxVC1SNlEzQy1KWkZIZnQ2a1RPNGVsVnYzdGl3Z01HU3JrdEtaY2M?oc=5",
+    "source": "موقع مسبار",
+    "fetchedAt": "2026-04-10T22:00:16.925Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=NTETc3MpL-k",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "NTETc3MpL-k",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "indian-navy-recovers-bodies-from",
+    "date": "2025-10-23",
+    "title": "Indian Navy Recovers Bodies from Burning LPG Tanker in Gulf of Aden - gCaptain",
+    "description": "Via gCaptain. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQckh3bHdCc19iVU52Y0taUG9lZ1lmU3JpdXlKcGZlMjVZWm5aSGZZUnNvRXExcHVmbk5BSnJFRkZzZUZVTzI0S01EZDhTUWp1dEdWZV95aU5MRTZRcmpMRTdPNHdTVFk3QnZYZVhTUlBjNkVTOU5iZzBUalZFYnpwRFIyREdVS2xoLW1DYlpQMA?oc=5",
+    "source": "gCaptain",
+    "fetchedAt": "2026-04-10T22:00:19.393Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=OUXsD4nKAjs",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "OUXsD4nKAjs",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israel-strikes-houthicaptured-galaxy-leader",
+    "date": "2025-07-07",
+    "title": "Israel strikes Houthi-captured Galaxy Leader ship in the Red Sea - The Jerusalem Post",
+    "description": "Via The Jerusalem Post. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5FRm1ORzgyazlFeDhDMmR5Q3NRTkpaRWNMR2F6b1Nnd1F3TU1fY0JjdVdOVWpLcXM0SUdkbUxBeUxqc29pWWQ4aFBFejVsb09feE1SMmRfRE9GcThI?oc=5",
+    "source": "The Jerusalem Post",
+    "fetchedAt": "2026-04-10T22:00:21.861Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=FZLExY2tR2Y",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "FZLExY2tR2Y",
       "title": "",
       "confidence": "auto"
     },
