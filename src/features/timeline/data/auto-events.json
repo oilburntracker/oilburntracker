@@ -6630,5 +6630,49 @@
         "label": ""
       }
     ]
+  },
+  {
+    "id": "auto-missile-attack-kills-at-least",
+    "date": "2026-03-18",
+    "title": "Missile Attack Kills at Least 3 in West Bank",
+    "category": "military_strike",
+    "description": "Via The New York Times. Auto-detected by headline monitor.",
+    "lat": 30,
+    "lng": 48,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1tVnlOakNMOWNBeHY4ZEZ2YUNJcm1fa0lwYUp2enhhMk42LVU1YTdVN1Fkc3VRUzJrQ25iTE1BWW83X3g0TzBXMkRycTdNcmUtcU55SEhOX3A0T1gyZ1liQ1hfUnNOWS1JLU1hd0RQa3g1SUpMUG43Ug?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=FKMQOArtqWQ",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "auto-oil-prices-fall-after-brent",
+    "date": "2026-03-18",
+    "title": "Oil prices fall after Brent briefly touches $119 as Netanyahu says Israel helping to open Strait of Hormuz",
+    "category": "chokepoint",
+    "description": "Via CNBC. Auto-detected by headline monitor.",
+    "lat": 32.07,
+    "lng": 34.78,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTTVGd3FCa3JteEttRVktc1RiRjVIMWo3UzBRM1hObzZ1bng4d2tRWXFNOHVwbUdrZUVEVWdzY0ppRW5UQnJWdmdXVnhFTE1ZOG8xajJCUVUtUTloZ1FVWEhwTVRhWFV3Sk9QOXU2UEpibVlob1BMQ3lCQ2J0UlVzd2xiWVVHTkRKc0c4OW9rNml0bXlWRlU1M9IBngFBVV95cUxQWEpwM3ljaDhRbXBQWF9TdkE1N21TZGphZHNmOThJOHExa3hna3Y3aC1VSHlFWVFoS2RaU2VSYVd0eTlJQnZjUlBWcUJnMFBfUXAzYlBkbmFoMHhsMWNOMC1GWklPQUIyTzQ3ZC1JVVZVbkwweEtMWnljQnQ5T3dHbUFKS3R3LVAzRUJuNGFmczl3clF6enRwTE1fYkFfZw?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=SpfTSY5ygIU",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "auto-very-difficult-to-stop-bbc",
+    "date": "2026-03-18",
+    "title": "'Very difficult to stop': BBC visits scene of Iran cluster bomb strike on Israel",
+    "category": "military_strike",
+    "description": "Via BBC. Auto-detected by headline monitor.",
+    "lat": 35.69,
+    "lng": 51.39,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9jRlJCaUlTSlRPZW53V1RmQ1lLVnA2ZWZoZTRHTFlYMnJSelJ4YXlmLWFrSkVhTk4wclY3UUJxNGw1b1Q5d0NHMHlwRENDWTY5Wm50Q1g0bjViZw?oc=5"
   }
 ]
