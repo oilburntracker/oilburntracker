@@ -4623,5 +4623,86 @@
     "zoom": null,
     "casualties": null,
     "status": "draft"
+  },
+  {
+    "id": "israeli-strikes-kill-more-than",
+    "date": "2025-06-05",
+    "title": "Israeli strikes kill more than 50 Palestinians across Gaza - Al Jazeera",
+    "description": "Via Al Jazeera. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQdTFXU3BLemhWQzc1WmlFcV9JMzk5eGI5T3VjSklZOW1hR0RacFhVR05nRFdCV1ZRNm9tbG1XUi15OWJTcVR5YkM5VHZuRDRPQ1FsQTJHbUJVRk9UR2M3aEpKS0E5QlNKckY4YTZuTnlSTGlIZ2NteXJBbGd6V0UyX0duQUFMaW01NDhac0ZWNk1oTDlWUHBzcGVGLURVVUV5NkNWaGwxUklvVkxK0gGyAUFVX3lxTE1xYVlFaGJSN1AyZ0JOOGk1a2RFV1JZRi1RU0Y1RlQ3Nk9UbktPWkJFcHJzTGYzWlh3d1NIZXRBcFM3QTk5NFQyQUFuV0hHbGtGZUdDbEVqRkJZYlplU0lLUDFENUE5NWdacXVfcjhKVG40UnpQWEhOVjJMeXFIUjdsYnBaX1VjY3VBUXpUdFY1OEdLV01DY3ZCWFFMMmlhdEVtZmh3RzF2czRkUFpONnc4S0E?oc=5",
+    "source": "Al Jazeera",
+    "fetchedAt": "2026-04-10T18:00:11.948Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=tqpk9ig_OCw",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "tqpk9ig_OCw",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "projectile-strikes-vessel-in-gulf",
+    "date": "2025-10-18",
+    "title": "Projectile strikes vessel in Gulf of Aden; British Military confirms ship ablaze - Mathrubhumi English",
+    "description": "Via Mathrubhumi English. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNE5ZM0kzMTJCWmozaHpmVElxYWJDN3RKNi1YSC1mOGdxZ1l6cVNBNzJQUmhVS3BKMnhNUTFRNUxtejJYV3dwUnZrWWxISkV3MExwQXo3T2lJeDZZY05VU2lPcUxGWUU3NW11SWZ1OGZBb0RHVGlnYkIzczR3WmF5WEhqQ09aSVBQU3JPaGc4YmJ4SWFX0gGaAUFVX3lxTE96Yl9hV29FYWQ2MS1TdE9kOTJWSGRaamdRUGRVWUZWaGczQ2hQTk80ZzVjUUltOTRTaVdaRGZ6UFhzM3FhcHltM1dvaTUtcnhOMDE1dDluN3UzUjQ0cEozMTJKd1k3RnItY0hyamZEX19HeVh1aFhEY2FXa2lyWFN5cHotc19DeWVtb3dqVFZxdWl6dkRGNFlIRkE?oc=5",
+    "source": "Mathrubhumi English",
+    "fetchedAt": "2026-04-10T18:00:13.440Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=zRgPuBJewX8",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "zRgPuBJewX8",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "lebanon-struggles-amid-israeli-airstrikes",
+    "date": "2026-04-10",
+    "title": "Lebanon Struggles Amid Israeli Airstrikes and Political Paralysis - 조선일보",
+    "description": "Via 조선일보. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNVDZwSE96cG1CS1c1WjFhSnVhcVJ2ZjlDMnEyc3BRcnZfU25oWXV5TXJYOW16dWRTQVdZa09ac3BIM29CRWZadFZ2WDBtUEhDeFpLR0JESlhtNHpFalZ4SkoxcndzdGM4Rk5Da2xWcXBVU1k0NDRpTEhBM3JSX3BucVpXdkg?oc=5",
+    "source": "조선일보",
+    "fetchedAt": "2026-04-10T18:00:15.066Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=2i2xrnRxRsA",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "2i2xrnRxRsA",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
   }
 ]
