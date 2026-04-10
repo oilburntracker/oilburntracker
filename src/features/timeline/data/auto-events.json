@@ -7007,5 +7007,22 @@
         "label": ""
       }
     ]
+  },
+  {
+    "id": "auto-us-marines-arrive-in-middle",
+    "date": "2026-03-31",
+    "title": "U.S. Marines Arrive in Middle East After Houthi Missile Attack on Israel",
+    "category": "chokepoint",
+    "description": "Via The New York Times. Auto-detected by headline monitor.",
+    "lat": 32.07,
+    "lng": 34.78,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1SUXlyejRmMjFJZWV1M1NlOUVqLWpaY0pOUkZtd3N6M2NDbm5xZGVMYUpuYXZJbFA2bzJ4d05kVUllZmtFcjEtNlU1WW5BSk0wbkViY0hOb2xoekFQSHFYUFdxZklzam9fdENkXzZRYmRjUUZTNFFJMUhZZw?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=_RBoam1tA98",
+        "label": ""
+      }
+    ]
   }
 ]
