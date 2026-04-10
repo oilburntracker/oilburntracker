@@ -6488,5 +6488,22 @@
         "label": ""
       }
     ]
+  },
+  {
+    "id": "auto-starmer-speaks-to-trump-about",
+    "date": "2026-03-15",
+    "title": "Starmer speaks to Trump about importance of reopening Strait of Hormuz",
+    "category": "chokepoint",
+    "description": "Via BBC. Auto-detected by headline monitor.",
+    "lat": 26.56,
+    "lng": 56.25,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1EMU5EeFZjbGR1OE9YRXdQVmFmVUVUNmlzcFYtckNmOEN4empraTY0UVFITmlJaVcxVWs5RDlvbG5VMWRVa3lMeHN1b00zYUliSW5hamdUTTRoUQ?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=CdY2nrDNuvw",
+        "label": ""
+      }
+    ]
   }
 ]
