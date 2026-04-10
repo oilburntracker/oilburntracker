@@ -5534,7 +5534,14 @@
     "description": "Via The Guardian. Auto-detected by headline monitor.",
     "lat": 35.69,
     "lng": 51.39,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSFFvb2J6cjdmdHV4dGlSY1JFdktaRlYzZU8wdHhhNVpBRC1lOXJtOUNJLW9IVmpWeEt4NnowNFNMZUI3eGZqQVBBZzI3alMtaVpaT1pMakctOE55a3poRmx0MWRjZjR2dEE3djRHa2RwR2NVQTk4cWdSN1Zpd1JJckxTcmMyTEhIQVRTZndCZlJhd1ozNEFrSjBnYjZwbUhUWWdPVTln?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSFFvb2J6cjdmdHV4dGlSY1JFdktaRlYzZU8wdHhhNVpBRC1lOXJtOUNJLW9IVmpWeEt4NnowNFNMZUI3eGZqQVBBZzI3alMtaVpaT1pMakctOE55a3poRmx0MWRjZjR2dEE3djRHa2RwR2NVQTk4cWdSN1Zpd1JJckxTcmMyTEhIQVRTZndCZlJhd1ozNEFrSjBnYjZwbUhUWWdPVTln?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=3JVCXChcZDs",
+        "label": "Trump blasts Iran over Strait of Hormuz access as Vance travels for Pakistan talks | CBS News"
+      }
+    ]
   },
   {
     "id": "auto-10-vessels-attacked-in-hormuz",
@@ -5736,7 +5743,14 @@
     "description": "Via Reuters. Auto-detected by headline monitor.",
     "lat": 35.69,
     "lng": 51.39,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxObUlmTHZTREdweklZWFUzeEp0dzFUbk56bWVQQ3hWY0IzWDlZN0JzUllPUmJyd3U2RVZVUHQ3SE5DcFBSZmVNYlljWEJYTVpRTlVISVFKTWoyR2Z2aEVrQ0dVU3RKc1lhay1QWG5TVlltdHB1YVFRNHFpemRxalFyRk56andqamRBVHBJVmwwZTFkcDh4c1NuNFloakZRX2xHSnlyRTgxbkVycVVTUjBWS0pyV0pmMjVW?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxObUlmTHZTREdweklZWFUzeEp0dzFUbk56bWVQQ3hWY0IzWDlZN0JzUllPUmJyd3U2RVZVUHQ3SE5DcFBSZmVNYlljWEJYTVpRTlVISVFKTWoyR2Z2aEVrQ0dVU3RKc1lhay1QWG5TVlltdHB1YVFRNHFpemRxalFyRk56andqamRBVHBJVmwwZTFkcDh4c1NuNFloakZRX2xHSnlyRTgxbkVycVVTUjBWS0pyV0pmMjVW?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=3JVCXChcZDs",
+        "label": "Trump blasts Iran over Strait of Hormuz access as Vance travels for Pakistan talks | CBS News"
+      }
+    ]
   },
   {
     "id": "auto-who-bombed-the-iranian-girls",
@@ -6322,7 +6336,14 @@
     "description": "Via Al Jazeera. Auto-detected by headline monitor.",
     "lat": 32.07,
     "lng": 34.78,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcmttbjEwRjFTN1oyNmI5YU1RT2Jod0FZOXA1Z21ybVp5U29EaUhSandCbElKdXhucnZCNURDcnpmaDg4dWx6TU1MVW9fUDk5ZElXRzZpQkk4dDZUcjBRM1h0STRvVUpuWl9mc3NXc3ZDTnpycUhpMzVoWVhQbVRkVk9mREN2bHRnSkFEanpwQlJzd20tSk1weHdjM2tkbzYwX1hQSFplQjBKdVNaZF8tNVhHWdIBuAFBVV95cUxNVFdGcU9jb2ZZbmY0S3Q4LWtQY1d0MV9xNmdwV3dHMzRHUk1Ra1pRUlgtYXVWQ010NXMwendsR19ZZUdTVUZ2WTh0Q0ptRWQ0d3M3OWRxNjE2RU85dEVFVEFOZGt4QThFZlhwMXhjdFgwOERmbDNtMHVGZ2hrX2tlQmF2NjdqT3BmZTIxR2tlSGVLUnp3WXlDYWpRdnZ0dGlucnZEVjRBdVk5RGJaaDNVM3IzZzBMRHpU?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcmttbjEwRjFTN1oyNmI5YU1RT2Jod0FZOXA1Z21ybVp5U29EaUhSandCbElKdXhucnZCNURDcnpmaDg4dWx6TU1MVW9fUDk5ZElXRzZpQkk4dDZUcjBRM1h0STRvVUpuWl9mc3NXc3ZDTnpycUhpMzVoWVhQbVRkVk9mREN2bHRnSkFEanpwQlJzd20tSk1weHdjM2tkbzYwX1hQSFplQjBKdVNaZF8tNVhHWdIBuAFBVV95cUxNVFdGcU9jb2ZZbmY0S3Q4LWtQY1d0MV9xNmdwV3dHMzRHUk1Ra1pRUlgtYXVWQ010NXMwendsR19ZZUdTVUZ2WTh0Q0ptRWQ0d3M3OWRxNjE2RU85dEVFVEFOZGt4QThFZlhwMXhjdFgwOERmbDNtMHVGZ2hrX2tlQmF2NjdqT3BmZTIxR2tlSGVLUnp3WXlDYWpRdnZ0dGlucnZEVjRBdVk5RGJaaDNVM3IzZzBMRHpU?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=KbrFsOnOuuI",
+        "label": "More than 250 killed in Lebanon as Israel launches largest attack of war against Hezbollah | The Guardian"
+      }
+    ]
   },
   {
     "id": "auto-israeli-bombardment-across-lebanon-kills",
@@ -6342,7 +6363,14 @@
     "description": "Via Reuters. Auto-detected by headline monitor.",
     "lat": 35.69,
     "lng": 51.39,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUmktX3lfTkF3S29OMkxxeTRrdDNTQTlibkRMcTBzZThYOFYwUzNuQUc0ekVpRGIwNTJ5bHJJanBmQ19aVFo0Unowdi1MRkpiMnVXZGRKYmFEaFZJeER6d1BfMV9pR1NpeU1SQktRWXpxSTJ3Y0xKM3c3dU9qTmp4WHlnQkxGTDRJRUhfOXEwOHhudC1SeXNSY005aVp4WXFYTUQyUVZoVnk?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUmktX3lfTkF3S29OMkxxeTRrdDNTQTlibkRMcTBzZThYOFYwUzNuQUc0ekVpRGIwNTJ5bHJJanBmQ19aVFo0Unowdi1MRkpiMnVXZGRKYmFEaFZJeER6d1BfMV9pR1NpeU1SQktRWXpxSTJ3Y0xKM3c3dU9qTmp4WHlnQkxGTDRJRUhfOXEwOHhudC1SeXNSY005aVp4WXFYTUQyUVZoVnk?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=snOjMzXF9Mc",
+        "label": "many people killed iran news | YouTube Search"
+      }
+    ]
   },
   {
     "id": "auto-the-deadliest-10-minutes-in",
@@ -6389,7 +6417,14 @@
     "description": "Via The New York Times. Auto-detected by headline monitor.",
     "lat": 32.07,
     "lng": 34.78,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdm1JNkFodkhEWnExTTVfbmJOUy1rUk9saC1OZE5EVDkyaGJlTkt5Y3d6N0ZyazJUSUJuVEF5T0RQamNtQzB6TGVlc3hjRmpTZXI2bTVGVXlPY25tenlReHZYWUo3Q2ZkbmVRVVhHQ3c1ZUlka0xRa1FiVnlKWFJtY2ZPYTNPNkZXd2RpMkxnZjg?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdm1JNkFodkhEWnExTTVfbmJOUy1rUk9saC1OZE5EVDkyaGJlTkt5Y3d6N0ZyazJUSUJuVEF5T0RQamNtQzB6TGVlc3hjRmpTZXI2bTVGVXlPY25tenlReHZYWUo3Q2ZkbmVRVVhHQ3c1ZUlka0xRa1FiVnlKWFJtY2ZPYTNPNkZXd2RpMkxnZjg?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=KbrFsOnOuuI",
+        "label": "More than 250 killed in Lebanon as Israel launches largest attack of war against Hezbollah | The Guardian"
+      }
+    ]
   },
   {
     "id": "auto-chinese-ships-halt-attempt-to",
@@ -6433,7 +6468,14 @@
     "description": "Via Al Jazeera. Auto-detected by headline monitor.",
     "lat": 32.07,
     "lng": 34.78,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVmtmcGxYLWV5MUFzVkJwTUV6eXBKVEktTS1CY1gtdkNqdXVOSUFKeVl3eEs0dXZ1eUZUZm1Ua3J6TEFLcEczM2dUWGJETGs3NXphaExYRXFmQVo0eWlKYi1SSWU5djBXM01mcEtyM0EteGtDNW55NXhjN3FnQWJ0RHZFYWVhLUJhUlFJVmFzLU9OX2xwVlFEeXdIVm5hbS1K0gGmAUFVX3lxTE9aSHhQY0htQ0lTNHRiaFFscS1adzY3R3BxdzFWVDRxOHJvTGFGZDVSSXl1eTVBWmZIVDNkUkhQQV9kYXRjRHNHd0p4c3ozTFBRaU13OHFhbUIwbW5kc1g4NzBDZUJQakpTRHdkVXN3N0lVcEZ5REItVkwzVlNvTFFscWU5R3dlb3hPYkdoU0k3c3djSUtNLU1XcnFlNkg2N0E3dnpWZHc?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVmtmcGxYLWV5MUFzVkJwTUV6eXBKVEktTS1CY1gtdkNqdXVOSUFKeVl3eEs0dXZ1eUZUZm1Ua3J6TEFLcEczM2dUWGJETGs3NXphaExYRXFmQVo0eWlKYi1SSWU5djBXM01mcEtyM0EteGtDNW55NXhjN3FnQWJ0RHZFYWVhLUJhUlFJVmFzLU9OX2xwVlFEeXdIVm5hbS1K0gGmAUFVX3lxTE9aSHhQY0htQ0lTNHRiaFFscS1adzY3R3BxdzFWVDRxOHJvTGFGZDVSSXl1eTVBWmZIVDNkUkhQQV9kYXRjRHNHd0p4c3ozTFBRaU13OHFhbUIwbW5kc1g4NzBDZUJQakpTRHdkVXN3N0lVcEZ5REItVkwzVlNvTFFscWU5R3dlb3hPYkdoU0k3c3djSUtNLU1XcnFlNkg2N0E3dnpWZHc?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=QEld69HB3vc",
+        "label": "several people reported killed fresh news | YouTube Search"
+      }
+    ]
   },
   {
     "id": "auto-oil-soars-above-100-after",
@@ -6443,7 +6485,14 @@
     "description": "Via CNN. Auto-detected by headline monitor.",
     "lat": 35.69,
     "lng": 51.39,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxObkxHaFRzdFNyRWVxNk1Ea0hNTjBEQUF4bjdTTExlT3poZFZHaFB3R0htcTFBalNnRGdoMjVHSk01VGdfaWpTSkF1eVJUYXIzazBmckN5WDJFN19hSVVlS0VrdHRQc0NsbzRXWHRETjV2SXFOaDBvRV9KMUNQaW02ckNtRXVoUQ?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxObkxHaFRzdFNyRWVxNk1Ea0hNTjBEQUF4bjdTTExlT3poZFZHaFB3R0htcTFBalNnRGdoMjVHSk01VGdfaWpTSkF1eVJUYXIzazBmckN5WDJFN19hSVVlS0VrdHRQc0NsbzRXWHRETjV2SXFOaDBvRV9KMUNQaW02ckNtRXVoUQ?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=3JVCXChcZDs",
+        "label": "Trump blasts Iran over Strait of Hormuz access as Vance travels for Pakistan talks | CBS News"
+      }
+    ]
   },
   {
     "id": "auto-oil-prices-close-at-highest",
@@ -6612,7 +6661,14 @@
     "description": "Via Reuters. Auto-detected by headline monitor.",
     "lat": 24.71,
     "lng": 46.68,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOUG43N0U2MXF3b3RKdnkwaTRPeDZhWm1QZjJBYUhyMHB1N0pRdFgxaXZMWGFwT2dSSHFiRHFhdFZEQm14UVc5RlRaclNSR0dHS2I3ei1IeVE1b2NRUjE5NDNqd01SQ1lyTUZZam5WbmI0NlEzNmdTWUxFaWhSdmxzQndlYk1aOTFITHdISHB4RWZQTVlnZnMwLVhTV1RWUFFvSkdlUlNaeUYxMl9qRG9TdThRWGFieDJISndiei1UTGczUkxYYTBOTW1RNA?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOUG43N0U2MXF3b3RKdnkwaTRPeDZhWm1QZjJBYUhyMHB1N0pRdFgxaXZMWGFwT2dSSHFiRHFhdFZEQm14UVc5RlRaclNSR0dHS2I3ei1IeVE1b2NRUjE5NDNqd01SQ1lyTUZZam5WbmI0NlEzNmdTWUxFaWhSdmxzQndlYk1aOTFITHdISHB4RWZQTVlnZnMwLVhTV1RWUFFvSkdlUlNaeUYxMl9qRG9TdThRWGFieDJISndiei1UTGczUkxYYTBOTW1RNA?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=yqTKKgdlCHY",
+        "label": "saudi arabia attacks output eastwest news | YouTube Search"
+      }
+    ]
   },
   {
     "id": "auto-saudi-uae-iraq-can-three",
@@ -6734,7 +6790,14 @@
     "description": "Via Bloomberg. Auto-detected by headline monitor.",
     "lat": 26.56,
     "lng": 56.25,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBDMzBmcGxlenhyYWtFMFFHY2RGWmoyTkhtODgxMExjd2VBZEgwekFYNlIzbzFwUmhJRkxpeFlJdGJ2QS1pdXhCbnotV3M0RG1jSW5KRTB1UGE3dFRrQUxVbzZOb0Vtc3ZpN1NCbkU0Y1FhWmtrY3hTVUlybmJpaDg?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBDMzBmcGxlenhyYWtFMFFHY2RGWmoyTkhtODgxMExjd2VBZEgwekFYNlIzbzFwUmhJRkxpeFlJdGJ2QS1pdXhCbnotV3M0RG1jSW5KRTB1UGE3dFRrQUxVbzZOb0Vtc3ZpN1NCbkU0Y1FhWmtrY3hTVUlybmJpaDg?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=KNPMtOK24zA",
+        "label": "strait hormuz shock heading west news | YouTube Search"
+      }
+    ]
   },
   {
     "id": "auto-oils-crisis-deepens-as-traders",
