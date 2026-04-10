@@ -6953,5 +6953,42 @@
         "label": ""
       }
     ]
+  },
+  {
+    "id": "auto-war-in-the-middle-east",
+    "date": "2026-03-21",
+    "title": "War in the Middle East: Iran nuclear facility hit as equivalent of ‘one classroom of children’ killed, wounded daily in Lebanon",
+    "category": "facility_damage",
+    "description": "Via UN News. Auto-detected by headline monitor.",
+    "lat": 35.69,
+    "lng": 51.39,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9QYTczUVR4WFhXS2I0d0RXdExuZWpsaV95cWdyOUl1NEZaTmNIc21yWkllOGRVZnE3LUVTR1JUT2VMei12X0libnQwZ2RrLXlwTHlNTFA1WQ?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=7ON0HwnJCtM",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "auto-uk-says-it-deployed-military",
+    "date": "2026-04-09",
+    "title": "UK says it deployed military to deter Russian submarines from attack on undersea cables",
+    "category": "military_strike",
+    "description": "Via Reuters. Auto-detected by headline monitor.",
+    "lat": 51.51,
+    "lng": -0.13,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOU01VOHBWaTFyVmxqSVhsOUk2NGdzb1hvOFR3WUxiWnhYSnJ4TnAtSkFhREs1V2JENnhET3hrNVB0cXdsQ09fSVFBQzBub1Q4bF81cUU3TVlhQkhJY21MNWRkSTNFZEJod1BRWnFLV0FtbTNQeHhBbUxTSDJ1Vjh6YnBrbjJScEhOalpWbTJQaHJvWjNnajZnUHE1Zw?oc=5"
+  },
+  {
+    "id": "auto-lebanon-airstrike-casualties-still-under",
+    "date": "2026-04-10",
+    "title": "Lebanon airstrike casualties ‘still under the rubble’ as ambulances, hospitals face new threats",
+    "category": "humanitarian",
+    "description": "Via UN News. Auto-detected by headline monitor.",
+    "lat": 33.89,
+    "lng": 35.5,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5haW53X3FmSW1xYnpBSmZjZ3NNVzFYVEdfTkpVaEp1ZGpDQllzOFVUMzE2bUtsOWhuOG1Rd2lDSURNcHZNRGVTUlRQRU9zYzdoTElDUHpPcw?oc=5"
   }
 ]
