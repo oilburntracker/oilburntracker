@@ -7170,5 +7170,52 @@
         "label": ""
       }
     ]
+  },
+  {
+    "id": "auto-yemens-houthi-rebels-target-oil",
+    "date": "2024-09-02",
+    "title": "Yemen's Houthi rebels target oil tanker in the Red Sea. US says rebels also hit Saudi-flagged tanker",
+    "category": "chokepoint",
+    "description": "Via AP News. Auto-detected by headline monitor.",
+    "lat": 24.71,
+    "lng": 46.68,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNGJfUnpraG5fVmFmRVk0T3B0X09IbnZjU29qVnhhNjZwMG5VRTFHdS03ZWtjdDBnVDQ0MThrTzQxbDNIaEF3emV6QkRnRmdLdzU5dW5LdTR2eGcycExsT0xUMVVCSlg3dmROQUNzMDFCMktDSFp2SDdjcnVWOF9HTE1NUGhOVGZGNE5DMGlvamd0S3QyN00zSER4dXJEREkyNVE?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=DClUg8mNFuI",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "auto-us-warship-rescues-israelilinked-tanker",
+    "date": "2023-11-26",
+    "title": "US warship rescues Israeli-linked tanker Central Park after attack in Gulf of Aden",
+    "category": "chokepoint",
+    "description": "Via The Guardian. Auto-detected by headline monitor.",
+    "lat": 32.07,
+    "lng": 34.78,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOVUIwem5qeWI5Wkx2M1RvRVVCb2trcXIxa3U5OWVvY0JiZmNHV29PblpydUNfLXh3Zkd1X0FtSE9nWXpVa1VaYWZVNFVQQ25KRFh4bm5yTTJIRFhfUlEwcmFMVDRHbHdIaEdsbVpFZnNIQ3BSbldGSTV3c0tKN1dnYVhUNXY0MVZpZk1lLXFMdUc5ZUNpaUNGQ2VNeGYyR3VmNUNV?oc=5"
+  },
+  {
+    "id": "auto-burning-oil-tanker-towed-to",
+    "date": "2024-09-17",
+    "title": "Burning oil tanker towed to safety to avert Red Sea spill",
+    "category": "chokepoint",
+    "description": "Via BBC. Auto-detected by headline monitor.",
+    "lat": 30,
+    "lng": 48,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5ycVFvSmR4MExpTy1QWFZBZXdKRzVBSDBWams2VW1FNFFUNnkwS25NODltM1lsZUJQR29aSVpxcWYxbWNCdkp2MG9BVWdsdTBqNm9OanRfaHJFUQ?oc=5"
+  },
+  {
+    "id": "auto-salvage-operation-for-oil-tanker",
+    "date": "2024-09-03",
+    "title": "Salvage operation for oil tanker in Red Sea not safe, EU mission says",
+    "category": "chokepoint",
+    "description": "Via BBC. Auto-detected by headline monitor.",
+    "lat": 30,
+    "lng": 48,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5xdlNBVzBsSkpHTWYwUkNQcVRhVUIxWV9tSTZRMEktXzlIVkhuOXI0dnZkN0Z3RXY0TGR5aGJEblRySVlDUC1HS0c4NTVDeGpKVkdLSXpZSXdzQQ?oc=5"
   }
 ]
