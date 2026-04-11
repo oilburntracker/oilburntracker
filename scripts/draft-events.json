@@ -1,93 +1,5 @@
 [
   {
-    "id": "middle-east-oil-shock-is",
-    "date": "2026-03-12",
-    "title": "Middle East oil shock is ‘largest supply disruption’ in history, IEA says - Buenos Aires Times",
-    "description": "Via Buenos Aires Times. Auto-detected by headline monitor.",
-    "category": null,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPa1d6WnZVVEJVYk5KWnpmQldlUjJuRHI0ZmJUQTFJZEJnaGdQbm1EbEZ5cF9Wck1hUGpmdWhuYl83MzR3U2ViRUFfZllQYUMzQnhfamJvb0VhdmtVbUI3bUpscEYydl94U1V6alpTay15c2tvcnlkUlZseGJVcHg3MXNZTzRKU0t6bjhTMjE3UTh1SkFwc2tydE0xTU1nLUotV0V4UHpyWE9jdlNRM2VOT3pnZmJ1S0nSAbwBQVVfeXFMUGhxcEw4bkdmWW9xTU40V1RBcXdiaUc1WllrOEg1d3d3SG9rX1p6ZzB3c0Q4RGFiU2EzbFRDeXpmTTRrcGVDbnlrYlZlNFBXMUc1dWdZbEdsOG93eTAwcEJ5TURoYmNoRXRKUzRHM0tDcWNuUldjOGQ2MXRLRFFsOFVXT1hrbnBzX2lMaXJrRXBFdUlacEw5UzU4RUthdVdpWFZSbjh2WXVKUkxURGRodXR5eDFadEllZERUSUY?oc=5",
-    "source": "Buenos Aires Times",
-    "fetchedAt": "2026-04-10T01:00:50.514Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "us-refueling-plane-crashes-in",
-    "date": "2026-03-17",
-    "title": "U.S. Refueling Plane Crashes in Iraq, Military Says - The New York Times",
-    "description": "Via The New York Times. Auto-detected by headline monitor.",
-    "category": "infrastructure",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOS0ZFNVpfQnkwMl9ZdG1rN1hodnNvVnNsYldIY0tqMHJNVFc5Rk04a0FITk0yRFJvTk1Db1FHVVhKcnl5VFloQ2F4YlhfNEJieDk0czZyMVk1cXludERoblRKQmlrYVNSLU1rSXMzWVo4VE1jaVFMYVgtajQ0WDVaUnBn?oc=5",
-    "source": "The New York Times",
-    "fetchedAt": "2026-04-10T01:00:56.376Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "energy-facilities-attacked-in-iran",
-    "date": "2026-03-19",
-    "title": "Energy Facilities Attacked in Iran and Qatar, Sending Prices Soaring - The New York Times",
-    "description": "Via The New York Times. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZ1JYUkZTSGNDZWxxUFV4Sk9BWmVWZkgxaFJMQzdkUzFTWUtod29aN1NJaHU1RERLb1pyZzN5Wlh5OGxmNzdGaTRFSVFacnJYNDRHd2YzaDg4OVZ3MVhFRnNUT0NJX3UydzVLMGRyYUh1SzJKNEowUlpSNHlFY1pIc1hrMnlodmh5NkI0UUNGUVhJaVlrM3ZIdTAtTzBsSWQxV1lJSVR4Q3pBZDJG?oc=5",
-    "source": "The New York Times",
-    "fetchedAt": "2026-04-10T02:00:11.535Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=VGH5QTZQfaQ",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "VGH5QTZQfaQ",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-targets-energy-facilities-across",
-    "date": "2026-03-19",
-    "title": "Iran targets energy facilities across Gulf after Israel struck its key gas installations - Reuters",
-    "description": "Via Reuters. Auto-detected by headline monitor.",
-    "category": null,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOOGdRQTVRbWJWTUxxd0NXNWhTNGdpWHlEVWRIQTExQmdtZkxVVnFNTUViM2JRUGw0cjIwT1hkMHZTSlIwanZQOWMwOTZ4RDdsczhMV2tlZ1ZHWXhycE1OWDdNdlNTVE00VHY2U25pX3h1UTJHSEI1WFg4LVFPakFwSlg2NENsZXZFd0ttV0FBMkxwQ1QtdEVNY2FwT3FuZi11clp0cFdvOV9ha2NSR3YzaG9iMXZaamdlVUR6WldFWG9DbVFEMUo3Y184MGtESlE?oc=5",
-    "source": "Reuters",
-    "fetchedAt": "2026-04-10T02:00:13.189Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=ZHUzCRx7uHM",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "ZHUzCRx7uHM",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "iran-bombs-israels-haifa-oil",
     "date": "2026-03-08",
     "title": "Iran bombs Israel's Haifa oil refinery, causing massive damage; It has connection with India - India.Com",
@@ -4793,6 +4705,87 @@
     ],
     "videoMatch": {
       "videoId": "FZLExY2tR2Y",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iranian-missile-attacks-damage-haifa",
+    "date": "2025-06-15",
+    "title": "Iranian missile attacks damage Haifa oil refinery and Rehovot university buildings - The Times of Israel",
+    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMTVmVTJFRXlHSFNtaFV3WTAtUUdJUEN3WWw2NlpLMnJrRVBEWjlFZWZNQXRqM0g3c3RLVnZpRHQ5MU9zTXZCUFY2MG5wdDBqWnAtTEdEblJxRjBGVG03X3I5Y1J0X25keEY0OTlwaVZSU2VJX0JTaXdwN1pwTDdzajBET3ZaVzB0cFJUa3ZBejN3NWFFMXRRbm9wOFV4ZTJpdmUxTkRqc3FrbkZzd2Y4T1BaONIBuAFBVV95cUxNM1U4cnA1LTFERFZhT1lZenVYNmFqLTVSYmFLLU1pdkpmdXFDU2pITWNZUVphRXJidTgxT2N0ZVZrWHhocEQyb3VHWmwyY01LaU94MUVBTlFLU2VEZldMVkNTdGdOWGxVMmg0em5FU216TjVvSENoZkRmSzdWUkkyWXlNZlZ1WWdHTmJHTXp5QTY3bENpNDVMd0Ryb096MDA2TU4wcENTbERZaHo1amdfdVJKaVlJUGU3?oc=5",
+    "source": "The Times of Israel",
+    "fetchedAt": "2026-04-10T23:00:11.745Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=jvt_2H5omdw",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "jvt_2H5omdw",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "analysis-iran-likely-transferred-highly",
+    "date": "2026-03-29",
+    "title": "Analysis: Iran likely transferred highly enriched uranium to Isfahan before the June strikes - Bulletin of the Atomic Scientists",
+    "description": "Via Bulletin of the Atomic Scientists. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNSnRJOVd1RzlLaEJydzV1a0dpSHdxTndENzlIUGJ5bU15cF9SWEpiQ2s5N2NuQlhEU2xzVDVzV2JFamRwclFldjhWa2ExeFUzZmhDTWctQ0hYcjhLaG93M0RvbmFCZjdDVFZDRkpmd2p4bjJFVUN5WUxnUVdQNHphUHdhNC1lQTQ0dWpIM1NiNEZmT1ZsdE5HckR6ZGhZaDZVc05YVHNtT1hWUEc4N01hcHdxdktHV1RmSGVTNlNGRVFXQQ?oc=5",
+    "source": "Bulletin of the Atomic Scientists",
+    "fetchedAt": "2026-04-11T00:00:11.995Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=ADrGsKbKdG0",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "ADrGsKbKdG0",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "lebanon-civilian-deaths-surge-in",
+    "date": "2026-04-10",
+    "title": "Lebanon Civilian Deaths Surge in Israeli Airstrikes - 조선일보",
+    "description": "Via 조선일보. Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNVDZwSE96cG1CS1c1WjFhSnVhcVJ2ZjlDMnEyc3BRcnZfU25oWXV5TXJYOW16dWRTQVdZa09ac3BIM29CRWZadFZ2WDBtUEhDeFpLR0JESlhtNHpFalZ4SkoxcndzdGM4Rk5Da2xWcXBVU1k0NDRpTEhBM3JSX3BucVpXdkg?oc=5",
+    "source": "조선일보",
+    "fetchedAt": "2026-04-11T00:00:17.212Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=reHsM7sBN5c",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "reHsM7sBN5c",
       "title": "",
       "confidence": "auto"
     },
