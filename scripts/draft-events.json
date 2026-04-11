@@ -1,32 +1,5 @@
 [
   {
-    "id": "projectile-strike-near-iran-nuclear",
-    "date": "2026-03-18",
-    "title": "Projectile strike near Iran nuclear plant heightens fears - MSN",
-    "description": "Via MSN. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNUzNjZHdxb25wUFFRTkwzLVpSVjlfcWlCY0M5b2hoX3dGTkpFcUlUZUR5blV0RWpaaWdoZFhUeUxtc3dUQkI2Yk01SXljdGNjdXhhRkVJRk9Lbko3c1Q2TWd6elB2YzVmanRvSlh5UERCNTdCaHNWWGFaSk9lbWRMaVRNR0wyLWRsY0pFSVdWa0tYaFV4SVdrY1Z3bGtBUEItaHgwVFlxZ0c3UVJXN1RYWU45SlBxOWtYcWRBeVNEUU0wQVFmdjlrVmQySWl1RUp3RFkyS3BwSDBXSWhlV3d6dQ?oc=5",
-    "source": "MSN",
-    "fetchedAt": "2026-04-10T10:00:17.343Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=lpDbLxwzsp8",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "lpDbLxwzsp8",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "iaea-calls-for-military-restraint",
     "date": "2026-03-21",
     "title": "IAEA calls for ‘military restraint’ after Iran reports attack on Natanz nuclear site - Al Arabiya English",
@@ -4968,6 +4941,141 @@
     "fetchedAt": "2026-04-11T13:01:21.740Z",
     "mediaUrls": [],
     "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "oil-and-gas-prices-surge",
+    "date": "2026-03-18",
+    "title": "Oil and Gas Prices Surge as Iran Attacks Major LNG Plant - Bloomberg.com",
+    "description": "Via Bloomberg.com. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQQnBlc1U4a3IwUjhlekp3Mk9VZDlHOUxJQV85TkdydnludGpyTjNJZXpIbXNRU0dQQWZLLXM1WnY4allndmFreDRTU2hBRjdUU3V0dE9PYXM0enVmX3pMV19pRHVCR1I2WUVaQ01PbHFsLUh3ZkZ1OE05QnBTTmZZVllvRk11SGdHalpkbFB3anA3NlZqaWJUVXhsQUtwTEZodkNid2ZvV3hwYnJ6cEdON0xn?oc=5",
+    "source": "Bloomberg.com",
+    "fetchedAt": "2026-04-11T14:00:12.535Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=-97VxMCKAWw",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "-97VxMCKAWw",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israel-expands-attack-to-include",
+    "date": "2025-06-14",
+    "title": "Israel Expands Attack to Include Iran’s Oil and Gas Industry - The New York Times",
+    "description": "Via The New York Times. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPYVNCS1cwcnBfQzF3S3lFT21tM3FjdGRlM3lxYVZwbVUwR0dLdWlJbGh6SjBOYTZOWFFDWnUyV3JmaVNGczNCYWNtYkMxYkVBRnBUbHViYWw1aUtWSzd2UG9WcnpxOEJMb1pQeUlzMzAzQlFOWmdONmY5LVRNNEJ6Z1JiVzR0TUpBTk5ITmV3?oc=5",
+    "source": "The New York Times",
+    "fetchedAt": "2026-04-11T14:00:14.150Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=ZxNL1UdiB04",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "ZxNL1UdiB04",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israeli-airstrikes-kill-dozens-in",
+    "date": "2025-05-14",
+    "title": "Israeli Airstrikes Kill Dozens in Northern Gaza Overnight, Health Officials Say - The New York Times",
+    "description": "Via The New York Times. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOaXk0T0x0TF9mRnVCZDVMTlhlUVpGd2V4ZmJjN0lVWU80VEh2bEd6STBiVVA1TU9RQWUyaWFLb2J2MWdzdHlaS0E1ZGd3RkZmOWQyNC1jdUlHaWV1SDFoNDVjMXNyY0dJNEpILTdjRUNkUEw0ejR4ZXV6Z0R2dS1kWndMRQ?oc=5",
+    "source": "The New York Times",
+    "fetchedAt": "2026-04-11T14:00:19.456Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=QhQMEGZGlgY",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "QhQMEGZGlgY",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "analysis-of-footage-from-nasser",
+    "date": "2025-09-06",
+    "title": "Analysis of footage from Nasser Hospital strike calls Israel’s account into question - The Times of Israel",
+    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQaTE0NDlxMWhSTFJnUWtVRHRHcFRnekF2QV9QU2oxZHRYNmZyZWJaNldsWk5Pd3JrZTVkUkI0QjRkVVVGM1lGeERDXzBVMzZNQ2x0eEdHTklaUUwyd0hjdFZuMnROZ21WYXJYZGY4YnREdzBiYUpBQW14QUtKdHJsUllUc0RfM29ub194R0RBVENRbmd6ZElEci0wcnBReFkwd3lWQ2hpSW9DbGdqLUhzX2E3YTXSAboBQVVfeXFMUHZYSkR2WS1pTGNxVzFOOHU1MUp2eDA2NVdqaGdoSkFYMWZrT09tRldXamdSMUJVSFN3QWxPb3JkU1hCdWVBSTl6REtfMVBTZzdhWWtKWkhYbGp5cDBKX2tnQUNvN2lGbTRGdnIxMnlJSVA1UXdtSGdwS0Z4LVJHeFNNZGU0bjdHVG1kMlFXSFRRdklYYkhoNDNZVUFwMTlLSDJ1RHhhUklIUWcyNkhXZ1VwVTRpcDJQVXhB?oc=5",
+    "source": "The Times of Israel",
+    "fetchedAt": "2026-04-11T14:00:21.743Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=5vA3l3UZmbI",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "5vA3l3UZmbI",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "1-dead-in-strike-near",
+    "date": "2026-04-04",
+    "title": "1 dead in strike near Iran’s Bushehr nuclear plant: IAEA - South China Morning Post",
+    "description": "Via South China Morning Post. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZDJZY3RVcVIyZ0xsWjhudUpBNmlGdzgwZW9NaG96eUFoUXNadFFJTjNBTEpCWlNMVXZyRXNDbkcwZXQxR25pVThSc1JmWWZpeC1ocU5XQUN1YWgwVGhHeHVYTmI3am5VQzRNYXVsc1Fad2d1MXFaNngtTzJVOFEyZ3JJQnVPb1JkRHRPa1ViTEJ1dXQ3VVFKM3AzTE5YSVNWZkV5ZXZ1aXhMYUo5ZUVEUFF0MW94NW1t0gG4AUFVX3lxTE1teEZiT3pxS2JaOWtGdUhVbjU0ZS1Za0dVV01aci16cmRETVpFNllMc1J0bjNEM05samVSdGhqU1VJRnBEZDY1QjZibnJFU2VaS2hTT0VtSGVBTHZKMkRydW1IMUZIdE9PMTIzQ2tVTld1bk9ublNaamhCWTJJeXVsTTZnUTlFMlc3VkZmdE5Gb1FnV0x6NEZ6LXZWSWpXdC00Y050eFhabDlZTmtoNVF2Z1hHQWYybDg?oc=5",
+    "source": "South China Morning Post",
+    "fetchedAt": "2026-04-11T15:00:12.051Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=7oPQ4cTy1us",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "7oPQ4cTy1us",
+      "title": "",
+      "confidence": "auto"
+    },
     "lat": null,
     "lng": null,
     "zoom": null,
