@@ -1,188 +1,5 @@
 [
   {
-    "id": "iaea-no-radiation-spike-after",
-    "date": "2026-03-19",
-    "title": "IAEA: No radiation spike after Iran nuclear site strikes - JNS.org",
-    "description": "Via JNS.org. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdjJDRHBGTEt4eUZZNF9TeVZfSFlIVUlwdnpGUzJ0WEtXbi1PdkQ1MDJQTFV4bHY0R0dOZG5Hc09zYnRxVVotWjFvd2c3SHBueGlqUHU2bzVqNzRES3pJY1J4SGQybHBKUDgwbHdOeWlFb1RkRTdWaERGbzJlX3BjLXNrUFVhbmFoQ0VPR0Jtdm4?oc=5",
-    "source": "JNS.org",
-    "fetchedAt": "2026-04-10T07:00:21.428Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=Y3PIzTd8GGA",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "Y3PIzTd8GGA",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iaea-chief-attacks-on-nuclear",
-    "date": "2026-03-28",
-    "title": "IAEA Chief: Attacks on nuclear facilities “unacceptable” - سانا",
-    "description": "Via سانا. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE90YUI0bXdoNEpIajcxWFJFbTRtRWNPUlp2a3BOcXdsakpOYk80S1d6RUZQaU9YZGhGODRvMUwxVUxZX0dya2o2b2wwRVA4M29ZOG9J?oc=5",
-    "source": "سانا",
-    "fetchedAt": "2026-04-10T07:00:23.735Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=RpzfSDc8DMs",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "RpzfSDc8DMs",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "yemens-houthis-say-they-attacked",
-    "date": "2025-09-02",
-    "title": "Yemen's Houthis say they attacked ship in northern Red Sea - Reuters",
-    "description": "Via Reuters. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNS3QwendMVGVmcF9BTTFaa1dPc3hGSF9WWUlzUjZ3N18wYlcxWlljZUNjWlQxaXpzMERTeThHZTRIaW92SU9TdTR2THRkOElqZk1lNHVCZUZaemRiMXNWRUhXS29jdTJYel92R1dZLTd4Rm1tSkJoZGk4T3FyNks5U2lXUmxkYmsxanNiS2dVY2l0cVNsLTNOclVBR3B3Z01saGRqRlBGNlFkN2Fl?oc=5",
-    "source": "Reuters",
-    "fetchedAt": "2026-04-10T07:00:26.073Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=UztPrVTRp6o",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "UztPrVTRp6o",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "tankers-creeping-back-into-red",
-    "date": "2025-10-03",
-    "title": "Tankers creeping back into Red Sea as they shrug off Houthi menace - Tradewinds News",
-    "description": "Via Tradewinds News. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQaTBzWXhFTGF3OG1wNlFKTWpEb09sdXJIbmoydVA5ZF8ySkJtOWZhRW9ObnRDUUdtWHR2cXkxM05mRjRhdXZZalMydF9CUjFnTi1vUExmWjBkNE5mWmdNTG9PZ1RDNDlBY09iNFhMRXRyeUNXQThDM1lTNjBrQ3JJcm9wT3pCdkxNVGZoYmNkcS1QSGktb0NaRk91dEJlTnVwcklsc1FILURnWVdpdlVjOVI0Nm1JNFhD?oc=5",
-    "source": "Tradewinds News",
-    "fetchedAt": "2026-04-10T07:00:33.104Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "red-sea-marine-traffic-up",
-    "date": "2025-06-05",
-    "title": "Red Sea marine traffic up 60 per cent amid Houthi target shift - Baird Maritime",
-    "description": "Via Baird Maritime. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVTUwMnQ5YmRoMU44U2M1ekswS3FyUEdNVWk5c2hUUEg2WDY5emQtemdTcWVyZ2hQYTh0Q1NxZGRkemZDaGxLYU9JNFlFMnlhbWI3NlNtSF9xMmtDdFI0VmlreGZqRW5xcG5DRm11X1N3U0FpeUNfRDIxeGZQTzhTR3VkV3JiZzAxYWpBSmU3ZXZiRDV1V0ZGb0d1ZFBMY2w5RDBn0gGwAUFVX3lxTE1xanhrLXg5ZW9pLVJEaG9aUE9aV0o1emJrbnJ0b3NiRERkWlpoWUlINS14b2xCdHNXVm5lN2J3azVyRy1Qb0hsOG1rWTdZeFdhZC1iQ2JqS01SWkxKTW5KTC15ZXIyelpqTHEyRWV3LWZQYTNIdzYxM0EyeUpIdXdhaTVWbXF6RFNDZkwydklOZEpMdmRmVkhFSF9pSXlUUUMwRGYtazVEU0dscVpUX3FH?oc=5",
-    "source": "Baird Maritime",
-    "fetchedAt": "2026-04-10T07:00:39.632Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "yemens-houthis-attack-another-red",
-    "date": "2025-09-02",
-    "title": "Yemen's Houthis attack another Red Sea ship after Israel kills PM - ایران اینترنشنال",
-    "description": "Via ایران اینترنشنال. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA4M1dsRFlxQ1U0N0ZuMWNpbDc4RWZKak5WZXBha29LOEZtVUo3WHhTdi1YbmdOXzNJeGZpX1FGR3REejhGazBZRzNDRXFXS0gtRnc?oc=5",
-    "source": "ایران اینترنشنال",
-    "fetchedAt": "2026-04-10T07:00:46.591Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "saudi-oil-output-hit-by",
-    "date": "2026-04-10",
-    "title": "Saudi oil output hit by attacks, pipeline damage tightens global supply - Gulf News",
-    "description": "Via Gulf News. Auto-detected by headline monitor.",
-    "category": "infrastructure",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWExLa3FZVDc4WTNhQzROcXltdk9aaU5jUjZUV3BHVE5lZm9xWGJMTnZGNjlmenpKXzhIajZJOThoenc2R0F5R1pkVlVrRUE0bFJydlNuTENoLWh3b3ZpbTI5VERmMldfWGpLZzRnVXBjcEFodDVJTUdSZEM0dXlRQ3hNYWNzRXVVTVF5UDVsWWdlM2h4VkxZUXY1dTI5TTk0NDFLUzNlNWhBb3kxbzJDYzlkMzJsX3lXbm040gHOAUFVX3lxTFBoX1htd0lndU11VndVZU5tZWRzTWc3eDZNY2wtYkgzbVRfUE1kTkFYR3c3NG93YmVPN0xqS1FPQmI4aHZCZ3NVOHIwbGtwb1Z3ZHFLWlR1amNOWVdqSnNpRGNMN0g3cG4zTDhZay1peVhua1BkMG1kZ1RxM05pRHVxaWZoT2FzQTROVmVGRDhueGdmMmZmTVZtLVVFcUV0RU1KbjMwWUt1WEdQeHhGOE1FVmk3WTVfVjFaVE9kNUtabEdLVEJQa2l2WEtVS01n?oc=5",
-    "source": "Gulf News",
-    "fetchedAt": "2026-04-10T07:00:53.421Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "2006-lebanon-war-summary-casualties",
-    "date": "2026-03-02",
-    "title": "2006 Lebanon War | Summary, Casualties, Hezbollah, & Israel - Britannica",
-    "description": "Via Britannica. Auto-detected by headline monitor.",
-    "category": "humanitarian",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0xUjA1OFctNmF0MDU5cTJGX3RwNWZrTmpLU0h1ZGxwUEc4SFpZcUtENENsWHZKQ0lqVFpGbnd5TmZuN1NMdGpnLTBOdEM0RmVoWm9nVVJobUFRNGNXREE?oc=5",
-    "source": "Britannica",
-    "fetchedAt": "2026-04-10T07:01:00.170Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "lebanese-health-ministry-says-death",
-    "date": "2026-03-08",
-    "title": "Lebanese Health Ministry Says Death Toll from Israeli Strikes up to 394 - Asharq Al-Awsat | Explore World News Today",
-    "description": "Via Asharq Al-Awsat | Explore World News Today. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRXhOUkNOWnZJRHJ4MjZfSDF5QmtXLUNQVVJ3SkhvcHpxR2JscmV2aENsME1jUzVtR29QckItek9kV3J0WFI4X2tGbmVMSThBelZWVDhyZDFYNjZvU1FjVl8yRmxDVXp3TDdkVTBlRFZLWk5WcDV3VVQ2MW1PYlp4NXROTnNTTHF4WjRDQ1FWLS1BaUM2cURTTXh1RHRIeVBrNHM2MVVDcW13UQ?oc=5",
-    "source": "Asharq Al-Awsat | Explore World News Today",
-    "fetchedAt": "2026-04-10T07:01:06.463Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "deadly-israeli-strikes-in-lebanon",
     "date": "2026-02-21",
     "title": "Deadly Israeli strikes in Lebanon leave dozens of civilian casualties - thecradle.co",
@@ -4940,6 +4757,219 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeHVpR21ZNW1XM1gzR1BuVjhBSGpVbHJwNHJCSjREelRYQTJ1WTdTYlVkWWpBc0NJb2NiRlY5SDdaWEZHXzloSTByazBvR1VVNWZCN25FRjZqdVJWR09UTlBGUTZIeXR0enYwWmg3MG1XWW1PVTA2UlVBN2s2TnQ5UlFWaWFzdVdoZ0NxRkl3WGgyZVBvV2JXQTZxb21JUWN1RFNyNGFET0dlQQ?oc=5",
     "source": "Kurdistan24",
     "fetchedAt": "2026-04-11T09:00:31.864Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "un-nuclear-watchdog-says-iranian",
+    "date": "2026-03-30",
+    "title": "UN Nuclear Watchdog Says Iranian Heavy Water Plant Damaged After Israeli Strike - Kurdistan24",
+    "description": "Via Kurdistan24. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNY0FXdGszTGozcUpEaWxGNTBuSlRRVzF4ZzRURThLeWdPZlNOM2JJSElEY3NkblphLTBiMlY1SFpJbUF0bXF6NDBPOHp4UmdCUzJ5VnFfVlBRTGRnTE1UYlVDVVgySVQ4TEFwamFnQVEzS0h6SndJMTRaeTRralFlcmRqTHNnOWhJUFpwZDNwYXRfY0xoZmZoc1JlUVdhck1PcjNyYUgyX0pxVmFLRjlpZUg2bUVocFBDSFkxa3ZFQm8?oc=5",
+    "source": "Kurdistan24",
+    "fetchedAt": "2026-04-11T10:00:13.642Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=eFGHWO08aaM",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "eFGHWO08aaM",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "russia-says-attacks-on-irans",
+    "date": "2026-03-21",
+    "title": "Russia says attacks on Iran’s uranium enrichment facilities violate international law - Middle East Monitor",
+    "description": "Via Middle East Monitor. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSy1VMEkzRWN6TWhmTEtvYm1iYUlxRV9yYXJRVUU4WkZ4TUd0cGVSeW5UUWNoVkllWU5sSkVnTDhuWjJJM21jRVZWVDdmTzJ5UnYzZHJ6aWpDNXp1YjhlS2FWMktZT0hyUjllTWwwaTNpXzY2RG9OQkZKTjU5YS0xcTBYTW4xYUJwckJfYUMzbU9oZ1RYZllWbXJnMEZCblpGYlF1MWxrZlB4R0RnZ0FfZ2FGOTVWMUhMTHYzRkV3M0RKcGpvQUlV0gHMAUFVX3lxTFA5MnpNQjJXWEdOOTU2d3hCMUMxZWg1Z2lxVTJNR2xaQjBkbEdqMkg5Z1NSUnAxR1FzSmIzbGg5TkRvWmJvSGJBd3Q1NE1wVHNacUREYUx5QU5mUWpfS1N4V3J2ajdxR0pCWk8wMzVoOEhHYzU2bklwUUtzNHI0TW45eGNWVTZTUUhVR0R1ZG9vUXJpaEJyeW9xUjZwcWd0OUt1cldOVzFEaFBNU01zSlc4X0V2U2x2b1dlUmQtYThtWENTdE41SUJmdWRkSg?oc=5",
+    "source": "Middle East Monitor",
+    "fetchedAt": "2026-04-11T10:00:15.229Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=tFkKuU4GdTw",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "tFkKuU4GdTw",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "satellite-imagery-shows-apparent-attack",
+    "date": "2026-03-02",
+    "title": "Satellite Imagery Shows Apparent Attack on Iranian Nuclear Site, Report Says - U.S. News & World Report",
+    "description": "Via U.S. News & World Report. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbjRoOURpX0VVS3F4TXFGNkJ5eGQzWWlIaHB4SnVNQW1sZmlmSldaa2dkLVhUbC1DTHRBRDhDcTVGUEJvNS1kczAyNmxUTFVtVGNuY1pNdVltMm8yVGp6QnJLdnhfOGc5WDgtNVQyeWVwRkZKcDdsa0xuN3VoQ0J1bndnTHlXd0NXWUFKM0d4NjY4SlZ1ZkFnS013SG9OVnNsdVd4dVQ0enBNQ1EwcVAxcFVNbWVoTDlSbWg5RFFQZFRHaWM?oc=5",
+    "source": "U.S. News & World Report",
+    "fetchedAt": "2026-04-11T10:00:16.834Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=CQAiV4iNos8",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "CQAiV4iNos8",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iranisrael-war-how-many-people",
+    "date": "2026-03-27",
+    "title": "Iran-Israel war: How many people have been killed in the West Asia conflict? - The Economic Times",
+    "description": "Via The Economic Times. Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQU3BCVjBOeDJZS1hsRzdJZzEyZ2FIR2xUcXlsRnpENHpJdFJoTEZtSmZtOFJ4dUhjWGFyZFVZaTNMcVFtVFJHcnh0d0hqTHJZSGhkczVyZlVPd0ZSMGY3ck1DLTRhTmZLLXdEeUw3QWNRbW9IRXZCMkNMNzB4eTFXQkZoclNLVTJxNWdXM21HM1RIaEdiYTg1ZFh5c3FnamQzdVNiaGpkVGU4NjVmY3VRdjZXNWJhaGxQTGxRTFpBYzBKVU43TFVOam55aXFmOW50SjZkc0ZLZFVldTd2TTR6ejlwONIB6AFBVV95cUxQXzl3ZmtKTGFSY1NYSzc3UkdNa3hjSUtaXy1EN2RXMVUtRnNfWnNsX0FUbTN4TDFKOG1NcUtITWgyTTFrMkluU3hTXzZORHRmaG1wS1NOLXEtLXljT2FPbzFWMmZONExOVnZ1ckt4M01QNlAzeFF3NFRydTE0eXFPM0lDcnFvSjZMOHdjaFl4Nkg0NDhDS3I1ZF85WWhWT1hyZEtpUWpIY3NVZE1aUGdhdnMwU3dLQzRBNW11QzF5MS1xYkN0VWpfUl9HMVAyajRURDR0aWFBRXFTSHpabWZzZDQxYWV1dGJ4?oc=5",
+    "source": "The Economic Times",
+    "fetchedAt": "2026-04-11T10:00:21.430Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=gYzE6VWupAU",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "gYzE6VWupAU",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "whos-the-real-outlaw-at",
+    "date": "2025-12-23",
+    "title": "Who’s the Real Outlaw at Sea? Trump’s Tanker Grab vs. the Houthis’ Anti-Genocide Blockade - CODEPINK - Women for Peace",
+    "description": "Via CODEPINK - Women for Peace. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5tWnFxQndHZkxLVmg1cXVKQ2NyaWJpNDB2QnlRZHg2ZkhFWWt6WnRCRUdWUFh2VHA3M1VqY0NGMndGZmc3cmFGRjU1V096ZGs?oc=5",
+    "source": "CODEPINK - Women for Peace",
+    "fetchedAt": "2026-04-11T10:00:23.754Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=l0bz52VUxmY",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "l0bz52VUxmY",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "greek-ship-sinks-in-red",
+    "date": "2025-07-09",
+    "title": "Greek ship sinks in Red Sea after attacks, Houthis claim to 'rescue' seafarers - S&P Global",
+    "description": "Via S&P Global. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPRzF2aVBIYnVqYl84RndFM1VUUmNvZlVlYXJpVEF1WnFXUUd1cjNnYTBVMjBUM1JlMmY4THZwdklxWkFZdHp6c2FsWWJLd0ZpeHljWlVLemVDbzZfVG9WSFhZblpJRlJodkh1Q2plYV9tX29DazluSjhGZUEwbHIwc0JZQ0ZDYVBIYnNZNV9RNTF6aGp1b3lIM0tFWi1TWnA3QThYc21FdHdXeFp3UlFFVDRGVVVyRGxldncyWTlrMTVqZHlwODN3NkpvWVdNcHRSZlc5enpyNWwyM01tTm5WUjhyTkR1cWs?oc=5",
+    "source": "S&P Global",
+    "fetchedAt": "2026-04-11T10:00:26.167Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=L_93FIlDkqk",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "L_93FIlDkqk",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "netherlands-calls-on-eu-to",
+    "date": "2025-10-01",
+    "title": "Netherlands Calls on EU to Sanction Yemen’s Houthis After Ship Attack - gCaptain",
+    "description": "Via gCaptain. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUXRIVVFGamJmUVltWThpUjdieUlFWUVWT2h3dnFNbUZBLUo0ZTZDektEb1dCaFYtYWRrSmRkQ1FzdjNKZUlFNHpCaVBVdmxhbGZTYnVXcnVPbHdyLUFyQU5KSUk4cWFOSzNqUU1WRXlWX0tqUzdta3BCWlNDMk1CLThyeHl4dFgxT0UwdE5KeEVGLWw5?oc=5",
+    "source": "gCaptain",
+    "fetchedAt": "2026-04-11T10:00:32.640Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "houthi-attack-damages-shadow-fleet",
+    "date": "2024-05-18",
+    "title": "Houthi Attack Damages Shadow Fleet Tanker Carrying Russian Oil - The Maritime Executive",
+    "description": "Via The Maritime Executive. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPemlhc0h0a3NHWWVsODRQY2l3dFNlN013N0l4RHJiU1JsSENHT1M0eGNVUmZIZzl5Y05IN1ZVQjNoWjNiVi1lbWlfX2lQemtNNXVCRF9zMVVnSDFOUXR5R0hrZzZlMlJaRDNXeFc5VVotQ3lDaEZscmtTSS1iVmY3emw3eFZSY2hoWC1MU050VFVqNG9xT1AwNk5CVDZOUVVReWFn?oc=5",
+    "source": "The Maritime Executive",
+    "fetchedAt": "2026-04-11T10:00:38.253Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israeli-operations-in-lebanon-against",
+    "date": "2026-03-02",
+    "title": "Israeli operations in Lebanon against Hezbollah: February 23–March 1, 2026 - Foundation for Defense of Democracies",
+    "description": "Via Foundation for Defense of Democracies. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNam9JeEhEOG5zMUlnZVcwZHJ0QWFIR19UREJfNDBhczFTa0VrWmczckVzTmpDNlR4X245WV85RXg0UEVCRndTMWtPQlo0ckZFSzNmTkdLVzBSWjhudDJDOHZCWjkyS19FQjJnTkZkckNKbEMxUGswUUg2QkdSNWRaVTZhZzlYeEVNMlRfQVBPZFlfYl9xcHVTVnppNXdETS1wRnd1c3BWRldkNVBKRVJ6YktBZw?oc=5",
+    "source": "Foundation for Defense of Democracies",
+    "fetchedAt": "2026-04-11T10:00:44.560Z",
     "mediaUrls": [],
     "videoMatch": null,
     "lat": null,
