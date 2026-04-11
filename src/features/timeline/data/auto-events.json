@@ -277,7 +277,14 @@
     "description": "Via Al Jazeera. Auto-detected by headline monitor.",
     "lat": 32.07,
     "lng": 34.78,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNWdVWkZzU3l0bE9qZ1d1ejZBQU5QX3VfWWp4VVFSeGYyS2lWbXZIWHdnWXh3cmYtcFZObVNWaVFDc0M1OTFYYWdGOTRTeTRrM282WTl5S0Z2SllxSWFwSndXVnVoSWQxWEU3MkJYTTNCS1FTSG1EWGF5NXl3OVZsT1YtYWdibGE1Mk9LeGlXdmxBdTBETHUyWHpOVVdlbDdTaFRGRG1tSXNCSU5Fc1Q2LTRsOHhNZ9IBuwFBVV95cUxOc0lvejZlOExzZGxTMUlZQ0M3Z0Zrd3VvektnclAtNHpjNWd0V2VLZU5fQ053ZmtTSjVxcjJzb3kwMy11WUNNLWFsU2prNFBVSHNUSVh3X0ZwTG1ZUklFcnZoc2IxNWU3bkZtMHJnM1VoRGQza25FaTJ2MDRYZE11el9tc2trdjE5TGFhZVhHVm5vTWpzeWN2SnVLQ2N0RUFiTnNhVXhiNDJtbDB0OERqb3Vac1RzV2gtal9N?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNWdVWkZzU3l0bE9qZ1d1ejZBQU5QX3VfWWp4VVFSeGYyS2lWbXZIWHdnWXh3cmYtcFZObVNWaVFDc0M1OTFYYWdGOTRTeTRrM282WTl5S0Z2SllxSWFwSndXVnVoSWQxWEU3MkJYTTNCS1FTSG1EWGF5NXl3OVZsT1YtYWdibGE1Mk9LeGlXdmxBdTBETHUyWHpOVVdlbDdTaFRGRG1tSXNCSU5Fc1Q2LTRsOHhNZ9IBuwFBVV95cUxOc0lvejZlOExzZGxTMUlZQ0M3Z0Zrd3VvektnclAtNHpjNWd0V2VLZU5fQ053ZmtTSjVxcjJzb3kwMy11WUNNLWFsU2prNFBVSHNUSVh3X0ZwTG1ZUklFcnZoc2IxNWU3bkZtMHJnM1VoRGQza25FaTJ2MDRYZE11el9tc2trdjE5TGFhZVhHVm5vTWpzeWN2SnVLQ2N0RUFiTnNhVXhiNDJtbDB0OERqb3Vac1RzV2gtal9N?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=9ewTG6K-SLg",
+        "label": "Funeral held for Palestinians killed in Israeli strike on Gaza | Reuters"
+      }
+    ]
   },
   {
     "id": "auto-how-iran-defied-trump-threats",
@@ -338,7 +345,14 @@
     "description": "Via Reuters. Auto-detected by headline monitor.",
     "lat": 31.42,
     "lng": 34.35,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1qXy00dGdFdzFtRUhhQ0VhWVZWQW10NHQyRllQaFU0UzRlQWFTTWtsbjVxTF83UVBmNEhLUzREbmtodjY4M01sSkdIWWc5REJUancwVTVzS2t5RnZDNGdFUFlSdmRubmM?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1qXy00dGdFdzFtRUhhQ0VhWVZWQW10NHQyRllQaFU0UzRlQWFTTWtsbjVxTF83UVBmNEhLUzREbmtodjY4M01sSkdIWWc5REJUancwVTVzS2t5RnZDNGdFUFlSdmRubmM?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=9ewTG6K-SLg",
+        "label": "Funeral held for Palestinians killed in Israeli strike on Gaza | Reuters"
+      }
+    ]
   },
   {
     "id": "auto-a-look-at-the-escalating",
@@ -4763,7 +4777,14 @@
     "description": "Via France 24. Auto-detected by headline monitor.",
     "lat": 26.56,
     "lng": 56.25,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQRzFJR1JWX2FzY3VYX25fb2JIYWM3V0JlU2d3THJxZm13aGc3V1lDa1V6QkhJeU92bzBidUtjSkhyRGxyeXRGQXppQzN0cFE2d0o2Z1J0eXp3LTRBY20waDhDMkppMU9XN21NbWRzbUhiS2FDVFBpbUhBWlotLTFnTnVVRmlnaVREZXBQUUgyVnYyYW9yOGc?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQRzFJR1JWX2FzY3VYX25fb2JIYWM3V0JlU2d3THJxZm13aGc3V1lDa1V6QkhJeU92bzBidUtjSkhyRGxyeXRGQXppQzN0cFE2d0o2Z1J0eXp3LTRBY20waDhDMkppMU9XN21NbWRzbUhiS2FDVFBpbUhBWlotLTFnTnVVRmlnaVREZXBQUUgyVnYyYW9yOGc?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=il5u6vKZ9Z4",
+        "label": "Iran keeps Strait of Hormuz closed despite ceasefire, ships stranded | Al Jazeera English"
+      }
+    ]
   },
   {
     "id": "auto-iran-accuses-un-nuclear-watchdog",
@@ -5017,7 +5038,14 @@
     "description": "Via Al Jazeera. Auto-detected by headline monitor.",
     "lat": 32.07,
     "lng": 34.78,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNaTl1clM1TDFGM210TWRKSlpMQWtvZHl0T05yTExKUXRTWnAtRnplbVFfMTlIamVQUkllZHNxRnhkWkZEQ19kb3RuS0xQbGNEQTBwV3FBNHFfdEU4U05Tem9iZ1dzSXpyM05BalN0QmlZLUI5RXk1ejlWeXNuVUZ3UzlpUWJiVzYxQkxBWTlsTUJqY1Bya0xvaHFvQ1RTUjhaVGM0SFF5S2hpS04wMnlz0gG0AUFVX3lxTFBrb0FQT1hTN0dvYVhQN1lnenNNclZscExmN1V2enpFbFhmNEhhMk93c09jYVllaFNNdGFRRjdzMGdRUVZGVVJIbTBrMUtNLWxuc25RNjZwLVh5eUpjT2JhWWdKUXhIMkthQldkUHB5VVBSNGpaRHp0QUVyNTNuR1FsRkU3MG1rR1pTdnhvUkhaQVRJV0phWXk2WHRCd1p0dDFtUFdHZDF1RWV1clZTb0lWRUlaTg?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNaTl1clM1TDFGM210TWRKSlpMQWtvZHl0T05yTExKUXRTWnAtRnplbVFfMTlIamVQUkllZHNxRnhkWkZEQ19kb3RuS0xQbGNEQTBwV3FBNHFfdEU4U05Tem9iZ1dzSXpyM05BalN0QmlZLUI5RXk1ejlWeXNuVUZ3UzlpUWJiVzYxQkxBWTlsTUJqY1Bya0xvaHFvQ1RTUjhaVGM0SFF5S2hpS04wMnlz0gG0AUFVX3lxTFBrb0FQT1hTN0dvYVhQN1lnenNNclZscExmN1V2enpFbFhmNEhhMk93c09jYVllaFNNdGFRRjdzMGdRUVZGVVJIbTBrMUtNLWxuc25RNjZwLVh5eUpjT2JhWWdKUXhIMkthQldkUHB5VVBSNGpaRHp0QUVyNTNuR1FsRkU3MG1rR1pTdnhvUkhaQVRJV0phWXk2WHRCd1p0dDFtUFdHZDF1RWV1clZTb0lWRUlaTg?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=9ewTG6K-SLg",
+        "label": "Funeral held for Palestinians killed in Israeli strike on Gaza | Reuters"
+      }
+    ]
   },
   {
     "id": "auto-yemens-houthi-rebels-escalate-red",
@@ -5189,7 +5217,14 @@
     "description": "Via PBS. Auto-detected by headline monitor.",
     "lat": 32.07,
     "lng": 34.78,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQT182aEtpeDg2a3pDVWN3dkNTTExfZWgtQW9nRUczbjJ2MTNLUHNoVHQ5cWNXWlZmNkFtdk56dGhjaERZSzNSNFBLemY1M0k1MjFWUmw4RjFjaGQwWE5DS0l2V1A0QkRCaTlQVHpwM0Q3alA4MmZFSHFPREV2TXctZE1kQWMyazYtNnRZMklRM2x4UzFndVJlTHhzbEliOWVXdS14Yzl2dlRBbTRYdFd6SXJDVE5IWFhBdnpFLVFNYlVOUjNmd2RMTmtmNXMxZ9IB0wFBVV95cUxQTTNsVmNiMnVEUUlBd1JQOU9wN3lIdkNFcVRSZ2ZscEhmWEE4dUtsalBQeFdrQXRXX292MVlsSGdGMHNsdXhlMVJEX05iNFlmdWxsM2VFdVptdVgxcDVlM2lpdTNjMUQ2NUUyWUowN0VSQW95YUFTckpnS0dxUWdKMVZUMHFsTU9UVDdMSUZ6eXM2ZVdyanZveFRnWjBURUJkaGpENGp2WS1YX3hrNnduR3RSZU1tVVNqWXZKQnYzV09nVkRlQnBWMnlVT25oNGk5RERV?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQT182aEtpeDg2a3pDVWN3dkNTTExfZWgtQW9nRUczbjJ2MTNLUHNoVHQ5cWNXWlZmNkFtdk56dGhjaERZSzNSNFBLemY1M0k1MjFWUmw4RjFjaGQwWE5DS0l2V1A0QkRCaTlQVHpwM0Q3alA4MmZFSHFPREV2TXctZE1kQWMyazYtNnRZMklRM2x4UzFndVJlTHhzbEliOWVXdS14Yzl2dlRBbTRYdFd6SXJDVE5IWFhBdnpFLVFNYlVOUjNmd2RMTmtmNXMxZ9IB0wFBVV95cUxQTTNsVmNiMnVEUUlBd1JQOU9wN3lIdkNFcVRSZ2ZscEhmWEE4dUtsalBQeFdrQXRXX292MVlsSGdGMHNsdXhlMVJEX05iNFlmdWxsM2VFdVptdVgxcDVlM2lpdTNjMUQ2NUUyWUowN0VSQW95YUFTckpnS0dxUWdKMVZUMHFsTU9UVDdMSUZ6eXM2ZVdyanZveFRnWjBURUJkaGpENGp2WS1YX3hrNnduR3RSZU1tVVNqWXZKQnYzV09nVkRlQnBWMnlVT25oNGk5RERV?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=FMYsELCjb84",
+        "label": "Israeli attack on Gaza: Drone strike kills seven people | Al Jazeera English"
+      }
+    ]
   },
   {
     "id": "auto-more-than-70000-killed-in",
@@ -5395,7 +5430,14 @@
     "description": "Via Al Jazeera. Auto-detected by headline monitor.",
     "lat": 26.56,
     "lng": 56.25,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMzRZTzY4M1JXeVhmUGxRd3praWtzUGRMRXNNUjF2cWZRUkJXc05teWthM3RUTVMzc01lbEN5WFRFaGJldllaRTFjamFGSTNVZV9ueUgycUZVUV95d1JRMElxU0stQ3lyekZlbm5oMWtXUmZtRklmdmxaY25zUFFnTlVfTjllX2pkbmJYUjBENzdFS001SkFkZENmMzFrRVJkOTc5MXQ0WkswQdIBrwFBVV95cUxPRjh0cVJIbF8zdjFJR3IwVnNhc0puVC1GYzZzRlNBNUJtdlpwQ1VXVVBUaVhlbm9Ta1JVR21DZHFZQVhiZ1VPMG1VRy1Eb1kxYzFNcVJTY3RHWkliRWQ2WmRWejVuRkRwd0FhVUxSbklnTlNfQjdxa0hqbTRJQ0pnRl9YWlVFUGYwT1F5cHJvM3otWk1jdDNraG84WEtGclBCUW93MWN3c1RaVUtBZ3hZ?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMzRZTzY4M1JXeVhmUGxRd3praWtzUGRMRXNNUjF2cWZRUkJXc05teWthM3RUTVMzc01lbEN5WFRFaGJldllaRTFjamFGSTNVZV9ueUgycUZVUV95d1JRMElxU0stQ3lyekZlbm5oMWtXUmZtRklmdmxaY25zUFFnTlVfTjllX2pkbmJYUjBENzdFS001SkFkZENmMzFrRVJkOTc5MXQ0WkswQdIBrwFBVV95cUxPRjh0cVJIbF8zdjFJR3IwVnNhc0puVC1GYzZzRlNBNUJtdlpwQ1VXVVBUaVhlbm9Ta1JVR21DZHFZQVhiZ1VPMG1VRy1Eb1kxYzFNcVJTY3RHWkliRWQ2WmRWejVuRkRwd0FhVUxSbklnTlNfQjdxa0hqbTRJQ0pnRl9YWlVFUGYwT1F5cHJvM3otWk1jdDNraG84WEtGclBCUW93MWN3c1RaVUtBZ3hZ?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=il5u6vKZ9Z4",
+        "label": "Iran keeps Strait of Hormuz closed despite ceasefire, ships stranded | Al Jazeera English"
+      }
+    ]
   },
   {
     "id": "auto-israeli-strike-at-gaza-hospital",
@@ -5561,7 +5603,14 @@
     "description": "Via Reuters. Auto-detected by headline monitor.",
     "lat": 35.69,
     "lng": 51.39,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZlhjS0JINWtJZlRsZzVnZHB5RHB2ZFlGWms0NUNNRTd3cGZZUXhTYlNsd1NWSnNLRnk1Z3RnYmtKT2pESi1YSUNzaGwzS04zRjNQNE1nNldFcDRYd0ZnaU5xTXNmNVMtUXpjNXI3ZWhrbVJkRS1SOGJvRGFJMUI2MTVvT0lzSklLNk9oenM2VkhFYlo5bHBtSzR5cm5WVzNYS2duQWNLSWRzRTBhaWxGd2hZSEtDUVZJZkZ0aW1QelJDZw?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZlhjS0JINWtJZlRsZzVnZHB5RHB2ZFlGWms0NUNNRTd3cGZZUXhTYlNsd1NWSnNLRnk1Z3RnYmtKT2pESi1YSUNzaGwzS04zRjNQNE1nNldFcDRYd0ZnaU5xTXNmNVMtUXpjNXI3ZWhrbVJkRS1SOGJvRGFJMUI2MTVvT0lzSklLNk9oenM2VkhFYlo5bHBtSzR5cm5WVzNYS2duQWNLSWRzRTBhaWxGd2hZSEtDUVZJZkZ0aW1QelJDZw?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=pWXkn9eRTGc",
+        "label": "Live Coverage: Vance meets with Iranian officials as Trump says he's \"clearing out\" Strait of Hormuz | CBS News"
+      }
+    ]
   },
   {
     "id": "auto-middle-east-wars-spiral-of",
@@ -5959,7 +6008,14 @@
     "description": "Via PBS. Auto-detected by headline monitor.",
     "lat": 32.07,
     "lng": 34.78,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPYzJXbTUtNkxuZHBIU1NiMXA0dU5ocmNHamFuZ0lObkZqUmNEdzBUZk9RbG1JQ201REFIZXVrZWxkWGh1aW95SUhuek42NW14akJaRk1Rb29jUUQ0Uk1FSzZZYi0xWl9OdnRnWE5oVDI5TDAxSEpxazluRG1ROVI2MGRJUXZ5LUxWUWdHWElwcGtWM3JjNVlQOTVfX0lOdzBwMEdlcmhsOVpiZzVidGR6NG01aHlVOWpCcVlfZENDN09ncUFiTTZiRXVOdzItWUk2eWhuZWdBWFXSAd4BQVVfeXFMTS0tbkxLUmxPSlQ5LTJjN1lLdWF4MkI0UUhxN2lHVGsxSllUWDJzUUdIYVdFc0h2N1htckRlWUM4bDB2ZVdEX1kwdlVVSVZscWtqcGdPY2NvZGpTVW9TREoxM3ZRNTl6ZV9oOTlGY2lyZ0RyN0h4ZWtmYUJxWFhkOE5SOFowNGhKbmRBbkdvOGRfQ2ZzS216eTM5OWRBR18tZGRCMndfaXNRUnpKbU9IUHlkZE9ZNHlvUm5xcUkycHNYUUduQ205anRPdDJIWjNyUTliQ2V4RGtFLXVNdnV3?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPYzJXbTUtNkxuZHBIU1NiMXA0dU5ocmNHamFuZ0lObkZqUmNEdzBUZk9RbG1JQ201REFIZXVrZWxkWGh1aW95SUhuek42NW14akJaRk1Rb29jUUQ0Uk1FSzZZYi0xWl9OdnRnWE5oVDI5TDAxSEpxazluRG1ROVI2MGRJUXZ5LUxWUWdHWElwcGtWM3JjNVlQOTVfX0lOdzBwMEdlcmhsOVpiZzVidGR6NG01aHlVOWpCcVlfZENDN09ncUFiTTZiRXVOdzItWUk2eWhuZWdBWFXSAd4BQVVfeXFMTS0tbkxLUmxPSlQ5LTJjN1lLdWF4MkI0UUhxN2lHVGsxSllUWDJzUUdIYVdFc0h2N1htckRlWUM4bDB2ZVdEX1kwdlVVSVZscWtqcGdPY2NvZGpTVW9TREoxM3ZRNTl6ZV9oOTlGY2lyZ0RyN0h4ZWtmYUJxWFhkOE5SOFowNGhKbmRBbkdvOGRfQ2ZzS216eTM5OWRBR18tZGRCMndfaXNRUnpKbU9IUHlkZE9ZNHlvUm5xcUkycHNYUUduQ205anRPdDJIWjNyUTliQ2V4RGtFLXVNdnV3?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=9ewTG6K-SLg",
+        "label": "Funeral held for Palestinians killed in Israeli strike on Gaza | Reuters"
+      }
+    ]
   },
   {
     "id": "auto-reports-of-israeli-casualties-in",
@@ -6353,7 +6409,14 @@
     "description": "Via Al Jazeera. Auto-detected by headline monitor.",
     "lat": 32.07,
     "lng": 34.78,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQnFvSFFNMk5KRm1TeVRkNHZqQk44OTdWcjdoUXZSYmlRY3VFbF85ZnJ4UDFmWGJlSmNvNTBTazk1SngtRUFVWkJCSnJKMVhiN1ZjMG43WDYyclhnal91OXBDeWhRNUFiN0h4VU15R1JMeklrenJOajFoWGZfMDVjUUN6ckhIUkV2NXVMMk1Dd2JZTUowR0ttMWV6TXphdjhBSEF4NUU3N2_SAa4BQVVfeXFMTUhvTXJDTU5LVjRVQ2JxNGwtbFBHMUlldDBjS190QXA4aFJPNE5iM1JRbTI0TV9FRHdQbE1mTGRBd1NpcnphOWZ1ZTRHNVRvVjNKbUxhNkxSZjZORzRGMDNVU0hHMC1xVkRJTDNkMG9uXzlreUhzTkkxckRkQzVqN2dlSkE1ZjctSXZfQ1Z5QVpIOF9STFhEMWtTMW5VemQzOW5TdGJoTGZDbS1oMWFn?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQnFvSFFNMk5KRm1TeVRkNHZqQk44OTdWcjdoUXZSYmlRY3VFbF85ZnJ4UDFmWGJlSmNvNTBTazk1SngtRUFVWkJCSnJKMVhiN1ZjMG43WDYyclhnal91OXBDeWhRNUFiN0h4VU15R1JMeklrenJOajFoWGZfMDVjUUN6ckhIUkV2NXVMMk1Dd2JZTUowR0ttMWV6TXphdjhBSEF4NUU3N2_SAa4BQVVfeXFMTUhvTXJDTU5LVjRVQ2JxNGwtbFBHMUlldDBjS190QXA4aFJPNE5iM1JRbTI0TV9FRHdQbE1mTGRBd1NpcnphOWZ1ZTRHNVRvVjNKbUxhNkxSZjZORzRGMDNVU0hHMC1xVkRJTDNkMG9uXzlreUhzTkkxckRkQzVqN2dlSkE1ZjctSXZfQ1Z5QVpIOF9STFhEMWtTMW5VemQzOW5TdGJoTGZDbS1oMWFn?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=FMYsELCjb84",
+        "label": "Israeli attack on Gaza: Drone strike kills seven people | Al Jazeera English"
+      }
+    ]
   },
   {
     "id": "auto-how-many-people-have-been",
@@ -6817,7 +6880,14 @@
     "description": "Via The New York Times. Auto-detected by headline monitor.",
     "lat": 32.07,
     "lng": 34.78,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPb1NMU2xOYy11VDBaYmhZa1hnajVaMEJub21fdUZxZlVLNENrOVMwbzFBZ2tTM19XWkNrbGNBbEM3Zm1xdFAtamRyenF5NWpGbGtzSWJrZnNyMTA0cHVVckVMdzZZNXhkN1dtRENLdlZ1NVZaZjNLSWRQbHhWdTN4dQ?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPb1NMU2xOYy11VDBaYmhZa1hnajVaMEJub21fdUZxZlVLNENrOVMwbzFBZ2tTM19XWkNrbGNBbEM3Zm1xdFAtamRyenF5NWpGbGtzSWJrZnNyMTA0cHVVckVMdzZZNXhkN1dtRENLdlZ1NVZaZjNLSWRQbHhWdTN4dQ?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=9ewTG6K-SLg",
+        "label": "Funeral held for Palestinians killed in Israeli strike on Gaza | Reuters"
+      }
+    ]
   },
   {
     "id": "auto-strategic-oil-release-may-calm",
@@ -6979,7 +7049,14 @@
     "description": "Via Reuters. Auto-detected by headline monitor.",
     "lat": 51.51,
     "lng": -0.13,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOU01VOHBWaTFyVmxqSVhsOUk2NGdzb1hvOFR3WUxiWnhYSnJ4TnAtSkFhREs1V2JENnhET3hrNVB0cXdsQ09fSVFBQzBub1Q4bF81cUU3TVlhQkhJY21MNWRkSTNFZEJod1BRWnFLV0FtbTNQeHhBbUxTSDJ1Vjh6YnBrbjJScEhOalpWbTJQaHJvWjNnajZnUHE1Zw?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOU01VOHBWaTFyVmxqSVhsOUk2NGdzb1hvOFR3WUxiWnhYSnJ4TnAtSkFhREs1V2JENnhET3hrNVB0cXdsQ09fSVFBQzBub1Q4bF81cUU3TVlhQkhJY21MNWRkSTNFZEJod1BRWnFLV0FtbTNQeHhBbUxTSDJ1Vjh6YnBrbjJScEhOalpWbTJQaHJvWjNnajZnUHE1Zw?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=ZSK7qXB7Lco",
+        "label": "deployed military deter russian submarines news | YouTube Search"
+      }
+    ]
   },
   {
     "id": "auto-lebanon-airstrike-casualties-still-under",
@@ -6989,7 +7066,14 @@
     "description": "Via UN News. Auto-detected by headline monitor.",
     "lat": 33.89,
     "lng": 35.5,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5haW53X3FmSW1xYnpBSmZjZ3NNVzFYVEdfTkpVaEp1ZGpDQllzOFVUMzE2bUtsOWhuOG1Rd2lDSURNcHZNRGVTUlRQRU9zYzdoTElDUHpPcw?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5haW53X3FmSW1xYnpBSmZjZ3NNVzFYVEdfTkpVaEp1ZGpDQllzOFVUMzE2bUtsOWhuOG1Rd2lDSURNcHZNRGVTUlRQRU9zYzdoTElDUHpPcw?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=hs5JOEZLLss",
+        "label": "lebanon airstrike casualties still under news | YouTube Search"
+      }
+    ]
   },
   {
     "id": "auto-lebanon-appeals-to-israels-allies",
