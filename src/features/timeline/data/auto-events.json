@@ -7075,5 +7075,39 @@
         "label": ""
       }
     ]
+  },
+  {
+    "id": "auto-crude-oils-current-iran-premium",
+    "date": "2026-02-19",
+    "title": "Crude oil's current Iran premium assumes no supply disruption",
+    "category": "facility_damage",
+    "description": "Via Reuters. Auto-detected by headline monitor.",
+    "lat": 35.69,
+    "lng": 51.39,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOTEdCek9xYkFpVEJobmlKa3M1Q1FET1FHWXp0eXpLSGkzbXlFdk0wQmw1NEpYdGZzMXV4cUxjOU11Yi1vX1h2WTRmcTR3Sk5rQTZqZnV4RU01ZWlvT29ESnpRaXNNRTF1QlZTSzNfNElWQ2h0eUhBUFd3VjFzX1pnVkM3ZXRjYlhnM0p1NmxKZ3FQVlkzSmVnLWloclV3NGh2UnB1MW1Qek1CX0NGVGRFOGlFTjJyT28?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=a73FSBwA5sw",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "auto-100-oil-prolonged-hormuz-closure",
+    "date": "2026-03-01",
+    "title": "$100 oil? Prolonged Hormuz closure could spark a 1970s-style energy shock",
+    "category": "chokepoint",
+    "description": "Via CNBC. Auto-detected by headline monitor.",
+    "lat": 26.56,
+    "lng": 56.25,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOa0VXVnZZbnIyV09ZbUxDcENhYThkUVEzY3RJZ055clctRnFsVGRpTERNOGNwcldUZGdyQ3EwdURHYk0tSnVSNUkydHh4NmVmNnZNcUY5REY1SEtIeG9BUGtoalZHMHNJRjNCZWNKUDg2UHhMYUl1SS16N0pEZS0wM25hdnViamVvVXJFSnRMVlFXeXo2WGhkTTJuaXhTcGNfU0xZakh2enfSAa4BQVVfeXFMTy0wdzVOZjByN2h4bllIUkxmYTB5Szc4WDdvS2JlRHZlMV9rTlloZ2pfYzVYZzNLR0Q1c0ZuMVNqSVowWDFEYVA1czFxYUg5UkZWMXNPR2RnVjBYeGQwV01WNF9rMWg1UHpLMUpkVGdVRHFlR0pwWXNPbklPZTN0M2FlREtqY00zREpXSV9Ca2plM2hwZFZXSWJPYlRvYThwTVZQWVBJbkktN3NrY1VB?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=zrR2PTjI9DQ",
+        "label": ""
+      }
+    ]
   }
 ]
