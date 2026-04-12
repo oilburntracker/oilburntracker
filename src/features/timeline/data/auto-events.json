@@ -7420,5 +7420,22 @@
         "label": ""
       }
     ]
+  },
+  {
+    "id": "auto-qatar-lng-saudi-refinery-israeli",
+    "date": "2026-03-02",
+    "title": "Qatar LNG, Saudi refinery, Israeli oil, gas fields down due to Mideast strikes",
+    "category": "facility_damage",
+    "description": "Via Reuters. Auto-detected by headline monitor.",
+    "lat": 32.07,
+    "lng": 34.78,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxONGxzbmdibmd3TDJxZEJmR0UxVExMdHNJWjdRVlAwVlhRbVBXTFpnT2ZTQkFDbjcwVlloWFBlSlhQd3EzajF5SUo3TjAzNjItM095LTB4QjZjQ1pCWUR2RXBEcW9tLU5MNnJVdW5Sblczdi1aWUxuQVFZM3NWREhDS2Z2LURiMnlleklsY0hIU00zOTBYa0hHZG9sWWhSbnMtcjRyTnk4NkJ1eDJmNERCd0pIemlhS2JzUzJuSl9n?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=ZjedheKvuC0",
+        "label": ""
+      }
+    ]
   }
 ]
