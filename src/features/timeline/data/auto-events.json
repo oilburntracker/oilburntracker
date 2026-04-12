@@ -172,7 +172,14 @@
     "description": "Via Al Jazeera. Auto-detected by headline monitor.",
     "lat": 35.69,
     "lng": 51.39,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNc0JtaDZOVTY1XzNlX0FGQ3dsbU9Ganh4MG9QY2tBdzRQTEFtdUhkaExvckdxQmFZZG04RG5CQlVmYXFGd0FYdDhkdDgyRWZsTkE3V1pvUnE3ZXRfS3FMU3M3bk41UV9uVUZUd0M4UVZEb1RyR2xPektIOFRPSWE0YVZ2OHpIZnFaNUtiUU94eEYxNnJwdzFuY0ZUTTctVXhtTGtRVnVEd0h3WE12czJUcFRuX3RaQdIBuwFBVV95cUxQc0NmdWF4NlVldWEwYkg4UExJYVNXMEZNS0JPOC0yaG12MGxKNzhERU1BaDYwQUJnSUkxbG5SNWUybmsyM1NCbG84MHBSSUNRWG5Ja2pFS3NzVkxtejVJTFZzSVg4RGQ3ejlTZGF1czFCNG9idlZYSDF5WFpESnhJRS1VWnk3MkR4aFZsVzFBTUtyREJmYm15a3Z6dXdjUEF3dWVKMEJ6YzRyWlJoTTJWWXd1VEdnSldoXzNr?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNc0JtaDZOVTY1XzNlX0FGQ3dsbU9Ganh4MG9QY2tBdzRQTEFtdUhkaExvckdxQmFZZG04RG5CQlVmYXFGd0FYdDhkdDgyRWZsTkE3V1pvUnE3ZXRfS3FMU3M3bk41UV9uVUZUd0M4UVZEb1RyR2xPektIOFRPSWE0YVZ2OHpIZnFaNUtiUU94eEYxNnJwdzFuY0ZUTTctVXhtTGtRVnVEd0h3WE12czJUcFRuX3RaQdIBuwFBVV95cUxQc0NmdWF4NlVldWEwYkg4UExJYVNXMEZNS0JPOC0yaG12MGxKNzhERU1BaDYwQUJnSUkxbG5SNWUybmsyM1NCbG84MHBSSUNRWG5Ja2pFS3NzVkxtejVJTFZzSVg4RGQ3ejlTZGF1czFCNG9idlZYSDF5WFpESnhJRS1VWnk3MkR4aFZsVzFBTUtyREJmYm15a3Z6dXdjUEF3dWVKMEJ6YzRyWlJoTTJWWXd1VEdnSldoXzNr?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=wdVcsdXaJx0",
+        "label": "Brief: US and Iran fail to reach a deal. Gaza’s humanitarian crisis deepening | Al Jazeera English"
+      }
+    ]
   },
   {
     "id": "auto-minab-school-bombing-how-the",
