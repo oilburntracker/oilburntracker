@@ -5627,7 +5627,14 @@
     "description": "Via UN News. Auto-detected by headline monitor.",
     "lat": 30,
     "lng": 48,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBmQldfSENacU42N0poZGtuaTF4RE1CNlJSanFMLUVxM3UxcV9YejZ3MFRaa2FRSFlzbk5neGdNMnJyUWRUV21KNkFDbk5TUkl0ek0wY1ZMaw?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBmQldfSENacU42N0poZGtuaTF4RE1CNlJSanFMLUVxM3UxcV9YejZ3MFRaa2FRSFlzbk5neGdNMnJyUWRUV21KNkFDbk5TUkl0ek0wY1ZMaw?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=vyIPdUsB-cY",
+        "label": "Ursula von der Leyen on the impact of the Middle East conflict on the EU – watch live | The Guardian"
+      }
+    ]
   },
   {
     "id": "auto-irans-un-envoy-says-1332",
