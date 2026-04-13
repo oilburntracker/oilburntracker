@@ -1,167 +1,5 @@
 [
   {
-    "id": "did-iran-really-attack-a",
-    "date": "2026-03-20",
-    "title": "Did Iran Really Attack a Secret Oil Refinery in Israel? - vocal.media",
-    "description": "Via vocal.media. Auto-detected by headline monitor.",
-    "category": "infrastructure",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNWXZWOFpjdzZ3QXlQOVFCbmJPaThIZ21mZi1Uc19CSFNwSm9VY1VsSEh1cnlQZTRTR0NLWkVRZDU0U3BrY0YxLVdSNU5DWjVrMDBTMHdZb29YZXNiY2NTWmxSVjNkS0l1SWhBeW1kUFlFanc3MUpUbzltUmRqUUlOVUVZQVdBWGVYY2hV?oc=5",
-    "source": "vocal.media",
-    "fetchedAt": "2026-04-12T07:00:11.687Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=Gts1ZYljpoc",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "Gts1ZYljpoc",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iaea-warns-of-radiation-but",
-    "date": "2026-03-02",
-    "title": "IAEA warns of radiation but no evidence Iran nuclear site was hit - The National",
-    "description": "Via The National. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZ2N0QWFZQmE3MTlFeUlEOE96WmhGUm54OFRxRHRMclhEOWZ2Tmk4V0dFNThpZWdnNGU2bzRCb2xUcTc1UEUtODBvQ2g2OWZleDM4d2J5RnhNRXJ1TU9aZTF2WW52QWE3UlZLakFQaG1INkU1MUNKdW9JVW5lY0ItWkpzVkpnR2lkRWxjMlFWcnhvbTVYRDNSb0p0QWl2alhlLWRfbjRjbWJWekhxQ1ZldFFrTzMxekFIR3c?oc=5",
-    "source": "The National",
-    "fetchedAt": "2026-04-12T07:00:13.085Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=Ko23UkuQOoc",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "Ko23UkuQOoc",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "irans-strike-near-dimona-raises",
-    "date": "2026-03-22",
-    "title": "Iran’s strike near Dimona raises old questions about Israel’s nuclear secrets - Middle East Monitor",
-    "description": "Via Middle East Monitor. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPekNTYmoyUXFwVkJ0cDdDekFuMldlRktvTTZpNnlZalJOTXByNEhlZHZoTUljd29SVGZRNFBfRk5OQ2xBWi1yclpZRDdBVDMtYVdHSlpLaTdrdENacUJuRHRsZGM5ZVpwdFFfbk1CVHMzSDBTeWxVbm5sbWNXNHZUOGZiZ0pCMTF6QVdvNDFzV2RTaXRLWWhtWTBKdHctVnBIUHp3X1JGWGJlVHFsaFYwMFNFRGowazhacVEw0gHAAUFVX3lxTE81N0M2R1FaRG43UjBmU0RuMUlhYWo4b3pjampYUW4xSDFTQS1kY1V3bU5UeGlyQVNlRGVaTElTby1XbUpoay1KRm91Y3E1c0hFWXBneVZnR0paSHlHOUU3NURucXVFRXppN0N5aGtDZE5rSkF3YXZFeWJ3M2VFWkRVWHRKeUVZTlBzYVFZT1ZXLWJwZ25JcGI4TVdzd0l2eEtjWGxzNDl5QUloV3lqWjhER1lsbktfU1ZEYmVaanUzNg?oc=5",
-    "source": "Middle East Monitor",
-    "fetchedAt": "2026-04-12T07:00:14.532Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=eO2rBLgkKtA",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "eO2rBLgkKtA",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-condemns-iaea-response-to",
-    "date": "2026-03-30",
-    "title": "Iran condemns IAEA response to nuclear attacks - News.az",
-    "description": "Via News.az. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1qZjVENlB4eHAzMEVqZzlfR1lLU0JWQmo2SV9FTk1vOHZ2VmhwLUpwMWFBaFdhSjZhWVQwbGdNMEtabUd0cTRqT2N1M01wLXBjemRuLTZCQ0ZfY0d0REJXMURiZ2Zha1NIQ1czMGpFczNjWGhWYmc?oc=5",
-    "source": "News.az",
-    "fetchedAt": "2026-04-12T07:00:16.130Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=Ko23UkuQOoc",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "Ko23UkuQOoc",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-says-peaceful-safeguarded-natanz",
-    "date": "2026-03-02",
-    "title": "Iran says 'peaceful, safeguarded' Natanz nuclear site hit in US-Israeli strikes - The Jerusalem Post",
-    "description": "Via The Jerusalem Post. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9oaFVqUnVVVmRNZkZkd3J3bkJXYWpISTdMLVRpemhwZTdyTm1sNHRrT2lLM21kOUZHT0hfWldueTk5WVdmMGphbTNsMzNSSU9UcXpHcUlUS3BLcVJoRmhENlg4U1RRT092RXc?oc=5",
-    "source": "The Jerusalem Post",
-    "fetchedAt": "2026-04-12T07:00:18.252Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=y9cVfrbs6d8",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "y9cVfrbs6d8",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "no-sign-irans-nuclear-sites",
-    "date": "2026-03-02",
-    "title": "No sign Iran’s nuclear sites were hit, IAEA says, but Iran alleges one was - WTVB",
-    "description": "Via WTVB. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUi1DMXRub085QnZpMXBTb21BejZyOGtlcjlXVmYtMlVSSDN0MXFuVjhhTm9NeWM2NnVDbkEzN3Nxb3gxczRmYmhDUmNWM1Q0dmxMaUVXcm83bWp2N3Mzb3pyWWR5cUtUOVh2bFluZkN2SVhtSkRUSjlMQUQtQ1BRS0ktQUZaWE56YkNtU04tVGtrWjd4VW5yU3BIaWVjeTNrMjNvQQ?oc=5",
-    "source": "WTVB",
-    "fetchedAt": "2026-04-12T07:00:20.670Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=Ko23UkuQOoc",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "Ko23UkuQOoc",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "hormuz-stays-blocked-for-now",
     "date": "2026-04-08",
     "title": "Hormuz Stays Blocked for Now as Hundreds of Ships Seek Escape - Bloomberg.com",
@@ -5056,6 +4894,141 @@
     ],
     "videoMatch": {
       "videoId": "7n03TZEKnHE",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "afp-covers-up-iaea-warnings",
+    "date": "2026-04-13",
+    "title": "AFP Covers Up IAEA Warnings About Iran’s Nuclear Program - camera.org",
+    "description": "Via camera.org. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOT1RtYzZhRWxWT2U2cHhwQlZIUVphZDNkby1sQ2tWMk9ZNC10WXB3NGdGbGpETmJfXzJTYW5ueG1hV2JfX1JHTHRCLXhKalBJMXZXV2drcHFuQW8xeHRfNWlmLXZOVEFJODF3UjVFMkM5SmNCNVlwbW0yS3BOOFpRQjdkd19qN1lTTWVhbUc5QmU?oc=5",
+    "source": "camera.org",
+    "fetchedAt": "2026-04-13T17:00:13.871Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=e_kPYtVG3YU",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "e_kPYtVG3YU",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "oil-hits-90-per-barrel",
+    "date": "2026-04-08",
+    "title": "Oil Hits $90 per Barrel After Record Weekly Gain as Iran War Shocks Markets - vocal.media",
+    "description": "Via vocal.media. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZVFIQVlVcGhhTk9oSVpBclplWlVkUEhTVlJfaGhhWjFCX2ZnYmRUTnJXQndmWUpCLVdOemZqcGxPR3dNLVF4bFIxbXJaWnJ2R2loWkZGNE5abVg1b0hFRmZyZldRUFJRYVdWRDlaRXhJTVpUVlYyOXZSYVRMVkVWeU5IY0sxLTFLbnVNVXZkcnE2Y1BZLXFnQTdIUTNXdEdBUU9rWg?oc=5",
+    "source": "vocal.media",
+    "fetchedAt": "2026-04-13T17:00:15.571Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=HuKaQgIa_pQ",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "HuKaQgIa_pQ",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israeli-strikes-kill-97-in",
+    "date": "2026-04-13",
+    "title": "Israeli strikes kill 97 in southern Lebanon escalation - MSN",
+    "description": "Via MSN. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPX1VidnVtTzZCZklXRnozWFhxUkRJSGc3MGUzU29OTmdSaUV1TVRwY1F4YUZlcE4yVHJMZzJNZWRoMGF4MkFtbkh4N1l1UmhjUjdpb2dObUhveXJYcFFjSWhTaXl0bVNJZEpNNjMxanh3RVB2Mnl0VXJIRDlWejRPTUtFY3JoVjlSMF91UlE4TXlZUHV4V3RfZnpra3FCLS1QRDVEZk5Tb2dSeDVhRXgtWTZ3UU5ZNTVIdGpQY24wUWdsdUZ2UDR3V0R3TTVGdkJfU18tdnBUel96NTIzaEM2YVcyTEdLRG5HYnFVZA?oc=5",
+    "source": "MSN",
+    "fetchedAt": "2026-04-13T17:00:19.692Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=jBb4SmxP8yo",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "jBb4SmxP8yo",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "death-toll-from-israeli-strikes",
+    "date": "2026-03-10",
+    "title": "Death Toll from Israeli Strikes in Lebanon Rises to 486, Health Ministry Says - kurdistan24.net",
+    "description": "Via kurdistan24.net. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPX0tJdVlQcVpYVnJLQjk3MG1ONmtNU2xQTThFQUo4RkVkTzdNS1FzR2pqTnpNNXpqQmt6T0hKc0FXeUdSd3ExVi1yakIxSUtpM1UzRC12elpQemVVMDdSNUNVUnBfbGpGWllzMkFMVHNzMG5aSkVwZ0YyVTkzcmtOVEw3YkMzR0dXbVJ2YjNlMFVpQTQ1ODgyVGNDdFhQclplZTJPejgtMk5HS0FvUGtXUmR0OEhUajhocGxfSA?oc=5",
+    "source": "kurdistan24.net",
+    "fetchedAt": "2026-04-13T17:00:24.366Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=ci4EDPTZiWk",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "ci4EDPTZiWk",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "six-casualties-reported-in-israeli",
+    "date": "2026-03-18",
+    "title": "Six Casualties Reported In Israeli Airstrikes In Central Beirut - StratNews Global",
+    "description": "Via StratNews Global. Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNlpvNm9mWERMQUEwUFNjeEJSVE9VYUpkN3FUSTFvOWxXcGh0U3ppei1abFJZaDJwMFBYSklwUmxOSXVmUXNhMGszOUtpV3lWcnhhRVBtQWJpTWxNeE8wRy1zTVZiQm5DVktodGZkeTlTR2lqa1lhVVdxckczMjNFT21xcFpYZkJ5OUxldzBBUVdoOWluRVdUeW9RUUx5VmVZNlpEbw?oc=5",
+    "source": "StratNews Global",
+    "fetchedAt": "2026-04-13T17:00:26.772Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=wYBXiqBMIzg",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "wYBXiqBMIzg",
       "title": "",
       "confidence": "auto"
     },
