@@ -7556,5 +7556,39 @@
         "label": ""
       }
     ]
+  },
+  {
+    "id": "auto-an-iranian-nuclear-site-avoids",
+    "date": "2026-03-03",
+    "title": "An Iranian Nuclear Site Avoids New Airstrikes, for Now",
+    "category": "facility_damage",
+    "description": "Via The New York Times. Auto-detected by headline monitor.",
+    "lat": 35.69,
+    "lng": 51.39,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZFBPLWwtM3dWWF8waFJqUGZ5OHdqa0NMQVBUQjJLWGQ2ZXlHbk9JWXlwcVhOQU1rTjZSR1ZWdmU3dm9fREFPZERJOTRXc0QtaGk0bDhTZFpVak4zVHp3akhUcW15SVlRbDlvbW5KOHgtZmk2aTJ1V1ZBamJVS2JlMlh4UDJYVlVQcUpzYktSTF83TXZpejZzcnhCcHp4WFFObkE?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=7gj5EKYr_bo",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "auto-oman-says-oil-tanker-targeted",
+    "date": "2026-03-01",
+    "title": "Oman Says Oil Tanker Targeted Off Its North Coast",
+    "category": "chokepoint",
+    "description": "Via Bloomberg. Auto-detected by headline monitor.",
+    "lat": 30,
+    "lng": 48,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObWExRnFYYUt2RWVqUnp6VjBCdjZsdTRubld2VUJuZWEySTFIUjRqUFlQMFR1ZzdTa2JoWXpiV1JPdlhOeDZWQ0NUbzFqSmVCaU80STBMMHBBRkwzVzU1aDdDeks4WVY2UXQ2UC1QcFM0dTg3dFJ4QkRDQUN5bkxJRFNtN1ltSFBvRExSMEgzT3E4TEV1SVQ1UGxiTzZrVU5ydVE?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=QP8lvXWKb3I",
+        "label": ""
+      }
+    ]
   }
 ]
