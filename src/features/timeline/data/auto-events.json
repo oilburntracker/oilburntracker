@@ -7607,5 +7607,39 @@
         "label": ""
       }
     ]
+  },
+  {
+    "id": "auto-iaea-passes-resolution-demanding-nuclear",
+    "date": "2025-11-20",
+    "title": "IAEA passes resolution demanding nuclear access from Iran; Tehran rejects",
+    "category": "facility_damage",
+    "description": "Via Al Jazeera. Auto-detected by headline monitor.",
+    "lat": 35.69,
+    "lng": 51.39,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQYjRVTVllV3dxb0RocXBzeFd5R0s0cDVxQURMVmhEV0k1Q3UzNVBRaGswaW91dGJGNG5IM25VVVpQN3pwekJPeEpyRE9kR1k2Mno3aEg4WENwX0wydGhYQjZCMjhPNnNpUFVhVnNjbGliWGd5d3RxcEdmam8yNWlPWFpseUZTNjRmMTZqeGYzWW9GY052YlFfOV91ZHJoa1RGVkVRNEhiS1VQamZiRm5XRS01SG_SAboBQVVfeXFMUFNjTXoxNjRIdVF5WHRoSkNuem1TN3llMU9pNjFnNTM5TjJuaFJja3Jjbl9rTDVkckNaLWxBZ2t0T1BhVUJjUWE5REVEZEp2RVczcGJTeWlLWVpIdHVUWFVCbnNQUktudDUzOTByZTRMV3VWQXlrNlRnMVdFNXZvMWdRalFSVGxWUGNHQlgtLXQ2MklTMzNtMUJ5eVRoY2dFaUNPbG1hV010UjVzb29iQjdhWkE5NFIwZldB?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=_vzGGyQIrIU",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "auto-us-releases-names-of-soldiers",
+    "date": "2026-03-03",
+    "title": "U.S. Releases Names of Soldiers Killed in War With Iran",
+    "category": "humanitarian",
+    "description": "Via The New York Times. Auto-detected by headline monitor.",
+    "lat": 35.69,
+    "lng": 51.39,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOV0pIWmRrS1NPU1g1UlhROFRIcDJLeTJ1YVZEaEtWcDBnbFo1N3FnVk01ZDVsTTJOM2FGOEpTMzJSeV93VVVvakExNVNWRmtBOUNWNWN0U1JFT0VLTXlITkw2RnI2R2NMcDhxMXZIMzR4bGdGdzVDNXhpWHJYU0FvYQ?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=KU7n8MGEeGU",
+        "label": ""
+      }
+    ]
   }
 ]
