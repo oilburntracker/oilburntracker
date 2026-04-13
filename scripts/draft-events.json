@@ -1,167 +1,5 @@
 [
   {
-    "id": "hormuz-stays-blocked-for-now",
-    "date": "2026-04-08",
-    "title": "Hormuz Stays Blocked for Now as Hundreds of Ships Seek Escape - Bloomberg.com",
-    "description": "Via Bloomberg.com. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORkthdlZFcUx5QUtwX3pOYlZ3TW5tdUd0N0tIdGo2VElsVk9PQ1JGSTFMZlBVdVUtZFdWc3ZIU292Vl9CMUlRbUxZN3I2b2tXNjlaa1pMeUw5STZ6NjZHZmRKYTVlcVBFYmxzeldQVnkzQXA2RFY5Qy1JLThId3diVXA1eWRYWWoweWpBRTRsV1U3bEpaOUV4NWkyMXZUcnJ3WHRsNGNZUHYxMnhSRGdQeUZn?oc=5",
-    "source": "Bloomberg.com",
-    "fetchedAt": "2026-04-12T07:00:22.885Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=OFNwrMhC7mE",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "OFNwrMhC7mE",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "crude-oil-and-petroleum-product",
-    "date": "2026-04-07",
-    "title": "Crude oil and petroleum product prices increased sharply in the first quarter of 2026 - U.S. Energy Information Administration (EIA) (.gov)",
-    "description": "Via U.S. Energy Information Administration (EIA) (.gov). Auto-detected by headline monitor.",
-    "category": "infrastructure",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1MUUtYRngtNFBMNjQ4Zkg0NzFqNXJVVVlnUkc2blhMQ09LdUF4U3hBX3hOWkVKdExMYjBzeVUxdG5UeGFuejVaaHgzRDlXQVdCaWMxVV9nSWZvaE1LaER5WTZnZw?oc=5",
-    "source": "U.S. Energy Information Administration (EIA) (.gov)",
-    "fetchedAt": "2026-04-12T08:00:11.461Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=Ijgs6LR4IQI",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "Ijgs6LR4IQI",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "saudi-arabia-restores-full-capacity",
-    "date": "2026-04-12",
-    "title": "Saudi Arabia restores full capacity on East-West oil pipeline to 7 million bpd after attacks - Roya News",
-    "description": "Via Roya News. Auto-detected by headline monitor.",
-    "category": "infrastructure",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1EekE1aUhoU3NNanhtdUFHblZJUVh4NnMyeFRnT3Jyeko0aThhbHFIeXVUYkgweFNlNXkxaWNGMG1CV08yb1JfNQ?oc=5",
-    "source": "Roya News",
-    "fetchedAt": "2026-04-12T08:00:12.814Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=tS0ey4kpK3s",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "tS0ey4kpK3s",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "israeli-airstrikes-intensify-across-southern",
-    "date": "2026-04-12",
-    "title": "Israeli airstrikes intensify across southern Lebanon, civilian casualties reported - İlke Haber Ajansı",
-    "description": "Via İlke Haber Ajansı. Auto-detected by headline monitor.",
-    "category": "humanitarian",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUFZGRTYxVFJrUFM1NE1jUFZtVlZ4cG5SWV93Y2ZoSU9zTGtic0pMUkQtZGp0TjhPaGs4QUZ0Z25qSnZodVExX1dhMnA5cnJZUm80WlBueHE5cmVXcV9UV0pEb2tCcEpYbThFbGZXWEF1RHdNTEpqd3FpSGpTZDNiMXBabndGMDFOSS1oYm5FdWYwOHZqalU3dUNVcHpNVEJmbmdmWGRFMzdDbUJrZGtFdTZsWEhDVWl6VjhGMw?oc=5",
-    "source": "İlke Haber Ajansı",
-    "fetchedAt": "2026-04-12T08:00:14.402Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=4dwnxH0BLOo",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "4dwnxH0BLOo",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "israeli-airstrikes-hit-multiple-towns",
-    "date": "2026-04-12",
-    "title": "Israeli airstrikes hit multiple towns in southern Lebanon, casualties reported - سانا",
-    "description": "Via سانا. Auto-detected by headline monitor.",
-    "category": "humanitarian",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFA0alN4dDVTYXM4NzI3RHVLV2hNWVQycHNMLS1JVDNmbzRvaXlBSlBYcTByNnRyR2Z0Rm9BX3lBb2dNUEN4ZWtqOFNDWTlTMDNhSWdJ?oc=5",
-    "source": "سانا",
-    "fetchedAt": "2026-04-12T08:00:15.945Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=rEZd1x_BjwE",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "rEZd1x_BjwE",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "india-deeply-concerned-over-civilian",
-    "date": "2026-04-10",
-    "title": "India ‘deeply concerned’ over civilian casualties in Lebanon: MEA on Israeli attack on Beirut | India News - Hindustan Times",
-    "description": "Via Hindustan Times. Auto-detected by headline monitor.",
-    "category": "humanitarian",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQUzVWbzh0Sk42R25yUjR6elpXaDRBZURmWVJRajhOQkZIMUhvZVdXWnFhNVR4cno4TGZMT0FUT3U5UTdKSWR6akREbnY0NG5zZF9ydm91OHRJTzRFWG9zTi1uS0szcThHYUNaQnNrY1gyMXBpTVZpOGlLeEJZWWxBdzZKUE9hNUd0OEJWZ1hocEVySS1MMHNZemFnb292QlZtanRYSkVsaWpOV3U1YVQ3cXRUTUpjMHBpS1VBT01OVDJ5c0UtSFNiT1hOT05WQkR6VERqTnhLd25hZXM1Y3I0UTdkTFpyNWJrQlHSAe8BQVVfeXFMTnNweE1uSjZHR3FQQ1ZKVG1wb2I2UC1BLXdHQ2lhS1dZRXlIUG1GTUZZQzN4NEhoTXRSSERJR2FZeHZhcDlOdzh3Mno3ZldVOW9FZHd0NnpmcVIyek9udlZPWE55Y01rcFJ6SGZoSmpBRUF5TUJadHVTaFRUM3dwQlJXbF8zV0lHeUVtSms2N1MxNHF2dXJGelg2OGNJNkl1OU9XUGFWUjhKZXpYZUZlZjI0U0JJcWs4M210QjltZ05aWkEzRWItUnQ1d2xpblVXOS1Yd0ZEbGplUlhKajk2REtSMmNsSUJHRHA1NlFuLVU?oc=5",
-    "source": "Hindustan Times",
-    "fetchedAt": "2026-04-12T08:00:18.432Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=vDgFYLmdL3U",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "vDgFYLmdL3U",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "how-strikes-on-iran-put",
     "date": "2026-02-28",
     "title": "How strikes on Iran put focus on the Strait of Hormuz - The Straits Times",
@@ -5029,6 +4867,141 @@
     ],
     "videoMatch": {
       "videoId": "wYBXiqBMIzg",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israeli-strikes-kill-3-people",
+    "date": "2026-02-09",
+    "title": "Israeli strikes kill 3 people in Gaza, hospital says - Toledo Blade",
+    "description": "Via Toledo Blade. Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOTVlJVG9pSjk4b2dkRFF6WW9oUGpoVk9PaDVHNkQyZExFYmlTcVJsUXkzYmkwS0d5TkFhWVpVT29jWTJBZ2VaQVAwSjIxWkNNUE16UFM1WmlIUWR5ajBTdVRQVW1yS2RDOXFnVm9rSU5xRktBb2puLWZXaEJYRERuMXFoRGZZV3Q0UnVYYllDN3ctUDllRGxTQ1llRWRnejg2bzBNZWtnWkI5RGlvTnZSWnpjc003TGdqeEE?oc=5",
+    "source": "Toledo Blade",
+    "fetchedAt": "2026-04-13T18:00:11.555Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=VvT7g_d9ZBs",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "VvT7g_d9ZBs",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-assures-india-of-support",
+    "date": "2026-04-13",
+    "title": "Iran assures India of support on ship movement through Strait of Hormuz, denies tolls on tankers - IBTimes India",
+    "description": "Via IBTimes India. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNa2laSmNDa2FuVlQ5Wm9BZDZpUFVyb2NXaDRlcFNueUJ3MnFHYm80ODhrb0hKcVRDWl9tXzRMN05wc0dfejNnTzV4bXJMUkg0aVFXQmlMSHBZT1pUaTJkclhzNkF6ZEYxcUJrN0lPTVpnZTY5enZNS0QxZG9vWWdiWDNVRTREQnlBLTZNQVlBMlFkZ25HMzRoR0hnaHBxNXl5RFl3by0ybTd4UERxbVFJVmoxbWFTWTA?oc=5",
+    "source": "IBTimes India",
+    "fetchedAt": "2026-04-13T19:00:11.956Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=d4M3agx5h7U",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "d4M3agx5h7U",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "saudi-arabia-predicts-oil-prices",
+    "date": "2026-03-20",
+    "title": "Saudi Arabia predicts oil prices to reach up to $180 past April - The American Bazaar",
+    "description": "Via The American Bazaar. Auto-detected by headline monitor.",
+    "category": null,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOM0ktckREdEVQRkJSTnVQX0doNDlidFl2MWYwVklfaWRueVltbEs3Q2NXRndaakhVbm52UEhKUzR2cWVnekNveU1rZE1MV05BRm1CVldOYXVqb0ZSVEZSLWZHMGtzeEpYWFBLU3R6Zk1jUDZYTUM5QktzUGx3UVVjWlItcFczZVFna1J3YWJqemhhTlZzaFE3Q0NaWHM1LTNRc3BibENzdTB6QWNtY3ZxVlAyTUM?oc=5",
+    "source": "The American Bazaar",
+    "fetchedAt": "2026-04-13T19:00:19.466Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=UhBVonKiiis",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "UhBVonKiiis",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-uses-china-to-sell",
+    "date": "2026-03-16",
+    "title": "Iran uses China to sell oil, avoid sanctions amid war - The Jerusalem Post",
+    "description": "Via The Jerusalem Post. Auto-detected by headline monitor.",
+    "category": "economic",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBxX19Bbk1XN3pSS3g0UTZxMlJ5RDhTUFhDcnhyaERQcUJTcG80WTVncU5FQVhwMmJLeHVEVm5jVC1aWUJVUmdZaFk2bGxtaWFxQnoxbjVYaHhJWkRyNjdqdkMyLWxNRE1CaVE?oc=5",
+    "source": "The Jerusalem Post",
+    "fetchedAt": "2026-04-13T19:00:22.056Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=Jq93k3X6Mz8",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "Jq93k3X6Mz8",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "intercepted-drones-over-erbil-cause",
+    "date": "2026-03-05",
+    "title": "Intercepted Drones Over Erbil Cause Property Damage in Residential Areas; No Casualties Reported - kurdistan24.net",
+    "description": "Via kurdistan24.net. Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5rSU1hclhrNlAtcm5RQ09IY01SVjNQLUhFOE82UG9yRF9zd0lGcEE4cWEwZ245Y2NWSzZZX1BRZzlMWnJ5VkRkUEJVMmxkOVFPX3g3Vlpn?oc=5",
+    "source": "kurdistan24.net",
+    "fetchedAt": "2026-04-13T19:00:24.184Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=2U3E6mhuhPk",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "2U3E6mhuhPk",
       "title": "",
       "confidence": "auto"
     },
