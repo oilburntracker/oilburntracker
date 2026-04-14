@@ -7828,5 +7828,22 @@
         "label": ""
       }
     ]
+  },
+  {
+    "id": "auto-eu-forces-free-crew-after",
+    "date": "2025-11-07",
+    "title": "EU forces free crew after Somali pirate attack on tanker",
+    "category": "chokepoint",
+    "description": "Via BBC. Auto-detected by headline monitor.",
+    "lat": 30,
+    "lng": 48,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5ZMVNNSk53RlV4NHVsTk5mT3I0UHlJYWItWXZsNUtna3Z4eS1pZnh0bldtRjUtU0lvRnVkeGtGWUZoMm4wNWphUkMtYkwtSGptT0JtTkg4OHk1T1Rj?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=p3CdxnJLERM",
+        "label": ""
+      }
+    ]
   }
 ]
