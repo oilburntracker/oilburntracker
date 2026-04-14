@@ -1,194 +1,5 @@
 [
   {
-    "id": "hundreds-feared-dead-in-lebanon",
-    "date": "2026-04-08",
-    "title": "Hundreds feared dead in Lebanon strikes - Welcome to the United Nations",
-    "description": "Via Welcome to the United Nations. Auto-detected by headline monitor.",
-    "category": "humanitarian",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9mVFlBbXZ1cUlxWGw4bWdxZDFrV1VoSU1vWU44NTRTZDdsYl85NGpBYUhrR0ZGSlhlYkJvRjgzQjItSTl4ZUx4STBORGhRc3FReFZxWHdsOA?oc=5",
-    "source": "Welcome to the United Nations",
-    "fetchedAt": "2026-04-13T21:00:14.262Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=pouRpxC-Kbw",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "pouRpxC-Kbw",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "us-troop-casualties-in-the",
-    "date": "2026-03-25",
-    "title": "US troop casualties in the Iran war continue to climb - Hays Post",
-    "description": "Via Hays Post. Auto-detected by headline monitor.",
-    "category": "humanitarian",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9IdDZpeGhDaHZKZlRLQnd2Y2dXaVNoVkNzVEZTMGhMcVFvY2dxTm42Z2Ewb3J6V2hscFp3TkhjSDdkRWx5Nk1NQXVCOU5qX0FTSlZYMUtZN2lUeDIyUFlGeHZ1Q2pRMElxOGlSV1ctZTc?oc=5",
-    "source": "Hays Post",
-    "fetchedAt": "2026-04-13T22:00:11.846Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=fk0gVp3PPEo",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "fk0gVp3PPEo",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "how-many-people-have-been",
-    "date": "2026-04-06",
-    "title": "How many people have been killed in the Iran war? - DD News",
-    "description": "Via DD News. Auto-detected by headline monitor.",
-    "category": "humanitarian",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBBY3dnUXc4YldSR3oxSEowaUY1bkczNVU5eHpCVWMwRHlXZWd3RnN0N3RkOVd3MDhUclhaQU1odnBpNV9Ed2MwUUN1RUQ2bVFDc0JIZEFSQTNXSnU2MnpIdEhKbTZZMXl1emdtYXU3TW02RkhYbkJnOVgxcC1IRzQ?oc=5",
-    "source": "DD News",
-    "fetchedAt": "2026-04-13T22:00:13.460Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=a1HfiWXJDLg",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "a1HfiWXJDLg",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "pentagon-announces-first-three-us",
-    "date": "2026-03-01",
-    "title": "Pentagon Announces First Three U.S. Deaths in War With Iran - The New York Times",
-    "description": "Via The New York Times. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUTdGZUdYMnJiWFZXVmZ0cnNOQXBuYWF5UTJfWEpsM1dXQVgyeVplNEduSjg5dE1QN2hfSVJSdTBmelJ5UVlkX1JXcm9KSi1rN25NREVXTk5oSTJVY1hNclZpMVltbWZPUE5iaXl6Rmp2anhFVUFEdGs3QUN5dTdkQXZVRDdJMTQ?oc=5",
-    "source": "The New York Times",
-    "fetchedAt": "2026-04-13T22:00:15.137Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=F2BwOgKfh8Y",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "F2BwOgKfh8Y",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "on-the-brink-crude-oil",
-    "date": "2026-04-13",
-    "title": "On the brink! Crude oil may hit $150 per barrel in weeks if crisis deepens, warns analyst - Here's what he said - ET Now",
-    "description": "Via ET Now. Auto-detected by headline monitor.",
-    "category": "infrastructure",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOZUd2WmNsYVVkV0twVDhJYUJETXVtRDVuN01PeGthTUQyYVhqNUZUakFXdjBBUUpvSk9KM2Zud2hwY1BJckYzOERLeldjNjU5UXE5OEl4SXZ0cHQ3bktSR1NkblVtTmd2Tkt4eFdOTUVPYkRIRkszMV9sVWRYQkRyRmRkTVlMX3pBWkZHcm1vUjZJNVQ5TE50TnptWGZmNDVHMjY5TnVpX0lIVmlZV3dBR0RnNXFDeWVjcFktVlg5Y3VzeVFBRmNheXNlUUtLQlBvVTBoSmxtVW1tVnUwUk1FZVFoQzZzMmJXTEHSAe8BQVVfeXFMTXhqVU1PTnRTdEpFWGh1QTFUWDhjdy10a193aDR6LTNENkNNOEVYNjVod21Gd2xyOFB3anFnQVdURHExclUzZk1JZ2ZuWjkwLVU2TlNQMU03dkVoV0VnbVF1VUtneWs5VHU4MF94MHM3REM4YUNiM1RPQ0dQMUpnZC03SWJYZkJfakkwaXhYc0JScmRFc0g2cElXbGprZHhKcC1sLThUYXZZMnFQbktJUDU4akF1NHlaSThNSnBpRmxMdG1VSGhtQS1VYnJvX2ExakpOT09Db3h3NXRhT0NMem03U0FsMWJ2aTEtRThMRWc?oc=5",
-    "source": "ET Now",
-    "fetchedAt": "2026-04-13T22:00:16.700Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=UrIF5bQne-E",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "UrIF5bQne-E",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "second-ship-hit-in-red",
-    "date": "2025-07-07",
-    "title": "Second Ship Hit in Red Sea After Earlier Houthi Attack - Bloomberg.com",
-    "description": "Via Bloomberg.com. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQQ1gzZTdDRjJGSGdKT1dHcHhvZW9YUFBhR09TSU0zd1ZXS1R5bXpnT3pMaHNJZXkxbEhXbmNfZDNEUVlPTzV3aVJ4Smsxd19QU1I1Wl9aajZLY0ExS2FjZ3l4alU1UnBuNkJENDlKSnFqbjRFNWJCNm14VGRsNmJERTlzWjhDOGhnSG9rbGxkVktOc3R0c2V2Z2Jaa1ZnSlhYMjByR3JwTWVYa2p5Zy1Z?oc=5",
-    "source": "Bloomberg.com",
-    "fetchedAt": "2026-04-13T22:00:21.699Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=qXtkNGpsFoc",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "qXtkNGpsFoc",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "whats-happening-with-brent-crude",
-    "date": "2026-04-13",
-    "title": "What’s happening with Brent crude and African crude prices, and why physical oil hits $150 as Europe pays - The Economic Times",
-    "description": "Via The Economic Times. Auto-detected by headline monitor.",
-    "category": "infrastructure",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi8wJBVV95cUxNdVEzMVh3N1ZnemlOMndNWW0yeXZFMGlEbElTenAxSlhZa0lZQWo3SWRsRVBvSW5Pelg3WlpKQ0ZNOEY3bmNjWE1MSE5QRjBTeU1fUUxnT3FVb1g4Zlk5T3FUcWFVNi1jV09adXdKbi0zODVlMHRyN0s1ZTZZeTRmeEJjeVI2WGRfYWFPUGUyWlptYjJiWmp4Y1pQNXRRLTlDb3N0YmNrZ283NzEwc0tWUXlBTjJCQWNueUdZWjhLMDR2aGVyNm1aVDVYbFprZ01fOGFLSEtGSkFKbmpNU09YbkM4MzBwNTFhR1B2Wk5ZMnJjNU9jTkVTb0NJc3F5aFVsVmRPM25yNlZVdVUySTYyX012LUx0TXktUTBnRHJ1bnh0Zmo4bUlYVi04M04wTlcyREVxZDE0Y001TUhMOHVIc21Pc2hSeFltcXFMSEJxd3h5aFJBNWdNUG5qd0lkSVpTYXJVUDlReHRQUV83Nllpd0FpMNIB-AJBVV95cUxOUjdnQW0zZ1Zwem1CSXdfVDVvc2FFQU5sRV85SzZsb0ZiZmFiS0VTT2paMjBhRUE3Z0g3aE42aTJfLWVlRnFLX0dPWHdvZHV6Z0k3UnFHQ0VQN21wbG9aMVVPQkU1eEoxelJNMW10SHVJREpuZGpvelpGalRBVTRQZjg0TXdZbElXRE0xa25RRnVkMlVWam5ONnBmS1hnamZ5RkphU3lQQlZheTFiN2V5djJUUm9URGctM29zS2lnQnZXVXlNQ2xtMklmQjBjRGdpNnVpQ2dpYUJ5QU5IY25wY3dKLUVsN3VpYUg0TUJuOTVTUjNMSUNrUkEtNUY5TXozZ0JaVG0wOTQ1ZjJRREJyaWlzX21WN1dLRDQydWx0LUwzdDZnc0pXOXRKYWdzYUlaRXJLVDhhYTlrTDBMaFdYQ3ZLZXZrbWZ3MmlpS0VwWXlKUEhUUjRlaExNbjQ3UEJfYW1KX2VKWjBUMFBvb3hXVHZPNGwyblln?oc=5",
-    "source": "The Economic Times",
-    "fetchedAt": "2026-04-13T23:00:11.275Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=aZP57oiIOCA",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "aZP57oiIOCA",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "satellite-images-indicate-iran-working",
     "date": "2026-01-31",
     "title": "Satellite images indicate Iran working to salvage nuclear materials from damaged sites - The Times of Israel",
@@ -4752,6 +4563,185 @@
       "title": "",
       "confidence": "auto"
     },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "trumps-latest-oil-blockade-brings",
+    "date": "2026-04-14",
+    "title": "Trump’s Latest Oil Blockade Brings Bigger Economic Risks - The New York Times",
+    "description": "Via The New York Times. Auto-detected by headline monitor.",
+    "category": "economic",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbTRBVGViY2pQRFRHRDVpYi1LYWhuSVBxT3NuSHpVZzVkYXltYnQzb3hsSmhxSk9uUElJcXV4S0dsYzdzRy1vTTg5cmhSMEtqZGUtXzliVTgwMnNfQ1NJQ3N0Z011U0JiUGJKM094ei02ODdvaTBUSUd0dEdfYThYQ19jTHdQS3JOR09MWURUTmNyMEI2cWtnTjNBV3hWalU?oc=5",
+    "source": "The New York Times",
+    "fetchedAt": "2026-04-14T23:00:11.433Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=hqyXbW7sbU8",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "hqyXbW7sbU8",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-strikes-at-multiple-gulf",
+    "date": "2026-03-19",
+    "title": "Iran strikes at multiple Gulf refineries, raising concerns further about a global energy crisis - cbs8.com",
+    "description": "Via cbs8.com. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNbmw3NzZMZ1ZyNUxiOVllMVF0UXdTeWNKZHh5VGVJWUc0dU5BbkRYRGZyRDA0QVNQd2EtN29NQTR0emM4TWlaRU11TU45SlJ1VmdzN1ZqbDhjcTVDYjl4d0FRZnlwNTBQWTUzUkNqNTRFaGtjTFhWTWZfOU54OUEzajM2TlRWQjItcEpHZ1dMZ1NGQi12V3UyY1kwOTJDNUk4WHFUdTVFNUMycjB0cmJEa3BicTd0dU1sOGZiOUVUelRFdDhMbTZLSkVUVmlxOFd6bEhqZ0xNX255Nzg?oc=5",
+    "source": "cbs8.com",
+    "fetchedAt": "2026-04-14T23:00:13.056Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=XODpsOtGp-4",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "XODpsOtGp-4",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iranisrael-war-idf-hits-iranian",
+    "date": "2026-03-08",
+    "title": "Iran-Israel War: IDF hits Iranian refineries, Tehran retaliates | 10 key developments - The Financial Express",
+    "description": "Via The Financial Express. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOZXJqNWtUMHBlNzdkYTZEbDVHT2c0ZG9PeFlLRm5xcDNiN0I1UXMxMW5uWC1zOGdZN3RQRXgwWGxQaXM5OFNsaUI5RXp2Sl9laWpFTXJhYXBhYUk4cWpUc0ltX0FtLVVOZUh2Z2pKMDNkR29iSGdKY3c2UzgtLTRSamxDZFl1ektXaTRmUmpXbFo5WW8wcGVIczlLN2hfMlo4Y2RXWk9uN24yQ2dWb3VBeXlGQjFSNUNVQUZyS2R2V01oQ1NJSlFfaFdYRF9HWU1nRHVz0gHaAUFVX3lxTFA3UGNYT2gtNkZOY1Nfbks1VHJNN3NoZG1aVzdZa0ZzQmdpankzUFd5eHhZeWI4ZVpHcEp0bm0yVmNjN2RuOVNxVFhMYlZaQ2dpRk1KQjVpdVRiYmpsZy1iUlh3Yi0tT2dQSzVmQ1h5TUtjYWFuMFZrVHlPQmtUaEhpQzZBS3k3MGhZTzgxTWJ1NzJacFpwcGRobG1FLWpLNFg5SS1XM2dTMlVianRzOVVodHhBNDJzRHhjcy1NRXJVcHR2VFQ4TVpLbmUweXZqQlZtM1RzOWE4cm1n?oc=5",
+    "source": "The Financial Express",
+    "fetchedAt": "2026-04-14T23:00:14.692Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=V4cJttWsQYI",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "V4cJttWsQYI",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iaea-says-recent-damage-seen",
+    "date": "2026-03-02",
+    "title": "IAEA Says Recent Damage Seen To Natanz Entrance Buildings, No Radiological Impact - NucNet",
+    "description": "Via NucNet. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQllMZ0o2cmFwNF84VkhLcTJTOGFUczhyeGtyaWhOdjBDRzVpR0tTUnJ0ZnNGZHVfQl9faHRXY3FUN0h5UE9ZcjY2MDhzQUh0Q3E0bnowZWJDYmF2NVhKekNzSU81Vk41SWc5T2VhTHlaNUJZdE4tX0w5aHlfZnRRcGE4bVFjWmk5S0N4VFRZdXhCLUN3aV9BazIyM0pzc3g3V0YzeExvUmlvS2o2QWtHQ1lPZmZRT0ZB?oc=5",
+    "source": "NucNet",
+    "fetchedAt": "2026-04-14T23:00:16.243Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=-6qcn6j76Q0",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "-6qcn6j76Q0",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iaea-confirms-severe-damage-to",
+    "date": "2026-03-30",
+    "title": "IAEA Confirms Severe Damage to Iran's Nuclear Facilities - Tempo.co English",
+    "description": "Via Tempo.co English. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNWVFuQ2pRdTFMMWxjZ2hlZUs3X19pNVlBS0dFM1JZcVVXMUV0LTBkWUJZbUJNN1NpZ1NCMC1OWXk2QlZnUlNiZ0FyWjRTVTFmOHFRaExhZEQyQXYwSExsMjBIOEotT1RLaXY5T1NvU2hLMHNlaGlPYWozd0VVcHgzM2ZYMHl6SVpqbUgzNHVLOG9aQQ?oc=5",
+    "source": "Tempo.co English",
+    "fetchedAt": "2026-04-14T23:00:18.851Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=rkrb6oAr7jA",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "rkrb6oAr7jA",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "two-ships-scrapped-for-parts",
+    "date": "2026-03-23",
+    "title": "Two ships scrapped for parts have suddenly reappeared in the Strait of Hormuz - Australian Broadcasting Corporation",
+    "description": "Via Australian Broadcasting Corporation. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTEtuZy01RDNHWVNZZWpTTzR5djZkVkZGUEJPMGw0M21yc2ZhTDdObkdEOGNHVzduZGxMR2hNRjJxczRlQ3F5T1BIWnVQZVVxSUotLXluZFlNNFZ3S1YxNjVXX0ZPd2lUWTNjOEdCcEgzZGY5dUE3ZEs0ekRRRkJCSG84b0hkV1J6a1I5d2pvc3dCRmUtaXhmeF80OUE?oc=5",
+    "source": "Australian Broadcasting Corporation",
+    "fetchedAt": "2026-04-14T23:00:23.763Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=23ADw52VUVo",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "23ADw52VUVo",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israeli-airstrikes-in-lebanon-kill",
+    "date": "2026-03-21",
+    "title": "Israeli airstrikes in Lebanon kill 20, raise total fatalities to 1,021: Beirut - MorungExpress",
+    "description": "Via MorungExpress. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQ1psSGJ6UWZ1RktYTEpIVFM2aE5kQV96TjFOR0N6U0NTRklRWjI0SC1QRkRnTjN6dllUblp3aDhYdzRxQkc0ZjlrOVlFc0ZXNzFkd3N5bjJubWdqZGZGQzBhTEFQa1h3MnRja3d6eXdNWE04TWRsMjlFbHl2dDBrZ3htZlVIaF93VFIyWVFERk10TUdUc1p3Rzg4T0dyb2M1MEZz?oc=5",
+    "source": "MorungExpress",
+    "fetchedAt": "2026-04-14T23:00:38.492Z",
+    "mediaUrls": [],
+    "videoMatch": null,
     "lat": null,
     "lng": null,
     "zoom": null,
