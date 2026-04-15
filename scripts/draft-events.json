@@ -1,167 +1,5 @@
 [
   {
-    "id": "3-us-service-members-killed",
-    "date": "2026-03-01",
-    "title": "3 U.S. service members killed and 5 seriously wounded in Iran operation, after Trump warned of casualties - Fortune",
-    "description": "Via Fortune. Auto-detected by headline monitor.",
-    "category": "humanitarian",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOalRSSkcxRjNOYUhBbHkzWTU5dGxQaGlIMjVGMnNFX2IyZF9nM09YWmlVWml0T250NnhtNjNmOVlhWlM5ZWhBN1RQT3B2SlZFeFhFUlRHdXdJNV80TldXU0M3dzYzenNzSjljMnhGdHFxcW9UUjlhTG5vbkkyMVFOMU5qOXU2V3hXTFN6MUZjMFFrS2pNa0w4Sll5aVAwMkFXR2Vpcw?oc=5",
-    "source": "Fortune",
-    "fetchedAt": "2026-04-14T22:00:14.532Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=Ub7yjEVrSf4",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "Ub7yjEVrSf4",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "israeli-strikes-kill-at-least",
-    "date": "2026-01-31",
-    "title": "Israeli strikes kill at least 30 Palestinians in Gaza, hospital officials say - Sky News",
-    "description": "Via Sky News. Auto-detected by headline monitor.",
-    "category": "humanitarian",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRnQ3WjVxNU5XbXVGY1owckZEd3BqbjVDbmNVT01QTk5UbHVJc1BYOU1icmdydERCalBoMnNMNkhadUdEQkJMUjEtSG9ZeHRpVnFobXRZR1BTcG54aUM4VHFPOUJUOGxhbFBpSkxKYmpFLUI4Qkxha3Zwa2xvdkV2V05odlFYaklyMi1iUlFvN0VJbnNQeWJLZmZKZjAwTUhDTjRIQ3FNeFcxTVZ0S0RFcTVn?oc=5",
-    "source": "Sky News",
-    "fetchedAt": "2026-04-14T22:00:16.171Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=SqBr_5wBMM8",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "SqBr_5wBMM8",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "israels-military-carries-out-airstrikes",
-    "date": "2025-11-19",
-    "title": "Israel's military carries out airstrikes in Lebanon after evacuation warnings - PBS",
-    "description": "Via PBS. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNcExodWh1NFBXRTgyWGg1MzBHUWFkU2FHM2RVUXQwdjkzanV6Vm9vRzdsY3UzY1c3RUZuOWpRdjVTM0hRaktyLWlKRENyWGpiR1R0dmRoWFBtVmJMNE93cnRnOFpwWmRhQUEzeHk0UjJxZEdObzdVYlQ5X1NPVkJKV2xDWE5mLVEzWXEzWVp3a1JfeTRrWFoxQ1ZaSGE0emtuQUNZZTZrRnFlZmgteFVCMtIBtgFBVV95cUxOcWRzZ084eUFnc0Q2cWJCSUhVaElrNXA0My1SMW5NUVFTNDBUNzUwUE5UNEtjVWVkUHVkRW0xeV9uRkZWRDNKZ2dGTU95ZERHeGFxTlhHcUpMS2RhLTVvaW9ISlpoUUV5OEU2UE94Ym9OT1ZVQ1JMQWUwODZJMkMta1Q5RER1cHRsenhTczlnUzZoYURBbHU5Sm56b1RhYlpoZkN2ZURFM3l2NHpxVE1fcm1sbEJyQQ?oc=5",
-    "source": "PBS",
-    "fetchedAt": "2026-04-14T22:00:20.833Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=h1IBugO3e6s",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "h1IBugO3e6s",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "trumps-latest-oil-blockade-brings",
-    "date": "2026-04-14",
-    "title": "Trump’s Latest Oil Blockade Brings Bigger Economic Risks - The New York Times",
-    "description": "Via The New York Times. Auto-detected by headline monitor.",
-    "category": "economic",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbTRBVGViY2pQRFRHRDVpYi1LYWhuSVBxT3NuSHpVZzVkYXltYnQzb3hsSmhxSk9uUElJcXV4S0dsYzdzRy1vTTg5cmhSMEtqZGUtXzliVTgwMnNfQ1NJQ3N0Z011U0JiUGJKM094ei02ODdvaTBUSUd0dEdfYThYQ19jTHdQS3JOR09MWURUTmNyMEI2cWtnTjNBV3hWalU?oc=5",
-    "source": "The New York Times",
-    "fetchedAt": "2026-04-14T23:00:11.433Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=hqyXbW7sbU8",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "hqyXbW7sbU8",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-strikes-at-multiple-gulf",
-    "date": "2026-03-19",
-    "title": "Iran strikes at multiple Gulf refineries, raising concerns further about a global energy crisis - cbs8.com",
-    "description": "Via cbs8.com. Auto-detected by headline monitor.",
-    "category": "infrastructure",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNbmw3NzZMZ1ZyNUxiOVllMVF0UXdTeWNKZHh5VGVJWUc0dU5BbkRYRGZyRDA0QVNQd2EtN29NQTR0emM4TWlaRU11TU45SlJ1VmdzN1ZqbDhjcTVDYjl4d0FRZnlwNTBQWTUzUkNqNTRFaGtjTFhWTWZfOU54OUEzajM2TlRWQjItcEpHZ1dMZ1NGQi12V3UyY1kwOTJDNUk4WHFUdTVFNUMycjB0cmJEa3BicTd0dU1sOGZiOUVUelRFdDhMbTZLSkVUVmlxOFd6bEhqZ0xNX255Nzg?oc=5",
-    "source": "cbs8.com",
-    "fetchedAt": "2026-04-14T23:00:13.056Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=XODpsOtGp-4",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "XODpsOtGp-4",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iranisrael-war-idf-hits-iranian",
-    "date": "2026-03-08",
-    "title": "Iran-Israel War: IDF hits Iranian refineries, Tehran retaliates | 10 key developments - The Financial Express",
-    "description": "Via The Financial Express. Auto-detected by headline monitor.",
-    "category": "infrastructure",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOZXJqNWtUMHBlNzdkYTZEbDVHT2c0ZG9PeFlLRm5xcDNiN0I1UXMxMW5uWC1zOGdZN3RQRXgwWGxQaXM5OFNsaUI5RXp2Sl9laWpFTXJhYXBhYUk4cWpUc0ltX0FtLVVOZUh2Z2pKMDNkR29iSGdKY3c2UzgtLTRSamxDZFl1ektXaTRmUmpXbFo5WW8wcGVIczlLN2hfMlo4Y2RXWk9uN24yQ2dWb3VBeXlGQjFSNUNVQUZyS2R2V01oQ1NJSlFfaFdYRF9HWU1nRHVz0gHaAUFVX3lxTFA3UGNYT2gtNkZOY1Nfbks1VHJNN3NoZG1aVzdZa0ZzQmdpankzUFd5eHhZeWI4ZVpHcEp0bm0yVmNjN2RuOVNxVFhMYlZaQ2dpRk1KQjVpdVRiYmpsZy1iUlh3Yi0tT2dQSzVmQ1h5TUtjYWFuMFZrVHlPQmtUaEhpQzZBS3k3MGhZTzgxTWJ1NzJacFpwcGRobG1FLWpLNFg5SS1XM2dTMlVianRzOVVodHhBNDJzRHhjcy1NRXJVcHR2VFQ4TVpLbmUweXZqQlZtM1RzOWE4cm1n?oc=5",
-    "source": "The Financial Express",
-    "fetchedAt": "2026-04-14T23:00:14.692Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=V4cJttWsQYI",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "V4cJttWsQYI",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "iaea-says-recent-damage-seen",
     "date": "2026-03-02",
     "title": "IAEA Says Recent Damage Seen To Natanz Entrance Buildings, No Radiological Impact - NucNet",
@@ -4588,6 +4426,239 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNZURpc21ESWNCbzBCUW9ISURPeWNwR0o5ZTdGTU1uRkRCa21EMGluVUJUczJPV3RHWW5xTG8xamMxTmNNLWkxOTBjQVNPTEFqeHp0QXhxUnlWS0o1TklNM2xvQURQVlZsQWVtM3RIVlozR0d1RTRFUFF2WXlIb0NiTUFR?oc=5",
     "source": "ochaopt.org",
     "fetchedAt": "2026-04-15T18:01:03.753Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "irans-bushehr-nuclear-plant-undamaged",
+    "date": "2026-04-06",
+    "title": "Iran's Bushehr nuclear plant undamaged from recent nearby strike, atomic watchdog confirms - The Jerusalem Post",
+    "description": "Via The Jerusalem Post. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBGZ3g1VGlQcWNUcEh0S0p3WGtIcTluTXZKUmc2Y3U1eTJ0STBpUWkzX0dJTDEyWjdrTTBiS0RZYVo2NVNhRTJ1VjloWGRQTV9qV3FTc1dzTmM2cEloZjd5dUNZRVB5ZmdGYlE?oc=5",
+    "source": "The Jerusalem Post",
+    "fetchedAt": "2026-04-15T19:00:12.650Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=lpDbLxwzsp8",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "lpDbLxwzsp8",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "natanz-attack-how-nuclear-sites",
+    "date": "2026-03-23",
+    "title": "Natanz attack: How nuclear sites could pose radiation risks if damaged - The Indian Express",
+    "description": "Via The Indian Express. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNQzY0OVc1bEVQVGFuREJlVHZXRHpBTDZnV1dnMV9GVGhLdlktdjFnTUc2Nk4xMl9sUWdrN1RsLUZRUU5SdjJDRlNUTVdlZE1zQTA0X2VRRW5kM2xDeDlrMDM5VkxSVFZMUGRvcGxPY2dWdTlSZzR5bGwxd291aU1HaGpRb1owRFZrNXE0QWlPbnkxX1VFYXhPdERqeFJtaHVUVWRqMmZxRDZCRzdZRVBDTDNpSXQ1b1VJaGVwV0F3WDE4QdIByAFBVV95cUxNbTR5cmdveDR4RGM2eUlUa3hnVVhETXdpQThqNjZRa2JkdTRpNzZMWVJFVExSZTVma3QyZDM3SHllc05GWWR1Y2Q4dXNLemRJT2c1WXE0cHVUZzFMeFpIQ2ZVWUhySG1qTjdQQU5wa1dsMTFQZDBjQ1NfNmtmTkN5cVNLWnd1MThHcW4xYU11bTRVNGNvNldMbUQ4VVEzNFQyamZrLWg0Smh0YkZ5QWZIdGtLbFNCYkRuWG91LWFFcEwxWHFvWG5fRA?oc=5",
+    "source": "The Indian Express",
+    "fetchedAt": "2026-04-15T19:00:14.154Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=_JAvMXINArQ",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "_JAvMXINArQ",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iaea-says-strikes-near-iran",
+    "date": "2026-04-06",
+    "title": "IAEA says strikes near Iran nuclear plant 'must stop' - 香港電台新聞網",
+    "description": "Via 香港電台新聞網. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBlbHE2cndpMDBnYVRWMjRwRkV2NlZkdUFRX2pwWkQ0emx4MnpjSFFKdWxFczItMmlRNXVGTDdCc2JkWmVYbkhJbTc3cHpIU1FCdV9zOXVYSjhPc0FCVV9Xd3BobE5nVklITDlPcHNCZw?oc=5",
+    "source": "香港電台新聞網",
+    "fetchedAt": "2026-04-15T19:00:15.733Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=qDGsSJ8cYtU",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "qDGsSJ8cYtU",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iaea-issues-warning-over-radiation",
+    "date": "2026-04-05",
+    "title": "IAEA issues warning over Radiation leak after joint airstrike by Israel, US Near Iran's Nuclear Power Plant - Dailyhunt",
+    "description": "Via Dailyhunt. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiowJBVV95cUxON3NTWTRDOU8tdDJVRk1nRURIV1lIbVowaEo0cWRWcnlFdkRPZlo1d0E4VGdiQklSUmtKVmpYQWd0UEtIdVd5eWxkVjRadlQzd0JheWRSN1d0MG52VHFzUnZtN3BEU0JiX3RFcXNXbldoX0RaeTVibGVGelJwazlzQ0c1NFhqR2pjM210T3Mxa1dydHl6MFhCeEY2ZTdacUZBdU1jM2JieGV4R3FnYWRBZFVuZjZDNjJEWkVQSXUzQ1BURzBSVjFIVFRBNEkzTHlGUGxMRlJDUFlZLXgwc1RPUmIyNDVZemlZaWtNeW9mZ3dCc2ZqaFQ4U2xWc2hnN1o0ZElMc0ZxRmNfX0VmZWtkQmxLeG45MC1XTW52bXRQWUg4d2M?oc=5",
+    "source": "Dailyhunt",
+    "fetchedAt": "2026-04-15T19:00:17.347Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=wXQkUS4MeUc",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "wXQkUS4MeUc",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iaea-confirms-damage-to-entrance",
+    "date": "2026-03-03",
+    "title": "IAEA confirms damage to entrance buildings at Iran’s Natanz nuclear site | Iran International - ایران اینترنشنال",
+    "description": "Via ایران اینترنشنال. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9wMS1FOUV2eG1uZXlYRGhuVmFwcFR5WXJaT3d0MWhKNGs4U1J6QTRIdFpFbWtlamRWTXdCNmpmelpwQlhMeGY3dHBoTFdBU1JwQ0E?oc=5",
+    "source": "ایران اینترنشنال",
+    "fetchedAt": "2026-04-15T19:00:19.620Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=MuOUznN7wQw",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "MuOUznN7wQw",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "un-nuclear-watchdog-demands-full",
+    "date": "2025-11-20",
+    "title": "UN nuclear watchdog demands full cooperation from Iran on sites bombed in 12-day war - The Times of Israel",
+    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMEM4Zmk0ZnFiU3BSZFMyV196SkdCOV9xMDdlZUNEdlVKakhla1hqbjI4SW4tNjdscTZFekVvSGdwNW05dm12MFpDTzBkRTlLU1hxSE10X1VETWRvSkVGcmtXY3QyUmxEbjQ5WEpsYzJzNU53bzJFSDdHT19mRnB0RUt6LWN0clFKM0thNFlyNUlzUUxUOElKS1pPRGdobDNFQUtnT2JjWTh6X19hTURGVzd2bEo3UdIBuwFBVV95cUxQaHdEd1lxbHEyRUFfYUx1N0w3cE5UQzhyaHVOR3VtODZveGY0ZVUtTzVYLXRTdXlYQlBEa0xHTEYyU1hZN3JYVkpjUGtha2ZaVDRuSDJHei1KUVdpemtmbjNLcDNXcHVvY2lVeGJkcnFMMXdvaUROSU04b2JxNndTTjFMRUlZLTFpTVJqNXBBZzdUb04xSkxFbmhwdng5bU95ZGxNUVl6RmZhOUp1REIyQ0RKYy1CM3JfTWUw?oc=5",
+    "source": "The Times of Israel",
+    "fetchedAt": "2026-04-15T19:00:21.775Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=4NzVl8n-lJs",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "4NzVl8n-lJs",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iea-oil-supply-disruptions-to",
+    "date": "2026-04-02",
+    "title": "IEA: Oil Supply Disruptions to Impact Europe from April - Marine News Magazine",
+    "description": "Via Marine News Magazine. Auto-detected by headline monitor.",
+    "category": null,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQdjE0N2J3eGhXR29ZV2VaclhLUUhRaG9tcGNBalJJYWgzOHhhSkV4YXVQRmFoQnJNSnMzdFF2RkptdkhheTJnUG9SYmE1aUVSbU92Sm5LX2pTckg2cnZTWTk3RGs5OGxycVNlbG5HVW5sT0tMR1BDVWtwYXFuaW5sOEphVjh0Zw?oc=5",
+    "source": "Marine News Magazine",
+    "fetchedAt": "2026-04-15T19:00:24.050Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=0sIZR56Di5A",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "0sIZR56Di5A",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israeli-strikes-in-gaza-kill",
+    "date": "2026-01-31",
+    "title": "Israeli strikes in Gaza kill at least 30 Palestinians, including several children - PBS",
+    "description": "Via PBS. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOLU4xZ3ZxZ2oxMmwwQTk0T2RQTnB2Uy05TGwyLWIxakM4ejl5eFZBa2hjTENENFRVVWNKOTNFQkZfUnVxcFZTcnRtNUlmd1VXSlg3djNyclpTQWFKcmZwWWdPTjR1czNjaHZHeTBjNVpUTE1lY2liWWNLWVVPd2V2b1ZMVGxCb2lFMlJJNGFaWUw2V1IzbmpFSV9hY193MjM0cTM1c2V2YnNKem9yMTY5cmQ3OFJHZ9IBuwFBVV95cUxQUkNLYkZLVDFMTWRHN3dyTzZpa0pnOUEwWnI5UEY5RG1SU1NTbHNzUmU1bHBMSEZOXzY1dUVpalhNekJhdkhyYWtKN2xTZ1h1UTlNR3IxQ0p4NmxQS2JfTmNrLUtLLThoeHhSTEpkM2c1TlNlRmVhTWxZQW9Wd2hCQW1pX1lYYzljQzBUMGdjSktRdy05eHJjVzJvYWQydElqN3oxLXB2YW9kMEpuUlVGSlB6dW8zMGg0OWh3?oc=5",
+    "source": "PBS",
+    "fetchedAt": "2026-04-15T19:00:26.345Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=fzffZC_dLBI",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "fzffZC_dLBI",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "palestinian-death-toll-in-gaza",
+    "date": "2025-09-04",
+    "title": "Palestinian death toll in Gaza passes 64,000, officials say, after ceasefire talks break down - PBS",
+    "description": "Via PBS. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZnRGMnNxVlgxZExjUER6ZV9jbTVLZ0JyR3lWVk8zeTkweHUzaWdtYVlyNFdBWjk2cEszZm50bnd5Rkx4bk1VTUx2aEZ4ZDk0ZUdHdUY2eWNaXzAyNWdsazJ6MHM0Z2FPVXgxb0dGdkRwZGUwV2ZiaW5TaHJaNzNuOHRKa212dm1iU0NpTnRZcGxrc3EtX1ZpU1dmTjR5Sl9GZzBFRmM2ZzIwRW5zbzJkNmhwT2IxcDNKV2kwcHlNOU5jYlnSAcgBQVVfeXFMTy02SkpJN3lqREctcHV2YzMtSjVPTnh6My1OdWtacDhJQWtBYlJFVWRJdzdnMDB0aG5mV3F4c3B0V2t2WWxPUGpKZFdKNzVDYlE3dnRuQmdycXEzQkZkS1BHWVgzaTZmWVJUc3JwZUgxcnU0ckVpb1pMUnJVUjdqU1VmREllajRUX3JFSi1VNmxVYnVwSzZsWkVEb01hZER2Z2sxRXRYTUl6cmN3RWgycm1Mc3Ftc2tzVGRvYTJJRjJYaW9LckNfQ1Q?oc=5",
+    "source": "PBS",
+    "fetchedAt": "2026-04-15T19:00:45.741Z",
     "mediaUrls": [],
     "videoMatch": null,
     "lat": null,
