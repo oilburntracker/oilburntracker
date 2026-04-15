@@ -8380,5 +8380,22 @@
         "label": ""
       }
     ]
+  },
+  {
+    "id": "auto-ukraine-hits-port-in-russias",
+    "date": "2026-04-05",
+    "title": "Ukraine hits port in Russia’s Primorsk, oil refinery in Nizhny Novgorod",
+    "category": "facility_damage",
+    "description": "Via Al Jazeera. Auto-detected by headline monitor.",
+    "lat": 30,
+    "lng": 48,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSlUtVUFrOFNnN2Q3YURQZXN1MTNXU3lJb3lQX2NaUDVZWWtEbkVVbGgxcFZxWk9ISUVOWFBjb285S0oxZUNHZVQ1N1hvR0FxVWhQLW5DVV8wa2RmWXFJMUxvNHFzSldBNldEcGhwS0x6aXJYOGRySU01bmk4Qlk3ZnJ3WV8xN2pXWnM0a2NIVGNFNXViczV3Z2dzQldkSF81X2tMZDg0dFdqTFRU0gGyAUFVX3lxTE9PYlF3NmJoS1lpMU5QdWJPeXBiRWp2NktFYnphSmlybW1aQk5maGdHX3ctajZvSGVrTm4zODI0MlpPbHFiY0xPdE4wajg4MHo0ZVFTWkJqTXQxLVQ0Y1B5N1laTEU3RVZJQ2VqOGtkUlpZVmhXTlJDa3QyUFpiTmVxMlVsNURTX2hRamYzd3l4d1Rzb3VZTFZCdlpOM0VYNUJsUW0yemFHTkNsN3FBWUM3UEE?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=A9X8N1AueCk",
+        "label": ""
+      }
+    ]
   }
 ]

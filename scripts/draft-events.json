@@ -1,194 +1,5 @@
 [
   {
-    "id": "fire-erupts-at-haifa-oil",
-    "date": "2026-03-30",
-    "title": "Fire erupts at Haifa oil refinery in northern Israel after missile barrage from Iran, Lebanon - aa.com.tr",
-    "description": "Via aa.com.tr. Auto-detected by headline monitor.",
-    "category": "infrastructure",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPMTlIaW9JaXFUUmw0Ni01RHVKQkVmOVRGT2NEZkhYbkF3eWFSMkRRN3BybHJpYWdBME5pRFV5SG1XNm9xNXh5bTQ0VUFKS054cXprcDBFTjR6WE54Vk1XaEs4WjZzb2Q4S2UxUWhsTmxZWkxqb1hpTkE3NEI1YWFyb3U3WmJudHpfYWxSaGZrNUU1M2lTdW0ybG5sS2hEakhlamJqUjY3TzlLQ3BpQUZBMXF4M1ZoRkpCSkx1ODM4bDQxWTg2eEdHcUhhbG8zYm96Nnc4?oc=5",
-    "source": "aa.com.tr",
-    "fetchedAt": "2026-04-14T18:00:12.189Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=xiO6JYsnoeo",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "xiO6JYsnoeo",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "un-nuclear-watchdog-warns-strikes",
-    "date": "2026-03-26",
-    "title": "UN nuclear watchdog warns strikes near Iran plant risk ‘major radiological accident’ - aa.com.tr",
-    "description": "Via aa.com.tr. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQZDg3SVFNZXAyWVc0c2xPTUlJMllyMUJJc1l6cXI1V2RVNFVjbEl5ZEpLNlBSaGs0SWxCZzhGb0xscXJtWWRoaEl3LVRGYXVSdG5EN1NFOGN6c28wYmpNZUJybGhYWV81ZmVPVGJ1SHhvTk1ldVg3MXVna29zSlM4MGVHWllIRmFLYkxjLS1DMlNCdXlhS01MS0ZQam0zUWdxMmUyeVEtN0lXdGxDRmpuSUFTX2dYTGlaUXVHQlNXdXlSSGYyeXNv?oc=5",
-    "source": "aa.com.tr",
-    "fetchedAt": "2026-04-14T18:00:13.913Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=o5-AAWvq8qE",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "o5-AAWvq8qE",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "us-israel-on-sunday-targeted",
-    "date": "2026-03-02",
-    "title": "US, Israel on Sunday targeted Natanz nuclear facility twice: Iran's nuclear chief - aa.com.tr",
-    "description": "Via aa.com.tr. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOejV6dnpsYWlnUzhYX0JTZ0t4aG9zbjBmcDRfcWhMdEdRTFREMmNGZ1BhV19mMk4yOUZQdWhKZ2dMMFNmWEg5bTRWZkFteEI2STlWOHFTY3Rjc2VsU1BvbmtjLUUwU3MySVpJMWwtVzVnWFhjNjI5My1YQ2NYVUZ6YTI0UWZ3N1pQV0lKMEZzcFd4UGFUSk81MmM1V3YzN3Q2R3F0azNDWmtPdXZUazhGcnV5X3Z1RmFQTlZpVA?oc=5",
-    "source": "aa.com.tr",
-    "fetchedAt": "2026-04-14T18:00:15.510Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=_JAvMXINArQ",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "_JAvMXINArQ",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "un-nuclear-watchdog-says-no",
-    "date": "2026-03-02",
-    "title": "UN nuclear watchdog says 'no major military activity' targeting Iran's nuclear plants - aa.com.tr",
-    "description": "Via aa.com.tr. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNU3hHVDc3X0Z0Y2hwUldYelZ2WTkycDkxckR2WTdIVWdDVDRjcEF3VHFxVkJZbS1RMDFSNlJ0RGV2V2c0S3RuQmV0WURYYU1KTlp0WUN2VXd0OHVadDBmLUF3SkE1U3hzcTZJSXl1bllRMmtSdHpwc0VIa01hTHE5bkRWT2p6Mmc2OVotcmlNX0diWXgteldHMnM2QXJUWUxYT3dfOHpXdnRvRzBQTy1MT1pCbnJKWU8zaGlhS2tiZzB3cXpYTlE?oc=5",
-    "source": "aa.com.tr",
-    "fetchedAt": "2026-04-14T18:00:16.975Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=jFgz94il0hU",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "jFgz94il0hU",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "un-atomic-watchdog-has-no",
-    "date": "2025-12-16",
-    "title": "UN atomic watchdog has 'no right' to inspect nuclear sites hit by attacks: Iran nuclear chief - aa.com.tr",
-    "description": "Via aa.com.tr. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNbXZjX3JoUU1IQnEtclNvZDU3OERmanB6OFRhYThmeDFheWRDZVBkM3NEbGk4eHBwRHplbGJZRlA1S2R2QzRmQnRoaUpsU29FR0hRcVljY2dqTDRndVE5S2NPVDZtUGFudWlhTnFDLXEyYmk5VDEzLWllbjFUejNrcTFMVnRzYloyZ3dwX0Y1OEx3b2RDVkw2Wl9OWm1CT0EwLV8wVl94TUU0ajIzTmd6a09LSG9weC1LMlk5ZTRUX2tRc0U0U0ZlbQ?oc=5",
-    "source": "aa.com.tr",
-    "fetchedAt": "2026-04-14T18:00:19.308Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=SXT33958tBQ",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "SXT33958tBQ",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-rejects-inspections-of-bombed",
-    "date": "2025-12-24",
-    "title": "Iran rejects inspections of bombed nuclear sites until IAEA defines ‘post-war conditions’ - aa.com.tr",
-    "description": "Via aa.com.tr. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQQVlMTlcyTHVpQy1yMko4MHpxZkN3eVptOU9EUWhEUXJwaG1oMktnYnVKWklCaU5Ud2FJeWJBZmFSX3BxeDY4ZlJMVmRoU2FKMTRkd0JSNVRORlFwOVgyeEprTU1LTGZjLWlWMW9sdGxCZ01LTTZHNkZ1ZWNYMk8yRUhyd2lmM2gybHhReEtFaDVVZHdiOW0xVl94NU13dnRDQ3lQM0JSb001ZURLTlROWm5XVDU4SFZTQWhDWWlMM21uaDJBMDdDTnlQV2stZw?oc=5",
-    "source": "aa.com.tr",
-    "fetchedAt": "2026-04-14T18:00:21.773Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=3AQbF_R2UAg",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "3AQbF_R2UAg",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "nearly-1500-civilian-deaths-in",
-    "date": "2026-03-23",
-    "title": "Nearly 1,500 civilian deaths in a month of US-Israel strikes on Iran: Human rights report - aa.com.tr",
-    "description": "Via aa.com.tr. Auto-detected by headline monitor.",
-    "category": "humanitarian",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxObTlKTC1faXQwbVhjNkpIZ1RVWURNUGpITno1bndxWFlFUnNlNkJjUFNJV0FGLXJXMEVVanY2U3V4djlpamZTN2JYVHh4bEwtbW4teWd4LTFSTGxwelM1TzhmVkxreXY2SWZTSXhfbXVUcXJmcjFiZVBtZzJ3TGUyTndvdV9DYUszN3Jsa3FMUmE5cWJSZ3NUT3FueFNkWXJ4SGJLQ3F6UlpISFVwaG9jUnRucnIxOXBwRzVlVG5UaFpCZlhtUGM3QW1hYnc1Zw?oc=5",
-    "source": "aa.com.tr",
-    "fetchedAt": "2026-04-14T18:00:26.105Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=Pegz-s2LM_4",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "Pegz-s2LM_4",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "uae-says-2-soldiers-6",
     "date": "2026-03-18",
     "title": "UAE says 2 soldiers, 6 civilians killed in Iranian attacks since war outbreak - aa.com.tr",
@@ -4713,6 +4524,168 @@
     ],
     "videoMatch": {
       "videoId": "BNFU1UonsgA",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "us-military-turns-around-6",
+    "date": "2026-04-15",
+    "title": "US military turns around 6 ships, ‘completely’ halts trade from Iran’s ports amid blockade - The Hill",
+    "description": "Via The Hill. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQT2FpY1FWNHp2ck50SUVaSW5tVWpTb1FoTjVhejZmdXNaNHRZZm5QZ1BmUGxJVXdGVDRzYjhCYnVleC03d04zTFlNQXZUcDlhY1BPUjBzUHBmQnpZTHRVcXNLMU51UFhwLXc2LXNrRlFxNDdBRGwwZjgxNXl5SnNzdDVzaWZKSFltcmJGcENISWpHNjBLbFHSAZsBQVVfeXFMTVJndmpVd0VmU1FvOVVYQWNESTZhYkRoNDhhODI4QUtEZGtHX3FEc2hQWW1oODlXR1hqRlBiRWo4cGJCRTllelhtSDM1cWRQU09YM2FUb3p2ZTZCUVBLVmJaMnVnb2JwMHdfZ0ZEVXdlYUhlc0toby05M1Z5TkJZOElYcktNMmhtQzJIZlF1MUZSSFkxUU1jT3Rrd2M?oc=5",
+    "source": "The Hill",
+    "fetchedAt": "2026-04-15T15:00:12.732Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=lTa4H30x5cI",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "lTa4H30x5cI",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "us-boasts-no-ships-moved",
+    "date": "2026-04-14",
+    "title": "US boasts no ships moved through Strait of Hormuz in first 24 hours of blockade - New York Post",
+    "description": "Via New York Post. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPRnF2M1M1WDl3Y2x4QTdhTVhyX01JN1dWNUJpT3kxVS00ZW9KblFrUmFrUWVESEdJUUo3enpBdXliSFllc2w2RVVTQWZ3LWFSUWpyOUVTNVZ6N2VvdjVPcklXaWF6ZVZrQkx6SDdjem5fbVd0b1FDRUUwd3ozWGdDM2lQMkVoUVJCSlIwelVpcGl1bHdiY2R5Q3F2a1hFQ2lKN21rTk5fX1ROQlZ2d21HTjZzbjh0REZ0WFlBcF9mRktCbXBXNXVmQjB5V2pWQQ?oc=5",
+    "source": "New York Post",
+    "fetchedAt": "2026-04-15T15:00:14.335Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=Sy1ztgomFH8",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "Sy1ztgomFH8",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "brent-crude-surges-to-128",
+    "date": "2026-04-15",
+    "title": "Brent Crude Surges to $128 as Middle East Tensions Drive Oil Prices Higher, Pressuring US Inflation - AD HOC NEWS",
+    "description": "Via AD HOC NEWS. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPSUk3dTBxOVFxWlBmUlI3VEYxYmNVYS1CdU5pQmNXMERrT1JxS2EwbUNuUjg2QWVjc3VJQm9GY3V5S21aZEprWTJNUk5TeGtzdGQxMVNOV2dUbi1xZ1p6VlZPajJpay1Nc3loRm9hOWl1TWZDQTg0aGpaUWRDZkZOSGU2ZFNpbU9XX0xSNkJkLXdQWWxRVmxXVmlydmgxWFVIZ3VMOVNGa3ZGdE9rd2JDbWR1VEx0YWRLQ0s2OTd0UzBvTTg?oc=5",
+    "source": "AD HOC NEWS",
+    "fetchedAt": "2026-04-15T15:00:16.033Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=Yp4wFZeY0fk",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "Yp4wFZeY0fk",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "brent-crude-futures-close-above",
+    "date": "2026-03-12",
+    "title": "Brent Crude Futures Close Above $100 a Barrel For First Time Since 2022 - WSJ",
+    "description": "Via WSJ. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORXZBR0o4ZjRVbEd4bllmTG8xbFlDSXB3QU5xTXhSTEhoazFvVTI1M0NxZWRDM2VuN1ZFM1lObEs5U1prQUtTNFNYUTVkbC1EdVdpQXVDRTNoQk5UX0lpNkV4LVIxT24xX2NMd3ZGZkgwUlk2bjRCMGN5djlZM2lhUDNpQUFUeGxiejdBQU1QWVlYdnAydmhMRXM1bVk5T3JMNU5ZWHVzdjJXU0U?oc=5",
+    "source": "WSJ",
+    "fetchedAt": "2026-04-15T15:00:17.639Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=cLL4WXpC-7g",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "cLL4WXpC-7g",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israeli-strikes-in-gaza-kill",
+    "date": "2026-02-04",
+    "title": "Israeli strikes in Gaza kill almost 20, including 2 infants, hospitals say, asking, \"Where is the ceasefire?\" - CBS News",
+    "description": "Via CBS News. Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQ2lNTldqU3hPWE03S00yZU93eTB5ek5oT0RTM0llMS05TUI4NGRlN1FMeHJ2WGVPTGZhVjRQcUZ5N0VyZDdGQ1FkSjh3aVVyU3lpUmdJV1c2aHpZWFdTRmhRZWt2eEM2QUpEZnE3dzRRRmsxNU9YNTJmWnZuUU5xUVRrTUZCNUFKV3BBLWNzUmJTUnFGYjF3cEpBVGZqR2JnM25XRtIBqgFBVV95cUxPbUJ1ZkM4ZEVQZ1FVbHBtdk9VLUY2cklpZFRxZFRxeXlQelhtUlJLVEg5dWxjdUtmbFJIcVBLMXJXWlZBbzBIdnBONjVLT1FpY2ZVWUFib0I1MWl5Vll3Ql9Kcy1oLXR5QnVpWV9TbGh1MndlT1l4eEZPUDI2TkEzNTdsVjEwdTJvd0pacFpJdzU1OF9mT0pNRHZIUERzaExacHNNNnhib1UyZw?oc=5",
+    "source": "CBS News",
+    "fetchedAt": "2026-04-15T15:00:19.935Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=TOQYZW2miWk",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "TOQYZW2miWk",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-strikes-put-20-of",
+    "date": "2026-03-01",
+    "title": "Iran Strikes Put 20% of World's Oil Supply at Risk Through Hormuz Chokepoint - gCaptain",
+    "description": "Via gCaptain. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBzUUlCUm1sQ1hud2pPZWstTm5sQXZCZ29KWWZoWndpS3NqaklNODVqQnoyTUF6ZVJrbTlYR2c3YlVNZ1IwVHRkb0ZOeWYxbVpZMjNFSzZSb0JrbkptZHdZcERjc2JkRTMyc2NZWEtBcF8xV3ZP?oc=5",
+    "source": "gCaptain",
+    "fetchedAt": "2026-04-15T15:00:27.195Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=ydkxQjg_qEs",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "ydkxQjg_qEs",
       "title": "",
       "confidence": "auto"
     },
