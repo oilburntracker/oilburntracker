@@ -8176,7 +8176,14 @@
     "description": "Via The Guardian. Auto-detected by headline monitor.",
     "lat": 35.69,
     "lng": 51.39,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZFJqYjhrOFBLeEl0TnRSTC0xZ1lDOW1oU3FwUXhWTER1QlJtUlpSU3ctUjctLTNYVkFNU2hfem12a0FfRm0yM2FqNGltM0lEZGlWZ0QyZlZwUVc4Y1pXYVJSY3UwWXFoMHhPRmV5ek1mYlM5dVZsU2RfR2p1MldkWEc4TVJ2SkRrUnYzUFd6NHRhZEFnMFUwZDd2aktxS21ZbVVPaElmcXg3d3dPd2RYeFlJZ0Q?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZFJqYjhrOFBLeEl0TnRSTC0xZ1lDOW1oU3FwUXhWTER1QlJtUlpSU3ctUjctLTNYVkFNU2hfem12a0FfRm0yM2FqNGltM0lEZGlWZ0QyZlZwUVc4Y1pXYVJSY3UwWXFoMHhPRmV5ek1mYlM5dVZsU2RfR2p1MldkWEc4TVJ2SkRrUnYzUFd6NHRhZEFnMFUwZDd2aktxS21ZbVVPaElmcXg3d3dPd2RYeFlJZ0Q?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=UKNNetqct9A",
+        "label": "Analyst: US pressure on Iran through Hormuz blockade unlikely to succeed | Al Jazeera English"
+      }
+    ]
   },
   {
     "id": "auto-iranus-tensions-what-would-blocking",
@@ -8196,7 +8203,14 @@
     "description": "Via Al Jazeera. Auto-detected by headline monitor.",
     "lat": 35.69,
     "lng": 51.39,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOakhqOVlfSmdGLTRlRDE0aGp5bkNtalcwMW1aTlItLTZPVnFvRHN3MzFxS0FqU2c4UTdNcTBsSkx4NjVFbXRHb3BaUlpDVFkzR0ItM3Rab2ZqR0lXeDAzUktCM2l3UGRaQlJocHN2dEFVOXFzVVEyX1RfV0FPczd1a0UzOVZPOGEwTjlTMy12NjRxMXhrZDhOeDJkY29tc2ZFV0ZQbGVLc1BzZFY4Qmg00gG0AUFVX3lxTE4wSkxQSjViZkloY3JzNHQyM0EwVzRjRmp2Rk9QdkFKYTVHX3laUzFRUXdLWDZXR24wOGd1WndndjFiS1F2MUxhQXVQNHdvTHVVWUdXY1c3Y19fYmx2UTdmQTNzSTZucDBCRUkxeDQ3RkNzWTlfdVBqYlBLa0xBbU5yVXliSEl4Q3BiMmVuN3NCb25mSjY2eUxZNUJWem5URmQzSU1TRzBxS0tBVmM3UHBUME1fNw?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOakhqOVlfSmdGLTRlRDE0aGp5bkNtalcwMW1aTlItLTZPVnFvRHN3MzFxS0FqU2c4UTdNcTBsSkx4NjVFbXRHb3BaUlpDVFkzR0ItM3Rab2ZqR0lXeDAzUktCM2l3UGRaQlJocHN2dEFVOXFzVVEyX1RfV0FPczd1a0UzOVZPOGEwTjlTMy12NjRxMXhrZDhOeDJkY29tc2ZFV0ZQbGVLc1BzZFY4Qmg00gG0AUFVX3lxTE4wSkxQSjViZkloY3JzNHQyM0EwVzRjRmp2Rk9QdkFKYTVHX3laUzFRUXdLWDZXR24wOGd1WndndjFiS1F2MUxhQXVQNHdvTHVVWUdXY1c3Y19fYmx2UTdmQTNzSTZucDBCRUkxeDQ3RkNzWTlfdVBqYlBLa0xBbU5yVXliSEl4Q3BiMmVuN3NCb25mSjY2eUxZNUJWem5URmQzSU1TRzBxS0tBVmM3UHBUME1fNw?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=UKNNetqct9A",
+        "label": "Analyst: US pressure on Iran through Hormuz blockade unlikely to succeed | Al Jazeera English"
+      }
+    ]
   },
   {
     "id": "auto-shipping-in-strait-of-hormuz",
