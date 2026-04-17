@@ -1,198 +1,5 @@
 [
   {
-    "id": "strait-of-hormuz-oil-tankers",
-    "date": "2026-03-06",
-    "title": "Strait of Hormuz Oil Tankers Drop to Zero in Iran War Blockade - 조선일보",
-    "description": "Via 조선일보. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeW1Da2JfTkFQSV8zNk96a2ZfRmVfQUR5dEg4UHZ6NHo2ejRFNlZaSkN3TGpydUNib0Rua3EyU0pIazJmSDZCU3RVd2ZCR0tnQ0lOMFp3ek1hSDR4MXZWMG9meE5JWHZKNWtSZjlBWXZLSm9KUGJlWE1IRHZzbG5xVFFWemE?oc=5",
-    "source": "조선일보",
-    "fetchedAt": "2026-04-16T11:00:16.345Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=_Ctzau-PYzk",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "_Ctzau-PYzk",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "casualty-figures-across-the-middle",
-    "date": "2026-03-10",
-    "title": "Casualty figures across the Middle East as Iran war enters second week - South China Morning Post",
-    "description": "Via South China Morning Post. Auto-detected by headline monitor.",
-    "category": "humanitarian",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSy1VTTZ1RVNrSXlOZWRVVTF5d0hyME83ci1Ma01oRV9vNUxXWHQ3OGpLT0F3Vy1kY0VUM1NPN2ZuZC1MbVRXRkJEckwxU2ZPTFVGZm1UaXZ3bi1acDdtVW05OGIxd1lUdVNFUHRFOWxvTjVnaXJUNGkyYV9CSXJ5ZnAzSkotODJtR3BYdWxuOEtSakFhbHhjWjl1c1d5M3NraTdfSzdZT3lvVHhSdzd2amZ1NTdrWnQtQVU1LUhaaFDSAcABQVVfeXFMTXJ0VWZwcFMwZ1MwdTNUYmNwd1Y3bHNZakVCejZ1WVRRSi1oMjZIaV81Z21fb0VOeGYyRm11eWRrNTAyOWdyN2lIcXJaX2c4QW85ck9Cdks3eGVkZXI1Qmh6QUVzS2hzaUlfdDBidWZFbVJvQ3VGVV9jTTdGTGRSZXFMaFpfdEdLbG9nU2xXMkowTU1uQ0xNT2NmZTFBc3g5ZFpxVk1QMWFLejZ0U2ViZXN6dGdDLVpUdjk1MVFVTWhJ?oc=5",
-    "source": "South China Morning Post",
-    "fetchedAt": "2026-04-16T11:00:18.927Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=8XcLFK_LTu8",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "8XcLFK_LTu8",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "prices-for-oil-fuel-cargoes",
-    "date": "2026-03-19",
-    "title": "Prices for oil, fuel cargoes smash record highs as Iran war chokes Middle East supply - Reuters",
-    "description": "Via Reuters. Auto-detected by headline monitor.",
-    "category": "infrastructure",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPVldKaVdkWXZRVFZIMXlJNy0wUjEwOXBQRGpLUlZJZU1KU0NleE9LZFNabUpRU01POWthLTZqdWNzSUhXb0RHLUh1d2V2RVgtMTlyX1RSN2Uwd3JweTZiWmNiTDJ5a21TT3hVREV3Rm5sMjJrYlRTLXNsdDhnZ3FRdXZkajB2bXYySFlVcnptYmkxMmFXejFmWERfa25xMFFNSTJVYm1kTUs4QVVxOGZIQlp5em9WZjBqeEFHMEZ4T1N0UFk1eGZpcg?oc=5",
-    "source": "Reuters",
-    "fetchedAt": "2026-04-16T11:00:23.762Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=3GRi9FcQzNk",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "3GRi9FcQzNk",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "oil-prices-surge-to-cross",
-    "date": "2026-03-02",
-    "title": "Oil prices surge to cross $80 after US-Iran conflict engulfs Middle East and Strait of Hormuz - Yahoo Finance",
-    "description": "Via Yahoo Finance. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNdzh6UG1QWVFLZDQ4OEhaNTgtc3VBaDY4NFpCaG55VlYta2FaWnQ2VGhXNnp0RXo4c1FlVzlFUmVWTFRHYUlsSDVLU0duNXVadlRQelF1SWV5bERhdDBGbmRZNVlNS3dFYzlHdENXbzhuQjFuN3gzUi0wblp5SGtTbzlCbVV6X0l5R25QR3BoU0tPVzNsNkdxWXZIN2ViVVJEWThzMkJxODFGOU9BUEV6cEZuTmVjbFplb1lfdlh1U2RPQXRBTWs4SHkxN1pwb2FNY1NmMQ?oc=5",
-    "source": "Yahoo Finance",
-    "fetchedAt": "2026-04-16T11:00:26.065Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=GBaUDISrs5k",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "GBaUDISrs5k",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "oil-jumps-to-highest-settlement",
-    "date": "2026-03-20",
-    "title": "Oil jumps to highest settlement since July 2022 as more Mideast supply disrupted - Reuters",
-    "description": "Via Reuters. Auto-detected by headline monitor.",
-    "category": null,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNd2Rpc2pia3d3NWVCUWNYTGo0b281N0RpbEx1MHVNR0JRbERGZnFsVGQxbHV6ZElVQ1dDNDhmRzJPVDNFWUJoLXVPT3VPZVh0eVBUOVNyZWtSV2NLeHZRaFJmQ003OGo1bU5Sb3pWY3VYUWx3a09ma01KbnBkMzdZYU11VDJ5TkJGSzhobGc5RFY0LWVrZFR3cENXWERlTU1wTU1YNVZsSFU4clBOVzc2UQ?oc=5",
-    "source": "Reuters",
-    "fetchedAt": "2026-04-16T11:00:38.383Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "oil-prices-rise-sharply-in",
-    "date": "2026-03-01",
-    "title": "Oil prices rise sharply in market trading after U.S.-Iran attacks disrupt global supply - CBS News",
-    "description": "Via CBS News. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA4b1l0QjhjTlh1RmJkb2Z5azM0aVEyOHpDU0pYS1ZPUnFkMzZWWmdrQlA0ZTlVVXhmdm5PcU94M1NJYmlqN01YX0xkRnk1aVZqaVgtVl9COVE2V1lqRVJUMVVuMXpaZ08tRzBENTZfUl94V1hPalBxQUF30gF_QVVfeXFMTTRMR2swbGxteGJKVTFyTjFidmtyLUJNTXhhTnRPejhBb2otazlCOG94MG1vR09ab0haaGYxcTZGdnFqNkdQTDBzaEFCdW5SSDZwYUFKLTlPeDFFQzhIYkFTbm8wWUZSeUtoNVplVlpsOUdBalFuempJYklwVUtIdw?oc=5",
-    "source": "CBS News",
-    "fetchedAt": "2026-04-16T11:00:44.957Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "oil-prices-up-1-as",
-    "date": "2026-03-04",
-    "title": "Oil prices up 1% as Iran crisis disrupts Middle East supply - CNBC",
-    "description": "Via CNBC. Auto-detected by headline monitor.",
-    "category": null,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdlNEd1ZfMjdiSmZ6VkZFc01KSjBVTjhOSW9xUjNMcDNBNHBhTGFHblRqLVA2cnNGcW1RQTd5YlczUkE5aU9uVEhvc2hjUUJyM3NzWGZNUFRtTjY3TENFdGtmZ0hEMTZYR0l4WERfTHR3c2NBMDZ5Ri05Nnhjb3ZjYTZobkg1akp3N1JiNjNlODhUTjUtSEIyY0pVMzBsNG9xOGsxVNIBqgFBVV95cUxPWWREbjFIMzdKaDVnYVc0MWNxMVhJQjhpOHh5R0FCLTR0Sk96eW9UTGw5ZDIyY3A5UDZPWlpIeHJQSGg1endDeDAzTDRWVXpfX3haZlBKamVPN0Q0VG05b29IdlNHZElJaGFfdWhBYmlBb3VjR2hNcFNtbDdZVEZxUE5NSlhTTnpDNlQ2OEo1eHFzTVF1dkpsaWtGUmVaQkNUYTd5M213MUdHZw?oc=5",
-    "source": "CNBC",
-    "fetchedAt": "2026-04-16T11:00:51.066Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "oil-prices-keep-climbing-as",
-    "date": "2026-03-02",
-    "title": "Oil prices keep climbing as expanding conflict heightens supply risks - CNBC",
-    "description": "Via CNBC. Auto-detected by headline monitor.",
-    "category": null,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNODVsUjZUdklaelp2d0MtdUY0Tm44cm9haDBudHVwMmU3R2d3R19XdmFfZFh0WVQ5S01XajJrd3p0dmdRY1UzRHFmRTd6ODFQVmUxTHg2a09BbmxxbFNTTVpYTEZmOE9vTHB2Z05jdXhXME9tdVBVZDNoTkZ0dzY3eC1wVWJwTHNVdXljMEhmTXBZY0hPWTh1Y1F3Sm4taDh4dGRoeWhhWDFSeUxvWFFSM9IBtgFBVV95cUxOMkh0UEp5bE44Z0FVSV92X2djRTNiUndtcjNzMzdfNkMwaWk0cXp0ZGlaV21oWl92VFJTV0ZoRkQzQ254M1pKZlBMcFQ3UzQ2ZFhMT19xclh0bDM5Y2ZOMmxibUdZUzlxNVNDUUhyRWxaY19YbjRqeml2V2tiQnE3V0NZRzdVNFA1UkFydTZmX0FXdzJDNlFqSnF3Y1dkRmJwaVFHNUJ2VThzZGUyYllaQkVDM2J6UQ?oc=5",
-    "source": "CNBC",
-    "fetchedAt": "2026-04-16T11:00:57.422Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "the-iran-wars-global-economic",
-    "date": "2026-03-20",
-    "title": "The Iran War’s Global Economic Impact - Council on Foreign Relations",
-    "description": "Via Council on Foreign Relations. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1QNHFpR3k1YUxMWWc3QXJuR3VjNWZ2R1Nxb0k1eU8xUkFsTzRaNnJEc01hbTV4ejJLcmVxNktIR1JxbGx2UmZCclRDcDRYTGNQOHFHVjJYMmR6RW1IV3pycjVRRXpnYVlBT3VNLVNGMzl1bVk?oc=5",
-    "source": "Council on Foreign Relations",
-    "fetchedAt": "2026-04-16T11:01:16.483Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "exclusive-russian-oil-output-cuts",
     "date": "2026-04-02",
     "title": "Exclusive: Russian oil output cuts are unavoidable as drone attacks shrink exports, sources say - Reuters",
@@ -4620,6 +4427,165 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNdTFLbVloMmN4TmNaWkVvSmlJRlNyU1NKUGRLc21yXzE1aU5EbmlmOVN4Q05jQ1dNNHVFVUFCOEFsX0h5bi1mRjk3TlFrdE1ZQjZHYkRneHA0Y1M1NDVQbkhsNUNJeEVIbk90blJJb0M2ZlNmOFI5aktkVW43S3FkXzFPRWJGSWNlcW1fdUxjWC1FRUdqVEQzYW5kTU1VakY5Wi0wVzlCY2JJVWVDc0pVYWVfRHRzNTJnN0ZWMllSXy1xbkR3QlHSAcsBQVVfeXFMUFc0QnEtT3dHVHFucmxxcWdTT0J4cGtIcjRNejBZV2xRLXA0WjZjcFRGYjRfNDg4bVhOQ3RTUVJSVHpGSHlUTHA4VGo1bkNGbHF0ZGJGRk1GWGt3X2x3M2Uwd1dBTi10YUtlS01tZC1aVmpTR1N5RU9RNUNwUmdDZzg1WHBVakFNY1FrNzFBdTVYbm5uUHlHTmJrQzQyVUU4aXVqWlFGbXp1ZlZHbk5NajcwWk5xekxxUzlSOHFDNGdqRUpOMmczdkQ0MXc?oc=5",
     "source": "Middle East Monitor",
     "fetchedAt": "2026-04-17T06:00:32.601Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "oil-tankers-hit-gps-spoofed",
+    "date": "2026-03-13",
+    "title": "Oil tankers hit, GPS spoofed and ships stranded: confusion spreads across Strait of Hormuz - Marine Industry News",
+    "description": "Via Marine Industry News. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPaWNJR0RIYS1CLXMxX1ExVk5Ld01RT0pOQXlVWDI1ZUdIVkNrQ1pHWE5NdXRwQ0dvZ0E4dWltMVdsS1J2T0dadkNxaEdzNHRKR0tMamJra0N1VjFoQUxFeVp1S2hCRE1CVHg0bzBrTVdvaXctRHpOMm9RTk9mZkloTDRGQkNtMmNXVm5mRTZCbmgtQ0tCZHZkdHJIRE1ISGJhTHphb0tpZ3NyVUxDdFJ4OVhac2gyc1ZobnI5cE0xYw?oc=5",
+    "source": "Marine Industry News",
+    "fetchedAt": "2026-04-17T07:00:10.744Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=VIjwpgQlbuo",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "VIjwpgQlbuo",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "crude-futures-end-volatile-session",
+    "date": "2026-04-09",
+    "title": "Crude Futures End Volatile Session Higher - WSJ",
+    "description": "Via WSJ. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObGw0Zi1mN3R6UzRNbEEwQk0yQU1GM3dZd190NTdKeEZjMWk2aEJqT3VQb2dIdmVXbHhzdnFWNjVlb09GOXhyUllkcElHeHh2eEt2YmlYUmk3UlV3MkhKajlROTRvTGNpaTBXOEpmY2h1XzhVYXdITnlIQV9FQ0JpTGVtRm85dGRqbEpQSmY0dkJGNG9QNlVTNEJYbWZHbEFkV015bUt6NA?oc=5",
+    "source": "WSJ",
+    "fetchedAt": "2026-04-17T07:00:12.217Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=dlu_Ch0xuNU",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "dlu_Ch0xuNU",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "oil-prices-plunge-after-trump",
+    "date": "2026-03-10",
+    "title": "Oil prices plunge after Trump predicts quick end to Middle East war - The Times of Israel",
+    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNRWhKdlRpeVZiOHNyOXk5RUkybTRFaFpPNUY2VHZpdmxmMkdsRDVpQ2xaTGdMRTRjbFRoVk8xYVhRNHE5Q0tVNUNXbzlXT3JWNndrTVBvZExTT0k4VC10aVBMZ2xQSGY2ZFpjei1lbUJ3al9Qbi1rOG1PZHVMQlJCRkZ3OHE0NThyX21DaTE4V0hib1lOZ1JzOXlXbklUSE3SAaQBQVVfeXFMT1k2eEZFVlhqSVY1dEptd3VoaVpsSUNCOHp2WkhBdlhhR3RZVjF6ZXZTN0l1YWo2Mllya0ZHWldkb3pENmtncC1TRDduTkRFZEIzQ1Nub1JkLWlIRlNXbkpDWjVUdThyNjFURlhlT2NkNElsQjJCVHlCazBxV21HUDZqcHJ0UkU1aVNqSHRITFZZZXNTTGx3LWYyclJQTmxldVRpQ2g?oc=5",
+    "source": "The Times of Israel",
+    "fetchedAt": "2026-04-17T07:00:17.692Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=kuxo0ucEXz4",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "kuxo0ucEXz4",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "oil-price-surge-is-hurting",
+    "date": "2026-03-19",
+    "title": "Oil price surge is hurting African economies: scholars in Ethiopia, Kenya, Nigeria, Senegal and South Africa take stock - The Conversation",
+    "description": "Via The Conversation. Auto-detected by headline monitor.",
+    "category": null,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQLTQxaFJ2ZnRGcmJYakFkX282TTB4cWZPY2FjMFVxRVQwOGFFbHdhMWlXM29CbWFZeTVJc1d6MXBlUUhTRFJqMlZaaXlVa1hMSFdaWmM0T1VYZWdMLWY0WUlTZHZya1RfbDh5bE1ZZEJXM1ZhY3V5a0o5MGVCRld4YTd0SXdKVGtQWHJhMzBhT1Z3RU9Hc09SNDB1c1p4WVl6SnlINmcxendvdGYyTDFCaFJMZjZWeWltSExJSE5IQ1JWQWpuTXk0ZUtmVzRaYzQwYmxTYlVERFQ5NExFemFycGxtaWM?oc=5",
+    "source": "The Conversation",
+    "fetchedAt": "2026-04-17T07:00:22.381Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=p1Y5edA15wk",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "p1Y5edA15wk",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-pressuring-houthis-to-attack",
+    "date": "2026-03-31",
+    "title": "Iran pressuring Houthis to attack Red Sea tankers, officials say - South China Morning Post",
+    "description": "Via South China Morning Post. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQV1ZNVUZycTRPT0NKOVJXZUJ4SE9WQ1lYdmdKcE9ZdURsanU4UFpKX0VVRC1JYXFNejZQV1lidjUzZHRORkNQZF9QUjF4ME0xUWJxNXlwSWJEcWtVTWhJdmZQdlRqQ3RLZy1jV1dTeXVNN3RDelh6bGJtbFRhOUtLd2JCcWV3RXRXZmplWFRsVlAxLTV2NXJ3dEREUlRacHhBY1l4NkwxWG94TVQ2dTkyc2tBczluZ2dwcHpzdTlUVXQ5ajFubVHSAcYBQVVfeXFMTjU5bElnTUQ2TmFIOWNjY255TDl2OXEwUmxqYUVTcXlrRWhIYzJuakIwQVhZVkEzTGtUNHZGZlVGR1pRLWphbzJ6dkVSWERMLXJaZXdMd0U0VTBINl9JbFFTVkxVUUtnNTFaVkFnYUJGMFM4dlY0bXVLTWNEZmZ4dmU4UVRaall1Mmxxc2FwMWpicVMwNlE4X1ZlT2VvWnJzOGF2VmE4YUFjeFFJSzJTb2N4Nkxublh2RnFDLVNSQ3RLRUdIS3Rn?oc=5",
+    "source": "South China Morning Post",
+    "fetchedAt": "2026-04-17T07:00:36.058Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "assailants-attack-tanker-off-somalia",
+    "date": "2025-11-04",
+    "title": "Assailants Attack Tanker off Somalia in Suspected Pirate Strike - Insurance Journal",
+    "description": "Via Insurance Journal. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBiaWVCSm5LS1JaYWVzV281d2Q5aFJyZzBnUTlVbjRvM3Y3QlFmbmdTWXFIR0kzbm9iMzRPM21NQVUwT2s2SWFHWEtSck1mYlk3b3RIdjhzaldNNVJBcHVINXZxSk1zeVlmdlEwYk1hWGlLSkxZcnNWMDRjNU5Pdw?oc=5",
+    "source": "Insurance Journal",
+    "fetchedAt": "2026-04-17T07:00:42.345Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-strait-of-hormuz-tanker",
+    "date": "2025-11-17",
+    "title": "Iran Strait of Hormuz Tanker Seizure Violates International Law, CENTCOM Says - USNI News",
+    "description": "Via USNI News. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNT2JMTmh5VDgzNDlnSEZGalZCSHprNlVOVjZVMGVWSnZxNTNqSG52blVSdDJsRXMwSmtxY0oySGtuU3pWMzRzdU4yWDMyWDRNZ2VjMG9lcVRwUTBBckozS3pRaDJacy1iaHRVMHY0akE5WWVKOHFaMk4xSS02d3hqZGJxNXA1QWxxNGFadHE1S2F2TGd2Y2dtbjk5RjdHWHZ3MnBLQzhRUWJpVGdZalE?oc=5",
+    "source": "USNI News",
+    "fetchedAt": "2026-04-17T07:00:49.148Z",
     "mediaUrls": [],
     "videoMatch": null,
     "lat": null,
