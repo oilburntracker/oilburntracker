@@ -7,7 +7,14 @@
     "description": "Via Al Jazeera. Auto-detected by headline monitor.",
     "lat": 32.07,
     "lng": 34.78,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOWkdCYnFua0pSUC0xam9oSGE1Zl9sRGdmczc4RDFscEsxY1pXV0FHRUlPbmUtTFN5MWRtVmxDLWVuZlgtb09GLUU4amlTckxFemhzSTFRYnBacVpTZ19hdmJuamtkcEdPaWdISGRxYk43TkliVDVpWHQ2bk0zdHgwUEp4dGJLcWwzUWpxRXpQMWNibEZwV3g3aUdBYV9hai1wYXNxc3ZkbUxVQmM3b2lfQW1BOXfSAboBQVVfeXFMT0dsaWFvYk9IdF8xZnJmaE5VcHQtMjNPSlNHNm4xUVYzYVZqamF5dUJKUDB1Yy1zeUJGZjFqRkZ4enlLT1BSb3lWZDUwNERpWE5ubldNVzV4bkVQTmhlY3lTQXhxYi02c1U3ejEtSXpHN2lORW5mSzRoQ2VLZV9LbU9nLWxYZjF4NGVKVlhrUUctLVBXd2dEZE5JUGRCSXo2YUdCaGxiTkUyenVZNFNxMmtHZmFoRC1yd1Zn?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOWkdCYnFua0pSUC0xam9oSGE1Zl9sRGdmczc4RDFscEsxY1pXV0FHRUlPbmUtTFN5MWRtVmxDLWVuZlgtb09GLUU4amlTckxFemhzSTFRYnBacVpTZ19hdmJuamtkcEdPaWdISGRxYk43TkliVDVpWHQ2bk0zdHgwUEp4dGJLcWwzUWpxRXpQMWNibEZwV3g3aUdBYV9hai1wYXNxc3ZkbUxVQmM3b2lfQW1BOXfSAboBQVVfeXFMT0dsaWFvYk9IdF8xZnJmaE5VcHQtMjNPSlNHNm4xUVYzYVZqamF5dUJKUDB1Yy1zeUJGZjFqRkZ4enlLT1BSb3lWZDUwNERpWE5ubldNVzV4bkVQTmhlY3lTQXhxYi02c1U3ejEtSXpHN2lORW5mSzRoQ2VLZV9LbU9nLWxYZjF4NGVKVlhrUUctLVBXd2dEZE5JUGRCSXo2YUdCaGxiTkUyenVZNFNxMmtHZmFoRC1yd1Zn?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=aLKbKdeJAYY",
+        "label": "Lebanese celebrate ceasefire with Israel | DW News | DW News"
+      }
+    ]
   },
   {
     "id": "auto-the-enormous-conflict-of-interest",
@@ -8677,7 +8684,14 @@
     "description": "Via France 24. Auto-detected by headline monitor.",
     "lat": 26.56,
     "lng": 56.25,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPWUZvTzJWZDhXR3lsMnJfTm44RGFuSU9FenZlVGpBckhCeEhtXzZndlhsNjItOW1TVmpHVkhjbEZQVkowUGptQU1maTJVNDg5MVlyM0JaZG44c3FvWmRNRTBrRnNMN0dUejBtSWpJc0FHYU9NemVYamZmVVlJQ0c5ZERHM0pNZ1VHYWVKeXQwVkVYdWM?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPWUZvTzJWZDhXR3lsMnJfTm44RGFuSU9FenZlVGpBckhCeEhtXzZndlhsNjItOW1TVmpHVkhjbEZQVkowUGptQU1maTJVNDg5MVlyM0JaZG44c3FvWmRNRTBrRnNMN0dUejBtSWpJc0FHYU9NemVYamZmVVlJQ0c5ZERHM0pNZ1VHYWVKeXQwVkVYdWM?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=ySI_zZdcuTc",
+        "label": "How ships are trying to break through the US blockade in the Strait of Hormuz | BBC News | BBC News"
+      }
+    ]
   },
   {
     "id": "auto-anz-expects-brent-crude-to",
