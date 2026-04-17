@@ -1,137 +1,5 @@
 [
   {
-    "id": "usisraeliran-war-on-course-for",
-    "date": "2026-03-11",
-    "title": "U.S./Israel–Iran War on Course for Cataclysmic Civilian Harm, Displacement, and Humanitarian Need - Refugees International",
-    "description": "Via Refugees International. Auto-detected by headline monitor.",
-    "category": "humanitarian",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOeUM5dTdrMTJJazZySTVldHZ4VncxbEMxV1lNMm5jREJ5WTJWN2g0TWVLMnpDSi1HVWF5OS0yMU1hRkdfcWNRWDJtaC1hNlRrSEExTXIzcTJsMkVQMzBULVg1TGh1R0JiV1J4aGtOa1kySDNKUmVyYTI3MDJ6RGR1UDBMcjlfOU5Zd2tkcXNlSGJUSjB4QzVnTndFS0F6Q18wSWVsSkxFeGNadVFBT3J0OEZ1djdDMlFrenk3anRhWDVHanBSejVXaUp3Q193RDdLUU8zb290T1dRU1RQanFJcTgzOWdxb1h2?oc=5",
-    "source": "Refugees International",
-    "fetchedAt": "2026-04-16T10:01:11.389Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "civilian-deaths-rise-as-usisrael",
-    "date": "2026-03-16",
-    "title": "Civilian deaths rise as US-Israel war in Iran continues - The Jerusalem Post",
-    "description": "Via The Jerusalem Post. Auto-detected by headline monitor.",
-    "category": "humanitarian",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBSSkZ1WVNWekpCdEZROGNsRnM3ZzdaUUJZWWVrTEE0cXk5OVZSbzZ4T0FTQUxScDhCNGhKalpuajN2MF81aDBwZHRoWjFubFAwa015MFQtcmZSTHF0WTZjeWotMFFUOVctbWc?oc=5",
-    "source": "The Jerusalem Post",
-    "fetchedAt": "2026-04-16T10:01:18.405Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "israeli-strikes-kill-more-than",
-    "date": "2025-10-29",
-    "title": "Israeli strikes kill more than 100 people in Gaza, including 46 children - The Washington Post",
-    "description": "Via The Washington Post. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVzhJdnpURmlYUVc3dXJPdWc4N0NqMVZXU2FYYVdtNHRSXzlvc3BNVXdPU3BpWlVPNm9QY2hMaG1ZUUI2Y0RLWXlLUFVHSVl0U0xlZXVtcWlYU3JIT09zenM1NGlSSjBHb0FaMEFJTmRWQU9JNGsteEVPZWYyLXhjRmdJVzk0YWJk?oc=5",
-    "source": "The Washington Post",
-    "fetchedAt": "2026-04-16T10:01:31.101Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "strike-near-irans-nuclear-plant",
-    "date": "2026-04-04",
-    "title": "Strike near Iran's nuclear plant kills staffer; IAEA warns of grave nuclear risk - The Tribune",
-    "description": "Via The Tribune. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNX2hOR3YwNlN5V05lS3F0cVc2NFVyNFlIbldxSWhEOXVXMTZLNTFPUTA4cXNYbDNUNm1VTThyN1pHNkpjbGZHR3l2NlhBZVB2UmhPNHczMmw5OTBLWkw3WVMwcURsaTI0UkVmLWdZR2w2MzNxVjRkSGY2b01LVmVYdzNFaGF0MFRyYWZuaTBGNlRSSFFTVG84d0RYajc3T1lHWUh0SlA1Vjl4U2hPX3JKQ252YmpIS2dsMDVJ?oc=5",
-    "source": "The Tribune",
-    "fetchedAt": "2026-04-16T11:00:11.438Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=lpDbLxwzsp8",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "lpDbLxwzsp8",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "china-urges-protection-of-ships",
-    "date": "2026-03-04",
-    "title": "China Urges Protection Of Ships In Strait Of Hormuz As Tanker Traffic Plunges 80% & VLCC Rates Hit $424,000 - Marine Insight",
-    "description": "Via Marine Insight. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQeTFjWEpvTE54TFpJaF9xaHFQdWh3QUlYcXBpb292S1FGRzJVZlF4TEJ3a0VKOWFnTl9XVVpxNE1xZVotYkRGY0R2M09oSFlRaTJoUk0teUFFcXJSSGhPTzFyemQ5NGE4VjRaRVRlZ3IyWkZ2VnV3bDBhUE9vci1DYjlqQmE0OElXZ2N0TmJoSFJ4M0VjMm1fdHp3eXJOZGd0NU9RWnNXSEZ5b3lFMWtqOXd5bkxaMkVVTGNoWTNjSlp4clM2LTR5TWxqOUV6dw?oc=5",
-    "source": "Marine Insight",
-    "fetchedAt": "2026-04-16T11:00:13.049Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=91bge-EJazY",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "91bge-EJazY",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "pakistan-oil-tanker-crosses-blocked",
-    "date": "2026-03-16",
-    "title": "Pakistan Oil Tanker Crosses Blocked Strait Amid Crisis - Evrim Ağacı",
-    "description": "Via Evrim Ağacı. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOTG1uRFYtaWZNdjBHSnlfZ0F6dzVxcnVQM0d1WnpHVUZzOXhrVlduVjBUeUlMRFVKLWtrLV84NmxUWWw1b1dTT25NZHJtTTJZRTBvektDeHR3QUQyT2FqbEdnQVl3UGhacjlqV3JvaG8xNk5IOC1tOVk5TGsyTjVUSEVKU0NIR1lXVlk1RGoyaGNadw?oc=5",
-    "source": "Evrim Ağacı",
-    "fetchedAt": "2026-04-16T11:00:14.748Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=LjWlh3GvM7g",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "LjWlh3GvM7g",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "strait-of-hormuz-oil-tankers",
     "date": "2026-03-06",
     "title": "Strait of Hormuz Oil Tankers Drop to Zero in Iran War Blockade - 조선일보",
@@ -4602,6 +4470,158 @@
       "title": "",
       "confidence": "auto"
     },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "how-the-attack-on-iran",
+    "date": "2026-02-28",
+    "title": "How the attack on Iran could impact the global oil market and economy - CNBC",
+    "description": "Via CNBC. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA3N1dLcGVFNi1nYVBlVENzaGpxcHFiRVowakt0UDBkN2RtYTF2OHBlOVNfOC1pSXNoWGdpN2FxNHZDcExvZ21KZjVrZkh3aGZvaHVDeFhCeUdRdmVwWGc4SnlSOWE0OHNGbFhGRThyTko3QzFzWDNFbUZR0gF_QVVfeXFMT1g3YXdPS2hPVUlSbThFM2VxOF9OM0ZqWW5IVl8tWjM1R3JLMElJXzhpNkFCWldPWDRVaWduOF9YaWdVVndRR0FEQ2QzT0UzbWFQdDNUS2Q3QjdNV0hia3Z4Vm1tVmhVdEZMcEhSR1Bndld3aUUwcDBlaGVhVnd6bw?oc=5",
+    "source": "CNBC",
+    "fetchedAt": "2026-04-17T06:00:12.257Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=pdqhJdk9vsg",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "pdqhJdk9vsg",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "oil-and-gas-prices-surge",
+    "date": "2026-03-02",
+    "title": "Oil and gas prices surge as Iran war disrupts Middle Eastern output - Reuters",
+    "description": "Via Reuters. Auto-detected by headline monitor.",
+    "category": null,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQckpBQVI0MjB2ZGNuVlVoeHFmQWJ0cG96OG5YWlBpbWcyY3ExMFc2cmNaUndMUWRtdFc3WGsyWTgxY2MwZE5mOE55M0FScXVyd2pYQlFjQkh0anRaM0FlSnlsOTRHZml5SFR5elZidEZfUjJoTG91b2ZIOVIwdFNrY3JKWm02U1RkMlZLNXdCQWh1UVlJeG16V1I1NUFGWEw5b1kzTjBoMG1WQQ?oc=5",
+    "source": "Reuters",
+    "fetchedAt": "2026-04-17T06:00:13.901Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=yblwm1R3fjs",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "yblwm1R3fjs",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "irans-allies-threaten-red-sea",
+    "date": "2026-03-21",
+    "title": "Iran’s allies threaten Red Sea attacks as mullahs choke Strait of Hormuz - New York Post",
+    "description": "Via New York Post. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMjZuYWRSWGdRempEY1NxR2h1NWpXdXZtLTNjMXY2Q0dLb1h6ZFRrTE9nNVljSUhEZS1pNHFaTWotWFVBUkFDTjVnVTZXV1JNOTBNNERnSkhIUnppdVVja3VRMGh5aW9TSFpXYnNYRVhvLXVWRm1aaFA2eHFaQ2o1WFYxMmxNbVNqUmtmY0JWNVFzeFFPX0ViRTRDNHV6M0JDYl9qSEhYVEl4M3BONWQw?oc=5",
+    "source": "New York Post",
+    "fetchedAt": "2026-04-17T06:00:19.633Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=UztPrVTRp6o",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "UztPrVTRp6o",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "politics-report-of-deaths-after",
+    "date": "2026-04-05",
+    "title": "Politics: Report of deaths after Israeli attacks in southern Lebanon | blue News - blue News",
+    "description": "Via blue News. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZXNZSHVVYy1mYVFtUVBRX3ZkSkpsNzU5NkRrRUl6bVFORUJJdmpBd3BLem9kM3VMLWdzQ001NDQ4X3JueFJZcXIwRllCazRGVzhIZktIS2tOZGJxLWh0RlN6TmFFSWl0OGN5N1pLQ2R0VXpUZzFoMHhrQVdvQVRHSElMalZwYVM4TG9reHhic21Yb3pESHZaMTBsTV9tdVNHdmduS1RadnBPZUZneEVMcnFVQmxCSEE?oc=5",
+    "source": "blue News",
+    "fetchedAt": "2026-04-17T06:00:24.345Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=8lat7KKHBmM",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "8lat7KKHBmM",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israel-strikes-multiple-sites-in",
+    "date": "2026-01-05",
+    "title": "Israel strikes multiple sites in Lebanon ahead of a key disarmament meeting - FOX40",
+    "description": "Via FOX40. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQeWZjem1HMThFNU9OX2J2VHZISE5yR3pDeV9tS1NaWGxtdnp0bkpTVWJEam1wN3h2d3ktX21aNTViN0NoVTVlZ05DSV9sZVc2THpyYnNUTzU1RHdBMTFmSVhmY3BXU1A2THczMzcwLTBIOGtHcll2MnVVejEwUDhIUEtUR1Fsbm1iRDdEZ2hoVEo4RUVpRWFYU09qUFRrZnZxaTlsQVhnUHoyNmE3aHdoekVocTZ0azBzNm9oZWN5anPSAcYBQVVfeXFMUDcxU1JrRWl5cDFna0xzc3VNNnBmRmM4VzRzbzQxUE4tZ29uS0tDYWpSWlpSYklEWWRVc24xRWgtUGFCVFBnZFItOEYyUUV6QklaeGYwTXZLRURjVjg2WVdJMW9LRUx5Mlh6cXdOV1p6aW11aFV3VmhSUU5SMWRmTmNSZVVNRzd4SVpqUHh4V2pldFdoTGxoa1RUQ0RLeGNNRUVxeEFHUzZoY0gtYmdHXzcyaVBBdlVwQV9hVFdNaHU4ZlN2X0Vn?oc=5",
+    "source": "FOX40",
+    "fetchedAt": "2026-04-17T06:00:26.671Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=lTmg01m6gZk",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "lTmg01m6gZk",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israeli-airstrikes-hit-several-areas",
+    "date": "2026-02-05",
+    "title": "Israeli airstrikes hit several areas in Lebanon amid continued ceasefire violations - Middle East Monitor",
+    "description": "Via Middle East Monitor. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNdTFLbVloMmN4TmNaWkVvSmlJRlNyU1NKUGRLc21yXzE1aU5EbmlmOVN4Q05jQ1dNNHVFVUFCOEFsX0h5bi1mRjk3TlFrdE1ZQjZHYkRneHA0Y1M1NDVQbkhsNUNJeEVIbk90blJJb0M2ZlNmOFI5aktkVW43S3FkXzFPRWJGSWNlcW1fdUxjWC1FRUdqVEQzYW5kTU1VakY5Wi0wVzlCY2JJVWVDc0pVYWVfRHRzNTJnN0ZWMllSXy1xbkR3QlHSAcsBQVVfeXFMUFc0QnEtT3dHVHFucmxxcWdTT0J4cGtIcjRNejBZV2xRLXA0WjZjcFRGYjRfNDg4bVhOQ3RTUVJSVHpGSHlUTHA4VGo1bkNGbHF0ZGJGRk1GWGt3X2x3M2Uwd1dBTi10YUtlS01tZC1aVmpTR1N5RU9RNUNwUmdDZzg1WHBVakFNY1FrNzFBdTVYbm5uUHlHTmJrQzQyVUU4aXVqWlFGbXp1ZlZHbk5NajcwWk5xekxxUzlSOHFDNGdqRUpOMmczdkQ0MXc?oc=5",
+    "source": "Middle East Monitor",
+    "fetchedAt": "2026-04-17T06:00:32.601Z",
+    "mediaUrls": [],
+    "videoMatch": null,
     "lat": null,
     "lng": null,
     "zoom": null,
