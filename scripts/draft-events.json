@@ -1,32 +1,5 @@
 [
   {
-    "id": "oil-price-surge-is-hurting",
-    "date": "2026-03-19",
-    "title": "Oil price surge is hurting African economies: scholars in Ethiopia, Kenya, Nigeria, Senegal and South Africa take stock - The Conversation",
-    "description": "Via The Conversation. Auto-detected by headline monitor.",
-    "category": null,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQLTQxaFJ2ZnRGcmJYakFkX282TTB4cWZPY2FjMFVxRVQwOGFFbHdhMWlXM29CbWFZeTVJc1d6MXBlUUhTRFJqMlZaaXlVa1hMSFdaWmM0T1VYZWdMLWY0WUlTZHZya1RfbDh5bE1ZZEJXM1ZhY3V5a0o5MGVCRld4YTd0SXdKVGtQWHJhMzBhT1Z3RU9Hc09SNDB1c1p4WVl6SnlINmcxendvdGYyTDFCaFJMZjZWeWltSExJSE5IQ1JWQWpuTXk0ZUtmVzRaYzQwYmxTYlVERFQ5NExFemFycGxtaWM?oc=5",
-    "source": "The Conversation",
-    "fetchedAt": "2026-04-17T07:00:22.381Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=p1Y5edA15wk",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "p1Y5edA15wk",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "iran-pressuring-houthis-to-attack",
     "date": "2026-03-31",
     "title": "Iran pressuring Houthis to attack Red Sea tankers, officials say - South China Morning Post",
@@ -5014,6 +4987,168 @@
     "fetchedAt": "2026-04-18T22:01:11.205Z",
     "mediaUrls": [],
     "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "un-atomic-watchdog-calls-for",
+    "date": "2026-03-21",
+    "title": "UN atomic watchdog calls for ‘military restraint’ after Iran reports attack on Natanz nuclear site - Arab News",
+    "description": "Via Arab News. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1QWGNSMHFsWFpyY3l1Rk1DbTFERFpJM3ppRGRqX1J3dEYtengzVnd5NDEyV3lfM1lialQwMHFXRjFXTHZ4Rmo0VzlSZ2FkTUlsNi1r?oc=5",
+    "source": "Arab News",
+    "fetchedAt": "2026-04-18T23:00:11.703Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=FKjVpFdJfuE",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "FKjVpFdJfuE",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "irans-war-casualty-numbers-show",
+    "date": "2026-04-10",
+    "title": "Iran’s War Casualty Numbers Show Major Inconsistencies - IranWire",
+    "description": "Via IranWire. Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaTlBdlI3dHpqdmU5NzdLeDhranZLeHI1XzFTQ2N1d21jRDd0MnYtY1lqYkxfQ3hQSDNsUkpIbzM2UEZpRTIzb2x2QXBqcmdweDNhVmNEWWZBWEVQUkM1YVBFWXJUTWtCdUwxZ0pLQjdJSXVNOEcyZjREaGlLbThsZjY2ODV2M2QxdmF0d3Ryem1RT3Qw?oc=5",
+    "source": "IranWire",
+    "fetchedAt": "2026-04-18T23:00:13.468Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=Ufva8Gxyjmw",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "Ufva8Gxyjmw",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "oil-makes-record-weekly-gains",
+    "date": "2026-03-06",
+    "title": "Oil Makes Record Weekly Gains As Strait of Hormuz Stays Shut - WSJ",
+    "description": "Via WSJ. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWkFJS2pqdFZIbmF5cFhMSUVWVk1nWHFVUGpyTDBseFU3cVVmMkdrd0U1b3M3b0ZYLWx5U2s1SHdLZVJRQnJpV1VKemdYLVFZUGVGZ0o3YVB2OG8tY0FHY0J6ZlVaVnlnR3VjSWpvR0t4eEhHcDM4OEpXNGQ1SVVVOUtTc2RaMFVXQXlFeHVCblY2dlhFM2dRZVN6YjFndGsxbWliODhXd3VTTWJubXpHMDJuVlZsU3ZLTlExdFpn?oc=5",
+    "source": "WSJ",
+    "fetchedAt": "2026-04-18T23:00:16.615Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=hUje3oBg9Vc",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "hUje3oBg9Vc",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "oil-prices-rise-sharply-after",
+    "date": "2026-03-01",
+    "title": "Oil prices rise sharply after attacks in Middle East disrupt global energy supply - KWCH",
+    "description": "Via KWCH. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNa3dIbXIwRkY2SkNwWC0yeFpacGZjUFZYZU04R0Zob1pQamdfRTdKdmZMMnVuR3dyNzJWSTRkMEx5REpzTXZhVGdodFFlekhxQ1hjb2FLckVPYUdJYXpyRDNfT0t6UkJxTjhrZkVSOEZ6WXNTOXFyUkJBb0Z3RGh6LUVoVGd2cWJfamRFai1xUVh4OHVCc01ZVFg2cnBLcHloczVadEhIX0JJVXNqQ2JlMkVDR2FuZnJIcVRJMmFiNkx6R25w0gHYAUFVX3lxTE5nWUdiVnYwZDc5WHByakJhOG94Zm5Oc2l5eVFGQTcyQnZaQnE4akdfU2lXQmZ2YXNBLXBVU08zT1BMVmFFNDRxcFJPTVoxVEw0Ynp0TnRSWDhsVmdDNUVVZzlpV2MzSXhEVmE0VFdUVnlmWHk1Ymh2RHVIN3hGOFpFRjQxX1VZQTg3TXU1TkJ1MnJjMUNTS1hkbGRuakNlU2hNNUZrRWZ6bXJaRDlWLWd1OW1uQWs5UzR5c2pVSmtWUjJ5cjl4dWVHbGtDYkNoN2FxTGE2ajA3Sw?oc=5",
+    "source": "KWCH",
+    "fetchedAt": "2026-04-18T23:00:18.980Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=KTsGeo3AB-U",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "KTsGeo3AB-U",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "saudi-oil-output-hit-as",
+    "date": "2026-04-10",
+    "title": "Saudi oil output hit as attacks disrupt key facilities, raising fresh global supply fears - Gulf News",
+    "description": "Via Gulf News. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWExLa3FZVDc4WTNhQzROcXltdk9aaU5jUjZUV3BHVE5lZm9xWGJMTnZGNjlmenpKXzhIajZJOThoenc2R0F5R1pkVlVrRUE0bFJydlNuTENoLWh3b3ZpbTI5VERmMldfWGpLZzRnVXBjcEFodDVJTUdSZEM0dXlRQ3hNYWNzRXVVTVF5UDVsWWdlM2h4VkxZUXY1dTI5TTk0NDFLUzNlNWhBb3kxbzJDYzlkMzJsX3lXbm04?oc=5",
+    "source": "Gulf News",
+    "fetchedAt": "2026-04-18T23:00:21.139Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=pk5qgKENsrM",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "pk5qgKENsrM",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "at-least-20-killed-including",
+    "date": "2026-04-04",
+    "title": "At least 20 killed, including children, as Israeli strikes hit southern Lebanon - TRT World",
+    "description": "Via TRT World. Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5fMDlFU2FHZ1pncGhTSTJVMFB1TklVdVhXdy1NTnlnUEdWbExiRS1PbkhvaUh3N0hPNWh5OWZtREExSWhSeFVHem1xUG1icnBBX0cyeThOby3SAV5BVV95cUxNRElXN3Z4cU1paThScnVrQy1QX1c0T0dNZjJJaGVzalFsQjdlYlJaeVdlWjRTQ0dia1NrOUV5NjMyRGR5NnFWcllsWTNkaDc0MEZrQWpBcFAzUF9uemZR?oc=5",
+    "source": "TRT World",
+    "fetchedAt": "2026-04-18T23:00:25.753Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=Mw1d91lksDU",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "Mw1d91lksDU",
+      "title": "",
+      "confidence": "auto"
+    },
     "lat": null,
     "lng": null,
     "zoom": null,
