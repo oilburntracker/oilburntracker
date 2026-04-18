@@ -9093,7 +9093,14 @@
     "description": "Via Reuters. Auto-detected by headline monitor.",
     "lat": 35.69,
     "lng": 51.39,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQUGliSW5uQWRod05IdUJYUnhWcGpMMzc4RTVXZC1nR1NCLXNDZUozNW5XXy1Qb1RGRnFIYmRBOV9NbGlQdGg2MEJBRHhsRW5mRmQ2RWdUcUNINmVfZmp5d2x2Sk5PSjVxdFQtYXR2SzFwZ25ZQlMybndpU0ZiNkVnSExlbUI1YmZuYklLWk05bTVmblliaVM0VDJhVjFfZzQzQ3piQTF6d2ZOS3pTNnoxRmhid0tFNVZSM2t1RG41dGVxQQ?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQUGliSW5uQWRod05IdUJYUnhWcGpMMzc4RTVXZC1nR1NCLXNDZUozNW5XXy1Qb1RGRnFIYmRBOV9NbGlQdGg2MEJBRHhsRW5mRmQ2RWdUcUNINmVfZmp5d2x2Sk5PSjVxdFQtYXR2SzFwZ25ZQlMybndpU0ZiNkVnSExlbUI1YmZuYklLWk05bTVmblliaVM0VDJhVjFfZzQzQ3piQTF6d2ZOS3pTNnoxRmhid0tFNVZSM2t1RG41dGVxQQ?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=Stft6OmmIGs",
+        "label": "Trump signals Iran talks' progress amid Hormuz tensions | Al Jazeera English"
+      }
+    ]
   },
   {
     "id": "auto-israeli-strike-at-gazas-alaqsa",
