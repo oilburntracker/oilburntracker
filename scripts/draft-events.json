@@ -1,22 +1,5 @@
 [
   {
-    "id": "toxic-rain-in-iran-highlights",
-    "date": "2026-03-15",
-    "title": "Toxic rain in Iran highlights environmental cost of war - Firstpost",
-    "description": "Via Firstpost. Auto-detected by headline monitor.",
-    "category": "environmental",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNd09CN3RYaXBuQVdKU3VEaVNaeFB4WmRqNTJpQVVFX3EtWHJDWlFDSFB4aVJ6SEhiTkprcXFvbWJKQnRpdk9wWEl0TW0xa2ZPSnFkbDZmT0VwZ2wzeXRGY2o0M041bnZmMGo3TnJrT1V2OFFxWUVJc1Bfc1p1YnQzbE5rQ2JILV9yN1pQM1Q4QlDSAZYBQVVfeXFMUHRTSHpSUlN3a2lGQ3hFZjVqQmtXR3N6UllSS2twdDh5cGROcXJnVHAyUVYwQUw2djh2OHhueUIzbTh0bjIzOGVQOW1GbEtaS21sM3dXYjAtVEM4bld4S3NGVGYzVjJMbDRONDZJNzdTM1hiU19HTE1HSzFMYURnMkd6NXpEZnozZFFLY2hnV281ZndHbTBB?oc=5",
-    "source": "Firstpost",
-    "fetchedAt": "2026-04-17T00:00:37.811Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "environmental-risks-of-the-12day",
     "date": "2026-01-08",
     "title": "Environmental Risks of the 12-Day War Between Israel and Iran - مركز المستقبل",
@@ -5146,6 +5129,33 @@
     ],
     "videoMatch": {
       "videoId": "hMIbtXloK5Q",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iranian-gunboats-fire-on-tanker",
+    "date": "2026-04-18",
+    "title": "Iranian gunboats fire on tanker in Hormuz as Tehran blocks strait again | Daily Sabah - Daily Sabah",
+    "description": "Via Daily Sabah. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNNk9NeDZCVlhSZmxLY1lnYkdmelRzR1JSY3gyVk5OUFNGUUZscjRzS3VaMFZiRDN1SlJQVVRvVFNfSUpmMkpHUXNzLUhESVhoekZtNGVjZGJsVlh6UV9IZU9VdXkzZExOc0pRek5faGZJRWpvVDlNaHhhYkIxS1hfalAwclRySFZjcUxWWHlYN0F2UEwtcHNaQ0F3Yl9oUEVwNmwyLXFTYWdGZkJBdUpUSE94RdIBuAFBVV95cUxPVWZidEdieW1GUnRqNG1yMU9HcVhJUG00R0puMGlfU1BvNWZvUGVOOWNscmdlcVhabUpQYzJBVUp5c05VOEtDbzA1dWxGYjV6czloeHlhU0RNY1kzN0Nlak5Dd05DY0FXWWNMVGlnalNzYWFTX0ctWjdqbGVxU0tVUlYwTHJ5alBFZF9PSlhFQS1OdU14NGNWS3I4cngxYk9ORW1PMkF2LXhodFB1MTZZTUd2dE1wQW1V?oc=5",
+    "source": "Daily Sabah",
+    "fetchedAt": "2026-04-18T13:00:12.600Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=RyFELzTJPn0",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "RyFELzTJPn0",
       "title": "",
       "confidence": "auto"
     },
