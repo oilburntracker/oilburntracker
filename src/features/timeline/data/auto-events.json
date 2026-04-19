@@ -9825,5 +9825,22 @@
         "label": ""
       }
     ]
+  },
+  {
+    "id": "auto-iran-closes-strait-of-hormuz",
+    "date": "2026-04-18",
+    "title": "Iran closes Strait of Hormuz over U.S. blockade and fires on ships",
+    "category": "chokepoint",
+    "description": "Via PBS. Auto-detected by headline monitor.",
+    "lat": 35.69,
+    "lng": 51.39,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZm9WRHN1VHF4X2lmVmQ3OFRLTzlUN3ZWLWtMbWhwMWV5T2JSLU9FbV8zMGE2UkFiZ2xBMEt4UG9yQWNsMHVKUnVBM1B2bGRVUU9IWnJ1TU5aYTEyTjFfMXJkMkVXRERmMEFmcC04VzU4Tk55REtrR3ZOR1h6aDhBMDhyZHp3NW1FbXZLMWNYbXNmN3JwemJ4MzN6amZGcjQy?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=nYZAszfqfRw",
+        "label": ""
+      }
+    ]
   }
 ]

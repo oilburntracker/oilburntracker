@@ -5084,5 +5084,32 @@
     "zoom": null,
     "casualties": null,
     "status": "draft"
+  },
+  {
+    "id": "kuwaiti-desalination-plant-damaged-in",
+    "date": "2026-04-03",
+    "title": "Kuwaiti Desalination Plant Damaged in Iranian Attack Amid Escalating Tensions - Devdiscourse",
+    "description": "Via Devdiscourse. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxONzcycl91QzdfbHpsaG8zUE4wMFFwbVhkZm9OSFptbFhKQWM2ekZYajlqQ0ZyQ0F3dXdTZ1JMQkVzclpSMnl3REZONUw2WF9FQTBHWk5mUF9FY010MUh5ekkwMWRUbDk2cDlDMXdFOHpMNy05Y0dIeFNTVWhnTDlfUVBXeXlVcnJZNXdUbGZtZDA4LUM3MHVQOHBzZnFndlpnb2FaV044OV94NW8xbjhPU1NIU3VFc3Y4d0hmb1F0SU41UENDUWh2MHphMjdjU2hkaU1XcEpNWjlUd9IB3wFBVV95cUxPMmZUcVlNWko4Zk50b192VkgwZExqcVN5bi1GM3g1dHlfOGFKeU5BUTlQYnE3bnZGS1pCU0QtYkxPYjBTSy1SVXdkTEJtNE1KemY5Wkgzb3FwaXkyd0hUWktYa1R0TVZrb3M2c1BqM2FGWGdJQ185VlEwaUxTZHdEd1dqQTBuUlJtUTBRT2tueTYyQVRsbEJyS05PUHN4OUZyakxqVGJ6Rk9DRGZNRGJDUTRMcnhNazFmTGJSX1hfWTJya3RqVjRYMDRKTlFjSHZ0WlozblI4OW9uWTkyVmJj?oc=5",
+    "source": "Devdiscourse",
+    "fetchedAt": "2026-04-19T21:00:11.276Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=W0ZHZ3wOnqM",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "W0ZHZ3wOnqM",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
   }
 ]
