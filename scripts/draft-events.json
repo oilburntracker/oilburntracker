@@ -1,113 +1,5 @@
 [
   {
-    "id": "will-oil-prices-ever-truly",
-    "date": "2026-04-17",
-    "title": "Will oil prices ever truly go back to ‘normal’? - 1News",
-    "description": "Via 1News. Auto-detected by headline monitor.",
-    "category": null,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOclkwSWFSZW5kTWNiVkJQcUV2Y0hWRlhfMWRJNWdaTEN4M1VYUXJmcFZtT2tYS0JXUHk1M215dTJHUkJYcGVSSS1yQUFPTi1BajNlbHlSWW9WTTRWeTZXcUZ4Z2p2TTFNWmtLbXJuSi10emRtRGxNYlFLLXhsNG4wY2ExczJ4NTQ?oc=5",
-    "source": "1News",
-    "fetchedAt": "2026-04-17T19:00:11.208Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=slwZi2fOWmY",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "slwZi2fOWmY",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "oil-beats-retreat-as-trump",
-    "date": "2026-04-07",
-    "title": "Oil Beats Retreat as Trump Suspends Planned Strikes - WSJ",
-    "description": "Via WSJ. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQN0xIcTE1RV83b3pwWFBrd2NFZ1VreFpHc190TG45X2ZwbTk0QmlrVHFqLVRKZ01WWGt5RElGUjVscTQ1d0ZuWWNGVGE0WDFMWGNsbmJtMkZURTh5WXlRTlpFQVBBVVNMaWdwV0Zpd3JWWXRtQmxBbVZCTE5kN3NPVUJtbi1nX25HS20wdjA5WGF1M2pKWjlhUWl0OE92Znh1bGNLcTBZX0ZnaGprWlNHQmVkd1N5QQ?oc=5",
-    "source": "WSJ",
-    "fetchedAt": "2026-04-17T19:00:12.706Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=9LYOaopIXOQ",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "9LYOaopIXOQ",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "america-is-an-oil-exporter",
-    "date": "2026-03-16",
-    "title": "America Is an Oil Exporter. Why Does a Mideast War Raise U.S. Gas Prices? - The New York Times",
-    "description": "Via The New York Times. Auto-detected by headline monitor.",
-    "category": null,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNSHh2aFRxNGZEOFZxV3l0RmVTdk1OZzdRUzB3Q3l4Q3ZWdzMxRmZ2MXlVUmVmeTBpOElNRl91R3cyZGF0ZDF3V2dLaXRBR0lua0s3SHMydUxvcS1rZFJ2ajYzLUFuWnExc0VNRDB0dnRwNUxPZ2xKZ043elN1d3NuZEh3?oc=5",
-    "source": "The New York Times",
-    "fetchedAt": "2026-04-17T19:00:14.355Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=veTbuLu7znc",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "veTbuLu7znc",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "houthis-threaten-red-sea-escalation",
-    "date": "2026-03-27",
-    "title": "Houthis Threaten Red Sea Escalation as Iran War Risks Spreading to Second Shipping Chokepoint - gCaptain",
-    "description": "Via gCaptain. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNemRoVFdYcE1HYWpIODRLdEhqemg0Vmd6MHpkakZ0LUE0MEdkd0lCSkRoQURMVGxpRlRqeTJRSWNxRmpGNG9IN0FnczVza1RmVVF3c0lBVUtXYkNoTHQ2TUNSV196Mk1oczBQNE8wZXpyVmtOVnc1ZHloVUxoZjVEc01FOGtVUE1MME1BekpGRC1pWkh4elozWXotZENiUVIySTFDU2tKOE5ab0JTSzFlNUtyc0JzZw?oc=5",
-    "source": "gCaptain",
-    "fetchedAt": "2026-04-17T19:00:15.937Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=BRgRF57HtIs",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "BRgRF57HtIs",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "mystery-tanker-explosion-near-yemen",
     "date": "2025-10-20",
     "title": "Mystery Tanker Explosion Near Yemen Sparks Renewed Security Concerns for Red Sea Shipping - gCaptain",
@@ -5096,6 +4988,114 @@
     ],
     "videoMatch": {
       "videoId": "yErLwSgAliI",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-claims-missile-strike-on",
+    "date": "2026-03-08",
+    "title": "Iran claims missile strike on Haifa refinery - MSN",
+    "description": "Via MSN. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQQk1TeUxtaFZKN2NJVGZCY3ZkSFNqd2pSUGVjSFpxUDR4Nmh2d3RIdTQ0NTgxN1lnWHZPeHc2NzN2UXhSQTQ3ZWx5RDUwTDg2bTZicVdVa05oVU9oa0tiVUxKMHkwRE9LREtTRHlwOHFNUVkyUkRVMVBJcDQtUXZ5ZVVCekdUaF9BdTJhVkI5aVYxWDQ2WkY3d0pYdHhralBIZnZLdTZtYlZUd1EwM1ZjajlLQ1R3M2t0Mm1yRkh6Rl8tWUZTN1hrcHpVY3hGbTFESnRZZGN6SnV4ZDI2N29v?oc=5",
+    "source": "MSN",
+    "fetchedAt": "2026-04-19T09:00:11.677Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=jvt_2H5omdw",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "jvt_2H5omdw",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-escalates-retaliatory-strikes-as",
+    "date": "2026-04-15",
+    "title": "Iran Escalates Retaliatory Strikes as U.S. Signals Long Battle - The New York Times",
+    "description": "Via The New York Times. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE82Ym5OTm4waTQ1akFtS2dJbkszSnp4WXhIMUthZ3VEOTJoYlRZdHJvUFdDd3U2X1JmYmFvblZ5dXZhNDBpaUFqWHl6bWZWLWlFYnFPUEphY1ZrbF9zZVc0V2tlVU9NN2w0N0pqaUl3c0Q2UlRpa0VsNW5NZktOZw?oc=5",
+    "source": "The New York Times",
+    "fetchedAt": "2026-04-19T09:00:14.774Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=h6eg0SEIVyU",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "h6eg0SEIVyU",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "deaths-reported-after-israeli-airstrikes",
+    "date": "2026-04-05",
+    "title": "Deaths reported after Israeli airstrikes on southern Lebanon - Yahoo",
+    "description": "Via Yahoo. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNQXZfS3g2eTBrc1Z4RmNmQ1JEdWMtR0VubGk4WFFhRVVzREc5V1Fhb3A1SVZKcDJEUnczM3Q5ZVNXNGNlTXB0Z0V4b21sMnE1VTFGbmp5eElsTDdoN3o4YnZza0l4cGNUS09MWmh4NDJKanJVSGtjMk94MjY3dTFSNS1MSF93dG9hbE1kUnExdTZfV0xfOV9hWVVB?oc=5",
+    "source": "Yahoo",
+    "fetchedAt": "2026-04-19T09:00:16.285Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=V0zNssSvJAk",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "V0zNssSvJAk",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "from-debris-to-acid-rain",
+    "date": "2026-04-15",
+    "title": "From debris to acid rain: The environmental cost of US-Israeli 'ecocidal war' on Iran - PressTV",
+    "description": "Via PressTV. Auto-detected by headline monitor.",
+    "category": "environmental",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQWpxSzdKVjQ0dXJ0TFR6Wkx0b3dQUjhoSzBLUHBNQjRQMnFuWDBuRDNmbmF0dnduMEwtRkhULXlRblhJOG9BdTB0NWtfN2hvQWxCYmxhNU1Gc3U1WEN5QkVPenNIejlKdS11Q2FQdDNfYWJOQWhsSUQzcnlQeGFPRmhHZDNJQU05eWg3ZEltZHFuVDd6VFVwSkNTNmdkOWNYbjd5ZVp4WWF6RFh0YWxSekJkTThVWGhw?oc=5",
+    "source": "PressTV",
+    "fetchedAt": "2026-04-19T09:00:21.043Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=C0ZZSYsHkEw",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "C0ZZSYsHkEw",
       "title": "",
       "confidence": "auto"
     },
