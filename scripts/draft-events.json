@@ -1,113 +1,5 @@
 [
   {
-    "id": "araghchi-iaea-chief-meet-in",
-    "date": "2026-02-16",
-    "title": "Araghchi, IAEA chief meet in Geneva ahead of new round of Iran-US nuclear talks - Tehran Times",
-    "description": "Via Tehran Times. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPd25BaGdoUUp5Rmk1d0hmRnlscndRS3JJMTAtdkRGdXhYQjZMc2k3SFlHNmI1cDZEOFdicnhkRUMxMDE4amZsV2pycEk1bkpMU29GWFd6SWF6Y084MWI2NVZzWmpGbTV2aDZmbHZsT1J0MVBudXdDSVBKVWo5b0x1MUxGUkR0YktON3VFOG5maVl2a29PYTgtTW94VkVrMXg1Ymc?oc=5",
-    "source": "Tehran Times",
-    "fetchedAt": "2026-04-17T22:00:14.934Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=rc9C-moJPxs",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "rc9C-moJPxs",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-says-iaea-has-no",
-    "date": "2025-12-15",
-    "title": "Iran says IAEA has no right to inspect nuclear sites hit by attacks | Iran International - ایران اینترنشنال",
-    "description": "Via ایران اینترنشنال. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBVYWlFZGxnVmdBZzFPY0NGN21uTVF5MkU4Slp0SzBaSXJDTmRuV0NuMVViNGt5TmYzaEpYUm9ZZDJHNzJVUHdBM29GaGNpWHNwalE?oc=5",
-    "source": "ایران اینترنشنال",
-    "fetchedAt": "2026-04-17T22:00:16.496Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=vmHclDqfRDY",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "vmHclDqfRDY",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "no-rules-no-inspections-until",
-    "date": "2025-12-24",
-    "title": "No rules, no inspections until legal clarity from IAEA: Iran nuclear chief - Tehran Times",
-    "description": "Via Tehran Times. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMngxNU1XMUVBRWRWc0djUi1WV2Q0VDZUXzc1OUVLeWg3QTIxN1BWSW5qTjY0SWpQNHdKRG11c2FXd1dYakwtcGV3bm84UzdTOGdWS1Z6WjNySFRUbUVMdGFfNmRiZzgxNVlwa1BCbl9yZWYwSURMV24yd3h3eHA5ejB3M0doN28xZUpnRzBFLWQtYm9LUThTQTdnN3pHQzQ?oc=5",
-    "source": "Tehran Times",
-    "fetchedAt": "2026-04-17T22:00:21.579Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=_1Om2eG0Fvw",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "_1Om2eG0Fvw",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-issues-nuclear-program-update",
-    "date": "2025-11-16",
-    "title": "Iran Issues Nuclear Program Update Following US Bombing - Newsweek",
-    "description": "Via Newsweek. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZnhiU25hQ2l5QnJyM2hhejRKMkQtdGc4STVuZHJNNFNleWZ2RERSWWZTeERuaGs5S3F5LW9QZ1c2ZFVnSW9ES2dVWnRBMlJQT2pzcFlZZkc2R0tQbDNsWlY4STVpTmdSYmZrS2didHBubWloeUJzLVRlb2tMbHVWdV80ZC1ndE16NElB?oc=5",
-    "source": "Newsweek",
-    "fetchedAt": "2026-04-17T22:00:24.075Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=eFSkya9Rv-k",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "eFSkya9Rv-k",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "iaea-chief-confirms-inspection-of",
     "date": "2025-11-19",
     "title": "IAEA chief confirms inspection of Iran’s nuclear sites ‘unaffected’ by June attacks - IRNA English",
@@ -5066,6 +4958,114 @@
     "fetchedAt": "2026-04-19T11:00:57.575Z",
     "mediaUrls": [],
     "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iaea-warns-it-cannot-rule",
+    "date": "2026-03-02",
+    "title": "IAEA warns it 'cannot rule out' possible radiological release from Iran strikes - abcnews.com",
+    "description": "Via abcnews.com. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdHp4bHphbGlQajBNMDdvdDA3N25xSXdOVmRCR3U2d0thWldMZDBTVGRMemN3MlRqN3FIbTYtNjJMSFJmMEFfM3hPaERpVjhMMG5sd2JxZ013cy1UNlJWQzJLbHRodjN6TjA4Z0lPWmNRNXZSOGdqTjFMWkNqcjM4NjdBcDRiWGR2MENuV0ozTXBrUjVPTkk2b3pnQTBYUzFSTHpaaNIBqgFBVV95cUxQV2R4c0FJc3BzSkhCRzZQR0E4ai1NdmVILVVtMXl1NUdfS3ZpX0dZbGRXY2VabTRCbHBiRlZ5TlFPbkZCYVQ3dFJwV2p5RTg5Yk5VdjVlOGFkNzdtVGg4dTVaOXNNSW11eDdtMjQ0UWNoM29mdWNlOGl6NnhfUW9LclVfdjhBWWxNY0R2aU51cmFILVo1WmY2eWQ2VjZTc1hWZlFZaHh4ZlR1QQ?oc=5",
+    "source": "abcnews.com",
+    "fetchedAt": "2026-04-19T12:00:11.323Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=cgrKjgjQMO0",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "cgrKjgjQMO0",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "more-civilian-casualties-come-to",
+    "date": "2026-03-27",
+    "title": "More civilian casualties come to light from a strike that hit a sports hall killing children in southern Iran - The World from PRX",
+    "description": "Via The World from PRX. Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQcUhZeFR5YVIxOWRIaVlLUHpYVWhvZ1ZrZEMxN2tCRGoyQzZsb0ZhTXQ0MjhkNVJaRjVwbEllV0FlYjRiMXlSb25xYVhnRnpJdlh2RXdTTWlraVAyeC14N2s3dEJVWF9qdUdydDNmbS00b1o1ZkZHcXBUNHZMcFVDeGJ2YVJFdjJnRlIxUUViRGwwOWpjWlhaZjVlajNpVHcyZEFJVWZnbTNuZDRKOWNwVHZMUXNRVGVPMGhjM1FBU2owMzJNTDI1UTJYbnJMeGxtZ2xkOHFtUTVLeU93clBtemxoaw?oc=5",
+    "source": "The World from PRX",
+    "fetchedAt": "2026-04-19T12:00:14.498Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=cdwZZ4ePcjE",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "cdwZZ4ePcjE",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-says-over-1300-civilians",
+    "date": "2026-03-11",
+    "title": "Iran says over 1,300 civilians killed; US reports military casualties - news.cgtn.com",
+    "description": "Via news.cgtn.com. Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVHd1aXR5ZE5sVGJ4Q29UQkg5dllxOVdQUkF4Z0dRTDAzTXhsWjJ5b0RwZmpyMjMyeWZIdzRFbUp6b0lSNnl0Y2ZHalRPTmsxODdYbmsxVWF5MzE3NW9OdWJRRHNsUUFqRlE5VUswMjVUZFdSVFdETU1tUlpObEJ4ZTEzR1dQYjlsdGI2VmVnYXB2WS1MYzJJMTF4eWtHS0RvcDBmZG10akNvR1B2d3VEXzlqSHZ6Vnc3VWxJNnotTEt1Z2s?oc=5",
+    "source": "news.cgtn.com",
+    "fetchedAt": "2026-04-19T12:00:16.071Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=TBcU4MESCPk",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "TBcU4MESCPk",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "netherlands-calls-on-eu-to",
+    "date": "2025-10-01",
+    "title": "Netherlands Calls on EU to Sanction Yemen’s Houthis After Ship Attack - gCaptain",
+    "description": "Via gCaptain. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUXRIVVFGamJmUVltWThpUjdieUlFWUVWT2h3dnFNbUZBLUo0ZTZDektEb1dCaFYtYWRrSmRkQ1FzdjNKZUlFNHpCaVBVdmxhbGZTYnVXcnVPbHdyLUFyQU5KSUk4cWFOSzNqUU1WRXlWX0tqUzdta3BCWlNDMk1CLThyeHl4dFgxT0UwdE5KeEVGLWw5?oc=5",
+    "source": "gCaptain",
+    "fetchedAt": "2026-04-19T12:00:18.482Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=UztPrVTRp6o",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "UztPrVTRp6o",
+      "title": "",
+      "confidence": "auto"
+    },
     "lat": null,
     "lng": null,
     "zoom": null,
