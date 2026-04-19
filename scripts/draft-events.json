@@ -1,32 +1,5 @@
 [
   {
-    "id": "oil-leaps-as-strait-of",
-    "date": "2026-03-02",
-    "title": "Oil Leaps As Strait Of Hormuz Blockage Continues, Analysts Fear Long-Term Disruption - Ship & Bunker",
-    "description": "Via Ship & Bunker. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQ1diT1JjUVZQMmVjTU1QMUhwNHc2UTBHXzBadEpITy10ZlpSdXE3a2dWVVBPSkVtazRadHljWUctYl9pX1I2M0lCTWV3UEloaG5VVjFCZjlQM2VZNThaY21XblZlZzB6ZWk0Z0tROTM0MWhBTW5sakZSYVJud0lHZVo0dndiSGZhcWV2UUREWXdLdjNWeDZTV2RJalZYbGZjdF9IVm1Ha1NOaUNlZkZxVm4tU1dZZGVzTVdVUXRhWlJEU1JZQUE?oc=5",
-    "source": "Ship & Bunker",
-    "fetchedAt": "2026-04-18T05:00:11.563Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=r8Azhm8fqAY",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "r8Azhm8fqAY",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "how-many-people-have-been",
     "date": "2026-03-10",
     "title": "How Many People Have Been Killed in the US-Israel War on Iran? - GV Wire",
@@ -5079,6 +5052,33 @@
     "fetchedAt": "2026-04-19T19:00:37.141Z",
     "mediaUrls": [],
     "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "rising-casualties-israeli-strikes-in",
+    "date": "2026-04-16",
+    "title": "Rising casualties: Israeli strikes in Lebanon reach alarming levels - MSN",
+    "description": "Via MSN. Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOMlJOLS1QRVpqLVM0YVJUaGhxcXRWTW5WcFQ1TWt2ODdVR2MyS201S2pwbDZWR3pHa1oydW9zLXcxSFBJb2l0bjA0MW13aWpLeUlQQkpBa0JiSUsxNmdCMTNtQnYtaUIxTWZ0N090TENUMUxEb2dqOWF0aGtQY2J2dTRYdVVkX2RfcDhxb014SmdvRnZGekhxMnZYY25ZdlFlaUR4UE9aSF9RVWIycTVxUkZxYU9rTHZlZ09DNmk0WDRjbTFhWElwVDhuMk1xNHREQmp2RWIwLUI2M1A3X3ktWVN1MEwyR1E?oc=5",
+    "source": "MSN",
+    "fetchedAt": "2026-04-19T20:00:14.959Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=nc53lfBogXQ",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "nc53lfBogXQ",
+      "title": "",
+      "confidence": "auto"
+    },
     "lat": null,
     "lng": null,
     "zoom": null,
