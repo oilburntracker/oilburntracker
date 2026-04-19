@@ -9525,5 +9525,22 @@
         "label": ""
       }
     ]
+  },
+  {
+    "id": "auto-obliterated-damaged-inoperable-whats-known",
+    "date": "2025-06-26",
+    "title": "Obliterated? Damaged? Inoperable? What's known about Iran's nuclear facilities",
+    "category": "facility_damage",
+    "description": "Via NPR. Auto-detected by headline monitor.",
+    "lat": 35.69,
+    "lng": 51.39,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTXA0UjdRWUJSN1J5dHpLRGl3MkFiNEVHX1RyZU53ak1PbElxbjJ0MVoyOUVEMkVIanVEeEhBN3NYV0liWGZLSnlzSkhNeHNTZFhMSFd1UThXclUzSU8wWjNhYjBHY1ZrcmFSYTZyZ1BZM1NQeWtUa2l6ZDdHM3U1aVQtZ18taVhmVVk5R3BLTFhEdHBLNGZGTjl5SDJ5WEds?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=0ssFRlgfpno",
+        "label": ""
+      }
+    ]
   }
 ]
