@@ -1,103 +1,5 @@
 [
   {
-    "id": "gaza-hospital-overwhelmed-with-60",
-    "date": "2023-10-13",
-    "title": "Gaza hospital overwhelmed with 60% of casualties women and children - Euronews",
-    "description": "Via Euronews. Auto-detected by headline monitor.",
-    "category": "humanitarian",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdmJlTGJIQ3FvTkpIbVNjS2lMZ3lNcUJtRGdFZ1hpMzc1dDNXSmx3bFJFelg0NFFQc1BKRFRmUXlpMjZ0cGZpNUJ0dklaTk5rT3d3WmY3MnZ1c1VXRlFYNjJSN0NRMlpRN0NTRThRb0Jyb2hOU1dXSWZOemdfNmg1OGtOQWthQ0QtUjZXMkhBYkQza3IzUUZpTTZTa3A0TUtGU21jNg?oc=5",
-    "source": "Euronews",
-    "fetchedAt": "2026-04-19T04:00:23.407Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=-wIsR_bRPTg",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "-wIsR_bRPTg",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "acid-rain-and-broken-food",
-    "date": "2026-03-10",
-    "title": "Acid rain and broken food chains: Iran war’s environmental costs - Euronews",
-    "description": "Via Euronews. Auto-detected by headline monitor.",
-    "category": "environmental",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOUTl0cHptbnJXZk1kQ0stOUZxblNZZGNFZ2JFQWRfX1hxLTZxbmxvVkswNkg4VDZ1QllscVBWaGFaOGZDNk1LSEZSY29fSWVSQTZpMWFxZERteUxqZkg3aWJlZVJZbHFsbk1qc0pCbzZHYXg0YU80bWpEUnpkY3Y2VmloUWZsYUVUU0VXcUZjY3pNWmZ6d3F5aEV5eGgzSGl0ODVKYk5jMEs0YUxfUlQ0QUdOYW5WLWk5Y3UwRW8ySmlJNUlW?oc=5",
-    "source": "Euronews",
-    "fetchedAt": "2026-04-19T04:00:31.972Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "ukraine-ramps-up-attacks-on",
-    "date": "2026-04-07",
-    "title": "Ukraine Ramps Up Attacks on Russian Oil, Aiming to Curb Iran War Windfall - The New York Times",
-    "description": "Via The New York Times. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPblpPdWpfVmlFa0NwZU0zMDR2TDdXS2ZHQVNNellHRzFBa19pQnprb3lMcFl5Xzk0SUNsRWR2Q0hFN3VQWVZxeW1jS0M4VHBJdktsbllxbVpvUXFQdVhJTzJ0NEl4UTkxNkEwcjdsVVpYSnQtSFFWZmkwN0lZbzFITGt3OTF6SDhxU3c1aUdIZWtNZw?oc=5",
-    "source": "The New York Times",
-    "fetchedAt": "2026-04-19T05:00:11.123Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=jpu6fZyXaKI",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "jpu6fZyXaKI",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "no-sign-irans-nuclear-sites",
-    "date": "2026-03-02",
-    "title": "No sign Iran’s nuclear sites were hit, IAEA says, but Iran alleges one was - WTVB",
-    "description": "Via WTVB. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUi1DMXRub085QnZpMXBTb21BejZyOGtlcjlXVmYtMlVSSDN0MXFuVjhhTm9NeWM2NnVDbkEzN3Nxb3gxczRmYmhDUmNWM1Q0dmxMaUVXcm83bWp2N3Mzb3pyWWR5cUtUOVh2bFluZkN2SVhtSkRUSjlMQUQtQ1BRS0ktQUZaWE56YkNtU04tVGtrWjd4VW5yU3BIaWVjeTNrMjNvQQ?oc=5",
-    "source": "WTVB",
-    "fetchedAt": "2026-04-19T05:00:12.966Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=Ko23UkuQOoc",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "Ko23UkuQOoc",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "iran-threatens-to-close-the",
     "date": "2026-02-28",
     "title": "Iran Threatens to Close the Strait That Moves 20% of Global Oil - gCaptain",
@@ -5156,6 +5058,114 @@
     ],
     "videoMatch": {
       "videoId": "1d15hzj84pw",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-accuses-iaea-of-clear",
+    "date": "2026-04-04",
+    "title": "Iran accuses IAEA of \"clear complicity\" over silence on US-Israeli strikes against nuclear sites - ANI News",
+    "description": "Via ANI News. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQLW5TVVNCSVNicnZMTHN5V3NQdDc2em1qc3FLSW1KVHlRaHdWVDgwNnlWNXF1Sy02RnNjNTdjUlhfWFFoZzQwVTlhZmpmSlBWaDJIVEFEVzBaNGN5dGl4SVgzN0ZFMkJEdW9pRzFEcmF1aWc4M1JhaHFieUk4bXBPbWMtZDg1aV9RSzVkbDdsNzRxd0dVdnN3NnRmYnl5Y1JBbGUyWWhkSjQycmh3Z3h1emR1enNwQmMzUGhyRDFEVkl3QnNvblhjWUgtSG5WemhTUzN6Y0lUbHJaVzdZVXB4Qmk2ZFRjNkR2Q1E?oc=5",
+    "source": "ANI News",
+    "fetchedAt": "2026-04-20T17:00:12.163Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=D9NYl2OfI04",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "D9NYl2OfI04",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-says-iaea-must-clarify",
+    "date": "2026-01-23",
+    "title": "Iran says IAEA must clarify stance on Israeli strikes before visiting bombed nuclear sites - The Times of Israel",
+    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPMHRFaEh5S0tQRnBsalQ4NzRWaFRCNnZDc05TV1hORThhdFJUTnFFQzNrM0dxcWpkNWVycFFtTE9sVXZ5cWg5VGt2WHJ1bEdlR3pCSUJHNy1CSzJ3NXpsbkRONGd0VngzRV9rSUpVMGRkXy0xYzdabXBWNmlEOGlkNmlpOERUMkpWWk13TmtQWUN0ZmNLYkNsYk5Oa1d3RjV1TmJFZC16MkhLZjBZaE8ydG83MDYwTF9jTXk5a2lQemRCSHhfVkw3dGJJTThKdjFtRHc?oc=5",
+    "source": "The Times of Israel",
+    "fetchedAt": "2026-04-20T17:00:13.823Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=aHpOxMUdxP4",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "aHpOxMUdxP4",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "death-toll-from-israeli-strikes",
+    "date": "2026-03-10",
+    "title": "Death Toll from Israeli Strikes in Lebanon Rises to 486, Health Ministry Says - kurdistan24.net",
+    "description": "Via kurdistan24.net. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPX0tJdVlQcVpYVnJLQjk3MG1ONmtNU2xQTThFQUo4RkVkTzdNS1FzR2pqTnpNNXpqQmt6T0hKc0FXeUdSd3ExVi1yakIxSUtpM1UzRC12elpQemVVMDdSNUNVUnBfbGpGWllzMkFMVHNzMG5aSkVwZ0YyVTkzcmtOVEw3YkMzR0dXbVJ2YjNlMFVpQTQ1ODgyVGNDdFhQclplZTJPejgtMk5HS0FvUGtXUmR0OEhUajhocGxfSA?oc=5",
+    "source": "kurdistan24.net",
+    "fetchedAt": "2026-04-20T17:00:19.461Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=QEld69HB3vc",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "QEld69HB3vc",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "death-toll-from-israeli-airstrikes",
+    "date": "2026-03-09",
+    "title": "Death toll from Israeli airstrikes in Lebanon rises to 394 - 巴士的報",
+    "description": "Via 巴士的報. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOczBHWW03UnVFMTNkMVF3RlBjcWhJMkFmbDhzSGE1RXpvMkYzdDNyWnBHbTBNeW1PLTBWMWI1UVNOeHR0Z2NCU2xpeTVqVmtia2x4ejIyTzNpbU1KTWdiMURIQzludldLWGxmaURKaWtXUGVrQldDV0NPRGZUckNrWE9YbV9LMjFtVFRwYWM2NmhHR2tzb1VBNjlJR3ZPLXB5OUtvaFpUM2dvWFF3YjdJ?oc=5",
+    "source": "巴士的報",
+    "fetchedAt": "2026-04-20T17:00:21.936Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=w4MOObwBeSg",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "w4MOObwBeSg",
       "title": "",
       "confidence": "auto"
     },
