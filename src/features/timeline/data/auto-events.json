@@ -10126,7 +10126,14 @@
     "description": "Via The New York Times. Auto-detected by headline monitor.",
     "lat": 35.69,
     "lng": 51.39,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTldaQi1XeUNZZ3lNempVYUcwdlFYWXpBNEsxQUNLODZfUjFEY3phWXBaeWZnQXI1U2VjWlowZlBQYmNiSGRDd3NuNTl6elRQaGtURVQ4c3ppbmxCN3dJMm9zbE5Dc2lfSE9CV3ZsbXV2YWZHWl9yRC13TFl1cjlIeFRZcDBZM3F4aldhNWwxVEY?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTldaQi1XeUNZZ3lNempVYUcwdlFYWXpBNEsxQUNLODZfUjFEY3phWXBaeWZnQXI1U2VjWlowZlBQYmNiSGRDd3NuNTl6elRQaGtURVQ4c3ppbmxCN3dJMm9zbE5Dc2lfSE9CV3ZsbXV2YWZHWl9yRC13TFl1cjlIeFRZcDBZM3F4aldhNWwxVEY?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=Ch2TrGL5TgU",
+        "label": "Is China a winner of the Iran war or facing economic risks? | Counting the Cost | Al Jazeera English"
+      }
+    ]
   },
   {
     "id": "auto-what-is-the-strait-of",
@@ -10136,7 +10143,14 @@
     "description": "Via The Guardian. Auto-detected by headline monitor.",
     "lat": 35.69,
     "lng": 51.39,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSFFvb2J6cjdmdHV4dGlSY1JFdktaRlYzZU8wdHhhNVpBRC1lOXJtOUNJLW9IVmpWeEt4NnowNFNMZUI3eGZqQVBBZzI3alMtaVpaT1pMakctOE55a3poRmx0MWRjZjR2dEE3djRHa2RwR2NVQTk4cWdSN1Zpd1JJckxTcmMyTEhIQVRTZndCZlJhd1ozNEFrSjBnYjZwbUhUWWdPVTln?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSFFvb2J6cjdmdHV4dGlSY1JFdktaRlYzZU8wdHhhNVpBRC1lOXJtOUNJLW9IVmpWeEt4NnowNFNMZUI3eGZqQVBBZzI3alMtaVpaT1pMakctOE55a3poRmx0MWRjZjR2dEE3djRHa2RwR2NVQTk4cWdSN1Zpd1JJckxTcmMyTEhIQVRTZndCZlJhd1ozNEFrSjBnYjZwbUhUWWdPVTln?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=5KWwb18gPMk",
+        "label": "Karachi port holds 3,000 containers bound for Iran amid Strait of Hormuz tensions | Al Jazeera English"
+      }
+    ]
   },
   {
     "id": "auto-the-choking-of-hormuz-the",
