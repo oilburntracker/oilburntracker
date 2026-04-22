@@ -10270,5 +10270,32 @@
         "label": ""
       }
     ]
+  },
+  {
+    "id": "auto-what-latest-satellite-images-reveal",
+    "date": "2025-06-16",
+    "title": "What latest satellite images reveal about strikes on Iran",
+    "category": "military_strike",
+    "description": "Via BBC. Auto-detected by headline monitor.",
+    "lat": 35.69,
+    "lng": 51.39,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1NYnpraUE5XzkwbnlHQy1Od3FJVVMxV3dOejR5d1RXT3lEdkt0Mmw3c2VObEdNa2UxT2hEVE9hQzhIdExzdDVZVW43czhFQV9lcWVkVlRGU3Y0dw?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=zWrL8WuhaJs",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "auto-what-satellite-images-reveal-about",
+    "date": "2024-10-29",
+    "title": "What satellite images reveal about Israel's strikes on Iran",
+    "category": "military_strike",
+    "description": "Via BBC. Auto-detected by headline monitor.",
+    "lat": 35.69,
+    "lng": 51.39,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5KRjBROHNybW9HeEJvRnQwZXh0U3pJYjBFT1Rnd0ZhOUF5bzh2cFpWdVNRSjk2SnpaTllHaXNteGhwLUxUUG90b09qNFhEUFlIUGpseWZENl9Bdw?oc=5"
   }
 ]
