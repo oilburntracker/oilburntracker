@@ -10097,5 +10097,35 @@
         "label": ""
       }
     ]
+  },
+  {
+    "id": "auto-energy-prices-surge-as-tanker",
+    "date": "2026-03-02",
+    "title": "Energy prices surge as tanker disruptions and facility shutdowns rattle global supply",
+    "category": "chokepoint",
+    "description": "Via AP News. Auto-detected by headline monitor.",
+    "lat": 30,
+    "lng": 48,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTzFqWFViSEVMWFl6aUh5Q1I2cnRMUTQ2UzBTVGljbmpJSmdJVGl0M0hiemtaTkdsVUNZTXNjSks1cnBRbHFsV1BHSmlTNVZwVjZDalk5NlAtd2ZMakRDUlZ0ZllZdldxQ1F5UUJYUFRxZ0tjV1RETi1mSU1pSHhMdFREVmhtWEptM3dINXo5ZEJoc1p1NE5R?oc=5"
+  },
+  {
+    "id": "auto-iran-sends-millions-of-oil",
+    "date": "2026-03-10",
+    "title": "Iran sends millions of oil barrels to China through Strait of Hormuz even as war chokes the waterway",
+    "category": "facility_damage",
+    "description": "Via CNBC. Auto-detected by headline monitor.",
+    "lat": 35.69,
+    "lng": 51.39,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQSmRCOVlVaEE0MEFTNWlKTVo2eTU2eU5yUl9fU2RHTU51Rm9DNDdqWWc2XzJnWGQzSTZPM2g0OVc1QjBuS2hyb2VRMmFob2dRNDE5Z3VQZGdnaHJnVGc0QjF4ME5SOEk3UTJpLVZ0aDhQdGFFdzg0b2Y4TzNKZ01rSnBWOXA3a3fSAYwBQVVfeXFMTUNxSE1wejBYcUF3YkFsQ1FOYUdyRjBoZWdlNzYweHY4aDJPSUhpVUMxNTNsZE1LZ2Z1MGRJd0tBLXNoU2RNa1ZSSWxRbk1WTUpIMGozWTBvMGl5c2VEdUNCc3J2YUZZcmhMWGd5cTV1YTEwWU9tRnVrWlFUVHFYM1dWT2lmUGNWc2hXbE4?oc=5"
+  },
+  {
+    "id": "auto-oil-prices-jump-after-iran",
+    "date": "2026-03-02",
+    "title": "Oil Prices Jump After Iran Attack, Pointing to Economic Risks",
+    "category": "military_strike",
+    "description": "Via The New York Times. Auto-detected by headline monitor.",
+    "lat": 35.69,
+    "lng": 51.39,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTldaQi1XeUNZZ3lNempVYUcwdlFYWXpBNEsxQUNLODZfUjFEY3phWXBaeWZnQXI1U2VjWlowZlBQYmNiSGRDd3NuNTl6elRQaGtURVQ4c3ppbmxCN3dJMm9zbE5Dc2lfSE9CV3ZsbXV2YWZHWl9yRC13TFl1cjlIeFRZcDBZM3F4aldhNWwxVEY?oc=5"
   }
 ]
