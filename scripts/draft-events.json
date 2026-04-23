@@ -1,86 +1,5 @@
 [
   {
-    "id": "report-says-us-struck-iran",
-    "date": "2026-03-12",
-    "title": "Report Says U.S. Struck Iran School - Council on Foreign Relations",
-    "description": "Via Council on Foreign Relations. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4yU1VQYlRXdXByaUxDaTN4M0N0Ykc3X3hFRmR2UnBzM2RzbGc2ZVI4Z0twV1J5SV83LWJ0VGtpN01kaWNTT0NpU3UyUGhzejJfSEJEaEFueS1SbDZFcmp0X0R6dzZidDB4OEJ4dFpWTHM?oc=5",
-    "source": "Council on Foreign Relations",
-    "fetchedAt": "2026-04-22T16:00:18.620Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=LmeMWgcrBw8",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "LmeMWgcrBw8",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "over-2000-dead-mostly-civilians",
-    "date": "2026-03-15",
-    "title": "Over 2,000 dead, mostly civilians, in US-Israel-Iran war | Daily Sabah - Daily Sabah",
-    "description": "Via Daily Sabah. Auto-detected by headline monitor.",
-    "category": "humanitarian",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVjA0NEpYOFdXTV9fWUZieFhNTm5FVEh3Z2NBbEIxemtsUGs5cXpWR0dUVGo3Y0hHdllZQk9qR3gtZm9GT1hhaHJDbk1scFBYWm5BSi1uR1dCV2N2MWlIcmdoaWJtcnFHWm1DUjBmY0xENlgwUzczYWExbU9TQlhTZVRGSUptRENpQ3puQWN5Vl9iZjN4RmRNN1JpTdIBoAFBVV95cUxQcWJhbEZxVHIzTTFsTkNtanFUVmwydGFocDlEaG1yZ0M5dWNDZlV2eGpKTUN6bkZxYWxUTzNLb1dRMUtjaVUyc2Z5UDlaNngwSHVNNWFuVEJjVTVBM2ZhUWhDU0JqSXp5ZWVHUTV0Z0RvcVRaV3JtZVMzWnVjZlMzcHRzajVWalJlbi11MmlNUS1DRHlHaGM2bHUzZExwLXls?oc=5",
-    "source": "Daily Sabah",
-    "fetchedAt": "2026-04-22T16:00:21.169Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=Mzvn-SKnXqQ",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "Mzvn-SKnXqQ",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "these-american-service-members-died",
-    "date": "2026-03-14",
-    "title": "These American Service Members Died in the Iran Conflict - The New York Times",
-    "description": "Via The New York Times. Auto-detected by headline monitor.",
-    "category": null,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTFA3ZU40cTJWaEFMR19GRE9vMG5ob0o1Z0JLdmFBZ2luRnFKTnE4QjVKM21yZW5NS0tCUS1DOW1pbnVoNkNPSkVWZllBZFdaRkVpWFZacFFnSWJTYU5FWEpVNUw5WXlIN3BSbEFvbmp4bXJXZw?oc=5",
-    "source": "The New York Times",
-    "fetchedAt": "2026-04-22T16:00:23.627Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=Q66-7W-FTPk",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "Q66-7W-FTPk",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "civilian-death-toll-rises-in",
     "date": "2026-04-04",
     "title": "Civilian death toll rises in Iran war, more than 1,000 killed by Israeli strikes in Lebanon - Global News",
@@ -4589,6 +4508,185 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxQWUlBdlE3ODlPMWw3UEt1Nlg4Y09lRVVjNUJIbFV2b0IzTmZieVlSWldNSlZRQ2NxZUx3TUFfLXlZOVFKS0thQ2lPWTFnY0RBTm9Rdm83dEZ5bWtCd3lQeWJWUG91Nm84dll4eEY2d0NNOVN1RXZxNXVSdVpfbG1oVU9JTWx2cmNNUjd6N25zSWF1WElFNWUxbFJ2OFRxUQ?oc=5",
     "source": "Foundation for Defense of Democracies",
     "fetchedAt": "2026-04-23T11:01:23.481Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-orders-closure-of-strait",
+    "date": "2025-06-22",
+    "title": "Iran orders closure of Strait of Hormuz — putting one-fifth of world’s oil supply at risk - New York Post",
+    "description": "Via New York Post. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOY3NxM3JFdm95TWhWZUxBQjVSaGVWSGdIcVBoRS11YkhkQmpNUkRLMmhhNUduVkFLWU41UVRCYmdLUDdOek1VR0lkNWVRVWRrbFEwemxfa2lfM05KdGxER2tQa0pyLWZLR0lfMnUtRXVIeXFZV1NEU0pJWkdnRTZOaVhkMTJrVGpjSVNZU3d5X2U3OUZaazhvcE1kXzY4Q0dtMEpyNzlUbmI2dUJhTFVaN1pMdEJaNDFEd193ajJaSlI5QjRuTkVN?oc=5",
+    "source": "New York Post",
+    "fetchedAt": "2026-04-23T12:00:11.422Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=kqGDHNDaV7M",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "kqGDHNDaV7M",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "oil-prices-drop-on-prospect",
+    "date": "2026-03-24",
+    "title": "Oil prices drop on prospect of Middle East ceasefire easing supply disruption - Yahoo! Finance Canada",
+    "description": "Via Yahoo! Finance Canada. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQa0VuUzhEbGxKTG9Pb2wxTVE2TTl1dXBpQ0hjTl9pYnc1Qm5nbkg5VlRZUnNITDYtbjJUNWxCZlpPNXMxWXhXYzBRUDR4eFJfcVZLaXhhNno5ZzEtS011M2I2UkRyZ2RCNElVemVnX0NiMV80dkFFUEVUdDRzWE9rLTZhNFgwZ2M?oc=5",
+    "source": "Yahoo! Finance Canada",
+    "fetchedAt": "2026-04-23T12:00:13.093Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=QM3KE1UApBw",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "QM3KE1UApBw",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "how-the-attack-on-iran",
+    "date": "2026-02-28",
+    "title": "How the attack on Iran could impact gas prices - NBC 5 Dallas-Fort Worth",
+    "description": "Via NBC 5 Dallas-Fort Worth. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVWlKb0k1S09qZjRZRmNkd2FHZUxxTlJocFFBdGpBWVVnbkNZOF9qdjhYWHFmamIyb1JTRk42cWhlNV9kdmdSbVM0dm5acDFrVGhYV2lGWFBQTXo3R3ZhMU9xRVFFdmxuQWFxRWRCUEFObkliQ05fN2VZSDhNby00UUFibkItNzdhNTVVZDlXVWZUX01XT3FXRkxxS0Q4V0RI0gGoAUFVX3lxTE5wMzFjZS1DMXZrci1LMlRyZy1wMFZWb19qel9WdTRidGJueXI4N09KcTc4MTI3b1gxZEdDQm5nR3NMd1VfajRteWc5aWFzUlB4UTZRTU15Sms3TGdselRoYmFGUlRiZ3J5SVVaNkRZSFE5SEZhbmwzOW82YmlWSWVDcWoxTGgzVTZxWDU1RHdXc3pNV1NTcWxLcVlxUzBKN1RCTVU0VFo3dw?oc=5",
+    "source": "NBC 5 Dallas-Fort Worth",
+    "fetchedAt": "2026-04-23T12:00:14.898Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=Q8Tmf-9lXDM",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "Q8Tmf-9lXDM",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "pakistani-ship-attacked-by-israel",
+    "date": "2025-09-28",
+    "title": "Pakistani ship attacked by Israel: Drone hits LPG tanker in Yemen; Houthis hold crew hostage - The Times of India",
+    "description": "Via The Times of India. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQRVhhb1FlbDk2U1FtS29DWG9fZGt6eGxmOGttcXZ2T3l5TmY4bHVsRm11eGRwOFJTZjFEb09aNWdPUmRyV0x0RXZHQ1gzQ1RydXlnRTdTNWk1WWpYemZ4QlRreVJGUzJWM0lKeVJxTGdNOVlwamQ0eWVtNmY2amh2OFpRSlJhX1MyWHhSMEdnMWRydTJNcV84dFpFRHZ4SnFfOVJsSGtLcnJoSGVtUFgxdkphdHBGbnZXTzNYeFBMZGJXN2VSc2dVUm4yOTRlb1ZWTzNZenJRMFNpZEg4VlpuZGlWM1dqWXVRQmlTMnI5c20tRmI5SVFYZVFUd9IBgAJBVV95cUxQTkFDT3VEZUtZNUNLa1hvNTd0alJ6eUxsbUxBV3BucEZQODNvWHA3dUJkV0xTZF9sbmxsTGhDaDNJeGZPMGl2VEtvRWc5TmxfWmEtb0NhdFJ6Z3RldnZYaXE3V2w3VFhEVlRjVnFQTUdQVjNnaEtNeWRvODRYNnE3NWJYLU8zRVhUdGRkaTBVVEotQ09LS0tnbVZxRkxRbC1Ed1NpZ0hFYm1NR25mWjdDUWVINEtOdkZLNWtkaS1mbnNyQlZIcXltMmhHWFZDM3NTelE2UFVLTzE0djY5NENXaURXaTJDcExFc0FmT2xjQ0RzTHQ2REtUVW9jbkVZMjVD?oc=5",
+    "source": "The Times of India",
+    "fetchedAt": "2026-04-23T12:00:16.584Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=owZCHdZkcco",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "owZCHdZkcco",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "chemical-tanker-off-saudi-arabia",
+    "date": "2025-09-01",
+    "title": "Chemical tanker off Saudi Arabia coast safe after Houthi missile strike - Al Arabiya English",
+    "description": "Via Al Arabiya English. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNZjFjRWp1dEVpNEhVWlJlN1JyOWxjSVdSYXRGZVJzZUNSQUZVRVE1RFU2RTZURTBvSlIzZndqV3kyWEhFYm1VN0p0X2Zqbkh1RWw4eEFZeGx1UmJoY1hmVHNwaWRXR3hBU1RCcmluSVNPM2RSNktCVHllUmFmdi1JZHV6cHk1MnAtQU5IV1NjMFRMcGN6cHUzMklDOEVZMGpuZ3NWQjVWeHhaLXBnaWJOMjUwaFNuRHhONjlmc291UUpJSnl5Nm9hVFJrVEFuYndvbkhNV9IB2gFBVV95cUxPYzlEMUM4ZE0xampKc1VHTlI3Y1FWQXRrTUlwT29ESkQzWUFGd2h0cU1oV0JUX1JNVGY4THBXaUlCYjduQng4Q1BvbXBhWnAyc003QUdMbjVCVUNJS3BYU2VvX092REgzN2EwSm5ibndvbWF6RnN2Q19Fb0ZNc0QyRzJuYXkzSGNnb2VvZjI5bEFzVkk3MGJ4MnQyS0pLa3ZtLXVQNV9idUJ2YmdYa0hLR203ZXRKS3dtOXRSV3dfOEEtYk9KUTlEQmZwWnB5TFZnalVGdDZDVjFOQQ?oc=5",
+    "source": "Al Arabiya English",
+    "fetchedAt": "2026-04-23T12:00:19.040Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=GuiKStjWnOA",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "GuiKStjWnOA",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "the-iran-war-diesel-fuel",
+    "date": "2026-03-02",
+    "title": "The Iran war, diesel fuel, and a tired infrastructure story - FreightWaves",
+    "description": "Via FreightWaves. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNVTl1ZThHZk1waDNXZHZ2YldYcmlvZmg3TGZFM2JnbWJKU0xHdmZ0c0VOQnphbUFjczV5SkttSnd5ZmozZHM3U1ltNHFIZzViZVJ3RmdHZzF1cVBQdmpzQkl2RUloSi1NYWt4ZEd1N0JUVHowUXRRNWc2dnlXeDZYQVg0X3cxdHlnSGM0V0tEMjdTWXlWOWc?oc=5",
+    "source": "FreightWaves",
+    "fetchedAt": "2026-04-23T12:00:26.096Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=ZEckwuUxqGI",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "ZEckwuUxqGI",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israeli-airstrikes-kill-49-in",
+    "date": "2026-03-09",
+    "title": "Israeli airstrikes kill 49 in Lebanon, pushing death toll since Monday beyond 400 - The Muslim News",
+    "description": "Via The Muslim News. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVVoxZ25MUEVsakRXTmpoSTN6Tlg5QTFnUE40ZzBOYVRuWWxjdUNJTnRwTkxOc3VxOXd6emtYR2x4NmUwd1QydXJTX1NLaGlRaGIxYVBxRWQ1OEJ4b1lDNXViaXN6VXFTZTdFZ3F2NGtSNGRBdkRVNWJXR052TFJjY0pfdGx2UHRCX2lSSXlIdE9veHp3cGVqSWRSdnpudW9peWN6M1g5c2pFU1l5MGVvQw?oc=5",
+    "source": "The Muslim News",
+    "fetchedAt": "2026-04-23T12:00:32.477Z",
     "mediaUrls": [],
     "videoMatch": null,
     "lat": null,
