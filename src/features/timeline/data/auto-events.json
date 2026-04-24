@@ -10642,5 +10642,22 @@
         "label": ""
       }
     ]
+  },
+  {
+    "id": "auto-oil-surges-past-100-a",
+    "date": "2026-03-08",
+    "title": "Oil surges past $100 a barrel for first time in four years",
+    "category": "facility_damage",
+    "description": "Via Financial Times. Auto-detected by headline monitor.",
+    "lat": 30,
+    "lng": 48,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5na0E2Q1FjemY0OXh5RXJORDBqZDZ0aGhLcWROSlF1V2JJV2xaYk9ueUtvalREMTE4bFdlaGlwMXdrWHEzMVpoX0E4RlViR0R4bllqV1hlWGtsbWQ5S3V1aWVXb2szRlUtUHlTNmx5OGc?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=bBz2l_HXQMw",
+        "label": ""
+      }
+    ]
   }
 ]
