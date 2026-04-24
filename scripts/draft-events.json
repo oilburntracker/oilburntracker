@@ -1,130 +1,5 @@
 [
   {
-    "id": "israel-air-strike-hits-hospital",
-    "date": "2025-03-23",
-    "title": "Israel air strike hits hospital in Gaza as death toll passes 50,000, Palestinian health ministry says - Australian Broadcasting Corporation",
-    "description": "Via Australian Broadcasting Corporation. Auto-detected by headline monitor.",
-    "category": "humanitarian",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcjZSbWxIUWZkdWJXbmhrbHpjU0pwSDNfUk14TjdCUGUzWF9WSEtrdEczaFRMRnd3VkQyaV85Mnp6dms1NkFhM1Zyc3JEaFhxYUZ6VHJDUm12bVd5U1NDRm1CNVZwbDhNc2lYSkZEaDdSNlQ5TGJka191MVhjUUtyWnVUd3UxZGtVdkk4aW5SN0F2U0lwa19TSjlMQ3FIWFlpcHJWb0pB?oc=5",
-    "source": "Australian Broadcasting Corporation",
-    "fetchedAt": "2026-04-23T09:01:09.079Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "us-bombing-of-kharg-island",
-    "date": "2026-03-14",
-    "title": "U.S. bombing of Kharg Island, Iran's critical oil hub, sparks new threats to target Gulf oil infrastructure - NBC News",
-    "description": "Via NBC News. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOempSdW9rS3MzVWNCMkctWkEwUFZFcjVWVXBwUVUtSF9VWWZhd1NYUFdlTEdaRGhKSkJoLUxnOE9TVlBmUFBwYnNzdDAydFVVSjVGZ0QwTDJiSW03R2x4QnFuaGhKYXF0UEtPbDluaDRFU0V4NG5QZTVVQWdZMW4xTk9ibkdGeW9KSkNrZUJUTzV0cy1CZ1A3ZXZ0NGFZemZnemIyaGNvdFRJQ29LTERNejk3bEt5UkU?oc=5",
-    "source": "NBC News",
-    "fetchedAt": "2026-04-23T10:00:11.670Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=7szq7QP_lIc",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "7szq7QP_lIc",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iranian-drones-hit-kuwait-refinery",
-    "date": "2026-04-03",
-    "title": "Iranian drones hit Kuwait refinery, damage desalination plant - MSN",
-    "description": "Via MSN. Auto-detected by headline monitor.",
-    "category": "infrastructure",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNNDJzbnQ2XzEtSWkxeEx2NldtNWowU3RSb2xBblp0dUVQVWhkNGRLQkZLMjJ3M1JMb1ptUjA4QnNmYzFGVjBRX3RSRzdLbFVpc2o4b3h3MmhUeDRTOTR0RGNCd2tMc19TOURtSjlsczFLWF9iQnBBdWdUVzJSWkd4YTJNb3hTMXBiZFlfT0dTRVVFWGV5ZWVORThvdF8yUE5yaXp0OU4ycVd2dXVzMWpmMTBzRVJ6SFhLU0pESW9RTk9DbUt4SV9rTUdTWElnbUZxSEJxNGt6VnJfLURsQVNZeDhCakJveHFBcm9jQUVDUzJqQWVI?oc=5",
-    "source": "MSN",
-    "fetchedAt": "2026-04-23T10:00:13.237Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=4CZaHLnHJN0",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "4CZaHLnHJN0",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "oil-spikes-above-110-and",
-    "date": "2026-03-19",
-    "title": "Oil spikes above $110 and stocks drop after Iran strikes major Qatari gas plant - Business Insider",
-    "description": "Via Business Insider. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQVFZbjE2OFdQbGFiOEFWNS1oVTZRUlhNZkxaMUE1NG92b2NiVXZlOFY1eExjS25KVU1ReHpsRFQ3YVNEOS0xQ2trZ2tIMjItQlVQOWtYMzdsMzZvTkdtOV90YlRhYlVYTzlOWFE5RzVVY3R4Z2xnSHoyU3VqZHhQVDVUR0pOak5ncmljXzJmRXYtZk5BemxZ?oc=5",
-    "source": "Business Insider",
-    "fetchedAt": "2026-04-23T10:00:14.802Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=i4brF8KUYF4",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "i4brF8KUYF4",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "irans-bushehr-nuclear-plant-undamaged",
-    "date": "2026-04-06",
-    "title": "Iran's Bushehr nuclear plant undamaged from recent nearby strike, atomic watchdog confirms - The Jerusalem Post",
-    "description": "Via The Jerusalem Post. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBGZ3g1VGlQcWNUcEh0S0p3WGtIcTluTXZKUmc2Y3U1eTJ0STBpUWkzX0dJTDEyWjdrTTBiS0RZYVo2NVNhRTJ1VjloWGRQTV9qV3FTc1dzTmM2cEloZjd5dUNZRVB5ZmdGYlE?oc=5",
-    "source": "The Jerusalem Post",
-    "fetchedAt": "2026-04-23T10:00:16.376Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=lpDbLxwzsp8",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "lpDbLxwzsp8",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "iran-says-nuclear-facility-was",
     "date": "2026-03-02",
     "title": "Iran Says Nuclear Facility Was Hit; IAEA Reports No Sign - AL24 News",
@@ -4489,6 +4364,141 @@
     ],
     "videoMatch": {
       "videoId": "cwQuuGluA8s",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-war-is-the-largest",
+    "date": "2026-03-12",
+    "title": "Iran war is the largest oil supply disruption in history, report finds - Politico",
+    "description": "Via Politico. Auto-detected by headline monitor.",
+    "category": null,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTi1mWDRuVmU0c2FkYWhYRnQ0YU1ob2YxSlFFRjk4S3dkV3NPOUVqbWE4bXFNSnlTald2dmJuYng0YXdRYUVVOEVpZ3NDdTlyVnpyNDhsT0YtT1VXekRGc0Nfd2tWUWJIcDR1QVh4eXc1MUQ5SzNrOS1GZnIxXzFkcFpsZmx0enc?oc=5",
+    "source": "Politico",
+    "fetchedAt": "2026-04-24T05:00:13.037Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=74OLgvmVK3g",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "74OLgvmVK3g",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "middle-east-oil-shock-is",
+    "date": "2026-03-12",
+    "title": "Middle East oil shock is ‘largest supply disruption’ in history, IEA says - Buenos Aires Times",
+    "description": "Via Buenos Aires Times. Auto-detected by headline monitor.",
+    "category": null,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPa1d6WnZVVEJVYk5KWnpmQldlUjJuRHI0ZmJUQTFJZEJnaGdQbm1EbEZ5cF9Wck1hUGpmdWhuYl83MzR3U2ViRUFfZllQYUMzQnhfamJvb0VhdmtVbUI3bUpscEYydl94U1V6alpTay15c2tvcnlkUlZseGJVcHg3MXNZTzRKU0t6bjhTMjE3UTh1SkFwc2tydE0xTU1nLUotV0V4UHpyWE9jdlNRM2VOT3pnZmJ1S0nSAbwBQVVfeXFMUGhxcEw4bkdmWW9xTU40V1RBcXdiaUc1WllrOEg1d3d3SG9rX1p6ZzB3c0Q4RGFiU2EzbFRDeXpmTTRrcGVDbnlrYlZlNFBXMUc1dWdZbEdsOG93eTAwcEJ5TURoYmNoRXRKUzRHM0tDcWNuUldjOGQ2MXRLRFFsOFVXT1hrbnBzX2lMaXJrRXBFdUlacEw5UzU4RUthdVdpWFZSbjh2WXVKUkxURGRodXR5eDFadEllZERUSUY?oc=5",
+    "source": "Buenos Aires Times",
+    "fetchedAt": "2026-04-24T05:00:16.349Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=5Q59F3_Lhok",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "5Q59F3_Lhok",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "gaza-death-toll-rises-as",
+    "date": "2025-12-18",
+    "title": "Gaza death toll rises as hospitals report new casualties - Middle East Eye",
+    "description": "Via Middle East Eye. Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSHotQnJBYUFvaVV6akcwSFloTERsZVZUX3pvRDE5UERtajI4MENraklkc0E1a1VfZ29BUFExMjVzRlNrWThfT19vZFBSd0pRZTJIZFdTZE5KS1F3X1hObEJWdXdvTTVib19ibVRyTXlTZlBvMXkxMzdwTGZVSGEybkhSNmpqYXF4V3JWM0t6UVNLQmdvV21RUHBYMXhUUHpRSWV3dmFZWEtNQUdMN0tj?oc=5",
+    "source": "Middle East Eye",
+    "fetchedAt": "2026-04-24T05:00:18.692Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=8Lp9OiNWj5Y",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "8Lp9OiNWj5Y",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "gaza-hospital-says-48-killed",
+    "date": "2025-07-31",
+    "title": "Gaza Hospital Says 48 Killed Near Crossing; IDF: No Casualties From Israeli Fire - Haaretz",
+    "description": "Via Haaretz. Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPRHowOFVvUXNIdHc4emdWN05tR0ZmUnpKdTYxdmpWMmpzUERMZGFxeWxUVWdmZmx5SVBNTU1zOUtPSTdNdVNlWHdOVGQ1X2NCeVMwTndMQ2pobDJMbXI0eXRBMkNneDVUYmpxSWpNZHRCZUowT2UxaXVfUVlxS01CaHZWTG9sRDZPX2Rvb0lvYXhuTWVlNXZlcGxJTGgzaGNKbDFnVm4yOElIMWYtdHQ2NE1MbFdyS2lteDZ0RVh1aUZURE9fVW5qdklaVDI3X0RnTk00V3pUeGsxYzBjemJUM3FmeW55cWlKaWRGNTR2MkpXMHRta09fM3pXRzgwUnRYR0pnNzU4YklaNXFySXRz?oc=5",
+    "source": "Haaretz",
+    "fetchedAt": "2026-04-24T05:00:21.055Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=BSTF9TDo6nQ",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "BSTF9TDo6nQ",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "usisrael-war-on-iran-is",
+    "date": "2026-04-24",
+    "title": "US-Israel war on Iran is accelerating climate change - World Socialist Web Site",
+    "description": "Via World Socialist Web Site. Auto-detected by headline monitor.",
+    "category": "environmental",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9ZWEZSR21JYkpuSmpfS3NNcjRRR1hYNlZkZ2gydDZsSGlPeXJDaElIOHNWaWpMSThEaG9IYVU4Y3FjNnh3WjBtZWxjS1ptUGlHQV90ei1lQ3BlVWJUR3hwaVNHMDJ2WW9L?oc=5",
+    "source": "World Socialist Web Site",
+    "fetchedAt": "2026-04-24T05:00:25.989Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=QM3KE1UApBw",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "QM3KE1UApBw",
       "title": "",
       "confidence": "auto"
     },
