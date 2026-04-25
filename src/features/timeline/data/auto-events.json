@@ -4409,7 +4409,14 @@
     "description": "Via UN News. Auto-detected by headline monitor.",
     "lat": 35.69,
     "lng": 51.39,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE55d3hSaWktSzFfNENnbzZJa3RSRWNtU2hWXzN1WTZuUnEwQi1GdkRiQnlFQ19IMWhVVmNud0Y4bS1nSWNzU0RVcFdFTkhCTlMzS1NkOHJIVQ?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE55d3hSaWktSzFfNENnbzZJa3RSRWNtU2hWXzN1WTZuUnEwQi1GdkRiQnlFQ19IMWhVVmNud0Y4bS1nSWNzU0RVcFdFTkhCTlMzS1NkOHJIVQ?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=7-zjn3QCrV8",
+        "label": "Iran Nuclear Programme Under Strikes | Al Jazeera English"
+      }
+    ]
   },
   {
     "id": "auto-iranian-attack-hits-israeli-oil",
@@ -5343,7 +5350,14 @@
     "description": "Via Al Jazeera. Auto-detected by headline monitor.",
     "lat": 35.69,
     "lng": 51.39,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPMnZFX1QwLTd6VUxLc1ViVzExb0h3SENpWGVCcUpPMFV6QmJvbEc4bmk3QzBJMEpZU3F3bzVBRzg5TFZXNFR1Mm5Pek1qenRIMldjNTB4ZndObmNJNjV3QzFNZ2NwNmdiVGVQYnYzWVpXTVRGeThMclJJTFlqeEx3Zm9sWGh1aWZVZGROYXZoX0RGUmdrT2Q3RzNyYXVNVjYySDljT2dB0gGrAUFVX3lxTE1VU3VTQTNuX1VmMEU5T0YxN1pzeEZmU21KWWtKRVpZeFR3YS1iSXNzSXg1OXlUNFRrdHBhSU9qdHBJM2lKX0g5cV9WVldvTnNhSW84YlIzbjh5OXZHcHN1ZGNkZThXQm9EV2k0T21Bck5fVFNsRVlkVlIyR3VjY2NTbEdwZ2g2M1JpZEFaNnlic0lUci1FZEtFTWNqaFkySVEtb2NRbUFjOEZJaw?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPMnZFX1QwLTd6VUxLc1ViVzExb0h3SENpWGVCcUpPMFV6QmJvbEc4bmk3QzBJMEpZU3F3bzVBRzg5TFZXNFR1Mm5Pek1qenRIMldjNTB4ZndObmNJNjV3QzFNZ2NwNmdiVGVQYnYzWVpXTVRGeThMclJJTFlqeEx3Zm9sWGh1aWZVZGROYXZoX0RGUmdrT2Q3RzNyYXVNVjYySDljT2dB0gGrAUFVX3lxTE1VU3VTQTNuX1VmMEU5T0YxN1pzeEZmU21KWWtKRVpZeFR3YS1iSXNzSXg1OXlUNFRrdHBhSU9qdHBJM2lKX0g5cV9WVldvTnNhSW84YlIzbjh5OXZHcHN1ZGNkZThXQm9EV2k0T21Bck5fVFNsRVlkVlIyR3VjY2NTbEdwZ2g2M1JpZEFaNnlic0lUci1FZEtFTWNqaFkySVEtb2NRbUFjOEZJaw?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=7-zjn3QCrV8",
+        "label": "Iran Nuclear Programme Under Strikes | Al Jazeera English"
+      }
+    ]
   },
   {
     "id": "auto-tankers-showing-caution-around-strait",
