@@ -1,157 +1,5 @@
 [
   {
-    "id": "israel-strikes-central-beirut-as",
-    "date": "2026-03-12",
-    "title": "Israel strikes central Beirut as Lebanon death toll tops 630 - RNZ",
-    "description": "Via RNZ. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPSG5RTnN3Wnk4X0NFRXhydzh4ZG04d29pMnNSYU5LdjA3ZG1tb2pIdVpzcWJKMWlwTmtrY2VxSWZCdmxUNzZxMGlJb1BEaGNtSkdXZExlbksySkZqTFFlN09nRjNjWXJvWUFLYUY5QUFDU3dqOGdTSTRiTklfUzVIZ3pzYzd2azBRZWFfM1J3b0tSV0xreVFoMHpmR2gtQWg4eWc?oc=5",
-    "source": "RNZ",
-    "fetchedAt": "2026-04-24T03:00:16.873Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=epl77B65RwE",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "epl77B65RwE",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "israeli-airstrikes-in-southern-lebanon",
-    "date": "2025-11-20",
-    "title": "Israeli Airstrikes in Southern Lebanon Lead to Civilian Casualties - India News Network",
-    "description": "Via India News Network. Auto-detected by headline monitor.",
-    "category": "humanitarian",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTzFPS2xXRHpmbGZhTHNlRE5HanlFTnhpd0pVSGxTQ2pyeEJjNjh5Qzd3Wmc2eUR4SERNZHBPT1ViZENkMGRFa3d4ZmpSdmdCYXdpNTQxREppdF9Ud0JLZ25jLURadkRUNVViQjdGdnJJZkNzU1p4QVMxNmwtc1lWVHBrNHN3MGRrOFNNdUp2WC1OYW0zSE1LZnFmbDBWM0MtazFtMVNCcGM?oc=5",
-    "source": "India News Network",
-    "fetchedAt": "2026-04-24T03:00:19.150Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=reHsM7sBN5c",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "reHsM7sBN5c",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "death-toll-from-israeli-strikes",
-    "date": "2026-03-09",
-    "title": "Death toll from Israeli strikes on southern Lebanon rises to 16 - سانا",
-    "description": "Via سانا. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFA4dENMRGlZTFBKR2lKMGdNaGtNRHMzOF9GcFdIdGtSeWdJdGVPeGlRSk83NzMtSU9hM3ZoQzNLY3VPYzVEOGdQTllVYS02ekZpRDFr?oc=5",
-    "source": "سانا",
-    "fetchedAt": "2026-04-24T03:00:21.436Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=x0bkqN0VChs",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "x0bkqN0VChs",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "death-toll-rises-in-lebanon",
-    "date": "2026-03-24",
-    "title": "Death toll rises in Lebanon amid Israeli airstrikes - Report.az",
-    "description": "Via Report.az. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPdWNEaDZRaGtJX0loWGJzUjNyanZkRTgzNXJfMHV3WnFKbm1YcmFlWGYxY01waDRpN29tbTFfQ1BjMnJ3S2hpNDVRVHBNdmlVbHJBTXBwUUJCMlRrZXpJN3lUQ2FLZXF1MnMxSzhnbHRHaUVwTWlDYkJKMFVzb2VhTEpXNV8zVm8xeHpoUDhhVktFZ9IBlwFBVV95cUxNR1ZlVjNWRGhXdktUWEdEenVtNVhPRno0STZnLVhLcjdGSkw0Skt3eTlfMmVkVERLUXpHdjZxVG05OWEteUpST1JLNFNUMjVLLXFtS2hTQ2RHRktPcnlwUVl5R09TR0FUNjY0ODBjS0Z0TzNkSTk4T3FEbW5BcUxTWmhYZE5KMVo4blBqNE84YTRfbk5ab3FV?oc=5",
-    "source": "Report.az",
-    "fetchedAt": "2026-04-24T03:00:23.778Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=ZG38YcncE94",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "ZG38YcncE94",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "israeli-strikes-kill-three-in",
-    "date": "2025-10-26",
-    "title": "Israeli strikes kill three in Lebanon before army targets UN patrol - Al Jazeera",
-    "description": "Via Al Jazeera. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTkJ4dV9FS24xWXo2SUlzTGlYQmJ5bXpucXlqb2lhTHZjQjVDckNMQjc0Z1dPRW9Vc0tXSW9BU2Jnd2g5VWdnc0E5SnRQUjAyd21WVTZmc1BTZHFGengtS0pNamdZMG9hWmVycEIxcnVaY2s3UlBFVzRUUnFXYVR6aWhyMERBTjcxOXRzVVVQb3llVXV2R09mb2NEd3hIR2huU1A1YlRsVkZFQ2xXaGfSAbMBQVVfeXFMTTI4cDE4ZHhLRVlCOXV4d3hLMHdsYnYwb0t2RVVXU1RjajZPLUlQUXhzZE9IMjE1dW1NbG9ET05PYUd4TWJ6U1NrdE5xMDhNbC1KdWsxM2F5LTh4V0U4cldyb09zQWoyRVdXenoySnVlUXRLSzRjNG10Nk8tVXVEZjdnazNWZUh4dnpvdGI2YXBfNndSV0M4Uko0eEM3OEFVM09pZlRlLVFqdEdkbE5uSnFlQ28?oc=5",
-    "source": "Al Jazeera",
-    "fetchedAt": "2026-04-24T03:00:26.267Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=qRBOboL59VU",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "qRBOboL59VU",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "un-experts-call-for-probe",
-    "date": "2025-10-17",
-    "title": "UN experts call for probe into Israeli ceasefire violations with Lebanon - Al Jazeera",
-    "description": "Via Al Jazeera. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSm1JV2d2a3FHSUJ1Z2F3Rlp4OFN6UnVnSjRKa3hSVlc5Nlc2bHB1Q2NETC1uOWhVYTNwa3g0Sno3U3FIY3p5R0tqX2lMZmNDbFRCMUtCZk5ZeXREVlZZWF94ZTV2REhBaUJYbHcwc2U4eTFQTzNpUXBLbC1MbGliNFVsYnB6U3Q1cHcxNy1aN1hZb2gtbEk4MnZwVzhhdWNZeXZCc3IyWF9CQTZmOEx3M2Z2RdIBuAFBVV95cUxPSzV5bEJoY04talFtNkREMzUtNEVLakwxRWRUVnB3bzlQWUhNd2gzVldoeTBHbm1helNMNWtyQVROOHQ0UmU2YlF6OHpEcXBxazZHN04wTGJiczlab3VoTjZEeklqUGw5bk41dFdXX1J1MnlMemtZMmhsVHRNbXdEbjg3V01BUHZud3hzV0s4aDNtWXpOckJRQjNWaXBZMHhfVUpMVnlJZWRjUk93TzcxNEh5c0NHNDhp?oc=5",
-    "source": "Al Jazeera",
-    "fetchedAt": "2026-04-24T03:00:32.579Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "the-strait-of-hormuz-oil",
     "date": "2026-03-29",
     "title": "The Strait of Hormuz Oil Shock Is Now Heading West - Bloomberg.com",
@@ -5013,6 +4861,114 @@
     ],
     "videoMatch": {
       "videoId": "0t_HrQUrRZA",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "oil-prices-top-100-a",
+    "date": "2026-03-08",
+    "title": "Oil Prices Top $100 A Barrel For First Time Since 2022 - Time Magazine",
+    "description": "Via Time Magazine. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTVJ1MVJBY3ZrYlkwSEZtRGJWLUx6eVhZQVFxNTMxZzNUNWlubDZ3WHFrMk5iNHpjTThCd0tPLWNZRFhTLW84N0ZRQTZOa282dF9sbHRSWFdjbkpjelcwd25hX21uQ3NuVzh0Q29MdkFtUUJsUEZ6Qk9qRGJEbXV6b0NqaERobk9JNlFlQm5JZw?oc=5",
+    "source": "Time Magazine",
+    "fetchedAt": "2026-04-25T08:00:12.470Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=NKliN5SBKCE",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "NKliN5SBKCE",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "lebanon-health-system-overwhelmed-following",
+    "date": "2026-04-09",
+    "title": "Lebanon: Health system overwhelmed following a ‘horrific’ day of Israeli strikes - UN News",
+    "description": "Via UN News. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE13SURtQnd2ZllUMHF6WmtRNy1QaDdiWXlJWTRTS0NaSTlvS1JNUHI5QnQ4TzVvYmJ6QTMwNlIwMWRXNXIyVGhVQnN6RUNzWGEweG5randpQQ?oc=5",
+    "source": "UN News",
+    "fetchedAt": "2026-04-25T08:00:14.039Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=KmnIA2S2F0Y",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "KmnIA2S2F0Y",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "skewering-history-the-odious-politics",
+    "date": "2025-07-11",
+    "title": "Skewering History: The Odious Politics of Counting Gaza’s Dead - Arena Publications",
+    "description": "Via Arena Publications. Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1VZTN0Y2RWRTV4cGFMSkxTQVUxcWhicDJwcUhVVjB3Rkt4QmRzc0RyNlkwSHRwa1U3OEUwcDl4U0NRWVI4d3RKMU1uQjE4SlpNS0pYNktYMnFSZlgyRWR5MWRMOA?oc=5",
+    "source": "Arena Publications",
+    "fetchedAt": "2026-04-25T09:00:10.798Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=kA69QjwV0Ko",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "kA69QjwV0Ko",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iaea-confirms-iran-nuclear-facility",
+    "date": "2026-03-22",
+    "title": "IAEA confirms Iran nuclear facility bombing - Peoples Gazette Nigeria",
+    "description": "Via Peoples Gazette Nigeria. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9BZ3hPOUtNNUd5OW0wa3ZxSEYyMEZBNWt2aEIwQXZrbU9vU28xTU52cUhlenV4RVN2dWRZX25jVDk4c3lHTU9FTlhnbXlRckUyRUZjd1puTDlDZmIwcjVkdEZ5R3ZkSzlJVjdaQlhaRVViYmdiVUE?oc=5",
+    "source": "Peoples Gazette Nigeria",
+    "fetchedAt": "2026-04-25T10:00:11.608Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=8rj41axACr0",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "8rj41axACr0",
       "title": "",
       "confidence": "auto"
     },
