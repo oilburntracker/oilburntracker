@@ -10090,7 +10090,14 @@
     "description": "Via Al Jazeera. Auto-detected by headline monitor.",
     "lat": 32.07,
     "lng": 34.78,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUWlNRk83dnBDZHB3RV9pb0dZYjlUTjFNcmNvTWd6RkJiTGRHX3dKWVloYndpNzFzajU3Tl93R2VFSVNnZElUU0lMQVV3bTcyNW96Z2lEZXo5TFB5VnlLSnNwRG1IS3d3MnBFUzJCNVpOV0R2YkxvSHFBb0Q5WUpISnVCU0pmODM3XzFEYkdKYUd4VlAxYjZRNzRSdXkzZTdick9COUtR0gGrAUFVX3lxTE5zMEhuRzJqMElydUtzY2RZWlNDNHdPeTFVOVc3MW0ya3BuUkJTZnRlYmxTb2hqVWYwbjlCeTZMT0tGLVplMWxKYUd5d0toUUllTE5vNDNjR2hjQWcwTXFmaGxXVzg0QVN6SExLQjhDcDVwSUtzcUJHZTU4U3l4QXplRWgzbHk0anFyS2dkbEEtT094NUlUdjA0R0Z2V0lVamx3Rng4c2RSV0RHZw?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUWlNRk83dnBDZHB3RV9pb0dZYjlUTjFNcmNvTWd6RkJiTGRHX3dKWVloYndpNzFzajU3Tl93R2VFSVNnZElUU0lMQVV3bTcyNW96Z2lEZXo5TFB5VnlLSnNwRG1IS3d3MnBFUzJCNVpOV0R2YkxvSHFBb0Q5WUpISnVCU0pmODM3XzFEYkdKYUd4VlAxYjZRNzRSdXkzZTdick9COUtR0gGrAUFVX3lxTE5zMEhuRzJqMElydUtzY2RZWlNDNHdPeTFVOVc3MW0ya3BuUkJTZnRlYmxTb2hqVWYwbjlCeTZMT0tGLVplMWxKYUd5d0toUUllTE5vNDNjR2hjQWcwTXFmaGxXVzg0QVN6SExLQjhDcDVwSUtzcUJHZTU4U3l4QXplRWgzbHk0anFyS2dkbEEtT094NUlUdjA0R0Z2V0lVamx3Rng4c2RSV0RHZw?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=CKba_ABVpbU",
+        "label": "Israeli strike kills Palestinian paramedic as attacks persist in Gaza despite truce | Al Jazeera English"
+      }
+    ]
   },
   {
     "id": "auto-trump-seeks-naval-coalition-to",
