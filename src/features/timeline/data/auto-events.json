@@ -6193,7 +6193,14 @@
     "description": "Via Al Jazeera. Auto-detected by headline monitor.",
     "lat": 32.07,
     "lng": 34.78,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTzBxS3pJNzlqX19sa1ktWFBtbERuYl83cElMcXlIbWxVSEh4Sk1Vc2dEalliRkpoSHVndmlCbWwzMFlRQTFTMzNvRVdVTFRQN0Z2bFRLNnZRUl90ei03WHJTZFJKVGtPUW4wMDJQQUdiazBmZ0tFVEpOMzRQRUhlMEVQdUg5ZmY3QTEtVFBuNmxSMlFCWVlGcUMyWjFINWZhTDRLZUZMcmJVazdCNUZMMGFn0gG3AUFVX3lxTE51QlBnXzZibnVPQzNBNWdOcDBKN2dNSUhSd0o2Q0FtbUhENm9uM0ZQNTRmSFl5Z0U4M1dTeFFLTHFLRm02U1RDcEN1SnMwVE9pbDd6M1gxME1KQXhtUy1IMEExelRWN3RULUlXaHFlQk9UdFlxMTFWVWJRTzBtS0pSSFRFR2dQVThYb0pOXzd0SVF3eXBGZjhFYVlSbGI2Q3EwN2dFc3phbU9LU2xfUmdHN0lFVG4zOA?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTzBxS3pJNzlqX19sa1ktWFBtbERuYl83cElMcXlIbWxVSEh4Sk1Vc2dEalliRkpoSHVndmlCbWwzMFlRQTFTMzNvRVdVTFRQN0Z2bFRLNnZRUl90ei03WHJTZFJKVGtPUW4wMDJQQUdiazBmZ0tFVEpOMzRQRUhlMEVQdUg5ZmY3QTEtVFBuNmxSMlFCWVlGcUMyWjFINWZhTDRLZUZMcmJVazdCNUZMMGFn0gG3AUFVX3lxTE51QlBnXzZibnVPQzNBNWdOcDBKN2dNSUhSd0o2Q0FtbUhENm9uM0ZQNTRmSFl5Z0U4M1dTeFFLTHFLRm02U1RDcEN1SnMwVE9pbDd6M1gxME1KQXhtUy1IMEExelRWN3RULUlXaHFlQk9UdFlxMTFWVWJRTzBtS0pSSFRFR2dQVThYb0pOXzd0SVF3eXBGZjhFYVlSbGI2Q3EwN2dFc3phbU9LU2xfUmdHN0lFVG4zOA?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=bflx5QKZ6vg",
+        "label": "Israeli forces board humanitarian flotilla boats more than 600 miles from Gaza | The Guardian"
+      }
+    ]
   },
   {
     "id": "auto-more-than-100-people-killed",
@@ -11316,7 +11323,14 @@
     "description": "Via Reuters. Auto-detected by headline monitor.",
     "lat": 35.69,
     "lng": 51.39,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQenNidWVwSUNlZUxVRDFaR3N2NVdjRXdmTmJNZGk2T2prVmh6bTJndHR1bm1PUmhmbjN2dkpMYTN5NG5IZlFNUExLclNlcWJMVzFrd1VjTXoxRlFEWmtPbDlGZ055WlJVbEhESGRob0hPVFVKemt2aDNhaGpDR1RzZmRORVM3M0RmbjhuY0ctSGlYaEJXYkVtbmZtZnZZNnZHX3FVcXNIQm4wOXJ1Mk83dXFILXdmQi0xcFYzMw?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQenNidWVwSUNlZUxVRDFaR3N2NVdjRXdmTmJNZGk2T2prVmh6bTJndHR1bm1PUmhmbjN2dkpMYTN5NG5IZlFNUExLclNlcWJMVzFrd1VjTXoxRlFEWmtPbDlGZ055WlJVbEhESGRob0hPVFVKemt2aDNhaGpDR1RzZmRORVM3M0RmbjhuY0ctSGlYaEJXYkVtbmZtZnZZNnZHX3FVcXNIQm4wOXJ1Mk83dXFILXdmQi0xcFYzMw?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=FSSvVZ9xnak",
+        "label": "Global oil hits 4 year high on concerns of US Iran war escalation | Reuters"
+      }
+    ]
   },
   {
     "id": "auto-trump-said-irans-oil-pipelines",
