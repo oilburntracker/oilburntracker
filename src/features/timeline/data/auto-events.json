@@ -11348,5 +11348,22 @@
         "label": ""
       }
     ]
+  },
+  {
+    "id": "auto-oil-price-hits-wartime-high",
+    "date": "2026-04-30",
+    "title": "Oil Price Hits Wartime High Above $120 a Barrel as Iran War Standoff Continues",
+    "category": "facility_damage",
+    "description": "Via The New York Times. Auto-detected by headline monitor.",
+    "lat": 35.69,
+    "lng": 51.39,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE93SjhHZ3VuQVBtWEwwVDRlVzNHZ29ZN3hjMW5RZDVJQzVxc3hQWXU5eVZfdVZLWVB5RnRSS1ZMTk93alhRR3FlYTl3cjJyZlZDRWRWaTJ1Vlg1UFBaM2dRalZvcU1ZWVhERkdZZGtnUWs2bVNKZUE?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=QAhRmqjYrt4",
+        "label": ""
+      }
+    ]
   }
 ]
