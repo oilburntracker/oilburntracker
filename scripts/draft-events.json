@@ -1,184 +1,5 @@
 [
   {
-    "id": "hormuz-stays-blocked-for-now",
-    "date": "2026-04-08",
-    "title": "Hormuz Stays Blocked for Now as Hundreds of Ships Seek Exit - Bloomberg.com",
-    "description": "Via Bloomberg.com. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORkthdlZFcUx5QUtwX3pOYlZ3TW5tdUd0N0tIdGo2VElsVk9PQ1JGSTFMZlBVdVUtZFdWc3ZIU292Vl9CMUlRbUxZN3I2b2tXNjlaa1pMeUw5STZ6NjZHZmRKYTVlcVBFYmxzeldQVnkzQXA2RFY5Qy1JLThId3diVXA1eWRYWWoweWpBRTRsV1U3bEpaOUV4NWkyMXZUcnJ3WHRsNGNZUHYxMnhSRGdQeUZn?oc=5",
-    "source": "Bloomberg.com",
-    "fetchedAt": "2026-05-01T05:00:12.922Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=OFNwrMhC7mE",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "OFNwrMhC7mE",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "lebanon-raises-wednesday-death-toll",
-    "date": "2026-04-08",
-    "title": "Lebanon raises Wednesday death toll from Israeli strikes to 182, with 890 wounded - The Times of Israel",
-    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
-    "category": "humanitarian",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZC1iOEZ0a1MtM0xpcUVlY3ItOThsSExqeGRJN2lrZ3h2NXJUU014azNFbjVHRXUyMVBvckVJSmR4aFZINlluTUt4SkYyQ040SWwwTEhicEk5VUVLazM5akFMX1BUUVk2aXFjcHpqcWhOb0dfWHhidzA2ZkNyU1F0aXEycUVhWkRMRXY5WVg1ZnZxTHRndEJhYmZtMW01STdLRm9saVB0Tlp6UlFkNW4tdWdmYWtiSW1yOGs3c2YyX2p2eWh6?oc=5",
-    "source": "The Times of Israel",
-    "fetchedAt": "2026-05-01T05:00:16.032Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=ar3dToVGuS0",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "ar3dToVGuS0",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "israel-strikes-lebanon-after-hezbollah",
-    "date": "2026-03-02",
-    "title": "Israel strikes Lebanon after Hezbollah rocket fire as Iran conflict widens - BBC",
-    "description": "Via BBC. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5WRUJIOXpmTDRVSHZPZ3hyOXV4OE5BU0V3ZzJBRmJzZkhBRjVHTWJpTVBIdUVySVZVdmYzc2QySFQzbmV2d0JIeGczeDcweFlVaXpyLTE5WG5nZw?oc=5",
-    "source": "BBC",
-    "fetchedAt": "2026-05-01T05:00:18.181Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=GU06EcV1BMo",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "GU06EcV1BMo",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "lebanon-pm-delays-us-trip",
-    "date": "2026-04-12",
-    "title": "Lebanon PM delays US trip as Israel strikes intensify - MSN",
-    "description": "Via MSN. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNcl9JQ29PUzdXVGQtLXRDLUUxb19aQ0licW5sd2h1SkdIRVkweno1bjhJcVYwM2UwcjVlRWhRVDBmOTdrMkxvSXhmV1d5Ylp5dWVUUzEtTWM1OUNaZXVzSmNYUjVsVGliS3lWeENrblk4TEdkUHYxNVVSM0QybFFXNU8xR01leFJGbzg4U1p0S21mWUVHcHFfR0FKc3VUVmcwc2drU1NoVEloNU14WWxsc2s1bGJTdERYbkZEWlhGS25ST1JvbmRXTzFhbGJ3NmU3YUhySmtMd3Jmb0ph?oc=5",
-    "source": "MSN",
-    "fetchedAt": "2026-05-01T05:00:20.601Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=JAnZNTgmb-8",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "JAnZNTgmb-8",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "at-least-20-killed-including",
-    "date": "2026-04-04",
-    "title": "At least 20 killed, including children, as Israeli strikes hit southern Lebanon - TRT World",
-    "description": "Via TRT World. Auto-detected by headline monitor.",
-    "category": "humanitarian",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5fMDlFU2FHZ1pncGhTSTJVMFB1TklVdVhXdy1NTnlnUEdWbExiRS1PbkhvaUh3N0hPNWh5OWZtREExSWhSeFVHem1xUG1icnBBX0cyeThOby0?oc=5",
-    "source": "TRT World",
-    "fetchedAt": "2026-05-01T05:00:22.807Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=Mw1d91lksDU",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "Mw1d91lksDU",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "three-of-the-lives-lost",
-    "date": "2026-03-24",
-    "title": "Three of the Lives Lost in One Day of Israeli Strikes in Lebanon - The New York Times",
-    "description": "Via The New York Times. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPUU5XRWtmNy0xemZZR0tHSF9janN2MENaWHE2cWw2R2c3R2QyS2hYaS1JTzF4N2tFeFBEcjd0N0dhQ3YzTURBYURhamkwMUdfNXRsSENwX19WS2ZtZ3RGbUFPZFRjemhoR1R3akpUUGM4dHpRaGxpRlkxY1dJelRrM1pLODE5cmJuaUpxMA?oc=5",
-    "source": "The New York Times",
-    "fetchedAt": "2026-05-01T05:00:25.388Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=_5TaBb1WKgE",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "_5TaBb1WKgE",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "the-iran-war-a-great",
-    "date": "2026-04-01",
-    "title": "The Iran War: A Great Carbon Emitter - CounterPunch.org",
-    "description": "Via CounterPunch.org. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNUDdtYWpHUnlfS1c1V29VOWtBN19zT3A0c0V1UzZwWVFOSGpYWmJEdnhkTDd0Y2xTclFYRjRSQmtkX1kxMWY5TjVMTGxmVzd1TGdkRk10ZEdUVkhIUjZlQ09rM01ReERtM19RYkFlcmdObGVtOVR5cWdOMFJZSHVCYmpR?oc=5",
-    "source": "CounterPunch.org",
-    "fetchedAt": "2026-05-01T05:00:44.949Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "war-with-iran-drives-surge",
     "date": "2026-03-25",
     "title": "War with Iran drives surge in emissions as strikes on oil and infrastructure fuel climate impact - ynetnews",
@@ -4933,6 +4754,138 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPalBOcWhaU2x6OEY1LU0teFlBNnNJRlBuYkppY2tzNzRYQlVkQm04ZWpraHpPODRaU0lBV0N0YUd2QUVCTTl6TTUzUWMxdGl5cDRic3RSTGZZMURHQjlaVUtLUkRycHg3LWpUNFI0VFJfX0NoalAtYzl5bXZ4MVRlbmIwc3p2Nk9HX0N1OXpqbjRJQXJuZTdXNWsxTTFHZTBCVWQwNmdTQzdJNl9lN2tldmJIZFktMnJVNnNadDZmdVZTSUYtdDVz?oc=5",
     "source": "MSN",
     "fetchedAt": "2026-05-02T08:01:03.042Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "projectile-hit-350-metres-from",
+    "date": "2026-03-18",
+    "title": "'Projectile' hit 350 metres from Bushehr nuclear reactor - IAEA - World Nuclear News",
+    "description": "Via World Nuclear News. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQLU5IeDFqRHFXVzQzd0JjTG9RYkZUa0ZRUUZwLTlSLXI4SVFiZ1F3N0owdmUxWk13c3d2aU1RRUthOWE1N2pobW9ERF82R3BRVVRDbnVxWnVaQ1ZRbk43Z1YtbWo4ZXo0VjZaU1NqM1ZBQVpkTnpOTTR5aU1HVUxibTYtQlRqbU5QX3RrNDgzcHE2eUZBY3N6Q0J2WGgtMzhiSXNOeXc1OGVpN3c?oc=5",
+    "source": "World Nuclear News",
+    "fetchedAt": "2026-05-02T09:00:13.838Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=H5nKBsKJjvU",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "H5nKBsKJjvU",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "the-strait-of-hormuz-closure",
+    "date": "2026-04-21",
+    "title": "The Strait of Hormuz closure forces a choice: Ration oil now or pay a steep price later - Atlantic Council",
+    "description": "Via Atlantic Council. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNTnNrSl9TeFRzeHRoUG1BLV9mNjRZajRqNUtKZlVLaEJYVG1pYThZYjJ6dU1ITVpSNnRMR1AwdmotOXlPTV8ydVk1bHlnYVZvWkhicFJNME9fdE5EVDZGajEzaURhcTlKcDhOSTg4TU9sT0FPelVFZ3F2MWhzQ2tUMjlFYzJYQUhmS1VJdjhlbmZTT1k3a1ZBZERkZlRWX19YODZ2WDV1M3ItVENERy1uNUlnS29WeW13SWk0Ukp5dV9ic1BjeVdkc2FR?oc=5",
+    "source": "Atlantic Council",
+    "fetchedAt": "2026-05-02T09:00:19.419Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=kqGDHNDaV7M",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "kqGDHNDaV7M",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israel-strikes-beirut-after-evacuation",
+    "date": "2026-03-05",
+    "title": "Israel strikes Beirut after evacuation warning sparks panic - BBC",
+    "description": "Via BBC. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBnRG9Jak5uYW5sMlItVE9BYXhVcXo0NnBwY0JyOVlGWlk2Z1ZKYUpGY3Z6NXdxdHluU1Q4a3VULVFJMGFieEx4R2JtemdCZFBOZGwzQ2xrVm1kZw?oc=5",
+    "source": "BBC",
+    "fetchedAt": "2026-05-02T09:00:26.022Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=90keWdewVCE",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "90keWdewVCE",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "lebanon-says-486-killed-1313",
+    "date": "2026-03-10",
+    "title": "Lebanon says 486 killed, 1,313 injured in Israeli strikes - Xinhua",
+    "description": "Via Xinhua. Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5GeTJRbktwZmpJWnRYbXpDM3dRNnNCaG1qdVNqZGJ3N3ByWWV4S1VzSWVqODlCdlIzVElhSWV0bnI5eGUyVkV1bHJzSjh3NGJObWpncV92UGpSZENPeTkwZVJBQlV4VjVkSjNrb2xIdU9fNkhERDBrU1lqREQ?oc=5",
+    "source": "Xinhua",
+    "fetchedAt": "2026-05-02T09:00:32.040Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "lebanon-death-toll-rises-to",
+    "date": "2026-03-28",
+    "title": "Lebanon death toll rises to 1,189 in Israeli attacks - Türkiye Today",
+    "description": "Via Türkiye Today. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUXpHTll0ZzZDbjZDR2NscjFYZTh5MG9DMnFSa05sM2FzUFF0ZTZRWk9nVFAtUjIyZ3dXLVFLUHhQUWRCbTNuZkstcGdUNmtuWmFFTDBUMlFaSEdaem1mWnVDNnhsYlRESnZ2Z2w5ekRhTVR0MFQ5NUhhWUhULS1weDRXbWtEbzNRQUw3cWZ1N0xoeU40UlBaV0Jldw?oc=5",
+    "source": "Türkiye Today",
+    "fetchedAt": "2026-05-02T09:00:38.962Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "casualties-reported-in-israeli-airstrikes",
+    "date": "2026-03-26",
+    "title": "Casualties reported in Israeli airstrikes on southern Lebanon - ANHA",
+    "description": "Via ANHA. Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxORDNwcUpSTmpsMUZaamxCNEl3RS1WcVJ5SHNUOVJKRFJVcllUWU5URVZjS1R4LWp2eVFRbTRDSnBhWERzNTZmMTk3aUdBYTRQMWdCS2NCbnRFQ1k4ZmMzWUN5dlU3R1hHRkpZQ0hFNEJLX1JrOVJEZjk5ME1OLU5uaTdoUzBmSzlMSkdLUWRPOA?oc=5",
+    "source": "ANHA",
+    "fetchedAt": "2026-05-02T09:00:44.817Z",
     "mediaUrls": [],
     "videoMatch": null,
     "lat": null,
