@@ -5276,7 +5276,14 @@
     "description": "Via BBC. Auto-detected by headline monitor.",
     "lat": 32.07,
     "lng": 34.78,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBHTnBpc1g2Mk9KOVBzLWkyTUc0Z1NBdzRfUlVnN0V1QVNVYzJQd2plWkl6RHFLakpGWHBwb3hOMXFlaEszWDJlUmI4QjB2cU0yVXNiSkpPcFFBQQ?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBHTnBpc1g2Mk9KOVBzLWkyTUc0Z1NBdzRfUlVnN0V1QVNVYzJQd2plWkl6RHFLakpGWHBwb3hOMXFlaEszWDJlUmI4QjB2cU0yVXNiSkpPcFFBQQ?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=g8Nv4xA3Nfo",
+        "label": "Thirteen killed in Israeli strikes on southern Lebanon, health ministry says | BBC News | BBC News"
+      }
+    ]
   },
   {
     "id": "auto-israel-and-iran-trade-more",
@@ -10941,7 +10948,14 @@
     "description": "Via Reuters. Auto-detected by headline monitor.",
     "lat": 35.69,
     "lng": 51.39,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxObUlmTHZTREdweklZWFUzeEp0dzFUbk56bWVQQ3hWY0IzWDlZN0JzUllPUmJyd3U2RVZVUHQ3SE5DcFBSZmVNYlljWEJYTVpRTlVISVFKTWoyR2Z2aEVrQ0dVU3RKc1lhay1QWG5TVlltdHB1YVFRNHFpemRxalFyRk56andqamRBVHBJVmwwZTFkcDh4c1NuNFloakZRX2xHSnlyRTgxbkVycVVTUjBWS0pyV0pmMjVW?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxObUlmTHZTREdweklZWFUzeEp0dzFUbk56bWVQQ3hWY0IzWDlZN0JzUllPUmJyd3U2RVZVUHQ3SE5DcFBSZmVNYlljWEJYTVpRTlVISVFKTWoyR2Z2aEVrQ0dVU3RKc1lhay1QWG5TVlltdHB1YVFRNHFpemRxalFyRk56andqamRBVHBJVmwwZTFkcDh4c1NuNFloakZRX2xHSnlyRTgxbkVycVVTUjBWS0pyV0pmMjVW?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=haBO20Og8F4",
+        "label": "Iran war in a stalemate, Strait of Hormuz still effectively shut down | CBS News"
+      }
+    ]
   },
   {
     "id": "auto-oil-prices-steady-as-hormuz",
@@ -11785,7 +11799,14 @@
     "description": "Via The New York Times. Auto-detected by headline monitor.",
     "lat": 15.37,
     "lng": 44.19,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdkdUNTVMeVFuU2c0QjU3UWxBVmxaeVpwTUZ4UDNGQTY2akdJOGg0X3pBSU1hNXVqZ0hTZndxcVBpY0QxQXNnTFBhc1VXNDZzSkQ5aVNtbG42YlpJelFEVi1kMkpEbXktUGhzUjBCckx6LVRnYnRoV2VUTldTYzNWaWNOWVlNZTZEN0dJdDlSVVFyZi05b3V6dTNEVDVKQQ?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdkdUNTVMeVFuU2c0QjU3UWxBVmxaeVpwTUZ4UDNGQTY2akdJOGg0X3pBSU1hNXVqZ0hTZndxcVBpY0QxQXNnTFBhc1VXNDZzSkQ5aVNtbG42YlpJelFEVi1kMkpEbXktUGhzUjBCckx6LVRnYnRoV2VUTldTYzNWaWNOWVlNZTZEN0dJdDlSVVFyZi05b3V6dTNEVDVKQQ?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=Omg4kaIBqCw",
+        "label": "tanker hijacking stokes fear links news | YouTube Search"
+      }
+    ]
   },
   {
     "id": "auto-crew-of-oil-tanker-rescued",
