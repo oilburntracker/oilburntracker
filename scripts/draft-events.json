@@ -1,218 +1,5 @@
 [
   {
-    "id": "oil-prices-rise-sharply-in",
-    "date": "2026-03-01",
-    "title": "Oil prices rise sharply in market trading after U.S.-Iran attacks disrupt global supply - CBS News",
-    "description": "Via CBS News. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA4b1l0QjhjTlh1RmJkb2Z5azM0aVEyOHpDU0pYS1ZPUnFkMzZWWmdrQlA0ZTlVVXhmdm5PcU94M1NJYmlqN01YX0xkRnk1aVZqaVgtVl9COVE2V1lqRVJUMVVuMXpaZ08tRzBENTZfUl94V1hPalBxQUF3?oc=5",
-    "source": "CBS News",
-    "fetchedAt": "2026-05-02T22:00:23.552Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=KTsGeo3AB-U",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "KTsGeo3AB-U",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "conflict-in-iran-generated-more",
-    "date": "2026-03-22",
-    "title": "Conflict in Iran generated more emissions in two weeks than Iceland does in a year: New analysis - Down To Earth",
-    "description": "Via Down To Earth. Auto-detected by headline monitor.",
-    "category": "environmental",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPQko1UjBWcV9xVm8wejZ4dG0xbWNuZFVZMFlxdkkxU01BYnlYR0RJWk42Mk5XV0xxSzhBRHNMNlBLLXIyZXVDWmFnT2diRzV0VjRZVFNkMXhtME15eXA5bTBMbjJkU1ZMYmJjUi10elFVbkVWczRMS1UyZGhKZ0lVYXJCVnZWaTMzdU5zNnBnNUxLeHIybkxwLW5mUFEtcWlZMkl5MjlkaklDU2VlcE5ia29obDNXaDJkR00wZDNqVnYtZ3hzSllwWllaYVpSRmU4OWx1WNIB4gFBVV95cUxOVzNKQzFGTDRpUWJ3MXJ3M3Ixc1dHWU9wQnl5Mzdac1ZaU1k3WlZqaFZiQ2NrR0I5MmdLVzdpTzZ4LXRNekNSS2QycGFLSE9PZFZacHctdjBUeGFuVXlWMXZNS3B3ZFhEY1R5WDhGT1J3Um9GRDRSOUdPS3VfaEkyeEdyYVpBVlFsUEdJOHdVMllrcHZtbEMtT1ZTZ2VUcHFHelRScXlFeGxiVWk4NjBXd0dSN21BUDhjal9sOWQ2TUlUb1RhWEtaQmVPNDFMX29JNEdtb0Q5b1ZwNXJtbk9HQ0h3?oc=5",
-    "source": "Down To Earth",
-    "fetchedAt": "2026-05-02T22:00:28.772Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=c68n8slTVPg",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "c68n8slTVPg",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iranisrael-war-emissions-highlight-hidden",
-    "date": "2026-03-19",
-    "title": "Iran-Israel War Emissions Highlight Hidden Climate Impact - Dainik Jagran MP CG",
-    "description": "Via Dainik Jagran MP CG. Auto-detected by headline monitor.",
-    "category": "environmental",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPV3FMTHBmcHdQeklvVHYwbEs2aXQ1VGlKdjE0TTBUNGxTelVqU0NiVjlNVHVEcXlUb04tTGNCNEhRRFBSY0pPeVozWEdmNTBERGhNRzRQb2xPMldtVE0zUUgwVk45ajhIb1hVMlVCX3diOUtvblRhSXJUNU1aM0ZpLUgzR1NvZWdiM0x3TjF5WG82VVRzU2tLY1QwUExNem9OblpCV1luMzh1UWtBd25zaFdGT0ZzWjdTUzFUbGxB?oc=5",
-    "source": "Dainik Jagran MP CG",
-    "fetchedAt": "2026-05-02T22:00:30.804Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=11ivcDZOBz4",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "11ivcDZOBz4",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "the-climate-bridge-can-iran",
-    "date": "2026-03-13",
-    "title": "The 'climate bridge': Can Iran War make India’s summer hotter or monsoon unpredictable? - Moneycontrol.com",
-    "description": "Via Moneycontrol.com. Auto-detected by headline monitor.",
-    "category": "environmental",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQSkc1WV9ROW5sbkxOVUxaaHNkSHVfNGROZTVUS2Y2LURSaFZHNzN1TnV0XzB4QkRNWXY1ZzVnX0NXRWNhZ3I0TjBqV29JSGctMkVERmlPV0JTd25PcC1nOUFhOXdWa1J1Qjk4SGp5ckVUX2syS0RpNXBiOEEwaXlweEYwUUZ3YmtWY0xPLTNhUVZTTnlYZVhFQ1N1UGVmMXExaU9EX1RqY1JwTEZMM0JfVksweS1BQVJZTGYtc19XTE9YVkpabFlRNTdPc3VGR3prNkNWV0gzY9IB3AFBVV95cUxQWXRoN3g2Smg4ZjJoVS1tdUV2WkVXdWdmVkNxWnM5bmR4SkVwLVVkamJ2azA1eW9SbEpOMzZHRFAwU2VjZUk4SFktWmx6RU8xMWNTZHNyTjVJY1NHNTNBQXFNSllQaUNVSVRpUTYzdk8tcjBPamNtMmxJbE9HYXI1cG1KTjJWWU0tcjRsd2JQZW5XYVNPTnV3WE8tQnk1aFVSTE94WUJPVEFpY2tLR0NhYXVTaG50Zk5iNzlIRDJjbVAzd3k1d0cwZUJwRW80cGFIdlhvRExqQ3cwNVRB?oc=5",
-    "source": "Moneycontrol.com",
-    "fetchedAt": "2026-05-02T22:00:33.313Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=o7l7zWz6uIg",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "o7l7zWz6uIg",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "impact-of-usisraeliran-tensions-on",
-    "date": "2026-03-06",
-    "title": "Impact of US-Israel-Iran Tensions on Global Climate - The CSR Journal",
-    "description": "Via The CSR Journal. Auto-detected by headline monitor.",
-    "category": "environmental",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUkRlNVlzdTk5bHEyRXotV2xXdnpOdzZEQXhJd2UyUHJ2RC1GUVVpbWhxZlVwODVuWlJpOGpCeUR2N3dCRjk3MlhIWGhZYkhoM1RhdDFvY2NoM1hOTHFfeUxhOVBkYXI3M0UtUWpORGZfTmJWaGRscTE2bWFyOTdzTVFtQQ?oc=5",
-    "source": "The CSR Journal",
-    "fetchedAt": "2026-05-02T22:00:35.528Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=XTCfU0Hb0p0",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "XTCfU0Hb0p0",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "as-the-gulf-conflict-widens",
-    "date": "2026-03-04",
-    "title": "As the Gulf conflict widens, so does its environmental footprint - Dialogue Earth",
-    "description": "Via Dialogue Earth. Auto-detected by headline monitor.",
-    "category": "environmental",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZUNvcXUybE1NY012NUszMHlKREJvdTJDNEtRZTVZZTQ1ejB2cUxMSEw5aHBOZVFoQTJfTTc5eFV2bURkdjlpNFRTMUhhaFJCMExyYjB0VnExdlpPVHhMTUFaeWVZYmdDbFF0NWhsQnRhUEI2SjhRZGJCMFNjSmVNY3Y0akZ2VHZNR0o2MHdtNFd4LUl2bTNYS0Y3dG5Tdw?oc=5",
-    "source": "Dialogue Earth",
-    "fetchedAt": "2026-05-02T22:00:41.747Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "the-israeliran-military-action-amplifies",
-    "date": "2025-06-22",
-    "title": "The Israel-Iran Military Action Amplifies The Environmental Costs Of War - CleanTechnica",
-    "description": "Via CleanTechnica. Auto-detected by headline monitor.",
-    "category": "environmental",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPaFBScXFsTnZ1U3ctQkp1TzB4aXl2TVJOclAtdFhFUmlJcU1tOGw2NktaaE80UGkwZ0prT2I2NkRxa2VIbl85V0JELU1vTFNZX1YwSlRvNnYwbzkyUm5BcG5GVTJ6bGZ5Q1FXUF9SQXM5MnBWTGpuc2NWTFFXajNVWm93V1E1RkVJQVZTYmt1ck5IcWZwdjZDV1RjN3ZQcFRnR0hhMHdSZGluZGUxUUNV0gG3AUFVX3lxTFBkOGc3dHZOTDdEaFpBb01EWmRYOXp1R3V2SG1oY0tMXzBpazVNQThuck5TNEE4YndEckV2ZnFJOTM3UmR0ZUNET3FVMFNQWFd4X0VHSG5iMHUweHcxazdlaXpJMVJiRVVyUkkyZ3FCN1gxOXpRS3JoQklxbHRQRzRKTUh6YjBSWnUxUUF0aHk4YUxPTklJcnh3NVBKX2dVZDFGMG1UZ0JiMzZYQmlLR3hadDdqQzdJMA?oc=5",
-    "source": "CleanTechnica",
-    "fetchedAt": "2026-05-02T22:00:47.578Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "carbon-footprint-of-israels-war",
-    "date": "2025-05-30",
-    "title": "Carbon footprint of Israel’s war on Gaza exceeds that of many entire countries - The Guardian",
-    "description": "Via The Guardian. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTHJsSm9sWXlsSGJfdUFRNnpINWdrNGxWX014NUVwNm92X0hwU1hOUWt6bDlHeW53Y0d3WXFVdWZvMVltaWJQWjUtZHhVdXpfRzNRb0xwZm9QUTluSkZFUkhkQk1jd28tSjlENGZ2QjBSZzVETDVhVDJXb3M2d0JoRTByWlZaLTZ5em1MRkMwRW94YkNVY1ZvdkY5QzUza0xpV3k0Q2I4OFVxMi0zLThlQ2laTkNPRUNoU2t2Y2tZbHE?oc=5",
-    "source": "The Guardian",
-    "fetchedAt": "2026-05-02T22:00:53.812Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "damage-to-irans-nuclear-sites",
-    "date": "2026-03-02",
-    "title": "Damage to Iran's nuclear sites unclear - The Jerusalem Post",
-    "description": "Via The Jerusalem Post. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9fa1FDMUtKR2tKTVNCTGxuWDc2N05Tb3RpYl9weEFNSFZvUnFwaW9KYmdKX0F5MFdZM05uQjRFNi1BZVdZWlA1Y2VSdmJXc3hBbDRMdHgya0ZxdlNiWXdLNWRuU3RGQ0FoRWc?oc=5",
-    "source": "The Jerusalem Post",
-    "fetchedAt": "2026-05-02T23:00:11.213Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=WEyelZNda9Q",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "WEyelZNda9Q",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "iaea-sounds-alarm-on-usisraeli",
     "date": "2026-04-04",
     "title": "IAEA Sounds Alarm on US-Israeli Strike Near Iran Nuclear Plant - Truthout",
@@ -4709,6 +4496,249 @@
     "fetchedAt": "2026-05-03T19:00:47.876Z",
     "mediaUrls": [],
     "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "top-diplomat-warns-against-humanitarian",
+    "date": "2026-04-05",
+    "title": "Top diplomat warns against humanitarian consequences of US-Israeli attacks on Iran nuclear sites - IRNA English",
+    "description": "Via IRNA English. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUDRadlltbkJiQlBYUjQxZjUxZWhNQWM3MnFOUkZlVTdCZ2N3SHF2bG1YWHhYQm1PbnNLTTA5M0dEWEg5UHJDd015R2FLTlVIdm95cWVnWWx1cGIyUnNJNXQzNDl0SExraEV3U1Y3RlRndjdlbE9zeVRnYkhKYUpPX29ZSEVwa1doeFJUbFdodW9zSGhNaWhPRE1xSi1MMGlL0gFHQVVfeXFMTXM0ZTQ0ekpxQmc5SnktUjBpNmZNWmw5RHZwMkxWLVR4Y3dLQ3BxZi1ZVlVnekNadkdzdTNBTklqbEYxQXlLalU?oc=5",
+    "source": "IRNA English",
+    "fetchedAt": "2026-05-03T20:00:12.365Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=3MOXyxCY9E4",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "3MOXyxCY9E4",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "no-damage-to-dimona-nuclear",
+    "date": "2026-03-22",
+    "title": "No damage to Dimona nuclear research site after Iranian missile hits nearby city: IAEA - JNS.org",
+    "description": "Via JNS.org. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQQ185LTd6RGExR3JmRTBCUUVqdk5jZTNQWkt2TnpDbmprQXlnVWliTGNONlRkck5aQlY3dEt3UzJMNnVleW9ZODMwOHY3dXpBLVdDQjRPNm15STRaa01EcUp0c3VickZ4SVhUWHA0VUQ3eWxWQVZqT3l6UXlRWmthZmd3cnBsWnN0bzQyUXNwYTJtWVhabkdQUFlENE5kQ09mWS01RzQyRkJvRjlCMDdkc1IydkNzQXp5TjFFLTM5QQ?oc=5",
+    "source": "JNS.org",
+    "fetchedAt": "2026-05-03T20:00:14.055Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=JSMbjD-B288",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "JSMbjD-B288",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "facts-about-strait-of-hormuz",
+    "date": "2026-03-26",
+    "title": "Facts About Strait of Hormuz Shipping Blockade - Kyiv Post",
+    "description": "Via Kyiv Post. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE11S3EyZURXdlIzVUh4QjN2UnBmUjlzVlFHOGd2ZjU5eTNmYnRqLUt3VkFsVHAxNzhWMmVBbkw0c1JETllPUjF6ZlJNNA?oc=5",
+    "source": "Kyiv Post",
+    "fetchedAt": "2026-05-03T20:00:15.605Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=rhllbGRU20s",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "rhllbGRU20s",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-may-allow-indian-tankers",
+    "date": "2026-03-12",
+    "title": "Iran May Allow Indian Tankers Through Hormuz Despite Ongoing Shipping Attacks - Crude Oil Prices Today | OilPrice.com",
+    "description": "Via Crude Oil Prices Today | OilPrice.com. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQV0NUZkdCN1BJY2M1T09fMWthX21rZk5TY3VvY0hzT0tRY3ZINk5kdF9mUHlmeHVpWVdTMFNfWGYyamFQanpqaDh6Q1AxeEJkcEpaZlQ1bE1LeDM5RG9Vb2dJelhmQTNJRENOVC11X1hQZTdZbFRHT28wZTI2Vk9fYk5WNTdQSG5ENUV1TGJqdWJUZ0JSXzB0YWhKaU1WNWtTVUlqR0tKbkhZaVk1eVRISVpRenJsOW53aHUxbGVpMWowMGVsTzRsRXpUTld2d9IB0wFBVV95cUxPcGJwMGdkVk42LUpwZXJsSUgzZ0ZScC1STXV3YWNlZ21OSS1MZ3RQNXhEdVdUQzg0T0d5NGIxQXZrZFFCdEs4akxlamtlTDIxVDJ6Vm1hcHl6NzIxTjJOMlg3RHhxWnpxMG5KQWRKdXNZOExxXzVVZnF0U1gxQUdOMGNXWkJVY3hQM1pTelU4SGlPb21YRlFXQmFRRjgtcU9vNGtkWGFNSUVGQjRsOUk2ZjlYeU1ZOHhWdE5YbFBLX3NXTFZSWGY5Q2wwOU1rSDl4THRz?oc=5",
+    "source": "Crude Oil Prices Today | OilPrice.com",
+    "fetchedAt": "2026-05-03T20:00:17.118Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=aF7jJf6GlIo",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "aF7jJf6GlIo",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "us-israel-target-civilians-as",
+    "date": "2026-02-03",
+    "title": "US, Israel Target Civilians as Iran Escalates War to Survive - Jacobin",
+    "description": "Via Jacobin. Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1CRHNBRWJpWExQNVBlSnVJRnkxYXVvNVBUcndaQWFOLWhweFBNbC1LRThndzRTb3F1T1BjVGtEa1g1eThhSmpCaXM4N2pfS0poektFdDZCTXV5Z1o0ZUw3d0RYMkhyWjVqRVpUallhYw?oc=5",
+    "source": "Jacobin",
+    "fetchedAt": "2026-05-03T20:00:19.340Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=ood-adyNh9c",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "ood-adyNh9c",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "world-faces-largestever-oil-supply",
+    "date": "2026-03-12",
+    "title": "World faces largest-ever oil supply disruption on Middle East war, IEA says - Virginia Business",
+    "description": "Via Virginia Business. Auto-detected by headline monitor.",
+    "category": null,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNc0hDV1ZxbldRSXhmTGxyZEFjSVJGNk9tVGNRdEsxazlFeDhqM09lb1BHR3ozNXdCZXdXclpUVnNTSVdqVVBUN21JV1VTQktaTC1tVWR6R3FQSDdiNVNJaktWVl9FZVNrbXVvNlJNWU9wOFNnX244Yk1ySExxWFJ6bVBraGFPT0E?oc=5",
+    "source": "Virginia Business",
+    "fetchedAt": "2026-05-03T20:00:24.496Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=2A4GMqJyLMo",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "2A4GMqJyLMo",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "war-risk-rates-fail-to",
+    "date": "2025-10-10",
+    "title": "War risk rates fail to shift as Houthis tight-lipped on Gaza ceasefire deal - Tradewinds News",
+    "description": "Via Tradewinds News. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNjRiWnM0ckhXU3ZfTzVEU1FOOFJ1ZHFxR2RYQ0llZDdGbFYyck5OMUhGTTRndEs1OXN5MXl1LUs4eXk2dTRyRGpGWGRMRWw2ZG5MVlF1NnQ0aGNiWng2a3JSMDBDdXY1RFZHbzRLS1JtT2RwdTI4Q1FYYjg5ZTZVZU4zRUExUGNFazZrUmFjcVplY0hZTXZwSXZMNDFEdGdvY2Z5Y3IwQlpIcXl2RE9DRHJiOEJkR21HSGo4SnpyMFpEV2xfc19B?oc=5",
+    "source": "Tradewinds News",
+    "fetchedAt": "2026-05-03T20:00:29.539Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=hvyf6frvCcA",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "hvyf6frvCcA",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "lebanon-health-system-overwhelmed-following",
+    "date": "2026-04-09",
+    "title": "Lebanon: Health system overwhelmed following a ‘horrific’ day of Israeli strikes - UN News",
+    "description": "Via UN News. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE13SURtQnd2ZllUMHF6WmtRNy1QaDdiWXlJWTRTS0NaSTlvS1JNUHI5QnQ4TzVvYmJ6QTMwNlIwMWRXNXIyVGhVQnN6RUNzWGEweG5randpQQ?oc=5",
+    "source": "UN News",
+    "fetchedAt": "2026-05-03T20:00:31.965Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=0kdS58oE1oE",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "0kdS58oE1oE",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "2-weeks-of-iran-war",
+    "date": "2026-03-23",
+    "title": "2 Weeks of Iran War Released More Carbon Emissions Than 84 Countries Do Yearly - Truthout",
+    "description": "Via Truthout. Auto-detected by headline monitor.",
+    "category": "environmental",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTGppaFNvdG5kbHY1TjZoLVZ1QVhFMi1IODc2T0ZXT3ZrRWxyOGRVcmk3dEh0MXpjbTltR3NwX05QaHhJVkx0V0FOaWlxcWw2dURLNk5CT05HeUdfVWk4eEdONlpyaVUwLWNuV045RmNwaWxUTVg2R0VmcnFSWmo3aF9fd3ZzeXZULVUtcnFXT2ZPZVZwbWRsamFMaXZjRlFFMW5fWEk4UzNRX253aHc?oc=5",
+    "source": "Truthout",
+    "fetchedAt": "2026-05-03T20:00:34.566Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=saI7PAy1IgU",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "saI7PAy1IgU",
+      "title": "",
+      "confidence": "auto"
+    },
     "lat": null,
     "lng": null,
     "zoom": null,
