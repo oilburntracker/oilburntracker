@@ -1,83 +1,5 @@
 [
   {
-    "id": "there-was-just-wave-after",
-    "date": "2025-03-23",
-    "title": "‘There was just wave after wave’: Gaza doctors recount horror of the last week - The Guardian",
-    "description": "Via The Guardian. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPd3h3YkRlUDhvYWFfSU1RVk9SYzljMm5BMHZSYWhBeU1UWXBBZzh2VVZ1YUg0bkw5RjhiOG55M3hWelp0dVk0cW56RVc3dWRUbnkyWE9wb1lCQjR2OUplTjVBWDUwcU1nVW9QMXBCaHZlMElEZDc0U0tSZUU2U1dqMk04MHE4TGNXRkZ5TTZMcWZUQ1VneEU0b3ZHM0ZZWmxod1FwVTV6aUhpVmNBN2tldFNSNmJ5LTB2LW41TQ?oc=5",
-    "source": "The Guardian",
-    "fetchedAt": "2026-05-02T18:00:34.231Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "israeli-army-launches-multiple-airstrikes",
-    "date": "2026-01-12",
-    "title": "Israeli army launches multiple airstrikes on S. Lebanon - Xinhua",
-    "description": "Via Xinhua. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAtbFdZeE5VbWJLdHpBeHlRQW9Id3hfOUhRQ3NuUW9hcnA2cVVZUDk0bE9LamNhOFdyUmRKZEI4dG54bE9OdHFGbFptMjJ5blhMcUlqU0taMVlEMzlJVmxob25rUGtiQkFNb2cwYlZrVEJ5czNrY3A3MkJQSTg?oc=5",
-    "source": "Xinhua",
-    "fetchedAt": "2026-05-02T18:00:40.274Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "the-environment-another-casualty-of",
-    "date": "2026-03-16",
-    "title": "The environment — another casualty of war in Middle East - Dawn",
-    "description": "Via Dawn. Auto-detected by headline monitor.",
-    "category": "humanitarian",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1CTGVBVHZfVXRGUk1uM0hiOXVGZGtzM3g1eDMzak10Ri05TGFDdnNaeG1CTnZlZDk1OWRibWNZazFnZzZhOFBUb9IBTkFVX3lxTFA2ZGVmcWxzdDJBUDVSb2h1dTdIS2dBMVdKRVVnSG92SVNqWHJxTThucWMzZDRXRlVLMzhqb2JUcFpIczlWQy1vU3UwOFFWQQ?oc=5",
-    "source": "Dawn",
-    "fetchedAt": "2026-05-02T18:00:46.037Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "saudi-oil-refinery-attacked-for",
-    "date": "2026-03-04",
-    "title": "Saudi oil refinery attacked for second time in two days - The Jerusalem Post",
-    "description": "Via The Jerusalem Post. Auto-detected by headline monitor.",
-    "category": "infrastructure",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0xTVhzX2pmMFJxYmttSHVyWmViNDFzNGl4bTAxN3FYWDVUSWpubVNyd0N4c1luZy1uVm5wTk5MNUpfUVRkLTRzRnF5ZE0xYWU3cWFwMEx4RUNweWRlZmJrNGdIMkZ3a1k5MlE?oc=5",
-    "source": "The Jerusalem Post",
-    "fetchedAt": "2026-05-02T19:00:11.304Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=M0rCaRQvlJc",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "M0rCaRQvlJc",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "un-nuclear-watchdog-urges-military",
     "date": "2026-03-21",
     "title": "UN nuclear watchdog urges military restraint after US-Israel strike at Iran’s nuclear site - Middle East Monitor",
@@ -4556,6 +4478,87 @@
     ],
     "videoMatch": {
       "videoId": "WPiC-xO5Ytw",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iaea-director-generals-introductory-statement",
+    "date": "2026-03-02",
+    "title": "IAEA Director General's Introductory Statement to the Special Session of the Board of Governors - International Atomic Energy Agency",
+    "description": "Via International Atomic Energy Agency. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOT0JqOEtxaFI0Ni1jQS1lMDRZdjhOY0lzckRhMDdYaFBSVzNsMVZtUHdzY2NPNGVPTWtXMll5U3lCRGNISWNtNGRVVGk1ZzI1QXFtNVhPWG4wWnhiZEQ5eVA2eWV6S3h4TzdCem1wbUIyQ19yUkVycEZKTGpxX1NQSWI2cmE1MDRTZ2RFMUd5TmFmbEFHbWUwVFZKN1d0TThhMTNha2NnanJGOS1tLUQ0MFNPRGVnRk9xTlVydWpLWU15eVdSQmN4elVEZHR1eHlrTHc?oc=5",
+    "source": "International Atomic Energy Agency",
+    "fetchedAt": "2026-05-03T14:00:13.290Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=LJm4vTh5o34",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "LJm4vTh5o34",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "trumps-chaotic-and-reckless-iran",
+    "date": "2026-02-26",
+    "title": "Trump’s Chaotic and Reckless Iran Nuclear Policy - Arms Control Association",
+    "description": "Via Arms Control Association. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQ2w4Y3BrbmZzaUZrN05oeFczX0phWUhidmhqOHFIUXpsRzBIanJPdy1NeEtVdnhKLTJWRUZDcXVRTi13dlhCT1lIcXFVRHY0dVp4MTlucGl3Tk84ZWVsaVJrWEVJUXd2cjBvam5lWkJJX0ZoVjh1aGRTenk0YmVIUUtpS1lUbVk1bnotWkZ1NDJoVW1aT2RLbA?oc=5",
+    "source": "Arms Control Association",
+    "fetchedAt": "2026-05-03T14:00:15.200Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=ChSeor3SXi8",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "ChSeor3SXi8",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "gaza-hospitals-report-rising-death",
+    "date": "2025-09-21",
+    "title": "Gaza Hospitals Report Rising Death Toll as UNRWA Confirms 1.9 Million Displaced - Palestine Chronicle",
+    "description": "Via Palestine Chronicle. Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQX0k3amZhS0hoTVJsbENSTWNwQjdLOFdiNzJYYzJjRU5QQ0h2OThSMDdqdnZQc1RUcGoxN3EzVF9xYWd1Y0lNbF91WTlhbTQxc25vV0FFVWxBWDU5M0llMDIyODBKMUdFTVc1ejRtSHFZV0lQUnI5amdkZnhEU0JuR1hqelhxb05ta1MtX21Ed1BwaGF5Tm9rR2Q0dDJrdUtyTWZxZmdnd2RCTE9JSU1zWlJZSkJNdw?oc=5",
+    "source": "Palestine Chronicle",
+    "fetchedAt": "2026-05-03T14:00:21.337Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=GLwx9FZyVJc",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "GLwx9FZyVJc",
       "title": "",
       "confidence": "auto"
     },
