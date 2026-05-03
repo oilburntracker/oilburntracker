@@ -1,86 +1,5 @@
 [
   {
-    "id": "un-nuclear-watchdog-urges-military",
-    "date": "2026-03-21",
-    "title": "UN nuclear watchdog urges military restraint after US-Israel strike at Iran’s nuclear site - Middle East Monitor",
-    "description": "Via Middle East Monitor. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPZFVLUy0wV1plcmZxWHJ6elJMb1V1ZmNCT2o3NzNfcUdLYTJMZlBId3BESlk2QzJjZGV2SS01V1lsWmdka3M5SUladGRoSXFLa19xVnRBa0xWMGViQ20weEdRb25rcUFfMFJ2d1B4NndtRVpMME1faEpKbWRQejdGbzFIZnVya2FEczBKTVp6a3hqRWNTSUVmVkIycm5Rc01wQjh3R3o5Q3N2QXpBcUVzTUp4dDBrZHhRRXEyVTZDZGxISGZSaXB6Z2o1UEhtd9IB0wFBVV95cUxQc28yU2E5czZJcUJXV3d1azQwaU1Pc01uMFN5Y1c2Q0w3ejc2YTcyQWhmeXN4bzBGVHc5bGVKMGU0cTg4bko4NG5odS1mMHRvaE9ETV9JaHdUYkZaU0FVNTI2Nm9iWW5EcFJlaXpCaDFxazRpYUZfWjJkTmt6ODFUbUZVTXY2akxZLUxVbnVZMW9yQldDRjdudmdmaWYwOFBkXzBkcGVNajhsMTNiNnluOTJLeUVJQVFTWVJFZ2xFNzdNQUxPN1AxZ2ZBeUVMTUozNzVN?oc=5",
-    "source": "Middle East Monitor",
-    "fetchedAt": "2026-05-02T19:00:12.739Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=5gQRFHl-u1E",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "5gQRFHl-u1E",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-condemns-attacks-on-nuclear",
-    "date": "2026-04-01",
-    "title": "Iran condemns attacks on nuclear sites as ‘war crime’ - Latest news from Azerbaijan",
-    "description": "Via Latest news from Azerbaijan. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE93S0NibTQ4cnFRNjZ0U3JPSFJDa0cwWExzbXI1QmRWN2ZuRHM1cFlGSElkSDczWDFOVEROTmdJQktEdWk4NG9TY0JGck5iRlRmTVhXd2J5Tl9vOEtFWExxYmdDUC1yRmRfQ3Z1N1J4UnptQmhTWWdOQ2drMkc?oc=5",
-    "source": "Latest news from Azerbaijan",
-    "fetchedAt": "2026-05-02T19:00:15.701Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=jIhNDYB9udc",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "jIhNDYB9udc",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-refuses-inspection-of-nuclear",
-    "date": "2025-12-24",
-    "title": "Iran refuses inspection of nuclear sites until IAEA provides new guidelines after bombing - WRAL",
-    "description": "Via WRAL. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOWkppS1FUaUpVeXNvdlpVQ1pmN1FRemRySzBwMW5LTjlodEZOUGhrME90VkZnR2llV09kYXJucUpyMm95eEFtT0JOcHJvMGpaRmRjcDBIN0lrSVZJX0lnNEtydXFvR01lRHZmNkNDNm5QbE5xR2ltSDRWRXBXQklJOFE0Z2ZkTmF5aG9BLVlyTnhHS005ZUwtMDZ6ZjE0WFBRSlk1MldaMFJoX2ZkTlBpczVoeVRCdHNpd0xHMXFjSzlIc01F?oc=5",
-    "source": "WRAL",
-    "fetchedAt": "2026-05-02T19:00:18.169Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=00Fqpy0v3cg",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "00Fqpy0v3cg",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "strait-of-hormuz-tensions-rise",
     "date": "2026-03-20",
     "title": "Strait of Hormuz tensions rise as Iran reportedly charges ships for safe passage - South China Morning Post",
@@ -4559,6 +4478,141 @@
     ],
     "videoMatch": {
       "videoId": "GLwx9FZyVJc",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "saudi-arabias-oil-pipeline-bypassing",
+    "date": "2026-04-08",
+    "title": "Saudi Arabia’s oil pipeline bypassing Hormuz damaged in Iranian attack: Report - The Indian Express",
+    "description": "Via The Indian Express. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSUNsSjA4cm1TbnZOdjVOTDE5OG9yZW1Kc1VpY1FEd3Y3QVJwUGtEVnAzX0hsRHBtUnBnX2RVRVVZMlZBWkZBbzVCdnUyTEZPMVJBOGJEbWJZdUZjWXlhN1BZYmFkUXk3Rk1PVFZtaGtKZ19MVi1xbk15VGtjQklzNTU5V2Q3U2FnaDZfSUpoVEcyYjBPNG1tMzJQY3I4U1RXSGFoa0Vybjlybl9NT0NTa2RSVEtSd9IBvAFBVV95cUxNUk94N3h0QWJoVm01MHkwWWJTTlY4Y3gxSUZnUjZOVF9IMngyMWJEdDN6U0RzbmZ0c2I4ZGJaUmFkamk0bVY0MW9ob0p0S1RHR2k0RHBDZnp3OTFkODZ4Y0p5XzhCOE9PTklmVHl3dVFrSlBVRE5sQmtobzRPNGdWWEFVSmY2TGE5c3RUUGxLakZ3U3l0Z2xKckIxVTQ2djFaRUxHeWY3eFdTMlFIMW9jUFN1aGo3dmlsMXFUOQ?oc=5",
+    "source": "The Indian Express",
+    "fetchedAt": "2026-05-03T15:00:11.485Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=yqTKKgdlCHY",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "yqTKKgdlCHY",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "nuclear-power-plants-must-never",
+    "date": "2026-04-05",
+    "title": "Nuclear power plants must never be attacked: IAEA chief - 巴士的報",
+    "description": "Via 巴士的報. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdjhjdG1rQURSc3FPdWZSYmdDUDM2OEhrRGRQNy1QWldEbWRiNXJ5SG5PYk9vNHJFVWVHMGFNV1BySURrTUVDT0tJNHhiS3pRdEgwWktjOFJGc3hiT2RjTXFRdFM3YkwtUTRmY0xESmd3cThJNWVITmFCVEJSYXBRS2hlYkZoeE83T0g5TnYwanhnLTYybnlRdHBpaTlCUWcxajZHZUVKaWMzZw?oc=5",
+    "source": "巴士的報",
+    "fetchedAt": "2026-05-03T15:00:13.079Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=EhAemz1v7dQ",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "EhAemz1v7dQ",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israelhamas-war-gaza-conflict-explanation",
+    "date": "2026-05-01",
+    "title": "Israel-Hamas War (Gaza Conflict) | Explanation, Summary, Ceasefire, Casualties, & Map - Britannica",
+    "description": "Via Britannica. Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBlLUZSVWt0R3QwOVg1OENhbGZKXzBFbVk4Wi1kVGdvay1zRDN4Z2ZralpEZzVCV1N5Z2JUcUpYWFU1d3hLUThZVUxuN1JoTl9rLXJGMlhmT3o0NmdqR2c?oc=5",
+    "source": "Britannica",
+    "fetchedAt": "2026-05-03T15:00:16.152Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=pqLjoh374_M",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "pqLjoh374_M",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israeli-strikes-hit-southern-lebanons",
+    "date": "2026-02-28",
+    "title": "Israeli strikes hit southern Lebanon’s al-Tuffah region, Markaba: Reports - Al Jazeera",
+    "description": "Via Al Jazeera. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONFRob3AtbU03a01PcnJ6WWJLaTR4SHNfNDlMWkZyd2NxMFpNN2RnWlBrQkFsemVRWm9RVXZhREFaQURaWUowR1dlX1dmc3pHSG1CS091UDNnd09IWGhVUlc0Uk5IU2gtVEFuTVJ1ei1Nb1k0YmlfQ1VuSlBaaFJWRVZXZjE1NHVnSWxNekR1U3F4NnRwME11aTMtN1BkSUZOTWpDUDhBSFZJeHIzV2dBendnNNIBuAFBVV95cUxQOXlxN3pma05GYVl2N0s3eGQtMkRHRHg4d1JEanZoMERpb2lJRmFSWkxhNHh4aDVlUVJ5TjhIUHNJcF9pMHhTb2JGaDBvU0FxcThDeGtsSTlCQnVVeVNudWtCdWw3SC04ck1vZV82V3dJU0pMOWJWQTdvME1QaHljcGxhczJVLVEwRG03OGtKT18yY20wUDhPbV9mNF9MWHFzS0V1eGluQUk3TUw3am9MMUd6UTVBN1hK?oc=5",
+    "source": "Al Jazeera",
+    "fetchedAt": "2026-05-03T15:00:18.341Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=I3oi5haiclc",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "I3oi5haiclc",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israel-strikes-hit-southern-eastern",
+    "date": "2025-12-18",
+    "title": "Israel strikes hit southern, eastern Lebanon in latest truce violation - Al Jazeera",
+    "description": "Via Al Jazeera. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPaVNWY3RlSDh6WGM2NkExXzVENk9oclhWSl9Dekx3YlVnSlo5WkpKUExKY2ZMTk1aSUVJM2sxVEZoTENNbktTaUxqM1IzRnZMUnJENFJUZzZaQXVLSVdGSkd2dW5KYklqdDcyWmxoazJKWWY2WFZjVDc3ZHA5NmxBaF9JVDhra3UtUDNZdjNFem5tRjdvUnR3LTlZNTZqRkQ3ZENSU1Q3Nll6Vkxva084MtIBtgFBVV95cUxOaG9Uc0MxRl9aZ2hWZDBvUWtURTY3MmhWeFh3RmRLWnRTMkRQWW5yRjN4TkpReWN2X215OFR3MndMLW1TMGt3VkNoMU9WbDVtUUhXMzFwVnlZUER2Y0g0a2c2VlUtaVlrdFdaODFEUGJ1N0RBcnFXVERiZVNLblVEdFlibmFfd1Nmc09YZDFnajhVTFIxU05LWW5yb083VUdNbkMyT2pmdGNXQmxFQUkzbm9FaHdVUQ?oc=5",
+    "source": "Al Jazeera",
+    "fetchedAt": "2026-05-03T15:00:20.400Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=GU06EcV1BMo",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "GU06EcV1BMo",
       "title": "",
       "confidence": "auto"
     },
