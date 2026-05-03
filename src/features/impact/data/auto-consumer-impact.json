@@ -390,5 +390,19 @@
     "totalMonthlyExtra": 215,
     "headline": "Oil ~$117/bbl, gas ~$4.33/gal. Auto-estimated from trend model.",
     "source": "[OBT daily estimate from trend model]"
+  },
+  {
+    "date": "2026-05-03",
+    "oilPriceBbl": 116,
+    "gasPriceGallon": 4.34,
+    "groceryInflationPct": 6.6,
+    "monthlyGroceryExtra": 66,
+    "natGasMMBtu": 8.5,
+    "monthlyUtilityExtra": 91,
+    "shippingSurchargePct": 76,
+    "deliveryDelayDays": 12,
+    "totalMonthlyExtra": 214,
+    "headline": "Oil ~$116/bbl, gas ~$4.34/gal. Auto-estimated from trend model.",
+    "source": "[OBT daily estimate from trend model]"
   }
 ]
