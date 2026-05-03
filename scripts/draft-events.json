@@ -1,32 +1,5 @@
 [
   {
-    "id": "israeli-airstrikes-kill-at-least",
-    "date": "2025-03-24",
-    "title": "Israeli airstrikes kill at least 65 people in Gaza in 24 hours, says health authority - The Guardian",
-    "description": "Via The Guardian. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWnJmSUwxanpnV3lOY0pzOTNzVDQwNnJQOUlybm5JZHJobTZTN09XaWZsQ3B6NlM2ZlA3NDhSQ2xPVUZqSllhejBHcXJMcGlHMWtDdTBBLUkzYy0wMmNRVUNnay1XR2p5WndaOTdGdUl0TlFXMFVERlBwOTl4d29KTV8zSTdfTzBLR3hlM2tyUjliMHhxNGwwTVE0aEhCQlk2V1N2YmRRSW52MWVp?oc=5",
-    "source": "The Guardian",
-    "fetchedAt": "2026-05-02T18:00:25.772Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=1k-DBwDcQQI",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "1k-DBwDcQQI",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "there-was-just-wave-after",
     "date": "2025-03-23",
     "title": "‘There was just wave after wave’: Gaza doctors recount horror of the last week - The Guardian",
@@ -4532,6 +4505,60 @@
     "fetchedAt": "2026-05-03T12:00:50.781Z",
     "mediaUrls": [],
     "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "oil-and-gas-prices-surge",
+    "date": "2026-03-02",
+    "title": "Oil and gas prices surge as Iran war disrupts Middle Eastern output - Reuters",
+    "description": "Via Reuters. Auto-detected by headline monitor.",
+    "category": null,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQckpBQVI0MjB2ZGNuVlVoeHFmQWJ0cG96OG5YWlBpbWcyY3ExMFc2cmNaUndMUWRtdFc3WGsyWTgxY2MwZE5mOE55M0FScXVyd2pYQlFjQkh0anRaM0FlSnlsOTRHZml5SFR5elZidEZfUjJoTG91b2ZIOVIwdFNrY3JKWm02U1RkMlZLNXdCQWh1UVlJeG16V1I1NUFGWEw5b1kzTjBoMG1WQQ?oc=5",
+    "source": "Reuters",
+    "fetchedAt": "2026-05-03T13:00:12.557Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=QkRyuJ96PTU",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "QkRyuJ96PTU",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israeli-airstrikes-result-in-casualties",
+    "date": "2026-05-03",
+    "title": "Israeli Airstrikes Result in Casualties in Southern Lebanon - Oz Arab Media",
+    "description": "Via Oz Arab Media. Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQX2JDWlJ4cFJaSFU4cnNkX3lDeUl3cXAzRzVaS25FQ2h6dlpkOWxPZ3dNRHpRaVZVNzdOM1p0T3FQbGpwaS1aTjRSUmN6NzlvaHRjR0lpUGlHTWl5TThENFQzY0Y4aHRZazZNazJ3X1I0UkxMTFQ3Ny1nLWVMRUFELXNTNEtjalowVzU1TVQwdkJhRnkzTGJER2NxWDk1VHJmMXkwRnRQeVh0cTZvZE8wVzQ3bXdqNW50ekJmTERfd1JGamt5aFVfUHJDS1B6eEdJZ0VCNF9qakV1N0JoUlRTT19jV1FTMzlYMmwtb0s3LU8xX2xhUVdvcUVOZFFQNHppTmg5d0Z3VEtNakZ2RGxNYU53?oc=5",
+    "source": "Oz Arab Media",
+    "fetchedAt": "2026-05-03T13:00:15.844Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=WPiC-xO5Ytw",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "WPiC-xO5Ytw",
+      "title": "",
+      "confidence": "auto"
+    },
     "lat": null,
     "lng": null,
     "zoom": null,
