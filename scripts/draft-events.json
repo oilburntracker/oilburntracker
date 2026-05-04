@@ -4944,5 +4944,32 @@
     "zoom": null,
     "casualties": null,
     "status": "draft"
+  },
+  {
+    "id": "rights-group-says-over-1400",
+    "date": "2026-03-23",
+    "title": "Rights group says over 1,400 civilians killed in Iran in three weeks of war - ایران اینترنشنال",
+    "description": "Via ایران اینترنشنال. Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBPZzZkRk5mSTAxc0I1V0Zua0pFRHBQTVNSWDhPcWk2Z0lUNGJHdnJ0NHFqZ2VfZFkyYlM2MmdDNVVZdEhubEdHQURKYUp2OWZmZFE?oc=5",
+    "source": "ایران اینترنشنال",
+    "fetchedAt": "2026-05-04T17:00:11.717Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=Ga_bBCsxQCE",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "Ga_bBCsxQCE",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
   }
 ]
