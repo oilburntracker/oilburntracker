@@ -1,59 +1,5 @@
 [
   {
-    "id": "yemens-houthis-attack-another-red",
-    "date": "2025-09-02",
-    "title": "Yemen's Houthis attack another Red Sea ship after Israel kills PM - ایران اینترنشنال",
-    "description": "Via ایران اینترنشنال. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA4M1dsRFlxQ1U0N0ZuMWNpbDc4RWZKak5WZXBha29LOEZtVUo3WHhTdi1YbmdOXzNJeGZpX1FGR3REejhGazBZRzNDRXFXS0gtRnc?oc=5",
-    "source": "ایران اینترنشنال",
-    "fetchedAt": "2026-05-03T12:00:19.289Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=p2u6JZrr08I",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "p2u6JZrr08I",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "houthi-missile-strikes-greekowned-oil",
-    "date": "2024-05-18",
-    "title": "Houthi missile strikes Greek-owned oil tanker in Red Sea, U.S. says - CBS News",
-    "description": "Via CBS News. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPM3F1QlBTSkt3N0JISm5hN2tsdjVYdmtmdHVYM0xWVS1fWE9JUHRpeTlncDgtRHIzMGZBY0lrLW8tYm82OWprUGJVYkh5SmhJcGhPT05va1hoSEh1YmRwZDNjYTA3SHpGRlVmdF9SSllWbnhTRko2alJEUkxpb25neGwxeGpMaVVlY3Jv0gGQAUFVX3lxTE9qZnYxaXpFQnB4LUtnRGtJUG5ncDhvZTd4MWRRRzh6NnVzQ1F6Q0NmSzdvWXBRQVgyU0h3R0s3aTZRdkJPNEVVd2JtUkxkTjg5Q29tMjBYaC0weUhzN21UMENLa0VvbEU0ejdLZzd4QUdHclZJbjZralNVa0tyQnZTcDFJbWwyNXRfNmNlb0g2Mg?oc=5",
-    "source": "CBS News",
-    "fetchedAt": "2026-05-03T12:00:21.358Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=h27XGUresl0",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "h27XGUresl0",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "israeli-airstrikes-in-southern-lebanon",
     "date": "2026-05-02",
     "title": "Israeli airstrikes in southern Lebanon result in 10 fatalities amid ongoing conflict - MSN",
@@ -5082,6 +5028,114 @@
     ],
     "videoMatch": {
       "videoId": "lY0d1oZP8vM",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "what-we-know-about-the",
+    "date": "2026-03-09",
+    "title": "What We Know About the Thirteen U.S. Service Members Killed in the Iran War - Time Magazine",
+    "description": "Via Time Magazine. Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQUWVwZW1ZcUU1LWJBNGJYd29QWlJGWlpJX1NGQ3R0anFleFdrS2hBVnY1YUZEb1ZUUk92R0ZIZmlsRjNsWmtYNTNBUGdlbWhmYVZYNE5FOC1CX3ctaFh5OS1ocEdJMllCMzFJY0VEVFlERFlTQzA4dEl6dWRBTW1VbW5QTEg0Sy1BZkE?oc=5",
+    "source": "Time Magazine",
+    "fetchedAt": "2026-05-05T04:00:13.400Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=lYMNkUJUpQk",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "lYMNkUJUpQk",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "oil-tanker-hijacked-off-yemen",
+    "date": "2026-05-02",
+    "title": "Oil tanker hijacked off Yemen, diverted to Somalia - Pakistan Today",
+    "description": "Via Pakistan Today. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVklzcFBnSFBUWlFQMENpalNtMXFtZmE5bXljbUFlMG8tNmxMTjh0N2NMRmhydm1tQ0RrZFNIak1zWE1oMXdQLTg4enlJVi11NGg3LXpiOUlVd2szbzlnMm1xOWp0Q3VqbWU5LUNGczFpVzl5b0cxWXRFLW9BNTk2UGhRdUxwUGxBbDUxNFczUk9OVzM5Y1B3eVh3bFgwT0trMVRDZXVJZWJzZDVCVlFsYTJvQmpvU3BSLU1R?oc=5",
+    "source": "Pakistan Today",
+    "fetchedAt": "2026-05-05T04:00:16.218Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=2OlaY1BQwwo",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "2OlaY1BQwwo",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "the-war-on-iran-is",
+    "date": "2026-03-26",
+    "title": "The war on Iran is a war on the climate - The Invading Sea",
+    "description": "Via The Invading Sea. Auto-detected by headline monitor.",
+    "category": "environmental",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNdG1Tc2hZb0xha3VFTU1aU3F4R044NU05S29wTERGVHJGX281X3JfZHVveFZSd3N2bzBwWW1mQk1lOWVKeFhHMlBfZnktLXlQNk55a0RxSHdnaThyMW5yNDVYUEFRR2VQaGx5TC1ocjNBWW5fend3U05tYk9xLWJ3T08tNkxFRFRWTEw0UE9ZM0FncGtKOG91aTVQd09GbnF4bXhUc0pOeXZZNW53TDlhNUFCejYwaHBoUF80cmItQUJicUd2NjVHSklzVURyYU5a?oc=5",
+    "source": "The Invading Sea",
+    "fetchedAt": "2026-05-05T04:00:18.856Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=pvObovF7hj8",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "pvObovF7hj8",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "black-rain-and-burning-oil",
+    "date": "2026-03-21",
+    "title": "Black rain and burning oil: the environmental cost of war in Middle East - The Nation Newspaper",
+    "description": "Via The Nation Newspaper. Auto-detected by headline monitor.",
+    "category": "environmental",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdWxHQVlkdUdmWV9ab1kxYnJ4WV9peTlEUjduN3BlZ2hicVg3Uk1CV2lWZVhKV3RkUS1rUEVaZFlTWFdSTk5hdkNuaV9JWnZJZXN0QllTODV4ZlNHSUhTM084VHJBT1VDV0FEV1ZEQ0NxTFlGREtfWkt6UFBiai1PUFY0UmF5d3p0bG0wMmtfTnBGS2R3MW81ejBSZXlSU1V6QmRYMNIBqgFBVV95cUxNcWtHY2xucDJwZGMzQldnaEdrczNhREwtYkl6MmMxcHFscklFSVR4SlFmYTBVM3RDZmZXMG5fZi1aZjFRdEtIelZjWU15Uldwal9LcnlUR3ZueE1Hd3JkNUxGWEpPYzFQakp6LXcxV3RvSGxZV2hsaVd5YlV4T1FMdXhRU1dHcG1wcVgyclJzUzlYNDFoMGl5Sm1UQktmZ1F3Zk1RWTRBMDEwQQ?oc=5",
+    "source": "The Nation Newspaper",
+    "fetchedAt": "2026-05-05T04:00:21.204Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=AodcyCWA8lQ",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "AodcyCWA8lQ",
       "title": "",
       "confidence": "auto"
     },
