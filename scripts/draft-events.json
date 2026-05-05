@@ -1,56 +1,5 @@
 [
   {
-    "id": "israeli-airstrikes-in-southern-lebanon",
-    "date": "2026-05-02",
-    "title": "Israeli airstrikes in southern Lebanon result in 10 fatalities amid ongoing conflict - MSN",
-    "description": "Via MSN. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxOV0U2ZDhLUDdSZzBzNzNRRDdHVmczMjUwNzFHX05ENGlDV3ozRWkwQVV3eFNoUDNZSl94VWc0Wkd3anZmYTI5ZkZ1RG1qbjdWeFBKY3VXdWVYSjVjOVc4RVcyME5pVHJtYXVKR0lvOFdXV1hwTG9nbWI5XzVOMUhpdkVwT1FVdVBIN25URzBMeTdVMHd0RS1zUmFuMnFDR3pDbkRsWkVPdEVhZmU5MEhkckJQNGExUm5pNUhTNU8zenc3RkFGdk02dVVSWDRqWU1CWEkxSHU5cUFlMFFyQmZQSWUtZ2dLMTR4elZoY1hsYjdhanBPMTdkbldXY3V3dXFSSkdPZDJwLXM2Rnl3UlRZN3NMVVJVRlROcF9pOWNnQU54QUExZC02Z2ZRN2xRLWpVRGNmajF5SElnMXRrWXRmNlc0ZmY1YWs3VjRXNFpyXzFOM3ZXdXlCRXN6THlWNE9fV1Vv?oc=5",
-    "source": "MSN",
-    "fetchedAt": "2026-05-03T12:00:32.405Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "casualties-and-injuries-as-israeli",
-    "date": "2026-03-14",
-    "title": "Casualties and injuries as Israeli airstrikes on Lebanon continue - سانا",
-    "description": "Via سانا. Auto-detected by headline monitor.",
-    "category": "humanitarian",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE85bEw2ZFAwZDBUUEo1dTZiRlZPU3huRHoxYjlDQ0I4OU5vbTBTY1NaWHU4V0xLVUNLenRPdEN6dkJzeWJHS3o5WXdySjMtelFlb19R?oc=5",
-    "source": "سانا",
-    "fetchedAt": "2026-05-03T12:00:38.818Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "usisraeliran-war-latest-news-update",
-    "date": "2026-03-11",
-    "title": "US-Israel-Iran War Latest News Update: 7 Killed in Israeli Airstrikes Across Southern Lebanon, Casualties Reported in Qana, Tyre and Bint Jbeil - The Sunday Guardian",
-    "description": "Via The Sunday Guardian. Auto-detected by headline monitor.",
-    "category": "humanitarian",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNVEZDRU9RczNqakp3QXBtVnRMdTdVckxidVJTODFLRGNNdnNXTDY4ZFhBa2ZOUnFNWnFfNWZleHNnRkk0M3RTTVNNbkx1YWlsbkprc3Q5bWpVRDNmUXAzMTJWbzBvemNXVFRiRUR5bzIxYWkyLS0zbXZwRHg4TzVEM0VmYUZSM2RZbjF1SGpaeGR5UnNXaHZUay1uU1dUSnlpZVZGVzhlOHR6Nzg4SzZJUXhGVjNTMFgtcUtvNDJvRGRGT3N4YXMxUVVOVEhrRjJDc25Wbzg0RFRIUWJjSVRLWmNKQzcwVmp2YWZsSVlfaThTeVZhOVlsQlZvZ1dhbGlqbnI3OThHT2lWVmZRc2FaV1F4VQ?oc=5",
-    "source": "The Sunday Guardian",
-    "fetchedAt": "2026-05-03T12:00:44.600Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "lebanons-death-toll-from-israeli",
     "date": "2026-03-24",
     "title": "Lebanon's death toll from Israeli attacks since early March rises to 1,039 - Gulf News",
@@ -5136,6 +5085,87 @@
     ],
     "videoMatch": {
       "videoId": "AodcyCWA8lQ",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "hamas-challenges-israeli-account-of",
+    "date": "2025-08-27",
+    "title": "Hamas challenges Israeli account of Gaza hospital casualties - Arab News",
+    "description": "Via Arab News. Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5vVFNoelVQWjQxbXFzRURmekhaSXdhdDBaUGJPVVFfWGJURFlTcWRoUDRHWm5Fb3RQR1NkTWhlOTBtRGpPejdRUXQyQWFwWTZleVZnd3BwY3hiZF81dnc?oc=5",
+    "source": "Arab News",
+    "fetchedAt": "2026-05-05T05:00:11.807Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=o0fUkOPfBxU",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "o0fUkOPfBxU",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "how-yemens-houthi-rebels-are",
+    "date": "2024-02-02",
+    "title": "How Yemen’s Houthi rebels are carrying out attacks on Red Sea ships - Reuters",
+    "description": "Via Reuters. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOLTQyX3ZQS3d2ZE9HM0x4amltUHlxcEcyZ001WHNqNXM0eUI2MU9qdndsanl1NFhheXZpU0x6YV9wUmVpaDZsTXBfR1BYZWRLbTBCNkJWS3g3ODBhemotMGxBQ2dqY05IU1l5eHpKTkhWQ1JSbUVLTkxXRnFQWTZ5YzR4c29wUQ?oc=5",
+    "source": "Reuters",
+    "fetchedAt": "2026-05-05T05:00:16.557Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=w141y1lsfIk",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "w141y1lsfIk",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "acid-rain-and-broken-food",
+    "date": "2026-03-10",
+    "title": "Acid rain and broken food chains: Iran war’s environmental costs - Euronews.com",
+    "description": "Via Euronews.com. Auto-detected by headline monitor.",
+    "category": "environmental",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOUTl0cHptbnJXZk1kQ0stOUZxblNZZGNFZ2JFQWRfX1hxLTZxbmxvVkswNkg4VDZ1QllscVBWaGFaOGZDNk1LSEZSY29fSWVSQTZpMWFxZERteUxqZkg3aWJlZVJZbHFsbk1qc0pCbzZHYXg0YU80bWpEUnpkY3Y2VmloUWZsYUVUU0VXcUZjY3pNWmZ6d3F5aEV5eGgzSGl0ODVKYk5jMEs0YUxfUlQ0QUdOYW5WLWk5Y3UwRW8ySmlJNUlW?oc=5",
+    "source": "Euronews.com",
+    "fetchedAt": "2026-05-05T05:00:18.915Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=QfKjUeSMb_A",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "QfKjUeSMb_A",
       "title": "",
       "confidence": "auto"
     },
