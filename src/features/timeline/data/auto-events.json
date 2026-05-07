@@ -6259,7 +6259,14 @@
     "description": "Via Al Jazeera. Auto-detected by headline monitor.",
     "lat": 31.42,
     "lng": 34.35,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxObEw5QmgtWUgwZDl3TVByeFIyYkpPWExsX25sNzNtQzRJSnJPYWlJeWxVYllhd3luRFo3dDVYUE9ON3hfUnRkb3FIaFVIVTlyM2lYUjhKYUx2QWlRdlNQZXp2ajA3OEd5Rzk3OVMzR0RIMnk5SzJkRmZLTU1WS3ZYbDNiQ2pFVktzZjYyemNuZXpHZ1N0a2l0cTJqZ0XSAaIBQVVfeXFMTm00eGpiX0JiYkJpdDczdDMzSjBnSm50TU5zX1lqQTZpMW9RRDA2aTdMQVMwNHdzYXpFRnV0dHZCNThCU0Z4cDdIeG5vZGlpM05ILU1uN0o1MUJfckVfZjR2Mm5uRkNMbTRISWtna1paWVBaNlhDaWduZUk4RVJNVVotT25OclQ4SlNON0lTRW1NR1lnc1RkRERJUGZQdEo1aE9n?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxObEw5QmgtWUgwZDl3TVByeFIyYkpPWExsX25sNzNtQzRJSnJPYWlJeWxVYllhd3luRFo3dDVYUE9ON3hfUnRkb3FIaFVIVTlyM2lYUjhKYUx2QWlRdlNQZXp2ajA3OEd5Rzk3OVMzR0RIMnk5SzJkRmZLTU1WS3ZYbDNiQ2pFVktzZjYyemNuZXpHZ1N0a2l0cTJqZ0XSAaIBQVVfeXFMTm00eGpiX0JiYkJpdDczdDMzSjBnSm50TU5zX1lqQTZpMW9RRDA2aTdMQVMwNHdzYXpFRnV0dHZCNThCU0Z4cDdIeG5vZGlpM05ILU1uN0o1MUJfckVfZjR2Mm5uRkNMbTRISWtna1paWVBaNlhDaWduZUk4RVJNVVotT25OclQ4SlNON0lTRW1NR1lnc1RkRERJUGZQdEo1aE9n?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=r7SkeeO-19U",
+        "label": "Israel says it killed Hezbollah commander in first strike on Beirut since ceasefire • FRANCE 24 | France 24"
+      }
+    ]
   },
   {
     "id": "auto-lng-tanker-on-fire-off",
