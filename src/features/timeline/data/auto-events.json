@@ -3041,7 +3041,14 @@
     "description": "Via The New York Times. Auto-detected by headline monitor.",
     "lat": 30,
     "lng": 48,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPRTBueG83SDBTdTJlMC12RUYwTGh6d3QzblhSN2FJc3lSMUxQTU9fWDJtRTN6T21rcThKZnZEUnI0Y0ZEWVQ3dFY4NXhYZlNOUnduYnlWXzg1bG1mSjFSaDY4Z3NreGlwMWs3MWM5dHl0bTFaWm9USk1oOUtQZ3pxOTNTQVdodU0?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPRTBueG83SDBTdTJlMC12RUYwTGh6d3QzblhSN2FJc3lSMUxQTU9fWDJtRTN6T21rcThKZnZEUnI0Y0ZEWVQ3dFY4NXhYZlNOUnduYnlWXzg1bG1mSjFSaDY4Z3NreGlwMWs3MWM5dHl0bTFaWm9USk1oOUtQZ3pxOTNTQVdodU0?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=Ya03YfxbAL4",
+        "label": "Ongoing Middle East Escalation Between Iran, US, and Gulf States | Al Jazeera English"
+      }
+    ]
   },
   {
     "id": "auto-oil-prices-rise-with-brent",
@@ -5972,7 +5979,14 @@
     "description": "Via The Guardian. Auto-detected by headline monitor.",
     "lat": 32.07,
     "lng": 34.78,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMnBGcUhRV1JaYTZoZjNjcFUyc29QUlZ2dTlHaUZJdFNSeHJzR0lMTF8tZmRyT2Q0U1p2aE1Dd2lGUlBrNWU4SF83ZGtPVXpCUGMtbWVrbk1XdzB3anJWUTlVQjVISWJWbkZlbWxBX2k2aVdTS3I2aW9vZnV2RmtVSEw5SHZwaU9jNlBralEwcnBDcVBWTTVPQnNQMFNGYldzNUk2Sg?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMnBGcUhRV1JaYTZoZjNjcFUyc29QUlZ2dTlHaUZJdFNSeHJzR0lMTF8tZmRyT2Q0U1p2aE1Dd2lGUlBrNWU4SF83ZGtPVXpCUGMtbWVrbk1XdzB3anJWUTlVQjVISWJWbkZlbWxBX2k2aVdTS3I2aW9vZnV2RmtVSEw5SHZwaU9jNlBralEwcnBDcVBWTTVPQnNQMFNGYldzNUk2Sg?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=KpHweRmV8yY",
+        "label": "Gaza hospitals in crisis: Treatment complicated by lack of laboratory supplies | Al Jazeera English"
+      }
+    ]
   },
   {
     "id": "auto-killing-of-journalists-in-gaza",
