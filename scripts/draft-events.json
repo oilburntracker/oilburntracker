@@ -1,86 +1,5 @@
 [
   {
-    "id": "iaea-finds-no-evidence-of",
-    "date": "2026-03-02",
-    "title": "IAEA finds no evidence of damage or impact on nuclear facilities in Iran - Ukrinform - Ukrainian National News Agency",
-    "description": "Via Ukrinform - Ukrainian National News Agency. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPdjZSRDNuMTBJYmZFa3ZWdHJudHhCN2IxRUh1NW5OOWdJZkZsajhGZk1XV2EwTi0wVDdCTEdZaGNySjFmeTlSMlREZGlWdjFQSU41RnlkdGZQQnFSRU1EU3ZTOXBTcUlKb1FmT2VLYU80aF9qZkhmaFZ5RTBYc1BkWnVmVmxkbU16aFQtT2YxeGJoMHVtb3h3UXQ5MmdzOEFxRlU5REw2T0dZUXhlOWktYzI5UTBJWGZnak8yOWMwOTJYa1c50gHKAUFVX3lxTE9xMXRyck5EWDJVYjBlcE0zMEhtNXFxazhZUHZubHlnVWhNNXVkRllTbENXQ1FCU1ZWS3lwWFhNa3BYXzhELWlxekctTFJZX256X3N0Z3hOdlo1UjNta2J6UGV6b01BVXhfOFlLQWJ3VDB5QmxCZEUzdmY0Ym45cHhuajhmdi1JWXVMRXVMTXREdGtzbjYyRl9ER3doUXRuTTBacmFBdE0xX3pONGExS3ZPUVdOa2tIQ3dPUDZmTU5jR042NTA3ZmJjQ0E?oc=5",
-    "source": "Ukrinform - Ukrainian National News Agency",
-    "fetchedAt": "2026-05-08T10:00:13.491Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=Ko23UkuQOoc",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "Ko23UkuQOoc",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "the-smallest-casualties-the-war",
-    "date": "2026-03-30",
-    "title": "The smallest casualties: the war in the Middle-East is killing children at an alarming rate - Action on Armed Violence - AOAV",
-    "description": "Via Action on Armed Violence - AOAV. Auto-detected by headline monitor.",
-    "category": "humanitarian",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNTEo4T0x1aUEwUnZ6emFrYzNINzNWaHFGeGtpZ0JmdmpWcy1iYTF5Z1AwdDloMTJTZmdaTGIxYXdzQmtGWGhrREh6b0JVWG05c3NVQXQtbFdWaFNFVU5vbW1zNEl5NURMNUxjNlNXMkptaEh1b09XcFdYbWx6VVhYcE5zQjBhbGctSm5ldTl4YnFaNGhjOWs2bnhZX1prRDFyLVhvU2o1NzNjeFBwdTh5TzZUUWo4UUE?oc=5",
-    "source": "Action on Armed Violence - AOAV",
-    "fetchedAt": "2026-05-08T10:00:15.154Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=gRknKfM5WnM",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "gRknKfM5WnM",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "what-a-middle-east-oil",
-    "date": "2026-03-05",
-    "title": "What a Middle East oil and LNG crisis means for China and East Asia - Atlantic Council",
-    "description": "Via Atlantic Council. Auto-detected by headline monitor.",
-    "category": "infrastructure",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMG16MlBjdTFqdWZmYU54WWVDSkw3amt1b2s3S01xcUlYNlptbzFWM0EwX3N2SFF0VlgtRUU5MHBZUkdjakhIcl9heHB1dDdxVlN2b0o0N0hTWlRMY3dJbUFRMmFMTjkxM0JoYUgwREowSXg1d1loZkRNQmNqZjNSS1RPQm10ZEtyelcxSFdORXJFR1BLV1BJYzVtWk5ISVZOQXUzU2g1bHplRE5XaG9ObQ?oc=5",
-    "source": "Atlantic Council",
-    "fetchedAt": "2026-05-08T10:00:16.667Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=PiiiJxyEVhk",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "PiiiJxyEVhk",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "energy-prices-surge-as-tanker",
     "date": "2026-03-02",
     "title": "Energy prices surge as tanker disruptions, facility shutdowns rattle global supply - Houston Public Media",
@@ -5016,6 +4935,114 @@
     ],
     "videoMatch": {
       "videoId": "XeMYgQx6qsg",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "no-stupid-rules-of-engagement",
+    "date": "2026-03-11",
+    "title": "“No Stupid Rules of Engagement”: Ahead of Iran War, Hegseth Halted Efforts to Limit Civilian Deaths - Democracy Now!",
+    "description": "Via Democracy Now!. Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQU1dmbXlXZUpEWm9MOHNlMUY2TTRtYjdMRnU5WjVzNzljUjlrYUVUdE1CbmsyeXNfOUhVWjY5eVFmek5sUWdwakthdWV2MGZCdEwzLUhiQ1RBMUtzTVEyQi1NQVVlamJ0ZlR0U0t4Uk44cl94ZElHWDBxb3lBeHBtbUhoT0I?oc=5",
+    "source": "Democracy Now!",
+    "fetchedAt": "2026-05-09T22:00:13.080Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=CqSdtp4QVGs",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "CqSdtp4QVGs",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "oil-rallies-toward-120-as",
+    "date": "2026-04-29",
+    "title": "Oil Rallies Toward $120 As Middle East Supply Risks Spiral - Crude Oil Prices Today | OilPrice.com",
+    "description": "Via Crude Oil Prices Today | OilPrice.com. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQU2ppZ284U3lMTExFOU9BZjZMTm5pbm11Q3docGN5NnJncFZqMnFwTUZISTZsUDUyTGJaVm5YemJnTjFnY1k5SkNSNWRYdWVjNnRtYWVqS0VqSW82cFp2Z0JRQkpOd01pbkhmWTlmenE1SVlHS2V5eXBmcVpRcGZNemk3ZVJzY0tsaTNYVllxeE9jc1pCamtBS2lTdjJTZVhWR1HSAacBQVVfeXFMT09jbGtJb3kzMVZDSUxva2hnU1lRWXNWN0s0UG02OEFPSWtqUldhYTBLTENaSnlOVkVBRkdKTjRLa182em5IS2VaaHZTOWdWU25XejJCQ0ZhRzh6cUJSMXdtS0RrWVZTSm1paXRRSzVScm9PS29fM3FmcnRkNjlDZUhlaVl6cXZMaFBlZlUxcWlGVThnRnMxM1lJOGFGNi1CMG9DaDNoSjA?oc=5",
+    "source": "Crude Oil Prices Today | OilPrice.com",
+    "fetchedAt": "2026-05-09T22:00:14.607Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=PCeq2mbXHPY",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "PCeq2mbXHPY",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israel-hits-beirut-suburb-in",
+    "date": "2026-05-08",
+    "title": "Israel hits Beirut suburb in first strike since ceasefire - MSN",
+    "description": "Via MSN. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNVzVybTlCRjV6WnlwNEQ3ZDVwUUc2YkV2QWNybDQzckE0Q3pxSFh2d2F1MWdLb21kUlFTbXRiR0JSeTZlc280TzM3ckVYTF9VSXFqamJJeExwcUxpSTV5bnlRbUQ4OTk5TDhLTkpSLWd6UjFoQkJfM0tveVBlOHRBQl9QNThrNXZuRkk0NDcwejhmXzJvTWhIQU5MZ3g1N25FQXFrOVFidC03WkluNzVWUkVmVHFUaWVRWmhTZ3JXZFVuS0JBWUQzX3hVOGdXdnZRdU4ydVk1Tnp1LUVuWmhCcks4RUlhdEN3bF9xR0lQc2g?oc=5",
+    "source": "MSN",
+    "fetchedAt": "2026-05-09T22:00:16.217Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=eb-1szieSL8",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "eb-1szieSL8",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israel-conducts-largest-lebanon-airstrikes",
+    "date": "2026-04-10",
+    "title": "Israel Conducts Largest Lebanon Airstrikes Since 'Roaring Lion' - 조선일보",
+    "description": "Via 조선일보. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdm85blIwMERjdWJtaU9BclkyMEJEcnlZdHF6VkdNdkt6TlQxSWpRY1FoV056U1dubjNSV0pZLU0tXy0yLUQ4bE5BSjNjVFlMS0hYZE1CTWtaaTVCZjM3RWJKc2hIQVVmSU4wUmtRRFJqVEF3RFdGMW5yU2JOUlFndUtuR24?oc=5",
+    "source": "조선일보",
+    "fetchedAt": "2026-05-09T22:00:18.689Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=xA5imcf4Jd8",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "xA5imcf4Jd8",
       "title": "",
       "confidence": "auto"
     },
