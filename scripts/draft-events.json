@@ -1,201 +1,5 @@
 [
   {
-    "id": "iaea-chief-calls-for-restraint",
-    "date": "2026-03-22",
-    "title": "IAEA chief calls for restraint after fresh hit on Iran's nuclear site - Xinhua",
-    "description": "Via Xinhua. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBVWUdzV01vMXlwUkhUWjRZbGpmRkFuQ2o1aF9SVlVvYUNGNnpLYnZVNjYxb19BeG43ZTdWbi1jUEt4U1MzbFJNZVpmS21zYmpfeHJTSi0ySHZkR0lfQmxYVERJYy1SWDBZVnZzN2tZOGtoSTd4SWZyRExDbWs?oc=5",
-    "source": "Xinhua",
-    "fetchedAt": "2026-05-08T14:00:14.741Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=y1lQc-tSzkM",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "y1lQc-tSzkM",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iaea-responds-to-nuclear-facility",
-    "date": "2026-03-21",
-    "title": "IAEA Responds to Nuclear Facility Damage Fears After Iranian Missile Strike - Newsweek",
-    "description": "Via Newsweek. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNU3RvS0pWeFVvTjlub0d3djRYbFJxMFJvcVZfZmdnbG9CbFJZRFc0Q3Bua2g1aHp0c1FNR0hscVFtZmN5ZnFYOGNVUjY2TU5KZm5wcW9SaEhVTFFxVVBHWDJXclhfdS1DVVQzMEpqWFBxTGJuVGl4ZEtlY3dFTGRJVDJ4UWhtb1NmLVRhVWlGSERqem43TTFXMER3WkMxWG5XSW5sbS1yTlM0UGk2Nnc?oc=5",
-    "source": "Newsweek",
-    "fetchedAt": "2026-05-08T14:00:16.351Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=7sENpLNkEiY",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "7sENpLNkEiY",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "attack-on-iranian-nuclear-facility",
-    "date": "2026-03-22",
-    "title": "Attack on Iranian nuclear facility constitutes outrageous violation of int'l law: Russian spokesperson - Xinhua",
-    "description": "Via Xinhua. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1ncVM2anFmQVlVampxMGpnSFdLR1FfWWcyd2NlT2Q5eS11dkdTbkxreU5kTlJEZGs2MkhKOWhEcWZxYWRERmJIMVRDV0theUhheTFGWVhKODgwUm03OERBSi1ZQ2hlREF6cDc3QkpCVjVDcTNpTFJqalFIUEg?oc=5",
-    "source": "Xinhua",
-    "fetchedAt": "2026-05-08T14:00:21.055Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=V_qVzmk3pLI",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "V_qVzmk3pLI",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "us-forces-block-over-70",
-    "date": "2026-05-08",
-    "title": "US forces block over 70 tankers in Strait of Hormuz amid ongoing conflict - Crypto Briefing",
-    "description": "Via Crypto Briefing. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVWF5bnpwVFV0QS04VUlRTGRlNkdtUUJTcjZrc3l5eE0yVWlKWXNoQW91VFdaaDhnaHh5ZXpqam1qOXJKRXhCbHYyemNWV1pHcGlFQktTWVBodndzTDJRbEFjVEY5WEQ2WmpEUFVzNEkzdUFNZlZsQ3BrcEtldkpxVTJUMDZpaXZsdDhSOEpVbF9DSjREWVNOUk54TWpfalR1REJj?oc=5",
-    "source": "Crypto Briefing",
-    "fetchedAt": "2026-05-08T14:00:23.720Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=NKpx4O78SUA",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "NKpx4O78SUA",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "crude-oil-prices-exceed-100",
-    "date": "2026-03-08",
-    "title": "Crude oil prices exceed $100 a barrel as war in Iran disrupts production, shipping - Fox Business",
-    "description": "Via Fox Business. Auto-detected by headline monitor.",
-    "category": "infrastructure",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbFFlUzBCaGgwMGV2RldVb3k2LUxzR0hTamxtMjlJUkY2RHY0QTZVWTVqc1VsaW42am5WUGdqdTk3dmxQX3NIOHRHNlYzWU5LaW9FeUltek5KS0xtTzFweURDYVMyUnI2VFVDRHRaOTNCZlN0dE1ndXFBRFpFUGZhZTRwajR0S1nSAYwBQVVfeXFMTmJMWXBJVjZBSGthV1daM1VDS21hdUNYSnROaUVfX2drSWIyeEtxU0VtZThvczZiSFowT3NuTFRSQzdWQnB6ZXJ5ai1LLVJOTWQxV0s3ZFVaMlNpMTlMajFTa1FuemJqRklDZy03bXdxcTVMcXFMRHZ2QlJhU18teEpNRWU5REVfeGtwRTk?oc=5",
-    "source": "Fox Business",
-    "fetchedAt": "2026-05-08T14:00:26.367Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=Za1xrpJcVjo",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "Za1xrpJcVjo",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "israeli-airstrikes-kill-5-in",
-    "date": "2026-05-08",
-    "title": "Israeli airstrikes kill 5 in southern Lebanon as Hezbollah rockets hit open areas in Israel - WKMG",
-    "description": "Via WKMG. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQbnZNaUFhRDM4YXRZc1NXcDk0UTdBczJGRkdxSTU5blJIZ1FieGJyYWFCRzBmNTJlenNmQ255Q3c5SUIxcGttN1FVd29PdUpNc3VJUjB2UENMa2c1S0ZRQmRycFE1dkZWTVNlSkJWU1ZxYWFiMUNjTkRCZG1rVVBCUlVPRHZhNlBfZHJTRUp2R1JJRWVJc0VLOHRtUnJEb2RlWmdfT3FmTzR4TWU1amFnQjJvdVlVQ3JOSHkzanN1WjIwVTd6d2RPNTJLc3FJcnhXRTJYSm42dUEwTGc?oc=5",
-    "source": "WKMG",
-    "fetchedAt": "2026-05-08T14:00:32.486Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "lebanon-mass-casualties-after-israeli",
-    "date": "2026-04-05",
-    "title": "Lebanon: Mass casualties after Israeli strike on residential Beirut - Doctors Without Borders",
-    "description": "Via Doctors Without Borders. Auto-detected by headline monitor.",
-    "category": "humanitarian",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNVlFBam1wSG9ILWhfUlpzOTZuTEFRdmI4ZGhMYXBYbHdldHRVZUtUMC1xWEhFWm1PMk5DOFd5RHc4RjNMVFh4WDVFVkt4TTBrLVRHSXlFY2JoaHVIZF9fVWtnVVBpb3ZjT1BoVUFGUlk5QklvNWNOMTZveWhoLW9Ua1FfREo3d19iWEZHcmpnSjluaC1zTG9JM19LQUxwTnFHbVFEVmxjUkRYQUU1N201MzZxSEdaSVN5ZmZSVVNR?oc=5",
-    "source": "Doctors Without Borders",
-    "fetchedAt": "2026-05-08T14:00:39.598Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iaea-report-says-iran-must",
-    "date": "2026-02-27",
-    "title": "IAEA report says Iran must allow inspections, points at Isfahan - KFGO",
-    "description": "Via KFGO. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQd3FEeWt1ejZFLWFubXowZV9HRElVTnByenYyQzVyTjkteVp0SzltblZhUWpDaUhVdGpqT3pORzVLVElZS0JaTHNwQ3Z0MlcteHNzcFZQYVZ0VXU1dnBrOXR0WkdEMlZjbW9VM3VDOENOa19Qbnp2ZzBtbk9wMVZGTS1ZbGtiX2JXcEktal9pREVJOEtTRUE?oc=5",
-    "source": "KFGO",
-    "fetchedAt": "2026-05-08T15:00:11.734Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=hpgmiF1RKUg",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "hpgmiF1RKUg",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "airstrikes-come-within-82-yards",
     "date": "2026-04-06",
     "title": "Airstrikes come within 82 yards of Iran’s nuclear power plant: UN watchdog - New York Post",
@@ -5073,6 +4877,195 @@
     ],
     "videoMatch": {
       "videoId": "WI0WXWWXhlY",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "middle-eastern-countries-suffer-vastly",
+    "date": "2026-03-07",
+    "title": "Middle Eastern countries suffer vastly different death tolls as the conflict spreads from Iran - Le Monde.fr",
+    "description": "Via Le Monde.fr. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOYy1WZGZjUlFMUzkxNWZKVVdDUk5pa1lLQUIta084LTJoS3NqZEx6RE9jYnZLYk56TlAyek5STk8yblFUb3lQdkhpOVBFQWRkTUg5bjZ1M2RiV0xtU1RUVlFKWVRtVDdGZWJuR2JzcEo5a1dLVUl1WmRqc2tFYllCMjE5NFdnTjZTb3hla21UTGtsZW82TmlBVDh4QmlocTZ6aFhLTWU2N21OMGFsVWZTNGNLOGRLTHowY3JoV3U4aHhvRVJfQ2R3aWxOTXhBRWVabUZNWXlzZWk0a19UcWd0Skxxa1hRem9FbVJ5WmZ4b3BsRkp2dWVUc0NUNjQ?oc=5",
+    "source": "Le Monde.fr",
+    "fetchedAt": "2026-05-10T04:00:12.991Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=tjnBmH8b0Ko",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "tjnBmH8b0Ko",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "explained-why-crude-oil-prices",
+    "date": "2026-04-13",
+    "title": "Explained: Why crude oil prices could hit $150 and what happens next - Open Magazine",
+    "description": "Via Open Magazine. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRUw2bXJSRDJLb1ROR0FZUVg5ZE82a1M3N1ROdFBNRWcxRmtfYXN2ck1oQ0VQNmhwRHhpVWZyZFUyVXhFOVlWa3lwVnItaVlSRi05allGcmhTdGlodWh6MUhnR1VvTGU1bVhrWkFwS3pjTlA2NkY3dVp2R3g4YlBlc1YtNk5LazZCczhkbHd2UlB5M29KQUYtN3V4MzhBanhRTFE?oc=5",
+    "source": "Open Magazine",
+    "fetchedAt": "2026-05-10T04:00:16.112Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=rOWlLDVr6eA",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "rOWlLDVr6eA",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iea-warns-of-unprecedented-oil",
+    "date": "2026-04-14",
+    "title": "IEA warns of unprecedented oil supply shock amid Middle East war - سانا",
+    "description": "Via سانا. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1ydFRzeGkyeHZnNHF6YXM0Vk53Sm54ZUE5NjVPclBhRTFLM3BnRFItSndLcHVUcEd4bVVYbno3T2M5VEpKQ1JoV2dMZmpVMHoyb3BF?oc=5",
+    "source": "سانا",
+    "fetchedAt": "2026-05-10T04:00:18.274Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=fY9J91jmKSY",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "fY9J91jmKSY",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "oil-settles-up-nearly-5",
+    "date": "2026-03-11",
+    "title": "Oil settles up nearly 5% as supply fears mount despite record stocks release plan - Reuters",
+    "description": "Via Reuters. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZE5pSlFXM1gzMmFYTWJZU2VfNDg4SXFDMXQzdlZZN0hTLXFDT3BlaG9UTGhLdDFSZUpqd3NILTcxU1hwQVQtSGNHT21GSmVfcV9vR0t1RzZDSElrYmZPRzVyMHB1VkxnQ2xvbWVUczZld3hOa1U1aUQwTExjNVlWNEtSUklaN1lnVDRUSHMyQy14dlkzUFBwNFM1TEtRdGJ5Wlh6MDRnNnJ6aGpMSk9fM2hkS0s?oc=5",
+    "source": "Reuters",
+    "fetchedAt": "2026-05-10T04:00:20.481Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=Z5HjFaJoQbE",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "Z5HjFaJoQbE",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "massive-emergency-oil-release-fails",
+    "date": "2026-03-12",
+    "title": "Massive emergency oil release fails to stem investor fears as oil tops $100 a barrel - CBS News",
+    "description": "Via CBS News. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOcnc3dTJOS1ZMTjVWWG9vVWkxbGNCQVptSnJGVXAzTVdqMFh5OTBXRGwtamtPZFh3ZFFEN2xuSkxMV0hJV2RickN4NjFLaGNRdlNyQVhWeU8xUWRhd1NRMno5eFJpRC1CRDVDQ2h0V0wtSjlYVldiS2tid1V6bGhHZdIBhgFBVV95cUxPU3c0aTJRd1l3Z2tRcm45aWVjd2IyQ0xCalN5ZXZEUXdLek45UUFmR3lUM1pkdXU5T0s0SzZtNXlQaVhyaGYxWkFvQVZlSF9xSlZYN2ZMZDNBVVJtUkF3d2NGZkV4WDNqQ3EwSDVUZ3NGUC1JRGp5NGhtZl9qaWFpTEN1U0YwUQ?oc=5",
+    "source": "CBS News",
+    "fetchedAt": "2026-05-10T04:00:22.749Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=s4mEccTIW30",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "s4mEccTIW30",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "attack-by-yemens-houthi-rebels",
+    "date": "2025-09-29",
+    "title": "Attack by Yemen's Houthi rebels sets cargo ship ablaze in Gulf of Aden, officials say - Euronews",
+    "description": "Via Euronews. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPYzg1b2YzS2pWSTI2TnJGZUNER2lHbzgydTlwSXhNZU1DSW82ZFIzZDkzOWVYWjlfdm1EWjlETnNySGluaEFKYUczOTZmNnJaM3JFWWZ6aURaTWRNMERHZjF6M3FYWmJpWHF1X0JpYUpoQkU3LUp2aTdNSXN5djhwWEtNTEUxVnZNSEJYYWpSaU9uWVlRRHRVQWExZmRtbVhoRmVWamJacEZaX2ppOEhIY0txQ015UQ?oc=5",
+    "source": "Euronews",
+    "fetchedAt": "2026-05-10T04:00:25.180Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=-nvSpugPV84",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "-nvSpugPV84",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "escalating-israeli-military-activity-in",
+    "date": "2026-03-11",
+    "title": "Escalating Israeli military activity in Lebanon - Centre for Information Resilience",
+    "description": "Via Centre for Information Resilience. Auto-detected by headline monitor.",
+    "category": "retaliation",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPVVVlaW9sbUZFaG5DWFBWVEpvZ1Y3azJVX1U2a2p4THNmM201U3RrUGxVcXJRb2pvT1FhR0p1SnVjcG1KOVFsUl9TdnZ6N25KcnFQWWhQT1owcTJzaDZ2S3BGLXRLV1NJeTVqS3hMcVg1RUluczdnNjg4cDhIZDN3NzJrNWw4TjQ4elE?oc=5",
+    "source": "Centre for Information Resilience",
+    "fetchedAt": "2026-05-10T04:00:27.658Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=mphYurOdEbc",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "mphYurOdEbc",
       "title": "",
       "confidence": "auto"
     },
