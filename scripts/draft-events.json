@@ -1,147 +1,5 @@
 [
   {
-    "id": "iaea-confirms-us-israel-strike",
-    "date": "2026-03-21",
-    "title": "IAEA confirms US, Israel strike on Natanz nuclear facility, no radiation leak reported - MSN",
-    "description": "Via MSN. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOcXUzSlc1ZGlVMUYzUmtJcnNSQUlmajI3T0hCa1dqYk1qVUZzdC16WnJZRWQ2czB3ZHQzaHBGLThOSEpNQWRGY3hTamtkcGZIXzRPWkFWOUNiQUZVMEFrSGNRVk9BVFVGN0dfNTE5LWE5VWFpbFY4QWFfQWZ4ZU1IYzJLMFF2Z1BpUjI0cmpHYVNBOWJWd25HcGFyOHd6SUM1akdLUklKQ1ZZNGRJZks2OVdrRHlPekRwU3BCVFgydE4zc25RYmR2ZlFrWnFpdw?oc=5",
-    "source": "MSN",
-    "fetchedAt": "2026-05-10T19:00:16.410Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=Q6QKpt0EK3k",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "Q6QKpt0EK3k",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "the-iran-wars-unlikely-winner",
-    "date": "2026-04-22",
-    "title": "The Iran war’s unlikely winner: China’s shipyards - South China Morning Post",
-    "description": "Via South China Morning Post. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOeU14OXY4c1BleDdlVVEybDZxVldOS2F5b1pDcW80dDg5cU9DYlpLWk1OSGxCUWc4d3Z5aTVMTnhGT1BWa3J0Z2VnVC1ZeDZDb3FLWWhmZDFrQnU1SktvbGExRmdXOXI5cVktOUFqTWZ5SURteE11b191MV8yeGdpM3BsNk5heVFnSmNBSEhqQlp5Z2hyc0NCakItWlE4T1Z3XzVvSVZKdzBTRlRKNHhTQWdXQ1J2R1FjRVYxZWhMOWNZZHFXRm5xNtIByAFBVV95cUxPSGxoR3Q5ZmltVDRsUVo4aFRtZF9TZ2hOZVVYUWRnQXdVbzFWcm93VUxFNFdEYjF6Q0xzY2IzemlRZHBzSjh3U01QLWNjeExYMDBsbmpuR2lkWTF4S2Q2T2hlVjd4ellJM21ZWlFlODIwZmpCMUVZZXJLTGFka0FVRGJTZ3hjS2FNb3dObmhBMjUyZDBvSWtjX2swQ1VxQnNCSzV4bTBQZTkzWHVuYWszMGlXd25UT005a0c2bGNSM3YzR2JKUldQUA?oc=5",
-    "source": "South China Morning Post",
-    "fetchedAt": "2026-05-10T19:00:18.776Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=aK1zoggCsYs",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "aK1zoggCsYs",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "houthis-attack-two-more-tankers",
-    "date": "2024-09-03",
-    "title": "Houthis Attack Two More Tankers in Red Sea, Sparking Fears of Environmental Catastrophe - Foundation for Defense of Democracies",
-    "description": "Via Foundation for Defense of Democracies. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNb3NWUVlzcnhEY2NtVHdESzByOXduOHNEUnFIOGQ2YWM0c0VERzRzS09mR2ZHazEtMFdGeWhqU1NoV1NRYWNuSElKM0M2V2pEcDlXb1VIVEI1WTVqbVdrb0JDTHplWmtGR0FiX2VJcjRtelppRkVtRWFtak5jUTBiUm5CUTZIdE1xU2xnRUhkakI5SFFtcDB1dTRpZktjUWJ3R0J6cFEtOExKTzFLcUFVZzZvUHZzRkVkczFJNGVXNW9yV2wxNHc?oc=5",
-    "source": "Foundation for Defense of Democracies",
-    "fetchedAt": "2026-05-10T19:00:23.352Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=ZLxNpuQWvsI",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "ZLxNpuQWvsI",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "yemens-houthis-launch-missile-that",
-    "date": "2025-09-01",
-    "title": "Yemen’s Houthis launch missile that lands near oil tanker in Red Sea - Arab News",
-    "description": "Via Arab News. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB1MDAyUzRfNEJZT3I5TlI2eGk4Tmhfd3BQUXoxNmtoNWM5cWVZZnVXRkJZblNSZlJLdkJTUDg2U2NXenBsTURyek1pSEJiWEs1SkRZaVpwT3lEa0hHMmc?oc=5",
-    "source": "Arab News",
-    "fetchedAt": "2026-05-10T19:00:25.514Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=DyB_TI9pCX0",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "DyB_TI9pCX0",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "us-warns-of-ecological-disaster",
-    "date": "2024-08-26",
-    "title": "US warns of ‘ecological disaster’ after Houthi attack on oil tanker - VOA - Voice of America English News",
-    "description": "Via VOA - Voice of America English News. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUURwWFFKcjQxay1YOFRITXE3RXRFSnhMTTJpbkZscXQ1dkQ0d21SUndYUWhFVWx2VUp4ZjhvMy0xblk5YTBpeWZ1MXQ2eVlxb19KWXVlNTFfVmpDUHFmVFpjT1NMZnNtdWl2Z2RESlJodFU3SzB0dXk2aUFZQ2h6MHdIR0JsdjZ4Q2pTN2xIQUZRWE1rVFRzTUFZOVN2WW1RSVpSMGFTZ9IBqgFBVV95cUxOa0wxX3I5bHgwX0F3cWdUTmZVZ2E3RmdMd2NpZlpVNF9Fa1JLVTJ1cjF6dFo0OHV4bGw0SEZXeXdTZ1JnTk16RHE5bTc0d0JqaVVXQmcxUTJkbVFaeUNZUjBVY2dvMDNueHkwLVNGVFZvS0hrcUp0NWYyZXRXelA1TnhUMERZQzE4SHRMS2Q5d1BhWkVPVGhZbG5iaHNkZFNVbW0zdXJGVTBFdw?oc=5",
-    "source": "VOA - Voice of America English News",
-    "fetchedAt": "2026-05-10T19:00:38.200Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "trump-claimed-victory-against-the",
-    "date": "2025-07-10",
-    "title": "Trump claimed victory against the Houthis in fight over Red Sea shipping. Now they are sinking tankers again - The Independent",
-    "description": "Via The Independent. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZjBtRWV4NVhlcXptdWtjYm5JajYwc0tNcEY4RENzOVVhQklkZkJkc3pEUGpCUkg0dnlyN1c0NU5zMzBEaHp4Z3hoengwcXo1N3IxSHF2dXYwb282NGx2dHMxbThKNmxEVndRbXVuWTJIR09CTl84VWpLOU5BTXZSTjhZNmI3ekdZb2FHbVRsUG9mN29QQ1BGcnluTV9WeXZ2ckQ4S2NR?oc=5",
-    "source": "The Independent",
-    "fetchedAt": "2026-05-10T19:00:45.145Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "houthi-terrorists-claim-missile-attack",
     "date": "2025-09-01",
     "title": "Houthi terrorists claim missile attack on Israeli-owned tanker near Saudi Arabia's Yanbu - Baird Maritime",
@@ -4726,6 +4584,182 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE43b2pjYWFyajJWX2FVSlBEM2RlZHplWjd4YlpEdXh2a1NSQk4zczJnRERWXzdIOXd1bk1hOFduVGtCcGJraDluVXhJWDNrVU9VcDgzT2hwZ2tOZVlKWjZydUZyYVRfZw?oc=5",
     "source": "ynetnews",
     "fetchedAt": "2026-05-11T17:01:02.205Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "is-iran-cashing-in-millions",
+    "date": "2026-03-25",
+    "title": "Is Iran cashing in millions from Strait of Hormuz blockade? - DW.com",
+    "description": "Via DW.com. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBaY0FYWGJLZ3lLRHNzby1fckc5SGl5WXYxbmZQdjU5V1NlYzFmREN4cGxZR19lc2J5RHgwZ3BvMFVSOVp1cEJKakVlbVFfRHdtY0tWa3M0dFpNV2FEZHl2eEljSlpPeWxGMmpWT3FWVHpuZEtDZGxGU21WZGVQRmPSAX9BVV95cUxOYmNrU19xQXZ3bG44Y2NWQnhtSW9xV0lEN213VVJZUVFpVXJHRmhfWlhMMnNQY3p0R1VOWFJaRVZCUXpadlF2VHJnWGttNTlNcVlfdmtfNkhjMEJDMzRoSFdrNmREVUE0OF9kT0NnUnpmUTFkQU5Vek1QLWtTZEw0?oc=5",
+    "source": "DW.com",
+    "fetchedAt": "2026-05-11T18:00:13.526Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=b9CRRtHrQ4M",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "b9CRRtHrQ4M",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "the-environment-another-casualty-of",
+    "date": "2026-03-14",
+    "title": "The environment, another casualty of war in the Mideast - Al-Monitor",
+    "description": "Via Al-Monitor. Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZ3N4THVpTW40OE9uTmdiSi1NNDl5N3FQTkw3TUdWb1k0YjBnM3IxY0lGTGpYNElQY0tGdm9iTnhsX3Naano4MnRVa2I4a3VuZXE3T1FpSEF5LWpKODh1eDMtdHNlV29aUUVGN2xoVTZhZUh1eVdwUnVoQjVLN2IwbTlrYWlKclhKWmp2ZDB3?oc=5",
+    "source": "Al-Monitor",
+    "fetchedAt": "2026-05-11T18:00:16.411Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "black-rain-the-health-and",
+    "date": "2026-03-09",
+    "title": "Black rain: the health and environmental risks from Tehran’s oil fires - The Conflict and Environment Observatory",
+    "description": "Via The Conflict and Environment Observatory. Auto-detected by headline monitor.",
+    "category": "environmental",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPN3k1YmlDM2NSN1lVNVFNTzQxRFRJdUZrUEdEdjRTNDFGM3RISXcxb1Aya082dHZCQnZXcWFKTTdwaUp4cW9JczdFTlJVTDh4YWJPekhJRktyRHV6VU1VNW9LOTJzV252cnNtWGF4ZTVzM2p3VElyeVRUX2lHbDJCZmo2TXJNSDlmMXFaby1LSW0?oc=5",
+    "source": "The Conflict and Environment Observatory",
+    "fetchedAt": "2026-05-11T18:00:21.128Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=vTTy1Dfl4So",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "vTTy1Dfl4So",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "the-climate-bridge-can-iran",
+    "date": "2026-03-13",
+    "title": "The 'climate bridge': Can Iran War make India’s summer hotter or monsoon unpredictable? - Moneycontrol.com",
+    "description": "Via Moneycontrol.com. Auto-detected by headline monitor.",
+    "category": "environmental",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQSkc1WV9ROW5sbkxOVUxaaHNkSHVfNGROZTVUS2Y2LURSaFZHNzN1TnV0XzB4QkRNWXY1ZzVnX0NXRWNhZ3I0TjBqV29JSGctMkVERmlPV0JTd25PcC1nOUFhOXdWa1J1Qjk4SGp5ckVUX2syS0RpNXBiOEEwaXlweEYwUUZ3YmtWY0xPLTNhUVZTTnlYZVhFQ1N1UGVmMXExaU9EX1RqY1JwTEZMM0JfVksweS1BQVJZTGYtc19XTE9YVkpabFlRNTdPc3VGR3prNkNWV0gzY9IB3AFBVV95cUxQWXRoN3g2Smg4ZjJoVS1tdUV2WkVXdWdmVkNxWnM5bmR4SkVwLVVkamJ2azA1eW9SbEpOMzZHRFAwU2VjZUk4SFktWmx6RU8xMWNTZHNyTjVJY1NHNTNBQXFNSllQaUNVSVRpUTYzdk8tcjBPamNtMmxJbE9HYXI1cG1KTjJWWU0tcjRsd2JQZW5XYVNPTnV3WE8tQnk1aFVSTE94WUJPVEFpY2tLR0NhYXVTaG50Zk5iNzlIRDJjbVAzd3k1d0cwZUJwRW80cGFIdlhvRExqQ3cwNVRB?oc=5",
+    "source": "Moneycontrol.com",
+    "fetchedAt": "2026-05-11T18:00:23.345Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=o7l7zWz6uIg",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "o7l7zWz6uIg",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "impact-of-usisraeliran-tensions-on",
+    "date": "2026-03-06",
+    "title": "Impact of US-Israel-Iran Tensions on Global Climate - The CSR Journal",
+    "description": "Via The CSR Journal. Auto-detected by headline monitor.",
+    "category": "environmental",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUkRlNVlzdTk5bHEyRXotV2xXdnpOdzZEQXhJd2UyUHJ2RC1GUVVpbWhxZlVwODVuWlJpOGpCeUR2N3dCRjk3MlhIWGhZYkhoM1RhdDFvY2NoM1hOTHFfeUxhOVBkYXI3M0UtUWpORGZfTmJWaGRscTE2bWFyOTdzTVFtQQ?oc=5",
+    "source": "The CSR Journal",
+    "fetchedAt": "2026-05-11T18:00:25.756Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=Q-7QV7uzRd0",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "Q-7QV7uzRd0",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "the-israeliran-military-action-amplifies",
+    "date": "2025-06-22",
+    "title": "The Israel-Iran Military Action Amplifies The Environmental Costs Of War - CleanTechnica",
+    "description": "Via CleanTechnica. Auto-detected by headline monitor.",
+    "category": "environmental",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPaFBScXFsTnZ1U3ctQkp1TzB4aXl2TVJOclAtdFhFUmlJcU1tOGw2NktaaE80UGkwZ0prT2I2NkRxa2VIbl85V0JELU1vTFNZX1YwSlRvNnYwbzkyUm5BcG5GVTJ6bGZ5Q1FXUF9SQXM5MnBWTGpuc2NWTFFXajNVWm93V1E1RkVJQVZTYmt1ck5IcWZwdjZDV1RjN3ZQcFRnR0hhMHdSZGluZGUxUUNV0gG3AUFVX3lxTFBkOGc3dHZOTDdEaFpBb01EWmRYOXp1R3V2SG1oY0tMXzBpazVNQThuck5TNEE4YndEckV2ZnFJOTM3UmR0ZUNET3FVMFNQWFd4X0VHSG5iMHUweHcxazdlaXpJMVJiRVVyUkkyZ3FCN1gxOXpRS3JoQklxbHRQRzRKTUh6YjBSWnUxUUF0aHk4YUxPTklJcnh3NVBKX2dVZDFGMG1UZ0JiMzZYQmlLR3hadDdqQzdJMA?oc=5",
+    "source": "CleanTechnica",
+    "fetchedAt": "2026-05-11T18:00:31.991Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "conflict-in-iran-generated-more",
+    "date": "2026-03-22",
+    "title": "Conflict in Iran generated more emissions in two weeks than Iceland does in a year: New analysis - Down To Earth",
+    "description": "Via Down To Earth. Auto-detected by headline monitor.",
+    "category": "environmental",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPQko1UjBWcV9xVm8wejZ4dG0xbWNuZFVZMFlxdkkxU01BYnlYR0RJWk42Mk5XV0xxSzhBRHNMNlBLLXIyZXVDWmFnT2diRzV0VjRZVFNkMXhtME15eXA5bTBMbjJkU1ZMYmJjUi10elFVbkVWczRMS1UyZGhKZ0lVYXJCVnZWaTMzdU5zNnBnNUxLeHIybkxwLW5mUFEtcWlZMkl5MjlkaklDU2VlcE5ia29obDNXaDJkR00wZDNqVnYtZ3hzSllwWllaYVpSRmU4OWx1WNIB4gFBVV95cUxOVzNKQzFGTDRpUWJ3MXJ3M3Ixc1dHWU9wQnl5Mzdac1ZaU1k3WlZqaFZiQ2NrR0I5MmdLVzdpTzZ4LXRNekNSS2QycGFLSE9PZFZacHctdjBUeGFuVXlWMXZNS3B3ZFhEY1R5WDhGT1J3Um9GRDRSOUdPS3VfaEkyeEdyYVpBVlFsUEdJOHdVMllrcHZtbEMtT1ZTZ2VUcHFHelRScXlFeGxiVWk4NjBXd0dSN21BUDhjal9sOWQ2TUlUb1RhWEtaQmVPNDFMX29JNEdtb0Q5b1ZwNXJtbk9HQ0h3?oc=5",
+    "source": "Down To Earth",
+    "fetchedAt": "2026-05-11T18:00:37.769Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iranisrael-war-emissions-highlight-hidden",
+    "date": "2026-03-19",
+    "title": "Iran-Israel War Emissions Highlight Hidden Climate Impact - Dainik Jagran MP CG",
+    "description": "Via Dainik Jagran MP CG. Auto-detected by headline monitor.",
+    "category": "environmental",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPV3FMTHBmcHdQeklvVHYwbEs2aXQ1VGlKdjE0TTBUNGxTelVqU0NiVjlNVHVEcXlUb04tTGNCNEhRRFBSY0pPeVozWEdmNTBERGhNRzRQb2xPMldtVE0zUUgwVk45ajhIb1hVMlVCX3diOUtvblRhSXJUNU1aM0ZpLUgzR1NvZWdiM0x3TjF5WG82VVRzU2tLY1QwUExNem9OblpCV1luMzh1UWtBd25zaFdGT0ZzWjdTUzFUbGxB?oc=5",
+    "source": "Dainik Jagran MP CG",
+    "fetchedAt": "2026-05-11T18:00:44.679Z",
     "mediaUrls": [],
     "videoMatch": null,
     "lat": null,
