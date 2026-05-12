@@ -6317,7 +6317,14 @@
     "description": "Via PBS. Auto-detected by headline monitor.",
     "lat": 15.37,
     "lng": 44.19,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVmU4TGVDbF9Xc3ppanVyTXp0MG5mLTFMZi1lMzRDUk9KbHlWekNscFJLanZBTlYyZ3BCWWJWSXppNG9ZVjVOR1NqemVqMDE5Nzg5V0hkTm9fdEtHdkw1YnNVQ3hSMkFGUUZWTmt6Ni1TVnlCZU1lTHphcngwMGZxZzJGZ1A4b0Y2TkwybHV4aW40NVIxRlR5REE0RnhYV3RZdU4tX0dIMk9Cek5WcVVCS3BvT2c2WjFJOU1jX3pFUTXSAcYBQVVfeXFMTjRWd0ZsVU1VY1l1Wlp3QXIzRWhfRzZzOWwtRExOaWkweXYxQWtZVHhOby1Nb0t0RWhhbFZ6X2RlZkViMVFmemFtT3Z0aVBCdjVNT1dhYUNHZEQ4VG45Rmhnem40d0RtbTF6N3diZDhKaUtmXzI0MEMwbU5yUzFENTRiU2E4eXg3b2djTWNxTUhhN2hzMGJ2QmloT3Roa2VPbFUzV1FZTGQ2b3owa2tVczlhaHFOaFhIeC1LazlDdXlpOFZJRWdB?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVmU4TGVDbF9Xc3ppanVyTXp0MG5mLTFMZi1lMzRDUk9KbHlWekNscFJLanZBTlYyZ3BCWWJWSXppNG9ZVjVOR1NqemVqMDE5Nzg5V0hkTm9fdEtHdkw1YnNVQ3hSMkFGUUZWTmt6Ni1TVnlCZU1lTHphcngwMGZxZzJGZ1A4b0Y2TkwybHV4aW40NVIxRlR5REE0RnhYV3RZdU4tX0dIMk9Cek5WcVVCS3BvT2c2WjFJOU1jX3pFUTXSAcYBQVVfeXFMTjRWd0ZsVU1VY1l1Wlp3QXIzRWhfRzZzOWwtRExOaWkweXYxQWtZVHhOby1Nb0t0RWhhbFZ6X2RlZkViMVFmemFtT3Z0aVBCdjVNT1dhYUNHZEQ4VG45Rmhnem40d0RtbTF6N3diZDhKaUtmXzI0MEMwbU5yUzFENTRiU2E4eXg3b2djTWNxTUhhN2hzMGJ2QmloT3Roa2VPbFUzV1FZTGQ2b3owa2tVczlhaHFOaFhIeC1LazlDdXlpOFZJRWdB?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=uS9pey1RO2U",
+        "label": "WATCH: Pentagon official increases latest Iran war cost estimate to $29 billion | PBS NewsHour"
+      }
+    ]
   },
   {
     "id": "auto-us-intelligence-agencies-give-lower",
@@ -11306,7 +11313,14 @@
     "description": "Via Al Jazeera. Auto-detected by headline monitor.",
     "lat": 32.07,
     "lng": 34.78,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQX0t0ck16eDZ3el81VzIzeTFkSkJQUDA1RG1BMl9LcFN3b3R4Mk9qQjM1Q0VhUHpxeW9BcFlUZDB2NmRjUWg0NjNUWlFHTEQ3c0lSR2ZZQ2drTnh5OXdudmRxd2ZtQm5xUm5TWVZQLUNlS3dFN0lzSzRtdUhEWVZHYWFWNXd1TkZZNU0xcHhPNzhVOGd2QW9kVVdJa0lZQ3Zqa2ZrRXAyRU5qMlpGZFRtak42QUhzd9IBuwFBVV95cUxNWUd0V1VTVy04Y0laRHNfNUVic3E1bFJhaXpjN0tqUTA3S1NzNElQcU5UamhlRzJBblRtUWZkdF8tSkZ2SU9Za29GeE1JQVNTMEpYV1Y4akFVbGpPUXYyWHZTT0NfZ2xDODJGMDM0NWZPNHdYNmhtckZSc1N6LTYzNW9mVDlOcmtJelpRLTNFUnZIRHdodDVlSUs2S0NoV3NwYm9ZZmlibGZTQS1KU0dENlBkUTNjcTVNSUlj?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQX0t0ck16eDZ3el81VzIzeTFkSkJQUDA1RG1BMl9LcFN3b3R4Mk9qQjM1Q0VhUHpxeW9BcFlUZDB2NmRjUWg0NjNUWlFHTEQ3c0lSR2ZZQ2drTnh5OXdudmRxd2ZtQm5xUm5TWVZQLUNlS3dFN0lzSzRtdUhEWVZHYWFWNXd1TkZZNU0xcHhPNzhVOGd2QW9kVVdJa0lZQ3Zqa2ZrRXAyRU5qMlpGZFRtak42QUhzd9IBuwFBVV95cUxNWUd0V1VTVy04Y0laRHNfNUVic3E1bFJhaXpjN0tqUTA3S1NzNElQcU5UamhlRzJBblRtUWZkdF8tSkZ2SU9Za29GeE1JQVNTMEpYV1Y4akFVbGpPUXYyWHZTT0NfZ2xDODJGMDM0NWZPNHdYNmhtckZSc1N6LTYzNW9mVDlOcmtJelpRLTNFUnZIRHdodDVlSUs2S0NoV3NwYm9ZZmlibGZTQS1KU0dENlBkUTNjcTVNSUlj?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=0WNS4-6-Yck",
+        "label": "Israel killing at least one child a week in occupied West Bank, UN says | AJ #shorts | Al Jazeera English"
+      }
+    ]
   },
   {
     "id": "auto-what-is-the-strait-of",
