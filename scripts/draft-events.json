@@ -1,32 +1,5 @@
 [
   {
-    "id": "israeli-army-launches-multiple-airstrikes",
-    "date": "2026-01-12",
-    "title": "Israeli army launches multiple airstrikes on S. Lebanon - Xinhua",
-    "description": "Via Xinhua. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAtbFdZeE5VbWJLdHpBeHlRQW9Id3hfOUhRQ3NuUW9hcnA2cVVZUDk0bE9LamNhOFdyUmRKZEI4dG54bE9OdHFGbFptMjJ5blhMcUlqU0taMVlEMzlJVmxob25rUGtiQkFNb2cwYlZrVEJ5czNrY3A3MkJQSTg?oc=5",
-    "source": "Xinhua",
-    "fetchedAt": "2026-05-11T13:00:29.013Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=agKmRl2wLTQ",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "agKmRl2wLTQ",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "the-environment-another-casualty-of",
     "date": "2026-03-16",
     "title": "The environment — another casualty of war in Middle East - Dawn",
@@ -4602,6 +4575,87 @@
     "fetchedAt": "2026-05-12T09:00:37.456Z",
     "mediaUrls": [],
     "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "strait-of-hormuz-now-totally",
+    "date": "2026-04-16",
+    "title": "Strait of Hormuz now totally blocked — with US stopping 14 Iran-tied tankers and hundreds of others too scared to cross - New York Post",
+    "description": "Via New York Post. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQTlFoeFQyTjZEOFBWNnI3QURRc3VnR1hwb2xUeDZZVGxCaHZfdmxEaXFGODRKajktOWk5LURvekdjTU4wRFRuR2RRSnEyTk1veDVSXzZqWHJlbGNRWDhMS2N0dzJ2bnFaOUtVLV94aF9WcUd0amtMLTF5Tk9ROEVkNjFtWGZUb2JnU2pqUktGYThmWXAtSFVJOTlMTmlKZkIzbGJHWWZXeWszd19OdjhwQkFab1RvVDA?oc=5",
+    "source": "New York Post",
+    "fetchedAt": "2026-05-12T10:00:11.733Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=JSXeKlLuVC0",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "JSXeKlLuVC0",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "trump-on-3-service-members",
+    "date": "2026-03-01",
+    "title": "Trump on 3 service members killed: ‘There will likely be more’ deaths - NewsNation",
+    "description": "Via NewsNation. Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNdk9ZME1KdVNRWEg0RTdXWDJlMTJWX1k1cHozYVJ4eDFlcU9uNHBFbWdFNFdiQUJoU0RqYWNidVgxek5ldDUyUVBQTl8zZ1ZxSGh5MVVNRWwwam1aVVRSbnIwTDVyVllKeEpoSDZYS2E3Z05Bc1E5QjVDa2lsa080dG03NHg5OUV1a1dDbWw1SzZrcDc0YU1PT0F3R3d3QTlnQ2Vj0gGoAUFVX3lxTFA1NUstN1N6M2RZSnBfOElnQjhyWUZZZlhWSEcyNDU0RTM1amE1Q2NnMC10ZmpxNXhXRGJiYVJEU1kzaVdSbFhJNDhJYkFGdXIwcS1RZV9uYXd0SUNkbXdnNndEcTFyallGMW9NeUNIOVlZRWR4em16dnhVN3duRXhta0JLV29LSlhsSGxoM0J3bHh6NzktVXcyYTZ3WG9JanQ0MTV1VVFNdg?oc=5",
+    "source": "NewsNation",
+    "fetchedAt": "2026-05-12T10:00:13.425Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=t_bB9Gnh43A",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "t_bB9Gnh43A",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "2-weeks-of-iran-war",
+    "date": "2026-03-23",
+    "title": "2 Weeks of Iran War Released More Carbon Emissions Than 84 Countries Do Yearly - Truthout",
+    "description": "Via Truthout. Auto-detected by headline monitor.",
+    "category": "environmental",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTGppaFNvdG5kbHY1TjZoLVZ1QVhFMi1IODc2T0ZXT3ZrRWxyOGRVcmk3dEh0MXpjbTltR3NwX05QaHhJVkx0V0FOaWlxcWw2dURLNk5CT05HeUdfVWk4eEdONlpyaVUwLWNuV045RmNwaWxUTVg2R0VmcnFSWmo3aF9fd3ZzeXZULVUtcnFXT2ZPZVZwbWRsamFMaXZjRlFFMW5fWEk4UzNRX253aHc?oc=5",
+    "source": "Truthout",
+    "fetchedAt": "2026-05-12T10:00:16.644Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=saI7PAy1IgU",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "saI7PAy1IgU",
+      "title": "",
+      "confidence": "auto"
+    },
     "lat": null,
     "lng": null,
     "zoom": null,
