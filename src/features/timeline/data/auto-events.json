@@ -12782,5 +12782,39 @@
     "lat": 30,
     "lng": 48,
     "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE54RURobVlyNjJMYlJkSlN0QnZjODZXU2gtRFlQbkIzZURSUF9PbVpVLWxOX3ZnUnBtZjkxS3dZYnIyQ3RnMzRkZ2xOdnd3dl9GNk5ZS293Q1dZUQ?oc=5"
+  },
+  {
+    "id": "auto-alternative-routes-for-middle-east",
+    "date": "2026-04-21",
+    "title": "Alternative routes for Middle East oil and gas due to Hormuz disruption",
+    "category": "chokepoint",
+    "description": "Via Reuters. Auto-detected by headline monitor.",
+    "lat": 26.56,
+    "lng": 56.25,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPT1ZQUmNGQl9qYmNhajk5MUQtUEZvYmItekFfOXUyQkRYUG4tcjBJZmFaaU1MamIxTHJ2YUp3eVVZT0F1ak8yZE1kSG1ReTctRU9NM1VVUHVWSFBNMmFJQjlZaVQ4M2J3ZDlVaG43T3BERlZ5dk1FMnppbTVwV1NmUjRtWExmX1ZmV3c5ZmZZVzJia0o0dGgzem00dFlPX2lJREFRQXJQQ1hJZ3FELXhlUnFR?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=-BIOl8qobmM",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "auto-oil-and-gas-prices-jump",
+    "date": "2026-03-02",
+    "title": "Oil and gas prices jump as conflict escalates",
+    "category": "retaliation",
+    "description": "Via BBC. Auto-detected by headline monitor.",
+    "lat": 30,
+    "lng": 48,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9XeXl1UW9JOVFDNHVKTEhkWVNmc1dGMHVwb21aalZnRkZNN05TckpjX2dlal90SU8xU0tRTUEyR2xrcUgzYzRIQlZuRDZtZk1lLXVKMXVyRFVxdw?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=veqBKSHtM-A",
+        "label": ""
+      }
+    ]
   }
 ]
