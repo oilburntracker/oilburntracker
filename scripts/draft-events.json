@@ -1,56 +1,5 @@
 [
   {
-    "id": "kids-death-toll-from-famine",
-    "date": "2024-03-01",
-    "title": "Kids death toll from famine at Gaza hospitals rises to 10 - Mehr News Agency",
-    "description": "Via Mehr News Agency. Auto-detected by headline monitor.",
-    "category": "humanitarian",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWjJiYkZlVTRUSGNEMkFpU0JsM3ByMnNVWWRFdWpDMXktdEthNFNxa0Q4dFhhY1hVNzJHUHdkZURaNzFXa0tJTHBHQmp3QnEtR0xYMXpVLXQyNlZ2UjZfalFZVGlKTHZNVFM2bnFiYXdwbThrUy00SzlENl80eWkySWR5ME5Ed0FsTXllY2dtZVRDaTR2S3JSQQ?oc=5",
-    "source": "Mehr News Agency",
-    "fetchedAt": "2026-05-11T23:00:44.467Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "houthis-move-attacks-north-as",
-    "date": "2025-08-31",
-    "title": "Houthis move attacks north as Eastern Pacific tanker targeted in Red Sea - Tradewinds News",
-    "description": "Via Tradewinds News. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQME0zZm04N0hfcUUyWFdrYUR3dHFreHRzS0hvaXFycWQ0RDdvSVpPeUxHTlF4a0Vua0VHYXgwT19mb3c1dGVpTzF4WHRWVEN0U2trcXFWRVFrMEtHRjJJUFRGcGJLZnl2TW1PTlljTHRQckpqSkdlNS1udFFaUFBSQ1JldGJCWkZTZm1zRUxmUXdJYk9mSkF4N3lGcWpTM2JLQTB0b2UzVlRRbnRaNEVVSVZNSVBWZjlkb2I0Z3BIblBwZm1a?oc=5",
-    "source": "Tradewinds News",
-    "fetchedAt": "2026-05-11T23:00:50.696Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "greek-ship-sinks-off-yemen",
-    "date": "2025-07-09",
-    "title": "Greek ship sinks off Yemen after Houthi attack, crew being rescued - The Jerusalem Post",
-    "description": "Via The Jerusalem Post. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBpZkQzTm9YbTZfc1k2dXJuSXdLa0F3bFBVa3JhSnU2VThTNndVQjl5NXdLdTh3Wjdha3lTQ0d5ZDIteTZ5dDVTTTJvcGlIcTZYTC1oa1RaSUYtQWt4?oc=5",
-    "source": "The Jerusalem Post",
-    "fetchedAt": "2026-05-11T23:00:56.324Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "houthi-shipping-attacks-patterns-and",
     "date": "2024-12-16",
     "title": "Houthi Shipping Attacks: Patterns and Expectations for 2025 - The Washington Institute",
@@ -4873,6 +4822,60 @@
     ],
     "videoMatch": {
       "videoId": "gKubtuUNdgc",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "with-its-health-infrastructure-devastated",
+    "date": "2023-12-15",
+    "title": "With its health infrastructure devastated and Israel's offensive widening, Gaza is losing track of its dead - CBC",
+    "description": "Via CBC. Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNLWZfY1Iycmg0enpQNFF4VnM5am9mR2RaUk42QndWRTczNTVQdEpNbm1qSlFhNnFmblY5LUNGU2kzMFpzWUg4Vklnd2pjeXBTTzhCZTY1eFA2cnBaYVRxc0hZa0E4ajhBNzNMV05GMDVBVFFSZXFrUEo0NGstc1VqbXdJYUo?oc=5",
+    "source": "CBC",
+    "fetchedAt": "2026-05-13T05:00:13.315Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=jj-WEsYJ9CE",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "jj-WEsYJ9CE",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "tanker-on-fire-and-adrift",
+    "date": "2024-08-21",
+    "title": "Tanker on Fire and Adrift After Multiple Houthi Attacks - The Maritime Executive",
+    "description": "Via The Maritime Executive. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNkQ2TXVJSF80X0FwWE9VUWxLMXV2MFVXODdhb0EwQWdVQXZWU1hJbnhCdDlKSUkwWmozUVgzVUJXMXIyNTlGM0lfSHE4X083WWpQZ2tZQkQyNW1xYkRHZTRSYVBJSWFYYkNvOU80WHFnV3k0SkMzMFRpdW5iSTBFek8wMDZSbWg1WlVSdVZzeFBSZlBXMDRmZkZ6NlcwY2tIY2t6Y3J2MXVkUzJ0QXB4NQ?oc=5",
+    "source": "The Maritime Executive",
+    "fetchedAt": "2026-05-13T05:00:16.420Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=NCQ9xyf7SIM",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "NCQ9xyf7SIM",
       "title": "",
       "confidence": "auto"
     },
