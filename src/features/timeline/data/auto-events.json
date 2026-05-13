@@ -6050,7 +6050,14 @@
     "description": "Via The Washington Post. Auto-detected by headline monitor.",
     "lat": 32.07,
     "lng": 34.78,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPVHN4Zl9ORkdDSlREbTdFUGhQMEJZMjU2dzJqM1dQRE1hd0RtR0gtMnRXTEJzVGZqQ1NoVTY4OVFjUHN0MWZvellmM3dXcDc4RGtLUllDX21GVjg2YlVuRTg0QXh3c1p4N292VTkzMkJJT1oxZkJxc1VIU3ZLd1JuN0Vjbw?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPVHN4Zl9ORkdDSlREbTdFUGhQMEJZMjU2dzJqM1dQRE1hd0RtR0gtMnRXTEJzVGZqQ1NoVTY4OVFjUHN0MWZvellmM3dXcDc4RGtLUllDX21GVjg2YlVuRTg0QXh3c1p4N292VTkzMkJJT1oxZkJxc1VIU3ZLd1JuN0Vjbw?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=NEqhG1yK1qg",
+        "label": "GRAPHIC WARNING: Israel steps up attacks on Gaza as military says Hamas rearming | Reuters"
+      }
+    ]
   },
   {
     "id": "auto-iranian-attack-on-saudi-base",
@@ -6226,7 +6233,14 @@
     "description": "Via BBC. Auto-detected by headline monitor.",
     "lat": 32.07,
     "lng": 34.78,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE53eC1jZXpiUmxtQjBzQmpoNGp1dWZJTl9CVUo2YURSR29SMDNaa2w5Ql9kaUtwc2MwOHJJX2QwSGJMbzI3NTZib1M1QnFZNzhraFQ3LUxYQ3Jrdw?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE53eC1jZXpiUmxtQjBzQmpoNGp1dWZJTl9CVUo2YURSR29SMDNaa2w5Ql9kaUtwc2MwOHJJX2QwSGJMbzI3NTZib1M1QnFZNzhraFQ3LUxYQ3Jrdw?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=NEqhG1yK1qg",
+        "label": "GRAPHIC WARNING: Israel steps up attacks on Gaza as military says Hamas rearming | Reuters"
+      }
+    ]
   },
   {
     "id": "auto-how-the-dead-are-counted",
