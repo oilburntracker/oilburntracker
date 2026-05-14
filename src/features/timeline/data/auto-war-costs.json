@@ -544,5 +544,19 @@
     "label": "Day 73 economic drag — energy disruption & shipping",
     "amountBillions": 2.3,
     "source": "[OBT model: sustained oil premium + shipping disruption]"
+  },
+  {
+    "date": "2026-05-14",
+    "category": "weapons",
+    "label": "Day 74 ongoing operations (~$1.1B/day)",
+    "amountBillions": 1.1,
+    "source": "Pentagon daily operational cost estimate"
+  },
+  {
+    "date": "2026-05-14",
+    "category": "economic",
+    "label": "Day 74 economic drag — energy disruption & shipping",
+    "amountBillions": 2.3,
+    "source": "[OBT model: sustained oil premium + shipping disruption]"
   }
 ]
