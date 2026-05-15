@@ -13218,5 +13218,32 @@
         "label": ""
       }
     ]
+  },
+  {
+    "id": "auto-iaea-flags-damage-to-chornobyl",
+    "date": "2025-12-06",
+    "title": "IAEA flags damage to Chornobyl nuclear plant’s protective shield in Ukraine",
+    "category": "facility_damage",
+    "description": "Via Al Jazeera. Auto-detected by headline monitor.",
+    "lat": 30,
+    "lng": 48,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRVJ5SGF0LXVJMHdvN24wUng4RTRNUU9UckVGeE92cnBvdEt2bVhFbGJWZHh6VjhBZXpEa2FVZlVvMkNtTHNwU3FyN0V6d2QxV2lZcnpXVXlraGFzVGVpeGplMzMtNElsYXRpZkZtTld4WFdTLWFxVS1BeGUzelhpdDRMVDN0cHdHenozLTR1ajZjZDhKSXZzX29zN3lYWEVKdTdaM0N5RdIBrAFBVV95cUxQVWMySnZvZHQxWUxYcUhwMVBkUm1IVGNfbHU4QVI2UjcxV0p6aDdZclFkSUxIM3FhRkZDaTM1Y19OUGNmVFJMSWZqOWJwYmlad2FTamY2V1VvYlNCSWpPZkdBQ2lkUUNFRnFkSmlqVmxCY0JKS0M5RFpWWDhZRWVoVFRxUzU2bDF5SzRVZXRSWFhPYmg4My1mUElhc1RIekUzYXB3bEUtbml4b1hT?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=leTUCWmj-B4",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "auto-at-gaza-hospital-a-hopedfor",
+    "date": "2023-10-18",
+    "title": "At Gaza hospital, a hoped-for haven now scene of mourning and questions",
+    "category": "humanitarian",
+    "description": "Via The Washington Post. Auto-detected by headline monitor.",
+    "lat": 31.42,
+    "lng": 34.35,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQdW8zblBBZk5hSENqX1Itb0tMZGV5ZHRrMmF5amNhblpCRlJNbUhGWkM1VXZMR2xjTmJ6ZXNjQ1hYYWEwV1NDNmdYQTV3YjNrYUdFT1Q2Yk9VdGlVaHUxZm1JbENCLURlNnU4cWYzSGE5aUNWVWhtU3BYVGJObHA3RWhWMDVGdw?oc=5"
   }
 ]
