@@ -5267,7 +5267,14 @@
     "description": "Via PBS. Auto-detected by headline monitor.",
     "lat": 35.69,
     "lng": 51.39,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOOWtZZjFhcWlvRERRVlR3UW9oeDVxVWVUdU9PUDQ1VDV0bmVRbTdseUZmaDRNelVKcU5EQVJLbndTNGdTdHNOQ2xkc3FoWlIxZUxkVmRQalhTTk1FYWZpaW1oMDdzaTFMdEZyVWp2VDF1N2pvMDc4VU90cGFsUnB2NFMxODlLR0ptbHpqd2xaUmRLWnM?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOOWtZZjFhcWlvRERRVlR3UW9oeDVxVWVUdU9PUDQ1VDV0bmVRbTdseUZmaDRNelVKcU5EQVJLbndTNGdTdHNOQ2xkc3FoWlIxZUxkVmRQalhTTk1FYWZpaW1oMDdzaTFMdEZyVWp2VDF1N2pvMDc4VU90cGFsUnB2NFMxODlLR0ptbHpqd2xaUmRLWnM?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=vPqmq0nyf9Y",
+        "label": "Tearful mother describes grief after strike on Iranian school | Sky News"
+      }
+    ]
   },
   {
     "id": "auto-israeli-strikes-in-gaza-killed",
@@ -12650,7 +12657,14 @@
     "description": "Via BBC. Auto-detected by headline monitor.",
     "lat": 35.69,
     "lng": 51.39,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5zXzJJYkRpeDF5Vnl4dUJPSGJwSXJ2OURZZ25iS0lZMmd1OVllV1JwTnFNT0R0Ry13emVCSlR4b3lMNTNiNTBZRGQxMWgyc3RoYTBleHlLMmdUQQ?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5zXzJJYkRpeDF5Vnl4dUJPSGJwSXJ2OURZZ25iS0lZMmd1OVllV1JwTnFNT0R0Ry13emVCSlR4b3lMNTNiNTBZRGQxMWgyc3RoYTBleHlLMmdUQQ?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=tq_V8XtkmGk",
+        "label": "Iran sets up new Strait of Hormuz managing body amid stalled talks with US • FRANCE 24 English | France 24"
+      }
+    ]
   },
   {
     "id": "auto-yemens-houthis-claim-missile-attack",
