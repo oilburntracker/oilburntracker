@@ -5076,5 +5076,86 @@
     "zoom": null,
     "casualties": null,
     "status": "draft"
+  },
+  {
+    "id": "frontline-and-6-more-stocks",
+    "date": "2026-03-02",
+    "title": "Frontline and 6 More Stocks Getting a Boost From a Strait of Hormuz Closure - Barron's",
+    "description": "Via Barron's. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQRXZlbUpYV3NTMm1oZjFNR3pGRFdYRTdpSDZ3aFQxcXoyRWZKeHBfMlB4MnlXSlpMclZJcUNFR0JodmRxdWhLelIyS2JWWXFMT3BMeVE4cXl1SVUyLTVvZWFBTE41cXJleURLOFAxN045ZF9wVGdBb2oycjZDUnlQQkFRU0oyZkJwMUpCaTA1aU5JVEowSV9VSw?oc=5",
+    "source": "Barron's",
+    "fetchedAt": "2026-05-18T11:00:12.355Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=AkJs5IE-cKk",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "AkJs5IE-cKk",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "more-than-500000-displaced-in",
+    "date": "2026-03-08",
+    "title": "More than 500,000 displaced in Lebanon as Israel escalates attacks - Al Jazeera",
+    "description": "Via Al Jazeera. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNLUdBdVFJbkdNOEVheDYzcERENlFrTGVEQ0gyZGkxSmdEcm42cjZqNWpFV3BsblQyUHprZmMxMERHZVlxRUI4RUtLSVBMczhmQTJnQTEweElMVEhzazJMdkxVZ3lrcV9RSzc5QjItU2R3a1RHRzV4S3RlWXJnclEwR0ViRjVyZ21sRTdxRlo4ZFA2OUV5ajZjS1pMT1FDMXliRERLLdIBqgFBVV95cUxPODYxSHExXzhUNTgtS2JHQWt6Sk1XSkppdE83bi1oeVBaeHNRM0F5c0U1Z25uVDVGcWY3WmJ0QlVITzNwSkVhRmRfYXVtQV9KSlJ1NnJaU1pCdmtxQVNSR0M2SlpmUTJpaGYybWJoTkx6S3NqQzB4M3NtaVdwanRZbkx1WXVTZk1EVDF6TVczdmc3ZHFyREhBTVBVWmFuTVVXVnpaMHpfaFZLUQ?oc=5",
+    "source": "Al Jazeera",
+    "fetchedAt": "2026-05-18T11:00:13.872Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=JfFiKAvOx8k",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "JfFiKAvOx8k",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "death-toll-rises-to-41",
+    "date": "2026-03-07",
+    "title": "Death toll rises to 41 after Israeli strikes and clashes in E. Lebanon - Xinhua",
+    "description": "Via Xinhua. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5IeVZ3MlNLOUNhQmdudmNpRHhwc0drbWVNcENlSmJla3FHbHZhTkdpcDBsM2ZVZDRjbFdwNWNKWmE1bXUxcURUMmJpcjhIdnEtTVRWa01vY2Z3WnQ4WGcwbzExcl9LVkc3ZlVNSF9VVURKUl9HSlpZZU5jQXg?oc=5",
+    "source": "Xinhua",
+    "fetchedAt": "2026-05-18T11:00:15.359Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=ABkA_jjTfek",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "ABkA_jjTfek",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
   }
 ]
