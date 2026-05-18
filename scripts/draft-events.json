@@ -1,32 +1,5 @@
 [
   {
-    "id": "iaea-confirms-entrances-to-irans",
-    "date": "2026-03-03",
-    "title": "IAEA confirms entrances to Iran’s Natanz enrichment plant were bombed - Al Arabiya English",
-    "description": "Via Al Arabiya English. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQTU4eGwtOWxqWmxYNm53UVBFcFl2STFoWTRlbF93bnFWcmJwRFpXQm5vUHdmZHpOMURpb0VDYTE0X1hfQVVfNkdGN3F5Z1Z1Um1UMU42VWd0eVNnSGUtek9ZcDlDSW1uc1VjUVFrNFNSRXN4LXhYODBaZnJ6SzhjYVhxcExnNmdRZVhRdkp6V0dYRVpUckg4ellXdGlTc3FIb3lTUlIzd1lwVExqdUlIQjEzaS1WTmFBLVB1eThaRXhYVHFveGfSAcsBQVVfeXFMTnhzaTJRMkVqY3M2WlE0T0NlUm5vZm1DeTZBbExKZjlKRmE3VHN6NEM3Vk5SVW1hVW9FbUdpZ3gzOXFrVlRwVC01Z2NrZHpZUlB0eFJsOW5VX2ozY1liaDFJb1k4UjE4OUQyVkN5ZjNEQ1BseW9rM19iT2gzS3l2NDdjZ2RVRzR2VV83bE9QYTlWVWRXTHVaOEl1THFkVzhESkVDd0pyYmZWd2tOMkFYbGsyLXNiNVVmRm1hN01VamlEbzY0S0xaSTlMOVE?oc=5",
-    "source": "Al Arabiya English",
-    "fetchedAt": "2026-05-17T05:00:10.874Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=8ntIyvYfXl8",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "8ntIyvYfXl8",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "20-ships-safely-cross-strait",
     "date": "2026-04-22",
     "title": "20+ Ships Safely Cross Strait of Hormuz as Taiwan Receives 2 Million-Barrel Oil Shipment - visiontimes.com",
@@ -5156,6 +5129,60 @@
     ],
     "videoMatch": {
       "videoId": "LmQVZ74pSpc",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iaea-warns-of-radioactive-leak",
+    "date": "2026-03-27",
+    "title": "IAEA warns of radioactive leak risk at Iran’s Bushehr nuclear plant - Middle East Monitor",
+    "description": "Via Middle East Monitor. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZE16UVBxRHB5SzUxbm9NeUpEU0tlYnpWcXE3TGw1SkJ1UmlhdmdfS1BDMjNRQlZ0Z2Ztc2k4MnlMZkdaY256azNmanBMbnhDMFgtcEpkTURQMmVtNTZnaExmeE1sMFVOTTJDWkdxd3E4Rmg3MV9ab3pPdkxyZU4zOXozUHRPZzRPSUswR1hNTTJHTDc1VDZweHRUUDZEVkxBT3U2c1lfZGZWVzZGVkRr0gG0AUFVX3lxTFBUaVlHc19kVXBwNEl1OU1GZVJhRjVqb2lDY3UwX25uQmZfazU1aE5UaXF4NlRpVjBCWl9IcW43UHh2ZllGNlBuQWgyZ0YzaHc0SU5BSE9FNjg5VEI1UHVJUms0amZyNHB2Wm82UUNMRW50ck5Iek9DQlVzb0tfUklhV0RLVE9nNm9Ec3BiMk11ZHJoaDlwa2JpR1R3b0xEeks1TEV5XzYxVnl5VFA0bm1vdnYyTg?oc=5",
+    "source": "Middle East Monitor",
+    "fetchedAt": "2026-05-18T23:00:11.680Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=D-GvBRpXCoc",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "D-GvBRpXCoc",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "how-long-will-the-war",
+    "date": "2026-03-27",
+    "title": "How long will the war last? No one knows, and it's making oil prices weird - NPR",
+    "description": "Via NPR. Auto-detected by headline monitor.",
+    "category": null,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWnlsVnpjSXA1Nk9fY2h6NDQwLTBhZmVxb3Q5ZUE0SmJrT3VJaE9CcF9paHhnUlZyaDBfVGdJODBMUVlRZkxIZmtJTncwZy1UbWszS00teTNaRlBHRjd4Q1pzeUZUZ19jOFVzSWF4cUg1UHRoc2Fmbk9ubGtnRHEwbUZnOA?oc=5",
+    "source": "NPR",
+    "fetchedAt": "2026-05-18T23:00:15.096Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=cxnSPjG-RHM",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "cxnSPjG-RHM",
       "title": "",
       "confidence": "auto"
     },
