@@ -1,86 +1,5 @@
 [
   {
-    "id": "araghchi-warns-un-of-consequences",
-    "date": "2026-04-04",
-    "title": "Araghchi Warns UN of Consequences of Attacks on Iran’s Nuclear Facilities - WANA News Agency",
-    "description": "Via WANA News Agency. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTXZ5MnBTcy1yc19vMlpZb0lobUtQMXdPb1BwMWt4Z3p3ekVqVlYyMlEzNVQ2N0dkTkRjaVVReE8tODJWWEktRFVYZEhhQ2lJd3QwZWM4ZmxIX2MzRG1rMzZHb3d6Y3JaOVpNYUFCdlk0WnptR0dtYmItTGstekRVVWNxcElpeEE2bXVoaGZFZDBfajlGMFhr?oc=5",
-    "source": "WANA News Agency",
-    "fetchedAt": "2026-05-17T09:00:11.466Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=PZ0H9ItoFYI",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "PZ0H9ItoFYI",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iaea-report-says-iran-must",
-    "date": "2026-02-27",
-    "title": "IAEA report says Iran must allow inspections, points at Isfahan - Al-Monitor",
-    "description": "Via Al-Monitor. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNVF81dl8tY2lmTVY3dVBmX0FhN01lNDhMVTl3X3NYWXN0bHdDVFVUUkpfc1JBdEc4Y0x1VjV6cVhCdzRjU09NZ0hwLWQ5TFRPeGlWODh2eS1tNkMxQUFhdzBzTFZjRXduSE1rUUt2NlVlZ2RUbkM2TjV6dXhzd3VSWTBvSlhuVmFVNWZ0dkN0YXVtSElwNnNPZjQ2QUE4U2JPQ2c2YkNEVQ?oc=5",
-    "source": "Al-Monitor",
-    "fetchedAt": "2026-05-17T09:00:12.930Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=hpgmiF1RKUg",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "hpgmiF1RKUg",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-blocking-nuclear-watchdog-from",
-    "date": "2026-02-27",
-    "title": "Iran blocking nuclear watchdog from sites hit by US, Israel: report - New York Post",
-    "description": "Via New York Post. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeVZ5bE02TGhkdG1YQzd3MlE1Y3hQN0M3X2pjSUpMQ0VhVktwNnNDbE5RZm9YdTBjemVYNVJ2OW9zdzBPbmt3WFU1d3I2MnM2V0J0VlpYcUt6RHBMajVmSExJRmFCWWNJNzdySjJKd2ZTbU5SMmpVOEE1WF8xQThuMDNvWmJJUk5vRWRfeFA3bnNnREJnLUN0SXRNd0lmVENSSEx3NlFtZC1JVlU?oc=5",
-    "source": "New York Post",
-    "fetchedAt": "2026-05-17T09:00:14.397Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=EUou_52qyMI",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "EUou_52qyMI",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "the-strait-of-hormuz-is",
     "date": "2026-05-05",
     "title": "The Strait of Hormuz is still blocked. What’s the US military doing about it? - The Christian Science Monitor",
@@ -5183,6 +5102,87 @@
     ],
     "videoMatch": {
       "videoId": "-GaJ9Zd4poM",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-intensifies-attacks-on-oil",
+    "date": "2026-03-20",
+    "title": "Iran intensifies attacks on oil and gas facilities in the Gulf after Israeli strike on key gas field - WTAE",
+    "description": "Via WTAE. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZG5wNGd3NmRla1A2THg1RnVSSGc1YU4wTmd5OUVRX2xmTUZzZE5NT1Izc0V1Rlo1aU5UN3VvMHpWZ09DR2NnMFRnUHFPRHJoOTdraTBOVV95VFE1Uy1WR1VYRUNnRnVERERyTW9uNS1BVnNfei1ORWJCSnJVdlB0N1Z5eU8wZ2tTR0E?oc=5",
+    "source": "WTAE",
+    "fetchedAt": "2026-05-19T04:00:12.047Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=1ARFZjlcOsU",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "1ARFZjlcOsU",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "two-ships-scrapped-for-parts",
+    "date": "2026-03-23",
+    "title": "Two ships scrapped for parts have suddenly reappeared in the Strait of Hormuz - Australian Broadcasting Corporation",
+    "description": "Via Australian Broadcasting Corporation. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTEtuZy01RDNHWVNZZWpTTzR5djZkVkZGUEJPMGw0M21yc2ZhTDdObkdEOGNHVzduZGxMR2hNRjJxczRlQ3F5T1BIWnVQZVVxSUotLXluZFlNNFZ3S1YxNjVXX0ZPd2lUWTNjOEdCcEgzZGY5dUE3ZEs0ekRRRkJCSG84b0hkV1J6a1I5d2pvc3dCRmUtaXhmeF80OUE?oc=5",
+    "source": "Australian Broadcasting Corporation",
+    "fetchedAt": "2026-05-19T04:00:13.751Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=mOtzHG88DWI",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "mOtzHG88DWI",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "chinese-tanker-retreats-twice-from",
+    "date": "2026-04-15",
+    "title": "Chinese tanker retreats twice from US’ Hormuz blockade in 48 hours - South China Morning Post",
+    "description": "Via South China Morning Post. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVS1jMDd1c05QM1VFZ3RjbXlCNk91MjE1eU9fN2lhQmRZTWVnMlREOWM2QmNjX1J0bFJHX05xMk9HV3pIWGRDSGlCdjladzZyLUtXTzJXRlpwNkl5dlRkY1ZSNy0yMVRZWTZUdmNnYU5Pc3JmMnVwNm43ODVvZGpDNnJmYWYxSFlEV0JLcDlPeXFCM1ZHdkI4YzBQT1lnZ05tc09tbjQ1aHdNU0pYRk5wXzlqZ0rSAbQBQVVfeXFMTllwMmloejd2Y1FUUmVjWDZQaWFiMkk3MTN6TENDMHNSbHJ5S0hRU3k0eVktR1dsLWc2dVgweUVsZjFuMzNLUWZzRGdRRGU3dTA2TldUOEdNZ0I3ZGNCOGdRaUJraGtWdHFFUm90V0FSR0UzeDJFbHhqdUdJTG90TTRsbjBkSlZXQkFaVEpOQVdZV0NWLXB2WnR4b3l1dkJWRVBHUmo3SlFTUU5PcHNqdWpIZGlt?oc=5",
+    "source": "South China Morning Post",
+    "fetchedAt": "2026-05-19T04:00:15.332Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=69Yz_E6wqls",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "69Yz_E6wqls",
       "title": "",
       "confidence": "auto"
     },
