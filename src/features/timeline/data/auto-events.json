@@ -13714,5 +13714,22 @@
         "label": ""
       }
     ]
+  },
+  {
+    "id": "auto-strait-of-hormuz-sailors-stranded",
+    "date": "2026-03-12",
+    "title": "Strait of Hormuz: Sailors stranded on ships due to Iran war",
+    "category": "chokepoint",
+    "description": "Via BBC. Auto-detected by headline monitor.",
+    "lat": 35.69,
+    "lng": 51.39,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5zXzJJYkRpeDF5Vnl4dUJPSGJwSXJ2OURZZ25iS0lZMmd1OVllV1JwTnFNT0R0Ry13emVCSlR4b3lMNTNiNTBZRGQxMWgyc3RoYTBleHlLMmdUQQ?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=CVUkmry_mSY",
+        "label": ""
+      }
+    ]
   }
 ]
