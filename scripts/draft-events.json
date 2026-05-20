@@ -1,211 +1,5 @@
 [
   {
-    "id": "world-is-facing-historical-oil",
-    "date": "2026-03-12",
-    "title": "World is facing historical oil supply disruption, says IEA - TVP World",
-    "description": "Via TVP World. Auto-detected by headline monitor.",
-    "category": null,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZVE0TzBYd0dDMWZBRHdjdW1SMGhIQndiZzVpeGJyUElDOXNyc2NaY2tVWE0wUzI2VmtlS1BTYU0tVWhNRzVodlJHOVdWMlpnekpzNE9fMHg1X2hhMUFxdEVOQ2xqdHphWE9KTkhoeFpsc013N3hySEJjdmpzZll4cG8wNl91Q0M2UG45bWVtMHNzeUUyeHBGaTR6UlZMcndkaVhucnIwMlVxMkRuNV9wRVBTY0dkdG5MZ0NGb21n?oc=5",
-    "source": "TVP World",
-    "fetchedAt": "2026-05-19T05:00:13.161Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=picMFUD3ZZo",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "picMFUD3ZZo",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "crude-oil-prices-exceed-100",
-    "date": "2026-03-08",
-    "title": "Crude oil prices exceed $100 a barrel as war in Iran disrupts production, shipping - Fox Business",
-    "description": "Via Fox Business. Auto-detected by headline monitor.",
-    "category": "infrastructure",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbFFlUzBCaGgwMGV2RldVb3k2LUxzR0hTamxtMjlJUkY2RHY0QTZVWTVqc1VsaW42am5WUGdqdTk3dmxQX3NIOHRHNlYzWU5LaW9FeUltek5KS0xtTzFweURDYVMyUnI2VFVDRHRaOTNCZlN0dE1ndXFBRFpFUGZhZTRwajR0S1nSAYwBQVVfeXFMTmJMWXBJVjZBSGthV1daM1VDS21hdUNYSnROaUVfX2drSWIyeEtxU0VtZThvczZiSFowT3NuTFRSQzdWQnB6ZXJ5ai1LLVJOTWQxV0s3ZFVaMlNpMTlMajFTa1FuemJqRklDZy03bXdxcTVMcXFMRHZ2QlJhU18teEpNRWU5REVfeGtwRTk?oc=5",
-    "source": "Fox Business",
-    "fetchedAt": "2026-05-19T05:00:14.655Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=Za1xrpJcVjo",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "Za1xrpJcVjo",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "chinese-tanker-goes-through-strait",
-    "date": "2026-04-14",
-    "title": "Chinese tanker goes through Strait of Hormuz, defying Trump - WBMA",
-    "description": "Via WBMA. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxON3hBQnhuU2ZQQm15cElFakhsNG5iQTBPbjFzUE5ZdFZicVJxMjhhRGNmSE0tUXJ0UzFLb1owQmhTVEN6MDM5Zl9uclZ1T2pDT2xoTE43SGQ3RzVwUXFHazBRZTJuS3dLbmxVajZlR3RQUDRrVFA5OE1RSk82QmlRQndMRUptNTdUTnpSN1QzbHo2aWg4Z3kwV3kxOWJ1ekpmck5rRXVFQVBmS2VCSFZQYk91XzRURG9QWlRrdGJB?oc=5",
-    "source": "WBMA",
-    "fetchedAt": "2026-05-19T06:00:13.035Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=BpHhN0vqP0k",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "BpHhN0vqP0k",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "no-stupid-rules-of-engagement",
-    "date": "2026-03-11",
-    "title": "“No Stupid Rules of Engagement”: Ahead of Iran War, Hegseth Halted Efforts to Limit Civilian Deaths - Democracy Now!",
-    "description": "Via Democracy Now!. Auto-detected by headline monitor.",
-    "category": "humanitarian",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQU1dmbXlXZUpEWm9MOHNlMUY2TTRtYjdMRnU5WjVzNzljUjlrYUVUdE1CbmsyeXNfOUhVWjY5eVFmek5sUWdwakthdWV2MGZCdEwzLUhiQ1RBMUtzTVEyQi1NQVVlamJ0ZlR0U0t4Uk44cl94ZElHWDBxb3lBeHBtbUhoT0I?oc=5",
-    "source": "Democracy Now!",
-    "fetchedAt": "2026-05-19T06:00:14.672Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=CqSdtp4QVGs",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "CqSdtp4QVGs",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "six-killed-in-nasser-hospital",
-    "date": "2025-08-27",
-    "title": "Six killed in Nasser Hospital were terrorists, IDF finds, as probe into tank shelling continues - The Jerusalem Post",
-    "description": "Via The Jerusalem Post. Auto-detected by headline monitor.",
-    "category": "humanitarian",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE54NHV1Wkp2OTRxS0UyUmxyMTFFMlc4XzZjaWRRaTNycXBJc25BWTNYSnZJQTFMNzNzX3pIN1o5N3BiTHZQRVNROV9yckhreUVQd2JDUTJERXo3LUcwQldTRHJtUlBEM2ZBd0VfZ0Vn?oc=5",
-    "source": "The Jerusalem Post",
-    "fetchedAt": "2026-05-19T06:00:18.557Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=AgwGiBi399w",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "AgwGiBi399w",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "humanitarian-situation-update-296-gaza",
-    "date": "2025-06-11",
-    "title": "Humanitarian Situation Update #296 | Gaza Strip - ochaopt.org",
-    "description": "Via ochaopt.org. Auto-detected by headline monitor.",
-    "category": null,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOT1JhOEV0ZnpuQjN2WUNwU0RfVXdHOHdtMjdRWnIzQ1hoQUxHcUJsU0ZubWl2N3pSaVB5OHQxWTNxb0VLb3dxdGstWTN2VFgtdGd1ZkVwenlQQkhaVENMdklud3lsRS1UV3U3bWNDWDJzTzRCZTdTLWl3bUM4ajJVTjhn?oc=5",
-    "source": "ochaopt.org",
-    "fetchedAt": "2026-05-19T06:00:20.904Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=dgbFeEWUORU",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "dgbFeEWUORU",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "azerbaijan-says-it-foiled-plan",
-    "date": "2026-03-07",
-    "title": "Azerbaijan says it foiled plan to attack pipeline - Arab News",
-    "description": "Via Arab News. Auto-detected by headline monitor.",
-    "category": "infrastructure",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5PdVRCNWxkTkFLSzVHcHg3T0ZnLXg3Qlk4WmhTSW5IbXpEMzF4MnUzanFUZkVvek82aFZYRHpZNTcxTVkwbmg3YmthOGFaMUpzU0Fr?oc=5",
-    "source": "Arab News",
-    "fetchedAt": "2026-05-19T06:00:23.203Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=nL2Gaq3Gfa4",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "nL2Gaq3Gfa4",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "saudi-arabia-discloses-13m-bpd",
-    "date": "2026-04-10",
-    "title": "Saudi Arabia Discloses 1.3M bpd War Damage for First Time - houseofsaud.com",
-    "description": "Via houseofsaud.com. Auto-detected by headline monitor.",
-    "category": null,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0tdGI1Mll3N1VXcDhoUzZpMjByN3hIeDFXZ0puTENHR1JuUDNDaEJwNnd6V1QtaWIzSEI0YkZiTGtmWF95Q0ZvRjBsTUNCQWs1X3NzamcxazhRb1BXZk1vREJxM1pfNFZD?oc=5",
-    "source": "houseofsaud.com",
-    "fetchedAt": "2026-05-19T06:00:25.146Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "303-lebanese-killed-by-israeli",
     "date": "2026-04-09",
     "title": "303 Lebanese Killed by Israeli Airstrikes in One Day - Politics Today",
@@ -4753,6 +4547,168 @@
     ],
     "videoMatch": {
       "videoId": "7TTjlaDNS3I",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "russian-air-strikes-kill-6",
+    "date": "2026-03-14",
+    "title": "Russian Air Strikes Kill 6 In Ukraine, As Kyiv Pounds Oil Refinery In Krasnodar - Radio Free Europe/Radio Liberty",
+    "description": "Via Radio Free Europe/Radio Liberty. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNX1pKZzhvMHBsa2pCZHVqQ2lZZHRyRTBhVVNxdVp0X1FYT3N4RktLaUVIV1JEb1h6a0I3ZzNlTDdpWnNwU2xBOEhsbnpLYkFlNGEwWEl3TEhKNGw2VmltdG5BdnNNbWMyRklLZWwtbW1ISHh2SlVGeUlRXzZ6ME4tLUV2Z1ZKOXUteGfSAYwBQVVfeXFMUFJCZ0JUSGhmNlV0SDlQR3lNYTM3c0ptS0p0NEFmWUZNN0Eya2x2dXJ3LWVId2ppa1ktYzdtUmdON05NM3psY2ttZ3EzVE5VamEtalNNbm5aU0ZrRHJlTlltdTY1RC1rSVliR3Uyb3VGVzg2eWJzMENxU2xPQkFvOHFVQU94TE5vSGVDSEU?oc=5",
+    "source": "Radio Free Europe/Radio Liberty",
+    "fetchedAt": "2026-05-20T07:00:11.251Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=nFKhQ4FO5Yg",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "nFKhQ4FO5Yg",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "grossi-warns-against-attacks-on",
+    "date": "2026-05-20",
+    "title": "Grossi Warns Against Attacks on Nuclear Facilities, Labeling Them ‘Unacceptable’ - WANA News Agency",
+    "description": "Via WANA News Agency. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdFBhcVVEV3pnNWZaU1I5b3Zud19PNGFrMWxfdnhtcW9PdURzWVlRcm56a1l3OExlbkZaV2Q4RzZYQXlKVzktUHJ4VElFZmE4YmNCTTIwNG9wa3Z4MnVfQVNBSC1ORWVNOVBVc0xaNDkxZldKWlNQNXdzbGxBOS1Pc194bkh3dVFZSXFlcHBCOVdQeHFld1Z6ai12bHVhQQ?oc=5",
+    "source": "WANA News Agency",
+    "fetchedAt": "2026-05-20T07:00:14.303Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=5Z2eznqyD4w",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "5Z2eznqyD4w",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "tit-for-tat-strikes-against",
+    "date": "2026-03-23",
+    "title": "Tit for tat strikes against nuclear plants in Iran and Israel - ICAN - International Campaign to Abolish Nuclear Weapons",
+    "description": "Via ICAN - International Campaign to Abolish Nuclear Weapons. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1RaUhJbXROTmxUZDFpeHBET1hQU1ZLQl8tcGRTZzVuNEtyeFQtVGNwZ0Qxa3Z4d3g4cXpMSTJJM0JPQldrVzZGdVcyRGdhM0NvYmdyalhDMlp1aWZpQnpzOUVvcUYya2d6emUw?oc=5",
+    "source": "ICAN - International Campaign to Abolish Nuclear Weapons",
+    "fetchedAt": "2026-05-20T07:00:15.940Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=9u2rXu-qlS4",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "9u2rXu-qlS4",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "gas-tankers-sail-through-hormuz",
+    "date": "2026-03-23",
+    "title": "Gas tankers sail through Hormuz to India, most ships still stuck, data shows - Yahoo Finance Singapore",
+    "description": "Via Yahoo Finance Singapore. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWWllT3BSc185WFdJZmtzQWM1ZWlNUFZoR0pUSW9yc2UwR3MyUXdzOVFLbHZfNS1zdXIweHZZdXdhQ0ZJX1Y4RlI3U1B0Q0tJXzZTOTdJeGowUUNVaEVHNTdkME1WSlp0Z2xsYVRkLXJyNENoUU0yQXBDQVEzdTBOOXJjM28?oc=5",
+    "source": "Yahoo Finance Singapore",
+    "fetchedAt": "2026-05-20T07:00:18.278Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=wsaGyd60W7Y",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "wsaGyd60W7Y",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "usiran-war-from-russia-to",
+    "date": "2026-05-20",
+    "title": "US-Iran war: From Russia to Middle East - how India is managing to secure its crude oil supplies amid disruptions - The Times of India",
+    "description": "Via The Times of India. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxNMjliVXJ0c0pHcUd3NFIwbDNOWGMxMFIxbDBXYVVXdDFYMS1lTkEwWC1JcXNvVXh0TDl0Q1JzbnVkeVdnRVI5RU9vTEtNN1prTk1vRUtxTWV5bXFmMXBHZ2I0UTI1dDVGYlhDZV9GVWlQbFJyNkU2cGdUcXFvekZtQmtUcDVjaHo4YkxUTHZjUUhzS1FQSk9TWVVhT3NIbW5ZUW9lR2lvOWd5dW5Xc255SE9QTE9zX3kxNUU1cnVobHRnTGo2anF5WlZJcXN2QnZBeHZpWFBIaDREbXBwVzZHcGFfc19GOFJoQmltZGp4VzBuazh3OUJseGhGeEhhY2RsMWNfc1FZX2JsbnRvRlp6UEdkYnp1NklqM0E5REVpVUkyMVhPVHo2RUJEbHFyZ082UmppY3I1dUg?oc=5",
+    "source": "The Times of India",
+    "fetchedAt": "2026-05-20T07:00:20.563Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=g_47hZyi6vA",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "g_47hZyi6vA",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "yemens-houthi-rebels-reportedly-fire",
+    "date": "2024-05-18",
+    "title": "Yemen's Houthi rebels reportedly fire missile, hitting tanker in Red Sea - VOA - Voice of America English News",
+    "description": "Via VOA - Voice of America English News. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVHZhUUVKRnBHbnJTR0duQUd5RjZGVWFDSjRCOVJBVEhTUEkyWkRELU5kWV8tR2ZZT2QxMDhEZmJ0a3F1WFFVY29FMlJydlFtakg3MktLdmw1TjQyYWxPTnhQR3BWNXBJQzVXTkZrNFFwUXg5cnp6WC03UGE4azVhdUdPX0laR1F1ZHlDRFhrUDd2aUM0SV9ZX0VNY1hZcWxRMUtLcTV0cU9VbmxmNXFJ0gGyAUFVX3lxTE1zSEc4eDJQekJLU3lTbVY4NFFiT2U4Z0c1Um9oZHBEbDR1LXpJemZFcFRzSlY4U1ZxRTZSa2RyMWxtQnZ3ZmtZYzJfakpmc1lZanlRbHoxNlFnS21iclpJX3JXNGM3dHZaTVNid054UmFHS2stdGwySUVFdUtXMEpxd3NteTZBZ09VRHNoamVSUVp2NHpoYUdWdkE5ZTNwTG8xblZTYWI4UDVaYVhiRkNhOHc?oc=5",
+    "source": "VOA - Voice of America English News",
+    "fetchedAt": "2026-05-20T07:00:22.869Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=YM-4BKpW0ns",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "YM-4BKpW0ns",
       "title": "",
       "confidence": "auto"
     },

@@ -13731,5 +13731,39 @@
         "label": ""
       }
     ]
+  },
+  {
+    "id": "auto-yemens-houthis-claim-missile-attack",
+    "date": "2024-02-17",
+    "title": "Yemen's Houthis claim missile attack on oil tanker in Red Sea",
+    "category": "chokepoint",
+    "description": "Via Reuters. Auto-detected by headline monitor.",
+    "lat": 15.37,
+    "lng": 44.19,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOeHBWcEx4M2pxMGtMMTR5c0RmaXVVdEEtNVhxeVVtOEdVSWNlb0xPUXBHRGpvMHlUTWdPSVk1blhWdHRYaEVlVTlZVU15X2cyRWRiZWtmVU5vakVtQi1BUjUyWVU3RVlKZHdaNFlGSE5ncklERXIzU1h0WkxfTXlsVTFfZ0FJTnNUckRsQVNKWUJMV2NUV3F4Q29KY3BZOUpVendfVWhTSQ?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=QV_6jtdAugo",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "auto-lebanon-says-two-paramedics-among",
+    "date": "2026-05-12",
+    "title": "Lebanon says two paramedics among 13 killed in Israeli strikes",
+    "category": "humanitarian",
+    "description": "Via BBC. Auto-detected by headline monitor.",
+    "lat": 32.07,
+    "lng": 34.78,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1PX210NmN6Sm56VVpVaWhucEZuUUN2dkJ3YktGRmY5WDNfTXpSVEtBbkloYnVCNnZTWVBkQnp1YVQtZFJuc0N5X3g4dVZwLVVDTHdxanAtZHY0QQ?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=_FXzi5vJwbw",
+        "label": ""
+      }
+    ]
   }
 ]
