@@ -1,59 +1,5 @@
 [
   {
-    "id": "day-19-of-the-usisraeli",
-    "date": "2026-03-18",
-    "title": "Day 19 of the U.S.-Israeli War on Iran: Widespread Strikes on Oil and Gas Facilities - Hrana",
-    "description": "Via Hrana. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSFRSS21DRFlMMFFVQWJJLVlLM1VRTkE3SmJtemlDOGhIQ3M3T09JdzFtMFBXa1czLThvMkFRLTdpcFc0VUFYY0JzUnRIdGprV1RKbjQ0VlFJcmF3UzN6M0dKV3B2R0ZWbEFrc1VIU1pTNFV4eFdIZnhsSndzRi1lT2JmZGhjMEs4eWJZZXIwMVNtMmMzVFQ5Skp2SkU0Q3FlTFNPM1FDa2hPQkNm?oc=5",
-    "source": "Hrana",
-    "fetchedAt": "2026-05-19T15:00:15.326Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=ba7yh_maQsE",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "ba7yh_maQsE",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "middle-east-crisis-pushes-nigerian",
-    "date": "2026-05-19",
-    "title": "Middle East crisis pushes Nigerian oil toward $120 per barrel - P.M. News",
-    "description": "Via P.M. News. Auto-detected by headline monitor.",
-    "category": "infrastructure",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQWTI1cXhrd0dpd3BxNjJqZ19zTDEyTmllMDVoSkp5RHZGbnowQTdZa1NXQVd1R2tsMmt3cG1xTlQyYmZRZGdZQXo0cmkxNzRZSXJYMDZ6ZlA5clVQSG1XQy1Vc1R2cENlNHhqWmNBckNoYXNET25KQy02d1lIUm5VTnUxV1RzakoxVXk5SEstWmpRLWJrendvcjZWXzVlekU?oc=5",
-    "source": "P.M. News",
-    "fetchedAt": "2026-05-19T15:00:16.864Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=Wbqw4imySxw",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "Wbqw4imySxw",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "israeli-airstrikes-in-lebanon-result",
     "date": "2026-05-13",
     "title": "Israeli airstrikes in Lebanon result in 12 fatalities, including children - MSN",
@@ -4681,6 +4627,195 @@
     "fetchedAt": "2026-05-20T14:00:35.621Z",
     "mediaUrls": [],
     "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-intensifies-attacks-on-oil",
+    "date": "2026-03-20",
+    "title": "Iran intensifies attacks on oil and gas facilities in the Gulf after Israeli strike on key gas field - WCVB",
+    "description": "Via WCVB. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUzVTY0lqcmVSNHBHNUYyYzJKbGVaT3QyV1I5R2VuTlEyMkI2V3FjZ0xOMk9PdzFWamE2c1JNNkxSalhVT2JDY24xYzMxaUJWOHk0R0tIWFhvTDRxeUVtTDhlVzdkSzEtVHdtNUI2eU1tQnd4S3ZvYTNfQ3NGTWFnY1RyUVpHUllialE?oc=5",
+    "source": "WCVB",
+    "fetchedAt": "2026-05-20T15:00:12.313Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=1ARFZjlcOsU",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "1ARFZjlcOsU",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "drones-hit-saudi-ras-tanura",
+    "date": "2026-03-01",
+    "title": "Drones hit Saudi Ras Tanura refinery as Iran strikes targets across region - Euronews",
+    "description": "Via Euronews. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdFRiOVM5YS1TV1ZQX01WNjlNalQzS1VYZkFZM1lwdU1rd1ZqSkxReU5XZFY1QnBqeTZuYTB1a0ZOVzlsMEVCWGVybWltQ29mTUV3UEFrWVdQWnE3bUd4bXJ1TFFOQlFnMTh0dFNJRk9OamxRSWdha0dFdThxd3R5MzBsQ2FVb3ZGUHF6bm05UzJfQTQwZXJuaXpZdjZDYk1GUlNiNnFpZWkzMHFyeGNz?oc=5",
+    "source": "Euronews",
+    "fetchedAt": "2026-05-20T15:00:13.894Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=4zT335vuBJQ",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "4zT335vuBJQ",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "radiation-levels-normal-after-barakah",
+    "date": "2026-05-18",
+    "title": "Radiation Levels Normal After Barakah Nuclear Plant Drone Attack, Says IAEA - NucNet",
+    "description": "Via NucNet. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRnh1eHgyRVAzczl5bWYxRHBleWE0UXNBVDJXcE1QZU9TWENfNkZqaTRhby1obklxYWs0UzFzZkhJc3o5aUlnTEUyT0RsQU9DYi1nWll5NFlGeVVfQU1BbGwwcGhoZW5BbnRrTWJZRXgyOW5sM3lZaUxHWjJiSXBXcXpvbDFsd2hpU3hfYTRzMW56MmNCTzdJek1IM1dDZm1zeHRrdW4xSQ?oc=5",
+    "source": "NucNet",
+    "fetchedAt": "2026-05-20T15:00:15.439Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=ye83P4jDPKE",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "ye83P4jDPKE",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "kharg-island-irans-untouchable-oil",
+    "date": "2026-03-10",
+    "title": "Kharg Island: Iran’s ‘untouchable’ oil artery? - France 24",
+    "description": "Via France 24. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQWUk3MUNjdTVEV01rak1YdEZ4NWwwNzh2OFNCWmVERllLU1lTcmRQcC1QaURUVXF1SkdkSk1RRndqY01veEJPWjNTVEVIT05MbUMtVzBaN0hNcDJveXZ0Nm83eDlVLVh3R0dtVEV5Ny1aYXlUMzVMVVdZU1ZhYjd2SjFXRzFkYVRMN2xRakprWGdOT2NKQnd2Z3NiQzBrRFNta1ctOGhVak02elVGR3VHZTBCTTZsOEZDOE4zRWotYmFZNHJfWFl4cEFiNnlIZl81R2lTR2J5bHc4d0lBeXE4UnVsMjA1QQ?oc=5",
+    "source": "France 24",
+    "fetchedAt": "2026-05-20T15:00:18.860Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=AOIdkj7CQJg",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "AOIdkj7CQJg",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "hostilities-drive-up-casualties-displacement",
+    "date": "2026-05-20",
+    "title": "Hostilities drive up casualties, displacement in Lebanon despite ceasefire: UN - People's Daily Online",
+    "description": "Via People's Daily Online. Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9fcGV3SHByVkdXWHdsVHZTbno3azZVRDRmbkZnTWpiOGkwRUtmNll4aEw4c1Awd2xBcjhLZWZ0NE9DM2hueFJvdjE1TkItMHBMcDV2SHNkeXN2eEdkRlFsVENUZ04?oc=5",
+    "source": "People's Daily Online",
+    "fetchedAt": "2026-05-20T15:00:21.307Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=YPtIiQxP3qI",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "YPtIiQxP3qI",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "casualties-rise-in-israel-and",
+    "date": "2026-03-24",
+    "title": "Casualties rise in Israel and Lebanon amid escalating conflict - Türkiye Today",
+    "description": "Via Türkiye Today. Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPN29qRlpzMGx4TDZFRlVDRmc3QUxiMXhQWEJfN2RqdzRnM1hsYzdTNEJaeVgwOVJIRXBVVVI3UFg1b3NlZXJTR3l2U2htcy1ESVUyNV9Rdm9IZ3htekVRazhxVW5sLVp3MEFOVy03a2dTWWF6bHNtNUNrdjlDNzktVkJEcmx2RmpuRjlWaWRrd3ZUNlY4Vk1GY1RkaEVoUkJURVJBWFZaUzladw?oc=5",
+    "source": "Türkiye Today",
+    "fetchedAt": "2026-05-20T15:00:23.613Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=De9_nQCP73E",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "De9_nQCP73E",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "death-toll-from-israeli-attacks",
+    "date": "2026-03-16",
+    "title": "Death toll from Israeli attacks in Lebanon rises to 886 - Middle East Monitor",
+    "description": "Via Middle East Monitor. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOazU3QmN6RnJUSENONF9nWXREQ1E0d09xX042UVVJZE1YUjBpVXk3RjlfZ2luU0tsUVN1ay1QMWw4d2ZMVVA0ZDQtLXlIdUppVGtTYXVsdmtiamlQZmhJa1QzT3NuUmZFMDVaUzVSdWY1TkhZNnhjNm1Db24wSUxsZXVXTjY5clRLVUFCTk0xRFBVZzNkY2lLRHpMRHZhM2hh0gGmAUFVX3lxTE1HdC01dWN1V0U3VmpldFYtQXNNb1ZKNERpYjBHX3VPWGt3MzJ0S0s3T1dOM2FmQVVrZElBVndfSkdBaEI0SFlMUHQ5c2VORDR1cXNDcXRjdjlyVmNNX0tGSXhaWGlBQmExaGxUM0RNX1pveDRWMTY2cnVkZ1RIMVBnbkg1Z29wR1p0bEVfeUlXYUpRSG90dnhPeDlpeWtqWkZoakY4UVE?oc=5",
+    "source": "Middle East Monitor",
+    "fetchedAt": "2026-05-20T15:00:25.832Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=DzlySY-cY1s",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "DzlySY-cY1s",
+      "title": "",
+      "confidence": "auto"
+    },
     "lat": null,
     "lng": null,
     "zoom": null,
