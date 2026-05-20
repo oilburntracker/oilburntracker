@@ -1,39 +1,5 @@
 [
   {
-    "id": "what-we-know-on-day",
-    "date": "2026-03-03",
-    "title": "What we know on day four of US-Israeli attacks on Iran - Al Jazeera",
-    "description": "Via Al Jazeera. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNRWowVk5EZERiVDE5RGFNWmVISGFWT2RhM09WNUhhX2dsR3hGTVI3SGI2bElNX2dUbnRzejJ0M2E5OFJTbXMwUmtzUnN3UTNfV1FRd3I0Wk15OFZkVnRXUFhvX1czUXVFWlNIZTV1cGNPU0VuSHU5NTQ5ZjdvRkVpNjdjOVY3TlhlMmp3M2Z4SmNtZGZtU01qQnJ30gGfAUFVX3lxTE9Oa0JYNFYtQ29ubi1qSlZ4ei1sUl9ocS1uUGRBNmh4TTN4eEl5UVBtS09yOVhBd1Rvbjk4Wjc4TW15Zkh6WnpQZ0hTMnBKS0hDeHdTSHUySS1OWjY5TzRPUzZ1YTh0bHVNSER3N1NVQzNyZHF5U3V3ZzFvQklqRnRHMW5qQWdKekx2X2p4UWh4LVFDNFdYT3JZUGM1SFhrTQ?oc=5",
-    "source": "Al Jazeera",
-    "fetchedAt": "2026-05-19T19:00:31.735Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "us-israel-target-civilians-as",
-    "date": "2026-02-03",
-    "title": "US, Israel Target Civilians as Iran Escalates War to Survive - Jacobin",
-    "description": "Via Jacobin. Auto-detected by headline monitor.",
-    "category": "humanitarian",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1CRHNBRWJpWExQNVBlSnVJRnkxYXVvNVBUcndaQWFOLWhweFBNbC1LRThndzRTb3F1T1BjVGtEa1g1eThhSmpCaXM4N2pfS0poektFdDZCTXV5Z1o0ZUw3d0RYMkhyWjVqRVpUallhYw?oc=5",
-    "source": "Jacobin",
-    "fetchedAt": "2026-05-19T19:00:38.459Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "israeli-strikes-in-gaza-kill",
     "date": "2026-01-31",
     "title": "Israeli strikes in Gaza kill at least 30 Palestinians, including several children - PBS",
@@ -4746,6 +4712,87 @@
     ],
     "videoMatch": {
       "videoId": "kZNJYRBj8ew",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "strait-of-hormuz-tensions-rise",
+    "date": "2026-03-20",
+    "title": "Strait of Hormuz tensions rise as Iran reportedly charges ships for safe passage - South China Morning Post",
+    "description": "Via South China Morning Post. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQMjAybGp1UzFmUklLSF9UTVRYNU9neEZDSEhrMXlnRENNS3l4MjZEbWotMUY2UE1YbDFDdDdCbjd0Z0xqZnA4UkhRX1NTZG9fN0JjU2x5WFZvSVNfQlViSE5YSkoyUC13VEhJWDh5bWVsZXZGUUVxVF9aX2lBX0ZSRTl4UUR5b3EwMlBDX1J1ZVJ6cWV3bDRWTWxHb2VFZWFwa0pEOWdUeHJla1hMSHl6engtb2JjTXdhOGJDZThOZXZnNnVtQnZN0gHHAUFVX3lxTE5hNHVQWGFPOHRiZWRtRkNCMW8tMWktUl91LTBRQUJEenRHWnBXWXdtaU9ybEY5T2FYbGxOanRzWHVJbzIyc1hnUkFQQWpFZmpUSGhWdGM3YUlFNmhDSUVPRkFSNmRwTjJqX09ZeEsyN011TWFIY2hQd3NtMnNYZkNpbXJBYnlPVXhvSGJwZTRjU2x6bzZ3bHVNSTN3MnBiYk5oQWl1Q25wLW5Ra2JNSDJqYVduc09LNFVkMVBrM1lFalVONktCVVU?oc=5",
+    "source": "South China Morning Post",
+    "fetchedAt": "2026-05-20T21:00:11.222Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=IVHmp0r5S_E",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "IVHmp0r5S_E",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israeli-army-launches-multiple-airstrikes",
+    "date": "2026-01-12",
+    "title": "Israeli army launches multiple airstrikes on S. Lebanon - Xinhua",
+    "description": "Via Xinhua. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAtbFdZeE5VbWJLdHpBeHlRQW9Id3hfOUhRQ3NuUW9hcnA2cVVZUDk0bE9LamNhOFdyUmRKZEI4dG54bE9OdHFGbFptMjJ5blhMcUlqU0taMVlEMzlJVmxob25rUGtiQkFNb2cwYlZrVEJ5czNrY3A3MkJQSTg?oc=5",
+    "source": "Xinhua",
+    "fetchedAt": "2026-05-20T21:00:12.934Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=sUK2SuQfCFo",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "sUK2SuQfCFo",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-war-drives-massive-surge",
+    "date": "2026-03-24",
+    "title": "Iran War Drives Massive Surge in Planet-Heating Emissions Amid Calls to Accelerate Transition to Renewables - Earth.Org",
+    "description": "Via Earth.Org. Auto-detected by headline monitor.",
+    "category": "environmental",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNeUV0Y25Nc0JDXzZqMkdTZmJnUHNMekVYVGZ1VjhJSVc5UVhqOHJ0WXRkOWRrWHMxclZzSkxGTU9hc25waHo1alNmNDdPWV9ZMHdRWm04b21sOXVNLUNFY015THExeEM2WHFOaGR0cl9EUnd5TUZyU2JQUk12dEdHcWdQdzJvXzkzNVQ2cU01dTNNcFVYdjRZejNXeUVUaFhtVDN2ZTE1UkdfSnV2YVdyZWZhQmN2X3IwZUFYNTVSa01wbTdy?oc=5",
+    "source": "Earth.Org",
+    "fetchedAt": "2026-05-20T21:00:15.896Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=KyaDnoFqjv8",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "KyaDnoFqjv8",
       "title": "",
       "confidence": "auto"
     },
