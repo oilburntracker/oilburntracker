@@ -14060,5 +14060,56 @@
         "label": ""
       }
     ]
+  },
+  {
+    "id": "auto-crew-of-oil-tanker-rescued",
+    "date": "2024-08-22",
+    "title": "Crew of oil tanker rescued after multiple attacks in Red Sea",
+    "category": "chokepoint",
+    "description": "Via BBC. Auto-detected by headline monitor.",
+    "lat": 30,
+    "lng": 48,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE54RURobVlyNjJMYlJkSlN0QnZjODZXU2gtRFlQbkIzZURSUF9PbVpVLWxOX3ZnUnBtZjkxS3dZYnIyQ3RnMzRkZ2xOdnd3dl9GNk5ZS293Q1dZUQ?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=mz_6kHcqhKc",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "auto-oil-tanker-on-fire-in",
+    "date": "2024-01-26",
+    "title": "Oil tanker on fire in Gulf of Aden after Houthi missile attack",
+    "category": "chokepoint",
+    "description": "Via CNN. Auto-detected by headline monitor.",
+    "lat": 15.37,
+    "lng": 44.19,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPczJvS0wwS2dMMkVzWEdSOG9HS1o1WVpTNndHTVRHR0xYc3lic0JlamdrNHEwTGdnWmt1aVRueTlYZzJHam1zN015LXNMN2dYak5NNU5vLWl2Z0IxRU9mSXUzVTBiaWEtbkRRUk8tOXVqdEYzNlVmRWdrcmdSVWJ0TWp6WGpqZEszRVpyVnA5UGJ4Qm5xaXpXMDZn?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=PWfnp02xg8c",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "auto-yemen-rebels-launch-missile-drone",
+    "date": "2024-07-16",
+    "title": "Yemen rebels launch missile, drone attacks on two tankers in Red Sea",
+    "category": "chokepoint",
+    "description": "Via France 24. Auto-detected by headline monitor.",
+    "lat": 15.37,
+    "lng": 44.19,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPcFVpYlNnclM1ZVhxQzBZdWFFRDlqazVRU1YyTmZyM2lZVXYxejFFcWpDckh1M3djb1hvX2RXUHBwOTd5aW83aW1UTEpGX0tPeGFWNG5zWlFSenh5T0hOb0lVek1HTGE1aU91SkZKTnVPUlhTdGQ0dlpMN3E3LTQ5WHZGRQ?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=i44LL8LgVQU",
+        "label": ""
+      }
+    ]
   }
 ]
