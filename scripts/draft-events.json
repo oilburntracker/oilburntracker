@@ -1,76 +1,5 @@
 [
   {
-    "id": "oil-prices-fall-nearly-6",
-    "date": "2026-05-21",
-    "title": "Oil prices fall nearly 6% on Iran deal hopes - Pakistan Today",
-    "description": "Via Pakistan Today. Auto-detected by headline monitor.",
-    "category": null,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNk5NUG1leU9SUXNYazJxbUJQeTJyTDBkSDN1YzFlYzhPQmNQNWZvOGMycDUwWDhNNW9jYUFYUG15T1hFcEpVLWdyTzc1RkNtenI4b3JvendFN25EeUpxVmgzcmhESXl0VDhqTUZtNVNLMWVwOHd3eTFKZ3hHaVBzbHBPRm1sZTJiMVlwSjNJc1YwVy14M1E0YlNQRHc2NTBwN3hwbEh0TnBPM09mRjVqSlJlTHJlSXVtV3VGdg?oc=5",
-    "source": "Pakistan Today",
-    "fetchedAt": "2026-05-21T06:00:14.797Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=gI6VuC2yXFw",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "gI6VuC2yXFw",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "the-environment-another-casualty-of",
-    "date": "2026-03-14",
-    "title": "The environment, another casualty of war in the Mideast - Al-Monitor",
-    "description": "Via Al-Monitor. Auto-detected by headline monitor.",
-    "category": "humanitarian",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZ3N4THVpTW40OE9uTmdiSi1NNDl5N3FQTkw3TUdWb1k0YjBnM3IxY0lGTGpYNElQY0tGdm9iTnhsX3Naano4MnRVa2I4a3VuZXE3T1FpSEF5LWpKODh1eDMtdHNlV29aUUVGN2xoVTZhZUh1eVdwUnVoQjVLN2IwbTlrYWlKclhKWmp2ZDB3?oc=5",
-    "source": "Al-Monitor",
-    "fetchedAt": "2026-05-21T06:00:20.823Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "the-israeliran-military-action-amplifies",
-    "date": "2025-06-22",
-    "title": "The Israel-Iran Military Action Amplifies The Environmental Costs Of War - CleanTechnica",
-    "description": "Via CleanTechnica. Auto-detected by headline monitor.",
-    "category": "environmental",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPaFBScXFsTnZ1U3ctQkp1TzB4aXl2TVJOclAtdFhFUmlJcU1tOGw2NktaaE80UGkwZ0prT2I2NkRxa2VIbl85V0JELU1vTFNZX1YwSlRvNnYwbzkyUm5BcG5GVTJ6bGZ5Q1FXUF9SQXM5MnBWTGpuc2NWTFFXajNVWm93V1E1RkVJQVZTYmt1ck5IcWZwdjZDV1RjN3ZQcFRnR0hhMHdSZGluZGUxUUNV0gG3AUFVX3lxTFBkOGc3dHZOTDdEaFpBb01EWmRYOXp1R3V2SG1oY0tMXzBpazVNQThuck5TNEE4YndEckV2ZnFJOTM3UmR0ZUNET3FVMFNQWFd4X0VHSG5iMHUweHcxazdlaXpJMVJiRVVyUkkyZ3FCN1gxOXpRS3JoQklxbHRQRzRKTUh6YjBSWnUxUUF0aHk4YUxPTklJcnh3NVBKX2dVZDFGMG1UZ0JiMzZYQmlLR3hadDdqQzdJMA?oc=5",
-    "source": "CleanTechnica",
-    "fetchedAt": "2026-05-21T06:00:23.047Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=pa0agBZ1Dt0",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "pa0agBZ1Dt0",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "the-climate-bridge-can-iran",
     "date": "2026-03-13",
     "title": "The 'climate bridge': Can Iran War make India’s summer hotter or monsoon unpredictable? - Moneycontrol.com",
@@ -5106,6 +5035,60 @@
     ],
     "videoMatch": {
       "videoId": "k8OmKlWrX4o",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "a-second-wave-of-iran",
+    "date": "2026-05-12",
+    "title": "A second wave of Iran energy shocks is about to hit Asia and the wider world. Why aren’t markets reacting? - Fortune",
+    "description": "Via Fortune. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQVFJtSVNpUVlzbld4U0pXbVBEYm5QYUpYeTlfTHF0QWV0UzlObDRMdkhjWDZ4d1U1Q1BtdHpKaU95T1dza25MaDF3ZURWUTV5akFKS0Q4SFFSekxoLUcxWmpwUmFacWcxdkVjVERsak16U2xkVVQzNVNWU1ZOY1VZNzVORHhIQU4tNjc1c2Zocw?oc=5",
+    "source": "Fortune",
+    "fetchedAt": "2026-05-22T21:00:14.518Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=z9NtyM6oR_c",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "z9NtyM6oR_c",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "india-condemns-reports-of-civil",
+    "date": "2026-04-10",
+    "title": "India Condemns Reports of Civil Casualties in Israeli Airstrikes in Lebanon - Haaretz",
+    "description": "Via Haaretz. Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOTkR2STk3aHNib2Z2a2xfVXFLMmhLcUpNSm84al9QY2VaemwxaTBmVDR1YlNtOVUtZlM5cDRPUUIzM1hHdjdMd0p4SnlEcy1iMm0tQ05xRTlPWGtGdXBuNEk2bkFwNDJua3Fzb3Q4OEVlV1pTQ2EzZ0gtR1FUTFRuVjBVemY5VXFudTZCdHZ4cWlyQ1hxMHI5TkF6SXM0ajNVUlpzOXhmZDNqZTNsSHdfM3VvZkdlb1pCT3YtYW1LN09SR3ZKN3ozQjJ5MVVGUXNGUmNlbkRaeXBLck0ya2xiQjhyd0hPSE9yTjJFSDd6SmF1VERJWXZFWW1oY2h1Qmk0Zi11cmJB?oc=5",
+    "source": "Haaretz",
+    "fetchedAt": "2026-05-22T21:00:18.261Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=4XsM3tnR2v4",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "4XsM3tnR2v4",
       "title": "",
       "confidence": "auto"
     },
