@@ -1,167 +1,5 @@
 [
   {
-    "id": "trump-is-poised-to-take",
-    "date": "2026-03-19",
-    "title": "Trump is poised to take Iran’s Kharg Island. Here’s what could unfold next. - Politico",
-    "description": "Via Politico. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPeXk0dVZKWU5GZGF3VGRlWnJCUV9VdG1wYmM4djVmMG1nTzd2TlhKRjFjQjNUTTFsTEZMRk5jd3RmLTAwYklCdXVpaDhZNDkwNkE2UzBkbm5BNGxZUUdRQ2dPdWdybVJXSE5pbC1fV3lGVlFtbUFSQldnaVBCYzZkMUIwX093WGRDWDU1X0s0ajVYa3VXTVh3dTlCeDlIaTBfOVE?oc=5",
-    "source": "Politico",
-    "fetchedAt": "2026-05-21T03:00:26.421Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=ehw9poUOfbo",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "ehw9poUOfbo",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "israeli-strikes-on-southern-lebanon",
-    "date": "2026-05-20",
-    "title": "Israeli strikes on southern Lebanon kill 19, including children and women, officials say - NBC News",
-    "description": "Via NBC News. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSXEtdlJrLTQyNlhKMUlBckdXYkxQX3RUaG5FYUp4LUE1VGtZazRFYWFYOTA2ODA1alBGamxVN21BZFNVYUZtT0RjVzl0ejRxVGJEa2FfaEtScVZkSnA4QjhxYzNtNWdlblVsNk9HWXVqU3RpTWIwQ201QlRnbXNJOGt2T3BTZVB2UXVUT2xRZE1hNGprTnFJOEJDbDhyZGtqUENBYnpmQU9sRXlxYzBRN3FrUVhveUhnRU9YSTN3cw?oc=5",
-    "source": "NBC News",
-    "fetchedAt": "2026-05-21T03:00:28.984Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=yc_XCXGXg10",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "yc_XCXGXg10",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "putins-oil-hit-again-as",
-    "date": "2026-03-27",
-    "title": "Putin’s oil hit again as Ukraine strikes Baltic hubs - TVP World",
-    "description": "Via TVP World. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNV2FKTGotUjlHVm5nTlQxdjV3RG1YYlJuN2ZONzd1T3lmejZEeS13VEdPcm1MdGpHcnVEZ1JjTUJTeHJ5TE90TG81NTdBeXk4WnJQUF9LZEx1MVVkckxoaTBuRzM3SGl5WUNreGZZaG5WSWdpMEZid1dhanVQUXlfc3ZKTmoybmxmbzRUM0xxV0Q?oc=5",
-    "source": "TVP World",
-    "fetchedAt": "2026-05-21T04:00:13.654Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=DvPYS8n-8gY",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "DvPYS8n-8gY",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iaea-confirms-attack-on-natanz",
-    "date": "2026-03-21",
-    "title": "IAEA confirms attack on Natanz nuclear facility - Israel National News",
-    "description": "Via Israel National News. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9HLVpkSmtBbklqVU9aVmlZZ3FvX29QMGctSlFGT0NCelBaYWhyNjdCUU1QODA0cUpoUHJXSTJkajBoOVJKUlY2b0RRWnYySmdkSmIzN2xXaW9mQQ?oc=5",
-    "source": "Israel National News",
-    "fetchedAt": "2026-05-21T04:00:15.232Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=-6qcn6j76Q0",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "-6qcn6j76Q0",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "usisraeliran-war-on-course-for",
-    "date": "2026-03-11",
-    "title": "U.S./Israel–Iran War on Course for Cataclysmic Civilian Harm, Displacement, and Humanitarian Need - Refugees International",
-    "description": "Via Refugees International. Auto-detected by headline monitor.",
-    "category": "humanitarian",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOeUM5dTdrMTJJazZySTVldHZ4VncxbEMxV1lNMm5jREJ5WTJWN2g0TWVLMnpDSi1HVWF5OS0yMU1hRkdfcWNRWDJtaC1hNlRrSEExTXIzcTJsMkVQMzBULVg1TGh1R0JiV1J4aGtOa1kySDNKUmVyYTI3MDJ6RGR1UDBMcjlfOU5Zd2tkcXNlSGJUSjB4QzVnTndFS0F6Q18wSWVsSkxFeGNadVFBT3J0OEZ1djdDMlFrenk3anRhWDVHanBSejVXaUp3Q193RDdLUU8zb290T1dRU1RQanFJcTgzOWdxb1h2?oc=5",
-    "source": "Refugees International",
-    "fetchedAt": "2026-05-21T04:00:19.450Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=UChxi3xdLa8",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "UChxi3xdLa8",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "civilian-deaths-rise-as-usisrael",
-    "date": "2026-03-16",
-    "title": "Civilian deaths rise as US-Israel war in Iran continues - The Jerusalem Post",
-    "description": "Via The Jerusalem Post. Auto-detected by headline monitor.",
-    "category": "humanitarian",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBSSkZ1WVNWekpCdEZROGNsRnM3ZzdaUUJZWWVrTEE0cXk5OVZSbzZ4T0FTQUxScDhCNGhKalpuajN2MF81aDBwZHRoWjFubFAwa015MFQtcmZSTHF0WTZjeWotMFFUOVctbWc?oc=5",
-    "source": "The Jerusalem Post",
-    "fetchedAt": "2026-05-21T04:00:21.759Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=Pegz-s2LM_4",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "Pegz-s2LM_4",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "iranian-kamikaze-drone-boat-makes",
     "date": "2026-03-02",
     "title": "Iranian Kamikaze Drone Boat Makes First Successful Strike Of War - The War Zone",
@@ -4992,6 +4830,222 @@
     "fetchedAt": "2026-05-22T15:00:31.842Z",
     "mediaUrls": [],
     "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iaea-confirms-iran-nuclear-facility",
+    "date": "2026-03-22",
+    "title": "IAEA Confirms Iran Nuclear Facility Has Been Bombed - MarketForces Africa",
+    "description": "Via MarketForces Africa. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbzVtT3dQbjFxZDFvTUgzRVV6b05MYnRZSERLSjRfTTdlSGd5Z0xvRmRvVjZ2UEN4VjJ0WjM4UGc5ckh4OE5YWDExdF8weWRIZEZkdFZuakhDbGNqQWdXbWtvNkhLNmQ1WmVKOXlYbkFzcFR2Q19ITXpoUFNJZ09iRHc1ZGQ?oc=5",
+    "source": "MarketForces Africa",
+    "fetchedAt": "2026-05-22T16:00:12.011Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=rkrb6oAr7jA",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "rkrb6oAr7jA",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "middle-east-war-creating-largest",
+    "date": "2026-03-12",
+    "title": "Middle East war creating ‘largest supply disruption in the history of oil markets’ - The Guardian",
+    "description": "Via The Guardian. Auto-detected by headline monitor.",
+    "category": null,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNUFp1aTJlWkExcW44ZDVyY3NjaEY1SEtXQ3BSWkNWYklxTDQyU0dCbmphUjlxTDVhd1NJYy1MQmdMTFZ4SFVLSzAybWtkVWdjVUJjRnFGN1dWX01GczRucGJiSWFwbmU3cllxa3B2VU1aUk9INFlQOGNITmlMb0MzMVR3YVZ0S1RpMm9Eai1OSVJfQUpUQlZrZjZZTFZ4dHBOYzJPSVdKZk1nbW0xS0VSTGlld09sVnBwdlZXV1hRblpRQ19mMmN4Sw?oc=5",
+    "source": "The Guardian",
+    "fetchedAt": "2026-05-22T16:00:13.901Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=tjnBmH8b0Ko",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "tjnBmH8b0Ko",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "oil-futures-pull-back-as",
+    "date": "2026-03-03",
+    "title": "Oil Futures Pull Back as Trump Offers Shipping Protection - WSJ",
+    "description": "Via WSJ. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQN0Ffcl9HOEUzSmt1d25HYkVjcjlRaDcxLVBZNEZzcXVCSHROTmxmWk83QkROTnBRcm03NmZ0Q0VIWXRxeHZsSk5yblhDWnk5azlPZkU0MW9KWGZ1cjN4UHY4RG00Z01rclNWcTc4aE1CVUxkTlkwMnhmLWpMNkJJNW1YSlhQY0MxVy02X0Nma0pYSmw2bUhWZ0VCTEZrMVpjdUpOZkE3aTZHZnJFdEJtQXotUXZRT0RfaDREeGNoNFpPN2xWbHZMUQ?oc=5",
+    "source": "WSJ",
+    "fetchedAt": "2026-05-22T16:00:15.442Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=NgELJMZ8Aj8",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "NgELJMZ8Aj8",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "facts-about-strait-of-hormuz",
+    "date": "2026-03-26",
+    "title": "Facts About Strait of Hormuz Shipping Blockade - Kyiv Post",
+    "description": "Via Kyiv Post. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE11S3EyZURXdlIzVUh4QjN2UnBmUjlzVlFHOGd2ZjU5eTNmYnRqLUt3VkFsVHAxNzhWMmVBbkw0c1JETllPUjF6ZlJNNA?oc=5",
+    "source": "Kyiv Post",
+    "fetchedAt": "2026-05-22T17:00:11.496Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=xIJ7wZwxGAc",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "xIJ7wZwxGAc",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "canada-allies-say-theyre-ready",
+    "date": "2026-03-19",
+    "title": "Canada, allies say they're ready to help secure Strait of Hormuz, but don't say how - CBC",
+    "description": "Via CBC. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOV0ZMSXVzRllKS0lWbjh6OF92dExabERWaXRwUFBpTHZZbXJaMzA1elZZbTRuTkhoTVNWdEdaX0hTbzJaRnZoQWQzNXZKaFkxLTgtd2tNU3Q0VGZtdTl5dEJ3dnBEV1ZlQ19FVHRXMUZvQVl2UkRZUFlCYTd2cDd3ZWR3?oc=5",
+    "source": "CBC",
+    "fetchedAt": "2026-05-22T17:00:13.215Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=ZC8rDN51Zps",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "ZC8rDN51Zps",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "why-a-second-global-shipping",
+    "date": "2026-03-30",
+    "title": "Why a second global shipping chokepoint could soon live up to its name as the ‘Gate of Tears’ - The Conversation",
+    "description": "Via The Conversation. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNSWcwRjdOSVZ6OGFCVnhqa3NkZWdUSHk2NEFmVXdnRkpMVzJuODlqTmxEY0U2aEt4b3JES1RJVnlxY0ZTRElfelFNWDFmQnF6alZlVFR1SFNaQUJidU51SHNhSnUzVm1kMVk1eFNNTVB2SzhMdXd5NDlaUTBaTE92dko2a0ZnMV9CUUFCVGx3Z3M4WEpTS2RtUGUxV1NNaTVTZUI0d0E4c2prcEpyaWhfc1ViLURNbUp4ZXRUQ0pzaGdwWk5M?oc=5",
+    "source": "The Conversation",
+    "fetchedAt": "2026-05-22T17:00:16.340Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=h2M6lbuhQrE",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "h2M6lbuhQrE",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "houthi-rebels-escalate-red-sea",
+    "date": "2025-09-12",
+    "title": "Houthi rebels escalate Red Sea attacks, set fuel tanker on fire - Euractiv",
+    "description": "Via Euractiv. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdXZCZDUtbWRPdjVCSXF6SDEyU0ZQVTU4anZCREl2b1J2dTJfYVFzRzVCMUg0amN6bGtMNDJYbkRMYVF5X0wyZlV4Mmp0WWJXUXotVGdCLTc0N1RGTUdZVmxMMS01ZWFJQlVZdTBOOHVCdHVxeHd6REUxX0dyelp2WlNickg4QkdlWTgza1ljb3RZb3JHZGVTWQ?oc=5",
+    "source": "Euractiv",
+    "fetchedAt": "2026-05-22T17:00:18.915Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=AGt_nkW5pZQ",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "AGt_nkW5pZQ",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iranbacked-houthis-renew-attacks-on",
+    "date": "2025-09-01",
+    "title": "Iran-backed Houthis renew attacks on shipping after Israeli assassinations - ایران اینترنشنال",
+    "description": "Via ایران اینترنشنال. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1TemJ4ODRBTEVZUk5fbk5TT3Z4OXIwbmRsR0d3c1ZVT0lTaHNtZmVaeXNoWElFeHpwYzc4YUs0a2F2dUN6VHVOTDZLV2o2bmRrTEE?oc=5",
+    "source": "ایران اینترنشنال",
+    "fetchedAt": "2026-05-22T17:00:21.445Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=i2WChYIdiyw",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "i2WChYIdiyw",
+      "title": "",
+      "confidence": "auto"
+    },
     "lat": null,
     "lng": null,
     "zoom": null,
