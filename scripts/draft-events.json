@@ -1,113 +1,5 @@
 [
   {
-    "id": "an-iranian-missile-strike-has",
-    "date": "2026-03-19",
-    "title": "An Iranian missile strike has hit an Israeli oil refinery in the city of Haifa. - facebook.com",
-    "description": "Via facebook.com. Auto-detected by headline monitor.",
-    "category": "infrastructure",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPOVVPTFZGejhUdmtpY3pOSmFnTUljM0EwMVMzaG9NV0p6bS1GYmFUWS1zQmxseGlBRFF4a0NpTlQyZ2V2b29aRm5HUzBpTXlkUWpWekxDRGtYcllxWmhYRDYwaTN3QjZXZlFiemlpRC0yRmZ1UlduaHVrb284LXVQbG9EQXZSVGtYNjJwdWxOOEZfOVZuNDNMYzV2b0pMZU1yWmI1TlgwbUxMSHA2OTB1WC0zYTFuSmN0dDdzU3RJeWpTa21ZUnVzVWNBWG54YjQwVEp0bzBvWC1taTFI?oc=5",
-    "source": "facebook.com",
-    "fetchedAt": "2026-05-21T03:00:11.838Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=1gjDcWj6zlM",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "1gjDcWj6zlM",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iranian-drones-hit-largest-oil",
-    "date": "2026-03-10",
-    "title": "Iranian drones hit largest oil refinery in the Middle East - Washington Examiner",
-    "description": "Via Washington Examiner. Auto-detected by headline monitor.",
-    "category": "infrastructure",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQejNjY0RWMmtCcElqSFZnM29YTEVIZWQ3NVdNRU9WS2JNUjBjNF9abmxsQm5rZVM4TkZoQ0c0bi1PNlZJVldjb0FoMUFIdlJpbTN1MUZUTVlRS1VheG5YU3lXMUZXZWJ5OTVZZmlialBXZjhvSF8yTGVPTzA3ZFlkc21wUjR0bm5LRDhaUE9ic3hVNlM4R3BZUDhHRTZOeXgyN0RzRlV6UlZ3dw?oc=5",
-    "source": "Washington Examiner",
-    "fetchedAt": "2026-05-21T03:00:13.431Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=x6XlhDPh6KA",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "x6XlhDPh6KA",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "impact-site-identified-near-the",
-    "date": "2026-03-19",
-    "title": "Impact Site Identified Near the Iranian Bushehr Nuclear Power Plant - Institute For Science And International Security",
-    "description": "Via Institute For Science And International Security. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPcXRjcWhGa1ZvSWNwT05jWm1hVi1QUThpTFhuaHcyT21SckhraXJ0cExrbTE2aGJxTVlvR0lDVkJ1bHM0bXJLd2ZESEU1V3gwRjVMb3RJOUd1OFVFTmJzWVd6cWxvRExkRGRnanBkTkxId1NIRmhaQ0hKcTdId1hubDVqcWVVUFhwZ1JhSmNCSHFYYk1JRmt5NWMzLUNBYUR2SFFUSHNoUQ?oc=5",
-    "source": "Institute For Science And International Security",
-    "fetchedAt": "2026-05-21T03:00:14.909Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=APeFGLpVdPc",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "APeFGLpVdPc",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "us-boasts-no-ships-moved",
-    "date": "2026-04-14",
-    "title": "US boasts no ships moved through Strait of Hormuz in first 24 hours of blockade - New York Post",
-    "description": "Via New York Post. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPRnF2M1M1WDl3Y2x4QTdhTVhyX01JN1dWNUJpT3kxVS00ZW9KblFrUmFrUWVESEdJUUo3enpBdXliSFllc2w2RVVTQWZ3LWFSUWpyOUVTNVZ6N2VvdjVPcklXaWF6ZVZrQkx6SDdjem5fbVd0b1FDRUUwd3ozWGdDM2lQMkVoUVJCSlIwelVpcGl1bHdiY2R5Q3F2a1hFQ2lKN21rTk5fX1ROQlZ2d21HTjZzbjh0REZ0WFlBcF9mRktCbXBXNXVmQjB5V2pWQQ?oc=5",
-    "source": "New York Post",
-    "fetchedAt": "2026-05-21T03:00:16.681Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=OvpSi2lzG7Y",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "OvpSi2lzG7Y",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "trump-is-poised-to-take",
     "date": "2026-03-19",
     "title": "Trump is poised to take Iran’s Kharg Island. Here’s what could unfold next. - Politico",
@@ -4948,6 +4840,158 @@
       "title": "",
       "confidence": "auto"
     },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "missile-hits-fuel-tanker-at",
+    "date": "2026-03-30",
+    "title": "Missile hits fuel tanker at Israel's Oil Refineries - Al-Monitor",
+    "description": "Via Al-Monitor. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTTJwNnVzSXN4WW1IT0lPWFdidDBxYmZBRmFSWktKNDJyaHdNeFB3NmQyNGU2QnNTZWZKYjVseVFEV3lHdkMxWHJaeUttQ094QjdseGc4OWZFWmxKaHVJZlRKNGhyQkRTd1ROMXhkOHJJYkZKSzhBRzJWekd6TmU3REhXNm9JeUJvckdGUGtQUWxVbHlrRTFV?oc=5",
+    "source": "Al-Monitor",
+    "fetchedAt": "2026-05-22T15:00:11.456Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=P2eCQKHb_Ww",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "P2eCQKHb_Ww",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iaea-urges-maximum-restraint-after",
+    "date": "2026-03-25",
+    "title": "IAEA urges maximum restraint after new attack on Bushehr nuclear plant - news.cgtn.com",
+    "description": "Via news.cgtn.com. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPVG51MXQ0ZXk3cVRha1hCQ1RFVmlTOG9pZnZEaTFtbGE1MV9pblktems2RlVTZ2dBNVFKbVptQzhHTG1TU1NGX0xMNUl6VnZaWDZKSGVIdk9XZHhUaktQdTB5SlY3RGYta2Jmc0FnRFJWT2JVNlp6SEZ5bVo3X2xoNHg5dXFiTXk4S1FPS193TFYxU0dBUDhCbEtRNV90dkxjdWIzR29WRFdlOXlvbWxFUWxaMFI0SWFCQnM2RExjcjA2MVl4bEE?oc=5",
+    "source": "news.cgtn.com",
+    "fetchedAt": "2026-05-22T15:00:13.011Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=Y3PIzTd8GGA",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "Y3PIzTd8GGA",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "day-eight-of-the-usisraeli",
+    "date": "2026-03-07",
+    "title": "Day Eight of the U.S.-Israeli War on Iran: Roar of Explosions Across 30 Provinces of the Country - Hrana",
+    "description": "Via Hrana. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQV3huaWdFQVRDTFp5T2tLRUoyUUlUT0lIczlqZzkzNm1Qc2tNbDhFT2NNY2Rja05LVUFXdkp6eUVwMkczSjd2TVFfdjFPQmY0dHBqeE1jLWNSeUpWeS1OMDMwRDB0R1hjT1pKMjVPSVFuRnBJRXZ2QjhHVVdydGNrN2Z1S2dWV3FOQll1VGhTdWpfdE1ob1g3eXc2VmVXdkRvY2ExQnc0NXlPWXRTX3FXcHZvTHRONjI1Z0toYg?oc=5",
+    "source": "Hrana",
+    "fetchedAt": "2026-05-22T15:00:18.670Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=J-NomjLmTVc",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "J-NomjLmTVc",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "assailants-attack-tanker-off-somalia",
+    "date": "2025-11-04",
+    "title": "Assailants Attack Tanker off Somalia in Suspected Pirate Strike - Insurance Journal",
+    "description": "Via Insurance Journal. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBiaWVCSm5LS1JaYWVzV281d2Q5aFJyZzBnUTlVbjRvM3Y3QlFmbmdTWXFIR0kzbm9iMzRPM21NQVUwT2s2SWFHWEtSck1mYlk3b3RIdjhzaldNNVJBcHVINXZxSk1zeVlmdlEwYk1hWGlLSkxZcnNWMDRjNU5Pdw?oc=5",
+    "source": "Insurance Journal",
+    "fetchedAt": "2026-05-22T15:00:23.392Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=lcadsQ0D3vY",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "lcadsQ0D3vY",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "how-usiran-war-could-impact",
+    "date": "2026-03-03",
+    "title": "How US-Iran War Could Impact Global Oil Prices in 2026 - discoveryalert.com.au",
+    "description": "Via discoveryalert.com.au. Auto-detected by headline monitor.",
+    "category": null,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbERpMUVmV1k4UTJoQlVFQmhEdWZGdUNjT0lxQ3BMRExXQWYyUGkzR0dyN3QzNXFEZkMyOVdpMUJET1l1M1pYRXJRTV8yOXJSbWc0M3FFbkE2emYzckx0S2UxdXVkTl9TTVM1X0FzM2dkMDVFX2N5UjRCLWFUeFFvQ3pMTk1Sdw?oc=5",
+    "source": "discoveryalert.com.au",
+    "fetchedAt": "2026-05-22T15:00:25.575Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=pdqhJdk9vsg",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "pdqhJdk9vsg",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iranisrael-conflict-represents-a-test",
+    "date": "2026-03-23",
+    "title": "Iran-Israel conflict represents a test of whether international environmental law in wartime has any real force - Down To Earth",
+    "description": "Via Down To Earth. Auto-detected by headline monitor.",
+    "category": "environmental",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPZ25OQ1lkN0RHUU9mODRUMHhfLWtPbXg2TTk4RVBXVTJWZExtSXFPMk1qeWtlRHF3OTBteE1pa0pVakktNUZIbkZ6TE5zTEZKTHcyVjNJaWs3MGlaZFVTTkp5VkNwWGdGNFBONzRyQUh6ZGE5di15NDYwX1g2UUh2TkZKMGM4NkJYM2Q3Tm5LTEdLSE0yRmpqS09UZmMza1g4bFc0N0FfZHRiOXBWN3lUM1lmWlRWemhlbkhEcW9ua0JiOTJJSTFKWU5mZGliT19EVEsxeXFGUkZfWVZFX2RWUTNHQ2NPeGM4S3NMenFB0gH7AUFVX3lxTE5NRzJwWDEzQjVBQ0h1VFFPeDhtd1U5TlVNZ0luLUxlamwyZUtjNEkyVkxRZUVudFoxNVlmc3NscUs3T1Z0dklsMjVVQnN4LU92Z0piZDdZR2hOeE8tN0hRbXRuc3VZSVl4NlczdnFKaGxsYmdwV3g4SkQ4T3lkeDE5QklWa2NzdFI0alhYVG1YVlFUQkNlTXdLOTBKZEtvcVpvcjlhd05IMkpFd1c4OTgzZnNwMVZCb0NuOWxkblZHemZSdk1TNy1Hek9ZV2JWWENQdENScmpNT1c2elJab2t5ei1mZjlCYl9HLUJqTHI0bWJmekM3WGcxZkpF?oc=5",
+    "source": "Down To Earth",
+    "fetchedAt": "2026-05-22T15:00:31.842Z",
+    "mediaUrls": [],
+    "videoMatch": null,
     "lat": null,
     "lng": null,
     "zoom": null,
