@@ -1,113 +1,5 @@
 [
   {
-    "id": "israel-air-strike-hits-hospital",
-    "date": "2025-03-23",
-    "title": "Israel air strike hits hospital in Gaza as death toll passes 50,000, Palestinian health ministry says - Australian Broadcasting Corporation",
-    "description": "Via Australian Broadcasting Corporation. Auto-detected by headline monitor.",
-    "category": "humanitarian",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcjZSbWxIUWZkdWJXbmhrbHpjU0pwSDNfUk14TjdCUGUzWF9WSEtrdEczaFRMRnd3VkQyaV85Mnp6dms1NkFhM1Zyc3JEaFhxYUZ6VHJDUm12bVd5U1NDRm1CNVZwbDhNc2lYSkZEaDdSNlQ5TGJka191MVhjUUtyWnVUd3UxZGtVdkk4aW5SN0F2U0lwa19TSjlMQ3FIWFlpcHJWb0pB?oc=5",
-    "source": "Australian Broadcasting Corporation",
-    "fetchedAt": "2026-05-21T18:00:13.564Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=IZ1zpSZez8E",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "IZ1zpSZez8E",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "un-count-of-gaza-war",
-    "date": "2024-11-08",
-    "title": "UN count of Gaza war finds 70% of known victims are women, children - CBC",
-    "description": "Via CBC. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9yeUJoVVY1d3B2X3ZhaE50am4tdVQzR1NTWVBhWkh2Mkhvc21WMlNUdzJxOEN1LV9FTW1NaVhGZlF3cVR3WjdzaE1jb05SWlF3OWh5T0YzSWp1RjhrQ3UwS0hwcFFDOTdNTEE?oc=5",
-    "source": "CBC",
-    "fetchedAt": "2026-05-21T18:00:15.334Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=CY0xhtYNk0M",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "CY0xhtYNk0M",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "hormuz-as-deterrent-how-irans",
-    "date": "2026-05-21",
-    "title": "Hormuz as Deterrent: How Iran’s Leverage Could Reshape Gulf Infrastructure - Arab Center Washington DC",
-    "description": "Via Arab Center Washington DC. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPalNCZDNMNlpRZ29xRTBieVk2RnowTmMyd1hyRFFleVhVeXlvRllCajFGTTZNNTQ3THFqaEpLV3kxQnM2bkt0dnFGNnI0WlU0d3VKWHJKUC13SzdpRC1ZYlVXZUlVYm9QUW1TTEhtakdjdkhvMkhHaDMzeVNOX3pubTJBWWRfbjFwaHp1UHJIcldIUjU3Y21saUVNeE9sV2ZTUHR1UWpDc1N3Rm8?oc=5",
-    "source": "Arab Center Washington DC",
-    "fetchedAt": "2026-05-21T18:00:16.999Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=rHtmObUdLVw",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "rHtmObUdLVw",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "in-wartorn-cities-air-pollution",
-    "date": "2026-03-16",
-    "title": "In war-torn cities, air pollution from burning oil depots and bombed buildings unleashes invisible health threats - The Conversation",
-    "description": "Via The Conversation. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPcjVLREpZbVoydjFwSUt2dHg4eTl3eDIxOXBUemVndmJOUExIZklCZFRhSFJvWUxwbEpfVHh3MUF2SnFVR2lhbzA3LTlfeUNoSmtZVGZtUERyWUhMSTN0LWY1aWJtU3ptUEJxaFpJTWdJMGNpOWpJLUtPUnRxc0UydUZrSE1SS1VYMTRBTC1CNEVDSWQtdHNHazJLTXFXNjVCakhPVjE2c05qYnp3ejl0akxRS0dTckctUFM5V0o0N1NiTjF2dzhSd0RmdjFxYnlpUWpuS05RTE9fb1hQZl9Mcw?oc=5",
-    "source": "The Conversation",
-    "fetchedAt": "2026-05-21T19:00:11.923Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=MJ8QZXcEb3o",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "MJ8QZXcEb3o",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "irans-nuclear-chief-to-iaea",
     "date": "2026-01-28",
     "title": "Iran’s nuclear chief to IAEA: If sites have been destroyed, what are you looking for? - ایران اینترنشنال",
@@ -5166,6 +5058,141 @@
     ],
     "videoMatch": {
       "videoId": "zy2nXjnur90",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "cities-fight-decision-to-allow",
+    "date": "2025-10-01",
+    "title": "Cities fight decision to allow rebuild of oil refinery plant destroyed by Iran missile - The Times of Israel",
+    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTjB2SXFXWGdWX2tVV1E0NjZJSWJSZjZ2SVd0MFNsS0R3S1hqNVA4a1lLSFVwZmdUWm14OTlWQjJ6dUJFUmxYTjNBRVhYRVd4OFpJR21ISkFIeTRJTm5DUHIyNzRkQ0YwMmM1N05xSUo5LTVfdk45TnZmajRDY2ZMclZUUm1iUWt1Qy05RjJ6ZXhZWm1HMU5lRUlVNzU0aVBEYmhvWndzNTNTRUQ1QjQ2U0U5akNVVlNu0gG-AUFVX3lxTE1Kd014cnEtcldNRDlKdVpSMHJtb1U3WUNGRjRtaXhoY0R1RzYtQmZnbC0xakxPLWhJb3lHdjZJSW1Pc09BT1VoV3g5QnpXNWVCVm5HS0tGU3dybk50amVUTUw3c3NZMExYbGpSLUNLcjVqbU42WUl1RHJaTWpKVFVXVUNHQUxRZ1VXb2kwczBNaTRockpZNVk0UXZJb3Y2UmJtYmp3SXY5SV9uTUJRaWtBZ0ZfY3IwckdMM1FmeVE?oc=5",
+    "source": "The Times of Israel",
+    "fetchedAt": "2026-05-23T16:00:11.676Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=FrlPXE2uhhY",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "FrlPXE2uhhY",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "factboxhow-many-people-have-been",
+    "date": "2026-03-03",
+    "title": "Factbox-How many people have been killed in the US-Israel war on Iran? - Al-Monitor",
+    "description": "Via Al-Monitor. Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVFVOc3pCd3ZYTlpuNmxSRzNwbFJ6T1dkYzFCS3hpbXo1ek85WV8wd2ZwWlNabWRPVlpQVVlFYThINHdzMjlvNVZILUVPLWtsa1lhNHRneXpEMUVkMHhXUVVvUkpuRTFxanRESmp0emd0UnduejlwYnJKdGN1Z1RRM2JjbEhTZDlUZHQySm05TmYwWG1XUi1iTXJaV1l3dEJWd1gtYmlMUQ?oc=5",
+    "source": "Al-Monitor",
+    "fetchedAt": "2026-05-23T16:00:13.247Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=S743xQHjQDU",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "S743xQHjQDU",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "oil-prices-drop-on-prospect",
+    "date": "2026-03-24",
+    "title": "Oil prices drop on prospect of Middle East ceasefire easing supply disruption - Yahoo Finance",
+    "description": "Via Yahoo Finance. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1vT1U2SkV2RTRyUXlEZFJfU3FoNWJnZkVqdjlRV19KUGdwN3RRdmNWb1RYeUJlYmstWG9mTlc1TV9BODQ5NUc3YnRheW1ZZVFXWjZuT2doa0daLU1KUmJEWDFkblZWTm5nOGFGVGt5WWhSZl9mek1qSHFnQ2xzdw?oc=5",
+    "source": "Yahoo Finance",
+    "fetchedAt": "2026-05-23T16:00:14.851Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=Gi6fBALbGqM",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "Gi6fBALbGqM",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israeli-strikes-on-gaza-kill",
+    "date": "2026-01-31",
+    "title": "Israeli strikes on Gaza kill 30, including children at tent camp: hospitals - South China Morning Post",
+    "description": "Via South China Morning Post. Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQcHl4WkYtY0JONk1nQ0pJb3RWZl9hQUVQOWNjcmY1b2dGdE1NVEhHRU5GR052VFNiOW00Mm9pa2FqY0g0ZmU0dDdCeHFERFRDWnFSeWY1YnMtdm5EMVB4REJ4Ny1fd3Y4ODFuRHhxbmdITHRmdHpsY1R2VTZVQkJQa1NHSHpsY0R2OHlkRV9iWkpqQnRVTlgwUWdzemR5R25mazA0TnFBa0k0VkJycWRzSEM3OHRQVXFfUVA4ZjdNS3IybG4zZDZud0Z1Z2V0aEExNVdz0gHTAUFVX3lxTFBFMXBPWlBHckp2Wmd6NTF3cmtja3FkU01iV0JvemtOR016WDRHeXZnc0xUMktCbm56dWx5cTJ6cnhqS2J4Q3ZUbnNsZUxjS2NZV0lMaEpFZTBTT3V4elNNSkFYN0FvMDl3RnFrZ1hqYXVGTXM5b0xpNUV5UlowUWdZbWVzODVEX0pENjQzeXVDSFdLN3BZeGR2YlJhczVRRWdaS3hlVUtIRFNvWC1MYnlrd3Z4ckxqaDYxc0NFa0tiaUhzd21XTXFTYUZXZkswdGt1dzA?oc=5",
+    "source": "South China Morning Post",
+    "fetchedAt": "2026-05-23T16:00:16.460Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=PdoHRDkyqXo",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "PdoHRDkyqXo",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "four-hostages-seized-at-nova",
+    "date": "2024-06-08",
+    "title": "Four hostages seized at Nova festival freed in Gaza raid - BBC",
+    "description": "Via BBC. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE92RWp3UnRtQXNZb3J4a2RYYXFLOUVWYnVnbTF2aENUNUo1WjdkRTNFVVFXcWlPNjhjUEZNMTZLTk12TUtxMFVxaXhwWDhwYWtEVDJEVUlndlZFUQ?oc=5",
+    "source": "BBC",
+    "fetchedAt": "2026-05-23T16:00:18.971Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=gEhufZqdJ7Q",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "gEhufZqdJ7Q",
       "title": "",
       "confidence": "auto"
     },
