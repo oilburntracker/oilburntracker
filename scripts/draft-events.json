@@ -1,86 +1,5 @@
 [
   {
-    "id": "the-war-in-iran-a",
-    "date": "2026-03-13",
-    "title": "The war in Iran: a conflict with lasting environmental and health consequences - IRIS - Institut de relations internationales et stratégiques",
-    "description": "Via IRIS - Institut de relations internationales et stratégiques. Auto-detected by headline monitor.",
-    "category": "environmental",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbjFnYlA0UEwxdGQ1VVdCOUZud2xTSnF0d1dvRG95WEctU0g1VDhiT1h2dExoZ25KNVExcF9ZeVZIY0JkYzRaWm1qM2RjbVpwRkhDczM4ZlNnc2E0VEttdWE4ZFZVSno1QjF3d1BuVVhMUlVqTEhwYmFkc29CVU1mbk9UUzJuVWRsa2FXSjVHYlJaMlVFaDZqVThHOURXc2lhbUswOU4wUHp0M3ZJaGc?oc=5",
-    "source": "IRIS - Institut de relations internationales et stratégiques",
-    "fetchedAt": "2026-05-22T00:00:25.211Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=JG9HArC1m7g",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "JG9HArC1m7g",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "irans-gas-oil-sites-in",
-    "date": "2026-03-18",
-    "title": "Iran’s gas, oil sites in South Pars and Asaluyeh hit, damage unknown - The Jerusalem Post",
-    "description": "Via The Jerusalem Post. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBaX1d1LXpPVjVLRXM5Rzk1Wi1xSVdNNVpELXJKT185SGJvdjBNWTVTM0Q2MWNuMGNnZVlaWXBDNDF4dDhkUGZfSVQxU2wxQmJkbTl2dHMza2Q5Nnl4QVBBTFZNbjllaDE1MEE?oc=5",
-    "source": "The Jerusalem Post",
-    "fetchedAt": "2026-05-22T01:00:11.973Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=pJiaZ-ssPEw",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "pJiaZ-ssPEw",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "several-oil-gas-assets-damaged",
-    "date": "2026-03-19",
-    "title": "Several Oil, Gas Assets Damaged in Iran War - Rigzone",
-    "description": "Via Rigzone. Auto-detected by headline monitor.",
-    "category": null,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPLUdqTkFNUzdqaUNhbXppeHZrRGlpRjlCZWJ1UnJZRklsTk1WVVViMG9hY1c0YVE5VXM5M2RqYm1IYTNpalhNUlNNVFJYX0FkNGxNY1E5dm9EM0NvNDFMMXNsM0hmcGdvWVlOcHpKQ3lVVTRrU2NZU0pzTXNhZ1ZpdWJsNXV6RzhLN0JXNno1RzdMcDc4U1htMTBNbzVaNGF6ZG4xOXN0cw?oc=5",
-    "source": "Rigzone",
-    "fetchedAt": "2026-05-22T01:00:13.716Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=oJBcrdymS0U",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "oJBcrdymS0U",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "iranian-missile-shrapnel-hits-haifa",
     "date": "2026-03-22",
     "title": "Iranian missile shrapnel hits Haifa oil refineries - The Jerusalem Post",
@@ -5176,6 +5095,87 @@
     ],
     "videoMatch": {
       "videoId": "3QD2FP_gYDA",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-reports-usisrael-attack-on",
+    "date": "2026-04-04",
+    "title": "Iran reports US-Israel attack on Bushehr nuclear plant, warns of deadly regional consequences - Egypt Today",
+    "description": "Via Egypt Today. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRVhWYnNpUElqMlpwTUd5cFNkRHJLNUZNT2c3RUtXbENoM3JERFAxU2x2TGt3cndROGR6eVYySkdZOVJxYTIxRHk5ajB4aTNaczRmRjdvUmEtQmpwbG9OUGtwSFZPSVdnZkoxbWxyRnlvNTdVcTdnTVk0N1I0RC0xZlJIUTgyN3c1aGJIYWhqMnB3akpPcGtaVU1nbDRSbGg2bWJMaDhmdw?oc=5",
+    "source": "Egypt Today",
+    "fetchedAt": "2026-05-23T23:00:11.529Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=jIklgg05D8U",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "jIklgg05D8U",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "yemens-houthis-claim-responsibility-for",
+    "date": "2025-10-01",
+    "title": "Yemen’s Houthis claim responsibility for attack on Dutch-flagged ship - The Hindu",
+    "description": "Via The Hindu. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPNHhnTy1WcUM2bUdfYWtXelJzRktud1JLMXdXODFTc1ZMYUhnVEtJTnRzcEV2SnlUOVhhb0J2MG9jeWR6TkdWY21HenEwZldFYnBZbGRmSXpEXzVFR2JQbnhrWE9HNTNjVDRJQ1I0bFhIZnk1S1pjOFdzVFd0dG11dFFzMTM3REVTYTF1LVZ0aEV2VUdpeXdCWjl6cnY0czZYc0xCc3NfVFBVbzdGSnZqRDU3SlRHTVRFS0V4bmlDU25ITVhoRnVTbWlzbDjSAdMBQVVfeXFMUEN1X3RRcmlrcVhDaVJ5WGdrOEJOOUhnenpsb1BFVVRCcTFlb3ZxWE1iakRHZ1BtT2tXa2dWNFlwaGphR3FLVHVPYUJaTFNjYTQwN2Vva2RKcDBWMlVZUjRkVDZ6ZWNtd2s0NGI4U1p6dnhkeThieXZMR0l4Q3E2Y1JZVFp5TVl3dnl0UllRSkhvdUFDMEE4YjczRk1jQXVRYkZQYXUxZE1KRWVaX256U0M0Rzdac0V3RWlHNndhU1ZadTRFVjMzbm9kNkZGa1lUSVdxZw?oc=5",
+    "source": "The Hindu",
+    "fetchedAt": "2026-05-24T01:00:11.074Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=9UvfGShDMi4",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "9UvfGShDMi4",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "oil-prices-rise-sharply-after",
+    "date": "2026-03-01",
+    "title": "Oil prices rise sharply after attacks in Middle East disrupt global energy supply - KOLN | Nebraska Local News, Weather, Sports | Lincoln, NE",
+    "description": "Via KOLN | Nebraska Local News, Weather, Sports | Lincoln, NE. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOelNmNWlONkl6TnJNbWNxbEx0QXQ3bTBzdHhBeFFYeUIwUVNSdXY1WGdGOEdyUVU3XzFzb2FIVG04cnNPOExHam5qeFQtTHVZRWRrYTB5aWZpWTZuY01TNzlRQzIxZzNEaG96MHEySUpXcHplWk1JbHJULWFVWmZVRlpkTzlVd1MwcFFpM1BwdzNmYl9fcUlPelprUHdaTF83ZTYwOHV0ZW02ME5nSU1IQjA3VUdmeWg2VjBYRWlYekdJSlRPUGlpSdIB3AFBVV95cUxNTUhlMC1CSUY1bHo3bDFMNGhVU01VMnhiYjRxTndYU2JxZ1BZbExlMlFtUXFEUmM5UTN6amF1eUpJWl9nOEt2QXI5ejlWdWFaT040a2RYZkRLVlRBSWYwdEJkVXViQUxnNmRKNE5UOFBJTVN1WmNWM3J4bURtWlVVRzV1TGpzeU5CcHp6VlNrMzI2OEZieHBHSWk2cTBTcGxSVDl5WXRaREVUX1pLRmZzNjlfT0pUd29xbEc3UmNKMjRVVmdjdTU3aHZxMXlUZ3FXUTZpSmt2MjhtbzB2?oc=5",
+    "source": "KOLN | Nebraska Local News, Weather, Sports | Lincoln, NE",
+    "fetchedAt": "2026-05-24T02:00:11.609Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=KTsGeo3AB-U",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "KTsGeo3AB-U",
       "title": "",
       "confidence": "auto"
     },
