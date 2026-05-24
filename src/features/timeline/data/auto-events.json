@@ -14349,5 +14349,39 @@
         "label": ""
       }
     ]
+  },
+  {
+    "id": "auto-what-is-the-strait-of",
+    "date": "2026-03-01",
+    "title": "What is the strait of Hormuz and why is it crucial for oil supplies?",
+    "category": "chokepoint",
+    "description": "Via The Guardian. Auto-detected by headline monitor.",
+    "lat": 26.56,
+    "lng": 56.25,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPcDB1dk90QWw2aGxoOVpVUDZ1LWk4N2RKUWFjRWZmNU11dVNySVYxanJlRE9NT29jR2oxS0hpbnFmdWZXbTBnWmNldVpLeWRwZGE1Q0w4WUNsRjAzc1FyaWlvUHF2STVoWXNoamZiUXlkSXZKa0REbWVPc29yYjBhZjFXRGo3MGxw?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=7dVRH9YgtWA",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "auto-yemens-houthi-rebels-target-oil",
+    "date": "2024-09-02",
+    "title": "Yemen's Houthi rebels target oil tanker in the Red Sea. US says rebels also hit Saudi-flagged tanker",
+    "category": "chokepoint",
+    "description": "Via AP News. Auto-detected by headline monitor.",
+    "lat": 24.71,
+    "lng": 46.68,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNGJfUnpraG5fVmFmRVk0T3B0X09IbnZjU29qVnhhNjZwMG5VRTFHdS03ZWtjdDBnVDQ0MThrTzQxbDNIaEF3emV6QkRnRmdLdzU5dW5LdTR2eGcycExsT0xUMVVCSlg3dmROQUNzMDFCMktDSFp2SDdjcnVWOF9HTE1NUGhOVGZGNE5DMGlvamd0S3QyN00zSER4dXJEREkyNVE?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=0H6onwOrZAs",
+        "label": ""
+      }
+    ]
   }
 ]
