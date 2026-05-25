@@ -14400,5 +14400,22 @@
         "label": ""
       }
     ]
+  },
+  {
+    "id": "auto-un-underscores-protection-of-nuclear",
+    "date": "2026-05-18",
+    "title": "UN underscores protection of nuclear sites following drone strike on Emirati plant",
+    "category": "facility_damage",
+    "description": "Via UN News. Auto-detected by headline monitor.",
+    "lat": 30,
+    "lng": 48,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBEZ3IteTFXWW52RVJ6Wm1sTFhTYW1qdm04cUt6d0R5ZEdUNDBNX2tjZjZYTnp2N25KVExKZ1d2aENlMDkzY3o2Sk53UmxnTE5sZ0JudWVFSQ?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=68YRCBn4y9o",
+        "label": ""
+      }
+    ]
   }
 ]
