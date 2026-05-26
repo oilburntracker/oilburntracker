@@ -4959,7 +4959,14 @@
     "description": "Via NPR. Auto-detected by headline monitor.",
     "lat": 35.69,
     "lng": 51.39,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOTXNYWWkwVWx3NWlSNUdsbDAwd1c0RW1QdElMMHR2bHNkd2otLUNEUTdkYW5iWlpucEl4OEhiNmF1YjBFMXpHZDI3V0F3eGRwaFFqZ2tla0E3Slp0VlJrUVNJTmROMkoyaUlBckZLVmlCSUlncjRHd1pkMUdzenhhc2hQNUNlSmJLdk5PV2ExUQ?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOTXNYWWkwVWx3NWlSNUdsbDAwd1c0RW1QdElMMHR2bHNkd2otLUNEUTdkYW5iWlpucEl4OEhiNmF1YjBFMXpHZDI3V0F3eGRwaFFqZ2tla0E3Slp0VlJrUVNJTmROMkoyaUlBckZLVmlCSUlncjRHd1pkMUdzenhhc2hQNUNlSmJLdk5PV2ExUQ?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=VsyxuW-GgRk",
+        "label": "Trump honors 13 soldiers killed so far in Iran war | PBS NewsHour"
+      }
+    ]
   },
   {
     "id": "auto-war-cant-entirely-eliminate-irans",
