@@ -10471,7 +10471,14 @@
     "description": "Via BBC. Auto-detected by headline monitor.",
     "lat": 35.69,
     "lng": 51.39,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5KRjBROHNybW9HeEJvRnQwZXh0U3pJYjBFT1Rnd0ZhOUF5bzh2cFpWdVNRSjk2SnpaTllHaXNteGhwLUxUUG90b09qNFhEUFlIUGpseWZENl9Bdw?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5KRjBROHNybW9HeEJvRnQwZXh0U3pJYjBFT1Rnd0ZhOUF5bzh2cFpWdVNRSjk2SnpaTllHaXNteGhwLUxUUG90b09qNFhEUFlIUGpseWZENl9Bdw?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=NWz7dh1F2rA",
+        "label": "What now for Iran peace deal after US strikes? | DW News | DW News"
+      }
+    ]
   },
   {
     "id": "auto-these-are-the-casualties-and",
