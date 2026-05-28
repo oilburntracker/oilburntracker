@@ -1,194 +1,5 @@
 [
   {
-    "id": "oil-prices-rise-sharply-after",
-    "date": "2026-03-02",
-    "title": "Oil prices rise sharply after attacks in Middle East disrupt global energy supply - WANE 15",
-    "description": "Via WANE 15. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZGxEcnFSM0dqYW9jRlM1SjdhY2MtT1g3TDhqcXBqZk9FdTZrYzY2VEZFdnZjY18zVjRyU3BVQzlsRU1SNW1leXFsdEVDZGltRi1qQ3lfWTF0RXA1SXZMd1R5QklXUnJVdDVSWXJxYkpnQmFzVzkzUGh3VEhVdWNxcWlxSDFBbzVQZXN5eUxvNTZFWGRORlN1THJVVUE2Sk1UME0zMlZRbkRHakdqZTdWOXBjRVI3Z9IBuwFBVV95cUxOYkZsS3FmSV9SS3A4T2t3eE1LYlVadEYyUXlwdzAwb25YVEYyNFdwMDZnQlRvcFJQVS05dmZKMW4wcnVpYUtBWTdlNjliUk9oWXR5R2V5Nk9QTFBqN2h5UDczaFpsblV6SEZhWmt0aEpad19JeGxOTHVPNDhKczdneV93T0FRYS00QmpmVjVxcWlXZDgwUkpjUVRpUHUzUEpsV3FxWE9oU2I1dFJBb2U3VmxCazNobVlpbEpv?oc=5",
-    "source": "WANE 15",
-    "fetchedAt": "2026-05-26T00:00:16.869Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=KTsGeo3AB-U",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "KTsGeo3AB-U",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "hostilities-drive-up-casualties-displacement",
-    "date": "2026-05-20",
-    "title": "Hostilities drive up casualties, displacement in Lebanon despite ceasefire: UN - The Eastleigh Voice",
-    "description": "Via The Eastleigh Voice. Auto-detected by headline monitor.",
-    "category": "humanitarian",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNWGlmMWtTVERmYUpYODNLQWN5WWlrOW9YNnk3bV9YTTc5Y2haWC1TaTZrbmVSUmdaY2pQdXFJUEhRUWhQM0ZrMndsemZLeGR2OTNoN0pkZE5JMXdNM3ZqWUlnZnJhUWduaHFLX2lQVFJEdXREZW52cnFjWlBWaV81dlRSTU0wV091eFJNTkhudlNHbk5KNnJxZGJoYmt5UFlKNThNamh0TjgzaXdEMzBDOWRGQnRyS3RXRHZLNmk2SGYxdw?oc=5",
-    "source": "The Eastleigh Voice",
-    "fetchedAt": "2026-05-26T00:00:19.171Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=YPtIiQxP3qI",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "YPtIiQxP3qI",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "two-cargo-ships-sink-after",
-    "date": "2025-07-10",
-    "title": "Two cargo ships sink after deadly Houthi attacks in Red Sea - The Japan Times",
-    "description": "Via The Japan Times. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQkthWUFOUFNjSnBFT2hkQmdtZ2lERGhEaXRMNk5UX0lXV3piVk9HanhGWEdNdnhMR3R4ckQzbjdTZmtzTVBSM0d5elpCTVBGVHlXbWNhLU5fUGFpZnl4SDZ3bHN6Wl9CNlR5NkVfYUtoVmU2ellEeVdjYkFjd01YUDl3UDg0Q21nWmJwX3FlNHdnaUVxbDBsWDVuc08?oc=5",
-    "source": "The Japan Times",
-    "fetchedAt": "2026-05-26T01:00:11.692Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=yrfQ63EyEuA",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "yrfQ63EyEuA",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "troops-and-intel-reports-suggest",
-    "date": "2026-05-24",
-    "title": "Troops and intel reports suggest service member deaths in Iran were preventable - The Independent",
-    "description": "Via The Independent. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORWZiVmUycVIyMlc2bUlUZFhUMmJNbGZTRjE0OWNmV1ZLOUZ4Nml6NHB2YnFrQ0VoZG5IY2RiRUgwQ0xOaEZSYlpmQ2dRaDNuT0d6d3MtU0xDbVotTGJOQWM1eFloaTRIX25EVmp5ZURiOXg3UjlCN1JBQ2Y4Q2RXcHlOZHZiQlJpQnNXMElPZk1RUHBEUFNiVUtLYXRnVXhpNWtyWVB5TnFHMU05dzNlcl96SjZaRWRmeGRQRWR6YWdSUQ?oc=5",
-    "source": "The Independent",
-    "fetchedAt": "2026-05-26T02:00:11.573Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=Q1Soit_MQ6w",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "Q1Soit_MQ6w",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "idf-strike-kills-gazan-children",
-    "date": "2025-07-10",
-    "title": "IDF strike kills Gazan children awaiting food supplements, health officials say - The Washington Post",
-    "description": "Via The Washington Post. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNVZOTV9nSnZzOXY0bzBLSUZFZl9UQW1Fb3VoUGU0cmcySW8xa3F1Q2l2a1hBQmxaV01HQjQwYm5pTkJKTGNrbjdma1Q1d2YzYkJuaEIwWWJteFVmUEJMWkIzX1ZsZnRzejM4NjV5X01PMmZSTjhBaTBORlplQlVvMDREckpEZHVCNXFxc3RrMU1pRUJfS2k2ZEFlUnk?oc=5",
-    "source": "The Washington Post",
-    "fetchedAt": "2026-05-26T02:00:14.608Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=10w-HfWGrLg",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "10w-HfWGrLg",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "oil-shock-20-houthis-threaten",
-    "date": "2026-04-21",
-    "title": "Oil shock 2.0? Houthis threaten Bab Al-Mandab shutdown as Hormuz drama reignites, crude prices rebound - Gulf News",
-    "description": "Via Gulf News. Auto-detected by headline monitor.",
-    "category": "infrastructure",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNYk95REYzeFBJaV8xZkdnWUVFSWlFSXhIaDJCcW40T0NRS0ZGb2tWaElLTjlhSzFPLW5iUXNxY0hXOWl1VnFmUDNOb1NYOGdiTHUzbzBiblgyaVNyYUEtbGVZZi1JSjVxOVY1MFMxYkc1OEQ3OHA2bTZzVUtRQU1DYTMxTmJXZVZqVzRkUmpMY2htMlVIUlJxQ3ZJR1I5U0tmMmVIWFp5M1RFdnc3eFg0UU5GN05hZXBWblJfV1A5RjV1Qk55TTlnRVZ1UkZtQU1HN2VEdHdUTHVYSVHSAe4BQVVfeXFMT1pBd01CUFc3bXZjd0NpQndrNTV3OXhaY2RaTmdiOVBXeGxLdTRjRU9QVUQ3X0hpTFQ2WF9MdWdWLUhWSlc4SW1lcjZsTkRTTTlzOHhmSkFqQjhlcWxZd2I1WHZRQVJjb2hPbzNKRW1VOGVNWEdIcnlFcmhCR1c4RnN4SG1UZ0J0VUcySEc5Z25OQzY3SmdqWmFmRk82NjNyanJCZUp5NkxucVZIcTJqaktleHUzX1lwRVhzSnplWkNVbHpFVFRSb01XWUJPWktkUm1PMVhnalB0UnBqMXl1ejB2NkxISGg5dmhmN3d2Zw?oc=5",
-    "source": "Gulf News",
-    "fetchedAt": "2026-05-26T02:00:18.281Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=SkuERNYIwXQ",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "SkuERNYIwXQ",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "un-condemns-horrific-scale-of",
-    "date": "2026-04-09",
-    "title": "UN condemns ‘horrific’ scale of Lebanon casualties in Israeli strikes | Daily Sabah - Daily Sabah",
-    "description": "Via Daily Sabah. Auto-detected by headline monitor.",
-    "category": "humanitarian",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPamZVZXFybmI2bDJURVlkTmtlckxHSkZqZUlLY2xwUnBlckxOTERWS0phYjhzVGZLZ3owcWI4SnE1bjRBSzZWWjZxTVlXSEYyTjBpWkJDYjJqXy1DeW1nbkNJQml6X3YtYjBBcnRTWXZoWk9WbDBITmpqX3N1azZIbkhrUVZkQ2Zrc3AxSV9mbm5oUzVpNW9fQkJqenIyNmJYMmVwOVplc2kxbGJ3ekHSAbMBQVVfeXFMTXpadDZPdVEyV011TkhMWFRLZVFhMG9JZE5sQXh2dklMTzZrRmt2eXkwLVVlYzl4dkN5eTdMOXVMU1d0ZTVqNHUwMkYzY2ZlMDlhR3RvdVdMd3BEOGhCTXR4dDJyZlNBcHJfTEphNUpBVnlGN2xUOG5HY0pwbFluVk5vSTM2MUpDZURKMGlfVmNhQVRieVFSM1FBUVhlZDZ6REJ6Z1NkOEpsMVNVLWNqeWNIaDQ?oc=5",
-    "source": "Daily Sabah",
-    "fetchedAt": "2026-05-26T02:00:22.500Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=2p8KlUGAsA8",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "2p8KlUGAsA8",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "video-satellite-photos-show-iran",
     "date": "2026-05-19",
     "title": "Video, satellite photos show Iran war oil spill on Arabian Gulf island - Arab News",
@@ -5130,6 +4941,158 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOclFqM0tfVUgzeGlIWDVEQjhBMnpEb21Da0E1V3FiSlgxcGk0ckxtclBvYmNLZTR6NUg2cU1qdDV6bXk3LUpXTExvVldIOVVYZ05Uemg3SXpLLVFuU2xwNFBJSldlUElPekppY3dxdUNzNXd2MkhvWkhIR2k4RTJHeW1mUmVGNDMzRGtpZng0QzV2SU0zSDltVEJHaGt6YkhlS2Vnb0Z2NFpIeUZBd2ZVai1uSTJHbFdzZ3FkWnZrUXNlSUZNaGlhbnhR?oc=5",
     "source": "Hrana",
     "fetchedAt": "2026-05-28T01:00:55.799Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-attack-hits-israel-oil",
+    "date": "2026-03-19",
+    "title": "Iran attack hits Israel oil refinery in Haifa, some damage reported - The Straits Times",
+    "description": "Via The Straits Times. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPa2F3YTdKWnZRdWlvbEhUNGJmUUdBYUo3Zkw5VElrMU1kSTVhRUNRRkdLejNHcGdkT0k2RzUzcVB2WUxCVmtCZnhuMnNwQklTLWxHWWFobUFqQk5sNm1JOTVENXZIUk1zZnFnaGRScmdfZHJIVGxRQ1RzMTdJY3hyWndQZ3VjMVM1Q2tqOHRMNThLeFRnZmRrQmZrWV9JVjZPNk92V0FoVnBUM2Jid2x3VWFYM0RTd0hh?oc=5",
+    "source": "The Straits Times",
+    "fetchedAt": "2026-05-28T02:00:14.487Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=MXgdi1Ojj1c",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "MXgdi1Ojj1c",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iranian-drone-strike-hits-aramcos",
+    "date": "2026-03-02",
+    "title": "Iranian drone strike hits Aramco's oil refinery in Saudi Arabia - The Business Standard",
+    "description": "Via The Business Standard. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSmZDM3RFZHJYV0JzeTdzQU5ybVd2UVdLV3dqTFRxQzNZcnlkRVcxelVWTERlcXM4ZnUxaEpoWUN3WjNqd1h5N18yZGJ2cm8xWDJJM0xFRk96bzRidmx4eDU0NkVubDNlbUpzREk3bk1RZzFJaTdEcXdZOUxSTjM1NnNBcGpZVDQ4YnB1N3E4dU5kZVFad3JRYTNZcVZneGFzNWhpbVlCLW5saEtkMzJmR0tB0gG3AUFVX3lxTE5kekptR3ZtaTNQZEJkd1ZuR3pySFB6SmNzVkpqVTBxcU1pMGl1aEVOb19NLS1Qa2l1eFlfWnV6M0xsSjc4N3hVLXFkZm4wd2prMS1yWHkwR1c5Vm1EYzZVZDRyNHF4NnFzRlluSGlmZlkwNzZMdGw5LWktNnV5SU5pRlVqbVI3aEV4dEVXRkxyVDF6dzFmSnA0VFJUbkVJSTlnVHNadUlSZ0pmdjMyYUt6Vml5X3VjSQ?oc=5",
+    "source": "The Business Standard",
+    "fetchedAt": "2026-05-28T02:00:16.101Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=yAX4Av85F8A",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "yAX4Av85F8A",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-war-will-tensions-escalate",
+    "date": "2026-05-05",
+    "title": "Iran war: Will tensions escalate in the Strait of Hormuz? - dw.com",
+    "description": "Via dw.com. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBWYnZJLURyc3pUNDl0Xzg1TzlEZVZMbHVLODhKeHM2TW9acWFzemZwckQwTmdaN3lvYVo4VlBRb3JjdnpTMnU1XzBpS01VU3l5MGRXaWVmTEpUMVlfM0Rub2QwSlVOUWcwRnpmd1ZpQm9WeE1SdVRqTjlEd9IBe0FVX3lxTE0wR212akdxZk9GZFRFdVhFZTVVd194dVlETEE3SkpYOWlvM3hQb2MtTTJka2NoTjYwNzFvNlFsdXNDS0NZNk9tRkpsWXVCY1dNellkSVR2TVEzVXFCVFRFdnFxMDV3WGFRWXZ0MWVrcm9EYkJuRVczVXg2cw?oc=5",
+    "source": "dw.com",
+    "fetchedAt": "2026-05-28T02:00:20.084Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=SdChdQfgd6c",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "SdChdQfgd6c",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "cyprus-shipping-news-cyprus-shipping",
+    "date": "2026-04-08",
+    "title": "- Cyprus Shipping News - Cyprus Shipping News",
+    "description": "Via Cyprus Shipping News. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOaUZiVmU5cTN0cVJNMUVUQU44Rng2X2RkSnZBZk02U0Vub1B5ZG42UmliZTdISDZhYVJzZFI2dmZUSi1lRXJ4bnVwQURKa2VUVjhmZzNDakItcldMaXE4TUo0YTZfSUJ1SWRmaGFjeUhwbFM1cHJJWmhIYXczODRsQVBnQ0V5WU9CVGRCcXRIY1FoaDlMeEhpNkhBbEhHWTRzTWlEMWlHOFY5bWlJQWFTSjNkMmE4OEcw?oc=5",
+    "source": "Cyprus Shipping News",
+    "fetchedAt": "2026-05-28T02:00:25.202Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=0TtnuCz1jD4",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "0TtnuCz1jD4",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-war-deepens-strain-on",
+    "date": "2026-04-10",
+    "title": "Iran war deepens strain on Australia’s infrastructure pipeline - investordaily.com.au",
+    "description": "Via investordaily.com.au. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNVFEtOWFlOExiOGVBVUNYSmtfUHp6VFh3ZUZMLXFRUlp3dHp6dnhTR1lzR0c2Vm9YUzRzWDNjeVV6XzQ5X0MzeVppZS1XQWY1ZzUwNHhoc0xyTThwY0dVdE5EcGxnMXlhMG96TUphZVFxQlctajd2UkY0NkJKNjhnYU4xeHFXWEkxYXdva0VvOUpZei11VkNtYnhSSQ?oc=5",
+    "source": "investordaily.com.au",
+    "fetchedAt": "2026-05-28T02:00:29.979Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=uA5RBdeNDeU",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "uA5RBdeNDeU",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israeli-airstrikes-target-south-lebanon",
+    "date": "2026-04-29",
+    "title": "Israeli airstrikes target south Lebanon, causing casualties - 巴士的報",
+    "description": "Via 巴士的報. Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVURya3hPNlh2aTQ1VW9HSFRyb3BKRWthbVN3cTBzRFpKVmlZcmxwUkhCM093NV9QUkgxOGRud0wxR2x4OENjeDVZdnZqQmFuR1NyWTNNb3I0b2Y3a0E0WFlGNGJBXzlfMFMzSEs0RzBRYVFSanQ2M2hLdFdYNDlMQXBqVXlacWRrY01CbnBQTWR3TXFISkd1bmFhVUNJNzhSRWN4dWtOa0xCWko4VzhF?oc=5",
+    "source": "巴士的報",
+    "fetchedAt": "2026-05-28T02:00:37.361Z",
     "mediaUrls": [],
     "videoMatch": null,
     "lat": null,
