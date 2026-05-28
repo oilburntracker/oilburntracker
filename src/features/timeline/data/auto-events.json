@@ -14596,7 +14596,14 @@
     "description": "Via The New York Times. Auto-detected by headline monitor.",
     "lat": 35.69,
     "lng": 51.39,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUWdlcENqX1FyOXVjbkFKMDlGbjhxc2I0ZVNEVVpyWHJxTUttMGNTNkpkUnlER2pLaDN4MDhDMHdnWWtmSjNEOFNKRFNadWxwMlVTT0JIZlpQNHlpbW9JRWRZLTRkMUhUXzhRWk1GdFNMTVlpdC1PU2ZmZ290N19vUXkyN1k1Vjc5eEdhOEdYT3F4RjFfV0p2bTNQcGNuUnYxVmc?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUWdlcENqX1FyOXVjbkFKMDlGbjhxc2I0ZVNEVVpyWHJxTUttMGNTNkpkUnlER2pLaDN4MDhDMHdnWWtmSjNEOFNKRFNadWxwMlVTT0JIZlpQNHlpbW9JRWRZLTRkMUhUXzhRWk1GdFNMTVlpdC1PU2ZmZ290N19vUXkyN1k1Vjc5eEdhOEdYT3F4RjFfV0p2bTNQcGNuUnYxVmc?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=EQz86lq9dy4",
+        "label": "video weapon killed civilians iran news | YouTube Search"
+      }
+    ]
   },
   {
     "id": "auto-exclusive-iran-attacks-wipe-out",
