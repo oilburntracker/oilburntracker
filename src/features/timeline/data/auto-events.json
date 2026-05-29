@@ -24,7 +24,14 @@
     "description": "Via The Guardian. Auto-detected by headline monitor.",
     "lat": 31.42,
     "lng": 34.35,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQZExrNEFsaDdyMF9OaThXQlJRb0EwUzJiTlAyRjBmdS1obEpzMGpLbzB2S3VVUTV3OE9RTnM2TVZmRkhvODRBa1NJOGhaZ2RxZTd6ZjlaSVl1OUp4Zk55NHZRSVpLOUhhSWpaYVhUWXI3TFpic2kyOGl6WGZyLU1IZHFMWnp3N2VYZy1VYnlKNTlKWHY1aFhZdk1tQ09icjEwX0JKOS1jajJiaVdwRXdMc2tjNmxjd0Z4c29fQ3FxT3ZZODM1X0lqa3FmYUtDTWtSZDhkdkhwbkI?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQZExrNEFsaDdyMF9OaThXQlJRb0EwUzJiTlAyRjBmdS1obEpzMGpLbzB2S3VVUTV3OE9RTnM2TVZmRkhvODRBa1NJOGhaZ2RxZTd6ZjlaSVl1OUp4Zk55NHZRSVpLOUhhSWpaYVhUWXI3TFpic2kyOGl6WGZyLU1IZHFMWnp3N2VYZy1VYnlKNTlKWHY1aFhZdk1tQ09icjEwX0JKOS1jajJiaVdwRXdMc2tjNmxjd0Z4c29fQ3FxT3ZZODM1X0lqa3FmYUtDTWtSZDhkdkhwbkI?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=2F-j-_dVaII",
+        "label": "Netanyahu says Israeli army will increase control of Gaza to 70%, violating ceasefire deal | The Guardian"
+      }
+    ]
   },
   {
     "id": "auto-who-can-enforce-the-gaza",
@@ -34,7 +41,14 @@
     "description": "Via Al Jazeera. Auto-detected by headline monitor.",
     "lat": 31.42,
     "lng": 34.35,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTEFaTFkyYkNIeU4yQk5DT01wOUpFeUF3ZlpPT0Y5dE9tUHB6d2I3VERtcFduYVZ0SVhrdl9zTXpMeEJOYjl2UmF4VUJ6ZFVpNk53b0FZT19nbWk4SjdFMUFsR19xNE8xcDdRQmpRRzdPTXhIWm56UFMtTTB3ZWN3U1lmT2xrX3JmSDlqNzU0MDlleExYUV9lS2VBQdIBoAFBVV95cUxPX2lEYktOc0ZHSTk2SDQ0eVcybWozZG5XOXEtQlNJRTNrVjZEWklfTmUtSWlzQUpsaVBieXNha21hcUlnT0RCVnAteUZVUnFrWTBiUWNvZWVGaEt2U2tkYmpTYnNYQ1ViMWNRczlpQmJwQkh1bjRFVVdhbUh0dGhDVTM3dHVDdUF2OGNzcm8wY281UW1JczVtM0c1WlZXbkNU?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTEFaTFkyYkNIeU4yQk5DT01wOUpFeUF3ZlpPT0Y5dE9tUHB6d2I3VERtcFduYVZ0SVhrdl9zTXpMeEJOYjl2UmF4VUJ6ZFVpNk53b0FZT19nbWk4SjdFMUFsR19xNE8xcDdRQmpRRzdPTXhIWm56UFMtTTB3ZWN3U1lmT2xrX3JmSDlqNzU0MDlleExYUV9lS2VBQdIBoAFBVV95cUxPX2lEYktOc0ZHSTk2SDQ0eVcybWozZG5XOXEtQlNJRTNrVjZEWklfTmUtSWlzQUpsaVBieXNha21hcUlnT0RCVnAteUZVUnFrWTBiUWNvZWVGaEt2U2tkYmpTYnNYQ1ViMWNRczlpQmJwQkh1bjRFVVdhbUh0dGhDVTM3dHVDdUF2OGNzcm8wY281UW1JczVtM0c1WlZXbkNU?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=2F-j-_dVaII",
+        "label": "Netanyahu says Israeli army will increase control of Gaza to 70%, violating ceasefire deal | The Guardian"
+      }
+    ]
   },
   {
     "id": "auto-how-many-times-has-israel",
