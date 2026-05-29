@@ -1,32 +1,5 @@
 [
   {
-    "id": "lebanon-heavy-airstrikes-hit-nabatieh",
-    "date": "2026-05-26",
-    "title": "Lebanon: Heavy airstrikes hit Nabatieh, causing casualties & widespread destruction amid artillery shelling - وكالة سبأ",
-    "description": "Via وكالة سبأ. Auto-detected by headline monitor.",
-    "category": "humanitarian",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9xeHNVT0p3WHVfanVNUTgtZE1uRUxPeWJGdjEzd1lIX1FLcGNMOEMyek1RT3R3cm5pSEVGQVN4bDZNX01ma2Fldi1n?oc=5",
-    "source": "وكالة سبأ",
-    "fetchedAt": "2026-05-28T15:00:12.826Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=rcAi9TVyfCs",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "rcAi9TVyfCs",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "iran-says-peaceful-safeguarded-natanz",
     "date": "2026-03-02",
     "title": "Iran says 'peaceful, safeguarded' Natanz nuclear site hit in US-Israeli strikes - The Jerusalem Post",
@@ -4972,6 +4945,114 @@
     ],
     "videoMatch": {
       "videoId": "5_eT2kN0EbI",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "how-some-ships-are-still",
+    "date": "2026-03-27",
+    "title": "How some ships are still getting through the Strait of Hormuz as Iran war drags on - CBC",
+    "description": "Via CBC. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNFRoMG9wZzItbWNsa0lqRGdHNURfaHpFcVhLeEV2dFJNam9iOTZOUkpGMC1rR3E2OEo3SDB0dmJiMFlrVG9HdjZUOVRtV2tzcERnV2V0SzlVSk1NaUdWeWRaZlBGNTZSNDV5TW9wa0JRZEh2SHdKMVZlVWVJSnhsSHpZa3Y?oc=5",
+    "source": "CBC",
+    "fetchedAt": "2026-05-29T22:00:13.257Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=xlCX-jEt1Vo",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "xlCX-jEt1Vo",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "strait-of-hormuz-explained-why",
+    "date": "2026-03-10",
+    "title": "Strait of Hormuz explained: Why the Iran war threatens global energy flows - Gulf News",
+    "description": "Via Gulf News. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRUpCUUlhb19YTHZQYURYZF84TGN4bFV4QWVIYzlUWTFHU1B5VW1yZFNuSUl4Vk1tNWJ4ZHJnUFF4UHBqQlJDNW85TmdUOWw0N2UxNVVBcmNNekxidHItQ2NkcmZ4bThCZUpoVTQ5cjY4ZS15S0FrZWdXdy1pS1BOdkFpb0VxcDk3VmhhdUhNbHQyVG00bjBJa0Yxakt2ek1tQy1hNGM3T09kc05COVlDV01Sd3NSNFVN0gHLAUFVX3lxTFBra3h4Y082eEEwTzctQnpmSUZPdld3d0tzQUkwNXUyUEplZFZEZk9STGtlc3NkdTd1ZFJsRmVFcG4zX2tnNWg2R1JjUDZQQU8yZ2dJZmNUZ3JmVXhfSFZPZTB2TkhoeHo5cktTQmdnRFIwZ05ib0J3VHBWcFhrYnM5RmZ6cndrRmVaRkdVNVJzeXNCX3NmTnJYTWk0NUtocWEyU0tKY3dScFIwTnlnZ0NiT050WWlWNzdYTE12Z3VadmVGRU5lSXVrSWFF?oc=5",
+    "source": "Gulf News",
+    "fetchedAt": "2026-05-29T22:00:15.016Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=Rn69xI61Chs",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "Rn69xI61Chs",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "humanitarian-situation-update-296-gaza",
+    "date": "2025-06-11",
+    "title": "Humanitarian Situation Update #296 | Gaza Strip - ochaopt.org",
+    "description": "Via ochaopt.org. Auto-detected by headline monitor.",
+    "category": null,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOT1JhOEV0ZnpuQjN2WUNwU0RfVXdHOHdtMjdRWnIzQ1hoQUxHcUJsU0ZubWl2N3pSaVB5OHQxWTNxb0VLb3dxdGstWTN2VFgtdGd1ZkVwenlQQkhaVENMdklud3lsRS1UV3U3bWNDWDJzTzRCZTdTLWl3bUM4ajJVTjhn?oc=5",
+    "source": "ochaopt.org",
+    "fetchedAt": "2026-05-29T22:00:18.043Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=dgbFeEWUORU",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "dgbFeEWUORU",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "303-lebanese-killed-by-israeli",
+    "date": "2026-04-09",
+    "title": "303 Lebanese Killed by Israeli Airstrikes in One Day - Politics Today",
+    "description": "Via Politics Today. Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOSEl0T2NFN3RXbTBhTnVXWXF4QUNMUW1fSHQ5cHFoYkpVTWFrQkhxcThUYnhpazNXbk1RZ2c3Y19hVHF2R1p5T05qOGVvQURJUmw3YnEyMEhuYXRWc0kwV3ZCa1V5ckFnYy1CNXR6UXFiNG1QNlFITGJ3aFNUSGlsYjQ0bTR6UQ?oc=5",
+    "source": "Politics Today",
+    "fetchedAt": "2026-05-29T22:00:19.766Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=nXEAuqbBdDw",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "nXEAuqbBdDw",
       "title": "",
       "confidence": "auto"
     },
