@@ -1,211 +1,5 @@
 [
   {
-    "id": "damage-to-iranian-nuclear-site",
-    "date": "2026-03-18",
-    "title": "Damage to Iranian nuclear site not ‘very significant’ and ‘no casualties’, says IAEA - Middle East Eye",
-    "description": "Via Middle East Eye. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPdUxTY0pya3BFZTFybmNxVXNMN19BaVB2bkEtaEl1WkFwX3I3ajZjdVl6YVoxUTVtZXl4anlBRDBKT1ZlZE1WcThLOE41Yl9xZ0pINk5JUkJoMU41UXBkXy1MOUtNcUQwcGo5QkdpNlRzaEtmVXdab09xWXpDNzZhZXBCdEVyUDBuMkFwRTB3OWVVS2lQNE03dDZqN2dqZ0lvbVpWZGJFSHVLZGd5MlpvSHl1OFBaMXF5WGJTWmZuR1AyZndXb1N3?oc=5",
-    "source": "Middle East Eye",
-    "fetchedAt": "2026-05-29T12:00:13.707Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=V8YkWmKfAMs",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "V8YkWmKfAMs",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-reports-strike-at-bushehr",
-    "date": "2026-03-28",
-    "title": "Iran reports strike at Bushehr nuclear plant, third in ten days: IAEA - Al Arabiya English",
-    "description": "Via Al Arabiya English. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQQ1hRTjhQS0hJS2tzNUR3WVMtODVkMHpkTnpmcGoxMlV1VTlheU9XMUZYX0dkZXlYLWZxRzNpa3VtTW1PTFlQRF8xUnVRZHA3V2JPZHphclR5Y0c4Q3d2dXhDSTBTWmxObnV5LXpBS2JwamJUQllMZjl2ekpoNzRjSFhQcVg0NVYtbzl0MzZHWFg0YjdIUXc1bGxsTWRLRE13d1NsWS14amZMLWZiTXhydHVsaXB6ZWdBTnNMeGNmUnFGcDJa0gHKAUFVX3lxTFA0LUlmT2V3clJvdVZUUVhxV3h4ckVTRmRSSnl3bkNjZmJ4TnlNcy1HNndLU3M5ZTZFWWRJMkduNkpDekhoeHRqeDhQN1BrN2xYQXhaa1dlSnNZdzF1OEJCWU1ZdlRlTEJMSGNvR0hxY3pFQWRqeUhkNlJvUC02TndsLVFIRTZSdmUzZ0FzXzljUS1VQTNEVFBzQmdpMTZ4aEx4TUlVXzhLY3U5a1hfOFdtYWJobGJ4SlpwWlRjRjhqdTdqRnRhazVKcWc?oc=5",
-    "source": "Al Arabiya English",
-    "fetchedAt": "2026-05-29T12:00:15.322Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=p_54hrfo2pE",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "p_54hrfo2pE",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "un-atomic-watchdog-has-no",
-    "date": "2025-12-16",
-    "title": "UN atomic watchdog has 'no right' to inspect nuclear sites hit by attacks: Iran nuclear chief - aa.com.tr",
-    "description": "Via aa.com.tr. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNbXZjX3JoUU1IQnEtclNvZDU3OERmanB6OFRhYThmeDFheWRDZVBkM3NEbGk4eHBwRHplbGJZRlA1S2R2QzRmQnRoaUpsU29FR0hRcVljY2dqTDRndVE5S2NPVDZtUGFudWlhTnFDLXEyYmk5VDEzLWllbjFUejNrcTFMVnRzYloyZ3dwX0Y1OEx3b2RDVkw2Wl9OWm1CT0EwLV8wVl94TUU0ajIzTmd6a09LSG9weC1LMlk5ZTRUX2tRc0U0U0ZlbQ?oc=5",
-    "source": "aa.com.tr",
-    "fetchedAt": "2026-05-29T12:00:16.814Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=SXT33958tBQ",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "SXT33958tBQ",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "over-2000-dead-mostly-civilians",
-    "date": "2026-03-15",
-    "title": "Over 2,000 dead, mostly civilians, in US-Israel-Iran war | Daily Sabah - Daily Sabah",
-    "description": "Via Daily Sabah. Auto-detected by headline monitor.",
-    "category": "humanitarian",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVjA0NEpYOFdXTV9fWUZieFhNTm5FVEh3Z2NBbEIxemtsUGs5cXpWR0dUVGo3Y0hHdllZQk9qR3gtZm9GT1hhaHJDbk1scFBYWm5BSi1uR1dCV2N2MWlIcmdoaWJtcnFHWm1DUjBmY0xENlgwUzczYWExbU9TQlhTZVRGSUptRENpQ3puQWN5Vl9iZjN4RmRNN1JpTdIBoAFBVV95cUxQcWJhbEZxVHIzTTFsTkNtanFUVmwydGFocDlEaG1yZ0M5dWNDZlV2eGpKTUN6bkZxYWxUTzNLb1dRMUtjaVUyc2Z5UDlaNngwSHVNNWFuVEJjVTVBM2ZhUWhDU0JqSXp5ZWVHUTV0Z0RvcVRaV3JtZVMzWnVjZlMzcHRzajVWalJlbi11MmlNUS1DRHlHaGM2bHUzZExwLXls?oc=5",
-    "source": "Daily Sabah",
-    "fetchedAt": "2026-05-29T12:00:19.480Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=Mzvn-SKnXqQ",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "Mzvn-SKnXqQ",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "death-toll-from-israeli-attack",
-    "date": "2023-10-18",
-    "title": "Death toll from Israeli attack on Gaza hospital reaches 471: Health Ministry - aa.com.tr",
-    "description": "Via aa.com.tr. Auto-detected by headline monitor.",
-    "category": "humanitarian",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPM1U0Tno5UzJlb09RUkp3X3N4U2U1M3FUOS1oZk1oZFpBaEpuZTlIMEFQenBDLTRkTkxYV0QyR3NteTI3V08xZFE4UVBlckY0MndiVkRmZlM2REdrNnNsN29Xc2JILW9HOG9KaWE5bjU5TlZ6SXhNOHJCVmRYejlITEZ0RzlMSkpfXzNLcXplenhCRlc1dk1aR29sVkg5UTNfS21ZYktYclNOWHNnSWVNWi1iVWQwY2lKRWZYMQ?oc=5",
-    "source": "aa.com.tr",
-    "fetchedAt": "2026-05-29T12:00:22.153Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=RZqg6_Nac84",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "RZqg6_Nac84",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "greekmanaged-tankers-divert-around-africa",
-    "date": "2025-07-18",
-    "title": "Greek-Managed Tankers Divert Around Africa to Avoid Red Sea Attacks - Marine News Magazine",
-    "description": "Via Marine News Magazine. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNcUJUcWx1bEtUaDN3WklIWTBheEFUbktoaGpUOVRBSXR0Smw5RUNuYjRhR0d3a1RUV21iUXk1OUdSM0piQnVEcGFyVFlRWjB2dTlhRkZCOG5BYmNnTmxSWDJOUXdNQndVWnlFbERRTjBNY2VoNGNfY3RBb2loU2pRZ3ptbVZMX0U?oc=5",
-    "source": "Marine News Magazine",
-    "fetchedAt": "2026-05-29T12:00:24.431Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "11-killed-in-israeli-strikes",
-    "date": "2026-04-04",
-    "title": "11 killed in Israeli strikes across southern Lebanon - aa.com.tr",
-    "description": "Via aa.com.tr. Auto-detected by headline monitor.",
-    "category": "humanitarian",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxPU1gtZUw0dFRfc3BESVlRMmIzcWszVHZ1ZmVyc3FZYUh5c0JZZ1FQRFJGMjE3TDVwRVA1NkpEUWVYcGJMa0R2Q0M3M19OdVFpMExOQ09SZ0NIeGxEZklHSktSZ0VZZ1cyWHQybk9pOXczRms1MGIyczVudXRMTzdoNmp0SjZTb2x4Mk5IVzVTS0dkVFpIdHIzQnpVTmtPZw?oc=5",
-    "source": "aa.com.tr",
-    "fetchedAt": "2026-05-29T12:00:26.636Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=3QPwgBelsZQ",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "3QPwgBelsZQ",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "israeli-airstrikes-hit-wide-areas",
-    "date": "2026-04-08",
-    "title": "Israeli airstrikes hit wide areas of Lebanese capital during rush hours - aa.com.tr",
-    "description": "Via aa.com.tr. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNV20zdV9aNkt5MzN6V3NJaHNqMEpsQkdHbWcwWWlmai13a1BRNFBDNnNoMkNPQXlPT1dnc2xtR1B2cFFkZ0kxdjdMZ0ZtVGRvWXZmdUNaMm5zdGpSNG9Zc1lnY1VENjFkYTJBeVdnMDZYQ0RMLWJyZmEydXZiQnF3azNXSHpVT3A5aTlHbEVKYThMdU9hX0FqblVlRDhETjJ6R2lzNG0xR0liajdpbk5XTEZHUGxKZ1k?oc=5",
-    "source": "aa.com.tr",
-    "fetchedAt": "2026-05-29T12:00:29.145Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=yr3v-E-O-hs",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "yr3v-E-O-hs",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "60-million-tonnes-of-co2",
     "date": "2024-06-07",
     "title": "60 million tonnes of CO2: What it will take to rebuild Gaza - Euronews.com",
@@ -5296,6 +5090,195 @@
     ],
     "videoMatch": {
       "videoId": "1ARFZjlcOsU",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "japan-is-dependent-on-the",
+    "date": "2026-03-11",
+    "title": "Japan is dependent on the Middle East for around 95% of its oil supplies and gets around 90% of its oil shipments via the Strait of Hormuz, which Iran effectively controls. Shipments via the Strait have been virtually blocked amid the US-Israeli war on Iran. | via - facebook.com",
+    "description": "Via facebook.com. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNc2M5dW5lQUlZZGxrV2RXUnZGcnhfSjByMm45TWpMc2VjUzRrMzkxRzVqVzdheG5tOXBUS2xpWDE1TEpWaW9TV0pDTUI0U1JIWlJRRUFIdFVCNjNrWmFLYnBNaWdDZjN0Z2NCM1BZOGZzS1Z2TTM4c0g4eElJLWRsU29QRVJObUUwZm01RmtWck1rcUtrc3BrT3pCT1ZaTUNUcmhvV01JbkVFUHcxYmt3OGFiRUU4WEdIa3o4ZUdreXJJQXJVQ3RYaFJ3T0JMYmhLdFNXazBfN0dJZ3hi?oc=5",
+    "source": "facebook.com",
+    "fetchedAt": "2026-05-30T22:00:12.198Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=aRtvuqxuaw4",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "aRtvuqxuaw4",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "ussanctioned-chinese-tanker-transits-strait",
+    "date": "2026-04-14",
+    "title": "US-sanctioned Chinese tanker transits Strait of Hormuz despite blockade - Arabian Business",
+    "description": "Via Arabian Business. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNeFNPWFF0RDFDSDBZblllbmN3cHpBMzVHdVVBNTRKcGlxYkd3ejlLN0tKOTd4SWVuQUVZWU5DT3BHZ05wSmNsd01sY2ZqaGpsLXN4bGdjVmtfcUNCNGt0NkhFVnBobFUyNTB3cmlkMXUxazRnYnpKZy1ONV9obzA1bUplazVvT2Zfem5JMVMwVU9jOHVWRmJRNjlGclBYaWJyeU1IQ2hlX3pEbloxOU1NMjY3Ujk1UGhNOXVMSV93UQ?oc=5",
+    "source": "Arabian Business",
+    "fetchedAt": "2026-05-30T22:00:13.833Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=BpHhN0vqP0k",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "BpHhN0vqP0k",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "what-if-iran-tries-to",
+    "date": "2025-06-20",
+    "title": "What if Iran tries to close the Strait of Hormuz? - The Straits Times",
+    "description": "Via The Straits Times. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQQnAzSW9KUWw2OThwRV82bTZSQnNpcWxmYlhJSEhHVDhrSU9QRUFMalE1MFZ4TkNnTmt2OWFfbzI4Z0NlcUNZZDhBR0lIam1Lb0MyVUJUTW84UW5FdWFqbVFuS1p0Z2dpX1o4X0VYdGtSVGxIdWRsbWRLWWh4THB6eXIyZElZYXZqQnBmeXNEYXZkMnBDMnZFNFVJNA?oc=5",
+    "source": "The Straits Times",
+    "fetchedAt": "2026-05-30T22:00:15.321Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=kqFDYzssaH0",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "kqFDYzssaH0",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "why-the-gaza-health-ministrys",
+    "date": "2024-10-13",
+    "title": "Why the Gaza Health Ministry's death count is considered reliable - Le Monde.fr",
+    "description": "Via Le Monde.fr. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxObm9wd1pSREE3SUVGd2NSVmdUMmsxclNIWGhtd3FCTW5LYTV0S2N6clhGM1ZhS0M0SUdvZmE0ZGVUVS1YSHhrMWVJUWNNWUZ3MTNzVm5qYXU5ZVNZTjFIOFFKdmxReEppb0I5X3hSeFpnZEFUVm9vMUN3SnUwSENzcjBmLTBsVEF2anJsU1d1bmI1RGF6LTdLbTVSaEgteHdGOGstRXhVSkpGN29JRm9FVTZ3eWNOSHhGS25FZ1ZQYUpCV1NmTkE2b0FmeVJfcEFNVE5CQllB?oc=5",
+    "source": "Le Monde.fr",
+    "fetchedAt": "2026-05-30T22:00:20.842Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=WI0WXWWXhlY",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "WI0WXWWXhlY",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "deaths-from-israels-attacks-on",
+    "date": "2025-02-03",
+    "title": "Deaths from Israel’s attacks on Gaza close to 62,000 as missing added - Al Jazeera",
+    "description": "Via Al Jazeera. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNTlaRUdzenExWWE1b3JDSDA4d3JGU0pVeWJGMGJhVUR5c1U2SlFxN1RKXzhhNXJrMkt5enVkeFJGdTlhbll0ZFhIYVNBbUVEWDVrb08yU1laSnBFbkdBbG55TmtBdHVXRm03ZnR1QVhHN3ZwVjNZLWJKZ2lwUlMyVUJWWEtGcmdZM043YXh2bWdHczBNMnVfZNIBngFBVV95cUxNemFhS09SaTVIVDdGcFNfSG80MFRaTFRNN0dxc0Vzc2tOdmlkbTMtRzYxemJMT1hyZVMzdXVWbGtnV1lXc0FKbUh2MXhYai16NWtKUE1abGx5eUF5LVJ6ZUs3QUFLQl82VGdYZFF0TWJxVXBuWDI5SDF6Q090WlFxOWdzUkR2YTl1clFUMmo3cWJKSUphZUpsRVNTcC1CZw?oc=5",
+    "source": "Al Jazeera",
+    "fetchedAt": "2026-05-30T22:00:23.210Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=RZqg6_Nac84",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "RZqg6_Nac84",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-pressuring-houthis-to-attack",
+    "date": "2026-03-31",
+    "title": "Iran pressuring Houthis to attack Red Sea tankers, officials say - South China Morning Post",
+    "description": "Via South China Morning Post. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQV1ZNVUZycTRPT0NKOVJXZUJ4SE9WQ1lYdmdKcE9ZdURsanU4UFpKX0VVRC1JYXFNejZQV1lidjUzZHRORkNQZF9QUjF4ME0xUWJxNXlwSWJEcWtVTWhJdmZQdlRqQ3RLZy1jV1dTeXVNN3RDelh6bGJtbFRhOUtLd2JCcWV3RXRXZmplWFRsVlAxLTV2NXJ3dEREUlRacHhBY1l4NkwxWG94TVQ2dTkyc2tBczluZ2dwcHpzdTlUVXQ5ajFubVHSAcYBQVVfeXFMTjU5bElnTUQ2TmFIOWNjY255TDl2OXEwUmxqYUVTcXlrRWhIYzJuakIwQVhZVkEzTGtUNHZGZlVGR1pRLWphbzJ6dkVSWERMLXJaZXdMd0U0VTBINl9JbFFTVkxVUUtnNTFaVkFnYUJGMFM4dlY0bXVLTWNEZmZ4dmU4UVRaall1Mmxxc2FwMWpicVMwNlE4X1ZlT2VvWnJzOGF2VmE4YUFjeFFJSzJTb2N4Nkxublh2RnFDLVNSQ3RLRUdIS3Rn?oc=5",
+    "source": "South China Morning Post",
+    "fetchedAt": "2026-05-30T22:00:28.080Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=UztPrVTRp6o",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "UztPrVTRp6o",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "attack-by-yemens-houthi-rebels",
+    "date": "2025-09-29",
+    "title": "Attack by Yemen's Houthi rebels sets cargo ship ablaze in Gulf of Aden, officials say - Euronews",
+    "description": "Via Euronews. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPYzg1b2YzS2pWSTI2TnJGZUNER2lHbzgydTlwSXhNZU1DSW82ZFIzZDkzOWVYWjlfdm1EWjlETnNySGluaEFKYUczOTZmNnJaM3JFWWZ6aURaTWRNMERHZjF6M3FYWmJpWHF1X0JpYUpoQkU3LUp2aTdNSXN5djhwWEtNTEUxVnZNSEJYYWpSaU9uWVlRRHRVQWExZmRtbVhoRmVWamJacEZaX2ppOEhIY0txQ015UQ?oc=5",
+    "source": "Euronews",
+    "fetchedAt": "2026-05-30T22:00:30.729Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=wAIAXKSSXvM",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "wAIAXKSSXvM",
       "title": "",
       "confidence": "auto"
     },
