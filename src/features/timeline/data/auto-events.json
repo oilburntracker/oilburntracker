@@ -14903,5 +14903,22 @@
         "label": ""
       }
     ]
+  },
+  {
+    "id": "auto-us-military-says-yemens-houthis",
+    "date": "2024-09-02",
+    "title": "US military says Yemen's Houthis attacked two crude oil tankers in Red Sea",
+    "category": "facility_damage",
+    "description": "Via Reuters. Auto-detected by headline monitor.",
+    "lat": 15.37,
+    "lng": 44.19,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQRXZEYlAzMXRuTVVRd3gxcnpIRDkxZG5HakV0M2ZQU1Y4NXRnNF9GZWJldmxZdGlNMk9qR2hlWHhmOURZUTFoZFd6ell3ZVBvWG9rRmVtenFyc29SajlmNE15bXZRd2dCdVFJSEtSYmFrdEFURXdKaDVTWEVPVmNjSE1XRVM0YzRHRW14R3R0SWI0VURKRFYwNTNUYlRrYUdya2o4NGNQaUxkdlVZQmRMaw?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=0FiZMXLFbhs",
+        "label": ""
+      }
+    ]
   }
 ]
