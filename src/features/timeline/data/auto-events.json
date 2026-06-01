@@ -15039,5 +15039,39 @@
         "label": ""
       }
     ]
+  },
+  {
+    "id": "auto-us-crude-exports-hit-record",
+    "date": "2026-06-01",
+    "title": "US crude exports hit record high in May as Iran war tightens global oil supplies",
+    "category": "facility_damage",
+    "description": "Via Reuters. Auto-detected by headline monitor.",
+    "lat": 35.69,
+    "lng": 51.39,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNaXpYSkhEUGc2bmV1d2MxQ201MjlkN2VQbmVWcVJycVdaWDUta0ZaNFRSV1Zycnp0RWNGTWlYQzdKVFg5RktPZXVtOWhUX1JHbDQ0aTBMbGk5MDVGUWVkUUt5R19CWUtMOUEzekJJNDlqRkRNZHN3SGdxVHVXc1QxTU1KMXZRS19haU9XXzRTTFhOaThNQzB0Qmh5NGZCRDV3X09LUVROQy1ZV3ZWbFVvU2wyYUxuVDhFUVlfRDNJTnhWTzdG?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=fxaaafKqfJY",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "auto-photos-dozens-killed-in-israeli",
+    "date": "2023-10-31",
+    "title": "Photos: Dozens killed in Israeli air attack on Jabalia refugee camp in Gaza",
+    "category": "humanitarian",
+    "description": "Via Al Jazeera. Auto-detected by headline monitor.",
+    "lat": 32.07,
+    "lng": 34.78,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUGhqUGpGRDkxSVFOeFNaNm1OQmQ2SjZLbjB1cmo1QlplZnRib3VqNGxPZGZURmVwN2RCRk9LdnUxTkk1ZWZvNUFpaXZpUm42VVMxMDNfcjBXUUFvbDhVc2UzQ2ZNSjRtRjVRaXJIWW96Z2tydVNFb3ViX3hZekpDSThQMlBxaUhpYVE0VkpKSDBzSFlERUJyam40N3hzZlpuOVc2UnQ5RlpXNnl1MzdIVHZOaVNzd3ZlSUJz0gHAAUFVX3lxTE12Vk02U0xESzJHdUZOSTBjOTlTYlpQZ3phQW1pMFdQMVhiSlFmbGg1RDMxTEQ2UUk2WG1sSnBWR1ZYN3FDdXpiREw2NzRUTzhENDdUSTBETlNiVTZyQ2ozanUzb2swZ2FhbzlKSnllLTc2OEZWMmY4TjgyWlhBelpPWWRDRXVRZHg0LTR3clhpSkJsR2l5bVdIUjJoZGFvMGR1enhITlloUkJzZXdyeGlqczRYeTRPQnE3eWsxaFBCMQ?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=yoxOSJXQ8jI",
+        "label": ""
+      }
+    ]
   }
 ]
