@@ -1,1669 +1,5 @@
 [
   {
-    "id": "drone-attacks-push-black-sea",
-    "date": "2026-01-23",
-    "title": "Drone Attacks Push Black Sea Shipping Into New High-Risk Phase - gCaptain",
-    "description": "Via gCaptain. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNQkF3bzFiUmxQaGxFNUI2RXcweG96OGk5WFltTkozdmhnR0VZeUFZWkNWY3RPbjlHYnpic2JNaWlvZWRaclowd19Ob3NGUXRNR0NmRVhLQ2dXRUpFczBIVWR0dTB2WGREOER0UWhWWk40NlhqaHo4Wk9SVjN5aVV3YnR0UlZLRHFSNkdpTg?oc=5",
-    "source": "gCaptain",
-    "fetchedAt": "2026-05-30T01:00:23.282Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=fNfvr4zrKmA",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "fNfvr4zrKmA",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "houthi-rebel-attacks-rattle-global",
-    "date": "2023-12-12",
-    "title": "Houthi Rebel Attacks Rattle Global Shipping - WSJ",
-    "description": "Via WSJ. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNa2ZuTVpvTVlHdFZPa3luRUhFelpHcG5Kd0pFZ3luUDNmSll6MTkwUm9PdXBKNk5fMmNRYXNjU1VkdFJSYm01cENvdkQ2aGxKNW5rbS13c24xV1UxSThOdlJ0dUxqTmlHQWFpN05BbGtuWDdWekRhQm9VSjFDR29BR1FyZTc2VXJIZXQ2OXVvcGg2dHVY?oc=5",
-    "source": "WSJ",
-    "fetchedAt": "2026-05-30T01:00:25.907Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=Q9vAneT3-Hg",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "Q9vAneT3-Hg",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "azerbaijan-says-it-foiled-iranian",
-    "date": "2026-03-07",
-    "title": "Azerbaijan says it foiled Iranian plots including plan to attack major pipeline - The Straits Times",
-    "description": "Via The Straits Times. Auto-detected by headline monitor.",
-    "category": "infrastructure",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNb2xGY24tQlNUUEZwY0ZHbnM3UW9INEhJd1hFQ2ZHaUN3Y0M0cXVDZHo1N0VKMUhfTURqd3F6YnNLZ0w3X0YtaFh5UjUtcmVBa0hDWk1EdnBqY2ZDYXUydm5nU0JCZ0thYmtNc0JQYk5uTGlQenNOb2otMTJnbzBYc3NQdk9DcDBDU3RBX19WRG80S2prMmcwVWZtYWRKeEJFWmhXRFZqZXhLRmhZN1ljZkZn?oc=5",
-    "source": "The Straits Times",
-    "fetchedAt": "2026-05-30T01:00:28.534Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=nL2Gaq3Gfa4",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "nL2Gaq3Gfa4",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "israeli-airstrikes-in-lebanon-kill",
-    "date": "2026-05-27",
-    "title": "Israeli airstrikes in Lebanon kill 20, raise total fatalities to 1,021: Beirut - MorungExpress",
-    "description": "Via MorungExpress. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMXdBM3ByeWV2NlVwWXZCaVVuX3pNX1NXS2gxYUhNbTVySkFoWFEtcnNVVXNmMTNGUzVTVDNTSk9ac1hRVVBIaG93Q1hpV3hpcFRjVGpzU1l3RmtEZDdpSXQ3ZDhBUVMwcHlDdXJvTzF4NkZKWmx3dUNlcnNMSEU2aEJWVEs3Q0U1WVN5X0t0dU95dGpsUTRTNG1PaElpMXV2WHl6QXNDTG4?oc=5",
-    "source": "MorungExpress",
-    "fetchedAt": "2026-05-30T01:00:30.861Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=TlKNSGq3-JU",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "TlKNSGq3-JU",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "analysis-iran-likely-transferred-highly",
-    "date": "2026-03-29",
-    "title": "Analysis: Iran likely transferred highly enriched uranium to Isfahan before the June strikes - Bulletin of the Atomic Scientists",
-    "description": "Via Bulletin of the Atomic Scientists. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNSnRJOVd1RzlLaEJydzV1a0dpSHdxTndENzlIUGJ5bU15cF9SWEpiQ2s5N2NuQlhEU2xzVDVzV2JFamRwclFldjhWa2ExeFUzZmhDTWctQ0hYcjhLaG93M0RvbmFCZjdDVFZDRkpmd2p4bjJFVUN5WUxnUVdQNHphUHdhNC1lQTQ0dWpIM1NiNEZmT1ZsdE5HckR6ZGhZaDZVc05YVHNtT1hWUEc4N01hcHdxdktHV1RmSGVTNlNGRVFXQQ?oc=5",
-    "source": "Bulletin of the Atomic Scientists",
-    "fetchedAt": "2026-05-30T02:00:12.872Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=ev0hvfrLmvw",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "ev0hvfrLmvw",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "ships-avoid-closed-strait-of",
-    "date": "2026-03-01",
-    "title": "Ships avoid ‘closed’ Strait of Hormuz in hit to oil flows - AFR",
-    "description": "Via AFR. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNC12TEk2eWtCZzVoX2hCVG80T0o0OTRzX2g3SWZjTnczaUhJUnN1WTQ2cDRBN0lWMUdLMXZaZXlhaG1oeU5FeDc0WWUtdlJFMlNJQjhLUUpoLS1ZQllKenJLNGdBeFFBYk84ZVVTMkV6MG5NMzh3UTloWF9RbWNzN0VSV2JnVVVfaWNWMGdmb3ZDdFZfWWp0U3dEa0VHR2hPd0p5Wkdtc0FKYWxuczJBSC0xcjJYWHZW?oc=5",
-    "source": "AFR",
-    "fetchedAt": "2026-05-30T02:00:14.883Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=ayoNmsF7Fdk",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "ayoNmsF7Fdk",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "saudi-arabia-expected-to-cut",
-    "date": "2026-05-29",
-    "title": "Saudi Arabia expected to cut July oil prices to Asia as demand weakens despite Middle East supply disruption - Arabian Business",
-    "description": "Via Arabian Business. Auto-detected by headline monitor.",
-    "category": null,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQSWozMVJaQTRuOVJGb1pXeGE3MVljZEVGN09TenZaUlVpZkZRUC1ZaDloa2ktcjlhSzQtb3d3NUdPMGRGcTlEUWZYTmc1VVZpeXhjblRWcWMzU3ptNndiYzZLRFRJTnBienZkNzFkVmRzckdKYU5KM2htZ0FyaEFZejZYcHhDbXRpUGJma0U0QWlNV3F0Ym45NndKQUVrOFJmdjZHVjViMGcyZnZYNm9PdEJlUzRsdEFXa0Q1UWt3OGdpbWNreURKZ0hGQzc4M3duUkdySHhZdnRvMk5ibEJDY3pDanlSc0szaFJ3bQ?oc=5",
-    "source": "Arabian Business",
-    "fetchedAt": "2026-05-30T02:00:16.563Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=RSJooKg9598",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "RSJooKg9598",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "stocks-end-april-on-a",
-    "date": "2026-05-01",
-    "title": "Stocks End April on a High, Even as Oil Prices Touch New Peak - The New York Times",
-    "description": "Via The New York Times. Auto-detected by headline monitor.",
-    "category": null,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE93SjhHZ3VuQVBtWEwwVDRlVzNHZ29ZN3hjMW5RZDVJQzVxc3hQWXU5eVZfdVZLWVB5RnRSS1ZMTk93alhRR3FlYTl3cjJyZlZDRWRWaTJ1Vlg1UFBaM2dRalZvcU1ZWVhERkdZZGtnUWs2bVNKZUE?oc=5",
-    "source": "The New York Times",
-    "fetchedAt": "2026-05-30T02:00:18.190Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=A73Xq25LcNo",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "A73Xq25LcNo",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "brent-crude-futures-close-above",
-    "date": "2026-03-12",
-    "title": "Brent Crude Futures Close Above $100 a Barrel For First Time Since 2022 - WSJ",
-    "description": "Via WSJ. Auto-detected by headline monitor.",
-    "category": "infrastructure",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORXZBR0o4ZjRVbEd4bllmTG8xbFlDSXB3QU5xTXhSTEhoazFvVTI1M0NxZWRDM2VuN1ZFM1lObEs5U1prQUtTNFNYUTVkbC1EdVdpQXVDRTNoQk5UX0lpNkV4LVIxT24xX2NMd3ZGZkgwUlk2bjRCMGN5djlZM2lhUDNpQUFUeGxiejdBQU1QWVlYdnAydmhMRXM1bVk5T3JMNU5ZWHVzdjJXU0U?oc=5",
-    "source": "WSJ",
-    "fetchedAt": "2026-05-30T02:00:23.154Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=k3JSPhhiJhs",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "k3JSPhhiJhs",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "rip-up-the-glut-forecasts",
-    "date": "2026-03-09",
-    "title": "Rip up the glut forecasts - Mideast oil shock signals supply crunch - Reuters",
-    "description": "Via Reuters. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSnF3TnNlUzF2b0dGYVZOUndwQUswVkdKUGNoZkh5M0xLd1dmMk9RZDNGVm9kWlJBWXg5b0hQSUdheWVmM01uZU9STVdtb0RhUEhVbUpUdGpLSEZKWEhfbVRKb2llcnh5MW1IUjRNRW10TTd3SWZKSFVwa3JlLW1EOUhxNWNGWWxpWEJtMF9DVTIyUnNQcEFkSUNTaGZVRXRsWVpNMFFHbU5ZemRrM1ZES3hmbzd0RWdH?oc=5",
-    "source": "Reuters",
-    "fetchedAt": "2026-05-30T02:00:25.659Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=8aVaW2hCYG0",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "8aVaW2hCYG0",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "irans-allies-threaten-red-sea",
-    "date": "2026-03-21",
-    "title": "Iran’s allies threaten Red Sea attacks as mullahs choke Strait of Hormuz - New York Post",
-    "description": "Via New York Post. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMjZuYWRSWGdRempEY1NxR2h1NWpXdXZtLTNjMXY2Q0dLb1h6ZFRrTE9nNVljSUhEZS1pNHFaTWotWFVBUkFDTjVnVTZXV1JNOTBNNERnSkhIUnppdVVja3VRMGh5aW9TSFpXYnNYRVhvLXVWRm1aaFA2eHFaQ2o1WFYxMmxNbVNqUmtmY0JWNVFzeFFPX0ViRTRDNHV6M0JDYl9qSEhYVEl4M3BONWQw?oc=5",
-    "source": "New York Post",
-    "fetchedAt": "2026-05-30T02:00:28.364Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=BDOrZ0BJ0ag",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "BDOrZ0BJ0ag",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-missile-hit-oil-refineries",
-    "date": "2026-03-20",
-    "title": "Iran missile hit oil refineries in Haifa, 'no significant damage', says Israeli official - The Times of India",
-    "description": "Via The Times of India. Auto-detected by headline monitor.",
-    "category": "infrastructure",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxORGJjYlpFdDhBM2lVYnFxSlNkUFBoRVdnWEZ1Umw3OUZGelk0V2FHbUJZU1VEV3RyZkV4X2FnYW9aN2VUMzR6U01qZkpzN1RmQkpibm1iaXluWENKZGF6aXBCYkE5aHcxMFN6M3RMYk1Vb3ZjN1Q3dF9VU1hGWXhVSWpsMW1ZUXkzTXFIelZUWWhCRnhjemRIRTl1WG1BTHlPOXRpMndCeUZjcjhtb0RWM0VIQklpNkdvdjFodlY1T3B1ZlNsMHFJRDlsT01iWndWZHgwRnkzSWt4ZFotbWppa2NZamRodzUxRVoxc2ItMzg4TVI4VFlN0gH8AUFVX3lxTE1hcmtWVV96R3RDWXZQWXZqbGFlWUxtZld0dUtkVjZ3cUR6QmYtcEhsVnZvME9jZExNQ01jcHA4LUw3MkJjSHNRUm0yTS1zbkF5ejlTUnhZWXlJNS1KQTlYc1lMY1ZPQkZyYWhfTzJ3QlJ0Snd6Mm1QVmw0MXkxbWRabXlpTUlJeElnUGF5LVM2TzZ1M2NMQkZud1NuaXNUbHppOGR5bXh0aFFkZW5JXzg2cUhQUVZsN0dtMjh2QVlMRzFsZFh6SDViT1I1TElKeXlyUndNbWZrU1dkMmZSX2tDUjg3dFdacGxNc1hQTGdQTFFETmI2THpVR2dBRg?oc=5",
-    "source": "The Times of India",
-    "fetchedAt": "2026-05-30T03:00:13.101Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=rhxIcZQDUMI",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "rhxIcZQDUMI",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "global-fuel-prices-soar-as",
-    "date": "2026-03-19",
-    "title": "Global fuel prices soar as Iran hits back at multiple Gulf refineries - 980 CJME",
-    "description": "Via 980 CJME. Auto-detected by headline monitor.",
-    "category": "infrastructure",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdndYdF8td3pieVN2V2tkY0xhUjJwZ1E2MzlPeHZLWElnc3FmT2lTZTNEZFNRNERzOXBKaTE0S3ZVQjItYmhndGE2SUhEZFZHenp3SnUxbVNmUzlsSHNXcldpWVROY2FGaFNXalFZSGxqLUpTU2ZQT3pRaUw5YXJJbXBEeXJHRGhNTEliYjdrWWdtaHZpTk43WENCX0o1YUNYSVFudA?oc=5",
-    "source": "980 CJME",
-    "fetchedAt": "2026-05-30T03:00:14.694Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=-97VxMCKAWw",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "-97VxMCKAWw",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iaea-confirms-entrances-to-irans",
-    "date": "2026-03-03",
-    "title": "IAEA confirms entrances to Iran's Natanz enrichment plant were bombed - Al-Monitor",
-    "description": "Via Al-Monitor. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQenRWRFZqRDVpNjI3RjZmWmp0SkUxNUlPeE5KRi1rRU81OGNpYUR3VXNiU3kzQi1vRjQzalBGWVRxQUhDNTBmNjlxQlRLZExYVGQ3SjJqQmJucWl3SXhTNS01TDI1X3RYR25BMGJLZVlCc1A3RFJSMF9ZYUtKbnNhZ3IzbGZkdWhQZi1JNjJmU1VoNHR2ekFGd1dKRnFyZlhRcU1hZ1VvT21LWkZqY2cw?oc=5",
-    "source": "Al-Monitor",
-    "fetchedAt": "2026-05-30T03:00:17.651Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=Pc0AsGVModg",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "Pc0AsGVModg",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "key-iranian-heavy-water-plant",
-    "date": "2026-03-30",
-    "title": "Key Iranian heavy water plant offline after IDF strike: IAEA - Denver Gazette",
-    "description": "Via Denver Gazette. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSnRsa1NYc2F6czJLTmg5dzUxMm56eHptaFdyX012NnNsYm5mRGpOeGx3dnBKN0t4MThHcHZWQk5pSk5fLXEwODg4cFdyOHZwQjk0QnZnVTY2VlBlRUtPemZid1p0V0VKMThCcFJ3QlZwQkhDNXVNM2xIa21wSFluYUJtQlFjVFF1TDlqWm1CRzhRbW5JWkVCNm8wRjJlV2Q3VHhv?oc=5",
-    "source": "Denver Gazette",
-    "fetchedAt": "2026-05-30T03:00:19.189Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=5HGHFT-86aM",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "5HGHFT-86aM",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "israel-says-it-did-not",
-    "date": "2026-03-21",
-    "title": "Israel says it did not strike Iran's Natanz nuclear facility, points to US role - Türkiye Today",
-    "description": "Via Türkiye Today. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPQW1lU2w2anl1R3pPczk3QXhKUEtERldMcmtfTXVpMWRIaG9mMVV1Y2RhczRkU0JQTzVLRVJueEcya1pmUW1oQUlyRTBEQVpxcm52bnNZQ1Y3LTd2UGdmQWl4RDNSQXhJdm9QbHU1Wmp2c292blNGLXU3RnhGOXR1Q2JSbTBGTVFpUlBEU0FpNllDbnM1VmdDREVjS052cU1UM3BDaFAtd0JwZ3RmNTU1ZUVFM2tCMkZRY0pseEVn?oc=5",
-    "source": "Türkiye Today",
-    "fetchedAt": "2026-05-30T03:00:22.292Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=p1vUG0AIxeI",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "p1vUG0AIxeI",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "hormuz-blockade-halts-oil-tanker",
-    "date": "2026-03-06",
-    "title": "Hormuz Blockade Halts Oil Tanker Traffic Completely Amid Iran-China Consultations - Businesskorea",
-    "description": "Via Businesskorea. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE02TVc2TmN4NVhyX3VNRUxWYk02a0dSOVRfLTNYbDk3RmVMakpUaGNvNkUxRWJWTm90dE9pZWMtVmtVWmdCRWV4S3JKRzFXRDJQSnVkQk43UjluZF80bWRVejNDOFoweTYxc1Z4emlJVHlIR2hK?oc=5",
-    "source": "Businesskorea",
-    "fetchedAt": "2026-05-30T03:00:24.531Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=BpHhN0vqP0k",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "BpHhN0vqP0k",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "israelhamas-war-gaza-conflict-explanation",
-    "date": "2026-05-27",
-    "title": "Israel-Hamas War (Gaza Conflict) | Explanation, Summary, Ceasefire, Casualties, & Map - Britannica",
-    "description": "Via Britannica. Auto-detected by headline monitor.",
-    "category": "humanitarian",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBlLUZSVWt0R3QwOVg1OENhbGZKXzBFbVk4Wi1kVGdvay1zRDN4Z2ZralpEZzVCV1N5Z2JUcUpYWFU1d3hLUThZVUxuN1JoTl9rLXJGMlhmT3o0NmdqR2c?oc=5",
-    "source": "Britannica",
-    "fetchedAt": "2026-05-30T03:00:27.315Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=Xxb1a8k0O2I",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "Xxb1a8k0O2I",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "war-widens-in-middle-east",
-    "date": "2026-03-02",
-    "title": "War widens in Middle East with over 500 dead, according to Iranian Red Crescent Society - Fortune",
-    "description": "Via Fortune. Auto-detected by headline monitor.",
-    "category": "humanitarian",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUVZWR0I2OW5pOUtvYXBlSWY0Rkx4UGFLcnJOVWQwOXRUMWdVckNzUUgyOUl3dU02WTYtUW9GTkdwelBNYl9oYzhSbWFqNnhfLXItTFZxVUlub1YyckZYUDZuQVQxQmJHSjJjM1ZCbjNnYkRraWZZc2RuVjFReUYzWmF3MXo0SzIyRXJfdmg3RFdBY3dEb1VwWTlyOVQtY3hRRmFfeWlhQ2QzRDllZFBUX2pVaTFNOGJBUWc?oc=5",
-    "source": "Fortune",
-    "fetchedAt": "2026-05-30T03:00:32.376Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=1NobkSB3oo4",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "1NobkSB3oo4",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "the-largest-supply-disruption-in",
-    "date": "2026-03-12",
-    "title": "'The largest supply disruption in the history of the global oil market' - qz.com",
-    "description": "Via qz.com. Auto-detected by headline monitor.",
-    "category": null,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9aWWN3dENwdUlhZTRzckdKVlhvSWV1eFlBNTRKMk1ST1hWWjViVnk3UWVRRllCS3I3eHVJSTF6Ry1WNk9TVHhBQVFwQnpPS1h1ZFo0UGNjNWNTSXkzZVZaX2VUQlJQcm45VGN5SlVn?oc=5",
-    "source": "qz.com",
-    "fetchedAt": "2026-05-30T03:00:35.310Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=hp_kcy0kjJQ",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "hp_kcy0kjJQ",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "israeli-strikes-in-gaza-kill",
-    "date": "2026-02-04",
-    "title": "Israeli strikes in Gaza kill almost 20, including 2 infants, hospitals say, asking, \"Where is the ceasefire?\" - CBS News",
-    "description": "Via CBS News. Auto-detected by headline monitor.",
-    "category": "humanitarian",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQ2lNTldqU3hPWE03S00yZU93eTB5ek5oT0RTM0llMS05TUI4NGRlN1FMeHJ2WGVPTGZhVjRQcUZ5N0VyZDdGQ1FkSjh3aVVyU3lpUmdJV1c2aHpZWFdTRmhRZWt2eEM2QUpEZnE3dzRRRmsxNU9YNTJmWnZuUU5xUVRrTUZCNUFKV3BBLWNzUmJTUnFGYjF3cEpBVGZqR2JnM25XRtIBqgFBVV95cUxPbUJ1ZkM4ZEVQZ1FVbHBtdk9VLUY2cklpZFRxZFRxeXlQelhtUlJLVEg5dWxjdUtmbFJIcVBLMXJXWlZBbzBIdnBONjVLT1FpY2ZVWUFib0I1MWl5Vll3Ql9Kcy1oLXR5QnVpWV9TbGh1MndlT1l4eEZPUDI2TkEzNTdsVjEwdTJvd0pacFpJdzU1OF9mT0pNRHZIUERzaExacHNNNnhib1UyZw?oc=5",
-    "source": "CBS News",
-    "fetchedAt": "2026-05-30T03:00:37.995Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=PBHvpGs50Yo",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "PBHvpGs50Yo",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "israeli-strike-on-media-tent",
-    "date": "2025-04-07",
-    "title": "Israeli strike on media tent extends journalist death toll in Gaza - Al Jazeera",
-    "description": "Via Al Jazeera. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbnc3WnR0ZEVwcXdCalRmdWR4V0tBMEQxMnd5emVZeGFpYW93cXBBQ0tNTG41U1ZnZTJmdzVfQVloV0RpSWgwb2JIekJMMGluQXJRLW8waDA5azY3ZXE2RlNrSEdtM1Njck9LLVZqZDFBMnJVNlVPZnRJWkpIdnI5UXBxYkUyeGgyMXlsOTFnSUpvcUZiYnNFbTBaZnNnelEtSUdzdNIBqgFBVV95cUxNV1NxNmowbXVYMU5tSWYtODFsYWlEb0VXVkZSRG1GdFR2aFhuTVRTU3NEcG9NLVVWbktWNEFiem95eGpFekNvWVdQZmVSZVctdEtxbDNjdzBtbWlCTHlZQU1qeHkzUWhrZkpfb3JheThxY0ltaHdDVVRyVlJVa2h4cUU2Tl9HVy03MzA5eDlpUmlFcnZVRHVaYTA0WkZieTV1VUdPMXV4ZHR6dw?oc=5",
-    "source": "Al Jazeera",
-    "fetchedAt": "2026-05-30T03:00:42.629Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=4U2ObMt9lMU",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "4U2ObMt9lMU",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "strikes-hit-iranian-energy-facilities",
-    "date": "2026-03-24",
-    "title": "Strikes Hit Iranian Energy Facilities in Isfahan, Khorramshahr Amid Ongoing Tensions - Kurdistan24",
-    "description": "Via Kurdistan24. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQdFp1NE9wQzhGcENaLUJKNzBKSnU1VC1QbGRtV2xpWXg1dE1jcWN3cDBRUEFrLWtqVnJ1TWtxR1VTRTlySE5YUDRzUHNhbUlGcnNKNEtzUHJUN1NseVRFQW9NWW0tczhTM1ZLb3lKNkNvRUVsbGg0eTBqcHJ3X3lmY2V1S1Voem52WG5nUWV6UkxJSEdhQ2RwdkZ3S3h1S01BUlYtOFhVZEVEcTA1ck80Qzcwd3NXc0s5WGVaekg5SmRxUElueXc?oc=5",
-    "source": "Kurdistan24",
-    "fetchedAt": "2026-05-30T03:00:45.178Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=OkQvZ0xskd4",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "OkQvZ0xskd4",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-reports-strikes-on-gas",
-    "date": "2026-03-24",
-    "title": "Iran reports strikes on gas facilities despite Trump's pause signal - TRT World",
-    "description": "Via TRT World. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBtc1JGYktZQjRleEcwRlFZVV9RY185ZmFSTExoMlVVaDlSTld1LTNMamVOTWpPYWxqMXE0b2YtYlhfY1hFbDBOMmZYMDhGaEFwVzEyTDJqblM?oc=5",
-    "source": "TRT World",
-    "fetchedAt": "2026-05-30T03:00:47.625Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=ZjedheKvuC0",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "ZjedheKvuC0",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "israel-strikes-dozens-of-targets",
-    "date": "2026-02-11",
-    "title": "Israel strikes dozens of targets in Iran, including nuclear program: IDF - ABC News - Breaking News, Latest News and Videos",
-    "description": "Via ABC News - Breaking News, Latest News and Videos. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQOU1QX0M0dWJyMlVlT2hKM1k5MUNkYWxBVlhXZ0pQaGh5LWxyVktUV1R5dWtqZl9xMVEyUW5wTDNBSFZMb1pYTFlVaEVqdmcxZmpaUGtZQWR6dzJkMTZvSVBwOHZDYzNiT21jS1RWS3JYazJnckFWWWM2c2hTcFJ1U0hwd1ZIZDNoZnRJRXp1Z3BPTWZpZDdlb2NrZHpETDdLTWfSAacBQVVfeXFMTzh3bURhUmpMQmZnNG01RXpDczB5U2l1elpHemI5S2hCVWNBazJQWGlpV2NoaXpLMklSOTloRjd1SkdKREJsczQ1LThGS3RGWWdKTmdKY0c4XzBoTmZZVUxnN1JzZmRGVzFGMFMyTTlfYlJlRXp5bldpaG1USmxCY1BDa1ZzalJzajEzYjJHNTVoNjdpa3dTRXhnY3hfYXZBS24zQjVEUDg?oc=5",
-    "source": "ABC News - Breaking News, Latest News and Videos",
-    "fetchedAt": "2026-05-30T04:00:12.759Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=4OMeMgaJJGg",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "4OMeMgaJJGg",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "hormuz-stays-blocked-for-now",
-    "date": "2026-04-09",
-    "title": "Hormuz Stays Blocked for Now as Hundreds of Ships Seek Exit - Insurance Journal",
-    "description": "Via Insurance Journal. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBkSHhlSnJnUXVDelFmZ2NKNFk0NGxOZ0k2MVFPU0NjVUFtR0dZTFhpWHZBYWF4RWNZeThkNmJyU0dLN2ZESkp5TW83WGxnTmtyUktaLUJES0JFejhkWm82bFRkS1VodFFGb2tENW10Z1h5T1d5d21Yb1pHR25PQQ?oc=5",
-    "source": "Insurance Journal",
-    "fetchedAt": "2026-05-30T04:00:15.958Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=OFNwrMhC7mE",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "OFNwrMhC7mE",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "chinese-tanker-crosses-strait-of",
-    "date": "2026-04-14",
-    "title": "Chinese tanker crosses Strait of Hormuz, testing Trump’s blockade - The Hill",
-    "description": "Via The Hill. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZDFhRDBWNFhNbzJRbjFxdW9PQlpxM2lNMDFhYmFtRTdHbzlqQ1Z0ZUlkZE9pbm9JYk1JejFQQm1STDdJcE1EZVJ4Y3Z6emgycjhlNHVNSXNtUFRvZHRybV9ER05mcWlEVHFkbXc3a0VzY1dSdnNqS0Rwa09taWFCa01TcGdPbk1GbERVczNTcULSAZYBQVVfeXFMT0YtUGlqT25qcmN5Zl9CNEh4OW5BeWpuMlc2LWF0RVBaZ0RBaXcwZlJzQUtEaVlQbXd1bUJRbFc0OVNhX0tBTWRvcHBLUGk4eld4eE50LTBIdlpFd2hkd3ZTbmRiM0JMUEpKNWJzQkVLVEtpMFhJd3BXUzRER3Y1eWNtUXZhbTU1NDZVR2ZOLTZHZVhBMW1R?oc=5",
-    "source": "The Hill",
-    "fetchedAt": "2026-05-30T04:00:17.551Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=BCvnlGuddLI",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "BCvnlGuddLI",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "strait-of-hormuz-stays-blocked",
-    "date": "2026-04-08",
-    "title": "Strait of Hormuz Stays Blocked for Now - Transport Topics",
-    "description": "Via Transport Topics. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBtVTYwMDNZMkV5SlNLRVktd0RBVlhFeS1KaFBLdEJNQjNXX1YyVGRSM0lsWDE2TU52VW9yQ0R0ckVzd0d4aFkxdmNDX3RucUhIcmJDWndJSHRUcTFLZjUwSUk4ZUZ4dTU1MEdB?oc=5",
-    "source": "Transport Topics",
-    "fetchedAt": "2026-05-30T04:00:19.228Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=ADwCI69_Hnk",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "ADwCI69_Hnk",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-reports-massive-environmental-damage",
-    "date": "2025-07-13",
-    "title": "Iran reports massive environmental damage from Israeli attacks - ایران اینترنشنال",
-    "description": "Via ایران اینترنشنال. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9oMHFOaVhaT1lHWE9HR0lJNjVpY0doZnJjSGZaUGV4YjE5MmxNVkljWmpYcTFydnhfbjFrS3VweVNKMld3RnNvR3NnRHFsRm1KalE?oc=5",
-    "source": "ایران اینترنشنال",
-    "fetchedAt": "2026-05-30T04:00:22.432Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=vTTy1Dfl4So",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "vTTy1Dfl4So",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "israeli-airstrikes-in-beirut-intensify",
-    "date": "2026-03-18",
-    "title": "Israeli airstrikes in Beirut intensify, demolishing a 10-storey building and striking bridges - CBC",
-    "description": "Via CBC. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9pU0J3aEExM2xpUWVpY2dYRXlSN1JNM2g5OWdUQndGV1BlNDYtWHItUnlnbHNkS0FaQmpmN0I3cXBRSlZzQ1QwRGQ2OFFFTkp0b2RrdllPTDRxV1Q1cHZ4NXBocTY4UW4zdW1Fc0ozbm93Y09PY2R6Xw?oc=5",
-    "source": "CBC",
-    "fetchedAt": "2026-05-30T04:00:27.647Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=D3sIO700Y3c",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "D3sIO700Y3c",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "the-fourth-day-of-the",
-    "date": "2026-03-03",
-    "title": "The Fourth Day of the U.S.–Israel War on Iran: Strikes Continue in Western Regions of the Country - Hrana",
-    "description": "Via Hrana. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPN0plUnF4NGxsYkhoZ2lvXzRPbFluLW1RWkM0N280TXNwZllvTGxVTFFlZ1BEY05YVldWWTZ4NDBKclZRcW9rZXBJVDVhaE43a1ZDYnp6eEttcHFnQXhoeHFFT1lKUW42MnpGelNFdTJ6NUd6M3pBU1FWbThiQjhDVHVmQzJwc3hVM2QtSWstLTdOb180YWpGOXptNmVra2dJbEw3YXQ3bkVVMzY0cmFCOGlGTzh0dFpTSVVIbjdn?oc=5",
-    "source": "Hrana",
-    "fetchedAt": "2026-05-30T05:00:12.442Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=wgjUaDwMaoM",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "wgjUaDwMaoM",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "suez-canal-rebound-muted-despite",
-    "date": "2026-01-08",
-    "title": "Suez Canal Rebound Muted Despite Houthi Attack Stoppage - maritimeprofessional.com",
-    "description": "Via maritimeprofessional.com. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNndINkEzM3RoN2ptLUhwajJIeTFCa0VUbmI3c0RSOHRPWjBkbVZ4SXZwam1tVnNQdzM1aHFCdW9oazdaS1p6OUo2QmxkS212OWRPYlRNdWQ2TnFyRmdNemxjbnUxYnZsVjUyMTk5UEs0Ym9SR0M1dVJMVmxmcThhVU5SeGFWT0Rr0gGOAUFVX3lxTE8tdFdMNVREVWloVFhVTEhvaWkzUDNrOU9VVC15MWZCczBqWFVxQkg3UTA4Q3ZLMUdadWM3Ny1WMTEtSWMyOERFdmtkSU9wTU9JYkpYdGp5NWpzaXZtS0FvUllGa3FhcmNzMEdYR21vZXRyeEl4Q3A0bm1udEk0anVFT3RaVzJTZXhiRHRFcGc?oc=5",
-    "source": "maritimeprofessional.com",
-    "fetchedAt": "2026-05-30T05:00:13.668Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "chinese-tanker-goes-through-strait",
-    "date": "2026-04-14",
-    "title": "Chinese tanker goes through Strait of Hormuz, defying Trump - The National Desk",
-    "description": "Via The National Desk. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNalhQdEphVlZCMlN2U1gwVmg1UzRrT19yOUIzTmtQUW5VQ1hkVEhxTUx3NUhwRW5WZXZFMTdEeVR5UDhuUUVUbXowOU1TdDdHUXlXMldySkd2dDNDNzhXUHkzRFVFUHplcVZUdUJJaDA2aEV5ZTE4d2F6X1RWYXkzS25aeG14WlNNQjdmc0VTdnR0R0Q3OC15MDkzTDNhSU9SSU5hNWlRem9nX0t0SVoyV3NmUFh2Y1o3TTZseDVjWDhZaG5Ec0d0SFdRRXk2SXc?oc=5",
-    "source": "The National Desk",
-    "fetchedAt": "2026-05-30T06:00:14.414Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=BpHhN0vqP0k",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "BpHhN0vqP0k",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "global-oil-prices-top-114",
-    "date": "2026-05-04",
-    "title": "Global oil prices top $114 and settle at 4-year high after Iranian attacks on U.A.E. revive worries of further supply disruptions - MarketWatch",
-    "description": "Via MarketWatch. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOWXdZUnNwcjVCNjhIQk5MNEdMRlg4aGI1ZDc4MXpvS0E5dlNCT0VRTVZRcGNZYjZtQUJfV1dpZFhlTGgta0g0NmdreEJNTEt4UXdSaklpUFRBVk9xUG1BcTZ3QVpVOGx6SlNucFlMWDR0S0ViS1FMd2ctNUREc19TSmpMWTgwSjBHeldnXzNtdllFaS1XOGRDZVNMWWNGN1VJcGh2OU5IRDB3eWZpTzJJYkxFX2ZGT3VxWVZsYVdrMDJacWtNMU9JRHJ0ZFB6QXNW?oc=5",
-    "source": "MarketWatch",
-    "fetchedAt": "2026-05-30T06:00:16.002Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=Yp4wFZeY0fk",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "Yp4wFZeY0fk",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iaea-trying-to-arrange-new",
-    "date": "2026-03-13",
-    "title": "IAEA trying to arrange new U.S.-Iran nuclear deal - TASS - ایران اینترنشنال",
-    "description": "Via ایران اینترنشنال. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE83ODRNTGp4QjcyU1pCdDU0YkpaQVA4OTNqaU1tdmF0c2FCMi01UDVMM1B3MlJNZUkwSXo3QnRzeHVySTBvQ2RLUUJTd2ZWNXlvbGc?oc=5",
-    "source": "ایران اینترنشنال",
-    "fetchedAt": "2026-05-30T07:00:14.178Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=qDGsSJ8cYtU",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "qDGsSJ8cYtU",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "satellite-images-show-the-destruction",
-    "date": "2026-03-03",
-    "title": "Satellite images show the destruction caused by US, Israeli and Iranian strikes across the Middle East. Targets include military bases, oil refineries and an Iranian uranium enrichment plant. #DWNews - facebook.com",
-    "description": "Via facebook.com. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNSjZKX1pKeTlKeTdsenUwM3dyRHJ0UkU2QkQ5NjdFcnFNR3pDX0NwZ3lqWHlaVmxOQkRZeXJ4N2Fway0tbWRubVg1X2dYcUhDc2Noc041WVlvOS1JOUNhNEFMV2poaVRJOFNSVXA3SEhsTjZDd2tJUHNzVTRJVFhzaFBCdE5JcldpeVY0MUN6cmtsMnJHR1JWd1FTazBVMlJPNXNCb2R5OWVFT09kR0FHOWU2WWlLenUxaUgwS1BMNnR4M3pEUlE5aEJQVDFzUXVKRUVKbEN5akFfOEg2bWI5NQ?oc=5",
-    "source": "facebook.com",
-    "fetchedAt": "2026-05-30T08:00:12.761Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=JRnoi3repjo",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "JRnoi3repjo",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "breaking-yellowcake-facility-targeted-usisraeli",
-    "date": "2026-03-27",
-    "title": "BREAKING: Yellowcake Facility Targeted: US-Israeli Strike Hits Key Iranian Nuclear Site - Palestine Chronicle",
-    "description": "Via Palestine Chronicle. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPd0pUSEd2ZFkxSmJPM1ExU1ZBZ2IzWUFPZERhXzZFVXNSTi1EbmJoY0hHX0lVMS1ZRnpqOVJqY1ktSFotLTAxaVRxZDBaQm9DZUE0aUh3cVp5U18wSndlTlhYeWRWRFZWQ1RmaUJ1VWtROS1CRUM1MTZ0Zm05LUpHVW1nT3F1REVURnRoRVZmdjlENU1WY0ZpLXdMelVUcGREMTRGeTdSVkxVQkhXZGo0V2tn?oc=5",
-    "source": "Palestine Chronicle",
-    "fetchedAt": "2026-05-30T08:00:14.210Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=C7fo-dHqQbk",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "C7fo-dHqQbk",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iaea-recorded-suspicious-activity-by",
-    "date": "2026-02-27",
-    "title": "IAEA recorded suspicious activity by Iran at nuclear facilities previously bombed - Українські Національні Новини (УНН)",
-    "description": "Via Українські Національні Новини (УНН). Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOb3RIWkZrRFhJYWtFRjY5VnVBNWRMLU1VTnQ2NzV3UUJweXRWUE5qRmJpZjhEaFRjWGUtb3QzeHMzLVMwVGVLYVNxbXVic09rNzd0ZTdqQmxLZHRDUEVudC04dWhMYUZ4TlZMU0x6djE1amlRRjRFX2hOX09zUTZWSHRDT2ZYSVlLc285Q2M4TkVHdFpUWTJYWm1mbGU5SmRfVzkwUHB2QdIBpgFBVV95cUxQWmphSHZ1YUpHTU1CWEVlWVl1THV2YVlwOUNUb3k5c0VZOUdsWFloc08xUGtuN3VfZ3dDaFpNd3d5QmpIVHFaZmx0eE5xSHg4X0x6eXEwV25pV2dJNWpYdW1BLTRtcmZLb3l5WjdEcEhCTDBiWWNvd2gzR3hrSDZiMkxTZGhTSWxTcGJ3RUZwREZOY21IdERFZk01ZDI0WkR3QzRuWlNB?oc=5",
-    "source": "Українські Національні Новини (УНН)",
-    "fetchedAt": "2026-05-30T08:00:15.526Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=5295BeoQH3g",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "5295BeoQH3g",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iaea-international-atomic-energy-agency",
-    "date": "2026-03-21",
-    "title": "IAEA - International Atomic Energy Agency: The IAEA has been informed by Iran that the Natanz nuclear site was attacked today. No increase in off-site radiation levels reported. IAEA is looking into the report. IAEA Director General reiterates call for military rest - news.cgtn.com",
-    "description": "Via news.cgtn.com. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBIUl9IdFhEd2tHTHY1UjBMVnhHYW5oa1VkOXhVaElNYjNOWlFQYmlCYXBTRjVUNV9keUtJSXZ3TWhRTnp2T19ZNUp2dVFKMjdNaU96NWZ5ZjM1b0lnWjV2QWhnSmtyb3lxdFAwUDJR?oc=5",
-    "source": "news.cgtn.com",
-    "fetchedAt": "2026-05-30T08:00:16.947Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=DEGSr62N7HI",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "DEGSr62N7HI",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iaea-issues-new-report-on",
-    "date": "2026-02-28",
-    "title": "IAEA issues new report on Iran's nuclear program - Mehr News Agency",
-    "description": "Via Mehr News Agency. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOWXhoNW9kSGR0MmxVWjVTT0NBSGpJcFF6cEl2bllVWENaTV9mbjJDMXdlbnJ2LWJRRDVleFdmd1VqRFMzRUpiNFZCNmh0S1ppT2xVU3ZaU19PMTBZT0FWQ3Vfcl9jRjh6b2RHWkE3RGlCNUZQUUxpOHRpam9ZUnF0U2hES0ZVTnQ4bnc?oc=5",
-    "source": "Mehr News Agency",
-    "fetchedAt": "2026-05-30T08:00:18.524Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=-hce1xk3CBc",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "-hce1xk3CBc",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iaea-says-usisraeli-strike-landed",
-    "date": "2026-04-06",
-    "title": "IAEA says US-Israeli strike landed 75 metres from Iran's Bushehr plant; nuclear facility not damaged - The Economic Times",
-    "description": "Via The Economic Times. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNQnBvcXNvY1VkRGFyd0ZXUXBPU3g1dVhEVWdzTldsUGxjcGVnbV9qbEdtcWZ6WThrV0tGTTN4cW1fbFN2WTdaYm40ZHA2NUNoSndMX1JyTkNIODVfemtXZXRYeXV2Z194aEdTUTAxblB2NWVyNGF0VXBhTnpPcWtpcWEtb1JtVjExLVlzTVJNTEdKVldKazd3OEdkbzFGSFh2VFc0N01IY1paT2tldll6R0NEQnc1eTlzMXVTNTZhZHdEdnFER2FwQ2dGelJONG00UVhvNGtHWTNiRHRBYWpRUHE5ZWdiWklSQ01GbXhqdDZfS25kRDRyStIB_gFBVV95cUxQTFh2a2VwdVJhSWZ4ZVlOTm9JaUFtN25kZDIxdnBzMUppNlc2ZklJRjB6djZMNzl4cldrZHVmVnRaVTU5eXFJMDZJLWJ4aGRPVkxHMS1SeC1yZ2kzV1F6bjNfLS02dkJ2a0FJZkV3QnNjLU9Xa2dSQnc1OElyWWYzRGs0dTJrMkZ4MVh6TkhyUDhKSEZTSy16ZklKRmR6aWJkeXNVSXBhOElwZUs0TExVdFMwQ2U2NEZucmJ3VWxLLU1BMVVzNXpVSWM3dFpSdmxNQVNKMm5MczYtX2h1alItWnJhaEJkaDh2TS1fOWwwVzZfak5TVFZpdklhSXJUdw?oc=5",
-    "source": "The Economic Times",
-    "fetchedAt": "2026-05-30T08:00:20.803Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=gJZvU9K5bXU",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "gJZvU9K5bXU",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "hormuz-stays-blocked-for-now",
-    "date": "2026-04-08",
-    "title": "Hormuz Stays Blocked for Now as Hundreds of Ships Seek Exit - Bloomberg.com",
-    "description": "Via Bloomberg.com. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORkthdlZFcUx5QUtwX3pOYlZ3TW5tdUd0N0tIdGo2VElsVk9PQ1JGSTFMZlBVdVUtZFdWc3ZIU292Vl9CMUlRbUxZN3I2b2tXNjlaa1pMeUw5STZ6NjZHZmRKYTVlcVBFYmxzeldQVnkzQXA2RFY5Qy1JLThId3diVXA1eWRYWWoweWpBRTRsV1U3bEpaOUV4NWkyMXZUcnJ3WHRsNGNZUHYxMnhSRGdQeUZn?oc=5",
-    "source": "Bloomberg.com",
-    "fetchedAt": "2026-05-30T09:00:12.151Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=OFNwrMhC7mE",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "OFNwrMhC7mE",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "trump-faces-new-oil-shock",
-    "date": "2026-03-26",
-    "title": "Trump faces new oil shock threat as Iran eyes second strait - Politico",
-    "description": "Via Politico. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNRVk5R3dFUFp0U3FoTjBNQ2J3dm1NUE5LYThreFdKLUN4eVhfQjc1TjVjWENWaU5sTUJuN1RQdFd1eUpxVjZPeG9FdjlPSlNhM3FqbDgzdmU4djgyMzJIUE9oeFVWUzB2X0JueHF5LVllelJpalNTWGxWUUwzY3FKek9ib0s5QQ?oc=5",
-    "source": "Politico",
-    "fetchedAt": "2026-05-30T09:00:13.681Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=NIWwGD6iHRs",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "NIWwGD6iHRs",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "usiran-war-in-numbers-thousands",
-    "date": "2026-04-09",
-    "title": "US-Iran war in numbers: Thousands killed and billions spent as fragile ceasefire takes effect - The Independent",
-    "description": "Via The Independent. Auto-detected by headline monitor.",
-    "category": "humanitarian",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQSjl3RlJsckdha2RIUVlZZ0dUOURGUUZkM0JTcTFzbmdBbVM0Z3RWaXdvUFk2cDJuNjIxemE0Smw4TW1oaHh4cHM2enhqWHNHWWNMZkpoM25kVWRGaHBFelJjZnJjOWpKWjZfLTFVZHQ0RWNBODFaYVdJRklCUG4tZWhnQktoVlE4Vkoxd25MbER4bkQyQndpVWpELU0?oc=5",
-    "source": "The Independent",
-    "fetchedAt": "2026-05-30T09:00:15.251Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=GXE1TJ7l1ec",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "GXE1TJ7l1ec",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "chinese-tanker-goes-through-strait",
-    "date": "2026-04-14",
-    "title": "Chinese tanker goes through Strait of Hormuz, defying Trump - WBMA",
-    "description": "Via WBMA. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxON3hBQnhuU2ZQQm15cElFakhsNG5iQTBPbjFzUE5ZdFZicVJxMjhhRGNmSE0tUXJ0UzFLb1owQmhTVEN6MDM5Zl9uclZ1T2pDT2xoTE43SGQ3RzVwUXFHazBRZTJuS3dLbmxVajZlR3RQUDRrVFA5OE1RSk82QmlRQndMRUptNTdUTnpSN1QzbHo2aWg4Z3kwV3kxOWJ1ekpmck5rRXVFQVBmS2VCSFZQYk91XzRURG9QWlRrdGJB?oc=5",
-    "source": "WBMA",
-    "fetchedAt": "2026-05-30T10:00:12.068Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=BCvnlGuddLI",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "BCvnlGuddLI",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "israeli-army-database-suggests-at",
-    "date": "2025-08-21",
-    "title": "Israeli army database suggests at least 83% of Gaza dead were civilians - +972 Magazine",
-    "description": "Via +972 Magazine. Auto-detected by headline monitor.",
-    "category": "humanitarian",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOQk1EeGtvelpJWHNZUFJMcWw4eUVESFdmbFNwUVMweGxwM3VRczZzdU5YTnluUncxMGxXUmpYVjUwMUE3aDdHSjZkdnJ5VEhsZUZ1dGgtRXRJVGN6UVN4Q1RrWGdZS1NfS0pRZ2NLZzB2U0E1ZXVGaDV2VzYzZFFTRTJtMVEwVC1yZllzMw?oc=5",
-    "source": "+972 Magazine",
-    "fetchedAt": "2026-05-30T10:00:13.537Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=HJXXUUKNs-U",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "HJXXUUKNs-U",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "anz-raises-oil-price-forecasts",
-    "date": "2026-04-13",
-    "title": "ANZ raises oil price forecasts on Middle East supply losses - Reuters",
-    "description": "Via Reuters. Auto-detected by headline monitor.",
-    "category": null,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdmlKYXlUdnY3MTgxbFlzNkcwSGU3dGk2bDl6UG9lTWpnQUY3QTNVV0NIR2l6bXJaTHFGOGwwTWRSUXBlQ0FfeW1yRFJnU1FaQnRGdlNUS0Rub2QtNDkzWThVTjRvSjEzU01JQU9yWGJ3LUU3M1JlMndxRnFEeGZfRXctSk5MOHhrTG12MU9KSWxhbEJFaDNfSlQ5aExrTnRMLVJvUjBKTVlxSWxS?oc=5",
-    "source": "Reuters",
-    "fetchedAt": "2026-05-30T11:00:12.493Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=6H4WObXsvtc",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "6H4WObXsvtc",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-uranium-stockpile-could-yield",
-    "date": "2026-02-12",
-    "title": "Iran uranium stockpile could yield 'maybe a dozen' bombs - IAEA - ایران اینترنشنال",
-    "description": "Via ایران اینترنشنال. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBnbENmMUxkUFR3MU9QanZYdzBpbzFNMEd0Yks2LXZCVjVNSmh3SW52NkMxLUt5ZE5BR25wb1pDYmNIcDlVYjhzUGZ2RXVsS19nU2c?oc=5",
-    "source": "ایران اینترنشنال",
-    "fetchedAt": "2026-05-30T12:00:12.444Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=vAoBkuhrevQ",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "vAoBkuhrevQ",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iaea-iran-heavy-water-plant",
-    "date": "2026-03-30",
-    "title": "IAEA: Iran Heavy Water Plant ‘No Longer Operational’ after Israeli Strike - Asharq Al-Awsat English",
-    "description": "Via Asharq Al-Awsat English. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOZTdTdF95NUtLQ0xZQnNfODlYcmZLSTM1aTdoVi1jdG9LRWVNcnc0U1ZvUVFfdy1ET3MyeW44NTdyRUtZSU1jNzI5ZnZONkpKMmtCYkVoVEpNel9YTHNPTzhmbEJIR25GaS1iMFpSWXM3dmI2dDdUUUstR2NrSTRfMV95clBQSXhoS096b0ZjTUIzSzNmYUlJaVlxNVUxOFZhcE8xaGNkUXR4TDFSWGMwVms3U09fLWt1N1NJWlFvQzZ2LXBfZ3Jtdw?oc=5",
-    "source": "Asharq Al-Awsat English",
-    "fetchedAt": "2026-05-30T12:00:14.010Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=q0Oz39I5pt4",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "q0Oz39I5pt4",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "natanz-attack-how-nuclear-sites",
-    "date": "2026-03-23",
-    "title": "Natanz attack: How nuclear sites could pose radiation risks if damaged - The Indian Express",
-    "description": "Via The Indian Express. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNQzY0OVc1bEVQVGFuREJlVHZXRHpBTDZnV1dnMV9GVGhLdlktdjFnTUc2Nk4xMl9sUWdrN1RsLUZRUU5SdjJDRlNUTVdlZE1zQTA0X2VRRW5kM2xDeDlrMDM5VkxSVFZMUGRvcGxPY2dWdTlSZzR5bGwxd291aU1HaGpRb1owRFZrNXE0QWlPbnkxX1VFYXhPdERqeFJtaHVUVWRqMmZxRDZCRzdZRVBDTDNpSXQ1b1VJaGVwV0F3WDE4QdIByAFBVV95cUxNbTR5cmdveDR4RGM2eUlUa3hnVVhETXdpQThqNjZRa2JkdTRpNzZMWVJFVExSZTVma3QyZDM3SHllc05GWWR1Y2Q4dXNLemRJT2c1WXE0cHVUZzFMeFpIQ2ZVWUhySG1qTjdQQU5wa1dsMTFQZDBjQ1NfNmtmTkN5cVNLWnd1MThHcW4xYU11bTRVNGNvNldMbUQ4VVEzNFQyamZrLWg0Smh0YkZ5QWZIdGtLbFNCYkRuWG91LWFFcEwxWHFvWG5fRA?oc=5",
-    "source": "The Indian Express",
-    "fetchedAt": "2026-05-30T12:00:15.511Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=_JAvMXINArQ",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "_JAvMXINArQ",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "missile-strikes-irans-bushehr-nuclear",
-    "date": "2026-03-25",
-    "title": "Missile Strikes Iran’s Bushehr Nuclear Plant Again as IAEA Urges Restraint - Newsonair",
-    "description": "Via Newsonair. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZmpFZ3BjV2xxR05SZFpKY19DZ01VeTJ2Y0VjME5rM1RyRjFPR2ZYYmNRUHotUXFQWk5IVVg3OUdsRFpLVFZqcDI5THlLbmNITHNlUTFFQ0hJNUNDcF9XMUFjSWtkNlhxWFl4ZUJTQTVaYXkzVUxsYmduanU5RTFCdm14R2xCVjBRczBBNHkxeFpWTklGS3E0djFVZll6d0Fj?oc=5",
-    "source": "Newsonair",
-    "fetchedAt": "2026-05-30T12:00:17.118Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=p_54hrfo2pE",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "p_54hrfo2pE",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "satellite-imagery-shows-apparent-attack",
-    "date": "2026-03-03",
-    "title": "Satellite imagery shows apparent attack on Iranian nuclear site, report says - The Straits Times",
-    "description": "Via The Straits Times. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNUW14Vk1kaDBxR253N3pnZ2o1ZWtLZUttSEVSQ19WUVdxOFEtQTZzOVFHaXRZXzNiSWVTaVEwa3RYQ2lPdXkzcnlweklzbDFhaWxNcWlHbG5WdDRxalNUYkhCZWRyZGw0YXNrTTVmNEY0WWZVdWp5bHl5OTViWkFqNzhIYlVBeEVITXFJYnZSMFdOdVdIcmdmbnJxS3RkTzJQNUlyNGZpa3NwMGhpMGxHRFMtR2h0OFdsQTJyWGxYQQ?oc=5",
-    "source": "The Straits Times",
-    "fetchedAt": "2026-05-30T12:00:18.739Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=JRnoi3repjo",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "JRnoi3repjo",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "us-israel-attack-irans-natanz",
-    "date": "2026-03-21",
-    "title": "US, Israel attack Iran's Natanz nuclear facility: IAEA - Oman Observer",
-    "description": "Via Oman Observer. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQb2hReDJPWDB6Q01OUGI4NGNfTW1VMktXUDAyTkxsN1pLSlNqMnBobjVtNTRxUlYyeFdvOXBDUDRxSXVuUDUwdVRLcTF3V1h1a1dtSkNBdFlrdjE5c1gzYUhFVGgxTlpaZFAwdDFKVGlMMktCLURPRFJkdFo4WmFwZmRuRWp6N3k2ZERLYmRVeHRVd2FhUXB1NG9XeGJreHk5RXhuOHJGS1h4b3E10gFaQVVfeXFMTkwtd2IyYmNUQmRQZGczWndkMEJaWVFmdkxqMWc5X2xGUW5DRlJyVWRGOWF6VnhvZnducE1hUFNScC1ZaUdZLU5iU0tzZkdpc1RZYW45QUdtLWh3?oc=5",
-    "source": "Oman Observer",
-    "fetchedAt": "2026-05-30T12:00:21.179Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=_JAvMXINArQ",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "_JAvMXINArQ",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "israeli-airstrikes-in-southern-lebanon",
-    "date": "2026-05-30",
-    "title": "Israeli Airstrikes in Southern Lebanon Result in Casualties - Oz Arab Media",
-    "description": "Via Oz Arab Media. Auto-detected by headline monitor.",
-    "category": "humanitarian",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPb19kOVZ3dGxFbHFIX25fQWJ4RFRTcHpERWRVcVpCM2tKRUNKdVFLX1lvMzFNR1pmVU95U3dTdnJJemU2VXFHbHcwaUtpcmg4ODlVY3Zzc3VWYXZhbi1xNjBRTk16ZmVSbm1qa1JUalRFOUw3a0pZNWVJSkN2akczZV9OMTlkMmlx?oc=5",
-    "source": "Oz Arab Media",
-    "fetchedAt": "2026-05-30T12:00:23.556Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=ts6A_RKK_O4",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "ts6A_RKK_O4",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iaea-chief-says-no-sign",
-    "date": "2026-03-02",
-    "title": "IAEA chief says no sign Iran nuclear sites hit, urges restraint - ایران اینترنشنال",
-    "description": "Via ایران اینترنشنال. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE53YWw2ay1zdU9fbXpTQzJQNWdQdzRpYUd1Zm5uNk0yRmMtTkhRU1NCa1FWVlludjBTQmZmZVFUU1gzNklDWnZ5XzJQdXJEYnRfNXc?oc=5",
-    "source": "ایران اینترنشنال",
-    "fetchedAt": "2026-05-30T13:00:12.495Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=Ko23UkuQOoc",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "Ko23UkuQOoc",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iaea-confirms-severe-damage-to",
-    "date": "2026-03-30",
-    "title": "IAEA Confirms Severe Damage to Iran's Nuclear Facilities - Tempo.co English",
-    "description": "Via Tempo.co English. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNWVFuQ2pRdTFMMWxjZ2hlZUs3X19pNVlBS0dFM1JZcVVXMUV0LTBkWUJZbUJNN1NpZ1NCMC1OWXk2QlZnUlNiZ0FyWjRTVTFmOHFRaExhZEQyQXYwSExsMjBIOEotT1RLaXY5T1NvU2hLMHNlaGlPYWozd0VVcHgzM2ZYMHl6SVpqbUgzNHVLOG9aQQ?oc=5",
-    "source": "Tempo.co English",
-    "fetchedAt": "2026-05-30T13:00:14.119Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=rkrb6oAr7jA",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "rkrb6oAr7jA",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "no-sign-of-damage-at",
-    "date": "2026-03-02",
-    "title": "No sign of damage at Iran's nuclear sites, IAEA says as envoy claims Natanz was hit - Saudi Gazette",
-    "description": "Via Saudi Gazette. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB3cFRLeFZ6QUhLVER5cXFwZWdBR1Q5WVkwOGZfby1vTnVTbXFpWEQyZEpzeTVvUU1CWXdmTEJzV2xpUC1ZRHJJc2dzTE1STFluQTJDeA?oc=5",
-    "source": "Saudi Gazette",
-    "fetchedAt": "2026-05-30T13:00:15.661Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=Ko23UkuQOoc",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "Ko23UkuQOoc",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "just-350m-away-projectile-strikes",
-    "date": "2026-03-19",
-    "title": "Just 350m away! Projectile strikes near Bushehr nuclear reactor, IAEA flags near miss - The Times of India",
-    "description": "Via The Times of India. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNeVRyZHFEVlpFdzVRaG5SNDBaTTItRGRST2ZxZmJwcHlZb0FqOFhmMmNEQ3FYM0Z6Wkhsald5LUNFZi1JUDFHM003VEROdVdmQ0gzYVVoWm5wWUNDOU5VR1RIRUN5SkUxc0ZoN0xLa1VhUUZkaU9yWjYxMnhWYmRueS1CSXhjSTY2RFJpTDQwdEdhUjFaZERjd2V0ckk3ajhiQ3BjYml5ZjVXNnVSV1o5S2tldVpkNkduT3lPZm02LXNSRDVsMlRqRmgxT1FjZmwtVHNES2FRZUR3WURYUFFpZEk0dV90Z3FtemxaQVd1SEpBOFlDeEHSAfsBQVVfeXFMT0dZZl9IUjNYTWJhazY2cDd2bHA0d0JsVnN2eE4tUzFzLWdHclpwSEFQMXItT29lQkoyM2JMMGtCR1FXVk42V3lsd0U0Qk44aW9PLVRCZnM5Rk1zR1RRSzl5eWVPa0V4bS0wcVFhSG9XazFzTVdtVVZJbFZld2c3anlYb2VNT2Rua2J6cUQzSEZzSlhfaDdRRnNwWHBSMl9oV1BxNjBNeWoycFQ0c3pPTGpVb0s3U3I0NUplMXNZbW5kOU9WdExDbk5IZHRaR29YUDRaLTZmWVd3YS1wa21vZzFPMUxtdHZmT2RXRTU0Q0cxbTUwOU1FZlRFX1U?oc=5",
-    "source": "The Times of India",
-    "fetchedAt": "2026-05-30T13:00:17.105Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=I_b1NLoY1mo",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "I_b1NLoY1mo",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "ukraine-using-strikes-on-oil",
-    "date": "2026-03-26",
-    "title": "Ukraine using strikes on oil facilities to keep pressure on Russia after sanctions eased, Zelenskiy says - Reuters",
-    "description": "Via Reuters. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNVHFWd1hWTDEySzlJd0puNEV6MGxRbU52bjFiU2pvNFBqU0tHS2xDaVBIZkNFTkdoTFNBMEtWNm8yNW5ub0lLcnVRc09TSVpsVGM1VENGaDlyek8zY0JHa0hEd3h5ZEU0OTMxcndKZGFiYzNsRWNNSkFoVVRMQXEwem5SQTFBNFdNbXM3YlVVaFpCTkVCb1NsZk5nOGRPNFBpN1lVMzB6NnRkUWFDc19WblhHS0hmRFNYVFRmYV9lNkQzdy04QXBDUmF3?oc=5",
-    "source": "Reuters",
-    "fetchedAt": "2026-05-30T13:00:18.800Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=RBBB85aXXiQ",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "RBBB85aXXiQ",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "ussanctioned-chinese-tanker-transited-strait",
-    "date": "2026-04-14",
-    "title": "US-sanctioned Chinese tanker transited Strait of Hormuz despite American naval blockade -- shipping data - The Times of Israel",
-    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOc3RkSWtsbW5kWVROcVZkVUVvV2o0akh2YTBhTUdldGZycVQxTlc4ZFc5MGlLTWNobXlRMWdFRk1ub2kySk9DMm0wZ0w2aUEtWXBXaDJTNVVIZ2lGeVAwdEdWSFphdTJDVjNVX1FRYzVLSW5PZnlSb3lJTWF5d2JNbzJmTnA3WnRSSjRjRkRLdGxHOFJXZWVVSWZ3N2JOVFpYeDREaU5TT1lOYUIzOUJETWxVZWNJeFhOdFZmMGZXUWtVQkkxMU05RVkxdHBHc0NCaTlMMFZEMmJoczA1b2dGWA?oc=5",
-    "source": "The Times of Israel",
-    "fetchedAt": "2026-05-30T14:00:12.319Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=BpHhN0vqP0k",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "BpHhN0vqP0k",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-blocks-qatari-gas-ships",
-    "date": "2026-04-07",
-    "title": "Iran blocks Qatari gas ships previously granted passage to Strait of Hormuz - Baird Maritime",
-    "description": "Via Baird Maritime. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOYXc0UkNNQ3VXMkxaZldDSEI4SmJIRlF1Y3VhN3lpQ0pZVXFSVFV1YlBEX2ZRdWpYRjFNN2hPQVppbG9Lc1pfc21sdFBqZGF3VHNldVdINzBZNXA2OERBdEdudGNZOVVVYVZvb3dzOTQtVV9CcUtSdDN6UXZwQ3RoOUVwX2ZXd1M4eUR4S2I4bmVURjdVM0NoSnlDTEVkcEdjMWp3c08zMXdrWURjTnotOFFleGx3SjdMRVNiNG05SdIBzAFBVV95cUxPaGVCY1J6enYwVEt0WnMxRl8zUEx0bVp0RDZWX1RxbUdreU1pMkw1VE5aNllEZGItZUdfRlF0UHY5bVA0aGI4QjdiemVoeEg5NUlmOHNuMC03dnRFZEM5WldDZFlMWHhVRjVqX0NrV1VOZTFYeHY3aVFKcU9nR3p0dExBUWRweDZCV0FwWXlHbVVTc2hxbXZaOEZmREVrdXpkejY3aHVfa1YzOXZMR25hLTBoeWtyaFJRSlVZaDctZTRRTWhURVdZWWtCUjE?oc=5",
-    "source": "Baird Maritime",
-    "fetchedAt": "2026-05-30T14:00:13.903Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=SENCZPLyGwk",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "SENCZPLyGwk",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "if-trump-strikes-iran-mapping",
-    "date": "2026-02-18",
-    "title": "If Trump Strikes Iran: Mapping the Oil Disruption Scenarios - CSIS | Center for Strategic and International Studies",
-    "description": "Via CSIS | Center for Strategic and International Studies. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTTQwVllET1JmMUF4eWhZVF96MDY0MEZQYU0yb2JvQ2NPblRyVkxsZGxZLW1vVDJ4UFRqZU5ueTdfMU95QlJ1Wi1OVVdMUEFRUkJiMkV6VlFTcjdrS3pGbUoweU9QaEhsclJoczRrYWZJd25UWXV6ZW1URzRXNnhxaXk2aVk4NWxBMGxkcQ?oc=5",
-    "source": "CSIS | Center for Strategic and International Studies",
-    "fetchedAt": "2026-05-30T14:00:17.067Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=kVZD0_tVDIc",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "kVZD0_tVDIc",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "does-this-video-show-damage",
     "date": "2026-03-05",
     "title": "Does this Video Show Damage From Recent Iranian Strikes on Tel Aviv - موقع مسبار",
@@ -5333,6 +3669,1616 @@
     ],
     "videoMatch": {
       "videoId": "9DQxyJK5pjY",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "what-cargo-ships-are-passing",
+    "date": "2026-03-24",
+    "title": "What cargo ships are passing Hormuz strait? - ABS-CBN",
+    "description": "Via ABS-CBN. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxObzhWLTlpUHllbVNOV0liMFdvVEdfZy1BYk5mVkpaSWFNOUpLRTdEcjBMRHpPUzgzRGFRZG5BU3dTSjFqUVE3WlBGdHpLWlJ3YnVZdkFGM0hwZlZNSEgtUnpUSXRCdTc5X3NrZ1RCaTZ5MEtzdllOM1VVdkxPTEU5enFNYVc3Nko4a2toZTZwOWV6cHVjUkRZ?oc=5",
+    "source": "ABS-CBN",
+    "fetchedAt": "2026-05-31T14:00:13.355Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=wf9sqsDKgHI",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "wf9sqsDKgHI",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-orders-closure-of-strait",
+    "date": "2025-06-22",
+    "title": "Iran orders closure of Strait of Hormuz — putting one-fifth of world’s oil supply at risk - New York Post",
+    "description": "Via New York Post. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOY3NxM3JFdm95TWhWZUxBQjVSaGVWSGdIcVBoRS11YkhkQmpNUkRLMmhhNUduVkFLWU41UVRCYmdLUDdOek1VR0lkNWVRVWRrbFEwemxfa2lfM05KdGxER2tQa0pyLWZLR0lfMnUtRXVIeXFZV1NEU0pJWkdnRTZOaVhkMTJrVGpjSVNZU3d5X2U3OUZaazhvcE1kXzY4Q0dtMEpyNzlUbmI2dUJhTFVaN1pMdEJaNDFEd193ajJaSlI5QjRuTkVN?oc=5",
+    "source": "New York Post",
+    "fetchedAt": "2026-05-31T14:00:15.085Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=jPAXq3cUkaU",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "jPAXq3cUkaU",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "saudi-arabia-restores-major-oil",
+    "date": "2026-04-12",
+    "title": "Saudi Arabia Restores Major Oil Pipeline After Recent Attacks, Will Prices Drop? - BeInCrypto",
+    "description": "Via BeInCrypto. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBwcjQyRjhWdEhXSmVaRkg4NGdnVkVrVjlNRWlvUnVOYXF0NVB5VndIZVRBUlZHVllYSHI2UDgyMGt5T3hEdUpYcTctWEpyTFp0Tmgzc3Z2SVpDdjJpdjc5RGtuOWIza2JHX1BSTA?oc=5",
+    "source": "BeInCrypto",
+    "fetchedAt": "2026-05-31T14:00:18.332Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=ZEp5QaXe078",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "ZEp5QaXe078",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "us-faces-growing-concern-about",
+    "date": "2026-03-19",
+    "title": "U.S. faces growing concern about war escalating as Iran attacks oil and gas facilities - Los Angeles Times",
+    "description": "Via Los Angeles Times. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNeWhWdkdZZVdFUjdHcHR5MEdicXRmQ2h5ZzZQci12N1FZQmYxUzg5YmczUDJPeDhDTVlYaElJRTExNU1NWlBSN1FBdFJLakRGMjl4ZVc1MUtlcUV5YmRiUVFTdTU2NURaMGRzQmNQMFBPZHh1RXhHZndjTFdhRG1SenFfLWpKa3pWS2RUdHVXOHJINHVmc2tDcDVMMDc4X1V4M2dRU2tvZGt6RHhmM3FZN3J0eTBBV0pxRnZnMUVvUTRZYmtzb1hOOHR6SzlkWi16cXJ4YlQ1ejkxNFFKYWRv?oc=5",
+    "source": "Los Angeles Times",
+    "fetchedAt": "2026-05-31T15:00:12.043Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=b7zNvuX7MaQ",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "b7zNvuX7MaQ",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-hits-back-at-multiple",
+    "date": "2026-03-19",
+    "title": "Iran Hits Back at Multiple Gulf Refineries After Israeli Strike on Its Offshore Gas Field - Military.com",
+    "description": "Via Military.com. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQVjNoMzNycnBTdkJFWE54OHZKejFBN3JvVlhMYmZsWDRsNjNEdGotTzFJQ2ptMU9zS1lzNDA1LVJLVmVEckxDdzNRWFZ4TmtWZEdLNnc0djdRRjctaC1CLTI1dWpMYzRBRGh2UlFieTY3TU9YTWFlZGMwSUkzam1pRlU0QXBVc3JQN1k0LWtON0RVdkFrSURZaHBnNkpTV29uR3BZN0dDT042TWhMcUFNNEtHcjkzOS1VNVZrUjI4ZHRkSlVGMFJfUUFoa2ViSEdu?oc=5",
+    "source": "Military.com",
+    "fetchedAt": "2026-05-31T15:00:13.645Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=1ARFZjlcOsU",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "1ARFZjlcOsU",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-rushing-to-salvage-nuclear",
+    "date": "2026-03-02",
+    "title": "Iran rushing to salvage nuclear program amid US bombing - The Jerusalem Post",
+    "description": "Via The Jerusalem Post. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1NbHFDa1JuN21KOEZQNlJQRk1FNHVpeC1qN1Nzczg4c3NwUkJvajUtTGNYdms0LUpSdFdmNzFkU3pDTmRtOHFsVnVucHA5aGRaX2c3ZEE0b05ZcGZtVmZTT1FHNE80Z0NGdmc?oc=5",
+    "source": "The Jerusalem Post",
+    "fetchedAt": "2026-05-31T16:00:13.043Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=Xr4Bg4jEWdY",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "Xr4Bg4jEWdY",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "un-watchdog-chief-rebuts-iran",
+    "date": "2026-03-02",
+    "title": "UN watchdog chief rebuts Iran diplomat over Natanz nuclear site targeting allegations - The Hill",
+    "description": "Via The Hill. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBVT19ZNUUxNGlhUjh4MmMtbEpYd2Y0NnlfSVJRbjE4R0s3eHJFbzdFSmxrWmVLUDRRa0lXVjBvRU56dkhIc0MtWFpOZ0ZFMHBqYmQ0bEYyYk4xTzFvbzJrTjdZTG56RHFPdmhwa3VZN003ak5LQ0JhZllwRkVOVzTSAYQBQVVfeXFMTmdkVXVnV3NOM2ZvcVV3TEUwaUVjWDRVbHptRmR5bmFna1NqV3JmcXhOSUp0bzZ1bENndWJ6eGk2VGt2WFZoUVRjUkpvWUFvclRiQWxhdENiV1c2aGFfNWtVd2JBbjVYTWpGbFBUVUhzZXJXQXFLdWlfT01WcHI2ZzNidTY1?oc=5",
+    "source": "The Hill",
+    "fetchedAt": "2026-05-31T16:00:14.482Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=1THVx0gQ5B8",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "1THVx0gQ5B8",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "nuclear-plants-must-never-be",
+    "date": "2026-04-04",
+    "title": "Nuclear Plants 'Must Never Be Attacked,' Says Watchdog as Iran Reports US-Israeli Strike at Bushehr Facility - Common Dreams",
+    "description": "Via Common Dreams. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE12QU1hYTJ3NDIzTllWTmVCNWhKcHk0UXhaRUY2YVlFMExQS2FkNE11MTBpTzRQZGJpRVVqd09hRTdtSW01SlRkUjdzRmZMUTFTMEQ3MHBSQm5yUGFHTzJ3b3g1TTd3UDBIUldINnBvZUtsc0U2?oc=5",
+    "source": "Common Dreams",
+    "fetchedAt": "2026-05-31T16:00:16.063Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=n3YenF3Dn7M",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "n3YenF3Dn7M",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-presses-iaea-to-take",
+    "date": "2026-01-22",
+    "title": "Iran Presses IAEA To Take Stance After June Strikes on Nuclear Sites - The Media Line",
+    "description": "Via The Media Line. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQankxRmVhemVrNEJQVVU3c3FBOFkzMFc0UmgtazVzdUhVX3pPcGhBUEVPZnJxR3lnQ0RPdXZ6NUZEenFkTDNqTW14VHRvMno4TjZybk9vN2ZPd2FqZlYzdHcweEFleFdEU1hHWFpqWnNZSFNWMV9UUFg3Mk1STXBhMkdkQXduVHRpaFNCTmdPc2VyYWkwdlpKaDI2Tnlpd1haWGp6T3NMZ2VBbFVxNm9CbG81RQ?oc=5",
+    "source": "The Media Line",
+    "fetchedAt": "2026-05-31T16:00:17.662Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=Aiyd2RtLcpU",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "Aiyd2RtLcpU",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "death-toll-of-palestinian-journalists",
+    "date": "2025-08-11",
+    "title": "Death toll of Palestinian journalists rises to 238 as another reporter dies after Israeli strike on Gaza - Middle East Monitor",
+    "description": "Via Middle East Monitor. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQV2lHdTZ5UG1VVzlucXpRbXJYMHFrUmE2bWhnbFBxblJFbWZOaXYwVVVBYUIxdHhld25RWnpQaHVMVEE0c2NkOVBmNV9oTjk5djA5Q3hnRmpCVENjY2xOZk5YaGJwYjJ1Y2ZWZTBRUDlQazMycVc5Yjd5VWdUWm1ubkRSQ2ZhSlB0bHBsWkw2ODhkNjlQV3Y4cnhEdUkzNURWdVgyUURZSDRsQ0dPZGJMOWQwMnZOMmo4S1RTRWI3RGhyVy1iUkhyVGJVVVpYaHRYa0RRRU16eXRDQ2ktNkR4ODRB0gHnAUFVX3lxTE5vTldGeGFDUFBXRjZVZ3FKZTIyMjFyanhKNjhpSmJmNEhjalBJdEZ3aVhmN3BWWEtCVnhpUktXN2J3TmF4eEQ1OGQyMlYzZTA0VnA2UTdxWkVoTkZyRzJZLUo3VG1yaWxKRmJEcUZ4ZUl3YVdwbnRoeXpyTk5SY3R1Q2hScjhoYzRmUUFBRHRoTVMyTkNkQlozT2R6eWNqLXNzTm44NktsdmtiUnBkRWxFSWtGYVBGWjNBTWRxMlVIWmVsVzJyLVdsRllkR0Y4X2hLU0JUcDB4VkNQUlVDak91eGtMX1p3WQ?oc=5",
+    "source": "Middle East Monitor",
+    "fetchedAt": "2026-05-31T16:00:21.638Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=S3k1Kv08404",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "S3k1Kv08404",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "suez-traffic-still-60-down",
+    "date": "2026-01-08",
+    "title": "Suez traffic still 60% down 100 days after last Houthi attack - Splash247",
+    "description": "Via Splash247. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPOUhibndRUEFpV2RnOUViZkR3SnJaWnpQb0pWNGVKTHhuTkt6dDJUWHpOZXQyZ053QjB6YXBIbUZMSjFTZXFTRFdPX2lfbHNWdHBxQXdORHRXcURKTTlRTXZ0R0MyN2h5WjFCSlV0OFpFU3hvZ1VoQXlkWG1mang5eTdWai1SZEpfTklR?oc=5",
+    "source": "Splash247",
+    "fetchedAt": "2026-05-31T16:00:24.084Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=YLOFKJ9MXIc",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "YLOFKJ9MXIc",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "watch-explosion-at-bahrains-key",
+    "date": "2026-04-05",
+    "title": "Watch: Explosion at Bahrain's key oil refinery site after Iran missile strike - The Times of India",
+    "description": "Via The Times of India. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNZl9qdWVpdElTT1hkTENzb1hxT0FyUjZxNFluNzE4bWp5c1U2MjdpbnZoYnV4ekh0bVFyREVwMnlBUVJNUDdaUTVLWjR4dTlsUTE0OFU4TWlOZGM4bW1yY3JMc0ttY3UzRXdncTByNmJwTVZiSkQta0o2QWNzeTMyQ1g0aThTTUpFaFdhVkFxeDk3eHR2NWNpaDdkZlpYaXNaZW9ONGdMV003a1lEUWFYcVdNRmxoMmtiQ0lIRmxFcWVnQWRGVS03Z2pOU0tOYTJVbTc3dWwtcE80RmpVNld6OVN2RkliVmVoUGJV0gHwAUFVX3lxTE95MUl0d3I0MjJQU3BnRXg1YjUxbnA0eFhMQy1kU0hRZDctVTR3eFJPN1hXY3RjN3RfWTVpUy1BRlhtWU9BUzZzdmlTbGJidGRVRkFTYkdyenpoRDJmMDR6VUJMNDJpeXVucDcwZXlpVlJORGhPa0ltLXR1N2xLd2VfeUJnb1BXcjUxc1pXUzVZZTEyLVVtZlNfbUhxVmFsTnBCNURVQmZoZ0FhNENvNVo1NUd4bUx6Q3lBc1VhbUdobUJqY3dsX0lUWG5mVllDSk5WV1FLMzBBNEs5QkJERVlwY1Noa2UtNnc3N0JHTk53Sg?oc=5",
+    "source": "The Times of India",
+    "fetchedAt": "2026-05-31T17:00:11.459Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=bJONbA4l5Y0",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "bJONbA4l5Y0",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "the-iran-war-diesel-fuel",
+    "date": "2026-03-02",
+    "title": "The Iran war, diesel fuel, and a tired infrastructure story - FreightWaves",
+    "description": "Via FreightWaves. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNVTl1ZThHZk1waDNXZHZ2YldYcmlvZmg3TGZFM2JnbWJKU0xHdmZ0c0VOQnphbUFjczV5SkttSnd5ZmozZHM3U1ltNHFIZzViZVJ3RmdHZzF1cVBQdmpzQkl2RUloSi1NYWt4ZEd1N0JUVHowUXRRNWc2dnlXeDZYQVg0X3cxdHlnSGM0V0tEMjdTWXlWOWc?oc=5",
+    "source": "FreightWaves",
+    "fetchedAt": "2026-05-31T17:00:13.096Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=VpgStHb4f1E",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "VpgStHb4f1E",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-war-ripples-across-middle",
+    "date": "2026-03-07",
+    "title": "Iran War Ripples Across Middle East, Caucasus With New Attacks - Radio Free Europe/Radio Liberty",
+    "description": "Via Radio Free Europe/Radio Liberty. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxOWS1mSEtZMUtOVnVQUzIzcUJVSzZBWEZORWRVNWNuQlVGMkJhVEJ4bDFGaGZRR0ZxTzFLVzVBdFBzRnFVdzNmTVVReDF0ajQxWElkT25vTHJvdTZnQlA5TDNfMlcwUVJiX3ZESmYwY2NyTzhybG9sNFFGVERYcU5tS3BTY0JPLWw4bHZWUlRrenlqZ252QnVRbUJocElrZ9IBoAFBVV95cUxNSkZjNWhjVk5IT0tZWEN1R3hBRHoxUHUtNjNJT2F3NmxGUlM1WHdBSmg3djhISTZ5WEY0ODhydTdVRzBZcHZKQzZPdzNtNEliRVJaOWIwLVUxOGVfcjVjanU2VEgzaW9ZckgzaWprLVBCcmVLS1pNWklJaUlhN2Q1SXpidFZDcG9WX1NMWXVQVEhvQk5CdXdtajlramhLeE9y?oc=5",
+    "source": "Radio Free Europe/Radio Liberty",
+    "fetchedAt": "2026-05-31T17:00:14.588Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=QxO10l5D-_k",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "QxO10l5D-_k",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "the-emerging-environmental-consequences-of",
+    "date": "2025-06-20",
+    "title": "The emerging environmental consequences of the Israel-Iran war - The Conflict and Environment Observatory",
+    "description": "Via The Conflict and Environment Observatory. Auto-detected by headline monitor.",
+    "category": "environmental",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNblpyZllvWld2ZGhNV0hZWE9uVFJXZ0hHcnB0VlpkdDlrMmNUTU0zR1Q5SFlaX3I3Y1pkQW9jMTZ4dkNMSjVZM2NiZjZmYlYtVFZrSDdDMzBmejVvb0xSaWpmQWp3MUtjLU15VC1aQ080N3FUZ3M4QlZveUZuRmdwX0tRbTVOTXVU?oc=5",
+    "source": "The Conflict and Environment Observatory",
+    "fetchedAt": "2026-05-31T17:00:16.310Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=v0iInKVaFgU",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "v0iInKVaFgU",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "vital-water-desalination-plants-in",
+    "date": "2026-03-08",
+    "title": "Vital Water Desalination Plants in Iran and Bahrain Are Attacked - The New York Times",
+    "description": "Via The New York Times. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVEFZTHRHSXZoOEZrR2J2ZWlBSTlMR29XQktoNU1XTFlCeTM5VGs1MVU0OXhReGh4UVpUQktFVHFRV1BOeFA0Q1oyaTVnVU96SUhLX2NyV1lRcldhUzZZX0JzZnEzTUJISVhrNzlUaGNGdmFMNE9vZDBuU2dBcG5CUzN4aTc0c242akNERWJMakVZSjA?oc=5",
+    "source": "The New York Times",
+    "fetchedAt": "2026-05-31T17:00:17.730Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=GDtBlKBVMY4",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "GDtBlKBVMY4",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "lebanese-official-says-man-in",
+    "date": "2026-03-13",
+    "title": "Lebanese official says man in Michigan synagogue attack lost family members in Israeli airstrike - PBS",
+    "description": "Via PBS. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQS2NPamtpbFZ2SVFDaFRSeml3OS1FS1I3MUp6YURma0VLWk1pOFJBMTVwOGFHdHJnU3hmaGcwQVZPS21WM3VtSmpORUJDc2NxX2YtZVFCLVM4WVlKQVJ6Qm5pZFhRN0N0eThTcEZQVHRKSW1ndlBQRjdIdVRqa3N3STJsNkluV0lmeElYUTVqUkNXWjU3aFZ6ZzdnVG9UOTFwZHpJMV85bGVLRVU1Qm9JakRGRUVKa3AwcHAyblkxMVZULUptN3VaMGdlaEdMMTDSAdQBQVVfeXFMT3UxUW5sVVRmTm9UMmVmbXhtcERxZU5iQXNMWlVrdEJVdE5kTmZULWZFRTdrQWppMlQ5bkRZUklNOFRacHduYzc4cS1ZVUhQc0x4anN3OG9qSmtqZF9TVTl1eVBYQ2pjb2lCVFRkSnNGOVN4cGkzV0ZOLWpTRHNwanQwdTJ0UnJpcm5BWHZTRnFFRDBvMnREY1ozRnpVRkJXSG1BTkRjRk10R1BUOEFUam5GVzRGakVuMGJnMlEzak9XdEZLbFdGcUVGTE1GWU1UWk5PX0M?oc=5",
+    "source": "PBS",
+    "fetchedAt": "2026-05-31T17:00:20.218Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=IwxIPUvb5xE",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "IwxIPUvb5xE",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "us-to-reinsure-maritime-losses",
+    "date": "2026-03-06",
+    "title": "US to reinsure maritime losses in Gulf up to about $20 billion - Reuters",
+    "description": "Via Reuters. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOOUo2eWwxekZneEc3Wnhud1pDdmlGanEtdjRxQ3lKR25EeFBiVTdnRXh0bll0Wk5oMW9XTm13cEs0X3I4VzE4RVFCQUtiVkxfYWE0VGEyaElwQW9hUkdvZHdkU3VVbkprMklhM3ZNT2FIekZ4TlVLN2E3N1ZyNEVYR1NuOG0wOEV1V1h5XzJOUF9ELWQ2VjZ2VTR1M3ItcVJIQmRGSXBGYV9OZw?oc=5",
+    "source": "Reuters",
+    "fetchedAt": "2026-05-31T18:00:12.316Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=diX6Ih74Nak",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "diX6Ih74Nak",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "us-intel-european-source-put",
+    "date": "2023-10-19",
+    "title": "US intel, European source put Gaza hospital death toll at dozens or low hundreds - The Times of Israel",
+    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQY01LZGlPcUNoSUYzUTFUSUs0eGxSb2x3TFFSQ29WMVhvZ1cwcmFmcDBNRTBfY2lob1E3VW8wQ0MtTnExQUZqZm5pX2VHWUpYMWdnYWZ6UXk3RVE2aUVZVU9zSktfSlhGUDZOTU1hdHRHenEtd0RCZFEyd0NLd3N5RXQ2MFJNQ1gzX3RxcFJYT2JZc1htVDJodnNpWjdqR3F4WG0yc1ZxMlZ2SGhScXpqQdIBtgFBVV95cUxOZDlTRUdzR0JJLVgwZmNpanVyZDBqNDZGb3ZnS1piaVhFYy05V1prN3ZuX2VHcWNYVENWWFBjX1V4RDRCLXlqUkUwTXYySVhYa1VKT3lSV0hCT3daZXBaMEtZSUhLUEEzbkY4RkZJMkd0dDBuajMxelhfcFdSR05fZ2RmNk5pUmhNNkxlVEJzOGsweW9aTE9HSFJpUkx6VExEbjJtRDJ6dVhqaEpqRDBHcVdyVUFQZw?oc=5",
+    "source": "The Times of Israel",
+    "fetchedAt": "2026-05-31T18:00:15.408Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=Fvbbb6lwSs4",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "Fvbbb6lwSs4",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "yemens-houthis-claim-attack-on",
+    "date": "2025-07-07",
+    "title": "Yemen’s Houthis claim attack on sinking cargo ship in Red Sea - Middle East Monitor",
+    "description": "Via Middle East Monitor. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZlNFYlY0Y2RSbWFLUDlwWW1ldVJhNGxZX2xqTHZKY1ZDdzlXbW45S3RRNUZpaXFrTm1tYW5NTW4weFRmbGxJeDBZbGc0Y0J0UklVaVp5MENUUEYzMEpFekZuT3JkV1kzQ0QxZkhHZHVTZ05MdzRNdjVwSUNIYkstbUFfczY3U0l0bU9MX1ZEUmNvUzNodTRERnJRNm1kMlg3emU4VWFad9IBrAFBVV95cUxNYXpTWUNFMDdzVWpNLVplU1ZSSGIyRzdQWFhnX1lVdmtsd2xRV2NIVk1QQklaRFcxUzg2OG1RSm1NWTZCSWlEbVl5Mk9aUEZFWU9FZTVNTm1qcnpxZzhJQ3VJMDBJM1hicEM0a1ZWVTREaGlvaER1ZFY4TjVyV2lXaVlVRkFhVkVHalJrNXlyLWxZTl9vbEpEUjhBYjZCSTRrRFNEakQwc19lTlQt?oc=5",
+    "source": "Middle East Monitor",
+    "fetchedAt": "2026-05-31T18:00:18.551Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=p2u6JZrr08I",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "p2u6JZrr08I",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israel-hits-tehran-with-airstrikes",
+    "date": "2026-03-19",
+    "title": "Israel hits Tehran with airstrikes on Persian New Year as war jolts energy markets - AP News",
+    "description": "Via AP News. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNN2tEazNreWR3Y21QYktTTDA4YnJwOE5aLVpKck42SVRPWGdDaGlDVWtnU0FqZ0U1MmtuNm9aQTRZeTFTVFA1c1VEVDg3XzJ5MkVFNDBQdFNacjlrSDgtRVdnZXM5dHU0cVItZHQxRWZNTnBDcWYtc05ZYmQ2UU15TFdLcGpxckR0dWIzNnhyN2d4czdvRm1wM3VOT1UwbnNj?oc=5",
+    "source": "AP News",
+    "fetchedAt": "2026-05-31T19:00:12.238Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=cNvXhqZbfVI",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "cNvXhqZbfVI",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "here-are-the-gulf-energy",
+    "date": "2026-04-07",
+    "title": "Here are the Gulf energy sites damaged in the Iran war so far - oilandgasmiddleeast.com",
+    "description": "Via oilandgasmiddleeast.com. Auto-detected by headline monitor.",
+    "category": null,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOTUUzdmZJWk9MRmdxeFVORFBiTGVQUE4ycHFkNm9zN2RJSVY5R1BVM1g5RHpxYllEa1JpdHRQMTF5WjZ5b05jOWdkVVdFc2VMQUVfVWFyeHBlbGpBZzBES3lTVkJPa0RFY29PVXlOQlZybXdzekJBNWw0TmsxWVpLRURmMEhxbWFCc2c?oc=5",
+    "source": "oilandgasmiddleeast.com",
+    "fetchedAt": "2026-05-31T20:00:13.108Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=NxQPgSCHa7k",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "NxQPgSCHa7k",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-alleges-usisraeli-strikes-on",
+    "date": "2026-03-02",
+    "title": "Iran alleges US-Israeli strikes on Natanz nuclear facility; Tehran's envoy confirms attack to IAEA - ANI News",
+    "description": "Via ANI News. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQdXNZYjR0dG8yM2RkU3dUdFh5eFJTcGdyOVBVcktidnFVS0lDQTYxaUZuclVmSlFEV1hxYkx4QzBlX29OMHRWb1gxUWFPdklBQXRnVVZ1ODJTY3cweXhEajQ2MUlIOElEUzRiTS1TMXVEVHl6N0hEcGJqUmFTZDdadzNWc0FmLVNyaWV1Rm01WnZtdndwRElDaW9FQ0pLUEJ2ZXl2S0xTNWY2QjVaQVlBemMzYVk5Q2NfUGhfN3lzYU1ma3RDT0I2YUExeWo0cVNtNlFlc2ZqZ292UlN2YkVzQktsZTVDUQ?oc=5",
+    "source": "ANI News",
+    "fetchedAt": "2026-05-31T20:00:14.606Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=N0uYKbI93dk",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "N0uYKbI93dk",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "curbing-houthi-attacks-on-civilian",
+    "date": "2018-07-27",
+    "title": "Curbing Houthi Attacks on Civilian Ships in the Bab al-Mandab - The Washington Institute",
+    "description": "Via The Washington Institute. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPaW1WaHdpLTNVOVNwbGlYa09VbXJnaU1QYTZkd0xxbnFrWjNQNktQZEJsdEpEUUo2bEZ0NW11ekVZcHFqVU1oaXhmMzdlYWkxcmNKaXZQa2xrYnE0dlREbFo5YTRhaTdtbUxjd1c4RWZGSUtlcG50ckFDdml5R2l0Zk9jaXJrWGgxZGI5WFJsRU1QcU5yQzQwRVpkQWNVbHN0WDRKa3VB?oc=5",
+    "source": "The Washington Institute",
+    "fetchedAt": "2026-05-31T21:00:11.671Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=hxVMgRytkuc",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "hxVMgRytkuc",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "despite-trumps-peace-talk-claims",
+    "date": "2026-03-24",
+    "title": "Despite Trump’s peace talk claims, US-Israeli attacks continue to hit Iran - Al Jazeera",
+    "description": "Via Al Jazeera. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQnVwVDdhakkwRFZLVVEyakJoWFdwRjFkZWxhejVLMDhESi1vNVMxTjdvbmdDX1Q2R2R6NmxGNnVoalpBN0FQaGhfQmp1QWJPYXpDZnJKV3cxWUl3UC02SUhCUmtUNXFuajBNRHpXWUN3NmY0Rkd2SFB4ZHRKT0NyY3Nfai1Pd0wyaUhRMExDZU4yRmw0TFczQ1hoNUt6dWNzeERWOGhHTWZEbC1jY0tfTUg0TdIBuAFBVV95cUxOeEs1TFVNbGFBNjQtT0lwR2JCRnF0eUtwRk9FaDgzWFZsWG9iLWhMRGxYTmxZNXVwRV96SC01MXkxdkZhUFNrTkl3TjVZNmdMYVN5bmxPWjNnRU9oUUVLRkdsR3MydUFPZTZyb3JZQzg3c210QjJyX05rUzNfMHAtcWJzeGo4RlB6OGEyR2FxbDFzVUhhN0dQZHdqUEdWTUZIaHcycndMQkNMcGxnaWtnYzlmbXlNdnRa?oc=5",
+    "source": "Al Jazeera",
+    "fetchedAt": "2026-05-31T21:00:13.288Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=UwYJlwj2zWI",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "UwYJlwj2zWI",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iranian-report-claims-energy-infrastructure",
+    "date": "2026-03-24",
+    "title": "Iranian report claims energy infrastructure damage in strikes - The New Indian Express",
+    "description": "Via The New Indian Express. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNnFsX2R3UEgyQVVEOGZWR0pTZGVQQjRPa3NIS2NFeXF4Y21yNTlHaF9zZlNzbzdqc19UaXRmTUtVVXlQZ3VBVWdET3l4dUxQRzRUbkw1N2lMSko0M0xnUlpHSFRfSnpLSEFJbjVjTW5GNVJLRnZlNFlhZ3NYVU5IN28zY2hVNlVGcC1GdUU5UHMyN195a1FvaTNwMDNpeGZJbTRTdDh5Y3NwaW84YklIVmN2S3LSAcIBQVVfeXFMUC1rS1RkdHRzREc3ODM1V2VsbkNtTjRuSVQzV0IwaTdlZWxyZl9FLXpzeEt5OEpsazhWUGQzay1hQ0Y1N19WQXZKbmxTUHJjUW52d3ZWUG5zYlhHeVdDMFhxanZ6VVptcE03T1QyTGtBd3dCajdFMERZdVZMMFZqQkNZVDQ2SWFHdnEyUUZLOFBubkgyODNSY1BuSVpFcS1XMndVeFA5UUluQndsX2lPUGdnTmZ6MHFrSGVfRTZQS0xZUVE?oc=5",
+    "source": "The New Indian Express",
+    "fetchedAt": "2026-05-31T21:00:15.024Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=U4FUvHB2Xt8",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "U4FUvHB2Xt8",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "death-toll-from-israeli-attacks",
+    "date": "2026-04-10",
+    "title": "Death toll from Israeli attacks on Lebanon since March 2 rises to 1,953 - Middle East Monitor",
+    "description": "Via Middle East Monitor. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOajZKLTVMYkVmbWEyU1R1UG0wQnNUbzdsMV9NSzJNZU9zdS0tOUdZNmRUUUxIVWNrNk1SRmYyelJmYzA4bVJ2TUdGVVRmdFc5QmxLOFNtYlZOMFZrWTY2RU44OXdwX1F6d09WTWFHNFM1U2lUNEoydXdFMDNHLUNIdlpLQXFCTC1CVU9tR1hUTnk1ZDk3REdxemNpLUI2X190RUU0TkdlNkVtN0NvZ050UE5GSUXSAboBQVVfeXFMUEktc1lXMGQ3YXhOTkVDN3dyU0NrSkdrRnJhcGdGbjYtRy1rQ1EzblBIcXpyaEpLekZjUUZ2aGFLUFdYX3pucmM1NFNBVzVMU0FOSTJPM0ZOaEhZUUxxTjVkZl9yMm9Vb2ZrdlVjYnlaQkxPSmt0Y0JCeEVSLWdPZlJWQWs1OV9wd21VUjQ0bGM1MDZHMU1lSEJ3MW1CRzJZQnY3X2VvblMtMWhGN1BITmY5MHktWlUzNHdR?oc=5",
+    "source": "Middle East Monitor",
+    "fetchedAt": "2026-05-31T22:00:15.309Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=ZG38YcncE94",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "ZG38YcncE94",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-strike-cripples-emirates-aluminium",
+    "date": "2026-04-04",
+    "title": "Iran strike cripples Emirates Aluminium, recovery may take a year - Türkiye Today",
+    "description": "Via Türkiye Today. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPenczQmdrVENDYUpyYjB6VzNSajVCRGZPWGF5V2F0N2tLVm01TnB1S19lMlU5SVRfcXBCcEVtRmxNVUFva01oWkd4dTI0QmpiM1lQTWllVDBTOFU0Ykh1aDI1LWdJWUUtZE1uYjN3U2hvWlFMTElNNWVCZk5DYktDZG41MnN6dHdiYnZJMWVlOUhmTTViN2xtdEpwYkt5V2hXaGdlNFU5eEdIWEo0?oc=5",
+    "source": "Türkiye Today",
+    "fetchedAt": "2026-05-31T23:00:12.442Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=5AUSkuxkiBQ",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "5AUSkuxkiBQ",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-stored-highly-enriched-uranium",
+    "date": "2026-02-27",
+    "title": "Iran stored highly enriched uranium at underground site, IAEA report says - The Jerusalem Post",
+    "description": "Via The Jerusalem Post. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5xYmxId3NzWmdpRnJIdVFQRG5xYnZIVGtvaEpwYTBhVkJfWnByQy1tOC1VZnZrbFg5RElBZVpGRmZ4OEZLSWNGLUkxSjRVSUpBcExsYWV2a21nbmdXTlZ3U2ZZRVhqTWlZdEE?oc=5",
+    "source": "The Jerusalem Post",
+    "fetchedAt": "2026-05-31T23:00:14.033Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=ev0hvfrLmvw",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "ev0hvfrLmvw",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "kuwait-issues-radiation-warning-for",
+    "date": "2026-03-25",
+    "title": "Kuwait issues radiation warning for citizens as fears mount over Iran’s Bushehr plant - Türkiye Today",
+    "description": "Via Türkiye Today. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPRmhWV3JmZ0lEeHU5cUNLeUE2UUlkM2pGX09BclVMSHJ1aU9MYmRMWGoxeGtOeVR2cGRqUW4tSkpFQVlINUhGRFgxNTlqS3hRVjFsdXZXY3ZLY0JWQnJCb3hiZXZKNkZoV2s1anBXY0thdVRKb012TGc4RzJ0Qkl2cE04V1BPU3hyTzNJbXMxcmhiVnl0b3kwdk1MMUR1SDhvcFVJTlotVVFSME82d0pJN2dhSE1PM2p2aUdBajVHSGdiWVh0QlJN?oc=5",
+    "source": "Türkiye Today",
+    "fetchedAt": "2026-05-31T23:00:15.652Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=7AAwa0PmnFM",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "7AAwa0PmnFM",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-asks-iaea-to-hold",
+    "date": "2026-02-28",
+    "title": "Iran asks IAEA to hold emergency meeting over US-Israeli strikes - ایران اینترنشنال",
+    "description": "Via ایران اینترنشنال. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBqSG5XMjBRM1BEenQxTEFsWW0xTE5jc1llYnZCN0RMbmhzb3B4RnlXV2xPcHFlUG82Y1pURnBPOFR2ZjlmYmRNWjBBbWlWRDNQcUE?oc=5",
+    "source": "ایران اینترنشنال",
+    "fetchedAt": "2026-05-31T23:00:17.191Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=TnYeY_4KilA",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "TnYeY_4KilA",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "imagery-update-projectile-impact-sites",
+    "date": "2026-04-10",
+    "title": "Imagery Update: Projectile Impact Sites Identified Outside the Bushehr Nuclear Power Plant Complex - Institute For Science And International Security",
+    "description": "Via Institute For Science And International Security. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNazRvM01hNERKbVhOVkw4MGRCTnZta08xSlF6dTNjd1M1UVcxZFpLQTVmdkcwaTlKbFVvVHRHaHR5bFB6cWZLeTlaNmdWNWMyQlN1MTZUZmhtMXhjRGRiNGRMZ3B0LTNpQ3VhUjZGU0xTMTlFdGR3M0E2dXlfaXFvZi1nY0poVWNIdkhwLUNhbUtnZkpLNkpCaXVFaXNJdGZ0eklXUGtmUHdmUzhfUGJvaXdUVjZYSFZnbTBEZGRJMlFnR0RvMkVOeExGUVV3cWc?oc=5",
+    "source": "Institute For Science And International Security",
+    "fetchedAt": "2026-06-01T00:00:12.101Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=zWrL8WuhaJs",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "zWrL8WuhaJs",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iaea-calls-for-restraint-as",
+    "date": "2026-03-24",
+    "title": "IAEA calls for ‘restraint’ as Iran reports strike near Bushehr nuclear plant - Yahoo",
+    "description": "Via Yahoo. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVC1tNjZxR0ZtemdxOVUxaU9fallWYUpaV3lZdnQ1M2R1YmZzYmVvX0pwZWRDZEZKMlNFZXFVeFNHX0lvZFluSDA3S2VDVnhzNDJCVWZPdWFOSDlibnAtamJkTFFXNldIOUs3TS15VWNlQWEwam5vVjQ3YVQ5TmZqMWJmWjh4c0ZrMFh0TA?oc=5",
+    "source": "Yahoo",
+    "fetchedAt": "2026-06-01T00:00:13.701Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=Y3PIzTd8GGA",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "Y3PIzTd8GGA",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iaea-finds-no-damage-at",
+    "date": "2026-03-22",
+    "title": "IAEA finds no damage at Israeli nuclear site after strike - Yeni Safak English",
+    "description": "Via Yeni Safak English. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQeVc3SzdSMUI2T0E2NW9XclMzaW0xbFdpeVdReW9BR1hnQ3hFYjNwTlZxcHRXU3RIc0VudXl2SnVKcXFMdkN2TGtpUXVVNkxGTmFZTGtKRW5aUGs3LVVKQ00wRzNyVGVJNVpRYmRuNnI5UnpzNUdtYzY3U2lESkloMGNRNmJQYzYydVpFdTAzWkNhaGthaWV6aGVmNEE?oc=5",
+    "source": "Yeni Safak English",
+    "fetchedAt": "2026-06-01T00:00:15.198Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=Ko23UkuQOoc",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "Ko23UkuQOoc",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "death-toll-hits-5300-including",
+    "date": "2026-03-17",
+    "title": "Death toll hits 5,300, including 511 civilians, in first 18 days of war: Hengaw’s fifth report - ڕێکخراوی مافی مرۆڤی هەنگاو",
+    "description": "Via ڕێکخراوی مافی مرۆڤی هەنگاو. Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE1lX3ZVY0pYbDlhYkxhVWlMR2s1OXpFcXNPcTNOUnJTNnJ5NFBQdEZTX0YyYjFTNlhZYXNwTUE5ajd3aTM0ZEpsR21LcUZPRFYteURpR3pxNHVWa1BwYnRCSUFnQVBSMVJFazlMcnhva2xOQQ?oc=5",
+    "source": "ڕێکخراوی مافی مرۆڤی هەنگاو",
+    "fetchedAt": "2026-06-01T00:00:16.537Z",
+    "mediaUrls": [],
+    "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israeli-airstrikes-kill-dozens-in",
+    "date": "2025-05-14",
+    "title": "Israeli Airstrikes Kill Dozens in Northern Gaza Overnight, Health Officials Say (Published 2025) - The New York Times",
+    "description": "Via The New York Times. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOaXk0T0x0TF9mRnVCZDVMTlhlUVpGd2V4ZmJjN0lVWU80VEh2bEd6STBiVVA1TU9RQWUyaWFLb2J2MWdzdHlaS0E1ZGd3RkZmOWQyNC1jdUlHaWV1SDFoNDVjMXNyY0dJNEpILTdjRUNkUEw0ejR4ZXV6Z0R2dS1kWndMRQ?oc=5",
+    "source": "The New York Times",
+    "fetchedAt": "2026-06-01T00:00:20.208Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=QhQMEGZGlgY",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "QhQMEGZGlgY",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "after-us-and-israeli-strikes",
+    "date": "2026-02-11",
+    "title": "After US and Israeli strikes, some nuclear experts say Iran could be more dangerous - ABC News - Breaking News, Latest News and Videos",
+    "description": "Via ABC News - Breaking News, Latest News and Videos. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUm5rYWFDMnFBUXRTRWlLYkplZXFHa0lkRXhicXkweXpsNjd0Nm1nZVdVaWZodWlKYkRtcUVTNDRDbWtyN0I1MDlOUmgzeEF5ZGNNX0dkVGZzTEdYem1BX1NqQ1VLMkNjcHoyQVBSYW9MZ3NZYVpEcERTa2szbGp1Y0J1OWFSOWhpdjZxNTdrVU1nQ2oxSm9MLUFWLWNPaXY4dFlxa3czdDRDbnp20gGyAUFVX3lxTE5BRk1rYzMyaVFqUzNNM2hKdUFSNzQ2Zk1HYXZ3ZkZRMUF1eWh0NHhFby1BdE9ZX1RKS2xHa1RmbndCX1hNWmxiTTBUdXlBYnB3dFphanItZ1ZUVHMzS1ExZDJKcnNITXZaSjBMVVQybzV5R2VwQVcxR3lCYXlKZjNFZFJSbUZiWXlrbURLUmpjZ085bzZKZmNnNEdCLVVzS0xCQkhZNFFVX3M2c2dXZ0pTZEE?oc=5",
+    "source": "ABC News - Breaking News, Latest News and Videos",
+    "fetchedAt": "2026-06-01T01:00:12.989Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=adxhWxjtal4",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "adxhWxjtal4",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "strait-of-hormuz-closure-risks",
+    "date": "2026-05-20",
+    "title": "Strait of Hormuz closure risks greatest global energy supply shock in decades - Wood Mackenzie",
+    "description": "Via Wood Mackenzie. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNOWdsdFdHaG5qV2FTd0RXRlZ0Um5OMlNDdmRjQ2JlY21tRHlrQmhPMktKUjRYYzZGX0JFdkoxVmRJOVg3UVB2d3hfQzVQcEczWndGWjBlQVFVek9MRFljUFJDMGVfZDB1dkhpcXY0aGMzV2tFSXlsek5WbWN2anEycmdsMnowaHVSMV9MOEVtWHR1TmpOTGpVVXFrVk5Gcll2Rzcxbk1JUUxrdXFBX1pyQlR1U0ZicW1Y?oc=5",
+    "source": "Wood Mackenzie",
+    "fetchedAt": "2026-06-01T03:00:12.170Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=q3QcWJiNohE",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "q3QcWJiNohE",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "lebanon-says-687-killed-in",
+    "date": "2026-03-13",
+    "title": "Lebanon says 687 killed in Israeli attacks since 2nd March - Middle East Monitor",
+    "description": "Via Middle East Monitor. Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNXy14Q2dGMlo3ZUtmSU5nd0lhY0VnVXpYdWNMQ2NZUElTY1hyVmVDSVFOcFZGS3dvNDdHYlRkYWFzMTZ4Zm1rTFRHWUlWd20zdUg3N2tuZkNFdDgwN1NsOWlGUzNYbzYtTFhNYVp6NXEySGt6anZDZHQ0VTM0dFN3MmxXV1lNNnhPVlJtYzRhMVN2RlBYNWtka1hZVDA0WEdMN3FEetIBqgFBVV95cUxPSlJlYWhLTlBvQXdjbnV5RVBpRVBpdTBfLWNqQTNYVkRFSDA0YzhlNEVkczFWNVhpRERTZ081bTNieE00WU1pWjBiNEo0M25sa0JQVE5DVDJnWHBsbmdvZTB4eS0wZ2FZdkpnam9qUGJTRzdOT0FWQmFJYXpPcEZFVFRuMFpBQjktcWdVbHhOYWJuUjRtVzhKTWllZlBVQWVSQjBZeVoydXo0Zw?oc=5",
+    "source": "Middle East Monitor",
+    "fetchedAt": "2026-06-01T03:00:13.776Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=sbq6Nq10FPA",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "sbq6Nq10FPA",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "names-and-faces-of-those",
+    "date": "2026-04-09",
+    "title": "Names and faces of those killed by Israel in its April 8 massacre - L'Orient Today",
+    "description": "Via L'Orient Today. Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZVhPQjhGajVEdm5hMlVVYzd6NWJQWkJGNGRpcnRoM3ItTGRfY0ZoSF9sLTFjVEVad2VIUmtXODJhemV6Tmh1eGNDRHc0aHFTRThtcFRDaW0xSGJ4eHUtdi1IOTdRUE5qS29CRWJyN0FReVh4bEZCeXlFekhpMGVWYnpTNUpiei00TURuUlE5bTZva2dxdVRIZTFYeGhFNzJDa2N2SE42Z1hiUGNPc2F5aHREMlYzaFJrRHc?oc=5",
+    "source": "L'Orient Today",
+    "fetchedAt": "2026-06-01T03:00:15.426Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=O5dyG811hbE",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "O5dyG811hbE",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iaea-warns-it-cannot-rule",
+    "date": "2026-03-02",
+    "title": "IAEA warns it 'cannot rule out' possible radiological release from Iran strikes - Good Morning America",
+    "description": "Via Good Morning America. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQeXZzVk91MG5zX2pncHhibVpUNVhJMklHd2xWYy0wOWNZYXlGWVNSdUZvYmJoaklEUTJTOHFNVU8zUWEwdlRUaTFmQUlEUFUxN0ltSWR2MEJFZWRTd01wT1RKcnlXb0s5clR1MHhQbThmZ0lidGNackxINnNxWDgwMEkxMVdGdEJxQmwwcGZKTGpERDNYOGlQRUwzdWpYQkM2RG9qQ0N2X2jSAa4BQVVfeXFMTUFuaVh4X1hGb0FTaE9NSndqeTRvREtIZWh1ZjZZcHFtcEFYTTBheEpUSS1nelE5ZmZTd1hpQ2NzdzhxeHo0WUlHb0xmU0ZubzFCeDdFdTlCQl8yMmd1d2hxaWxGN0hpUTk1MFFyeDBkQ01LdURsc3ZBcUttZ2pUQ0FKdkNZbFl3OEJucV9EWVVGbWFPZ0Y4WVJGbFVLOUptcmt5NUg0UFk0SmxIX1Vn?oc=5",
+    "source": "Good Morning America",
+    "fetchedAt": "2026-06-01T04:00:12.130Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=cgrKjgjQMO0",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "cgrKjgjQMO0",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iaea-report-says-iran-must",
+    "date": "2026-02-27",
+    "title": "IAEA report says Iran must allow inspections, points at Isfahan - Al Arabiya English",
+    "description": "Via Al Arabiya English. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQS2NwVnE2MUtOZS0xQnNtM3RScWYzUWE4WXFfelNoYV91X3p2dFpINzBiVG1DRnNhckpEVnRka0hNYzVST2RHMzBkYlNUQjNvSlYxaW1hNHRVM3VxMzNKWXNlVUJRdngwSDJTV3pPR0FBRXhoVnhzSVV4Yld2YzZlNkJtdzQyZ1UyVDNyenlWR1NlZFYwbzVoS2huODNfbVpvYjhoWDc4UGVFRXFLVm1hYW51Z2RPR1h0VGU0Ry1TYm1Ec1lzVUVSRDVB0gHPAUFVX3lxTE1rQXI3ZGNXUnl4clFfdWhtSDJZQnpLWFJHbk05bjdlVFhDbFllUkpMdkl5dnkyajBrNHNXTy1NRHpkVldhdTVQQTd5M0pwUFF5c2xzanpPSnFUN21yTE1KWXVSTjJYWU9Zek85ZTlueF9JYmNBRkYzWkdaOTBnQVRoU1ZDaHdzRlV6LXFHREdJOFlqeHV6dVgwQ2tRS1VDcUpIVHY1dmp2RDVMTnRKNWtWVk5IQy1pRHk2Z0tYSXlaeUdwc2N5Tlg4TmM5QXNNRQ?oc=5",
+    "source": "Al Arabiya English",
+    "fetchedAt": "2026-06-01T04:00:15.274Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=fBkKZ4wgDp8",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "fBkKZ4wgDp8",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iaea-no-signs-that-israeli",
+    "date": "2026-03-02",
+    "title": "IAEA: No signs that Israeli and US attacks have damaged Iran's nuclear facilities - cna.al",
+    "description": "Via cna.al. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVjFnWF9QQTgzRDRMM0VUSG05WWtUQ1cwbDNEZXVNYi1Qa24xTnh0UmNENzJ4YUhKWFBRZ0FNZDVsQmhnVEpyaTU3ZVo5VnN1b0NYQXhrVFBDbzdQR01nRkxncVFhTmItbGJlNjMwYmtjNmxZbjNfLUJLemV0SzVISzJrdVo0LWFNS3IwMGpzRkFCZVFKd2FiN1pBa0dobE8zeGtYSklCRnhPNnFzUS1BVw?oc=5",
+    "source": "cna.al",
+    "fetchedAt": "2026-06-01T04:00:16.769Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=Ko23UkuQOoc",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "Ko23UkuQOoc",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "the-most-significant-longterm-consequence",
+    "date": "2025-06-26",
+    "title": "The Most Significant Long-Term Consequence of the U.S. Strikes on Iran - Carnegie Endowment for International Peace",
+    "description": "Via Carnegie Endowment for International Peace. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOYTg4Ni1YeEw2UkxaLTZEeEw0Um00NmJVZE5HM1hKaDNZdjBuZVcxQThXTG1lc1VUa1FsSTVkTDljOHdCNzBYMDBqZzh3bkNsUDFIdGY2V01pWWhhRzFOa1RwU1A4LTdMZTVBTE9pa2JFWTRrY3lBd2xsXzlCT1hCekk3Mjd5UVVsZ3BRY2hkV2loZnZzRmk4V01fTkMtbVNpMWt2ZA?oc=5",
+    "source": "Carnegie Endowment for International Peace",
+    "fetchedAt": "2026-06-01T04:00:18.464Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=jXCfE-nLrG8",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "jXCfE-nLrG8",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "early-us-intel-assessment-suggests",
+    "date": "2026-01-09",
+    "title": "Early US intel assessment suggests strikes on Iran did not destroy nuclear sites: CNN - The Daily Star",
+    "description": "Via The Daily Star. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQRE5RRnpFQnJzTmZhN3p2TFdJZ1gwa1hHc2FLOWZiTldQR19abi01Q0Y4c1Vndi05NWJkYWhJUWJPZVFyb3RJUjZQQ0hRYVJ4bWRUdmZDR3pBU0JKS1dlam5mbGdKZFFlS0RwN1lDNFRvS0NZQ2ZBcjFEeGZKOGhLS0ZtQVJ0WlRQX3VjczVENEdQYlpLcjNJODcwSFN1aWFreEVudmswU1U2S0lGSXhaajhzRTNydmo3am1DODV1RUF0QQ?oc=5",
+    "source": "The Daily Star",
+    "fetchedAt": "2026-06-01T04:00:20.876Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=7eYpkEcXfXk",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "7eYpkEcXfXk",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iaea-reports-on-safety-status",
+    "date": "2025-06-18",
+    "title": "IAEA reports on safety status of Iran’s nuclear facilities -- ANS / Nuclear Newswire - American Nuclear Society -- ANS",
+    "description": "Via American Nuclear Society -- ANS. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPLWNIN0Z0aExUWFdSbFFCMEdWLUxmakZrMEM5QUJWaV9lTlRCTm1leFFNTV9haDBvMVlWMHBGUzlVV0RRQVJWNnl1UkYzNzRkMVd4cC10N2wtOWJqTS1FMklhdERTZGVfa1ZpM1E3WGhGNUM5LUVucTBnS3pvSWVXbUgzRXVuSG0yczNpWllZT05QaldPTXRMcE92UDRLZllzbWZVbm1XdmZmNDg?oc=5",
+    "source": "American Nuclear Society -- ANS",
+    "fetchedAt": "2026-06-01T04:00:25.638Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=f96OlQdovg8",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "f96OlQdovg8",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "implications-of-strikes-on-irans",
+    "date": "2025-07-02",
+    "title": "Implications of Strikes on Iran’s Nuclear Sites for IAEA Credibility - Royal United Services Institute (RUSI)",
+    "description": "Via Royal United Services Institute (RUSI). Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNQ0xNclJUa3I0LTVTT1Z1UTJIdDY2U2tfV3o5czhRWkpZY1Z0cWdIUDluWkFPbnBtcVVlbFptQlhsMVZyeU5YcnFKcHBkS1dyeVNMdHBZWUR3WE56cUZpMzJQRmdfbEthb0lybk1GYzdVTDA3UVFmVzk1dXVjQWxERms1bks1MFNwbjYtMFM3azJfall3VWd2LU1jWUJkTnRLSnV2SkE2VWFoVk5xOFN5eTY0eWJzbE9kUER2N1N0Qi0?oc=5",
+    "source": "Royal United Services Institute (RUSI)",
+    "fetchedAt": "2026-06-01T04:00:33.009Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=qDGsSJ8cYtU",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "qDGsSJ8cYtU",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "over-1000-children-injured-in",
+    "date": "2026-03-11",
+    "title": "Over 1,000 children injured in Iran; Deaths and displaced mount in Lebanon amid Israeli assault; IEA to release unprecedented 400M barrels of oil reserves - Drop Site News",
+    "description": "Via Drop Site News. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNeURaaTZTempUOE8wLUUweGJQbUpCY050SkVoaHI0eVNVN3VtRURJaHpibUJBQkU1XzdSOHFRdV9yV2JScmplVXF4bFBTaDItWUdPMTVhekFDcUJzYWt3LXFkZEl4MHBOQm1FUEVBQ2d0S2NrblpuQ0VsbGZOYWZsSUhrTFk5dnNqdXhJc2ExS2FKUmswYmVvZmFueXlKbVppV1lBTW5B?oc=5",
+    "source": "Drop Site News",
+    "fetchedAt": "2026-06-01T04:00:35.319Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=W3R0l_MPWe0",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "W3R0l_MPWe0",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "the-us-built-a-blueprint",
+    "date": "2026-03-10",
+    "title": "The U.S. Built a Blueprint to Avoid Civilian War Casualties. Trump Officials Scrapped It. - ProPublica",
+    "description": "Via ProPublica. Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaWhkZ084V180QnN6NERNTVh6YnFmWjMxS2N6RWhKMkw2RTFnQXFwNTRiQ1JYYllCTWM1ZjhtalJJSlRiR0JvUUZ5V0JlNVgwUFNRWTJwT2xmbzJ2amhDN21ZVVgyanhONkVKU3FNdEVqekNSanNIdDBYbGRoYlFpVmNQR2FpeUNnaHVVSzBmdy1zM0gySUpF?oc=5",
+    "source": "ProPublica",
+    "fetchedAt": "2026-06-01T05:00:15.555Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=Uv1qHCR24DM",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "Uv1qHCR24DM",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "how-the-iran-war-is",
+    "date": "2026-05-31",
+    "title": "How the Iran War Is Causing a Historic Oil Supply Disruption in 2026 - Discovery Alert",
+    "description": "Via Discovery Alert. Auto-detected by headline monitor.",
+    "category": null,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUXVTOWhqRmI3MURTX3ZlT1lpZjJSaElESzlBWTNkTi1mQlVKaVk1ekNYOHMya1hxbGhpZGVOU3Zxdk50d0lzMUlRSktFUy0yVkJsMGVmZ1lOMXlRbVVocWNqRFd1YkgwTHBWbEFaa0RmNEVOdjZnRXhMNlVOQnE2a1FFcFd3ZW1hS0F5VnJXYTQ?oc=5",
+    "source": "Discovery Alert",
+    "fetchedAt": "2026-06-01T05:00:17.103Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=5qjvluMnyAw",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "5qjvluMnyAw",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "the-strait-of-hormuz-closure",
+    "date": "2026-04-21",
+    "title": "The Strait of Hormuz closure forces a choice: Ration oil now or pay a steep price later - Atlantic Council",
+    "description": "Via Atlantic Council. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNTnNrSl9TeFRzeHRoUG1BLV9mNjRZajRqNUtKZlVLaEJYVG1pYThZYjJ6dU1ITVpSNnRMR1AwdmotOXlPTV8ydVk1bHlnYVZvWkhicFJNME9fdE5EVDZGajEzaURhcTlKcDhOSTg4TU9sT0FPelVFZ3F2MWhzQ2tUMjlFYzJYQUhmS1VJdjhlbmZTT1k3a1ZBZERkZlRWX19YODZ2WDV1M3ItVENERy1uNUlnS29WeW13SWk0Ukp5dV9ic1BjeVdkc2FR?oc=5",
+    "source": "Atlantic Council",
+    "fetchedAt": "2026-06-01T05:00:18.711Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=kqGDHNDaV7M",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "kqGDHNDaV7M",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "six-killed-in-nasser-hospital",
+    "date": "2025-08-27",
+    "title": "Six killed in Nasser Hospital were terrorists, IDF finds, as probe into tank shelling continues - The Jerusalem Post",
+    "description": "Via The Jerusalem Post. Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE54NHV1Wkp2OTRxS0UyUmxyMTFFMlc4XzZjaWRRaTNycXBJc25BWTNYSnZJQTFMNzNzX3pIN1o5N3BiTHZQRVNROV9yckhreUVQd2JDUTJERXo3LUcwQldTRHJtUlBEM2ZBd0VfZ0Vn?oc=5",
+    "source": "The Jerusalem Post",
+    "fetchedAt": "2026-06-01T05:00:21.128Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=2r5uo5_JUaE",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "2r5uo5_JUaE",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "un-keeps-red-sea-ship",
+    "date": "2026-01-14",
+    "title": "UN keeps Red Sea ship attack reports as Russia takes a jab at US - Baird Maritime",
+    "description": "Via Baird Maritime. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPclI3WkR4Z2dSTUdvcm9DUFlJblVlVTg2ejdpZjVVeHlvbXM0Ml9vOEFDNzNhUnVZRjNxd2VLWl9zN0xpREVzb2ZvdzFvaU1VOWJ1Y19HbldGR3lDWjAtTzdBMWZEb1FCOE1jcFg2MXFEWXh6UDYtbWRyQUo3ZWVQVHQtMGJxaC1UdWNfYkhhZXF0dFJvbHVlei1felZ5eW03cmxIZlV30gGzAUFVX3lxTFB0VC1VZDlXbS1lNVdBSlRqR2RKQ211bVRTbVlGbjdtaGVFM2Y2WHJldGZCamJLaG1UY0NjUVhrS3RubC1SMUw4U3U4VFFqUTdaS04zZWE5ZzEzVnY1bW1HNnRTcURJaHNOVDZWeS1DY0liRmVhVkMyQm0za3RsTmVRaVoxZnNGeV9rZlhQeVk4SWRFYnRkb1pBQmRsVkN2S0NBX0ZyV2dDN09iRHdqSGc5MEhv?oc=5",
+    "source": "Baird Maritime",
+    "fetchedAt": "2026-06-01T05:00:25.927Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=Q0X-mVppfZU",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "Q0X-mVppfZU",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "fires-break-out-on-abandoned",
+    "date": "2024-08-24",
+    "title": "Fires break out on abandoned oil tanker Houthis attacked in Red Sea - VOA - Voice of America English News",
+    "description": "Via VOA - Voice of America English News. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZUlyMUdvSGJKbE85VXNhbGtxUGVnUnNoV0haU1NDdlp3UEstdGphWUhwOElfMks4QzhKMWVHeGp0b2cwdVVnN1NmWnhLWTlOamZuT05YMmUxTVBFdDZEb1NubHEtTHJvcF9uWVplWW1aWFItcXBGZDJiNWR3TjRkcFdkeUJ6LUZJN2w2cFdyYXBjWWJ4V2VNYkdpRkhZVDdNT0I1SmxULXlYd9IBrAFBVV95cUxQcmNQSTJXMkxnT25KUlIwY0U5TDZRbUhHcFR3V1dqUU4wVWtxaGdja09Eejh5N0ttWE1WbnpFZnBRZUI5bUx5X2dDb0hoLWYwcEhuQmFRR21xZDlQQkZOUUlzdTV0eFVNbEJLWnprVHFFTHFrQTItaml5dVUyRU1pS2N3R0hUM09yQ0d6eUtGRXVvbzBYLXZxUDhHemhBYktFbEJ2YmpzS19jNi1F?oc=5",
+    "source": "VOA - Voice of America English News",
+    "fetchedAt": "2026-06-01T05:00:28.626Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=Z2kPCapj6rM",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "Z2kPCapj6rM",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "fire-and-explosion-onboard-lpg",
+    "date": "2025-10-18",
+    "title": "Fire and Explosion Onboard LPG Tanker in Gulf of Aden Leaves Two Missing - gCaptain",
+    "description": "Via gCaptain. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTW40aHppUlhsLUFVcXNFa0FuSTE0WExKTmt4ejZtQ3VHSHEwX3E5ajktYjF6MHBaNDk2dWNQdnJwbHEzdXBjb0pWd0g5NnZoS21xRGpqdGJjaDk5YnlmSW0wOHZ5MXZmeElnYkpiTHVDV2pwb051UUlRRDJCQTd2Nld1VU5sa0hsc21IY0RZbEtCazBtOEo4TmtfcDIzNVQyeGJsVA?oc=5",
+    "source": "gCaptain",
+    "fetchedAt": "2026-06-01T05:00:30.921Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=WLLqhBoyalk",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "WLLqhBoyalk",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "energy-prices-surge-as-tanker",
+    "date": "2026-03-02",
+    "title": "Energy prices surge as tanker disruptions, facility shutdowns, rattle global supply - BNN Bloomberg",
+    "description": "Via BNN Bloomberg. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUlo2eWJiWnlqcXRLR1B0LUxaWnB6VW9OZlF4OHZxUEdrWXFuUFBpX3dfdmFLREo2WFJtVFVSNE9MRlhuUjZpWDU3bm1GZ2w0bDdwMlpuWlNRVWswVWUwZVI5SmFZeXNXSjM5eHFJX1NsaEs3RTg3Y2l0QkVrSjd3SS1SaU5PNVBsQl9xUE5sVXRhRUNMaW5JaklCT3Uwa1JNbEpTZ0ROc1dWMHMxUUdHa2xrcEdvbUV0Ykl2V2FNMHQzc193emNtbVJn?oc=5",
+    "source": "BNN Bloomberg",
+    "fetchedAt": "2026-06-01T05:00:33.653Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=KTsGeo3AB-U",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "KTsGeo3AB-U",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "operation-epic-fury-emerging-environmental",
+    "date": "2026-03-10",
+    "title": "Operation Epic Fury: emerging environmental harm and risks in Iran and the region - The Conflict and Environment Observatory",
+    "description": "Via The Conflict and Environment Observatory. Auto-detected by headline monitor.",
+    "category": "environmental",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZGI3TG1OWTJodGk1R2lZZXZqMFNNVW1qeDhxSkNybkl1dm44SkZYU3NTSVF2TTFDWHlpSm9RVHNBQUo5N3FXaWlCUXNCVDZfb0gyUUUzMUUwRlFmTTlFSEd3cnMyWmFMYXcta3JFRXlpVmNBeXFDNGJlaXF6bEVtNVpUM1JGZU9ELUxHV2F0QVFEODVuV1NfT2J5M0xQVFJy?oc=5",
+    "source": "The Conflict and Environment Observatory",
+    "fetchedAt": "2026-06-01T05:00:38.292Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=pnTya82VzVY",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "pnTya82VzVY",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "oil-prices-soar-10-as",
+    "date": "2026-03-01",
+    "title": "Oil prices soar 10% as tanker traffic halts near the Strait of Hormuz amid Iran attacks - Fortune",
+    "description": "Via Fortune. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWWR4ek9lcFFDWk1IQmRZVWFXaTIzbk12a1NRdG53amxxMXJWdVA5bm9scm42Y1AteTRNdHVzTWRSdmRMTWZXMVZlc2dESktXR0NCZmRqZ1hMMU5PdVZya29CcjQwbTdGTVd1UV9TSzcwV1JsMmNpbnE4RlpuNEtlcDFIMEdjQnJ6bnNQZTd0QmRYZm15dzVMN1lKOXhBbUxMQlpaa0tvSFVUWUxtdW80?oc=5",
+    "source": "Fortune",
+    "fetchedAt": "2026-06-01T06:00:12.021Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=GQ1ZPAEr40c",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "GQ1ZPAEr40c",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israel-strikes-beirut-after-evacuation",
+    "date": "2026-03-05",
+    "title": "Israel strikes Beirut after evacuation warning sparks panic - BBC",
+    "description": "Via BBC. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBnRG9Jak5uYW5sMlItVE9BYXhVcXo0NnBwY0JyOVlGWlk2Z1ZKYUpGY3Z6NXdxdHluU1Q4a3VULVFJMGFieEx4R2JtemdCZFBOZGwzQ2xrVm1kZw?oc=5",
+    "source": "BBC",
+    "fetchedAt": "2026-06-01T06:00:14.851Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=BmxprHrTXXo",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "BmxprHrTXXo",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "casualties-rise-in-israel-and",
+    "date": "2026-03-24",
+    "title": "Casualties rise in Israel and Lebanon amid escalating conflict - Türkiye Today",
+    "description": "Via Türkiye Today. Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPN29qRlpzMGx4TDZFRlVDRmc3QUxiMXhQWEJfN2RqdzRnM1hsYzdTNEJaeVgwOVJIRXBVVVI3UFg1b3NlZXJTR3l2U2htcy1ESVUyNV9Rdm9IZ3htekVRazhxVW5sLVp3MEFOVy03a2dTWWF6bHNtNUNrdjlDNzktVkJEcmx2RmpuRjlWaWRrd3ZUNlY4Vk1GY1RkaEVoUkJURVJBWFZaUzladw?oc=5",
+    "source": "Türkiye Today",
+    "fetchedAt": "2026-06-01T06:00:20.477Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=R_GtYF8_aQQ",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "R_GtYF8_aQQ",
       "title": "",
       "confidence": "auto"
     },
