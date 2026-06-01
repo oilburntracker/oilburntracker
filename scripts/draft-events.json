@@ -1,59 +1,5 @@
 [
   {
-    "id": "does-this-video-show-damage",
-    "date": "2026-03-05",
-    "title": "Does this Video Show Damage From Recent Iranian Strikes on Tel Aviv - موقع مسبار",
-    "description": "Via موقع مسبار. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUm1xb1BRZ2F6MlEzNzJpd1hBemlSLW5MYjdBYWQ4UXpRWm1sSXg4N0cxTWp6a3JQallPYXgxTEdXMHZWZUN3WXpxVTdyRW9uQ0N4X01NS3RmVnlPVWVXWEI5bXBxdWt2bjNUNG5pbDd4aVpyNlVSRER6OHV4NVY5b05ZQ0dhUy1XeVloaEhHSWx5elh4eXhxRFRNaVctd1owMVlz?oc=5",
-    "source": "موقع مسبار",
-    "fetchedAt": "2026-05-30T15:00:12.926Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=sKPmA0H3PSY",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "sKPmA0H3PSY",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "here-are-the-gulf-energy",
-    "date": "2026-04-07",
-    "title": "Here are the Gulf energy sites damaged in the Iran war so far - Oil & Gas Middle East",
-    "description": "Via Oil & Gas Middle East. Auto-detected by headline monitor.",
-    "category": null,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOTUUzdmZJWk9MRmdxeFVORFBiTGVQUE4ycHFkNm9zN2RJSVY5R1BVM1g5RHpxYllEa1JpdHRQMTF5WjZ5b05jOWdkVVdFc2VMQUVfVWFyeHBlbGpBZzBES3lTVkJPa0RFY29PVXlOQlZybXdzekJBNWw0TmsxWVpLRURmMEhxbWFCc2c?oc=5",
-    "source": "Oil & Gas Middle East",
-    "fetchedAt": "2026-05-30T15:00:14.715Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=NxQPgSCHa7k",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "NxQPgSCHa7k",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "iaea-iran-heavy-water-plant",
     "date": "2026-03-30",
     "title": "IAEA: Iran Heavy Water Plant ‘No Longer Operational’ after Israeli Strike - Asharq Al-Awsat | Explore World News Today",
@@ -5279,6 +5225,87 @@
     ],
     "videoMatch": {
       "videoId": "R_GtYF8_aQQ",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israel-and-iran-attack-gas",
+    "date": "2026-03-19",
+    "title": "Israel and Iran attack gas facilities in a major escalation that rattles markets - Oregon Public Broadcasting - OPB",
+    "description": "Via Oregon Public Broadcasting - OPB. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZ2dvOVhURWpLRW1GZHdmaFNHS1JiZ09ScjNUYkZUY092YW5xUWRZWVlfT2FHWVJ2S1BqTGhJaUhNYnJVZFUyMHhqa2JlV0I4UTVzQTZIeEY2V01BREtBLTQ4TzRZV2ZZV2VfR2xaTnhQNTF6d2hIanViT1ZWTUV1Sk9NREdnallyWUY2RUxLaVI1TnNQN3hHc2xB?oc=5",
+    "source": "Oregon Public Broadcasting - OPB",
+    "fetchedAt": "2026-06-01T07:00:11.746Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=vEmq3cfHexE",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "vEmq3cfHexE",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "the-truth-about-gazas-death",
+    "date": "2026-02-03",
+    "title": "The Truth About Gaza's Death Toll – Part 2: A Gross Undercount - Zeteo",
+    "description": "Via Zeteo. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBkYVBRVEthbFpWR2RLcVJ5Rkpid3BPUzBCTTdEcDhqSDduMDlxUUkyc3BBNjRmOEZ0MXB4S0xrWWZuT2FVN2JWcVZXd2VlUG84U2VlSnhINzZyNXdxa09oTVdpVTRtMWFsdWNF?oc=5",
+    "source": "Zeteo",
+    "fetchedAt": "2026-06-01T07:00:14.820Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=udI7KPxXKww",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "udI7KPxXKww",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "death-toll-from-israeli-attacks",
+    "date": "2026-03-16",
+    "title": "Death toll from Israeli attacks in Lebanon rises to 886 - Middle East Monitor",
+    "description": "Via Middle East Monitor. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOazU3QmN6RnJUSENONF9nWXREQ1E0d09xX042UVVJZE1YUjBpVXk3RjlfZ2luU0tsUVN1ay1QMWw4d2ZMVVA0ZDQtLXlIdUppVGtTYXVsdmtiamlQZmhJa1QzT3NuUmZFMDVaUzVSdWY1TkhZNnhjNm1Db24wSUxsZXVXTjY5clRLVUFCTk0xRFBVZzNkY2lLRHpMRHZhM2hh0gGmAUFVX3lxTE1HdC01dWN1V0U3VmpldFYtQXNNb1ZKNERpYjBHX3VPWGt3MzJ0S0s3T1dOM2FmQVVrZElBVndfSkdBaEI0SFlMUHQ5c2VORDR1cXNDcXRjdjlyVmNNX0tGSXhaWGlBQmExaGxUM0RNX1pveDRWMTY2cnVkZ1RIMVBnbkg1Z29wR1p0bEVfeUlXYUpRSG90dnhPeDlpeWtqWkZoakY4UVE?oc=5",
+    "source": "Middle East Monitor",
+    "fetchedAt": "2026-06-01T07:00:17.926Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=ffNZhB2Mj2o",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "ffNZhB2Mj2o",
       "title": "",
       "confidence": "auto"
     },
