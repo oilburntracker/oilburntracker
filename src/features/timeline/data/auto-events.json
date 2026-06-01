@@ -4800,7 +4800,14 @@
     "description": "Via Reuters. Auto-detected by headline monitor.",
     "lat": 35.69,
     "lng": 51.39,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbmhuSXkyaklGYlZaQUpkU0FXOVdKRXpXWXdUaUNQeG0xUzM5bnBRWUhIaVZ3QnhUYUFZYlhOR25RVHBXTi1zd2FFWkVUVTg0YnB2bjhlOTJVMlJidzh2VGxPXzladG95VVd0VVpxM3NHakphdnBBUGZrM01OQjhvMFlYQXBTOGRVTkk0UG1n?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbmhuSXkyaklGYlZaQUpkU0FXOVdKRXpXWXdUaUNQeG0xUzM5bnBRWUhIaVZ3QnhUYUFZYlhOR25RVHBXTi1zd2FFWkVUVTg0YnB2bjhlOTJVMlJidzh2VGxPXzladG95VVd0VVpxM3NHakphdnBBUGZrM01OQjhvMFlYQXBTOGRVTkk0UG1n?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=ufV5iXtAFhk",
+        "label": "Iran attacks damage 20 US military sites since start of war, satellite images show. #BBCNews | BBC News"
+      }
+    ]
   },
   {
     "id": "auto-no-indication-iran-nuclear-installations",
