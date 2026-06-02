@@ -15107,5 +15107,22 @@
         "label": ""
       }
     ]
+  },
+  {
+    "id": "auto-oil-and-gas-prices-jump",
+    "date": "2026-03-02",
+    "title": "Oil and gas prices jump as conflict escalates",
+    "category": "retaliation",
+    "description": "Via BBC. Auto-detected by headline monitor.",
+    "lat": 30,
+    "lng": 48,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9XeXl1UW9JOVFDNHVKTEhkWVNmc1dGMHVwb21aalZnRkZNN05TckpjX2dlal90SU8xU0tRTUEyR2xrcUgzYzRIQlZuRDZtZk1lLXVKMXVyRFVxdw?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=ULtsu4CDl_Y",
+        "label": ""
+      }
+    ]
   }
 ]
