@@ -1,113 +1,5 @@
 [
   {
-    "id": "85-palestinians-killed-in-gaza",
-    "date": "2024-03-10",
-    "title": "85 Palestinians killed in Gaza in last 24 hours, death toll climbs to 31,045 - Middle East Monitor",
-    "description": "Via Middle East Monitor. Auto-detected by headline monitor.",
-    "category": "humanitarian",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZG9mVFpyTlZ1dUFJV29HbUpZelIxblVsYVBXVnJVY0NSUmx0RmRpczNrNFpwV2h3S1N0bXg4YXMxbEI0Q3dNd0dNRFR3RWpVeGhPWVlrYWJENnZYRmNmSktwT2lGVzFDWktYc2xPTXZHOWpGajRtRTFUX3l3aElzZ2NMVkd6NHF1bmNiVVdTQ1JtOXBfaTA5YmEwTTlsN1dEYmR5ZXBsejFxTWE4RmFndGh2LTh1OTVFZFHSAb8BQVVfeXFMTVFpOU5OQTFVQWhxZ04xbDctYnNUWEdhcG9zb2tKMXJNV09NdGstMEhYdTI2b2NKQU5QbTMzdE8zM3ZFX3g3bEthd3ExdzR1ejNJUlZ4dldCRG9nblRkcTFxem9lTDNJbFZUZHBpN1E2SkF3Y2duSGRadHZpYkxXRC1EQXpOLUJDdHF1WXdqaFV1Wi1UZkF4MFFEZ2FnQUJtQVJtaXVaVnBmbnRqUTNQUHZrTGN0cTFLUlBjZXVHak0?oc=5",
-    "source": "Middle East Monitor",
-    "fetchedAt": "2026-06-02T00:00:42.105Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=X0OYzjy5uuM",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "X0OYzjy5uuM",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "israel-strikes-major-gaza-hospital",
-    "date": "2025-03-23",
-    "title": "Israel strikes major Gaza hospital as death toll crosses 50,000 - Nine.com.au",
-    "description": "Via Nine.com.au. Auto-detected by headline monitor.",
-    "category": "humanitarian",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUGZQcm5WRC1xbk5CS3R4aEE1V09LRWJ6U2w5aWFrTjJISE9Od1F1WXdfT2I2d1JWaWJpNThRQVdaM2ZtMzRsaDlmY0NJNGRaTGZNekU1bTUzWXlGSFUzRGZQdVZNc2JXRDN6amNlU1Itd0xuRGVMdWxYWjJkUmJHQTZaeHBuNTZOT25wSl96OV9MTzVwdkxld01qVXRTZzhxZndSY0llejVYeHQ0ejhXSW5XLVAtOEU?oc=5",
-    "source": "Nine.com.au",
-    "fetchedAt": "2026-06-02T00:00:44.518Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=cknbr14Z2dk",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "cknbr14Z2dk",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "gaza-death-toll-increases-as",
-    "date": "2026-04-13",
-    "title": "Gaza Death Toll Increases as New Casualties Arrive at Hospitals - Mena FN",
-    "description": "Via Mena FN. Auto-detected by headline monitor.",
-    "category": "humanitarian",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTWl2bzE5T0tuNmc1dUlKSHZzYzByMlpaRTBrRENaN2NnUTlUVXk3M3U5NmxiXzMxVWprVmZBdHNJanFtOUZ4QWkxeHBWT2JNWGFVU2l4bmZJWDFYd3VBTXlCM3ZMajdBczJERjBES1FHNklLNHhtUnJQcEp0UHZaWDlWLWNyT1UyeEhsZUhsOUVTdFhPc0YxQg?oc=5",
-    "source": "Mena FN",
-    "fetchedAt": "2026-06-02T00:00:47.073Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=8Lp9OiNWj5Y",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "8Lp9OiNWj5Y",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "more-than-40-middle-east",
-    "date": "2026-03-23",
-    "title": "More than 40 Middle East energy assets ‘severely damaged,’ IEA chief says - CNBC",
-    "description": "Via CNBC. Auto-detected by headline monitor.",
-    "category": null,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOQkxERHpKclpfTUxGeUlmanpveXBJd0ZHZmttRmZPaGxvSDI0aGtHLS1QQVNITlpzSUZBOGYyTXN2UFBVQnoycks2dXNuRkpGM1NqUlBGeHliRjdYUWdMQVY2UHJzLVcxczljTnZTM1FZYkRsUXRPbTE3bnJnZkN4Y21DdWczbjJoN1dvWldMWjdnN3PSAZgBQVVfeXFMUEZQNHFCalRiUFVyZWdqUjZKN244S0xoZDZtNGpwYi1tM3A3NFp5R2xpNENWN1VoTlo4dFVjUzJHaTBWQVV5U2djc0RwMUt1MlZvR1pnbkhLNGhhdGRKLTVOU0JXTk9yZmNKVm53Vl9KU0d2b2hxTk9GOWdrZi1zRGhNTkF2VUNoSFlPbUsxOVBYSEZ0U1hoeEM?oc=5",
-    "source": "CNBC",
-    "fetchedAt": "2026-06-02T00:00:52.173Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=fY9J91jmKSY",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "fY9J91jmKSY",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "satellite-images-show-the-destruction",
     "date": "2026-03-03",
     "title": "Satellite images show the destruction caused by US, Israeli and Iranian strikes across the Middle East. Targets include military bases, oil refineries and an Iranian uranium enrichment plant. #DWNews - Facebook",
@@ -5215,6 +5107,195 @@
     ],
     "videoMatch": {
       "videoId": "CschcCRX0cE",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-war-ceasefire-cant-undo",
+    "date": "2026-04-08",
+    "title": "Iran War Cease-Fire Can’t Undo the Middle East’s Energy Hangover - WSJ",
+    "description": "Via WSJ. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNYlFrR3laaG5sTlNtSndZc1lKTzc5VWVhS3hfMkxuaEVDSjdWVFJyM1A0NWFfVkltZk1abVRMR1hKeXJVZEw5YlJyVnNWZ09JcVJPMHY5UC1lQjV3bGo0NERMUzE5ei1TdlpUbE9XN1hHR3RrcFJEZFJRU1V5bDJUQzdzbHhnRlotTk42TXdDTmU2SndwdUFFR2h5b1VqN3NUVmdkMHdMN1h5UDVpUXNSdQ?oc=5",
+    "source": "WSJ",
+    "fetchedAt": "2026-06-02T22:00:13.351Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=0keOMC2FZI0",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "0keOMC2FZI0",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "unknown-enemy-attack-hits-lavan",
+    "date": "2026-04-08",
+    "title": "\"Unknown Enemy\" Attack Hits Lavan Island Refinery as Iran Assesses Damage - UNITED24 Media",
+    "description": "Via UNITED24 Media. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQb2p2UEliV1FYU3VaWGFJOTFBcUZhV1prMFYza3Brci1KUTBHR0xPVW9XV1d3Nm45ZWQ1a0tjOVM3alcyNnR6UzBuWUF3ZUg5cE9lZUJ4Wk9PdXdUVkZSOE9qS2pJdE1KQW5tOHlaZ2g4ekRJNDh5YV9MWmhrcjE4eWNMekk3TFpMbkQwSEl4Q09MTDdaRzJpNTBHcmZ3SWZfajVDNGtrMDRHOWk1eHBNdnFVcEJFQQ?oc=5",
+    "source": "UNITED24 Media",
+    "fetchedAt": "2026-06-02T22:00:14.923Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=67nnqI8_Y3k",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "67nnqI8_Y3k",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "ussanctioned-chinese-tanker-passes-through",
+    "date": "2026-04-14",
+    "title": "US-sanctioned Chinese tanker passes through Strait of Hormuz - The Jerusalem Post",
+    "description": "Via The Jerusalem Post. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4zZ3RpN2dYdjRtaVN0RThVSTZpZThCbU1mNjhRck13TUVTalNzUWZ4ejk2Z2hhdjhFbGpIdnhrWnA4VTcxWkt4WEZuZU94WXdxNm40VU55V09lTEVYUks1RG9aYVVEeFAzb0E?oc=5",
+    "source": "The Jerusalem Post",
+    "fetchedAt": "2026-06-02T22:00:16.560Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=BpHhN0vqP0k",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "BpHhN0vqP0k",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "ussanctioned-vlcc-enters-strait-of",
+    "date": "2026-04-14",
+    "title": "US-sanctioned VLCC enters Strait of Hormuz as Greek tanker pushes into Gulf - Tradewinds News",
+    "description": "Via Tradewinds News. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPS0tjTmQwVm5udWJHTWdYTTFHY1RJOTY4NVozdE5UT3l6SW4yTFBUaTM3Q2Z0Q1EwanVDQjRwQUxFT21HRWx5MFQ5T1FaZHA4SUZiXy1DeEs3d24xTmtMUzVkQWdkaTlvWU9WWUZ6RmRQdWdDbGFmVV9kX2JVRXVPWFlHZ1U5TGF4N1htMDZxZVlrOUhoZjZMZExUQV9UUHZTTlY0dVRWZ25VNzhBT29LaG00Y09vTnBkMG1pRE5nNnhsblFL?oc=5",
+    "source": "Tradewinds News",
+    "fetchedAt": "2026-06-02T22:00:18.218Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=FcM2a1ZSYK0",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "FcM2a1ZSYK0",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "the-truth-about-gazas-death",
+    "date": "2026-02-03",
+    "title": "The Truth About Gaza's Death Toll – Part 2: A Gross Undercount - Zeteo | Substack",
+    "description": "Via Zeteo | Substack. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBkYVBRVEthbFpWR2RLcVJ5Rkpid3BPUzBCTTdEcDhqSDduMDlxUUkyc3BBNjRmOEZ0MXB4S0xrWWZuT2FVN2JWcVZXd2VlUG84U2VlSnhINzZyNXdxa09oTVdpVTRtMWFsdWNF?oc=5",
+    "source": "Zeteo | Substack",
+    "fetchedAt": "2026-06-02T22:00:22.413Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=udI7KPxXKww",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "udI7KPxXKww",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "the-hormuz-war-will-end",
+    "date": "2026-04-07",
+    "title": "The Hormuz War Will End - The Atlantic",
+    "description": "Via The Atlantic. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPaFZnMTluZ09yVEowVUtaZV9QYjY0V0N1bEo0STlsRXFnQWg5T284Z1ZrMDA5OFNtQTlHdWZUc1Y0NHc1YTl3bjlXU3NqWm9GS3AzZlFuVEF1NTdwZ1kzbFJfeUlJWEQ5eWs4NXZpRU8xMHhBNWdLNG9TdDg4ZE00eW9yLTFQVktELXRFUzEzTGU?oc=5",
+    "source": "The Atlantic",
+    "fetchedAt": "2026-06-02T22:00:27.413Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=ISgPESo2ZeY",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "ISgPESo2ZeY",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "4-idf-troops-wounded-one",
+    "date": "2026-05-17",
+    "title": "4 IDF troops wounded, one severely, by roadside bomb in south Lebanon - The Times of Israel",
+    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPc0FsV2xsR0dZb1F2ejgzTV9NQ0FHdFpURHd0NW1pdXUzaHhHNG95TG80Q3oyUlRQeHZUenJCOVpWOTdFWS1MNDNSOUI4RF8xS01xd2NCZ01LSXRITEtGeGlxdHV5b2pseW9zbzlubkt6dEF2cTRXc2hMR2tROHlKN1gzQkZsdWV0U1VpSS1SOWtBNFd5LWxvZ0t2aVhQeVXSAaQBQVVfeXFMUGk0bUpmemdGMjVENVlKYzhaVFFMODBmRm04VFV1aVFmYWdvNm14UG83QWxMU01WYzQyYmdSaWZLTGdlSWlKNGpGampSS29URGI0d2E4OEpHRHFJcDdvTDFkMGRCaHNDSExmSFNmLW40aU9WSVZwSVRVdU1SQkxQb19uRmdpc2dKN0NyeDlJRmZMZUhGY09HZDlYUmt1QmVVcmxjdGE?oc=5",
+    "source": "The Times of Israel",
+    "fetchedAt": "2026-06-02T22:00:30.001Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=HFkxpIQcAMk",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "HFkxpIQcAMk",
       "title": "",
       "confidence": "auto"
     },
