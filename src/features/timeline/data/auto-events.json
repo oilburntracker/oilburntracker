@@ -15376,5 +15376,39 @@
         "label": ""
       }
     ]
+  },
+  {
+    "id": "auto-iran-says-its-nuclear-sites",
+    "date": "2025-07-01",
+    "title": "Iran says its nuclear sites were 'seriously damaged' by U.S. strikes",
+    "category": "facility_damage",
+    "description": "Via PBS. Auto-detected by headline monitor.",
+    "lat": 35.69,
+    "lng": 51.39,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPV25zNnZQM3pONFdIMnhXeXFfSmpNUTdKWVh0UkFHX3pUWFdsdEZCdUtpLWtLZTk4N0pkcmx3QmUxR2VSUHl2VF9VUHVzYmpCaWY3LWVtemx0Y0Z6cE5ZUEphcFZQSnUwcnI0eGdzOHowaXJXdTRqd0ZXVEgtUWxKWDhudWJxb1lsNzlRRVhFemhXQjZuQlJOaEF5Tk9UUjc1TnfSAacBQVVfeXFMTnlYaTZXRkNUMmxwNXhRa0JseDdWUzVkNVBTS21TTHJFbkRZYVJGTXFrSmFTaUtzSFpvVzZxcnJkSkJCYWpGVDlzYTkwQThqOTRISFctc2NyS3lMWjR1U2hXeldpUWIzSHNjV2otcGVfMUJSOEFJZ042Sl9zdk5QS0M0TUNRNEhaSnBWQUpfYk4xRkVrU040MWhrc2dSaWFtZUYxV3lFcTg?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=ZXVvzPJriwo",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "auto-un-chief-gravely-alarmed-by",
+    "date": "2025-06-21",
+    "title": "UN chief ‘gravely alarmed’ by US bombing of Iranian nuclear sites",
+    "category": "facility_damage",
+    "description": "Via UN News. Auto-detected by headline monitor.",
+    "lat": 35.69,
+    "lng": 51.39,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBpdzNHOTlwc0ttazZnMnpLZnMyXzM2UlY1bmxZc1V1TjFONWFGaTlrVkRvNXZJMmNEbkg5RVpFSU5fMVRkVHREbm54Skt5dElxVWI0RHBySQ?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=tGv6WV-jDlU",
+        "label": ""
+      }
+    ]
   }
 ]
