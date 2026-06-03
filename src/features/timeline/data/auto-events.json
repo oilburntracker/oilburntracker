@@ -5312,7 +5312,14 @@
     "description": "Via PBS. Auto-detected by headline monitor.",
     "lat": 32.07,
     "lng": 34.78,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQU251WFN5eHM2RzAzZ3BJMjdRTmdZeWdPdFJJbml0d21wYWVyR25LQ2FxVXNUamlydkJ6czhyYm14SEdXajN6WHZfd2lXeDhENTBmYlhFeDFWajlOMlExWTZzS0pCams0MUx5THRhOXYwc2NWSFFYOHVmNU5YZW5vOFdoOEFTZTlES0s2NjY1cG1Ecllvbi15VEZFTTR0ZGFFMG42cVpjZENrUUZGWFVTSlhnenJVUzFtaHNCZTR2dUx5blY4UHo1aXNob3lTa21IaFZwb0lKa9IB3AFBVV95cUxOdjg3MEhqb05aWnBRTHdLSlpFM1pkNXBlRHBITWpQS1E5S19fS3RPOXVkV2Zjejg2TElvam1MNE13eXVHX3I4bzhWOXVmdVNzMHRhVFV3eE9oRU1tQUlxRUszTl8wRHg4MFBTLWZJQ2NsRTFZNEFBNEZWZS1MVjByUklRb3R0YnNBRDNLanZWMDlITjlmdl9OR1pLZDhad2dzU1hjQVp0bGw0SlJ0NlY2YlJQZjNhT0Q4cUtoNTUyTm1EaTV0RHgySGVqaDVIakpCMFZkNlhqLXd0MHph?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQU251WFN5eHM2RzAzZ3BJMjdRTmdZeWdPdFJJbml0d21wYWVyR25LQ2FxVXNUamlydkJ6czhyYm14SEdXajN6WHZfd2lXeDhENTBmYlhFeDFWajlOMlExWTZzS0pCams0MUx5THRhOXYwc2NWSFFYOHVmNU5YZW5vOFdoOEFTZTlES0s2NjY1cG1Ecllvbi15VEZFTTR0ZGFFMG42cVpjZENrUUZGWFVTSlhnenJVUzFtaHNCZTR2dUx5blY4UHo1aXNob3lTa21IaFZwb0lKa9IB3AFBVV95cUxOdjg3MEhqb05aWnBRTHdLSlpFM1pkNXBlRHBITWpQS1E5S19fS3RPOXVkV2Zjejg2TElvam1MNE13eXVHX3I4bzhWOXVmdVNzMHRhVFV3eE9oRU1tQUlxRUszTl8wRHg4MFBTLWZJQ2NsRTFZNEFBNEZWZS1MVjByUklRb3R0YnNBRDNLanZWMDlITjlmdl9OR1pLZDhad2dzU1hjQVp0bGw0SlJ0NlY2YlJQZjNhT0Q4cUtoNTUyTm1EaTV0RHgySGVqaDVIakpCMFZkNlhqLXd0MHph?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=EXYepWDXHQs",
+        "label": "Israeli strikes next to the hospital killed four people, Lebanese authorities said. #BBCNews | BBC News"
+      }
+    ]
   },
   {
     "id": "auto-israeli-drone-strike-kills-2",
@@ -8661,7 +8668,14 @@
     "description": "Via The New York Times. Auto-detected by headline monitor.",
     "lat": 32.07,
     "lng": 34.78,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPcGh5Z2tuVExYaFlHcDFYcXc2TlBBV3RQSE9QTGMyVDhkOVZleXRFakhQYk5qWGM5ZTdSNHdFeG1fWWJXS0JpTm9hWGZyTHE2OXVvYmFjc2Z6M0luMnA4NFN1LWxVUVZIVkxkY2ZjQVJiMjQzakozcVh3bDNXcjFRLWNaUlNrUQ?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPcGh5Z2tuVExYaFlHcDFYcXc2TlBBV3RQSE9QTGMyVDhkOVZleXRFakhQYk5qWGM5ZTdSNHdFeG1fWWJXS0JpTm9hWGZyTHE2OXVvYmFjc2Z6M0luMnA4NFN1LWxVUVZIVkxkY2ZjQVJiMjQzakozcVh3bDNXcjFRLWNaUlNrUQ?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=EXYepWDXHQs",
+        "label": "Israeli strikes next to the hospital killed four people, Lebanese authorities said. #BBCNews | BBC News"
+      }
+    ]
   },
   {
     "id": "auto-israeli-forces-storm-gazas-alshifa",
