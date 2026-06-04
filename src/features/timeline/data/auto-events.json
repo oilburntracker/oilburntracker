@@ -6136,7 +6136,14 @@
     "description": "Via The Guardian. Auto-detected by headline monitor.",
     "lat": 31.42,
     "lng": 34.35,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNLWxKTkljc09MakVmLUpoZWtMSXRjZmZqM0dhM2hlWUU5VDhRQVkwb19YdF9TWHdpVTZEc1BraGlCUnNRcGhCSGFCczc1azNwTXkxbVlZMVlkck4yMzczaG5NeHdQcTRva3FibWZlalV6TWczYXFTMl92SmlXSXZMYlNKU2RaMjIyX1d5Vkw2aVZlSXNFV2ZfV2psZDktSVJiMVN0SUdoX2tKZUp2dVF2LUdIa0kwZk1PRHFkQUpXdlFTVV9Ua0ln?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNLWxKTkljc09MakVmLUpoZWtMSXRjZmZqM0dhM2hlWUU5VDhRQVkwb19YdF9TWHdpVTZEc1BraGlCUnNRcGhCSGFCczc1azNwTXkxbVlZMVlkck4yMzczaG5NeHdQcTRva3FibWZlalV6TWczYXFTMl92SmlXSXZMYlNKU2RaMjIyX1d5Vkw2aVZlSXNFV2ZfV2psZDktSVJiMVN0SUdoX2tKZUp2dVF2LUdIa0kwZk1PRHFkQUpXdlFTVV9Ua0ln?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=Q0Mb8y_bXkE",
+        "label": "Israeli forces kill Palestinian man at separation wall while trying to reach work in Israel | Al Jazeera English"
+      }
+    ]
   },
   {
     "id": "auto-israeli-troops-press-forward-into",
