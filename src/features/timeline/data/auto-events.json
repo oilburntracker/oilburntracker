@@ -15587,5 +15587,39 @@
         "label": ""
       }
     ]
+  },
+  {
+    "id": "auto-one-killed-and-dozens-injured",
+    "date": "2026-06-03",
+    "title": "One killed and dozens injured in Iranian drone strikes on Kuwait airport",
+    "category": "humanitarian",
+    "description": "Via BBC. Auto-detected by headline monitor.",
+    "lat": 35.69,
+    "lng": 51.39,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5IQlY0SWk3SW1lWWlyN19nN0VHNklGQ2xvVm04LU8zajZpWEZaOXVaWTk3YmZpRmFLYWUwQVc3T3pMMXc1dWdVZkdsVzVVajUzZllhN29aYVJJdw?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=0V2x1TCb0d4",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "auto-death-toll-from-school-bombing",
+    "date": "2026-03-01",
+    "title": "Death toll from school bombing in southern Iran reportedly rises to 165",
+    "category": "military_strike",
+    "description": "Via The Guardian. Auto-detected by headline monitor.",
+    "lat": 35.69,
+    "lng": 51.39,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQT2V6Yl9jcjNYSHdRNktkUHVqNWlLYWFlRVFHZnBZdzVSekthUjhIMkRKWmhzczc2UGk4LUgxcmR3X0dROVhKdVI5NzVPZ1hmVDhGS3FHa2huNVBOeDJPMDRmUnF2OWFuRV9PcXd2NFBCS29ZNGRXd0VQTk40aGpuLVRPU0tidnNXM2VvZnVHdjJDYkZBZ0FEWFZR?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=9lP0mfn7SSw",
+        "label": ""
+      }
+    ]
   }
 ]
