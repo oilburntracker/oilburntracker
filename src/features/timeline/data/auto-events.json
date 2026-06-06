@@ -15689,5 +15689,39 @@
         "label": ""
       }
     ]
+  },
+  {
+    "id": "auto-us-oil-exports-surge-draining",
+    "date": "2026-06-05",
+    "title": "US oil exports surge, draining domestic crude inventories toward rock bottom",
+    "category": "facility_damage",
+    "description": "Via Reuters. Auto-detected by headline monitor.",
+    "lat": 30,
+    "lng": 48,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOWmlCaDJtdjdmMkJLa1BQR3FVM0NyZ1d4ZGVid3lzLWpzZFM1ZWRmcGVHc2phcm11ZGZIM1VpNEVBc3AxWkVKVGdoWjZfMXlsbmREc2k3NmtaV1RrWnFnb0EyMWRhWGdvbWJ3Mzl1ZEhhSW1HNHQ0d3ljWGZYTzR1UXpyWGFZUlJfa3g0SzNYTVJKTDBuN2trVWtUdTZ3YV9HcmtSTnM0cTNDUm5rTVoyUUhQNl80ejE4TFNYaXpMdEFqUEtGNVE?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=MoNR8ZS3gS4",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "auto-oil-prices-rise-as-iran",
+    "date": "2026-06-03",
+    "title": "Oil Prices Rise as Iran and U.S. Exchange Strikes",
+    "category": "military_strike",
+    "description": "Via The New York Times. Auto-detected by headline monitor.",
+    "lat": 35.69,
+    "lng": 51.39,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1UckRQYmRvV3dFNEJHU3RFUWJRSi1hcWVTMmFLRk1xZXVnTnN6MEswMXJmdXYxSnZuOVF4YkY4YU1hWEp0ZHBLY0hwX2RQTHpPTnRDODA5Z1pwNmR2ZENnYzJHdUxEaUtKdmZZZUFUOTNDZERob2Z3?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=U1ryNfPoagM",
+        "label": ""
+      }
+    ]
   }
 ]
