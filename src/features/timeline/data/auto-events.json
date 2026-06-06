@@ -7759,7 +7759,14 @@
     "description": "Via BBC. Auto-detected by headline monitor.",
     "lat": 35.69,
     "lng": 51.39,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1YZ21DSVItLWJvZzZ5Wk0tNUpDVm5pbkZ0aTl5ampqUW1DNU9wUExLZ2F3TXhSaHIwMFhpUUZYSDR6RjlBUWhTUXA5MWN1VmoyUHE0ZW4ybTRUZw?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1YZ21DSVItLWJvZzZ5Wk0tNUpDVm5pbkZ0aTl5ampqUW1DNU9wUExLZ2F3TXhSaHIwMFhpUUZYSDR6RjlBUWhTUXA5MWN1VmoyUHE0ZW4ybTRUZw?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=2hH9MiEkoow",
+        "label": "U.S. strikes Iranian radar sites after drone attack | Reuters World News | Reuters"
+      }
+    ]
   },
   {
     "id": "auto-burning-oil-tanker-in-red",
