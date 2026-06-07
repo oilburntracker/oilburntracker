@@ -15951,5 +15951,22 @@
         "label": ""
       }
     ]
+  },
+  {
+    "id": "auto-asias-oil-and-lng-dependence",
+    "date": "2026-03-02",
+    "title": "Asia's oil and LNG dependence on the Middle East",
+    "category": "facility_damage",
+    "description": "Via Reuters. Auto-detected by headline monitor.",
+    "lat": 30,
+    "lng": 48,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSXVwVzZMOEFRakpIeXI1YVBzRFNsX0oyZkRkbmtEd05tSEhXUW1XN1NiUXhiSjNvanV0ZHNJTUdBSVJFa2JacGs1WGlQdWNNNzNTUzFNTTEtWFR6eUozLWF0UlF2WWJ0a3hTRl9LMkhDSnJjY3Zhb3BuYTNsdFp2NDhEUzgwUElPMTBpUlRVRnVoUQ?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=RqjqE0XYu4w",
+        "label": ""
+      }
+    ]
   }
 ]
