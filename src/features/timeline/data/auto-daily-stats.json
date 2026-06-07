@@ -943,5 +943,20 @@
     },
     "lat": 31,
     "lng": 46
+  },
+  {
+    "id": "auto-daily-2026-06-07",
+    "date": "2026-06-07",
+    "title": "Ongoing casualties across conflict zones — Day 98",
+    "category": "humanitarian",
+    "description": "Estimated daily casualties from ongoing operations across Gaza, Lebanon, Iran, and Gulf states. Auto-generated from recent conflict data trends.",
+    "casualties": {
+      "killed": 130,
+      "injured": 306,
+      "children": 22,
+      "source": "[OBT daily estimate from 30-day trend average]"
+    },
+    "lat": 31,
+    "lng": 46
   }
 ]
