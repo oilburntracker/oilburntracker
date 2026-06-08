@@ -16019,5 +16019,22 @@
         "label": ""
       }
     ]
+  },
+  {
+    "id": "auto-pentagon-probe-points-to-us",
+    "date": "2026-03-11",
+    "title": "Pentagon probe points to U.S. missile hitting Iranian school",
+    "category": "military_strike",
+    "description": "Via NPR. Auto-detected by headline monitor.",
+    "lat": 35.69,
+    "lng": 51.39,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOd3NFQkI0eUFkb181RzFDMDFJeV9PS3otY3hwMHFnR2lXWEN2dVlUaHhKVWNwU1o3REkxMXpGTTJnbkt1ZW96enp3NzRlWERRU1pmLU9pdDZ2d0s0aWtUSXdMcHdWSjQzQmhlcDRvOC1FQlZWT0RHZTB6S0pXQ0hYRC1Sd3lrZlFK?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=6F_hFXIZXFo",
+        "label": ""
+      }
+    ]
   }
 ]
