@@ -1,59 +1,5 @@
 [
   {
-    "id": "iaea-uae-nuclear-plant-attack",
-    "date": "2026-06-05",
-    "title": "IAEA: UAE nuclear plant attack ‘serious compromise of nuclear safety’ - Arab News",
-    "description": "Via Arab News. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5PYjZJa0pzUGpOZlVFZm5CdWdXQVU2Xzd1VWdpcHlMUzZCT0d4Y2UzMU51UGFsVHdWTDVBR0FMbXYtdWVMeHcwX2tUQV9LM0xhcnBlQl9zX094T0c3bVE?oc=5",
-    "source": "Arab News",
-    "fetchedAt": "2026-06-06T14:00:10.997Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=Sc-jXJgdTS0",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "Sc-jXJgdTS0",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "us-preparing-draft-resolution-condemning",
-    "date": "2026-06-05",
-    "title": "US Preparing Draft Resolution Condemning Iran at IAEA, Diplomats Say - U.S. News & World Report",
-    "description": "Via U.S. News & World Report. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPajFlZEszOGxYbTNxaHFPUXo5NkdvUHI2WWZYZEctbWRwdkkwVDRxd09WWGN4RFhuLWh6VGRIblZRTTJseWpsaldfMG43b2tsbFBwQXJMZXF1X0o4cVRIVmhJOExvbHV5T1REVEJPYjc0V3BvaHVEQ1FjYmdTVUwtaU83ZWEyZE5SZUFSdm5kTVYzU2lDWnJZV05ad1dzVlpKTFk1WXNXTF9PeE9Mb19kUXJPdGhBNzBWeFJiSi1R?oc=5",
-    "source": "U.S. News & World Report",
-    "fetchedAt": "2026-06-06T14:00:12.568Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=OGqb-ILaBAE",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "OGqb-ILaBAE",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "iran-nuclear-program-relatively-unchanged",
     "date": "2026-06-04",
     "title": "Iran nuclear program relatively unchanged since start of war: IAEA - The Hill",
@@ -5296,6 +5242,33 @@
     ],
     "videoMatch": {
       "videoId": "ducXepz6zcg",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "all-enemy-movements-are-legitimate",
+    "date": "2026-06-08",
+    "title": "‘All enemy movements are legitimate targets’: Houthis threaten new attacks on Red Sea shipping - TradeWinds News",
+    "description": "Via TradeWinds News. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOdWQ5QUZQdWY2YUFDTjUxaEozX3REc01JSHpBMzRTdHVna0F0U09CWHFFUE1scC11cGZlWmI3RFN6X3lsZmxUVzNqaEdwOFVnM1lRSGRjT3hIbzZMd1REREI5Y0hka05DV1BTYUp4WEh2Ylk1WjhmNU1iMUxFNlBqczYzRkQtV2M2bnBfNWhabVptd2k4Mm1jTlNlR2FobFBGUllYT2ZwQVVCQ0RrTWFfbEFOUTZjRVU4NWtOcFdEck1mREFubGplNlM4ZFN6XzJfZVZucm84dXQ4Sjg?oc=5",
+    "source": "TradeWinds News",
+    "fetchedAt": "2026-06-08T12:00:16.580Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=vMXh09KIjrY",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "vMXh09KIjrY",
       "title": "",
       "confidence": "auto"
     },
