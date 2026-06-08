@@ -15968,5 +15968,39 @@
         "label": ""
       }
     ]
+  },
+  {
+    "id": "auto-oil-prices-climb-more-than",
+    "date": "2026-06-07",
+    "title": "Oil prices climb more than $4 after Israeli strikes on Iran and Lebanon",
+    "category": "military_strike",
+    "description": "Via Reuters. Auto-detected by headline monitor.",
+    "lat": 35.69,
+    "lng": 51.39,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNTlEbEFKMHpFNlgyeTJmTXIzWlNLWEI2aTV1OTFkTHgzejlqM2ZpQUM1NjZVaGo1WXk2UHV1TW9xMVhvWDVwcXVOdTBuaWp6aVBRMjBFSHRBUVBNREpHblcwNFNILW52TmhRT1gtaFVaZTJJWjdWQmwyV1A1SDBFY05RRzZxQkRQV3YzbVZEX2tWQ1haMW9CLTBRVko5YWx5VHUwSw?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=q1Sz-oknjPI",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "auto-oil-prices-jump-after-iran",
+    "date": "2026-06-07",
+    "title": "Oil prices jump after Iran missiles threaten fragile ceasefire",
+    "category": "military_strike",
+    "description": "Via Financial Times. Auto-detected by headline monitor.",
+    "lat": 35.69,
+    "lng": 51.39,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTXNtTEMtNEdycHVNZFQ5QnhOdWlxai1zczNGZ2dlMS1ZSzI1ZXRpMU1SMVN6b1Y4MjM1UTJDc1NYd3JHNGRZWU02R00tNlI0UzZySmkzLVhzR2tmZW5rSnlEdkVQMWRaSWRpR21Rdk1mLUZzSEhCQzRacTk3dDkzRS16LWM?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=XSOWL-WgMvY",
+        "label": ""
+      }
+    ]
   }
 ]
