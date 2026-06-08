@@ -6569,7 +6569,14 @@
     "description": "Via Al Jazeera. Auto-detected by headline monitor.",
     "lat": 15.37,
     "lng": 44.19,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSnZjV01taWxLLTFTUnBrb3ZVdGVNRjJsU0gzWHRnampMampEbkplMEhQVlp5NjRYOEVlMGxuM2ZOVkQ4LU5FV05BeFJ1TTBqWHNJaDNnTmkxemRLb3dUSm85N2hsQXY2b2xPWFltaG5ObVFBZFdCcVg1ZEkxbDlndkJQT0dPREVlaFcxYkJoOVBteUxRSENJSkdhWTROVC1FNVc0akF4UkU4RGfSAbABQVVfeXFMTTFsYk1JTHZfQV8tX0pPaWJjbVlUNXkyN0NuYU1JN1o0TnpyUHJUQWJPZEM0UHhtWERLNUN1eUlDcWI3anNSa3BHN0FWM09DQzY2MDV5dW5tZG9MdTZuSkR1cFd1UXJJb0MycmtwZ0FUTGV0WGFyZ1NOYVl0TXpRY2xibTdNYk12TVduSzVrMGRsbEZUZU1OVzI4cjJ5UHc5ZnFFOURDaDZBcEZxd3pnYXQ?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSnZjV01taWxLLTFTUnBrb3ZVdGVNRjJsU0gzWHRnampMampEbkplMEhQVlp5NjRYOEVlMGxuM2ZOVkQ4LU5FV05BeFJ1TTBqWHNJaDNnTmkxemRLb3dUSm85N2hsQXY2b2xPWFltaG5ObVFBZFdCcVg1ZEkxbDlndkJQT0dPREVlaFcxYkJoOVBteUxRSENJSkdhWTROVC1FNVc0akF4UkU4RGfSAbABQVVfeXFMTTFsYk1JTHZfQV8tX0pPaWJjbVlUNXkyN0NuYU1JN1o0TnpyUHJUQWJPZEM0UHhtWERLNUN1eUlDcWI3anNSa3BHN0FWM09DQzY2MDV5dW5tZG9MdTZuSkR1cFd1UXJJb0MycmtwZ0FUTGV0WGFyZ1NOYVl0TXpRY2xibTdNYk12TVduSzVrMGRsbEZUZU1OVzI4cjJ5UHc5ZnFFOURDaDZBcEZxd3pnYXQ?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=QsZiq7-rsfA",
+        "label": "Iran and Yemen's Houthis launch missiles at Israel. #Iran #Israel #Jerusalem #BBCNews | BBC News"
+      }
+    ]
   },
   {
     "id": "auto-greek-tanker-attacked-in-red",
@@ -7037,7 +7044,14 @@
     "description": "Via BBC. Auto-detected by headline monitor.",
     "lat": 35.69,
     "lng": 51.39,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9jRlJCaUlTSlRPZW53V1RmQ1lLVnA2ZWZoZTRHTFlYMnJSelJ4YXlmLWFrSkVhTk4wclY3UUJxNGw1b1Q5d0NHMHlwRENDWTY5Wm50Q1g0bjViZw?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9jRlJCaUlTSlRPZW53V1RmQ1lLVnA2ZWZoZTRHTFlYMnJSelJ4YXlmLWFrSkVhTk4wclY3UUJxNGw1b1Q5d0NHMHlwRENDWTY5Wm50Q1g0bjViZw?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=MwPDAYMOK_s",
+        "label": "Trump demands Israel and Iran to stop ‘shooting immediately’ | Al Jazeera English"
+      }
+    ]
   },
   {
     "id": "auto-china-tankers-join-line-to",
@@ -9718,7 +9732,14 @@
     "description": "Via The New York Times. Auto-detected by headline monitor.",
     "lat": 35.69,
     "lng": 51.39,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQLUk0ZzNqMU9kdXZvVGp0Q29UZHRGRFJTVENUdGpvSTZSU3l4U1NTR0FJbG9MU3kyNTh0T1NCVjMwejEzcDl4cG1vQXpsWENlX0pLTTVSdnYyYnBoVzRJUkQ2WW5WbEpBV1NFY19LeWI0RFQ0N0d6WXMyUGQtYlNrOVZlZ1cwQnpqWWc?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQLUk0ZzNqMU9kdXZvVGp0Q29UZHRGRFJTVENUdGpvSTZSU3l4U1NTR0FJbG9MU3kyNTh0T1NCVjMwejEzcDl4cG1vQXpsWENlX0pLTTVSdnYyYnBoVzRJUkQ2WW5WbEpBV1NFY19LeWI0RFQ0N0d6WXMyUGQtYlNrOVZlZ1cwQnpqWWc?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=aO7q0agwz84",
+        "label": "UN nuclear watchdog answers questions on Iran war | Sky News"
+      }
+    ]
   },
   {
     "id": "auto-iaea-warns-israeliran-conflict-threatens",
