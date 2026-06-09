@@ -1,275 +1,5 @@
 [
   {
-    "id": "death-toll-from-israeli-attacks",
-    "date": "2024-11-05",
-    "title": "Death toll from Israeli attacks on Lebanon surpasses 3,000: Health Ministry - Al Jazeera",
-    "description": "Via Al Jazeera. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRVYyeE04OFVnZnB4SGk2VzNyNVBOWlBHSDRxVzZHeVNqTWRNSTZ0M3RsZ2dhMnNieHFtWVVId3FkaWJFRzZKTEx4dnBReG56Qk1rdS16dmNPeExIeXFfN21Fc3VZMkRWYm01UVZLYlJxRUxJaWRfUFZMVlFMblU4TDBfTDFYZVR5cldDQU9NMloxVDRhV2p5R2JtRFo3d2JUTlBFYVhfWDNGd3NwVEVBdGpSaEbSAboBQVVfeXFMTmlRamYycEF2MzA5cmNXeHVQbXZfcTZKRmY1M1dTUnI4V0oza2Q5SjNNN1Brd3VXSHdSWXFGTGxpZWpSRm13a3VrTXdRczRGRHYtWV9meDdwbFV0bldVQjg0UGVtaHF3UTBqRzB1Ti1KTU1qemRxVzBGLUdyaDZlQVNzMmpxNjZTRjdNRV80azVfYVZFblgyZm1zcko1bjR5Qk42QVQ0TDYwSWpzZUlLS0RGRG8zcFJPb3F3?oc=5",
-    "source": "Al Jazeera",
-    "fetchedAt": "2026-06-06T18:00:37.373Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=ZG38YcncE94",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "ZG38YcncE94",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "israeli-airstrikes-hit-southern-lebanon",
-    "date": "2025-09-18",
-    "title": "Israeli airstrikes hit southern Lebanon - BBC",
-    "description": "Via BBC. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1zdU94bS1zNVQ2cFFLOWxBcnd3NUQ1alRqdEkxYnNjeXJBUU1rd1UwcXg3aG9PT21UXzQ0WW9PanZZWTl6VGNkWHhNdERfeWFwaUR5WjBza3I2VW9B?oc=5",
-    "source": "BBC",
-    "fetchedAt": "2026-06-06T18:00:42.275Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=3QPwgBelsZQ",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "3QPwgBelsZQ",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "un-nuclear-agency-chief-deeply",
-    "date": "2026-04-05",
-    "title": "UN Nuclear Agency Chief ‘Deeply Concerned’ By Reports Of Latest Attack On Iran Nuclear Plant - Eurasia Review",
-    "description": "Via Eurasia Review. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQb2FCSHFsUkpvNi03M3p3b2NVM0FvNDY2RjBlb24yVlN5RVFHeWFpdV9QLXlsRm16TVM5U0gybFRkcDdRV1lVMU9iR2QyRTBoVWxRZmMzNnBLbXFhZmo4U3NFVXcxTGtRdDBwY3R4VzEteWRiM3pOSml5dUFuU2R1cWE2NVVkT0xCd3ZEU0IxU1lPekNfZDNWVWtNVFFkRlRNSzBuamJSRUJZc2UtcEJaMWJOajlCeXIyQ1lJSFdSREhELXFXSFBJMnZ3?oc=5",
-    "source": "Eurasia Review",
-    "fetchedAt": "2026-06-06T19:00:11.432Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=EcJilP138t4",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "EcJilP138t4",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "analysis-us-negotiators-were-illprepared",
-    "date": "2026-04-01",
-    "title": "Analysis: U.S. Negotiators Were Ill-Prepared for Serious Nuclear Talks With Iran - Arms Control Association",
-    "description": "Via Arms Control Association. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPc2NCQ3VVY041VlRIbTBONlpIZDJGeDRHLWYtM0RzNkF0eTZWUmp1UTJpQlNTZDRpUDJjblEwZHYxTFZqNzFKckQ4NVRXeEN2NmhYTjVpcS1uY0ljdEM1LUI2UzMyRVZ3Zzc4RjhSVjFpT2k2VWFIb3JHSWJ0MTN0NnUweWZfZHhQOHplMHA4ekVESExYNnJnMF9adWtoX3pueUduWW5ZcFpPYjU1R0NONFViNU9obGF3?oc=5",
-    "source": "Arms Control Association",
-    "fetchedAt": "2026-06-06T19:00:12.908Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=AijDW9NzBgk",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "AijDW9NzBgk",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "gaza-death-toll-passes-60000",
-    "date": "2025-07-29",
-    "title": "Gaza Death Toll Passes 60,000: 'No One Asks How Many Died, Only Who Survived Today' - Haaretz",
-    "description": "Via Haaretz. Auto-detected by headline monitor.",
-    "category": null,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNU2loRVNwVW9xX0tYZUdaUXhUQnlQSUtaUWVXNHZBN19PWmxlYVYwT3dDbUdpRzNKMVAtZGh6LTRDRlBYNVl5OG1WZG5nQi1zdVRoUDZXV1FpN0MzTGRRZ3VYd3RWMWdLMDAwV1NJaVp3SkZQRUZ1RGVFWjV0UFFwSXl6enhUMGZyUmFSMFVnYjN5Z2tTbk1iUHMzX29GeG1lNHJLSHNJNWFvbGJtNkZwUzVrQTZObGtwbUVodkxhWFRyLV9wMXJoZFdpX2hLYVZVb2I2Zk9tSHM0V3JDY1FnVWQ5cjNWdUlOdDQtOFM1WTJ2QW9kNmNiVzQwTlAzOFpxWmd3MlRBcDA0cm01aXZXSw?oc=5",
-    "source": "Haaretz",
-    "fetchedAt": "2026-06-06T19:00:15.822Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=hmwdSuTlz4A",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "hmwdSuTlz4A",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "houthis-poised-to-assist-iran",
-    "date": "2026-03-16",
-    "title": "Houthis poised to assist Iran with strikes on Red Sea oil tankers - The Times",
-    "description": "Via The Times. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQLTZjVEtJZ0lYNW40X195Y0VzU0pOOVRjLTB2a2hZUVYyenhYQlpHOGVJUldVMXc0dlo4MjktNGNMMmFRTzRNWGFsYURCSGw4UFNrb1RhMWlKd2lVZWdibFlBU2lhTTZRSmxZREMyRDhpRGJFeGRtVDlUYlRnZVp0TmxxRVBmTWwzc2lSSnlna2ZZUEFfRVpLR0xjVGI?oc=5",
-    "source": "The Times",
-    "fetchedAt": "2026-06-06T19:00:17.321Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=CxxGv7nwYqI",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "CxxGv7nwYqI",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "strait-of-hormuz-on-edge",
-    "date": "2026-03-02",
-    "title": "Strait of Hormuz on edge: ships divert, tankers attacked, shipping giants halt transit - Shipping Telegraph",
-    "description": "Via Shipping Telegraph. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOQzQ5VFlQUXVjczJjeFliMkxXU3QzWFpMX1lzc21QWXVHMnhMN09RTnA4MmJDZjRYY2xJU0tTYnJxSFA2OXdxQ1hYQlVCUmRaSGx6WGdpRVFzVVRydUZvN3Q1VjhpNFQ0M0l5SkVIeEJOajVrMkdHOU1rYVJCOHRmS3NMWTExRVpiTGhDUjVGWTk3a1FoeVRQS252Y2FBamQyVzhmM3JpQTRrMDNOdnhNUFRITU5xS21QQ3BhUw?oc=5",
-    "source": "Shipping Telegraph",
-    "fetchedAt": "2026-06-06T19:00:19.958Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=Nxot-dMX1-k",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "Nxot-dMX1-k",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "renewed-houthi-threats-and-us",
-    "date": "2026-01-26",
-    "title": "Renewed Houthi Threats and U.S. Military Buildup Cloud Shipping’s Tentative Return to the Suez - gCaptain",
-    "description": "Via gCaptain. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOR2pjMVFFTHZvSVJHcV85Qm10OEpJaEh2LTJaaG15ejJqcFZMd0czc2JidmVEUHg1b3RfRXFDc1ZMOHFSLXBuaENPbkRTdkl1azZLdHBFWnpEQTZsd045RjE0UnVOSDZRSlcxRVVBLUY0TC1MNTM1SGxQMGcxck44ejFWRktuNDBNSHlEb1hxNm5QRXFfTTYwdVpuX1NIQ2xMN2l0OEs2cHlhMk8zZ3RsMmhSakQ?oc=5",
-    "source": "gCaptain",
-    "fetchedAt": "2026-06-06T19:00:22.254Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=rybXZGI_iYs",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "rybXZGI_iYs",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "houthis-announce-end-of-red",
-    "date": "2025-11-11",
-    "title": "Houthis Announce End of Red Sea Shipping Attacks - The Maritime Executive",
-    "description": "Via The Maritime Executive. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPN0FWYlFpZEhJV0JJcmhWZlRSUXp6eDRjdzh5TDJpb3ZlcUxMOVByQXlrUDVrWi10TnpqWWo4YUxDUGZLMVZ4SlBocXcyMXJhMHZzV2FnbnZ1eDkyT0I1aE1NWG1ZbnRTOHFYWFBBM0J0RVlBS1RkcGlGSTlkTHM3enBTQ1hWZmJlcU1FeGtOTmo?oc=5",
-    "source": "The Maritime Executive",
-    "fetchedAt": "2026-06-06T19:00:24.492Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=QeipofCxfDs",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "QeipofCxfDs",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "houthis-claim-responsibility-for-attack",
-    "date": "2025-09-01",
-    "title": "Houthis Claim Responsibility for Attack on Israeli-Linked Tanker - Marine News Magazine",
-    "description": "Via Marine News Magazine. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE56aUZWWnQxenROdFRGUEg2cndKZnBuTE44UU42c093ZFg0cXlmb0Q3QlV2LWJOTEp0VURJbGJ4TDRuSHVtM1FmUWlZbzlqSmxKSDdTTlJxSWRtQTNDX001bUNEUlljNUpxUGJiT0tzbFg0WmhyT0NYalp1MjRSZ1U?oc=5",
-    "source": "Marine News Magazine",
-    "fetchedAt": "2026-06-06T19:00:26.537Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=_un03m3TaZ0",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "_un03m3TaZ0",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "lethal-attacks-show-strengthened-houthi",
     "date": "2025-07-16",
     "title": "Lethal Attacks Show Strengthened Houthi Control over Red Sea Transit - The Washington Institute",
@@ -5313,6 +5043,249 @@
     ],
     "videoMatch": {
       "videoId": "I2dqguOMkko",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "casualty-coverup-the-pentagon-is",
+    "date": "2026-04-01",
+    "title": "“Casualty Cover-Up”: The Pentagon Is Hiding U.S. Losses Under Trump in the Middle East - The Intercept",
+    "description": "Via The Intercept. Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPVXpXWVY4Y3pOem5DQ3hmTnlqU2JwZXhmU3Nmd0g4bW9ZRzk3TnVwMmVZWko2emRCRW5WRzk5a0tnOU53UG1fdUt4a3VIaE9RcFlWNDZPTUkxNWhhZkdxMWl6bU5wRXBabE9icmN3cXdMRTYyQjZNcUpjbVlWcUR6QUVpSHBZdw?oc=5",
+    "source": "The Intercept",
+    "fetchedAt": "2026-06-08T22:00:10.985Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=ooNkCQQb8BM",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "ooNkCQQb8BM",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-war-has-cost-the",
+    "date": "2026-04-21",
+    "title": "Iran War Has Cost The World $50 Billion of Lost Oil Supply, So Far - Crude Oil Prices Today | OilPrice.com",
+    "description": "Via Crude Oil Prices Today | OilPrice.com. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORWR1TVZiVTUzOVVJSGN6UkpYZXFyYjIzaXZMemtUYm5OWDdxRi1MX1lyOU5zdURkVWhXc2x0Y0VsWDAwbXZzZXdlZEZGTnZYVG1lZ0hWcTdIR0xLR0JJMTRYZmstTF9SZWNXOGhlbGR5Xzdsc29XLVF5cDlMOWZBZVhUS3BUN0Q1REVDcjBTNVZjaXlyNjJCNWNnWXh1d1Rwak5iWUhlUTM2QkVuUE1JZFNR0gG3AUFVX3lxTE9jei13Y0ZjRnFDMmY1eGNNU0ZJSnBHT3oyLVNlenNqUU9BRXJTMFFVUU1FcGVELWEtblBwcENxV21kWEVlQ0FUWTlxZGdrdE9HOFE5U3U4Zld1YUZtd0VlaWQwa0JSY2VFZ2tqWVdFT1Y0Vm0zUmFyT1BjVjhoYnh6VEowOV9xWkpsUTBvY0o1NWlQTjNUQm44NDJSTmFsTWcxRUhfb3hTSDc0TkpibDFGbVhaYWstUQ?oc=5",
+    "source": "Crude Oil Prices Today | OilPrice.com",
+    "fetchedAt": "2026-06-08T22:00:12.550Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=zi5fYc-SjE4",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "zi5fYc-SjE4",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "gaza-hospital-says-2-palestinians",
+    "date": "2026-03-14",
+    "title": "Gaza hospital says 2 Palestinians killed in Israeli strike - War on Gaza - War on Gaza - Ahram Online",
+    "description": "Via Ahram Online. Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPV1UxcVRLN0w5UmJhZWlNOFVQYlY4ZDhGZll1QUd1NVhMUlVsOUNRV3lxVzI3R1RzcExkdVVreks5VTR0WU9NbkFBSHktWm5GaFBheV83M2pLVFhVVUNqcHhndXRyNnloZnEwNF9Da3lGNjRjaDV6bmFaOFBhNTVSbHpZWFVjS05tbHVKQnM3MnN6Nmh3RnpwaTE0MTNRQ1RhRGptZWtGdFhUbGs5aC1Yc3d2Ykg5QzlMS3FsTzFwU1JseVdrdHpoSUp0RklHanZq?oc=5",
+    "source": "Ahram Online",
+    "fetchedAt": "2026-06-08T22:00:14.188Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=EetKdpiNdzI",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "EetKdpiNdzI",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israels-military-says-ceasefire-is",
+    "date": "2025-10-29",
+    "title": "Israel's military says ceasefire is back on as death toll from overnight strikes in Gaza reaches 104 - ABC7 Los Angeles",
+    "description": "Via ABC7 Los Angeles. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRzRsNVBYeHBkcENOV1Z3eDhYTHVwMncwTUtNUHpabDZKZWh0NXpoM2RrT2h5Z3V0WHQtWmN2cm5NS1Y4Nm01dlYtZnQ2MWotWjNwYjlMYnBYX3F0Z2RUcDFvdjNhQ0VmdGI2M1pKUlJzajlxSFRlUkxFWUxpZlp5T2dyTVc3RUNJZ1FJMXo2X0V2SFpwS2RrR0dVaWxzdWctdDU4bEJYRWFXVmlrQldjMGdHYVZ3TlNK0gG-AUFVX3lxTFBTeUtjSGVOZFhsUEg1bUpDNF9ncGpiVy1iSGVQOF9VaVZUekMxckZxbkZwWjZGMTR2Y1dTU1lKVGxqek9ueXIxdldMVWh2MW4tcGdndWV6aGpDRHl4MW9Md3ZRMll2REQ4VlhsbDN5RTE0SmdMZnZQMmhYRzdMYkF2V3czaWFrc0FWS2hKQ0U4dUpTajRYRENFXzV4azZvOUdxLWdBdzI1TEJWZUstSk5vNlJTVXRYNmpJSXkwNmc?oc=5",
+    "source": "ABC7 Los Angeles",
+    "fetchedAt": "2026-06-08T22:00:15.882Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=C5VhRjTgd0w",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "C5VhRjTgd0w",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "crew-rescued-in-red-sea",
+    "date": "2025-07-06",
+    "title": "Crew Rescued In Red Sea After Attack On Ship Near Yemen - gCaptain",
+    "description": "Via gCaptain. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQdkpucUhQS1lGcHZmdWVVT3MzU2hGVWJndVJvcEhyWmJ2djVFMzZDY2Z1d09kcUR0dkJCeDZUeWQ3MGdDakFySU9wb1pnY1ZiTEJQaXhiUFlxTVAzN3o2VUNZSW1wZ0hJUzBYXzVPdnlqS1F4aWhEQlhiSk54UUVPWmhiSQ?oc=5",
+    "source": "gCaptain",
+    "fetchedAt": "2026-06-08T22:00:19.902Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=0i2g5ELgHTM",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "0i2g5ELgHTM",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "why-the-iranaligned-houthis-threatening",
+    "date": "2026-06-08",
+    "title": "Why the Iran-aligned Houthis Threatening Red Sea Shipping Could Mean More for the Oil Market This Time - gCaptain",
+    "description": "Via gCaptain. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQeEZmQ1lwRDhscjhyUTY3WmJUTXBnNzFEMVd3NXlzd2RKakg1Mk1XeGhGaGFGcENlNHNSUFpCNE9jZ3oyWW9vbXJ1S2FFWUI1Nlp6WUlzZzJCUzcwcERaMlcxOHNZR3VFTkc3X0pvdHA5Nkx0QVh6dXg3ck5vbmprWTUtd2cteXNqTXRvTUlTcExaMWpfNy12dXhtaFByMVlHbGN1N2V4QkJSREJLUlBGTEZjTWl3bklZQmhRcV9uWUV4QQ?oc=5",
+    "source": "gCaptain",
+    "fetchedAt": "2026-06-08T23:00:11.218Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=uz7AAf3GcYc",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "uz7AAf3GcYc",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "russia-neighbor-warns-ukraine-after",
+    "date": "2025-11-30",
+    "title": "Russia Neighbor Warns Ukraine After New Oil Pipeline Attack - Newsweek",
+    "description": "Via Newsweek. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdWdRWjVQZi1DdEU2SUlxa1JFT0xFdlBGYnY2ZzhNaGdYSWFLZWJ0U1pjMGpIbnNXTWtmZXlmOFFZY0hoMHItcVFudGNuMk1aVDUzbVk1VVNhcG1zUThQNU42QWVidTBSbTdjQXY1TVVlU1pzTHNtd183a0t0dHFwdWNxZXl1aE9VbnpheHFELTdTTDFfUVFId3Z3?oc=5",
+    "source": "Newsweek",
+    "fetchedAt": "2026-06-08T23:00:12.779Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=5xrJ1fRmyPA",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "5xrJ1fRmyPA",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-war-drives-massive-surge",
+    "date": "2026-03-24",
+    "title": "Iran War Drives Massive Surge in Planet-Heating Emissions Amid Calls to Accelerate Transition to Renewables - Earth.Org",
+    "description": "Via Earth.Org. Auto-detected by headline monitor.",
+    "category": "environmental",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNeUV0Y25Nc0JDXzZqMkdTZmJnUHNMekVYVGZ1VjhJSVc5UVhqOHJ0WXRkOWRrWHMxclZzSkxGTU9hc25waHo1alNmNDdPWV9ZMHdRWm04b21sOXVNLUNFY015THExeEM2WHFOaGR0cl9EUnd5TUZyU2JQUk12dEdHcWdQdzJvXzkzNVQ2cU01dTNNcFVYdjRZejNXeUVUaFhtVDN2ZTE1UkdfSnV2YVdyZWZhQmN2X3IwZUFYNTVSa01wbTdy?oc=5",
+    "source": "Earth.Org",
+    "fetchedAt": "2026-06-08T23:00:14.255Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=wwHPROKoqfU",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "wwHPROKoqfU",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "the-usisrael-war-on-iran",
+    "date": "2026-03-18",
+    "title": "The US-Israel war on Iran and how war and conflict are destroying the environment - greenpeace.org",
+    "description": "Via greenpeace.org. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSTJyWmNIZEJSU2tWc2ExY0cxMjJfT3Y0ckxxbVkxWFRib0NyUnVURDVaWW1tZHJwNjBUWjN2dlBhZlJ3OHUtNWJ0bUgzdkJhYkxLbGs4Q0VLWGFpV1o3RDlSVkV3UUVtUElrOGVRajF0SUVXLV9obGpXMVNuSVBMNk1xLW1uVmY0eGZGbFhFSGk4VkpoMkJJTG5faUxKQVU?oc=5",
+    "source": "greenpeace.org",
+    "fetchedAt": "2026-06-09T00:00:14.985Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=-qxOwIS6NiI",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "-qxOwIS6NiI",
       "title": "",
       "confidence": "auto"
     },
