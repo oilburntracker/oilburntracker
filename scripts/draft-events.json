@@ -1,86 +1,5 @@
 [
   {
-    "id": "the-truth-about-gazas-death",
-    "date": "2026-02-03",
-    "title": "The Truth About Gaza's Death Toll – Part 2: A Gross Undercount - Zeteo",
-    "description": "Via Zeteo. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBkYVBRVEthbFpWR2RLcVJ5Rkpid3BPUzBCTTdEcDhqSDduMDlxUUkyc3BBNjRmOEZ0MXB4S0xrWWZuT2FVN2JWcVZXd2VlUG84U2VlSnhINzZyNXdxa09oTVdpVTRtMWFsdWNF?oc=5",
-    "source": "Zeteo",
-    "fetchedAt": "2026-06-07T17:00:14.700Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=udI7KPxXKww",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "udI7KPxXKww",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iranian-strike-on-bazan-refinery",
-    "date": "2026-03-21",
-    "title": "Iranian strike on Bazan refinery raises concerns for experts - The Jerusalem Post",
-    "description": "Via The Jerusalem Post. Auto-detected by headline monitor.",
-    "category": "infrastructure",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9PY0h2QzNpNTdxaGI5eWJ5SE05US1rMEdQX213MGdIeWF6eFB1bFBxQWZUM1RjOEpBQm9NeEpHekpXZmZLWldjMmN1bllEZk5jUktTeWxsb3ZIMXp2?oc=5",
-    "source": "The Jerusalem Post",
-    "fetchedAt": "2026-06-07T18:00:10.986Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=F8bkxjf6ySI",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "F8bkxjf6ySI",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "us-lobbying-for-draft-resolution",
-    "date": "2026-06-07",
-    "title": "US lobbying for draft resolution forcing Iran to reveal fate of nuclear sites - The Jerusalem Post",
-    "description": "Via The Jerusalem Post. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1tRFNsX19Md0Q0QjkyNEtRSE1CSExJdl9RbTRvcExjZk9hbnN2Mm1XX1RNU2kxb2poMlBLNzJYNFdaRmplRENOcklrTTdTSlFYZThwcmhkbmZBSWt3VW5aVXVNYlFCTXlDLXc?oc=5",
-    "source": "The Jerusalem Post",
-    "fetchedAt": "2026-06-07T18:00:12.495Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=CiKMdlqt9p0",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "CiKMdlqt9p0",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "us-presses-iaea-to-demand",
     "date": "2026-06-07",
     "title": "US presses IAEA to demand Iran account for bombed nuclear sites and enriched uranium - Türkiye Today",
@@ -5323,6 +5242,87 @@
     ],
     "videoMatch": {
       "videoId": "MvAS_AR0CAw",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israel-strikes-major-gaza-hospital",
+    "date": "2025-03-23",
+    "title": "Israel strikes major Gaza hospital as death toll crosses 50,000 - Nine.com.au",
+    "description": "Via Nine.com.au. Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUGZQcm5WRC1xbk5CS3R4aEE1V09LRWJ6U2w5aWFrTjJISE9Od1F1WXdfT2I2d1JWaWJpNThRQVdaM2ZtMzRsaDlmY0NJNGRaTGZNekU1bTUzWXlGSFUzRGZQdVZNc2JXRDN6amNlU1Itd0xuRGVMdWxYWjJkUmJHQTZaeHBuNTZOT25wSl96OV9MTzVwdkxld01qVXRTZzhxZndSY0llejVYeHQ0ejhXSW5XLVAtOEU?oc=5",
+    "source": "Nine.com.au",
+    "fetchedAt": "2026-06-09T18:00:11.774Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=Ka7uxKO9R4E",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "Ka7uxKO9R4E",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "more-than-40-middle-east",
+    "date": "2026-03-23",
+    "title": "More than 40 Middle East energy assets ‘severely damaged,’ IEA chief says - CNBC",
+    "description": "Via CNBC. Auto-detected by headline monitor.",
+    "category": null,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOQkxERHpKclpfTUxGeUlmanpveXBJd0ZHZmttRmZPaGxvSDI0aGtHLS1QQVNITlpzSUZBOGYyTXN2UFBVQnoycks2dXNuRkpGM1NqUlBGeHliRjdYUWdMQVY2UHJzLVcxczljTnZTM1FZYkRsUXRPbTE3bnJnZkN4Y21DdWczbjJoN1dvWldMWjdnN3PSAZgBQVVfeXFMUEZQNHFCalRiUFVyZWdqUjZKN244S0xoZDZtNGpwYi1tM3A3NFp5R2xpNENWN1VoTlo4dFVjUzJHaTBWQVV5U2djc0RwMUt1MlZvR1pnbkhLNGhhdGRKLTVOU0JXTk9yZmNKVm53Vl9KU0d2b2hxTk9GOWdrZi1zRGhNTkF2VUNoSFlPbUsxOVBYSEZ0U1hoeEM?oc=5",
+    "source": "CNBC",
+    "fetchedAt": "2026-06-09T18:00:15.229Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=yGtUFGjq-5o",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "yGtUFGjq-5o",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "the-war-in-iran-a",
+    "date": "2026-03-13",
+    "title": "The war in Iran: a conflict with lasting environmental and health consequences - IRIS - Institut de relations internationales et stratégiques",
+    "description": "Via IRIS - Institut de relations internationales et stratégiques. Auto-detected by headline monitor.",
+    "category": "environmental",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbjFnYlA0UEwxdGQ1VVdCOUZud2xTSnF0d1dvRG95WEctU0g1VDhiT1h2dExoZ25KNVExcF9ZeVZIY0JkYzRaWm1qM2RjbVpwRkhDczM4ZlNnc2E0VEttdWE4ZFZVSno1QjF3d1BuVVhMUlVqTEhwYmFkc29CVU1mbk9UUzJuVWRsa2FXSjVHYlJaMlVFaDZqVThHOURXc2lhbUswOU4wUHp0M3ZJaGc?oc=5",
+    "source": "IRIS - Institut de relations internationales et stratégiques",
+    "fetchedAt": "2026-06-09T18:00:16.863Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=JG9HArC1m7g",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "JG9HArC1m7g",
       "title": "",
       "confidence": "auto"
     },
