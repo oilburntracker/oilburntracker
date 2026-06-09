@@ -1,32 +1,5 @@
 [
   {
-    "id": "us-blockade-in-strait-of",
-    "date": "2026-04-14",
-    "title": "US Blockade in Strait of Hormuz: Two Oil Tankers Turn Back - Tempo.co English",
-    "description": "Via Tempo.co English. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUGY1SmVpMXA2RGNNZkwtN0tzSWU2QjhFNHFLUUZuTFI3NERKXzhpRWtYTTd0azZqcU5FbmdORWpBTW5QbWlLa05BUlZmcjRiNVJSN3NtcnJNaFgwTkVnMjlRRlNqYTU3blhSeWhfM2FHeThmV2xFT1FYc0lVbl9OQnMxWFpWeDRseTdjUFR0WFJpczNO?oc=5",
-    "source": "Tempo.co English",
-    "fetchedAt": "2026-06-07T22:00:12.696Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=Zg6XshcsoHY",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "Zg6XshcsoHY",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "us-vows-to-stop-oil",
     "date": "2026-04-13",
     "title": "US vows to stop oil tankers leaving Iran: How a dual Hormuz blockade will unfold and what will India, China... - Bhaskar English",
@@ -5323,6 +5296,33 @@
     ],
     "videoMatch": {
       "videoId": "H_Hsyv5Jjf0",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "irgc-conducts-retaliatory-strike-on",
+    "date": "2026-06-08",
+    "title": "IRGC Conducts Retaliatory Strike on Haifa Petrochemical Facilities - تسنیم",
+    "description": "Via تسنیم. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNkhpYURxTllyQ0o4N3JMVUxIWVh2RzRTQmJDVHFMQUp0VUVuQmNEcDZkN3RBaWVBbVllVktwWHNsRXoyNk1Fd1laQWZKeGZ4LXhJQkZMcXZrQnNQYncwN0xBdU5FUHJEMF8tUENxOUJ0STJDcktlRG84OU5GZnhqc25BR2lUZjlRTl92YVk2NXZXZHFxa2J5RUF5WXFCTXRsdGVmUVNheW5JQWJvdXczSG5XMkhZQ0lsR21z0gHAAUFVX3lxTE1KaDh6LTB4UkFnc2lIQ2M2MndlTjdLTUJIX1ZhaFhXZmlPT3MzNXJ2aGlqTXpvb1B3VkRxR1Q1Vllkekc1U19KRmFFaFZtUWt6Uk9kVFZUOTllTExQMU5CdWRNMk1zYWUwaDFHNHlIcHJhZ2JiRVlvQ1ZHdWxxY2NJNzlrNUNmMmNSWXA3RXI2ZkM5WEZsREhqX3NqS1YtQWZySlJybW13QTlNdU14Z2p0Sk9vRFhCVXVoYlNncjEyeQ?oc=5",
+    "source": "تسنیم",
+    "fetchedAt": "2026-06-09T23:00:13.177Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=nkBogjdmH18",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "nkBogjdmH18",
       "title": "",
       "confidence": "auto"
     },

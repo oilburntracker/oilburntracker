@@ -16424,5 +16424,22 @@
         "label": ""
       }
     ]
+  },
+  {
+    "id": "auto-video-israel-claims-strike-on",
+    "date": "2026-06-08",
+    "title": "Video: Israel claims strike on Iranian petrochemical complex",
+    "category": "facility_damage",
+    "description": "Via Al Jazeera. Auto-detected by headline monitor.",
+    "lat": 35.69,
+    "lng": 51.39,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPM19TZWxiSlBYQkY5NGRuS0s1b191NlhZTFp3cnhKemFhTURIOHg2V2lsOUpaQlhuLVhrYWY5cVFhSTgxZ2VnaWd5c1pfY2dTZGxrSkFRY1ZoM193SWw1X2dKU0IyNzRGckN1UFBRWnVSR3drNmZBNkNkdEdIN1RmUld3UjhPY25VUTMyclZqblpZZ1NUbDE2SmdWME5WUVB4dFQtT082THp6akM1OUHSAbMBQVVfeXFMUDE5TzhCcl9jbEJLdWNPLW0wRWM1bkUwSEQ4TDV5cU5kWHl6dXVLbzFPdFRfbHhWci1HUnlFc0dvMTc3T1lhZXVmVWxNRTZRbTFzN0xkRzVpeHZnd2o0NHBBQlZRTy1OcnFpVXBtbHFjSkw3UWNMeVMtanFONEJYNzJTSzFDTU1fVXZFdTljOGJmbHRfQW9WRlBWSlRqaDZ2aFVpbm93ei0wTE1CNmFnWUNaU2s?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=AtvrEpzms50",
+        "label": ""
+      }
+    ]
   }
 ]
