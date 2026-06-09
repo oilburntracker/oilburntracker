@@ -1,194 +1,5 @@
 [
   {
-    "id": "israeli-airstrikes-kill-dozens-in",
-    "date": "2025-05-14",
-    "title": "Israeli Airstrikes Kill Dozens in Northern Gaza Overnight, Health Officials Say (Published 2025) - The New York Times",
-    "description": "Via The New York Times. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOaXk0T0x0TF9mRnVCZDVMTlhlUVpGd2V4ZmJjN0lVWU80VEh2bEd6STBiVVA1TU9RQWUyaWFLb2J2MWdzdHlaS0E1ZGd3RkZmOWQyNC1jdUlHaWV1SDFoNDVjMXNyY0dJNEpILTdjRUNkUEw0ejR4ZXV6Z0R2dS1kWndMRQ?oc=5",
-    "source": "The New York Times",
-    "fetchedAt": "2026-06-07T11:00:14.540Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=QhQMEGZGlgY",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "QhQMEGZGlgY",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "lebanese-casualties-rise-as-hezbollah",
-    "date": "2026-06-07",
-    "title": "Lebanese Casualties Rise as Hezbollah Operations Leave More Israeli Troops Dead and Wounded - Palestine Chronicle",
-    "description": "Via Palestine Chronicle. Auto-detected by headline monitor.",
-    "category": "humanitarian",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQc1lvWlk5WDB3VkNVVnNhakgwcEplNFdPUVJvbEZfU0hab0h3NThIOU4wamk0Mkh5Z09SVlh1ajQ5Tk9nYV9TY2FwUi1FTEhCVWRCVk1EcHBiS2NmWVV0aW5pM0NDakJ3SV9aSEZHTmczOWtRdFF5YzRaVVVTMEEwdk5BaGpaSjJTNjlLZFd4X2RURXVJYjAwdjJYUXBTNHFqVlk4OUcxLXVNemEyY2xIUFNIanRUaVVoVHYwNQ?oc=5",
-    "source": "Palestine Chronicle",
-    "fetchedAt": "2026-06-07T11:00:16.084Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=R_GtYF8_aQQ",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "R_GtYF8_aQQ",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "israeli-airstrike-on-south-lebanon",
-    "date": "2026-05-18",
-    "title": "Israeli Airstrike on South Lebanon Kills Three People - وكالة الأنباء السورية – سانا",
-    "description": "Via وكالة الأنباء السورية – سانا. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBiazhUckNYNFZfSk9PeFhsZVJiRXdlc2RoNDZKczhhOUF5a1BoUnZ0emVBdFhSYnBILUV2Mm1rZjc4R1cwMXBob2dHVnRtX0RVV0xR?oc=5",
-    "source": "وكالة الأنباء السورية – سانا",
-    "fetchedAt": "2026-06-07T11:00:17.590Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=qRBOboL59VU",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "qRBOboL59VU",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "oil-prices-swing-wildly-as",
-    "date": "2026-03-09",
-    "title": "Oil prices swing wildly as Iran war threatens transport routes and production across Middle East - AP News",
-    "description": "Via AP News. Auto-detected by headline monitor.",
-    "category": null,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTFp6S2dqMlZ0dzJTd01Pa3RaVXhzLUVDS1NTeVBYcXM2TWdhQ3hVNEpaTnp5U05aRk1GRU9yRERCZjVVVnhZMzhkV1Z6bDJjT2tNeHNMc0FzcllZdE1kOEhteHkxQVRfV3VDWGY4aWF1NWxZQURRSW9jQ2JoSEdCNTl2c3c3NGFBWHNva0tqOUoyeXZ3OERz?oc=5",
-    "source": "AP News",
-    "fetchedAt": "2026-06-07T12:00:13.471Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=PlFtX5JDpCA",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "PlFtX5JDpCA",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "5-charts-show-chinas-oil",
-    "date": "2026-03-02",
-    "title": "5 charts show China’s oil dilemma after US strikes on Iran - Politico",
-    "description": "Via Politico. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQcXBuSVo5ejZicnBLQW8wbGF6N1ZGa3RDY2tkWXNGM3dGQ1RUSHZyZklXenBvbllzRk9kWTMwQkJYRTZ0WFEzOEhnTnBNY3c2WVQyXzNYQi10dlNmemQwQVY3MmVXLUozVHhFemZ3Y2dFQ0NwQ3FSTnV6TmxSTVhkamtuS3BnQUI1dHlwTGYzRl81NUE?oc=5",
-    "source": "Politico",
-    "fetchedAt": "2026-06-07T12:00:16.643Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=PBpY2uUKoC8",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "PBpY2uUKoC8",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "global-oil-prices-top-114",
-    "date": "2026-05-04",
-    "title": "Global oil prices top $114 and settle at 4-year high after Iranian attacks on U.A.E. revive worries of further supply disruptions - MarketWatch",
-    "description": "Via MarketWatch. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOWXdZUnNwcjVCNjhIQk5MNEdMRlg4aGI1ZDc4MXpvS0E5dlNCT0VRTVZRcGNZYjZtQUJfV1dpZFhlTGgta0g0NmdreEJNTEt4UXdSaklpUFRBVk9xUG1BcTZ3QVpVOGx6SlNucFlMWDR0S0ViS1FMd2ctNUREc19TSmpMWTgwSjBHeldnXzNtdllFaS1XOGRDZVNMWWNGN1VJcGh2OU5IRDB3eWZpTzJJYkxFX2ZGT3VxWVZsYVdrMDJacWtNMU9JRHJ0ZFB6QXNW?oc=5",
-    "source": "MarketWatch",
-    "fetchedAt": "2026-06-07T12:00:18.255Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=Yp4wFZeY0fk",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "Yp4wFZeY0fk",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "asian-countries-most-at-risk",
-    "date": "2026-02-26",
-    "title": "Asian countries most at risk from oil and gas supply disruptions in Strait of Hormuz - Zero Carbon Analytics",
-    "description": "Via Zero Carbon Analytics. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPLXViMWVTX2pDZHhYazRhck90X1FOYng4dU1BLTMwbVVuSW5oUUJVTlBnNE9VdjNOeDhJdlZUaWxQaUtwcXlyM0pWQ01IRnNFVkFSWGpsei0zVElGQ1VZTDFXZVpnV0w4eW1aX0pZTUFlcHRMZlRjcXZDV0E1T0Q1bHhWdEViMnp1cWFpdmRfbkRDcERNNVhZd3QwdWxQSmkyRWJFS29VRXhlc0RGNmZoMU42VlVoX3Z3TmRZTE9pcnNRazJXUElmZmVwRjdybTNFR1BN?oc=5",
-    "source": "Zero Carbon Analytics",
-    "fetchedAt": "2026-06-07T12:00:23.008Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=yg9-a0iZExY",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "yg9-a0iZExY",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "gaza-death-toll-rises-to",
     "date": "2026-05-31",
     "title": "Gaza death toll rises to 72,939 as Al-Aqsa Martyrs Hospital operating room shuts down - WAFA Agency",
@@ -5286,6 +5097,222 @@
     ],
     "videoMatch": {
       "videoId": "p2u6JZrr08I",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iaea-director-generals-introductory-statement",
+    "date": "2026-06-08",
+    "title": "IAEA Director General's Introductory Statement to the Board of Governors - International Atomic Energy Agency",
+    "description": "Via International Atomic Energy Agency. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZlgzcUtUNGQtbG9jV2JSWGQ2YzlWNjBKbDFLLUQtN0M2WFRVZkNJTWx3ZWZ4dlNPSFNkUHBUUHYtaWt6MXIxVldkamFnWXJvaTFDQ1BtUkpCdTBVRkV6VFBoZGVwZl9CS0JQUU96ejlQYnVmOThhbkJfcGVqQmRsTkxYZ2Q0d2J5eU1XaktfSmtuMnlYbjZlM3J6M1NUNjF2YTMxNkpKUmtMR2FzNUQzb0RGQ0lhZGQwdGtNNEhjUzZNU0k?oc=5",
+    "source": "International Atomic Energy Agency",
+    "fetchedAt": "2026-06-09T12:00:11.171Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=xG13lq4eQT0",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "xG13lq4eQT0",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "nightmare-for-civilians-israel-inflicts",
+    "date": "2026-04-08",
+    "title": "'Nightmare for Civilians': Israel Inflicts 1,400+ Casualties on Lebanon War's Deadliest Day - Common Dreams",
+    "description": "Via Common Dreams. Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5hUDVsbEwtdXY4aVFsa2VhbjFpV2ZhelJrNzBqdVI1UHFFanQxR0FZNG9sUS1BUTZuWkliekVJZjltTGtBLTRlVmd4MjAzd25adjlGU0pVS1RfRkkzMFdTRWVpeDByX0kxeFU0akwtZGd5VlVhYUE?oc=5",
+    "source": "Common Dreams",
+    "fetchedAt": "2026-06-09T12:00:14.124Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=1_-BfZdx9PA",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "1_-BfZdx9PA",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "usisrael-war-on-iran-is",
+    "date": "2026-04-23",
+    "title": "US-Israel war on Iran is accelerating climate change - World Socialist Web Site",
+    "description": "Via World Socialist Web Site. Auto-detected by headline monitor.",
+    "category": "environmental",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9ZWEZSR21JYkpuSmpfS3NNcjRRR1hYNlZkZ2gydDZsSGlPeXJDaElIOHNWaWpMSThEaG9IYVU4Y3FjNnh3WjBtZWxjS1ptUGlHQV90ei1lQ3BlVWJUR3hwaVNHMDJ2WW9L?oc=5",
+    "source": "World Socialist Web Site",
+    "fetchedAt": "2026-06-09T12:00:15.795Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=LeCa2P5YKEU",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "LeCa2P5YKEU",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-war-emissions-hit-5",
+    "date": "2026-03-22",
+    "title": "Iran war emissions hit 5 million tonnes in two weeks, study flags climate toll - The Federal",
+    "description": "Via The Federal. Auto-detected by headline monitor.",
+    "category": "environmental",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPY2dBWGhlYXBPbDVQMWRGVm5IZGhXcGlYMjdrQXNsZ3VXaEVid1I4U19nNGJnMGZNZ21nM0JnSDBIUmxfczItQTMtNDVkVWpONWpUTDZ5T3BwTHVqV0tjMExZam5kci05bGRKNkhhWm55S2xoUEtfNkFwdUVoY1lDMl9uWk9PNmhUai1nUWhuQVRlbnJTc0JUTGZBa1R5ZjZNdnBHNGw1NWNXY2x5cEsyZWxiNWhqZDZ0aktsQ292bEpFQVh2ZmxjY2w4V1Vsdw?oc=5",
+    "source": "The Federal",
+    "fetchedAt": "2026-06-09T12:00:17.486Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=zl7BKz7OxvI",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "zl7BKz7OxvI",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israel-air-strike-hits-hospital",
+    "date": "2025-03-23",
+    "title": "Israel air strike hits hospital in Gaza as death toll passes 50,000, Palestinian health ministry says - Australian Broadcasting Corporation",
+    "description": "Via Australian Broadcasting Corporation. Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcjZSbWxIUWZkdWJXbmhrbHpjU0pwSDNfUk14TjdCUGUzWF9WSEtrdEczaFRMRnd3VkQyaV85Mnp6dms1NkFhM1Zyc3JEaFhxYUZ6VHJDUm12bVd5U1NDRm1CNVZwbDhNc2lYSkZEaDdSNlQ5TGJka191MVhjUUtyWnVUd3UxZGtVdkk4aW5SN0F2U0lwa19TSjlMQ3FIWFlpcHJWb0pB?oc=5",
+    "source": "Australian Broadcasting Corporation",
+    "fetchedAt": "2026-06-09T13:00:13.730Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=BtLzdKdkLG0",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "BtLzdKdkLG0",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "houthi-shipping-attacks-patterns-and",
+    "date": "2024-12-16",
+    "title": "Houthi Shipping Attacks: Patterns and Expectations for 2025 - The Washington Institute",
+    "description": "Via The Washington Institute. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSXpZRDVqN21NTERjMUdTVzhmZ1dpVXg3RGFqTjRZal9jV2k2VXVnZjQxQk1HZHJGU0xneUxYUmRjS29Mdm9rMHFsdkhrbGExa1N3UUltMkF6aC0yV2FaZHBXbnZrN1Bhdkw4RkVtcUhNRjNCSnZvUFlsenNxbVZtRXZrTFkyU2FiVWtuc0ZuUjhMYWZuSFdjVHVFeDM5NHZ3Wm8tMHVwUUZ6QQ?oc=5",
+    "source": "The Washington Institute",
+    "fetchedAt": "2026-06-09T13:00:15.242Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=PZnpaOBi3e4",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "PZnpaOBi3e4",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "yemenis-mourn-killed-houthi-prime",
+    "date": "2025-09-01",
+    "title": "Yemenis mourn killed Houthi prime minister as rebel group targets ship in Red Sea - NBC News",
+    "description": "Via NBC News. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNakhlSEVwUFZtSVg5bDVhcjVVMUxybEdERDB6LVo1Nzl5bWNHOF9ybVVXVWx4ekVuRlBheTc3azRic2FzZVM0Y2VOdk0zTWlyVl8tdjdzTndWNlNQVmNGR2FMVjM4MURnZUVJN2FqZ2V0dk5Qa3JhTjl2SXk2VG9KU2plX3lsVnN4S3Q1Y01tNEc5X1VnYkY3aVg5UG9UZ0NuZ0R0VnBYaURXRjdrd0Nrd05jM3RaNXVP?oc=5",
+    "source": "NBC News",
+    "fetchedAt": "2026-06-09T13:00:16.855Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=53bdBx3494k",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "53bdBx3494k",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israel-strikes-across-lebanon-amid",
+    "date": "2026-03-21",
+    "title": "Israel Strikes Across Lebanon Amid Fierce Ground Fighting in the South - The New York Times",
+    "description": "Via The New York Times. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUThyb2k4V0dNdDFUV2tnU1VLMktYYjVad3BvaXRld1hEOHBXTEVVSnY2M1ljVEJmUFVNbXNlczJ1bVQzMDN0UFFXaGwwOW5Oa2o1aklSaHY1eTJ1VmhPZ2FBRUF5WUhiNXJlYUxrZXBhQzZxUjg2ZXp4UVF4eGtsWGpLTVd5U1pvZUpqTF80ajZQOVA2MWhmSFRBQXVJVWZTQTBCendpVzhQVUxJMWl3Z3hmRHcyVk1Za3ZkSw?oc=5",
+    "source": "The New York Times",
+    "fetchedAt": "2026-06-09T13:00:18.486Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=0270PWUFEEE",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "0270PWUFEEE",
       "title": "",
       "confidence": "auto"
     },
