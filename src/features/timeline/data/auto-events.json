@@ -16441,5 +16441,22 @@
         "label": ""
       }
     ]
+  },
+  {
+    "id": "auto-please-send-help-crews-distress",
+    "date": "2026-06-09",
+    "title": "'Please send help': Crew's distress call after ship hit by US missile",
+    "category": "military_strike",
+    "description": "Via BBC. Auto-detected by headline monitor.",
+    "lat": 30,
+    "lng": 48,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1yNzc0dXNteEV2Tjhncm1Fb1FQMVJtaG11STY2UXNrWW9GTkhfdkdudlB0dDVQQ3lUc1RhMXlOM3ltTUJ1dGJQN3Fjd2pnaGs2SllfRVdLVzdpZw?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=KvqRzhELkRU",
+        "label": ""
+      }
+    ]
   }
 ]
