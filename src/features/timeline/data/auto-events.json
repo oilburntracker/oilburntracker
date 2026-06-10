@@ -5855,7 +5855,14 @@
     "description": "Via Reuters. Auto-detected by headline monitor.",
     "lat": 26.56,
     "lng": 56.25,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZFpWRERLbXFJcjA1YWtGb1AxUTBPUnNOQ0ZiMUZJYjdOTkN1S3lIbklodktvOUlfRkpHZHZ2dlFMcF9WdlBzRTlLcDRQUXFEUmZKcmY1aEFGcTJqcm1SNjRjRWo2WktxdWlZQXNnS2RGSlZNdEtCOG9HUGlnWl9zNTZGWld1VVdkdG8tV3BYcUFuelgxZmtCMUpJVFRuZUdaMjZ6dDJ3MG5EWk1YeW51d2hZV3c2UFdaU3B5dndKOUtkb0Nl?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZFpWRERLbXFJcjA1YWtGb1AxUTBPUnNOQ0ZiMUZJYjdOTkN1S3lIbklodktvOUlfRkpHZHZ2dlFMcF9WdlBzRTlLcDRQUXFEUmZKcmY1aEFGcTJqcm1SNjRjRWo2WktxdWlZQXNnS2RGSlZNdEtCOG9HUGlnWl9zNTZGWld1VVdkdG8tV3BYcUFuelgxZmtCMUpJVFRuZUdaMjZ6dDJ3MG5EWk1YeW51d2hZV3c2UFdaU3B5dndKOUtkb0Nl?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=8otAxRcyJY4",
+        "label": "Sudan crisis worsens as civil war enters 4th year and Hormuz closure disrupts aid | PBS NewsHour"
+      }
+    ]
   },
   {
     "id": "auto-iea-agrees-to-release-400",
