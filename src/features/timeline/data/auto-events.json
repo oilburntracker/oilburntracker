@@ -16601,5 +16601,39 @@
         "label": ""
       }
     ]
+  },
+  {
+    "id": "auto-more-than-50-iranian-military",
+    "date": "2026-06-11",
+    "title": "More than 50 Iranian military bases damaged in US strikes since start of war, satellite images show",
+    "category": "military_strike",
+    "description": "Via BBC. Auto-detected by headline monitor.",
+    "lat": 35.69,
+    "lng": 51.39,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5wXzRnSGZYakdxem5yWWkyRWthWG1ydHJzakd6Ri1IY09ZcG1GOEN2OWhUXzBIM0NXOVBaUEFDYnVMRXhfVG01blVWTF8zeVlHMnp5QVY3S2stZw?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=xW8fXYWp0Vw",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "auto-analysis-of-satellite-image-and",
+    "date": "2026-06-11",
+    "title": "Analysis of Satellite Image and Videos Suggest Precision U.S. Strikes on Iranian Water Facility",
+    "category": "military_strike",
+    "description": "Via The New York Times. Auto-detected by headline monitor.",
+    "lat": 35.69,
+    "lng": 51.39,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQcUF5NFpLSmVRODJGWFNFSUtNVktCa1o5VFRqU3BsU09GbVkwUWxYeldvWkNoRWhEbDh1ZDFtWWtrWVl5NE5DS055Zzd6YVJZOGxrQzZmZlhOa1lpRHhCM0NUUFkweUlrYWxFS2lKcW51bnROb0lqdTQ5R3g2NWtpTURVSGp2RWpBcmhWRw?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=X02g3AWIWPw",
+        "label": ""
+      }
+    ]
   }
 ]
