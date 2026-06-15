@@ -16992,5 +16992,22 @@
         "label": ""
       }
     ]
+  },
+  {
+    "id": "auto-how-many-ships-are-crossing",
+    "date": "2026-04-15",
+    "title": "How many ships are crossing the Strait of Hormuz?",
+    "category": "chokepoint",
+    "description": "Via BBC. Auto-detected by headline monitor.",
+    "lat": 26.56,
+    "lng": 56.25,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBNZEhFT29uaWtYVlJ6bTFaWGNMX25jUFA3R3FybkdESVdFdVE2NGRtTkZsMmRiYVFNeXpRTUZONEdxOGVwRjRzOTU0dENVdWFsQkxWcS03c3ZRUQ?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=NTrpRKO8fcA",
+        "label": ""
+      }
+    ]
   }
 ]

@@ -5189,5 +5189,140 @@
     "zoom": null,
     "casualties": null,
     "status": "draft"
+  },
+  {
+    "id": "us-troop-casualties-in-the",
+    "date": "2026-03-25",
+    "title": "US troop casualties in the Iran war continue to climb - Hays Post",
+    "description": "Via Hays Post. Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9IdDZpeGhDaHZKZlRLQnd2Y2dXaVNoVkNzVEZTMGhMcVFvY2dxTm42Z2Ewb3J6V2hscFp3TkhjSDdkRWx5Nk1NQXVCOU5qX0FTSlZYMUtZN2lUeDIyUFlGeHZ1Q2pRMElxOGlSV1ctZTc?oc=5",
+    "source": "Hays Post",
+    "fetchedAt": "2026-06-15T12:00:12.905Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=fk0gVp3PPEo",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "fk0gVp3PPEo",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "middle-east-tensions-implications-for",
+    "date": "2026-05-28",
+    "title": "Middle East Tensions: Implications for Thailand’s Economy and Industries - Krungsri.com",
+    "description": "Via Krungsri.com. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQblRDS25mbGhSQndTTlpZMFZsN3dZWDc0c0diUm9GMV9tblFrdERrdUZ1d0RqbW1aZ2NkZmpaN2I5MXBZMUxLZUc2N2J2YURLbFVtMDJDdXBPUndUZ0dadGJHejJKX2RweS1FNkpSajA0aUJOTC15T2VEUFI4WnllUDR0a0Q2aEFBTENJ?oc=5",
+    "source": "Krungsri.com",
+    "fetchedAt": "2026-06-15T12:00:14.479Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=KN5sDOGnv7c",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "KN5sDOGnv7c",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "a-second-wave-of-iran",
+    "date": "2026-05-12",
+    "title": "A second wave of Iran energy shocks is about to hit Asia and the wider world. Why aren’t markets reacting? - Fortune",
+    "description": "Via Fortune. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQVFJtSVNpUVlzbld4U0pXbVBEYm5QYUpYeTlfTHF0QWV0UzlObDRMdkhjWDZ4d1U1Q1BtdHpKaU95T1dza25MaDF3ZURWUTV5akFKS0Q4SFFSekxoLUcxWmpwUmFacWcxdkVjVERsak16U2xkVVQzNVNWU1ZOY1VZNzVORHhIQU4tNjc1c2Zocw?oc=5",
+    "source": "Fortune",
+    "fetchedAt": "2026-06-15T12:00:16.115Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=O0EoObkQOKk",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "O0EoObkQOKk",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israeli-airstrikes-in-southern-lebanon",
+    "date": "2026-05-27",
+    "title": "Israeli airstrikes in southern Lebanon have killed 31 people - ua.news",
+    "description": "Via ua.news. Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNd0FLczNMSzMzZmFGM1V0SXFDYS0xaHZvWjc5TEdUckJHSHVZT3pZeGJMX0p1TGgzWDQzZ2FUTHNXVXVHblpTcDZUbVByeW41Z2hPaGhnbjRzQnlqdVFaZFkwaWYwaTR1RXp3TUJUd04xaHVKeGgwZmV0eUxnaTNuVkpCX2tFNjhNTUtCWlJac3VIZw?oc=5",
+    "source": "ua.news",
+    "fetchedAt": "2026-06-15T12:00:17.703Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=hooruIt1CUA",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "hooruIt1CUA",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israel-launches-largest-wave-of",
+    "date": "2026-04-08",
+    "title": "Israel launches largest wave of strikes against Hezbollah in Lebanon; high casualties reported - WION",
+    "description": "Via WION. Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNaUlBS1QtWUVRMVpab1RmUWF4bnZJcExYNmcxNURTTllETzJEMnlnVWJiRkJHQ1hHcU1vcUUyVDZRU1U0d3M4cWhDTjNDX2p1QUlCLW9uMVFiMldSZFNCNHI3ZWhCM05aT2dqTXp4eHpMQUtSSUZFeWxWQnE1dHJ5WU1tUmpvRWs2aHNEUWZDcHpFVlRralY4aHh5SU8wUWF2ZzRxdUZndFhvNkxSYTRNWHpEazh0TXNfa3lMaWJPR2dnRFlQT3BUS2k5al9XOVEwVXU00gHYAUFVX3lxTE5HOTBpQjVwUlVIZWp0R3FQSEhPOHl5cWtUWjd2UVdxeFN1Xzk0czlfUUNVNTB4RnZrX2pTakZIaDlBc1pmcEVQUmozb0VmUm9pdzh3VEpVNnBLYUpBWEo5RE5Xejl2aDJ6YzMtaUVpbzJUNmVpcjFRLTA1a1pPbkxudEhnZ3BlZkdhTmFURDJyc1o5RXlzTU9rZGdVSUxQa2trQWx3TzlHaE56Z1RVSkdUSnpyR2stNXNBWkE2Y3AzRDdjLW5mZ29nbGp4TnBseGRkSElDNWJOSg?oc=5",
+    "source": "WION",
+    "fetchedAt": "2026-06-15T12:00:20.230Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=8eJpjtyp7wk",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "8eJpjtyp7wk",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
   }
 ]
