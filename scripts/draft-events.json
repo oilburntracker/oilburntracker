@@ -1,356 +1,5 @@
 [
   {
-    "id": "global-oil-price-hits-4year",
-    "date": "2026-04-30",
-    "title": "Global oil price hits 4-year high on concerns Iran war could worsen - South China Morning Post",
-    "description": "Via South China Morning Post. Auto-detected by headline monitor.",
-    "category": null,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONDJyaUZrWm1JVEsxamhXbld4VUpZSFZRbzdZaHBScDFFXzdMX2hVSkJrX3FFRjBiVnNXTlJCTklBamtCWTVTLU5VYUFNYnZEMXhGakNrSmJuSmhySVFhbFd6MUp1dVBrYnhyRGhHVkdGUlNjR2x1SDk3VWwyLXZsNTFVOEFJckZnMWVKS2U4RllQTGl0OWtvMWZPMzdjd253RzBkYjVSVnQwSzBPNUtjQTBlT2QzY1luRzZwUDN2aEdMUdIBwgFBVV95cUxPTXBQRmpSZWhnMVIwNjdBWXp2RzcwZTkwdUlBTi1oemp3RzRmckc0Q1FZS0FPUklzRnVxbmFnZW9oWEp1MDQzQXJNMHpRY1M0YzNtRDB5OUxnR2RJT0JhaFJORnpzdTZlYnk2N3VySnJIR2lCaE0xZGpZcjFCd3BhQmxzRm9EcF93QWVxdkc0V0VSb0tPNEZoenlDWlgtLUxfNjJ2eXFTbDdoVUcybnl3UHMxcnRud2R1NFFNVFVMNWRwdw?oc=5",
-    "source": "South China Morning Post",
-    "fetchedAt": "2026-06-14T11:00:12.717Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=gojY1IXiInQ",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "gojY1IXiInQ",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "tanker-turned-back-as-iran",
-    "date": "2026-04-08",
-    "title": "Tanker turned back as Iran maps new lanes around Hormuz mines - TradeWinds News",
-    "description": "Via TradeWinds News. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPM2hxd1pkRmhkRFVyc0lvSzF2NTZBcDBuMzgyZlk0SVkyZlJyUXFINlRQdFhGYmJZQWlfYnpJQkt0TDF1bnc3X3ltMVJldUpjZWkydTJPV3VJRlZ5bC05RkJ3anBLaExzV1hNcjZkYVM0ZlhYOGtQZE9rcTFVcHhjNVRGa3c2RVpIa0JXeEtQc0d4RTlYczhPamNac0loMVgwYldiTm9pR1E1elBkT1JHMlpR?oc=5",
-    "source": "TradeWinds News",
-    "fetchedAt": "2026-06-14T16:00:11.616Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=jvnYH3Ktmdo",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "jvnYH3Ktmdo",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "irans-un-envoy-says-more",
-    "date": "2026-03-12",
-    "title": "Iran’s UN envoy says more than 1,348 civilians killed, 17,000 injured since start of US-Israeli attacks - aa.com.tr",
-    "description": "Via aa.com.tr. Auto-detected by headline monitor.",
-    "category": "humanitarian",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOQUM4Y1RJbDZDZnZBekVuSk43dFFwTU9Xa2hKeUJFMTVISXBRbGZ4Zkh5enlzNGljMXo4TzNNT2hOOXp0V0oySS1JVnNDOVkwcThhMkJSOTJXb3d5dWpnVXFpN0ZiMzJBNzBzQ20wMEJNdEhlRV9rUXdBQ1BpYmJLTHhjNWtsUE1BTFF4MVY3Y1lfaHZQMDNhY1o0LS02ZUY2ZXFPT0FFQlRVVS1yRWZ2WUZTa0FiU1ZVTW10WWp1YmpZWjhqOEt5RUtiZU9MdUhGU0hKODdqX0l6UzJaY2JGRQ?oc=5",
-    "source": "aa.com.tr",
-    "fetchedAt": "2026-06-14T16:00:13.318Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=DYCSiAOFLOI",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "DYCSiAOFLOI",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "brent-crude-oil-futures-jump",
-    "date": "2026-03-26",
-    "title": "Brent crude oil futures jump over 5% on Middle East supply fears - aa.com.tr",
-    "description": "Via aa.com.tr. Auto-detected by headline monitor.",
-    "category": "infrastructure",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRlA0MjBxMVdUUDU3M2NQN1lFZmlSTmg1RWtOci1XRnBfUFpudjJqdmZlXzhpN05OYXZEVUVMaHJTYkJCY2VUUnBSQ0gzY1J3YV9kOGtETHN0azJ5dWh4MFRBMXdpc2wyTTVpbWpqQ20xM2s1RkxIRUpXcGxEU2gwcFRHdDA5ajJaSmQxUnpsM2l5c1JtMzQ0TFVLT19Bbjd4YVdTdlB1QQ?oc=5",
-    "source": "aa.com.tr",
-    "fetchedAt": "2026-06-14T16:00:14.892Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=unuyuJaglVc",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "unuyuJaglVc",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "death-toll-from-israeli-attacks",
-    "date": "2026-03-27",
-    "title": "Death toll from Israeli attacks in Lebanon rises to 1,142 - aa.com.tr",
-    "description": "Via aa.com.tr. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOM2NLbXBGMGphVWFfWWFYZGZjdzdkcThzVkFXQmZ3Z3FwUXZ0ZGI0eDd3ZXNwdjBkd210aDdxUTRsdTRmcW1BMlBnWkl6VTc3T29fTzdodUVyOVJIWWU4QUxUQ1FRc2VRekVZZXdtMFRPaEpON3ZJanpEQ2Z2d1RDekc2dXAxTGxZcmhETGU1bGV1UTEzdkNwREdFaTNpVU9sUWYtZA?oc=5",
-    "source": "aa.com.tr",
-    "fetchedAt": "2026-06-14T16:00:16.448Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=ZG38YcncE94",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "ZG38YcncE94",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "israeli-airstrikes-on-several-parts",
-    "date": "2026-03-18",
-    "title": "Israeli Airstrikes on Several Parts of Lebanon Kill 18, Injure Dozens - Qatar news agency",
-    "description": "Via Qatar news agency. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNV2N1Y1REbHd5TFpMZkpWdzRGLUJTWmJNRnBRS0hTQ1M4Zm9mbFprTmltLVFPb19ZNGxtbGdnVlE5TWJBRWNVeWpZQUR1bEJYTS1Xa3ctWjVETXhRYmxIQUZOTHNTSGFxMzliNU5HektyR2FIMmtUaFdha1BWMTZQeVlXVUJVMDVLa1lXREhaWkN0SkxrU1FIWmhsQS04WFlnTUx1NkplMG9mekdZUmplV3dMRjM4Zw?oc=5",
-    "source": "Qatar news agency",
-    "fetchedAt": "2026-06-14T17:00:11.014Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=q46O154OPPY",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "q46O154OPPY",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "in-pictures-lebanon-bombing-afr",
-    "date": "2026-04-09",
-    "title": "In Pictures: Lebanon bombing - AFR",
-    "description": "Via AFR. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQajVyYlZxMHkzV1RqY0JhRzUxU3o1YnVHdGl4WUFVUmFiVVB3T3FYaWQ0cXlYWW9laW5MdXl5QjhjVnoxUXQyVGxxcUFNZll5UGw3R01SckxTNFpLZ0JxekVCNWRkYkJVQmh2MTVER0I2Z2FtT2drVkd5WUYwNHpLaTNuSlp5b1lu?oc=5",
-    "source": "AFR",
-    "fetchedAt": "2026-06-14T17:00:12.682Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=wwZpODSnA48",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "wwZpODSnA48",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "palestinian-death-toll-in-gaza",
-    "date": "2026-06-14",
-    "title": "Palestinian death toll in Gaza tops 73,000 as Israel launches strikes despite ceasefire - News4JAX",
-    "description": "Via News4JAX. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQa0tIWWtUdGJ1RUR1Uml2aVR0aG1QN2pHVUNnY1pEdkpzVERJOEpxWUc5cTNsY3F3RDEzYXNXRl9HN1BkYU1EdVA2YlJ6a2wtdVFLNTdHV3BsRVVEM180Qk1mM0RFNHU1UmJWX3FCVE4zZmhMS2IydGM5TUc4VUFrWElkMEtvOFBJZ0VzNmdjQ3FHNGFTUkJ3ZnhwRGdtRjN1a3NCV1hWQXZMSjdOVTlyX0k4T1hwN1FqcU9tME9EN2JKMkJUN2NPNGlhNE53cll3dWJqSER3?oc=5",
-    "source": "News4JAX",
-    "fetchedAt": "2026-06-14T18:00:10.884Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=pQaDrnC-hZI",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "pQaDrnC-hZI",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "yemens-houthis-threaten-to-escalate",
-    "date": "2025-07-28",
-    "title": "Yemen’s Houthis threaten to escalate attacks on ships linked to companies dealing with Israel - Stars and Stripes",
-    "description": "Via Stars and Stripes. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNeUdPd0NsRmZqVDdZemlvSmFJYWJqN083SVFSSWFHQkE0Y3ZEN1VVVGg5V0xMTkFLZ0xfMmFCcjhuZGcwcTJoSFh6RFdqTFZlbFJraHdZVUxTM1pfUTB5WV9qVGhBdFRYSzYydGdLUldmRm43RnVXNklndW9qckhHaTFBbTlUNjVNTDNSOFJET1RwSk0?oc=5",
-    "source": "Stars and Stripes",
-    "fetchedAt": "2026-06-14T18:00:12.451Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=32uWTZ1vwCo",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "32uWTZ1vwCo",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "palestinian-death-toll-in-gaza",
-    "date": "2026-06-14",
-    "title": "Palestinian death toll in Gaza tops 73,000 as Israel launches strikes despite ceasefire - Los Angeles Times",
-    "description": "Via Los Angeles Times. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOZVBKYkw0YzBKZTlPN1N3NnhYUDhiRzNGYXdkeFdqYkRaZXp6Y1cwQjc0R1RYVXVlZGVPQUg2MDg1bThtdnZ4dFlBTUt4TTBwREViNkV1dHhicF9fUzBNcDU2aUV3M2UyVnRhMWRtcklERmdtTXk2ZlFJV0pvSVRsM1djRE00M295VmRjTENteng3SHJNdzdoMEZSbEFRLUpRc2d4U01DOGJPazlGSkNXekVfUFhuYTdZNndVYm9JeE9HVDNxdzB4cDhORlFUZy13NzNWNVdTT1A?oc=5",
-    "source": "Los Angeles Times",
-    "fetchedAt": "2026-06-14T19:00:11.520Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=pQaDrnC-hZI",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "pQaDrnC-hZI",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "youre-going-to-run-the",
-    "date": "2026-03-28",
-    "title": "'You're going to run the strait': The financial incentive for braving Iran's blockade - Australian Broadcasting Corporation",
-    "description": "Via Australian Broadcasting Corporation. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbFR0SXJWZEwycjhpMFlCb01tVExTVFJWeExPNDQ5ZElMNGdOSWFEZENaZDZIWllYNzNid2JVNjZBQlZQZkhnd3BNRE40Z1pycXY1RnVuQUF1cFhDMVp1ZEttRWI2bUdZX2xsZFlhWnJBOHVSVjVDZkIxNXYxRmx3YVJha2JwLU91ajUzTERNaVY3R2p4QXVqRDZabWtiaGJVZlE?oc=5",
-    "source": "Australian Broadcasting Corporation",
-    "fetchedAt": "2026-06-14T20:00:11.415Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=b4dtq2S0oBk",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "b4dtq2S0oBk",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "oil-prices-soar-to-levels",
-    "date": "2026-03-09",
-    "title": "Oil prices soar to levels not seen in years as war in Iran intensifies - PBS",
-    "description": "Via PBS. Auto-detected by headline monitor.",
-    "category": null,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcnk1cjY3RkszX3NJZVB2YWNPSjlmZ2RIS3o5U0RLZDlkVmtEbDNuTGtCT2lySWM1Y2o5cnZjTE1oY0hXYjBtXzc4V29lYjhXUUJWTnFsS1dKVUpyUmpjalFNTzFQMVhmWjdEMFVmTkxFTE9RMGMyQnEzOXRma21BRnZHSzFBYXVGZWR0ZXZuUk5BREw5YndiN2x5WG1ldGJDNzc5eE1MeTRoajg?oc=5",
-    "source": "PBS",
-    "fetchedAt": "2026-06-14T20:00:12.922Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=wSsWJyFERN0",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "wSsWJyFERN0",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "the-iran-conflict-is-sending",
-    "date": "2026-03-09",
-    "title": "The Iran Conflict Is Sending Oil Prices Soaring—What Happens Next? - CSIS | Center for Strategic and International Studies",
-    "description": "Via CSIS | Center for Strategic and International Studies. Auto-detected by headline monitor.",
-    "category": null,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObmctZlFYTlhnNUhDdUJUaUlUdFdhNUlYb2c5Y3lhQ3RvSUIwZl9OQl9tdGFXSmdFQlhFVlZfQkMtOUVjWnpnZzVuODhQVzZVTDlZeGNaUlJKOUc4cWFQajUxa0VzSFRuMGNaNGtZT05sVEFqOWVsVXVVNHRMVTQ5NnprTjRKcGhPdE9COWNTdWxqdw?oc=5",
-    "source": "CSIS | Center for Strategic and International Studies",
-    "fetchedAt": "2026-06-14T20:00:14.393Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=2O7VFAApHZo",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "2O7VFAApHZo",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "the-usiran-war-the-potential",
     "date": "2026-03-04",
     "title": "The US-Iran War: The potential economic impact and how businesses can react - Thomson Reuters",
@@ -5306,6 +4955,330 @@
     ],
     "videoMatch": {
       "videoId": "U1ryNfPoagM",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "middle-east-houthis-claim-deadly",
+    "date": "2025-07-09",
+    "title": "Middle East: Houthis claim deadly Red Sea attack on ship - DW",
+    "description": "Via DW. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcEcxRkFaeXczTWZmUFpoZHdmem9sbHEyOVlZMUNrWFBOdExXOXFFWFBNQ2ZudHdfMUpxd1F1a0lZVUpROEhZQkdkSmpaRjRLNkg4M0NHUE5acGdiWGNGR3JqODFHRUgxdUt3UnhjX3lDek5ZV05LZjFfdFd3WFFyTXdaWTZRaFdaS1IyRG03NXRLWWJ0YUE?oc=5",
+    "source": "DW",
+    "fetchedAt": "2026-06-16T16:00:13.214Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=aPwLRg4k39g",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "aPwLRg4k39g",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "lebanon-mass-casualties-after-israeli",
+    "date": "2026-04-05",
+    "title": "Lebanon: Mass casualties after Israeli strike on residential Beirut - Doctors Without Borders",
+    "description": "Via Doctors Without Borders. Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNVlFBam1wSG9ILWhfUlpzOTZuTEFRdmI4ZGhMYXBYbHdldHRVZUtUMC1xWEhFWm1PMk5DOFd5RHc4RjNMVFh4WDVFVkt4TTBrLVRHSXlFY2JoaHVIZF9fVWtnVVBpb3ZjT1BoVUFGUlk5QklvNWNOMTZveWhoLW9Ua1FfREo3d19iWEZHcmpnSjluaC1zTG9JM19LQUxwTnFHbVFEVmxjUkRYQUU1N201MzZxSEdaSVN5ZmZSVVNR?oc=5",
+    "source": "Doctors Without Borders",
+    "fetchedAt": "2026-06-16T17:00:11.698Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=R2apym29vo0",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "R2apym29vo0",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "war-madness-may-well-destroy",
+    "date": "2026-04-20",
+    "title": "War madness may well destroy us all - Dawn",
+    "description": "Via Dawn. Auto-detected by headline monitor.",
+    "category": null,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9QM3NtZ2xrZGFNZDd3bDQ0bUk3US1Pb0dMSHZHRVZnNmlpMjhhSXdxWE13bjU4dHJDQUJxSGN4UFhCZXFHM2M5cNIBTkFVX3lxTFB1U2JxdEFEX3haRXgtLThCNDROdXFrV2xibkd3Ty10ZWx6MG56cEg0STJqdU1XYkpfbmQ1RDk2aFF5bEoyMUZtOHRYc1FNUQ?oc=5",
+    "source": "Dawn",
+    "fetchedAt": "2026-06-16T17:00:13.354Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=--if0444mJs",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "--if0444mJs",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "strait-of-hormuz-oil-supply",
+    "date": "2026-06-15",
+    "title": "Strait of Hormuz oil supply crunch has countries looking for workarounds - The Hill",
+    "description": "Via The Hill. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVnlpdmtEaV9sb1c3M3VoMEp5WTlveTljZ29UXzFNS2piT1pIWnd5VUZ6QXctQ2JwLXNrZjN0SXdtelRtdjRfekk5RE1IWWRfMzRmS1BIMENvUUJ2Q1Q1U2xqbGFwaHdKZkw1UHB5U0ZxeE4yTF9iN3NydUhDbUVaV0NQRkJJbzlabEUtX0RB0gGTAUFVX3lxTE5DaVNYX1c2VHJYcFVnQ2luRUQtWHhFMXJwMXlTN1M4N0pJWE5jQWUweWhTSDlqT3JrczB2LUdqWWJ6c0s2a2hiTmdHSHU0OVEzRHpKYlpqVHppaTE4Zm1lejIzM0I2NE5GYkY5a3h5TkVXNUFPdlR4eTVNT21wMkdEWHhRRU16MU10aGlLeXlzdWpEaw?oc=5",
+    "source": "The Hill",
+    "fetchedAt": "2026-06-16T18:00:11.625Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=BsqugD7MhSI",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "BsqugD7MhSI",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "usiran-deal-when-will-oil",
+    "date": "2026-06-16",
+    "title": "US-Iran deal: When will oil prices fall? - Inquirer.net",
+    "description": "Via Inquirer.net. Auto-detected by headline monitor.",
+    "category": null,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNb05OVWVTSXhRd2R0TEtVczE2WV9mdWIycWdzd1ZkS1JYeTdRajBteC1qakswalp6SVk5OUJlYzRRblZZTUFEX2pPUk5GNHV3QUZBU3lYOEl3X2g3Y2xGM285QnRTLUlkX3hPa3VIaU5uTkJlTS0tdjhVWFpzNDVXc25GdXhzd9IBiwFBVV95cUxQcFNPYzdUMVd2X3JoZ3d3RXQ0Wlg3ZC1yNGMyRnVZeDdrMDU5NWZIUDRCZ25Cd1o2OUtkbGtvdW1TWlRDeERxV3RENnRBQ1RJNDBxR3BPU215cEF4Y2pUb3RkSnNFTW9JbGpNV3lCQjZVdkRPWGVERnkyS2pEM3VvOFR2dW9iWUQ4QkNr?oc=5",
+    "source": "Inquirer.net",
+    "fetchedAt": "2026-06-16T18:00:13.245Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=M0_rn83_XT4",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "M0_rn83_XT4",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israel-launches-sprawling-attacks-on",
+    "date": "2026-04-09",
+    "title": "Israel launches sprawling attacks on Lebanon after Iran ceasefire was declared - NBC News",
+    "description": "Via NBC News. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPeEVGWHRHT1FzZ095dGI2MzA3N2RUWnZRendTSzRmY2xMSFQyWHZLNnBXUU9DUklzQnJIc1pRbWk1MXJpR05MZjFrVjVqX25heEFVODNHeVYyMlM0dVlnVlhOay1oV0RHOVBPdXE3V25ncWpSSW5BVWpLNXFEQVhKeFBmYmtMQ2hRTlpNTjVkYWt1d1pSeGhGb0lXMA?oc=5",
+    "source": "NBC News",
+    "fetchedAt": "2026-06-16T18:00:14.891Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=wjGN3N0CLQY",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "wjGN3N0CLQY",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-says-projectile-hit-nuclear",
+    "date": "2026-03-17",
+    "title": "Iran says projectile hit nuclear power plant as IAEA chief urges ‘maximum restraint’ - Washington Examiner",
+    "description": "Via Washington Examiner. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNN3RNbVNwLTZzdW1ENWtnN2s2Zjh1MmNkNDdNZU05X1JDUWgtaXlxRHUxVk1XNzZ1UlJSSmdyQmRRdTV6TkVNeXFzamN6M05fcGVRdTU0MkxoREx6bjZEYnk4Y0U4VUk3LXBqTlZzVE9UUUlzTWpPWnV2VjFxbzFxWjZBSG1nR0QzejhRWWl5Ylg?oc=5",
+    "source": "Washington Examiner",
+    "fetchedAt": "2026-06-16T19:00:12.111Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=AFhOfbGqJiE",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "AFhOfbGqJiE",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "chinese-tanker-goes-through-strait",
+    "date": "2026-04-14",
+    "title": "Chinese tanker goes through Strait of Hormuz, defying Trump - National Desk",
+    "description": "Via National Desk. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNalhQdEphVlZCMlN2U1gwVmg1UzRrT19yOUIzTmtQUW5VQ1hkVEhxTUx3NUhwRW5WZXZFMTdEeVR5UDhuUUVUbXowOU1TdDdHUXlXMldySkd2dDNDNzhXUHkzRFVFUHplcVZUdUJJaDA2aEV5ZTE4d2F6X1RWYXkzS25aeG14WlNNQjdmc0VTdnR0R0Q3OC15MDkzTDNhSU9SSU5hNWlRem9nX0t0SVoyV3NmUFh2Y1o3TTZseDVjWDhZaG5Ec0d0SFdRRXk2SXc?oc=5",
+    "source": "National Desk",
+    "fetchedAt": "2026-06-16T19:00:13.628Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=BpHhN0vqP0k",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "BpHhN0vqP0k",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "sanctioned-chinese-ship-sails-through",
+    "date": "2026-04-14",
+    "title": "Sanctioned Chinese ship sails through Trump's Hormuz blockade, Iran taunts US - India Today",
+    "description": "Via India Today. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQYjJ4OUJLZkg0b0ZOSWwzemQwUFZjYWlJRFNkVEtIYlJvNUxYOGxmVXlDdXJuYnROVkc1SUZoWkRfQ1FOeXpBWHJTNXY3Z09IbC1zWkZHZFdoLVl3TzFyLTd2aTh3dURnUXlORTdfVTZrYzd5RS13bmwtcFJ3bGdRckFCcU1EQ0VMU0FPR25MTjVEQ1hXVnZ0LW5YS3l3SWNleFdTUzNqeFRmYU1lRl9RRi1YOU5SRHliNHfSAb8BQVVfeXFMTmtxOEhTUEhCdVpiOGdCSU1kOHZpM05TNTN2OF9kOERUdEhSVWtQWkZHNnhuWEFtNHdzRXF6RHFSd2tCMExaMU44amlfX1Zjbmg2MkNYNUhLYmhORXpHX2VqUllPRUg2cm1QZTFSc1ZCc09MWjh6M1dwcFh0Wk1fYmMyaENzc0p6T2VqNlhLLXNiQUxKaERRX1RGU2VSWTM4dUZQWjFkcW9xeDVUMGRkREJyU3REMC1MdHpMMWhXX3M?oc=5",
+    "source": "India Today",
+    "fetchedAt": "2026-06-16T19:00:15.111Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=gX2D1w7FcBk",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "gX2D1w7FcBk",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "inflation-from-iran-war-likely",
+    "date": "2026-06-16",
+    "title": "Inflation from Iran war likely to keep consumer prices high even after conflict eases - Baton Rouge Business Report",
+    "description": "Via Baton Rouge Business Report. Auto-detected by headline monitor.",
+    "category": "economic",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVWRDNjgteUFFSVhrN0dnNWZqWmVlOEF4YkVHM0UyUGQ2bW9Kczk0dkZTRUZHNVFhVkw4MVozaFBsdnBYSWZ2LWtiQWJCMm4wTFhHWUUtWkFCc2tVSTBrNEVOa2lLU1VIWFZZVC1KSzRHYl9uMXFGYlY5U3VMUzM1R2dmdE5EYVl4WEMtSWdiX0FQcU55aGI3Xy1rbDVUNkdEZXA5T1hUY1ZSVTF2UEVtODdZWG9rWU5EcjU0eUV3Ql85Z9IBygFBVV95cUxNaVFiUFZNLWRPc1NFbXNyYmwzZHQxcDFFdlJGX2R4WTFKNS1lX3pncEUtMWNzcHotN3ZMblI1cUV6c3hhVElKaTZxd1lraW1UdkplbkVDdjkxdlBhcTUtYzROMmNiRFRiQUp6RjFwV3FJUDU2SXBnYTJwVDNBeEpsU3AwOEZ1dFZrdVJDeEF3dHJiZWNEWlJTWE5Hd3NSSTRzb1kxYm5DMDJMWlBOcm5ObnJyZDcyZ0hOTEUteG9aY0dyNFpPT2dfaHRR?oc=5",
+    "source": "Baton Rouge Business Report",
+    "fetchedAt": "2026-06-16T19:00:16.742Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=BznGSu9X7LQ",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "BznGSu9X7LQ",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "new-estimates-challenge-assumptions-about",
+    "date": "2026-06-15",
+    "title": "New Estimates Challenge Assumptions About Lost Gulf Oil Supply - Crude Oil Prices Today | OilPrice.com",
+    "description": "Via Crude Oil Prices Today | OilPrice.com. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNVk5TmlScHcyY3EzS0JWemt5dnRkamRpbkpQWDlZelBLU1Q1TUdQc3EydGFSR3M1N3lxWXRlM3RLRy12MUhaaDFSMXB6Z3ZYUndZZFREMy1JajdkMFp0ZzZUai1SczljMG9tS1N1bmVQR055bmV1b2VHa0gtZU1SRmpfYTBBcmItNGMycjdMQ3RhVU5QTXJveUxFX2pmQWV5bU5kaVduQXlTSGVGV0JF0gG0AUFVX3lxTE1CZ3I1UkZ5Mm9JTzRzbzBYYW9lQXlidDFpdWw4cmZ2a2NjLVNIU2JWYlJySHoxVU54UlZMQnVueXI3cl84YjhiSmVrQmkxeXFyT0lqWTVRanNSQ1hoYjFsWlRHaDlueThlOUJoUl9jTG1YcUhfX192XzBrZFU1SlZFQm5na0RnWkNuTTlJWWh3MlQ0QkdPTWhBcDZtMnR5OVd3aE9sXzE2V0REMm9TWFFVSnJLdQ?oc=5",
+    "source": "Crude Oil Prices Today | OilPrice.com",
+    "fetchedAt": "2026-06-16T19:00:21.093Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=RAlI0pbMQiM",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "RAlI0pbMQiM",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "oil-prices-fall-below-80",
+    "date": "2026-06-16",
+    "title": "Oil prices fall below $80 on Middle East peace prospects - The National",
+    "description": "Via The National. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQalZkWTFBOGNFZTBTbURJd0RKQjFtNHk1VnNOYmJZcS1TbXdfUENVVXAxQUJxYXdFTDlVRWduZzBtc0JEZ3pQNERCVXdONHJvWk9fSk1HbUdpdEk1cGp3T2xjd25FVWdBb2RucnpEUGlCQnd2M1lyZUJDN0Y0cE5IZ1k4dl9yR2tRZFFCdWRDUEx4U3Q2X083Mlh0N3ZISy1sYVpSQXVHQ3BKUzZha1ZNNlVZMnN4Zw?oc=5",
+    "source": "The National",
+    "fetchedAt": "2026-06-16T19:00:23.351Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=w6d4XcaXyFs",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "w6d4XcaXyFs",
       "title": "",
       "confidence": "auto"
     },

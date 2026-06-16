@@ -17264,5 +17264,39 @@
         "label": ""
       }
     ]
+  },
+  {
+    "id": "auto-stocks-surge-as-us-and",
+    "date": "2026-06-14",
+    "title": "Stocks Surge as U.S. and Iran Reach Preliminary Deal to Reopen Strait of Hormuz",
+    "category": "chokepoint",
+    "description": "Via The New York Times. Auto-detected by headline monitor.",
+    "lat": 35.69,
+    "lng": 51.39,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5PUV9MNExyY21ZM3FaaFJ5bHl3aVhZWllTUEZKcU1KT3NIZnVkM1dPMVJwODNHRXBtTDc0R2hGeVhqQktDZGExZ29MTzBFZDVkUlZLOENzbGlqX1JzbExhZVNhQmNLWXdUb19UWmZWaXhwM1FlMFFR?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=smHaDSTRGic",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "auto-us-crude-exports-hit-record",
+    "date": "2026-06-01",
+    "title": "US crude exports hit record high in May as Iran war tightens global oil supplies",
+    "category": "facility_damage",
+    "description": "Via Reuters. Auto-detected by headline monitor.",
+    "lat": 35.69,
+    "lng": 51.39,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNaXpYSkhEUGc2bmV1d2MxQ201MjlkN2VQbmVWcVJycVdaWDUta0ZaNFRSV1Zycnp0RWNGTWlYQzdKVFg5RktPZXVtOWhUX1JHbDQ0aTBMbGk5MDVGUWVkUUt5R19CWUtMOUEzekJJNDlqRkRNZHN3SGdxVHVXc1QxTU1KMXZRS19haU9XXzRTTFhOaThNQzB0Qmh5NGZCRDV3X09LUVROQy1ZV3ZWbFVvU2wyYUxuVDhFUVlfRDNJTnhWTzdG?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=fxaaafKqfJY",
+        "label": ""
+      }
+    ]
   }
 ]
