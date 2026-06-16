@@ -17179,5 +17179,39 @@
         "label": ""
       }
     ]
+  },
+  {
+    "id": "auto-oil-and-gas-prices-jump",
+    "date": "2026-03-02",
+    "title": "Oil and gas prices jump and shares fall as conflict escalates",
+    "category": "retaliation",
+    "description": "Via BBC. Auto-detected by headline monitor.",
+    "lat": 30,
+    "lng": 48,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9XeXl1UW9JOVFDNHVKTEhkWVNmc1dGMHVwb21aalZnRkZNN05TckpjX2dlal90SU8xU0tRTUEyR2xrcUgzYzRIQlZuRDZtZk1lLXVKMXVyRFVxdw?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=3eEVSeTHzhQ",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "auto-oil-jumps-10-on-iran",
+    "date": "2026-03-01",
+    "title": "Oil jumps 10% on Iran conflict and could spike to $100 a barrel, analysts say",
+    "category": "facility_damage",
+    "description": "Via Reuters. Auto-detected by headline monitor.",
+    "lat": 35.69,
+    "lng": 51.39,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOaWRoTExlZEx0SUkwSUdOZm9sVlFvUllkUW51b1NUNTJwUlZaNlZpRzRhU0xUZll2Y1U0LXpwLWNCWHhXUzMtbkxLYS15V1ZiMnd5TnA4SDVDOExkWGY4cXJYLUgzcUVDaUVrd0lPa1IxMXY2U1JVdWdYVkVNZzRfaE9DNndSMElJNFlRT2c0UF9LWDUtbkJPSFNJT0Z1VHhkbVpvWmNPYXZ0d1FvN2w3UV96X20?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=SPy8kYpLua4",
+        "label": ""
+      }
+    ]
   }
 ]
