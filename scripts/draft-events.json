@@ -1,113 +1,5 @@
 [
   {
-    "id": "hamas-claim-that-70pc-of",
-    "date": "2025-04-26",
-    "title": "Hamas claim that 70pc of Gaza dead are women and children ‘demonstrably false’ - The Telegraph",
-    "description": "Via The Telegraph. Auto-detected by headline monitor.",
-    "category": "humanitarian",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPX1dtVnpEYTE2TkpIX3dXUlNuNUhPejEtOWgxbDhWSXNHTUNHa3lHVGtRZVBLVzltcUVVUi1fR3NDanJDd1h1NFI4UFRZVTAyYXZNTEk0Q09IX1Q0ZmswZGR2QTNkUFJ3YWtGMzNNSGQ0UFRMYy1PNnhzcUlQNHNleW9Uc3M5VjgzTE1PRmMwOEo?oc=5",
-    "source": "The Telegraph",
-    "fetchedAt": "2026-06-14T10:00:14.316Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=cUrLXPAvGN0",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "cUrLXPAvGN0",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "breaking-usisraeli-strikes-hit-iran",
-    "date": "2026-03-24",
-    "title": "BREAKING: US-Israeli Strikes Hit Iran Energy Sites Hours After Trump’s ‘Pause’ Pledge - Palestine Chronicle",
-    "description": "Via Palestine Chronicle. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORjdreVBQR3d3MjlSTUxsb1RvRU1iWTdGNm9LSEdOb3pDZ0hicGNyV1BGX2tkU3VpUjdjbXotTUp3WXpRaDhMd19xRzB5Q05lLS1ra284NGtFVllTV3FGa09lVUtUYlB3cjFyYWRRTHN6UHdGeElPSHM3dkFUNWc5el9pVklQVGJJOGhocWV2dWlsdWliWjBRVjA5V0NsT0ZqNHNybDgxeW5iWnRRWmpCTGpGY2pVRzNt?oc=5",
-    "source": "Palestine Chronicle",
-    "fetchedAt": "2026-06-14T10:00:15.944Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=kAsHOh7okJ0",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "kAsHOh7okJ0",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "the-iran-war-is-impacting",
-    "date": "2026-04-27",
-    "title": "The Iran War Is Impacting the Environment in Unseen Ways - WIRED",
-    "description": "Via WIRED. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBGWlZhcDlRTEJIZVktREtJbFp5SnFCYVptcEVRN3VEMEU2cFBUVDRyRHlhWGttS0hxLWxhTVF2ZGJBOFBLQXNVaWgxd3dZcE9odFQ0S3dxQTBJaWFwdVFQNml0YnA0cUY3OWNxRWhDbkxDTlNRNTc4Qw?oc=5",
-    "source": "WIRED",
-    "fetchedAt": "2026-06-14T10:00:17.582Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=DeORRqGI4Ac",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "DeORRqGI4Ac",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "new-satellite-images-show-how",
-    "date": "2026-05-07",
-    "title": "New satellite images show how far Iran’s strikes on US bases reached - The Jerusalem Post",
-    "description": "Via The Jerusalem Post. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ld21EemVyR2Y3THVHaWNuSkVXMldSQng5OS1pZUZOZXZDakVpeTB1TkZqSm9vVjM5V21MRlIyLXM5NFAyYVRMZ1lzZXM3SXNZZ042NjlnQnpxZ2hSZlY2aVVuUXBnNmVweGc?oc=5",
-    "source": "The Jerusalem Post",
-    "fetchedAt": "2026-06-14T11:00:11.099Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=JRnoi3repjo",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "JRnoi3repjo",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "global-oil-price-hits-4year",
     "date": "2026-04-30",
     "title": "Global oil price hits 4-year high on concerns Iran war could worsen - South China Morning Post",
@@ -5279,6 +5171,141 @@
     ],
     "videoMatch": {
       "videoId": "NTETc3MpL-k",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israel-kills-2-senior-iran",
+    "date": "2026-03-18",
+    "title": "Israel kills 2 senior Iran leaders as allies reject Trump's call for Strait of Hormuz help - CBS News",
+    "description": "Via CBS News. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPYkZ5X1ZvQW1nQXFrVC00SFlzWHZTcjYxQnNoYWNEUnd3NnFuMzV6U2hKald6d0ZiSHVHdUxZSm1ST3dfZVRJOXJMZHFlN05EeTFBQ1VBVktTNEE1d01fY0FOVmx4OGNpT3pac1E2QlVtT0pCMkRtRW84dWgzb0pHM0gzeF96dm41b3lPX29pZUcwVzQ1dk42ZjRpaDN4VHdueHBMaXdaOTY5blZINXozRTR5cmhBa0pX0gG-AUFVX3lxTFA3ZFFZZEY0a0c2cHJkVWwxM0FTVzlwWlBnOFd4dUNwWEFLa1l4d2hDV3Nyd29FeWpwdXpuQldGSlI4UnZvQkhZb25jNFFfQjZtaklQY2tUdXZWT2o3NGxaZGpSUFVINF9Zd2p2Wk0xVlFjOW1ycjlOSWxMODFzRmVUQmhFZFJpLTl1aWp2SUVoNDlYa0lmSU92WDZSVEJHbW1OU09NdnRSRWFMNm02WnpnRzBnb3VhTE56RWlxS0E?oc=5",
+    "source": "CBS News",
+    "fetchedAt": "2026-06-16T14:00:11.542Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=k2CgIxnUOE4",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "k2CgIxnUOE4",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "netherlands-calls-on-eu-to",
+    "date": "2025-10-01",
+    "title": "Netherlands Calls on EU to Sanction Yemen’s Houthis After Ship Attack - gCaptain",
+    "description": "Via gCaptain. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUXRIVVFGamJmUVltWThpUjdieUlFWUVWT2h3dnFNbUZBLUo0ZTZDektEb1dCaFYtYWRrSmRkQ1FzdjNKZUlFNHpCaVBVdmxhbGZTYnVXcnVPbHdyLUFyQU5KSUk4cWFOSzNqUU1WRXlWX0tqUzdta3BCWlNDMk1CLThyeHl4dFgxT0UwdE5KeEVGLWw5?oc=5",
+    "source": "gCaptain",
+    "fetchedAt": "2026-06-16T14:00:13.249Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=bGlIy9sJfWI",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "bGlIy9sJfWI",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israeli-airstrikes-kill-5-in",
+    "date": "2026-05-08",
+    "title": "Israeli airstrikes kill 5 in southern Lebanon as Hezbollah rockets hit open areas in Israel - AP News",
+    "description": "Via AP News. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOOHg2VE9IaHJDMDNxMkZzQWN2c0p2MmtlX192MGIwZGJaZi1UVHpCOWNOTnFDcWFUSTduTHpWQkQ0U1hpbGtYQWozeUhmVXNIOVN4YmlGQVVJSC03U2N2b3QzdUFNanZsM2loSHFMWTVXeFhfeXNfNzU0STlWYU5nTjdtQWVNVnZtTHRYU3FYYnhmTUVLb2d0dU5QTHJKMDBBUXNMR3dTWE4yZGhvT0xvOTFmVGVudw?oc=5",
+    "source": "AP News",
+    "fetchedAt": "2026-06-16T14:00:14.912Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=azwkQhMWQOw",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "azwkQhMWQOw",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israel-says-michigan-synagogue-attackers",
+    "date": "2026-03-15",
+    "title": "Israel Says Michigan Synagogue Attacker’s Brother Was a Hezbollah Commander - The New York Times",
+    "description": "Via The New York Times. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMjI3ZmFfcDA0aWRGSmpsLUVTSWFJUEt1Z0NxRHdxYkNwbnBBc0NVMUpsWGhCcmt1ZnZlNm04bDZpUG1PbXVMQkpJLVUzRFFuamtZTjF6cDZHZHdyRlRiZGZfaGM2RWgxSjAwQ0V2dWFSNkFqeVpLam9HbkVRenlBSGhiQ3ZTYzR5MEdLQ25HeTJNWWdkM0RjRDVUR2NHb1FobFE?oc=5",
+    "source": "The New York Times",
+    "fetchedAt": "2026-06-16T14:00:16.306Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=5l0B7Ar8M-o",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "5l0B7Ar8M-o",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "oil-price-surges-as-effects",
+    "date": "2026-04-29",
+    "title": "Oil Price Surges as Effects of War Reverberate - The New York Times",
+    "description": "Via The New York Times. Auto-detected by headline monitor.",
+    "category": null,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1sYmxlcjFDZWpQVDBLX2hxbHlVUXVSdzctOFJMbmJHaXI5aXBKcFVtY0dYbU1EZ190Rl9HRl9IU3hpVnZaeHlCYzhIVlRpSWp3NnFoaXA1cWtNdFR3RWk1SFAwQ0RNRG5UVGJ6alZ4UGtLRTNjbEJZ?oc=5",
+    "source": "The New York Times",
+    "fetchedAt": "2026-06-16T15:00:11.178Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=U1ryNfPoagM",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "U1ryNfPoagM",
       "title": "",
       "confidence": "auto"
     },
