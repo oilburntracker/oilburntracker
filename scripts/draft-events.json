@@ -1,194 +1,5 @@
 [
   {
-    "id": "the-usiran-war-the-potential",
-    "date": "2026-03-04",
-    "title": "The US-Iran War: The potential economic impact and how businesses can react - Thomson Reuters",
-    "description": "Via Thomson Reuters. Auto-detected by headline monitor.",
-    "category": "economic",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPdnNvVGFtTW1HR3c0SkJuS3poUm15VURsU1d1cjZXdm1UOFdZbFdnWkR0S0dkWDZsMURhTTdWSWxlRndxMllWZEN4eG9ZMmlST1VJUFVEQXhFeVV1X0RRZ3VVTkstMVVEUVZWdU96ajZUQmo0VnJZdVhTbHVCMnEwaVVtR25Mc3MyNy05TE9vX0VwZw?oc=5",
-    "source": "Thomson Reuters",
-    "fetchedAt": "2026-06-14T20:00:20.362Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=ueVttjkqewo",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "ueVttjkqewo",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "the-damage-wrought-to-the",
-    "date": "2026-04-10",
-    "title": "The damage wrought to the Middle East’s oil and gas supplies - Financial Times",
-    "description": "Via Financial Times. Auto-detected by headline monitor.",
-    "category": null,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWGhfajdSVTdDa1hfVFA4VWF6d2l3eFNkeUt3RkVlWmswRFFDNHZLcmpJaGo1UFU4ZUlsVHF3QkhvdjFacHhBNzFlMHhGbDVsa1ZSZWdDbElPTWVaT2p6MVBCOUNHYWV0cDRkQnl2d3RVWnA5VktCMmdTQk5MMm92YkY5elk?oc=5",
-    "source": "Financial Times",
-    "fetchedAt": "2026-06-14T21:00:11.980Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=yAIjfUjmdeo",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "yAIjfUjmdeo",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "photos-show-aftermath-from-irans",
-    "date": "2026-03-30",
-    "title": "Photos show aftermath from Iran's waves of retaliatory strikes - Reuters",
-    "description": "Via Reuters. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRkVYWDEwLWtQSEdybEZVal9oTTY1TGwwSUdTTU1fOGxmRnE3RWZ5b01JTzNtb1Q5X1RIQzFHY0dpX1ZWWjc0U0pXa1pfMEllM1JUTno2U3EzaUtXS0VCMFdxbFpBUHljZDJMa2JMajdFZGJVZVltc2VOR1pWZEJieUotXzBZQU1kNUU0UDVOVjdhb1dmWHpqVlJrNHNwWEk?oc=5",
-    "source": "Reuters",
-    "fetchedAt": "2026-06-14T21:00:13.560Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=vkAtyRc9Qww",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "vkAtyRc9Qww",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "oil-ends-lower-ahead-of",
-    "date": "2026-04-11",
-    "title": "Oil ends lower ahead of U.S.-Iran ceasefire talks, posts steepest weekly loss since 2022 - Reuters",
-    "description": "Via Reuters. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQSWpoazdNRjAyOFQxcGxtNmlDRVFVamlLUVRWXzU3TjFwQmY0cVl3azhtVjFjbm9DbFljWWRFeFBDZEladkdybVE4V0lQUE1ocmNROFRPZG05X2ZxRGVrajJsbHE3S3FhazdiRWFBUFRoOUdOV25oTS1wN0hQSm03TWxWQ3hSVXFsT1Uwb2JlUzZiY2pRTUFOa3ZTQ1V1WGd1a2FOZg?oc=5",
-    "source": "Reuters",
-    "fetchedAt": "2026-06-14T21:00:15.256Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=1qBeB-79w9Q",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "1qBeB-79w9Q",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "death-toll-from-israeli-strikes",
-    "date": "2026-03-21",
-    "title": "Death toll from Israeli strikes on Lebanon rises to 1,021 - Gulf News",
-    "description": "Via Gulf News. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQT01oOVV4YlJ4M052QXpyd2lJWWppdEdndkFMX0lPbTJZRURRbk1scHhqZFJqaVJodTIyR1JMbmhEMmdqOWpEUU9vb1VZWGJ0X1drdGRKanMtVzYzam14d2ZaNHlSMVNJTDRhb2ZYczZnTmxESGx4Nzc3TjBVQ3VxZGJBRkhleG1JdHN0OEtVbnI4OGlRWWtqN0NzQ2RUR0NzQ3fSAbQBQVVfeXFMUFZybDhNbXhHaHpZVklpTVVZQnJkR1YwMXpfMmxLSC1ScXFfTE5ENzZ2SHBHM1FIRmFyNVNtZDludW9pdzl0TjhKQ01WVUs4Z2dsS2Ftc2JKZ1VmTGxQWFBULXVkSk9wbnNaTlFmNDBZTHJFNHloQ2VhYTJILWhjRzJ3M3R0ZTB4azlqOHIzS2hMVjFvLVZSVURZUFFuTkIwNGhZU3BYRUxUbVRiNURWUHdMb016?oc=5",
-    "source": "Gulf News",
-    "fetchedAt": "2026-06-14T21:00:16.876Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=ZG38YcncE94",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "ZG38YcncE94",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-one-month-of-war",
-    "date": "2026-03-27",
-    "title": "Iran: One month of war leaves millions in extreme uncertainty - nrc.no",
-    "description": "Via nrc.no. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPVGhoSVh1aUFFUUw4N3RIZV9mSmdxbzNiN0I0bWpEeVpEMWtXVlJkbzI1Vm04bnl3eWZ4Wl9fSUJuNzNITkRMRGpKS2NHdnpfdENzNk5MZVhPb1NhMndqZERsZjNKM190MFF1X3d0MTd4MmdJVHlvWGVVY0w3dnlDX3dGZTZfTGJBbzNVRjVuTHZsVmc?oc=5",
-    "source": "nrc.no",
-    "fetchedAt": "2026-06-14T22:00:13.172Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=CEiAUaQ6Qv4",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "CEiAUaQ6Qv4",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "israeli-strikes-kill-at-least",
-    "date": "2026-01-31",
-    "title": "Israeli strikes kill at least 30 Palestinians, as Gaza ceasefire inches forward - CBC",
-    "description": "Via CBC. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5ESU9QLXJGcEU5cFhiVmdpT0R0S1owWG1QSW9DSnJaNnNxaUVid3VjUHJsNXltOG5FTlV0U00yNmpydnktTl9seFYyWlNrZV9ZZ3gyLTMtUE1RWEZSWTVKQUdScmF4SWJja08wd01aSE9wcVk?oc=5",
-    "source": "CBC",
-    "fetchedAt": "2026-06-14T23:00:10.937Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=fzffZC_dLBI",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "fzffZC_dLBI",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "palestinian-death-toll-in-gaza",
     "date": "2026-06-14",
     "title": "Palestinian death toll in Gaza tops 73,000 as Israel launches strikes despite ceasefire - Orange County Register",
@@ -5279,6 +5090,222 @@
     ],
     "videoMatch": {
       "videoId": "w6d4XcaXyFs",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "kuwait-confirms-attacks-on-oil",
+    "date": "2026-04-08",
+    "title": "Kuwait confirms attacks on oil infrastructure, reports damage - qcintel.com",
+    "description": "Via qcintel.com. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNU243YjgtS0lWamZfa3RXS0tsd3ctN0tQbWxBTnBaeDFLYmxWY1F1NHVjTFVLZTZkZ3JHYkdNRmxTdzFpUUhKaEZHNUZwLVJNbUVBeWlKLVc5TEYtT3FDZWhSZ1NfV0I0Q21MWklfWkRMTlhVa3hBbFpyOGtOZ1EzSl95OGdyWGpWakdobEF2VDNFSHhVY1RYaW1SZUd6SnFvVzIyeUdn?oc=5",
+    "source": "qcintel.com",
+    "fetchedAt": "2026-06-16T20:00:11.313Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=HIr8XqL_MSc",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "HIr8XqL_MSc",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "global-oil-market-hit-by",
+    "date": "2026-04-18",
+    "title": "Global oil market hit by 500 million barrel loss amid Iran war - Middle East Eye",
+    "description": "Via Middle East Eye. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZEY4Q1FGeHBBN3lRZHFyUXd2ZURCNTlWMHpKaVlBUGxHTVhiUl83X2FEU3M4VmgyWVl1Q0NqTnRtNWJlbm9yUDA1Ql9sQWR3ZllUWkE5SlE2c25kaDFYLS1HV01IdUI3T013WXpiYnRXN0xNbDc4bmUyZmpCWTRoOHNRbVBBMUpSMlZyQ0FWaUx0UFZONzMxNGs4NHA0ckt2RzNUZGstRUdOd3ltZVpHN19KREdMOG8?oc=5",
+    "source": "Middle East Eye",
+    "fetchedAt": "2026-06-16T20:00:14.761Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=tDUBKgThAcM",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "tDUBKgThAcM",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "10-countries-suffering-biggest-economic",
+    "date": "2026-03-26",
+    "title": "10 Countries Suffering Biggest Economic Losses From US-Iran War - International Business Times Australia",
+    "description": "Via International Business Times Australia. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOakFvd2ptcXBHVFNlSkNhVGVfZTZjci1aRGl4cnlPN1A4bEJLNktUbS1tTmN6SkY3ZWV3UVNxcWJQTENPX2xlZUJjSVBDYlpqbXF1ZFctY2JEZXdQNFBrTjE3aWZ3ZG5uaUl3NDJqSG9Qd2pwS0Q2ZXg4VDBER1QwajBaWVVVNDNrS2hrRWh4LUxxU1NtQjNnaA?oc=5",
+    "source": "International Business Times Australia",
+    "fetchedAt": "2026-06-16T20:00:16.460Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=cE1zweW-HpQ",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "cE1zweW-HpQ",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "lebanon-casualties-in-israeli-airstrikes",
+    "date": "2026-06-16",
+    "title": "Lebanon: Casualties in (Israeli) Airstrikes in the South » Iraqi News Agency - وكالة الانباء العراقية (واع)",
+    "description": "Via وكالة الانباء العراقية (واع). Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNT2E4d1d4Nk9qVDVUc2NoNFQzU2dQQXI4MFBBWXNIcWtNR1JBUkZHZm9jekxHRThabWRFNldTZUlnR01Ycy12Y0x6OWw4WkJ1ZEsxV0lIOU9mQ095bnF2WG41dXdHV3lJZUhPOUFFaGMzcXhfTGdteTZhUFUxZUVVb2hIOVp5bVZnUHlPTk5SOXRhSldRMDM0WFNuT0g?oc=5",
+    "source": "وكالة الانباء العراقية (واع)",
+    "fetchedAt": "2026-06-16T20:00:18.273Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=JQmF8T5otKE",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "JQmF8T5otKE",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "us-outlines-hormuz-blockade-as",
+    "date": "2026-04-14",
+    "title": "US outlines Hormuz blockade as two ships turn back - The Straits Times",
+    "description": "Via The Straits Times. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNclRjMEs3N005aGtaZUtfOFVMUVNzbVdDSk9EWnNEcUlJQXY1UTQ5QzY4QTZORlhhRkhsM1hvcnZLZkROUlNobUtFU3ZTdGJxSDFoQkNXUERrZWtMcURaZDBPeUtXRG1XdHNXWWhhSi1JRTVIMlVBc1RtZnU0bW5mSVkySUJQNHZMbnBMSXljVlRYMWIteGFEa2pJN0tnaWRRQ2Zxa0lOc2lXVzRhNUF4c1FrS3h0ODVta210ZjVFRXVsZw?oc=5",
+    "source": "The Straits Times",
+    "fetchedAt": "2026-06-16T21:00:11.249Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=kV8wXBUcL0c",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "kV8wXBUcL0c",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israeli-strikes-kill-at-least",
+    "date": "2026-01-31",
+    "title": "Israeli strikes kill at least 30 Palestinians in Gaza, hospital officials say - Sky News",
+    "description": "Via Sky News. Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRnQ3WjVxNU5XbXVGY1owckZEd3BqbjVDbmNVT01QTk5UbHVJc1BYOU1icmdydERCalBoMnNMNkhadUdEQkJMUjEtSG9ZeHRpVnFobXRZR1BTcG54aUM4VHFPOUJUOGxhbFBpSkxKYmpFLUI4Qkxha3Zwa2xvdkV2V05odlFYaklyMi1iUlFvN0VJbnNQeWJLZmZKZjAwTUhDTjRIQ3FNeFcxTVZ0S0RFcTVn?oc=5",
+    "source": "Sky News",
+    "fetchedAt": "2026-06-16T21:00:12.974Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=fzffZC_dLBI",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "fzffZC_dLBI",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iaea-chief-demands-access-to",
+    "date": "2026-06-04",
+    "title": "IAEA Chief Demands Access to Damaged Iranian Nuclear Sites in New Report - WANA News Agency",
+    "description": "Via WANA News Agency. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSjRWYkdBb0g2Y3lrU0QtaWg4QXc1Tk1GTkpZWDh5LW9tVU5WRERXeGlsUFdIZ0FBQ3pqUllnRkFXWUFDcWtsVnU2MnlvTWprNkhydzJNb0lNbEpHemp3RnY1RTJOT1FaVzVXbzd2WUZIdG0yNjlWaVViNHNwNkliU3BwcWpZakM3MC1lak1tYVBoekRUcW80?oc=5",
+    "source": "WANA News Agency",
+    "fetchedAt": "2026-06-16T22:00:13.293Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=vcE0DdzSo-Q",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "vcE0DdzSo-Q",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "death-toll-of-deir-qanoun",
+    "date": "2026-05-20",
+    "title": "Death toll of Deir Qanoun strike rises to 12 - Naharnet",
+    "description": "Via Naharnet. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOanRUXzVVRnlsVzh1OGxwbkhlWEJGWDQzaGNLMnU0QUk5SnpKUFVOMUhTZzFCTWlieHpqZDZwMUJaOF9CZW5DbUxLVkpqcVJNOXU1clhxOUVfREZpVjJ2RXFZNVg5NWNWc1RXeDE3SGxhN25YeWhiejR5N1RMQTZ5Z1pUQm5YVktNZnFV?oc=5",
+    "source": "Naharnet",
+    "fetchedAt": "2026-06-16T23:00:14.071Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=alj_w8aaM-4",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "alj_w8aaM-4",
       "title": "",
       "confidence": "auto"
     },
