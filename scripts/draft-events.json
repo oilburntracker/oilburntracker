@@ -1,113 +1,5 @@
 [
   {
-    "id": "palestinian-death-toll-in-gaza",
-    "date": "2026-06-14",
-    "title": "Palestinian death toll in Gaza tops 73,000 as Israel launches strikes despite ceasefire - Orange County Register",
-    "description": "Via Orange County Register. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZDV1QkJRU25FNXBneU1ZZGxDdzlydlZ0ejQwZlVWUGFkajRlV3VERjlQcU5zNi1KZGttSlFqYmZ5YXAxWEZWNVFob2hXZ3BvZUZFZVdOVS16X0FzU3pxOHp4aVJucXdHc1RYTE1BeHZRS3ZUTG0wWV9IWjg0R1h6dGJMSnU2MVllaFkzeGJKbjJHNUpRLVVhOVltYnBXUEdDUmtobGxTQ1FIWlllSEVjUkJwcjZPbFNpM2w5ZXo0dHpPRDQ?oc=5",
-    "source": "Orange County Register",
-    "fetchedAt": "2026-06-15T00:00:11.433Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=pQaDrnC-hZI",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "pQaDrnC-hZI",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "mideast-crisis-raises-environmental-fears",
-    "date": "2026-04-02",
-    "title": "Mideast crisis raises environmental fears – China Daily - capitalfm.co.ke",
-    "description": "Via capitalfm.co.ke. Auto-detected by headline monitor.",
-    "category": "environmental",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPdEpaYVpNUGVicGZRZGtWMVVDX3FBaV85MXctRldpYm85elEta1BJRkZ1b2xZOE1rMVRGZUJ3V3ZVeFFfQ1ZLNGNZZ0tBcEdkbm5WaXdmZ1k2R1BraUxSSWt4TjhidzRTQ0wwbXNMajY4eFhBQUxpSU1LMndOZ1R2dHpzTi12eVVBcGtLU0dNY1ZNTk5pbWQ1YmRtVQ?oc=5",
-    "source": "capitalfm.co.ke",
-    "fetchedAt": "2026-06-15T00:00:13.085Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=JENZvNlhOQ4",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "JENZvNlhOQ4",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-says-natanz-nuclear-facility",
-    "date": "2026-03-02",
-    "title": "Iran says Natanz nuclear facility hit, IAEA warns of possible radiological release risk - Türkiye Today",
-    "description": "Via Türkiye Today. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNYm4tclZ2Tjc0OWVNUDFIYWtVQ1E4MGZWOU1keG9RQkRBQUhqY1VLUDByVVhhTjdwcXVaVGVUOXBVQlVHZ1YwMkdncjNILWxvNlcwSlpBVzBvV1FDeS1raEE5czZjM0dLLUJCZ2ZhSnZwTk1iS0NONFZISF9pTGVJTXpuT3RhakQ2Z3RsNnFfZGhfUDZwSFk4Mzc2QjFPaTBKdnNHRnY1M21wRGV5YlBxM2tUYnB4a1FrNDZQdlVLSE5tQzZwMUZrOQ?oc=5",
-    "source": "Türkiye Today",
-    "fetchedAt": "2026-06-15T01:00:10.659Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=82OgUPn-xGU",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "82OgUPn-xGU",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "death-toll-stands-at-182",
-    "date": "2026-04-08",
-    "title": "Death toll stands at 182, wounded 890 as Israel rained death and destruction on Beirut and Lebanon Wednesday - Ahram Online",
-    "description": "Via Ahram Online. Auto-detected by headline monitor.",
-    "category": "humanitarian",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE03NFNaamYxV1drUkg0eGd4TFZnVUhUcE1yN0xZb1hnaFFvNmJRNFJ1TXNJSS1odl9UeTdDaXczVlV0eWpqVUNRVGlZdk1ZZHhPYzQ2UkZYa3I?oc=5",
-    "source": "Ahram Online",
-    "fetchedAt": "2026-06-15T01:00:12.014Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=D-JauMK55xQ",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "D-JauMK55xQ",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "mideast-crisis-raises-environmental-fears",
     "date": "2026-04-02",
     "title": "Mideast crisis raises environmental fears – China Daily - Capital FM Kenya",
@@ -5306,6 +5198,141 @@
     ],
     "videoMatch": {
       "videoId": "alj_w8aaM-4",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iaea-raises-concerns-over-limited",
+    "date": "2026-06-04",
+    "title": "IAEA Raises Concerns Over Limited Access to Iran's Nuclear Sites - Kurdistan24",
+    "description": "Via Kurdistan24. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcXFpWlVWVFpxT0VwaHhOWS0yNGpTNGxtWkUzYUprZHRWTzl1cml0RlZDTFZCUUkzU3dnNk92S1ljY3Z0X2o3QnktTlM3RXFneWgwcW1jYU1IdC1rOXl2YmNzQjNaeXZtVXdNRDlNdWpuX25tT1MzTDJXNHBYeUE2X1ZVb1JEYVpURU10NzREdWJpM0ZQbGd4UkluQ0JSbzRadFd2ek9BaklEZHc?oc=5",
+    "source": "Kurdistan24",
+    "fetchedAt": "2026-06-17T00:00:11.382Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=vF_pd9oFuvA",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "vF_pd9oFuvA",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "us-casualties-in-iran-are",
+    "date": "2026-06-16",
+    "title": "U.S. Casualties in Iran Are Still Rising - The Intercept",
+    "description": "Via The Intercept. Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5MVVB3VnUyMC1Zeko5aFNHNC1xZnFtMW91MWFfemJ2YTJKcklCZ2t0aGlzcHd2Q2xZbWFrRHRqZElJbnkyVjVmZ1NRSEJUejFqOGpQVnM3Qy1FNnNnZWZTZTZDdlFJSUNYV291TGhvLU83NEtWcW5z?oc=5",
+    "source": "The Intercept",
+    "fetchedAt": "2026-06-17T00:00:12.963Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=e0W4La98jfQ",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "e0W4La98jfQ",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "how-aramco-posted-huge-profits",
+    "date": "2026-05-11",
+    "title": "How Aramco Posted Huge Profits Despite the Hormuz Closure - Energy Digital",
+    "description": "Via Energy Digital. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNdjczVjE2M1J6UzM3eDVfUnV2QWpIUUhPQXIySzYxb0hoRHE3MzNIcEhhTWVLVGhSYjEwUTlpaENkUl9YZFpuZzBuYXVzVHVwbEJGc0pLMlpNel9SMW9UX2xHU2YxU2NadGdVQ0Y0bnBpRk91X25UNi1yYXF0U2FIYlBVVjJNWnRDcVBZLVNOZm1CQQ?oc=5",
+    "source": "Energy Digital",
+    "fetchedAt": "2026-06-17T00:00:14.560Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=bCbRykf6VSU",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "bCbRykf6VSU",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "russian-seafarer-returns-home-nine",
+    "date": "2026-04-07",
+    "title": "Russian seafarer returns home nine months after Houthi attack - TradeWinds News",
+    "description": "Via TradeWinds News. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObkNscFFQWHdDdnZhLUxDbktwYUhCT0tMbFBTMll1ZF8wMUdMejI1YXNid2xCakhjRkRhWFI0RUlQem1tMmRVMmZibWRkZi1EOTVJMXRDalc2bHdXU0dha3pSRFJxR1A1YzVDNUJ3V2l5ZWNUT0FzLTRkbTNCOWtWMEg5THRpbU9JZU5jZmEtcF95SkViTl9HY01YS1FTZHJ5RWRqbTRIXzZVS0RfOWttdmtn?oc=5",
+    "source": "TradeWinds News",
+    "fetchedAt": "2026-06-17T00:00:16.141Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=Kar3lQUbH74",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "Kar3lQUbH74",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "10-killed-in-israeli-airstrikes",
+    "date": "2026-03-16",
+    "title": "10 killed in Israeli airstrikes on S. Lebanon - Xinhua",
+    "description": "Via Xinhua. Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE02TF9Dekk4UEF1b05Na3lUa0xVc3RHYVJtckFncUVIZlRCcWpwS0c4Y0FtaFBsTmVsS1NQUkNJOHpNWFdONnVrS05aRnVnZ0NYSHhwQzZfZ0ZjaEJncmJXSHFJUS1hRVpkM0U0cHJuVVRCWmdkZGgyQTdkUlE?oc=5",
+    "source": "Xinhua",
+    "fetchedAt": "2026-06-17T00:00:20.348Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=lJCWTPaFFcs",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "lJCWTPaFFcs",
       "title": "",
       "confidence": "auto"
     },
