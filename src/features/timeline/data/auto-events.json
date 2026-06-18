@@ -17434,5 +17434,22 @@
         "label": ""
       }
     ]
+  },
+  {
+    "id": "auto-uk-says-russia-ran-submarine",
+    "date": "2026-04-09",
+    "title": "UK says Russia ran submarine operation over cables and pipelines",
+    "category": "facility_damage",
+    "description": "Via BBC. Auto-detected by headline monitor.",
+    "lat": 51.51,
+    "lng": -0.13,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9KbWVRazJCQnIzZWpDYTB0cEFvVk9pVGRxbzVGaldVTkwxVHJqcmFGOVczUm81WTF6OGhjT0RtWm5CLVZVNWpKbElrS3EyVjI0RjZpUDVLMWw4TU5t?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=_51ZhEm5Pac",
+        "label": ""
+      }
+    ]
   }
 ]
