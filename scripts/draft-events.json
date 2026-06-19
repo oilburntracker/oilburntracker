@@ -1,140 +1,5 @@
 [
   {
-    "id": "the-timing-of-the-impending",
-    "date": "2026-05-22",
-    "title": "The timing of the impending crude crisis - Brookings",
-    "description": "Via Brookings. Auto-detected by headline monitor.",
-    "category": "infrastructure",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZHBWQmRsM0FhcFVudXFTMmZ0cUY3T2x4a2VoZngxdXN3VFpLSGE3S0kyT0M3OGZpR3BoUTBPOWRjMUJsS3FpeG1sREQ5dEVrZkt5dTNXblM5OWNBTzc1SXhCSzY1TkZ6S3c0cnlPNGVDZnZhaFk1alcxWjhJUlhhZlhB?oc=5",
-    "source": "Brookings",
-    "fetchedAt": "2026-06-16T03:00:13.255Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=R7rbgvmd55g",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "R7rbgvmd55g",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "oil-price-spike-turmoil-far",
-    "date": "2026-05-13",
-    "title": "Oil price spike turmoil far from over, IEA says as inventories are depleted at “record pace\" - CNBC",
-    "description": "Via CNBC. Auto-detected by headline monitor.",
-    "category": null,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5CS1o3NFdRUk5nNVdkdlZTcHZ5VlVibmtvRnA5U3BCLTgxVEQyZ2dncXlCQTdTQzRaRXZTdmtuSkZVN1VmOThJOUhoUFhqb0xmWUZJME9reHlsVjBtdE1pNmxJZ1ZIekVQbkJCWnNOVmZvdVJELXZkS3d2clhqQdIBgwFBVV95cUxNX2FjdzJCbjNvUTQ2TTZtZ19lRVN4M3RxOUxuZ2xoS29hV1I1UFZubkREeHhKR1BKNDhaMW5DOTRvVDhFQWZTT2E2WGpWV3o1b0VLU3NiQ0tvR0UyMDd3dTZyRTBnYkdXUXVCTGsteFZ6RFNmSC1taEdlM3Nwb1FNUUloYw?oc=5",
-    "source": "CNBC",
-    "fetchedAt": "2026-06-16T03:00:15.014Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=O0EoObkQOKk",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "O0EoObkQOKk",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "4-idf-troops-wounded-one",
-    "date": "2026-05-17",
-    "title": "4 IDF troops wounded, one severely, by roadside bomb in south Lebanon - The Times of Israel",
-    "description": "Via The Times of Israel. Auto-detected by headline monitor.",
-    "category": "humanitarian",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPc0FsV2xsR0dZb1F2ejgzTV9NQ0FHdFpURHd0NW1pdXUzaHhHNG95TG80Q3oyUlRQeHZUenJCOVpWOTdFWS1MNDNSOUI4RF8xS01xd2NCZ01LSXRITEtGeGlxdHV5b2pseW9zbzlubkt6dEF2cTRXc2hMR2tROHlKN1gzQkZsdWV0U1VpSS1SOWtBNFd5LWxvZ0t2aVhQeVXSAaQBQVVfeXFMUGk0bUpmemdGMjVENVlKYzhaVFFMODBmRm04VFV1aVFmYWdvNm14UG83QWxMU01WYzQyYmdSaWZLTGdlSWlKNGpGampSS29URGI0d2E4OEpHRHFJcDdvTDFkMGRCaHNDSExmSFNmLW40aU9WSVZwSVRVdU1SQkxQb19uRmdpc2dKN0NyeDlJRmZMZUhGY09HZDlYUmt1QmVVcmxjdGE?oc=5",
-    "source": "The Times of Israel",
-    "fetchedAt": "2026-06-16T03:00:16.553Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=HFkxpIQcAMk",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "HFkxpIQcAMk",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "strait-of-hormuz-shipping-blockade",
-    "date": "2026-04-08",
-    "title": "Strait of Hormuz shipping blockade update - ABS-CBN",
-    "description": "Via ABS-CBN. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSVJtVHB4VHFuSUFuUnRhMmNRbFV1NVBPYTY2dTBMYXl4REw4dDB6ZFpPT3F1Y3djSEVoaThNOGxCNEJPWXh2dmdNOEpsVmp2SzJrNzRZeTRRZTBFdzBqVEduNjRmaXJwUWNwa08yeU9OTXByVmMtd0VyUllTaFozLUx6ZFZuVHdZUEJfRDItT0x0Sndv?oc=5",
-    "source": "ABS-CBN",
-    "fetchedAt": "2026-06-16T04:00:12.308Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=pkQIywAGn-k",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "pkQIywAGn-k",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "middle-east-houthis-claim-deadly",
-    "date": "2025-07-09",
-    "title": "Middle East: Houthis claim deadly Red Sea attack on ship - DW.com",
-    "description": "Via DW.com. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcEcxRkFaeXczTWZmUFpoZHdmem9sbHEyOVlZMUNrWFBOdExXOXFFWFBNQ2ZudHdfMUpxd1F1a0lZVUpROEhZQkdkSmpaRjRLNkg4M0NHUE5acGdiWGNGR3JqODFHRUgxdUt3UnhjX3lDek5ZV05LZjFfdFd3WFFyTXdaWTZRaFdaS1IyRG03NXRLWWJ0YUE?oc=5",
-    "source": "DW.com",
-    "fetchedAt": "2026-06-16T04:00:13.762Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=aPwLRg4k39g",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "aPwLRg4k39g",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "tanker-hit-by-projectile-near",
     "date": "2025-10-18",
     "title": "Tanker hit by projectile near Yemen was carrying Iranian cargo, tracker says | Iran International - ایران اینترنشنال",
@@ -5222,6 +5087,195 @@
     ],
     "videoMatch": {
       "videoId": "3pUw1rd2dn4",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "nuclear-watchdog-eyes-stronger-reactor",
+    "date": "2026-06-05",
+    "title": "Nuclear Watchdog Eyes Stronger Reactor Defenses After UAE Attack - Bloomberg.com",
+    "description": "Via Bloomberg.com. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdlJLMFBVUEU1Sk9vZlNoazROTEJSQnpUNl9UV0VuUWNvTDF2NGRnNGE1TkFoNXlYb19EVmFxV3E1UVctZnpId3ZSMTY2MmNxcGh2emwwRVBwNjF1MEh6N3d3TXFqbTVMSlhyMC1rWmZySm9GcE9yTGEydC03MXlJYWt1Vy1HRkJoSjNGaVAyejhUVHY5QWJQWHh0d0RPY1JzUTNfWGZwaEZtRWxrdFRseGRVTW9Udw?oc=5",
+    "source": "Bloomberg.com",
+    "fetchedAt": "2026-06-19T04:00:15.270Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=tEf87HlaZEM",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "tEf87HlaZEM",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "video-inside-nuclear-watchdogs-emergency",
+    "date": "2026-06-18",
+    "title": "Video | Inside Nuclear Watchdog's Emergency Centre | India Has Had No Radiation Accident Till Date: IAEA - NDTV",
+    "description": "Via NDTV. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOdUZRdHY1R2xGLW44ODVydzg3aVVUWWFmVjBZTHRFWFBuN2dkTmJoYXJfVGVYNnNsU2IwVGZCM1MyaEVGQmVxb2ZrektHa1VPNUtwN0NPYmNkVG9XRWpPS3BnX2JlNVhkQXBERmo4V2cyZEh4S0hOV3NGcXB2Yi13WjRtRVptNWdta0pnbDBiR25lRTJURnZMRDRLWDRJMEhPYUhQc1p6TTczLVg2bTI2U2ZzVGdfOU1BdUxKdjVTOXVnZ3VWb3FR?oc=5",
+    "source": "NDTV",
+    "fetchedAt": "2026-06-19T04:00:16.811Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=nEyrET-d6H8",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "nEyrET-d6H8",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "us-responsible-for-killing-over",
+    "date": "2026-03-23",
+    "title": "U.S. Responsible for Killing Over 100 Children in Iran School Attack - Amnesty International USA",
+    "description": "Via Amnesty International USA. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPaWhpemxGOTh6Yi1vOTlsQmRzNkFqQmE5b1QwUUhEd3ZMcGdoT05oeGZVR1hIOFRXUWc2ZXZsdDl3VkZmTWdBTWZYb0lNYU8xYjhna1I4M2tSNFhVVl9UaFoxT2ZjdlR6ZXY2emJwMTA4NTgzUTFZRXM3SEhTcmExQVFlalFzZzgzLVNIakZrMXJkYTgyMXp1OVJPTEZlMTVqN1E?oc=5",
+    "source": "Amnesty International USA",
+    "fetchedAt": "2026-06-19T04:00:18.429Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=lAhZiMqT0q8",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "lAhZiMqT0q8",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "houthis-strike-israel-again-more",
+    "date": "2026-03-29",
+    "title": "Houthis Strike Israel Again; More US Marines Arrive In Gulf Region - Radio Free Europe/Radio Liberty",
+    "description": "Via Radio Free Europe/Radio Liberty. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMVp5aXg0c19TWGZmQm5XcDBoWUlKdzhXd2ZYNXVOUjFFNTJYaWZLenMta2lIbmJsZ0JMUGd2THBQYXRkaVlSYzFPVkVHOWdYWk9WcGx6RTFwa2czb2UtMWwzZm9GeFdRVEZTSXhtTjBaQXJnd3RkYVJYMHZ3NlVob0IyeEs3NkxUZnRUcVhB?oc=5",
+    "source": "Radio Free Europe/Radio Liberty",
+    "fetchedAt": "2026-06-19T04:00:20.823Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=tMPLcUt1a00",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "tMPLcUt1a00",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "un-keeps-red-sea-ship",
+    "date": "2026-01-14",
+    "title": "UN keeps Red Sea ship attack reports as Russia takes a jab at US - Baird Maritime",
+    "description": "Via Baird Maritime. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPclI3WkR4Z2dSTUdvcm9DUFlJblVlVTg2ejdpZjVVeHlvbXM0Ml9vOEFDNzNhUnVZRjNxd2VLWl9zN0xpREVzb2ZvdzFvaU1VOWJ1Y19HbldGR3lDWjAtTzdBMWZEb1FCOE1jcFg2MXFEWXh6UDYtbWRyQUo3ZWVQVHQtMGJxaC1UdWNfYkhhZXF0dFJvbHVlei1felZ5eW03cmxIZlV30gGzAUFVX3lxTFB0VC1VZDlXbS1lNVdBSlRqR2RKQ211bVRTbVlGbjdtaGVFM2Y2WHJldGZCamJLaG1UY0NjUVhrS3RubC1SMUw4U3U4VFFqUTdaS04zZWE5ZzEzVnY1bW1HNnRTcURJaHNOVDZWeS1DY0liRmVhVkMyQm0za3RsTmVRaVoxZnNGeV9rZlhQeVk4SWRFYnRkb1pBQmRsVkN2S0NBX0ZyV2dDN09iRHdqSGc5MEhv?oc=5",
+    "source": "Baird Maritime",
+    "fetchedAt": "2026-06-19T04:00:23.208Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=Q0X-mVppfZU",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "Q0X-mVppfZU",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "303-lebanese-killed-by-israeli",
+    "date": "2026-04-09",
+    "title": "303 Lebanese Killed by Israeli Airstrikes in One Day - Politics Today",
+    "description": "Via Politics Today. Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOSEl0T2NFN3RXbTBhTnVXWXF4QUNMUW1fSHQ5cHFoYkpVTWFrQkhxcThUYnhpazNXbk1RZ2c3Y19hVHF2R1p5T05qOGVvQURJUmw3YnEyMEhuYXRWc0kwV3ZCa1V5ckFnYy1CNXR6UXFiNG1QNlFITGJ3aFNUSGlsYjQ0bTR6UQ?oc=5",
+    "source": "Politics Today",
+    "fetchedAt": "2026-06-19T04:00:25.754Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=Q8uLH6_6twA",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "Q8uLH6_6twA",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "india-expresses-deep-concern-over",
+    "date": "2026-04-10",
+    "title": "India expresses 'deep concern' over civilian casualties in Lebanon - The New Indian Express",
+    "description": "Via The New Indian Express. Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTFg3ejlybHExVHZZVTZNNzVsOGZFcDFYZFpqQ2NlVWRIc0FaY0FmVWtXT05TWDBXZWpCUTY0eFRPSUh1YkRVdm9Kby1TMkhkU3A1LXR2MDNvZlM5bUI2dTBkRV9LcjN3TjR5MHRDNUNPMzBVZFdsb0k2eG15TzAtQmhnZllMOUEzaXVneWw4ZXliSmVnZ2RhTkk5cWR6ZERfMnJHb1lVR0hyNENiQjc4MmZOd1RiQdIBwwFBVV95cUxPLWM5dmJXSVZLUlNDdy11eUQ2MWozNTU5YU1ES3FycGNSY2RJSXItRDVpWUxRVDFDOE1zcmVTSk9hYXc2NENIbUdsbmF5bHVuVzJFbGc4N2YtYjhfS1RvRlBBQi02Ums4S1oyajgzUTlBMUV4XzlGQ3RoWnRhaEQxVkFmRVNMdkcxQzU5TXRWaHNUTDJya3EzMEhqTWxMSHNhaVZCQ1ZRb08yVjdweVF2VEVKX0tkclI3andOeEdaU09CREk?oc=5",
+    "source": "The New Indian Express",
+    "fetchedAt": "2026-06-19T04:00:28.194Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=wFToaK-QCao",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "wFToaK-QCao",
       "title": "",
       "confidence": "auto"
     },
