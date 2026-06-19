@@ -5284,5 +5284,32 @@
     "zoom": null,
     "casualties": null,
     "status": "draft"
+  },
+  {
+    "id": "usiran-deal-should-see-oil",
+    "date": "2026-06-17",
+    "title": "US-Iran deal should see oil and LNG begin to flow again… slowly - The Conversation",
+    "description": "Via The Conversation. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxOYlFsejJvcmp5Tk9SX2thdm1XS2k1Y3RWUjJkanZPaUhWN2dRNmdoWmE3Tmp6Ml9Ma1BqRS1zbnJkU09sQkIzcW1jaUg4NzlrZlVwLWNMSEVzTG56RVR2TjdVNk5JSTd5R01NM0xmNzM3R0tubVpDcTVzU1lWWUpZRm5wSXRkdjltQzdWTGt1bFB4Y29JZG5vNTlFbVdiUQ?oc=5",
+    "source": "The Conversation",
+    "fetchedAt": "2026-06-19T05:00:13.038Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=Cwhdm03jW5Y",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "Cwhdm03jW5Y",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
   }
 ]
