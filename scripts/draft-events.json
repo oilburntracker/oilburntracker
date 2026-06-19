@@ -1,130 +1,5 @@
 [
   {
-    "id": "tanker-hit-by-projectile-near",
-    "date": "2025-10-18",
-    "title": "Tanker hit by projectile near Yemen was carrying Iranian cargo, tracker says | Iran International - ایران اینترنشنال",
-    "description": "Via ایران اینترنشنال. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBWQk5KWUhCZnVPcWVpc21iejJsV1NCMEdVX0d4bU1udUdJTGNLcWhOaklxTlFvX1U2SkVhN2tOWWIzZUI0SHlmbG5XZmp0eEEzMVE?oc=5",
-    "source": "ایران اینترنشنال",
-    "fetchedAt": "2026-06-16T05:00:13.484Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=CWeqG8ZB3YM",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "CWeqG8ZB3YM",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "gulf-war-damage-creates-58b",
-    "date": "2026-04-23",
-    "title": "Gulf War Damage Creates $58B Repair Job, Global Construction Squeeze - Engineering News-Record (ENR)",
-    "description": "Via Engineering News-Record (ENR). Auto-detected by headline monitor.",
-    "category": null,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQYmIwWUdvUnRWSkxsTGFxNUVOM2ViZjQxcXU1QUtfYVlTT1pTSmRBYmY1aUtBaW1aMGNxNHFEbWxXaFRSR2hXTXpwSkx6c2FvM0VQTXp6dzl2MTJxSThSMGhCdkVBVjV1N2FkU2gyZDB0c3hmemdFQVFhb2RTSVdIZTBLYnNSM3JjWG4xUlo5VlNUb21fX0Nma2k3MXVxc2N6dm1j?oc=5",
-    "source": "Engineering News-Record (ENR)",
-    "fetchedAt": "2026-06-16T05:00:14.802Z",
-    "mediaUrls": [],
-    "videoMatch": null,
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "trumps-latest-oil-blockade-brings",
-    "date": "2026-04-14",
-    "title": "Trump’s Latest Oil Blockade Brings Bigger Economic Risks - The New York Times",
-    "description": "Via The New York Times. Auto-detected by headline monitor.",
-    "category": "economic",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbTRBVGViY2pQRFRHRDVpYi1LYWhuSVBxT3NuSHpVZzVkYXltYnQzb3hsSmhxSk9uUElJcXV4S0dsYzdzRy1vTTg5cmhSMEtqZGUtXzliVTgwMnNfQ1NJQ3N0Z011U0JiUGJKM094ei02ODdvaTBUSUd0dEdfYThYQ19jTHdQS3JOR09MWURUTmNyMEI2cWtnTjNBV3hWalU?oc=5",
-    "source": "The New York Times",
-    "fetchedAt": "2026-06-16T06:00:11.509Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=hqyXbW7sbU8",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "hqyXbW7sbU8",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "attack-on-uaes-barakah-more",
-    "date": "2026-06-03",
-    "title": "Attack on UAE's Barakah more dangerous than Zaporizhzhia, Grossi says - Euronews",
-    "description": "Via Euronews. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdjVPS1l1WkR2dEJHb0dwVk5teUJhLVJSdXNNS0JHVUMzLWJxdmlRa1hSN3V4WTFkbGNrS2Nsa29WNjM0WVF4WGVndWV1eFpxQTgxelh2T3JzOUNnTE1kWWlES1RLMjFMWG9vbnlIZ3lhLVRaZFJVM2ktRlFNYmpwUnc0MFlFdjVELTRBd3hoNkRrclNlU3Ytel9jbjB2MThZNTJRR0lRSDY3U3Q4c1BuNnVIUkYxZ2ZoMmozb1RtUXc?oc=5",
-    "source": "Euronews",
-    "fetchedAt": "2026-06-16T06:00:13.034Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=bDOJ4ltrB4c",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "bDOJ4ltrB4c",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "tanker-hit-by-houthi-rebels",
-    "date": "2025-01-10",
-    "title": "Tanker hit by Houthi rebels that threatened a Red Sea oil spill has been salvaged - VOA - Voice of America English News",
-    "description": "Via VOA - Voice of America English News. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcktiaEFtV1pxU2FfazI2RmM2NlJKaFhfMm10U1Y0dWlva2N5Y2d4LVFMaDZTU1R4YXY2OTlxSExjeEo1MDNFbVU5OVF4M216Nl9icGFPTWwtMEttczFxQ2NFVFpJN3F2Y1d2U3lNWE1ZYU5fY0p2M2xDYWoyeWttRW1DS0hZYmZvV24za0RsNkNKR21CNk9PRF9DRGZWMkVLWWNjXzlhMTFUNU1OdS12SHE0bFlVRWgxaE9tT9IBvwFBVV95cUxPMGxLUkFkaDJ4bVJBQnhZOUJBVFNuYVZDVzY3U2h5MHdaemVwc012ZlFKWDQ4LU5Ca1JXeHM5WlFEdkt2dk1mQng3bDYwTWZlM3hWTHBuN3poMl9EZXlHaldGT3gtUjZXSVZpTTdmLUItaWRNOTU2OXRxM0c1S2xjVDZPdkJvekV1c2tWQ3dVbnJkcEF6ZTZ2TUNIMmVRMmZrYndZWUJPTmgzSHg2Z1R1VWI3dkJkN0JIWnVpLVlnQQ?oc=5",
-    "source": "VOA - Voice of America English News",
-    "fetchedAt": "2026-06-16T06:00:14.535Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=hZULSy-X9L8",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "hZULSy-X9L8",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "israel-strikes-energy-infrastructure-crucial",
     "date": "2026-03-08",
     "title": "Israel Strikes Energy Infrastructure Crucial to Iran’s Well-Being - The New York Times",
@@ -5303,6 +5178,141 @@
     ],
     "videoMatch": {
       "videoId": "Cwhdm03jW5Y",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "what-is-happening-in-the",
+    "date": "2026-04-14",
+    "title": "What is happening in the Strait of Hormuz as Chinese tanker defies blockade - The Independent",
+    "description": "Via The Independent. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPeTAwZFNBcFExUUUwNGhxZzgtZzI5aGZnYzN5dlBKVnQ2SmNPRG5BT0U4TDdSNVVOdWdoa0dhbHlyamVvSko0aC1YRUVDMm92aS10cm1aWnFLMFBrbm1xa0pvYUM3U3VKUFhCcWd1TXozRGJUR2RaYjZGblV2QXhGWGhucF9jdUZsckdBakNjcGwwQ3JfbWh6ZA?oc=5",
+    "source": "The Independent",
+    "fetchedAt": "2026-06-19T06:00:11.316Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=xLmOcsy_e8Y",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "xLmOcsy_e8Y",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-deadly-drone-strikes-on",
+    "date": "2026-06-17",
+    "title": "Iran: Deadly drone strikes on Bahrain and Saudi Arabia may constitute war crimes – new research - Amnesty International",
+    "description": "Via Amnesty International. Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxORDhsbFpKQXhkX1cwdEdwUXZoNVNIRWgtY2Joam9GRng2MTZvM3U5WEZJb3Bhd0VwNWhlamxpbWFCNVNkaDVaNUF2dFNicGQtX2ozOG03V0xnQzM5LVpfZzZmS1ptTThxYWFqblBzMHFJNTB3TE8zWVRhRnVVNnQwcmdLWFNXQ0FOWktMNndvbVJNYWJTX0NUNnpTOTJFcHUxWGtPVUFVWWdqd2hmeFBsaHhqaHhmb0hONGlUOHFQX0ZKVllJSWVTanpkRi1zdVVFV2lDYmxPZw?oc=5",
+    "source": "Amnesty International",
+    "fetchedAt": "2026-06-19T06:00:14.306Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=SsXhuc5Nu-U",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "SsXhuc5Nu-U",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "irans-war-a-pyrrhic-victory",
+    "date": "2026-06-19",
+    "title": "Iran’s War: A Pyrrhic Victory - CounterPunch.org",
+    "description": "Via CounterPunch.org. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE85U0F5ZXBOSlZwYVlOZ2dESXJDWU1sU1dsekhCc3ZGMUdOdWlQUGVPZzNoUzY1b3daa3h6VXBjTldFUG1NQXFYM293M1hEUVNiM0ZTMEp6Y1hETzd4Q3l5eGlzajlwbVc4ZnNQS0trLXl2OGRNR0lr?oc=5",
+    "source": "CounterPunch.org",
+    "fetchedAt": "2026-06-19T06:00:15.638Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=6Iq9OSlJqzg",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "6Iq9OSlJqzg",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "deadly-iran-attacks-on-saudi",
+    "date": "2026-06-18",
+    "title": "Deadly Iran attacks on Saudi, Bahrain civilian sites may be war crimes, Amnesty International says - The Jerusalem Post",
+    "description": "Via The Jerusalem Post. Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5iZkxFV3lISEhWenQ4WWMwdHZHeVRZV05VelNOSDh4TzdnY2RPaFRrQ0o0S3B5SC1xR0tOTjM5cTNxSHlaVW1Hd2RQOXpNT1haN1RCM3VzZzAtRWVEbzZtSi1kaTFlcXd0Y0E?oc=5",
+    "source": "The Jerusalem Post",
+    "fetchedAt": "2026-06-19T06:00:17.118Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=SsXhuc5Nu-U",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "SsXhuc5Nu-U",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "how-many-people-have-been",
+    "date": "2026-03-22",
+    "title": "How many people have been killed in U.S.-Israel war on Iran? - The Detroit News",
+    "description": "Via The Detroit News. Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNWHRtejNYMUtJd2RUdldfeVBKckQ5LS1GQWJkYW14QzRpOE5ZZGRBMzJjRU9naHc5azN6ajJ4YlJ5eTY4eXpWV2VCM3VWRjhBal9VR0xJMmR2akwtVnJ2TTBiMmE3OU5LamJkN0ZHa3FNMnRlb0kyX0VQeDQ3aENoTGE0dGJqTFllc3NjZzdXcXYtOUkyNmZlQnFIWUdVVEpQb3VsWmZQWGt0U1N5MUdoSjB2b1prdk5U?oc=5",
+    "source": "The Detroit News",
+    "fetchedAt": "2026-06-19T06:00:19.651Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=Mzvn-SKnXqQ",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "Mzvn-SKnXqQ",
       "title": "",
       "confidence": "auto"
     },
