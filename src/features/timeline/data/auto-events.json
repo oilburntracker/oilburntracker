@@ -12528,7 +12528,14 @@
     "description": "Via The Washington Post. Auto-detected by headline monitor.",
     "lat": 35.69,
     "lng": 51.39,
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQSDdndi1VQmlaUkkxU2VWemFNcWxtVXJqNUI5dXdOWVFGc0l0VmdJUjRueVNfYXMyY0ZiU3pzbmZRS0pOVDlzOHBob21KbGZKOUxIRlJFSE9uUUZlWXUzSGpVY0laM0tZcFk2NElzV3NQQjJLNWVtZnluTEFlQVB4Zk1xZkJfMU1DdFhkZ2R6Q0c4SndvY3pSLUVqNmFHbnYweVdWMGZjWGRUTEtHUmdNRVE2LTFybzRwRGoyZnF6TGZTaUctNGlteEhWenBFVTlS?oc=5"
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQSDdndi1VQmlaUkkxU2VWemFNcWxtVXJqNUI5dXdOWVFGc0l0VmdJUjRueVNfYXMyY0ZiU3pzbmZRS0pOVDlzOHBob21KbGZKOUxIRlJFSE9uUUZlWXUzSGpVY0laM0tZcFk2NElzV3NQQjJLNWVtZnluTEFlQVB4Zk1xZkJfMU1DdFhkZ2R6Q0c4SndvY3pSLUVqNmFHbnYweVdWMGZjWGRUTEtHUmdNRVE2LTFybzRwRGoyZnF6TGZTaUctNGlteEhWenBFVTlS?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=HOlKB405-pI",
+        "label": "Israel strikes Lebanon despite ceasefire, at least 16 killed • FRANCE 24 English | France 24"
+      }
+    ]
   },
   {
     "id": "auto-what-is-the-strait-of",
