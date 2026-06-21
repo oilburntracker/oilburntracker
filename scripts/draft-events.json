@@ -1,113 +1,5 @@
 [
   {
-    "id": "irans-war-a-pyrrhic-victory",
-    "date": "2026-06-19",
-    "title": "Iran’s War: A Pyrrhic Victory - CounterPunch.org",
-    "description": "Via CounterPunch.org. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE85U0F5ZXBOSlZwYVlOZ2dESXJDWU1sU1dsekhCc3ZGMUdOdWlQUGVPZzNoUzY1b3daa3h6VXBjTldFUG1NQXFYM293M1hEUVNiM0ZTMEp6Y1hETzd4Q3l5eGlzajlwbVc4ZnNQS0trLXl2OGRNR0lr?oc=5",
-    "source": "CounterPunch.org",
-    "fetchedAt": "2026-06-19T06:00:15.638Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=6Iq9OSlJqzg",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "6Iq9OSlJqzg",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "deadly-iran-attacks-on-saudi",
-    "date": "2026-06-18",
-    "title": "Deadly Iran attacks on Saudi, Bahrain civilian sites may be war crimes, Amnesty International says - The Jerusalem Post",
-    "description": "Via The Jerusalem Post. Auto-detected by headline monitor.",
-    "category": "humanitarian",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5iZkxFV3lISEhWenQ4WWMwdHZHeVRZV05VelNOSDh4TzdnY2RPaFRrQ0o0S3B5SC1xR0tOTjM5cTNxSHlaVW1Hd2RQOXpNT1haN1RCM3VzZzAtRWVEbzZtSi1kaTFlcXd0Y0E?oc=5",
-    "source": "The Jerusalem Post",
-    "fetchedAt": "2026-06-19T06:00:17.118Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=SsXhuc5Nu-U",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "SsXhuc5Nu-U",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "how-many-people-have-been",
-    "date": "2026-03-22",
-    "title": "How many people have been killed in U.S.-Israel war on Iran? - The Detroit News",
-    "description": "Via The Detroit News. Auto-detected by headline monitor.",
-    "category": "humanitarian",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNWHRtejNYMUtJd2RUdldfeVBKckQ5LS1GQWJkYW14QzRpOE5ZZGRBMzJjRU9naHc5azN6ajJ4YlJ5eTY4eXpWV2VCM3VWRjhBal9VR0xJMmR2akwtVnJ2TTBiMmE3OU5LamJkN0ZHa3FNMnRlb0kyX0VQeDQ3aENoTGE0dGJqTFllc3NjZzdXcXYtOUkyNmZlQnFIWUdVVEpQb3VsWmZQWGt0U1N5MUdoSjB2b1prdk5U?oc=5",
-    "source": "The Detroit News",
-    "fetchedAt": "2026-06-19T06:00:19.651Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=Mzvn-SKnXqQ",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "Mzvn-SKnXqQ",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "iran-says-trump-threats-to",
-    "date": "2026-01-01",
-    "title": "Iran says Trump threats to attack nuclear facilities undermine IAEA - The National",
-    "description": "Via The National. Auto-detected by headline monitor.",
-    "category": "nuclear",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYVdUeXpWSlNtbks3Q20tZ0tyVzNDd1pGRHJuUWtPTHhlbUJtZGhuQWR0eW5ONk96Z3g5RUFEYnA0UGxYUzB5Y0ZPLXhKRWdWOTliZExJRVV1aU82aWpUcS1ERVNDNVU1ZTBQOVVQWDhPaWRjQWhiYUtUa0VIT1loNTlnUl9PdGQ3cEVRc20zbnd4UUNqQlFsaG1UbVdJbDBHRVZpbDhia3N5bG0xRXdGYWJUZnpQZ2h0aEVOSW14UQ?oc=5",
-    "source": "The National",
-    "fetchedAt": "2026-06-19T07:00:14.802Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=BtBTLNucIs4",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "BtBTLNucIs4",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "is-there-a-way-to",
     "date": "2025-11-01",
     "title": "Is There a Way to Rebuild IAEA Safeguards in Iran? - Arms Control Association",
@@ -5137,6 +5029,249 @@
     ],
     "videoMatch": {
       "videoId": "IGTJXpa5q8I",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israel-iran-unlawful-march-attacks",
+    "date": "2026-04-22",
+    "title": "Israel, Iran: Unlawful March Attacks on Energy Infrastructure - Human Rights Watch",
+    "description": "Via Human Rights Watch. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxObl94d0JQeUlhb19qd21mLWxHbnBza09pYzlncGVmV0VHRU1iWk1ncVVqLVhreUZsZi1yc3laUWMwdXM5bzZQcGVpNVNIRHFfaHNlSFNKaHdjeTdRaGRJNGxkV0VILUtncW9LQm00VE9MMU13cE1XcEd3ZTMzanZ3Q3dGcVpkb3NvQzBQRks3aEVsWUU4ZElTMkV3aw?oc=5",
+    "source": "Human Rights Watch",
+    "fetchedAt": "2026-06-21T14:00:11.839Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=ZxNL1UdiB04",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "ZxNL1UdiB04",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-hits-back-at-multiple",
+    "date": "2026-03-19",
+    "title": "Iran Hits Back at Multiple Gulf Refineries After Israeli Strike on Its Offshore Gas Field - Military.com",
+    "description": "Via Military.com. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQVjNoMzNycnBTdkJFWE54OHZKejFBN3JvVlhMYmZsWDRsNjNEdGotTzFJQ2ptMU9zS1lzNDA1LVJLVmVEckxDdzNRWFZ4TmtWZEdLNnc0djdRRjctaC1CLTI1dWpMYzRBRGh2UlFieTY3TU9YTWFlZGMwSUkzam1pRlU0QXBVc3JQN1k0LWtON0RVdkFrSURZaHBnNkpTV29uR3BZN0dDT042TWhMcUFNNEtHcjkzOS1VNVZrUjI4ZHRkSlVGMFJfUUFoa2ViSEdu?oc=5",
+    "source": "Military.com",
+    "fetchedAt": "2026-06-21T14:00:13.438Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=1ARFZjlcOsU",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "1ARFZjlcOsU",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "us-faces-growing-concern-about",
+    "date": "2026-03-19",
+    "title": "U.S. faces growing concern about war escalating as Iran attacks oil and gas facilities - Los Angeles Times",
+    "description": "Via Los Angeles Times. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNeWhWdkdZZVdFUjdHcHR5MEdicXRmQ2h5ZzZQci12N1FZQmYxUzg5YmczUDJPeDhDTVlYaElJRTExNU1NWlBSN1FBdFJLakRGMjl4ZVc1MUtlcUV5YmRiUVFTdTU2NURaMGRzQmNQMFBPZHh1RXhHZndjTFdhRG1SenFfLWpKa3pWS2RUdHVXOHJINHVmc2tDcDVMMDc4X1V4M2dRU2tvZGt6RHhmM3FZN3J0eTBBV0pxRnZnMUVvUTRZYmtzb1hOOHR6SzlkWi16cXJ4YlQ1ejkxNFFKYWRv?oc=5",
+    "source": "Los Angeles Times",
+    "fetchedAt": "2026-06-21T14:00:15.145Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=b7zNvuX7MaQ",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "b7zNvuX7MaQ",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "watch-explosion-at-bahrains-key",
+    "date": "2026-04-05",
+    "title": "Watch: Explosion at Bahrain's key oil refinery site after Iran missile strike - The Times of India",
+    "description": "Via The Times of India. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNZl9qdWVpdElTT1hkTENzb1hxT0FyUjZxNFluNzE4bWp5c1U2MjdpbnZoYnV4ekh0bVFyREVwMnlBUVJNUDdaUTVLWjR4dTlsUTE0OFU4TWlOZGM4bW1yY3JMc0ttY3UzRXdncTByNmJwTVZiSkQta0o2QWNzeTMyQ1g0aThTTUpFaFdhVkFxeDk3eHR2NWNpaDdkZlpYaXNaZW9ONGdMV003a1lEUWFYcVdNRmxoMmtiQ0lIRmxFcWVnQWRGVS03Z2pOU0tOYTJVbTc3dWwtcE80RmpVNld6OVN2RkliVmVoUGJV0gHwAUFVX3lxTE95MUl0d3I0MjJQU3BnRXg1YjUxbnA0eFhMQy1kU0hRZDctVTR3eFJPN1hXY3RjN3RfWTVpUy1BRlhtWU9BUzZzdmlTbGJidGRVRkFTYkdyenpoRDJmMDR6VUJMNDJpeXVucDcwZXlpVlJORGhPa0ltLXR1N2xLd2VfeUJnb1BXcjUxc1pXUzVZZTEyLVVtZlNfbUhxVmFsTnBCNURVQmZoZ0FhNENvNVo1NUd4bUx6Q3lBc1VhbUdobUJqY3dsX0lUWG5mVllDSk5WV1FLMzBBNEs5QkJERVlwY1Noa2UtNnc3N0JHTk53Sg?oc=5",
+    "source": "The Times of India",
+    "fetchedAt": "2026-06-21T14:00:16.710Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=o__9hgorggQ",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "o__9hgorggQ",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "radiation-normal-after-drone-strike",
+    "date": "2026-05-17",
+    "title": "Radiation normal after drone strike near UAE nuclear plant, IAEA informed - ایران اینترنشنال",
+    "description": "Via ایران اینترنشنال. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5DSkQ4d1dta3JuQlpub2NMbE1PV0lDYU42bVA2UndVUjNseVRhS0trOEJVWGRySnBxV3M2bVdfR1pFMUppQzEzck5EZ3UzM3REaXc?oc=5",
+    "source": "ایران اینترنشنال",
+    "fetchedAt": "2026-06-21T14:00:18.277Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=-rgzYO2kLgw",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "-rgzYO2kLgw",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "suez-traffic-still-60-down",
+    "date": "2026-01-08",
+    "title": "Suez traffic still 60% down 100 days after last Houthi attack - Splash247",
+    "description": "Via Splash247. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPOUhibndRUEFpV2RnOUViZkR3SnJaWnpQb0pWNGVKTHhuTkt6dDJUWHpOZXQyZ053QjB6YXBIbUZMSjFTZXFTRFdPX2lfbHNWdHBxQXdORHRXcURKTTlRTXZ0R0MyN2h5WjFCSlV0OFpFU3hvZ1VoQXlkWG1mang5eTdWai1SZEpfTklR?oc=5",
+    "source": "Splash247",
+    "fetchedAt": "2026-06-21T14:00:25.107Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=YLOFKJ9MXIc",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "YLOFKJ9MXIc",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "chemical-tanker-off-saudi-arabia",
+    "date": "2025-09-01",
+    "title": "Chemical tanker off Saudi Arabia coast safe after Houthi missile strike - Al Arabiya English",
+    "description": "Via Al Arabiya English. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNZjFjRWp1dEVpNEhVWlJlN1JyOWxjSVdSYXRGZVJzZUNSQUZVRVE1RFU2RTZURTBvSlIzZndqV3kyWEhFYm1VN0p0X2Zqbkh1RWw4eEFZeGx1UmJoY1hmVHNwaWRXR3hBU1RCcmluSVNPM2RSNktCVHllUmFmdi1JZHV6cHk1MnAtQU5IV1NjMFRMcGN6cHUzMklDOEVZMGpuZ3NWQjVWeHhaLXBnaWJOMjUwaFNuRHhONjlmc291UUpJSnl5Nm9hVFJrVEFuYndvbkhNV9IB2gFBVV95cUxPYzlEMUM4ZE0xampKc1VHTlI3Y1FWQXRrTUlwT29ESkQzWUFGd2h0cU1oV0JUX1JNVGY4THBXaUlCYjduQng4Q1BvbXBhWnAyc003QUdMbjVCVUNJS3BYU2VvX092REgzN2EwSm5ibndvbWF6RnN2Q19Fb0ZNc0QyRzJuYXkzSGNnb2VvZjI5bEFzVkk3MGJ4MnQyS0pLa3ZtLXVQNV9idUJ2YmdYa0hLR203ZXRKS3dtOXRSV3dfOEEtYk9KUTlEQmZwWnB5TFZnalVGdDZDVjFOQQ?oc=5",
+    "source": "Al Arabiya English",
+    "fetchedAt": "2026-06-21T14:00:27.441Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=W-d_gnm9EUg",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "W-d_gnm9EUg",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "saudi-arabia-restores-major-oil",
+    "date": "2026-04-12",
+    "title": "Saudi Arabia Restores Major Oil Pipeline After Recent Attacks, Will Prices Drop? - BeInCrypto",
+    "description": "Via BeInCrypto. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBwcjQyRjhWdEhXSmVaRkg4NGdnVkVrVjlNRWlvUnVOYXF0NVB5VndIZVRBUlZHVllYSHI2UDgyMGt5T3hEdUpYcTctWEpyTFp0Tmgzc3Z2SVpDdjJpdjc5RGtuOWIza2JHX1BSTA?oc=5",
+    "source": "BeInCrypto",
+    "fetchedAt": "2026-06-21T14:00:34.203Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=ZEp5QaXe078",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "ZEp5QaXe078",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iranian-report-claims-energy-infrastructure",
+    "date": "2026-03-24",
+    "title": "Iranian report claims energy infrastructure damage in strikes - DT Next",
+    "description": "Via DT Next. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNT3FYLWJta3hDeXZFZVBHTkFXRzNEZ0dXTERJQTkxTlc4MlRERHhVZ0Qxb2RWbS1veHVWdlAzLXJGZnozY1NXd3h3anhfdVZqOWtNQVRibkJYWWVpM241QVk0NWZtaGYzb01LVVRpYkNVOTR5a2xfd0NFMjR1bEEtcUdJbEZOaXVFTzlsNGZONGwxNXN5UTRIRkZ30gGnAUFVX3lxTFBOUHV3a1VQYkN0UHZsN2hKRGNTNnV0VUhxSFZOWTBQaHdocUxwUVR4OTdVenNfLW9YS0Y1SkxDSDZOM3JRMk1fVTlTenNxZWxIV01wV2pWNXFCZlNmRFlQN2Roc1FHRUx5QjBCQkFYcEZhRVJBSzZDUGpvWmZ5RG5QSnZLTVM3Mk1PZlYzWHVaUm8xdlU0Mmswc0NpRlp6U2gxaVRpYndj?oc=5",
+    "source": "DT Next",
+    "fetchedAt": "2026-06-21T14:00:36.513Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=U4FUvHB2Xt8",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "U4FUvHB2Xt8",
       "title": "",
       "confidence": "auto"
     },
