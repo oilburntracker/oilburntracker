@@ -1,32 +1,5 @@
 [
   {
-    "id": "israels-military-says-ceasefire-is",
-    "date": "2025-10-29",
-    "title": "Israel’s military says ceasefire is back on as death toll from Gaza strikes reaches 104 - AP News",
-    "description": "Via AP News. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNbm56bFZ2NHlrNHU0UHB3WVBwVXZMNC1lcEhLbU5CYmExSzJ0VkhuNTF5YWl5Vk5SanFmdlFyOWgtaXRObFJ4MzBEMUktSVJYYlhXODdVYnIxNDVTTDRLRHVZV1MtT1pQWGtfZ3g3Mk84ZF8tNkQxSXFjUHBXUlViT3pLWVRIcUJ2anJwLTBsQWNLNVZkekFKM0hkUFcxN2tObUE?oc=5",
-    "source": "AP News",
-    "fetchedAt": "2026-06-19T08:00:29.407Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=eOCN3FKEZCs",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "eOCN3FKEZCs",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "as-israel-turns-its-focus",
     "date": "2025-06-17",
     "title": "As Israel turns its focus to Iran, the death toll mounts in Gaza — and hunger deepens - NPR",
@@ -5329,6 +5302,23 @@
       "title": "",
       "confidence": "auto"
     },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "gaza-death-toll-rises-to",
+    "date": "2026-05-31",
+    "title": "Gaza death toll rises to 72,939 as Al-Aqsa Martyrs Hospital operating room shuts down - WAFA Agency",
+    "description": "Via WAFA Agency. Auto-detected by headline monitor.",
+    "category": "humanitarian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9Wc3hHT1pjQ1FOZ083ZFloSndaS2tmdy1tTTlyWDRvVVBjUThwSWJNUnQxOWxjZWxmMDh6bko1M3B1MXc1YmpkOC1OQ0x5dlBMaHk1YU90aw?oc=5",
+    "source": "WAFA Agency",
+    "fetchedAt": "2026-06-21T17:00:12.675Z",
+    "mediaUrls": [],
+    "videoMatch": null,
     "lat": null,
     "lng": null,
     "zoom": null,
