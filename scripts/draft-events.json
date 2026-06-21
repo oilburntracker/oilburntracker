@@ -1,59 +1,5 @@
 [
   {
-    "id": "as-israel-turns-its-focus",
-    "date": "2025-06-17",
-    "title": "As Israel turns its focus to Iran, the death toll mounts in Gaza — and hunger deepens - NPR",
-    "description": "Via NPR. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1zakdfSUFHMHV5amExbmI4UDVHS2V5dEtDYlBGTXRkSHRibHE1SlR2UkhHSHRTQVVfYjV1WEtfUGMxQ2ZVM3pzSks4c2JVdUxGemFiVm5tQ3pOS09FN2pLdU4zc0dfcUZtUUxrdHE0bTlrWVRGWXZac1IyY3o?oc=5",
-    "source": "NPR",
-    "fetchedAt": "2026-06-19T08:00:31.601Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=vWaoon6lZM0",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "vWaoon6lZM0",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "yemens-houthi-rebels-attack-another",
-    "date": "2025-07-09",
-    "title": "Yemen’s Houthi rebels attack another ship in the Red Sea, killing 3 - The Hindu",
-    "description": "Via The Hindu. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOLVNuaE5MSHdRNHItUWNMUHkwTjBTNUhoamhVeW1ER2FLdzJqcEJnN3BUQnZqTU15ejNTM1FNcXJUWU5GUUtvNlRSczNlT2VSX0FGU3VZal9PYkFKejhFc0hkNmVEeTJnaTJlT3dXdS16aDRQS0g5R3NRekRSckJibWRxdXdkNGZLQlhEV1VaNE51bDJjbzd6SnlDbjRYN1JNb0hDYU1TTUQzMWNWQUl5NjdhOFc3WTh4SkRFMnhxYmZIVE1kNnBTS9IBzwFBVV95cUxOMTIwU0NBWjdVbEh3TE8xRE1XYXY3Q2dQWTVuN0E3NTVwN3RYdW9malQ4LVF0MkpxcFRjNjBiUDc3RVM3cDhib1pIRGtJWU4wSzVTZVhROVIwcGRpajNrSTVzakpzcmJFRUhmeDUwSVV1cHhjSEg0a2VsOUlsZkxrSGtCSE1rcFB1bTRIOW9mbE5JcWRmd045UzcxcHpNQTVPdEFKN24yZmU1WW9LVFEtWC1CcDJqOC1ZdU5jVHV3LUpCaUpMa2RkbVFpck1IRGs?oc=5",
-    "source": "The Hindu",
-    "fetchedAt": "2026-06-19T08:00:35.905Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=p2u6JZrr08I",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "p2u6JZrr08I",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "iran-war-sends-lng-prices",
     "date": "2026-03-26",
     "title": "Iran War Sends LNG Prices Soaring, Curbing Asia Demand - Marine News Magazine",
@@ -5319,6 +5265,87 @@
     "fetchedAt": "2026-06-21T17:00:12.675Z",
     "mediaUrls": [],
     "videoMatch": null,
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "iran-iaea-is-politicizing-oversight",
+    "date": "2026-06-06",
+    "title": "Iran: IAEA is Politicizing Oversight of Tehran's Nuclear Program - Asharq Al-Awsat English",
+    "description": "Via Asharq Al-Awsat English. Auto-detected by headline monitor.",
+    "category": "nuclear",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxPYzZkeXVTZTBTQ09rUnh0cTRrX21MZmVmWTU0UVVhenJhQmRBWEF1eElBUUp2N2VFRjc2c1RwV1k0YTVqMGVyV1oxcVN2UG4wVzFOS21QRjEtRFhtb2NSc0J5OTBpaVp4eTFUWVB3Q3BNWUVmdUlaempqeUdxZXBVMWtSVUUzaVp5dUtISDJBUGJoVjJOVlJKNHRNcTNuZw?oc=5",
+    "source": "Asharq Al-Awsat English",
+    "fetchedAt": "2026-06-21T18:00:12.231Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=DnmYu3Sf4Wc",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "DnmYu3Sf4Wc",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "vance-touts-recordbreaking-oil-flow",
+    "date": "2026-06-20",
+    "title": "Vance touts ‘record-breaking’ oil flow in Strait of Hormuz as Iran announces closure - The Hill",
+    "description": "Via The Hill. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOd1ZncGViNEt4dHN6eGlfZDk4eEUzUzFVRmFZNWlqQUFOcTVxbVRMV3pZTWxUVmd4REN2Q1d3LV9hMndNYUdmZ19WYXc5cUM5c0w2QV9sYW5sQzZrcTVBZlE3eTJQUG1JOFZCdGNTaGh2cjdFZmhLemp0clloYjJ3S3BlX1pGdjhP0gGOAUFVX3lxTFBGVDFsb2R3UDZzeG8yb2ZtcFJFTXpJcFY1eFBhY3hITEdtckxNM0dCWll3Nl85LWcyUWxHYVZuV1hHcjFRd1VsN3NaRGR3eUV1d3k5dGRDU3llMTdxTEMzMTFwdDQ0ZzBnNnZSSTVIZE9icVhaTFlYNlRlZWk0THA1cEFsTExtaUs3a3lpTnc?oc=5",
+    "source": "The Hill",
+    "fetchedAt": "2026-06-21T18:00:15.081Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=fP2PECiUsJE",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "fP2PECiUsJE",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "hormuz-reopens-but-obstacles-remain",
+    "date": "2026-06-19",
+    "title": "Hormuz reopens, but obstacles remain as oil markets seek path to normalcy - World Oil",
+    "description": "Via World Oil. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNSDU3MVA0Yzhuc1Y4dWw0cW5DUXVvdHk0T3h3S0pRaUdQTVRKbjFMZFFabFZrUnJZOGgxb1ZSbm5scm1TMC13S0tkNkJMTllNVVpSVjgwR01nSmhnQ3RtRUJqOGRaZWRub2FsaDNHUjhxb2cyWmVKOHFOVi11VDFTQ3REN0RWRklESkFLRHVtZnAwMkRXX3VNQlA3c0p5aVBfTjM5bElnLUJLQzZDLWc?oc=5",
+    "source": "World Oil",
+    "fetchedAt": "2026-06-21T18:00:16.652Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=fyujTMVYon8",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "fyujTMVYon8",
+      "title": "",
+      "confidence": "auto"
+    },
     "lat": null,
     "lng": null,
     "zoom": null,
