@@ -18036,5 +18036,22 @@
         "label": ""
       }
     ]
+  },
+  {
+    "id": "auto-us-military-says-yemens-houthis",
+    "date": "2024-09-02",
+    "title": "U.S. military says Yemen's Houthis attacked two crude oil tankers in Red Sea",
+    "category": "facility_damage",
+    "description": "Via CNBC. Auto-detected by headline monitor.",
+    "lat": 15.37,
+    "lng": 44.19,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPbzJNdWxMN1dma2w5QjJ4dWJQLWU1QjJsVHdWeHFXSUZBTjBWQ08xXzNqVWpXRnlDbVJvWGRlTVZuUU1xS2dIS09kZzl6X3UxYjU5NzdfNk1yVmRCR2lBdkRNOGZKazlCVGVrQjZReGdkRVpBMWtYcVNZRWlaMWNnTnhhTDItOVVjcTM5NUdLbGJlc3NBX3dYS3BUR202YkRmTUxTRlJtR2VEdjJBazQw0gG0AUFVX3lxTE1YUl9Nd1gwWm12SXZaS28yQ1BXQy01eWlEb2t1dlBkWHNkNzJaMG9xRzZTaGRGZ0ZucDRWVnNtMkVuWkVJSTJoTldFcDdHWi1WSHJUM0VhMUdtTUdLYzZsQlRoX0hXbGduNXZhM1kzbGtRQkZzT2lqcmlYY2d5Ukw5Z2JBLWlsRUQ5R2Y4MHNDcnktMVJGb1RYMUFIU1UwUThaSnJqNWczNHpnQ2JYZnBXdHFudQ?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=0FiZMXLFbhs",
+        "label": ""
+      }
+    ]
   }
 ]
