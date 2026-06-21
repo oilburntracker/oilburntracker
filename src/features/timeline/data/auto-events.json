@@ -17985,5 +17985,22 @@
         "label": ""
       }
     ]
+  },
+  {
+    "id": "auto-more-than-1-billion-barrels",
+    "date": "2026-06-19",
+    "title": "More than 1 billion barrels of oil have gone missing",
+    "category": "facility_damage",
+    "description": "Via CNN. Auto-detected by headline monitor.",
+    "lat": 30,
+    "lng": 48,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9qeFNqUmZiT2xlR21CZFRMbXF5Wm1vRVR1ZFNOOHhrcUhva2RJSkJ6aW1OcHExaEJ5Xy1qZDRSamRNMjNiQ0tYVDAwQW9GZ0hQVENyeFJqdWVTWlpjRHEwV09ZcGw3VDVkWFRVRFZWTDhER3RTZWVJ?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=qta7mguDuxE",
+        "label": ""
+      }
+    ]
   }
 ]
