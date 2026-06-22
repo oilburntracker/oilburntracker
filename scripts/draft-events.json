@@ -1,167 +1,5 @@
 [
   {
-    "id": "israeli-airstrikes-in-beirut-intensify",
-    "date": "2026-03-18",
-    "title": "Israeli airstrikes in Beirut intensify, demolishing a 10-storey building and striking bridges - CBC",
-    "description": "Via CBC. Auto-detected by headline monitor.",
-    "category": "military_strike",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9pU0J3aEExM2xpUWVpY2dYRXlSN1JNM2g5OWdUQndGV1BlNDYtWHItUnlnbHNkS0FaQmpmN0I3cXBRSlZzQ1QwRGQ2OFFFTkp0b2RrdllPTDRxV1Q1cHZ4NXBocTY4UW4zdW1Fc0ozbm93Y09PY2R6Xw?oc=5",
-    "source": "CBC",
-    "fetchedAt": "2026-06-19T10:00:27.232Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=D3sIO700Y3c",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "D3sIO700Y3c",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "lebanons-mounting-death-toll-reuters",
-    "date": "2026-03-20",
-    "title": "Lebanon's mounting death toll - Reuters",
-    "description": "Via Reuters. Auto-detected by headline monitor.",
-    "category": "diplomacy",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB1UVlEeUtyOG83cnZsTGtodTlYS3NlTlBlejdtTHhINnhHY3RwRDVlZWhPT05hdFdXVVlORU92S19SY1UxNXZfMnhWM0Y2cENQSjVvdHFTQUc4NWlkekI2N3ZsWXJjWk9mQlJwOVZiYjJmaklVOTAyRlR3?oc=5",
-    "source": "Reuters",
-    "fetchedAt": "2026-06-19T11:00:11.174Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=Zd3CONNgwak",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "Zd3CONNgwak",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "beyond-oil-9-commodities-impacted",
-    "date": "2026-04-01",
-    "title": "Beyond oil: 9 commodities impacted by the Strait of Hormuz crisis - The World Economic Forum",
-    "description": "Via The World Economic Forum. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcU51SVRBaUh5anFVNkh6QTQtblFvbnpuM2Z1T3lReVE5dWpRY014VXhTZmdVODlDUEV6ODVLVzR4N200elpxREJjN0pWSlE4U09tQVRVQmdrVmcwSXdKbUQxMDktcW9xVDZCX2hBclU2b1RIRlhZX19QZDBTV0toeWhNbndYQ1h6R1FHeGJwc3U4REVMMnR6R1p1OGd2X2M?oc=5",
-    "source": "The World Economic Forum",
-    "fetchedAt": "2026-06-19T11:00:12.716Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=_B65pKkkLSc",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "_B65pKkkLSc",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "hormuz-stays-blocked-for-now",
-    "date": "2026-04-08",
-    "title": "Hormuz Stays Blocked for Now as Hundreds of Ships Seek Exit - Bloomberg.com",
-    "description": "Via Bloomberg.com. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORkthdlZFcUx5QUtwX3pOYlZ3TW5tdUd0N0tIdGo2VElsVk9PQ1JGSTFMZlBVdVUtZFdWc3ZIU292Vl9CMUlRbUxZN3I2b2tXNjlaa1pMeUw5STZ6NjZHZmRKYTVlcVBFYmxzeldQVnkzQXA2RFY5Qy1JLThId3diVXA1eWRYWWoweWpBRTRsV1U3bEpaOUV4NWkyMXZUcnJ3WHRsNGNZUHYxMnhSRGdQeUZn?oc=5",
-    "source": "Bloomberg.com",
-    "fetchedAt": "2026-06-19T12:00:11.256Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=bs5dD56-drM",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "bs5dD56-drM",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "second-cargo-ship-sinks-in",
-    "date": "2025-07-10",
-    "title": "Second cargo ship sinks in Red Sea after Houthi rebel attack with bomb-armed drone boats - Fortune",
-    "description": "Via Fortune. Auto-detected by headline monitor.",
-    "category": "shipping",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOT3BWcU91ODR2QWg3aTVGbmVnWmo3QXZTcjBjRkpySk9nVEdMQ0N5RW1leGZheHh5UG1FbUdXN3U4OTJrcmRvTThMdWxOUDlaNlY3UVp4d2lOMnZRM19HWWNIVnFPTWktQmljZlhlWnI5VDVabFhCeVN0dW1ZNGFUY0E0SlczZUJLenFYdmZJYXBOYS1rSUR5dlVhTU9tZTNvSFE?oc=5",
-    "source": "Fortune",
-    "fetchedAt": "2026-06-19T12:00:12.823Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=p2u6JZrr08I",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "p2u6JZrr08I",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
-    "id": "usiran-war-in-numbers-thousands",
-    "date": "2026-04-09",
-    "title": "US-Iran war in numbers: Thousands killed and billions spent as fragile ceasefire takes effect - The Independent",
-    "description": "Via The Independent. Auto-detected by headline monitor.",
-    "category": "humanitarian",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQSjl3RlJsckdha2RIUVlZZ0dUOURGUUZkM0JTcTFzbmdBbVM0Z3RWaXdvUFk2cDJuNjIxemE0Smw4TW1oaHh4cHM2enhqWHNHWWNMZkpoM25kVWRGaHBFelJjZnJjOWpKWjZfLTFVZHQ0RWNBODFaYVdJRklCUG4tZWhnQktoVlE4Vkoxd25MbER4bkQyQndpVWpELU0?oc=5",
-    "source": "The Independent",
-    "fetchedAt": "2026-06-19T13:00:11.044Z",
-    "mediaUrls": [
-      {
-        "type": "youtube",
-        "url": "https://www.youtube.com/watch?v=qkPZjO2HiEI",
-        "label": ""
-      }
-    ],
-    "videoMatch": {
-      "videoId": "qkPZjO2HiEI",
-      "title": "",
-      "confidence": "auto"
-    },
-    "lat": null,
-    "lng": null,
-    "zoom": null,
-    "casualties": null,
-    "status": "draft"
-  },
-  {
     "id": "us-israel-iran-war-escalates",
     "date": "2026-03-13",
     "title": "US Israel Iran War Escalates As Death Toll Rises - Evrim Ağacı",
@@ -5343,6 +5181,168 @@
     ],
     "videoMatch": {
       "videoId": "udI7KPxXKww",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "bazan-oil-refinery-damaged-in",
+    "date": "2026-03-19",
+    "title": "Bazan oil refinery damaged in Iranian missile barrage - The Jerusalem Post",
+    "description": "Via The Jerusalem Post. Auto-detected by headline monitor.",
+    "category": "infrastructure",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBJaHpENDNMdWVONnNGeDNlYlFpY2IxbWtmMXVmeld5a2RrVGtOMGh5NVlxamdkZ0FyMnFuUlVmdkFPRDMzbWlpNXphdmRjUkYwZTFSVVU2VjhGbDNZQzlDdGxqTG9tR3I0dWIxYTBR?oc=5",
+    "source": "The Jerusalem Post",
+    "fetchedAt": "2026-06-22T00:00:10.920Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=MNe-s8nMEVI",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "MNe-s8nMEVI",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "video-and-satellite-photos-show",
+    "date": "2026-05-19",
+    "title": "Video and satellite photos show Iran war oil spill on Persian Gulf island - KVUE",
+    "description": "Via KVUE. Auto-detected by headline monitor.",
+    "category": null,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMigAJBVV95cUxObzZvc2JpMy1EdzIwYlVoZ0JjVEpINmc1MnhIbnVhLVVsT0VnYl9VTVVtR1B0aHlPay1QcFlaLU9jVWRSXy1jMkUtZEc4dHhTNzl1MFpkWXdnZFAzLUdBSEhTRjMxMExLaHo0NzQxMnRmbHcybE1FRjdGbGdScVZkR2Faak9ZY1d0T0xEeWlMTlo4amg3MU1TSGdiQjZFdzhDWDJuYmNOMVpNcHBJbjJ6LTNjdkE0czR1c3JfcGk0aGZJRzJJdGRqaU5Td0laSWNKTEgzUEN5LS1CWDdaVDF3LXZjQk9DVE9BQTMyamFIbTBXRjgxTXdKQi1EU2hzVkVQ?oc=5",
+    "source": "KVUE",
+    "fetchedAt": "2026-06-22T00:00:12.569Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=JRnoi3repjo",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "JRnoi3repjo",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "chinese-tanker-goes-through-strait",
+    "date": "2026-04-14",
+    "title": "Chinese tanker goes through Strait of Hormuz, defying Trump - National News Desk",
+    "description": "Via National News Desk. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNalhQdEphVlZCMlN2U1gwVmg1UzRrT19yOUIzTmtQUW5VQ1hkVEhxTUx3NUhwRW5WZXZFMTdEeVR5UDhuUUVUbXowOU1TdDdHUXlXMldySkd2dDNDNzhXUHkzRFVFUHplcVZUdUJJaDA2aEV5ZTE4d2F6X1RWYXkzS25aeG14WlNNQjdmc0VTdnR0R0Q3OC15MDkzTDNhSU9SSU5hNWlRem9nX0t0SVoyV3NmUFh2Y1o3TTZseDVjWDhZaG5Ec0d0SFdRRXk2SXc?oc=5",
+    "source": "National News Desk",
+    "fetchedAt": "2026-06-22T00:00:15.783Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=BpHhN0vqP0k",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "BpHhN0vqP0k",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "houthis-declare-suspension-of-red",
+    "date": "2025-11-11",
+    "title": "Houthis Declare Suspension of Red Sea Attacks, But Maritime Threat Remains - gCaptain",
+    "description": "Via gCaptain. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSVVKejdudnIyYk9JMDRicDBEOGlSb3RwNHM2blNQQWxHV2tWb3p1YnFtTzFsQlI3Wkk2ZVZNZzNFWjIzcU44UFkxVVdEOWVQN3hkR1lqTDZjTl9RajhKMlo3UUtYVGZIdWJjZGIxUld0cXZ5b1lmckp0aHRET0Z0S0hFNDFlMmVmMEI5dy1WSHcwRURZUDJKdGNJbw?oc=5",
+    "source": "gCaptain",
+    "fetchedAt": "2026-06-22T00:00:17.227Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=YmUuo-Xf6gU",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "YmUuo-Xf6gU",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "death-toll-from-israeli-attacks",
+    "date": "2026-03-16",
+    "title": "Death toll from Israeli attacks in Lebanon rises to 886 - Middle East Monitor",
+    "description": "Via Middle East Monitor. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOazU3QmN6RnJUSENONF9nWXREQ1E0d09xX042UVVJZE1YUjBpVXk3RjlfZ2luU0tsUVN1ay1QMWw4d2ZMVVA0ZDQtLXlIdUppVGtTYXVsdmtiamlQZmhJa1QzT3NuUmZFMDVaUzVSdWY1TkhZNnhjNm1Db24wSUxsZXVXTjY5clRLVUFCTk0xRFBVZzNkY2lLRHpMRHZhM2hh?oc=5",
+    "source": "Middle East Monitor",
+    "fetchedAt": "2026-06-22T00:00:19.873Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=ZG38YcncE94",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "ZG38YcncE94",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "operation-epic-fury-emerging-environmental",
+    "date": "2026-03-10",
+    "title": "Operation Epic Fury: emerging environmental harm and risks in Iran and the region - The Conflict and Environment Observatory",
+    "description": "Via The Conflict and Environment Observatory. Auto-detected by headline monitor.",
+    "category": "environmental",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZGI3TG1OWTJodGk1R2lZZXZqMFNNVW1qeDhxSkNybkl1dm44SkZYU3NTSVF2TTFDWHlpSm9RVHNBQUo5N3FXaWlCUXNCVDZfb0gyUUUzMUUwRlFmTTlFSEd3cnMyWmFMYXcta3JFRXlpVmNBeXFDNGJlaXF6bEVtNVpUM1JGZU9ELUxHV2F0QVFEODVuV1NfT2J5M0xQVFJy?oc=5",
+    "source": "The Conflict and Environment Observatory",
+    "fetchedAt": "2026-06-22T00:00:22.601Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=ejVDGiygEPc",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "ejVDGiygEPc",
       "title": "",
       "confidence": "auto"
     },
