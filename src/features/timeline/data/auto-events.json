@@ -18152,5 +18152,39 @@
         "label": ""
       }
     ]
+  },
+  {
+    "id": "auto-iran-agrees-to-un-nuclear",
+    "date": "2026-06-22",
+    "title": "Iran agrees to UN nuclear inspectors’ return as part of agreement with US",
+    "category": "facility_damage",
+    "description": "Via The Guardian. Auto-detected by headline monitor.",
+    "lat": 35.69,
+    "lng": 51.39,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQajlvaXFWNHhOd3JrNnYxTVFzRTFGNmUxbDFIYWszNW1GM0hOaEtTdFdwV2h1YXA0UXFyaHR5UHM2Mml5Vk1FbnR5RnhfdktnYmlyV2lGZDBqLU1qeHhzS2FiSzNBRTdhcVZKQzRmRUh3RFkzaHNjUnd3T1R2U3JhZ3pJQ25rcWItNFNJbzh3VmtoU1pjbE5SMDlpa1VyT00?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=mmEBaO1L6qM",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "auto-iran-says-wont-allow-un",
+    "date": "2026-06-23",
+    "title": "Iran says won't allow UN inspectors at bombed nuclear sites",
+    "category": "facility_damage",
+    "description": "Via France 24. Auto-detected by headline monitor.",
+    "lat": 35.69,
+    "lng": 51.39,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSGJNV092bFliZ0hnQ09lcE1pb3pZZllhc1djS2hIbW5UaXUtWDkydnFGRlRGY0hRWmFNWVVaUXpoRVV2MGdKUnVzZUZrSUVnelAzRUpSQjlEZFVUWi1BVXBxSTBCX3ItMTg5UXVfUzFoZEZtVXotNHlOQjlOUmtDYUFvOVJBU2VQQURrM1RIQ2FiQjZyODMtNlpuRHBLWVp0WjQ0akxxRFE4dw?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=SJNFBBIg2tk",
+        "label": ""
+      }
+    ]
   }
 ]
