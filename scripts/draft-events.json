@@ -5270,5 +5270,86 @@
     "zoom": null,
     "casualties": null,
     "status": "draft"
+  },
+  {
+    "id": "first-red-sea-attack-on",
+    "date": "2025-07-06",
+    "title": "First Red Sea Attack On Commercial Shipping Since December Launched By Houthis (Updated) - TWZ",
+    "description": "Via TWZ. Auto-detected by headline monitor.",
+    "category": "shipping",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPMmlheWZiUGJxQWFyenJmdzdiTUFyb1RJMHVkMDlZdW05RVBLVWMweU9KZTEtaGhaVldUMm5uRXQtY2pndHBqWUhveWNqQjVmOXprNUxYOWhSYlFQV2luRGpNOWNSaEdNRHhVN0lFWU1TR0o0N0l1X2hTdVBjT24yTjFULS0zTWdYOVBpN1lYV3JpN0RXWnl2cHltazk?oc=5",
+    "source": "TWZ",
+    "fetchedAt": "2026-06-23T01:00:13.504Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=-d4VImGjBXQ",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "-d4VImGjBXQ",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "the-gulfs-saltwater-kingdoms-rely",
+    "date": "2026-03-08",
+    "title": "The Gulf's 'saltwater kingdoms' rely so much on desalination that damage could force evacuations - Fortune",
+    "description": "Via Fortune. Auto-detected by headline monitor.",
+    "category": "diplomacy",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUzZRd1JqWlg2RlNYb1F2MlptUTVJSVFtbXlDSFhzeDFaaVA2WV9Nb0VSNGFDVlZ6Z1JsdE9HeFVnSHE3ZnpSWUZQVGdFdUZXcGQzS2lsQWQybm5DekVzMWp3T0ZScmJIZDBpTTRreVpBcFZ6MktydEhRM3hFZVo1bHNGRTgzQzR3a1l6SzR5OTVlX2d5MEExdU5GaG1vM2tFeTVYTS0ySWZROUhNbTRud1BqcXF2SkF5VTQ3dg?oc=5",
+    "source": "Fortune",
+    "fetchedAt": "2026-06-23T02:00:11.743Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=UuGrBhK2c7U",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "UuGrBhK2c7U",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
+  },
+  {
+    "id": "israeli-airstrikes-kill-dozens-in",
+    "date": "2025-05-14",
+    "title": "Israeli Airstrikes Kill Dozens in Northern Gaza Overnight, Health Officials Say (Published 2025) - The New York Times",
+    "description": "Via The New York Times. Auto-detected by headline monitor.",
+    "category": "military_strike",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOaXk0T0x0TF9mRnVCZDVMTlhlUVpGd2V4ZmJjN0lVWU80VEh2bEd6STBiVVA1TU9RQWUyaWFLb2J2MWdzdHlaS0E1ZGd3RkZmOWQyNC1jdUlHaWV1SDFoNDVjMXNyY0dJNEpILTdjRUNkUEw0ejR4ZXV6Z0R2dS1kWndMRQ?oc=5",
+    "source": "The New York Times",
+    "fetchedAt": "2026-06-23T05:00:11.350Z",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=QhQMEGZGlgY",
+        "label": ""
+      }
+    ],
+    "videoMatch": {
+      "videoId": "QhQMEGZGlgY",
+      "title": "",
+      "confidence": "auto"
+    },
+    "lat": null,
+    "lng": null,
+    "zoom": null,
+    "casualties": null,
+    "status": "draft"
   }
 ]
