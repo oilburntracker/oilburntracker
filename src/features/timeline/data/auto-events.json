@@ -18186,5 +18186,39 @@
         "label": ""
       }
     ]
+  },
+  {
+    "id": "auto-iran-shipped-30-million-barrels",
+    "date": "2026-06-22",
+    "title": "Iran Shipped 30 Million Barrels of Oil in Week Before US Waiver",
+    "category": "facility_damage",
+    "description": "Via Bloomberg. Auto-detected by headline monitor.",
+    "lat": 35.69,
+    "lng": 51.39,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSXFsMHQ4Z3d4RG1vR01BdkxNZU8zNW1ONUsydzUteTdsc29xNjAwN3g4aGVudjVvRmJGVkMtWjhnM25McmZsVVl6R1lla191SkJReWxBT1lad2stMXB4QmhHLUppUEIyTHY2N181VXhKM3g3UmZSLXhydUVBVmJSaHBNQW95c3BwcXFYcTJ6d0dCVTVwc3NIN1d5Q3lzRHpFWExhWWFrMUtGS2x2NHRSNkV4ai0?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=oH_qs7vkk6U",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "auto-us-military-says-yemens-houthis",
+    "date": "2024-09-03",
+    "title": "US military says Yemen's Houthis attacked two crude oil tankers in Red Sea",
+    "category": "facility_damage",
+    "description": "Via Reuters. Auto-detected by headline monitor.",
+    "lat": 15.37,
+    "lng": 44.19,
+    "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQRXZEYlAzMXRuTVVRd3gxcnpIRDkxZG5HakV0M2ZQU1Y4NXRnNF9GZWJldmxZdGlNMk9qR2hlWHhmOURZUTFoZFd6ell3ZVBvWG9rRmVtenFyc29SajlmNE15bXZRd2dCdVFJSEtSYmFrdEFURXdKaDVTWEVPVmNjSE1XRVM0YzRHRW14R3R0SWI0VURKRFYwNTNUYlRrYUdya2o4NGNQaUxkdlVZQmRMaw?oc=5",
+    "mediaUrls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=0FiZMXLFbhs",
+        "label": ""
+      }
+    ]
   }
 ]
